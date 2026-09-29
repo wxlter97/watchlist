@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router";
+import { FollowButton } from "../../components/FollowButton";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
@@ -34,6 +35,9 @@ export function FranchisePage() {
         </Link>
         <h1 className="display mt-6 text-[49px]">{loc(franchise.name)}</h1>
         <p className="mt-3 max-w-[58ch] text-[15px] leading-[1.55]">{loc(franchise.description)}</p>
+        <div className="mt-5">
+          <FollowButton franchiseId={franchise.id} />
+        </div>
       </header>
 
       <section className="mt-6 border-2 border-line bg-surface p-4" aria-label={t("franchise.progress")}>

@@ -1,0 +1,473 @@
+{
+  "id": "wizarding-world",
+  "name": "Wizarding World",
+  "description": {
+    "es": "Harry Potter, Animales Fantásticos y la nueva serie de HBO.",
+    "en": "Harry Potter, Fantastic Beasts and the new HBO series."
+  },
+  "accentColor": "#7B2CBF",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las ocho de Harry Potter y las tres de Animales Fantásticos, un mismo universo.",
+        "en": "The eight Harry Potter and three Fantastic Beasts films, one universe."
+      }
+    },
+    {
+      "id": "hbo-series",
+      "name": {
+        "es": "Serie de HBO",
+        "en": "HBO series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Nueva adaptación de los libros, una temporada por libro.",
+        "en": "A new adaptation of the books, one season per book."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "harry-potter-and-the-philosophers-stone-2001",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1991–1992",
+        "en": "1991–1992"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "hogwarts"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-chamber-of-secrets-2002",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "1992–1993",
+        "en": "1992–1993"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "hogwarts"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-prisoner-of-azkaban-2004",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "1993–1994",
+        "en": "1993–1994"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore"
+      ],
+      "teams": [
+        "hogwarts"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-goblet-of-fire-2005",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "1994–1995",
+        "en": "1994–1995"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "hogwarts",
+        "death-eaters"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-order-of-the-phoenix-2007",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "1995–1996",
+        "en": "1995–1996"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "hogwarts",
+        "order-of-the-phoenix",
+        "death-eaters"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-half-blood-prince-2009",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "1996–1997",
+        "en": "1996–1997"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "hogwarts",
+        "death-eaters"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-deathly-hallows-part-1-2010",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "1997–1998",
+        "en": "1997–1998"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "order-of-the-phoenix",
+        "death-eaters"
+      ]
+    },
+    {
+      "titleId": "harry-potter-and-the-deathly-hallows-part-2-2011",
+      "continuityId": "films",
+      "group": "harry-potter",
+      "importance": "essential",
+      "chronoOrder": 110,
+      "chronoNote": {
+        "es": "1998; epílogo 2017",
+        "en": "1998; epilogue 2017"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore",
+        "lord-voldemort"
+      ],
+      "teams": [
+        "hogwarts",
+        "order-of-the-phoenix",
+        "death-eaters"
+      ]
+    },
+    {
+      "titleId": "fantastic-beasts-and-where-to-find-them-2016",
+      "continuityId": "films",
+      "group": "fantastic-beasts",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1926",
+        "en": "1926"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "newt-scamander",
+        "gellert-grindelwald"
+      ]
+    },
+    {
+      "titleId": "fantastic-beasts-the-crimes-of-grindelwald-2018",
+      "continuityId": "films",
+      "group": "fantastic-beasts",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1927",
+        "en": "1927"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "newt-scamander",
+        "albus-dumbledore",
+        "gellert-grindelwald"
+      ],
+      "teams": [
+        "hogwarts"
+      ]
+    },
+    {
+      "titleId": "fantastic-beasts-the-secrets-of-dumbledore-2022",
+      "continuityId": "films",
+      "group": "fantastic-beasts",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1932",
+        "en": "1932"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "newt-scamander",
+        "albus-dumbledore",
+        "gellert-grindelwald"
+      ],
+      "teams": [
+        "hogwarts"
+      ]
+    },
+    {
+      "titleId": "harry-potter-hbo-2026",
+      "continuityId": "hbo-series",
+      "group": "hbo",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "harry-potter",
+        "hermione-granger",
+        "ron-weasley",
+        "albus-dumbledore"
+      ],
+      "teams": [
+        "hogwarts"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "sagas",
+      "type": "grouped",
+      "name": {
+        "es": "Por saga",
+        "en": "By saga"
+      },
+      "description": {
+        "es": "Harry Potter primero, luego Animales Fantásticos.",
+        "en": "Harry Potter first, then Fantastic Beasts."
+      },
+      "groupLabels": {
+        "harry-potter": {
+          "es": "Harry Potter",
+          "en": "Harry Potter"
+        },
+        "fantastic-beasts": {
+          "es": "Animales Fantásticos",
+          "en": "Fantastic Beasts"
+        },
+        "hbo": {
+          "es": "Serie de HBO",
+          "en": "HBO series"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "dumbledore-and-grindelwald",
+      "name": {
+        "es": "Dumbledore y Grindelwald",
+        "en": "Dumbledore and Grindelwald"
+      },
+      "description": {
+        "es": "La historia que Harry descubre tarde, completa.",
+        "en": "The story Harry learns too late, in full."
+      },
+      "kind": "theme",
+      "titleIds": [
+        "fantastic-beasts-and-where-to-find-them-2016",
+        "fantastic-beasts-the-crimes-of-grindelwald-2018",
+        "fantastic-beasts-the-secrets-of-dumbledore-2022",
+        "harry-potter-and-the-half-blood-prince-2009",
+        "harry-potter-and-the-deathly-hallows-part-1-2010",
+        "harry-potter-and-the-deathly-hallows-part-2-2011"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "harry-potter",
+        "name": {
+          "es": "Harry Potter",
+          "en": "Harry Potter"
+        }
+      },
+      {
+        "id": "hermione-granger",
+        "name": {
+          "es": "Hermione Granger",
+          "en": "Hermione Granger"
+        }
+      },
+      {
+        "id": "ron-weasley",
+        "name": {
+          "es": "Ron Weasley",
+          "en": "Ron Weasley"
+        }
+      },
+      {
+        "id": "albus-dumbledore",
+        "name": {
+          "es": "Albus Dumbledore",
+          "en": "Albus Dumbledore"
+        }
+      },
+      {
+        "id": "lord-voldemort",
+        "name": {
+          "es": "Lord Voldemort",
+          "en": "Lord Voldemort"
+        }
+      },
+      {
+        "id": "newt-scamander",
+        "name": {
+          "es": "Newt Scamander",
+          "en": "Newt Scamander"
+        }
+      },
+      {
+        "id": "gellert-grindelwald",
+        "name": {
+          "es": "Gellert Grindelwald",
+          "en": "Gellert Grindelwald"
+        }
+      }
+    ],
+    "teams": [
+      {
+        "id": "hogwarts",
+        "name": {
+          "es": "Hogwarts",
+          "en": "Hogwarts"
+        }
+      },
+      {
+        "id": "order-of-the-phoenix",
+        "name": {
+          "es": "Orden del Fénix",
+          "en": "Order of the Phoenix"
+        }
+      },
+      {
+        "id": "death-eaters",
+        "name": {
+          "es": "Mortífagos",
+          "en": "Death Eaters"
+        }
+      }
+    ]
+  }
+}

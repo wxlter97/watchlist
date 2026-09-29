@@ -1,11 +1,12 @@
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
 import { useEffect, useSyncExternalStore } from "react";
-import { AppMark, Button, Notice, WxlterSymbol } from "./components/ui";
+import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { AccountPage } from "./features/account/AccountPage";
 import { FranchisePage } from "./features/franchise/FranchisePage";
 import { HubPage } from "./features/hub/HubPage";
 import { TitlePage } from "./features/detail/TitlePage";
 import { RoutePage } from "./features/routes/RoutePage";
+import { SearchPage } from "./features/search/SearchPage";
 import { useLang } from "./lib/i18n";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
@@ -93,7 +94,16 @@ function Layout() {
           <AppMark size={32} />
           <span className="display truncate text-xl">{t("app.name")}</span>
         </Link>
-        <AccountButton />
+        <div className="flex items-center gap-2">
+          <Link
+            to="/search"
+            aria-label={t("search.title")}
+            className="grid size-9 place-items-center border-2 border-line transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+          >
+            <SearchIcon />
+          </Link>
+          <AccountButton />
+        </div>
       </header>
       <Banners />
       <main className="flex-1 pb-16">
@@ -119,6 +129,7 @@ const router = createBrowserRouter([
       { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },
       { path: "t/:titleId", element: <TitlePage /> },
       { path: "account", element: <AccountPage /> },
+      { path: "search", element: <SearchPage /> },
       { path: "*", element: <HubPage /> },
     ],
   },

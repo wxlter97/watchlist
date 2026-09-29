@@ -60,3 +60,11 @@ describe("nextUp", () => {
     expect(nextUp(items, () => true)).toBeUndefined();
   });
 });
+
+describe("progreso vs. orden curado", () => {
+  it("el orden curado solo lista algunos títulos: el progreso se calcula sobre todos", () => {
+    const curated = computeOrder(franchise, resolveOrder(franchise, "curated"), titlesById);
+    const all = computeOrder(franchise, resolveOrder(franchise, "release"), titlesById);
+    expect(curated.length).toBeLessThan(all.length);
+  });
+});

@@ -16,7 +16,11 @@
     "upNext": "Up next",
     "allCaughtUp": "You're all caught up",
     "open": "Open",
-    "eyebrow": "Watch Order — your sagas"
+    "eyebrow": "Watch Order — your sagas",
+    "upcoming": "Upcoming releases",
+    "following": "Your franchises",
+    "explore": "Explore",
+    "followHint": "Follow the franchises you care about: they show up first, with what's next and upcoming releases."
   },
   "progress": {
     "count": "{{watched}} of {{total}} watched",
@@ -174,5 +178,17 @@
       "character": "By character",
       "theme": "Themes"
     }
+  },
+  "follow": {
+    "follow": "Follow",
+    "following": "Following"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search a title, franchise or route",
+    "hint": "Works in English or Spanish, with or without accents.",
+    "empty": "Nothing matches “{{query}}”.",
+    "titles_one": "{{count}} title",
+    "titles_other": "{{count}} titles"
   }
 }

@@ -16,7 +16,11 @@
     "upNext": "Sigue",
     "allCaughtUp": "Estás al día",
     "open": "Abrir",
-    "eyebrow": "Watch Order — tus sagas"
+    "eyebrow": "Watch Order — tus sagas",
+    "upcoming": "Próximos estrenos",
+    "following": "Tus franquicias",
+    "explore": "Explorar",
+    "followHint": "Sigue las franquicias que te interesan: aparecen primero, con lo siguiente por ver y sus estrenos."
   },
   "progress": {
     "count": "{{watched}} de {{total}} vistos",
@@ -174,5 +178,17 @@
       "character": "Por personaje",
       "theme": "Temáticas"
     }
+  },
+  "follow": {
+    "follow": "Seguir",
+    "following": "Siguiendo"
+  },
+  "search": {
+    "title": "Buscar",
+    "placeholder": "Busca un título, franquicia o ruta",
+    "hint": "Funciona en español o en inglés, con o sin acentos.",
+    "empty": "Nada coincide con «{{query}}».",
+    "titles_one": "{{count}} título",
+    "titles_other": "{{count}} títulos"
   }
 }

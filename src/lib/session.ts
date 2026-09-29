@@ -24,6 +24,7 @@ import {
   type Unsubscribe,
 } from "firebase/firestore";
 import { auth, db } from "./firebase";
+import { guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings } from "./settings";
 import { DEFAULT_PROFILE_ID, firestoreBackend, paths, type Profile } from "./cloud";
 import { planMigration, planSize } from "./migrate";
 import {
@@ -113,6 +114,8 @@ function enterGuest() {
   stop(authUnsubs);
   stop(profileUnsubs);
   setBackend(guestBackend);
+  setSettingsWriter(guestSettingsWriter);
+  useSettings.setState(loadGuestSettings());
   useProgressStore.getState().replace(loadGuest());
   set({ status: "guest", user: undefined, profiles: [], activeProfileId: undefined, profileReady: true, migration: null });
 }
@@ -130,18 +133,35 @@ function enterAccount(user: User) {
     authError: undefined,
   });
 
+  // Ajustes: merge profundo sobre users/{uid}.settings; funciona aunque el doc aún no exista.
+  setSettingsWriter((patch) => {
+    setDoc(paths.user(db, uid), { settings: patch }, { merge: true }).catch(report);
+  });
+  // Lo que se siguió como invitado se conserva si la cuenta todavía no sigue nada.
+  const guestFollowed = loadGuestSettings().followedFranchises;
+
   // El documento del usuario se crea una sola vez: solo si el servidor confirma que no existe.
   authUnsubs.push(
     onSnapshot(
       paths.user(db, uid),
       (snap) => {
-        if (!snap.exists() && !snap.metadata.fromCache) {
-          setDoc(paths.user(db, uid), {
-            displayName,
-            createdAt: serverTimestamp(),
-            settings: { ...USER_DEFAULTS.settings, language: document.documentElement.lang === "en" ? "en" : "es" },
-          }).catch(report);
+        if (!snap.exists()) {
+          useSettings.setState({ followedFranchises: guestFollowed });
+          if (!snap.metadata.fromCache) {
+            setDoc(paths.user(db, uid), {
+              displayName,
+              createdAt: serverTimestamp(),
+              settings: {
+                ...USER_DEFAULTS.settings,
+                followedFranchises: guestFollowed,
+                language: document.documentElement.lang === "en" ? "en" : "es",
+              },
+            }).catch(report);
+          }
+          return;
         }
+        const followed = snap.get("settings.followedFranchises");
+        useSettings.setState({ followedFranchises: Array.isArray(followed) ? followed : [] });
       },
       report,
     ),

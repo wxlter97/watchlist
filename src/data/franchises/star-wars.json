@@ -1,0 +1,1135 @@
+{
+  "id": "star-wars",
+  "name": "Star Wars",
+  "description": {
+    "es": "La saga Skywalker, las antologías y las series de Lucasfilm, canon y Legends.",
+    "en": "The Skywalker saga, the anthologies and Lucasfilm's series, canon and Legends."
+  },
+  "accentColor": "#E8B923",
+  "continuities": [
+    {
+      "id": "canon",
+      "name": {
+        "es": "Canon",
+        "en": "Canon"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todo lo que Lucasfilm considera historia oficial desde 2014.",
+        "en": "Everything Lucasfilm counts as official history since 2014."
+      }
+    },
+    {
+      "id": "legends",
+      "name": {
+        "es": "Legends",
+        "en": "Legends"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Lo anterior a 2014 fuera de las películas: especiales, Ewoks, Droids y Clone Wars (2003).",
+        "en": "Pre-2014 material outside the films: specials, Ewoks, Droids and Clone Wars (2003)."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "non-canon",
+      "name": {
+        "es": "Fuera de canon: Visions y LEGO",
+        "en": "Non-canon: Visions & LEGO"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Antologías libres y aventuras LEGO.",
+        "en": "Free-form anthologies and LEGO adventures."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "star-wars-1977",
+      "continuityId": "canon",
+      "group": "original-trilogy",
+      "importance": "essential",
+      "chronoOrder": 130,
+      "chronoNote": {
+        "es": "0 años antes/después de Yavin",
+        "en": "0 BBY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "luke-skywalker",
+        "leia-organa",
+        "han-solo",
+        "obi-wan-kenobi",
+        "anakin-skywalker"
+      ],
+      "teams": [
+        "rebel-alliance",
+        "galactic-empire",
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "the-star-wars-holiday-special-1978",
+      "continuityId": "legends",
+      "group": "legends",
+      "importance": "skippable",
+      "characters": [
+        "han-solo",
+        "leia-organa",
+        "luke-skywalker",
+        "boba-fett"
+      ]
+    },
+    {
+      "titleId": "the-empire-strikes-back-1980",
+      "continuityId": "canon",
+      "group": "original-trilogy",
+      "importance": "essential",
+      "chronoOrder": 140,
+      "chronoNote": {
+        "es": "3 años después de Yavin",
+        "en": "3 ABY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "luke-skywalker",
+        "leia-organa",
+        "han-solo",
+        "yoda",
+        "anakin-skywalker",
+        "boba-fett"
+      ],
+      "teams": [
+        "rebel-alliance",
+        "galactic-empire",
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "return-of-the-jedi-1983",
+      "continuityId": "canon",
+      "group": "original-trilogy",
+      "importance": "essential",
+      "chronoOrder": 150,
+      "chronoNote": {
+        "es": "4 años después de Yavin",
+        "en": "4 ABY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "luke-skywalker",
+        "leia-organa",
+        "han-solo",
+        "yoda",
+        "anakin-skywalker",
+        "palpatine",
+        "boba-fett"
+      ],
+      "teams": [
+        "rebel-alliance",
+        "galactic-empire",
+        "jedi",
+        "sith"
+      ]
+    },
+    {
+      "titleId": "the-ewok-adventure-1984",
+      "continuityId": "legends",
+      "group": "legends",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "ewoks-1985",
+      "continuityId": "legends",
+      "group": "legends",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "star-wars-droids-1985",
+      "continuityId": "legends",
+      "group": "legends",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "ewoks-the-battle-for-endor-1985",
+      "continuityId": "legends",
+      "group": "legends",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "star-wars-episode-i-the-phantom-menace-1999",
+      "continuityId": "canon",
+      "group": "prequel-trilogy",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "32 años antes de Yavin",
+        "en": "32 BBY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "anakin-skywalker",
+        "obi-wan-kenobi",
+        "yoda",
+        "palpatine",
+        "maul"
+      ],
+      "teams": [
+        "jedi",
+        "sith"
+      ]
+    },
+    {
+      "titleId": "star-wars-episode-ii-attack-of-the-clones-2002",
+      "continuityId": "canon",
+      "group": "prequel-trilogy",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "22 años antes de Yavin",
+        "en": "22 BBY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "anakin-skywalker",
+        "obi-wan-kenobi",
+        "yoda",
+        "palpatine"
+      ],
+      "teams": [
+        "jedi",
+        "sith",
+        "clone-troopers"
+      ]
+    },
+    {
+      "titleId": "star-wars-clone-wars-2003",
+      "continuityId": "legends",
+      "group": "legends",
+      "importance": "optional",
+      "characters": [
+        "anakin-skywalker",
+        "obi-wan-kenobi",
+        "yoda"
+      ],
+      "teams": [
+        "jedi",
+        "clone-troopers"
+      ]
+    },
+    {
+      "titleId": "star-wars-episode-iii-revenge-of-the-sith-2005",
+      "continuityId": "canon",
+      "group": "prequel-trilogy",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "19 años antes de Yavin",
+        "en": "19 BBY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "anakin-skywalker",
+        "obi-wan-kenobi",
+        "yoda",
+        "palpatine"
+      ],
+      "teams": [
+        "jedi",
+        "sith",
+        "clone-troopers"
+      ]
+    },
+    {
+      "titleId": "star-wars-the-clone-wars-2008",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "22 años antes de Yavin",
+        "en": "22 BBY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "anakin-skywalker",
+        "obi-wan-kenobi",
+        "ahsoka-tano"
+      ],
+      "teams": [
+        "jedi",
+        "clone-troopers"
+      ]
+    },
+    {
+      "titleId": "star-wars-the-clone-wars-series-2008",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "22–19 años antes de Yavin",
+        "en": "22–19 BBY"
+      },
+      "characters": [
+        "anakin-skywalker",
+        "obi-wan-kenobi",
+        "ahsoka-tano",
+        "yoda",
+        "maul",
+        "palpatine"
+      ],
+      "teams": [
+        "jedi",
+        "sith",
+        "clone-troopers",
+        "mandalorians"
+      ]
+    },
+    {
+      "titleId": "star-wars-rebels-2014",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "recommended",
+      "chronoOrder": 110,
+      "chronoNote": {
+        "es": "5–0 años antes de Yavin",
+        "en": "5–0 BBY"
+      },
+      "characters": [
+        "ahsoka-tano",
+        "maul",
+        "obi-wan-kenobi",
+        "anakin-skywalker"
+      ],
+      "teams": [
+        "rebel-alliance",
+        "galactic-empire",
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "lego-star-wars-droid-tales-2015",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "star-wars-the-force-awakens-2015",
+      "continuityId": "canon",
+      "group": "sequel-trilogy",
+      "importance": "essential",
+      "chronoOrder": 210,
+      "chronoNote": {
+        "es": "34 años después de Yavin",
+        "en": "34 ABY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "rey",
+        "kylo-ren",
+        "han-solo",
+        "leia-organa",
+        "luke-skywalker"
+      ],
+      "teams": [
+        "first-order"
+      ]
+    },
+    {
+      "titleId": "lego-star-wars-the-freemaker-adventures-2016",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "rogue-one-a-star-wars-story-2016",
+      "continuityId": "canon",
+      "group": "anthology",
+      "importance": "recommended",
+      "chronoOrder": 120,
+      "chronoNote": {
+        "es": "Justo antes de Una nueva esperanza",
+        "en": "Right before A New Hope"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "cassian-andor",
+        "anakin-skywalker"
+      ],
+      "teams": [
+        "rebel-alliance",
+        "galactic-empire"
+      ]
+    },
+    {
+      "titleId": "star-wars-the-last-jedi-2017",
+      "continuityId": "canon",
+      "group": "sequel-trilogy",
+      "importance": "essential",
+      "chronoOrder": 220,
+      "chronoNote": {
+        "es": "34 años después de Yavin",
+        "en": "34 ABY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "rey",
+        "kylo-ren",
+        "luke-skywalker",
+        "leia-organa"
+      ],
+      "teams": [
+        "first-order",
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "solo-a-star-wars-story-2018",
+      "continuityId": "canon",
+      "group": "anthology",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "13–10 años antes de Yavin",
+        "en": "13–10 BBY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "han-solo",
+        "maul"
+      ]
+    },
+    {
+      "titleId": "star-wars-resistance-2018",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoOrder": 200,
+      "chronoNote": {
+        "es": "Antes de El despertar de la Fuerza",
+        "en": "Before The Force Awakens"
+      },
+      "teams": [
+        "first-order"
+      ]
+    },
+    {
+      "titleId": "lego-star-wars-all-stars-2018",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "the-mandalorian-2019",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "recommended",
+      "chronoOrder": 160,
+      "chronoNote": {
+        "es": "9 años después de Yavin",
+        "en": "9 ABY"
+      },
+      "characters": [
+        "din-djarin",
+        "grogu",
+        "boba-fett",
+        "ahsoka-tano",
+        "luke-skywalker"
+      ],
+      "teams": [
+        "mandalorians"
+      ]
+    },
+    {
+      "titleId": "star-wars-the-rise-of-skywalker-2019",
+      "continuityId": "canon",
+      "group": "sequel-trilogy",
+      "importance": "essential",
+      "chronoOrder": 230,
+      "chronoNote": {
+        "es": "35 años después de Yavin",
+        "en": "35 ABY"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "rey",
+        "kylo-ren",
+        "leia-organa",
+        "palpatine"
+      ],
+      "teams": [
+        "first-order",
+        "sith"
+      ]
+    },
+    {
+      "titleId": "lego-star-wars-holiday-special-2020",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable",
+      "characters": [
+        "rey"
+      ]
+    },
+    {
+      "titleId": "star-wars-the-bad-batch-2021",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "19–18 años antes de Yavin",
+        "en": "19–18 BBY"
+      },
+      "characters": [
+        "palpatine"
+      ],
+      "teams": [
+        "clone-troopers",
+        "galactic-empire"
+      ]
+    },
+    {
+      "titleId": "star-wars-visions-2021",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Antología independiente",
+        "en": "Standalone anthology"
+      }
+    },
+    {
+      "titleId": "lego-star-wars-terrifying-tales-2021",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "the-book-of-boba-fett-2021",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "optional",
+      "chronoOrder": 170,
+      "chronoNote": {
+        "es": "9 años después de Yavin",
+        "en": "9 ABY"
+      },
+      "characters": [
+        "boba-fett",
+        "din-djarin",
+        "grogu",
+        "luke-skywalker"
+      ],
+      "teams": [
+        "mandalorians"
+      ]
+    },
+    {
+      "titleId": "obi-wan-kenobi-2022",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "optional",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "9 años antes de Yavin",
+        "en": "9 BBY"
+      },
+      "characters": [
+        "obi-wan-kenobi",
+        "anakin-skywalker"
+      ],
+      "teams": [
+        "jedi",
+        "galactic-empire"
+      ]
+    },
+    {
+      "titleId": "lego-star-wars-summer-vacation-2022",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "andor-2022",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "recommended",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "5–0 años antes de Yavin",
+        "en": "5–0 BBY"
+      },
+      "characters": [
+        "cassian-andor"
+      ],
+      "teams": [
+        "rebel-alliance",
+        "galactic-empire"
+      ]
+    },
+    {
+      "titleId": "star-wars-tales-of-the-jedi-2022",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "optional",
+      "chronoOrder": 25,
+      "chronoNote": {
+        "es": "De ~68 a 19 años antes de Yavin",
+        "en": "~68–19 BBY"
+      },
+      "characters": [
+        "ahsoka-tano",
+        "anakin-skywalker"
+      ],
+      "teams": [
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "star-wars-young-jedi-adventures-2023",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Alta República, ~232 años antes de Yavin",
+        "en": "High Republic, ~232 BBY"
+      },
+      "teams": [
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "ahsoka-2023",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "optional",
+      "chronoOrder": 190,
+      "chronoNote": {
+        "es": "~11 años después de Yavin",
+        "en": "~11 ABY"
+      },
+      "characters": [
+        "ahsoka-tano",
+        "anakin-skywalker"
+      ],
+      "teams": [
+        "jedi"
+      ]
+    },
+    {
+      "titleId": "star-wars-tales-of-the-empire-2024",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "optional",
+      "chronoOrder": 63,
+      "chronoNote": {
+        "es": "Tras La venganza de los Sith",
+        "en": "After Revenge of the Sith"
+      },
+      "teams": [
+        "galactic-empire"
+      ]
+    },
+    {
+      "titleId": "the-acolyte-2024",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Fin de la Alta República, ~100 años antes de Yavin",
+        "en": "End of the High Republic, ~132 BBY"
+      },
+      "teams": [
+        "jedi",
+        "sith"
+      ]
+    },
+    {
+      "titleId": "lego-star-wars-rebuild-the-galaxy-2024",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "star-wars-skeleton-crew-2024",
+      "continuityId": "canon",
+      "group": "live-action-series",
+      "importance": "optional",
+      "chronoOrder": 180,
+      "chronoNote": {
+        "es": "~9 años después de Yavin",
+        "en": "~9 ABY"
+      }
+    },
+    {
+      "titleId": "star-wars-tales-of-the-underworld-2025",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "optional",
+      "chronoOrder": 64,
+      "chronoNote": {
+        "es": "Tras La venganza de los Sith",
+        "en": "After Revenge of the Sith"
+      }
+    },
+    {
+      "titleId": "star-wars-maul-shadow-lord-2026",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "optional",
+      "chronoOrder": 65,
+      "chronoNote": {
+        "es": "Tras La venganza de los Sith",
+        "en": "After Revenge of the Sith"
+      },
+      "characters": [
+        "maul"
+      ],
+      "teams": [
+        "sith"
+      ]
+    },
+    {
+      "titleId": "the-mandalorian-and-grogu-2026",
+      "continuityId": "canon",
+      "group": "anthology",
+      "importance": "recommended",
+      "chronoOrder": 175,
+      "chronoNote": {
+        "es": "Tras la temporada 3 de The Mandalorian",
+        "en": "After The Mandalorian season 3"
+      },
+      "characters": [
+        "din-djarin",
+        "grogu"
+      ],
+      "teams": [
+        "mandalorians"
+      ]
+    },
+    {
+      "titleId": "star-wars-starfighter-2027",
+      "continuityId": "canon",
+      "group": "anthology",
+      "importance": "recommended",
+      "chronoOrder": 240,
+      "chronoNote": {
+        "es": "~5 años después de El ascenso de Skywalker",
+        "en": "~5 years after The Rise of Skywalker"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "sagas",
+      "type": "grouped",
+      "name": {
+        "es": "Por sagas",
+        "en": "By saga"
+      },
+      "description": {
+        "es": "Trilogías, antologías y series, cada grupo por estreno.",
+        "en": "Trilogies, anthologies and series, each group by release."
+      },
+      "groupLabels": {
+        "prequel-trilogy": {
+          "es": "Trilogía de precuelas",
+          "en": "Prequel trilogy"
+        },
+        "original-trilogy": {
+          "es": "Trilogía original",
+          "en": "Original trilogy"
+        },
+        "sequel-trilogy": {
+          "es": "Trilogía de secuelas",
+          "en": "Sequel trilogy"
+        },
+        "anthology": {
+          "es": "Antologías y películas nuevas",
+          "en": "Anthology & new films"
+        },
+        "live-action-series": {
+          "es": "Series live-action",
+          "en": "Live-action series"
+        },
+        "animation": {
+          "es": "Animación",
+          "en": "Animation"
+        },
+        "legends": {
+          "es": "Legends",
+          "en": "Legends"
+        },
+        "non-canon": {
+          "es": "Fuera de canon",
+          "en": "Non-canon"
+        }
+      }
+    },
+    {
+      "id": "machete",
+      "type": "curated",
+      "name": {
+        "es": "Orden Machete",
+        "en": "Machete order"
+      },
+      "description": {
+        "es": "IV, V, II, III y VI: la revelación de Vader llega intacta y las precuelas funcionan como flashback. Se salta el Episodio I; las secuelas van al final.",
+        "en": "IV, V, II, III and VI: Vader's reveal stays intact and the prequels play as a flashback. Skips Episode I; the sequels go last."
+      },
+      "titleIds": [
+        "star-wars-1977",
+        "the-empire-strikes-back-1980",
+        "star-wars-episode-ii-attack-of-the-clones-2002",
+        "star-wars-episode-iii-revenge-of-the-sith-2005",
+        "return-of-the-jedi-1983",
+        "star-wars-the-force-awakens-2015",
+        "star-wars-the-last-jedi-2017",
+        "star-wars-the-rise-of-skywalker-2019"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-the-mandalorian-and-grogu-2026",
+      "name": {
+        "es": "Prepárate para The Mandalorian and Grogu",
+        "en": "Get ready for The Mandalorian and Grogu"
+      },
+      "description": {
+        "es": "La historia de Din Djarin y Grogu hasta la película.",
+        "en": "Din Djarin and Grogu's story up to the film."
+      },
+      "kind": "prep",
+      "targetTitleId": "the-mandalorian-and-grogu-2026",
+      "titleIds": [
+        "the-mandalorian-2019",
+        "the-book-of-boba-fett-2021"
+      ]
+    },
+    {
+      "id": "prep-ahsoka-2023",
+      "name": {
+        "es": "Prepárate para Ahsoka",
+        "en": "Get ready for Ahsoka"
+      },
+      "description": {
+        "es": "Ahsoka continúa directamente Rebels: sin ella, la serie se entiende a medias.",
+        "en": "Ahsoka directly continues Rebels: without it, the show only half makes sense."
+      },
+      "kind": "prep",
+      "targetTitleId": "ahsoka-2023",
+      "titleIds": [
+        "star-wars-the-clone-wars-2008",
+        "star-wars-the-clone-wars-series-2008",
+        "star-wars-rebels-2014",
+        "the-mandalorian-2019"
+      ]
+    },
+    {
+      "id": "ahsoka-tano",
+      "name": {
+        "es": "Ahsoka Tano",
+        "en": "Ahsoka Tano"
+      },
+      "description": {
+        "es": "De padawan de Anakin a leyenda.",
+        "en": "From Anakin's padawan to legend."
+      },
+      "kind": "character",
+      "titleIds": [
+        "star-wars-the-clone-wars-2008",
+        "star-wars-the-clone-wars-series-2008",
+        "star-wars-tales-of-the-jedi-2022",
+        "star-wars-rebels-2014",
+        "the-mandalorian-2019",
+        "the-book-of-boba-fett-2021",
+        "ahsoka-2023"
+      ]
+    },
+    {
+      "id": "obi-wan-kenobi",
+      "name": {
+        "es": "Obi-Wan Kenobi",
+        "en": "Obi-Wan Kenobi"
+      },
+      "description": {
+        "es": "La vida completa de Ben.",
+        "en": "Ben's whole life."
+      },
+      "kind": "character",
+      "titleIds": [
+        "star-wars-episode-i-the-phantom-menace-1999",
+        "star-wars-episode-ii-attack-of-the-clones-2002",
+        "star-wars-the-clone-wars-series-2008",
+        "star-wars-episode-iii-revenge-of-the-sith-2005",
+        "obi-wan-kenobi-2022",
+        "star-wars-1977"
+      ]
+    },
+    {
+      "id": "mandoverse",
+      "name": {
+        "es": "El Mandoverso",
+        "en": "The Mandoverse"
+      },
+      "description": {
+        "es": "Las historias de la era de la Nueva República.",
+        "en": "The New Republic era stories."
+      },
+      "kind": "theme",
+      "titleIds": [
+        "the-mandalorian-2019",
+        "the-book-of-boba-fett-2021",
+        "ahsoka-2023",
+        "star-wars-skeleton-crew-2024",
+        "the-mandalorian-and-grogu-2026"
+      ]
+    },
+    {
+      "id": "rebellion",
+      "name": {
+        "es": "Nace la Rebelión",
+        "en": "The Rebellion is born"
+      },
+      "description": {
+        "es": "De la chispa a la Estrella de la Muerte.",
+        "en": "From the spark to the Death Star."
+      },
+      "kind": "theme",
+      "titleIds": [
+        "andor-2022",
+        "star-wars-rebels-2014",
+        "rogue-one-a-star-wars-story-2016",
+        "star-wars-1977"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "anakin-skywalker",
+        "name": {
+          "es": "Anakin Skywalker / Darth Vader",
+          "en": "Anakin Skywalker / Darth Vader"
+        }
+      },
+      {
+        "id": "luke-skywalker",
+        "name": {
+          "es": "Luke Skywalker",
+          "en": "Luke Skywalker"
+        }
+      },
+      {
+        "id": "leia-organa",
+        "name": {
+          "es": "Leia Organa",
+          "en": "Leia Organa"
+        }
+      },
+      {
+        "id": "han-solo",
+        "name": {
+          "es": "Han Solo",
+          "en": "Han Solo"
+        }
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": {
+          "es": "Obi-Wan Kenobi",
+          "en": "Obi-Wan Kenobi"
+        }
+      },
+      {
+        "id": "yoda",
+        "name": {
+          "es": "Yoda",
+          "en": "Yoda"
+        }
+      },
+      {
+        "id": "ahsoka-tano",
+        "name": {
+          "es": "Ahsoka Tano",
+          "en": "Ahsoka Tano"
+        }
+      },
+      {
+        "id": "din-djarin",
+        "name": {
+          "es": "Din Djarin",
+          "en": "Din Djarin"
+        }
+      },
+      {
+        "id": "grogu",
+        "name": {
+          "es": "Grogu",
+          "en": "Grogu"
+        }
+      },
+      {
+        "id": "boba-fett",
+        "name": {
+          "es": "Boba Fett",
+          "en": "Boba Fett"
+        }
+      },
+      {
+        "id": "rey",
+        "name": {
+          "es": "Rey",
+          "en": "Rey"
+        }
+      },
+      {
+        "id": "kylo-ren",
+        "name": {
+          "es": "Kylo Ren",
+          "en": "Kylo Ren"
+        }
+      },
+      {
+        "id": "cassian-andor",
+        "name": {
+          "es": "Cassian Andor",
+          "en": "Cassian Andor"
+        }
+      },
+      {
+        "id": "maul",
+        "name": {
+          "es": "Maul",
+          "en": "Maul"
+        }
+      },
+      {
+        "id": "palpatine",
+        "name": {
+          "es": "Palpatine",
+          "en": "Palpatine"
+        }
+      }
+    ],
+    "teams": [
+      {
+        "id": "jedi",
+        "name": {
+          "es": "Jedi",
+          "en": "Jedi"
+        }
+      },
+      {
+        "id": "sith",
+        "name": {
+          "es": "Sith",
+          "en": "Sith"
+        }
+      },
+      {
+        "id": "rebel-alliance",
+        "name": {
+          "es": "Alianza Rebelde",
+          "en": "Rebel Alliance"
+        }
+      },
+      {
+        "id": "galactic-empire",
+        "name": {
+          "es": "Imperio Galáctico",
+          "en": "Galactic Empire"
+        }
+      },
+      {
+        "id": "first-order",
+        "name": {
+          "es": "Primera Orden",
+          "en": "First Order"
+        }
+      },
+      {
+        "id": "mandalorians",
+        "name": {
+          "es": "Mandalorianos",
+          "en": "Mandalorians"
+        }
+      },
+      {
+        "id": "clone-troopers",
+        "name": {
+          "es": "Soldados clon",
+          "en": "Clone troopers"
+        }
+      }
+    ]
+  }
+}

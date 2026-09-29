@@ -283,3 +283,12 @@ export function PostCreditsIcon({ mid, end }: { mid: number; end: number }) {
     </span>
   );
 }
+
+export function SearchIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="size-5 shrink-0" fill="none" stroke="currentColor" strokeWidth={2.5} aria-hidden>
+      <circle cx="10.5" cy="10.5" r="6.5" />
+      <path d="M15.5 15.5L21 21" strokeLinecap="square" />
+    </svg>
+  );
+}

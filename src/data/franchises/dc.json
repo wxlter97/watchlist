@@ -1,0 +1,1121 @@
+{
+  "id": "dc",
+  "name": "DC",
+  "description": {
+    "es": "El nuevo DCU, el DCEU de Snyder, cada Batman por separado, el Superman clásico y el Arrowverse.",
+    "en": "The new DCU, Snyder's DCEU, every Batman on its own, classic Superman and the Arrowverse."
+  },
+  "accentColor": "#1A56DB",
+  "continuities": [
+    {
+      "id": "dcu",
+      "name": {
+        "es": "DCU",
+        "en": "DCU"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El universo de James Gunn y Peter Safran, desde 2024.",
+        "en": "James Gunn and Peter Safran's universe, since 2024."
+      }
+    },
+    {
+      "id": "dceu",
+      "name": {
+        "es": "DCEU / Snyderverse",
+        "en": "DCEU / Snyderverse"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "De Man of Steel (2013) a Aquaman 2 (2023). Cerrado.",
+        "en": "From Man of Steel (2013) to Aquaman 2 (2023). Closed."
+      }
+    },
+    {
+      "id": "batman-reeves",
+      "name": {
+        "es": "Batman de Matt Reeves",
+        "en": "Matt Reeves' Batman"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "The Batman y The Penguin. Universo aparte del DCU.",
+        "en": "The Batman and The Penguin. Separate from the DCU."
+      }
+    },
+    {
+      "id": "batman-nolan",
+      "name": {
+        "es": "Trilogía de Nolan",
+        "en": "Nolan trilogy"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El Caballero de la Noche de Christopher Nolan.",
+        "en": "Christopher Nolan's Dark Knight."
+      }
+    },
+    {
+      "id": "batman-burton-schumacher",
+      "name": {
+        "es": "Batman de Burton y Schumacher",
+        "en": "Burton & Schumacher's Batman"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Cuatro películas, 1989–1997, en una misma línea.",
+        "en": "Four films, 1989–1997, one timeline."
+      }
+    },
+    {
+      "id": "joker-phillips",
+      "name": {
+        "es": "Joker de Todd Phillips",
+        "en": "Todd Phillips' Joker"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Dos películas independientes de todo lo demás.",
+        "en": "Two films independent of everything else."
+      }
+    },
+    {
+      "id": "superman-reeve",
+      "name": {
+        "es": "Superman de Christopher Reeve",
+        "en": "Christopher Reeve's Superman"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las cuatro películas de 1978 a 1987.",
+        "en": "The four films from 1978 to 1987."
+      }
+    },
+    {
+      "id": "superman-returns",
+      "name": {
+        "es": "Superman Returns",
+        "en": "Superman Returns"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Secuela de Superman II que ignora III y IV.",
+        "en": "A Superman II sequel that ignores III and IV."
+      },
+      "branchesFrom": {
+        "continuityId": "superman-reeve",
+        "afterTitleId": "superman-ii-1980"
+      }
+    },
+    {
+      "id": "arrowverse",
+      "name": {
+        "es": "Arrowverse",
+        "en": "Arrowverse"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las series de The CW conectadas por cruces anuales. Se ordenan por estreno.",
+        "en": "The CW's series linked by yearly crossovers. Ordered by release."
+      }
+    },
+    {
+      "id": "batman-66",
+      "name": {
+        "es": "Batman de 1966",
+        "en": "1966 Batman"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Adam West, la serie y la película.",
+        "en": "Adam West, the series and the film."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "batman-1966",
+      "continuityId": "batman-66",
+      "group": "batman-66",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "batman",
+        "joker",
+        "penguin",
+        "catwoman"
+      ]
+    },
+    {
+      "titleId": "batman-the-movie-1966",
+      "continuityId": "batman-66",
+      "group": "batman-66",
+      "importance": "optional",
+      "chronoOrder": 15,
+      "chronoNote": {
+        "es": "Entre las temporadas 1 y 2",
+        "en": "Between seasons 1 and 2"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman",
+        "joker",
+        "penguin",
+        "catwoman"
+      ]
+    },
+    {
+      "titleId": "superman-1978",
+      "continuityId": "superman-reeve",
+      "group": "superman-classic",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "superman-ii-1980",
+      "continuityId": "superman-reeve",
+      "group": "superman-classic",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "superman-iii-1983",
+      "continuityId": "superman-reeve",
+      "group": "superman-classic",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "superman-iv-the-quest-for-peace-1987",
+      "continuityId": "superman-reeve",
+      "group": "superman-classic",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "batman-1989",
+      "continuityId": "batman-burton-schumacher",
+      "group": "batman-burton",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman",
+        "joker"
+      ]
+    },
+    {
+      "titleId": "batman-returns-1992",
+      "continuityId": "batman-burton-schumacher",
+      "group": "batman-burton",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman",
+        "penguin",
+        "catwoman"
+      ]
+    },
+    {
+      "titleId": "batman-forever-1995",
+      "continuityId": "batman-burton-schumacher",
+      "group": "batman-burton",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "batman-and-robin-1997",
+      "continuityId": "batman-burton-schumacher",
+      "group": "batman-burton",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "batman-begins-2005",
+      "continuityId": "batman-nolan",
+      "group": "batman-nolan",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "superman-returns-2006",
+      "continuityId": "superman-returns",
+      "group": "superman-classic",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Tras Superman II",
+        "en": "After Superman II"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "the-dark-knight-2008",
+      "continuityId": "batman-nolan",
+      "group": "batman-nolan",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman",
+        "joker"
+      ]
+    },
+    {
+      "titleId": "the-dark-knight-rises-2012",
+      "continuityId": "batman-nolan",
+      "group": "batman-nolan",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman",
+        "catwoman"
+      ]
+    },
+    {
+      "titleId": "arrow-2012",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "recommended",
+      "characters": [
+        "green-arrow"
+      ]
+    },
+    {
+      "titleId": "man-of-steel-2013",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "the-flash-2014",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "recommended",
+      "characters": [
+        "the-flash"
+      ]
+    },
+    {
+      "titleId": "constantine-2014",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "optional"
+    },
+    {
+      "titleId": "vixen-2015",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "supergirl-2015",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "optional",
+      "characters": [
+        "supergirl",
+        "superman"
+      ]
+    },
+    {
+      "titleId": "dcs-legends-of-tomorrow-2016",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-v-superman-dawn-of-justice-2016",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "batman",
+        "superman",
+        "wonder-woman"
+      ],
+      "teams": [
+        "justice-league"
+      ]
+    },
+    {
+      "titleId": "suicide-squad-2016",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "harley-quinn",
+        "joker",
+        "batman"
+      ],
+      "teams": [
+        "suicide-squad"
+      ]
+    },
+    {
+      "titleId": "wonder-woman-2017",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "recommended",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "1918",
+        "en": "1918"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "wonder-woman"
+      ]
+    },
+    {
+      "titleId": "justice-league-2017",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "batman",
+        "superman",
+        "wonder-woman",
+        "the-flash",
+        "aquaman"
+      ],
+      "teams": [
+        "justice-league"
+      ]
+    },
+    {
+      "titleId": "freedom-fighters-the-ray-2017",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "black-lightning-2018",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "optional"
+    },
+    {
+      "titleId": "aquaman-2018",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "aquaman"
+      ]
+    },
+    {
+      "titleId": "shazam-2019",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "shazam"
+      ]
+    },
+    {
+      "titleId": "joker-2019",
+      "continuityId": "joker-phillips",
+      "group": "joker",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "joker"
+      ]
+    },
+    {
+      "titleId": "batwoman-2019",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "optional"
+    },
+    {
+      "titleId": "birds-of-prey-2020",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "harley-quinn"
+      ]
+    },
+    {
+      "titleId": "dcs-stargirl-2020",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Tierra-2; se une tras Crisis",
+        "en": "Earth-2; joins after Crisis"
+      }
+    },
+    {
+      "titleId": "wonder-woman-1984-2020",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "skippable",
+      "chronoOrder": 7,
+      "chronoNote": {
+        "es": "1984",
+        "en": "1984"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "wonder-woman"
+      ]
+    },
+    {
+      "titleId": "superman-and-lois-2021",
+      "continuityId": "arrowverse",
+      "group": "arrowverse",
+      "importance": "recommended",
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "the-suicide-squad-2021",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "recommended",
+      "chronoOrder": 80,
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "harley-quinn",
+        "peacemaker"
+      ],
+      "teams": [
+        "suicide-squad"
+      ]
+    },
+    {
+      "titleId": "peacemaker-2022",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "recommended",
+      "chronoOrder": 25,
+      "chronoNote": {
+        "es": "T1 antes; T2 después de Superman",
+        "en": "S1 before; S2 after Superman"
+      },
+      "characters": [
+        "peacemaker"
+      ],
+      "teams": [
+        "justice-league"
+      ]
+    },
+    {
+      "titleId": "the-batman-2022",
+      "continuityId": "batman-reeves",
+      "group": "batman-reeves",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "batman",
+        "penguin",
+        "catwoman"
+      ]
+    },
+    {
+      "titleId": "black-adam-2022",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "skippable",
+      "chronoOrder": 90,
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "shazam-fury-of-the-gods-2023",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "skippable",
+      "chronoOrder": 100,
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "shazam"
+      ]
+    },
+    {
+      "titleId": "the-flash-2023",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "the-flash",
+        "batman",
+        "supergirl"
+      ]
+    },
+    {
+      "titleId": "blue-beetle-2023",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "optional",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Transición: Gunn lo considera parte del DCU",
+        "en": "Transitional: Gunn counts it as DCU"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "aquaman-and-the-lost-kingdom-2023",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "skippable",
+      "chronoOrder": 120,
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "aquaman"
+      ]
+    },
+    {
+      "titleId": "the-penguin-2024",
+      "continuityId": "batman-reeves",
+      "group": "batman-reeves",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Justo después de The Batman",
+        "en": "Right after The Batman"
+      },
+      "characters": [
+        "penguin"
+      ]
+    },
+    {
+      "titleId": "joker-folie-a-deux-2024",
+      "continuityId": "joker-phillips",
+      "group": "joker",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "joker",
+        "harley-quinn"
+      ]
+    },
+    {
+      "titleId": "creature-commandos-2024",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "optional",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "superman-2025",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "superman"
+      ],
+      "teams": [
+        "justice-league"
+      ]
+    },
+    {
+      "titleId": "supergirl-2026",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "supergirl",
+        "superman"
+      ]
+    },
+    {
+      "titleId": "lanterns-2026",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "green-lantern"
+      ]
+    },
+    {
+      "titleId": "clayface-2026",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "optional",
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "man-of-tomorrow-2027",
+      "continuityId": "dcu",
+      "group": "dcu",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "the-batman-part-ii-2028",
+      "continuityId": "batman-reeves",
+      "group": "batman-reeves",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "batman"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "universes",
+      "type": "grouped",
+      "name": {
+        "es": "Por universo",
+        "en": "By universe"
+      },
+      "description": {
+        "es": "Cada universo por separado, en orden de estreno.",
+        "en": "Each universe on its own, in release order."
+      },
+      "groupLabels": {
+        "dcu": {
+          "es": "DCU",
+          "en": "DCU"
+        },
+        "dceu": {
+          "es": "DCEU / Snyderverse",
+          "en": "DCEU / Snyderverse"
+        },
+        "batman-reeves": {
+          "es": "Batman de Matt Reeves",
+          "en": "Matt Reeves' Batman"
+        },
+        "batman-nolan": {
+          "es": "Trilogía de Nolan",
+          "en": "Nolan trilogy"
+        },
+        "batman-burton": {
+          "es": "Batman de Burton y Schumacher",
+          "en": "Burton & Schumacher's Batman"
+        },
+        "joker": {
+          "es": "Joker de Todd Phillips",
+          "en": "Todd Phillips' Joker"
+        },
+        "superman-classic": {
+          "es": "Superman clásico",
+          "en": "Classic Superman"
+        },
+        "batman-66": {
+          "es": "Batman de 1966",
+          "en": "1966 Batman"
+        },
+        "arrowverse": {
+          "es": "Arrowverse",
+          "en": "Arrowverse"
+        }
+      }
+    },
+    {
+      "id": "snyderverse",
+      "type": "curated",
+      "name": {
+        "es": "El Snyderverse",
+        "en": "The Snyderverse"
+      },
+      "description": {
+        "es": "La trilogía de Zack Snyder tal como la planeó: usa la Ultimate Edition de Batman v Superman y el Snyder Cut de Justice League.",
+        "en": "Zack Snyder's trilogy as he planned it: use the Batman v Superman Ultimate Edition and the Justice League Snyder Cut."
+      },
+      "titleIds": [
+        "man-of-steel-2013",
+        "batman-v-superman-dawn-of-justice-2016",
+        "justice-league-2017"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-man-of-tomorrow-2027",
+      "name": {
+        "es": "Prepárate para Man of Tomorrow",
+        "en": "Get ready for Man of Tomorrow"
+      },
+      "description": {
+        "es": "El Superman del DCU y su entorno.",
+        "en": "The DCU's Superman and his world."
+      },
+      "kind": "prep",
+      "targetTitleId": "man-of-tomorrow-2027",
+      "titleIds": [
+        "superman-2025",
+        "peacemaker-2022",
+        "supergirl-2026"
+      ]
+    },
+    {
+      "id": "prep-the-batman-part-ii-2028",
+      "name": {
+        "es": "Prepárate para The Batman: Part II",
+        "en": "Get ready for The Batman: Part II"
+      },
+      "description": {
+        "es": "La Gotham de Matt Reeves hasta ahora.",
+        "en": "Matt Reeves' Gotham so far."
+      },
+      "kind": "prep",
+      "targetTitleId": "the-batman-part-ii-2028",
+      "titleIds": [
+        "the-batman-2022",
+        "the-penguin-2024"
+      ]
+    },
+    {
+      "id": "batman",
+      "name": {
+        "es": "Batman en el cine",
+        "en": "Batman on film"
+      },
+      "description": {
+        "es": "Todas las eras del murciélago, en orden de estreno.",
+        "en": "Every era of the Bat, in release order."
+      },
+      "kind": "character",
+      "titleIds": [
+        "batman-the-movie-1966",
+        "batman-1989",
+        "batman-returns-1992",
+        "batman-forever-1995",
+        "batman-and-robin-1997",
+        "batman-begins-2005",
+        "the-dark-knight-2008",
+        "the-dark-knight-rises-2012",
+        "batman-v-superman-dawn-of-justice-2016",
+        "justice-league-2017",
+        "the-batman-2022",
+        "the-flash-2023",
+        "the-batman-part-ii-2028"
+      ]
+    },
+    {
+      "id": "superman",
+      "name": {
+        "es": "Superman en el cine",
+        "en": "Superman on film"
+      },
+      "description": {
+        "es": "De Christopher Reeve a David Corenswet.",
+        "en": "From Christopher Reeve to David Corenswet."
+      },
+      "kind": "character",
+      "titleIds": [
+        "superman-1978",
+        "superman-ii-1980",
+        "superman-iii-1983",
+        "superman-iv-the-quest-for-peace-1987",
+        "superman-returns-2006",
+        "man-of-steel-2013",
+        "batman-v-superman-dawn-of-justice-2016",
+        "justice-league-2017",
+        "superman-2025",
+        "man-of-tomorrow-2027"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "batman",
+        "name": {
+          "es": "Batman",
+          "en": "Batman"
+        }
+      },
+      {
+        "id": "superman",
+        "name": {
+          "es": "Superman",
+          "en": "Superman"
+        }
+      },
+      {
+        "id": "wonder-woman",
+        "name": {
+          "es": "Mujer Maravilla",
+          "en": "Wonder Woman"
+        }
+      },
+      {
+        "id": "the-flash",
+        "name": {
+          "es": "Flash",
+          "en": "The Flash"
+        }
+      },
+      {
+        "id": "aquaman",
+        "name": {
+          "es": "Aquaman",
+          "en": "Aquaman"
+        }
+      },
+      {
+        "id": "joker",
+        "name": {
+          "es": "Joker",
+          "en": "Joker"
+        }
+      },
+      {
+        "id": "harley-quinn",
+        "name": {
+          "es": "Harley Quinn",
+          "en": "Harley Quinn"
+        }
+      },
+      {
+        "id": "green-arrow",
+        "name": {
+          "es": "Flecha Verde",
+          "en": "Green Arrow"
+        }
+      },
+      {
+        "id": "supergirl",
+        "name": {
+          "es": "Supergirl",
+          "en": "Supergirl"
+        }
+      },
+      {
+        "id": "peacemaker",
+        "name": {
+          "es": "Peacemaker",
+          "en": "Peacemaker"
+        }
+      },
+      {
+        "id": "shazam",
+        "name": {
+          "es": "Shazam",
+          "en": "Shazam"
+        }
+      },
+      {
+        "id": "green-lantern",
+        "name": {
+          "es": "Linterna Verde",
+          "en": "Green Lantern"
+        }
+      },
+      {
+        "id": "penguin",
+        "name": {
+          "es": "El Pingüino",
+          "en": "The Penguin"
+        }
+      },
+      {
+        "id": "catwoman",
+        "name": {
+          "es": "Gatúbela",
+          "en": "Catwoman"
+        }
+      }
+    ],
+    "teams": [
+      {
+        "id": "justice-league",
+        "name": {
+          "es": "Liga de la Justicia",
+          "en": "Justice League"
+        }
+      },
+      {
+        "id": "suicide-squad",
+        "name": {
+          "es": "Escuadrón Suicida",
+          "en": "Suicide Squad"
+        }
+      }
+    ]
+  }
+}

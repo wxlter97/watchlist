@@ -1,0 +1,395 @@
+{
+  "id": "middle-earth",
+  "name": "Middle-earth",
+  "description": {
+    "es": "La Tierra Media de Peter Jackson, Los Anillos de Poder y las adaptaciones animadas clásicas.",
+    "en": "Peter Jackson's Middle-earth, The Rings of Power and the classic animated adaptations."
+  },
+  "accentColor": "#2F6B3A",
+  "continuities": [
+    {
+      "id": "peter-jackson",
+      "name": {
+        "es": "Tierra Media de Peter Jackson",
+        "en": "Peter Jackson's Middle-earth"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El Hobbit, El Señor de los Anillos y las películas nuevas en la misma línea.",
+        "en": "The Hobbit, The Lord of the Rings and the new films, one timeline."
+      }
+    },
+    {
+      "id": "rings-of-power",
+      "name": {
+        "es": "Los Anillos de Poder",
+        "en": "The Rings of Power"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La Segunda Edad según Amazon, sin relación con las películas.",
+        "en": "Amazon's Second Age, unrelated to the films."
+      }
+    },
+    {
+      "id": "classic-animation",
+      "name": {
+        "es": "Animación clásica",
+        "en": "Classic animation"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Rankin/Bass y Ralph Bakshi, 1977–1980.",
+        "en": "Rankin/Bass and Ralph Bakshi, 1977–1980."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-hobbit-1977",
+      "continuityId": "classic-animation",
+      "group": "classic-animation",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "bilbo",
+        "gandalf",
+        "gollum"
+      ]
+    },
+    {
+      "titleId": "the-lord-of-the-rings-1978",
+      "continuityId": "classic-animation",
+      "group": "classic-animation",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Cubre hasta la mitad de Las dos torres",
+        "en": "Covers up to midway through The Two Towers"
+      },
+      "characters": [
+        "frodo",
+        "gandalf",
+        "aragorn",
+        "gollum"
+      ],
+      "teams": [
+        "fellowship"
+      ]
+    },
+    {
+      "titleId": "the-return-of-the-king-1980",
+      "continuityId": "classic-animation",
+      "group": "classic-animation",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": [
+        "frodo",
+        "gandalf",
+        "gollum"
+      ]
+    },
+    {
+      "titleId": "the-lord-of-the-rings-the-fellowship-of-the-ring-2001",
+      "continuityId": "peter-jackson",
+      "group": "lord-of-the-rings",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "frodo",
+        "gandalf",
+        "aragorn",
+        "bilbo",
+        "gollum",
+        "galadriel",
+        "sauron"
+      ],
+      "teams": [
+        "fellowship"
+      ]
+    },
+    {
+      "titleId": "the-lord-of-the-rings-the-two-towers-2002",
+      "continuityId": "peter-jackson",
+      "group": "lord-of-the-rings",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "frodo",
+        "gandalf",
+        "aragorn",
+        "gollum"
+      ],
+      "teams": [
+        "fellowship"
+      ]
+    },
+    {
+      "titleId": "the-lord-of-the-rings-the-return-of-the-king-2003",
+      "continuityId": "peter-jackson",
+      "group": "lord-of-the-rings",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "frodo",
+        "gandalf",
+        "aragorn",
+        "gollum",
+        "sauron",
+        "galadriel"
+      ],
+      "teams": [
+        "fellowship"
+      ]
+    },
+    {
+      "titleId": "the-hobbit-an-unexpected-journey-2012",
+      "continuityId": "peter-jackson",
+      "group": "hobbit",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "bilbo",
+        "gandalf",
+        "gollum",
+        "galadriel"
+      ]
+    },
+    {
+      "titleId": "the-hobbit-the-desolation-of-smaug-2013",
+      "continuityId": "peter-jackson",
+      "group": "hobbit",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "bilbo",
+        "gandalf"
+      ]
+    },
+    {
+      "titleId": "the-hobbit-the-battle-of-the-five-armies-2014",
+      "continuityId": "peter-jackson",
+      "group": "hobbit",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "bilbo",
+        "gandalf",
+        "galadriel",
+        "sauron"
+      ]
+    },
+    {
+      "titleId": "the-lord-of-the-rings-the-rings-of-power-2022",
+      "continuityId": "rings-of-power",
+      "group": "series",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Segunda Edad",
+        "en": "Second Age"
+      },
+      "characters": [
+        "galadriel",
+        "sauron"
+      ]
+    },
+    {
+      "titleId": "the-lord-of-the-rings-the-war-of-the-rohirrim-2024",
+      "continuityId": "peter-jackson",
+      "group": "more-films",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "183 años antes de El Hobbit",
+        "en": "183 years before The Hobbit"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "the-lord-of-the-rings-the-hunt-for-gollum-2027",
+      "continuityId": "peter-jackson",
+      "group": "more-films",
+      "importance": "recommended",
+      "chronoOrder": 45,
+      "chronoNote": {
+        "es": "Entre El Hobbit y La Comunidad del Anillo",
+        "en": "Between The Hobbit and The Fellowship"
+      },
+      "characters": [
+        "gollum",
+        "gandalf",
+        "aragorn"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "sagas",
+      "type": "grouped",
+      "name": {
+        "es": "Por saga",
+        "en": "By saga"
+      },
+      "description": {
+        "es": "Cada trilogía junta, y después el resto.",
+        "en": "Each trilogy together, then the rest."
+      },
+      "groupLabels": {
+        "lord-of-the-rings": {
+          "es": "El Señor de los Anillos",
+          "en": "The Lord of the Rings"
+        },
+        "hobbit": {
+          "es": "El Hobbit",
+          "en": "The Hobbit"
+        },
+        "more-films": {
+          "es": "Más películas",
+          "en": "More films"
+        },
+        "series": {
+          "es": "Series",
+          "en": "Series"
+        },
+        "classic-animation": {
+          "es": "Animación clásica",
+          "en": "Classic animation"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-the-lord-of-the-rings-the-hunt-for-gollum-2027",
+      "name": {
+        "es": "Prepárate para La caza de Gollum",
+        "en": "Get ready for The Hunt for Gollum"
+      },
+      "description": {
+        "es": "De dónde viene Gollum y por qué Gandalf lo busca.",
+        "en": "Where Gollum comes from and why Gandalf hunts him."
+      },
+      "kind": "prep",
+      "targetTitleId": "the-lord-of-the-rings-the-hunt-for-gollum-2027",
+      "titleIds": [
+        "the-hobbit-an-unexpected-journey-2012",
+        "the-lord-of-the-rings-the-fellowship-of-the-ring-2001"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "frodo",
+        "name": {
+          "es": "Frodo",
+          "en": "Frodo"
+        }
+      },
+      {
+        "id": "bilbo",
+        "name": {
+          "es": "Bilbo",
+          "en": "Bilbo"
+        }
+      },
+      {
+        "id": "gandalf",
+        "name": {
+          "es": "Gandalf",
+          "en": "Gandalf"
+        }
+      },
+      {
+        "id": "aragorn",
+        "name": {
+          "es": "Aragorn",
+          "en": "Aragorn"
+        }
+      },
+      {
+        "id": "gollum",
+        "name": {
+          "es": "Gollum",
+          "en": "Gollum"
+        }
+      },
+      {
+        "id": "galadriel",
+        "name": {
+          "es": "Galadriel",
+          "en": "Galadriel"
+        }
+      },
+      {
+        "id": "sauron",
+        "name": {
+          "es": "Sauron",
+          "en": "Sauron"
+        }
+      }
+    ],
+    "teams": [
+      {
+        "id": "fellowship",
+        "name": {
+          "es": "La Comunidad del Anillo",
+          "en": "The Fellowship"
+        }
+      }
+    ]
+  }
+}

@@ -30,7 +30,18 @@ export function useFranchiseView(franchiseId: string | undefined) {
   );
   const visibleItems = useMemo(() => applyFilters(items, filters, isWatched), [items, filters, isWatched]);
 
-  const summary = summarize(items, isWatched);
+  // El progreso es de la franquicia (continuidades visibles), no del orden: un orden curado
+  // incluye solo algunos títulos. "Siguiente" sí sigue el orden activo (SPEC §8.1).
+  const allItems = useMemo(
+    () =>
+      franchise
+        ? order?.type === "curated"
+          ? computeOrder(franchise, { id: "release", type: "release", name: "" }, catalogIndex.titlesById, { hiddenContinuities })
+          : items
+        : [],
+    [franchise, order, items, hiddenContinuities],
+  );
+  const summary = summarize(allItems, isWatched);
   const next = nextUp(
     items.filter((i) => isReleased(i.title)),
     isWatched,

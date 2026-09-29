@@ -138,9 +138,481 @@
         "es": "La saga animada de Miles Morales. Independiente de todo lo demás.",
         "en": "Miles Morales' animated saga. Independent from everything else."
       }
+    },
+    {
+      "id": "marvel-tv-hulu-freeform",
+      "name": {
+        "es": "Marvel Television en Hulu y Freeform",
+        "en": "Marvel Television on Hulu & Freeform"
+      },
+      "canonLevel": "semicanon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Runaways, Cloak & Dagger y Helstrom. Nominalmente en el MCU, sin conexión con las películas.",
+        "en": "Runaways, Cloak & Dagger and Helstrom. Nominally in the MCU, with no ties to the films."
+      }
+    },
+    {
+      "id": "fox-xmen-tv",
+      "name": {
+        "es": "Series de X-Men de Fox",
+        "en": "Fox X-Men series"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Legion y The Gifted. Toman elementos de las películas, pero no encajan en ninguna de sus líneas.",
+        "en": "Legion and The Gifted. They borrow from the films but fit neither timeline."
+      }
+    },
+    {
+      "id": "fox-fantastic-four",
+      "name": {
+        "es": "Los 4 Fantásticos de Fox",
+        "en": "Fox's Fantastic Four"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Las dos películas de 2005 y 2007, y el reinicio de 2015.",
+        "en": "The 2005 and 2007 films, and the 2015 reboot."
+      }
+    },
+    {
+      "id": "marvel-90s-animation",
+      "name": {
+        "es": "Universo animado de los 90",
+        "en": "90s animated universe"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "X-Men, Spider-Man, Iron Man, los 4 Fantásticos y Hulk comparten mundo y cruces. X-Men '97 lo retoma.",
+        "en": "X-Men, Spider-Man, Iron Man, the Fantastic Four and Hulk share a world and crossovers. X-Men '97 picks it back up."
+      }
+    },
+    {
+      "id": "marvel-2010s-animation",
+      "name": {
+        "es": "Animación de Disney XD",
+        "en": "Disney XD animation"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Ultimate Spider-Man, Avengers Assemble, Hulk y Guardianes: un universo compartido de 2012 a 2019.",
+        "en": "Ultimate Spider-Man, Avengers Assemble, Hulk and Guardians: one shared universe from 2012 to 2019."
+      }
+    },
+    {
+      "id": "marvel-live-action-other",
+      "name": {
+        "es": "Otras adaptaciones live-action",
+        "en": "Other live-action adaptations"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "De las series de los 70 a Blade, Ghost Rider y Spider-Noir. Cada una va por su lado: se ordenan por estreno.",
+        "en": "From the 70s series to Blade, Ghost Rider and Spider-Noir. Each stands alone: ordered by release."
+      }
+    },
+    {
+      "id": "marvel-animation-other",
+      "name": {
+        "es": "Otras series y películas animadas",
+        "en": "Other animated series & films"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Seis décadas de animación: series clásicas, películas para video, anime, motion comics y Big Hero 6. Ordenadas por estreno.",
+        "en": "Six decades of animation: classic series, direct-to-video films, anime, motion comics and Big Hero 6. Ordered by release."
+      }
+    },
+    {
+      "id": "marvel-kids",
+      "name": {
+        "es": "Infantil y cortos",
+        "en": "Kids & shorts"
+      },
+      "canonLevel": "non-canon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Spidey, LEGO, Super Hero Squad y cortos. Sin canon, para ver en familia.",
+        "en": "Spidey, LEGO, Super Hero Squad and shorts. No canon, family viewing."
+      }
+    },
+    {
+      "id": "marvel-extras",
+      "name": {
+        "es": "Cortos y extras de estudio",
+        "en": "Studio shorts & extras"
+      },
+      "canonLevel": "non-canon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Team Thor, WHIH Newsfront y otros cortos promocionales.",
+        "en": "Team Thor, WHIH Newsfront and other promo shorts."
+      }
     }
   ],
   "entries": [
+    {
+      "titleId": "the-marvel-super-heroes-1966",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "captain-america",
+        "iron-man",
+        "thor",
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "spider-man-1967",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "the-fantastic-four-1967",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "spider-man-1977",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Piloto de la serie",
+        "en": "Series pilot"
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "the-incredible-hulk-1977",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "the-return-of-the-incredible-hulk-1977",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "the-amazing-spider-man-1978",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "japanese-spider-man-1978",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "dr-strange-1978",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "doctor-strange"
+      ]
+    },
+    {
+      "titleId": "the-fantastic-four-1978",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "spider-man-strikes-back-1978",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "captain-america-1979",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "captain-america"
+      ]
+    },
+    {
+      "titleId": "fred-and-barney-meet-the-thing-1979",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "spider-woman-1979",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "captain-america-ii-death-too-soon-1979",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "captain-america"
+      ]
+    },
+    {
+      "titleId": "spider-man-1981",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "spider-man-and-his-amazing-friends-1981",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "the-incredible-hulk-1982",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "howard-the-duck-1986",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional"
+    },
+    {
+      "titleId": "the-incredible-hulk-returns-1988",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "hulk",
+        "thor"
+      ]
+    },
+    {
+      "titleId": "the-trial-of-the-incredible-hulk-1989",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "hulk",
+        "daredevil"
+      ]
+    },
+    {
+      "titleId": "x-men-pryde-of-the-x-men-1989",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "the-punisher-1989",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "characters": [
+        "punisher"
+      ]
+    },
+    {
+      "titleId": "the-death-of-the-incredible-hulk-1990",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "captain-america-1990",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "captain-america"
+      ]
+    },
+    {
+      "titleId": "x-men-the-animated-series-1992",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "the-fantastic-four-1994",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Nunca se estrenó oficialmente",
+        "en": "Never officially released"
+      },
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "fantastic-four-1994",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "iron-man-1994",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
+      "titleId": "spider-man-the-animated-series-1994",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "generation-x-1996",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "the-incredible-hulk-1996",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "silver-surfer-1998",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional"
+    },
+    {
+      "titleId": "nick-fury-agent-of-shield-1998",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "characters": [
+        "nick-fury"
+      ],
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "blade-1998",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "blade"
+      ]
+    },
+    {
+      "titleId": "spider-man-unlimited-1999",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "the-avengers-united-they-stand-1999",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
+      ]
+    },
     {
       "titleId": "x-men-2000",
       "continuityId": "fox-xmen",
@@ -163,6 +635,37 @@
       ]
     },
     {
+      "titleId": "x-men-evolution-2000",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "mutant-x-2001",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "blade-ii-2002",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "blade"
+      ]
+    },
+    {
       "titleId": "spider-man-2002",
       "continuityId": "raimi-spider-man",
       "group": "raimi",
@@ -174,6 +677,19 @@
       },
       "characters": [
         "spider-man"
+      ]
+    },
+    {
+      "titleId": "daredevil-2003",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "daredevil"
       ]
     },
     {
@@ -198,6 +714,45 @@
       ]
     },
     {
+      "titleId": "hulk-2003",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "spider-man-the-new-animated-series-2003",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Sigue a la película de 2002",
+        "en": "Follows the 2002 film"
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "the-punisher-2004",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "punisher"
+      ]
+    },
+    {
       "titleId": "spider-man-2-2004",
       "continuityId": "raimi-spider-man",
       "group": "raimi",
@@ -209,6 +764,69 @@
       },
       "characters": [
         "spider-man"
+      ]
+    },
+    {
+      "titleId": "blade-trinity-2004",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "blade"
+      ]
+    },
+    {
+      "titleId": "elektra-2005",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "man-thing-2005",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "fantastic-four-2005",
+      "continuityId": "fox-fantastic-four",
+      "group": "fox-fantastic-four",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "ultimate-avengers-2006",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "captain-america",
+        "iron-man",
+        "thor",
+        "hulk",
+        "black-widow"
+      ],
+      "teams": [
+        "avengers"
       ]
     },
     {
@@ -233,6 +851,66 @@
       ]
     },
     {
+      "titleId": "blade-the-series-2006",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Tras Blade: Trinity",
+        "en": "After Blade: Trinity"
+      },
+      "characters": [
+        "blade"
+      ]
+    },
+    {
+      "titleId": "ultimate-avengers-2-2006",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "captain-america",
+        "iron-man",
+        "thor",
+        "hulk",
+        "black-panther"
+      ],
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
+      "titleId": "fantastic-four-worlds-greatest-heroes-2006",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "ghost-rider-2007",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "ghost-rider"
+      ]
+    },
+    {
+      "titleId": "the-invincible-iron-man-2007",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
       "titleId": "spider-man-3-2007",
       "continuityId": "raimi-spider-man",
       "group": "raimi",
@@ -242,6 +920,38 @@
         "mid": 0,
         "end": 0
       },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "fantastic-four-rise-of-the-silver-surfer-2007",
+      "continuityId": "fox-fantastic-four",
+      "group": "fox-fantastic-four",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "doctor-strange-2007",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "doctor-strange"
+      ]
+    },
+    {
+      "titleId": "the-spectacular-spider-man-2008",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "recommended",
       "characters": [
         "spider-man"
       ]
@@ -286,6 +996,77 @@
       ]
     },
     {
+      "titleId": "next-avengers-heroes-of-tomorrow-2008",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
+      "titleId": "punisher-war-zone-2008",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "punisher"
+      ]
+    },
+    {
+      "titleId": "wolverine-and-the-x-men-2009",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "hulk-vs-thor-2009",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "hulk",
+        "thor",
+        "loki"
+      ]
+    },
+    {
+      "titleId": "hulk-vs-wolverine-2009",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "hulk",
+        "wolverine",
+        "deadpool"
+      ]
+    },
+    {
+      "titleId": "marvel-super-heroes-what-the-2009",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "iron-man-armored-adventures-2009",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
       "titleId": "x-men-origins-wolverine-2009",
       "continuityId": "fox-xmen",
       "group": "fox-x-men",
@@ -305,6 +1086,59 @@
       ],
       "teams": [
         "x-men"
+      ]
+    },
+    {
+      "titleId": "spider-woman-agent-of-sword-2009",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      }
+    },
+    {
+      "titleId": "the-super-hero-squad-show-2009",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
+      "titleId": "astonishing-x-men-2009",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "black-panther-2010",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "black-panther"
+      ]
+    },
+    {
+      "titleId": "planet-hulk-2010",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "hulk"
       ]
     },
     {
@@ -331,6 +1165,84 @@
       ]
     },
     {
+      "titleId": "iron-man-anime-2010",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime de Madhouse",
+        "en": "Madhouse anime"
+      },
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
+      "titleId": "avengers-earths-mightiest-heroes-2010",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "recommended",
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
+      "titleId": "iron-man-extremis-2010",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
+      "titleId": "wolverine-anime-2011",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime de Madhouse",
+        "en": "Madhouse anime"
+      },
+      "characters": [
+        "wolverine"
+      ]
+    },
+    {
+      "titleId": "thor-and-loki-blood-brothers-2011",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "thor",
+        "loki"
+      ]
+    },
+    {
+      "titleId": "x-men-anime-2011",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime de Madhouse",
+        "en": "Madhouse anime"
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
       "titleId": "thor-2011",
       "continuityId": "mcu",
       "group": "phase-1",
@@ -354,6 +1266,16 @@
       ]
     },
     {
+      "titleId": "thor-tales-of-asgard-2011",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "thor",
+        "loki"
+      ]
+    },
+    {
       "titleId": "x-men-first-class-2011",
       "continuityId": "fox-xmen",
       "group": "fox-x-men",
@@ -372,6 +1294,19 @@
       ],
       "teams": [
         "x-men"
+      ]
+    },
+    {
+      "titleId": "blade-anime-2011",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime de Madhouse",
+        "en": "Madhouse anime"
+      },
+      "characters": [
+        "blade"
       ]
     },
     {
@@ -420,6 +1355,35 @@
       },
       "teams": [
         "shield"
+      ]
+    },
+    {
+      "titleId": "ghost-rider-spirit-of-vengeance-2011",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "ghost-rider"
+      ]
+    },
+    {
+      "titleId": "marvel-mash-up-2012",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "ultimate-spider-man-2012",
+      "continuityId": "marvel-2010s-animation",
+      "group": "animation-2010s",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "spider-man"
       ]
     },
     {
@@ -498,6 +1462,52 @@
       ]
     },
     {
+      "titleId": "marvel-knights-inhumans-2013",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      }
+    },
+    {
+      "titleId": "iron-man-rise-of-technovore-2013",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "iron-man",
+        "punisher"
+      ],
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "avengers-assemble-2013",
+      "continuityId": "marvel-2010s-animation",
+      "group": "animation-2010s",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
+      "titleId": "wolverine-origin-2013",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "wolverine"
+      ]
+    },
+    {
       "titleId": "the-wolverine-2013",
       "continuityId": "fox-xmen",
       "group": "fox-x-men",
@@ -513,6 +1523,30 @@
       },
       "characters": [
         "wolverine"
+      ]
+    },
+    {
+      "titleId": "hulk-and-the-agents-of-smash-2013",
+      "continuityId": "marvel-2010s-animation",
+      "group": "animation-2010s",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "ultimate-wolverine-vs-hulk-2013",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "wolverine",
+        "hulk"
       ]
     },
     {
@@ -570,6 +1604,29 @@
       ]
     },
     {
+      "titleId": "iron-man-and-hulk-heroes-united-2013",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "iron-man",
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "wolverine-versus-sabretooth-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "wolverine"
+      ]
+    },
+    {
       "titleId": "marvel-one-shot-all-hail-the-king-2014",
       "continuityId": "mcu",
       "group": "phase-2",
@@ -605,6 +1662,19 @@
       ]
     },
     {
+      "titleId": "marvel-disk-wars-the-avengers-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime",
+        "en": "Anime"
+      },
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
       "titleId": "the-amazing-spider-man-2-2014",
       "continuityId": "webb-spider-man",
       "group": "webb",
@@ -616,6 +1686,36 @@
       },
       "characters": [
         "spider-man"
+      ]
+    },
+    {
+      "titleId": "avengers-confidential-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime",
+        "en": "Anime"
+      },
+      "characters": [
+        "black-widow",
+        "punisher"
+      ],
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "wolverine-weapon-x-tomorrow-dies-today-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "wolverine"
       ]
     },
     {
@@ -640,6 +1740,16 @@
       ]
     },
     {
+      "titleId": "iron-man-and-captain-america-heroes-united-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "iron-man",
+        "captain-america"
+      ]
+    },
+    {
       "titleId": "guardians-of-the-galaxy-2014",
       "continuityId": "mcu",
       "group": "phase-2",
@@ -661,6 +1771,26 @@
       ]
     },
     {
+      "titleId": "marvel-knights-eternals-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      }
+    },
+    {
+      "titleId": "big-hero-6-2014",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Disney Animation",
+        "en": "Disney Animation"
+      }
+    },
+    {
       "titleId": "marvels-agent-carter-2015",
       "continuityId": "marvel-abc",
       "group": "abc",
@@ -672,6 +1802,19 @@
       },
       "teams": [
         "shield"
+      ]
+    },
+    {
+      "titleId": "wolverine-versus-sabretooth-reborn-2015",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Motion comic",
+        "en": "Motion comic"
+      },
+      "characters": [
+        "wolverine"
       ]
     },
     {
@@ -721,6 +1864,19 @@
       ]
     },
     {
+      "titleId": "whih-newsfront-2015",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Noticiero ficticio del MCU",
+        "en": "In-universe MCU newscast"
+      },
+      "characters": [
+        "ant-man"
+      ]
+    },
+    {
       "titleId": "ant-man-2015",
       "continuityId": "mcu",
       "group": "phase-2",
@@ -736,6 +1892,46 @@
       },
       "characters": [
         "ant-man"
+      ]
+    },
+    {
+      "titleId": "fantastic-four-2015",
+      "continuityId": "fox-fantastic-four",
+      "group": "fox-fantastic-four",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Reinicio, sin relación con las anteriores",
+        "en": "Reboot, unrelated to the previous ones"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "teams": [
+        "fantastic-four"
+      ]
+    },
+    {
+      "titleId": "guardians-of-the-galaxy-2015",
+      "continuityId": "marvel-2010s-animation",
+      "group": "animation-2010s",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "star-lord"
+      ],
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
+    },
+    {
+      "titleId": "lego-marvel-avengers-reassembled-2015",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
       ]
     },
     {
@@ -824,6 +2020,16 @@
       ]
     },
     {
+      "titleId": "team-thor-2016",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "characters": [
+        "thor",
+        "hulk"
+      ]
+    },
+    {
       "titleId": "luke-cage-2016",
       "continuityId": "marvel-netflix",
       "group": "netflix",
@@ -835,6 +2041,16 @@
       },
       "teams": [
         "defenders"
+      ]
+    },
+    {
+      "titleId": "hulk-where-monsters-dwell-2016",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "hulk",
+        "doctor-strange"
       ]
     },
     {
@@ -856,6 +2072,47 @@
       ]
     },
     {
+      "titleId": "marvel-funko-shorts-2016",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "agents-of-shield-slingshot-2016",
+      "continuityId": "marvel-abc",
+      "group": "abc",
+      "importance": "skippable",
+      "chronoOrder": 25,
+      "chronoNote": {
+        "es": "Durante la temporada 4",
+        "en": "During season 4"
+      },
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "legion-2017",
+      "continuityId": "fox-xmen-tv",
+      "group": "fox-x-men",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Continuidad ambigua",
+        "en": "Ambiguous continuity"
+      }
+    },
+    {
+      "titleId": "team-thor-part-2-2017",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "characters": [
+        "thor",
+        "hulk"
+      ]
+    },
+    {
       "titleId": "logan-2017",
       "continuityId": "fox-xmen-revised",
       "group": "fox-x-men",
@@ -874,6 +2131,28 @@
       ],
       "teams": [
         "x-men"
+      ]
+    },
+    {
+      "titleId": "deadpool-no-good-deed-2017",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Corto de Fox, antes de Logan",
+        "en": "Fox short, shown before Logan"
+      },
+      "characters": [
+        "deadpool"
+      ]
+    },
+    {
+      "titleId": "marvels-rocket-and-groot-2017",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "guardians-of-the-galaxy"
       ]
     },
     {
@@ -931,6 +2210,19 @@
       ]
     },
     {
+      "titleId": "marvels-future-avengers-2017",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Anime",
+        "en": "Anime"
+      },
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
       "titleId": "the-defenders-2017",
       "continuityId": "marvel-netflix",
       "group": "netflix",
@@ -948,6 +2240,15 @@
       ]
     },
     {
+      "titleId": "marvels-spider-man-2017",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
       "titleId": "inhumans-2017",
       "continuityId": "marvel-abc",
       "group": "abc",
@@ -957,6 +2258,20 @@
         "es": "2017",
         "en": "2017"
       }
+    },
+    {
+      "titleId": "the-gifted-2017",
+      "continuityId": "fox-xmen-tv",
+      "group": "fox-x-men",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Continuidad ambigua",
+        "en": "Ambiguous continuity"
+      },
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "thor-ragnarok-2017",
@@ -979,6 +2294,27 @@
       ]
     },
     {
+      "titleId": "marvel-super-hero-adventures-2017",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "the-fury-files-2017",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "nick-fury"
+      ],
+      "teams": [
+        "shield"
+      ]
+    },
+    {
       "titleId": "the-punisher-2017",
       "continuityId": "marvel-netflix",
       "group": "netflix",
@@ -991,6 +2327,23 @@
       "characters": [
         "punisher"
       ]
+    },
+    {
+      "titleId": "big-hero-6-the-series-2017",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Tras la película",
+        "en": "After the film"
+      }
+    },
+    {
+      "titleId": "runaways-2017",
+      "continuityId": "marvel-tv-hulu-freeform",
+      "group": "tv-hulu-freeform",
+      "importance": "optional",
+      "chronoOrder": 10
     },
     {
       "titleId": "black-panther-2018",
@@ -1008,6 +2361,15 @@
       },
       "characters": [
         "black-panther"
+      ]
+    },
+    {
+      "titleId": "team-darryl-2018",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "characters": [
+        "thor"
       ]
     },
     {
@@ -1065,6 +2427,13 @@
       ]
     },
     {
+      "titleId": "cloak-and-dagger-2018",
+      "continuityId": "marvel-tv-hulu-freeform",
+      "group": "tv-hulu-freeform",
+      "importance": "optional",
+      "chronoOrder": 20
+    },
+    {
       "titleId": "ant-man-and-the-wasp-2018",
       "continuityId": "mcu",
       "group": "phase-3",
@@ -1083,6 +2452,12 @@
       ]
     },
     {
+      "titleId": "marvel-rising-initiation-2018",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
+    },
+    {
       "titleId": "venom-2018",
       "continuityId": "sony-spider-man-universe",
       "group": "ssu",
@@ -1097,6 +2472,12 @@
       ]
     },
     {
+      "titleId": "marvel-rising-secret-warriors-2018",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
+    },
+    {
       "titleId": "spider-man-into-the-spider-verse-2018",
       "continuityId": "spider-verse-animated",
       "group": "spider-verse",
@@ -1109,6 +2490,12 @@
       "characters": [
         "spider-man"
       ]
+    },
+    {
+      "titleId": "marvel-rising-chasing-ghosts-2019",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
     },
     {
       "titleId": "captain-marvel-2019",
@@ -1131,6 +2518,21 @@
       "teams": [
         "shield"
       ]
+    },
+    {
+      "titleId": "spider-ham-caught-in-a-ham-2019",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "marvel-rising-heart-of-iron-2019",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
     },
     {
       "titleId": "avengers-endgame-2019",
@@ -1206,6 +2608,53 @@
       ]
     },
     {
+      "titleId": "lego-marvel-spider-man-vexed-by-venom-2019",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "spider-man",
+        "venom"
+      ]
+    },
+    {
+      "titleId": "marvel-rising-battle-of-the-bands-2019",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "peters-to-do-list-2019",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Entre escenas de Far From Home",
+        "en": "Between Far From Home scenes"
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "marvel-rising-operation-shuri-2019",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "marvel-rising-playing-with-fire-2019",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "marvel-battleworld-2020",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable"
+    },
+    {
       "titleId": "the-new-mutants-2020",
       "continuityId": "fox-xmen-revised",
       "group": "fox-x-men",
@@ -1219,6 +2668,22 @@
         "mid": 0,
         "end": 0
       }
+    },
+    {
+      "titleId": "helstrom-2020",
+      "continuityId": "marvel-tv-hulu-freeform",
+      "group": "tv-hulu-freeform",
+      "importance": "skippable",
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "lego-marvel-avengers-climate-conundrum-2020",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
+      ]
     },
     {
       "titleId": "wandavision-2021",
@@ -1250,6 +2715,12 @@
       ]
     },
     {
+      "titleId": "modok-2021",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional"
+    },
+    {
       "titleId": "loki-2021",
       "continuityId": "mcu",
       "group": "phase-4",
@@ -1279,6 +2750,15 @@
       },
       "characters": [
         "black-widow"
+      ]
+    },
+    {
+      "titleId": "spidey-and-his-amazing-friends-2021",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
       ]
     },
     {
@@ -1322,6 +2802,18 @@
       ]
     },
     {
+      "titleId": "lego-marvel-avengers-loki-in-training-2021",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "loki"
+      ],
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
       "titleId": "eternals-2021",
       "continuityId": "mcu",
       "group": "phase-4",
@@ -1335,6 +2827,12 @@
         "mid": 1,
         "end": 1
       }
+    },
+    {
+      "titleId": "hit-monkey-2021",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional"
     },
     {
       "titleId": "hawkeye-2021",
@@ -1368,6 +2866,15 @@
         "spider-man",
         "doctor-strange",
         "daredevil"
+      ]
+    },
+    {
+      "titleId": "lego-marvel-avengers-time-twisted-2022",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
       ]
     },
     {
@@ -1420,6 +2927,16 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
+      }
+    },
+    {
+      "titleId": "baymax-2022",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Tras Big Hero 6",
+        "en": "After Big Hero 6"
       }
     },
     {
@@ -1524,6 +3041,21 @@
       ]
     },
     {
+      "titleId": "marvel-lucha-libre-edition-2023",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "moon-girl-and-devil-dinosaur-2023",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional"
+    },
+    {
       "titleId": "ant-man-and-the-wasp-quantumania-2023",
       "continuityId": "mcu",
       "group": "phase-5",
@@ -1591,6 +3123,15 @@
       ]
     },
     {
+      "titleId": "lego-marvel-avengers-code-red-2023",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
       "titleId": "the-marvels-2023",
       "continuityId": "mcu",
       "group": "phase-5",
@@ -1639,6 +3180,23 @@
       }
     },
     {
+      "titleId": "x-men-97-2024",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "Continúa la serie de 1992",
+        "en": "Continues the 1992 series"
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
       "titleId": "deadpool-and-wolverine-2024",
       "continuityId": "mcu",
       "group": "phase-5",
@@ -1667,6 +3225,15 @@
         "es": "2026",
         "en": "2026"
       }
+    },
+    {
+      "titleId": "lego-marvel-avengers-mission-demolition-2024",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "teams": [
+        "avengers"
+      ]
     },
     {
       "titleId": "venom-the-last-dance-2024",
@@ -1777,6 +3344,15 @@
       }
     },
     {
+      "titleId": "meet-iron-man-and-his-awesome-friends-2025",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
       "titleId": "the-fantastic-4-first-steps-2025",
       "continuityId": "mcu",
       "group": "phase-6",
@@ -1809,6 +3385,15 @@
       ]
     },
     {
+      "titleId": "iron-man-and-his-awesome-friends-2025",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
       "titleId": "marvel-zombies-2025",
       "continuityId": "mcu-multiverse",
       "group": "phase-5",
@@ -1818,6 +3403,28 @@
         "es": "Multiverso",
         "en": "Multiverse"
       }
+    },
+    {
+      "titleId": "spidey-and-iron-man-avengers-team-up-2025",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "spider-man",
+        "iron-man"
+      ]
+    },
+    {
+      "titleId": "lego-marvel-avengers-strange-tails-2025",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "doctor-strange"
+      ],
+      "teams": [
+        "avengers"
+      ]
     },
     {
       "titleId": "wonder-man-2026",
@@ -1841,6 +3448,15 @@
       ]
     },
     {
+      "titleId": "spider-noir-2026",
+      "continuityId": "marvel-live-action-other",
+      "group": "live-action",
+      "importance": "optional",
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
       "titleId": "spider-man-brand-new-day-2026",
       "continuityId": "mcu",
       "group": "phase-6",
@@ -1850,6 +3466,18 @@
         "spider-man",
         "punisher",
         "hulk"
+      ]
+    },
+    {
+      "titleId": "spidey-and-the-avengers-halloween-team-up-2026",
+      "continuityId": "marvel-kids",
+      "group": "kids",
+      "importance": "skippable",
+      "characters": [
+        "spider-man"
+      ],
+      "teams": [
+        "avengers"
       ]
     },
     {
@@ -1894,6 +3522,34 @@
       "importance": "essential",
       "teams": [
         "avengers"
+      ]
+    },
+    {
+      "titleId": "untitled-x-men-film-2028",
+      "continuityId": "mcu",
+      "group": "future",
+      "importance": "recommended",
+      "chronoOrder": 640,
+      "chronoNote": {
+        "es": "Anunciada, sin título",
+        "en": "Announced, untitled"
+      },
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "black-panther-3-2028",
+      "continuityId": "mcu",
+      "group": "future",
+      "importance": "recommended",
+      "chronoOrder": 650,
+      "chronoNote": {
+        "es": "Anunciada",
+        "en": "Announced"
+      },
+      "characters": [
+        "black-panther"
       ]
     }
   ],
@@ -1958,6 +3614,10 @@
           "es": "Fase 6",
           "en": "Phase 6"
         },
+        "future": {
+          "es": "Próximamente, sin fase",
+          "en": "Upcoming, no phase"
+        },
         "netflix": {
           "es": "Marvel en Netflix",
           "en": "Marvel on Netflix"
@@ -1985,6 +3645,38 @@
         "spider-verse": {
           "es": "Spider-Verse animado",
           "en": "Animated Spider-Verse"
+        },
+        "tv-hulu-freeform": {
+          "es": "Marvel en Hulu y Freeform",
+          "en": "Marvel on Hulu & Freeform"
+        },
+        "fox-fantastic-four": {
+          "es": "Los 4 Fantásticos de Fox",
+          "en": "Fox's Fantastic Four"
+        },
+        "animation-90s": {
+          "es": "Animación de los 90",
+          "en": "90s animation"
+        },
+        "animation-2010s": {
+          "es": "Animación de Disney XD",
+          "en": "Disney XD animation"
+        },
+        "live-action": {
+          "es": "Otras adaptaciones live-action",
+          "en": "Other live-action"
+        },
+        "animation": {
+          "es": "Otra animación",
+          "en": "Other animation"
+        },
+        "kids": {
+          "es": "Infantil y cortos",
+          "en": "Kids & shorts"
+        },
+        "extras": {
+          "es": "Cortos y extras de estudio",
+          "en": "Studio shorts & extras"
         }
       }
     },
@@ -2438,6 +4130,20 @@
         "name": {
           "es": "Venom",
           "en": "Venom"
+        }
+      },
+      {
+        "id": "blade",
+        "name": {
+          "es": "Blade",
+          "en": "Blade"
+        }
+      },
+      {
+        "id": "ghost-rider",
+        "name": {
+          "es": "Ghost Rider",
+          "en": "Ghost Rider"
         }
       }
     ],

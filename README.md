@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 2 (sync con Firebase: login con Google, Firestore offline, perfiles).
+**Estado:** fase 4 — 6 franquicias (Marvel completo, Star Wars, DC, Wizarding World, Middle-earth, MonsterVerse), Hub y búsqueda global.
 
 ## Desarrollo
 
