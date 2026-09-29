@@ -1,48 +1,77 @@
 import type { CSSProperties, ReactNode } from "react";
+import { onColor } from "../lib/color";
 import { posterUrl, type PosterSize } from "../lib/tmdb";
 import { useLang } from "../lib/i18n";
 import { splitRuntime } from "../lib/progress";
 import type { Importance, Title } from "../lib/types";
 
+// Componentes base del design system wxlter: borde 2px, radio 0, sin sombras,
+// hover por inversión de color (≤120ms).
+
 export function accentStyle(color: string): CSSProperties {
-  return { "--accent": color } as CSSProperties;
+  return { "--accent": color, "--on-accent": onColor(color) } as CSSProperties;
 }
 
-export function Poster({
-  title,
-  size,
-  className = "",
-}: {
-  title: Title;
-  size: PosterSize;
-  className?: string;
-}) {
+/** Ícono de la app: la "O" de Order sobre Faro (siguiente paso de la serie de íconos). */
+export function AppMark({ size = 32 }: { size?: number }) {
+  return (
+    <span
+      aria-hidden
+      className="grid shrink-0 place-items-center bg-faro font-display text-tinta"
+      style={{ width: size, height: size, fontSize: size * 0.55, lineHeight: 1, letterSpacing: "-0.04em" }}
+    >
+      O
+    </span>
+  );
+}
+
+/** Símbolo W monocromo de la marca madre (trazo 17 por ser < 32px). */
+export function WxlterSymbol({ size = 16 }: { size?: number }) {
+  return (
+    <svg viewBox="0 0 100 100" width={size} height={size} aria-hidden className="shrink-0">
+      <polyline
+        points="14,24 32,76 50,44 68,76 86,24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={17}
+        strokeLinejoin="miter"
+      />
+    </svg>
+  );
+}
+
+export function SectionLabel({ id, children }: { id?: string; children: ReactNode }) {
+  return (
+    <h2 id={id} className="label mb-2 text-muted">
+      {children}
+    </h2>
+  );
+}
+
+export function Poster({ title, size, className = "" }: { title: Title; size: PosterSize; className?: string }) {
   const src = posterUrl(title.posterPath, size);
   return (
-    <div className={`relative shrink-0 overflow-hidden rounded-md bg-surface-2 ring-1 ring-white/5 ${className}`}>
+    <div className={`relative shrink-0 overflow-hidden border-2 border-line bg-surface-muted ${className}`}>
       {src ? (
         <img key={src} src={src} alt="" loading="lazy" decoding="async" className="size-full object-cover" />
       ) : (
-        <div className="grid size-full place-items-center p-1 text-center text-[10px] leading-tight text-faint">
-          {title.title}
-        </div>
+        <div className="label grid size-full place-items-center p-1 text-center text-[9px] text-muted">{title.title}</div>
       )}
     </div>
   );
 }
 
-const importanceColor: Record<Importance, string> = {
-  essential: "text-essential",
-  recommended: "text-recommended",
-  optional: "text-optional",
-  skippable: "text-skippable",
+const importanceClass: Record<Importance, string> = {
+  essential: "bg-faro text-tinta border-tinta",
+  recommended: "bg-tinta text-faro border-tinta dark:border-faro",
+  optional: "border-line-soft text-muted",
+  skippable: "border-dashed border-line-soft text-muted",
 };
 
 export function ImportanceBadge({ importance }: { importance: Importance }) {
   const { t } = useLang();
   return (
-    <span className={`inline-flex items-center gap-1 text-xs font-medium ${importanceColor[importance]}`}>
-      <span aria-hidden className="size-1.5 rounded-full bg-current" />
+    <span className={`inline-block border-2 px-1.5 py-px font-mono text-[10px] font-bold tracking-[0.1em] uppercase ${importanceClass[importance]}`}>
       {t(`importance.${importance}`)}
     </span>
   );
@@ -56,9 +85,9 @@ export function ProgressBar({ ratio, label }: { ratio: number; label: string }) 
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={Math.round(ratio * 100)}
-      className="h-1.5 overflow-hidden rounded-full bg-white/10"
+      className="h-3 border-2 border-line bg-surface"
     >
-      <div className="h-full rounded-full bg-(--accent) transition-[width] duration-300" style={{ width: `${ratio * 100}%` }} />
+      <div className="h-full bg-accent" style={{ width: `${ratio * 100}%` }} />
     </div>
   );
 }
@@ -70,29 +99,89 @@ export function WatchToggle({ watched, label, onToggle }: { watched: boolean; la
       aria-pressed={watched}
       aria-label={label}
       onClick={onToggle}
-      className={`grid size-11 shrink-0 place-items-center rounded-full border transition-colors ${
-        watched
-          ? "border-transparent bg-(--accent) text-white"
-          : "border-line text-faint hover:border-muted hover:text-muted"
+      className={`grid size-11 shrink-0 place-items-center border-2 border-line transition-colors duration-[120ms] ease-out ${
+        watched ? "bg-accent text-on-accent" : "bg-surface text-muted hover:bg-fg hover:text-bg"
       }`}
     >
-      <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth={2.5} aria-hidden>
-        <path d="M5 12.5l4.5 4.5L19 7.5" strokeLinecap="round" strokeLinejoin="round" />
+      <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth={3} aria-hidden>
+        <path d="M4.5 12.5l5 5L19.5 7" strokeLinecap="square" strokeLinejoin="miter" />
       </svg>
     </button>
   );
 }
 
-/** "2008 · Película · 2 h 6 min" o "2021 · Serie · 2 temporadas". */
+/**
+ * Tabs de la marca: borde exterior de 2px y separadores de 2px (el hueco del grid deja ver
+ * el color de línea), la activa con fondo de acento. `layout`: flex (por defecto) o un grid.
+ */
+export function Tabs<T extends string>({
+  label,
+  value,
+  options,
+  onChange,
+  size = "md",
+  layout = "flex",
+}: {
+  label: string;
+  value: T | undefined;
+  options: { value: T; label: string; disabled?: boolean }[];
+  onChange: (value: T) => void;
+  size?: "sm" | "md";
+  layout?: string;
+}) {
+  return (
+    <div role="radiogroup" aria-label={label} className={`gap-[2px] border-2 border-line bg-line ${layout}`}>
+      {options.map((o) => {
+        const active = o.value === value;
+        return (
+          <button
+            key={o.value}
+            type="button"
+            role="radio"
+            aria-checked={active}
+            disabled={o.disabled}
+            onClick={() => onChange(o.value)}
+            className={`flex-auto font-mono tracking-[0.08em] whitespace-nowrap uppercase transition-colors duration-[120ms] ease-out disabled:text-muted disabled:opacity-60 ${
+              size === "sm" ? "px-2 py-1 text-[11px]" : "min-h-11 px-3 py-2 text-xs"
+            } ${active ? "bg-accent font-bold text-on-accent" : "bg-surface text-fg enabled:hover:bg-fg enabled:hover:text-bg"}`}
+          >
+            {o.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+/** Toggle cuadrado de la marca: 52×28, Faro cuando está activo. */
+export function Toggle({ checked, label, onChange }: { checked: boolean; label: string; onChange: (v: boolean) => void }) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={checked}
+      aria-label={label}
+      title={label}
+      onClick={() => onChange(!checked)}
+      className={`flex h-7 w-[52px] shrink-0 border-2 border-line p-0.5 ${checked ? "justify-end bg-faro" : "justify-start bg-surface"}`}
+    >
+      <span className={`size-5 ${checked ? "bg-tinta" : "bg-fg"}`} />
+    </button>
+  );
+}
+
+/** Aviso: borde 2px con barra izquierda de 10px. */
+export function Notice({ children }: { children: ReactNode }) {
+  return <div className="border-2 border-l-[10px] border-line border-l-faro bg-surface px-3.5 py-3 text-sm">{children}</div>;
+}
+
+/** "2008 · PELÍCULA · 2 H 6 MIN" o "2021 · SERIE · 2 TEMPORADAS". */
 export function TitleMeta({ title }: { title: Title }) {
   const { t } = useLang();
-  const parts: ReactNode[] = [title.releaseDate.slice(0, 4), t(`kind.${title.kind}`)];
-  if (title.seasons?.length) {
-    parts.push(t("title.seasons", { count: title.seasons.length }));
-  } else if (title.runtimeMin) {
-    parts.push(formatRuntime(title.runtimeMin, t));
-  }
-  return <span className="text-xs text-muted">{parts.join(" · ")}</span>;
+  const parts: string[] = [title.releaseDate.slice(0, 4), t(`kind.${title.kind}`)];
+  if (title.seasons?.length) parts.push(t("title.seasons", { count: title.seasons.length }));
+  else if (title.runtimeMin) parts.push(formatRuntime(title.runtimeMin, t));
+  return <span className="font-mono text-[11px] tracking-[0.06em] text-muted uppercase">{parts.join(" · ")}</span>;
 }
 
 export function formatRuntime(min: number, t: ReturnType<typeof useLang>["t"]): string {
@@ -105,11 +194,7 @@ export function PostCreditsIcon({ mid, end }: { mid: number; end: number }) {
   const count = mid + end;
   if (!count) return null;
   return (
-    <span className="inline-flex items-center gap-1 text-xs text-muted" title={t("postCredits.detail", { mid, end })}>
-      <svg viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden>
-        <rect x="2" y="3" width="12" height="10" rx="1.5" />
-        <path d="M5 6.5h6M5 9.5h4" strokeLinecap="round" />
-      </svg>
+    <span className="font-mono text-[11px] text-muted" title={t("postCredits.detail", { mid, end })}>
       {t("postCredits.short", { count })}
     </span>
   );

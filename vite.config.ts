@@ -10,7 +10,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.svg", "apple-touch-icon.png"],
+      includeAssets: ["favicon.png", "apple-touch-icon.png"],
       manifest: {
         name: "Watch Order",
         short_name: "Watch Order",
@@ -18,8 +18,8 @@ export default defineConfig({
         lang: "es",
         start_url: "/",
         display: "standalone",
-        background_color: "#0b0b0f",
-        theme_color: "#0b0b0f",
+        background_color: "#F4F3EF",
+        theme_color: "#111111",
         icons: [
           { src: "pwa-192.png", sizes: "192x192", type: "image/png" },
           { src: "pwa-512.png", sizes: "512x512", type: "image/png" },

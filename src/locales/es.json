@@ -6,14 +6,16 @@
   "nav": {
     "home": "Inicio",
     "back": "Volver",
-    "language": "Idioma"
+    "language": "Idioma",
+    "darkMode": "Modo oscuro"
   },
   "hub": {
     "franchises": "Franquicias",
     "continue": "Continuar viendo",
-    "upNext": "Sigue: {{title}}",
+    "upNext": "Sigue",
     "allCaughtUp": "Estás al día",
-    "open": "Abrir {{name}}"
+    "open": "Abrir",
+    "eyebrow": "Watch Order — tus sagas"
   },
   "progress": {
     "count": "{{watched}} de {{total}} vistos",
@@ -25,7 +27,9 @@
     "order": "Orden",
     "continuities": "Continuidades",
     "empty": "No hay títulos con estos filtros.",
-    "notFound": "No encontramos esa franquicia."
+    "notFound": "No encontramos esa franquicia.",
+    "progress": "Progreso",
+    "label": "Franquicia"
   },
   "canon": {
     "main": "Principal",
@@ -83,6 +87,7 @@
     "notFound": "No encontramos ese título."
   },
   "about": {
-    "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+    "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "madeBy": "Hecho por wxlter."
   }
 }

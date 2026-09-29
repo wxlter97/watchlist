@@ -14,20 +14,27 @@ export function TitleRow({ item, showChronoNote }: { item: OrderedItem; showChro
   const display = name(title);
 
   return (
-    <li className="flex items-center gap-3 py-2.5">
-      <span className="w-6 shrink-0 text-right text-xs tabular-nums text-faint">{position}</span>
-      <Link
-        to={`/t/${title.id}`}
-        className={`flex min-w-0 flex-1 items-center gap-3 rounded-lg transition-opacity ${watched ? "opacity-60" : ""}`}
-      >
-        <Poster title={title} size="w92" className="h-[72px] w-12" />
+    <li className="flex items-center gap-3 border-b-2 border-line-soft py-3">
+      <span className="w-6 shrink-0 text-right font-mono text-xs text-muted tabular-nums">
+        {String(position).padStart(2, "0")}
+      </span>
+      <Link to={`/t/${title.id}`} className="group flex min-w-0 flex-1 items-center gap-3">
+        <Poster title={title} size="w92" className={`h-[72px] w-12 ${watched ? "opacity-50" : ""}`} />
         <div className="min-w-0 flex-1">
-          <p className="truncate text-[15px] font-medium leading-snug">{display}</p>
+          <p
+            className={`truncate text-[15px] leading-snug font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4 ${
+              watched ? "text-muted" : ""
+            }`}
+          >
+            {display}
+          </p>
           <TitleMeta title={title} />
-          <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-0.5">
+          <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1">
             <ImportanceBadge importance={entry.importance} />
             {entry.postCredits && <PostCreditsIcon {...entry.postCredits} />}
-            {showChronoNote && entry.chronoNote && <span className="text-xs text-faint">{loc(entry.chronoNote)}</span>}
+            {showChronoNote && entry.chronoNote && (
+              <span className="font-mono text-[11px] text-muted">{loc(entry.chronoNote)}</span>
+            )}
           </div>
         </div>
       </Link>
@@ -38,7 +45,9 @@ export function TitleRow({ item, showChronoNote }: { item: OrderedItem; showChro
           onToggle={() => setStatus(title.id, watched ? null : "watched")}
         />
       ) : (
-        <span className="w-16 shrink-0 text-right text-[11px] leading-tight text-muted">{date(title.releaseDate)}</span>
+        <span className="w-16 shrink-0 text-right font-mono text-[10px] leading-tight text-muted uppercase">
+          {date(title.releaseDate)}
+        </span>
       )}
     </li>
   );

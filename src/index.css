@@ -1,45 +1,137 @@
 @import "tailwindcss";
+@import "@fontsource/archivo/latin-400.css";
+@import "@fontsource/archivo/latin-600.css";
+@import "@fontsource/archivo/latin-700.css";
+@import "@fontsource/archivo-black/latin-400.css";
+@import "@fontsource/jetbrains-mono/latin-400.css";
+@import "@fontsource/jetbrains-mono/latin-700.css";
 
-@theme {
-  --color-bg: #0b0b0f;
-  --color-surface: #14141b;
-  --color-surface-2: #1c1c25;
-  --color-line: #2a2a35;
-  --color-ink: #ececf1;
-  --color-muted: #a1a1b0;
-  --color-faint: #70707f;
+/*
+ * Tokens de la marca wxlter (Design System v1.0).
+ * Radio 0 siempre, bordes de 2px, sin sombras. El amarillo nunca es texto sobre fondo claro.
+ * Claro u oscuro según el sistema; data-theme en <html> fija uno explícito.
+ */
 
-  --color-essential: #f2c14e;
-  --color-recommended: #7cc4ff;
-  --color-optional: #a1a1b0;
-  --color-skippable: #70707f;
-
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-}
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 :root {
+  --faro: #ffdb00;
+  --tinta: #111111;
+  --papel: #f4f3ef;
+  --humo: #6b6b63;
+  --ceniza: #c9c9c2;
+  --ink-soft: #3d3d38;
+  --ink-raised: #1c1c1a;
+  --on-ink: #edede7;
+  --on-ink-dim: #8a8a80;
+  --alerta: #d92b0c;
+  --listo: #0b7a45;
+
+  /* Acento de la vista: Faro por defecto; cada franquicia lo sobrescribe con su accentColor. */
+  --accent: var(--faro);
+  --on-accent: var(--tinta);
+}
+
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: var(--papel);
+  --surface: #ffffff;
+  --surface-muted: #efefe9;
+  --fg: var(--tinta);
+  --fg-soft: var(--ink-soft);
+  --fg-muted: var(--humo);
+  --line: var(--tinta);
+  --line-soft: var(--ceniza);
+  --focus: var(--faro);
+}
+
+:root[data-theme="dark"] {
   color-scheme: dark;
-  /* Acento por defecto; cada franquicia lo sobrescribe con su accentColor. */
-  --accent: #8b8bff;
+  --bg: var(--tinta);
+  --surface: var(--ink-raised);
+  --surface-muted: #262623;
+  --fg: var(--on-ink);
+  --fg-soft: #cfcfc7;
+  --fg-muted: var(--on-ink-dim);
+  --line: var(--on-ink);
+  --line-soft: var(--ink-soft);
+  --focus: var(--faro);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-fg: var(--fg);
+  --color-fg-soft: var(--fg-soft);
+  --color-muted: var(--fg-muted);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-faro: var(--faro);
+  --color-tinta: var(--tinta);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-alerta: var(--alerta);
+  --color-listo: var(--listo);
+
+  --font-sans: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Archivo Black", "Archivo", "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --radius-none: 0;
 }
 
 html {
-  background: var(--color-bg);
+  background: var(--bg);
   -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  background: var(--color-bg);
-  color: var(--color-ink);
+  background: var(--bg);
+  color: var(--fg);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Foco visible obligatorio: 3px Faro; sobre bloques amarillos, Tinta. */
 :focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
+  outline: 3px solid var(--focus);
+  outline-offset: 0;
+}
+.on-faro :focus-visible,
+.on-faro:focus-visible {
+  outline-color: var(--tinta);
+}
+
+@layer components {
+  /* Titulares: Archivo Black, tracking negativo, interlineado < 1.05. */
+  .display {
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+  }
+  /* Etiquetas y datos: mono en mayúsculas. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  /* Enlace de texto: mono 13/700 con subrayado Faro de 2px. */
+  .text-link {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 0;
+    border-bottom: 2px solid var(--faro);
+    transition: border-color 120ms ease-out;
+  }
+  .text-link:hover {
+    border-bottom-color: var(--fg);
+  }
 }
 
 .scrollbar-none {

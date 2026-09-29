@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
-import { accentStyle, formatRuntime, ImportanceBadge, Poster } from "../../components/ui";
+import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLabel, Tabs } from "../../components/ui";
 import { catalogIndex } from "../../lib/catalog";
 import { titleOverview, useLang } from "../../lib/i18n";
 import { isReleased } from "../../lib/progress";
@@ -20,7 +20,7 @@ export function TitlePage() {
   if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
 
   const appearances = catalogIndex.franchisesByTitle.get(title.id) ?? [];
-  const accent = appearances[0]?.franchise.accentColor ?? "#8b8bff";
+  const accent = appearances[0]?.franchise.accentColor ?? "#FFDB00";
   const released = isReleased(title);
   const overview = titleOverview(title, lang);
   // Sin spoilers por defecto: la sinopsis de lo no visto queda oculta hasta revelarla.
@@ -37,94 +37,84 @@ export function TitlePage() {
   ].filter(Boolean);
 
   return (
-    <article style={accentStyle(accent)} className="pt-2">
-      <button type="button" onClick={() => navigate(-1)} className="text-sm text-muted hover:text-ink">
+    <article style={accentStyle(accent)} className="pt-5">
+      <button type="button" onClick={() => navigate(-1)} className="text-link uppercase">
         ← {t("nav.back")}
       </button>
 
-      <header className="mt-4 flex gap-4">
+      <header className="mt-6 flex gap-4">
         <Poster title={title} size="w342" className="aspect-[2/3] w-28 sm:w-40" />
         <div className="min-w-0 self-end">
-          <h1 className="text-2xl font-bold leading-tight tracking-tight">{display}</h1>
-          {display !== title.title && <p className="mt-0.5 text-sm text-faint">{title.title}</p>}
-          <p className="mt-2 text-sm text-muted">{meta.join(" · ")}</p>
+          <h1 className="display text-[31px] sm:text-[39px]">{display}</h1>
+          {display !== title.title && <p className="mt-2 text-sm text-muted">{title.title}</p>}
+          <p className="mt-3 font-mono text-[11px] leading-relaxed tracking-[0.06em] text-muted uppercase">
+            {meta.join(" · ")}
+          </p>
         </div>
       </header>
 
-      <section className="mt-6" aria-labelledby="status-label">
-        <h2 id="status-label" className="mb-2 text-xs font-semibold tracking-wide text-faint uppercase">
-          {t("title.status")}
-        </h2>
-        <div role="radiogroup" aria-labelledby="status-label" className="grid grid-cols-2 gap-1 rounded-xl bg-surface p-1 sm:grid-cols-4">
-          {STATUSES.map((s) => {
-            const active = status === s;
-            const disabled = !released && s !== "planned";
-            return (
-              <button
-                key={s}
-                type="button"
-                role="radio"
-                aria-checked={active}
-                disabled={disabled}
-                onClick={() => setStatus(title.id, active ? null : s)}
-                className={`rounded-lg px-1 py-2 text-sm font-medium transition-colors disabled:opacity-30 ${
-                  active ? "bg-(--accent) text-white" : "text-muted enabled:hover:text-ink"
-                }`}
-              >
-                {t(`status.${s}`)}
-              </button>
-            );
-          })}
-        </div>
+      <section className="mt-8">
+        <SectionLabel>{t("title.status")}</SectionLabel>
+        {/* Tocar el estado activo lo quita. */}
+        <Tabs
+          label={t("title.status")}
+          value={status}
+          layout="grid grid-cols-2 sm:grid-cols-4"
+          options={STATUSES.map((s) => ({ value: s, label: t(`status.${s}`), disabled: !released && s !== "planned" }))}
+          onChange={(s) => setStatus(title.id, s === status ? null : s)}
+        />
       </section>
 
-      <section className="mt-6">
-        <h2 className="mb-2 text-xs font-semibold tracking-wide text-faint uppercase">{t("title.overview")}</h2>
+      <section className="mt-8">
+        <SectionLabel>{t("title.overview")}</SectionLabel>
         {!overview ? (
           <p className="text-sm text-muted">{t("title.noOverview")}</p>
         ) : showOverview ? (
-          <p className="leading-relaxed text-ink/90">{overview}</p>
+          <p className="max-w-[70ch] text-base leading-[1.55] text-fg-soft">{overview}</p>
         ) : (
-          <div className="rounded-xl border border-dashed border-line p-4 text-sm">
-            <p className="text-muted">{t("title.spoilerHidden")}</p>
-            <button type="button" onClick={() => setRevealed(true)} className="mt-2 font-medium text-(--accent)">
-              {t("title.reveal")}
+          <Notice>
+            <p className="leading-[1.5]">{t("title.spoilerHidden")}</p>
+            <button type="button" onClick={() => setRevealed(true)} className="text-link mt-2 uppercase">
+              {t("title.reveal")} →
             </button>
-          </div>
+          </Notice>
         )}
       </section>
 
       {appearances.length > 0 && (
-        <section className="mt-6">
-          <h2 className="mb-2 text-xs font-semibold tracking-wide text-faint uppercase">{t("title.appearsIn")}</h2>
-          <ul className="space-y-2">
+        <section className="mt-8">
+          <SectionLabel>{t("title.appearsIn")}</SectionLabel>
+          <ul className="space-y-4">
             {appearances.map(({ franchise, entry }) => {
               const continuity = franchise.continuities.find((c) => c.id === entry.continuityId);
               return (
                 <li key={franchise.id} style={accentStyle(franchise.accentColor)}>
-                  <Link
-                    to={`/f/${franchise.id}`}
-                    className="block rounded-xl bg-surface p-3 ring-1 ring-white/5 transition-colors hover:bg-surface-2"
-                  >
-                    <p className="font-medium">
-                      <span className="text-(--accent)">{loc(franchise.name)}</span>
-                      {continuity && <span className="text-muted"> · {loc(continuity.name)}</span>}
-                    </p>
-                    <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+                  <Link to={`/f/${franchise.id}`} className="group block border-2 border-line bg-surface">
+                    <div className="label flex justify-between gap-2 border-b-2 border-line bg-accent px-3.5 py-2.5 font-bold text-on-accent">
+                      <span>{loc(franchise.name)}</span>
+                      <span aria-hidden>→</span>
+                    </div>
+                    <div className="space-y-2 p-3.5 text-sm">
+                      {continuity && <p className="font-semibold">{loc(continuity.name)}</p>}
                       <ImportanceBadge importance={entry.importance} />
-                      {entry.chronoNote && (
-                        <span>
-                          {t("title.chrono")}: {loc(entry.chronoNote)}
-                        </span>
-                      )}
-                      {entry.postCredits && (
-                        <span>
-                          {t("title.postCredits")}:{" "}
-                          {entry.postCredits.mid + entry.postCredits.end
-                            ? t("postCredits.detail", entry.postCredits)
-                            : t("postCredits.none")}
-                        </span>
-                      )}
+                      <dl className="space-y-1 font-mono text-[11px] tracking-[0.04em] text-muted">
+                        {entry.chronoNote && (
+                          <div>
+                            <dt className="inline uppercase">{t("title.chrono")}: </dt>
+                            <dd className="inline text-fg">{loc(entry.chronoNote)}</dd>
+                          </div>
+                        )}
+                        {entry.postCredits && (
+                          <div>
+                            <dt className="inline uppercase">{t("title.postCredits")}: </dt>
+                            <dd className="inline text-fg">
+                              {entry.postCredits.mid + entry.postCredits.end
+                                ? t("postCredits.detail", entry.postCredits)
+                                : t("postCredits.none")}
+                            </dd>
+                          </div>
+                        )}
+                      </dl>
                     </div>
                   </Link>
                 </li>

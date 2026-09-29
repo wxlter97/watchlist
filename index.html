@@ -3,13 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0b0b0f" />
+    <meta name="theme-color" content="#F4F3EF" />
     <meta name="description" content="Sigue sagas y franquicias de cine y TV en el orden que prefieras." />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>Watch Order</title>
+    <script>
+      // Aplica el tema antes del primer render (misma lógica que src/lib/theme.ts).
+      (function () {
+        var theme;
+        try { theme = localStorage.getItem("watch-order:theme"); } catch (e) {}
+        if (theme !== "light" && theme !== "dark")
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        if (theme === "dark") document.querySelector('meta[name="theme-color"]').setAttribute("content", "#111111");
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -6,14 +6,16 @@
   "nav": {
     "home": "Home",
     "back": "Back",
-    "language": "Language"
+    "language": "Language",
+    "darkMode": "Dark mode"
   },
   "hub": {
     "franchises": "Franchises",
     "continue": "Continue watching",
-    "upNext": "Up next: {{title}}",
+    "upNext": "Up next",
     "allCaughtUp": "You're all caught up",
-    "open": "Open {{name}}"
+    "open": "Open",
+    "eyebrow": "Watch Order — your sagas"
   },
   "progress": {
     "count": "{{watched}} of {{total}} watched",
@@ -25,7 +27,9 @@
     "order": "Order",
     "continuities": "Continuities",
     "empty": "No titles match these filters.",
-    "notFound": "We couldn't find that franchise."
+    "notFound": "We couldn't find that franchise.",
+    "progress": "Progress",
+    "label": "Franchise"
   },
   "canon": {
     "main": "Main",
@@ -83,6 +87,7 @@
     "notFound": "We couldn't find that title."
   },
   "about": {
-    "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+    "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "madeBy": "Made by wxlter."
   }
 }
