@@ -187,6 +187,23 @@
     }
   },
   {
+    "id": "franchises-12",
+    "name": {
+      "es": "Maratonista multiverso",
+      "en": "Multiverse marathoner"
+    },
+    "description": {
+      "es": "Completa al menos un título de 12 franquicias.",
+      "en": "Finish at least one title from 12 franchises."
+    },
+    "icon": "globe",
+    "rule": {
+      "type": "count",
+      "metric": "franchises",
+      "value": 12
+    }
+  },
+  {
     "id": "streak-3",
     "name": {
       "es": "En racha",
@@ -840,6 +857,377 @@
       "type": "watched-in-order",
       "franchiseId": "wizarding-world",
       "orderId": "chronological"
+    }
+  },
+  {
+    "id": "st-original-era",
+    "name": {
+      "es": "La tripulación original",
+      "en": "The original crew"
+    },
+    "description": {
+      "es": "Ve la serie original, la animada y sus seis películas.",
+      "en": "Watch the Original Series, the animated series and their six films."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "star-trek",
+      "group": "tos-era"
+    }
+  },
+  {
+    "id": "star-trek-prime",
+    "name": {
+      "es": "Larga vida y prosperidad",
+      "en": "Live long and prosper"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la línea temporal principal de Star Trek.",
+      "en": "Watch everything released in Star Trek's Prime timeline."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "star-trek",
+      "continuityId": "prime"
+    }
+  },
+  {
+    "id": "route-jean-luc-picard",
+    "name": {
+      "es": "Make it so",
+      "en": "Make it so"
+    },
+    "description": {
+      "es": "Completa la ruta de Jean-Luc Picard.",
+      "en": "Complete the Jean-Luc Picard route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "star-trek",
+      "routeId": "jean-luc-picard"
+    }
+  },
+  {
+    "id": "alien-complete",
+    "name": {
+      "es": "Nadie te oirá gritar",
+      "en": "No one can hear you scream"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de Alien.",
+      "en": "Watch everything released in Alien."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "alien",
+      "continuityId": "alien"
+    }
+  },
+  {
+    "id": "route-ellen-ripley",
+    "name": {
+      "es": "Última sobreviviente",
+      "en": "Final survivor"
+    },
+    "description": {
+      "es": "Completa la ruta de Ellen Ripley.",
+      "en": "Complete the Ellen Ripley route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "alien",
+      "routeId": "ellen-ripley"
+    }
+  },
+  {
+    "id": "predator-complete",
+    "name": {
+      "es": "La presa más peligrosa",
+      "en": "The most dangerous game"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de Predator.",
+      "en": "Watch everything released in Predator."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "predator",
+      "continuityId": "predator"
+    }
+  },
+  {
+    "id": "in-order-terminator-cameron",
+    "name": {
+      "es": "No hay destino",
+      "en": "No fate"
+    },
+    "description": {
+      "es": "Ve la ruta de Cameron de Terminator en orden.",
+      "en": "Watch Terminator's Cameron-only order in sequence."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "terminator",
+      "orderId": "cameron"
+    }
+  },
+  {
+    "id": "terminator-complete",
+    "name": {
+      "es": "Volveré",
+      "en": "I'll be back"
+    },
+    "description": {
+      "es": "Ve todas las líneas temporales de Terminator.",
+      "en": "Watch every Terminator timeline."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "terminator"
+    }
+  },
+  {
+    "id": "godzilla-showa",
+    "name": {
+      "es": "Era Showa",
+      "en": "Showa era"
+    },
+    "description": {
+      "es": "Ve las 15 películas de Godzilla de 1954 a 1975.",
+      "en": "Watch all 15 Godzilla films from 1954 to 1975."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "godzilla",
+      "group": "showa"
+    }
+  },
+  {
+    "id": "godzilla-heisei",
+    "name": {
+      "es": "Era Heisei",
+      "en": "Heisei era"
+    },
+    "description": {
+      "es": "Ve las siete películas de Godzilla de 1984 a 1995.",
+      "en": "Watch all seven Godzilla films from 1984 to 1995."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "godzilla",
+      "group": "heisei"
+    }
+  },
+  {
+    "id": "in-order-godzilla-essentials",
+    "name": {
+      "es": "Rey de Toho",
+      "en": "King of Toho"
+    },
+    "description": {
+      "es": "Ve lo esencial de Godzilla en orden.",
+      "en": "Watch the Godzilla essentials in order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "godzilla",
+      "orderId": "essentials"
+    }
+  },
+  {
+    "id": "route-laurie-strode",
+    "name": {
+      "es": "La noche que él volvió",
+      "en": "The night he came home"
+    },
+    "description": {
+      "es": "Completa la ruta de Laurie Strode.",
+      "en": "Complete the Laurie Strode route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "halloween",
+      "routeId": "laurie-strode"
+    }
+  },
+  {
+    "id": "halloween-complete",
+    "name": {
+      "es": "Todas las noches de brujas",
+      "en": "Every Halloween night"
+    },
+    "description": {
+      "es": "Ve las cinco líneas temporales de Halloween.",
+      "en": "Watch all five Halloween timelines."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "halloween"
+    }
+  },
+  {
+    "id": "conjuring-complete",
+    "name": {
+      "es": "Archivos Warren",
+      "en": "The Warren files"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del universo El Conjuro.",
+      "en": "Watch everything released in The Conjuring Universe."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "conjuring",
+      "continuityId": "conjuring"
+    }
+  },
+  {
+    "id": "fast-furious-complete",
+    "name": {
+      "es": "Familia",
+      "en": "Family"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la saga principal de Rápidos y furiosos.",
+      "en": "Watch everything released in the main Fast & Furious saga."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "fast-furious",
+      "continuityId": "main"
+    }
+  },
+  {
+    "id": "james-bond-classic",
+    "name": {
+      "es": "Al servicio de Su Majestad",
+      "en": "On Her Majesty's Service"
+    },
+    "description": {
+      "es": "Ve las 20 películas oficiales de Connery a Brosnan.",
+      "en": "Watch the 20 official films from Connery to Brosnan."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "james-bond",
+      "continuityId": "classic"
+    }
+  },
+  {
+    "id": "route-craig-arc",
+    "name": {
+      "es": "Bond, James Bond",
+      "en": "Bond, James Bond"
+    },
+    "description": {
+      "es": "Completa el arco de Daniel Craig.",
+      "en": "Complete the Daniel Craig arc."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "james-bond",
+      "routeId": "craig-arc"
+    }
+  },
+  {
+    "id": "game-of-thrones-complete",
+    "name": {
+      "es": "El invierno llegó",
+      "en": "Winter came"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de Poniente.",
+      "en": "Watch everything released in Westeros."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "game-of-thrones"
+    }
+  },
+  {
+    "id": "in-order-breaking-bad-first",
+    "name": {
+      "es": "Yo soy el peligro",
+      "en": "I am the one who knocks"
+    },
+    "description": {
+      "es": "Ve Breaking Bad, El Camino y Better Call Saul en ese orden.",
+      "en": "Watch Breaking Bad, El Camino and Better Call Saul in that order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "breaking-bad",
+      "orderId": "breaking-bad-first"
+    }
+  },
+  {
+    "id": "dragon-ball-canon",
+    "name": {
+      "es": "Más de 9000",
+      "en": "Over 9000"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del canon de Dragon Ball.",
+      "en": "Watch everything released in the Dragon Ball canon."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "dragon-ball",
+      "continuityId": "canon"
+    }
+  },
+  {
+    "id": "in-order-fate-recommended",
+    "name": {
+      "es": "Unlimited Blade Works",
+      "en": "Unlimited Blade Works"
+    },
+    "description": {
+      "es": "Ve Fate en el orden recomendado.",
+      "en": "Watch Fate in the recommended order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "fate",
+      "orderId": "recommended"
+    }
+  },
+  {
+    "id": "route-stay-night-routes",
+    "name": {
+      "es": "Tres caminos",
+      "en": "Three paths"
+    },
+    "description": {
+      "es": "Ve las tres rutas de Fate/stay night.",
+      "en": "Watch all three Fate/stay night routes."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "fate",
+      "routeId": "stay-night-routes"
     }
   }
 ]

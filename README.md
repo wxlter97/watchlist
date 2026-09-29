@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 9 — pulido: tests, reglas probadas con el emulador, rendimiento y deploy.
+**Estado:** fase 10 — oleadas del backlog. Oleada 1: Star Trek, Alien, Predator, Terminator, Godzilla (Toho), Halloween, El Conjuro, Rápidos y furiosos, James Bond, Juego de tronos, Breaking Bad, Dragon Ball y Fate.
 
 ## Desarrollo
 
@@ -119,7 +119,14 @@ Agregar una franquicia = agregar su JSON (y sus títulos a `titles.json`). No ha
 pnpm catalog:validate    # referencias, chronoOrder duplicados, órdenes obligatorios (corre en CI)
 pnpm catalog:enrich      # trae de TMDB duración, pósters, sinopsis (es/en), temporadas, imdbId
 pnpm catalog:enrich --only loki-2021 --dry-run
+pnpm catalog:lookup search collection Star Trek   # ids de TMDB para títulos nuevos
+pnpm catalog:lookup collection 528                # películas de una colección, por fecha
 ```
+
+Para agregar una franquicia: buscar los ids con `catalog:lookup`, agregar los títulos a
+`titles.json` con lo mínimo (`id`, `tmdbId`, `tmdbType`, `title`, `kind`, `releaseDate`), escribir
+`franchises/<id>.json` y correr `catalog:enrich --only <ids>` y `catalog:validate`. El color de
+acento tiene que dar 4.5:1 de contraste con el texto encima (el validador lo exige).
 
 `catalog:enrich` necesita `TMDB_API_KEY` (el *API Read Access Token* de TMDB) en `.env.local`.
 Esa variable solo la leen los scripts y, más adelante, las funciones de `/api`; nunca llega al cliente.

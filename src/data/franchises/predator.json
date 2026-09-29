@@ -1,0 +1,225 @@
+{
+  "id": "predator",
+  "name": {
+    "es": "Predator",
+    "en": "Predator"
+  },
+  "description": {
+    "es": "Los cazadores yautja a lo largo de la historia, más el crossover con Alien.",
+    "en": "The Yautja hunters across history, plus the Alien crossover."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "predator",
+      "name": {
+        "es": "Predator",
+        "en": "Predator"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de 20th Century Studios.",
+        "en": "The 20th Century Studios films."
+      }
+    },
+    {
+      "id": "avp",
+      "name": {
+        "es": "Alien vs. Predator",
+        "en": "Alien vs. Predator"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El crossover de los dos universos. Ninguna de las dos sagas lo considera parte de su historia oficial.",
+        "en": "The crossover of both universes. Neither saga counts it as official history."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "predator-killer-of-killers-2025",
+      "continuityId": "predator",
+      "group": "new",
+      "importance": "recommended",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Años 841, 1609 y 1942",
+        "en": "841, 1609 and 1942"
+      }
+    },
+    {
+      "titleId": "prey-2022",
+      "continuityId": "predator",
+      "group": "new",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1719",
+        "en": "1719"
+      }
+    },
+    {
+      "titleId": "predator-1987",
+      "continuityId": "predator",
+      "group": "original",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1987",
+        "en": "1987"
+      },
+      "characters": [
+        "dutch"
+      ]
+    },
+    {
+      "titleId": "predator-2-1990",
+      "continuityId": "predator",
+      "group": "original",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1997",
+        "en": "1997"
+      }
+    },
+    {
+      "titleId": "predators-2010",
+      "continuityId": "predator",
+      "group": "original",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      }
+    },
+    {
+      "titleId": "the-predator-2018",
+      "continuityId": "predator",
+      "group": "original",
+      "importance": "skippable",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      }
+    },
+    {
+      "titleId": "predator-badlands-2025",
+      "continuityId": "predator",
+      "group": "new",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "Futuro",
+        "en": "Future"
+      }
+    },
+    {
+      "titleId": "avp-alien-vs-predator-2004",
+      "continuityId": "avp",
+      "group": "avp",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2004",
+        "en": "2004"
+      }
+    },
+    {
+      "titleId": "aliens-vs-predator-requiem-2007",
+      "continuityId": "avp",
+      "group": "avp",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2004",
+        "en": "2004"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "sagas",
+      "type": "grouped",
+      "name": {
+        "es": "Por etapas",
+        "en": "By era"
+      },
+      "description": {
+        "es": "Las películas clásicas, la etapa de Dan Trachtenberg y el crossover.",
+        "en": "The classic films, the Dan Trachtenberg era and the crossover."
+      },
+      "groupLabels": {
+        "original": {
+          "es": "Clásicas",
+          "en": "Classic films"
+        },
+        "new": {
+          "es": "Etapa de Trachtenberg",
+          "en": "Trachtenberg era"
+        },
+        "avp": {
+          "es": "Alien vs. Predator",
+          "en": "Alien vs. Predator"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "trachtenberg",
+      "kind": "theme",
+      "name": {
+        "es": "La etapa de Dan Trachtenberg",
+        "en": "The Dan Trachtenberg era"
+      },
+      "description": {
+        "es": "El renacer de la saga: Prey, la antología animada y Badlands.",
+        "en": "The saga's revival: Prey, the animated anthology and Badlands."
+      },
+      "titleIds": [
+        "prey-2022",
+        "predator-killer-of-killers-2025",
+        "predator-badlands-2025"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "dutch",
+        "name": {
+          "es": "Dutch",
+          "en": "Dutch"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

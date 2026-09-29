@@ -1,0 +1,576 @@
+{
+  "id": "godzilla",
+  "name": {
+    "es": "Godzilla (Toho)",
+    "en": "Godzilla (Toho)"
+  },
+  "description": {
+    "es": "El rey de los monstruos japonés: eras Showa, Heisei, Millennium y Reiwa.",
+    "en": "Japan's King of the Monsters: the Showa, Heisei, Millennium and Reiwa eras."
+  },
+  "accentColor": "#155E75",
+  "continuities": [
+    {
+      "id": "showa",
+      "name": {
+        "es": "Era Showa",
+        "en": "Showa era"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "1954–1975: del horror nuclear al héroe de los niños.",
+        "en": "1954–1975: from nuclear horror to children's hero."
+      }
+    },
+    {
+      "id": "heisei",
+      "name": {
+        "es": "Era Heisei",
+        "en": "Heisei era"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "1984–1995: secuela directa de la película de 1954, con una historia continua.",
+        "en": "1984–1995: a direct sequel to the 1954 film, with one continuous story."
+      },
+      "branchesFrom": {
+        "continuityId": "showa",
+        "afterTitleId": "godzilla-1954"
+      }
+    },
+    {
+      "id": "millennium",
+      "name": {
+        "es": "Era Millennium",
+        "en": "Millennium era"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "1999–2004: casi todas son secuelas independientes de la película de 1954.",
+        "en": "1999–2004: most are standalone sequels to the 1954 film."
+      },
+      "branchesFrom": {
+        "continuityId": "showa",
+        "afterTitleId": "godzilla-1954"
+      }
+    },
+    {
+      "id": "shin",
+      "name": {
+        "es": "Shin Godzilla",
+        "en": "Shin Godzilla"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio de 2016: Godzilla llega por primera vez al Japón actual.",
+        "en": "2016 reboot: Godzilla arrives for the first time in present-day Japan."
+      }
+    },
+    {
+      "id": "minus",
+      "name": {
+        "es": "Godzilla Minus One",
+        "en": "Godzilla Minus One"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El Japón de posguerra frente a Godzilla, en su propia continuidad.",
+        "en": "Postwar Japan against Godzilla, in its own continuity."
+      }
+    },
+    {
+      "id": "anime",
+      "name": {
+        "es": "Trilogía anime",
+        "en": "Anime trilogy"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Ciencia ficción en una Tierra dominada por Godzilla, 20.000 años en el futuro.",
+        "en": "Science fiction on an Earth ruled by Godzilla, 20,000 years in the future."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "godzilla-1954",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-raids-again-1955",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "king-kong-vs-godzilla-1962",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "mothra-vs-godzilla-1964",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "ghidorah-the-three-headed-monster-1964",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "invasion-of-astro-monster-1965",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "ebirah-horror-of-the-deep-1966",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "skippable",
+      "chronoOrder": 70,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "son-of-godzilla-1967",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "destroy-all-monsters-1968",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "recommended",
+      "chronoOrder": 90,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "all-monsters-attack-1969",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "skippable",
+      "chronoOrder": 100,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-hedorah-1971",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-gigan-1972",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 120,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-megalon-1973",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "skippable",
+      "chronoOrder": 130,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-mechagodzilla-1974",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 140,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "terror-of-mechagodzilla-1975",
+      "continuityId": "showa",
+      "group": "showa",
+      "importance": "optional",
+      "chronoOrder": 150,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "the-return-of-godzilla-1984",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-biollante-1989",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-king-ghidorah-1991",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-mothra-1992",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-mechagodzilla-ii-1993",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-spacegodzilla-1994",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "skippable",
+      "chronoOrder": 60,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-destoroyah-1995",
+      "continuityId": "heisei",
+      "group": "heisei",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-2000-millennium-1999",
+      "continuityId": "millennium",
+      "group": "millennium",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-vs-megaguirus-2000",
+      "continuityId": "millennium",
+      "group": "millennium",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-mothra-and-king-ghidorah-giant-monsters-all-out-attack-2001",
+      "continuityId": "millennium",
+      "group": "millennium",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-against-mechagodzilla-2002",
+      "continuityId": "millennium",
+      "group": "millennium",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-tokyo-s-o-s-2003",
+      "continuityId": "millennium",
+      "group": "millennium",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Secuela directa de la anterior",
+        "en": "Direct sequel to the previous film"
+      },
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-final-wars-2004",
+      "continuityId": "millennium",
+      "group": "millennium",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "shin-godzilla-2016",
+      "continuityId": "shin",
+      "group": "reiwa",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-minus-one-2023",
+      "continuityId": "minus",
+      "group": "reiwa",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1945–1947",
+        "en": "1945–1947"
+      },
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-minus-zero-2026",
+      "continuityId": "minus",
+      "group": "reiwa",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-planet-of-the-monsters-2017",
+      "continuityId": "anime",
+      "group": "anime",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-city-on-the-edge-of-battle-2018",
+      "continuityId": "anime",
+      "group": "anime",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "godzilla"
+      ]
+    },
+    {
+      "titleId": "godzilla-the-planet-eater-2018",
+      "continuityId": "anime",
+      "group": "anime",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "godzilla"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "eras",
+      "type": "grouped",
+      "name": {
+        "es": "Por eras",
+        "en": "By era"
+      },
+      "description": {
+        "es": "Cada era de Toho, por estreno.",
+        "en": "Each Toho era, by release."
+      },
+      "groupLabels": {
+        "showa": {
+          "es": "Showa (1954–1975)",
+          "en": "Showa (1954–1975)"
+        },
+        "heisei": {
+          "es": "Heisei (1984–1995)",
+          "en": "Heisei (1984–1995)"
+        },
+        "millennium": {
+          "es": "Millennium (1999–2004)",
+          "en": "Millennium (1999–2004)"
+        },
+        "reiwa": {
+          "es": "Reiwa (2016–)",
+          "en": "Reiwa (2016–)"
+        },
+        "anime": {
+          "es": "Anime (2017–2018)",
+          "en": "Anime (2017–2018)"
+        }
+      }
+    },
+    {
+      "id": "essentials",
+      "type": "curated",
+      "name": {
+        "es": "Lo esencial",
+        "en": "The essentials"
+      },
+      "description": {
+        "es": "Un recorrido corto: el original, un clásico por era y las dos películas recientes.",
+        "en": "A short tour: the original, one classic per era and the two recent films."
+      },
+      "titleIds": [
+        "godzilla-1954",
+        "mothra-vs-godzilla-1964",
+        "destroy-all-monsters-1968",
+        "godzilla-vs-biollante-1989",
+        "godzilla-vs-destoroyah-1995",
+        "godzilla-mothra-and-king-ghidorah-giant-monsters-all-out-attack-2001",
+        "shin-godzilla-2016",
+        "godzilla-minus-one-2023"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-godzilla-minus-zero-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Godzilla Minus Zero",
+        "en": "Get ready for Godzilla Minus Zero"
+      },
+      "description": {
+        "es": "La película que ganó el Oscar y abrió esta continuidad.",
+        "en": "The Oscar-winning film that opened this continuity."
+      },
+      "targetTitleId": "godzilla-minus-zero-2026",
+      "titleIds": [
+        "godzilla-minus-one-2023"
+      ]
+    },
+    {
+      "id": "mechagodzilla",
+      "kind": "theme",
+      "name": {
+        "es": "Mechagodzilla",
+        "en": "Mechagodzilla"
+      },
+      "description": {
+        "es": "El doble mecánico en cada era.",
+        "en": "The mechanical double in every era."
+      },
+      "titleIds": [
+        "godzilla-vs-mechagodzilla-1974",
+        "terror-of-mechagodzilla-1975",
+        "godzilla-vs-mechagodzilla-ii-1993",
+        "godzilla-against-mechagodzilla-2002",
+        "godzilla-tokyo-s-o-s-2003"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "godzilla",
+        "name": {
+          "es": "Godzilla",
+          "en": "Godzilla"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

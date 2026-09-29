@@ -83,9 +83,11 @@ function catalogSplit(): Plugin {
       const titles = JSON.parse(readFileSync(file, "utf8")) as Raw[];
       let data: unknown;
       if (id === "\0virtual:catalog-titles") {
-        data = titles.map(({ overview: _overview, localized, ...t }) =>
-          localized ? { ...t, localized: Object.fromEntries(Object.entries(localized).map(([l, v]) => [l, { title: v.title }])) } : t,
-        );
+        // Solo los títulos localizados distintos del original: titleName() cae al original.
+        data = titles.map(({ overview: _overview, localized, ...t }) => {
+          const names = Object.entries(localized ?? {}).filter(([, v]) => v.title && v.title !== (t as { title?: string }).title);
+          return names.length ? { ...t, localized: Object.fromEntries(names.map(([l, v]) => [l, { title: v.title }])) } : t;
+        });
       } else {
         const lang = id.slice(-2);
         data = Object.fromEntries(titles.flatMap((t) => {
@@ -175,8 +177,9 @@ export default defineConfig(({ mode }) => {
             groups: [
               // Messaging solo se carga al activar avisos: queda fuera del chunk de Firebase.
               { name: "firebase", test: /^(?!.*messaging).*node_modules[\\/].*@?firebase/ },
-              // Los recaps se cargan uno por uno y las sinopsis por idioma, bajo demanda.
-              { name: "catalog", test: /src[\\/]data[\\/](?!recaps)|virtual:catalog-titles/ },
+              // Los recaps se cargan uno por uno, las sinopsis por idioma y los logros con su
+              // sincronización: bajo demanda, fuera del catálogo del arranque.
+              { name: "catalog", test: /src[\\/]data[\\/](?!recaps|achievements)|virtual:catalog-titles/ },
             ],
           },
         },

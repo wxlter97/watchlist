@@ -1,0 +1,136 @@
+{
+  "id": "game-of-thrones",
+  "name": {
+    "es": "Juego de tronos",
+    "en": "Game of Thrones"
+  },
+  "description": {
+    "es": "Poniente de George R. R. Martin: los Targaryen, Dunk y Egg, y la guerra por el Trono de Hierro.",
+    "en": "George R. R. Martin's Westeros: the Targaryens, Dunk and Egg, and the war for the Iron Throne."
+  },
+  "accentColor": "#475569",
+  "continuities": [
+    {
+      "id": "westeros",
+      "name": {
+        "es": "Poniente",
+        "en": "Westeros"
+      },
+      "canonLevel": "main"
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "house-of-the-dragon-2022",
+      "continuityId": "westeros",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "101–131 d. C.",
+        "en": "101–131 AC"
+      },
+      "teams": [
+        "targaryen"
+      ]
+    },
+    {
+      "titleId": "a-knight-of-the-seven-kingdoms-2026",
+      "continuityId": "westeros",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "209 d. C.",
+        "en": "209 AC"
+      },
+      "teams": [
+        "targaryen"
+      ]
+    },
+    {
+      "titleId": "game-of-thrones-2011",
+      "continuityId": "westeros",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "298–305 d. C.",
+        "en": "298–305 AC"
+      },
+      "teams": [
+        "stark",
+        "lannister",
+        "targaryen"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "targaryen",
+      "kind": "theme",
+      "name": {
+        "es": "La casa Targaryen",
+        "en": "House Targaryen"
+      },
+      "description": {
+        "es": "La dinastía del dragón en las tres series.",
+        "en": "The dragon dynasty across all three series."
+      },
+      "titleIds": [
+        "house-of-the-dragon-2022",
+        "a-knight-of-the-seven-kingdoms-2026",
+        "game-of-thrones-2011"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [],
+    "teams": [
+      {
+        "id": "targaryen",
+        "name": {
+          "es": "Casa Targaryen",
+          "en": "House Targaryen"
+        }
+      },
+      {
+        "id": "stark",
+        "name": {
+          "es": "Casa Stark",
+          "en": "House Stark"
+        }
+      },
+      {
+        "id": "lannister",
+        "name": {
+          "es": "Casa Lannister",
+          "en": "House Lannister"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "id": "conjuring",
+  "name": {
+    "es": "El Conjuro",
+    "en": "The Conjuring Universe"
+  },
+  "description": {
+    "es": "Ed y Lorraine Warren, Annabelle y La Monja: el universo de terror de James Wan.",
+    "en": "Ed and Lorraine Warren, Annabelle and The Nun: James Wan's horror universe."
+  },
+  "accentColor": "#44403C",
+  "continuities": [
+    {
+      "id": "conjuring",
+      "name": {
+        "es": "Universo El Conjuro",
+        "en": "The Conjuring Universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de los Warren y sus spin-offs.",
+        "en": "The Warrens' films and their spin-offs."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "annabelle-creation-2017",
+      "continuityId": "conjuring",
+      "group": "annabelle",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1943 y 1955",
+        "en": "1943 and 1955"
+      },
+      "characters": [
+        "annabelle"
+      ]
+    },
+    {
+      "titleId": "the-nun-2018",
+      "continuityId": "conjuring",
+      "group": "nun",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1952",
+        "en": "1952"
+      },
+      "characters": [
+        "valak"
+      ]
+    },
+    {
+      "titleId": "the-nun-ii-2023",
+      "continuityId": "conjuring",
+      "group": "nun",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1956",
+        "en": "1956"
+      },
+      "characters": [
+        "valak"
+      ]
+    },
+    {
+      "titleId": "annabelle-2014",
+      "continuityId": "conjuring",
+      "group": "annabelle",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1967–1968",
+        "en": "1967–1968"
+      },
+      "characters": [
+        "annabelle"
+      ]
+    },
+    {
+      "titleId": "the-conjuring-2013",
+      "continuityId": "conjuring",
+      "group": "conjuring",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "1971",
+        "en": "1971"
+      },
+      "characters": [
+        "warrens",
+        "annabelle"
+      ]
+    },
+    {
+      "titleId": "annabelle-comes-home-2019",
+      "continuityId": "conjuring",
+      "group": "annabelle",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "1972",
+        "en": "1972"
+      },
+      "characters": [
+        "warrens",
+        "annabelle"
+      ]
+    },
+    {
+      "titleId": "the-curse-of-la-llorona-2019",
+      "continuityId": "conjuring",
+      "group": "spinoffs",
+      "importance": "skippable",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "1973",
+        "en": "1973"
+      }
+    },
+    {
+      "titleId": "the-conjuring-2-2016",
+      "continuityId": "conjuring",
+      "group": "conjuring",
+      "importance": "essential",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "1976–1977",
+        "en": "1976–1977"
+      },
+      "characters": [
+        "warrens",
+        "valak"
+      ]
+    },
+    {
+      "titleId": "the-conjuring-the-devil-made-me-do-it-2021",
+      "continuityId": "conjuring",
+      "group": "conjuring",
+      "importance": "recommended",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "1981",
+        "en": "1981"
+      },
+      "characters": [
+        "warrens"
+      ]
+    },
+    {
+      "titleId": "the-conjuring-last-rites-2025",
+      "continuityId": "conjuring",
+      "group": "conjuring",
+      "importance": "recommended",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "1986",
+        "en": "1986"
+      },
+      "characters": [
+        "warrens",
+        "annabelle"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "series",
+      "type": "grouped",
+      "name": {
+        "es": "Por saga",
+        "en": "By series"
+      },
+      "description": {
+        "es": "Los Warren primero y luego cada spin-off.",
+        "en": "The Warrens first, then each spin-off."
+      },
+      "groupLabels": {
+        "conjuring": {
+          "es": "El Conjuro",
+          "en": "The Conjuring"
+        },
+        "annabelle": {
+          "es": "Annabelle",
+          "en": "Annabelle"
+        },
+        "nun": {
+          "es": "La Monja",
+          "en": "The Nun"
+        },
+        "spinoffs": {
+          "es": "Otros spin-offs",
+          "en": "Other spin-offs"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "the-warrens",
+      "kind": "character",
+      "name": {
+        "es": "Ed y Lorraine Warren",
+        "en": "Ed and Lorraine Warren"
+      },
+      "description": {
+        "es": "Los casos de los investigadores paranormales.",
+        "en": "The paranormal investigators' cases."
+      },
+      "titleIds": [
+        "the-conjuring-2013",
+        "annabelle-comes-home-2019",
+        "the-conjuring-2-2016",
+        "the-conjuring-the-devil-made-me-do-it-2021",
+        "the-conjuring-last-rites-2025"
+      ]
+    },
+    {
+      "id": "annabelle",
+      "kind": "character",
+      "name": {
+        "es": "Annabelle",
+        "en": "Annabelle"
+      },
+      "description": {
+        "es": "La muñeca, de su origen al museo de los Warren.",
+        "en": "The doll, from her origin to the Warrens' museum."
+      },
+      "titleIds": [
+        "annabelle-creation-2017",
+        "annabelle-2014",
+        "the-conjuring-2013",
+        "annabelle-comes-home-2019"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "warrens",
+        "name": {
+          "es": "Ed y Lorraine Warren",
+          "en": "Ed and Lorraine Warren"
+        }
+      },
+      {
+        "id": "annabelle",
+        "name": {
+          "es": "Annabelle",
+          "en": "Annabelle"
+        }
+      },
+      {
+        "id": "valak",
+        "name": {
+          "es": "Valak",
+          "en": "Valak"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

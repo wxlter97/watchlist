@@ -1,0 +1,187 @@
+{
+  "id": "breaking-bad",
+  "name": {
+    "es": "Breaking Bad",
+    "en": "Breaking Bad"
+  },
+  "description": {
+    "es": "Walter White, Jesse Pinkman y Saul Goodman en Albuquerque.",
+    "en": "Walter White, Jesse Pinkman and Saul Goodman in Albuquerque."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Breaking Bad",
+        "en": "Breaking Bad"
+      },
+      "canonLevel": "main"
+    },
+    {
+      "id": "extras",
+      "name": {
+        "es": "Extras",
+        "en": "Extras"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "La miniserie animada de Slippin' Jimmy.",
+        "en": "The animated Slippin' Jimmy miniseries."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "better-call-saul-2015",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2002–2004, con saltos a 2010",
+        "en": "2002–2004, with jumps to 2010"
+      },
+      "characters": [
+        "saul",
+        "mike"
+      ]
+    },
+    {
+      "titleId": "breaking-bad-2008",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2008–2010",
+        "en": "2008–2010"
+      },
+      "characters": [
+        "walter",
+        "jesse",
+        "saul",
+        "mike"
+      ]
+    },
+    {
+      "titleId": "el-camino-a-breaking-bad-movie-2019",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      },
+      "characters": [
+        "jesse"
+      ]
+    },
+    {
+      "titleId": "better-call-saul-presents-slippin-jimmy-2022",
+      "continuityId": "extras",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Años 70",
+        "en": "1970s"
+      },
+      "characters": [
+        "saul"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "breaking-bad-first",
+      "type": "curated",
+      "name": {
+        "es": "Breaking Bad primero",
+        "en": "Breaking Bad first"
+      },
+      "description": {
+        "es": "El orden más recomendado: Better Call Saul pierde sorpresa si se ve antes.",
+        "en": "The most recommended order: Better Call Saul loses its surprises if watched first."
+      },
+      "titleIds": [
+        "breaking-bad-2008",
+        "el-camino-a-breaking-bad-movie-2019",
+        "better-call-saul-2015"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "jesse-pinkman",
+      "kind": "character",
+      "name": {
+        "es": "Jesse Pinkman",
+        "en": "Jesse Pinkman"
+      },
+      "description": {
+        "es": "De socio de Walt a su escape.",
+        "en": "From Walt's partner to his escape."
+      },
+      "titleIds": [
+        "breaking-bad-2008",
+        "el-camino-a-breaking-bad-movie-2019"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "walter",
+        "name": {
+          "es": "Walter White",
+          "en": "Walter White"
+        }
+      },
+      {
+        "id": "jesse",
+        "name": {
+          "es": "Jesse Pinkman",
+          "en": "Jesse Pinkman"
+        }
+      },
+      {
+        "id": "saul",
+        "name": {
+          "es": "Saul Goodman",
+          "en": "Saul Goodman"
+        }
+      },
+      {
+        "id": "mike",
+        "name": {
+          "es": "Mike Ehrmantraut",
+          "en": "Mike Ehrmantraut"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

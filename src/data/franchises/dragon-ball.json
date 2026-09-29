@@ -1,0 +1,590 @@
+{
+  "id": "dragon-ball",
+  "name": {
+    "es": "Dragon Ball",
+    "en": "Dragon Ball"
+  },
+  "description": {
+    "es": "Goku, de niño en busca de las esferas a dios de la destrucción: series, películas y especiales.",
+    "en": "Goku, from a kid hunting the Dragon Balls to fighting gods: series, films and specials."
+  },
+  "accentColor": "#F97316",
+  "continuities": [
+    {
+      "id": "canon",
+      "name": {
+        "es": "Canon (Toriyama)",
+        "en": "Canon (Toriyama)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El manga de Akira Toriyama y las historias que escribió para el anime y el cine.",
+        "en": "Akira Toriyama's manga and the stories he wrote for anime and film."
+      }
+    },
+    {
+      "id": "kai",
+      "name": {
+        "es": "Dragon Ball Z Kai",
+        "en": "Dragon Ball Z Kai"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Remontaje de Z fiel al manga y sin relleno: se ve Z o Kai, no los dos.",
+        "en": "A manga-faithful recut of Z without filler: watch Z or Kai, not both."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "gt",
+      "name": {
+        "es": "Dragon Ball GT",
+        "en": "Dragon Ball GT"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Continuación original del anime después de Z.",
+        "en": "The anime's original continuation after Z."
+      },
+      "branchesFrom": {
+        "continuityId": "canon",
+        "afterTitleId": "dragon-ball-z-1989"
+      }
+    },
+    {
+      "id": "specials",
+      "name": {
+        "es": "Especiales de TV",
+        "en": "TV specials"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Bardock y Trunks del futuro.",
+        "en": "Bardock and Future Trunks."
+      }
+    },
+    {
+      "id": "classic-movies",
+      "name": {
+        "es": "Películas clásicas",
+        "en": "Classic films"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Las películas de los 80 y 90: historias aparte que no encajan en la serie.",
+        "en": "The 80s and 90s films: side stories that don't fit the series."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "dragon-ball-1986",
+      "continuityId": "canon",
+      "group": "series",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-1989",
+      "continuityId": "canon",
+      "group": "series",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "goku",
+        "vegeta",
+        "gohan"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-daima-2024",
+      "continuityId": "canon",
+      "group": "series",
+      "importance": "recommended",
+      "chronoOrder": 25,
+      "chronoNote": {
+        "es": "Después de la saga de Buu",
+        "en": "After the Buu saga"
+      },
+      "characters": [
+        "goku",
+        "vegeta"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-battle-of-gods-2013",
+      "continuityId": "canon",
+      "group": "films",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Contada de nuevo en Super",
+        "en": "Retold in Super"
+      },
+      "characters": [
+        "goku",
+        "vegeta",
+        "beerus"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-resurrection-f-2015",
+      "continuityId": "canon",
+      "group": "films",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Contada de nuevo en Super",
+        "en": "Retold in Super"
+      },
+      "characters": [
+        "goku",
+        "vegeta"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-super-2015",
+      "continuityId": "canon",
+      "group": "series",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "characters": [
+        "goku",
+        "vegeta",
+        "beerus"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-super-beerus-2026",
+      "continuityId": "canon",
+      "group": "series",
+      "importance": "optional",
+      "chronoOrder": 32,
+      "chronoNote": {
+        "es": "Nueva versión del arco de Bills",
+        "en": "Remake of the Beerus arc"
+      },
+      "characters": [
+        "goku",
+        "beerus"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-super-broly-2018",
+      "continuityId": "canon",
+      "group": "films",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "characters": [
+        "goku",
+        "vegeta",
+        "broly"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-super-super-hero-2022",
+      "continuityId": "canon",
+      "group": "films",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "characters": [
+        "gohan"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-kai-2009",
+      "continuityId": "kai",
+      "group": "series",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "goku",
+        "vegeta",
+        "gohan"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-gt-1996",
+      "continuityId": "gt",
+      "group": "series",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "goku",
+        "vegeta"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-gt-a-heros-legacy-1997",
+      "continuityId": "gt",
+      "group": "specials",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-bardock-the-father-of-goku-1990",
+      "continuityId": "specials",
+      "group": "specials",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Antes del nacimiento de Goku",
+        "en": "Before Goku's birth"
+      },
+      "characters": [
+        "bardock"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-the-history-of-trunks-1993",
+      "continuityId": "specials",
+      "group": "specials",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "El futuro de Trunks",
+        "en": "Trunks's future"
+      }
+    },
+    {
+      "titleId": "dragon-ball-curse-of-the-blood-rubies-1986",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-sleeping-princess-in-devils-castle-1987",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-mystical-adventure-1988",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-dead-zone-1989",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-the-worlds-strongest-1990",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-the-tree-of-might-1990",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 60,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-lord-slug-1991",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 70,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-coolers-revenge-1991",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 80,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-the-return-of-cooler-1992",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 90,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-super-android-13-1992",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 100,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-broly-the-legendary-super-saiyan-1993",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "characters": [
+        "goku",
+        "broly"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-bojack-unbound-1993",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 120,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-broly-second-coming-1994",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "optional",
+      "chronoOrder": 130,
+      "characters": [
+        "goku",
+        "broly"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-bio-broly-1994",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "optional",
+      "chronoOrder": 140,
+      "characters": [
+        "goku",
+        "broly"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-fusion-reborn-1995",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 150,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-z-wrath-of-the-dragon-1995",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 160,
+      "characters": [
+        "goku"
+      ]
+    },
+    {
+      "titleId": "dragon-ball-the-path-to-power-1996",
+      "continuityId": "classic-movies",
+      "group": "classic-films",
+      "importance": "skippable",
+      "chronoOrder": 170,
+      "characters": [
+        "goku"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "by-type",
+      "type": "grouped",
+      "name": {
+        "es": "Series, películas y especiales",
+        "en": "Series, films and specials"
+      },
+      "description": {
+        "es": "Primero las series, después las películas canónicas y el resto.",
+        "en": "Series first, then the canon films and the rest."
+      },
+      "groupLabels": {
+        "series": {
+          "es": "Series",
+          "en": "Series"
+        },
+        "films": {
+          "es": "Películas canónicas",
+          "en": "Canon films"
+        },
+        "specials": {
+          "es": "Especiales",
+          "en": "Specials"
+        },
+        "classic-films": {
+          "es": "Películas clásicas",
+          "en": "Classic films"
+        }
+      }
+    },
+    {
+      "id": "kai-route",
+      "type": "curated",
+      "name": {
+        "es": "Ruta rápida con Kai",
+        "en": "Fast route with Kai"
+      },
+      "description": {
+        "es": "Dragon Ball, Kai en lugar de Z, Super y las películas modernas: sin relleno.",
+        "en": "Dragon Ball, Kai instead of Z, Super and the modern films: no filler."
+      },
+      "titleIds": [
+        "dragon-ball-1986",
+        "dragon-ball-z-kai-2009",
+        "dragon-ball-daima-2024",
+        "dragon-ball-super-2015",
+        "dragon-ball-super-broly-2018",
+        "dragon-ball-super-super-hero-2022"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-dragon-ball-super-beerus-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Dragon Ball Super: Beerus",
+        "en": "Get ready for Dragon Ball Super: Beerus"
+      },
+      "description": {
+        "es": "Z en su versión Kai y la película original del arco.",
+        "en": "Z in its Kai cut and the arc's original film."
+      },
+      "targetTitleId": "dragon-ball-super-beerus-2026",
+      "titleIds": [
+        "dragon-ball-z-kai-2009",
+        "dragon-ball-z-battle-of-gods-2013"
+      ]
+    },
+    {
+      "id": "broly",
+      "kind": "character",
+      "name": {
+        "es": "Broly",
+        "en": "Broly"
+      },
+      "description": {
+        "es": "El Saiyajin legendario, en su versión clásica y en la de Toriyama.",
+        "en": "The Legendary Super Saiyan, classic and Toriyama versions."
+      },
+      "titleIds": [
+        "dragon-ball-z-broly-the-legendary-super-saiyan-1993",
+        "dragon-ball-z-broly-second-coming-1994",
+        "dragon-ball-z-bio-broly-1994",
+        "dragon-ball-super-broly-2018"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "goku",
+        "name": {
+          "es": "Goku",
+          "en": "Goku"
+        }
+      },
+      {
+        "id": "vegeta",
+        "name": {
+          "es": "Vegeta",
+          "en": "Vegeta"
+        }
+      },
+      {
+        "id": "gohan",
+        "name": {
+          "es": "Gohan",
+          "en": "Gohan"
+        }
+      },
+      {
+        "id": "beerus",
+        "name": {
+          "es": "Bills",
+          "en": "Beerus"
+        }
+      },
+      {
+        "id": "broly",
+        "name": {
+          "es": "Broly",
+          "en": "Broly"
+        }
+      },
+      {
+        "id": "bardock",
+        "name": {
+          "es": "Bardock",
+          "en": "Bardock"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

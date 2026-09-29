@@ -1,0 +1,350 @@
+{
+  "id": "halloween",
+  "name": {
+    "es": "Halloween",
+    "en": "Halloween"
+  },
+  "description": {
+    "es": "Michael Myers y cinco líneas temporales que ignoran a las anteriores.",
+    "en": "Michael Myers and five timelines that ignore the ones before."
+  },
+  "accentColor": "#EA580C",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Línea original",
+        "en": "Original timeline"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "De 1978 a La maldición de Michael Myers.",
+        "en": "From 1978 to The Curse of Michael Myers."
+      }
+    },
+    {
+      "id": "h20",
+      "name": {
+        "es": "Línea H20",
+        "en": "H20 timeline"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Sigue a Halloween II e ignora las partes 4 a 6.",
+        "en": "Follows Halloween II and ignores parts 4 to 6."
+      },
+      "branchesFrom": {
+        "continuityId": "original",
+        "afterTitleId": "halloween-ii-1981"
+      }
+    },
+    {
+      "id": "blumhouse",
+      "name": {
+        "es": "Trilogía de 2018",
+        "en": "2018 trilogy"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Secuela directa de la original de 1978, 40 años después.",
+        "en": "Direct sequel to the 1978 original, 40 years later."
+      },
+      "branchesFrom": {
+        "continuityId": "original",
+        "afterTitleId": "halloween-1978"
+      }
+    },
+    {
+      "id": "remake",
+      "name": {
+        "es": "Remake de Rob Zombie",
+        "en": "Rob Zombie remake"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio de 2007 y su secuela.",
+        "en": "The 2007 reboot and its sequel."
+      }
+    },
+    {
+      "id": "season-of-the-witch",
+      "name": {
+        "es": "Season of the Witch",
+        "en": "Season of the Witch"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Halloween III: una película independiente sin Michael Myers.",
+        "en": "Halloween III: a standalone film without Michael Myers."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "halloween-1978",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1963 y 1978",
+        "en": "1963 and 1978"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-ii-1981",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1978",
+        "en": "1978"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-4-the-return-of-michael-myers-1988",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1988",
+        "en": "1988"
+      },
+      "characters": [
+        "michael-myers"
+      ]
+    },
+    {
+      "titleId": "halloween-5-the-revenge-of-michael-myers-1989",
+      "continuityId": "original",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1989",
+        "en": "1989"
+      },
+      "characters": [
+        "michael-myers"
+      ]
+    },
+    {
+      "titleId": "halloween-the-curse-of-michael-myers-1995",
+      "continuityId": "original",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "1995",
+        "en": "1995"
+      },
+      "characters": [
+        "michael-myers"
+      ]
+    },
+    {
+      "titleId": "halloween-h20-20-years-later-1998",
+      "continuityId": "h20",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1998",
+        "en": "1998"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-resurrection-2002",
+      "continuityId": "h20",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2001",
+        "en": "2001"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-2018",
+      "continuityId": "blumhouse",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-kills-2021",
+      "continuityId": "blumhouse",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-ends-2022",
+      "continuityId": "blumhouse",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2022",
+        "en": "2022"
+      },
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-2007",
+      "continuityId": "remake",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-ii-2009",
+      "continuityId": "remake",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "michael-myers",
+        "laurie-strode"
+      ]
+    },
+    {
+      "titleId": "halloween-iii-season-of-the-witch-1982",
+      "continuityId": "season-of-the-witch",
+      "importance": "optional",
+      "chronoOrder": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "2018-timeline",
+      "type": "curated",
+      "name": {
+        "es": "La línea de 2018",
+        "en": "The 2018 timeline"
+      },
+      "description": {
+        "es": "La original y su secuela directa de 40 años después: la forma más corta de cerrar la historia de Laurie.",
+        "en": "The original and its direct sequel 40 years later: the shortest way to close Laurie's story."
+      },
+      "titleIds": [
+        "halloween-1978",
+        "halloween-2018",
+        "halloween-kills-2021",
+        "halloween-ends-2022"
+      ]
+    },
+    {
+      "id": "h20-timeline",
+      "type": "curated",
+      "name": {
+        "es": "La línea H20",
+        "en": "The H20 timeline"
+      },
+      "description": {
+        "es": "Las dos primeras y el regreso de Jamie Lee Curtis en 1998.",
+        "en": "The first two films and Jamie Lee Curtis's 1998 return."
+      },
+      "titleIds": [
+        "halloween-1978",
+        "halloween-ii-1981",
+        "halloween-h20-20-years-later-1998",
+        "halloween-resurrection-2002"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "laurie-strode",
+      "kind": "character",
+      "name": {
+        "es": "Laurie Strode",
+        "en": "Laurie Strode"
+      },
+      "description": {
+        "es": "Jamie Lee Curtis frente a Michael, en todas sus líneas.",
+        "en": "Jamie Lee Curtis against Michael, across every timeline."
+      },
+      "titleIds": [
+        "halloween-1978",
+        "halloween-ii-1981",
+        "halloween-h20-20-years-later-1998",
+        "halloween-2018",
+        "halloween-kills-2021",
+        "halloween-ends-2022"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "michael-myers",
+        "name": {
+          "es": "Michael Myers",
+          "en": "Michael Myers"
+        }
+      },
+      {
+        "id": "laurie-strode",
+        "name": {
+          "es": "Laurie Strode",
+          "en": "Laurie Strode"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

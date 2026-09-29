@@ -14,6 +14,7 @@
     "typecheck": "tsc -b",
     "catalog:validate": "tsx scripts/validate-catalog.ts",
     "catalog:enrich": "tsx --env-file=.env.local scripts/enrich-catalog.ts",
+    "catalog:lookup": "tsx --env-file=.env.local scripts/tmdb-lookup.ts",
     "test:rules": "firebase emulators:exec --only firestore --project demo-watch-order \"vitest run -c vitest.rules.config.ts\"",
     "emulators": "firebase emulators:start --project demo-watch-order",
     "dev:emulators": "VITE_FIREBASE_EMULATORS=1 FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 vite",

@@ -1,0 +1,269 @@
+{
+  "id": "fast-furious",
+  "name": {
+    "es": "Rápidos y furiosos",
+    "en": "Fast & Furious"
+  },
+  "description": {
+    "es": "Dom Toretto y la familia, de las carreras callejeras al espionaje.",
+    "en": "Dom Toretto and the family, from street racing to spycraft."
+  },
+  "accentColor": "#4338CA",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Saga principal",
+        "en": "Main saga"
+      },
+      "canonLevel": "main"
+    },
+    {
+      "id": "spy-racers",
+      "name": {
+        "es": "Spy Racers",
+        "en": "Spy Racers"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Serie animada para chicos con el primo de Dom.",
+        "en": "Animated kids' series with Dom's cousin."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-fast-and-the-furious-2001",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "dom",
+        "brian"
+      ]
+    },
+    {
+      "titleId": "2-fast-2-furious-2003",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "brian"
+      ]
+    },
+    {
+      "titleId": "fast-and-furious-2009",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "dom",
+        "brian",
+        "han"
+      ]
+    },
+    {
+      "titleId": "fast-five-2011",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "dom",
+        "brian",
+        "han",
+        "hobbs"
+      ]
+    },
+    {
+      "titleId": "fast-and-furious-6-2013",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "dom",
+        "brian",
+        "han",
+        "hobbs"
+      ]
+    },
+    {
+      "titleId": "the-fast-and-the-furious-tokyo-drift-2006",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "Después de Fast & Furious 6",
+        "en": "After Fast & Furious 6"
+      },
+      "characters": [
+        "han"
+      ]
+    },
+    {
+      "titleId": "furious-7-2015",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "characters": [
+        "dom",
+        "brian",
+        "hobbs"
+      ]
+    },
+    {
+      "titleId": "the-fate-of-the-furious-2017",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 80,
+      "characters": [
+        "dom",
+        "hobbs"
+      ]
+    },
+    {
+      "titleId": "fast-and-furious-presents-hobbs-and-shaw-2019",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 90,
+      "characters": [
+        "hobbs"
+      ]
+    },
+    {
+      "titleId": "f9-2021",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 100,
+      "characters": [
+        "dom",
+        "han"
+      ]
+    },
+    {
+      "titleId": "fast-x-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 110,
+      "characters": [
+        "dom",
+        "han"
+      ]
+    },
+    {
+      "titleId": "fast-forever-2028",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 120,
+      "characters": [
+        "dom"
+      ]
+    },
+    {
+      "titleId": "fast-and-furious-spy-racers-2019",
+      "continuityId": "spy-racers",
+      "importance": "skippable",
+      "chronoOrder": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-fast-forever-2028",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Fast Forever",
+        "en": "Get ready for Fast Forever"
+      },
+      "description": {
+        "es": "El arco de Dante Reyes y el regreso de Han.",
+        "en": "The Dante Reyes arc and Han's return."
+      },
+      "targetTitleId": "fast-forever-2028",
+      "titleIds": [
+        "fast-five-2011",
+        "furious-7-2015",
+        "f9-2021",
+        "fast-x-2023"
+      ]
+    },
+    {
+      "id": "justice-for-han",
+      "kind": "character",
+      "name": {
+        "es": "Han",
+        "en": "Han"
+      },
+      "description": {
+        "es": "Han Lue, de Tokio a su regreso.",
+        "en": "Han Lue, from Tokyo to his return."
+      },
+      "titleIds": [
+        "fast-and-furious-2009",
+        "fast-five-2011",
+        "fast-and-furious-6-2013",
+        "the-fast-and-the-furious-tokyo-drift-2006",
+        "f9-2021",
+        "fast-x-2023"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "dom",
+        "name": {
+          "es": "Dominic Toretto",
+          "en": "Dominic Toretto"
+        }
+      },
+      {
+        "id": "brian",
+        "name": {
+          "es": "Brian O'Conner",
+          "en": "Brian O'Conner"
+        }
+      },
+      {
+        "id": "han",
+        "name": {
+          "es": "Han",
+          "en": "Han"
+        }
+      },
+      {
+        "id": "hobbs",
+        "name": {
+          "es": "Luke Hobbs",
+          "en": "Luke Hobbs"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -3,9 +3,6 @@ import { lazy, Suspense, useEffect, useSyncExternalStore, type ComponentType } f
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { Toaster } from "./components/Toaster";
 import { HubPage } from "./features/hub/HubPage";
-import { PlanSync } from "./features/planner/PlanSync";
-import { AchievementSync } from "./features/achievements/AchievementSync";
-import { GroupSync } from "./features/groups/GroupSync";
 
 // Todo menos el Hub va en chunks propios: el arranque carga lo mínimo para pintar la portada.
 // El mapa además trae d3-force.
@@ -21,6 +18,11 @@ const FranchisePage = page(loadFranchise, "FranchisePage");
 const TitlePage = page(loadTitle, "TitlePage");
 const RoutePage = page(loadRoute, "RoutePage");
 const SearchPage = page(loadSearch, "SearchPage");
+// Sincronización en segundo plano (logros, feeds de planes, progreso de grupos): no hace
+// falta para pintar, se carga después.
+const PlanSync = page(() => import("./features/planner/PlanSync"), "PlanSync");
+const AchievementSync = page(() => import("./features/achievements/AchievementSync"), "AchievementSync");
+const GroupSync = page(() => import("./features/groups/GroupSync"), "GroupSync");
 function prefetchPages() {
   const run = () => [loadFranchise, loadTitle, loadRoute, loadSearch].forEach((load) => void load().catch(() => undefined));
   const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(run, { timeout: 3000 }) : setTimeout(run, 500));
@@ -168,9 +170,11 @@ function Layout() {
         </Suspense>
       </main>
       <Toaster />
-      <PlanSync />
-      <AchievementSync />
-      <GroupSync />
+      <Suspense fallback={null}>
+        <PlanSync />
+        <AchievementSync />
+        <GroupSync />
+      </Suspense>
       <footer className="-mx-4 flex flex-col gap-2 border-t-2 border-line px-4 py-6 font-mono text-[11px] text-muted">
         <a href="https://wxlter.dev" className="flex items-center gap-2 self-start font-bold text-fg">
           <WxlterSymbol size={16} />

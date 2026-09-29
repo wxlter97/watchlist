@@ -10,6 +10,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>Watch Order</title>
+    <!-- La fuente de titulares llega antes del primer pintado: el app shell no cambia de tamaño. -->
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="/node_modules/@fontsource/archivo-black/files/archivo-black-latin-400-normal.woff2" />
     <script>
       // Aplica el tema antes del primer render (misma lógica que src/lib/theme.ts).
       (function () {

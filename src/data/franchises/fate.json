@@ -1,0 +1,474 @@
+{
+  "id": "fate",
+  "name": {
+    "es": "Fate",
+    "en": "Fate"
+  },
+  "description": {
+    "es": "Guerras del Santo Grial de Type-Moon: Fuyuki, Chaldea y todos sus mundos paralelos.",
+    "en": "Type-Moon's Holy Grail Wars: Fuyuki, Chaldea and every parallel world."
+  },
+  "accentColor": "#BE123C",
+  "continuities": [
+    {
+      "id": "fuyuki",
+      "name": {
+        "es": "Fuyuki (stay night)",
+        "en": "Fuyuki (stay night)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La cuarta y la quinta guerra. Las tres rutas de stay night son versiones alternativas de la misma guerra.",
+        "en": "The Fourth and Fifth Wars. stay night's three routes are alternate versions of the same war."
+      }
+    },
+    {
+      "id": "grand-order",
+      "name": {
+        "es": "Fate/Grand Order",
+        "en": "Fate/Grand Order"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Chaldea recorre las singularidades de la historia humana.",
+        "en": "Chaldea travels through the singularities of human history."
+      }
+    },
+    {
+      "id": "apocrypha",
+      "name": {
+        "es": "Fate/Apocrypha",
+        "en": "Fate/Apocrypha"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El Grial desapareció en la tercera guerra: la Gran Guerra del Santo Grial en Rumania.",
+        "en": "The Grail vanished in the Third War: the Great Holy Grail War in Romania."
+      }
+    },
+    {
+      "id": "extra",
+      "name": {
+        "es": "Fate/Extra",
+        "en": "Fate/Extra"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Una guerra en el mundo digital de la Luna.",
+        "en": "A war inside the Moon's digital world."
+      }
+    },
+    {
+      "id": "strange-fake",
+      "name": {
+        "es": "Fate/strange Fake",
+        "en": "Fate/strange Fake"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Una guerra falsa en Snowfield, Estados Unidos.",
+        "en": "A false war in Snowfield, USA."
+      }
+    },
+    {
+      "id": "prisma-illya",
+      "name": {
+        "es": "Prisma Illya",
+        "en": "Prisma Illya"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Spin-off de chicas mágicas en un mundo donde Illya no es Master.",
+        "en": "Magical-girl spin-off in a world where Illya isn't a Master."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "parody",
+      "name": {
+        "es": "Parodia",
+        "en": "Parody"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Carnival Phantasm, la comedia con todo el elenco de Type-Moon.",
+        "en": "Carnival Phantasm, the comedy with Type-Moon's whole cast."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "fate-zero-2011",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Cuarta guerra, 10 años antes",
+        "en": "Fourth War, 10 years earlier"
+      },
+      "characters": [
+        "kiritsugu",
+        "saber"
+      ]
+    },
+    {
+      "titleId": "fate-stay-night-2006",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Quinta guerra: ruta Fate",
+        "en": "Fifth War: Fate route"
+      },
+      "characters": [
+        "shirou",
+        "saber"
+      ]
+    },
+    {
+      "titleId": "fate-stay-night-unlimited-blade-works-2014",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "essential",
+      "chronoOrder": 21,
+      "chronoNote": {
+        "es": "Quinta guerra: ruta Unlimited Blade Works",
+        "en": "Fifth War: Unlimited Blade Works route"
+      },
+      "characters": [
+        "shirou",
+        "saber",
+        "rin"
+      ]
+    },
+    {
+      "titleId": "fate-stay-night-heavens-feel-i-presage-flower-2017",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "essential",
+      "chronoOrder": 22,
+      "chronoNote": {
+        "es": "Quinta guerra: ruta Heaven's Feel",
+        "en": "Fifth War: Heaven's Feel route"
+      },
+      "characters": [
+        "shirou",
+        "sakura"
+      ]
+    },
+    {
+      "titleId": "fate-stay-night-heavens-feel-ii-lost-butterfly-2019",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "essential",
+      "chronoOrder": 23,
+      "characters": [
+        "shirou",
+        "sakura"
+      ]
+    },
+    {
+      "titleId": "fate-stay-night-heavens-feel-iii-spring-song-2020",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "essential",
+      "chronoOrder": 24,
+      "characters": [
+        "shirou",
+        "sakura"
+      ]
+    },
+    {
+      "titleId": "lord-el-melloi-iis-case-files-rail-zeppelin-grace-note-2019",
+      "continuityId": "fuyuki",
+      "group": "fuyuki",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Entre Zero y stay night",
+        "en": "Between Zero and stay night"
+      },
+      "characters": [
+        "waver"
+      ]
+    },
+    {
+      "titleId": "fate-grand-order-first-order-2016",
+      "continuityId": "grand-order",
+      "group": "grand-order",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Singularidad F",
+        "en": "Singularity F"
+      }
+    },
+    {
+      "titleId": "fate-grand-order-camelot-1-wandering-agateram-2020",
+      "continuityId": "grand-order",
+      "group": "grand-order",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Sexta singularidad",
+        "en": "Sixth Singularity"
+      }
+    },
+    {
+      "titleId": "fate-grand-order-camelot-2-paladin-agateram-2021",
+      "continuityId": "grand-order",
+      "group": "grand-order",
+      "importance": "recommended",
+      "chronoOrder": 21
+    },
+    {
+      "titleId": "fate-grand-order-absolute-demonic-front-babylonia-2019",
+      "continuityId": "grand-order",
+      "group": "grand-order",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Séptima singularidad",
+        "en": "Seventh Singularity"
+      }
+    },
+    {
+      "titleId": "fate-grand-order-final-singularity-grand-temple-of-time-solomon-2021",
+      "continuityId": "grand-order",
+      "group": "grand-order",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Singularidad final",
+        "en": "Final Singularity"
+      }
+    },
+    {
+      "titleId": "fate-apocrypha-2017",
+      "continuityId": "apocrypha",
+      "group": "spinoffs",
+      "importance": "recommended",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "fate-extra-last-encore-2018",
+      "continuityId": "extra",
+      "group": "spinoffs",
+      "importance": "skippable",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "fate-strange-fake-whispers-of-dawn-2023",
+      "continuityId": "strange-fake",
+      "group": "spinoffs",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Prólogo",
+        "en": "Prologue"
+      }
+    },
+    {
+      "titleId": "fate-strange-fake-2024",
+      "continuityId": "strange-fake",
+      "group": "spinoffs",
+      "importance": "recommended",
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "fate-kaleid-liner-prisma-illya-2013",
+      "continuityId": "prisma-illya",
+      "group": "spinoffs",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "illya"
+      ]
+    },
+    {
+      "titleId": "fate-kaleid-liner-prisma-illya-vow-in-the-snow-2017",
+      "continuityId": "prisma-illya",
+      "group": "spinoffs",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "shirou"
+      ]
+    },
+    {
+      "titleId": "carnival-phantasm-2011",
+      "continuityId": "parody",
+      "group": "spinoffs",
+      "importance": "skippable",
+      "chronoOrder": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "recommended",
+      "type": "curated",
+      "name": {
+        "es": "Orden recomendado",
+        "en": "Recommended order"
+      },
+      "description": {
+        "es": "Unlimited Blade Works, Heaven's Feel y después Fate/Zero: la precuela funciona mejor sabiendo quién sobrevive. Luego El-Melloi II y Grand Order.",
+        "en": "Unlimited Blade Works, Heaven's Feel, then Fate/Zero: the prequel lands better once you know who survives. Then El-Melloi II and Grand Order."
+      },
+      "titleIds": [
+        "fate-stay-night-unlimited-blade-works-2014",
+        "fate-stay-night-heavens-feel-i-presage-flower-2017",
+        "fate-stay-night-heavens-feel-ii-lost-butterfly-2019",
+        "fate-stay-night-heavens-feel-iii-spring-song-2020",
+        "fate-zero-2011",
+        "lord-el-melloi-iis-case-files-rail-zeppelin-grace-note-2019",
+        "fate-grand-order-absolute-demonic-front-babylonia-2019",
+        "fate-grand-order-final-singularity-grand-temple-of-time-solomon-2021"
+      ]
+    },
+    {
+      "id": "worlds",
+      "type": "grouped",
+      "name": {
+        "es": "Por mundo",
+        "en": "By world"
+      },
+      "description": {
+        "es": "Fuyuki, Chaldea y los spin-offs.",
+        "en": "Fuyuki, Chaldea and the spin-offs."
+      },
+      "groupLabels": {
+        "fuyuki": {
+          "es": "Fuyuki",
+          "en": "Fuyuki"
+        },
+        "grand-order": {
+          "es": "Grand Order",
+          "en": "Grand Order"
+        },
+        "spinoffs": {
+          "es": "Otros mundos",
+          "en": "Other worlds"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "stay-night-routes",
+      "kind": "theme",
+      "name": {
+        "es": "Las tres rutas de stay night",
+        "en": "The three stay night routes"
+      },
+      "description": {
+        "es": "Fate, Unlimited Blade Works y Heaven's Feel: la misma guerra desde tres caminos.",
+        "en": "Fate, Unlimited Blade Works and Heaven's Feel: the same war down three paths."
+      },
+      "titleIds": [
+        "fate-stay-night-2006",
+        "fate-stay-night-unlimited-blade-works-2014",
+        "fate-stay-night-heavens-feel-i-presage-flower-2017",
+        "fate-stay-night-heavens-feel-ii-lost-butterfly-2019",
+        "fate-stay-night-heavens-feel-iii-spring-song-2020"
+      ]
+    },
+    {
+      "id": "waver-velvet",
+      "kind": "character",
+      "name": {
+        "es": "Waver Velvet",
+        "en": "Waver Velvet"
+      },
+      "description": {
+        "es": "De Master novato en la cuarta guerra a Lord El-Melloi II.",
+        "en": "From rookie Master in the Fourth War to Lord El-Melloi II."
+      },
+      "titleIds": [
+        "fate-zero-2011",
+        "lord-el-melloi-iis-case-files-rail-zeppelin-grace-note-2019"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "saber",
+        "name": {
+          "es": "Saber",
+          "en": "Saber"
+        }
+      },
+      {
+        "id": "shirou",
+        "name": {
+          "es": "Shirou Emiya",
+          "en": "Shirou Emiya"
+        }
+      },
+      {
+        "id": "rin",
+        "name": {
+          "es": "Rin Tohsaka",
+          "en": "Rin Tohsaka"
+        }
+      },
+      {
+        "id": "sakura",
+        "name": {
+          "es": "Sakura Matou",
+          "en": "Sakura Matou"
+        }
+      },
+      {
+        "id": "kiritsugu",
+        "name": {
+          "es": "Kiritsugu Emiya",
+          "en": "Kiritsugu Emiya"
+        }
+      },
+      {
+        "id": "waver",
+        "name": {
+          "es": "Waver Velvet",
+          "en": "Waver Velvet"
+        }
+      },
+      {
+        "id": "illya",
+        "name": {
+          "es": "Illyasviel",
+          "en": "Illyasviel"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

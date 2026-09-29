@@ -1,0 +1,263 @@
+{
+  "id": "alien",
+  "name": {
+    "es": "Alien",
+    "en": "Alien"
+  },
+  "description": {
+    "es": "Los xenomorfos, de Prometheus a Alien: Earth, más el crossover con Predator.",
+    "en": "The xenomorphs, from Prometheus to Alien: Earth, plus the Predator crossover."
+  },
+  "accentColor": "#3F6212",
+  "continuities": [
+    {
+      "id": "alien",
+      "name": {
+        "es": "Alien",
+        "en": "Alien"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas y la serie de 20th Century Studios.",
+        "en": "The 20th Century Studios films and series."
+      }
+    },
+    {
+      "id": "avp",
+      "name": {
+        "es": "Alien vs. Predator",
+        "en": "Alien vs. Predator"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El crossover de los dos universos. Ninguna de las dos sagas lo considera parte de su historia oficial.",
+        "en": "The crossover of both universes. Neither saga counts it as official history."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "prometheus-2012",
+      "continuityId": "alien",
+      "group": "prequels",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2089–2093",
+        "en": "2089–2093"
+      },
+      "characters": [
+        "david"
+      ]
+    },
+    {
+      "titleId": "alien-covenant-2017",
+      "continuityId": "alien",
+      "group": "prequels",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2104",
+        "en": "2104"
+      },
+      "characters": [
+        "david"
+      ]
+    },
+    {
+      "titleId": "alien-earth-2025",
+      "continuityId": "alien",
+      "group": "new",
+      "importance": "recommended",
+      "chronoOrder": 25,
+      "chronoNote": {
+        "es": "2120",
+        "en": "2120"
+      }
+    },
+    {
+      "titleId": "alien-1979",
+      "continuityId": "alien",
+      "group": "original",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2122",
+        "en": "2122"
+      },
+      "characters": [
+        "ripley"
+      ]
+    },
+    {
+      "titleId": "alien-romulus-2024",
+      "continuityId": "alien",
+      "group": "new",
+      "importance": "recommended",
+      "chronoOrder": 35,
+      "chronoNote": {
+        "es": "2142",
+        "en": "2142"
+      }
+    },
+    {
+      "titleId": "aliens-1986",
+      "continuityId": "alien",
+      "group": "original",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2179",
+        "en": "2179"
+      },
+      "characters": [
+        "ripley"
+      ]
+    },
+    {
+      "titleId": "alien-3-1992",
+      "continuityId": "alien",
+      "group": "original",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2179",
+        "en": "2179"
+      },
+      "characters": [
+        "ripley"
+      ]
+    },
+    {
+      "titleId": "alien-resurrection-1997",
+      "continuityId": "alien",
+      "group": "original",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2381",
+        "en": "2381"
+      },
+      "characters": [
+        "ripley"
+      ]
+    },
+    {
+      "titleId": "avp-alien-vs-predator-2004",
+      "continuityId": "avp",
+      "group": "avp",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2004",
+        "en": "2004"
+      }
+    },
+    {
+      "titleId": "aliens-vs-predator-requiem-2007",
+      "continuityId": "avp",
+      "group": "avp",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2004",
+        "en": "2004"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "sagas",
+      "type": "grouped",
+      "name": {
+        "es": "Por etapas",
+        "en": "By era"
+      },
+      "description": {
+        "es": "La saga de Ripley, las precuelas de Ridley Scott y la etapa nueva.",
+        "en": "The Ripley saga, Ridley Scott's prequels and the new era."
+      },
+      "groupLabels": {
+        "original": {
+          "es": "La saga de Ripley",
+          "en": "The Ripley saga"
+        },
+        "prequels": {
+          "es": "Precuelas",
+          "en": "Prequels"
+        },
+        "new": {
+          "es": "Etapa nueva",
+          "en": "New era"
+        },
+        "avp": {
+          "es": "Alien vs. Predator",
+          "en": "Alien vs. Predator"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "ellen-ripley",
+      "kind": "character",
+      "name": {
+        "es": "Ellen Ripley",
+        "en": "Ellen Ripley"
+      },
+      "description": {
+        "es": "Las cuatro películas de Sigourney Weaver.",
+        "en": "Sigourney Weaver's four films."
+      },
+      "titleIds": [
+        "alien-1979",
+        "aliens-1986",
+        "alien-3-1992",
+        "alien-resurrection-1997"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "ripley",
+        "name": {
+          "es": "Ellen Ripley",
+          "en": "Ellen Ripley"
+        }
+      },
+      {
+        "id": "david",
+        "name": {
+          "es": "David",
+          "en": "David"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "id": "star-trek",
+  "name": {
+    "es": "Star Trek",
+    "en": "Star Trek"
+  },
+  "description": {
+    "es": "Seis décadas de la Flota Estelar: la línea temporal principal y la de Kelvin.",
+    "en": "Six decades of Starfleet: the Prime timeline and the Kelvin timeline."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "prime",
+      "name": {
+        "es": "Línea temporal principal",
+        "en": "Prime timeline"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todas las series y las diez primeras películas.",
+        "en": "Every series and the first ten films."
+      }
+    },
+    {
+      "id": "kelvin",
+      "name": {
+        "es": "Línea temporal Kelvin",
+        "en": "Kelvin timeline"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La realidad alternativa de las películas de 2009 en adelante, creada por la destrucción de la USS Kelvin en 2233.",
+        "en": "The alternate reality of the 2009-onward films, created when the USS Kelvin is destroyed in 2233."
+      },
+      "branchesFrom": {
+        "continuityId": "prime",
+        "afterTitleId": "star-trek-enterprise-2001"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "star-trek-enterprise-2001",
+      "continuityId": "prime",
+      "group": "prequels",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2151–2155",
+        "en": "2151–2155"
+      },
+      "characters": [
+        "archer"
+      ]
+    },
+    {
+      "titleId": "star-trek-discovery-2017",
+      "continuityId": "prime",
+      "group": "prequels",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2256–2258; desde la T3, siglo XXXII",
+        "en": "2256–2258; 32nd century from S3"
+      },
+      "characters": [
+        "burnham",
+        "pike",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-strange-new-worlds-2022",
+      "continuityId": "prime",
+      "group": "prequels",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2259 en adelante",
+        "en": "2259 onward"
+      },
+      "characters": [
+        "pike",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-1966",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2266–2269",
+        "en": "2266–2269"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-the-animated-series-1973",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2269–2270",
+        "en": "2269–2270"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-the-motion-picture-1979",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2273",
+        "en": "2273"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-ii-the-wrath-of-khan-1982",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "2285",
+        "en": "2285"
+      },
+      "characters": [
+        "kirk",
+        "spock",
+        "khan"
+      ]
+    },
+    {
+      "titleId": "star-trek-iii-the-search-for-spock-1984",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "recommended",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "2285",
+        "en": "2285"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-iv-the-voyage-home-1986",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "recommended",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "2286",
+        "en": "2286"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-v-the-final-frontier-1989",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "skippable",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "2287",
+        "en": "2287"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-vi-the-undiscovered-country-1991",
+      "continuityId": "prime",
+      "group": "tos-era",
+      "importance": "recommended",
+      "chronoOrder": 110,
+      "chronoNote": {
+        "es": "2293",
+        "en": "2293"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-section-31-2025",
+      "continuityId": "prime",
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 115,
+      "chronoNote": {
+        "es": "Década de 2320",
+        "en": "2320s"
+      }
+    },
+    {
+      "titleId": "star-trek-the-next-generation-1987",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "essential",
+      "chronoOrder": 120,
+      "chronoNote": {
+        "es": "2364–2370",
+        "en": "2364–2370"
+      },
+      "characters": [
+        "picard"
+      ]
+    },
+    {
+      "titleId": "star-trek-deep-space-nine-1993",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "essential",
+      "chronoOrder": 130,
+      "chronoNote": {
+        "es": "2369–2375",
+        "en": "2369–2375"
+      },
+      "characters": [
+        "sisko"
+      ]
+    },
+    {
+      "titleId": "star-trek-generations-1994",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "recommended",
+      "chronoOrder": 135,
+      "chronoNote": {
+        "es": "2293 y 2371",
+        "en": "2293 and 2371"
+      },
+      "characters": [
+        "picard",
+        "kirk"
+      ]
+    },
+    {
+      "titleId": "star-trek-voyager-1995",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "recommended",
+      "chronoOrder": 140,
+      "chronoNote": {
+        "es": "2371–2378",
+        "en": "2371–2378"
+      },
+      "characters": [
+        "janeway"
+      ]
+    },
+    {
+      "titleId": "star-trek-first-contact-1996",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "essential",
+      "chronoOrder": 150,
+      "chronoNote": {
+        "es": "2373 y 2063",
+        "en": "2373 and 2063"
+      },
+      "characters": [
+        "picard"
+      ]
+    },
+    {
+      "titleId": "star-trek-insurrection-1998",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "optional",
+      "chronoOrder": 160,
+      "chronoNote": {
+        "es": "2375",
+        "en": "2375"
+      },
+      "characters": [
+        "picard"
+      ]
+    },
+    {
+      "titleId": "star-trek-nemesis-2002",
+      "continuityId": "prime",
+      "group": "tng-era",
+      "importance": "optional",
+      "chronoOrder": 170,
+      "chronoNote": {
+        "es": "2379",
+        "en": "2379"
+      },
+      "characters": [
+        "picard"
+      ]
+    },
+    {
+      "titleId": "star-trek-lower-decks-2020",
+      "continuityId": "prime",
+      "group": "modern",
+      "importance": "optional",
+      "chronoOrder": 180,
+      "chronoNote": {
+        "es": "2380–2381",
+        "en": "2380–2381"
+      }
+    },
+    {
+      "titleId": "star-trek-prodigy-2021",
+      "continuityId": "prime",
+      "group": "modern",
+      "importance": "optional",
+      "chronoOrder": 190,
+      "chronoNote": {
+        "es": "2383–2385",
+        "en": "2383–2385"
+      },
+      "characters": [
+        "janeway"
+      ]
+    },
+    {
+      "titleId": "star-trek-picard-2020",
+      "continuityId": "prime",
+      "group": "modern",
+      "importance": "recommended",
+      "chronoOrder": 200,
+      "chronoNote": {
+        "es": "2399–2402",
+        "en": "2399–2402"
+      },
+      "characters": [
+        "picard"
+      ]
+    },
+    {
+      "titleId": "star-trek-starfleet-academy-2026",
+      "continuityId": "prime",
+      "group": "modern",
+      "importance": "optional",
+      "chronoOrder": 210,
+      "chronoNote": {
+        "es": "Siglo XXXII",
+        "en": "32nd century"
+      }
+    },
+    {
+      "titleId": "star-trek-short-treks-2018",
+      "continuityId": "prime",
+      "group": "modern",
+      "importance": "skippable",
+      "characters": [
+        "pike",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-2009",
+      "continuityId": "kelvin",
+      "group": "kelvin",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2233 y 2258",
+        "en": "2233 and 2258"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    },
+    {
+      "titleId": "star-trek-into-darkness-2013",
+      "continuityId": "kelvin",
+      "group": "kelvin",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2259",
+        "en": "2259"
+      },
+      "characters": [
+        "kirk",
+        "spock",
+        "khan"
+      ]
+    },
+    {
+      "titleId": "star-trek-beyond-2016",
+      "continuityId": "kelvin",
+      "group": "kelvin",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2263",
+        "en": "2263"
+      },
+      "characters": [
+        "kirk",
+        "spock"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "eras",
+      "type": "grouped",
+      "name": {
+        "es": "Por eras",
+        "en": "By era"
+      },
+      "description": {
+        "es": "Cada época de la franquicia junta, por estreno.",
+        "en": "Each era of the franchise together, by release."
+      },
+      "groupLabels": {
+        "tos-era": {
+          "es": "La serie original y sus películas",
+          "en": "The Original Series and its films"
+        },
+        "tng-era": {
+          "es": "Next Generation, DS9 y Voyager",
+          "en": "Next Generation, DS9 and Voyager"
+        },
+        "prequels": {
+          "es": "Precuelas",
+          "en": "Prequels"
+        },
+        "modern": {
+          "es": "Era moderna",
+          "en": "Modern era"
+        },
+        "kelvin": {
+          "es": "Línea Kelvin",
+          "en": "Kelvin timeline"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "captain-kirk",
+      "kind": "character",
+      "name": {
+        "es": "El capitán Kirk",
+        "en": "Captain Kirk"
+      },
+      "description": {
+        "es": "James T. Kirk, de la serie original a su último viaje.",
+        "en": "James T. Kirk, from the Original Series to his final voyage."
+      },
+      "titleIds": [
+        "star-trek-1966",
+        "star-trek-the-motion-picture-1979",
+        "star-trek-ii-the-wrath-of-khan-1982",
+        "star-trek-iii-the-search-for-spock-1984",
+        "star-trek-iv-the-voyage-home-1986",
+        "star-trek-vi-the-undiscovered-country-1991",
+        "star-trek-generations-1994"
+      ]
+    },
+    {
+      "id": "jean-luc-picard",
+      "kind": "character",
+      "name": {
+        "es": "Jean-Luc Picard",
+        "en": "Jean-Luc Picard"
+      },
+      "description": {
+        "es": "El capitán del Enterprise-D y E, hasta su regreso en Picard.",
+        "en": "Captain of the Enterprise-D and E, through his return in Picard."
+      },
+      "titleIds": [
+        "star-trek-the-next-generation-1987",
+        "star-trek-generations-1994",
+        "star-trek-first-contact-1996",
+        "star-trek-insurrection-1998",
+        "star-trek-nemesis-2002",
+        "star-trek-picard-2020"
+      ]
+    },
+    {
+      "id": "khan",
+      "kind": "theme",
+      "name": {
+        "es": "Khan",
+        "en": "Khan"
+      },
+      "description": {
+        "es": "Khan Noonien Singh en las dos líneas temporales.",
+        "en": "Khan Noonien Singh across both timelines."
+      },
+      "titleIds": [
+        "star-trek-1966",
+        "star-trek-ii-the-wrath-of-khan-1982",
+        "star-trek-into-darkness-2013"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "kirk",
+        "name": {
+          "es": "James T. Kirk",
+          "en": "James T. Kirk"
+        }
+      },
+      {
+        "id": "spock",
+        "name": {
+          "es": "Spock",
+          "en": "Spock"
+        }
+      },
+      {
+        "id": "picard",
+        "name": {
+          "es": "Jean-Luc Picard",
+          "en": "Jean-Luc Picard"
+        }
+      },
+      {
+        "id": "sisko",
+        "name": {
+          "es": "Benjamin Sisko",
+          "en": "Benjamin Sisko"
+        }
+      },
+      {
+        "id": "janeway",
+        "name": {
+          "es": "Kathryn Janeway",
+          "en": "Kathryn Janeway"
+        }
+      },
+      {
+        "id": "archer",
+        "name": {
+          "es": "Jonathan Archer",
+          "en": "Jonathan Archer"
+        }
+      },
+      {
+        "id": "burnham",
+        "name": {
+          "es": "Michael Burnham",
+          "en": "Michael Burnham"
+        }
+      },
+      {
+        "id": "pike",
+        "name": {
+          "es": "Christopher Pike",
+          "en": "Christopher Pike"
+        }
+      },
+      {
+        "id": "khan",
+        "name": {
+          "es": "Khan",
+          "en": "Khan"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

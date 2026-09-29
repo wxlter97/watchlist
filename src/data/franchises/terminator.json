@@ -1,0 +1,302 @@
+{
+  "id": "terminator",
+  "name": {
+    "es": "Terminator",
+    "en": "Terminator"
+  },
+  "description": {
+    "es": "Skynet, John Connor y cada futuro que se reescribió.",
+    "en": "Skynet, John Connor and every future that got rewritten."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "cameron",
+      "name": {
+        "es": "Original (Cameron)",
+        "en": "Original (Cameron)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas de James Cameron: la base de todas las líneas.",
+        "en": "James Cameron's two films: every timeline starts here."
+      }
+    },
+    {
+      "id": "rise-of-the-machines",
+      "name": {
+        "es": "Línea de T3 y Salvation",
+        "en": "T3 and Salvation timeline"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El Día del Juicio solo se aplazó.",
+        "en": "Judgment Day was only postponed."
+      },
+      "branchesFrom": {
+        "continuityId": "cameron",
+        "afterTitleId": "terminator-2-judgment-day-1991"
+      }
+    },
+    {
+      "id": "sarah-connor-chronicles",
+      "name": {
+        "es": "Las crónicas de Sarah Connor",
+        "en": "The Sarah Connor Chronicles"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La serie sigue a Sarah y John después de T2 e ignora T3.",
+        "en": "The series follows Sarah and John after T2 and ignores T3."
+      },
+      "branchesFrom": {
+        "continuityId": "cameron",
+        "afterTitleId": "terminator-2-judgment-day-1991"
+      }
+    },
+    {
+      "id": "genisys",
+      "name": {
+        "es": "Génesis",
+        "en": "Genisys"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicia la historia desde 1984 en una línea alterada.",
+        "en": "Restarts the story from 1984 in an altered timeline."
+      },
+      "branchesFrom": {
+        "continuityId": "cameron",
+        "afterTitleId": "the-terminator-1984"
+      }
+    },
+    {
+      "id": "dark-fate",
+      "name": {
+        "es": "Destino oculto",
+        "en": "Dark Fate"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Secuela directa de T2 producida por Cameron.",
+        "en": "Direct sequel to T2, produced by Cameron."
+      },
+      "branchesFrom": {
+        "continuityId": "cameron",
+        "afterTitleId": "terminator-2-judgment-day-1991"
+      }
+    },
+    {
+      "id": "zero",
+      "name": {
+        "es": "Terminator Zero",
+        "en": "Terminator Zero"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Anime ambientado en Tokio en 1997, con su propia guerra del futuro.",
+        "en": "Anime set in Tokyo in 1997, with its own future war."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-terminator-1984",
+      "continuityId": "cameron",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1984",
+        "en": "1984"
+      },
+      "characters": [
+        "sarah-connor",
+        "t-800"
+      ]
+    },
+    {
+      "titleId": "terminator-2-judgment-day-1991",
+      "continuityId": "cameron",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1995",
+        "en": "1995"
+      },
+      "characters": [
+        "sarah-connor",
+        "john-connor",
+        "t-800"
+      ]
+    },
+    {
+      "titleId": "terminator-3-rise-of-the-machines-2003",
+      "continuityId": "rise-of-the-machines",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2004",
+        "en": "2004"
+      },
+      "characters": [
+        "john-connor",
+        "t-800"
+      ]
+    },
+    {
+      "titleId": "terminator-salvation-2009",
+      "continuityId": "rise-of-the-machines",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "characters": [
+        "john-connor"
+      ]
+    },
+    {
+      "titleId": "terminator-the-sarah-connor-chronicles-2008",
+      "continuityId": "sarah-connor-chronicles",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1999 y 2007",
+        "en": "1999 and 2007"
+      },
+      "characters": [
+        "sarah-connor",
+        "john-connor"
+      ]
+    },
+    {
+      "titleId": "terminator-genisys-2015",
+      "continuityId": "genisys",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1984 y 2017",
+        "en": "1984 and 2017"
+      },
+      "characters": [
+        "sarah-connor",
+        "john-connor",
+        "t-800"
+      ]
+    },
+    {
+      "titleId": "terminator-dark-fate-2019",
+      "continuityId": "dark-fate",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2020",
+        "en": "2020"
+      },
+      "characters": [
+        "sarah-connor",
+        "t-800"
+      ]
+    },
+    {
+      "titleId": "terminator-zero-2024",
+      "continuityId": "zero",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1997",
+        "en": "1997"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "cameron",
+      "type": "curated",
+      "name": {
+        "es": "Solo Cameron",
+        "en": "Cameron only"
+      },
+      "description": {
+        "es": "Las dos originales y Destino oculto, la secuela que Cameron considera la continuación.",
+        "en": "The two originals and Dark Fate, the sequel Cameron considers the follow-up."
+      },
+      "titleIds": [
+        "the-terminator-1984",
+        "terminator-2-judgment-day-1991",
+        "terminator-dark-fate-2019"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "sarah-connor",
+      "kind": "character",
+      "name": {
+        "es": "Sarah Connor",
+        "en": "Sarah Connor"
+      },
+      "description": {
+        "es": "Linda Hamilton y Lena Headey en cada versión de Sarah.",
+        "en": "Linda Hamilton and Lena Headey across every Sarah."
+      },
+      "titleIds": [
+        "the-terminator-1984",
+        "terminator-2-judgment-day-1991",
+        "terminator-the-sarah-connor-chronicles-2008",
+        "terminator-dark-fate-2019"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "sarah-connor",
+        "name": {
+          "es": "Sarah Connor",
+          "en": "Sarah Connor"
+        }
+      },
+      {
+        "id": "john-connor",
+        "name": {
+          "es": "John Connor",
+          "en": "John Connor"
+        }
+      },
+      {
+        "id": "t-800",
+        "name": {
+          "es": "T-800",
+          "en": "T-800"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

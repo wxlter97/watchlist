@@ -1,0 +1,442 @@
+{
+  "id": "james-bond",
+  "name": {
+    "es": "James Bond",
+    "en": "James Bond"
+  },
+  "description": {
+    "es": "007 en sus 25 películas oficiales, más las dos no oficiales.",
+    "en": "007 across his 25 official films, plus the two unofficial ones."
+  },
+  "accentColor": "#A16207",
+  "continuities": [
+    {
+      "id": "classic",
+      "name": {
+        "es": "Bond clásico (Connery a Brosnan)",
+        "en": "Classic Bond (Connery to Brosnan)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Continuidad suelta: cada actor retoma al mismo agente.",
+        "en": "Loose continuity: each actor takes over the same agent."
+      }
+    },
+    {
+      "id": "craig",
+      "name": {
+        "es": "Era Craig",
+        "en": "Craig era"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio de 2006 con una historia continua de cinco películas.",
+        "en": "The 2006 reboot, with one continuous five-film story."
+      }
+    },
+    {
+      "id": "non-eon",
+      "name": {
+        "es": "No oficiales",
+        "en": "Unofficial"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Producidas fuera de EON: la parodia de 1967 y el regreso de Connery en 1983.",
+        "en": "Made outside EON: the 1967 spoof and Connery's 1983 return."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "dr-no-1962",
+      "continuityId": "classic",
+      "group": "connery",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "from-russia-with-love-1963",
+      "continuityId": "classic",
+      "group": "connery",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "goldfinger-1964",
+      "continuityId": "classic",
+      "group": "connery",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "thunderball-1965",
+      "continuityId": "classic",
+      "group": "connery",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "you-only-live-twice-1967",
+      "continuityId": "classic",
+      "group": "connery",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "on-her-majestys-secret-service-1969",
+      "continuityId": "classic",
+      "group": "lazenby",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "diamonds-are-forever-1971",
+      "continuityId": "classic",
+      "group": "connery",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "live-and-let-die-1973",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "the-man-with-the-golden-gun-1974",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "optional",
+      "chronoOrder": 90,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "the-spy-who-loved-me-1977",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "recommended",
+      "chronoOrder": 100,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "moonraker-1979",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "skippable",
+      "chronoOrder": 110,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "for-your-eyes-only-1981",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "optional",
+      "chronoOrder": 120,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "octopussy-1983",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "optional",
+      "chronoOrder": 130,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "a-view-to-a-kill-1985",
+      "continuityId": "classic",
+      "group": "moore",
+      "importance": "skippable",
+      "chronoOrder": 140,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "the-living-daylights-1987",
+      "continuityId": "classic",
+      "group": "dalton",
+      "importance": "recommended",
+      "chronoOrder": 150,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "licence-to-kill-1989",
+      "continuityId": "classic",
+      "group": "dalton",
+      "importance": "optional",
+      "chronoOrder": 160,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "goldeneye-1995",
+      "continuityId": "classic",
+      "group": "brosnan",
+      "importance": "recommended",
+      "chronoOrder": 170,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "tomorrow-never-dies-1997",
+      "continuityId": "classic",
+      "group": "brosnan",
+      "importance": "optional",
+      "chronoOrder": 180,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "the-world-is-not-enough-1999",
+      "continuityId": "classic",
+      "group": "brosnan",
+      "importance": "optional",
+      "chronoOrder": 190,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "die-another-day-2002",
+      "continuityId": "classic",
+      "group": "brosnan",
+      "importance": "skippable",
+      "chronoOrder": 200,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "casino-royale-2006",
+      "continuityId": "craig",
+      "group": "craig",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "quantum-of-solace-2008",
+      "continuityId": "craig",
+      "group": "craig",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "skyfall-2012",
+      "continuityId": "craig",
+      "group": "craig",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "spectre-2015",
+      "continuityId": "craig",
+      "group": "craig",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "no-time-to-die-2021",
+      "continuityId": "craig",
+      "group": "craig",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "bond"
+      ]
+    },
+    {
+      "titleId": "casino-royale-1967",
+      "continuityId": "non-eon",
+      "group": "non-eon",
+      "importance": "skippable",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "never-say-never-again-1983",
+      "continuityId": "non-eon",
+      "group": "non-eon",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "bond"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "Las clásicas por estreno y la era Craig como una historia aparte.",
+        "en": "The classic films by release and the Craig era as a separate story."
+      }
+    },
+    {
+      "id": "actors",
+      "type": "grouped",
+      "name": {
+        "es": "Por actor",
+        "en": "By actor"
+      },
+      "description": {
+        "es": "Cada Bond con sus películas.",
+        "en": "Each Bond with his films."
+      },
+      "groupLabels": {
+        "connery": {
+          "es": "Sean Connery",
+          "en": "Sean Connery"
+        },
+        "lazenby": {
+          "es": "George Lazenby",
+          "en": "George Lazenby"
+        },
+        "moore": {
+          "es": "Roger Moore",
+          "en": "Roger Moore"
+        },
+        "dalton": {
+          "es": "Timothy Dalton",
+          "en": "Timothy Dalton"
+        },
+        "brosnan": {
+          "es": "Pierce Brosnan",
+          "en": "Pierce Brosnan"
+        },
+        "craig": {
+          "es": "Daniel Craig",
+          "en": "Daniel Craig"
+        },
+        "non-eon": {
+          "es": "No oficiales",
+          "en": "Unofficial"
+        }
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "craig-arc",
+      "kind": "theme",
+      "name": {
+        "es": "El arco de Craig",
+        "en": "The Craig arc"
+      },
+      "description": {
+        "es": "Las cinco películas como una sola historia, de Vesper a Madeleine.",
+        "en": "All five films as one story, from Vesper to Madeleine."
+      },
+      "titleIds": [
+        "casino-royale-2006",
+        "quantum-of-solace-2008",
+        "skyfall-2012",
+        "spectre-2015",
+        "no-time-to-die-2021"
+      ]
+    },
+    {
+      "id": "spectre",
+      "kind": "theme",
+      "name": {
+        "es": "SPECTRE y Blofeld",
+        "en": "SPECTRE and Blofeld"
+      },
+      "description": {
+        "es": "La organización criminal, en las dos continuidades.",
+        "en": "The criminal organization, across both continuities."
+      },
+      "titleIds": [
+        "from-russia-with-love-1963",
+        "thunderball-1965",
+        "you-only-live-twice-1967",
+        "on-her-majestys-secret-service-1969",
+        "diamonds-are-forever-1971",
+        "spectre-2015",
+        "no-time-to-die-2021"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "bond",
+        "name": {
+          "es": "James Bond",
+          "en": "James Bond"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
