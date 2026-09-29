@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router";
+import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel } from "../../components/ui";
 import { catalogIndex } from "../../lib/catalog";
@@ -58,6 +59,13 @@ export function RoutePage() {
         </div>
         <div className="mt-3">
           <ProgressBar ratio={ratio} label={loc(route.name)} />
+        </div>
+        <div className="mt-3">
+          <ShareLinkButton
+            target={{ kind: "route", franchiseId: franchise.id, refId: route.id }}
+            title={loc(route.name)}
+            label={t("shareLink.route")}
+          />
         </div>
         {progress.watched < progress.total && (
           <Link

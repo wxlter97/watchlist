@@ -1,0 +1,4 @@
+- Thanos gathers the six Infinity Stones to wipe out half of all life in the universe.
+- He kills Loki, sacrifices Gamora for the Soul Stone and rips the Mind Stone from Vision.
+- The Avengers fight on Titan and in Wakanda but can't stop him.
+- Thanos snaps his fingers: Spider-Man, Black Panther, Doctor Strange and most of the Guardians, among others, turn to dust.

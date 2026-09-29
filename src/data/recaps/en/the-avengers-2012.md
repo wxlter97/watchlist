@@ -1,0 +1,4 @@
+- Loki steals the Tesseract and opens a portal for a Chitauri invasion.
+- Nick Fury assembles Iron Man, Captain America, Thor, Hulk, Black Widow and Hawkeye; at first they clash.
+- Agent Coulson's death unites them and they defend New York.
+- Tony flies a nuke through the portal and they close it. Thor takes Loki back to Asgard; Thanos was behind the invasion.

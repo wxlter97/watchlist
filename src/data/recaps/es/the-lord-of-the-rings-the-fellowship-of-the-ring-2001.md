@@ -1,0 +1,4 @@
+- Frodo hereda de Bilbo el Anillo Único, forjado por Sauron para dominar la Tierra Media.
+- En Rivendel se forma la Comunidad para destruirlo en el Monte del Destino.
+- Gandalf cae ante el Balrog en Moria.
+- Boromir intenta quitarle el Anillo a Frodo y luego muere defendiendo a Merry y Pippin, capturados por los orcos. Frodo y Sam siguen solos.

@@ -1,0 +1,4 @@
+- Tras Sokovia, los Acuerdos de Sokovia exigen supervisión de la ONU; Tony los firma y Steve se niega.
+- Zemo incrimina a Bucky y el equipo se divide en dos bandos; aparecen Black Panther y Spider-Man.
+- Zemo revela que Bucky, bajo control de Hydra, mató a los padres de Tony.
+- Tony y Steve pelean; los Vengadores quedan rotos y Steve se va con Bucky.

@@ -1,0 +1,4 @@
+- Godzilla ataca instalaciones de Apex Cybernetics sin razón aparente.
+- Kong, guiado por Jia, una niña que se comunica con él, viaja a la Tierra Hueca, de donde viene su especie.
+- Apex construyó a Mechagodzilla con la mente de Ghidorah y por eso Godzilla lo buscaba.
+- Tras pelear entre sí, Kong y Godzilla destruyen juntos a Mechagodzilla y se separan en paz.

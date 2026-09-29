@@ -1,0 +1,4 @@
+- Five years after the snap, the Avengers travel through time to recover the stones.
+- Natasha sacrifices herself on Vormir; Hulk reverses the snap and everyone returns.
+- A past Thanos attacks and, in the final battle, Tony uses the stones and dies.
+- Steve returns the stones and stays in the past with Peggy; as an old man, he hands his shield to Sam Wilson.

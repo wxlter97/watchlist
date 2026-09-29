@@ -1,0 +1,4 @@
+- At the end of the Clone Wars, Chancellor Palpatine manipulates Anakin Skywalker with the promise of saving Padmé from death.
+- Anakin becomes Darth Vader; with Order 66 the clones wipe out the Jedi and Palpatine declares himself emperor.
+- Obi-Wan defeats Anakin on Mustafar, leaving him badly burned; Palpatine rebuilds him in the armor.
+- Padmé dies giving birth to Luke and Leia: Luke goes to his relatives on Tatooine, Leia to the Organas on Alderaan.

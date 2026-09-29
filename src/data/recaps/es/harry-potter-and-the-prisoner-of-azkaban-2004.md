@@ -1,0 +1,4 @@
+- Sirius Black escapa de Azkaban y todos creen que viene por Harry.
+- El profesor Lupin, que es hombre lobo, enseña a Harry a conjurar un patronus contra los dementores.
+- Sirius es inocente y padrino de Harry: el traidor fue Peter Pettigrew, escondido como la rata de Ron.
+- Con el giratiempo, Harry y Hermione salvan a Sirius y a Buckbeak. Pettigrew escapa.

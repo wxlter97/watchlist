@@ -103,6 +103,8 @@ export function HubPage() {
             { to: "/plans", title: t("planner.title"), body: t("hub.plannerBody") },
             { to: "/map", title: t("graph.title"), body: t("hub.mapBody") },
             { to: "/achievements", title: t("achievements.title"), body: t("hub.achievementsBody") },
+            { to: "/groups", title: t("groups.title"), body: t("hub.groupsBody") },
+            { to: "/compare", title: t("compare.title"), body: t("hub.compareBody") },
             { to: "/wrapped", title: t("wrapped.title"), body: t("hub.wrappedBody") },
           ].map((tool) => (
             <li key={tool.to}>

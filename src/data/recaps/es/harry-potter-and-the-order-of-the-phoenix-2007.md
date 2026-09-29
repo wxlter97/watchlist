@@ -1,0 +1,4 @@
+- El Ministerio niega el regreso de Voldemort y pone a Umbridge a controlar Hogwarts.
+- Harry entrena en secreto a otros alumnos en el Ejército de Dumbledore.
+- Voldemort lo atrae al Ministerio con una visión falsa para robar una profecía sobre ambos.
+- Bellatrix mata a Sirius; Dumbledore enfrenta a Voldemort y el mundo mágico acepta que ha vuelto.

@@ -1,0 +1,4 @@
+- El Cáliz de Fuego elige a Harry como cuarto campeón del Torneo de los Tres Magos.
+- Supera las pruebas con ayuda de amigos y de «Moody», que en realidad es Barty Crouch Jr.
+- La copa es un traslador: Cedric Diggory muere y Voldemort recupera su cuerpo con la sangre de Harry.
+- Harry escapa; Voldemort ha vuelto, aunque el Ministerio se niega a creerlo.

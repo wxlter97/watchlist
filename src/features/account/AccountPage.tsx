@@ -2,7 +2,8 @@ import { useState, type FormEvent } from "react";
 import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
 import { useLang } from "../../lib/i18n";
-import { DataSection, Preferences } from "./SettingsSections";
+import { DataSection, NotificationsSection, Preferences } from "./SettingsSections";
+import { SharesSection } from "./SharesSection";
 import {
   createProfile,
   deleteProfile,
@@ -24,11 +25,13 @@ export function AccountPage() {
         <>
           <SignedInCard />
           <Profiles />
+          <SharesSection />
         </>
       ) : (
         <GuestCard loading={status === "loading"} />
       )}
       <Preferences />
+      <NotificationsSection />
       <DataSection />
     </div>
   );

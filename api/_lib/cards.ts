@@ -38,6 +38,9 @@ const STRINGS = {
     topMonth: "Mes más activo",
     achievements: "Logros del año",
     footer: "Watch Order · por wxlter",
+    share: { route: "Ruta", "custom-order": "Orden personalizado", progress: "Progreso" },
+    by: (name: string) => `de ${name}`,
+    watchedOf: (w: number, t: number) => `${w} de ${t} vistos`,
   },
   en: {
     achievement: "Achievement unlocked",
@@ -53,6 +56,9 @@ const STRINGS = {
     topMonth: "Most active month",
     achievements: "Achievements this year",
     footer: "Watch Order · by wxlter",
+    share: { route: "Route", "custom-order": "Custom order", progress: "Progress" },
+    by: (name: string) => `by ${name}`,
+    watchedOf: (w: number, t: number) => `${w} of ${t} watched`,
   },
 } as const;
 
@@ -71,7 +77,7 @@ function icon(id: string, size: number, color: string): El {
 }
 
 /** Marco común: marca arriba, contenido al centro, pie abajo. */
-function frame(lang: Lang, bg: string, fg: string, content: El): El {
+function frame(lang: Lang, bg: string, fg: string, content: El, size: { width: number; height: number } = { width: SIZE, height: SIZE }): El {
   const dim = bg === TINTA ? ON_INK_DIM : fg === TINTA ? "rgba(17,17,17,0.7)" : "rgba(255,255,255,0.8)";
   return h(
     "div",
@@ -79,9 +85,9 @@ function frame(lang: Lang, bg: string, fg: string, content: El): El {
       style: {
         display: "flex",
         flexDirection: "column",
-        width: SIZE,
-        height: SIZE,
-        padding: PAD,
+        width: size.width,
+        height: size.height,
+        padding: size.height < SIZE ? 56 : PAD,
         background: bg,
         color: fg,
         fontFamily: "Archivo",
@@ -248,5 +254,40 @@ export function wrappedCard(
         row(s.achievements, fmt(lang, d.achievements)),
       ),
     ),
+  );
+}
+
+export const OG = { width: 1200, height: 630 };
+
+/** Vista previa Open Graph de un link compartido (1200×630). */
+export function shareCard(
+  lang: Lang,
+  d: { kind: "route" | "custom-order" | "progress"; title: string; owner: string; franchise: string; accent: string; watched: number; total: number },
+): El {
+  const fg = onColor(d.accent);
+  const s = STRINGS[lang];
+  const ratio = d.total ? d.watched / d.total : 0;
+  return frame(
+    lang,
+    d.accent,
+    fg,
+    h(
+      "div",
+      { style: { display: "flex", flexDirection: "column", gap: 22 } },
+      label(`${d.franchise} · ${s.share[d.kind]}`, fg),
+      display(d.title, Math.min(84, fit(d.title, 96))),
+      h("div", { style: { display: "flex", fontSize: 30 } }, s.by(d.owner)),
+      h(
+        "div",
+        { style: { display: "flex", flexDirection: "column", gap: 12, marginTop: 8 } },
+        h(
+          "div",
+          { style: { display: "flex", width: 1088, height: 28, border: `4px solid ${fg}` } },
+          h("div", { style: { display: "flex", width: `${Math.round(ratio * 100)}%`, height: "100%", background: fg } }),
+        ),
+        h("div", { style: { display: "flex", fontFamily: "JetBrains Mono", fontSize: 26, letterSpacing: 2, textTransform: "uppercase" } }, s.watchedOf(d.watched, d.total)),
+      ),
+    ),
+    OG,
   );
 }

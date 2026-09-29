@@ -1,0 +1,4 @@
+- Destruyen horrocruxes en Gringotts y en Hogwarts, donde estalla la batalla final.
+- Snape muere; sus recuerdos revelan que amaba a Lily y que siempre protegió a Harry.
+- Harry es un horrocrux: se deja matar y Voldemort destruye ese fragmento. Neville mata a Nagini.
+- Harry vence a Voldemort. Diecinueve años después, despide a sus hijos en el andén 9¾.

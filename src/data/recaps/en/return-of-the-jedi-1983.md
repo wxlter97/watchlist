@@ -1,0 +1,4 @@
+- The heroes rescue Han from Jabba the Hutt's palace.
+- Before dying, Yoda confirms Vader is Luke's father; Obi-Wan reveals Leia is Luke's twin sister.
+- The Rebels attack the second Death Star with help from the Ewoks on Endor.
+- Luke refuses to turn to the dark side; Vader saves him by throwing the Emperor down a shaft and dies redeemed as Anakin Skywalker.

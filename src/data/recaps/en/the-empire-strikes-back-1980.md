@@ -1,0 +1,4 @@
+- The Empire attacks the rebel base on Hoth and the heroes split up.
+- Luke trains with Yoda on Dagobah; Han and Leia fall in love and walk into a trap in Cloud City, betrayed by Lando.
+- Han is frozen in carbonite and Boba Fett takes him to Jabba.
+- In their duel, Vader cuts off Luke's hand and reveals he is his father.

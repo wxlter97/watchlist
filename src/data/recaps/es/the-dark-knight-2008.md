@@ -1,0 +1,4 @@
+- Batman, Gordon y el fiscal Harvey Dent desmantelan a la mafia; el Joker siembra el caos.
+- Rachel muere y Dent queda desfigurado, convertido en Dos Caras.
+- El Joker pone a prueba a la ciudad con dos ferris cargados de explosivos; nadie aprieta el botón.
+- Dent muere; Batman carga con sus crímenes para proteger su imagen y pasa a ser un fugitivo.

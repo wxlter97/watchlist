@@ -12,12 +12,22 @@ export interface ExternalLinks {
   letterboxdToast: boolean;
 }
 
+/** Tipos de aviso push, cada uno se activa por separado (SPEC §9.6). */
+export interface NotificationSettings {
+  releases: boolean;
+  streamingAvailable: boolean;
+  catalogUpdates: boolean;
+}
+
+export const NO_NOTIFICATIONS: NotificationSettings = { releases: false, streamingAvailable: false, catalogUpdates: false };
+
 export interface Settings {
   followedFranchises: string[];
   spoilerFree: boolean;
   streamingRegion: string;
   language?: Lang;
   externalLinks: ExternalLinks;
+  notifications: NotificationSettings;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -25,6 +35,7 @@ export const DEFAULT_SETTINGS: Settings = {
   spoilerFree: true,
   streamingRegion: "SV",
   externalLinks: { letterboxd: true, imdb: true, trakt: true, letterboxdToast: true },
+  notifications: NO_NOTIFICATIONS,
 };
 
 /** Completa con valores por defecto lo que falte (documentos viejos o datos corruptos). */
@@ -36,6 +47,7 @@ export function withDefaults(raw: unknown): Settings {
     streamingRegion: typeof s.streamingRegion === "string" && /^[A-Z]{2}$/.test(s.streamingRegion) ? s.streamingRegion : DEFAULT_SETTINGS.streamingRegion,
     language: s.language === "es" || s.language === "en" ? s.language : undefined,
     externalLinks: { ...DEFAULT_SETTINGS.externalLinks, ...(s.externalLinks ?? {}) },
+    notifications: { ...NO_NOTIFICATIONS, ...(s.notifications ?? {}) },
   };
 }
 
@@ -81,4 +93,8 @@ export function toggleFollow(franchiseId: string) {
 
 export function setExternalLink(key: keyof ExternalLinks, value: boolean) {
   updateSettings({ externalLinks: { ...useSettings.getState().externalLinks, [key]: value } });
+}
+
+export function setNotification(key: keyof NotificationSettings, value: boolean) {
+  updateSettings({ notifications: { ...useSettings.getState().notifications, [key]: value } });
 }

@@ -1,0 +1,4 @@
+- The Resistance flees, chased by the First Order fleet.
+- A disillusioned Luke refuses to train Rey; she connects with Kylo through the Force.
+- Kylo kills Snoke and becomes Supreme Leader; Holdo sacrifices herself to save the fleet.
+- On Crait, Luke projects himself from Ahch-To to buy time and dies afterward. Only a handful of the Resistance survives.

@@ -1,0 +1,4 @@
+- Palpatine regresa y revela una flota de destructores en Exegol.
+- Rey descubre que es su nieta. Leia muere tras llegarle a su hijo; Kylo vuelve a ser Ben Solo.
+- Rey y Ben enfrentan a Palpatine, que cae; Ben da su vida para revivir a Rey.
+- Rey entierra los sables de Luke y Leia en Tatooine y adopta el nombre Skywalker.

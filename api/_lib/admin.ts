@@ -7,7 +7,8 @@ import { HttpError } from "./tmdb";
 export function adminDb(): Firestore {
   if (!getApps().length) {
     if (process.env.FIRESTORE_EMULATOR_HOST) {
-      // Emulador (pnpm dev:emulators): proyecto demo, sin credenciales.
+      // Emulador (pnpm dev:emulators): proyecto demo, sin credenciales. Con
+      // FIREBASE_AUTH_EMULATOR_HOST, verifyIdToken acepta los tokens del emulador de Auth.
       initializeApp({ projectId: "demo-watch-order" });
     } else {
       const raw = process.env.FIREBASE_SERVICE_ACCOUNT;

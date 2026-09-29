@@ -1,0 +1,4 @@
+- In 1942, scrawny but determined Steve Rogers receives the super-soldier serum.
+- As Captain America he rescues Bucky Barnes and takes on Hydra and Red Skull, who wields the Tesseract.
+- Bucky falls from a train and is presumed dead.
+- Steve crashes Red Skull's plane into the Arctic; he wakes up frozen in the present, 70 years later, having missed his date with Peggy Carter.

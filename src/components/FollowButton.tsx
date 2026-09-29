@@ -1,4 +1,5 @@
 import { useLang } from "../lib/i18n";
+import { offerReleaseAlerts } from "../lib/notifyPrompt";
 import { toggleFollow, useSettings } from "../lib/settings";
 
 /** Seguir / dejar de seguir una franquicia. `compact` va dentro de una cabecera de acento. */
@@ -13,6 +14,7 @@ export function FollowButton({ franchiseId, compact = false }: { franchiseId: st
       onClick={(e) => {
         e.preventDefault();
         toggleFollow(franchiseId);
+        if (!following) offerReleaseAlerts(t);
       }}
       className={
         compact

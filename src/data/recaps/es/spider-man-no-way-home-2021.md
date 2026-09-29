@@ -1,0 +1,4 @@
+- Mysterio revela que Peter Parker es Spider-Man; Peter pide a Doctor Strange un hechizo para que el mundo lo olvide, y sale mal.
+- Llegan villanos de otros universos: Doc Ock, el Duende Verde, Electro, el Hombre Arena y el Lagarto.
+- El Duende mata a la tía May. Los Peter Parker de otros universos ayudan a curar a los villanos.
+- Para cerrar la brecha, Strange hace que todos olviden a Peter, incluidos MJ y Ned. Peter empieza de cero, solo.

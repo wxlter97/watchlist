@@ -1,0 +1,4 @@
+- Steve descubre que Hydra se infiltró en S.H.I.E.L.D. desde sus inicios.
+- El Soldado de Invierno, un asesino con brazo de metal, resulta ser Bucky con la memoria borrada.
+- Con Black Widow y Falcon impiden que los helicarriers de Hydra maten a millones.
+- S.H.I.E.L.D. se derrumba, Fury pasa a la clandestinidad y Bucky, tras salvar a Steve, desaparece.

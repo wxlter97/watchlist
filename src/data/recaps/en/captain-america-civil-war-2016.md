@@ -1,0 +1,4 @@
+- After Sokovia, the Sokovia Accords demand UN oversight; Tony signs and Steve refuses.
+- Zemo frames Bucky and the team splits into two sides; Black Panther and Spider-Man enter the picture.
+- Zemo reveals that Bucky, under Hydra's control, killed Tony's parents.
+- Tony and Steve fight; the Avengers are broken and Steve leaves with Bucky.

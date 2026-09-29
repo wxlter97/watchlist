@@ -1,0 +1,4 @@
+- En 1942, Steve Rogers, enclenque pero decidido, recibe el suero del supersoldado.
+- Como Capitán América rescata a Bucky Barnes y enfrenta a Hydra y a Red Skull, que usa el Teseracto.
+- Bucky cae de un tren y se le da por muerto.
+- Steve estrella el avión de Red Skull en el Ártico; despierta congelado en el presente, 70 años después, y pierde su cita con Peggy Carter.

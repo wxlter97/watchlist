@@ -1,0 +1,4 @@
+- Dumbledore shows Harry Tom Riddle's past and explains Horcruxes, pieces of Voldemort's soul.
+- Draco Malfoy is tasked with killing Dumbledore.
+- Harry and Dumbledore retrieve a locket that turns out to be a fake.
+- Snape kills Dumbledore. Harry decides to hunt the Horcruxes instead of returning to school.

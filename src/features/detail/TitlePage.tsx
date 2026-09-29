@@ -8,6 +8,7 @@ import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker } from "./ProgressDetails";
+import { Recaps } from "./Recaps";
 import { WhereToWatch } from "./WhereToWatch";
 
 const STATUSES: WatchStatus[] = ["planned", "watching", "watched", "dropped"];
@@ -104,6 +105,7 @@ export function TitlePage() {
         )}
       </section>
 
+      <Recaps title={title} />
       <VersionPicker title={title} doc={doc} />
       <Episodes title={title} doc={doc} />
       {released && <RatingAndRewatch title={title} doc={doc} />}

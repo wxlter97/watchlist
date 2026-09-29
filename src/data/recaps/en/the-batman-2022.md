@@ -1,0 +1,4 @@
+- In his second year as Batman, Bruce investigates the Riddler, a killer targeting Gotham's corrupt elite.
+- With Gordon and Selina Kyle he uncovers mob boss Falcone's network and secrets about the Wayne family.
+- Falcone is exposed; Selina is about to kill him, but it's the Riddler who shoots him.
+- The Riddler floods the city; Batman chooses to be a symbol of hope, not vengeance.

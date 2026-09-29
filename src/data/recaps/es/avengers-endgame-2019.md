@@ -1,0 +1,4 @@
+- Cinco años después del chasquido, los Vengadores viajan en el tiempo para recuperar las gemas.
+- Natasha se sacrifica en Vormir; Hulk revierte el chasquido y todos regresan.
+- Thanos del pasado ataca y, en la batalla final, Tony usa las gemas y muere.
+- Steve devuelve las gemas y se queda en el pasado con Peggy; de viejo, le da su escudo a Sam Wilson.

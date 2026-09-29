@@ -1,0 +1,4 @@
+- Arms dealer Tony Stark is kidnapped in Afghanistan; he builds a suit to escape and a reactor that keeps him alive.
+- Back home, he shuts down Stark Industries' weapons division and refines the suit.
+- His partner Obadiah Stane had betrayed him; he fights Tony as Iron Monger and dies.
+- Tony tells the world "I am Iron Man." Nick Fury tells him about the Avengers Initiative.

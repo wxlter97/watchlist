@@ -1,0 +1,4 @@
+- Sauron ataca Minas Tirith; Rohan y el ejército de los muertos de Aragorn salvan la ciudad.
+- Éowyn mata al Rey Brujo.
+- Frodo, casi vencido por el Anillo, llega al Monte del Destino; Gollum se lo arrebata y cae con él a la lava.
+- Aragorn es coronado rey. Frodo, herido para siempre, parte hacia las Tierras Imperecederas con Bilbo y Gandalf.

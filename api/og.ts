@@ -6,7 +6,8 @@ import { join } from "node:path";
 import { Resvg } from "@resvg/resvg-js";
 import satori from "satori";
 import type { Achievement, Lang, LocalizedText } from "../src/lib/types";
-import { achievementCard, franchiseCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards";
+import { achievementCard, franchiseCard, OG, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards";
+import { loadShare } from "./_lib/shares";
 import { errorResponse, HttpError } from "./_lib/tmdb";
 
 const ROOT = process.cwd();
@@ -64,7 +65,28 @@ function titleName(id: string, lang: Lang): string {
   return t.localized?.[lang]?.title ?? t.title;
 }
 
-function buildCard(params: URLSearchParams): El {
+async function buildCard(params: URLSearchParams): Promise<{ card: El; size: { width: number; height: number } }> {
+  if (params.get("kind") === "share") {
+    // Vista previa de un link compartido: lee el snapshot público (no el progreso vivo).
+    const lang: Lang = params.get("lang") === "en" ? "en" : "es";
+    const share = await loadShare(params.get("id") ?? "");
+    const f = franchise(share.franchiseId) as { name: LocalizedText; accentColor: string; routes?: { id: string; name: LocalizedText }[] };
+    const route = share.kind === "route" ? f.routes?.find((r) => r.id === share.refId) : undefined;
+    const card = shareCard(lang, {
+      kind: share.kind,
+      title: route ? localize(route.name, lang) : share.title,
+      owner: share.ownerName,
+      franchise: localize(f.name, lang),
+      accent: f.accentColor,
+      watched: share.snapshot.watched.length,
+      total: share.snapshot.titleIds.length,
+    });
+    return { card, size: OG };
+  }
+  return { card: buildSquare(params), size: { width: SIZE, height: SIZE } };
+}
+
+function buildSquare(params: URLSearchParams): El {
   const lang: Lang = params.get("lang") === "en" ? "en" : "es";
   const kind = params.get("kind");
   switch (kind) {
@@ -112,19 +134,25 @@ function buildCard(params: URLSearchParams): El {
       });
     }
     default:
-      throw new HttpError(400, "kind: achievement, franchise, stats o wrapped");
+      throw new HttpError(400, "kind: achievement, franchise, stats, wrapped o share");
   }
 }
 
 export async function GET(request: Request): Promise<Response> {
   try {
-    const card = buildCard(new URL(request.url).searchParams);
-    const svg = await satori(card as unknown as Parameters<typeof satori>[0], { width: SIZE, height: SIZE, fonts: loadFonts() });
-    const png = new Resvg(svg, { fitTo: { mode: "width", value: SIZE } }).render().asPng();
+    const params = new URL(request.url).searchParams;
+    const { card, size } = await buildCard(params);
+    const svg = await satori(card as unknown as Parameters<typeof satori>[0], { ...size, fonts: loadFonts() });
+    const png = new Resvg(svg, { fitTo: { mode: "width", value: size.width } }).render().asPng();
     return new Response(new Uint8Array(png), {
       headers: {
         "Content-Type": "image/png",
-        "Cache-Control": "public, max-age=86400, s-maxage=31536000, immutable",
+        // Tarjetas: mismos parámetros, misma imagen. Links: la URL lleva v=updatedAt, pero
+        // uno revocado debe dejar de verse pronto.
+        "Cache-Control":
+          params.get("kind") === "share"
+            ? "public, max-age=300, s-maxage=3600"
+            : "public, max-age=86400, s-maxage=31536000, immutable",
       },
     });
   } catch (err) {

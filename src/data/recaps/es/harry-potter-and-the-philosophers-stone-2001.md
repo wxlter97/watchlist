@@ -1,0 +1,4 @@
+- Harry descubre en su cumpleaños 11 que es mago y que Voldemort mató a sus padres.
+- En Hogwarts, en Gryffindor, se hace amigo de Ron y Hermione.
+- Protegen la Piedra Filosofal: Quirrell, que llevaba a Voldemort en la nuca, intentaba robarla.
+- El amor de su madre protege a Harry; la piedra se destruye.

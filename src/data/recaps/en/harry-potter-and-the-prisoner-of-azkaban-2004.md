@@ -1,0 +1,4 @@
+- Sirius Black escapes Azkaban and everyone thinks he is after Harry.
+- Professor Lupin, a werewolf, teaches Harry to cast a Patronus against the Dementors.
+- Sirius is innocent and Harry's godfather: the traitor was Peter Pettigrew, hiding as Ron's rat.
+- With the Time-Turner, Harry and Hermione save Sirius and Buckbeak. Pettigrew escapes.

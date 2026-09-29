@@ -1,0 +1,4 @@
+- Someone opens the Chamber of Secrets and a monster petrifies students, Hermione among them.
+- Harry learns he can speak Parseltongue.
+- Tom Riddle's diary, young Voldemort, had possessed Ginny Weasley; the monster is a basilisk.
+- Harry kills the basilisk with Gryffindor's sword and destroys the diary with a fang. He frees Dobby.

@@ -1,0 +1,4 @@
+- On Earth-828, with its retro-futurist look, the Fantastic Four are the world's heroes; Sue is pregnant.
+- The Silver Surfer heralds Galactus, who demands the baby, Franklin, in exchange for sparing Earth.
+- Franklin is born; the family refuses and faces Galactus with the whole city's help.
+- Sue pushes him through a portal and seems to die; Franklin revives her. At the end, someone visits the child: Doctor Doom.

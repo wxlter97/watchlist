@@ -16,6 +16,7 @@ import { CustomOrderEditor } from "./CustomOrderEditor";
 import { FiltersPanel } from "./FiltersPanel";
 import { TimeBudget } from "./TimeBudget";
 import { ShareButton } from "../../components/ShareButton";
+import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { minutesWatched } from "../../lib/episodes";
 import type { ProgressDoc } from "../../lib/progressStore";
 import type { Franchise } from "../../lib/types";
@@ -88,6 +89,20 @@ export function FranchisePage() {
         </div>
         <div className="mt-3">
           <ProgressBar ratio={summary.ratio} label={loc(franchise.name)} />
+        </div>
+        <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
+          <ShareLinkButton
+            target={{ kind: "progress", franchiseId: franchise.id, refId: franchise.id }}
+            title={t("shareLink.progressTitle", { name: loc(franchise.name) })}
+            label={t("shareLink.progress")}
+          />
+          {view.hasCustomOrder && (
+            <ShareLinkButton
+              target={{ kind: "custom-order", franchiseId: franchise.id, refId: franchise.id }}
+              title={t("shareLink.customOrderTitle", { name: loc(franchise.name) })}
+              label={t("shareLink.customOrder")}
+            />
+          )}
         </div>
         {summary.total > 0 && summary.watched === summary.total && (
           <div className="mt-4 flex flex-wrap items-center gap-3 border-t-2 border-line-soft pt-3">

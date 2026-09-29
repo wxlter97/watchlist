@@ -1,0 +1,4 @@
+- El Imperio ataca la base rebelde en Hoth y los héroes se separan.
+- Luke entrena con Yoda en Dagobah; Han y Leia, que se enamoran, caen en una trampa en Ciudad Nube, traicionados por Lando.
+- Han queda congelado en carbonita y Boba Fett se lo lleva a Jabba.
+- En su duelo, Vader le corta la mano a Luke y le revela que es su padre.

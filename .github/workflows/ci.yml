@@ -36,3 +36,29 @@ jobs:
       - run: npm install -g firebase-tools
       - run: pnpm install --frozen-lockfile
       - run: pnpm test:rules
+
+  # Avisa de novedades del catálogo al desplegar cambios en src/data/ (SPEC §7).
+  # Requiere el secreto FIREBASE_SERVICE_ACCOUNT; sin él, el paso no corre.
+  notify-catalog:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: check
+    runs-on: ubuntu-latest
+    env:
+      FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - id: data
+        run: echo "changed=$(git diff --name-only HEAD~1 HEAD -- src/data | wc -l | tr -d ' ')" >> "$GITHUB_OUTPUT"
+      - if: steps.data.outputs.changed != '0' && env.FIREBASE_SERVICE_ACCOUNT != ''
+        uses: pnpm/action-setup@v4
+      - if: steps.data.outputs.changed != '0' && env.FIREBASE_SERVICE_ACCOUNT != ''
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - if: steps.data.outputs.changed != '0' && env.FIREBASE_SERVICE_ACCOUNT != ''
+        run: pnpm install --frozen-lockfile
+      - if: steps.data.outputs.changed != '0' && env.FIREBASE_SERVICE_ACCOUNT != ''
+        run: pnpm catalog:notify

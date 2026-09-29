@@ -1,0 +1,4 @@
+- Rescatan a Han del palacio de Jabba el Hutt.
+- Yoda, antes de morir, confirma que Vader es el padre de Luke; Obi-Wan le revela que Leia es su hermana gemela.
+- Los rebeldes atacan la segunda Estrella de la Muerte con ayuda de los ewoks en Endor.
+- Luke se niega a pasarse al lado oscuro; Vader lo salva lanzando al Emperador al vacío y muere redimido como Anakin Skywalker.

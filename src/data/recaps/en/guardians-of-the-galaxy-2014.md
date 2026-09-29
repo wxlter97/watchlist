@@ -1,0 +1,4 @@
+- Peter Quill, abducted from Earth as a kid, steals an orb holding the Power Stone.
+- He teams up with Gamora, Drax, Rocket and Groot after meeting in prison.
+- Ronan the Accuser wants the stone to destroy Xandar; Groot sacrifices himself to protect them.
+- Together they contain the stone and hand it to the Nova Corps. A sprout of Groot survives.

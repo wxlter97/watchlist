@@ -8,6 +8,16 @@
     },
     "api/og.ts": {
       "includeFiles": "{src/data/**,api/_fonts/**}"
+    },
+    "api/share.ts": {
+      "includeFiles": "src/data/**"
+    },
+    "api/cron/notify-releases.ts": {
+      "includeFiles": "src/data/**"
+    },
+    "api/cron/notify-streaming.ts": {
+      "includeFiles": "src/data/titles.json",
+      "maxDuration": 60
     }
   },
   "rewrites": [
@@ -20,8 +30,22 @@
       "destination": "/api/calendar?file=:file"
     },
     {
+      "source": "/:lang(es|en)/s/:id",
+      "destination": "/api/share?lang=:lang&id=:id"
+    },
+    {
       "source": "/((?!api/|assets/|__/).*)",
       "destination": "/index.html"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/notify-releases",
+      "schedule": "0 15 * * *"
+    },
+    {
+      "path": "/api/cron/notify-streaming",
+      "schedule": "30 15 * * *"
     }
   ]
 }

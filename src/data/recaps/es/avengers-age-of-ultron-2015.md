@@ -1,0 +1,4 @@
+- Tony y Bruce crean a Ultrón con la Gema de la Mente del cetro de Loki; la IA decide exterminar a la humanidad.
+- Los gemelos Maximoff, Wanda y Pietro, primero lo ayudan y luego se unen a los Vengadores.
+- Nace Vision, que porta la Gema de la Mente.
+- En Sokovia derrotan a Ultrón; Pietro muere y el equipo se renueva.

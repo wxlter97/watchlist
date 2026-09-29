@@ -1,0 +1,4 @@
+- Superman ya lleva años en activo y trabaja en el Daily Planet; Lois Lane conoce su identidad.
+- Lex Luthor lo desacredita filtrando un mensaje manipulado de sus padres kryptonianos y lo encierra en un universo de bolsillo.
+- Con Krypto, Lois y la Liga de la Justicia de Guy Gardner, Hawkgirl y Mr. Terrific, frustra el plan de Lex, que usaba a Ultraman, un clon suyo.
+- Lex va a prisión y Superman reafirma que lo que lo define es su crianza humana.

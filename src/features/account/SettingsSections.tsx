@@ -6,7 +6,8 @@ import { LANGS, useLang } from "../../lib/i18n";
 import { planMigration } from "../../lib/migrate";
 import { useProgressStore, type ProgressData } from "../../lib/progressStore";
 import { useSession } from "../../lib/session";
-import { setExternalLink, updateSettings, useSettings, type ExternalLinks } from "../../lib/settings";
+import { disablePush, enablePush, hasPushToken, pushSupport, type PushSupport } from "../../lib/push";
+import { setExternalLink, setNotification, updateSettings, useSettings, type ExternalLinks, type NotificationSettings } from "../../lib/settings";
 import { setTheme, useTheme } from "../../lib/theme";
 import { showToast } from "../../lib/toasts";
 
@@ -201,6 +202,62 @@ export function DataSection() {
           </div>
         )}
       </ConfirmDialog>
+    </section>
+  );
+}
+
+export function NotificationsSection() {
+  const { t } = useLang();
+  const uid = useSession((s) => s.user?.uid);
+  const notifications = useSettings((s) => s.notifications);
+  const [support, setSupport] = useState<PushSupport>(() => pushSupport());
+  const [busy, setBusy] = useState(false);
+  if (!uid) return null;
+
+  const toggle = async (key: keyof NotificationSettings, value: boolean) => {
+    if (value && !hasPushToken()) {
+      setBusy(true);
+      const ok = await enablePush(uid).catch(() => false);
+      setBusy(false);
+      setSupport(pushSupport());
+      if (!ok) return showToast({ message: t("notifications.notGranted") });
+    }
+    setNotification(key, value);
+    const next = { ...notifications, [key]: value };
+    if (!Object.values(next).some(Boolean)) void disablePush(uid);
+  };
+
+  const types: { key: keyof NotificationSettings; hint: string }[] = [
+    { key: "releases", hint: t("notifications.releasesHint") },
+    { key: "streamingAvailable", hint: t("notifications.streamingHint") },
+    { key: "catalogUpdates", hint: t("notifications.catalogHint") },
+  ];
+
+  return (
+    <section>
+      <SectionLabel>{t("notifications.title")}</SectionLabel>
+      {support !== "ok" && (
+        <div className="mb-3">
+          <Notice tone={support === "denied" ? "error" : "neutral"}>
+            <p>{t(`notifications.support.${support}`)}</p>
+          </Notice>
+        </div>
+      )}
+      <div className="divide-y-2 divide-line-soft border-2 border-line bg-surface">
+        {types.map(({ key, hint }) => (
+          <Row key={key} label={t(`notifications.types.${key}`)} hint={hint}>
+            <Toggle
+              checked={notifications[key]}
+              label={t(`notifications.types.${key}`)}
+              onChange={(v) => {
+                if (busy || (v && support !== "ok")) return;
+                void toggle(key, v);
+              }}
+            />
+          </Row>
+        ))}
+      </div>
+      <p className="mt-2 text-xs text-fg-soft">{t("notifications.hint")}</p>
     </section>
   );
 }

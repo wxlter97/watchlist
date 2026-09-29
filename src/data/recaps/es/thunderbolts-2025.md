@@ -1,0 +1,4 @@
+- Valentina Allegra de Fontaine intenta borrar sus operaciones secretas y pone a sus agentes a matarse entre sí: Yelena Belova, John Walker, Ghost y Taskmaster, que muere.
+- Con Red Guardian y Bucky forman un equipo improvisado; conocen a Bob, sujeto de un experimento que lo convierte en Sentry.
+- Su lado oscuro, el Vacío, cubre Nueva York de sombras; Yelena lo alcanza desde dentro y el equipo lo salva.
+- Valentina los presenta al mundo como los Nuevos Vengadores.

@@ -1,0 +1,4 @@
+- Superman has been active for years and works at the Daily Planet; Lois Lane knows who he is.
+- Lex Luthor discredits him by leaking a doctored message from his Kryptonian parents and traps him in a pocket universe.
+- With Krypto, Lois and the Justice Gang (Guy Gardner, Hawkgirl and Mr. Terrific), he foils Lex's plan, which used Ultraman, a clone of him.
+- Lex goes to prison and Superman reaffirms that his human upbringing is what defines him.

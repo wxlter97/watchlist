@@ -1,0 +1,4 @@
+- Dumbledore le muestra a Harry el pasado de Tom Ryddle y le explica los horrocruxes, fragmentos del alma de Voldemort.
+- Draco Malfoy recibe la misión de matar a Dumbledore.
+- Harry y Dumbledore recuperan un guardapelo que resulta falso.
+- Snape mata a Dumbledore. Harry decide buscar y destruir los horrocruxes en lugar de volver a la escuela.

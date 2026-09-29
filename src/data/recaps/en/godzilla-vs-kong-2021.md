@@ -1,0 +1,4 @@
+- Godzilla attacks Apex Cybernetics sites for no apparent reason.
+- Kong, guided by Jia, a girl who communicates with him, travels to Hollow Earth, where his kind comes from.
+- Apex built Mechagodzilla using Ghidorah's mind, which is why Godzilla was hunting them.
+- After fighting each other, Kong and Godzilla destroy Mechagodzilla together and part ways in peace.

@@ -1,0 +1,4 @@
+- Tras el asesinato de sus padres, Bruce Wayne entrena con la Liga de las Sombras de Ra's al Ghul y la abandona.
+- Regresa a Gotham como Batman, con la ayuda de Alfred, Lucius Fox y el sargento Gordon.
+- El Espantapájaros y Ra's planean envenenar la ciudad con una toxina del miedo.
+- Batman los detiene y Ra's muere en el tren. Gordon le muestra una carta de un nuevo criminal: el Joker.

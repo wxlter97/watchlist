@@ -1,0 +1,4 @@
+- En su segundo año como Batman, Bruce investiga a un asesino, el Acertijo, que mata a figuras corruptas de Gotham.
+- Con Gordon y Selina Kyle descubre la red del mafioso Falcone y secretos de la familia Wayne.
+- Falcone queda expuesto; Selina está a punto de matarlo, pero es el Acertijo quien lo asesina.
+- El Acertijo inunda la ciudad; Batman decide ser un símbolo de esperanza, no de venganza.

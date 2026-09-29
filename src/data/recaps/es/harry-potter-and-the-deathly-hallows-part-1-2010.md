@@ -1,0 +1,4 @@
+- El Ministerio cae ante los mortífagos y Harry, Ron y Hermione huyen.
+- Roban el guardapelo real del Ministerio, pero no saben cómo destruirlo; Ron se va y vuelve.
+- Ron destruye el guardapelo con la espada de Gryffindor. Conocen las Reliquias de la Muerte.
+- Escapan de la Mansión Malfoy; Dobby muere y Voldemort roba la Varita de Saúco de la tumba de Dumbledore.

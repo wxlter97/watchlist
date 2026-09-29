@@ -16,6 +16,17 @@ const catalog: Catalog = {
 
 const achievements = read(`${dataDir}achievements.json`);
 const errors = [...validateCatalog(catalog), ...validateAchievements(achievements, catalog, Object.keys(ACHIEVEMENT_ICONS))];
+// Recaps: cada archivo es de un título existente y está en los dos idiomas.
+const recaps = (lang: string) =>
+  readdirSync(`${dataDir}recaps/${lang}`).filter((f) => f.endsWith(".md")).map((f) => f.replace(/\.md$/, ""));
+const titleIds = new Set(catalog.titles.map((t) => t.id));
+const [recapsEs, recapsEn] = [recaps("es"), recaps("en")];
+for (const id of new Set([...recapsEs, ...recapsEn])) {
+  if (!titleIds.has(id)) errors.push(`recaps/*/${id}.md: no existe el título`);
+  if (!recapsEs.includes(id)) errors.push(`recaps/es/${id}.md: falta la versión en español`);
+  if (!recapsEn.includes(id)) errors.push(`recaps/en/${id}.md: falta la versión en inglés`);
+}
+
 for (const f of franchiseFiles) {
   const id = f.replace(/\.json$/, "");
   if (!catalog.franchises.some((fr) => fr.id === id)) errors.push(`franchises/${f}: el id debe coincidir con el nombre del archivo`);
@@ -27,5 +38,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `Catálogo válido: ${catalog.titles.length} títulos, ${catalog.franchises.length} franquicias, ${achievements.length} logros.`,
+  `Catálogo válido: ${catalog.titles.length} títulos, ${catalog.franchises.length} franquicias, ${achievements.length} logros, ${recapsEs.length} recaps.`,
 );

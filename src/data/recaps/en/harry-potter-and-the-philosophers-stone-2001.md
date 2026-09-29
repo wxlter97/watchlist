@@ -1,0 +1,4 @@
+- On his 11th birthday Harry learns he is a wizard and that Voldemort killed his parents.
+- At Hogwarts, in Gryffindor, he befriends Ron and Hermione.
+- They protect the Philosopher's Stone: Quirrell, carrying Voldemort on the back of his head, was trying to steal it.
+- His mother's love protects Harry; the stone is destroyed.

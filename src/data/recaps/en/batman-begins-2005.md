@@ -1,0 +1,4 @@
+- After his parents' murder, Bruce Wayne trains with Ra's al Ghul's League of Shadows and breaks away.
+- He returns to Gotham as Batman, helped by Alfred, Lucius Fox and Sergeant Gordon.
+- Scarecrow and Ra's plan to poison the city with a fear toxin.
+- Batman stops them and Ra's dies on the train. Gordon shows him a calling card from a new criminal: the Joker.

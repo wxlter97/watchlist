@@ -1,0 +1,4 @@
+- Tony and Bruce create Ultron using the Mind Stone from Loki's scepter; the AI decides to wipe out humanity.
+- The Maximoff twins, Wanda and Pietro, help him at first and then join the Avengers.
+- Vision is born, carrying the Mind Stone.
+- In Sokovia they defeat Ultron; Pietro dies and the team is reshuffled.

@@ -1,0 +1,4 @@
+- Luke Skywalker, un granjero de Tatooine, recibe los planos de la Estrella de la Muerte que la princesa Leia escondió en R2-D2.
+- Obi-Wan Kenobi le revela que su padre fue un Jedi y lo inicia en la Fuerza; Darth Vader lo mata en su duelo a bordo de la estación.
+- Con Han Solo y Chewbacca rescatan a Leia. Luke destruye la Estrella de la Muerte en la batalla de Yavin.
+- Vader sobrevive y escapa.

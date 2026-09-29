@@ -20,6 +20,7 @@ import {
   terminate,
   updateDoc,
   waitForPendingWrites,
+  where,
   writeBatch,
   type Unsubscribe,
 } from "firebase/firestore";
@@ -43,6 +44,8 @@ import {
 } from "./achievementsStore";
 import { guestPlansBackend, loadGuestPlans, saveGuestPlans, setPlansBackend, usePlansStore } from "./plansStore";
 import { planMigration, planSize } from "./migrate";
+import { sharesCollection, useSharesStore } from "./sharesStore";
+import { groupsCollection, useGroupsStore } from "./groupsStore";
 import {
   EMPTY,
   guestBackend,
@@ -123,6 +126,8 @@ function enterGuest() {
   setSettingsWriter(guestSettingsWriter);
   useSettings.setState(loadGuestSettings());
   useProgressStore.getState().replace(loadGuest());
+  useSharesStore.setState({ shares: [] });
+  useGroupsStore.setState({ groups: [], loaded: true });
   setPlansBackend(guestPlansBackend);
   usePlansStore.getState().replacePlans(loadGuestPlans());
   setAchievementsBackend(guestAchievementsBackend);
@@ -193,6 +198,32 @@ function enterAccount(user: User) {
         set({ profiles });
         if (!profiles.some((p) => p.id === get().activeProfileId)) selectProfile(profiles[0]!.id);
       },
+      report,
+    ),
+  );
+
+  // Links compartidos de toda la cuenta (cada uno dice de qué perfil es).
+  authUnsubs.push(
+    onSnapshot(
+      query(sharesCollection(), where("ownerUid", "==", uid)),
+      (snap) =>
+        useSharesStore.setState({
+          shares: snap.docs.map((d) => d.data()).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)),
+        }),
+      report,
+    ),
+  );
+
+  // Grupos de los que es miembro (con cualquier perfil).
+  useGroupsStore.setState({ groups: [], loaded: false });
+  authUnsubs.push(
+    onSnapshot(
+      query(groupsCollection(), where("memberUids", "array-contains", uid)),
+      (snap) =>
+        useGroupsStore.setState({
+          groups: snap.docs.map((d) => d.data()).sort((a, b) => a.name.localeCompare(b.name)),
+          loaded: true,
+        }),
       report,
     ),
   );
@@ -336,6 +367,8 @@ export async function deleteProfile(pid: string) {
   ]);
   // El documento del perfil va al final: si algo falla a medias, el perfil sigue visible.
   const refs = [...progress.docs, ...states.docs, ...plans.docs, ...achievements.docs].map((d) => d.ref.withConverter(null));
+  // Sus links públicos también: dejarían de tener dueño visible.
+  for (const share of useSharesStore.getState().shares.filter((x) => x.profileId === pid)) refs.push(doc(db, "shares", share.id));
   refs.push(doc(db, "users", user.uid, "profiles", pid));
   for (let i = 0; i < refs.length; i += 500) {
     const batch = writeBatch(db);

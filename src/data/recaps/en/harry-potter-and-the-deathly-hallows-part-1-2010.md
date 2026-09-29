@@ -1,0 +1,4 @@
+- The Ministry falls to the Death Eaters and Harry, Ron and Hermione go on the run.
+- They steal the real locket from the Ministry but can't destroy it; Ron leaves and comes back.
+- Ron destroys the locket with Gryffindor's sword. They learn about the Deathly Hallows.
+- They escape Malfoy Manor; Dobby dies and Voldemort takes the Elder Wand from Dumbledore's tomb.

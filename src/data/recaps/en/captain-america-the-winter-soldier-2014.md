@@ -1,0 +1,4 @@
+- Steve discovers Hydra has been inside S.H.I.E.L.D. since its founding.
+- The Winter Soldier, a metal-armed assassin, turns out to be a brainwashed Bucky.
+- With Black Widow and Falcon he stops Hydra's helicarriers from killing millions.
+- S.H.I.E.L.D. collapses, Fury goes underground, and Bucky, after saving Steve, disappears.

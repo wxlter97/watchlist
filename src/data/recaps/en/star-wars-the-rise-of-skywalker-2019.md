@@ -1,0 +1,4 @@
+- Palpatine returns and reveals a fleet of Star Destroyers on Exegol.
+- Rey learns she is his granddaughter. Leia dies after reaching her son; Kylo becomes Ben Solo again.
+- Rey and Ben face Palpatine, who is destroyed; Ben gives his life to revive Rey.
+- Rey buries Luke's and Leia's lightsabers on Tatooine and takes the Skywalker name.

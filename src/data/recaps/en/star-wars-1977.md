@@ -1,0 +1,4 @@
+- Luke Skywalker, a farm boy on Tatooine, gets the Death Star plans that Princess Leia hid inside R2-D2.
+- Obi-Wan Kenobi tells him his father was a Jedi and starts teaching him the Force; Darth Vader kills him in a duel aboard the station.
+- With Han Solo and Chewbacca they rescue Leia. Luke destroys the Death Star at the Battle of Yavin.
+- Vader survives and escapes.

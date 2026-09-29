@@ -1,0 +1,4 @@
+- Valentina Allegra de Fontaine tries to erase her black ops and sets her agents on each other: Yelena Belova, John Walker, Ghost and Taskmaster, who dies.
+- With Red Guardian and Bucky they form a makeshift team; they meet Bob, the subject of an experiment that turns him into Sentry.
+- His dark side, the Void, swallows New York in shadow; Yelena reaches him from within and the team saves him.
+- Valentina presents them to the world as the New Avengers.

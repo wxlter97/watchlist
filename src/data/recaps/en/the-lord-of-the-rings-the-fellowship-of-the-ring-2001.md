@@ -1,0 +1,4 @@
+- Frodo inherits the One Ring from Bilbo; Sauron forged it to rule Middle-earth.
+- In Rivendell the Fellowship forms to destroy it in Mount Doom.
+- Gandalf falls to the Balrog in Moria.
+- Boromir tries to take the Ring from Frodo, then dies defending Merry and Pippin, who are captured by orcs. Frodo and Sam go on alone.

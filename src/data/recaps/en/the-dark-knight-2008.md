@@ -1,0 +1,4 @@
+- Batman, Gordon and DA Harvey Dent dismantle the mob; the Joker sows chaos.
+- Rachel is killed and Dent is disfigured, becoming Two-Face.
+- The Joker tests the city with two explosive-rigged ferries; nobody presses the button.
+- Dent dies; Batman takes the blame for his crimes to protect his image and becomes a fugitive.

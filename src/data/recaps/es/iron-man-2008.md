@@ -1,0 +1,4 @@
+- Tony Stark, fabricante de armas, es secuestrado en Afganistán; construye una armadura para escapar y un reactor que lo mantiene vivo.
+- De vuelta, cierra la división de armas de Stark Industries y perfecciona la armadura.
+- Obadiah Stane, su socio, lo traicionaba; lo enfrenta como Iron Monger y muere.
+- Tony anuncia al mundo: «Yo soy Iron Man». Nick Fury le habla de la Iniciativa Vengadores.

@@ -1,0 +1,4 @@
+- Thanos reúne las seis Gemas del Infinito para eliminar a la mitad de la vida del universo.
+- Mata a Loki, sacrifica a Gamora por la Gema del Alma y arranca la Gema de la Mente a Vision.
+- Los Vengadores pelean en Titán y en Wakanda, pero no logran detenerlo.
+- Thanos chasquea los dedos: desaparecen, entre otros, Spider-Man, Black Panther, Doctor Strange y la mayoría de los Guardianes.

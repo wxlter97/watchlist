@@ -25,7 +25,9 @@
     "plannerBody": "Arma un maratón con tus horas libres y llévalo a tu calendario.",
     "mapBody": "Explora cómo se conectan títulos, personajes y equipos.",
     "achievementsBody": "Insignias por completar fases, sagas, rutas y rachas.",
-    "wrappedBody": "Tu año en horas, franquicias y títulos favoritos."
+    "wrappedBody": "Tu año en horas, franquicias y títulos favoritos.",
+    "groupsBody": "Vean una saga en pareja o en grupo, cada quien a su ritmo.",
+    "compareBody": "Pon lado a lado el progreso de dos perfiles de tu cuenta."
   },
   "progress": {
     "count": "{{watched}} de {{total}} vistos",
@@ -502,5 +504,112 @@
     "slideOf": "{{current}} de {{total}}",
     "prev": "Anterior",
     "next": "Siguiente"
+  },
+  "shareLink": {
+    "route": "Compartir ruta",
+    "progress": "Compartir progreso",
+    "customOrder": "Compartir mi orden",
+    "progressTitle": "Mi progreso en {{name}}",
+    "customOrderTitle": "Mi orden de {{name}}",
+    "hint": "Cualquiera con el link ve una foto de hoy, sin necesidad de cuenta. Si vuelves a compartir, el mismo link se actualiza.",
+    "signInHint": "Entra con tu cuenta para compartir links.",
+    "revoke": "Revocar link",
+    "revoked": "Link revocado.",
+    "reactivate": "Reactivar",
+    "open": "Abrir",
+    "yours": "Links compartidos",
+    "updated": "actualizado el {{date}}",
+    "kinds": {
+      "route": "Ruta",
+      "custom-order": "Orden",
+      "progress": "Progreso"
+    }
+  },
+  "groups": {
+    "title": "Grupos",
+    "intro": "Vean una franquicia o una ruta juntos: cada quien marca lo suyo y el grupo muestra qué vio cada uno, qué vieron juntos y qué sigue.",
+    "signIn": "Los grupos necesitan una cuenta: entra con Google para crear uno o unirte.",
+    "yours": "Tus grupos",
+    "none": "Todavía no estás en ningún grupo.",
+    "notFound": "No encontramos ese grupo, o ya no eres miembro.",
+    "members_one": "{{count}} miembro",
+    "members_other": "{{count}} miembros",
+    "create": "Nuevo grupo",
+    "createAction": "Crear grupo",
+    "name": "Nombre del grupo",
+    "target": "Qué van a ver",
+    "wholeFranchise": "Toda la franquicia",
+    "targetHint": "{{count}} títulos. Participas con el perfil {{profile}}.",
+    "membersTitle": "Miembros",
+    "you": "tú",
+    "owner": "creador",
+    "remove": "Sacar del grupo",
+    "removeConfirm": "¿Sacar a {{name}} del grupo? Podrá volver con un link nuevo.",
+    "nextTogether": "Siguiente para ver juntos",
+    "nobodyYet": "Nadie lo ha visto todavía",
+    "watchedTogether": "Lo vimos juntos",
+    "allDone": "¡Vieron todo lo estrenado!",
+    "titles": "Títulos",
+    "title_col": "Título",
+    "together": "Juntos",
+    "togetherLabel": "Vimos {{title}} juntos",
+    "syncHint": "Cada miembro publica aquí solo lo que marcó de esta meta; el resto de su progreso sigue siendo privado.",
+    "invite": "Invitar",
+    "inviteHint": "Comparte este link. Quien lo abra y entre con su cuenta se une al grupo.",
+    "newCode": "Nuevo link (invalida el anterior)",
+    "leave": "Salir del grupo",
+    "leaveConfirm": "¿Salir de «{{name}}»?",
+    "delete": "Borrar grupo",
+    "deleteConfirm": "¿Borrar «{{name}}» para todos? No se puede deshacer.",
+    "otherProfile": "En este grupo participas con el perfil {{profile}}: lo que marques con otro perfil no se refleja aquí.",
+    "switchProfile": "Cambiar a ese perfil",
+    "open": "Abrir grupo",
+    "joinTitle": "Unirte a un grupo",
+    "joinIntro": "Te invitaron a ver una saga en grupo en Watch Order.",
+    "alreadyMember": "Ya eres parte de este grupo.",
+    "joinAs": "Participar con el perfil",
+    "joinPrivacy": "El grupo verá qué títulos de su meta marcó {{profile}} como vistos. Nada más.",
+    "joinAction": "Unirme",
+    "joinErrors": {
+      "invalid": "La invitación no es válida o ya venció. Pide un link nuevo.",
+      "full": "El grupo ya está lleno.",
+      "error": "No se pudo unir. Revisa tu conexión e intenta de nuevo."
+    }
+  },
+  "compare": {
+    "title": "Comparar progreso",
+    "intro": "Dos perfiles de tu cuenta, lado a lado. Para comparar con otras personas, usa un grupo.",
+    "profileA": "Perfil",
+    "profileB": "Contra",
+    "both_one": "{{count}} título visto por ambos",
+    "both_other": "{{count}} títulos vistos por ambos",
+    "needProfiles": "Necesitas al menos dos perfiles en tu cuenta para comparar. Créalos en Cuenta, o compara con otras personas en un grupo.",
+    "signIn": "Entra con tu cuenta y crea un segundo perfil para comparar, o compara con otras personas en un grupo."
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "types": {
+      "releases": "Estrenos",
+      "streamingAvailable": "Llegó a streaming",
+      "catalogUpdates": "Novedades del catálogo"
+    },
+    "releasesHint": "De las franquicias que sigues: el día del estreno y una semana antes.",
+    "streamingHint": "Cuando algo que tienes pendiente llega a un servicio de tu región.",
+    "catalogHint": "Franquicias y títulos nuevos en Watch Order.",
+    "hint": "Llegan a este dispositivo. Puedes apagarlas cuando quieras.",
+    "support": {
+      "unconfigured": "Las notificaciones todavía no están configuradas en esta instalación.",
+      "unsupported": "Este navegador no admite notificaciones push.",
+      "ios-install": "En iPhone y iPad, las notificaciones solo funcionan con la app instalada: toca Compartir → «Agregar a pantalla de inicio» y ábrela desde ahí (iOS 16.4 o posterior).",
+      "denied": "Bloqueaste las notificaciones para este sitio. Actívalas en los ajustes del navegador para poder recibirlas."
+    },
+    "offer": "¿Te aviso cuando se estrene algo de esta franquicia?",
+    "offerIos": "Para recibir avisos de estrenos en iPhone, instala la app en tu pantalla de inicio y actívalos en Cuenta.",
+    "enable": "Avisarme",
+    "notGranted": "No se activaron las notificaciones: hace falta tu permiso."
+  },
+  "recaps": {
+    "title": "Lo que necesitas recordar",
+    "hint": "Solo de lo que ya viste antes de este título, en tu orden. Sin spoilers de lo que no."
   }
 }

@@ -1,0 +1,4 @@
+- The Goblet of Fire picks Harry as a fourth champion in the Triwizard Tournament.
+- He gets through the tasks with help from friends and "Moody," who is really Barty Crouch Jr.
+- The cup is a Portkey: Cedric Diggory is killed and Voldemort regains his body using Harry's blood.
+- Harry escapes; Voldemort is back, though the Ministry refuses to believe it.

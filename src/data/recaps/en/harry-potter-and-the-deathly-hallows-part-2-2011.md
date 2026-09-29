@@ -1,0 +1,4 @@
+- They destroy Horcruxes at Gringotts and at Hogwarts, where the final battle breaks out.
+- Snape dies; his memories show he loved Lily and always protected Harry.
+- Harry is a Horcrux: he lets himself be killed and Voldemort destroys that fragment. Neville kills Nagini.
+- Harry defeats Voldemort. Nineteen years later, he sees his children off at Platform 9¾.

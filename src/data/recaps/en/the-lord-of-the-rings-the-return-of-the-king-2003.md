@@ -1,0 +1,4 @@
+- Sauron attacks Minas Tirith; Rohan and Aragorn's army of the dead save the city.
+- Éowyn kills the Witch-king.
+- Frodo, nearly overcome by the Ring, reaches Mount Doom; Gollum snatches it and falls with it into the lava.
+- Aragorn is crowned king. Frodo, wounded for good, sails to the Undying Lands with Bilbo and Gandalf.

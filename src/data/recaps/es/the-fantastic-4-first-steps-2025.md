@@ -1,0 +1,4 @@
+- En la Tierra-828, de estética retrofuturista, los Cuatro Fantásticos son los héroes del mundo; Sue está embarazada.
+- La Silver Surfer anuncia la llegada de Galactus, que exige al bebé, Franklin, a cambio de perdonar la Tierra.
+- Franklin nace; la familia se niega y enfrenta a Galactus con ayuda de toda la ciudad.
+- Sue lo expulsa con un portal y parece morir; Franklin la revive. Al final, alguien visita al niño: Doctor Doom.

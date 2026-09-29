@@ -1,0 +1,4 @@
+- The Ministry denies Voldemort's return and puts Umbridge in charge of Hogwarts.
+- Harry secretly trains other students as Dumbledore's Army.
+- Voldemort lures him to the Ministry with a false vision to steal a prophecy about them both.
+- Bellatrix kills Sirius; Dumbledore duels Voldemort and the wizarding world accepts he is back.

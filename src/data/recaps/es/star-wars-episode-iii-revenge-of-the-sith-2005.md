@@ -1,0 +1,4 @@
+- Al final de las Guerras Clon, el canciller Palpatine manipula a Anakin Skywalker con la promesa de salvar a Padmé de la muerte.
+- Anakin se vuelve Darth Vader; con la Orden 66 los clones exterminan a los Jedi y Palpatine se proclama emperador.
+- Obi-Wan vence a Anakin en Mustafar y lo deja gravemente herido; Palpatine lo encierra en la armadura.
+- Padmé muere al dar a luz a Luke y Leia: Luke va con sus tíos a Tatooine y Leia con los Organa a Alderaan.

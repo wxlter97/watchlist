@@ -1,0 +1,4 @@
+- La Resistencia huye perseguida por la flota de la Primera Orden.
+- Luke, desencantado, se niega a entrenar a Rey; ella conecta con Kylo a través de la Fuerza.
+- Kylo mata a Snoke y se vuelve Líder Supremo; Holdo se sacrifica para salvar a la flota.
+- En Crait, Luke se proyecta desde Ahch-To para ganar tiempo y muere al terminar. Solo sobrevive un puñado de la Resistencia.

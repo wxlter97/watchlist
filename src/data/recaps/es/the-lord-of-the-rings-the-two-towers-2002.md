@@ -1,0 +1,4 @@
+- Frodo y Sam atrapan a Gollum y lo usan como guía hacia Mordor.
+- Aragorn, Legolas y Gimli encuentran a Gandalf, que regresó como Gandalf el Blanco, y liberan al rey Théoden de Rohan.
+- Rohan resiste en el Abismo de Helm; los ents, despertados por Merry y Pippin, destruyen Isengard.
+- Gollum planea llevar a los hobbits hacia Ella-Laraña.

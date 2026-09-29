@@ -1,25 +1,33 @@
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
-import { lazy, Suspense, useEffect, useSyncExternalStore } from "react";
+import { lazy, Suspense, useEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { Toaster } from "./components/Toaster";
-import { AccountPage } from "./features/account/AccountPage";
 import { FranchisePage } from "./features/franchise/FranchisePage";
 import { HubPage } from "./features/hub/HubPage";
 import { TitlePage } from "./features/detail/TitlePage";
 import { RoutePage } from "./features/routes/RoutePage";
 import { SearchPage } from "./features/search/SearchPage";
-import { StatsPage } from "./features/stats/StatsPage";
-import { PlanEditor } from "./features/planner/PlanEditor";
-import { PlanPage } from "./features/planner/PlanPage";
-import { PlansPage } from "./features/planner/PlansPage";
 import { PlanSync } from "./features/planner/PlanSync";
-import { TimelinePage } from "./features/timeline/TimelinePage";
-import { AchievementsPage } from "./features/achievements/AchievementsPage";
 import { AchievementSync } from "./features/achievements/AchievementSync";
-import { WrappedPage } from "./features/wrapped/WrappedPage";
+import { GroupSync } from "./features/groups/GroupSync";
 
-// El mapa trae d3-force: se carga solo al abrirlo.
-const GraphPage = lazy(() => import("./features/graph/GraphPage").then((m) => ({ default: m.GraphPage })));
+// Pantallas secundarias en chunks propios: el arranque solo carga Hub, franquicia, título,
+// rutas y búsqueda. El mapa además trae d3-force.
+const page = <K extends string>(load: () => Promise<Record<K, ComponentType>>, name: K) =>
+  lazy(() => load().then((m) => ({ default: m[name] })));
+const GraphPage = page(() => import("./features/graph/GraphPage"), "GraphPage");
+const StatsPage = page(() => import("./features/stats/StatsPage"), "StatsPage");
+const PlanEditor = page(() => import("./features/planner/PlanEditor"), "PlanEditor");
+const PlanPage = page(() => import("./features/planner/PlanPage"), "PlanPage");
+const PlansPage = page(() => import("./features/planner/PlansPage"), "PlansPage");
+const TimelinePage = page(() => import("./features/timeline/TimelinePage"), "TimelinePage");
+const AchievementsPage = page(() => import("./features/achievements/AchievementsPage"), "AchievementsPage");
+const WrappedPage = page(() => import("./features/wrapped/WrappedPage"), "WrappedPage");
+const ComparePage = page(() => import("./features/groups/ComparePage"), "ComparePage");
+const GroupPage = page(() => import("./features/groups/GroupPage"), "GroupPage");
+const GroupsPage = page(() => import("./features/groups/GroupsPage"), "GroupsPage");
+const JoinPage = page(() => import("./features/groups/JoinPage"), "JoinPage");
+const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
@@ -142,11 +150,14 @@ function Layout() {
       </header>
       <Banners />
       <main className="flex-1 pb-16">
-        <Outlet />
+        <Suspense fallback={<p className="py-16 text-center font-mono text-xs text-muted uppercase">…</p>}>
+          <Outlet />
+        </Suspense>
       </main>
       <Toaster />
       <PlanSync />
       <AchievementSync />
+      <GroupSync />
       <footer className="-mx-4 flex flex-col gap-2 border-t-2 border-line px-4 py-6 font-mono text-[11px] text-muted">
         <a href="https://wxlter.dev" className="flex items-center gap-2 self-start font-bold text-fg">
           <WxlterSymbol size={16} />
@@ -172,13 +183,13 @@ const router = createBrowserRouter([
       { path: "f/:franchiseId/timeline", element: <TimelinePage /> },
       {
         path: "map",
-        element: (
-          <Suspense fallback={<p className="py-16 text-center font-mono text-xs text-muted uppercase">…</p>}>
-            <GraphPage />
-          </Suspense>
-        ),
+        element: <GraphPage />,
       },
       { path: "achievements", element: <AchievementsPage /> },
+      { path: "groups", element: <GroupsPage /> },
+      { path: "groups/:groupId", element: <GroupPage /> },
+      { path: "join/:groupId", element: <JoinPage /> },
+      { path: "compare", element: <ComparePage /> },
       { path: "wrapped", element: <WrappedPage /> },
       { path: "wrapped/:year", element: <WrappedPage /> },
       { path: "plans", element: <PlansPage /> },

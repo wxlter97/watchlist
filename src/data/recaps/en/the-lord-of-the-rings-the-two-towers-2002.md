@@ -1,0 +1,4 @@
+- Frodo and Sam capture Gollum and use him as a guide to Mordor.
+- Aragorn, Legolas and Gimli find Gandalf, back as Gandalf the White, and free King Théoden of Rohan.
+- Rohan holds at Helm's Deep; the Ents, roused by Merry and Pippin, destroy Isengard.
+- Gollum plans to lead the hobbits to Shelob.

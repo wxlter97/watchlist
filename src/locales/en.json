@@ -25,7 +25,9 @@
     "plannerBody": "Build a marathon around your free hours and send it to your calendar.",
     "mapBody": "Explore how titles, characters and teams connect.",
     "achievementsBody": "Badges for finishing phases, sagas, routes and streaks.",
-    "wrappedBody": "Your year in hours, franchises and favorite titles."
+    "wrappedBody": "Your year in hours, franchises and favorite titles.",
+    "groupsBody": "Watch a saga as a couple or a group, each at your own pace.",
+    "compareBody": "Put two profiles from your account side by side."
   },
   "progress": {
     "count": "{{watched}} of {{total}} watched",
@@ -502,5 +504,112 @@
     "slideOf": "{{current}} of {{total}}",
     "prev": "Previous",
     "next": "Next"
+  },
+  "shareLink": {
+    "route": "Share route",
+    "progress": "Share progress",
+    "customOrder": "Share my order",
+    "progressTitle": "My progress in {{name}}",
+    "customOrderTitle": "My {{name}} order",
+    "hint": "Anyone with the link sees today's snapshot, no account needed. Sharing again updates the same link.",
+    "signInHint": "Sign in to share links.",
+    "revoke": "Revoke link",
+    "revoked": "Link revoked.",
+    "reactivate": "Reactivate",
+    "open": "Open",
+    "yours": "Shared links",
+    "updated": "updated {{date}}",
+    "kinds": {
+      "route": "Route",
+      "custom-order": "Order",
+      "progress": "Progress"
+    }
+  },
+  "groups": {
+    "title": "Groups",
+    "intro": "Watch a franchise or a route together: everyone marks their own, and the group shows who watched what, what you watched together and what's next.",
+    "signIn": "Groups need an account: sign in with Google to create or join one.",
+    "yours": "Your groups",
+    "none": "You're not in any group yet.",
+    "notFound": "We couldn't find that group, or you're no longer a member.",
+    "members_one": "{{count}} member",
+    "members_other": "{{count}} members",
+    "create": "New group",
+    "createAction": "Create group",
+    "name": "Group name",
+    "target": "What you'll watch",
+    "wholeFranchise": "The whole franchise",
+    "targetHint": "{{count}} titles. You join with the {{profile}} profile.",
+    "membersTitle": "Members",
+    "you": "you",
+    "owner": "creator",
+    "remove": "Remove from group",
+    "removeConfirm": "Remove {{name}} from the group? They can come back with a new link.",
+    "nextTogether": "Next to watch together",
+    "nobodyYet": "Nobody has watched it yet",
+    "watchedTogether": "We watched it together",
+    "allDone": "You've watched everything released!",
+    "titles": "Titles",
+    "title_col": "Title",
+    "together": "Together",
+    "togetherLabel": "We watched {{title}} together",
+    "syncHint": "Each member only shares what they marked from this goal; the rest of their progress stays private.",
+    "invite": "Invite",
+    "inviteHint": "Share this link. Whoever opens it and signs in joins the group.",
+    "newCode": "New link (invalidates the old one)",
+    "leave": "Leave group",
+    "leaveConfirm": "Leave “{{name}}”?",
+    "delete": "Delete group",
+    "deleteConfirm": "Delete “{{name}}” for everyone? This can't be undone.",
+    "otherProfile": "You take part in this group with the {{profile}} profile: what you mark with another profile doesn't show here.",
+    "switchProfile": "Switch to that profile",
+    "open": "Open group",
+    "joinTitle": "Join a group",
+    "joinIntro": "You've been invited to watch a saga together on Watch Order.",
+    "alreadyMember": "You're already in this group.",
+    "joinAs": "Join with the profile",
+    "joinPrivacy": "The group will see which titles from its goal {{profile}} marked as watched. Nothing else.",
+    "joinAction": "Join",
+    "joinErrors": {
+      "invalid": "The invitation is invalid or expired. Ask for a new link.",
+      "full": "The group is full.",
+      "error": "Couldn't join. Check your connection and try again."
+    }
+  },
+  "compare": {
+    "title": "Compare progress",
+    "intro": "Two profiles from your account, side by side. To compare with other people, use a group.",
+    "profileA": "Profile",
+    "profileB": "Versus",
+    "both_one": "{{count}} title watched by both",
+    "both_other": "{{count}} titles watched by both",
+    "needProfiles": "You need at least two profiles in your account to compare. Create them in Account, or compare with other people in a group.",
+    "signIn": "Sign in and create a second profile to compare, or compare with other people in a group."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "types": {
+      "releases": "Releases",
+      "streamingAvailable": "Now streaming",
+      "catalogUpdates": "Catalog updates"
+    },
+    "releasesHint": "From the franchises you follow: on release day and a week before.",
+    "streamingHint": "When something on your list arrives on a service in your region.",
+    "catalogHint": "New franchises and titles on Watch Order.",
+    "hint": "Delivered to this device. You can turn them off anytime.",
+    "support": {
+      "unconfigured": "Notifications aren't set up on this installation yet.",
+      "unsupported": "This browser doesn't support push notifications.",
+      "ios-install": "On iPhone and iPad, notifications only work with the app installed: tap Share → “Add to Home Screen” and open it from there (iOS 16.4 or later).",
+      "denied": "You blocked notifications for this site. Enable them in your browser settings to receive them."
+    },
+    "offer": "Want a heads-up when something from this franchise comes out?",
+    "offerIos": "To get release alerts on iPhone, install the app on your home screen and turn them on in Account.",
+    "enable": "Notify me",
+    "notGranted": "Notifications weren't turned on: your permission is needed."
+  },
+  "recaps": {
+    "title": "What you need to remember",
+    "hint": "Only from what you've already watched before this title, in your order. No spoilers from what you haven't."
   }
 }

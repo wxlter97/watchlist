@@ -1,0 +1,4 @@
+- Thirty years later, the First Order has replaced the Empire and Luke has vanished.
+- Rey, a scavenger on Jakku, and Finn, a defecting stormtrooper, flee with BB-8, who carries part of the map to Luke; they team up with Han and Chewbacca.
+- Kylo Ren, Han and Leia's son, kills his father on Starkiller Base, which the Resistance destroys.
+- Rey awakens to the Force, beats Kylo and finds Luke on Ahch-To.

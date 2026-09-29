@@ -1,0 +1,4 @@
+- Ocho años después, Bane toma Gotham con una bomba nuclear y aísla la ciudad.
+- Bane rompe la espalda de Batman y lo encierra en un pozo; Bruce escapa.
+- Talia al Ghul, hija de Ra's, estaba detrás del plan. Selina Kyle ayuda a Batman.
+- Batman se lleva la bomba lejos y se le da por muerto; Bruce vive retirado con Selina y Blake hereda la baticueva.

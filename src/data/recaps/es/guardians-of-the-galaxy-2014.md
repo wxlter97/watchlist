@@ -1,0 +1,4 @@
+- Peter Quill, secuestrado de la Tierra de niño, roba un orbe que contiene la Gema del Poder.
+- Forma equipo con Gamora, Drax, Rocket y Groot tras conocerse en prisión.
+- Ronan el Acusador quiere usar la gema para destruir Xandar; Groot se sacrifica para salvarlos.
+- Juntos contienen la gema y la dejan en manos de Nova Corps. Un brote de Groot sobrevive.

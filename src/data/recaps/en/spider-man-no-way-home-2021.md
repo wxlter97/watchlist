@@ -1,0 +1,4 @@
+- Mysterio exposes Peter Parker as Spider-Man; Peter asks Doctor Strange for a spell so the world forgets, and it goes wrong.
+- Villains from other universes arrive: Doc Ock, the Green Goblin, Electro, Sandman and the Lizard.
+- The Goblin kills Aunt May. The Peter Parkers from other universes help cure the villains.
+- To close the rift, Strange makes everyone forget Peter, including MJ and Ned. Peter starts over, alone.

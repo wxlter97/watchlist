@@ -1,0 +1,4 @@
+- Alguien abre la Cámara de los Secretos y un monstruo petrifica alumnos, incluida Hermione.
+- Harry descubre que habla pársel.
+- El diario de Tom Ryddle, el joven Voldemort, poseía a Ginny Weasley; el monstruo es un basilisco.
+- Harry mata al basilisco con la espada de Gryffindor y destruye el diario con un colmillo. Libera a Dobby.
