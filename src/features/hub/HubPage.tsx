@@ -6,9 +6,11 @@ import { useFranchiseView } from "../../hooks/useFranchiseView";
 import { catalog, catalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { todayIso } from "../../lib/progress";
+import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
-import type { Franchise } from "../../lib/types";
+import type { Franchise, Title } from "../../lib/types";
+import { upcomingUrl, useRemote, type UpcomingApiItem } from "../../lib/api";
 import { upcomingReleases } from "../../lib/upcoming";
 
 export function HubPage() {
@@ -23,10 +25,17 @@ export function HubPage() {
   const continuing = followed.length
     ? followed
     : catalog.franchises.filter((f) => f.entries.some((e) => progress[e.titleId]?.status === "watched")).sort(byName);
-  const upcoming = upcomingReleases(
-    catalogIndex,
-    (followed.length ? followed : catalog.franchises).map((f) => f.id),
-    todayIso(),
+  const upcomingIds = (followed.length ? followed : catalog.franchises).map((f) => f.id);
+  const remote = useRemote<{ items: UpcomingApiItem[] }>(upcomingUrl(upcomingIds));
+  // La API suma temporadas nuevas de series en curso; sin conexión, se usa el catálogo.
+  const upcoming: UpcomingRowData[] = (
+    remote.state === "ok"
+      ? remote.data.items.flatMap((i) => {
+          const title = catalogIndex.titlesById.get(i.titleId);
+          const franchise = catalogIndex.franchisesById.get(i.franchiseId);
+          return title && franchise ? [{ title, franchise, date: i.date, season: i.kind === "release" ? undefined : i.season, episode: i.kind === "episode" ? i.episode : undefined }] : [];
+        })
+      : upcomingReleases(catalogIndex, upcomingIds, todayIso()).map((u) => ({ ...u, date: u.title.releaseDate }))
   ).slice(0, 8);
 
   return (
@@ -56,8 +65,8 @@ export function HubPage() {
       {upcoming.length > 0 && (
         <Section label={t("hub.upcoming")}>
           <ul className="border-2 border-line bg-surface">
-            {upcoming.map(({ title, franchise }) => (
-              <UpcomingRow key={title.id} titleId={title.id} franchise={franchise} />
+            {upcoming.map((u) => (
+              <UpcomingRow key={`${u.title.id}-${u.date}`} item={u} />
             ))}
           </ul>
         </Section>
@@ -109,7 +118,6 @@ function CardHeader({ children }: { children: ReactNode }) {
 function ContinueCard({ franchise }: { franchise: Franchise }) {
   const { t, loc, name } = useLang();
   const { next } = useFranchiseView(franchise.id);
-  const setStatus = useProgressStore((s) => s.setStatus);
 
   return (
     <div style={accentStyle(franchise.accentColor)} className="border-2 border-line bg-surface">
@@ -133,7 +141,7 @@ function ContinueCard({ franchise }: { franchise: Franchise }) {
           <WatchToggle
             watched={false}
             label={t("actions.markWatched", { title: name(next.title) })}
-            onToggle={() => setStatus(next.title.id, "watched")}
+            onToggle={() => setTitleStatus(next.title, "watched")}
           />
         </div>
       ) : (
@@ -143,18 +151,35 @@ function ContinueCard({ franchise }: { franchise: Franchise }) {
   );
 }
 
-function UpcomingRow({ titleId, franchise }: { titleId: string; franchise: Franchise }) {
-  const { name, loc, date } = useLang();
-  const title = catalogIndex.titlesById.get(titleId)!;
+interface UpcomingRowData {
+  title: Title;
+  franchise: Franchise;
+  date: string;
+  season?: number;
+  episode?: number;
+}
+
+function UpcomingRow({ item }: { item: UpcomingRowData }) {
+  const { t, name, loc, date } = useLang();
+  const { title, franchise } = item;
+  const detail =
+    item.episode !== undefined
+      ? t("upcoming.episode", { season: item.season, episode: item.episode })
+      : item.season !== undefined
+        ? t("upcoming.season", { season: item.season })
+        : null;
   return (
     <li className="border-b-2 border-line-soft last:border-b-0" style={accentStyle(franchise.accentColor)}>
       <Link to={`/t/${title.id}`} className="group flex items-center gap-3 p-3 transition-colors duration-[120ms] ease-out hover:bg-surface-muted">
         <Poster title={title} size="w92" className="h-[60px] w-10" />
         <div className="min-w-0 flex-1">
           <p className="truncate font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">{name(title)}</p>
-          <span className="label inline-block bg-accent px-1.5 py-0.5 text-[10px] font-bold text-on-accent">{loc(franchise.name)}</span>
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span className="label inline-block bg-accent px-1.5 py-0.5 text-[10px] font-bold text-on-accent">{loc(franchise.name)}</span>
+            {detail && <span className="font-mono text-[11px] text-muted">{detail}</span>}
+          </div>
         </div>
-        <span className="shrink-0 text-right font-mono text-[11px] font-bold uppercase">{date(title.releaseDate)}</span>
+        <span className="shrink-0 text-right font-mono text-[11px] font-bold uppercase">{date(item.date)}</span>
       </Link>
     </li>
   );

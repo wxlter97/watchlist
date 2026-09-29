@@ -23,6 +23,7 @@
     "vite.config.ts",
     "vitest.rules.config.ts",
     "scripts",
-    "tests"
+    "tests",
+    "api"
   ]
 }

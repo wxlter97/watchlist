@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 4 — 6 franquicias (Marvel completo, Star Wars, DC, Wizarding World, Middle-earth, MonsterVerse), Hub y búsqueda global.
+**Estado:** fase 5 — 6 franquicias, Hub, búsqueda, dónde ver, estadísticas, episodios, versiones, export/import.
 
 ## Desarrollo
 
@@ -34,6 +34,18 @@ pnpm rules:deploy        # publica firestore.rules e índices en el proyecto rea
 - En producción, `vercel.json` sirve `/__/auth/*` desde el propio dominio (necesario para el
   login por redirect en Safari / PWA de iOS). Al desplegar, cambiar `VITE_FIREBASE_AUTH_DOMAIN`
   al dominio de la app y agregarlo a los dominios autorizados de Firebase Auth.
+
+## Funciones (`/api`)
+
+Funciones de Vercel con la firma Web estándar (`export function GET(request: Request)`).
+En desarrollo, `pnpm dev` las sirve con un middleware de Vite: no hace falta `vercel dev`.
+
+| Ruta | Qué hace | Caché CDN |
+|---|---|---|
+| `GET /api/providers?tmdbId=&type=movie\|tv&region=SV` | Dónde ver (JustWatch vía TMDB) | 24 h |
+| `GET /api/upcoming?franchise=marvel,dc` | Estrenos por venir y temporadas/episodios nuevos de series en emisión | 6 h |
+
+Requieren `TMDB_API_KEY` en las variables de entorno de Vercel (solo servidor).
 
 ## Catálogo
 

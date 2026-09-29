@@ -62,6 +62,7 @@ interface TmdbDetails {
   episode_run_time?: number[];
   seasons?: { season_number: number; episode_count: number }[];
   external_ids?: { imdb_id: string | null };
+  status?: string;
 }
 
 interface TmdbSeason {
@@ -114,6 +115,10 @@ async function enrich(t: Title, changes: Change[]): Promise<Title> {
       total += season.episodes.reduce((sum, ep) => sum + (ep.runtime ?? fallback), 0);
     }
     set("runtimeMin", total || undefined);
+
+    // /api/upcoming solo revisa temporadas nuevas de las series que siguen vivas.
+    if (["Returning Series", "In Production", "Planned", "Pilot"].includes(en.status ?? "")) next.ongoing = true;
+    else delete next.ongoing;
   }
   return next;
 }

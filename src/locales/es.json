@@ -99,7 +99,8 @@
   },
   "common": {
     "cancel": "Cancelar",
-    "save": "Guardar"
+    "save": "Guardar",
+    "close": "Cerrar"
   },
   "account": {
     "title": "Cuenta y ajustes",
@@ -190,5 +191,124 @@
     "empty": "Nada coincide con «{{query}}».",
     "titles_one": "{{count}} título",
     "titles_other": "{{count}} títulos"
+  },
+  "meta": {
+    "locale": "es-MX"
+  },
+  "toast": {
+    "watched": "Marcaste «{{title}}» como vista.",
+    "logLetterboxd": "Registrar en Letterboxd"
+  },
+  "row": {
+    "menu": "Más acciones para {{title}}",
+    "watchedUpTo": "Visto hasta aquí"
+  },
+  "upTo": {
+    "title": "Visto hasta aquí",
+    "confirm_one": "Marcar {{count}}",
+    "confirm_other": "Marcar {{count}}",
+    "body_one": "Se marca como visto {{count}} título pendiente hasta «{{title}}», inclusive, según «{{order}}».",
+    "body_other": "Se marcan como vistos {{count}} títulos pendientes hasta «{{title}}», inclusive, según «{{order}}».",
+    "nothing": "No hay nada pendiente hasta «{{title}}».",
+    "done_one": "{{count}} título marcado como visto.",
+    "done_other": "{{count}} títulos marcados como vistos.",
+    "undo": "Deshacer"
+  },
+  "versions": {
+    "title": "Versión",
+    "hint": "La que viste o vas a ver. Las estadísticas usan su duración."
+  },
+  "rating": {
+    "title": "Tu calificación",
+    "value_one": "{{count}} de 5",
+    "value_other": "{{count}} de 5"
+  },
+  "rewatch": {
+    "title": "Veces repetida",
+    "count_one": "{{count}} vez más",
+    "count_other": "{{count}} veces más",
+    "less": "Una vez menos",
+    "more": "Una vez más"
+  },
+  "notes": {
+    "title": "Notas",
+    "placeholder": "Solo tú las ves. Se guardan al salir del campo."
+  },
+  "episodes": {
+    "title": "Episodios",
+    "season": "Temporada {{number}}",
+    "markSeason": "Marcar temporada",
+    "seasonDone": "✓ Completa",
+    "episode": "Temporada {{season}}, episodio {{episode}}"
+  },
+  "external": {
+    "title": "Enlaces externos"
+  },
+  "providers": {
+    "title": "Dónde verlo en {{region}}",
+    "loading": "Buscando…",
+    "none": "No está en ninguna plataforma de tu región por ahora.",
+    "error": "No se pudo consultar. Intenta más tarde.",
+    "offline": "Sin conexión: se consulta al volver.",
+    "attribution": "Datos de JustWatch vía TMDB.",
+    "offers": {
+      "flatrate": "Suscripción",
+      "free": "Gratis",
+      "ads": "Gratis con anuncios",
+      "rent": "Alquiler",
+      "buy": "Compra"
+    }
+  },
+  "settings": {
+    "spoilerFree": "Sin spoilers",
+    "spoilerFreeHint": "Oculta la sinopsis de lo que no has visto hasta que la reveles.",
+    "region": "Región de streaming",
+    "regionHint": "Para saber dónde ver cada título.",
+    "letterboxdToast": "Aviso de Letterboxd",
+    "letterboxdToastHint": "Al marcar una película como vista, ofrece registrarla en Letterboxd."
+  },
+  "backup": {
+    "title": "Tus datos",
+    "hint": "Exporta o importa el progreso del perfil «{{profile}}» en JSON.",
+    "export": "Exportar",
+    "import": "Importar",
+    "apply": "Importar",
+    "mode": "Cómo importar",
+    "merge": "Combinar",
+    "replace": "Reemplazar",
+    "mergeHint": "Por cada título gana el cambio más reciente. No se borra nada de «{{profile}}».",
+    "replaceHint": "El progreso de «{{profile}}» queda igual al del archivo: lo que no esté en él se borra.",
+    "summary_one": "{{count}} título en el archivo (perfil «{{profile}}»).",
+    "summary_other": "{{count}} títulos en el archivo (perfil «{{profile}}»).",
+    "skipped_one": "Se ignora {{count}} registro inválido.",
+    "skipped_other": "Se ignoran {{count}} registros inválidos.",
+    "imported": "Progreso importado.",
+    "errors": {
+      "invalidJson": "El archivo no es JSON válido.",
+      "notBackup": "El archivo no es un respaldo de Watch Order.",
+      "newerVersion": "El respaldo es de una versión más nueva de la app. Actualízala e intenta de nuevo."
+    }
+  },
+  "stats": {
+    "title": "Estadísticas",
+    "hours": "Horas vistas",
+    "days_one": "{{count}} día completo",
+    "days_other": "{{count}} días completos",
+    "titles": "Completados",
+    "episodes": "Episodios",
+    "streak": "Racha",
+    "daysShort_one": "{{count}} día",
+    "daysShort_other": "{{count}} días",
+    "bestStreak": "Mejor: {{count}}",
+    "rating": "Calificación",
+    "rated_one": "{{count}} calificado",
+    "rated_other": "{{count}} calificados",
+    "top": "Franquicia más vista",
+    "byFranchise": "Por franquicia",
+    "note": "Las horas usan la duración de la versión elegida y suman los rewatches. El avance cuenta las continuidades visibles por defecto."
+  },
+  "upcoming": {
+    "season": "Temporada {{season}}",
+    "episode": "T{{season}} · E{{episode}}"
   }
 }

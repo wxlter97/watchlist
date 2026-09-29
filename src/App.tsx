@@ -1,12 +1,14 @@
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
 import { useEffect, useSyncExternalStore } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
+import { Toaster } from "./components/Toaster";
 import { AccountPage } from "./features/account/AccountPage";
 import { FranchisePage } from "./features/franchise/FranchisePage";
 import { HubPage } from "./features/hub/HubPage";
 import { TitlePage } from "./features/detail/TitlePage";
 import { RoutePage } from "./features/routes/RoutePage";
 import { SearchPage } from "./features/search/SearchPage";
+import { StatsPage } from "./features/stats/StatsPage";
 import { useLang } from "./lib/i18n";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
@@ -45,7 +47,7 @@ function AccountButton() {
   return (
     <Link
       to="/account"
-      className="label min-h-9 border-2 border-line px-2.5 py-2 font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+      className="label min-h-9 border-2 border-line px-2 py-2 font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
     >
       {status === "loading" ? "…" : t("nav.signIn")}
     </Link>
@@ -90,11 +92,22 @@ function Layout() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col px-4">
       <header className="sticky top-0 z-20 -mx-4 flex h-[58px] items-center justify-between gap-3 border-b-2 border-line bg-bg px-4">
-        <Link to="/" className="flex min-w-0 items-center gap-2.5">
-          <AppMark size={32} />
-          <span className="display truncate text-xl">{t("app.name")}</span>
+        <Link to="/" className="flex min-w-0 items-center gap-2">
+          <AppMark size={30} />
+          <span className="display truncate text-lg whitespace-nowrap">{t("app.name")}</span>
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-1.5">
+          <Link
+            to="/stats"
+            aria-label={t("stats.title")}
+            className="grid size-9 place-items-center border-2 border-line transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+          >
+            <svg viewBox="0 0 24 24" className="size-5" fill="currentColor" aria-hidden>
+              <rect x="3" y="12" width="4" height="9" />
+              <rect x="10" y="6" width="4" height="15" />
+              <rect x="17" y="3" width="4" height="18" />
+            </svg>
+          </Link>
           <Link
             to="/search"
             aria-label={t("search.title")}
@@ -109,6 +122,7 @@ function Layout() {
       <main className="flex-1 pb-16">
         <Outlet />
       </main>
+      <Toaster />
       <footer className="-mx-4 flex flex-col gap-2 border-t-2 border-line px-4 py-6 font-mono text-[11px] text-muted">
         <a href="https://wxlter.dev" className="flex items-center gap-2 self-start font-bold text-fg">
           <WxlterSymbol size={16} />
@@ -130,6 +144,7 @@ const router = createBrowserRouter([
       { path: "t/:titleId", element: <TitlePage /> },
       { path: "account", element: <AccountPage /> },
       { path: "search", element: <SearchPage /> },
+      { path: "stats", element: <StatsPage /> },
       { path: "*", element: <HubPage /> },
     ],
   },

@@ -40,7 +40,16 @@ export interface ProgressBackend {
 
 interface ProgressState extends ProgressData {
   setStatus: (titleId: string, status: WatchStatus | null) => void;
+  /**
+   * Cambia campos de un título (calificación, notas, versión, episodios, rewatch). Si aún no
+   * tiene progreso se crea con `status`; `status: null` en el parche lo borra.
+   */
+  updateProgress: (titleId: string, patch: Partial<Omit<ProgressDoc, "updatedAt" | "status">> & { status?: WatchStatus | null }) => void;
+  /** Aplica varios cambios de una vez (visto hasta aquí, deshacer, importar). */
+  applyMany: (changes: Record<string, ProgressDoc | null>) => void;
   setFranchiseState: (franchiseId: string, patch: Omit<Partial<FranchiseStateDoc>, "updatedAt">) => void;
+  /** Escribe varios estados de franquicia tal cual (importar un respaldo). */
+  applyFranchiseStates: (changes: Record<string, FranchiseStateDoc>) => void;
   /** Reemplaza todo el contenido (al cambiar de backend o al llegar un snapshot). */
   replace: (data: ProgressData) => void;
 }
@@ -113,10 +122,41 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
     backend.writeProgress(titleId, doc);
   },
 
+  updateProgress: (titleId, patch) => {
+    const prev = get().progress[titleId];
+    const status = patch.status === undefined ? (prev?.status ?? "planned") : patch.status;
+    if (status === null) return get().setStatus(titleId, null);
+    const doc: ProgressDoc = {
+      rewatchCount: 0,
+      ...prev,
+      ...patch,
+      status,
+      watchedAt: status === "watched" ? (prev?.status === "watched" ? prev.watchedAt : now()) : prev?.watchedAt,
+      updatedAt: now(),
+    };
+    set((s) => ({ progress: { ...s.progress, [titleId]: doc } }));
+    backend.writeProgress(titleId, doc);
+  },
+
+  applyMany: (changes) => {
+    const progress = { ...get().progress };
+    for (const [id, doc] of Object.entries(changes)) {
+      if (doc) progress[id] = doc;
+      else delete progress[id];
+    }
+    set({ progress });
+    for (const [id, doc] of Object.entries(changes)) backend.writeProgress(id, doc);
+  },
+
   setFranchiseState: (franchiseId, patch) => {
     const doc: FranchiseStateDoc = { ...get().franchiseState[franchiseId], ...patch, updatedAt: now() };
     set((s) => ({ franchiseState: { ...s.franchiseState, [franchiseId]: doc } }));
     backend.writeFranchiseState(franchiseId, doc);
+  },
+
+  applyFranchiseStates: (changes) => {
+    set((s) => ({ franchiseState: { ...s.franchiseState, ...changes } }));
+    for (const [id, doc] of Object.entries(changes)) backend.writeFranchiseState(id, doc);
   },
 
   replace: (data) => set(pick(data)),

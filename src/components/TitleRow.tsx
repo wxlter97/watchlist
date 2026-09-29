@@ -1,8 +1,10 @@
 import { Link } from "react-router";
 import { useLang } from "../lib/i18n";
 import { isReleased } from "../lib/progress";
+import { setTitleStatus } from "../lib/actions";
 import { useProgressStore } from "../lib/progressStore";
 import type { Entry, Title } from "../lib/types";
+import { RowMenu } from "./RowMenu";
 import { ImportanceBadge, Poster, PostCreditsIcon, TitleMeta, WatchToggle } from "./ui";
 
 export interface RowItem {
@@ -12,11 +14,19 @@ export interface RowItem {
   position: number;
 }
 
-export function TitleRow({ item, showChronoNote = false }: { item: RowItem; showChronoNote?: boolean }) {
+export function TitleRow({
+  item,
+  showChronoNote = false,
+  onWatchedUpTo,
+}: {
+  item: RowItem;
+  showChronoNote?: boolean;
+  /** Muestra la acción "Visto hasta aquí" en el menú de la fila. */
+  onWatchedUpTo?: (titleId: string) => void;
+}) {
   const { t, name, loc, date } = useLang();
   const { title, entry, position } = item;
   const watched = useProgressStore((s) => s.progress[title.id]?.status === "watched");
-  const setStatus = useProgressStore((s) => s.setStatus);
   const released = isReleased(title);
   const display = name(title);
 
@@ -45,11 +55,17 @@ export function TitleRow({ item, showChronoNote = false }: { item: RowItem; show
           </div>
         </div>
       </Link>
+      {onWatchedUpTo && released && (
+        <RowMenu
+          label={t("row.menu", { title: display })}
+          actions={[{ label: t("row.watchedUpTo"), onSelect: () => onWatchedUpTo(title.id) }]}
+        />
+      )}
       {released ? (
         <WatchToggle
           watched={watched}
           label={t(watched ? "actions.unmarkWatched" : "actions.markWatched", { title: display })}
-          onToggle={() => setStatus(title.id, watched ? null : "watched")}
+          onToggle={() => setTitleStatus(title, watched ? null : "watched")}
         />
       ) : (
         <span className="w-16 shrink-0 text-right font-mono text-[10px] leading-tight text-muted uppercase">

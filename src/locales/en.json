@@ -99,7 +99,8 @@
   },
   "common": {
     "cancel": "Cancel",
-    "save": "Save"
+    "save": "Save",
+    "close": "Close"
   },
   "account": {
     "title": "Account & settings",
@@ -190,5 +191,124 @@
     "empty": "Nothing matches “{{query}}”.",
     "titles_one": "{{count}} title",
     "titles_other": "{{count}} titles"
+  },
+  "meta": {
+    "locale": "en-US"
+  },
+  "toast": {
+    "watched": "You marked “{{title}}” as watched.",
+    "logLetterboxd": "Log on Letterboxd"
+  },
+  "row": {
+    "menu": "More actions for {{title}}",
+    "watchedUpTo": "Watched up to here"
+  },
+  "upTo": {
+    "title": "Watched up to here",
+    "confirm_one": "Mark {{count}}",
+    "confirm_other": "Mark {{count}}",
+    "body_one": "{{count}} pending title up to “{{title}}”, inclusive, following “{{order}}”, will be marked as watched.",
+    "body_other": "{{count}} pending titles up to “{{title}}”, inclusive, following “{{order}}”, will be marked as watched.",
+    "nothing": "Nothing is pending up to “{{title}}”.",
+    "done_one": "{{count}} title marked as watched.",
+    "done_other": "{{count}} titles marked as watched.",
+    "undo": "Undo"
+  },
+  "versions": {
+    "title": "Version",
+    "hint": "The one you watched or will watch. Stats use its runtime."
+  },
+  "rating": {
+    "title": "Your rating",
+    "value_one": "{{count}} out of 5",
+    "value_other": "{{count}} out of 5"
+  },
+  "rewatch": {
+    "title": "Rewatches",
+    "count_one": "{{count}} more time",
+    "count_other": "{{count}} more times",
+    "less": "One less",
+    "more": "One more"
+  },
+  "notes": {
+    "title": "Notes",
+    "placeholder": "Only you see them. Saved when you leave the field."
+  },
+  "episodes": {
+    "title": "Episodes",
+    "season": "Season {{number}}",
+    "markSeason": "Mark season",
+    "seasonDone": "✓ Complete",
+    "episode": "Season {{season}}, episode {{episode}}"
+  },
+  "external": {
+    "title": "External links"
+  },
+  "providers": {
+    "title": "Where to watch in {{region}}",
+    "loading": "Looking…",
+    "none": "Not on any platform in your region right now.",
+    "error": "Couldn't check. Try again later.",
+    "offline": "Offline: we'll check when you're back.",
+    "attribution": "Data from JustWatch via TMDB.",
+    "offers": {
+      "flatrate": "Subscription",
+      "free": "Free",
+      "ads": "Free with ads",
+      "rent": "Rent",
+      "buy": "Buy"
+    }
+  },
+  "settings": {
+    "spoilerFree": "Spoiler-free",
+    "spoilerFreeHint": "Hides the overview of what you haven't watched until you reveal it.",
+    "region": "Streaming region",
+    "regionHint": "Used to show where to watch each title.",
+    "letterboxdToast": "Letterboxd prompt",
+    "letterboxdToastHint": "When you mark a movie as watched, offer to log it on Letterboxd."
+  },
+  "backup": {
+    "title": "Your data",
+    "hint": "Export or import the “{{profile}}” profile's progress as JSON.",
+    "export": "Export",
+    "import": "Import",
+    "apply": "Import",
+    "mode": "How to import",
+    "merge": "Merge",
+    "replace": "Replace",
+    "mergeHint": "For each title the most recent change wins. Nothing in “{{profile}}” is deleted.",
+    "replaceHint": "“{{profile}}” ends up exactly like the file: anything not in it is deleted.",
+    "summary_one": "{{count}} title in the file (profile “{{profile}}”).",
+    "summary_other": "{{count}} titles in the file (profile “{{profile}}”).",
+    "skipped_one": "{{count}} invalid record is ignored.",
+    "skipped_other": "{{count}} invalid records are ignored.",
+    "imported": "Progress imported.",
+    "errors": {
+      "invalidJson": "The file isn't valid JSON.",
+      "notBackup": "The file isn't a Watch Order backup.",
+      "newerVersion": "The backup comes from a newer app version. Update and try again."
+    }
+  },
+  "stats": {
+    "title": "Stats",
+    "hours": "Hours watched",
+    "days_one": "{{count}} full day",
+    "days_other": "{{count}} full days",
+    "titles": "Completed",
+    "episodes": "Episodes",
+    "streak": "Streak",
+    "daysShort_one": "{{count}} day",
+    "daysShort_other": "{{count}} days",
+    "bestStreak": "Best: {{count}}",
+    "rating": "Rating",
+    "rated_one": "{{count}} rated",
+    "rated_other": "{{count}} rated",
+    "top": "Most watched franchise",
+    "byFranchise": "By franchise",
+    "note": "Hours use the runtime of the chosen version and include rewatches. Progress counts the continuities visible by default."
+  },
+  "upcoming": {
+    "season": "Season {{season}}",
+    "episode": "S{{season}} · E{{episode}}"
   }
 }

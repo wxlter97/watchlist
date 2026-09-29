@@ -1,7 +1,8 @@
 import { useState, type FormEvent } from "react";
-import { Button, Notice, SectionLabel, Tabs, TextField, Toggle } from "../../components/ui";
+import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
-import { LANGS, useLang } from "../../lib/i18n";
+import { useLang } from "../../lib/i18n";
+import { DataSection, Preferences } from "./SettingsSections";
 import {
   createProfile,
   deleteProfile,
@@ -11,7 +12,6 @@ import {
   signOut,
   useSession,
 } from "../../lib/session";
-import { setTheme, useTheme } from "../../lib/theme";
 
 export function AccountPage() {
   const { t } = useLang();
@@ -29,6 +29,7 @@ export function AccountPage() {
         <GuestCard loading={status === "loading"} />
       )}
       <Preferences />
+      <DataSection />
     </div>
   );
 }
@@ -223,31 +224,5 @@ function ProfileRow({ profile, active, canDelete }: { profile: Profile; active: 
         </div>
       )}
     </li>
-  );
-}
-
-function Preferences() {
-  const { t, lang, setLang } = useLang();
-  const theme = useTheme();
-  return (
-    <section>
-      <SectionLabel>{t("account.preferences")}</SectionLabel>
-      <div className="divide-y-2 divide-line-soft border-2 border-line bg-surface">
-        <div className="flex items-center justify-between gap-4 p-3">
-          <span className="font-semibold">{t("nav.language")}</span>
-          <Tabs
-            size="sm"
-            label={t("nav.language")}
-            value={lang}
-            options={LANGS.map((l) => ({ value: l, label: l === "es" ? "Español" : "English" }))}
-            onChange={setLang}
-          />
-        </div>
-        <div className="flex items-center justify-between gap-4 p-3">
-          <span className="font-semibold">{t("nav.darkMode")}</span>
-          <Toggle checked={theme === "dark"} label={t("nav.darkMode")} onChange={(dark) => setTheme(dark ? "dark" : "light")} />
-        </div>
-      </div>
-    </section>
   );
 }

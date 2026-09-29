@@ -29,6 +29,8 @@ export interface Title {
   overview?: string;
   localized?: Partial<Record<Lang, { title: string; overview?: string }>>;
   versions?: TitleVersion[];
+  /** Serie que sigue en emisión o producción según TMDB (enriquecido por script). */
+  ongoing?: boolean;
 }
 
 export type Importance = "essential" | "recommended" | "optional" | "skippable";

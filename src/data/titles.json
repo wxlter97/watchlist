@@ -1086,7 +1086,8 @@
         "episodes": 1
       }
     ],
-    "runtimeMin": 21
+    "runtimeMin": 21,
+    "ongoing": true
   },
   {
     "id": "the-punisher-1989",
@@ -2859,7 +2860,8 @@
         "episodes": 67
       }
     ],
-    "runtimeMin": 203
+    "runtimeMin": 203,
+    "ongoing": true
   },
   {
     "id": "iron-man-armored-adventures-2009",
@@ -7508,7 +7510,8 @@
         "episodes": 10
       }
     ],
-    "runtimeMin": 2449
+    "runtimeMin": 2449,
+    "ongoing": true
   },
   {
     "id": "what-if-2021",
@@ -7602,7 +7605,8 @@
         "episodes": 9
       }
     ],
-    "runtimeMin": 511
+    "runtimeMin": 511,
+    "ongoing": true
   },
   {
     "id": "venom-let-there-be-carnage-2021",
@@ -8192,7 +8196,8 @@
         "episodes": 8
       }
     ],
-    "runtimeMin": 1111
+    "runtimeMin": 1111,
+    "ongoing": true
   },
   {
     "id": "andor-2022",
@@ -8368,7 +8373,8 @@
         "episodes": 5
       }
     ],
-    "runtimeMin": 90
+    "runtimeMin": 90,
+    "ongoing": true
   },
   {
     "id": "moon-girl-and-devil-dinosaur-2023",
@@ -8656,7 +8662,8 @@
         "episodes": 8
       }
     ],
-    "runtimeMin": 375
+    "runtimeMin": 375,
+    "ongoing": true
   },
   {
     "id": "lego-marvel-avengers-code-red-2023",
@@ -8732,7 +8739,8 @@
         "episodes": 10
       }
     ],
-    "runtimeMin": 970
+    "runtimeMin": 970,
+    "ongoing": true
   },
   {
     "id": "aquaman-and-the-lost-kingdom-2023",
@@ -8836,7 +8844,8 @@
         "episodes": 9
       }
     ],
-    "runtimeMin": 630
+    "runtimeMin": 630,
+    "ongoing": true
   },
   {
     "id": "godzilla-x-kong-the-new-empire-2024",
@@ -9146,7 +9155,8 @@
         "episodes": 1
       }
     ],
-    "runtimeMin": 165
+    "runtimeMin": 165,
+    "ongoing": true
   },
   {
     "id": "the-lord-of-the-rings-the-war-of-the-rohirrim-2024",
@@ -9218,7 +9228,8 @@
         "episodes": 10
       }
     ],
-    "runtimeMin": 317
+    "runtimeMin": 317,
+    "ongoing": true
   },
   {
     "id": "captain-america-brave-new-world-2025",
@@ -9272,7 +9283,8 @@
         "episodes": 8
       }
     ],
-    "runtimeMin": 868
+    "runtimeMin": 868,
+    "ongoing": true
   },
   {
     "id": "thunderbolts-2025",
@@ -9399,7 +9411,8 @@
         "episodes": 20
       }
     ],
-    "runtimeMin": 71
+    "runtimeMin": 71,
+    "ongoing": true
   },
   {
     "id": "the-fantastic-4-first-steps-2025",
@@ -9476,7 +9489,8 @@
         "episodes": 60
       }
     ],
-    "runtimeMin": 780
+    "runtimeMin": 780,
+    "ongoing": true
   },
   {
     "id": "marvel-zombies-2025",
@@ -9504,7 +9518,8 @@
         "episodes": 4
       }
     ],
-    "runtimeMin": 137
+    "runtimeMin": 137,
+    "ongoing": true
   },
   {
     "id": "spidey-and-iron-man-avengers-team-up-2025",
@@ -9608,7 +9623,8 @@
         "episodes": 10
       }
     ],
-    "runtimeMin": 260
+    "runtimeMin": 260,
+    "ongoing": true
   },
   {
     "id": "the-punisher-one-last-kill-2026",
@@ -9752,7 +9768,8 @@
         "episodes": 8
       }
     ],
-    "runtimeMin": 372
+    "runtimeMin": 372,
+    "ongoing": true
   },
   {
     "id": "spidey-and-the-avengers-halloween-team-up-2026",
@@ -9799,7 +9816,8 @@
         "number": 1,
         "episodes": 8
       }
-    ]
+    ],
+    "ongoing": true
   },
   {
     "id": "clayface-2026",
@@ -9870,7 +9888,8 @@
         "number": 1,
         "episodes": 1
       }
-    ]
+    ],
+    "ongoing": true
   },
   {
     "id": "godzilla-x-kong-supernova-2027",

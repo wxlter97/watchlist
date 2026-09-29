@@ -24,7 +24,8 @@ import {
   type Unsubscribe,
 } from "firebase/firestore";
 import { auth, db } from "./firebase";
-import { guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings } from "./settings";
+import i18n, { currentLang } from "./i18n";
+import { guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings, withDefaults } from "./settings";
 import { DEFAULT_PROFILE_ID, firestoreBackend, paths, type Profile } from "./cloud";
 import { planMigration, planSize } from "./migrate";
 import {
@@ -85,16 +86,6 @@ const readActive = (uid: string) => {
   }
 };
 
-const USER_DEFAULTS = {
-  settings: {
-    spoilerFree: true,
-    streamingRegion: "SV",
-    followedFranchises: [] as string[],
-    externalLinks: { letterboxd: true, imdb: true, trakt: true, letterboxdToast: true },
-    notifications: { releases: false, streamingAvailable: false, catalogUpdates: false },
-  },
-};
-
 function newProfile(id: string, name: string): Profile {
   const clean = name.trim() || "Perfil";
   return { id, name: clean, avatar: clean[0]!.toUpperCase(), color: "#FFDB00", createdAt: new Date().toISOString() };
@@ -137,8 +128,8 @@ function enterAccount(user: User) {
   setSettingsWriter((patch) => {
     setDoc(paths.user(db, uid), { settings: patch }, { merge: true }).catch(report);
   });
-  // Lo que se siguió como invitado se conserva si la cuenta todavía no sigue nada.
-  const guestFollowed = loadGuestSettings().followedFranchises;
+  // Una cuenta nueva hereda los ajustes que se eligieron como invitado.
+  const guestSettings = loadGuestSettings();
 
   // El documento del usuario se crea una sola vez: solo si el servidor confirma que no existe.
   authUnsubs.push(
@@ -146,22 +137,23 @@ function enterAccount(user: User) {
       paths.user(db, uid),
       (snap) => {
         if (!snap.exists()) {
-          useSettings.setState({ followedFranchises: guestFollowed });
+          useSettings.setState(guestSettings);
           if (!snap.metadata.fromCache) {
             setDoc(paths.user(db, uid), {
               displayName,
               createdAt: serverTimestamp(),
               settings: {
-                ...USER_DEFAULTS.settings,
-                followedFranchises: guestFollowed,
-                language: document.documentElement.lang === "en" ? "en" : "es",
+                ...guestSettings,
+                language: guestSettings.language ?? currentLang(i18n.resolvedLanguage),
+                notifications: { releases: false, streamingAvailable: false, catalogUpdates: false },
               },
             }).catch(report);
           }
           return;
         }
-        const followed = snap.get("settings.followedFranchises");
-        useSettings.setState({ followedFranchises: Array.isArray(followed) ? followed : [] });
+        const settings = withDefaults(snap.get("settings"));
+        useSettings.setState(settings);
+        if (settings.language && settings.language !== currentLang(i18n.resolvedLanguage)) void i18n.changeLanguage(settings.language);
       },
       report,
     ),

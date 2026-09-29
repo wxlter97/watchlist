@@ -5,8 +5,12 @@ import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
 import { useLang } from "../../lib/i18n";
-import { CUSTOM_ORDER_ID, type OrderedItem } from "../../lib/orders";
-import { summarize } from "../../lib/progress";
+import { ConfirmDialog } from "../../components/ConfirmDialog";
+import { catalogIndex } from "../../lib/catalog";
+import { CUSTOM_ORDER_ID, watchedUpTo, type OrderedItem } from "../../lib/orders";
+import { useProgressStore } from "../../lib/progressStore";
+import { showToast } from "../../lib/toasts";
+import { summarize, todayIso } from "../../lib/progress";
 import { RoutesSection } from "../routes/RoutesSection";
 import { CustomOrderEditor } from "./CustomOrderEditor";
 import { FiltersPanel } from "./FiltersPanel";
@@ -14,8 +18,11 @@ import { FiltersPanel } from "./FiltersPanel";
 export function FranchisePage() {
   const { franchiseId } = useParams();
   const view = useFranchiseView(franchiseId);
-  const { t, loc } = useLang();
+  const { t, loc, name } = useLang();
   const [editing, setEditing] = useState(false);
+  const [upTo, setUpTo] = useState<{ titleId: string; ids: string[] } | null>(null);
+  const applyMany = useProgressStore((s) => s.applyMany);
+  const progress = useProgressStore((s) => s.progress);
   const { franchise, order, items, visibleItems, summary } = view;
 
   if (!franchise || !order) {
@@ -23,8 +30,29 @@ export function FranchisePage() {
   }
 
   const isCustom = order.type === "custom";
+
+  // "Visto hasta aquí" usa el orden completo (sin filtros), no solo lo que se ve.
+  const askWatchedUpTo = (titleId: string) => setUpTo({ titleId, ids: watchedUpTo(items, titleId, view.isWatched, todayIso()) });
+  const confirmWatchedUpTo = () => {
+    if (!upTo?.ids.length) return setUpTo(null);
+    const now = new Date().toISOString();
+    const before = Object.fromEntries(upTo.ids.map((id) => [id, progress[id] ?? null]));
+    applyMany(
+      Object.fromEntries(
+        upTo.ids.map((id) => [id, { rewatchCount: 0, ...progress[id], status: "watched" as const, watchedAt: now, updatedAt: now }]),
+      ),
+    );
+    showToast({
+      message: t("upTo.done", { count: upTo.ids.length }),
+      action: { label: t("upTo.undo"), onClick: () => applyMany(before) },
+      duration: 10_000,
+    });
+    setUpTo(null);
+  };
+  const upToTitle = upTo ? catalogIndex.titlesById.get(upTo.titleId) : undefined;
   const sections = groupSections(visibleItems);
   const groupLabels = order.type === "grouped" ? order.groupLabels : undefined;
+  const orderName = isCustom ? t("customOrder.name") : loc(order.name);
   const description = isCustom ? t("customOrder.description") : "description" in order ? loc(order.description) : "";
 
   return (
@@ -115,7 +143,12 @@ export function FranchisePage() {
                 )}
                 <ol>
                   {section.items.map((item) => (
-                    <TitleRow key={item.title.id} item={item} showChronoNote={order.type === "chronological"} />
+                    <TitleRow
+                      key={item.title.id}
+                      item={item}
+                      showChronoNote={order.type === "chronological"}
+                      onWatchedUpTo={askWatchedUpTo}
+                    />
                   ))}
                 </ol>
               </section>
@@ -123,6 +156,23 @@ export function FranchisePage() {
           )}
 
           <RoutesSection franchise={franchise} />
+
+          <ConfirmDialog
+            open={Boolean(upTo)}
+            title={t("upTo.title")}
+            confirmLabel={t("upTo.confirm", { count: upTo?.ids.length ?? 0 })}
+            cancelLabel={t("common.cancel")}
+            onCancel={() => setUpTo(null)}
+            onConfirm={confirmWatchedUpTo}
+          >
+            {upTo && upToTitle && (
+              <p>
+                {upTo.ids.length
+                  ? t("upTo.body", { count: upTo.ids.length, title: name(upToTitle), order: orderName })
+                  : t("upTo.nothing", { title: name(upToTitle) })}
+              </p>
+            )}
+          </ConfirmDialog>
         </>
       )}
     </div>

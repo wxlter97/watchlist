@@ -1,4 +1,4 @@
-import { computeOrder, nextUp, resolveOrder, CUSTOM_ORDER_ID } from "./orders";
+import { computeOrder, nextUp, resolveOrder, CUSTOM_ORDER_ID, watchedUpTo } from "./orders";
 import { buildIndex } from "./catalogIndex";
 import { makeCatalog } from "../test/fixtures";
 
@@ -66,5 +66,15 @@ describe("progreso vs. orden curado", () => {
     const curated = computeOrder(franchise, resolveOrder(franchise, "curated"), titlesById);
     const all = computeOrder(franchise, resolveOrder(franchise, "release"), titlesById);
     expect(curated.length).toBeLessThan(all.length);
+  });
+});
+
+describe("watchedUpTo", () => {
+  it("devuelve lo no visto y ya estrenado hasta el título, inclusive", () => {
+    const items = computeOrder(franchise, resolveOrder(franchise, "release"), titlesById);
+    // release: a-2001, b-2003, alt-2004, c-2005
+    expect(watchedUpTo(items, "alt-2004", (id) => id === "b-2003", "2030-01-01")).toEqual(["a-2001", "alt-2004"]);
+    expect(watchedUpTo(items, "c-2005", () => false, "2004-06-01")).toEqual(["a-2001", "b-2003", "alt-2004"]);
+    expect(watchedUpTo(items, "nope", () => false, "2030-01-01")).toEqual([]);
   });
 });

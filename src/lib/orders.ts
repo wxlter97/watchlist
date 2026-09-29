@@ -103,3 +103,21 @@ export function resolveOrder(
     franchise.orders[0]!
   );
 }
+
+/**
+ * "Visto hasta aquí" (SPEC §9.2): los títulos ya estrenados del orden activo hasta
+ * `titleId` inclusive que todavía no están vistos.
+ */
+export function watchedUpTo(
+  items: readonly OrderedItem[],
+  titleId: string,
+  isWatched: (titleId: string) => boolean,
+  today: string,
+): string[] {
+  const end = items.findIndex((i) => i.title.id === titleId);
+  if (end === -1) return [];
+  return items
+    .slice(0, end + 1)
+    .filter((i) => i.title.releaseDate <= today && !isWatched(i.title.id))
+    .map((i) => i.title.id);
+}

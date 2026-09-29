@@ -4,7 +4,11 @@ import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLab
 import { catalogIndex } from "../../lib/catalog";
 import { titleOverview, useLang } from "../../lib/i18n";
 import { isReleased } from "../../lib/progress";
+import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
+import { useSettings } from "../../lib/settings";
+import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker } from "./ProgressDetails";
+import { WhereToWatch } from "./WhereToWatch";
 
 const STATUSES: WatchStatus[] = ["planned", "watching", "watched", "dropped"];
 
@@ -13,8 +17,9 @@ export function TitlePage() {
   const navigate = useNavigate();
   const { t, lang, name, loc, date } = useLang();
   const title = titleId ? catalogIndex.titlesById.get(titleId) : undefined;
-  const status = useProgressStore((s) => (titleId ? s.progress[titleId]?.status : undefined));
-  const setStatus = useProgressStore((s) => s.setStatus);
+  const doc = useProgressStore((s) => (titleId ? s.progress[titleId] : undefined));
+  const status = doc?.status;
+  const spoilerFree = useSettings((s) => s.spoilerFree);
   const [revealed, setRevealed] = useState(false);
 
   if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
@@ -26,7 +31,7 @@ export function TitlePage() {
   const released = isReleased(title);
   const overview = titleOverview(title, lang);
   // Sin spoilers por defecto: la sinopsis de lo no visto queda oculta hasta revelarla.
-  const showOverview = status === "watched" || revealed;
+  const showOverview = !spoilerFree || status === "watched" || revealed;
   const totalEpisodes = title.seasons?.reduce((n, s) => n + s.episodes, 0);
   const display = name(title);
 
@@ -79,7 +84,7 @@ export function TitlePage() {
           value={status}
           layout="grid grid-cols-2 sm:grid-cols-4"
           options={STATUSES.map((s) => ({ value: s, label: t(`status.${s}`), disabled: !released && s !== "planned" }))}
-          onChange={(s) => setStatus(title.id, s === status ? null : s)}
+          onChange={(s) => setTitleStatus(title, s === status ? null : s)}
         />
       </section>
 
@@ -98,6 +103,13 @@ export function TitlePage() {
           </Notice>
         )}
       </section>
+
+      <VersionPicker title={title} doc={doc} />
+      <Episodes title={title} doc={doc} />
+      {released && <RatingAndRewatch title={title} doc={doc} />}
+      <Notes title={title} doc={doc} />
+      {released && <WhereToWatch title={title} />}
+      <ExternalLinks title={title} />
 
       {appearances.length > 0 && (
         <section className="mt-8">

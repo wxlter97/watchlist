@@ -4,6 +4,7 @@ import { initReactI18next, useTranslation } from "react-i18next";
 import es from "../locales/es.json";
 import en from "../locales/en.json";
 import type { Lang, LocalizedText, Title } from "./types";
+import { updateSettings } from "./settings";
 
 export const LANGS: readonly Lang[] = ["es", "en"];
 
@@ -50,7 +51,10 @@ export function useLang() {
   return {
     t,
     lang,
-    setLang: (l: Lang) => void instance.changeLanguage(l),
+    setLang: (l: Lang) => {
+      void instance.changeLanguage(l);
+      updateSettings({ language: l });
+    },
     loc: (text: LocalizedText | undefined) => localize(text, lang),
     name: (title: Title) => titleName(title, lang),
     date: (iso: string) =>

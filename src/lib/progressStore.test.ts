@@ -52,3 +52,25 @@ describe("progressStore", () => {
     expect(loadGuest().progress).toEqual({});
   });
 });
+
+describe("updateProgress / applyMany", () => {
+  it("crea el progreso con el estado indicado y conserva campos previos", () => {
+    const { updateProgress } = useProgressStore.getState();
+    updateProgress("loki-2021", { rating: 4, status: "watched" });
+    updateProgress("loki-2021", { notes: "Temporada 2 mejor" });
+    expect(useProgressStore.getState().progress["loki-2021"]).toMatchObject({ status: "watched", rating: 4, notes: "Temporada 2 mejor" });
+    updateProgress("loki-2021", { status: null });
+    expect(useProgressStore.getState().progress["loki-2021"]).toBeUndefined();
+  });
+
+  it("aplica varios cambios y permite deshacerlos con una foto previa", () => {
+    const { setStatus, applyMany } = useProgressStore.getState();
+    setStatus("a", "planned");
+    const before = { a: useProgressStore.getState().progress.a ?? null, b: null };
+    applyMany({ a: { status: "watched", rewatchCount: 0, updatedAt: "t" }, b: { status: "watched", rewatchCount: 0, updatedAt: "t" } });
+    expect(Object.keys(useProgressStore.getState().progress).sort()).toEqual(["a", "b"]);
+    applyMany(before);
+    expect(useProgressStore.getState().progress).toEqual({ a: before.a });
+    expect(loadGuest().progress).toEqual({ a: before.a });
+  });
+});
