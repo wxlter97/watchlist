@@ -132,6 +132,27 @@ body {
   .text-link:hover {
     border-bottom-color: var(--fg);
   }
+  /* Checkbox cuadrado de la marca; la marca usa el color legible sobre el acento. */
+  .checkbox {
+    appearance: none;
+    display: grid;
+    place-content: center;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--line);
+    background: var(--surface);
+  }
+  .checkbox:checked {
+    background: var(--accent);
+  }
+  .checkbox:checked::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: var(--on-accent);
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  }
 }
 
 .scrollbar-none {

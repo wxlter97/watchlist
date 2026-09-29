@@ -85,7 +85,9 @@
     "status": "Estado",
     "postCredits": "Post-créditos",
     "chrono": "Ubicación en la línea temporal",
-    "notFound": "No encontramos ese título."
+    "notFound": "No encontramos ese título.",
+    "prepFor": "Prepárate para verlo",
+    "inRoutes": "En rutas"
   },
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
@@ -124,5 +126,53 @@
     "migrate_other": "Tienes {{count}} cambios del modo invitado en este dispositivo.",
     "migrateAction": "Pasarlos a {{profile}}",
     "later": "Ahora no"
+  },
+  "filters": {
+    "title": "Filtros y continuidades",
+    "status": "Estado",
+    "kind": "Tipo",
+    "importance": "Importancia",
+    "character": "Personaje",
+    "team": "Equipo",
+    "any": "Cualquiera",
+    "clear": "Quitar filtros",
+    "active_one": "{{count}} filtro activo",
+    "active_other": "{{count}} filtros activos",
+    "hiddenContinuities_one": "{{count}} continuidad oculta",
+    "hiddenContinuities_other": "{{count}} continuidades ocultas",
+    "showing": "Mostrando {{shown}} de {{total}}",
+    "statuses": {
+      "all": "Todos",
+      "pending": "Pendientes",
+      "watched": "Vistos"
+    }
+  },
+  "customOrder": {
+    "name": "Personalizado",
+    "description": "Tu propio orden, guardado en tu perfil.",
+    "start": "Crear mi orden",
+    "edit": "Editar orden",
+    "save": "Guardar orden",
+    "hint": "Arrastra desde el asa o usa las flechas. Con teclado: espacio para tomar, flechas para mover, espacio para soltar.",
+    "srInstructions": "Para tomar un título, pulsa espacio. Muévelo con las flechas arriba y abajo. Pulsa espacio para soltarlo o Escape para cancelar.",
+    "drag": "Mover {{title}}",
+    "moveUp": "Subir {{title}}",
+    "moveDown": "Bajar {{title}}"
+  },
+  "routes": {
+    "title": "Rutas",
+    "count_one": "{{count}} título",
+    "count_other": "{{count}} títulos",
+    "done": "Ruta completa",
+    "remaining": "Te faltan {{time}}",
+    "target": "Objetivo",
+    "before": "Antes, ve esto",
+    "titles": "Títulos",
+    "notFound": "No encontramos esa ruta.",
+    "kinds": {
+      "prep": "Prepárate para…",
+      "character": "Por personaje",
+      "theme": "Temáticas"
+    }
   }
 }

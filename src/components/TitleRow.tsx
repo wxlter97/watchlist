@@ -1,11 +1,18 @@
 import { Link } from "react-router";
-import type { OrderedItem } from "../lib/orders";
 import { useLang } from "../lib/i18n";
 import { isReleased } from "../lib/progress";
 import { useProgressStore } from "../lib/progressStore";
+import type { Entry, Title } from "../lib/types";
 import { ImportanceBadge, Poster, PostCreditsIcon, TitleMeta, WatchToggle } from "./ui";
 
-export function TitleRow({ item, showChronoNote }: { item: OrderedItem; showChronoNote: boolean }) {
+export interface RowItem {
+  title: Title;
+  /** Sin entry (título de una ruta ajena a toda franquicia) no se muestra la importancia. */
+  entry?: Entry;
+  position: number;
+}
+
+export function TitleRow({ item, showChronoNote = false }: { item: RowItem; showChronoNote?: boolean }) {
   const { t, name, loc, date } = useLang();
   const { title, entry, position } = item;
   const watched = useProgressStore((s) => s.progress[title.id]?.status === "watched");
@@ -30,9 +37,9 @@ export function TitleRow({ item, showChronoNote }: { item: OrderedItem; showChro
           </p>
           <TitleMeta title={title} />
           <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1">
-            <ImportanceBadge importance={entry.importance} />
-            {entry.postCredits && <PostCreditsIcon {...entry.postCredits} />}
-            {showChronoNote && entry.chronoNote && (
+            {entry && <ImportanceBadge importance={entry.importance} />}
+            {entry?.postCredits && <PostCreditsIcon {...entry.postCredits} />}
+            {showChronoNote && entry?.chronoNote && (
               <span className="font-mono text-[11px] text-muted">{loc(entry.chronoNote)}</span>
             )}
           </div>

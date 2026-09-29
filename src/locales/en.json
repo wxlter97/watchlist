@@ -85,7 +85,9 @@
     "status": "Status",
     "postCredits": "Post-credits",
     "chrono": "Place in the timeline",
-    "notFound": "We couldn't find that title."
+    "notFound": "We couldn't find that title.",
+    "prepFor": "Get ready to watch it",
+    "inRoutes": "In routes"
   },
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
@@ -124,5 +126,53 @@
     "migrate_other": "You have {{count}} changes from guest mode on this device.",
     "migrateAction": "Move them to {{profile}}",
     "later": "Not now"
+  },
+  "filters": {
+    "title": "Filters & continuities",
+    "status": "Status",
+    "kind": "Type",
+    "importance": "Importance",
+    "character": "Character",
+    "team": "Team",
+    "any": "Any",
+    "clear": "Clear filters",
+    "active_one": "{{count}} active filter",
+    "active_other": "{{count}} active filters",
+    "hiddenContinuities_one": "{{count}} hidden continuity",
+    "hiddenContinuities_other": "{{count}} hidden continuities",
+    "showing": "Showing {{shown}} of {{total}}",
+    "statuses": {
+      "all": "All",
+      "pending": "To watch",
+      "watched": "Watched"
+    }
+  },
+  "customOrder": {
+    "name": "Custom",
+    "description": "Your own order, saved to your profile.",
+    "start": "Create my order",
+    "edit": "Edit order",
+    "save": "Save order",
+    "hint": "Drag by the handle or use the arrows. With a keyboard: space to pick up, arrows to move, space to drop.",
+    "srInstructions": "To pick up a title, press space. Move it with the up and down arrows. Press space to drop it or Escape to cancel.",
+    "drag": "Move {{title}}",
+    "moveUp": "Move {{title}} up",
+    "moveDown": "Move {{title}} down"
+  },
+  "routes": {
+    "title": "Routes",
+    "count_one": "{{count}} title",
+    "count_other": "{{count}} titles",
+    "done": "Route complete",
+    "remaining": "{{time}} to go",
+    "target": "Target",
+    "before": "Watch these first",
+    "titles": "Titles",
+    "notFound": "We couldn't find that route.",
+    "kinds": {
+      "prep": "Get ready for…",
+      "character": "By character",
+      "theme": "Themes"
+    }
   }
 }

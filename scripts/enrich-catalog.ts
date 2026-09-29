@@ -30,9 +30,20 @@ const only = args.includes("--only") && onlyArg ? new Set(onlyArg.split(",")) : 
 async function tmdb<T>(path: string, params: Record<string, string> = {}): Promise<T> {
   const url = `${API}${path}?${new URLSearchParams(params)}`;
   for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}`, Accept: "application/json" } });
-    if (res.status === 429 && attempt < 5) {
-      await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+    const backoff = () => new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+    let res: Response;
+    try {
+      res = await fetch(url, { headers: { Authorization: `Bearer ${token}`, Accept: "application/json" } });
+    } catch (err) {
+      // Cortes de red: se reintentan igual que los límites de TMDB.
+      if (attempt < 5) {
+        await backoff();
+        continue;
+      }
+      throw err;
+    }
+    if ((res.status === 429 || res.status >= 500) && attempt < 5) {
+      await backoff();
       continue;
     }
     if (!res.ok) throw new Error(`${res.status} ${res.statusText} en ${path}`);

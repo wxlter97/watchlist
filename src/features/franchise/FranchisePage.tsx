@@ -1,23 +1,30 @@
+import { useState } from "react";
 import { Link, useParams } from "react-router";
 import { TitleRow } from "../../components/TitleRow";
-import { accentStyle, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
+import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
 import { useLang } from "../../lib/i18n";
-import type { OrderedItem } from "../../lib/orders";
+import { CUSTOM_ORDER_ID, type OrderedItem } from "../../lib/orders";
 import { summarize } from "../../lib/progress";
+import { RoutesSection } from "../routes/RoutesSection";
+import { CustomOrderEditor } from "./CustomOrderEditor";
+import { FiltersPanel } from "./FiltersPanel";
 
 export function FranchisePage() {
   const { franchiseId } = useParams();
   const view = useFranchiseView(franchiseId);
   const { t, loc } = useLang();
-  const { franchise, order, items, summary } = view;
+  const [editing, setEditing] = useState(false);
+  const { franchise, order, items, visibleItems, summary } = view;
 
   if (!franchise || !order) {
     return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
   }
 
-  const sections = groupSections(items);
+  const isCustom = order.type === "custom";
+  const sections = groupSections(visibleItems);
   const groupLabels = order.type === "grouped" ? order.groupLabels : undefined;
+  const description = isCustom ? t("customOrder.description") : "description" in order ? loc(order.description) : "";
 
   return (
     <div style={accentStyle(franchise.accentColor)}>
@@ -54,66 +61,74 @@ export function FranchisePage() {
             label={t("franchise.order")}
             layout="flex w-max min-w-full"
             value={order.id}
-            options={franchise.orders.map((o) => ({ value: o.id, label: loc(o.name) }))}
-            onChange={view.setOrder}
+            options={[
+              ...franchise.orders.map((o) => ({ value: o.id, label: loc(o.name) })),
+              { value: CUSTOM_ORDER_ID, label: t("customOrder.name") },
+            ]}
+            onChange={(id) => {
+              setEditing(false);
+              view.setOrder(id);
+            }}
           />
         </div>
-        {"description" in order && order.description && (
-          <p className="mt-2 max-w-[70ch] text-sm leading-[1.55] text-fg-soft">{loc(order.description)}</p>
+        {description && <p className="mt-2 max-w-[70ch] text-sm leading-[1.55] text-fg-soft">{description}</p>}
+        {isCustom && !editing && (
+          <div className="mt-3">
+            <Button onClick={() => setEditing(true)}>{t(view.hasCustomOrder ? "customOrder.edit" : "customOrder.start")}</Button>
+          </div>
         )}
       </section>
 
-      {franchise.continuities.length > 1 && (
-        <section className="mt-6">
-          <SectionLabel>{t("franchise.continuities")}</SectionLabel>
-          <div className="flex flex-col gap-2">
-            {franchise.continuities.map((c) => {
-              const visible = !view.hiddenContinuities.includes(c.id);
-              return (
-                <button
-                  key={c.id}
-                  type="button"
-                  aria-pressed={visible}
-                  onClick={() => view.toggleContinuity(c.id)}
-                  className="flex min-h-11 items-center gap-3 border-2 border-line bg-surface px-3 py-2 text-left transition-colors duration-[120ms] ease-out hover:bg-surface-muted"
-                >
-                  <span
-                    aria-hidden
-                    className={`grid size-5 shrink-0 place-items-center border-2 border-line ${visible ? "bg-accent text-on-accent" : ""}`}
-                  >
-                    {visible && (
-                      <svg viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth={4}>
-                        <path d="M4.5 12.5l5 5L19.5 7" strokeLinecap="square" />
-                      </svg>
-                    )}
-                  </span>
-                  <span className={`flex-1 text-sm font-semibold ${visible ? "" : "text-muted"}`}>{loc(c.name)}</span>
-                  <span className="label text-muted">{t(`canon.${c.canonLevel}`)}</span>
-                </button>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {items.length === 0 ? (
-        <p className="py-12 text-center text-muted">{t("franchise.empty")}</p>
+      {editing ? (
+        <CustomOrderEditor
+          titles={items.map((i) => i.title)}
+          onCancel={() => setEditing(false)}
+          onSave={(ids) => {
+            // Los títulos de continuidades ocultas conservan su lugar relativo, al final.
+            const rest = computeHiddenTail(view.items, ids, franchise.entries.map((e) => e.titleId));
+            view.saveCustomOrder([...ids, ...rest]);
+            setEditing(false);
+          }}
+        />
       ) : (
-        sections.map((section, i) => (
-          <section key={section.key ?? i} className="mt-8">
-            {section.key && groupLabels?.[section.key] && (
-              <SectionHeader label={loc(groupLabels[section.key])} items={section.items} isWatched={view.isWatched} />
-            )}
-            <ol>
-              {section.items.map((item) => (
-                <TitleRow key={item.title.id} item={item} showChronoNote={order.type === "chronological"} />
-              ))}
-            </ol>
-          </section>
-        ))
+        <>
+          <FiltersPanel
+            franchise={franchise}
+            filters={view.filters}
+            hiddenContinuities={view.hiddenContinuities}
+            onToggleContinuity={view.toggleContinuity}
+            shown={visibleItems.length}
+            total={items.length}
+          />
+
+          {visibleItems.length === 0 ? (
+            <p className="py-12 text-center text-muted">{t("franchise.empty")}</p>
+          ) : (
+            sections.map((section, i) => (
+              <section key={section.key ?? i} className="mt-8">
+                {section.key && groupLabels?.[section.key] && (
+                  <SectionHeader label={loc(groupLabels[section.key])} items={section.items} isWatched={view.isWatched} />
+                )}
+                <ol>
+                  {section.items.map((item) => (
+                    <TitleRow key={item.title.id} item={item} showChronoNote={order.type === "chronological"} />
+                  ))}
+                </ol>
+              </section>
+            ))
+          )}
+
+          <RoutesSection franchise={franchise} />
+        </>
       )}
     </div>
   );
+}
+
+/** Títulos de la franquicia que no estaban en el editor (continuidades ocultas). */
+function computeHiddenTail(edited: OrderedItem[], savedIds: string[], allIds: string[]): string[] {
+  const inEditor = new Set([...edited.map((i) => i.title.id), ...savedIds]);
+  return allIds.filter((id) => !inEditor.has(id));
 }
 
 function SectionHeader({

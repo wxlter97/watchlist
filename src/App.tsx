@@ -5,6 +5,7 @@ import { AccountPage } from "./features/account/AccountPage";
 import { FranchisePage } from "./features/franchise/FranchisePage";
 import { HubPage } from "./features/hub/HubPage";
 import { TitlePage } from "./features/detail/TitlePage";
+import { RoutePage } from "./features/routes/RoutePage";
 import { useLang } from "./lib/i18n";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
@@ -115,6 +116,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HubPage /> },
       { path: "f/:franchiseId", element: <FranchisePage /> },
+      { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },
       { path: "t/:titleId", element: <TitlePage /> },
       { path: "account", element: <AccountPage /> },
       { path: "*", element: <HubPage /> },

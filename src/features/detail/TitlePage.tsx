@@ -20,6 +20,8 @@ export function TitlePage() {
   if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
 
   const appearances = catalogIndex.franchisesByTitle.get(title.id) ?? [];
+  const inRoutes = catalogIndex.routesByTitle.get(title.id) ?? [];
+  const prep = catalogIndex.prepByTarget.get(title.id) ?? [];
   const accent = appearances[0]?.franchise.accentColor ?? "#FFDB00";
   const released = isReleased(title);
   const overview = titleOverview(title, lang);
@@ -52,6 +54,22 @@ export function TitlePage() {
           </p>
         </div>
       </header>
+
+      {prep.map(({ franchise, route }) => (
+        <Link
+          key={route.id}
+          to={`/f/${franchise.id}/r/${route.id}`}
+          className="on-faro group mt-6 flex items-center justify-between gap-3 border-2 border-tinta bg-faro px-3.5 py-3 text-tinta"
+        >
+          <span>
+            <span className="label block font-bold">{t("title.prepFor")}</span>
+            <span className="font-semibold">{t("routes.count", { count: route.titleIds.length })}</span>
+          </span>
+          <span aria-hidden className="font-mono text-lg">
+            →
+          </span>
+        </Link>
+      ))}
 
       <section className="mt-8">
         <SectionLabel>{t("title.status")}</SectionLabel>
@@ -120,6 +138,30 @@ export function TitlePage() {
                 </li>
               );
             })}
+          </ul>
+        </section>
+      )}
+
+      {inRoutes.length > 0 && (
+        <section className="mt-8">
+          <SectionLabel>{t("title.inRoutes")}</SectionLabel>
+          <ul className="border-2 border-line bg-surface">
+            {inRoutes.map(({ franchise, route }) => (
+              <li key={`${franchise.id}/${route.id}`} className="border-b-2 border-line-soft last:border-b-0">
+                <Link
+                  to={`/f/${franchise.id}/r/${route.id}`}
+                  className="flex items-center justify-between gap-3 px-3.5 py-3 transition-colors duration-[120ms] ease-out hover:bg-surface-muted"
+                >
+                  <span className="min-w-0">
+                    <span className="label block text-muted">{t(`routes.kinds.${route.kind}`)}</span>
+                    <span className="font-semibold">{loc(route.name)}</span>
+                  </span>
+                  <span aria-hidden className="font-mono">
+                    →
+                  </span>
+                </Link>
+              </li>
+            ))}
           </ul>
         </section>
       )}

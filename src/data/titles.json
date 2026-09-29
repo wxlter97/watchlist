@@ -1,5 +1,137 @@
 [
   {
+    "id": "x-men-2000",
+    "tmdbId": 36657,
+    "tmdbType": "movie",
+    "title": "X-Men",
+    "kind": "movie",
+    "releaseDate": "2000-07-13",
+    "imdbId": "tt0120903",
+    "posterPath": "/bRDAc4GogyS9ci3ow7UnInOcriN.jpg",
+    "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+    "localized": {
+      "en": {
+        "title": "X-Men",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers."
+      },
+      "es": {
+        "title": "X-Men",
+        "overview": "En un mundo en el que los mutantes (humanos superpotentes evolucionados) existen y son discriminados, se forman dos grupos para un choque inevitable: la Hermandad supremacista, y los X-Men pacifistas."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "spider-man-2002",
+    "tmdbId": 557,
+    "tmdbType": "movie",
+    "title": "Spider-Man",
+    "kind": "movie",
+    "releaseDate": "2002-05-01",
+    "imdbId": "tt0145487",
+    "posterPath": "/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+    "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man",
+        "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man."
+      },
+      "es": {
+        "title": "El hombre araña",
+        "overview": "Cuando es mordido por una araña genéticamente modificada, un estudiante de secundaria nerd, tímido y torpe, adquiere habilidades parecidas a las de una araña que eventualmente debe usar para luchar contra el mal como un superhéroe después de que la tragedia cae sobre su familia."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "x2-2003",
+    "tmdbId": 36658,
+    "tmdbType": "movie",
+    "title": "X2",
+    "kind": "movie",
+    "releaseDate": "2003-04-27",
+    "imdbId": "tt0290334",
+    "posterPath": "/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
+    "overview": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+    "localized": {
+      "en": {
+        "title": "X2",
+        "overview": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants."
+      },
+      "es": {
+        "title": "X-Men 2",
+        "overview": "Cuando el coronel antimutante William Stryker secuestra al profesor X y ataca su escuela, los X-Men deben aliarse con su archienemigo Magneto para detenerlo."
+      }
+    },
+    "runtimeMin": 133
+  },
+  {
+    "id": "spider-man-2-2004",
+    "tmdbId": 558,
+    "tmdbType": "movie",
+    "title": "Spider-Man 2",
+    "kind": "movie",
+    "releaseDate": "2004-06-25",
+    "imdbId": "tt0316654",
+    "posterPath": "/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+    "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well...",
+    "localized": {
+      "en": {
+        "title": "Spider-Man 2",
+        "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well..."
+      },
+      "es": {
+        "title": "El hombre araña 2",
+        "overview": "Peter Parker se ve acosado por problemas en su fallida vida personal mientras lucha contra un brillante científico llamado Doctor Otto Octavius."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "x-men-the-last-stand-2006",
+    "tmdbId": 36668,
+    "tmdbType": "movie",
+    "title": "X-Men: The Last Stand",
+    "kind": "movie",
+    "releaseDate": "2006-05-24",
+    "imdbId": "tt0376994",
+    "posterPath": "/a2xicU8DpKtRizOHjQLC1JyCSRS.jpg",
+    "overview": "When a cure is found to treat mutations, lines are drawn amongst the X-Men led by Professor Charles Xavier, and Magneto's Brotherhood of Mutants.",
+    "localized": {
+      "en": {
+        "title": "X-Men: The Last Stand",
+        "overview": "When a cure is found to treat mutations, lines are drawn amongst the X-Men led by Professor Charles Xavier, and Magneto's Brotherhood of Mutants."
+      },
+      "es": {
+        "title": "X-Men 3: La Batalla Final",
+        "overview": "El gobierno humano desarrolla una cura para las mutaciones, y Jean Gray se convierte en un personaje oscuro e incontrolable llamado el Fénix que se alía con Magneto, causando una escalada en una batalla total para los X-Men."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "spider-man-3-2007",
+    "tmdbId": 559,
+    "tmdbType": "movie",
+    "title": "Spider-Man 3",
+    "kind": "movie",
+    "releaseDate": "2007-05-01",
+    "imdbId": "tt0413300",
+    "posterPath": "/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+    "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man 3",
+        "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle."
+      },
+      "es": {
+        "title": "El hombre araña 3",
+        "overview": "Una extraña entidad negra de otro mundo se vincula con Peter Parker y le provoca confusión interna mientras lucha contra nuevos villanos, tentaciones y venganza."
+      }
+    },
+    "runtimeMin": 139
+  },
+  {
     "id": "iron-man-2008",
     "tmdbId": 1726,
     "tmdbType": "movie",
@@ -44,6 +176,28 @@
     "runtimeMin": 114
   },
   {
+    "id": "x-men-origins-wolverine-2009",
+    "tmdbId": 2080,
+    "tmdbType": "movie",
+    "title": "X-Men Origins: Wolverine",
+    "kind": "movie",
+    "releaseDate": "2009-04-28",
+    "imdbId": "tt0458525",
+    "posterPath": "/yj8LbTju1p7CUJg7US2unSBk33s.jpg",
+    "overview": "After seeking to live a normal life after 200 years, Logan sets out to avenge a death by undergoing the mutant Weapon X program and becoming Wolverine.",
+    "localized": {
+      "en": {
+        "title": "X-Men Origins: Wolverine",
+        "overview": "After seeking to live a normal life after 200 years, Logan sets out to avenge a death by undergoing the mutant Weapon X program and becoming Wolverine."
+      },
+      "es": {
+        "title": "X-Men orígenes: Wolverine",
+        "overview": "Los primeros años de James Logan, con la rivalidad con su hermano Victor Creed, su servicio en el equipo de fuerzas especiales Arma X, y su experimentación hacia el mutante revestido de metal Wolverine."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
     "id": "iron-man-2-2010",
     "tmdbId": 10138,
     "tmdbType": "movie",
@@ -86,6 +240,28 @@
       }
     },
     "runtimeMin": 115
+  },
+  {
+    "id": "x-men-first-class-2011",
+    "tmdbId": 49538,
+    "tmdbType": "movie",
+    "title": "X-Men: First Class",
+    "kind": "movie",
+    "releaseDate": "2011-06-01",
+    "imdbId": "tt1270798",
+    "posterPath": "/hNEokmUke0dazoBhttFN0o3L7Xv.jpg",
+    "overview": "Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known.",
+    "localized": {
+      "en": {
+        "title": "X-Men: First Class",
+        "overview": "Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known."
+      },
+      "es": {
+        "title": "X-Men: Primera generación",
+        "overview": "En la década de 1960, los humanos con superpoderes Charles Xavier y Erik Lensherr trabajan juntos para encontrar otros como ellos, pero la búsqueda vengativa de Erik de un ambicioso mutante que arruinó su vida provoca un cisma que los divide."
+      }
+    },
+    "runtimeMin": 132
   },
   {
     "id": "captain-america-the-first-avenger-2011",
@@ -176,6 +352,28 @@
     "runtimeMin": 143
   },
   {
+    "id": "the-amazing-spider-man-2012",
+    "tmdbId": 1930,
+    "tmdbType": "movie",
+    "title": "The Amazing Spider-Man",
+    "kind": "movie",
+    "releaseDate": "2012-06-23",
+    "imdbId": "tt0948470",
+    "posterPath": "/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg",
+    "overview": "A teenage Peter Parker grapples with both high school and amazing super-human crises as his alter-ego Spider-Man.",
+    "localized": {
+      "en": {
+        "title": "The Amazing Spider-Man",
+        "overview": "A teenage Peter Parker grapples with both high school and amazing super-human crises as his alter-ego Spider-Man."
+      },
+      "es": {
+        "title": "El sorprendente Hombre Araña",
+        "overview": "Peter Parker es un estudiante que fue abandonado por sus padres cuando era niño, quedando a cargo de su tío Ben y su tía May. Cuando Peter descubre un misterioso maletín perteneciente a su padre, comienza la búsqueda para entender la desaparición de sus padres, que lo lleva directamente al laboratorio en Oscorp del Dr. Curt Connors , ex compañero de trabajo de su padre."
+      }
+    },
+    "runtimeMin": 136
+  },
+  {
     "id": "marvel-one-shot-item-47-2012",
     "tmdbId": 119569,
     "tmdbType": "movie",
@@ -218,6 +416,80 @@
       }
     },
     "runtimeMin": 130
+  },
+  {
+    "id": "the-wolverine-2013",
+    "tmdbId": 76170,
+    "tmdbType": "movie",
+    "title": "The Wolverine",
+    "kind": "movie",
+    "releaseDate": "2013-07-24",
+    "imdbId": "tt1430132",
+    "posterPath": "/t2wVAcoRlKvEIVSbiYDb8d0QqqS.jpg",
+    "overview": "Wolverine faces his ultimate nemesis - and tests of his physical, emotional, and mortal limits - in a life-changing voyage to modern-day Japan.",
+    "localized": {
+      "en": {
+        "title": "The Wolverine",
+        "overview": "Wolverine faces his ultimate nemesis - and tests of his physical, emotional, and mortal limits - in a life-changing voyage to modern-day Japan."
+      },
+      "es": {
+        "title": "Wolverine: Inmortal",
+        "overview": "Wolverine llega a Japón para conocer a un viejo amigo cuya vida salvó hace años, y se ve envuelto en una conspiración que involucra a la yakuza y a los mutantes."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "agents-of-shield-2013",
+    "tmdbId": 1403,
+    "tmdbType": "tv",
+    "title": "Marvel's Agents of S.H.I.E.L.D.",
+    "kind": "series",
+    "releaseDate": "2013-09-24",
+    "imdbId": "tt2364582",
+    "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
+    "overview": "Agent Phil Coulson of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) puts together a team of agents to investigate the new, the strange and the unknown around the globe, protecting the ordinary from the extraordinary.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Agents of S.H.I.E.L.D.",
+        "overview": "Agent Phil Coulson of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) puts together a team of agents to investigate the new, the strange and the unknown around the globe, protecting the ordinary from the extraordinary."
+      },
+      "es": {
+        "title": "Agents of S.H.I.E.L.D",
+        "overview": "Tras los eventos de \"Los Vengadores\", el agente Phil Coulson reune a un pequeño grupo de agentes para investigar a un misterioso grupo conocido como Rising Tide. En el proceso se cruza con Mike Peterson, un hombre aparentemente ordinario que ha adquirido poderes sobrehumanos... Episodio piloto de la serie \"Agents of S.H.I.E.L.D.\", escrito y dirigido por Joss Whedon."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22
+      },
+      {
+        "number": 2,
+        "episodes": 22
+      },
+      {
+        "number": 3,
+        "episodes": 22
+      },
+      {
+        "number": 4,
+        "episodes": 22
+      },
+      {
+        "number": 5,
+        "episodes": 22
+      },
+      {
+        "number": 6,
+        "episodes": 13
+      },
+      {
+        "number": 7,
+        "episodes": 13
+      }
+    ],
+    "runtimeMin": 5932
   },
   {
     "id": "marvel-one-shot-agent-carter-2013",
@@ -308,6 +580,50 @@
     "runtimeMin": 136
   },
   {
+    "id": "the-amazing-spider-man-2-2014",
+    "tmdbId": 102382,
+    "tmdbType": "movie",
+    "title": "The Amazing Spider-Man 2",
+    "kind": "movie",
+    "releaseDate": "2014-04-16",
+    "imdbId": "tt1872181",
+    "posterPath": "/bU7nTmvmy0h3VUP01v1T2imgH6N.jpg",
+    "overview": "For Peter Parker, life is busy. Between taking out the bad guys as Spider-Man and spending time with the person he loves, Gwen Stacy, high school graduation cannot come quickly enough. Peter has not forgotten about the promise he made to Gwen’s father to protect her by staying away, but that is a promise he cannot keep. Things will change for Peter when a new villain, Electro, emerges, an old friend, Harry Osborn, returns, and Peter uncovers new clues about his past.",
+    "localized": {
+      "en": {
+        "title": "The Amazing Spider-Man 2",
+        "overview": "For Peter Parker, life is busy. Between taking out the bad guys as Spider-Man and spending time with the person he loves, Gwen Stacy, high school graduation cannot come quickly enough. Peter has not forgotten about the promise he made to Gwen’s father to protect her by staying away, but that is a promise he cannot keep. Things will change for Peter when a new villain, Electro, emerges, an old friend, Harry Osborn, returns, and Peter uncovers new clues about his past."
+      },
+      "es": {
+        "title": "El sorprendente Hombre Araña 2: La amenaza de Electro",
+        "overview": "Ser el Hombre Araña es genial. Para Peter Parker, no hay mejor sensación que columpiarse entre rascacielos, ser el héroe y pasar el tiempo con Gwen. Pero ser el Hombre Araña no es gratuito: solo él puede proteger a sus conciudadanos de Nueva York de los temibles villanos que amenazan a la ciudad. Con el surgimiento de Electro, Peter debe enfrentar a un enemigo mucho más poderoso que él. Y como su antiguo amigo, Harry Osborn, regresa, Peter se da cuenta de que todos sus enemigos tienen algo en común: Oscorp."
+      }
+    },
+    "runtimeMin": 141
+  },
+  {
+    "id": "x-men-days-of-future-past-2014",
+    "tmdbId": 127585,
+    "tmdbType": "movie",
+    "title": "X-Men: Days of Future Past",
+    "kind": "movie",
+    "releaseDate": "2014-05-15",
+    "imdbId": "tt1877832",
+    "posterPath": "/tYfijzolzgoMOtegh1Y7j2Enorg.jpg",
+    "overview": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future.",
+    "localized": {
+      "en": {
+        "title": "X-Men: Days of Future Past",
+        "overview": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future."
+      },
+      "es": {
+        "title": "X-Men: Días del futuro pasado",
+        "overview": "Los X-Men originales unen fuerzas y envían a Wolverine al pasado en un intento desesperado de cambiar la historia y prevenir un evento que desemboca en la perdición tanto para humanos como para mutantes."
+      }
+    },
+    "runtimeMin": 132
+  },
+  {
     "id": "guardians-of-the-galaxy-2014",
     "tmdbId": 118340,
     "tmdbType": "movie",
@@ -328,6 +644,74 @@
       }
     },
     "runtimeMin": 121
+  },
+  {
+    "id": "marvels-agent-carter-2015",
+    "tmdbId": 61550,
+    "tmdbType": "tv",
+    "title": "Marvel's Agent Carter",
+    "kind": "series",
+    "releaseDate": "2015-01-06",
+    "imdbId": "tt3475734",
+    "posterPath": "/fe79VYyLp5ZBstpJ4oukpuUT3B.jpg",
+    "overview": "It's 1946, and peace has dealt Peggy Carter a serious blow as she finds herself marginalized when the men return home from fighting abroad. Working for the covert SSR (Strategic Scientific Reserve), Peggy must balance doing administrative work and going on secret missions for Howard Stark all while trying to navigate life as a single woman in America, in the wake of losing the love of her life - Steve Rogers.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Agent Carter",
+        "overview": "It's 1946, and peace has dealt Peggy Carter a serious blow as she finds herself marginalized when the men return home from fighting abroad. Working for the covert SSR (Strategic Scientific Reserve), Peggy must balance doing administrative work and going on secret missions for Howard Stark all while trying to navigate life as a single woman in America, in the wake of losing the love of her life - Steve Rogers."
+      },
+      "es": {
+        "title": "Agente Carter",
+        "overview": "En 1946, Peggy Carter debe equilibrar su rutinario trabajo de oficina que hace para la Reserva Científica Estratégico con ayudar secretamente a Howard Stark, que se ha visto involucrado en una trama de suministro de armas letales para el mejor postor."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8
+      },
+      {
+        "number": 2,
+        "episodes": 10
+      }
+    ],
+    "runtimeMin": 777
+  },
+  {
+    "id": "daredevil-2015",
+    "tmdbId": 61889,
+    "tmdbType": "tv",
+    "title": "Marvel's Daredevil",
+    "kind": "series",
+    "releaseDate": "2015-04-10",
+    "imdbId": "tt3322312",
+    "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
+    "overview": "Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a young boy to fight crime at night on the streets of Hell’s Kitchen as Daredevil.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Daredevil",
+        "overview": "Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a young boy to fight crime at night on the streets of Hell’s Kitchen as Daredevil."
+      },
+      "es": {
+        "title": "Marvel - Daredevil",
+        "overview": "La serie está protagonizada por Charlie Cox como Matt Murdock, un abogado del barrio neoyorquino de Hell's Kitchenque quedó ciego en un accidente que incrementó sus cuatro sentidos restantes y que lucha todas las noches contra el crimen bajo el sobrenombre de Daredevil."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13
+      },
+      {
+        "number": 2,
+        "episodes": 13
+      },
+      {
+        "number": 3,
+        "episodes": 13
+      }
+    ],
+    "runtimeMin": 2100
   },
   {
     "id": "avengers-age-of-ultron-2015",
@@ -374,6 +758,64 @@
     "runtimeMin": 117
   },
   {
+    "id": "jessica-jones-2015",
+    "tmdbId": 38472,
+    "tmdbType": "tv",
+    "title": "Marvel's Jessica Jones",
+    "kind": "series",
+    "releaseDate": "2015-11-20",
+    "imdbId": "tt2357547",
+    "posterPath": "/oxnWofiE9fHOgUfs9NJa6nG6NTR.jpg",
+    "overview": "After a tragic ending to her short-lived super hero stint, Jessica Jones is rebuilding her personal life and career as a detective who gets pulled into cases involving people with extraordinary abilities in New York City.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Jessica Jones",
+        "overview": "After a tragic ending to her short-lived super hero stint, Jessica Jones is rebuilding her personal life and career as a detective who gets pulled into cases involving people with extraordinary abilities in New York City."
+      },
+      "es": {
+        "title": "Marvel - Jessica Jones",
+        "overview": "Cuando una tragedia pone fin a su corta carrera como superhéroe, Jessica se instala en la ciudad de Nueva York y abre su propia agencia de detectives, que parece ser llamada en casos que involucran a personas que tienen habilidades especiales."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13
+      },
+      {
+        "number": 2,
+        "episodes": 13
+      },
+      {
+        "number": 3,
+        "episodes": 13
+      }
+    ],
+    "runtimeMin": 2030
+  },
+  {
+    "id": "deadpool-2016",
+    "tmdbId": 293660,
+    "tmdbType": "movie",
+    "title": "Deadpool",
+    "kind": "movie",
+    "releaseDate": "2016-02-09",
+    "imdbId": "tt1431045",
+    "posterPath": "/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+    "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+    "localized": {
+      "en": {
+        "title": "Deadpool",
+        "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life."
+      },
+      "es": {
+        "title": "Deadpool",
+        "overview": "Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool. Armado con sus nuevas habilidades y un oscuro y retorcido sentido del humor, Deadpool intentará dar caza al hombre que casi destruye su vida."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
     "id": "captain-america-civil-war-2016",
     "tmdbId": 271110,
     "tmdbType": "movie",
@@ -396,6 +838,60 @@
     "runtimeMin": 147
   },
   {
+    "id": "x-men-apocalypse-2016",
+    "tmdbId": 246655,
+    "tmdbType": "movie",
+    "title": "X-Men: Apocalypse",
+    "kind": "movie",
+    "releaseDate": "2016-05-18",
+    "imdbId": "tt3385516",
+    "posterPath": "/ikA8UhYdTGpqbatFa93nIf6noSr.jpg",
+    "overview": "After the re-emergence of the world's first mutant, world-destroyer Apocalypse, the X-Men must unite to defeat his extinction level plan.",
+    "localized": {
+      "en": {
+        "title": "X-Men: Apocalypse",
+        "overview": "After the re-emergence of the world's first mutant, world-destroyer Apocalypse, the X-Men must unite to defeat his extinction level plan."
+      },
+      "es": {
+        "title": "X-Men: Apocalipsis",
+        "overview": "En la década de 1980 los X-Men deben derrotar a un antiguo mutante todopoderoso, En Sabah Nur, que pretende prosperar trayendo destrucción al mundo."
+      }
+    },
+    "runtimeMin": 144
+  },
+  {
+    "id": "luke-cage-2016",
+    "tmdbId": 62126,
+    "tmdbType": "tv",
+    "title": "Marvel's Luke Cage",
+    "kind": "series",
+    "releaseDate": "2016-09-30",
+    "imdbId": "tt3322314",
+    "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
+    "overview": "Given superstrength and durability by a sabotaged experiment, a wrongly accused man escapes prison to become a superhero for hire.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Luke Cage",
+        "overview": "Given superstrength and durability by a sabotaged experiment, a wrongly accused man escapes prison to become a superhero for hire."
+      },
+      "es": {
+        "title": "Marvel - Luke Cage",
+        "overview": "Él solo quería una vida tranquila, pero este exconvicto a prueba de balas luchará para limpiar su nombre, salvar a su vecindario y ser el héroe que la gente necesita."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13
+      },
+      {
+        "number": 2,
+        "episodes": 13
+      }
+    ],
+    "runtimeMin": 1467
+  },
+  {
     "id": "doctor-strange-2016",
     "tmdbId": 284052,
     "tmdbType": "movie",
@@ -416,6 +912,60 @@
       }
     },
     "runtimeMin": 115
+  },
+  {
+    "id": "logan-2017",
+    "tmdbId": 263115,
+    "tmdbType": "movie",
+    "title": "Logan",
+    "kind": "movie",
+    "releaseDate": "2017-02-28",
+    "imdbId": "tt3315342",
+    "posterPath": "/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg",
+    "overview": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+    "localized": {
+      "en": {
+        "title": "Logan",
+        "overview": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces."
+      },
+      "es": {
+        "title": "Logan: Wolverine",
+        "overview": "Sin sus poderes, por primera vez, Wolverine es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la única esperanza para la raza mutante… Tercera y última película protagonizada por Hugh Jackman en el papel de Wolverine."
+      }
+    },
+    "runtimeMin": 137
+  },
+  {
+    "id": "iron-fist-2017",
+    "tmdbId": 62127,
+    "tmdbType": "tv",
+    "title": "Marvel's Iron Fist",
+    "kind": "series",
+    "releaseDate": "2017-03-17",
+    "imdbId": "tt3322310",
+    "posterPath": "/4l6KD9HhtD6nCDEfg10Lp6C6zah.jpg",
+    "overview": "Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Iron Fist",
+        "overview": "Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny."
+      },
+      "es": {
+        "title": "Marvel - Iron Fist",
+        "overview": "El multimillonario Danny Rand regresa a Nueva York, tras haber estado desaparecido durante años tratando de reconectar con su pasado y su legado familiar. Sus conocimientos de kung-fu y su puño de hierro permitirán que Rand vuelva para controlar el crimen de la ciudad."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13
+      },
+      {
+        "number": 2,
+        "episodes": 10
+      }
+    ],
+    "runtimeMin": 1252
   },
   {
     "id": "guardians-of-the-galaxy-vol-2-2017",
@@ -462,6 +1012,62 @@
     "runtimeMin": 133
   },
   {
+    "id": "the-defenders-2017",
+    "tmdbId": 62285,
+    "tmdbType": "tv",
+    "title": "Marvel's The Defenders",
+    "kind": "series",
+    "releaseDate": "2017-08-18",
+    "imdbId": "tt4230076",
+    "posterPath": "/49XzINhH4LFsgz7cx6TOPcHUJUL.jpg",
+    "overview": "Daredevil, Jessica Jones, Luke Cage and Iron Fist join forces to take on common enemies as a sinister conspiracy threatens New York City.",
+    "localized": {
+      "en": {
+        "title": "Marvel's The Defenders",
+        "overview": "Daredevil, Jessica Jones, Luke Cage and Iron Fist join forces to take on common enemies as a sinister conspiracy threatens New York City."
+      },
+      "es": {
+        "title": "Marvel - The Defenders",
+        "overview": "Una conspiración siniestra amenaza Nueva York, y Daredevil, Jessica Jones, Luke Cage y Iron Fist unen sus fuerzas para enfrentar a sus enemigos en común."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8
+      }
+    ],
+    "runtimeMin": 394
+  },
+  {
+    "id": "inhumans-2017",
+    "tmdbId": 68716,
+    "tmdbType": "tv",
+    "title": "Marvel's Inhumans",
+    "kind": "series",
+    "releaseDate": "2017-09-29",
+    "imdbId": "tt4154858",
+    "posterPath": "/zKfGip55oJ9tdzhyd9ayGyFFhuo.jpg",
+    "overview": "After the Royal Family of Inhumans is splintered by a military coup, they barely escape to Hawaii where their surprising interactions with the lush world and humanity around them may prove to not only save them, but Earth itself.",
+    "localized": {
+      "en": {
+        "title": "Marvel's Inhumans",
+        "overview": "After the Royal Family of Inhumans is splintered by a military coup, they barely escape to Hawaii where their surprising interactions with the lush world and humanity around them may prove to not only save them, but Earth itself."
+      },
+      "es": {
+        "title": "Inhumanos",
+        "overview": "Black Bolt es el rey de Attilan y su voz es tan poderosa que un simple susurro podría devastar una ciudad. Sin embargo, un golpe de estado lo obliga a escapar a Hawái con su esposa, su hermano y rival, sus primos y su cuñada."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8
+      }
+    ],
+    "runtimeMin": 336
+  },
+  {
     "id": "thor-ragnarok-2017",
     "tmdbId": 284053,
     "tmdbType": "movie",
@@ -482,6 +1088,38 @@
       }
     },
     "runtimeMin": 131
+  },
+  {
+    "id": "the-punisher-2017",
+    "tmdbId": 67178,
+    "tmdbType": "tv",
+    "title": "Marvel's The Punisher",
+    "kind": "series",
+    "releaseDate": "2017-11-17",
+    "imdbId": "tt5675620",
+    "posterPath": "/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
+    "overview": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy.",
+    "localized": {
+      "en": {
+        "title": "Marvel's The Punisher",
+        "overview": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy."
+      },
+      "es": {
+        "title": "Marvel - The Punisher",
+        "overview": "Un exmarine planea descargar toda su furia contra los criminales que mataron a su familia, pero el rastro del submundo también lleva a una oscura conspiración militar."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13
+      },
+      {
+        "number": 2,
+        "episodes": 13
+      }
+    ],
+    "runtimeMin": 1384
   },
   {
     "id": "black-panther-2018",
@@ -528,6 +1166,28 @@
     "runtimeMin": 149
   },
   {
+    "id": "deadpool-2-2018",
+    "tmdbId": 383498,
+    "tmdbType": "movie",
+    "title": "Deadpool 2",
+    "kind": "movie",
+    "releaseDate": "2018-05-15",
+    "imdbId": "tt5463162",
+    "posterPath": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+    "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+    "localized": {
+      "en": {
+        "title": "Deadpool 2",
+        "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life."
+      },
+      "es": {
+        "title": "Deadpool 2",
+        "overview": "El mercenario mutante malhablado Wade Wilson (alias Deadpool), reúne a un equipo de mutantes para proteger a un joven con habilidades sobrenaturales del brutal cyborg Cable, que viaja a través del tiempo."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
     "id": "ant-man-and-the-wasp-2018",
     "tmdbId": 363088,
     "tmdbType": "movie",
@@ -548,6 +1208,50 @@
       }
     },
     "runtimeMin": 119
+  },
+  {
+    "id": "venom-2018",
+    "tmdbId": 335983,
+    "tmdbType": "movie",
+    "title": "Venom",
+    "kind": "movie",
+    "releaseDate": "2018-09-28",
+    "imdbId": "tt1270797",
+    "posterPath": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+    "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+    "localized": {
+      "en": {
+        "title": "Venom",
+        "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own."
+      },
+      "es": {
+        "title": "Venom",
+        "overview": "Después de armar un escándalo, el periodista de investigación Eddie Brock intenta volver a la acción y recuperar su antigua vida. Pero accidentalmente se convierte en el anfitrión de Venom, un simbionte alienígena violento y superpoderoso."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "spider-man-into-the-spider-verse-2018",
+    "tmdbId": 324857,
+    "tmdbType": "movie",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "kind": "movie",
+    "releaseDate": "2018-12-06",
+    "imdbId": "tt4633694",
+    "posterPath": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "overview": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "overview": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension."
+      },
+      "es": {
+        "title": "Spider-Man: Un nuevo universo",
+        "overview": "En un universo paralelo donde Peter Parker ha muerto, un jóven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse."
+      }
+    },
+    "runtimeMin": 117
   },
   {
     "id": "captain-marvel-2019",
@@ -594,6 +1298,28 @@
     "runtimeMin": 181
   },
   {
+    "id": "dark-phoenix-2019",
+    "tmdbId": 320288,
+    "tmdbType": "movie",
+    "title": "Dark Phoenix",
+    "kind": "movie",
+    "releaseDate": "2019-06-05",
+    "imdbId": "tt6565702",
+    "posterPath": "/cCTJPelKGLhALq3r51A9uMonxKj.jpg",
+    "overview": "The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey's new abilities to rule the galaxy.",
+    "localized": {
+      "en": {
+        "title": "Dark Phoenix",
+        "overview": "The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey's new abilities to rule the galaxy."
+      },
+      "es": {
+        "title": "X-Men: Dark Phoenix",
+        "overview": "Jean Grey comienza a desarrollar increíbles poderes que la corrompen y la convierten en un Fénix Oscuro, haciendo que los X-Men decidan si su vida vale más que toda la humanidad."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
     "id": "spider-man-far-from-home-2019",
     "tmdbId": 429617,
     "tmdbType": "movie",
@@ -614,6 +1340,28 @@
       }
     },
     "runtimeMin": 129
+  },
+  {
+    "id": "the-new-mutants-2020",
+    "tmdbId": 340102,
+    "tmdbType": "movie",
+    "title": "The New Mutants",
+    "kind": "movie",
+    "releaseDate": "2020-08-26",
+    "imdbId": "tt4682266",
+    "posterPath": "/xiDGcXJTvu1lazFRYip6g1eLt9c.jpg",
+    "overview": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+    "localized": {
+      "en": {
+        "title": "The New Mutants",
+        "overview": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves."
+      },
+      "es": {
+        "title": "Los Nuevos Mutantes",
+        "overview": "Cinco jóvenes mutantes que acaban de descubrir sus habilidades, son encerrados en unas instalaciones secretas contra su voluntad y luchan por escapar de su pasado y salvarse a sí mismos ."
+      }
+    },
+    "runtimeMin": 94
   },
   {
     "id": "wandavision-2021",
@@ -784,6 +1532,28 @@
     "runtimeMin": 132
   },
   {
+    "id": "venom-let-there-be-carnage-2021",
+    "tmdbId": 580489,
+    "tmdbType": "movie",
+    "title": "Venom: Let There Be Carnage",
+    "kind": "movie",
+    "releaseDate": "2021-09-30",
+    "imdbId": "tt7097896",
+    "posterPath": "/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg",
+    "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+    "localized": {
+      "en": {
+        "title": "Venom: Let There Be Carnage",
+        "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady."
+      },
+      "es": {
+        "title": "Venom: Carnage Liberado",
+        "overview": "Eddie Brock y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
     "id": "eternals-2021",
     "tmdbId": 524434,
     "tmdbType": "movie",
@@ -882,6 +1652,28 @@
       }
     ],
     "runtimeMin": 302
+  },
+  {
+    "id": "morbius-2022",
+    "tmdbId": 526896,
+    "tmdbType": "movie",
+    "title": "Morbius",
+    "kind": "movie",
+    "releaseDate": "2022-03-30",
+    "imdbId": "tt5108870",
+    "posterPath": "/Av8Z2jZhEm1FLkFzMThzz9hndJF.jpg",
+    "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+    "localized": {
+      "en": {
+        "title": "Morbius",
+        "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease."
+      },
+      "es": {
+        "title": "Morbius",
+        "overview": "Gravemente enfermo con un trastorno sanguíneo poco común y decidido a salvar a otros que sufren de ese mismo destino, el Dr. Morbius hace una arriesgada apuesta. Si bien al principio, parece ser un éxito radical, una oscuridad dentro de él se desata. ¿El bien prevalecerá sobre el mal o Morbius sucumbirá a sus misteriosos nuevos impulsos?"
+      }
+    },
+    "runtimeMin": 105
   },
   {
     "id": "doctor-strange-in-the-multiverse-of-madness-2022",
@@ -1126,6 +1918,28 @@
     "runtimeMin": 150
   },
   {
+    "id": "spider-man-across-the-spider-verse-2023",
+    "tmdbId": 569094,
+    "tmdbType": "movie",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "kind": "movie",
+    "releaseDate": "2023-05-31",
+    "imdbId": "tt9362722",
+    "posterPath": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: Across the Spider-Verse",
+        "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most."
+      },
+      "es": {
+        "title": "Spider-Man: A través del Spider-Verso",
+        "overview": "Después de reunirse con Gwen Stacy, Miles Morales, el amigable Spider-Man del vecindario de tiempo completo de Brooklyn, es catapultado a través del Multiverso, donde se encuentra con un equipo de Spider-People encargado de proteger su existencia. Pero cuando los héroes chocan sobre cómo manejar una nueva amenaza, Miles se enfrenta a las otras arañas y debe redefinir lo que significa ser un héroe para poder salvar a las personas que más ama."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
     "id": "secret-invasion-2023",
     "tmdbId": 114472,
     "tmdbType": "tv",
@@ -1204,6 +2018,28 @@
     "runtimeMin": 213
   },
   {
+    "id": "madame-web-2024",
+    "tmdbId": 634492,
+    "tmdbType": "movie",
+    "title": "Madame Web",
+    "kind": "movie",
+    "releaseDate": "2024-02-14",
+    "imdbId": "tt11057302",
+    "posterPath": "/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+    "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+    "localized": {
+      "en": {
+        "title": "Madame Web",
+        "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present."
+      },
+      "es": {
+        "title": "Madame Web",
+        "overview": "Después de sobrevivir a un accidente, la paramédica Cassandra Webb comienza a desenvolver sus habilidades clarividentes. Obligada a enfrentar revelaciones sobre su pasado, forja una relación con tres mujeres jóvenes destinadas a futuros poderosos... si todas pueden sobrevivir a un presente mortal."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
     "id": "deadpool-and-wolverine-2024",
     "tmdbId": 533535,
     "tmdbType": "movie",
@@ -1252,6 +2088,50 @@
       }
     ],
     "runtimeMin": 379
+  },
+  {
+    "id": "venom-the-last-dance-2024",
+    "tmdbId": 912649,
+    "tmdbType": "movie",
+    "title": "Venom: The Last Dance",
+    "kind": "movie",
+    "releaseDate": "2024-10-22",
+    "imdbId": "tt16366836",
+    "posterPath": "/vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg",
+    "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+    "localized": {
+      "en": {
+        "title": "Venom: The Last Dance",
+        "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance."
+      },
+      "es": {
+        "title": "Venom: El último baile",
+        "overview": "Eddie y Venom están huyendo. Perseguidos por sus dos mundos, el dúo se ve obligado a tomar una decisión devastadora que bajará el telón en un último baile entre Venom y Eddie."
+      }
+    },
+    "runtimeMin": 109
+  },
+  {
+    "id": "kraven-the-hunter-2024",
+    "tmdbId": 539972,
+    "tmdbType": "movie",
+    "title": "Kraven the Hunter",
+    "kind": "movie",
+    "releaseDate": "2024-12-11",
+    "imdbId": "tt8790086",
+    "posterPath": "/1GvBhRxY6MELDfxFrete6BNhBB5.jpg",
+    "overview": "Kraven Kravinoff's complex relationship with his ruthless gangster father, Nikolai, starts him down a path of vengeance with brutal consequences, motivating him to become not only the greatest hunter in the world, but also one of its most feared.",
+    "localized": {
+      "en": {
+        "title": "Kraven the Hunter",
+        "overview": "Kraven Kravinoff's complex relationship with his ruthless gangster father, Nikolai, starts him down a path of vengeance with brutal consequences, motivating him to become not only the greatest hunter in the world, but also one of its most feared."
+      },
+      "es": {
+        "title": "Kraven el cazador",
+        "overview": "El inmigrante ruso Sergei Kravinoff está en una misión para demostrar que es el mejor cazador del mundo."
+      }
+    },
+    "runtimeMin": 127
   },
   {
     "id": "your-friendly-neighborhood-spider-man-2025",
@@ -1582,6 +2462,26 @@
       }
     },
     "runtimeMin": 165
+  },
+  {
+    "id": "spider-man-beyond-the-spider-verse-2027",
+    "tmdbId": 911916,
+    "tmdbType": "movie",
+    "title": "Spider-Man: Beyond the Spider-Verse",
+    "kind": "movie",
+    "releaseDate": "2027-06-17",
+    "imdbId": "tt16360004",
+    "posterPath": "/9KAe39xqyZnv9J4W3DRGdQqX82h.jpg",
+    "overview": "Hunted by Miguel O'Hara's Spider Society and betrayed by his friends, Miles finds himself in the darkest corners of the Spider-Verse in search of a way home. Knowing that his family has been not only fractured but endangered by his calling, it's a race against the clock for Miles to travel across the wildest reaches of time and space to fight for and reunite everything he holds most dear.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: Beyond the Spider-Verse",
+        "overview": "Hunted by Miguel O'Hara's Spider Society and betrayed by his friends, Miles finds himself in the darkest corners of the Spider-Verse in search of a way home. Knowing that his family has been not only fractured but endangered by his calling, it's a race against the clock for Miles to travel across the wildest reaches of time and space to fight for and reunite everything he holds most dear."
+      },
+      "es": {
+        "title": "Spider-Man: Más allá del Spider-verso"
+      }
+    }
   },
   {
     "id": "avengers-secret-wars-2027",

@@ -60,6 +60,31 @@ describe("validateCatalog", () => {
     expect(errors.join("\n")).toMatch(/falta la etiqueta del grupo "g3"/);
   });
 
+  it("detecta personajes y equipos sin definir en tags", () => {
+    const errors = withChange((c) => {
+      const f = c.franchises[0]!;
+      f.tags.characters.push({ id: "hero", name: "Hero" });
+      f.entries[0]!.characters = ["hero", "villain"];
+      f.entries[0]!.teams = ["team"];
+    });
+    expect(errors).toEqual([
+      expect.stringMatching(/el personaje "villain" no está en tags.characters/),
+      expect.stringMatching(/el equipo "team" no está en tags.teams/),
+    ]);
+  });
+
+  it("una ruta prep necesita objetivo y no puede contenerlo", () => {
+    const errors = withChange((c) => {
+      c.franchises[0]!.routes.push(
+        { id: "p1", name: "P", description: "", kind: "prep", titleIds: ["a-2001"] },
+        { id: "p2", name: "P", description: "", kind: "prep", targetTitleId: "a-2001", titleIds: ["a-2001", "a-2001"] },
+      );
+    });
+    expect(errors.join("\n")).toMatch(/"p1": una ruta "prep" necesita targetTitleId/);
+    expect(errors.join("\n")).toMatch(/"p2": tiene títulos repetidos/);
+    expect(errors.join("\n")).toMatch(/"p2": el título objetivo no va dentro/);
+  });
+
   it("el catálogo real es válido", () => {
     expect(catalog.franchises.length).toBeGreaterThan(0);
     expect(validateCatalog(catalog)).toEqual([]);

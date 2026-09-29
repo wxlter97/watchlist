@@ -1,3 +1,4 @@
+import { useCallback } from "react";
 import { create } from "zustand";
 
 // Progreso del perfil activo. La UI solo habla con este store; el backend decide dónde se
@@ -19,7 +20,10 @@ export interface ProgressDoc {
 export interface FranchiseStateDoc {
   lastOrderId?: string;
   customOrder?: string[];
+  /** Excepciones al hiddenByDefault del catálogo: visibles por defecto que el perfil ocultó… */
   hiddenContinuities?: string[];
+  /** …y ocultas por defecto que activó. */
+  shownContinuities?: string[];
   updatedAt: string;
 }
 
@@ -120,5 +124,5 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
 export function useIsWatched() {
   const progress = useProgressStore((s) => s.progress);
-  return (titleId: string) => progress[titleId]?.status === "watched";
+  return useCallback((titleId: string) => progress[titleId]?.status === "watched", [progress]);
 }

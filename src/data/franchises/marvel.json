@@ -30,9 +30,222 @@
         "es": "Historias animadas en universos alternos del MCU. Opcionales: no afectan la línea principal.",
         "en": "Animated stories set in alternate MCU universes. Optional: they don't affect the main timeline."
       }
+    },
+    {
+      "id": "marvel-netflix",
+      "name": {
+        "es": "Marvel en Netflix",
+        "en": "Marvel on Netflix"
+      },
+      "canonLevel": "semicanon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Las series de los Defensores. Se ubican en el MCU, pero su canon quedó en duda hasta que Daredevil: Born Again retomó a sus personajes.",
+        "en": "The Defenders series. Set in the MCU, but their canon status was unclear until Daredevil: Born Again picked their characters back up."
+      }
+    },
+    {
+      "id": "marvel-abc",
+      "name": {
+        "es": "Marvel en ABC",
+        "en": "Marvel on ABC"
+      },
+      "canonLevel": "semicanon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Agents of S.H.I.E.L.D., Agent Carter e Inhumans. Siguen a las películas en sus primeras temporadas; las películas nunca las mencionan.",
+        "en": "Agents of S.H.I.E.L.D., Agent Carter and Inhumans. They follow the films in early seasons; the films never mention them."
+      }
+    },
+    {
+      "id": "fox-xmen",
+      "name": {
+        "es": "X-Men de Fox · línea original",
+        "en": "Fox X-Men · original timeline"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "De First Class a Days of Future Past. Universo propio, fuera del MCU.",
+        "en": "From First Class to Days of Future Past. Its own universe, outside the MCU."
+      }
+    },
+    {
+      "id": "fox-xmen-revised",
+      "name": {
+        "es": "X-Men de Fox · línea alterada",
+        "en": "Fox X-Men · altered timeline"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "branchesFrom": {
+        "continuityId": "fox-xmen",
+        "afterTitleId": "x-men-days-of-future-past-2014"
+      },
+      "description": {
+        "es": "Days of Future Past reescribe la historia en 1973: Apocalypse, Deadpool y Logan ocurren en la línea alterada.",
+        "en": "Days of Future Past rewrites history in 1973: Apocalypse, Deadpool and Logan happen in the altered timeline."
+      }
+    },
+    {
+      "id": "raimi-spider-man",
+      "name": {
+        "es": "Spider-Man de Sam Raimi",
+        "en": "Sam Raimi's Spider-Man"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "La trilogía con Tobey Maguire. Su Peter vuelve en No Way Home.",
+        "en": "The Tobey Maguire trilogy. His Peter returns in No Way Home."
+      }
+    },
+    {
+      "id": "webb-spider-man",
+      "name": {
+        "es": "The Amazing Spider-Man",
+        "en": "The Amazing Spider-Man"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Las dos películas con Andrew Garfield. Su Peter vuelve en No Way Home.",
+        "en": "The two Andrew Garfield films. His Peter returns in No Way Home."
+      }
+    },
+    {
+      "id": "sony-spider-man-universe",
+      "name": {
+        "es": "Universo Spider-Man de Sony",
+        "en": "Sony's Spider-Man Universe"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Venom y otros personajes del mundo de Spider-Man, sin Spider-Man. Roza el MCU en escenas post-créditos.",
+        "en": "Venom and other Spider-Man characters, without Spider-Man. Brushes the MCU in post-credit scenes."
+      }
+    },
+    {
+      "id": "spider-verse-animated",
+      "name": {
+        "es": "Spider-Verse (animado)",
+        "en": "Spider-Verse (animated)"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "La saga animada de Miles Morales. Independiente de todo lo demás.",
+        "en": "Miles Morales' animated saga. Independent from everything else."
+      }
     }
   ],
   "entries": [
+    {
+      "titleId": "x-men-2000",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 30,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "Años 2000",
+        "en": "2000s"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "spider-man-2002",
+      "continuityId": "raimi-spider-man",
+      "group": "raimi",
+      "chronoOrder": 10,
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "x2-2003",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 40,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "Años 2000",
+        "en": "2000s"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "spider-man-2-2004",
+      "continuityId": "raimi-spider-man",
+      "group": "raimi",
+      "chronoOrder": 20,
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "x-men-the-last-stand-2006",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 50,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Años 2000",
+        "en": "2000s"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "spider-man-3-2007",
+      "continuityId": "raimi-spider-man",
+      "group": "raimi",
+      "chronoOrder": 30,
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
     {
       "titleId": "iron-man-2008",
       "continuityId": "mcu",
@@ -46,7 +259,13 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "iron-man"
+      ],
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "the-incredible-hulk-2008",
@@ -61,7 +280,32 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "characters": [
+        "hulk"
+      ]
+    },
+    {
+      "titleId": "x-men-origins-wolverine-2009",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 20,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "1845–1979",
+        "en": "1845–1979"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "wolverine",
+        "deadpool"
+      ],
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "iron-man-2-2010",
@@ -76,7 +320,15 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "iron-man",
+        "black-widow",
+        "nick-fury"
+      ],
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "thor-2011",
@@ -91,7 +343,36 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "thor",
+        "loki",
+        "hawkeye"
+      ],
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "x-men-first-class-2011",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 10,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "1962",
+        "en": "1962"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "captain-america-the-first-avenger-2011",
@@ -106,7 +387,12 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "captain-america",
+        "winter-soldier",
+        "nick-fury"
+      ]
     },
     {
       "titleId": "marvel-one-shot-the-consultant-2011",
@@ -117,7 +403,10 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "marvel-one-shot-a-funny-thing-happened-on-the-way-to-thors-hammer-2011",
@@ -128,7 +417,10 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "the-avengers-2012",
@@ -143,7 +435,35 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "iron-man",
+        "captain-america",
+        "thor",
+        "hulk",
+        "black-widow",
+        "hawkeye",
+        "loki",
+        "nick-fury"
+      ],
+      "teams": [
+        "avengers",
+        "shield"
+      ]
+    },
+    {
+      "titleId": "the-amazing-spider-man-2012",
+      "continuityId": "webb-spider-man",
+      "group": "webb",
+      "chronoOrder": 10,
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "spider-man"
+      ]
     },
     {
       "titleId": "marvel-one-shot-item-47-2012",
@@ -154,7 +474,10 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "iron-man-3-2013",
@@ -169,7 +492,45 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "iron-man"
+      ]
+    },
+    {
+      "titleId": "the-wolverine-2013",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 60,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Tras The Last Stand",
+        "en": "After The Last Stand"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "wolverine"
+      ]
+    },
+    {
+      "titleId": "agents-of-shield-2013",
+      "continuityId": "marvel-abc",
+      "group": "abc",
+      "chronoOrder": 20,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2013 en adelante",
+        "en": "2013 onward"
+      },
+      "characters": [
+        "nick-fury"
+      ],
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "marvel-one-shot-agent-carter-2013",
@@ -184,7 +545,10 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "thor-the-dark-world-2013",
@@ -199,7 +563,11 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "thor",
+        "loki"
+      ]
     },
     {
       "titleId": "marvel-one-shot-all-hail-the-king-2014",
@@ -225,7 +593,51 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "captain-america",
+        "black-widow",
+        "nick-fury",
+        "winter-soldier"
+      ],
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "the-amazing-spider-man-2-2014",
+      "continuityId": "webb-spider-man",
+      "group": "webb",
+      "chronoOrder": 20,
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "spider-man"
+      ]
+    },
+    {
+      "titleId": "x-men-days-of-future-past-2014",
+      "continuityId": "fox-xmen",
+      "group": "fox-x-men",
+      "chronoOrder": 70,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "1973 y 2023",
+        "en": "1973 and 2023"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "guardians-of-the-galaxy-2014",
@@ -240,7 +652,45 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "star-lord"
+      ],
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
+    },
+    {
+      "titleId": "marvels-agent-carter-2015",
+      "continuityId": "marvel-abc",
+      "group": "abc",
+      "chronoOrder": 10,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "1946–1947",
+        "en": "1946–1947"
+      },
+      "teams": [
+        "shield"
+      ]
+    },
+    {
+      "titleId": "daredevil-2015",
+      "continuityId": "marvel-netflix",
+      "group": "netflix",
+      "chronoOrder": 10,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2015–2018",
+        "en": "2015–2018"
+      },
+      "characters": [
+        "daredevil",
+        "punisher"
+      ],
+      "teams": [
+        "defenders"
+      ]
     },
     {
       "titleId": "avengers-age-of-ultron-2015",
@@ -255,7 +705,20 @@
       "postCredits": {
         "mid": 1,
         "end": 0
-      }
+      },
+      "characters": [
+        "iron-man",
+        "captain-america",
+        "thor",
+        "hulk",
+        "black-widow",
+        "hawkeye",
+        "scarlet-witch",
+        "nick-fury"
+      ],
+      "teams": [
+        "avengers"
+      ]
     },
     {
       "titleId": "ant-man-2015",
@@ -270,7 +733,45 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "ant-man"
+      ]
+    },
+    {
+      "titleId": "jessica-jones-2015",
+      "continuityId": "marvel-netflix",
+      "group": "netflix",
+      "chronoOrder": 20,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2015–2019",
+        "en": "2015–2019"
+      },
+      "teams": [
+        "defenders"
+      ]
+    },
+    {
+      "titleId": "deadpool-2016",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 40,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "deadpool"
+      ],
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "captain-america-civil-war-2016",
@@ -285,7 +786,56 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "captain-america",
+        "iron-man",
+        "black-widow",
+        "hawkeye",
+        "spider-man",
+        "black-panther",
+        "ant-man",
+        "scarlet-witch",
+        "winter-soldier"
+      ],
+      "teams": [
+        "avengers"
+      ]
+    },
+    {
+      "titleId": "x-men-apocalypse-2016",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 10,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "1983",
+        "en": "1983"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "luke-cage-2016",
+      "continuityId": "marvel-netflix",
+      "group": "netflix",
+      "chronoOrder": 30,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2016–2018",
+        "en": "2016–2018"
+      },
+      "teams": [
+        "defenders"
+      ]
     },
     {
       "titleId": "doctor-strange-2016",
@@ -300,7 +850,45 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "doctor-strange"
+      ]
+    },
+    {
+      "titleId": "logan-2017",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 60,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2029",
+        "en": "2029"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "iron-fist-2017",
+      "continuityId": "marvel-netflix",
+      "group": "netflix",
+      "chronoOrder": 40,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "2016–2018",
+        "en": "2016–2018"
+      },
+      "teams": [
+        "defenders"
+      ]
     },
     {
       "titleId": "guardians-of-the-galaxy-vol-2-2017",
@@ -315,7 +903,13 @@
       "postCredits": {
         "mid": 4,
         "end": 1
-      }
+      },
+      "characters": [
+        "star-lord"
+      ],
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
     },
     {
       "titleId": "spider-man-homecoming-2017",
@@ -330,6 +924,38 @@
       "postCredits": {
         "mid": 1,
         "end": 1
+      },
+      "characters": [
+        "spider-man",
+        "iron-man"
+      ]
+    },
+    {
+      "titleId": "the-defenders-2017",
+      "continuityId": "marvel-netflix",
+      "group": "netflix",
+      "chronoOrder": 50,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "characters": [
+        "daredevil"
+      ],
+      "teams": [
+        "defenders"
+      ]
+    },
+    {
+      "titleId": "inhumans-2017",
+      "continuityId": "marvel-abc",
+      "group": "abc",
+      "chronoOrder": 30,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "2017",
+        "en": "2017"
       }
     },
     {
@@ -345,7 +971,26 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "thor",
+        "hulk",
+        "loki"
+      ]
+    },
+    {
+      "titleId": "the-punisher-2017",
+      "continuityId": "marvel-netflix",
+      "group": "netflix",
+      "chronoOrder": 60,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2016–2019",
+        "en": "2016–2019"
+      },
+      "characters": [
+        "punisher"
+      ]
     },
     {
       "titleId": "black-panther-2018",
@@ -360,7 +1005,10 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "black-panther"
+      ]
     },
     {
       "titleId": "avengers-infinity-war-2018",
@@ -375,7 +1023,46 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "iron-man",
+        "captain-america",
+        "thor",
+        "hulk",
+        "black-widow",
+        "spider-man",
+        "doctor-strange",
+        "black-panther",
+        "scarlet-witch",
+        "loki",
+        "star-lord",
+        "winter-soldier"
+      ],
+      "teams": [
+        "avengers",
+        "guardians-of-the-galaxy"
+      ]
+    },
+    {
+      "titleId": "deadpool-2-2018",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 50,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "deadpool"
+      ],
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "ant-man-and-the-wasp-2018",
@@ -390,7 +1077,38 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "ant-man"
+      ]
+    },
+    {
+      "titleId": "venom-2018",
+      "continuityId": "sony-spider-man-universe",
+      "group": "ssu",
+      "chronoOrder": 20,
+      "importance": "optional",
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "venom"
+      ]
+    },
+    {
+      "titleId": "spider-man-into-the-spider-verse-2018",
+      "continuityId": "spider-verse-animated",
+      "group": "spider-verse",
+      "chronoOrder": 10,
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      },
+      "characters": [
+        "spider-man"
+      ]
     },
     {
       "titleId": "captain-marvel-2019",
@@ -405,7 +1123,14 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "captain-marvel",
+        "nick-fury"
+      ],
+      "teams": [
+        "shield"
+      ]
     },
     {
       "titleId": "avengers-endgame-2019",
@@ -420,7 +1145,46 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "characters": [
+        "iron-man",
+        "captain-america",
+        "thor",
+        "hulk",
+        "black-widow",
+        "hawkeye",
+        "spider-man",
+        "doctor-strange",
+        "black-panther",
+        "captain-marvel",
+        "ant-man",
+        "scarlet-witch",
+        "loki",
+        "star-lord",
+        "winter-soldier"
+      ],
+      "teams": [
+        "avengers",
+        "guardians-of-the-galaxy"
+      ]
+    },
+    {
+      "titleId": "dark-phoenix-2019",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 20,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "1992",
+        "en": "1992"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "teams": [
+        "x-men"
+      ]
     },
     {
       "titleId": "spider-man-far-from-home-2019",
@@ -435,6 +1199,25 @@
       "postCredits": {
         "mid": 1,
         "end": 1
+      },
+      "characters": [
+        "spider-man",
+        "nick-fury"
+      ]
+    },
+    {
+      "titleId": "the-new-mutants-2020",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 30,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Fecha incierta",
+        "en": "Unclear date"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
       }
     },
     {
@@ -446,7 +1229,10 @@
       "chronoNote": {
         "es": "2023",
         "en": "2023"
-      }
+      },
+      "characters": [
+        "scarlet-witch"
+      ]
     },
     {
       "titleId": "the-falcon-and-the-winter-soldier-2021",
@@ -457,7 +1243,11 @@
       "chronoNote": {
         "es": "2024",
         "en": "2024"
-      }
+      },
+      "characters": [
+        "captain-america",
+        "winter-soldier"
+      ]
     },
     {
       "titleId": "loki-2021",
@@ -468,7 +1258,10 @@
       "chronoNote": {
         "es": "Fuera del tiempo, tras 2012",
         "en": "Outside of time, after 2012"
-      }
+      },
+      "characters": [
+        "loki"
+      ]
     },
     {
       "titleId": "black-widow-2021",
@@ -483,7 +1276,10 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "black-widow"
+      ]
     },
     {
       "titleId": "what-if-2021",
@@ -512,6 +1308,20 @@
       }
     },
     {
+      "titleId": "venom-let-there-be-carnage-2021",
+      "continuityId": "sony-spider-man-universe",
+      "group": "ssu",
+      "chronoOrder": 30,
+      "importance": "optional",
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      },
+      "characters": [
+        "venom"
+      ]
+    },
+    {
       "titleId": "eternals-2021",
       "continuityId": "mcu",
       "group": "phase-4",
@@ -535,7 +1345,10 @@
       "chronoNote": {
         "es": "Navidad de 2024",
         "en": "Christmas 2024"
-      }
+      },
+      "characters": [
+        "hawkeye"
+      ]
     },
     {
       "titleId": "spider-man-no-way-home-2021",
@@ -550,7 +1363,12 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "spider-man",
+        "doctor-strange",
+        "daredevil"
+      ]
     },
     {
       "titleId": "moon-knight-2022",
@@ -561,6 +1379,17 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
+      }
+    },
+    {
+      "titleId": "morbius-2022",
+      "continuityId": "sony-spider-man-universe",
+      "group": "ssu",
+      "chronoOrder": 40,
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 2,
+        "end": 0
       }
     },
     {
@@ -576,7 +1405,11 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "doctor-strange",
+        "scarlet-witch"
+      ]
     },
     {
       "titleId": "ms-marvel-2022",
@@ -602,7 +1435,14 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "thor",
+        "star-lord"
+      ],
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
     },
     {
       "titleId": "i-am-groot-2022",
@@ -613,7 +1453,10 @@
       "chronoNote": {
         "es": "Tras Vol. 2",
         "en": "After Vol. 2"
-      }
+      },
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
     },
     {
       "titleId": "she-hulk-attorney-at-law-2022",
@@ -624,7 +1467,11 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
-      }
+      },
+      "characters": [
+        "hulk",
+        "daredevil"
+      ]
     },
     {
       "titleId": "werewolf-by-night-2022",
@@ -650,7 +1497,10 @@
       "postCredits": {
         "mid": 1,
         "end": 0
-      }
+      },
+      "characters": [
+        "black-panther"
+      ]
     },
     {
       "titleId": "the-guardians-of-the-galaxy-holiday-special-2022",
@@ -665,7 +1515,13 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "characters": [
+        "star-lord"
+      ],
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
     },
     {
       "titleId": "ant-man-and-the-wasp-quantumania-2023",
@@ -680,7 +1536,10 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "ant-man"
+      ]
     },
     {
       "titleId": "guardians-of-the-galaxy-vol-3-2023",
@@ -695,7 +1554,27 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "star-lord"
+      ],
+      "teams": [
+        "guardians-of-the-galaxy"
+      ]
+    },
+    {
+      "titleId": "spider-man-across-the-spider-verse-2023",
+      "continuityId": "spider-verse-animated",
+      "group": "spider-verse",
+      "chronoOrder": 20,
+      "importance": "recommended",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      },
+      "characters": [
+        "spider-man"
+      ]
     },
     {
       "titleId": "secret-invasion-2023",
@@ -706,7 +1585,10 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
-      }
+      },
+      "characters": [
+        "nick-fury"
+      ]
     },
     {
       "titleId": "the-marvels-2023",
@@ -721,7 +1603,11 @@
       "postCredits": {
         "mid": 1,
         "end": 0
-      }
+      },
+      "characters": [
+        "captain-marvel",
+        "nick-fury"
+      ]
     },
     {
       "titleId": "echo-2024",
@@ -732,6 +1618,24 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
+      },
+      "characters": [
+        "daredevil"
+      ]
+    },
+    {
+      "titleId": "madame-web-2024",
+      "continuityId": "sony-spider-man-universe",
+      "group": "ssu",
+      "chronoOrder": 10,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "2003",
+        "en": "2003"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
       }
     },
     {
@@ -747,7 +1651,11 @@
       "postCredits": {
         "mid": 0,
         "end": 1
-      }
+      },
+      "characters": [
+        "deadpool",
+        "wolverine"
+      ]
     },
     {
       "titleId": "agatha-all-along-2024",
@@ -761,6 +1669,35 @@
       }
     },
     {
+      "titleId": "venom-the-last-dance-2024",
+      "continuityId": "sony-spider-man-universe",
+      "group": "ssu",
+      "chronoOrder": 50,
+      "importance": "optional",
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      },
+      "characters": [
+        "venom"
+      ]
+    },
+    {
+      "titleId": "kraven-the-hunter-2024",
+      "continuityId": "sony-spider-man-universe",
+      "group": "ssu",
+      "chronoOrder": 60,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Fecha incierta",
+        "en": "Unclear date"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
       "titleId": "your-friendly-neighborhood-spider-man-2025",
       "continuityId": "mcu-multiverse",
       "group": "phase-5",
@@ -769,7 +1706,10 @@
       "chronoNote": {
         "es": "Universo alterno",
         "en": "Alternate universe"
-      }
+      },
+      "characters": [
+        "spider-man"
+      ]
     },
     {
       "titleId": "captain-america-brave-new-world-2025",
@@ -784,7 +1724,10 @@
       "postCredits": {
         "mid": 1,
         "end": 0
-      }
+      },
+      "characters": [
+        "captain-america"
+      ]
     },
     {
       "titleId": "daredevil-born-again-2025",
@@ -795,7 +1738,11 @@
       "chronoNote": {
         "es": "2026",
         "en": "2026"
-      }
+      },
+      "characters": [
+        "daredevil",
+        "punisher"
+      ]
     },
     {
       "titleId": "thunderbolts-2025",
@@ -810,7 +1757,13 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "winter-soldier"
+      ],
+      "teams": [
+        "thunderbolts"
+      ]
     },
     {
       "titleId": "ironheart-2025",
@@ -836,7 +1789,10 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "teams": [
+        "fantastic-four"
+      ]
     },
     {
       "titleId": "eyes-of-wakanda-2025",
@@ -847,7 +1803,10 @@
       "chronoNote": {
         "es": "Historia de Wakanda, siglos atrás",
         "en": "Wakandan history, centuries ago"
-      }
+      },
+      "characters": [
+        "black-panther"
+      ]
     },
     {
       "titleId": "marvel-zombies-2025",
@@ -876,14 +1835,22 @@
       "postCredits": {
         "mid": 0,
         "end": 0
-      }
+      },
+      "characters": [
+        "punisher"
+      ]
     },
     {
       "titleId": "spider-man-brand-new-day-2026",
       "continuityId": "mcu",
       "group": "phase-6",
       "chronoOrder": 590,
-      "importance": "essential"
+      "importance": "essential",
+      "characters": [
+        "spider-man",
+        "punisher",
+        "hulk"
+      ]
     },
     {
       "titleId": "visionquest-2026",
@@ -897,14 +1864,37 @@
       "continuityId": "mcu",
       "group": "phase-6",
       "chronoOrder": 620,
-      "importance": "essential"
+      "importance": "essential",
+      "characters": [
+        "thor",
+        "loki"
+      ],
+      "teams": [
+        "avengers",
+        "x-men",
+        "fantastic-four",
+        "thunderbolts"
+      ]
+    },
+    {
+      "titleId": "spider-man-beyond-the-spider-verse-2027",
+      "continuityId": "spider-verse-animated",
+      "group": "spider-verse",
+      "chronoOrder": 30,
+      "importance": "recommended",
+      "characters": [
+        "spider-man"
+      ]
     },
     {
       "titleId": "avengers-secret-wars-2027",
       "continuityId": "mcu",
       "group": "phase-6",
       "chronoOrder": 630,
-      "importance": "essential"
+      "importance": "essential",
+      "teams": [
+        "avengers"
+      ]
     }
   ],
   "orders": [
@@ -940,8 +1930,8 @@
         "en": "By phase"
       },
       "description": {
-        "es": "Por estreno, agrupado en las fases de Marvel Studios.",
-        "en": "By release, grouped into Marvel Studios phases."
+        "es": "Por estreno, agrupado en las fases de Marvel Studios y, fuera del MCU, por saga.",
+        "en": "By release, grouped into Marvel Studios phases and, outside the MCU, by saga."
       },
       "groupLabels": {
         "phase-1": {
@@ -967,13 +1957,540 @@
         "phase-6": {
           "es": "Fase 6",
           "en": "Phase 6"
+        },
+        "netflix": {
+          "es": "Marvel en Netflix",
+          "en": "Marvel on Netflix"
+        },
+        "abc": {
+          "es": "Marvel en ABC",
+          "en": "Marvel on ABC"
+        },
+        "fox-x-men": {
+          "es": "X-Men de Fox",
+          "en": "Fox X-Men"
+        },
+        "raimi": {
+          "es": "Spider-Man de Raimi",
+          "en": "Raimi's Spider-Man"
+        },
+        "webb": {
+          "es": "The Amazing Spider-Man",
+          "en": "The Amazing Spider-Man"
+        },
+        "ssu": {
+          "es": "Universo Spider-Man de Sony",
+          "en": "Sony's Spider-Man Universe"
+        },
+        "spider-verse": {
+          "es": "Spider-Verse animado",
+          "en": "Animated Spider-Verse"
         }
       }
+    },
+    {
+      "id": "essential",
+      "type": "curated",
+      "name": {
+        "es": "Ruta esencial",
+        "en": "Essential path"
+      },
+      "description": {
+        "es": "Lo mínimo para seguir la historia principal del MCU, sin desvíos. Para quien empieza tarde o quiere ponerse al día rápido.",
+        "en": "The minimum to follow the MCU's main story, no detours. For late starters or a quick catch-up."
+      },
+      "titleIds": [
+        "iron-man-2008",
+        "captain-america-the-first-avenger-2011",
+        "the-avengers-2012",
+        "captain-america-the-winter-soldier-2014",
+        "guardians-of-the-galaxy-2014",
+        "avengers-age-of-ultron-2015",
+        "captain-america-civil-war-2016",
+        "doctor-strange-2016",
+        "thor-ragnarok-2017",
+        "black-panther-2018",
+        "avengers-infinity-war-2018",
+        "captain-marvel-2019",
+        "avengers-endgame-2019",
+        "loki-2021",
+        "spider-man-no-way-home-2021",
+        "doctor-strange-in-the-multiverse-of-madness-2022",
+        "deadpool-and-wolverine-2024",
+        "thunderbolts-2025",
+        "the-fantastic-4-first-steps-2025",
+        "spider-man-brand-new-day-2026",
+        "avengers-doomsday-2026",
+        "avengers-secret-wars-2027"
+      ]
     }
   ],
-  "routes": [],
+  "routes": [
+    {
+      "id": "prep-avengers-doomsday-2026",
+      "name": {
+        "es": "Prepárate para Avengers: Doomsday",
+        "en": "Get ready for Avengers: Doomsday"
+      },
+      "description": {
+        "es": "Lo que conviene tener fresco antes del regreso de los Vengadores: el final de la Saga del Infinito, el multiverso y los equipos nuevos.",
+        "en": "What to have fresh before the Avengers return: the end of the Infinity Saga, the multiverse and the new teams."
+      },
+      "kind": "prep",
+      "targetTitleId": "avengers-doomsday-2026",
+      "titleIds": [
+        "avengers-endgame-2019",
+        "loki-2021",
+        "deadpool-and-wolverine-2024",
+        "thunderbolts-2025",
+        "the-fantastic-4-first-steps-2025"
+      ]
+    },
+    {
+      "id": "prep-spider-man-brand-new-day-2026",
+      "name": {
+        "es": "Prepárate para Spider-Man: Brand New Day",
+        "en": "Get ready for Spider-Man: Brand New Day"
+      },
+      "description": {
+        "es": "La trilogía de Holland y la historia reciente de Punisher.",
+        "en": "The Holland trilogy and Punisher's recent story."
+      },
+      "kind": "prep",
+      "targetTitleId": "spider-man-brand-new-day-2026",
+      "titleIds": [
+        "spider-man-homecoming-2017",
+        "spider-man-far-from-home-2019",
+        "spider-man-no-way-home-2021",
+        "the-punisher-one-last-kill-2026"
+      ]
+    },
+    {
+      "id": "prep-daredevil-born-again-2025",
+      "name": {
+        "es": "Prepárate para Daredevil: Born Again",
+        "en": "Get ready for Daredevil: Born Again"
+      },
+      "description": {
+        "es": "Born Again continúa la serie de Netflix. Esto es lo que retoma.",
+        "en": "Born Again continues the Netflix series. This is what it picks up."
+      },
+      "kind": "prep",
+      "targetTitleId": "daredevil-born-again-2025",
+      "titleIds": [
+        "daredevil-2015",
+        "the-defenders-2017",
+        "the-punisher-2017",
+        "spider-man-no-way-home-2021",
+        "she-hulk-attorney-at-law-2022",
+        "echo-2024"
+      ]
+    },
+    {
+      "id": "prep-deadpool-and-wolverine-2024",
+      "name": {
+        "es": "Prepárate para Deadpool & Wolverine",
+        "en": "Get ready for Deadpool & Wolverine"
+      },
+      "description": {
+        "es": "El Deadpool de Fox, el final de Logan y la TVA de Loki.",
+        "en": "Fox's Deadpool, Logan's ending and Loki's TVA."
+      },
+      "kind": "prep",
+      "targetTitleId": "deadpool-and-wolverine-2024",
+      "titleIds": [
+        "deadpool-2016",
+        "deadpool-2-2018",
+        "logan-2017",
+        "loki-2021"
+      ]
+    },
+    {
+      "id": "prep-thunderbolts-2025",
+      "name": {
+        "es": "Prepárate para Thunderbolts*",
+        "en": "Get ready for Thunderbolts*"
+      },
+      "description": {
+        "es": "De dónde viene cada integrante del equipo.",
+        "en": "Where each team member comes from."
+      },
+      "kind": "prep",
+      "targetTitleId": "thunderbolts-2025",
+      "titleIds": [
+        "ant-man-and-the-wasp-2018",
+        "black-widow-2021",
+        "the-falcon-and-the-winter-soldier-2021",
+        "hawkeye-2021",
+        "black-panther-wakanda-forever-2022",
+        "captain-america-brave-new-world-2025"
+      ]
+    },
+    {
+      "id": "spider-man",
+      "name": {
+        "es": "Spider-Man en todas sus eras",
+        "en": "Spider-Man across every era"
+      },
+      "description": {
+        "es": "Raimi, Webb, Holland y el Spider-Verse, en orden de estreno. No Way Home junta tres eras.",
+        "en": "Raimi, Webb, Holland and the Spider-Verse, in release order. No Way Home brings three eras together."
+      },
+      "kind": "character",
+      "titleIds": [
+        "spider-man-2002",
+        "spider-man-2-2004",
+        "spider-man-3-2007",
+        "the-amazing-spider-man-2012",
+        "the-amazing-spider-man-2-2014",
+        "captain-america-civil-war-2016",
+        "spider-man-homecoming-2017",
+        "avengers-infinity-war-2018",
+        "spider-man-into-the-spider-verse-2018",
+        "avengers-endgame-2019",
+        "spider-man-far-from-home-2019",
+        "spider-man-no-way-home-2021",
+        "spider-man-across-the-spider-verse-2023",
+        "spider-man-brand-new-day-2026",
+        "spider-man-beyond-the-spider-verse-2027"
+      ]
+    },
+    {
+      "id": "wolverine",
+      "name": {
+        "es": "Wolverine",
+        "en": "Wolverine"
+      },
+      "description": {
+        "es": "Diecisiete años de Hugh Jackman, de X-Men a Deadpool & Wolverine.",
+        "en": "Seventeen years of Hugh Jackman, from X-Men to Deadpool & Wolverine."
+      },
+      "kind": "character",
+      "titleIds": [
+        "x-men-2000",
+        "x2-2003",
+        "x-men-the-last-stand-2006",
+        "x-men-origins-wolverine-2009",
+        "the-wolverine-2013",
+        "x-men-days-of-future-past-2014",
+        "logan-2017",
+        "deadpool-and-wolverine-2024"
+      ]
+    },
+    {
+      "id": "iron-man",
+      "name": {
+        "es": "Iron Man",
+        "en": "Iron Man"
+      },
+      "description": {
+        "es": "El arco completo de Tony Stark.",
+        "en": "Tony Stark's full arc."
+      },
+      "kind": "character",
+      "titleIds": [
+        "iron-man-2008",
+        "iron-man-2-2010",
+        "the-avengers-2012",
+        "iron-man-3-2013",
+        "avengers-age-of-ultron-2015",
+        "captain-america-civil-war-2016",
+        "spider-man-homecoming-2017",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019"
+      ]
+    },
+    {
+      "id": "captain-america",
+      "name": {
+        "es": "Capitán América",
+        "en": "Captain America"
+      },
+      "description": {
+        "es": "De Steve Rogers a Sam Wilson.",
+        "en": "From Steve Rogers to Sam Wilson."
+      },
+      "kind": "character",
+      "titleIds": [
+        "captain-america-the-first-avenger-2011",
+        "the-avengers-2012",
+        "captain-america-the-winter-soldier-2014",
+        "avengers-age-of-ultron-2015",
+        "captain-america-civil-war-2016",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "the-falcon-and-the-winter-soldier-2021",
+        "captain-america-brave-new-world-2025"
+      ]
+    },
+    {
+      "id": "daredevil",
+      "name": {
+        "es": "Daredevil",
+        "en": "Daredevil"
+      },
+      "description": {
+        "es": "Matt Murdock de Netflix a Disney+.",
+        "en": "Matt Murdock from Netflix to Disney+."
+      },
+      "kind": "character",
+      "titleIds": [
+        "daredevil-2015",
+        "the-defenders-2017",
+        "spider-man-no-way-home-2021",
+        "she-hulk-attorney-at-law-2022",
+        "echo-2024",
+        "daredevil-born-again-2025"
+      ]
+    },
+    {
+      "id": "street-level",
+      "name": {
+        "es": "Héroes de barrio",
+        "en": "Street-level heroes"
+      },
+      "description": {
+        "es": "Lo más terrenal de Marvel: crimen, Nueva York y nada de naves espaciales.",
+        "en": "Marvel at its most grounded: crime, New York and no spaceships."
+      },
+      "kind": "theme",
+      "titleIds": [
+        "daredevil-2015",
+        "jessica-jones-2015",
+        "luke-cage-2016",
+        "iron-fist-2017",
+        "the-defenders-2017",
+        "the-punisher-2017",
+        "hawkeye-2021",
+        "echo-2024",
+        "daredevil-born-again-2025",
+        "the-punisher-one-last-kill-2026"
+      ]
+    },
+    {
+      "id": "multiverse",
+      "name": {
+        "es": "El multiverso, paso a paso",
+        "en": "The multiverse, step by step"
+      },
+      "description": {
+        "es": "Las piezas que arman la Saga del Multiverso, en orden.",
+        "en": "The pieces that build the Multiverse Saga, in order."
+      },
+      "kind": "theme",
+      "titleIds": [
+        "loki-2021",
+        "what-if-2021",
+        "spider-man-no-way-home-2021",
+        "doctor-strange-in-the-multiverse-of-madness-2022",
+        "ant-man-and-the-wasp-quantumania-2023",
+        "deadpool-and-wolverine-2024",
+        "the-fantastic-4-first-steps-2025",
+        "avengers-doomsday-2026",
+        "avengers-secret-wars-2027"
+      ]
+    }
+  ],
   "tags": {
-    "characters": [],
-    "teams": []
+    "characters": [
+      {
+        "id": "iron-man",
+        "name": {
+          "es": "Iron Man",
+          "en": "Iron Man"
+        }
+      },
+      {
+        "id": "captain-america",
+        "name": {
+          "es": "Capitán América",
+          "en": "Captain America"
+        }
+      },
+      {
+        "id": "thor",
+        "name": {
+          "es": "Thor",
+          "en": "Thor"
+        }
+      },
+      {
+        "id": "hulk",
+        "name": {
+          "es": "Hulk",
+          "en": "Hulk"
+        }
+      },
+      {
+        "id": "black-widow",
+        "name": {
+          "es": "Viuda Negra",
+          "en": "Black Widow"
+        }
+      },
+      {
+        "id": "hawkeye",
+        "name": {
+          "es": "Ojo de Halcón",
+          "en": "Hawkeye"
+        }
+      },
+      {
+        "id": "spider-man",
+        "name": {
+          "es": "Spider-Man",
+          "en": "Spider-Man"
+        }
+      },
+      {
+        "id": "doctor-strange",
+        "name": {
+          "es": "Doctor Strange",
+          "en": "Doctor Strange"
+        }
+      },
+      {
+        "id": "black-panther",
+        "name": {
+          "es": "Pantera Negra",
+          "en": "Black Panther"
+        }
+      },
+      {
+        "id": "captain-marvel",
+        "name": {
+          "es": "Capitana Marvel",
+          "en": "Captain Marvel"
+        }
+      },
+      {
+        "id": "ant-man",
+        "name": {
+          "es": "Ant-Man",
+          "en": "Ant-Man"
+        }
+      },
+      {
+        "id": "scarlet-witch",
+        "name": {
+          "es": "Bruja Escarlata",
+          "en": "Scarlet Witch"
+        }
+      },
+      {
+        "id": "loki",
+        "name": {
+          "es": "Loki",
+          "en": "Loki"
+        }
+      },
+      {
+        "id": "star-lord",
+        "name": {
+          "es": "Star-Lord",
+          "en": "Star-Lord"
+        }
+      },
+      {
+        "id": "winter-soldier",
+        "name": {
+          "es": "Soldado del Invierno",
+          "en": "Winter Soldier"
+        }
+      },
+      {
+        "id": "nick-fury",
+        "name": {
+          "es": "Nick Fury",
+          "en": "Nick Fury"
+        }
+      },
+      {
+        "id": "wolverine",
+        "name": {
+          "es": "Wolverine",
+          "en": "Wolverine"
+        }
+      },
+      {
+        "id": "deadpool",
+        "name": {
+          "es": "Deadpool",
+          "en": "Deadpool"
+        }
+      },
+      {
+        "id": "daredevil",
+        "name": {
+          "es": "Daredevil",
+          "en": "Daredevil"
+        }
+      },
+      {
+        "id": "punisher",
+        "name": {
+          "es": "Punisher",
+          "en": "Punisher"
+        }
+      },
+      {
+        "id": "venom",
+        "name": {
+          "es": "Venom",
+          "en": "Venom"
+        }
+      }
+    ],
+    "teams": [
+      {
+        "id": "avengers",
+        "name": {
+          "es": "Vengadores",
+          "en": "Avengers"
+        }
+      },
+      {
+        "id": "guardians-of-the-galaxy",
+        "name": {
+          "es": "Guardianes de la Galaxia",
+          "en": "Guardians of the Galaxy"
+        }
+      },
+      {
+        "id": "x-men",
+        "name": {
+          "es": "X-Men",
+          "en": "X-Men"
+        }
+      },
+      {
+        "id": "defenders",
+        "name": {
+          "es": "Defensores",
+          "en": "Defenders"
+        }
+      },
+      {
+        "id": "shield",
+        "name": {
+          "es": "S.H.I.E.L.D.",
+          "en": "S.H.I.E.L.D."
+        }
+      },
+      {
+        "id": "thunderbolts",
+        "name": {
+          "es": "Thunderbolts",
+          "en": "Thunderbolts"
+        }
+      },
+      {
+        "id": "fantastic-four",
+        "name": {
+          "es": "Los 4 Fantásticos",
+          "en": "Fantastic Four"
+        }
+      }
+    ]
   }
 }

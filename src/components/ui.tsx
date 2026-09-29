@@ -1,4 +1,4 @@
-import { useId, type ButtonHTMLAttributes, type CSSProperties, type InputHTMLAttributes, type ReactNode } from "react";
+import { useId, type ButtonHTMLAttributes, type CSSProperties, type InputHTMLAttributes, type ReactNode, type SelectHTMLAttributes } from "react";
 import { onColor } from "../lib/color";
 import { posterUrl, type PosterSize } from "../lib/tmdb";
 import { useLang } from "../lib/i18n";
@@ -141,7 +141,7 @@ export function Tabs<T extends string>({
             aria-checked={active}
             disabled={o.disabled}
             onClick={() => onChange(o.value)}
-            className={`flex-auto font-mono tracking-[0.08em] whitespace-nowrap uppercase transition-colors duration-[120ms] ease-out disabled:text-muted disabled:opacity-60 ${
+            className={`flex-auto font-mono tracking-[0.08em] whitespace-nowrap uppercase transition-colors duration-[120ms] ease-out disabled:cursor-not-allowed disabled:text-muted disabled:line-through disabled:decoration-1 ${
               size === "sm" ? "px-2 py-1 text-[11px]" : "min-h-11 px-3 py-2 text-xs"
             } ${active ? "bg-accent font-bold text-on-accent" : "bg-surface text-fg enabled:hover:bg-fg enabled:hover:text-bg"}`}
           >
@@ -193,6 +193,49 @@ export function Button({
       {...props}
       className={`min-h-11 border-2 px-5 py-2.5 text-[15px] font-bold transition-colors duration-[120ms] ease-out disabled:border-line-soft disabled:bg-surface-muted disabled:text-muted ${buttonVariants[variant]} ${className}`}
     />
+  );
+}
+
+/** Chip seleccionable (filtros de selección múltiple). */
+export function Chip({ selected, onClick, children }: { selected: boolean; onClick: () => void; children: ReactNode }) {
+  return (
+    <button
+      type="button"
+      aria-pressed={selected}
+      onClick={onClick}
+      className={`min-h-9 border-2 px-2.5 py-1 font-mono text-[11px] tracking-[0.08em] uppercase transition-colors duration-[120ms] ease-out ${
+        selected ? "border-line bg-accent font-bold text-on-accent" : "border-line-soft bg-surface text-fg hover:border-line"
+      }`}
+    >
+      {children}
+    </button>
+  );
+}
+
+export function SelectField({
+  label,
+  options,
+  className = "",
+  ...props
+}: SelectHTMLAttributes<HTMLSelectElement> & { label: string; options: { value: string; label: string }[] }) {
+  const id = useId();
+  return (
+    <div className={`flex flex-col gap-1.5 ${className}`}>
+      <label htmlFor={id} className="label text-fg-soft">
+        {label}
+      </label>
+      <select
+        id={id}
+        {...props}
+        className="min-h-11 border-2 border-line bg-surface px-3 py-2 font-mono text-sm text-fg"
+      >
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </select>
+    </div>
   );
 }
 

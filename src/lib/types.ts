@@ -40,6 +40,8 @@ export interface Continuity {
   canonLevel: CanonLevel;
   description?: LocalizedText;
   branchesFrom?: { continuityId: string; afterTitleId: string };
+  /** Oculta hasta que el perfil la active en el filtro de continuidades. */
+  hiddenByDefault?: boolean;
 }
 
 export interface Entry {
@@ -84,7 +86,13 @@ export interface Franchise {
   entries: Entry[];
   orders: OrderDef[];
   routes: Route[];
-  tags: { characters: string[]; teams: string[] };
+  /** Personajes y equipos que se pueden usar en entries[].characters / teams (filtro dinámico). */
+  tags: { characters: TagDef[]; teams: TagDef[] };
+}
+
+export interface TagDef {
+  id: string;
+  name: LocalizedText;
 }
 
 export interface Catalog {

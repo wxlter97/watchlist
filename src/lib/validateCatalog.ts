@@ -65,6 +65,19 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     requireTitle(c.branchesFrom.afterTitleId, `continuidad "${c.id}" branchesFrom`);
   }
 
+  const characterIds = new Set<string>();
+  const teamIds = new Set<string>();
+  for (const [kind, defs, ids] of [
+    ["personaje", f.tags.characters, characterIds],
+    ["equipo", f.tags.teams, teamIds],
+  ] as const) {
+    for (const tag of defs) {
+      if (!SLUG.test(tag.id)) errors.push(at(`${kind} "${tag.id}": el id debe ser un slug en minúsculas`));
+      if (ids.has(tag.id)) errors.push(at(`${kind} "${tag.id}" duplicado`));
+      ids.add(tag.id);
+    }
+  }
+
   const entryIds = new Set<string>();
   const chronoSeen = new Map<string, string>();
   const groups = new Set<string>();
@@ -82,6 +95,9 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
       if (other) errors.push(at(`${where}: chronoOrder ${e.chronoOrder} repetido en "${e.continuityId}" (también "${other}")`));
       chronoSeen.set(key, e.titleId);
     }
+    for (const c of e.characters ?? [])
+      if (!characterIds.has(c)) errors.push(at(`${where}: el personaje "${c}" no está en tags.characters`));
+    for (const t of e.teams ?? []) if (!teamIds.has(t)) errors.push(at(`${where}: el equipo "${t}" no está en tags.teams`));
     const pc = e.postCredits;
     if (pc && ![pc.mid, pc.end].every((n) => Number.isInteger(n) && n >= 0))
       errors.push(at(`${where}: postCredits debe tener enteros ≥ 0`));
@@ -113,6 +129,12 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     routeIds.add(r.id);
     // Las rutas pueden cruzar franquicias: solo exigen que el título exista.
     for (const id of r.titleIds) requireTitle(id, `ruta "${r.id}"`);
+    if (new Set(r.titleIds).size !== r.titleIds.length) errors.push(at(`ruta "${r.id}": tiene títulos repetidos`));
+    if (r.kind === "prep") {
+      if (!r.targetTitleId) errors.push(at(`ruta "${r.id}": una ruta "prep" necesita targetTitleId`));
+      else if (r.titleIds.includes(r.targetTitleId))
+        errors.push(at(`ruta "${r.id}": el título objetivo no va dentro de su propia preparación`));
+    }
     if (r.targetTitleId) requireTitle(r.targetTitleId, `ruta "${r.id}" targetTitleId`);
   }
 
