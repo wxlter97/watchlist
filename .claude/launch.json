@@ -17,6 +17,7 @@
       "runtimeExecutable": "env",
       "runtimeArgs": [
         "VITE_FIREBASE_EMULATORS=1",
+        "FIRESTORE_EMULATOR_HOST=127.0.0.1:8080",
         "npx",
         "vite",
         "--port",

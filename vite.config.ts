@@ -13,9 +13,11 @@ function apiDevServer(): Plugin {
     name: "watch-order-api-dev",
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
-        const url = new URL(req.url ?? "/", "http://localhost");
-        const match = /^\/api\/([a-z0-9-]+)$/.exec(url.pathname);
+        const url = new URL(req.url ?? "/", `http://${req.headers.host ?? "localhost"}`);
+        const match = /^\/api\/([a-z0-9-]+)(?:\/([^/]+))?$/.exec(url.pathname);
         if (!match) return next();
+        // Igual que el rewrite de vercel.json: /api/calendar/:file → /api/calendar?file=:file.
+        if (match[2]) url.searchParams.set("file", decodeURIComponent(match[2]));
         try {
           const mod = (await server.ssrLoadModule(`/api/${match[1]}.ts`)) as Record<string, (r: Request) => Promise<Response>>;
           const handler = mod[req.method ?? "GET"];

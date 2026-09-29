@@ -14,6 +14,7 @@ import { summarize, todayIso } from "../../lib/progress";
 import { RoutesSection } from "../routes/RoutesSection";
 import { CustomOrderEditor } from "./CustomOrderEditor";
 import { FiltersPanel } from "./FiltersPanel";
+import { TimeBudget } from "./TimeBudget";
 
 export function FranchisePage() {
   const { franchiseId } = useParams();
@@ -86,6 +87,21 @@ export function FranchisePage() {
         </div>
       </section>
 
+      <nav aria-label={t("franchise.views")} className="mt-3 grid grid-cols-2 gap-[2px] border-2 border-line bg-line">
+        <Link
+          to={`/f/${franchise.id}/timeline`}
+          className="label bg-surface px-3 py-3 text-center font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+        >
+          {t("timeline.title")}
+        </Link>
+        <Link
+          to={`/map?f=${franchise.id}`}
+          className="label bg-surface px-3 py-3 text-center font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+        >
+          {t("graph.title")}
+        </Link>
+      </nav>
+
       <section className="mt-6">
         <SectionLabel>{t("franchise.order")}</SectionLabel>
         <div className="scrollbar-none -mx-4 overflow-x-auto px-4">
@@ -110,6 +126,8 @@ export function FranchisePage() {
           </div>
         )}
       </section>
+
+      {!editing && <TimeBudget items={items} planHref={`/plans/new?f=${franchise.id}&type=order&ref=${order.id}`} />}
 
       {editing ? (
         <CustomOrderEditor

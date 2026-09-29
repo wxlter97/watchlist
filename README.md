@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 5 — 6 franquicias, Hub, búsqueda, dónde ver, estadísticas, episodios, versiones, export/import.
+**Estado:** fase 6 — planificador de maratón con calendario, "Tengo X horas", línea de tiempo y mapa de conexiones.
 
 ## Desarrollo
 
@@ -24,7 +24,7 @@ seguridad vive en [firestore.rules](firestore.rules).
 ```bash
 pnpm test:rules          # reglas de Firestore contra el emulador (requiere Java)
 pnpm emulators           # Auth + Firestore locales (proyecto demo-watch-order)
-pnpm dev:emulators       # la app conectada a los emuladores, con cuentas de prueba
+pnpm dev:emulators       # la app y /api conectadas a los emuladores, con cuentas de prueba
 pnpm rules:deploy        # publica firestore.rules e índices en el proyecto real
 ```
 
@@ -44,8 +44,22 @@ En desarrollo, `pnpm dev` las sirve con un middleware de Vite: no hace falta `ve
 |---|---|---|
 | `GET /api/providers?tmdbId=&type=movie\|tv&region=SV` | Dónde ver (JustWatch vía TMDB) | 24 h |
 | `GET /api/upcoming?franchise=marvel,dc` | Estrenos por venir y temporadas/episodios nuevos de series en emisión | 6 h |
+| `GET /api/calendar/{planId}.ics?u=&p=&k=` | Feed iCalendar de un plan de maratón, suscribible | privada, 5 min |
 
-Requieren `TMDB_API_KEY` en las variables de entorno de Vercel (solo servidor).
+Variables de entorno de Vercel (solo servidor):
+
+- `TMDB_API_KEY`: providers y upcoming.
+- `FIREBASE_SERVICE_ACCOUNT`: el JSON completo de una cuenta de servicio del proyecto
+  (Consola de Firebase → Configuración del proyecto → Cuentas de servicio → Generar nueva
+  clave privada). Lo usa el feed de calendario para leer el plan con `firebase-admin`.
+  En desarrollo no hace falta: `pnpm dev:emulators` apunta `firebase-admin` al emulador.
+
+### Feed de calendario
+
+El planificador guarda en el plan (`users/{uid}/profiles/{pid}/plans/{planId}`) el calendario
+recalculado y un `feedToken` aleatorio de 256 bits. La URL del feed incluye ese token: quien la
+tenga ve el plan, y revocarla borra el token (la URL vieja da 404). La app mantiene el
+calendario guardado al día mientras está abierta (al marcar vistos o al pasar los días).
 
 ## Catálogo
 

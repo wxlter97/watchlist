@@ -26,7 +26,8 @@ import {
 import { auth, db } from "./firebase";
 import i18n, { currentLang } from "./i18n";
 import { guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings, withDefaults } from "./settings";
-import { DEFAULT_PROFILE_ID, firestoreBackend, paths, type Profile } from "./cloud";
+import { DEFAULT_PROFILE_ID, firestoreBackend, firestorePlansBackend, paths, type Profile } from "./cloud";
+import { guestPlansBackend, loadGuestPlans, saveGuestPlans, setPlansBackend, usePlansStore } from "./plansStore";
 import { planMigration, planSize } from "./migrate";
 import {
   EMPTY,
@@ -108,6 +109,8 @@ function enterGuest() {
   setSettingsWriter(guestSettingsWriter);
   useSettings.setState(loadGuestSettings());
   useProgressStore.getState().replace(loadGuest());
+  setPlansBackend(guestPlansBackend);
+  usePlansStore.getState().replacePlans(loadGuestPlans());
   set({ status: "guest", user: undefined, profiles: [], activeProfileId: undefined, profileReady: true, migration: null });
 }
 
@@ -194,6 +197,8 @@ export function selectProfile(pid: string) {
   set({ activeProfileId: pid, profileReady: false, migration: null });
   useProgressStore.getState().replace(EMPTY);
   setBackend(firestoreBackend(db, uid, pid));
+  usePlansStore.getState().replacePlans({});
+  setPlansBackend(firestorePlansBackend(db, uid, pid));
 
   const data: ProgressData = { progress: {}, franchiseState: {} };
   const loaded = { progress: false, franchiseState: false };
@@ -223,15 +228,22 @@ export function selectProfile(pid: string) {
       },
       report,
     ),
+    onSnapshot(
+      paths.plans(db, uid, pid),
+      (snap) => usePlansStore.getState().replacePlans(Object.fromEntries(snap.docs.map((d) => [d.id, d.data()]))),
+      report,
+    ),
   );
 }
 
 // ---- Migración invitado → cuenta (SPEC §5) ----
 
 function checkMigration() {
-  if (migrationDismissed || !hasGuestData()) return set({ migration: null });
+  if (migrationDismissed || (!hasGuestData() && Object.keys(loadGuestPlans()).length === 0)) return set({ migration: null });
   const { progress, franchiseState } = useProgressStore.getState();
-  const count = planSize(planMigration(loadGuest(), { progress, franchiseState }));
+  const cloudPlans = usePlansStore.getState().plans;
+  const guestPlans = Object.keys(loadGuestPlans()).filter((id) => !(id in cloudPlans)).length;
+  const count = planSize(planMigration(loadGuest(), { progress, franchiseState })) + guestPlans;
   set({ migration: count > 0 ? { count } : null });
 }
 
@@ -245,6 +257,10 @@ export function migrateGuestProgress() {
     ...plan.franchiseState.map(
       ([id, d]) => (b: ReturnType<typeof writeBatch>) => b.set(doc(paths.franchiseState(db, user.uid, pid), id), d),
     ),
+    // Los planes no se combinan: se copian los que el perfil no tenga.
+    ...Object.values(loadGuestPlans())
+      .filter((p) => !(p.id in usePlansStore.getState().plans))
+      .map((p) => (b: ReturnType<typeof writeBatch>) => b.set(doc(paths.plans(db, user.uid, pid), p.id), p)),
   ];
   // Un batch admite 500 operaciones. Sin conexión quedan en cola igual que cualquier escritura.
   for (let i = 0; i < ops.length; i += 500) {
@@ -253,6 +269,7 @@ export function migrateGuestProgress() {
     batch.commit().catch(report);
   }
   saveGuest(EMPTY);
+  saveGuestPlans({});
   set({ migration: null });
 }
 
@@ -283,12 +300,13 @@ export async function deleteProfile(pid: string) {
   const { user, profiles, activeProfileId } = get();
   if (!user || profiles.length <= 1) return;
   if (pid === activeProfileId) selectProfile(profiles.find((p) => p.id !== pid)!.id);
-  const [progress, states] = await Promise.all([
+  const [progress, states, plans] = await Promise.all([
     getDocs(paths.progress(db, user.uid, pid)),
     getDocs(paths.franchiseState(db, user.uid, pid)),
+    getDocs(paths.plans(db, user.uid, pid)),
   ]);
   // El documento del perfil va al final: si algo falla a medias, el perfil sigue visible.
-  const refs = [...progress.docs, ...states.docs].map((d) => d.ref.withConverter(null));
+  const refs = [...progress.docs, ...states.docs, ...plans.docs].map((d) => d.ref.withConverter(null));
   refs.push(doc(db, "users", user.uid, "profiles", pid));
   for (let i = 0; i < refs.length; i += 500) {
     const batch = writeBatch(db);

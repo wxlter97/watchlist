@@ -82,6 +82,22 @@ export function HubPage() {
         {!followed.length && <p className="mb-4 max-w-[58ch] text-sm leading-[1.55] text-fg-soft">{t("hub.followHint")}</p>}
         <FranchiseGrid franchises={others} />
       </Section>
+
+      <Section label={t("hub.tools")}>
+        <ul className="grid gap-[2px] border-2 border-line bg-line sm:grid-cols-2">
+          {[
+            { to: "/plans", title: t("planner.title"), body: t("hub.plannerBody") },
+            { to: "/map", title: t("graph.title"), body: t("hub.mapBody") },
+          ].map((tool) => (
+            <li key={tool.to}>
+              <Link to={tool.to} className="group block h-full bg-surface p-4 transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg">
+                <p className="display text-[22px]">{tool.title} →</p>
+                <p className="mt-1.5 text-sm leading-[1.5] text-fg-soft group-hover:text-bg">{tool.body}</p>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Section>
     </div>
   );
 }

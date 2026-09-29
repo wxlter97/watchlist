@@ -47,6 +47,13 @@ describe("users/{uid}", () => {
     await assertFails(getDoc(doc(anon(), progress)));
     await assertFails(setDoc(doc(anon(), "users/alice"), { displayName: "x" }));
   });
+  it("los planes (y el secreto de su feed) son solo del dueño", async () => {
+    const plan = "users/alice/profiles/default/plans/p1";
+    await assertSucceeds(setDoc(doc(as("alice"), plan), { name: "Maratón", feedToken: "a".repeat(64) }));
+    await assertFails(getDoc(doc(as("bob"), plan)));
+    await assertFails(getDoc(doc(anon(), plan)));
+    await assertFails(setDoc(doc(as("bob"), plan), { name: "x" }));
+  });
 });
 
 describe("shares/{shareId}", () => {

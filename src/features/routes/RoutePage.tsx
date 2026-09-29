@@ -59,6 +59,14 @@ export function RoutePage() {
         <div className="mt-3">
           <ProgressBar ratio={ratio} label={loc(route.name)} />
         </div>
+        {progress.watched < progress.total && (
+          <Link
+            to={`/plans/new?f=${franchise.id}&type=route&ref=${route.id}`}
+            className="mt-4 inline-flex min-h-11 items-center border-2 border-tinta bg-faro px-5 py-2.5 text-[15px] font-bold text-tinta transition-colors duration-[120ms] ease-out hover:bg-tinta hover:text-faro"
+          >
+            {t("planner.planRoute")}
+          </Link>
+        )}
       </section>
 
       <section className="mt-8">

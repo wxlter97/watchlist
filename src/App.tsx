@@ -1,5 +1,5 @@
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
-import { useEffect, useSyncExternalStore } from "react";
+import { lazy, Suspense, useEffect, useSyncExternalStore } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { Toaster } from "./components/Toaster";
 import { AccountPage } from "./features/account/AccountPage";
@@ -9,6 +9,14 @@ import { TitlePage } from "./features/detail/TitlePage";
 import { RoutePage } from "./features/routes/RoutePage";
 import { SearchPage } from "./features/search/SearchPage";
 import { StatsPage } from "./features/stats/StatsPage";
+import { PlanEditor } from "./features/planner/PlanEditor";
+import { PlanPage } from "./features/planner/PlanPage";
+import { PlansPage } from "./features/planner/PlansPage";
+import { PlanSync } from "./features/planner/PlanSync";
+import { TimelinePage } from "./features/timeline/TimelinePage";
+
+// El mapa trae d3-force: se carga solo al abrirlo.
+const GraphPage = lazy(() => import("./features/graph/GraphPage").then((m) => ({ default: m.GraphPage })));
 import { useLang } from "./lib/i18n";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
@@ -94,9 +102,20 @@ function Layout() {
       <header className="sticky top-0 z-20 -mx-4 flex h-[58px] items-center justify-between gap-3 border-b-2 border-line bg-bg px-4">
         <Link to="/" className="flex min-w-0 items-center gap-2">
           <AppMark size={30} />
-          <span className="display truncate text-lg whitespace-nowrap">{t("app.name")}</span>
+          {/* En pantallas angostas no cabe junto a los accesos: queda el ícono (y el nombre para lectores). */}
+          <span className="display truncate text-lg whitespace-nowrap max-[419px]:sr-only">{t("app.name")}</span>
         </Link>
         <div className="flex shrink-0 items-center gap-1.5">
+          <Link
+            to="/plans"
+            aria-label={t("planner.title")}
+            className="grid size-9 place-items-center border-2 border-line transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+          >
+            <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth={2.5} aria-hidden>
+              <rect x="3.5" y="5" width="17" height="15.5" />
+              <path d="M3.5 10h17M8 2.5v5M16 2.5v5" strokeLinecap="square" />
+            </svg>
+          </Link>
           <Link
             to="/stats"
             aria-label={t("stats.title")}
@@ -123,6 +142,7 @@ function Layout() {
         <Outlet />
       </main>
       <Toaster />
+      <PlanSync />
       <footer className="-mx-4 flex flex-col gap-2 border-t-2 border-line px-4 py-6 font-mono text-[11px] text-muted">
         <a href="https://wxlter.dev" className="flex items-center gap-2 self-start font-bold text-fg">
           <WxlterSymbol size={16} />
@@ -145,6 +165,19 @@ const router = createBrowserRouter([
       { path: "account", element: <AccountPage /> },
       { path: "search", element: <SearchPage /> },
       { path: "stats", element: <StatsPage /> },
+      { path: "f/:franchiseId/timeline", element: <TimelinePage /> },
+      {
+        path: "map",
+        element: (
+          <Suspense fallback={<p className="py-16 text-center font-mono text-xs text-muted uppercase">…</p>}>
+            <GraphPage />
+          </Suspense>
+        ),
+      },
+      { path: "plans", element: <PlansPage /> },
+      { path: "plans/new", element: <PlanEditor /> },
+      { path: "plans/:planId", element: <PlanPage /> },
+      { path: "plans/:planId/edit", element: <PlanEditor /> },
       { path: "*", element: <HubPage /> },
     ],
   },

@@ -9,6 +9,8 @@ import {
   type FirestoreDataConverter,
   type QueryDocumentSnapshot,
 } from "firebase/firestore";
+import type { PlanDoc } from "./plans";
+import type { PlansBackend } from "./plansStore";
 import type { FranchiseStateDoc, ProgressBackend, ProgressDoc } from "./progressStore";
 
 // Rutas y conversión de documentos de Firestore (SPEC §6). En el store las fechas son ISO;
@@ -63,6 +65,20 @@ export const profileConverter: FirestoreDataConverter<Profile> = {
   },
 };
 
+export const planConverter: FirestoreDataConverter<PlanDoc> = {
+  toFirestore: ({ id: _id, ...p }: PlanDoc) => ({ ...p, createdAt: toTs(p.createdAt), updatedAt: toTs(p.updatedAt) }),
+  fromFirestore: (snap: QueryDocumentSnapshot<DocumentData>) => {
+    const d = snap.data();
+    return {
+      ...d,
+      id: snap.id,
+      schedule: d.schedule ?? [],
+      createdAt: toIso(d.createdAt) ?? new Date(0).toISOString(),
+      updatedAt: toIso(d.updatedAt) ?? new Date(0).toISOString(),
+    } as PlanDoc;
+  },
+};
+
 export const paths = {
   user: (db: Firestore, uid: string) => doc(db, "users", uid),
   profiles: (db: Firestore, uid: string) => collection(db, "users", uid, "profiles").withConverter(profileConverter),
@@ -71,6 +87,8 @@ export const paths = {
     collection(db, "users", uid, "profiles", pid, "progress").withConverter(progressConverter),
   franchiseState: (db: Firestore, uid: string, pid: string) =>
     collection(db, "users", uid, "profiles", pid, "franchiseState").withConverter(franchiseStateConverter),
+  plans: (db: Firestore, uid: string, pid: string) =>
+    collection(db, "users", uid, "profiles", pid, "plans").withConverter(planConverter),
 };
 
 const report = (err: unknown) => console.error("[sync]", err);
@@ -87,6 +105,15 @@ export function firestoreBackend(db: Firestore, uid: string, pid: string): Progr
     },
     writeFranchiseState: (franchiseId, data) => {
       setDoc(doc(paths.franchiseState(db, uid, pid), franchiseId), data).catch(report);
+    },
+  };
+}
+
+export function firestorePlansBackend(db: Firestore, uid: string, pid: string): PlansBackend {
+  return {
+    writePlan: (planId, data) => {
+      const ref = doc(paths.plans(db, uid, pid), planId);
+      (data ? setDoc(ref, data) : deleteDoc(ref)).catch(report);
     },
   };
 }
