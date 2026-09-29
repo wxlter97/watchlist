@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 6 — planificador de maratón con calendario, "Tengo X horas", línea de tiempo y mapa de conexiones.
+**Estado:** fase 7 — logros, rachas, tarjetas compartibles y resumen anual.
 
 ## Desarrollo
 
@@ -45,6 +45,7 @@ En desarrollo, `pnpm dev` las sirve con un middleware de Vite: no hace falta `ve
 | `GET /api/providers?tmdbId=&type=movie\|tv&region=SV` | Dónde ver (JustWatch vía TMDB) | 24 h |
 | `GET /api/upcoming?franchise=marvel,dc` | Estrenos por venir y temporadas/episodios nuevos de series en emisión | 6 h |
 | `GET /api/calendar/{planId}.ics?u=&p=&k=` | Feed iCalendar de un plan de maratón, suscribible | privada, 5 min |
+| `GET /api/og?kind=achievement\|franchise\|stats\|wrapped&lang=…` | Tarjeta PNG 1080×1080 para compartir (satori + resvg) | 1 año |
 
 Variables de entorno de Vercel (solo servidor):
 
@@ -60,6 +61,13 @@ El planificador guarda en el plan (`users/{uid}/profiles/{pid}/plans/{planId}`) 
 recalculado y un `feedToken` aleatorio de 256 bits. La URL del feed incluye ese token: quien la
 tenga ve el plan, y revocarla borra el token (la URL vieja da 404). La app mantiene el
 calendario guardado al día mientras está abierta (al marcar vistos o al pasar los días).
+
+## Logros
+
+`src/data/achievements.json` define los logros (reglas de SPEC §9.4); `lib/achievements.ts`
+los evalúa en el cliente y solo se guarda la fecha de desbloqueo por perfil. El validador
+revisa que cada regla apunte a franquicias, grupos, rutas y órdenes que existen. Los íconos
+viven como datos en `lib/achievementIcons.ts` y los usan la app y `/api/og`.
 
 ## Catálogo
 

@@ -23,7 +23,9 @@
     "followHint": "Sigue las franquicias que te interesan: aparecen primero, con lo siguiente por ver y sus estrenos.",
     "tools": "Herramientas",
     "plannerBody": "Arma un maratón con tus horas libres y llévalo a tu calendario.",
-    "mapBody": "Explora cómo se conectan títulos, personajes y equipos."
+    "mapBody": "Explora cómo se conectan títulos, personajes y equipos.",
+    "achievementsBody": "Insignias por completar fases, sagas, rutas y rachas.",
+    "wrappedBody": "Tu año en horas, franquicias y títulos favoritos."
   },
   "progress": {
     "count": "{{watched}} de {{total}} vistos",
@@ -38,7 +40,9 @@
     "notFound": "No encontramos esa franquicia.",
     "progress": "Progreso",
     "label": "Franquicia",
-    "views": "Vistas"
+    "views": "Vistas",
+    "completed": "¡Franquicia completa!",
+    "shareText": "Terminé {{name}} en Watch Order."
   },
   "canon": {
     "main": "Principal",
@@ -309,7 +313,9 @@
     "rated_other": "{{count}} calificados",
     "top": "Franquicia más vista",
     "byFranchise": "Por franquicia",
-    "note": "Las horas usan la duración de la versión elegida y suman los rewatches. El avance cuenta las continuidades visibles por defecto."
+    "note": "Las horas usan la duración de la versión elegida y suman los rewatches. El avance cuenta las continuidades visibles por defecto.",
+    "shareText": "Llevo {{hours}} horas vistas en Watch Order.",
+    "share": "Compartir mis números"
   },
   "upcoming": {
     "season": "Temporada {{season}}",
@@ -441,5 +447,60 @@
     "openTitle": "Abrir título",
     "connections_one": "{{count}} conexión",
     "connections_other": "{{count}} conexiones"
+  },
+  "share": {
+    "share": "Compartir",
+    "preparing": "Preparando…",
+    "downloaded": "Tarjeta descargada.",
+    "error": "No se pudo crear la tarjeta. Intenta de nuevo."
+  },
+  "achievements": {
+    "title": "Logros",
+    "unlocked": "Desbloqueados",
+    "pending": "Por desbloquear",
+    "best": "Mejor racha",
+    "streakHint": "Una racha son días seguidos terminando un título o marcando un episodio.",
+    "unlockedOn": "Desbloqueado el {{date}}",
+    "progress": "{{current}} de {{target}}",
+    "progressHours": "{{current}} de {{target}} h",
+    "progressDays": "{{current}} de {{target}} días",
+    "inOrder": "en orden",
+    "shareText": "Desbloqueé «{{name}}» en Watch Order.",
+    "unlockedOne": "Logro desbloqueado: {{name}}",
+    "unlockedMany_one": "{{count}} logro desbloqueado",
+    "unlockedMany_other": "{{count}} logros desbloqueados",
+    "see": "Ver"
+  },
+  "wrapped": {
+    "title": "Resumen anual",
+    "link": "Resumen {{year}}",
+    "years": "Años",
+    "emptyTitle": "Nada en {{year}}… todavía",
+    "empty": "Cuando termines títulos este año, aquí aparece tu resumen.",
+    "eyebrow": "Resumen anual",
+    "intro": "Tu {{year}} en Watch Order",
+    "swipe": "Desliza para verlo.",
+    "hoursLabel": "Tiempo frente a la pantalla",
+    "hoursUnit": "horas",
+    "titlesCount_one": "Terminaste {{count}} título.",
+    "titlesCount_other": "Terminaste {{count}} títulos.",
+    "episodesCount_one": "Y marcaste {{count}} episodio de series en curso.",
+    "episodesCount_other": "Y marcaste {{count}} episodios de series en curso.",
+    "franchiseLabel": "Tu franquicia del año",
+    "franchiseTime": "{{time}} en esta franquicia.",
+    "topLabel": "Tu mejor calificado",
+    "monthLabel": "Tu mes más activo",
+    "monthChart": "Títulos por mes",
+    "achievementsLabel": "Logros desbloqueados",
+    "streak_one": "Tu mejor racha: {{count}} día.",
+    "streak_other": "Tu mejor racha: {{count}} días seguidos.",
+    "shareLabel": "Tu tarjeta",
+    "cardAlt": "Tarjeta con el resumen de {{year}}",
+    "shareText": "Mi {{year}} en Watch Order: {{hours}} horas.",
+    "carousel": "carrusel",
+    "slide": "diapositiva",
+    "slideOf": "{{current}} de {{total}}",
+    "prev": "Anterior",
+    "next": "Siguiente"
   }
 }

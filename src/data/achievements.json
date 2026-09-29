@@ -1,0 +1,845 @@
+[
+  {
+    "id": "first-title",
+    "name": {
+      "es": "Primera función",
+      "en": "Opening night"
+    },
+    "description": {
+      "es": "Marca tu primer título como visto.",
+      "en": "Mark your first title as watched."
+    },
+    "icon": "play",
+    "rule": {
+      "type": "count",
+      "metric": "titles",
+      "value": 1
+    }
+  },
+  {
+    "id": "titles-10",
+    "name": {
+      "es": "Diez en la lista",
+      "en": "Ten down"
+    },
+    "description": {
+      "es": "Ve 10 títulos.",
+      "en": "Watch 10 titles."
+    },
+    "icon": "stack",
+    "rule": {
+      "type": "count",
+      "metric": "titles",
+      "value": 10
+    }
+  },
+  {
+    "id": "titles-50",
+    "name": {
+      "es": "Medio centenar",
+      "en": "Half a hundred"
+    },
+    "description": {
+      "es": "Ve 50 títulos.",
+      "en": "Watch 50 titles."
+    },
+    "icon": "stack",
+    "rule": {
+      "type": "count",
+      "metric": "titles",
+      "value": 50
+    }
+  },
+  {
+    "id": "titles-100",
+    "name": {
+      "es": "Centenario",
+      "en": "Centurion"
+    },
+    "description": {
+      "es": "Ve 100 títulos.",
+      "en": "Watch 100 titles."
+    },
+    "icon": "stack",
+    "rule": {
+      "type": "count",
+      "metric": "titles",
+      "value": 100
+    }
+  },
+  {
+    "id": "titles-250",
+    "name": {
+      "es": "Archivo viviente",
+      "en": "Living archive"
+    },
+    "description": {
+      "es": "Ve 250 títulos.",
+      "en": "Watch 250 titles."
+    },
+    "icon": "stack",
+    "rule": {
+      "type": "count",
+      "metric": "titles",
+      "value": 250
+    }
+  },
+  {
+    "id": "hours-24",
+    "name": {
+      "es": "Un día entero",
+      "en": "A full day"
+    },
+    "description": {
+      "es": "Acumula 24 horas vistas.",
+      "en": "Reach 24 hours watched."
+    },
+    "icon": "clock",
+    "rule": {
+      "type": "count",
+      "metric": "hours",
+      "value": 24
+    }
+  },
+  {
+    "id": "hours-100",
+    "name": {
+      "es": "Cien horas",
+      "en": "A hundred hours"
+    },
+    "description": {
+      "es": "Acumula 100 horas vistas.",
+      "en": "Reach 100 hours watched."
+    },
+    "icon": "clock",
+    "rule": {
+      "type": "count",
+      "metric": "hours",
+      "value": 100
+    }
+  },
+  {
+    "id": "hours-500",
+    "name": {
+      "es": "Quinientas horas",
+      "en": "Five hundred hours"
+    },
+    "description": {
+      "es": "Acumula 500 horas vistas.",
+      "en": "Reach 500 hours watched."
+    },
+    "icon": "clock",
+    "rule": {
+      "type": "count",
+      "metric": "hours",
+      "value": 500
+    }
+  },
+  {
+    "id": "hours-1000",
+    "name": {
+      "es": "Mil horas",
+      "en": "A thousand hours"
+    },
+    "description": {
+      "es": "Acumula 1000 horas vistas.",
+      "en": "Reach 1,000 hours watched."
+    },
+    "icon": "clock",
+    "rule": {
+      "type": "count",
+      "metric": "hours",
+      "value": 1000
+    }
+  },
+  {
+    "id": "franchises-3",
+    "name": {
+      "es": "Explorador",
+      "en": "Explorer"
+    },
+    "description": {
+      "es": "Ve algo de 3 franquicias distintas.",
+      "en": "Watch something from 3 different franchises."
+    },
+    "icon": "globe",
+    "rule": {
+      "type": "count",
+      "metric": "franchises",
+      "value": 3
+    }
+  },
+  {
+    "id": "franchises-6",
+    "name": {
+      "es": "Multiverso personal",
+      "en": "Personal multiverse"
+    },
+    "description": {
+      "es": "Ve algo de 6 franquicias distintas.",
+      "en": "Watch something from 6 different franchises."
+    },
+    "icon": "globe",
+    "rule": {
+      "type": "count",
+      "metric": "franchises",
+      "value": 6
+    }
+  },
+  {
+    "id": "streak-3",
+    "name": {
+      "es": "En racha",
+      "en": "On a roll"
+    },
+    "description": {
+      "es": "Marca algo 3 días seguidos.",
+      "en": "Watch something 3 days in a row."
+    },
+    "icon": "flame",
+    "rule": {
+      "type": "streak",
+      "days": 3
+    }
+  },
+  {
+    "id": "streak-7",
+    "name": {
+      "es": "Semana perfecta",
+      "en": "Perfect week"
+    },
+    "description": {
+      "es": "Marca algo 7 días seguidos.",
+      "en": "Watch something 7 days in a row."
+    },
+    "icon": "flame",
+    "rule": {
+      "type": "streak",
+      "days": 7
+    }
+  },
+  {
+    "id": "streak-30",
+    "name": {
+      "es": "Mes de maratón",
+      "en": "Marathon month"
+    },
+    "description": {
+      "es": "Marca algo 30 días seguidos.",
+      "en": "Watch something 30 days in a row."
+    },
+    "icon": "flame",
+    "rule": {
+      "type": "streak",
+      "days": 30
+    }
+  },
+  {
+    "id": "streak-100",
+    "name": {
+      "es": "Imparable",
+      "en": "Unstoppable"
+    },
+    "description": {
+      "es": "Marca algo 100 días seguidos.",
+      "en": "Watch something 100 days in a row."
+    },
+    "icon": "flame",
+    "rule": {
+      "type": "streak",
+      "days": 100
+    }
+  },
+  {
+    "id": "marvel-phase-1",
+    "name": {
+      "es": "Fase 1 completa",
+      "en": "Phase One complete"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la Fase 1 de Marvel.",
+      "en": "Watch everything released in Marvel's Phase One."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "marvel",
+      "group": "phase-1"
+    }
+  },
+  {
+    "id": "marvel-phase-2",
+    "name": {
+      "es": "Fase 2 completa",
+      "en": "Phase Two complete"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la Fase 2 de Marvel.",
+      "en": "Watch everything released in Marvel's Phase Two."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "marvel",
+      "group": "phase-2"
+    }
+  },
+  {
+    "id": "marvel-phase-3",
+    "name": {
+      "es": "Fase 3 completa",
+      "en": "Phase Three complete"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la Fase 3 de Marvel.",
+      "en": "Watch everything released in Marvel's Phase Three."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "marvel",
+      "group": "phase-3"
+    }
+  },
+  {
+    "id": "marvel-phase-4",
+    "name": {
+      "es": "Fase 4 completa",
+      "en": "Phase Four complete"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la Fase 4 de Marvel.",
+      "en": "Watch everything released in Marvel's Phase Four."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "marvel",
+      "group": "phase-4"
+    }
+  },
+  {
+    "id": "marvel-phase-5",
+    "name": {
+      "es": "Fase 5 completa",
+      "en": "Phase Five complete"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la Fase 5 de Marvel.",
+      "en": "Watch everything released in Marvel's Phase Five."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "marvel",
+      "group": "phase-5"
+    }
+  },
+  {
+    "id": "marvel-netflix",
+    "name": {
+      "es": "Los Defensores",
+      "en": "The Defenders"
+    },
+    "description": {
+      "es": "Ve todas las series de Marvel en Netflix.",
+      "en": "Watch every Marvel series on Netflix."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "marvel",
+      "group": "netflix"
+    }
+  },
+  {
+    "id": "sw-original-trilogy",
+    "name": {
+      "es": "Trilogía original",
+      "en": "Original trilogy"
+    },
+    "description": {
+      "es": "Ve los episodios IV, V y VI.",
+      "en": "Watch Episodes IV, V and VI."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "star-wars",
+      "group": "original-trilogy"
+    }
+  },
+  {
+    "id": "sw-prequel-trilogy",
+    "name": {
+      "es": "Trilogía de precuelas",
+      "en": "Prequel trilogy"
+    },
+    "description": {
+      "es": "Ve los episodios I, II y III.",
+      "en": "Watch Episodes I, II and III."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "star-wars",
+      "group": "prequel-trilogy"
+    }
+  },
+  {
+    "id": "sw-sequel-trilogy",
+    "name": {
+      "es": "Trilogía de secuelas",
+      "en": "Sequel trilogy"
+    },
+    "description": {
+      "es": "Ve los episodios VII, VIII y IX.",
+      "en": "Watch Episodes VII, VIII and IX."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "star-wars",
+      "group": "sequel-trilogy"
+    }
+  },
+  {
+    "id": "me-lord-of-the-rings",
+    "name": {
+      "es": "Portador del Anillo",
+      "en": "Ring-bearer"
+    },
+    "description": {
+      "es": "Ve la trilogía de El Señor de los Anillos.",
+      "en": "Watch The Lord of the Rings trilogy."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "middle-earth",
+      "group": "lord-of-the-rings"
+    }
+  },
+  {
+    "id": "me-hobbit",
+    "name": {
+      "es": "Ida y vuelta",
+      "en": "There and back again"
+    },
+    "description": {
+      "es": "Ve la trilogía de El Hobbit.",
+      "en": "Watch The Hobbit trilogy."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "middle-earth",
+      "group": "hobbit"
+    }
+  },
+  {
+    "id": "ww-harry-potter",
+    "name": {
+      "es": "Travesura realizada",
+      "en": "Mischief managed"
+    },
+    "description": {
+      "es": "Ve las ocho películas de Harry Potter.",
+      "en": "Watch all eight Harry Potter films."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "wizarding-world",
+      "group": "harry-potter"
+    }
+  },
+  {
+    "id": "dc-batman-nolan",
+    "name": {
+      "es": "El caballero de la noche",
+      "en": "The Dark Knight"
+    },
+    "description": {
+      "es": "Ve la trilogía de Batman de Nolan.",
+      "en": "Watch Nolan's Batman trilogy."
+    },
+    "icon": "star",
+    "rule": {
+      "type": "complete-group",
+      "franchiseId": "dc",
+      "group": "batman-nolan"
+    }
+  },
+  {
+    "id": "mcu-complete",
+    "name": {
+      "es": "Universo completo",
+      "en": "Whole universe"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del MCU.",
+      "en": "Watch everything released in the MCU."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "marvel",
+      "continuityId": "mcu"
+    }
+  },
+  {
+    "id": "star-wars-canon",
+    "name": {
+      "es": "Hace mucho tiempo…",
+      "en": "A long time ago…"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del canon de Star Wars.",
+      "en": "Watch everything released in the Star Wars canon."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "star-wars",
+      "continuityId": "canon"
+    }
+  },
+  {
+    "id": "middle-earth-complete",
+    "name": {
+      "es": "Tierra Media",
+      "en": "Middle-earth"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado de la Tierra Media.",
+      "en": "Watch everything released in Middle-earth."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "middle-earth"
+    }
+  },
+  {
+    "id": "wizarding-world-complete",
+    "name": {
+      "es": "Mundo mágico",
+      "en": "Wizarding world"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del Wizarding World.",
+      "en": "Watch everything released in the Wizarding World."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "wizarding-world"
+    }
+  },
+  {
+    "id": "monsterverse-complete",
+    "name": {
+      "es": "Rey de los monstruos",
+      "en": "King of the Monsters"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del MonsterVerse.",
+      "en": "Watch everything released in the MonsterVerse."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "monsterverse"
+    }
+  },
+  {
+    "id": "dceu-complete",
+    "name": {
+      "es": "Snyderverse",
+      "en": "Snyderverse"
+    },
+    "description": {
+      "es": "Ve todo el DCEU.",
+      "en": "Watch the whole DCEU."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "dc",
+      "continuityId": "dceu"
+    }
+  },
+  {
+    "id": "dcu-complete",
+    "name": {
+      "es": "Nuevo universo DC",
+      "en": "New DC universe"
+    },
+    "description": {
+      "es": "Ve todo lo estrenado del DCU.",
+      "en": "Watch everything released in the DCU."
+    },
+    "icon": "shield",
+    "rule": {
+      "type": "complete-franchise",
+      "franchiseId": "dc",
+      "continuityId": "dcu"
+    }
+  },
+  {
+    "id": "route-spider-man",
+    "name": {
+      "es": "Tu amigo y vecino",
+      "en": "Friendly neighborhood"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "marvel",
+      "routeId": "spider-man"
+    }
+  },
+  {
+    "id": "route-wolverine",
+    "name": {
+      "es": "Adamantium",
+      "en": "Adamantium"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "marvel",
+      "routeId": "wolverine"
+    }
+  },
+  {
+    "id": "route-iron-man",
+    "name": {
+      "es": "Yo soy Iron Man",
+      "en": "I am Iron Man"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "marvel",
+      "routeId": "iron-man"
+    }
+  },
+  {
+    "id": "route-captain-america",
+    "name": {
+      "es": "Todo el día",
+      "en": "I can do this all day"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "marvel",
+      "routeId": "captain-america"
+    }
+  },
+  {
+    "id": "route-daredevil",
+    "name": {
+      "es": "El hombre sin miedo",
+      "en": "The man without fear"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "marvel",
+      "routeId": "daredevil"
+    }
+  },
+  {
+    "id": "route-ahsoka-tano",
+    "name": {
+      "es": "Snips",
+      "en": "Snips"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "star-wars",
+      "routeId": "ahsoka-tano"
+    }
+  },
+  {
+    "id": "route-mandoverse",
+    "name": {
+      "es": "Este es el camino",
+      "en": "This is the way"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "star-wars",
+      "routeId": "mandoverse"
+    }
+  },
+  {
+    "id": "route-batman",
+    "name": {
+      "es": "Soy la noche",
+      "en": "I am the night"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "dc",
+      "routeId": "batman"
+    }
+  },
+  {
+    "id": "route-dumbledore-and-grindelwald",
+    "name": {
+      "es": "Pacto de sangre",
+      "en": "Blood pact"
+    },
+    "description": {
+      "es": "Completa la ruta.",
+      "en": "Complete the route."
+    },
+    "icon": "route",
+    "rule": {
+      "type": "complete-route",
+      "franchiseId": "wizarding-world",
+      "routeId": "dumbledore-and-grindelwald"
+    }
+  },
+  {
+    "id": "in-order-machete",
+    "name": {
+      "es": "Fiel al Machete",
+      "en": "Machete loyalist"
+    },
+    "description": {
+      "es": "Ve el orden Machete completo, en ese orden.",
+      "en": "Watch the whole Machete order, in that order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "star-wars",
+      "orderId": "machete"
+    }
+  },
+  {
+    "id": "in-order-marvel-essential",
+    "name": {
+      "es": "Ruta esencial",
+      "en": "Essential path"
+    },
+    "description": {
+      "es": "Ve la Ruta esencial de Marvel en su orden.",
+      "en": "Watch Marvel's Essential path in its order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "marvel",
+      "orderId": "essential"
+    }
+  },
+  {
+    "id": "in-order-mcu-chrono",
+    "name": {
+      "es": "Cronología sagrada",
+      "en": "Sacred timeline"
+    },
+    "description": {
+      "es": "Ve el MCU completo en orden cronológico.",
+      "en": "Watch the whole MCU in chronological order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "marvel",
+      "orderId": "chronological"
+    }
+  },
+  {
+    "id": "in-order-snyderverse",
+    "name": {
+      "es": "Visión de Snyder",
+      "en": "Snyder's vision"
+    },
+    "description": {
+      "es": "Ve el orden Snyderverse en su orden.",
+      "en": "Watch the Snyderverse order in its order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "dc",
+      "orderId": "snyderverse"
+    }
+  },
+  {
+    "id": "in-order-middle-earth",
+    "name": {
+      "es": "Desde la Primera Edad",
+      "en": "From the First Age"
+    },
+    "description": {
+      "es": "Ve la Tierra Media en orden cronológico.",
+      "en": "Watch Middle-earth in chronological order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "middle-earth",
+      "orderId": "chronological"
+    }
+  },
+  {
+    "id": "in-order-wizarding-world",
+    "name": {
+      "es": "Línea temporal mágica",
+      "en": "Magical timeline"
+    },
+    "description": {
+      "es": "Ve el Wizarding World en orden cronológico.",
+      "en": "Watch the Wizarding World in chronological order."
+    },
+    "icon": "order",
+    "rule": {
+      "type": "watched-in-order",
+      "franchiseId": "wizarding-world",
+      "orderId": "chronological"
+    }
+  }
+]

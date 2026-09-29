@@ -1,11 +1,27 @@
 {
   "functions": {
-    "api/upcoming.ts": { "includeFiles": "src/data/**" },
-    "api/calendar.ts": { "includeFiles": "src/data/titles.json" }
+    "api/upcoming.ts": {
+      "includeFiles": "src/data/**"
+    },
+    "api/calendar.ts": {
+      "includeFiles": "src/data/titles.json"
+    },
+    "api/og.ts": {
+      "includeFiles": "{src/data/**,api/_fonts/**}"
+    }
   },
   "rewrites": [
-    { "source": "/__/auth/:path*", "destination": "https://watchlist-97b25.firebaseapp.com/__/auth/:path*" },
-    { "source": "/api/calendar/:file", "destination": "/api/calendar?file=:file" },
-    { "source": "/((?!api/|assets/|__/).*)", "destination": "/index.html" }
+    {
+      "source": "/__/auth/:path*",
+      "destination": "https://watchlist-97b25.firebaseapp.com/__/auth/:path*"
+    },
+    {
+      "source": "/api/calendar/:file",
+      "destination": "/api/calendar?file=:file"
+    },
+    {
+      "source": "/((?!api/|assets/|__/).*)",
+      "destination": "/index.html"
+    }
   ]
 }

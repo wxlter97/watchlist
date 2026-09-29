@@ -9,6 +9,7 @@ import {
   type FirestoreDataConverter,
   type QueryDocumentSnapshot,
 } from "firebase/firestore";
+import type { AchievementsBackend, UnlockDoc } from "./achievementsStore";
 import type { PlanDoc } from "./plans";
 import type { PlansBackend } from "./plansStore";
 import type { FranchiseStateDoc, ProgressBackend, ProgressDoc } from "./progressStore";
@@ -79,6 +80,13 @@ export const planConverter: FirestoreDataConverter<PlanDoc> = {
   },
 };
 
+export const unlockConverter: FirestoreDataConverter<UnlockDoc> = {
+  toFirestore: (u: UnlockDoc) => ({ unlockedAt: toTs(u.unlockedAt) }),
+  fromFirestore: (snap: QueryDocumentSnapshot<DocumentData>) => ({
+    unlockedAt: toIso(snap.data().unlockedAt) ?? new Date(0).toISOString(),
+  }),
+};
+
 export const paths = {
   user: (db: Firestore, uid: string) => doc(db, "users", uid),
   profiles: (db: Firestore, uid: string) => collection(db, "users", uid, "profiles").withConverter(profileConverter),
@@ -89,6 +97,8 @@ export const paths = {
     collection(db, "users", uid, "profiles", pid, "franchiseState").withConverter(franchiseStateConverter),
   plans: (db: Firestore, uid: string, pid: string) =>
     collection(db, "users", uid, "profiles", pid, "plans").withConverter(planConverter),
+  achievements: (db: Firestore, uid: string, pid: string) =>
+    collection(db, "users", uid, "profiles", pid, "achievements").withConverter(unlockConverter),
 };
 
 const report = (err: unknown) => console.error("[sync]", err);
@@ -114,6 +124,14 @@ export function firestorePlansBackend(db: Firestore, uid: string, pid: string): 
     writePlan: (planId, data) => {
       const ref = doc(paths.plans(db, uid, pid), planId);
       (data ? setDoc(ref, data) : deleteDoc(ref)).catch(report);
+    },
+  };
+}
+
+export function firestoreAchievementsBackend(db: Firestore, uid: string, pid: string): AchievementsBackend {
+  return {
+    writeUnlocks: (unlocks) => {
+      for (const [id, data] of Object.entries(unlocks)) setDoc(doc(paths.achievements(db, uid, pid), id), data).catch(report);
     },
   };
 }

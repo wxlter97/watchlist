@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { Link } from "react-router";
+import { ShareButton } from "../../components/ShareButton";
 import { accentStyle, formatRuntime, ProgressBar, SectionLabel } from "../../components/ui";
 import { catalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
@@ -33,6 +34,39 @@ export function StatsPage() {
           sub={t("stats.rated", { count: stats.ratedCount })}
         />
       </div>
+
+      <div className="mt-3 grid grid-cols-2 gap-[2px] border-2 border-line bg-line">
+        <Link
+          to="/achievements"
+          className="label bg-surface px-3 py-3 text-center font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+        >
+          {t("achievements.title")}
+        </Link>
+        <Link
+          to="/wrapped"
+          className="label bg-surface px-3 py-3 text-center font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+        >
+          {t("wrapped.link", { year: todayIso().slice(0, 4) })}
+        </Link>
+      </div>
+
+      {stats.titlesWatched > 0 && (
+        <div className="mt-3">
+          <ShareButton
+            card={{
+              kind: "stats",
+              h: hours,
+              t: stats.titlesWatched,
+              r: stats.averageRating === null ? undefined : Math.round(stats.averageRating * 10),
+              f: stats.topFranchise?.franchise.id,
+            }}
+            title={t("stats.title")}
+            text={t("stats.shareText", { hours })}
+            fileName="watch-order-stats"
+            label={t("stats.share")}
+          />
+        </div>
+      )}
 
       {stats.topFranchise && (
         <Link

@@ -26,7 +26,21 @@ import {
 import { auth, db } from "./firebase";
 import i18n, { currentLang } from "./i18n";
 import { guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings, withDefaults } from "./settings";
-import { DEFAULT_PROFILE_ID, firestoreBackend, firestorePlansBackend, paths, type Profile } from "./cloud";
+import {
+  DEFAULT_PROFILE_ID,
+  firestoreAchievementsBackend,
+  firestoreBackend,
+  firestorePlansBackend,
+  paths,
+  type Profile,
+} from "./cloud";
+import {
+  guestAchievementsBackend,
+  loadGuestAchievements,
+  saveGuestAchievements,
+  setAchievementsBackend,
+  useAchievementsStore,
+} from "./achievementsStore";
 import { guestPlansBackend, loadGuestPlans, saveGuestPlans, setPlansBackend, usePlansStore } from "./plansStore";
 import { planMigration, planSize } from "./migrate";
 import {
@@ -111,6 +125,8 @@ function enterGuest() {
   useProgressStore.getState().replace(loadGuest());
   setPlansBackend(guestPlansBackend);
   usePlansStore.getState().replacePlans(loadGuestPlans());
+  setAchievementsBackend(guestAchievementsBackend);
+  useAchievementsStore.getState().replaceUnlocked(loadGuestAchievements());
   set({ status: "guest", user: undefined, profiles: [], activeProfileId: undefined, profileReady: true, migration: null });
 }
 
@@ -199,6 +215,8 @@ export function selectProfile(pid: string) {
   setBackend(firestoreBackend(db, uid, pid));
   usePlansStore.getState().replacePlans({});
   setPlansBackend(firestorePlansBackend(db, uid, pid));
+  useAchievementsStore.getState().replaceUnlocked({}, false);
+  setAchievementsBackend(firestoreAchievementsBackend(db, uid, pid));
 
   const data: ProgressData = { progress: {}, franchiseState: {} };
   const loaded = { progress: false, franchiseState: false };
@@ -233,6 +251,11 @@ export function selectProfile(pid: string) {
       (snap) => usePlansStore.getState().replacePlans(Object.fromEntries(snap.docs.map((d) => [d.id, d.data()]))),
       report,
     ),
+    onSnapshot(
+      paths.achievements(db, uid, pid),
+      (snap) => useAchievementsStore.getState().replaceUnlocked(Object.fromEntries(snap.docs.map((d) => [d.id, d.data()]))),
+      report,
+    ),
   );
 }
 
@@ -257,6 +280,10 @@ export function migrateGuestProgress() {
     ...plan.franchiseState.map(
       ([id, d]) => (b: ReturnType<typeof writeBatch>) => b.set(doc(paths.franchiseState(db, user.uid, pid), id), d),
     ),
+    // Logros: se conservan los del invitado que el perfil no tenga, con su fecha.
+    ...Object.entries(loadGuestAchievements())
+      .filter(([id]) => !(id in useAchievementsStore.getState().unlocked))
+      .map(([id, u]) => (b: ReturnType<typeof writeBatch>) => b.set(doc(paths.achievements(db, user.uid, pid), id), u)),
     // Los planes no se combinan: se copian los que el perfil no tenga.
     ...Object.values(loadGuestPlans())
       .filter((p) => !(p.id in usePlansStore.getState().plans))
@@ -270,6 +297,7 @@ export function migrateGuestProgress() {
   }
   saveGuest(EMPTY);
   saveGuestPlans({});
+  saveGuestAchievements({});
   set({ migration: null });
 }
 
@@ -300,13 +328,14 @@ export async function deleteProfile(pid: string) {
   const { user, profiles, activeProfileId } = get();
   if (!user || profiles.length <= 1) return;
   if (pid === activeProfileId) selectProfile(profiles.find((p) => p.id !== pid)!.id);
-  const [progress, states, plans] = await Promise.all([
+  const [progress, states, plans, achievements] = await Promise.all([
     getDocs(paths.progress(db, user.uid, pid)),
     getDocs(paths.franchiseState(db, user.uid, pid)),
     getDocs(paths.plans(db, user.uid, pid)),
+    getDocs(paths.achievements(db, user.uid, pid)),
   ]);
   // El documento del perfil va al final: si algo falla a medias, el perfil sigue visible.
-  const refs = [...progress.docs, ...states.docs, ...plans.docs].map((d) => d.ref.withConverter(null));
+  const refs = [...progress.docs, ...states.docs, ...plans.docs, ...achievements.docs].map((d) => d.ref.withConverter(null));
   refs.push(doc(db, "users", user.uid, "profiles", pid));
   for (let i = 0; i < refs.length; i += 500) {
     const batch = writeBatch(db);

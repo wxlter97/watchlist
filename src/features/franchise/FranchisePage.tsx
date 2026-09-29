@@ -15,6 +15,10 @@ import { RoutesSection } from "../routes/RoutesSection";
 import { CustomOrderEditor } from "./CustomOrderEditor";
 import { FiltersPanel } from "./FiltersPanel";
 import { TimeBudget } from "./TimeBudget";
+import { ShareButton } from "../../components/ShareButton";
+import { minutesWatched } from "../../lib/episodes";
+import type { ProgressDoc } from "../../lib/progressStore";
+import type { Franchise } from "../../lib/types";
 
 export function FranchisePage() {
   const { franchiseId } = useParams();
@@ -85,6 +89,17 @@ export function FranchisePage() {
         <div className="mt-3">
           <ProgressBar ratio={summary.ratio} label={loc(franchise.name)} />
         </div>
+        {summary.total > 0 && summary.watched === summary.total && (
+          <div className="mt-4 flex flex-wrap items-center gap-3 border-t-2 border-line-soft pt-3">
+            <p className="flex-1 text-sm font-semibold">{t("franchise.completed")}</p>
+            <ShareButton
+              card={{ kind: "franchise", id: franchise.id, n: summary.watched, h: Math.round(franchiseMinutes(franchise, progress) / 60) }}
+              title={loc(franchise.name)}
+              text={t("franchise.shareText", { name: loc(franchise.name) })}
+              fileName={`watch-order-${franchise.id}`}
+            />
+          </div>
+        )}
       </section>
 
       <nav aria-label={t("franchise.views")} className="mt-3 grid grid-cols-2 gap-[2px] border-2 border-line bg-line">
@@ -195,6 +210,16 @@ export function FranchisePage() {
       )}
     </div>
   );
+}
+
+/** Minutos vistos de los títulos de la franquicia (cada título una vez). */
+function franchiseMinutes(franchise: Franchise, progress: Record<string, ProgressDoc>): number {
+  let total = 0;
+  for (const id of new Set(franchise.entries.map((e) => e.titleId))) {
+    const title = catalogIndex.titlesById.get(id);
+    if (title) total += minutesWatched(title, progress[id]);
+  }
+  return total;
 }
 
 /** Títulos de la franquicia que no estaban en el editor (continuidades ocultas). */

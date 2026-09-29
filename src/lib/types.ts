@@ -101,3 +101,22 @@ export interface Catalog {
   titles: Title[];
   franchises: Franchise[];
 }
+
+// ---- Logros (SPEC §9.4) ----
+
+export type AchievementRule =
+  | { type: "complete-group"; franchiseId: string; group: string }
+  | { type: "complete-franchise"; franchiseId: string; continuityId?: string }
+  | { type: "complete-route"; franchiseId: string; routeId: string }
+  | { type: "watched-in-order"; franchiseId: string; orderId: string }
+  | { type: "count"; metric: "titles" | "hours" | "franchises"; value: number }
+  | { type: "streak"; days: number };
+
+export interface Achievement {
+  id: string;
+  name: LocalizedText;
+  description: LocalizedText;
+  /** Id de un ícono de src/lib/achievementIcons.ts. */
+  icon: string;
+  rule: AchievementRule;
+}

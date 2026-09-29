@@ -14,6 +14,9 @@ import { PlanPage } from "./features/planner/PlanPage";
 import { PlansPage } from "./features/planner/PlansPage";
 import { PlanSync } from "./features/planner/PlanSync";
 import { TimelinePage } from "./features/timeline/TimelinePage";
+import { AchievementsPage } from "./features/achievements/AchievementsPage";
+import { AchievementSync } from "./features/achievements/AchievementSync";
+import { WrappedPage } from "./features/wrapped/WrappedPage";
 
 // El mapa trae d3-force: se carga solo al abrirlo.
 const GraphPage = lazy(() => import("./features/graph/GraphPage").then((m) => ({ default: m.GraphPage })));
@@ -143,6 +146,7 @@ function Layout() {
       </main>
       <Toaster />
       <PlanSync />
+      <AchievementSync />
       <footer className="-mx-4 flex flex-col gap-2 border-t-2 border-line px-4 py-6 font-mono text-[11px] text-muted">
         <a href="https://wxlter.dev" className="flex items-center gap-2 self-start font-bold text-fg">
           <WxlterSymbol size={16} />
@@ -174,6 +178,9 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
+      { path: "achievements", element: <AchievementsPage /> },
+      { path: "wrapped", element: <WrappedPage /> },
+      { path: "wrapped/:year", element: <WrappedPage /> },
       { path: "plans", element: <PlansPage /> },
       { path: "plans/new", element: <PlanEditor /> },
       { path: "plans/:planId", element: <PlanPage /> },

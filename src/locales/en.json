@@ -23,7 +23,9 @@
     "followHint": "Follow the franchises you care about: they show up first, with what's next and upcoming releases.",
     "tools": "Tools",
     "plannerBody": "Build a marathon around your free hours and send it to your calendar.",
-    "mapBody": "Explore how titles, characters and teams connect."
+    "mapBody": "Explore how titles, characters and teams connect.",
+    "achievementsBody": "Badges for finishing phases, sagas, routes and streaks.",
+    "wrappedBody": "Your year in hours, franchises and favorite titles."
   },
   "progress": {
     "count": "{{watched}} of {{total}} watched",
@@ -38,7 +40,9 @@
     "notFound": "We couldn't find that franchise.",
     "progress": "Progress",
     "label": "Franchise",
-    "views": "Views"
+    "views": "Views",
+    "completed": "Franchise complete!",
+    "shareText": "I finished {{name}} on Watch Order."
   },
   "canon": {
     "main": "Main",
@@ -309,7 +313,9 @@
     "rated_other": "{{count}} rated",
     "top": "Most watched franchise",
     "byFranchise": "By franchise",
-    "note": "Hours use the runtime of the chosen version and include rewatches. Progress counts the continuities visible by default."
+    "note": "Hours use the runtime of the chosen version and include rewatches. Progress counts the continuities visible by default.",
+    "shareText": "I've watched {{hours}} hours on Watch Order.",
+    "share": "Share my numbers"
   },
   "upcoming": {
     "season": "Season {{season}}",
@@ -441,5 +447,60 @@
     "openTitle": "Open title",
     "connections_one": "{{count}} connection",
     "connections_other": "{{count}} connections"
+  },
+  "share": {
+    "share": "Share",
+    "preparing": "Preparing…",
+    "downloaded": "Card downloaded.",
+    "error": "Couldn't create the card. Try again."
+  },
+  "achievements": {
+    "title": "Achievements",
+    "unlocked": "Unlocked",
+    "pending": "Locked",
+    "best": "Best streak",
+    "streakHint": "A streak is consecutive days finishing a title or marking an episode.",
+    "unlockedOn": "Unlocked on {{date}}",
+    "progress": "{{current}} of {{target}}",
+    "progressHours": "{{current}} of {{target}} h",
+    "progressDays": "{{current}} of {{target}} days",
+    "inOrder": "in order",
+    "shareText": "I unlocked “{{name}}” on Watch Order.",
+    "unlockedOne": "Achievement unlocked: {{name}}",
+    "unlockedMany_one": "{{count}} achievement unlocked",
+    "unlockedMany_other": "{{count}} achievements unlocked",
+    "see": "See"
+  },
+  "wrapped": {
+    "title": "Year in review",
+    "link": "{{year}} in review",
+    "years": "Years",
+    "emptyTitle": "Nothing in {{year}}… yet",
+    "empty": "Once you finish titles this year, your review shows up here.",
+    "eyebrow": "Year in review",
+    "intro": "Your {{year}} on Watch Order",
+    "swipe": "Swipe to see it.",
+    "hoursLabel": "Screen time",
+    "hoursUnit": "hours",
+    "titlesCount_one": "You finished {{count}} title.",
+    "titlesCount_other": "You finished {{count}} titles.",
+    "episodesCount_one": "And marked {{count}} episode of ongoing shows.",
+    "episodesCount_other": "And marked {{count}} episodes of ongoing shows.",
+    "franchiseLabel": "Your franchise of the year",
+    "franchiseTime": "{{time}} in this franchise.",
+    "topLabel": "Your top rated",
+    "monthLabel": "Your most active month",
+    "monthChart": "Titles per month",
+    "achievementsLabel": "Achievements unlocked",
+    "streak_one": "Your best streak: {{count}} day.",
+    "streak_other": "Your best streak: {{count}} days in a row.",
+    "shareLabel": "Your card",
+    "cardAlt": "Card with your {{year}} review",
+    "shareText": "My {{year}} on Watch Order: {{hours}} hours.",
+    "carousel": "carousel",
+    "slide": "slide",
+    "slideOf": "{{current}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next"
   }
 }

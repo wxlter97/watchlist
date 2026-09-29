@@ -54,6 +54,13 @@ describe("users/{uid}", () => {
     await assertFails(getDoc(doc(anon(), plan)));
     await assertFails(setDoc(doc(as("bob"), plan), { name: "x" }));
   });
+
+  it("los logros desbloqueados son solo del dueño", async () => {
+    const unlock = "users/alice/profiles/default/achievements/first-title";
+    await assertSucceeds(setDoc(doc(as("alice"), unlock), { unlockedAt: new Date() }));
+    await assertFails(getDoc(doc(as("bob"), unlock)));
+    await assertFails(setDoc(doc(as("bob"), unlock), { unlockedAt: new Date() }));
+  });
 });
 
 describe("shares/{shareId}", () => {

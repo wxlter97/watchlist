@@ -12,6 +12,7 @@ import { useSettings } from "../../lib/settings";
 import type { Franchise, Title } from "../../lib/types";
 import { upcomingUrl, useRemote, type UpcomingApiItem } from "../../lib/api";
 import { upcomingReleases } from "../../lib/upcoming";
+import { isWrappedSeason } from "../../lib/wrapped";
 
 export function HubPage() {
   const { t, loc } = useLang();
@@ -52,6 +53,19 @@ export function HubPage() {
         </Link>
       </section>
 
+      {isWrappedSeason(todayIso()) && Object.values(progress).some((d) => d.status === "watched") && (
+        <Link
+          to="/wrapped"
+          className="group mt-6 flex items-center justify-between gap-4 border-2 border-line bg-tinta px-4 py-4 text-[#EDEDE7] transition-colors duration-[120ms] ease-out hover:bg-faro hover:text-tinta"
+        >
+          <span>
+            <span className="label block font-bold text-faro group-hover:text-tinta">{t("wrapped.eyebrow")}</span>
+            <span className="display mt-1 block text-[25px]">{t("wrapped.intro", { year: todayIso().slice(0, 4) })}</span>
+          </span>
+          <span aria-hidden className="display text-[31px]">→</span>
+        </Link>
+      )}
+
       {continuing.length > 0 && (
         <Section label={t("hub.continue")}>
           <div className="space-y-4">
@@ -88,6 +102,8 @@ export function HubPage() {
           {[
             { to: "/plans", title: t("planner.title"), body: t("hub.plannerBody") },
             { to: "/map", title: t("graph.title"), body: t("hub.mapBody") },
+            { to: "/achievements", title: t("achievements.title"), body: t("hub.achievementsBody") },
+            { to: "/wrapped", title: t("wrapped.title"), body: t("hub.wrappedBody") },
           ].map((tool) => (
             <li key={tool.to}>
               <Link to={tool.to} className="group block h-full bg-surface p-4 transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg">

@@ -2,7 +2,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import type { Catalog } from "../src/lib/types.ts";
-import { validateCatalog } from "../src/lib/validateCatalog.ts";
+import { validateAchievements, validateCatalog } from "../src/lib/validateCatalog.ts";
+import { ACHIEVEMENT_ICONS } from "../src/lib/achievementIcons.ts";
 
 const dataDir = fileURLToPath(new URL("../src/data/", import.meta.url));
 const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
@@ -13,7 +14,8 @@ const catalog: Catalog = {
   franchises: franchiseFiles.map((f) => read(`${dataDir}franchises/${f}`)),
 };
 
-const errors = validateCatalog(catalog);
+const achievements = read(`${dataDir}achievements.json`);
+const errors = [...validateCatalog(catalog), ...validateAchievements(achievements, catalog, Object.keys(ACHIEVEMENT_ICONS))];
 for (const f of franchiseFiles) {
   const id = f.replace(/\.json$/, "");
   if (!catalog.franchises.some((fr) => fr.id === id)) errors.push(`franchises/${f}: el id debe coincidir con el nombre del archivo`);
@@ -24,4 +26,6 @@ if (errors.length) {
   for (const e of errors) console.error(`  - ${e}`);
   process.exit(1);
 }
-console.log(`Catálogo válido: ${catalog.titles.length} títulos, ${catalog.franchises.length} franquicias.`);
+console.log(
+  `Catálogo válido: ${catalog.titles.length} títulos, ${catalog.franchises.length} franquicias, ${achievements.length} logros.`,
+);

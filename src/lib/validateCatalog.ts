@@ -1,4 +1,4 @@
-import type { Catalog, Franchise, Kind } from "./types";
+import type { Achievement, Catalog, Franchise, Kind } from "./types";
 
 // Reglas del validador (SPEC §4.5). Devuelve la lista de errores; vacía = válido.
 
@@ -138,5 +138,43 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     if (r.targetTitleId) requireTitle(r.targetTitleId, `ruta "${r.id}" targetTitleId`);
   }
 
+  return errors;
+}
+
+/** Logros: ids únicos, ícono conocido y que cada regla apunte a algo que existe. */
+export function validateAchievements(achievements: readonly Achievement[], catalog: Catalog, icons: readonly string[]): string[] {
+  const errors: string[] = [];
+  const ids = new Set<string>();
+  const franchises = new Map(catalog.franchises.map((f) => [f.id, f]));
+  for (const a of achievements) {
+    const at = `logro "${a.id}"`;
+    if (!SLUG.test(a.id)) errors.push(`${at}: el id debe ser un slug en minúsculas`);
+    if (ids.has(a.id)) errors.push(`${at}: id duplicado`);
+    ids.add(a.id);
+    if (!icons.includes(a.icon)) errors.push(`${at}: ícono "${a.icon}" desconocido`);
+    for (const field of ["name", "description"] as const) {
+      const text = a[field];
+      if (typeof text !== "object" || !text.es || !text.en) errors.push(`${at}: ${field} debe tener es y en`);
+    }
+    const rule = a.rule;
+    if (rule.type === "count" || rule.type === "streak") {
+      const n = rule.type === "count" ? rule.value : rule.days;
+      if (!Number.isInteger(n) || n <= 0) errors.push(`${at}: la meta debe ser un entero positivo`);
+      continue;
+    }
+    const f = franchises.get(rule.franchiseId);
+    if (!f) {
+      errors.push(`${at}: franquicia "${rule.franchiseId}" inexistente`);
+      continue;
+    }
+    if (rule.type === "complete-group" && !f.entries.some((e) => e.group === rule.group))
+      errors.push(`${at}: ningún título de ${f.id} está en el grupo "${rule.group}"`);
+    if (rule.type === "complete-franchise" && rule.continuityId && !f.continuities.some((c) => c.id === rule.continuityId))
+      errors.push(`${at}: continuidad "${rule.continuityId}" inexistente en ${f.id}`);
+    if (rule.type === "complete-route" && !f.routes.some((r) => r.id === rule.routeId))
+      errors.push(`${at}: ruta "${rule.routeId}" inexistente en ${f.id}`);
+    if (rule.type === "watched-in-order" && !f.orders.some((o) => o.id === rule.orderId))
+      errors.push(`${at}: orden "${rule.orderId}" inexistente en ${f.id}`);
+  }
   return errors;
 }
