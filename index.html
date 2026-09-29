@@ -23,7 +23,46 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      App shell: la cabecera (y en / el titular del Hub) se pinta con el HTML, antes de que
+      llegue el JavaScript. React lo reemplaza al montar. Los textos salen de src/locales
+      (shell.test.ts verifica que coincidan) y el idioma se detecta igual que en i18n.ts.
+    -->
+    <div id="root">
+      <div class="mx-auto flex min-h-dvh max-w-3xl flex-col px-4">
+        <header class="sticky top-0 z-20 -mx-4 flex h-[58px] items-center justify-between gap-3 border-b-2 border-line bg-bg px-4">
+          <span class="flex min-w-0 items-center gap-2">
+            <span aria-hidden="true" class="grid shrink-0 place-items-center bg-faro font-display text-tinta" style="width: 30px; height: 30px; font-size: 16.5px; line-height: 1; letter-spacing: -0.04em">O</span>
+            <span class="display truncate text-lg whitespace-nowrap max-[419px]:sr-only">Watch Order</span>
+          </span>
+        </header>
+        <main class="flex-1 pb-16">
+          <section id="shell-hero" class="on-faro -mx-4 border-b-2 border-line bg-faro px-4 pt-8 pb-10 text-tinta">
+            <p class="label font-bold" data-es="Watch Order — tus sagas" data-en="Watch Order — your sagas"></p>
+            <h1 class="display mt-4 max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px]" data-es="Tus sagas, en el orden que prefieras." data-en="Your sagas, in the order you like."></h1>
+            <div class="mt-6 flex min-h-12 max-w-md items-center gap-3 border-2 border-tinta bg-white px-3 font-mono text-sm text-tinta/60">
+              <svg viewBox="0 0 24 24" class="size-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5L21 21" stroke-linecap="square" /></svg>
+              <span data-es="Busca un título, franquicia o ruta" data-en="Search a title, franchise or route"></span>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var hero = document.getElementById("shell-hero");
+        if (location.pathname !== "/") return hero.remove();
+        var lang;
+        try { lang = localStorage.getItem("watch-order:lang"); } catch (e) {}
+        if (!lang) {
+          var list = navigator.languages || [navigator.language];
+          for (var i = 0; i < list.length && !lang; i++) if (/^(es|en)/.test(list[i])) lang = list[i];
+        }
+        lang = lang && lang.indexOf("en") === 0 ? "en" : "es";
+        document.documentElement.lang = lang;
+        hero.querySelectorAll("[data-es]").forEach(function (el) { el.textContent = el.getAttribute("data-" + lang); });
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

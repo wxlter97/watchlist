@@ -2,19 +2,32 @@ import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "
 import { lazy, Suspense, useEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { Toaster } from "./components/Toaster";
-import { FranchisePage } from "./features/franchise/FranchisePage";
 import { HubPage } from "./features/hub/HubPage";
-import { TitlePage } from "./features/detail/TitlePage";
-import { RoutePage } from "./features/routes/RoutePage";
-import { SearchPage } from "./features/search/SearchPage";
 import { PlanSync } from "./features/planner/PlanSync";
 import { AchievementSync } from "./features/achievements/AchievementSync";
 import { GroupSync } from "./features/groups/GroupSync";
 
-// Pantallas secundarias en chunks propios: el arranque solo carga Hub, franquicia, título,
-// rutas y búsqueda. El mapa además trae d3-force.
+// Todo menos el Hub va en chunks propios: el arranque carga lo mínimo para pintar la portada.
+// El mapa además trae d3-force.
 const page = <K extends string>(load: () => Promise<Record<K, ComponentType>>, name: K) =>
   lazy(() => load().then((m) => ({ default: m[name] })));
+// Lo que se abre desde el Hub se descarga apenas la página termina de cargar, para que
+// navegar siga siendo inmediato (después el service worker lo tiene en caché).
+const loadFranchise = () => import("./features/franchise/FranchisePage");
+const loadTitle = () => import("./features/detail/TitlePage");
+const loadRoute = () => import("./features/routes/RoutePage");
+const loadSearch = () => import("./features/search/SearchPage");
+const FranchisePage = page(loadFranchise, "FranchisePage");
+const TitlePage = page(loadTitle, "TitlePage");
+const RoutePage = page(loadRoute, "RoutePage");
+const SearchPage = page(loadSearch, "SearchPage");
+function prefetchPages() {
+  const run = () => [loadFranchise, loadTitle, loadRoute, loadSearch].forEach((load) => void load().catch(() => undefined));
+  const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(run, { timeout: 3000 }) : setTimeout(run, 500));
+  if (document.readyState === "complete") idle();
+  else addEventListener("load", idle, { once: true });
+}
+prefetchPages();
 const GraphPage = page(() => import("./features/graph/GraphPage"), "GraphPage");
 const StatsPage = page(() => import("./features/stats/StatsPage"), "StatsPage");
 const PlanEditor = page(() => import("./features/planner/PlanEditor"), "PlanEditor");

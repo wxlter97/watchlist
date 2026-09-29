@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
 import { useLang } from "../../lib/i18n";
@@ -7,6 +7,7 @@ import { SharesSection } from "./SharesSection";
 import {
   createProfile,
   deleteProfile,
+  preloadAccount,
   renameProfile,
   selectProfile,
   signIn,
@@ -50,6 +51,8 @@ function AuthError() {
 
 function GuestCard({ loading }: { loading: boolean }) {
   const { t } = useLang();
+  // Firebase listo antes del clic: el popup de Google tiene que abrirse en el mismo gesto.
+  useEffect(preloadAccount, []);
   return (
     <section className="space-y-4">
       <div className="border-2 border-line bg-surface">

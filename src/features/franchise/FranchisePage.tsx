@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { Link, useParams } from "react-router";
 import { FollowButton } from "../../components/FollowButton";
 import { TitleRow } from "../../components/TitleRow";
@@ -12,12 +12,14 @@ import { useProgressStore } from "../../lib/progressStore";
 import { showToast } from "../../lib/toasts";
 import { summarize, todayIso } from "../../lib/progress";
 import { RoutesSection } from "../routes/RoutesSection";
-import { CustomOrderEditor } from "./CustomOrderEditor";
 import { FiltersPanel } from "./FiltersPanel";
 import { TimeBudget } from "./TimeBudget";
 import { ShareButton } from "../../components/ShareButton";
 import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { minutesWatched } from "../../lib/episodes";
+
+// El editor trae @dnd-kit: solo se descarga al empezar a editar el orden.
+const CustomOrderEditor = lazy(() => import("./CustomOrderEditor").then((m) => ({ default: m.CustomOrderEditor })));
 import type { ProgressDoc } from "../../lib/progressStore";
 import type { Franchise } from "../../lib/types";
 
@@ -160,16 +162,18 @@ export function FranchisePage() {
       {!editing && <TimeBudget items={items} planHref={`/plans/new?f=${franchise.id}&type=order&ref=${order.id}`} />}
 
       {editing ? (
-        <CustomOrderEditor
-          titles={items.map((i) => i.title)}
-          onCancel={() => setEditing(false)}
-          onSave={(ids) => {
-            // Los títulos de continuidades ocultas conservan su lugar relativo, al final.
-            const rest = computeHiddenTail(view.items, ids, franchise.entries.map((e) => e.titleId));
-            view.saveCustomOrder([...ids, ...rest]);
-            setEditing(false);
-          }}
-        />
+        <Suspense fallback={<p className="py-8 text-center text-muted">…</p>}>
+          <CustomOrderEditor
+            titles={items.map((i) => i.title)}
+            onCancel={() => setEditing(false)}
+            onSave={(ids) => {
+              // Los títulos de continuidades ocultas conservan su lugar relativo, al final.
+              const rest = computeHiddenTail(view.items, ids, franchise.entries.map((e) => e.titleId));
+              view.saveCustomOrder([...ids, ...rest]);
+              setEditing(false);
+            }}
+          />
+        </Suspense>
       ) : (
         <>
           <FiltersPanel

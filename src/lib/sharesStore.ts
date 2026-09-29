@@ -1,26 +1,15 @@
-import { collection, deleteDoc, doc, setDoc, Timestamp, updateDoc, type DocumentData, type FirestoreDataConverter, type QueryDocumentSnapshot } from "firebase/firestore";
 import { create } from "zustand";
-import { db } from "./firebase";
 import { findShare, newShareId, type ShareDoc, type ShareSnapshot, type ShareTarget } from "./shares";
 import type { Lang } from "./types";
 
 // Links compartidos de la cuenta (colección raíz shares/, filtrada por ownerUid).
-// session.ts los escucha mientras hay sesión.
+// sessionCloud.ts los escucha mientras hay sesión. Los cambios se aplican aquí al instante y
+// se escriben con sharesCloud.ts, que trae Firebase bajo demanda.
 
 export const useSharesStore = create<{ shares: ShareDoc[] }>()(() => ({ shares: [] }));
 
-const toTs = (iso: string) => Timestamp.fromDate(new Date(iso));
-const toIso = (ts: unknown) => (ts instanceof Timestamp ? ts.toDate().toISOString() : new Date(0).toISOString());
-
-export const shareConverter: FirestoreDataConverter<ShareDoc> = {
-  toFirestore: ({ id: _id, ...s }: ShareDoc) => ({ ...s, createdAt: toTs(s.createdAt), updatedAt: toTs(s.updatedAt) }),
-  fromFirestore: (snap: QueryDocumentSnapshot<DocumentData>) => {
-    const d = snap.data();
-    return { ...d, id: snap.id, createdAt: toIso(d.createdAt), updatedAt: toIso(d.updatedAt) } as ShareDoc;
-  },
-};
-
-export const sharesCollection = () => collection(db, "shares").withConverter(shareConverter);
+const cloud = () => import("./sharesCloud");
+const report = (err: unknown) => console.error("[shares]", err);
 
 /**
  * Crea el link o, si ya existe uno para lo mismo, actualiza su foto (y lo reactiva si estaba
@@ -47,16 +36,16 @@ export function publishShare(
     revoked: false,
   };
   useSharesStore.setState((s) => ({ shares: [share, ...s.shares.filter((x) => x.id !== share.id)] }));
-  setDoc(doc(sharesCollection(), share.id), share).catch((err) => console.error("[shares]", err));
+  cloud().then((m) => m.writeShare(share), report);
   return share;
 }
 
 export function setShareRevoked(id: string, revoked: boolean) {
   useSharesStore.setState((s) => ({ shares: s.shares.map((x) => (x.id === id ? { ...x, revoked } : x)) }));
-  updateDoc(doc(db, "shares", id), { revoked, updatedAt: Timestamp.now() }).catch((err) => console.error("[shares]", err));
+  cloud().then((m) => m.writeRevoked(id, revoked), report);
 }
 
 export function deleteShare(id: string) {
   useSharesStore.setState((s) => ({ shares: s.shares.filter((x) => x.id !== id) }));
-  deleteDoc(doc(db, "shares", id)).catch((err) => console.error("[shares]", err));
+  cloud().then((m) => m.removeShare(id), report);
 }

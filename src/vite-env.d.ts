@@ -11,3 +11,14 @@ interface ImportMetaEnv {
   /** "1" conecta Auth y Firestore a los emuladores locales. */
   readonly VITE_FIREBASE_EMULATORS?: string;
 }
+
+// Generados por catalogSplit() en vite.config.ts a partir de src/data/titles.json.
+declare module "virtual:catalog-titles" {
+  const titles: import("./lib/types").Title[];
+  export default titles;
+}
+declare module "virtual:overviews/*" {
+  /** Sinopsis por id de título, ya resueltas para el idioma. */
+  const overviews: Record<string, string>;
+  export default overviews;
+}

@@ -1,3 +1,4 @@
+import { contrastRatio, onColor } from "./color";
 import type { Achievement, Catalog, Franchise, Kind } from "./types";
 
 // Reglas del validador (SPEC §4.5). Devuelve la lista de errores; vacía = válido.
@@ -51,6 +52,9 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
 
   if (!SLUG.test(f.id)) errors.push(at("el id debe ser un slug en minúsculas"));
   if (!HEX.test(f.accentColor)) errors.push(at(`accentColor "${f.accentColor}" no es #rrggbb`));
+  // Sobre el acento va texto chico (etiquetas, botones): tiene que cumplir WCAG AA.
+  else if (contrastRatio(f.accentColor, onColor(f.accentColor)) < 4.5)
+    errors.push(at(`accentColor "${f.accentColor}" no llega a 4.5:1 de contraste con el texto encima`));
 
   const continuityIds = new Set<string>();
   for (const c of f.continuities) {

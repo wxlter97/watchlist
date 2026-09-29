@@ -1,6 +1,6 @@
 /// <reference types="vitest/config" />
-import { existsSync } from "node:fs";
-import { join } from "node:path";
+import { existsSync, readFileSync } from "node:fs";
+import { join, resolve } from "node:path";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
@@ -64,6 +64,41 @@ function apiDevServer(): Plugin {
   };
 }
 
+/**
+ * titles.json sin sinopsis para el arranque: son más de la mitad del archivo y solo las usa
+ * el detalle de un título. `virtual:catalog-titles` trae el resto y `virtual:overviews/{lang}`
+ * las sinopsis de un idioma, en un chunk aparte. titles.json sigue siendo la única fuente.
+ */
+function catalogSplit(): Plugin {
+  const file = resolve("src/data/titles.json");
+  type Raw = { id: string; overview?: string; localized?: Record<string, { title: string; overview?: string }> };
+  return {
+    name: "watch-order-catalog-split",
+    resolveId(id) {
+      if (id === "virtual:catalog-titles" || /^virtual:overviews\/(es|en)$/.test(id)) return `\0${id}`;
+    },
+    load(id) {
+      if (!id.startsWith("\0virtual:")) return;
+      this.addWatchFile(file);
+      const titles = JSON.parse(readFileSync(file, "utf8")) as Raw[];
+      let data: unknown;
+      if (id === "\0virtual:catalog-titles") {
+        data = titles.map(({ overview: _overview, localized, ...t }) =>
+          localized ? { ...t, localized: Object.fromEntries(Object.entries(localized).map(([l, v]) => [l, { title: v.title }])) } : t,
+        );
+      } else {
+        const lang = id.slice(-2);
+        data = Object.fromEntries(titles.flatMap((t) => {
+          const overview = t.localized?.[lang]?.overview || t.overview;
+          return overview ? [[t.id, overview]] : [];
+        }));
+      }
+      // JSON.parse de un string es más rápido de evaluar que un literal de objeto grande.
+      return `export default JSON.parse(${JSON.stringify(JSON.stringify(data))});`;
+    },
+  };
+}
+
 export default defineConfig(({ mode }) => {
   // Variables sin prefijo VITE_ (TMDB_API_KEY…) solo para las funciones en desarrollo;
   // nunca entran al bundle del cliente.
@@ -72,17 +107,22 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       apiDevServer(),
+      catalogSplit(),
       react(),
       tailwindcss(),
       VitePWA({
         registerType: "autoUpdate",
+        // El registro del service worker no bloquea el primer render.
+        injectRegister: "script-defer",
         includeAssets: ["favicon.png", "apple-touch-icon.png"],
         manifest: {
           name: "Watch Order",
           short_name: "Watch Order",
           description: "Sigue sagas y franquicias de cine y TV en el orden que prefieras.",
           lang: "es",
+          id: "/",
           start_url: "/",
+          scope: "/",
           display: "standalone",
           background_color: "#F4F3EF",
           theme_color: "#111111",
@@ -135,8 +175,8 @@ export default defineConfig(({ mode }) => {
             groups: [
               // Messaging solo se carga al activar avisos: queda fuera del chunk de Firebase.
               { name: "firebase", test: /^(?!.*messaging).*node_modules[\\/].*@?firebase/ },
-              // Los recaps se cargan uno por uno, bajo demanda.
-              { name: "catalog", test: /src[\\/]data[\\/](?!recaps)/ },
+              // Los recaps se cargan uno por uno y las sinopsis por idioma, bajo demanda.
+              { name: "catalog", test: /src[\\/]data[\\/](?!recaps)|virtual:catalog-titles/ },
             ],
           },
         },
@@ -147,6 +187,15 @@ export default defineConfig(({ mode }) => {
       environment: "jsdom",
       include: ["src/**/*.test.{ts,tsx}"],
       setupFiles: ["./src/test/setup.ts"],
+      coverage: {
+        // La lógica pura de lib/: el núcleo que pide el SPEC (§11, fase 9) no puede bajar del 95%.
+        include: ["src/lib/**/*.ts"],
+        exclude: ["src/lib/**/*.test.ts"],
+        reporter: ["text-summary", "html"],
+        thresholds: {
+          "src/lib/{orders,planner,achievements,validateCatalog}.ts": { lines: 95, functions: 95, statements: 90, branches: 80 },
+        },
+      },
     },
   };
 });

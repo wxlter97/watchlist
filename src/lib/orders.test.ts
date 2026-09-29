@@ -47,9 +47,51 @@ describe("computeOrder", () => {
   });
 });
 
+describe("computeOrder: casos borde", () => {
+  it("ignora entries cuyo título no está en el catálogo", () => {
+    const f = structuredClone(franchise);
+    f.entries.push({ titleId: "ghost", continuityId: "main", importance: "optional" });
+    expect(computeOrder(f, resolveOrder(f, "release"), titlesById)).toHaveLength(4);
+  });
+
+  it("grouped: lo que no tiene grupo, o tiene uno sin etiqueta, va al final sin sección", () => {
+    const f = structuredClone(franchise);
+    delete f.entries[0]!.group; // a-2001
+    f.entries[2]!.group = "g9"; // c-2005
+    const items = computeOrder(f, resolveOrder(f, "grouped"), titlesById);
+    expect(items.map((i) => [i.title.id, i.section])).toEqual([
+      ["b-2003", "g2"], ["alt-2004", "g2"], ["a-2001", undefined], ["c-2005", undefined],
+    ]);
+  });
+
+  it("chronological: una continuidad no declarada va al final; empates por estreno y luego por id", () => {
+    const f = structuredClone(franchise);
+    f.entries[0]!.continuityId = "lost"; // a-2001
+    for (const e of f.entries) delete e.chronoOrder;
+    expect(computeOrder(f, resolveOrder(f, "chrono"), titlesById).map((i) => i.title.id)).toEqual([
+      "b-2003", "c-2005", "alt-2004", "a-2001",
+    ]);
+  });
+
+  it("es determinista: el orden de las entries en el JSON no cambia el resultado", () => {
+    const f = structuredClone(franchise);
+    f.entries.reverse();
+    for (const id of ["release", "chrono", "grouped", "curated"]) {
+      expect(computeOrder(f, resolveOrder(f, id), titlesById).map((i) => i.title.id)).toEqual(ids(id));
+    }
+  });
+});
+
 describe("resolveOrder", () => {
   it("cae al orden de estreno si el id no existe", () => {
     expect(resolveOrder(franchise, "nope").id).toBe("release");
+    expect(resolveOrder(franchise, undefined).id).toBe("release");
+  });
+
+  it("sin orden de estreno cae al primero; custom sin lista guardada queda vacío", () => {
+    const f = { ...franchise, orders: franchise.orders.filter((o) => o.type !== "release") };
+    expect(resolveOrder(f, "nope").id).toBe("chrono");
+    expect(resolveOrder(franchise, CUSTOM_ORDER_ID)).toEqual({ id: CUSTOM_ORDER_ID, type: "custom", titleIds: [] });
   });
 });
 

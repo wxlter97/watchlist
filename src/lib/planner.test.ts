@@ -10,7 +10,7 @@ import {
   ESTIMATED_MOVIE_MIN,
   type PlanUnit,
 } from "./planner";
-import { computePlan, goalTitles } from "./plans";
+import { computePlan, goalExists, goalTitles, newFeedToken } from "./plans";
 import type { ProgressDoc } from "./progressStore";
 import { makeCatalog, title } from "../test/fixtures";
 
@@ -207,6 +207,22 @@ describe("planes", () => {
     const view = computePlan({ ...plan, availableDays: [...plan.availableDays] }, { ...ctx, progress: { "c-2005": watched() } }, "2026-09-28");
     expect(view.pendingTitles).toBe(1);
     expect(view.schedule.days).toEqual([{ date: "2026-09-28", items: [{ titleId: "b-2003", minutes: 120 }] }]);
+  });
+
+  it("detecta metas que ya no existen en el catálogo", () => {
+    expect(goalExists({ type: "franchise", franchiseId: "test", refId: "test" }, index)).toBe(true);
+    expect(goalExists({ type: "order", franchiseId: "test", refId: "chrono" }, index)).toBe(true);
+    expect(goalExists({ type: "order", franchiseId: "test", refId: "custom" }, index)).toBe(true);
+    expect(goalExists({ type: "route", franchiseId: "test", refId: "r" }, index)).toBe(true);
+    expect(goalExists({ type: "route", franchiseId: "test", refId: "gone" }, index)).toBe(false);
+    expect(goalExists({ type: "order", franchiseId: "test", refId: "gone" }, index)).toBe(false);
+    expect(goalExists({ type: "franchise", franchiseId: "gone", refId: "gone" }, index)).toBe(false);
+  });
+
+  it("el token del feed es secreto: 256 bits y distinto cada vez", () => {
+    const a = newFeedToken();
+    expect(a).toMatch(/^[0-9a-f]{64}$/);
+    expect(newFeedToken()).not.toBe(a);
   });
 });
 

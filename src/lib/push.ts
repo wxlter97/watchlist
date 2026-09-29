@@ -1,36 +1,11 @@
 import { deleteDoc, doc, serverTimestamp, setDoc } from "firebase/firestore";
 import { db, firebaseApp } from "./firebase";
+import { platform, pushSupport, TOKEN_KEY, VAPID_KEY } from "./pushSupport";
 
 // Web Push con FCM (SPEC §9.6). El permiso se pide solo tras una acción del usuario. En iOS
 // funciona únicamente con la PWA instalada en la pantalla de inicio (iOS 16.4+).
 
-const VAPID_KEY = import.meta.env.VITE_FIREBASE_VAPID_KEY;
-const TOKEN_KEY = "watch-order:push-token";
-
-export type PushSupport = "ok" | "unconfigured" | "unsupported" | "ios-install" | "denied";
-
-export function isIos(): boolean {
-  return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-}
-
-function isStandalone(): boolean {
-  return matchMedia("(display-mode: standalone)").matches || (navigator as Navigator & { standalone?: boolean }).standalone === true;
-}
-
-export function pushSupport(): PushSupport {
-  if (!VAPID_KEY) return "unconfigured";
-  const capable = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
-  if (isIos() && !isStandalone()) return "ios-install";
-  if (!capable) return "unsupported";
-  if (Notification.permission === "denied") return "denied";
-  return "ok";
-}
-
-function platform(): string {
-  if (isIos()) return "ios";
-  if (/Android/.test(navigator.userAgent)) return "android";
-  return "web";
-}
+export { hasPushToken, isIos, pushSupport, type PushSupport } from "./pushSupport";
 
 /**
  * Pide permiso (si hace falta), obtiene el token de FCM y registra el dispositivo en
@@ -73,12 +48,4 @@ export async function disablePush(uid: string) {
   await deleteDoc(doc(db, "users", uid, "devices", token)).catch(() => undefined);
   const { getMessaging, deleteToken } = await import("firebase/messaging");
   await deleteToken(getMessaging(firebaseApp)).catch(() => undefined);
-}
-
-export function hasPushToken(): boolean {
-  try {
-    return Boolean(localStorage.getItem(TOKEN_KEY));
-  } catch {
-    return false;
-  }
 }

@@ -1,4 +1,4 @@
-import { enablePush, pushSupport } from "./push";
+import { pushSupport } from "./pushSupport";
 import { setNotification, useSettings } from "./settings";
 import { useSession } from "./session";
 import { showToast } from "./toasts";
@@ -29,10 +29,16 @@ export function offerReleaseAlerts(t: (key: string) => string) {
     action: {
       label: t("notifications.enable"),
       onClick: () => {
-        void enablePush(uid).then((ok) => {
-          if (ok) setNotification("releases", true);
-          else showToast({ message: t("notifications.notGranted") });
-        });
+        // El permiso se pide en el mismo clic (Safari no lo permite después de una espera);
+        // Firebase se carga recién después.
+        const permission = Notification.permission === "granted" ? Promise.resolve("granted") : Notification.requestPermission();
+        void permission
+          .then((p) => (p === "granted" ? import("./push").then((m) => m.enablePush(uid)) : false))
+          .catch(() => false)
+          .then((ok) => {
+            if (ok) setNotification("releases", true);
+            else showToast({ message: t("notifications.notGranted") });
+          });
       },
     },
     duration: 10_000,

@@ -3,7 +3,8 @@ import { Link, useNavigate } from "react-router";
 import { accentStyle, Button, Notice, SectionLabel, SelectField, TextField } from "../../components/ui";
 import { catalogIndex } from "../../lib/catalog";
 import { groupTitles } from "../../lib/groups";
-import { createGroup, useGroupsStore } from "../../lib/groupsStore";
+import { createGroup } from "../../lib/groupsCloud";
+import { useGroupsStore } from "../../lib/groupsStore";
 import { useLang } from "../../lib/i18n";
 import { useSession } from "../../lib/session";
 

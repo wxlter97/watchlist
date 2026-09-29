@@ -13,18 +13,20 @@ service cloud.firestore {
     }
 
     // Links públicos de solo lectura: guardan un snapshot, nunca el progreso vivo.
-    // El dueño también ve los suyos revocados (para listarlos y reactivarlos).
+    // Un link activo se abre por su id; listar es solo del dueño (que también ve los
+    // revocados, para reactivarlos): nadie puede enumerar los links de todos.
     match /shares/{shareId} {
-      allow read: if resource.data.revoked == false
-        || (signedIn() && resource.data.ownerUid == request.auth.uid);
+      function owns() {
+        return signedIn() && resource.data.ownerUid == request.auth.uid;
+      }
+      allow get: if resource.data.revoked == false || owns();
+      allow list: if owns();
       allow create: if signedIn()
         && request.resource.data.ownerUid == request.auth.uid
         && request.resource.data.kind in ['route', 'custom-order', 'progress']
         && request.resource.data.revoked == false;
-      allow update: if signedIn()
-        && resource.data.ownerUid == request.auth.uid
-        && request.resource.data.ownerUid == resource.data.ownerUid;
-      allow delete: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow update: if owns() && request.resource.data.ownerUid == resource.data.ownerUid;
+      allow delete: if owns();
     }
 
     match /groups/{groupId} {
@@ -49,7 +51,7 @@ service cloud.firestore {
 
       // El dueño edita el grupo y puede sacar miembros, pero no agregar (eso pasa por
       // /api/groups/join, que valida inviteCode) ni ceder la propiedad. Un miembro solo
-      // puede salirse, y marcar lo visto va en progress/.
+      // puede salirse; el dueño no se sale, borra el grupo. Marcar lo visto va en progress/.
       allow update: if isMember(resource.data)
         && consistent(request.resource.data)
         && request.resource.data.ownerUid == resource.data.ownerUid
@@ -57,7 +59,8 @@ service cloud.firestore {
         && (
           resource.data.ownerUid == request.auth.uid
             && resource.data.ownerUid in request.resource.data.memberUids
-          || request.resource.data.diff(resource.data).affectedKeys().hasOnly(['members', 'memberUids', 'memberNames'])
+          || resource.data.ownerUid != request.auth.uid
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['members', 'memberUids', 'memberNames'])
             && !(request.auth.uid in request.resource.data.memberUids)
             && request.resource.data.memberUids.size() == resource.data.memberUids.size() - 1
         );

@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router";
 import { Button, Notice, SelectField } from "../../components/ui";
-import { joinGroup, useGroupsStore } from "../../lib/groupsStore";
+import { joinGroup } from "../../lib/groupsCloud";
+import { useGroupsStore } from "../../lib/groupsStore";
 import { useLang } from "../../lib/i18n";
-import { signIn, useSession } from "../../lib/session";
+import { preloadAccount, signIn, useSession } from "../../lib/session";
 
 /** /join/:groupId?code=… — unirse a un grupo con el link de invitación. */
 export function JoinPage() {
@@ -20,6 +21,7 @@ export function JoinPage() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const chosen = profiles.find((p) => p.id === (profileId ?? activeProfileId));
+  useEffect(preloadAccount, []);
 
   const join = async () => {
     if (!chosen) return;

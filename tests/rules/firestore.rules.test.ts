@@ -88,6 +88,13 @@ describe("shares/{shareId}", () => {
     await assertFails(getDocs(query(collection(as("bob"), "shares"), where("ownerUid", "==", "alice"))));
   });
 
+  it("nadie enumera los links de todos, ni siquiera los activos", async () => {
+    await seed("shares/s1", share);
+    await assertFails(getDocs(collection(anon(), "shares")));
+    await assertFails(getDocs(query(collection(anon(), "shares"), where("revoked", "==", false))));
+    await assertFails(getDocs(query(collection(as("bob"), "shares"), where("revoked", "==", false))));
+  });
+
   it("solo se crea a nombre propio, activo y de un tipo conocido", async () => {
     await assertSucceeds(setDoc(doc(as("alice"), "shares/s1"), share));
     await assertFails(setDoc(doc(as("bob"), "shares/s2"), share));
@@ -171,6 +178,31 @@ describe("groups/{groupId}", () => {
     );
   });
 
+  it("el dueño no se sale de su grupo (lo borra) ni deja members y memberUids desalineados", async () => {
+    await seed("groups/g1", group);
+    const bobOnly = { members: { bob: "p2" }, memberUids: ["bob"], memberNames: { bob: "Bob" } };
+    await assertFails(updateDoc(doc(as("alice"), "groups/g1"), bobOnly));
+    await assertFails(updateDoc(doc(as("alice"), "groups/g1"), { memberUids: ["alice"] }));
+    await assertFails(updateDoc(doc(as("alice"), "groups/g1"), { memberNames: { ...group.memberNames, carol: "C" } }));
+  });
+
+  it("al salirse, un miembro solo se quita a sí mismo y no toca nada más", async () => {
+    await seed("groups/g1", { ...group, members: { ...group.members, carol: "x" }, memberUids: ["alice", "bob", "carol"], memberNames: { ...group.memberNames, carol: "C" } });
+    await assertFails(updateDoc(doc(as("bob"), "groups/g1"), { ...solo, name: "Adiós" })); // se sale y además quita a carol y renombra
+    await assertFails(updateDoc(doc(as("bob"), "groups/g1"), { members: solo.members, memberUids: solo.memberUids, memberNames: solo.memberNames }));
+    await assertSucceeds(
+      updateDoc(doc(as("bob"), "groups/g1"), { members: { alice: "default", carol: "x" }, memberUids: ["alice", "carol"], memberNames: { alice: "Alice", carol: "C" } }),
+    );
+  });
+
+  it("quien sale del grupo pierde el acceso a su progreso", async () => {
+    await seed("groups/g1", solo);
+    await seed("groups/g1/progress/iron-man-2008", { watchedBy: { bob: new Date() }, watchedTogether: false });
+    await assertFails(getDoc(doc(as("bob"), "groups/g1")));
+    await assertFails(getDoc(doc(as("bob"), "groups/g1/progress/iron-man-2008")));
+    await assertFails(updateDoc(doc(as("bob"), "groups/g1/progress/iron-man-2008"), { watchedTogether: true }));
+  });
+
   it("solo el dueño borra", async () => {
     await seed("groups/g1", group);
     await assertFails(deleteDoc(doc(as("bob"), "groups/g1")));
@@ -186,6 +218,7 @@ describe("groups/{groupId}", () => {
     await assertSucceeds(updateDoc(doc(as("alice"), path), { "watchedBy.alice": new Date(), watchedTogether: true }));
     await assertFails(getDoc(doc(as("carol"), path)));
     await assertFails(setDoc(doc(as("carol"), path), { watchedBy: {}, watchedTogether: true }));
+    await assertFails(setDoc(doc(as("bob"), "groups/g1/progress/thor-2011"), { watchedBy: { alice: new Date() }, watchedTogether: false }));
     await assertFails(getDoc(doc(anon(), path)));
     await assertFails(deleteDoc(doc(as("bob"), path)));
     await assertSucceeds(deleteDoc(doc(as("alice"), path)));

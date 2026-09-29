@@ -139,4 +139,26 @@ describe("achievements.json", () => {
       'logro "x": la meta debe ser un entero positivo',
     ]);
   });
+
+  it("el validador revisa cada tipo de regla", () => {
+    const text = { es: "x", en: "x" };
+    const mk = (id: string, rule: AchievementRule) => ({ ...ach(id, rule), name: text, description: text });
+    const bad = [
+      mk("Mal", { type: "count", metric: "titles", value: 1 }),
+      mk("dup", { type: "count", metric: "titles", value: 1 }),
+      mk("dup", { type: "count", metric: "titles", value: 1 }),
+      mk("f", { type: "complete-franchise", franchiseId: "nope" }),
+      mk("c", { type: "complete-franchise", franchiseId: "marvel", continuityId: "nope" }),
+      mk("r", { type: "complete-route", franchiseId: "marvel", routeId: "nope" }),
+      mk("o", { type: "watched-in-order", franchiseId: "marvel", orderId: "nope" }),
+    ];
+    expect(validateAchievements(bad, realCatalog, Object.keys(ACHIEVEMENT_ICONS))).toEqual([
+      'logro "Mal": el id debe ser un slug en minúsculas',
+      'logro "dup": id duplicado',
+      'logro "f": franquicia "nope" inexistente',
+      'logro "c": continuidad "nope" inexistente en marvel',
+      'logro "r": ruta "nope" inexistente en marvel',
+      'logro "o": orden "nope" inexistente en marvel',
+    ]);
+  });
 });

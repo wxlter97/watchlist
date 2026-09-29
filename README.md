@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 8 — links compartibles, grupos, comparar progreso, notificaciones push y recaps.
+**Estado:** fase 9 — pulido: tests, reglas probadas con el emulador, rendimiento y deploy.
 
 ## Desarrollo
 
@@ -11,9 +11,23 @@ La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 pnpm install
 pnpm dev                 # http://localhost:5173
 pnpm test                # Vitest
+pnpm test:coverage       # con cobertura; orders, planner, achievements y el validador ≥ 95%
 pnpm typecheck
 pnpm build && pnpm preview
+pnpm check:bundle        # después del build: ningún secreto ni código de servidor en dist/
 ```
+
+### Rendimiento
+
+- El arranque como invitado no descarga Firebase: `session.ts` solo carga `sessionCloud.ts`
+  si el dispositivo tiene una cuenta iniciada (`watch-order:account`) o al iniciar sesión.
+- Las sinopsis salen del catálogo del arranque (`catalogSplit` en `vite.config.ts`) y se
+  cargan por idioma al abrir un título.
+- Todo menos el Hub va en chunks propios, que se precargan cuando la página termina de cargar.
+- `index.html` trae un *app shell* (cabecera y titular del Hub) que se pinta antes del JS.
+- Lighthouse (móvil, `pnpm build && pnpm preview`): rendimiento ≥ 90; accesibilidad, buenas
+  prácticas y SEO 100. Lighthouse 12+ ya no tiene categoría PWA: la instalabilidad
+  (manifest con íconos 192/512 y maskable, service worker, offline) se revisa aparte.
 
 ## Firebase
 
@@ -110,6 +124,17 @@ pnpm catalog:enrich --only loki-2021 --dry-run
 `catalog:enrich` necesita `TMDB_API_KEY` (el *API Read Access Token* de TMDB) en `.env.local`.
 Esa variable solo la leen los scripts y, más adelante, las funciones de `/api`; nunca llega al cliente.
 El script también verifica el catálogo: reporta cada nombre o fecha que difiera de TMDB.
+
+## Deploy (Vercel)
+
+1. `vercel login` y `vercel link` (o importar el repo desde vercel.com). `vercel.json` ya fija
+   framework, build (`pnpm build` → `dist/`), headers, rewrites y crons; Node 24.
+2. Variables de entorno (Production y Preview): las `VITE_FIREBASE_*` de `.env.example`, con
+   `VITE_FIREBASE_AUTH_DOMAIN` = dominio de la app, más `TMDB_API_KEY`,
+   `FIREBASE_SERVICE_ACCOUNT` y `CRON_SECRET`.
+3. Firebase: agregar el dominio a *Authentication → Settings → Authorized domains* y
+   publicar las reglas con `pnpm rules:deploy`.
+4. `vercel deploy --prod`. Los crons solo corren en producción.
 
 ## Nota legal
 

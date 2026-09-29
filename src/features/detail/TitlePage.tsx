@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLabel, Tabs } from "../../components/ui";
 import { catalogIndex } from "../../lib/catalog";
-import { titleOverview, useLang } from "../../lib/i18n";
+import { useLang } from "../../lib/i18n";
+import { useOverview } from "../../lib/overviews";
 import { isReleased } from "../../lib/progress";
 import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
@@ -22,6 +23,7 @@ export function TitlePage() {
   const status = doc?.status;
   const spoilerFree = useSettings((s) => s.spoilerFree);
   const [revealed, setRevealed] = useState(false);
+  const { overview, loading: overviewLoading } = useOverview(title, lang);
 
   if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
 
@@ -30,7 +32,6 @@ export function TitlePage() {
   const prep = catalogIndex.prepByTarget.get(title.id) ?? [];
   const accent = appearances[0]?.franchise.accentColor ?? "#FFDB00";
   const released = isReleased(title);
-  const overview = titleOverview(title, lang);
   // Sin spoilers por defecto: la sinopsis de lo no visto queda oculta hasta revelarla.
   const showOverview = !spoilerFree || status === "watched" || revealed;
   const totalEpisodes = title.seasons?.reduce((n, s) => n + s.episodes, 0);
@@ -91,7 +92,9 @@ export function TitlePage() {
 
       <section className="mt-8">
         <SectionLabel>{t("title.overview")}</SectionLabel>
-        {!overview ? (
+        {overviewLoading ? (
+          <p aria-busy="true" className="min-h-[1.55em] text-muted">…</p>
+        ) : !overview ? (
           <p className="text-sm text-muted">{t("title.noOverview")}</p>
         ) : showOverview ? (
           <p className="max-w-[70ch] text-base leading-[1.55] text-fg-soft">{overview}</p>
