@@ -1,4 +1,4 @@
-import type { CSSProperties, ReactNode } from "react";
+import { useId, type ButtonHTMLAttributes, type CSSProperties, type InputHTMLAttributes, type ReactNode } from "react";
 import { onColor } from "../lib/color";
 import { posterUrl, type PosterSize } from "../lib/tmdb";
 import { useLang } from "../lib/i18n";
@@ -170,9 +170,50 @@ export function Toggle({ checked, label, onChange }: { checked: boolean; label: 
   );
 }
 
-/** Aviso: borde 2px con barra izquierda de 10px. */
-export function Notice({ children }: { children: ReactNode }) {
-  return <div className="border-2 border-l-[10px] border-line border-l-faro bg-surface px-3.5 py-3 text-sm">{children}</div>;
+/** Aviso: borde 2px con barra izquierda de 10px; en error, todo en Alerta. */
+export function Notice({ children, tone = "neutral" }: { children: ReactNode; tone?: "neutral" | "error" }) {
+  const color = tone === "error" ? "border-alerta" : "border-line border-l-faro";
+  return <div className={`border-2 border-l-[10px] bg-surface px-3.5 py-3 text-sm ${color}`}>{children}</div>;
+}
+
+const buttonVariants = {
+  primary: "border-tinta bg-faro text-tinta hover:bg-tinta hover:text-faro",
+  secondary: "border-line bg-surface text-fg hover:bg-fg hover:text-bg",
+  danger: "border-alerta bg-surface text-alerta hover:bg-alerta hover:text-white",
+} as const;
+
+export function Button({
+  variant = "secondary",
+  className = "",
+  ...props
+}: ButtonHTMLAttributes<HTMLButtonElement> & { variant?: keyof typeof buttonVariants }) {
+  return (
+    <button
+      type="button"
+      {...props}
+      className={`min-h-11 border-2 px-5 py-2.5 text-[15px] font-bold transition-colors duration-[120ms] ease-out disabled:border-line-soft disabled:bg-surface-muted disabled:text-muted ${buttonVariants[variant]} ${className}`}
+    />
+  );
+}
+
+export function TextField({
+  label,
+  className = "",
+  ...props
+}: InputHTMLAttributes<HTMLInputElement> & { label: string }) {
+  const id = useId();
+  return (
+    <div className={`flex flex-col gap-1.5 ${className}`}>
+      <label htmlFor={id} className="label text-fg-soft">
+        {label}
+      </label>
+      <input
+        id={id}
+        {...props}
+        className="min-h-11 border-2 border-line bg-surface px-3 py-2.5 font-mono text-sm text-fg placeholder:text-muted"
+      />
+    </div>
+  );
 }
 
 /** "2008 · PELÍCULA · 2 H 6 MIN" o "2021 · SERIE · 2 TEMPORADAS". */

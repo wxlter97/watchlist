@@ -29,6 +29,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{js,css,html,svg,png,woff2}"],
         navigateFallback: "/index.html",
+        // El handler de Firebase Auth (/__/auth) y las funciones (/api) nunca caen en la SPA.
+        navigateFallbackDenylist: [/^\/__\//, /^\/api\//],
         runtimeCaching: [
           {
             // Pósters de TMDB: nunca cambian para una misma ruta.
@@ -44,9 +46,25 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    // El chunk de Firebase (Firestore con caché persistente) ronda los 620 kB por sí solo.
+    chunkSizeWarningLimit: 650,
+    rolldownOptions: {
+      output: {
+        // Firebase y el catálogo cambian a otro ritmo que el código: chunks propios, caché aparte.
+        codeSplitting: {
+          groups: [
+            { name: "firebase", test: /node_modules[\\/].*@?firebase/ },
+            { name: "catalog", test: /src[\\/]data[\\/]/ },
+          ],
+        },
+      },
+    },
+  },
   test: {
     globals: true,
     environment: "jsdom",
+    include: ["src/**/*.test.{ts,tsx}"],
     setupFiles: ["./src/test/setup.ts"],
   },
 });

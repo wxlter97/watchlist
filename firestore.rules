@@ -1,0 +1,31 @@
+rules_version = '2';
+
+// SPEC §6. Probadas con el emulador: pnpm test:rules
+service cloud.firestore {
+  match /databases/{db}/documents {
+    // Todo lo de un usuario (perfiles, progreso, planes, logros) es solo suyo.
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Links públicos de solo lectura: guardan un snapshot, nunca el progreso vivo.
+    match /shares/{shareId} {
+      allow read: if resource.data.revoked == false;
+      allow create: if request.auth != null && request.resource.data.ownerUid == request.auth.uid;
+      allow update, delete: if request.auth != null && resource.data.ownerUid == request.auth.uid;
+    }
+
+    match /groups/{groupId} {
+      allow read: if request.auth != null && request.auth.uid in resource.data.members;
+      allow create: if request.auth != null && request.resource.data.ownerUid == request.auth.uid;
+      allow update: if request.auth != null && request.auth.uid in resource.data.members;
+      // Unirse a un grupo pasa por /api/groups/join (valida inviteCode con firebase-admin).
+      allow delete: if request.auth != null && resource.data.ownerUid == request.auth.uid;
+
+      match /progress/{titleId} {
+        allow read, write: if request.auth != null
+          && request.auth.uid in get(/databases/$(db)/documents/groups/$(groupId)).data.members;
+      }
+    }
+  }
+}

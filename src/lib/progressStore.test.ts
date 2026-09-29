@@ -1,6 +1,10 @@
-import { useProgressStore } from "./progressStore";
+import { loadGuest, setBackend, guestBackend, useProgressStore, type ProgressBackend } from "./progressStore";
 
-beforeEach(() => useProgressStore.setState({ progress: {}, franchiseState: {} }));
+beforeEach(() => {
+  localStorage.clear();
+  setBackend(guestBackend);
+  useProgressStore.getState().replace({ progress: {}, franchiseState: {} });
+});
 
 describe("progressStore", () => {
   it("marca, conserva la fecha de visto y desmarca", () => {
@@ -27,9 +31,24 @@ describe("progressStore", () => {
     });
   });
 
-  it("persiste en localStorage", () => {
+  it("en modo invitado persiste en localStorage", () => {
     useProgressStore.getState().setStatus("iron-man-2008", "planned");
-    const saved = JSON.parse(localStorage.getItem("watch-order:guest")!);
-    expect(saved.state.progress["iron-man-2008"].status).toBe("planned");
+    expect(loadGuest().progress["iron-man-2008"]!.status).toBe("planned");
+  });
+
+  it("con otro backend escribe ahí y no toca los datos de invitado", () => {
+    const writes: unknown[] = [];
+    const cloud: ProgressBackend = {
+      writeProgress: (id, doc) => writes.push([id, doc?.status ?? null]),
+      writeFranchiseState: (id) => writes.push([id]),
+    };
+    setBackend(cloud);
+    useProgressStore.getState().setStatus("thor-2011", "watched");
+    useProgressStore.getState().setStatus("thor-2011", null);
+    expect(writes).toEqual([
+      ["thor-2011", "watched"],
+      ["thor-2011", null],
+    ]);
+    expect(loadGuest().progress).toEqual({});
   });
 });

@@ -7,7 +7,8 @@
     "home": "Inicio",
     "back": "Volver",
     "language": "Idioma",
-    "darkMode": "Modo oscuro"
+    "darkMode": "Modo oscuro",
+    "signIn": "Entrar"
   },
   "hub": {
     "franchises": "Franquicias",
@@ -89,5 +90,39 @@
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
     "madeBy": "Hecho por wxlter."
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar"
+  },
+  "account": {
+    "title": "Cuenta y ajustes",
+    "guest": "Modo invitado",
+    "guestBody": "Tu progreso vive solo en este dispositivo. Entra con Google para sincronizarlo entre dispositivos y tener varios perfiles. Lo que marcaste como invitado se puede pasar a tu cuenta.",
+    "signIn": "Entrar con Google",
+    "signOut": "Cerrar sesión",
+    "signedInAs": "Sesión iniciada como",
+    "signOutPending": "Hay cambios que todavía no se subieron (¿sin conexión?). Si cierras sesión ahora, se pierden.",
+    "signOutAnyway": "Cerrar sesión igual",
+    "signInError": "No se pudo iniciar sesión ({{code}}). Intenta de nuevo.",
+    "profiles": "Perfiles",
+    "profilesHint": "Cada perfil lleva su propio progreso. Útil si comparten la cuenta.",
+    "active": "Activo",
+    "use": "Usar",
+    "newProfile": "Nuevo perfil",
+    "create": "Crear",
+    "name": "Nombre",
+    "rename": "Renombrar",
+    "delete": "Borrar",
+    "deleteConfirm": "¿Borrar «{{name}}» y todo su progreso? No se puede deshacer.",
+    "deleteYes": "Sí, borrar",
+    "preferences": "Preferencias"
+  },
+  "sync": {
+    "offline": "Sin conexión. Tus cambios se guardan y se sincronizan al volver.",
+    "migrate_one": "Tienes {{count}} cambio del modo invitado en este dispositivo.",
+    "migrate_other": "Tienes {{count}} cambios del modo invitado en este dispositivo.",
+    "migrateAction": "Pasarlos a {{profile}}",
+    "later": "Ahora no"
   }
 }

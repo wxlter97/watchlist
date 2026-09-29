@@ -11,12 +11,17 @@
     "test:watch": "vitest",
     "typecheck": "tsc -b",
     "catalog:validate": "tsx scripts/validate-catalog.ts",
-    "catalog:enrich": "tsx --env-file=.env.local scripts/enrich-catalog.ts"
+    "catalog:enrich": "tsx --env-file=.env.local scripts/enrich-catalog.ts",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-watch-order \"vitest run -c vitest.rules.config.ts\"",
+    "emulators": "firebase emulators:start --project demo-watch-order",
+    "dev:emulators": "VITE_FIREBASE_EMULATORS=1 vite",
+    "rules:deploy": "firebase deploy --only firestore:rules,firestore:indexes"
   },
   "dependencies": {
     "@fontsource/archivo": "^5.3.0",
     "@fontsource/archivo-black": "^5.3.0",
     "@fontsource/jetbrains-mono": "^5.3.0",
+    "firebase": "^12.19.0",
     "i18next": "^26.4.2",
     "i18next-browser-languagedetector": "^8.2.1",
     "react": "^19.3.0",
@@ -26,6 +31,7 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.2",
     "@tailwindcss/vite": "^4.3.3",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",

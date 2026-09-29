@@ -3,7 +3,7 @@
 PWA para seguir sagas y franquicias de cine y TV en varios órdenes de visualización.
 La especificación completa está en [docs/SPEC.md](docs/SPEC.md).
 
-**Estado:** fase 1 (base genérica + MCU con progreso local).
+**Estado:** fase 2 (sync con Firebase: login con Google, Firestore offline, perfiles).
 
 ## Desarrollo
 
@@ -14,6 +14,26 @@ pnpm test                # Vitest
 pnpm typecheck
 pnpm build && pnpm preview
 ```
+
+## Firebase
+
+Auth (Google) y Firestore con caché offline persistente. Proyecto: `watchlist-97b25`.
+La config web va en `.env.local` (ver `.env.example`); son identificadores públicos, la
+seguridad vive en [firestore.rules](firestore.rules).
+
+```bash
+pnpm test:rules          # reglas de Firestore contra el emulador (requiere Java)
+pnpm emulators           # Auth + Firestore locales (proyecto demo-watch-order)
+pnpm dev:emulators       # la app conectada a los emuladores, con cuentas de prueba
+pnpm rules:deploy        # publica firestore.rules e índices en el proyecto real
+```
+
+- Sin sesión, el progreso vive en `localStorage` (modo invitado). Al entrar, la app ofrece
+  pasarlo al perfil activo; por documento gana el cambio más reciente.
+- Cerrar sesión borra la caché local de Firestore del dispositivo.
+- En producción, `vercel.json` sirve `/__/auth/*` desde el propio dominio (necesario para el
+  login por redirect en Safari / PWA de iOS). Al desplegar, cambiar `VITE_FIREBASE_AUTH_DOMAIN`
+  al dominio de la app y agregarlo a los dominios autorizados de Firebase Auth.
 
 ## Catálogo
 

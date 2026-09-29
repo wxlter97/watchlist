@@ -1,15 +1,85 @@
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
-import { useEffect } from "react";
-import { AppMark, Tabs, Toggle, WxlterSymbol } from "./components/ui";
+import { useEffect, useSyncExternalStore } from "react";
+import { AppMark, Button, Notice, WxlterSymbol } from "./components/ui";
+import { AccountPage } from "./features/account/AccountPage";
 import { FranchisePage } from "./features/franchise/FranchisePage";
 import { HubPage } from "./features/hub/HubPage";
 import { TitlePage } from "./features/detail/TitlePage";
-import { LANGS, useLang } from "./lib/i18n";
-import { setTheme, useTheme } from "./lib/theme";
+import { useLang } from "./lib/i18n";
+import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
+
+function useOnline() {
+  return useSyncExternalStore(
+    (cb) => {
+      window.addEventListener("online", cb);
+      window.addEventListener("offline", cb);
+      return () => {
+        window.removeEventListener("online", cb);
+        window.removeEventListener("offline", cb);
+      };
+    },
+    () => navigator.onLine,
+    () => true,
+  );
+}
+
+function AccountButton() {
+  const { t } = useLang();
+  const status = useSession((s) => s.status);
+  const profile = useSession((s) => s.profiles.find((p) => p.id === s.activeProfileId));
+
+  if (status === "signedIn") {
+    return (
+      <Link
+        to="/account"
+        aria-label={t("account.title")}
+        title={profile?.name}
+        className="display grid size-9 place-items-center border-2 border-line bg-faro text-lg text-tinta transition-colors duration-[120ms] ease-out hover:bg-tinta hover:text-faro"
+      >
+        {profile?.avatar ?? "·"}
+      </Link>
+    );
+  }
+  return (
+    <Link
+      to="/account"
+      className="label min-h-9 border-2 border-line px-2.5 py-2 font-bold transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+    >
+      {status === "loading" ? "…" : t("nav.signIn")}
+    </Link>
+  );
+}
+
+function Banners() {
+  const { t } = useLang();
+  const online = useOnline();
+  const migration = useSession((s) => s.migration);
+  const profile = useSession((s) => s.profiles.find((p) => p.id === s.activeProfileId));
+
+  return (
+    <div className="space-y-3 empty:hidden [&:not(:empty)]:pt-4">
+      {!online && (
+        <Notice>
+          <p>{t("sync.offline")}</p>
+        </Notice>
+      )}
+      {migration && (
+        <Notice>
+          <p>{t("sync.migrate", { count: migration.count })}</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <Button variant="primary" onClick={migrateGuestProgress}>
+              {t("sync.migrateAction", { profile: profile?.name ?? "" })}
+            </Button>
+            <Button onClick={dismissMigration}>{t("sync.later")}</Button>
+          </div>
+        </Notice>
+      )}
+    </div>
+  );
+}
 
 function Layout() {
-  const { t, lang, setLang } = useLang();
-  const theme = useTheme();
+  const { t } = useLang();
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,17 +92,9 @@ function Layout() {
           <AppMark size={32} />
           <span className="display truncate text-xl">{t("app.name")}</span>
         </Link>
-        <div className="flex shrink-0 items-center gap-2.5">
-          <Tabs
-            size="sm"
-            label={t("nav.language")}
-            value={lang}
-            options={LANGS.map((l) => ({ value: l, label: l }))}
-            onChange={setLang}
-          />
-          <Toggle checked={theme === "dark"} label={t("nav.darkMode")} onChange={(dark) => setTheme(dark ? "dark" : "light")} />
-        </div>
+        <AccountButton />
       </header>
+      <Banners />
       <main className="flex-1 pb-16">
         <Outlet />
       </main>
@@ -54,6 +116,7 @@ const router = createBrowserRouter([
       { index: true, element: <HubPage /> },
       { path: "f/:franchiseId", element: <FranchisePage /> },
       { path: "t/:titleId", element: <TitlePage /> },
+      { path: "account", element: <AccountPage /> },
       { path: "*", element: <HubPage /> },
     ],
   },

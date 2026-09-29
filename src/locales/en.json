@@ -7,7 +7,8 @@
     "home": "Home",
     "back": "Back",
     "language": "Language",
-    "darkMode": "Dark mode"
+    "darkMode": "Dark mode",
+    "signIn": "Sign in"
   },
   "hub": {
     "franchises": "Franchises",
@@ -89,5 +90,39 @@
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
     "madeBy": "Made by wxlter."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "account": {
+    "title": "Account & settings",
+    "guest": "Guest mode",
+    "guestBody": "Your progress lives only on this device. Sign in with Google to sync it across devices and have several profiles. What you marked as a guest can be moved to your account.",
+    "signIn": "Sign in with Google",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as",
+    "signOutPending": "Some changes haven't been uploaded yet (offline?). If you sign out now, they'll be lost.",
+    "signOutAnyway": "Sign out anyway",
+    "signInError": "Couldn't sign in ({{code}}). Please try again.",
+    "profiles": "Profiles",
+    "profilesHint": "Each profile keeps its own progress. Handy if you share the account.",
+    "active": "Active",
+    "use": "Use",
+    "newProfile": "New profile",
+    "create": "Create",
+    "name": "Name",
+    "rename": "Rename",
+    "delete": "Delete",
+    "deleteConfirm": "Delete “{{name}}” and all its progress? This can't be undone.",
+    "deleteYes": "Yes, delete",
+    "preferences": "Preferences"
+  },
+  "sync": {
+    "offline": "You're offline. Your changes are saved and will sync when you're back.",
+    "migrate_one": "You have {{count}} change from guest mode on this device.",
+    "migrate_other": "You have {{count}} changes from guest mode on this device.",
+    "migrateAction": "Move them to {{profile}}",
+    "later": "Not now"
   }
 }

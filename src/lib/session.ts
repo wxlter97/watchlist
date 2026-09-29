@@ -1,0 +1,334 @@
+import { create } from "zustand";
+import {
+  getRedirectResult,
+  GoogleAuthProvider,
+  onAuthStateChanged,
+  signInWithPopup,
+  signInWithRedirect,
+  signOut as firebaseSignOut,
+  type User,
+} from "firebase/auth";
+import {
+  clearIndexedDbPersistence,
+  doc,
+  getDocs,
+  onSnapshot,
+  orderBy,
+  query,
+  serverTimestamp,
+  setDoc,
+  terminate,
+  updateDoc,
+  waitForPendingWrites,
+  writeBatch,
+  type Unsubscribe,
+} from "firebase/firestore";
+import { auth, db } from "./firebase";
+import { DEFAULT_PROFILE_ID, firestoreBackend, paths, type Profile } from "./cloud";
+import { planMigration, planSize } from "./migrate";
+import {
+  EMPTY,
+  guestBackend,
+  hasGuestData,
+  loadGuest,
+  saveGuest,
+  setBackend,
+  useProgressStore,
+  type ProgressData,
+} from "./progressStore";
+
+// Sesión: invitado (progreso en localStorage) o cuenta de Google (Firestore con caché offline),
+// con varios perfiles por cuenta (SPEC §5).
+
+export interface SessionUser {
+  uid: string;
+  displayName: string;
+  email: string | null;
+  photoURL: string | null;
+}
+
+interface SessionState {
+  status: "loading" | "guest" | "signedIn";
+  user?: SessionUser;
+  profiles: Profile[];
+  activeProfileId?: string;
+  /** Ya llegó el primer snapshot del progreso del perfil activo. */
+  profileReady: boolean;
+  /** Progreso de invitado que se puede pasar al perfil activo. */
+  migration: { count: number } | null;
+  authError?: string;
+}
+
+export const useSession = create<SessionState>()(() => ({
+  status: "loading",
+  profiles: [],
+  profileReady: false,
+  migration: null,
+}));
+
+const set = useSession.setState;
+const get = useSession.getState;
+const report = (err: unknown) => console.error("[session]", err);
+
+let authUnsubs: Unsubscribe[] = [];
+let profileUnsubs: Unsubscribe[] = [];
+let migrationDismissed = false;
+
+const stop = (list: Unsubscribe[]) => list.splice(0).forEach((u) => u());
+const activeKey = (uid: string) => `watch-order:profile:${uid}`;
+const readActive = (uid: string) => {
+  try {
+    return localStorage.getItem(activeKey(uid));
+  } catch {
+    return null;
+  }
+};
+
+const USER_DEFAULTS = {
+  settings: {
+    spoilerFree: true,
+    streamingRegion: "SV",
+    followedFranchises: [] as string[],
+    externalLinks: { letterboxd: true, imdb: true, trakt: true, letterboxdToast: true },
+    notifications: { releases: false, streamingAvailable: false, catalogUpdates: false },
+  },
+};
+
+function newProfile(id: string, name: string): Profile {
+  const clean = name.trim() || "Perfil";
+  return { id, name: clean, avatar: clean[0]!.toUpperCase(), color: "#FFDB00", createdAt: new Date().toISOString() };
+}
+
+let started = false;
+
+/** Arranca una sola vez, desde main.tsx. */
+export function startSession() {
+  if (started) return;
+  started = true;
+  getRedirectResult(auth).catch((err) => set({ authError: authErrorCode(err) }));
+  onAuthStateChanged(auth, (user) => (user ? enterAccount(user) : enterGuest()));
+}
+
+function enterGuest() {
+  stop(authUnsubs);
+  stop(profileUnsubs);
+  setBackend(guestBackend);
+  useProgressStore.getState().replace(loadGuest());
+  set({ status: "guest", user: undefined, profiles: [], activeProfileId: undefined, profileReady: true, migration: null });
+}
+
+function enterAccount(user: User) {
+  stop(authUnsubs);
+  stop(profileUnsubs);
+  const uid = user.uid;
+  const displayName = user.displayName ?? user.email ?? "Usuario";
+  set({
+    status: "signedIn",
+    user: { uid, displayName, email: user.email, photoURL: user.photoURL },
+    profiles: [],
+    migration: null,
+    authError: undefined,
+  });
+
+  // El documento del usuario se crea una sola vez: solo si el servidor confirma que no existe.
+  authUnsubs.push(
+    onSnapshot(
+      paths.user(db, uid),
+      (snap) => {
+        if (!snap.exists() && !snap.metadata.fromCache) {
+          setDoc(paths.user(db, uid), {
+            displayName,
+            createdAt: serverTimestamp(),
+            settings: { ...USER_DEFAULTS.settings, language: document.documentElement.lang === "en" ? "en" : "es" },
+          }).catch(report);
+        }
+      },
+      report,
+    ),
+  );
+
+  authUnsubs.push(
+    onSnapshot(
+      query(paths.profiles(db, uid), orderBy("createdAt")),
+      (snap) => {
+        const profiles = snap.docs.map((d) => d.data());
+        if (profiles.length === 0) {
+          // Primer ingreso: perfil por defecto con id fijo, así dos dispositivos no crean dos.
+          if (!snap.metadata.fromCache) {
+            setDoc(paths.profile(db, uid, DEFAULT_PROFILE_ID), newProfile(DEFAULT_PROFILE_ID, displayName.split(" ")[0]!)).catch(report);
+          }
+          return;
+        }
+        set({ profiles });
+        if (!profiles.some((p) => p.id === get().activeProfileId)) selectProfile(profiles[0]!.id);
+      },
+      report,
+    ),
+  );
+
+  // No espera a la lista de perfiles: con la caché local el progreso aparece al instante.
+  selectProfile(readActive(uid) ?? DEFAULT_PROFILE_ID);
+}
+
+export function selectProfile(pid: string) {
+  const uid = get().user?.uid;
+  if (!uid) return;
+  stop(profileUnsubs);
+  try {
+    localStorage.setItem(activeKey(uid), pid);
+  } catch {
+    // Sin almacenamiento se vuelve al primer perfil en el próximo arranque.
+  }
+  set({ activeProfileId: pid, profileReady: false, migration: null });
+  useProgressStore.getState().replace(EMPTY);
+  setBackend(firestoreBackend(db, uid, pid));
+
+  const data: ProgressData = { progress: {}, franchiseState: {} };
+  const loaded = { progress: false, franchiseState: false };
+  const onLoaded = (part: keyof typeof loaded) => {
+    useProgressStore.getState().replace({ ...data });
+    loaded[part] = true;
+    if (loaded.progress && loaded.franchiseState && !get().profileReady) {
+      set({ profileReady: true });
+      checkMigration();
+    }
+  };
+
+  profileUnsubs.push(
+    onSnapshot(
+      paths.progress(db, uid, pid),
+      (snap) => {
+        data.progress = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()]));
+        onLoaded("progress");
+      },
+      report,
+    ),
+    onSnapshot(
+      paths.franchiseState(db, uid, pid),
+      (snap) => {
+        data.franchiseState = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()]));
+        onLoaded("franchiseState");
+      },
+      report,
+    ),
+  );
+}
+
+// ---- Migración invitado → cuenta (SPEC §5) ----
+
+function checkMigration() {
+  if (migrationDismissed || !hasGuestData()) return set({ migration: null });
+  const { progress, franchiseState } = useProgressStore.getState();
+  const count = planSize(planMigration(loadGuest(), { progress, franchiseState }));
+  set({ migration: count > 0 ? { count } : null });
+}
+
+export function migrateGuestProgress() {
+  const { user, activeProfileId: pid } = get();
+  if (!user || !pid) return;
+  const { progress, franchiseState } = useProgressStore.getState();
+  const plan = planMigration(loadGuest(), { progress, franchiseState });
+  const ops = [
+    ...plan.progress.map(([id, d]) => (b: ReturnType<typeof writeBatch>) => b.set(doc(paths.progress(db, user.uid, pid), id), d)),
+    ...plan.franchiseState.map(
+      ([id, d]) => (b: ReturnType<typeof writeBatch>) => b.set(doc(paths.franchiseState(db, user.uid, pid), id), d),
+    ),
+  ];
+  // Un batch admite 500 operaciones. Sin conexión quedan en cola igual que cualquier escritura.
+  for (let i = 0; i < ops.length; i += 500) {
+    const batch = writeBatch(db);
+    ops.slice(i, i + 500).forEach((op) => op(batch));
+    batch.commit().catch(report);
+  }
+  saveGuest(EMPTY);
+  set({ migration: null });
+}
+
+export function dismissMigration() {
+  migrationDismissed = true;
+  set({ migration: null });
+}
+
+// ---- Perfiles ----
+
+export function createProfile(name: string) {
+  const uid = get().user?.uid;
+  if (!uid) return;
+  const ref = doc(paths.profiles(db, uid));
+  setDoc(ref, newProfile(ref.id, name)).catch(report);
+  selectProfile(ref.id);
+}
+
+export function renameProfile(pid: string, name: string) {
+  const uid = get().user?.uid;
+  const clean = name.trim();
+  if (!uid || !clean) return;
+  updateDoc(doc(db, "users", uid, "profiles", pid), { name: clean, avatar: clean[0]!.toUpperCase() }).catch(report);
+}
+
+/** Borra un perfil y todo su progreso. Nunca el último. */
+export async function deleteProfile(pid: string) {
+  const { user, profiles, activeProfileId } = get();
+  if (!user || profiles.length <= 1) return;
+  if (pid === activeProfileId) selectProfile(profiles.find((p) => p.id !== pid)!.id);
+  const [progress, states] = await Promise.all([
+    getDocs(paths.progress(db, user.uid, pid)),
+    getDocs(paths.franchiseState(db, user.uid, pid)),
+  ]);
+  // El documento del perfil va al final: si algo falla a medias, el perfil sigue visible.
+  const refs = [...progress.docs, ...states.docs].map((d) => d.ref.withConverter(null));
+  refs.push(doc(db, "users", user.uid, "profiles", pid));
+  for (let i = 0; i < refs.length; i += 500) {
+    const batch = writeBatch(db);
+    refs.slice(i, i + 500).forEach((r) => batch.delete(r));
+    await batch.commit();
+  }
+}
+
+// ---- Auth ----
+
+function isIosStandalone() {
+  const nav = navigator as Navigator & { standalone?: boolean };
+  return nav.standalone === true || (/iPad|iPhone|iPod/.test(navigator.userAgent) && matchMedia("(display-mode: standalone)").matches);
+}
+
+function authErrorCode(err: unknown): string {
+  return (err as { code?: string }).code ?? "auth/unknown";
+}
+
+/** Login con Google: popup, o redirect en la PWA instalada de iOS y si el popup está bloqueado. */
+export async function signIn() {
+  const provider = new GoogleAuthProvider();
+  set({ authError: undefined });
+  // Con emuladores también redirect: es el flujo de la PWA en iOS y funciona en navegadores
+  // embebidos que no abren popups.
+  if (isIosStandalone() || import.meta.env.VITE_FIREBASE_EMULATORS === "1") return signInWithRedirect(auth, provider);
+  try {
+    await signInWithPopup(auth, provider);
+  } catch (err) {
+    const code = authErrorCode(err);
+    if (code === "auth/popup-blocked" || code === "auth/operation-not-supported-in-this-environment") {
+      return signInWithRedirect(auth, provider);
+    }
+    if (code !== "auth/popup-closed-by-user" && code !== "auth/cancelled-popup-request") set({ authError: code });
+  }
+}
+
+/**
+ * Cierra sesión y borra la caché local de Firestore (no deja datos de la cuenta en el
+ * dispositivo). Devuelve "pending" si hay cambios sin subir y no se forzó.
+ */
+export async function signOut(force = false): Promise<"pending" | "done"> {
+  if (!force) {
+    const synced = await Promise.race([
+      waitForPendingWrites(db).then(() => true),
+      new Promise<boolean>((r) => setTimeout(() => r(false), 3000)),
+    ]);
+    if (!synced) return "pending";
+  }
+  await firebaseSignOut(auth);
+  await terminate(db);
+  await clearIndexedDbPersistence(db).catch(report);
+  location.reload();
+  return "done";
+}

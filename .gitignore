@@ -7,3 +7,7 @@ coverage
 .env
 .env*.local
 .vercel
+
+# Firebase
+*-debug.log
+.firebase
