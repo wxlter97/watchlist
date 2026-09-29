@@ -1,0 +1,88 @@
+{
+  "app": {
+    "name": "Watch Order",
+    "tagline": "Tus sagas, en el orden que prefieras."
+  },
+  "nav": {
+    "home": "Inicio",
+    "back": "Volver",
+    "language": "Idioma"
+  },
+  "hub": {
+    "franchises": "Franquicias",
+    "continue": "Continuar viendo",
+    "upNext": "Sigue: {{title}}",
+    "allCaughtUp": "Estás al día",
+    "open": "Abrir {{name}}"
+  },
+  "progress": {
+    "count": "{{watched}} de {{total}} vistos",
+    "percent": "{{value}} %",
+    "upcoming_one": "+{{count}} por estrenar",
+    "upcoming_other": "+{{count}} por estrenar"
+  },
+  "franchise": {
+    "order": "Orden",
+    "continuities": "Continuidades",
+    "empty": "No hay títulos con estos filtros.",
+    "notFound": "No encontramos esa franquicia."
+  },
+  "canon": {
+    "main": "Principal",
+    "semicanon": "Semicanon",
+    "alternate": "Alterna",
+    "non-canon": "No canon"
+  },
+  "importance": {
+    "essential": "Esencial",
+    "recommended": "Recomendado",
+    "optional": "Opcional",
+    "skippable": "Prescindible"
+  },
+  "kind": {
+    "movie": "Película",
+    "series": "Serie",
+    "special": "Especial",
+    "short": "Cortos",
+    "one-shot": "One-Shot",
+    "ova": "OVA"
+  },
+  "status": {
+    "watched": "Visto",
+    "watching": "Viendo",
+    "planned": "Pendiente",
+    "dropped": "Abandonado",
+    "none": "Sin estado"
+  },
+  "actions": {
+    "markWatched": "Marcar {{title}} como visto",
+    "unmarkWatched": "Quitar {{title}} de vistos"
+  },
+  "postCredits": {
+    "short_one": "{{count}} post-créditos",
+    "short_other": "{{count}} post-créditos",
+    "detail": "{{mid}} a mitad de créditos · {{end}} al final",
+    "none": "Sin escenas post-créditos"
+  },
+  "title": {
+    "upcoming": "Estreno: {{date}}",
+    "seasons_one": "{{count}} temporada",
+    "seasons_other": "{{count}} temporadas",
+    "episodes_one": "{{count}} episodio",
+    "episodes_other": "{{count}} episodios",
+    "hours": "{{h}} h {{m}} min",
+    "minutes": "{{m}} min",
+    "overview": "Sinopsis",
+    "spoilerHidden": "Oculta para evitar spoilers hasta que lo veas.",
+    "reveal": "Mostrar sinopsis",
+    "noOverview": "Sin sinopsis disponible.",
+    "appearsIn": "Aparece en",
+    "status": "Estado",
+    "postCredits": "Post-créditos",
+    "chrono": "Ubicación en la línea temporal",
+    "notFound": "No encontramos ese título."
+  },
+  "about": {
+    "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+  }
+}

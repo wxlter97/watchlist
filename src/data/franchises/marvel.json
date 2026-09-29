@@ -1,0 +1,979 @@
+{
+  "id": "marvel",
+  "name": "Marvel",
+  "description": {
+    "es": "El Universo Cinematográfico de Marvel: películas, series y especiales de Marvel Studios.",
+    "en": "The Marvel Cinematic Universe: Marvel Studios films, series and specials."
+  },
+  "accentColor": "#e23636",
+  "continuities": [
+    {
+      "id": "mcu",
+      "name": {
+        "es": "Universo Cinematográfico de Marvel",
+        "en": "Marvel Cinematic Universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La línea temporal principal (Tierra-616), de Iron Man en adelante.",
+        "en": "The main timeline (Earth-616), from Iron Man onward."
+      }
+    },
+    {
+      "id": "mcu-multiverse",
+      "name": {
+        "es": "Multiverso animado",
+        "en": "Animated multiverse"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Historias animadas en universos alternos del MCU. Opcionales: no afectan la línea principal.",
+        "en": "Animated stories set in alternate MCU universes. Optional: they don't affect the main timeline."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "iron-man-2008",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 50,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2008",
+        "en": "2008"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "the-incredible-hulk-2008",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 70,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "iron-man-2-2010",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 60,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "thor-2011",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 100,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "captain-america-the-first-avenger-2011",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 20,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "1942–1945",
+        "en": "1942–1945"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "marvel-one-shot-the-consultant-2011",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 80,
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "marvel-one-shot-a-funny-thing-happened-on-the-way-to-thors-hammer-2011",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 90,
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "the-avengers-2012",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 110,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2012",
+        "en": "2012"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "marvel-one-shot-item-47-2012",
+      "continuityId": "mcu",
+      "group": "phase-1",
+      "chronoOrder": 120,
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "iron-man-3-2013",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 130,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "Navidad de 2012",
+        "en": "Christmas 2012"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "marvel-one-shot-agent-carter-2013",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 30,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "1946",
+        "en": "1946"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "thor-the-dark-world-2013",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 150,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2013",
+        "en": "2013"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "marvel-one-shot-all-hail-the-king-2014",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 140,
+      "importance": "skippable",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "captain-america-the-winter-soldier-2014",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 160,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2014",
+        "en": "2014"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "guardians-of-the-galaxy-2014",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 170,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2014",
+        "en": "2014"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "avengers-age-of-ultron-2015",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 200,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2015",
+        "en": "2015"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "ant-man-2015",
+      "continuityId": "mcu",
+      "group": "phase-2",
+      "chronoOrder": 210,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2015",
+        "en": "2015"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "captain-america-civil-war-2016",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 220,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "doctor-strange-2016",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 260,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2016–2017",
+        "en": "2016–2017"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "guardians-of-the-galaxy-vol-2-2017",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 180,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2014",
+        "en": "2014"
+      },
+      "postCredits": {
+        "mid": 4,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "spider-man-homecoming-2017",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 250,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "thor-ragnarok-2017",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 270,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2017",
+        "en": "2017"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "black-panther-2018",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 240,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "avengers-infinity-war-2018",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 290,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "ant-man-and-the-wasp-2018",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 280,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "captain-marvel-2019",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 40,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "1995",
+        "en": "1995"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "avengers-endgame-2019",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 300,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2018–2023",
+        "en": "2018–2023"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "spider-man-far-from-home-2019",
+      "continuityId": "mcu",
+      "group": "phase-3",
+      "chronoOrder": 350,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2024",
+        "en": "2024"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "wandavision-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 320,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2023",
+        "en": "2023"
+      }
+    },
+    {
+      "titleId": "the-falcon-and-the-winter-soldier-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 330,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2024",
+        "en": "2024"
+      }
+    },
+    {
+      "titleId": "loki-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 310,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "Fuera del tiempo, tras 2012",
+        "en": "Outside of time, after 2012"
+      }
+    },
+    {
+      "titleId": "black-widow-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 230,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "what-if-2021",
+      "continuityId": "mcu-multiverse",
+      "group": "phase-4",
+      "chronoOrder": 10,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Multiverso",
+        "en": "Multiverse"
+      }
+    },
+    {
+      "titleId": "shang-chi-and-the-legend-of-the-ten-rings-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 340,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2024",
+        "en": "2024"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "eternals-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 345,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2024",
+        "en": "2024"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "hawkeye-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 370,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "Navidad de 2024",
+        "en": "Christmas 2024"
+      }
+    },
+    {
+      "titleId": "spider-man-no-way-home-2021",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 360,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2024",
+        "en": "2024"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "moon-knight-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 380,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      }
+    },
+    {
+      "titleId": "doctor-strange-in-the-multiverse-of-madness-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 390,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "ms-marvel-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 400,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      }
+    },
+    {
+      "titleId": "thor-love-and-thunder-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 410,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "i-am-groot-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 190,
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Tras Vol. 2",
+        "en": "After Vol. 2"
+      }
+    },
+    {
+      "titleId": "she-hulk-attorney-at-law-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 430,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      }
+    },
+    {
+      "titleId": "werewolf-by-night-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 420,
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "black-panther-wakanda-forever-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 440,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "the-guardians-of-the-galaxy-holiday-special-2022",
+      "continuityId": "mcu",
+      "group": "phase-4",
+      "chronoOrder": 470,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Navidad de 2025",
+        "en": "Christmas 2025"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "ant-man-and-the-wasp-quantumania-2023",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 480,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "guardians-of-the-galaxy-vol-3-2023",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 490,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "secret-invasion-2023",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 460,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      }
+    },
+    {
+      "titleId": "the-marvels-2023",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 500,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "echo-2024",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 450,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      }
+    },
+    {
+      "titleId": "deadpool-and-wolverine-2024",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 510,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2024 (TVA y Vacío)",
+        "en": "2024 (TVA and the Void)"
+      },
+      "postCredits": {
+        "mid": 0,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "agatha-all-along-2024",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 520,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      }
+    },
+    {
+      "titleId": "your-friendly-neighborhood-spider-man-2025",
+      "continuityId": "mcu-multiverse",
+      "group": "phase-5",
+      "chronoOrder": 30,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Universo alterno",
+        "en": "Alternate universe"
+      }
+    },
+    {
+      "titleId": "captain-america-brave-new-world-2025",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 540,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2027",
+        "en": "2027"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "daredevil-born-again-2025",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 530,
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      }
+    },
+    {
+      "titleId": "thunderbolts-2025",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 550,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "2027",
+        "en": "2027"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "ironheart-2025",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 560,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      }
+    },
+    {
+      "titleId": "the-fantastic-4-first-steps-2025",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 600,
+      "importance": "essential",
+      "chronoNote": {
+        "es": "Tierra-828",
+        "en": "Earth-828"
+      },
+      "postCredits": {
+        "mid": 1,
+        "end": 1
+      }
+    },
+    {
+      "titleId": "eyes-of-wakanda-2025",
+      "continuityId": "mcu",
+      "group": "phase-5",
+      "chronoOrder": 10,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Historia de Wakanda, siglos atrás",
+        "en": "Wakandan history, centuries ago"
+      }
+    },
+    {
+      "titleId": "marvel-zombies-2025",
+      "continuityId": "mcu-multiverse",
+      "group": "phase-5",
+      "chronoOrder": 20,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Multiverso",
+        "en": "Multiverse"
+      }
+    },
+    {
+      "titleId": "wonder-man-2026",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 570,
+      "importance": "optional"
+    },
+    {
+      "titleId": "the-punisher-one-last-kill-2026",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 580,
+      "importance": "optional",
+      "postCredits": {
+        "mid": 0,
+        "end": 0
+      }
+    },
+    {
+      "titleId": "spider-man-brand-new-day-2026",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 590,
+      "importance": "essential"
+    },
+    {
+      "titleId": "visionquest-2026",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 610,
+      "importance": "recommended"
+    },
+    {
+      "titleId": "avengers-doomsday-2026",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 620,
+      "importance": "essential"
+    },
+    {
+      "titleId": "avengers-secret-wars-2027",
+      "continuityId": "mcu",
+      "group": "phase-6",
+      "chronoOrder": 630,
+      "importance": "essential"
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "Como se estrenó en cines y en Disney+. Ideal para una primera vez: las sorpresas llegan como se planearon.",
+        "en": "As released in theaters and on Disney+. Best for a first watch: reveals land as intended."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro del universo. Ideal para un rewatch.",
+        "en": "In the order events happen in-universe. Best for a rewatch."
+      }
+    },
+    {
+      "id": "phases",
+      "type": "grouped",
+      "name": {
+        "es": "Por fases",
+        "en": "By phase"
+      },
+      "description": {
+        "es": "Por estreno, agrupado en las fases de Marvel Studios.",
+        "en": "By release, grouped into Marvel Studios phases."
+      },
+      "groupLabels": {
+        "phase-1": {
+          "es": "Fase 1",
+          "en": "Phase 1"
+        },
+        "phase-2": {
+          "es": "Fase 2",
+          "en": "Phase 2"
+        },
+        "phase-3": {
+          "es": "Fase 3",
+          "en": "Phase 3"
+        },
+        "phase-4": {
+          "es": "Fase 4",
+          "en": "Phase 4"
+        },
+        "phase-5": {
+          "es": "Fase 5",
+          "en": "Phase 5"
+        },
+        "phase-6": {
+          "es": "Fase 6",
+          "en": "Phase 6"
+        }
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

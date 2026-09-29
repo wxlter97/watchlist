@@ -1,0 +1,1606 @@
+[
+  {
+    "id": "iron-man-2008",
+    "tmdbId": 1726,
+    "tmdbType": "movie",
+    "title": "Iron Man",
+    "kind": "movie",
+    "releaseDate": "2008-04-30",
+    "imdbId": "tt0371746",
+    "posterPath": "/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "localized": {
+      "en": {
+        "title": "Iron Man",
+        "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+      },
+      "es": {
+        "title": "Iron man - El hombre de hierro",
+        "overview": "El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado después de sufrir un accidente con una de sus armas. Equipado con una armadura de última generación tecnológica, se convierte en “El hombre de hierro”, un héroe que se dedica a combatir el mal en todo el mundo"
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "the-incredible-hulk-2008",
+    "tmdbId": 1724,
+    "tmdbType": "movie",
+    "title": "The Incredible Hulk",
+    "kind": "movie",
+    "releaseDate": "2008-06-12",
+    "imdbId": "tt0800080",
+    "posterPath": "/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg",
+    "overview": "Scientist Bruce Banner scours the planet for an antidote to the unbridled force of rage within him: the Hulk. But when the military masterminds who dream of exploiting his powers force him back to civilization, he finds himself coming face to face with a new, deadly foe.",
+    "localized": {
+      "en": {
+        "title": "The Incredible Hulk",
+        "overview": "Scientist Bruce Banner scours the planet for an antidote to the unbridled force of rage within him: the Hulk. But when the military masterminds who dream of exploiting his powers force him back to civilization, he finds himself coming face to face with a new, deadly foe."
+      },
+      "es": {
+        "title": "Hulk: El hombre increíble",
+        "overview": "El científico Bruce Banner (Edward Norton) recorre el mundo en busca de un antídoto que le permita librarse de su Alter Ego. Perseguido por el ejército y dominado por su propia rabia, es incapaz de sacarse de la cabeza a Betty Ross (Liv Tyler), por lo que decide volver a la civilización. Mientras se enfrenta a una extraña criatura, el agente de la KGB Emil Blonsky (Tim Roth) se expone a una dosis de radiación más intensa que la que convirtió a Bruce en Hulk. Emil hace responsable a Hulk de su terrible situación, y la ciudad de Nueva York se convierte en el escenario de la última batalla entre las dos criaturas más poderosas que jamás pisaron la Tierra."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "iron-man-2-2010",
+    "tmdbId": 10138,
+    "tmdbType": "movie",
+    "title": "Iron Man 2",
+    "kind": "movie",
+    "releaseDate": "2010-04-28",
+    "imdbId": "tt1228705",
+    "posterPath": "/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+    "overview": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies.",
+    "localized": {
+      "en": {
+        "title": "Iron Man 2",
+        "overview": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies."
+      },
+      "es": {
+        "title": "Iron Man 2",
+        "overview": "El mundo ya sabe que el multimillonario Tony Stark (Robert Downey Jr.) es Iron Man, el superhéroe enmascarado. A pesar de las presiones del gobierno, la prensa y la opinión pública para que comparta su tecnología con el ejército, Tony es reacio a desvelar los secretos de la armadura de Iron Man, porque teme que esa información caiga en en manos de irresponsables. Con Pepper Potts (Gwyneth Paltrow) y James “Rhodey” Rhodes (Don Cheadle) a su lado, Tony forja alianzas nuevas y se enfrenta a nuevas y poderosas fuerzas."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "thor-2011",
+    "tmdbId": 10195,
+    "tmdbType": "movie",
+    "title": "Thor",
+    "kind": "movie",
+    "releaseDate": "2011-04-21",
+    "imdbId": "tt0800369",
+    "posterPath": "/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
+    "overview": "Against his father Odin's will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war. Thor is cast down to Earth and forced to live among humans as punishment. Once here, Thor learns what it takes to be a true hero when the most dangerous villain of his world sends the darkest forces of Asgard to invade Earth.",
+    "localized": {
+      "en": {
+        "title": "Thor",
+        "overview": "Against his father Odin's will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war. Thor is cast down to Earth and forced to live among humans as punishment. Once here, Thor learns what it takes to be a true hero when the most dangerous villain of his world sends the darkest forces of Asgard to invade Earth."
+      },
+      "es": {
+        "title": "Thor",
+        "overview": "El poderoso Thor es desterrado del fantástico reino de Asgard por su padre Odin debido a su arrogancia y es enviado a Midgard, la Tierra, para que viva entre los humanos. Ahí conocerá a Jane y sus amigos, y en donde aprenderá para convertirse en un gran defensor de este reino."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "captain-america-the-first-avenger-2011",
+    "tmdbId": 1771,
+    "tmdbType": "movie",
+    "title": "Captain America: The First Avenger",
+    "kind": "movie",
+    "releaseDate": "2011-07-22",
+    "imdbId": "tt0458339",
+    "posterPath": "/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg",
+    "overview": "During World War II, Steve Rogers is a sickly man from Brooklyn who's transformed into super-soldier Captain America to aid in the war effort. Rogers must stop the Red Skull – Adolf Hitler's ruthless head of weaponry, and the leader of an organization that intends to use a mysterious device of untold powers for world domination.",
+    "localized": {
+      "en": {
+        "title": "Captain America: The First Avenger",
+        "overview": "During World War II, Steve Rogers is a sickly man from Brooklyn who's transformed into super-soldier Captain America to aid in the war effort. Rogers must stop the Red Skull – Adolf Hitler's ruthless head of weaponry, and the leader of an organization that intends to use a mysterious device of untold powers for world domination."
+      },
+      "es": {
+        "title": "Capitán América: El Primer Vengador",
+        "overview": "Steve Rogers, un soldado militar rechazado, se transforma en el Capitán América después de tomar una dosis de un «suero de Súper-Soldado». Pero ser el Capitán América tiene un precio cuando intenta acabar con un belicista y una organización terrorista."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "marvel-one-shot-the-consultant-2011",
+    "tmdbId": 76122,
+    "tmdbType": "movie",
+    "title": "Marvel One-Shot: The Consultant",
+    "kind": "one-shot",
+    "releaseDate": "2011-09-13",
+    "imdbId": "tt2011118",
+    "posterPath": "/xqNLXUUvBnfVk6m3QFGGU0Grgs7.jpg",
+    "overview": "Agent Coulson informs Agent Sitwell that the World Security Council wishes Emil Blonsky to be released from prison to join the Avengers Initiative. As Nick Fury doesn't want to release Blonsky, the two agents decide to send a patsy to sabotage the meeting...",
+    "localized": {
+      "en": {
+        "title": "Marvel One-Shot: The Consultant",
+        "overview": "Agent Coulson informs Agent Sitwell that the World Security Council wishes Emil Blonsky to be released from prison to join the Avengers Initiative. As Nick Fury doesn't want to release Blonsky, the two agents decide to send a patsy to sabotage the meeting..."
+      },
+      "es": {
+        "title": "Marvel One-Shot: El Consultor",
+        "overview": "Los agentes Coulson y Sitwell conspiran para evitar que el general Ross se entrometa en asuntos de S.H.I.E.L.D…. y conocen a la persona ideal para ayudarles."
+      }
+    },
+    "runtimeMin": 4
+  },
+  {
+    "id": "marvel-one-shot-a-funny-thing-happened-on-the-way-to-thors-hammer-2011",
+    "tmdbId": 76535,
+    "tmdbType": "movie",
+    "title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
+    "kind": "one-shot",
+    "releaseDate": "2011-10-25",
+    "imdbId": "tt2011109",
+    "posterPath": "/njrOqsmFH4pxBrhcoslqLfw2OGk.jpg",
+    "overview": "Agent Coulson stops at a convenience store and deals with a coincidental robbery during his visit.",
+    "localized": {
+      "en": {
+        "title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
+        "overview": "Agent Coulson stops at a convenience store and deals with a coincidental robbery during his visit."
+      },
+      "es": {
+        "title": "Marvel One-Shot: Algo gracioso sucedió en la búsqueda del Martillo de Thor",
+        "overview": "De camino a Nuevo México antes de los eventos de Thor, el agente Coulson se detiene en una estación de servicio… y se topa con un crimen en progreso."
+      }
+    },
+    "runtimeMin": 4
+  },
+  {
+    "id": "the-avengers-2012",
+    "tmdbId": 24428,
+    "tmdbType": "movie",
+    "title": "The Avengers",
+    "kind": "movie",
+    "releaseDate": "2012-04-25",
+    "imdbId": "tt0848228",
+    "posterPath": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+    "localized": {
+      "en": {
+        "title": "The Avengers",
+        "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!"
+      },
+      "es": {
+        "title": "Avengers: Los Vengadores",
+        "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel \"Los Vengadores\", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros."
+      }
+    },
+    "runtimeMin": 143
+  },
+  {
+    "id": "marvel-one-shot-item-47-2012",
+    "tmdbId": 119569,
+    "tmdbType": "movie",
+    "title": "Marvel One-Shot: Item 47",
+    "kind": "one-shot",
+    "releaseDate": "2012-08-29",
+    "imdbId": "tt2247732",
+    "posterPath": "/hnSxG8clwLuAXEkp9emc8HCUcHD.jpg",
+    "overview": "Benny and Claire, a down-on-their-luck couple, find a discarded Chitauri weapon referred to as 'Item 47'.",
+    "localized": {
+      "en": {
+        "title": "Marvel One-Shot: Item 47",
+        "overview": "Benny and Claire, a down-on-their-luck couple, find a discarded Chitauri weapon referred to as 'Item 47'."
+      },
+      "es": {
+        "title": "Marvel One-Shot: El Objeto 47",
+        "overview": "Continuando con la culminación épica de Los vengadores, S.H.I.E.L.D. recupera todas las piezas de tecnología alienígena, excepto una que queda en la ciudad de Nueva York. Un arma Chitauri, también conocida como \"ITEM 47\". Después de que una pareja joven tropieza con el arma esquiva, se embarca en una ola de asaltos a bancos."
+      }
+    },
+    "runtimeMin": 12
+  },
+  {
+    "id": "iron-man-3-2013",
+    "tmdbId": 68721,
+    "tmdbType": "movie",
+    "title": "Iron Man 3",
+    "kind": "movie",
+    "releaseDate": "2013-04-18",
+    "imdbId": "tt1300854",
+    "posterPath": "/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
+    "overview": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+    "localized": {
+      "en": {
+        "title": "Iron Man 3",
+        "overview": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
+      },
+      "es": {
+        "title": "Iron Man 3",
+        "overview": "El descarado y brillante empresario Tony Stark/Iron Man se enfrentará a un enemigo cuyo poder no conoce límites. Cuando Stark comprende que su enemigo ha destruido su universo personal, se embarca en una angustiosa búsqueda para encontrar a los responsables. Este viaje pondrá a prueba su entereza una y otra vez. Acorralado, Stark tendrá que sobrevivir por sus propios medios, confiando en su ingenio y su instinto para proteger a las personas que quiere."
+      }
+    },
+    "runtimeMin": 130
+  },
+  {
+    "id": "marvel-one-shot-agent-carter-2013",
+    "tmdbId": 211387,
+    "tmdbType": "movie",
+    "title": "Marvel One-Shot: Agent Carter",
+    "kind": "one-shot",
+    "releaseDate": "2013-10-04",
+    "imdbId": "tt3067038",
+    "posterPath": "/4vFKKWPvCVDJTOWiwReBfpAMScP.jpg",
+    "overview": "Agent Peggy Carter is relegated to a desk job and frustrated at her male boss and comrades' sexist dismissal of her place in the SSR. Ordered to work late one night, Carter gets an alert that the villain Zodiac has been spotted and decides to take care of it herself.",
+    "localized": {
+      "en": {
+        "title": "Marvel One-Shot: Agent Carter",
+        "overview": "Agent Peggy Carter is relegated to a desk job and frustrated at her male boss and comrades' sexist dismissal of her place in the SSR. Ordered to work late one night, Carter gets an alert that the villain Zodiac has been spotted and decides to take care of it herself."
+      },
+      "es": {
+        "title": "Marvel One-Shot: Agente Carter",
+        "overview": "La agente británica Peggy Carter se une a la naciente organización S.H.I.E.L.D. Mientras busca la clave \"Zodiaco\", Carter también lucha contra su jefe misógino y burocrático, el agente Flynn."
+      }
+    },
+    "runtimeMin": 15
+  },
+  {
+    "id": "thor-the-dark-world-2013",
+    "tmdbId": 76338,
+    "tmdbType": "movie",
+    "title": "Thor: The Dark World",
+    "kind": "movie",
+    "releaseDate": "2013-10-30",
+    "imdbId": "tt1981115",
+    "posterPath": "/wp6OxE4poJ4G7c0U2ZIXasTSMR7.jpg",
+    "overview": "Thor fights to restore order across the cosmos… but an ancient race led by the vengeful Malekith returns to plunge the universe back into darkness. Faced with an enemy that even Odin and Asgard cannot withstand, Thor must embark on his most perilous and personal journey yet, one that will reunite him with Jane Foster and force him to sacrifice everything to save us all.",
+    "localized": {
+      "en": {
+        "title": "Thor: The Dark World",
+        "overview": "Thor fights to restore order across the cosmos… but an ancient race led by the vengeful Malekith returns to plunge the universe back into darkness. Faced with an enemy that even Odin and Asgard cannot withstand, Thor must embark on his most perilous and personal journey yet, one that will reunite him with Jane Foster and force him to sacrifice everything to save us all."
+      },
+      "es": {
+        "title": "Thor: un mundo oscuro",
+        "overview": "Cuando los Elfos Oscuros intentan hundir el universo en la oscuridad, Thor debe embarcarse en un peligroso y personal viaje que lo reunirá con la doctora Jane Foster."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "marvel-one-shot-all-hail-the-king-2014",
+    "tmdbId": 253980,
+    "tmdbType": "movie",
+    "title": "Marvel One-Shot: All Hail the King",
+    "kind": "one-shot",
+    "releaseDate": "2014-02-04",
+    "imdbId": "tt3438640",
+    "posterPath": "/y0QYZPWgeGKOvyrzi6Oz3aJPxJa.jpg",
+    "overview": "A documentary filmmaker interviews the now-famous Trevor Slattery from behind bars.",
+    "localized": {
+      "en": {
+        "title": "Marvel One-Shot: All Hail the King",
+        "overview": "A documentary filmmaker interviews the now-famous Trevor Slattery from behind bars."
+      },
+      "es": {
+        "title": "Marvel One-Shot: Que viva el rey",
+        "overview": "Después de los eventos de Iron Man 3, Trevor Slattery se ha vuelto un infame. Por suerte, el actor ha accedido a grabar un perfil con un cineasta de documentales."
+      }
+    },
+    "runtimeMin": 14
+  },
+  {
+    "id": "captain-america-the-winter-soldier-2014",
+    "tmdbId": 100402,
+    "tmdbType": "movie",
+    "title": "Captain America: The Winter Soldier",
+    "kind": "movie",
+    "releaseDate": "2014-03-20",
+    "imdbId": "tt1843866",
+    "posterPath": "/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
+    "overview": "After the cataclysmic events in New York with The Avengers, Steve Rogers, aka Captain America is living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy—the Winter Soldier.",
+    "localized": {
+      "en": {
+        "title": "Captain America: The Winter Soldier",
+        "overview": "After the cataclysmic events in New York with The Avengers, Steve Rogers, aka Captain America is living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy—the Winter Soldier."
+      },
+      "es": {
+        "title": "Capitán América y el Soldado del Invierno",
+        "overview": "Mientras Steve Rogers lucha por asumir su papel en el mundo moderno, se une a un compañero Vengador y agente de S.H.I.E.L.D., Viuda Negra, para luchar contra una nueva amenaza de la historia: un asesino conocido como el Soldado de Invierno."
+      }
+    },
+    "runtimeMin": 136
+  },
+  {
+    "id": "guardians-of-the-galaxy-2014",
+    "tmdbId": 118340,
+    "tmdbType": "movie",
+    "title": "Guardians of the Galaxy",
+    "kind": "movie",
+    "releaseDate": "2014-07-30",
+    "imdbId": "tt2015381",
+    "posterPath": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+    "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+    "localized": {
+      "en": {
+        "title": "Guardians of the Galaxy",
+        "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser."
+      },
+      "es": {
+        "title": "Guardianes de la galaxia",
+        "overview": "Peter Quill, debe mantener una incomoda alianza con Gamora, Drax, Rocket y Groot para asegurar un artefacto que pone en peligro a toda la galaxia no caiga en las manos del temible Ronan el Acusador."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "avengers-age-of-ultron-2015",
+    "tmdbId": 99861,
+    "tmdbType": "movie",
+    "title": "Avengers: Age of Ultron",
+    "kind": "movie",
+    "releaseDate": "2015-04-22",
+    "imdbId": "tt2395427",
+    "posterPath": "/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+    "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+    "localized": {
+      "en": {
+        "title": "Avengers: Age of Ultron",
+        "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure."
+      },
+      "es": {
+        "title": "Avengers 2: Era de Ultrón",
+        "overview": "Cuando Tony Stark y Bruce Banner intentan poner en marcha un inactivo programa de mantenimiento de la paz llamado Ultrón, las cosas van terriblemente mal y depende de los héroes más poderosos de la Tierra evitar que el villano Ultrón lleve a cabo su terrible plan."
+      }
+    },
+    "runtimeMin": 141
+  },
+  {
+    "id": "ant-man-2015",
+    "tmdbId": 102899,
+    "tmdbType": "movie",
+    "title": "Ant-Man",
+    "kind": "movie",
+    "releaseDate": "2015-07-14",
+    "imdbId": "tt0478970",
+    "posterPath": "/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
+    "overview": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
+    "localized": {
+      "en": {
+        "title": "Ant-Man",
+        "overview": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world."
+      },
+      "es": {
+        "title": "Ant-Man: El hombre Hormiga",
+        "overview": "Armado con un supertraje con la asombrosa habilidad de reducir a escala su tamaño  pero aumentar su fuerza, el ladrón Scott Lang debe abrazar a su héroe interior y ayudar a su mentor, el Dr. Hank Pym, el cual planea y lleva a cabo un atraco necesario que salvará al mundo."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "captain-america-civil-war-2016",
+    "tmdbId": 271110,
+    "tmdbType": "movie",
+    "title": "Captain America: Civil War",
+    "kind": "movie",
+    "releaseDate": "2016-04-27",
+    "imdbId": "tt3498820",
+    "posterPath": "/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+    "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies.",
+    "localized": {
+      "en": {
+        "title": "Captain America: Civil War",
+        "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies."
+      },
+      "es": {
+        "title": "Capitán América: Civil War",
+        "overview": "Después de que otro incidente internacional involucre a Los Vengadores, causando varios daños colaterales, aumentan las presiones políticas para instaurar un sistema que exija más responsabilidades y que determine cuándo deben contratar los servicios del grupo de superhéroes. Esta nueva situación dividirá a Los Vengadores, mientras intentan proteger al mundo de un nuevo y terrible villano. Tercera entrega de la saga Capitán América."
+      }
+    },
+    "runtimeMin": 147
+  },
+  {
+    "id": "doctor-strange-2016",
+    "tmdbId": 284052,
+    "tmdbType": "movie",
+    "title": "Doctor Strange",
+    "kind": "movie",
+    "releaseDate": "2016-10-25",
+    "imdbId": "tt1211837",
+    "posterPath": "/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
+    "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.",
+    "localized": {
+      "en": {
+        "title": "Doctor Strange",
+        "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil."
+      },
+      "es": {
+        "title": "Doctor Strange: Hechicero supremo",
+        "overview": "La historia del famoso neurocirujano Dr. Stephen Strange cuya vida cambia para siempre luego de un accidente automovilístico que lo deja sin poder mover sus manos. Cuando la medicina tradicional falla, se ve obligado a buscar una cura y esperanzas en un lugar impensado: una comunidad aislada y misteriosa llamada Kamar-Taj. Rápidamente descubre que éste no es sólo un centro de recuperación, sino también la primera línea de una batalla en contra de fuerzas oscuras y ocultas empeñadas en destruir nuestra realidad. En poco tiempo, Strange, armado con sus poderes mágicos recientemente adquiridos, se ve obligado a elegir entre volver a su antigua vida de riqueza y estatus, o dejarlo todo para defender el mundo como el hechicero más poderoso del planeta."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "guardians-of-the-galaxy-vol-2-2017",
+    "tmdbId": 283995,
+    "tmdbType": "movie",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "kind": "movie",
+    "releaseDate": "2017-04-25",
+    "imdbId": "tt3896198",
+    "posterPath": "/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
+    "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+    "localized": {
+      "en": {
+        "title": "Guardians of the Galaxy Vol. 2",
+        "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage."
+      },
+      "es": {
+        "title": "Guardianes de la Galaxia volumen 2",
+        "overview": "Continúan las aventuras del equipo en su travesía por los confines del cosmos. Los Guardianes deberán luchar para mantener unida a su nueva familia mientras intentan resolver el misterio de los verdaderos orígenes de Peter Quill. Viejos rivales se convertirán en nuevos aliados, y queridos personajes de los cómics clásicos acudirán en ayuda de nuestros héroes a medida que el Universo Cinematográfico de Marvel continúa expandiéndose."
+      }
+    },
+    "runtimeMin": 137
+  },
+  {
+    "id": "spider-man-homecoming-2017",
+    "tmdbId": 315635,
+    "tmdbType": "movie",
+    "title": "Spider-Man: Homecoming",
+    "kind": "movie",
+    "releaseDate": "2017-07-05",
+    "imdbId": "tt2250912",
+    "posterPath": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+    "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: Homecoming",
+        "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges."
+      },
+      "es": {
+        "title": "Spider-Man: De regreso a casa",
+        "overview": "Peter Parker comienza a experimentar su recién descubierta identidad como el superhéroe Spider-Man (El Hombre Araña). Después de la experiencia vivida con los Vengadores, Peter regresa a casa, donde vive con su tía. Bajo la atenta mirada de su mentor Tony Stark, Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe en su rutina diaria el nuevo villano Vulture y, con él, lo más importante de la vida de Peter comenzará a verse amenazado."
+      }
+    },
+    "runtimeMin": 133
+  },
+  {
+    "id": "thor-ragnarok-2017",
+    "tmdbId": 284053,
+    "tmdbType": "movie",
+    "title": "Thor: Ragnarok",
+    "kind": "movie",
+    "releaseDate": "2017-10-02",
+    "imdbId": "tt3501632",
+    "posterPath": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+    "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+    "localized": {
+      "en": {
+        "title": "Thor: Ragnarok",
+        "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela."
+      },
+      "es": {
+        "title": "Thor: Ragnarok",
+        "overview": "Encarcelado en el planeta Sakaar, Thor debe correr contra el tiempo para volver a Asgard y detener a Ragnarök, la destrucción de su mundo, a manos del poderoso y despiadado villano Hela."
+      }
+    },
+    "runtimeMin": 131
+  },
+  {
+    "id": "black-panther-2018",
+    "tmdbId": 284054,
+    "tmdbType": "movie",
+    "title": "Black Panther",
+    "kind": "movie",
+    "releaseDate": "2018-02-13",
+    "imdbId": "tt1825683",
+    "posterPath": "/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "overview": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.",
+    "localized": {
+      "en": {
+        "title": "Black Panther",
+        "overview": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war."
+      },
+      "es": {
+        "title": "Pantera Negra",
+        "overview": "T’Challa regresa a su hogar en la apartada nación africana de Wakanda para servir como líder de su país. Tras suceder a su padre en el trono, pasa a convertirse en Pantera Negra, una sigilosa criatura de la noche, con agudos sentidos felinos y otras habilidades como súper fuerza e inteligencia, agilidad, estrategia o maestro del combate sin armas. Es bajo el liderazgo de T’Challa como Wakanda consigue convertirse en una de las naciones más ricas y tecnológicamente avanzadas del planeta."
+      }
+    },
+    "runtimeMin": 135
+  },
+  {
+    "id": "avengers-infinity-war-2018",
+    "tmdbId": 299536,
+    "tmdbType": "movie",
+    "title": "Avengers: Infinity War",
+    "kind": "movie",
+    "releaseDate": "2018-04-25",
+    "imdbId": "tt4154756",
+    "posterPath": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+    "localized": {
+      "en": {
+        "title": "Avengers: Infinity War",
+        "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain."
+      },
+      "es": {
+        "title": "Avengers: Infinity War",
+        "overview": "Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo."
+      }
+    },
+    "runtimeMin": 149
+  },
+  {
+    "id": "ant-man-and-the-wasp-2018",
+    "tmdbId": 363088,
+    "tmdbType": "movie",
+    "title": "Ant-Man and the Wasp",
+    "kind": "movie",
+    "releaseDate": "2018-07-04",
+    "imdbId": "tt5095030",
+    "posterPath": "/cFQEO687n1K6umXbInzocxcnAQz.jpg",
+    "overview": "Just when his time under house arrest is about to end, Scott Lang once again puts his freedom at risk to help Hope van Dyne and Dr. Hank Pym dive into the quantum realm and try to accomplish, against time and any chance of success, a very dangerous rescue mission.",
+    "localized": {
+      "en": {
+        "title": "Ant-Man and the Wasp",
+        "overview": "Just when his time under house arrest is about to end, Scott Lang once again puts his freedom at risk to help Hope van Dyne and Dr. Hank Pym dive into the quantum realm and try to accomplish, against time and any chance of success, a very dangerous rescue mission."
+      },
+      "es": {
+        "title": "Ant-Man 2: La Avispa",
+        "overview": "Mientras Scott Lang equilibra el ser un superhéroe y un padre, Hope van Dyne y el Dr. Hank Pym presentan una nueva misión urgente que unen al Hombre hormiga junto a La Avispa para luchar juntos y descubrir los secretos de su pasado."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "captain-marvel-2019",
+    "tmdbId": 299537,
+    "tmdbType": "movie",
+    "title": "Captain Marvel",
+    "kind": "movie",
+    "releaseDate": "2019-03-06",
+    "imdbId": "tt4154664",
+    "posterPath": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+    "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+    "localized": {
+      "en": {
+        "title": "Captain Marvel",
+        "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe."
+      },
+      "es": {
+        "title": "Capitana Marvel",
+        "overview": "Capitana Marvel es, en sus orígenes, Carol Susan Jane Danvers, la hermana mayor de tres hermanos criados en una familia tradicional de Boston. Durante años tuvo que soportar el machismo de su padre hasta cumplir los 18, donde se alistó en la Fuerza Aérea de Estados Unidos, para convertirse en piloto."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "avengers-endgame-2019",
+    "tmdbId": 299534,
+    "tmdbType": "movie",
+    "title": "Avengers: Endgame",
+    "kind": "movie",
+    "releaseDate": "2019-04-24",
+    "imdbId": "tt4154796",
+    "posterPath": "/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+    "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+    "localized": {
+      "en": {
+        "title": "Avengers: Endgame",
+        "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store."
+      },
+      "es": {
+        "title": "Avengers: Endgame",
+        "overview": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo."
+      }
+    },
+    "runtimeMin": 181
+  },
+  {
+    "id": "spider-man-far-from-home-2019",
+    "tmdbId": 429617,
+    "tmdbType": "movie",
+    "title": "Spider-Man: Far From Home",
+    "kind": "movie",
+    "releaseDate": "2019-06-28",
+    "imdbId": "tt6320628",
+    "posterPath": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+    "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: Far From Home",
+        "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent."
+      },
+      "es": {
+        "title": "Spider-Man: Lejos de casa",
+        "overview": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor."
+      }
+    },
+    "runtimeMin": 129
+  },
+  {
+    "id": "wandavision-2021",
+    "tmdbId": 85271,
+    "tmdbType": "tv",
+    "title": "WandaVision",
+    "kind": "series",
+    "releaseDate": "2021-01-15",
+    "imdbId": "tt9140560",
+    "posterPath": "/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
+    "overview": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
+    "localized": {
+      "en": {
+        "title": "WandaVision",
+        "overview": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems."
+      },
+      "es": {
+        "title": "WandaVision",
+        "overview": "Wanda Maximoff y Vision, dos seres superpoderosos que viven vidas suburbanas idealizadas, comienzan a sospechar que nada es lo que parece."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9
+      }
+    ],
+    "runtimeMin": 363
+  },
+  {
+    "id": "the-falcon-and-the-winter-soldier-2021",
+    "tmdbId": 88396,
+    "tmdbType": "tv",
+    "title": "The Falcon and the Winter Soldier",
+    "kind": "series",
+    "releaseDate": "2021-03-19",
+    "imdbId": "tt9208876",
+    "posterPath": "/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
+    "overview": "Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
+    "localized": {
+      "en": {
+        "title": "The Falcon and the Winter Soldier",
+        "overview": "Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience."
+      },
+      "es": {
+        "title": "Falcon Y El Soldado Del Invierno",
+        "overview": "Estelarizada por Anthony Mackie como Sam Wilson, también conocido como Falcon, y Sebastian Stan como Bucky Barnes, también conocido como el soldado del invierno. El dúo, que se unió en los últimos momentos de \"Avengers: Endgame\", hace equipo en una aventura alrededor del mundo que pone a prueba sus habilidades… y su paciencia."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 330
+  },
+  {
+    "id": "loki-2021",
+    "tmdbId": 84958,
+    "tmdbType": "tv",
+    "title": "Loki",
+    "kind": "series",
+    "releaseDate": "2021-06-09",
+    "imdbId": "tt9140554",
+    "posterPath": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+    "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
+    "localized": {
+      "en": {
+        "title": "Loki",
+        "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat."
+      },
+      "es": {
+        "title": "Loki",
+        "overview": "Loki es llevado ante la misteriosa organización llamada AVT (Autoridad de Variación Temporal) después de los acontecimientos ocurridos en \"Avengers: Endgame (2019)\" y se le da a elegir enfrentarse a ser borrado de la existencia debido a que es una \"variante de tiempo\" o ayudar a arreglar la línea de tiempo y detener una amenaza mayor."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      },
+      {
+        "number": 2,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 615
+  },
+  {
+    "id": "black-widow-2021",
+    "tmdbId": 497698,
+    "tmdbType": "movie",
+    "title": "Black Widow",
+    "kind": "movie",
+    "releaseDate": "2021-07-07",
+    "imdbId": "tt3480822",
+    "posterPath": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
+    "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+    "localized": {
+      "en": {
+        "title": "Black Widow",
+        "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger."
+      },
+      "es": {
+        "title": "Black Widow",
+        "overview": "Natasha Romanoff, también conocida como Black Widow, se enfrenta a lo más oscuro de sus cuentas pendientes cuando surge una peligrosa conspiración que tiene lazos con su pasado. Perseguida por una fuerza que no se detendrá ante nada para derribarla, debe lidiar con su historia como espía y con las relaciones rotas que dejó a su paso mucho antes de convertirse en parte de los Vengadores."
+      }
+    },
+    "runtimeMin": 134
+  },
+  {
+    "id": "what-if-2021",
+    "tmdbId": 91363,
+    "tmdbType": "tv",
+    "title": "What If...?",
+    "kind": "series",
+    "releaseDate": "2021-08-11",
+    "imdbId": "tt10168312",
+    "posterPath": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
+    "overview": "Taking inspiration from the comic books of the same name, each episode of this animated anthology series questions, revisits and twists classic Marvel Cinematic moments.",
+    "localized": {
+      "en": {
+        "title": "What If...?",
+        "overview": "Taking inspiration from the comic books of the same name, each episode of this animated anthology series questions, revisits and twists classic Marvel Cinematic moments."
+      },
+      "es": {
+        "title": "What If...?",
+        "overview": "Tomando inspiración de los comics del mismo nombre, cada episodio explora un momento esencial del Universo Cinematográfico de Marvel, dando un giro de tuerca donde lleva a la audiencia a un territorio inexplorado, pero familiar."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9
+      },
+      {
+        "number": 2,
+        "episodes": 9
+      },
+      {
+        "number": 3,
+        "episodes": 8
+      }
+    ],
+    "runtimeMin": 865
+  },
+  {
+    "id": "shang-chi-and-the-legend-of-the-ten-rings-2021",
+    "tmdbId": 566525,
+    "tmdbType": "movie",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "kind": "movie",
+    "releaseDate": "2021-09-01",
+    "imdbId": "tt9376612",
+    "posterPath": "/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg",
+    "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+    "localized": {
+      "en": {
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization."
+      },
+      "es": {
+        "title": "Shang-Chi y la leyenda de los Diez Anillos",
+        "overview": "Shang-Chi debe enfrentarse al pasado que pensó que había dejado atrás cuando se ve atraído por la red de la misteriosa organización de los Diez Anillos."
+      }
+    },
+    "runtimeMin": 132
+  },
+  {
+    "id": "eternals-2021",
+    "tmdbId": 524434,
+    "tmdbType": "movie",
+    "title": "Eternals",
+    "kind": "movie",
+    "releaseDate": "2021-11-03",
+    "imdbId": "tt9032400",
+    "posterPath": "/lFByFSLV5WDJEv3KabbdAF959F2.jpg",
+    "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
+    "localized": {
+      "en": {
+        "title": "Eternals",
+        "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants."
+      },
+      "es": {
+        "title": "Eternals",
+        "overview": "Los Eternos son una raza inmortal de héroes de elite que han vivido en secreto en la Tierra durante años para proteger y formar a las civilizaciones. Una tragedia inesperada los obliga a salir de las sombras para reunirse y enfrentarse al enemigo más antiguo del hombre: los Desviantes."
+      }
+    },
+    "runtimeMin": 156
+  },
+  {
+    "id": "hawkeye-2021",
+    "tmdbId": 88329,
+    "tmdbType": "tv",
+    "title": "Hawkeye",
+    "kind": "series",
+    "releaseDate": "2021-11-24",
+    "imdbId": "tt10160804",
+    "posterPath": "/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
+    "overview": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit.",
+    "localized": {
+      "en": {
+        "title": "Hawkeye",
+        "overview": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit."
+      },
+      "es": {
+        "title": "Hawkeye",
+        "overview": "\"Ojo De Halcón\", de Marvel Studios, es una nueva serie original que transcurre en una Ciudad de Nueva York post-Blip, donde el antes vengador Clint Barton, alias Hawkeye, tiene una misión que parece simple: regresar con su familia para Navidad. Pero cuando surge una amenaza de su pasado, Hawkeye renuentemente hace equipo con Kate Bishop, una hábil arquera de 22 años y su fan número uno, para desentrañar una conspiración criminal."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 297
+  },
+  {
+    "id": "spider-man-no-way-home-2021",
+    "tmdbId": 634649,
+    "tmdbType": "movie",
+    "title": "Spider-Man: No Way Home",
+    "kind": "movie",
+    "releaseDate": "2021-12-15",
+    "imdbId": "tt10872600",
+    "posterPath": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: No Way Home",
+        "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+      },
+      "es": {
+        "title": "Spider-Man: Sin camino a casa",
+        "overview": "Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man."
+      }
+    },
+    "runtimeMin": 148
+  },
+  {
+    "id": "moon-knight-2022",
+    "tmdbId": 92749,
+    "tmdbType": "tv",
+    "title": "Moon Knight",
+    "kind": "series",
+    "releaseDate": "2022-03-30",
+    "imdbId": "tt10234724",
+    "posterPath": "/x6FsYvt33846IQnDSFxla9j0RX8.jpg",
+    "overview": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
+    "localized": {
+      "en": {
+        "title": "Moon Knight",
+        "overview": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt."
+      },
+      "es": {
+        "title": "Moon Knight",
+        "overview": "Steven Grant parecía llevar una vida sin sobresaltos hasta que la realidad empezó a desmoronarse a sus pies, rodeado de pesadillas de otra vida: la del mercenario Marc Spector. Además de múltiples personalidades, ahora tiene enemigos brutales que lo persiguen, y un misterio mortal que resolver con los dioses del antiguo Egipto."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 302
+  },
+  {
+    "id": "doctor-strange-in-the-multiverse-of-madness-2022",
+    "tmdbId": 453395,
+    "tmdbType": "movie",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "kind": "movie",
+    "releaseDate": "2022-05-04",
+    "imdbId": "tt9419884",
+    "posterPath": "/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg",
+    "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+    "localized": {
+      "en": {
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary."
+      },
+      "es": {
+        "title": "Doctor Strange en el multiverso de la locura",
+        "overview": "Doctor Strange, además de recibir ayuda de aliados místicos nuevos y otros ya conocidos, atraviesa las alucinantes y peligrosas realidades alternativas del Multiverso para enfrentarse a un nuevo y misterioso adversario."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "ms-marvel-2022",
+    "tmdbId": 92782,
+    "tmdbType": "tv",
+    "title": "Ms. Marvel",
+    "kind": "series",
+    "releaseDate": "2022-06-08",
+    "imdbId": "tt10857164",
+    "posterPath": "/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg",
+    "overview": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
+    "localized": {
+      "en": {
+        "title": "Ms. Marvel",
+        "overview": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?"
+      },
+      "es": {
+        "title": "Ms. Marvel",
+        "overview": "Una gran estudiante, ávida jugadora, y escriba voraz fan-fic, Kamala Khan tiene una afinidad especial por los Superhéroes, particularmente por Capitana Marvel. Sin embargo, ella lucha por encajar en casa y en la escuela — es decir, hasta que obtenga superpoderes como los superhéroes que ella siempre ha admirado. La vida es más fácil con super poderes, ¿Cierto?"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 289
+  },
+  {
+    "id": "thor-love-and-thunder-2022",
+    "tmdbId": 616037,
+    "tmdbType": "movie",
+    "title": "Thor: Love and Thunder",
+    "kind": "movie",
+    "releaseDate": "2022-07-06",
+    "imdbId": "tt10648342",
+    "posterPath": "/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+    "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
+    "localized": {
+      "en": {
+        "title": "Thor: Love and Thunder",
+        "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late."
+      },
+      "es": {
+        "title": "Thor: Amor y Trueno",
+        "overview": "Mucho tiempo después de los eventos sucedidos en Avengers: Endgame, los Guardianes de la Galaxia deben convencer a Thor para que regrese al campo de batalla y se enfrente a un villano empeñado en matar a todas las criaturas divinas en todo el cosmos. Para luchar contra esta amenaza, Thor debe reclutar a sus amigos Valkyrie, Korg y su ex novia Jane Foster, quien misteriosamente puede empuñar el martillo de Thor y por ende poseer su gran poder."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "i-am-groot-2022",
+    "tmdbId": 232125,
+    "tmdbType": "tv",
+    "title": "I Am Groot",
+    "kind": "short",
+    "releaseDate": "2022-08-10",
+    "imdbId": "tt13623148",
+    "posterPath": "/3QfQYECgu6DX5UUWCBvv1Fl0BAJ.jpg",
+    "overview": "There's no guarding the galaxy from this mischievous toddler! Get ready as Baby Groot takes center stage in his very own collection of shorts, exploring his glory days growing up and getting into trouble among the stars.",
+    "localized": {
+      "en": {
+        "title": "I Am Groot",
+        "overview": "There's no guarding the galaxy from this mischievous toddler! Get ready as Baby Groot takes center stage in his very own collection of shorts, exploring his glory days growing up and getting into trouble among the stars."
+      },
+      "es": {
+        "title": "Yo soy Groot",
+        "overview": "¡No hay forma de proteger la galaxia de este niño travieso! Prepárate mientras Baby Groot ocupa un lugar central en su propia colección de cortos, explorando sus días de gloria mientras crecía y metiéndose en problemas entre las estrellas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 5
+      },
+      {
+        "number": 2,
+        "episodes": 5
+      }
+    ],
+    "runtimeMin": 53
+  },
+  {
+    "id": "she-hulk-attorney-at-law-2022",
+    "tmdbId": 92783,
+    "tmdbType": "tv",
+    "title": "She-Hulk: Attorney at Law",
+    "kind": "series",
+    "releaseDate": "2022-08-18",
+    "imdbId": "tt10857160",
+    "posterPath": "/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
+    "overview": "Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.",
+    "localized": {
+      "en": {
+        "title": "She-Hulk: Attorney at Law",
+        "overview": "Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk."
+      },
+      "es": {
+        "title": "She-Hulk: Defensora de héroes",
+        "overview": "Jennifer Walters, una abogada especialista en casos legales relacionados con seres sobrehumanos, debe enfrentarse a la complicada vida de una mujer soltera de treinta y tantos que además es una superpoderosa hulk verde de dos metros."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9
+      }
+    ],
+    "runtimeMin": 309
+  },
+  {
+    "id": "werewolf-by-night-2022",
+    "tmdbId": 894205,
+    "tmdbType": "movie",
+    "title": "Werewolf by Night",
+    "kind": "special",
+    "releaseDate": "2022-09-25",
+    "imdbId": "tt15318872",
+    "posterPath": "/mvIvNKRIJPPS7WSFarFhOAGIVnU.jpg",
+    "overview": "On a dark and somber night, a secret cabal of monster hunters emerge from the shadows and gather at the foreboding Bloodstone Temple following the death of their leader. In a strange and macabre memorial to the leader’s life, the attendees are thrust into a mysterious and deadly competition for a powerful relic—a hunt that will ultimately bring them face to face with a dangerous monster.",
+    "localized": {
+      "en": {
+        "title": "Werewolf by Night",
+        "overview": "On a dark and somber night, a secret cabal of monster hunters emerge from the shadows and gather at the foreboding Bloodstone Temple following the death of their leader. In a strange and macabre memorial to the leader’s life, the attendees are thrust into a mysterious and deadly competition for a powerful relic—a hunt that will ultimately bring them face to face with a dangerous monster."
+      },
+      "es": {
+        "title": "Hombre Lobo por la noche",
+        "overview": "Jack Russell es un descendiente de la rama de humanos alterados místicamente conocidos como Lycantropes. Durante la noche de la luna llena y las dos noches que lo rodean, se ve obligado a mutar en un hombre lobo, una forma grande y poderosa que es un híbrido de humano y lobo, y pierde su intelecto humano. A través de una serie de eventos, también es capaz de mutar voluntariamente fuera de la luna llena, momento en el que permanece en control."
+      }
+    },
+    "runtimeMin": 55
+  },
+  {
+    "id": "black-panther-wakanda-forever-2022",
+    "tmdbId": 505642,
+    "tmdbType": "movie",
+    "title": "Black Panther: Wakanda Forever",
+    "kind": "movie",
+    "releaseDate": "2022-11-09",
+    "imdbId": "tt9114286",
+    "posterPath": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+    "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+    "localized": {
+      "en": {
+        "title": "Black Panther: Wakanda Forever",
+        "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda."
+      },
+      "es": {
+        "title": "Pantera Negra: Wakanda por siempre",
+        "overview": "La reina Ramonda, Shuri, M'Baku, Okoye y las Dora Milaje luchan por proteger a su nación de las potencias mundiales que intervienen tras la muerte del Rey T'Challa. Mientras los habitantes de Wakanda se esfuerzan por embarcarse en un nuevo capítulo, los héroes deben unirse con la ayuda de Nakia y Everett Ross y forjar un nuevo camino para el reino de Wakanda."
+      }
+    },
+    "runtimeMin": 162
+  },
+  {
+    "id": "the-guardians-of-the-galaxy-holiday-special-2022",
+    "tmdbId": 774752,
+    "tmdbType": "movie",
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "kind": "special",
+    "releaseDate": "2022-11-24",
+    "imdbId": "tt13623136",
+    "posterPath": "/8dqXyslZ2hv49Oiob9UjlGSHSTR.jpg",
+    "overview": "On a mission to make Christmas unforgettable for Quill, the Guardians head to Earth in search of the perfect present.",
+    "localized": {
+      "en": {
+        "title": "The Guardians of the Galaxy Holiday Special",
+        "overview": "On a mission to make Christmas unforgettable for Quill, the Guardians head to Earth in search of the perfect present."
+      },
+      "es": {
+        "title": "Guardianes de la Galaxia: Especial de las fiestas",
+        "overview": "Con la misión de darle a Quill una Navidad inolvidable, los Guardianes viajan a la Tierra en busca del regalo perfecto."
+      }
+    },
+    "runtimeMin": 45
+  },
+  {
+    "id": "ant-man-and-the-wasp-quantumania-2023",
+    "tmdbId": 640146,
+    "tmdbType": "movie",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "kind": "movie",
+    "releaseDate": "2023-02-15",
+    "imdbId": "tt10954600",
+    "posterPath": "/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
+    "overview": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
+    "localized": {
+      "en": {
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "overview": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible."
+      },
+      "es": {
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "overview": "Los superhéroes Scott Lang y Hope van Dyne regresan para continuar sus aventuras como Ant-Man y Wasp. Con los padres de Hope, Hank Pym y Janet van Dyne, y con la hija de Scott, Cassie Lang, la familia explora el Reino Quántico, interactúa con extrañas criaturas y se embarca en una aventura que los hará ir más allá de lo que creían posible."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "guardians-of-the-galaxy-vol-3-2023",
+    "tmdbId": 447365,
+    "tmdbType": "movie",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "kind": "movie",
+    "releaseDate": "2023-05-03",
+    "imdbId": "tt6791350",
+    "posterPath": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+    "localized": {
+      "en": {
+        "title": "Guardians of the Galaxy Vol. 3",
+        "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them."
+      },
+      "es": {
+        "title": "Guardianes de la Galaxia volumen 3",
+        "overview": "Peter Quill, aún conmocionado por la pérdida de Gamora, debe reunir a su equipo en torno a él para defender el universo junto con la protección de uno de los suyos. Una misión que, si no se lleva a cabo con éxito, podría suponer el fin de los Guardianes tal y como los conocemos."
+      }
+    },
+    "runtimeMin": 150
+  },
+  {
+    "id": "secret-invasion-2023",
+    "tmdbId": 114472,
+    "tmdbType": "tv",
+    "title": "Secret Invasion",
+    "kind": "series",
+    "releaseDate": "2023-06-21",
+    "imdbId": "tt13157618",
+    "posterPath": "/3rINdUPSy9AklJg74jWHOyUXuZd.jpg",
+    "overview": "Nick Fury and Talos discover a faction of shapeshifting Skrulls who have been infiltrating Earth for years.",
+    "localized": {
+      "en": {
+        "title": "Secret Invasion",
+        "overview": "Nick Fury and Talos discover a faction of shapeshifting Skrulls who have been infiltrating Earth for years."
+      },
+      "es": {
+        "title": "Invasión secreta",
+        "overview": "Nick Fury se entera de una invasión clandestina a la Tierra por parte de una facción de skrulls. Fury y sus aliados, entre ellos Everett Ross, María Hill y el skrull Talos, quien ha forjado una vida en la Tierra, correrán contra el tiempo para impedir la inminente invasión de skrulls y salvar a la humanidad."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 262
+  },
+  {
+    "id": "the-marvels-2023",
+    "tmdbId": 609681,
+    "tmdbType": "movie",
+    "title": "The Marvels",
+    "kind": "movie",
+    "releaseDate": "2023-11-08",
+    "imdbId": "tt10676048",
+    "posterPath": "/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+    "overview": "When her duties send her to an anomalous wormhole linked to a Kree revolutionary, Carol's powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol's estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+    "localized": {
+      "en": {
+        "title": "The Marvels",
+        "overview": "When her duties send her to an anomalous wormhole linked to a Kree revolutionary, Carol's powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol's estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe."
+      },
+      "es": {
+        "title": "The Marvels",
+        "overview": "Cuando sus deberes llevan a Carol Danvers, alias Capitana Marvel, a un agujero de gusano anómalo vinculado a un revolucionario Kree, sus poderes se enredan con los de Ms. Marvel y con los de Monica Rambeau, la distanciada sobrina de Carol y astronauta de S.A.B.E.R. Juntas, deberán trabajar en sincronía para salvar al universo como \"The Marvels\"."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "echo-2024",
+    "tmdbId": 122226,
+    "tmdbType": "tv",
+    "title": "Echo",
+    "kind": "series",
+    "releaseDate": "2024-01-09",
+    "imdbId": "tt13966962",
+    "posterPath": "/vFyJH630cF68LohVYjQW49074Sy.jpg",
+    "overview": "Pursued by Wilson Fisk's criminal empire, Maya's journey brings her home and she must confront her own family and legacy.",
+    "localized": {
+      "en": {
+        "title": "Echo",
+        "overview": "Pursued by Wilson Fisk's criminal empire, Maya's journey brings her home and she must confront her own family and legacy."
+      },
+      "es": {
+        "title": "Echo",
+        "overview": "Perseguida por el imperio criminal de Fisk, Maya vuelve a casa a confrontar a su familia y legado."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 5
+      }
+    ],
+    "runtimeMin": 213
+  },
+  {
+    "id": "deadpool-and-wolverine-2024",
+    "tmdbId": 533535,
+    "tmdbType": "movie",
+    "title": "Deadpool & Wolverine",
+    "kind": "movie",
+    "releaseDate": "2024-07-24",
+    "imdbId": "tt6263850",
+    "posterPath": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "overview": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+    "localized": {
+      "en": {
+        "title": "Deadpool & Wolverine",
+        "overview": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine."
+      },
+      "es": {
+        "title": "Deadpool & Wolverine",
+        "overview": "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine."
+      }
+    },
+    "runtimeMin": 128
+  },
+  {
+    "id": "agatha-all-along-2024",
+    "tmdbId": 138501,
+    "tmdbType": "tv",
+    "title": "Agatha All Along",
+    "kind": "series",
+    "releaseDate": "2024-09-18",
+    "imdbId": "tt15571732",
+    "posterPath": "/mGsxKwXUjojitRv2E9qMTbxbBRd.jpg",
+    "overview": "Agatha Harkness gathers a coven of witches and sets off down, down, down The Witches' Road.",
+    "localized": {
+      "en": {
+        "title": "Agatha All Along",
+        "overview": "Agatha Harkness gathers a coven of witches and sets off down, down, down The Witches' Road."
+      },
+      "es": {
+        "title": "Agatha en todas partes",
+        "overview": "Agatha Harkness reúne un aquelarre para poder recorrer el Sendero de las Brujas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9
+      }
+    ],
+    "runtimeMin": 379
+  },
+  {
+    "id": "your-friendly-neighborhood-spider-man-2025",
+    "tmdbId": 138503,
+    "tmdbType": "tv",
+    "title": "Your Friendly Neighborhood Spider-Man",
+    "kind": "series",
+    "releaseDate": "2025-01-29",
+    "imdbId": "tt16027074",
+    "posterPath": "/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg",
+    "overview": "Peter Parker is on his way to becoming a hero, but his path to get there is anything but ordinary.",
+    "localized": {
+      "en": {
+        "title": "Your Friendly Neighborhood Spider-Man",
+        "overview": "Peter Parker is on his way to becoming a hero, but his path to get there is anything but ordinary."
+      },
+      "es": {
+        "title": "Tu amigo y vecino Spider-Man",
+        "overview": "Peter Parker está en camino a convertirse en héroe, pero su recorrido no será para nada ordinario."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10
+      }
+    ],
+    "runtimeMin": 317
+  },
+  {
+    "id": "captain-america-brave-new-world-2025",
+    "tmdbId": 822119,
+    "tmdbType": "movie",
+    "title": "Captain America: Brave New World",
+    "kind": "movie",
+    "releaseDate": "2025-02-12",
+    "imdbId": "tt14513804",
+    "posterPath": "/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+    "overview": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red.",
+    "localized": {
+      "en": {
+        "title": "Captain America: Brave New World",
+        "overview": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red."
+      },
+      "es": {
+        "title": "Capitán América: Un nuevo mundo",
+        "overview": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "daredevil-born-again-2025",
+    "tmdbId": 202555,
+    "tmdbType": "tv",
+    "title": "Daredevil: Born Again",
+    "kind": "series",
+    "releaseDate": "2025-03-04",
+    "imdbId": "tt18923754",
+    "posterPath": "/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "overview": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
+    "localized": {
+      "en": {
+        "title": "Daredevil: Born Again",
+        "overview": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course."
+      },
+      "es": {
+        "title": "Daredevil: Born Again",
+        "overview": "Matt Murdock, un abogado ciego con habilidades especiales, lucha por la justicia a través de su ajetreado bufete, mientras que el ex jefe de la mafia Wilson Fisk persigue sus propios objetivos políticos en Nueva York. Cuando sus identidades pasadas empiezan a salir a la luz, ambos hombres se encuentran en una inevitable colisión."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9
+      },
+      {
+        "number": 2,
+        "episodes": 8
+      }
+    ],
+    "runtimeMin": 868
+  },
+  {
+    "id": "thunderbolts-2025",
+    "tmdbId": 986056,
+    "tmdbType": "movie",
+    "title": "Thunderbolts*",
+    "kind": "movie",
+    "releaseDate": "2025-04-30",
+    "imdbId": "tt20969586",
+    "posterPath": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+    "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+    "localized": {
+      "en": {
+        "title": "Thunderbolts*",
+        "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts."
+      },
+      "es": {
+        "title": "Thunderbolts*",
+        "overview": "Un grupo de supervillanos poco convencional es reclutado para hacer misiones para el gobierno: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker. Después de verse atrapados en una trampa mortal urdida por Valentina Allegra de Fontaine, estos marginados deben embarcarse en una peligrosa misión que les obligará a enfrentarse a los recovecos más oscuros de su pasado."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "ironheart-2025",
+    "tmdbId": 114471,
+    "tmdbType": "tv",
+    "title": "Ironheart",
+    "kind": "series",
+    "releaseDate": "2025-06-24",
+    "imdbId": "tt13623126",
+    "posterPath": "/dOh6MJpdlQhYpLBhzhNQeYGKTZ5.jpg",
+    "overview": "After the events of Black Panther: Wakanda Forever, technology is pitted against magic when Riri Williams, a young, genius inventor determined to make her mark on the world, returns to her hometown of Chicago. Her unique take on building iron suits is brilliant, but in pursuit of her ambitions, she finds herself wrapped up with the mysterious yet charming Parker Robbins aka \"The Hood.\"",
+    "localized": {
+      "en": {
+        "title": "Ironheart",
+        "overview": "After the events of Black Panther: Wakanda Forever, technology is pitted against magic when Riri Williams, a young, genius inventor determined to make her mark on the world, returns to her hometown of Chicago. Her unique take on building iron suits is brilliant, but in pursuit of her ambitions, she finds herself wrapped up with the mysterious yet charming Parker Robbins aka \"The Hood.\""
+      },
+      "es": {
+        "title": "Ironheart",
+        "overview": "La inventora genio Riri vuelve a Chicago donde conoce a Parker Robbins, conocido como The Hood."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6
+      }
+    ],
+    "runtimeMin": 305
+  },
+  {
+    "id": "the-fantastic-4-first-steps-2025",
+    "tmdbId": 617126,
+    "tmdbType": "movie",
+    "title": "The Fantastic 4: First Steps",
+    "kind": "movie",
+    "releaseDate": "2025-07-23",
+    "imdbId": "tt10676052",
+    "posterPath": "/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg",
+    "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+    "localized": {
+      "en": {
+        "title": "The Fantastic 4: First Steps",
+        "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer."
+      },
+      "es": {
+        "title": "Los 4 Fantásticos: Primeros pasos",
+        "overview": "Con un estruendoso trasfondo en un mundo retrofuturista inspirado en los años 60, la Primera Familia de Marvel enfrenta su desafío más intimidante hasta ahora. Obligados a equilibrar sus roles como héroes con la fuerza de su vínculo familiar, deben defender la Tierra de un voraz dios espacial llamado Galactus y su enigmático heraldo, Silver Surfer."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "eyes-of-wakanda-2025",
+    "tmdbId": 241388,
+    "tmdbType": "tv",
+    "title": "Eyes of Wakanda",
+    "kind": "series",
+    "releaseDate": "2025-08-01",
+    "imdbId": "tt13968252",
+    "posterPath": "/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
+    "overview": "Follow the adventures of brave Wakandan warriors throughout history in this globe-trotting adventure, where they must carry out dangerous missions to retrieve Vibranium artifacts from the enemies of Wakanda. They are the Hatut Zaraze and this is their story.",
+    "localized": {
+      "en": {
+        "title": "Eyes of Wakanda",
+        "overview": "Follow the adventures of brave Wakandan warriors throughout history in this globe-trotting adventure, where they must carry out dangerous missions to retrieve Vibranium artifacts from the enemies of Wakanda. They are the Hatut Zaraze and this is their story."
+      },
+      "es": {
+        "title": "Los ojos de Wakanda",
+        "overview": "A lo largo de la historia de Wakanda, valientes guerreros han recibido la misión de viajar por el mundo para recuperar peligrosos artefactos de vibranium. La serie explorará diferentes épocas en el tiempo y representará la historia de aquellos que hicieron que Wakanda se mantuviera en secreto durante siglos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 4
+      }
+    ],
+    "runtimeMin": 125
+  },
+  {
+    "id": "marvel-zombies-2025",
+    "tmdbId": 138505,
+    "tmdbType": "tv",
+    "title": "Marvel Zombies",
+    "kind": "series",
+    "releaseDate": "2025-09-24",
+    "imdbId": "tt16027014",
+    "posterPath": "/mwKj9ERGFXsWot0nXgQ5yMQf9I7.jpg",
+    "overview": "After the Avengers are overtaken by a zombie plague, a desperate group of survivors discover the key to bringing an end to the super-powered undead, racing across a dystopian landscape and risking life and limb to save their world.",
+    "localized": {
+      "en": {
+        "title": "Marvel Zombies",
+        "overview": "After the Avengers are overtaken by a zombie plague, a desperate group of survivors discover the key to bringing an end to the super-powered undead, racing across a dystopian landscape and risking life and limb to save their world."
+      },
+      "es": {
+        "title": "Marvel Zombies",
+        "overview": "Después de que los Vengadores fueron vencidos por una plaga de zombis, un desesperado grupo de sobrevivientes descubre la clave para llevar a su fin a los súper poderosos no muertos, corriendo a través de un paisaje distópico y arriesgando su vida y sus miembros para salvar al mundo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 4
+      }
+    ],
+    "runtimeMin": 137
+  },
+  {
+    "id": "wonder-man-2026",
+    "tmdbId": 198178,
+    "tmdbType": "tv",
+    "title": "Wonder Man",
+    "kind": "series",
+    "releaseDate": "2026-01-27",
+    "imdbId": "tt21066182",
+    "posterPath": "/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
+    "overview": "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles.",
+    "localized": {
+      "en": {
+        "title": "Wonder Man",
+        "overview": "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles."
+      },
+      "es": {
+        "title": "Wonder Man",
+        "overview": "El aspirante a actor, Simon Williams, lucha por hacer despegar su carrera. Durante un encuentro por casualidad con el actor veterano, Trevor Slattery, Simon se entera de que el legendario director Von Kovak está por hacer la remake de la película de súper héroes “Wonder Man”. Estos actores en los extremos opuestos de sus carreras persiguen roles en esta película que cambiarían sus vidas, mientras la audiencia puede espiar detrás del telón de la industria del entretenimiento."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8
+      }
+    ],
+    "runtimeMin": 267
+  },
+  {
+    "id": "the-punisher-one-last-kill-2026",
+    "tmdbId": 1439930,
+    "tmdbType": "movie",
+    "title": "The Punisher: One Last Kill",
+    "kind": "special",
+    "releaseDate": "2026-05-12",
+    "imdbId": "tt36042156",
+    "posterPath": "/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+    "overview": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+    "localized": {
+      "en": {
+        "title": "The Punisher: One Last Kill",
+        "overview": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight."
+      },
+      "es": {
+        "title": "The Punisher: La última muerte",
+        "overview": "Mientras Frank Castle busca propósito más allá de la venganza, una fuerza inesperada lo arrastra de nuevo a la lucha."
+      }
+    },
+    "runtimeMin": 51
+  },
+  {
+    "id": "spider-man-brand-new-day-2026",
+    "tmdbId": 969681,
+    "tmdbType": "movie",
+    "title": "Spider-Man: Brand New Day",
+    "kind": "movie",
+    "releaseDate": "2026-07-29",
+    "imdbId": "tt22084616",
+    "posterPath": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+    "localized": {
+      "en": {
+        "title": "Spider-Man: Brand New Day",
+        "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see."
+      },
+      "es": {
+        "title": "Spider-Man: Un nuevo día",
+        "overview": "A medida qué Spider-Man está en la cima de su carrera protegiendo la ciudad de Nueva York, una serie de crímenes inusuales lo arrastran a una red de misterios más grande de lo que jamás haya enfrentado."
+      }
+    },
+    "runtimeMin": 145
+  },
+  {
+    "id": "visionquest-2026",
+    "tmdbId": 213375,
+    "tmdbType": "tv",
+    "title": "VisionQuest",
+    "kind": "series",
+    "releaseDate": "2026-10-14",
+    "imdbId": "tt23112594",
+    "posterPath": "/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
+    "overview": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive.",
+    "localized": {
+      "en": {
+        "title": "VisionQuest",
+        "overview": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive."
+      },
+      "es": {
+        "title": "VisionQuest"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8
+      }
+    ]
+  },
+  {
+    "id": "avengers-doomsday-2026",
+    "tmdbId": 1003596,
+    "tmdbType": "movie",
+    "title": "Avengers: Doomsday",
+    "kind": "movie",
+    "releaseDate": "2026-12-15",
+    "imdbId": "tt21357150",
+    "posterPath": "/40jN1UgNAYEkGt2M0i81ghLF3cc.jpg",
+    "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+    "localized": {
+      "en": {
+        "title": "Avengers: Doomsday",
+        "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered."
+      },
+      "es": {
+        "title": "Avengers: Doomsday",
+        "overview": "Héroes amados de tres universos distintos están en rumbo a una colisión letal y enfrentan una amenaza existencial como ninguna otra que hayan conocido."
+      }
+    },
+    "runtimeMin": 165
+  },
+  {
+    "id": "avengers-secret-wars-2027",
+    "tmdbId": 1003598,
+    "tmdbType": "movie",
+    "title": "Avengers: Secret Wars",
+    "kind": "movie",
+    "releaseDate": "2027-12-15",
+    "imdbId": "tt21361444",
+    "posterPath": "/f0YBuh4hyiAheXhh4JnJWoKi9g5.jpg",
+    "overview": "An upcoming film in Phase Six of the Marvel Cinematic Universe (MCU) and the finale of The Multiverse Saga.",
+    "localized": {
+      "en": {
+        "title": "Avengers: Secret Wars",
+        "overview": "An upcoming film in Phase Six of the Marvel Cinematic Universe (MCU) and the finale of The Multiverse Saga."
+      },
+      "es": {
+        "title": "Avengers: Secret Wars"
+      }
+    }
+  }
+]
