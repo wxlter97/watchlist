@@ -1,0 +1,5 @@
+- The Fourth Holy Grail War in Fuyuki: seven Masters summon seven Servants to fight over a wish-granting Grail.
+- Kiritsugu Emiya fights for the Einzberns with Saber, King Arthur. Waver Velvet teams up with Rider, Iskandar.
+- Kirei Kotomine betrays and kills his teacher, Tokiomi Tohsaka, and takes over Archer, Gilgamesh.
+- Kiritsugu learns the Grail is corrupted and makes Saber destroy it; its mud causes the great Fuyuki fire.
+- In the ruins he rescues a boy, Shirou, and adopts him. Gilgamesh survives with a body of his own.

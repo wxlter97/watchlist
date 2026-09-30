@@ -1,0 +1,4 @@
+- Siglo XXIV: el capitán Jean-Luc Picard dirige la Enterprise-D con Riker, el androide Data, Worf (el primer klingon de la Flota), Troi, Crusher y La Forge.
+- Q, un ser omnipotente, pone a prueba a la humanidad desde el primer episodio hasta el último.
+- Los Borg, una colmena que asimila especies, capturan a Picard y lo convierten en Locutus; destruyen 39 naves en Wolf 359 antes de que lo rescaten.
+- Worf se ve envuelto en la política klingon y en su guerra civil; la Federación y el Imperio Klingon son aliados.

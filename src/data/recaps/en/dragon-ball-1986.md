@@ -1,0 +1,4 @@
+- Goku, a boy with a tail and superhuman strength, meets Bulma and joins her search for the seven Dragon Balls, which grant a wish.
+- He trains with Master Roshi alongside Krillin and fights in the World Martial Arts Tournaments.
+- He defeats the Red Ribbon Army and King Piccolo, who had killed Krillin.
+- At the 23rd tournament he beats Piccolo Jr., his enemy's reincarnation, and marries Chi-Chi.

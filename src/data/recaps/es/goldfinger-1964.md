@@ -1,0 +1,4 @@
+- Bond investiga a Auric Goldfinger, contrabandista de oro. Jill Masterson muere cubierta de pintura dorada.
+- Goldfinger lo captura y planea la Operación Grand Slam: detonar una bomba sucia en Fort Knox para irradiar el oro de EE. UU. y multiplicar el valor del suyo.
+- La piloto Pussy Galore cambia de bando y alerta a las autoridades.
+- Bond mata a Oddjob y la bomba se desactiva a 007 segundos. Goldfinger sale despedido por la ventanilla de un avión.

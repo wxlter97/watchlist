@@ -1,0 +1,4 @@
+- Goku, un niño con cola y fuerza sobrehumana, conoce a Bulma y la acompaña a buscar las siete esferas del dragón, que cumplen un deseo.
+- Entrena con el Maestro Roshi junto a Krillin y compite en los Torneos de Artes Marciales.
+- Vence al Ejército Red Ribbon y a Piccolo Daimaō, que había matado a Krillin.
+- En el 23.º torneo derrota a Piccolo Jr., la reencarnación de su enemigo, y se casa con Chi-Chi.

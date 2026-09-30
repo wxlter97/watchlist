@@ -1,0 +1,5 @@
+- El comandante Benjamin Sisko dirige Deep Space Nine, una estación junto a Bajor, recién liberado de la ocupación cardassiana.
+- Se descubre un agujero de gusano estable al Cuadrante Gamma, habitado por los Profetas; los bajoranos ven en Sisko a su Emisario.
+- Del otro lado está el Dominio, gobernado por los Fundadores, cambiaformas como el jefe de seguridad Odo.
+- Estalla la Guerra del Dominio: Cardassia se une al Dominio; la Federación, los klingons y después los romulanos luchan juntos hasta ganar.
+- Sisko vence a Gul Dukat y se va a vivir con los Profetas; Odo vuelve con su pueblo.

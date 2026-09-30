@@ -1,0 +1,4 @@
+- Décadas atrás, el rey Vegeta exilió al bebé Broly al planeta Vampa por su poder. Poco después, Freezer destruyó el planeta Vegeta y Bardock envió a su hijo Kakarot a la Tierra.
+- El ejército de Freezer encuentra a Broly y a su padre Paragus y los lleva a la Tierra para pelear con Goku y Vegeta.
+- La furia de Broly lo vuelve imparable; Goku y Vegeta se fusionan en Gogeta.
+- Cheelai usa las esferas para devolver a Broly a Vampa. Goku lo visita para ofrecerle amistad.

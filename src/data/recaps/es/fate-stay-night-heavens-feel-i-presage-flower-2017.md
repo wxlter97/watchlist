@@ -1,0 +1,4 @@
+- La ruta de Sakura Matou, que cuida de Shirou desde hace años.
+- Una sombra devora a los Servants en Fuyuki; True Assassin, invocado por Zouken Matou, mata a Lancer.
+- Saber enfrenta a la sombra y es tragada por ella.
+- Shirou queda sin Servant pero decide seguir peleando para proteger a Sakura.

@@ -1,0 +1,4 @@
+- Brian O'Conner, an undercover cop, infiltrates LA street racing to find a truck-hijacking crew.
+- He befriends Dominic Toretto and falls for Dom's sister, Mia.
+- Dom's crew (Letty, Vince, Leon, Jesse) are the hijackers; a heist goes wrong and Brian reveals himself to save Vince.
+- After one last race, Brian lets Dom go and hands him his car keys.

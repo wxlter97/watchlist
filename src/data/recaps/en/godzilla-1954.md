@@ -1,0 +1,5 @@
+- Hydrogen bomb tests awaken Godzilla, who wrecks Odo Island and then Tokyo.
+- Paleontologist Yamane wants to study it; the military can't stop it.
+- Dr. Serizawa has invented the Oxygen Destroyer, a weapon he fears will be used in wars.
+- He uses it in Tokyo Bay and dies with Godzilla so his secret dies too.
+- Yamane warns that if nuclear testing continues, another one may appear.

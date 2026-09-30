@@ -1,0 +1,5 @@
+- 1945: Kōichi Shikishima, piloto kamikaze, deserta en la isla Odo. Godzilla ataca y él no dispara; solo sobrevive el mecánico Tachibana.
+- En el Tokio en ruinas forma una familia con Noriko y la huérfana Akiko, cargando con la culpa.
+- Godzilla, agrandado por las pruebas en Bikini, arrasa Ginza; Noriko desaparece en la explosión.
+- Civiles y exmarinos lo hunden con tanques de freón y lo sacan a flote de golpe. Shikishima lo ataca en un caza, pero Tachibana le instaló un asiento eyectable: vive.
+- Noriko sobrevivió, con una marca oscura en el cuello; en el mar, la carne de Godzilla se regenera.

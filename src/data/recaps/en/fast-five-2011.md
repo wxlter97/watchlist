@@ -1,0 +1,5 @@
+- Brian and Mia break Dom out of a prison bus; the three flee to Rio de Janeiro.
+- A car heist on a train pits them against Hernan Reyes, the kingpin who runs the city. Mia is pregnant.
+- They assemble Roman, Tej, Han, Gisele, Tego and Rico to steal Reyes's money from a police vault.
+- DSS agent Luke Hobbs hunts them, but joins them after Reyes kills his team.
+- They drag the vault through Rio and split the money. At the end, Hobbs gets a photo: Letty is alive.

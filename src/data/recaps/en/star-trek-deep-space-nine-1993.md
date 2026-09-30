@@ -1,0 +1,5 @@
+- Commander Benjamin Sisko runs Deep Space Nine, a station near Bajor, newly freed from Cardassian occupation.
+- A stable wormhole to the Gamma Quadrant is found, home to the Prophets; the Bajorans see Sisko as their Emissary.
+- On the other side is the Dominion, ruled by the Founders, shapeshifters like security chief Odo.
+- The Dominion War breaks out: Cardassia joins the Dominion; the Federation, the Klingons and later the Romulans fight together until they win.
+- Sisko defeats Gul Dukat and goes to live with the Prophets; Odo returns to his people.

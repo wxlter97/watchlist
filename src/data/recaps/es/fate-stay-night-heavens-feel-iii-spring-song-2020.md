@@ -1,0 +1,4 @@
+- Sakura, unida a la entidad dentro del Grial, se vuelve la Sakura Oscura y ataca a Rin y a Shirou.
+- Con ayuda de Rider, Shirou mata a Saber Alter. Rin enfrenta a su hermana y logra alcanzarla.
+- Shirou pelea contra Kirei hasta el final; Kirei muere.
+- Illya se sacrifica para salvar a Shirou y cerrar el Grial. Shirou vuelve en un cuerpo nuevo y vive con Sakura.

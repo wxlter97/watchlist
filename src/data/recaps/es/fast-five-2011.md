@@ -1,0 +1,5 @@
+- Brian y Mia sacan a Dom de un autobús de presos; los tres huyen a Río de Janeiro.
+- Un robo de autos en un tren los enfrenta a Hernan Reyes, el narco que controla la ciudad. Mia está embarazada.
+- Reúnen a Roman, Tej, Han, Gisele, Tego y Rico para robar el dinero de Reyes de una bóveda policial.
+- Luke Hobbs, agente del DSS, los persigue, pero se une a ellos cuando Reyes mata a su equipo.
+- Arrastran la bóveda por Río y se reparten el dinero. Al final, Hobbs recibe una foto: Letty está viva.

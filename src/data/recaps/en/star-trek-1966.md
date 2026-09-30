@@ -1,0 +1,4 @@
+- 23rd century: the USS Enterprise, under Captain James T. Kirk, is on a five-year mission of exploration.
+- With Spock, the half-Vulcan science officer, and Dr. McCoy, they face Klingons and Romulans and meet new civilizations.
+- In "Space Seed" they revive Khan Noonien Singh, a genetically enhanced 20th-century tyrant; after he tries to seize the ship, Kirk exiles him to Ceti Alpha V.
+- The series sets up the Federation, Starfleet and the Prime Directive: don't interfere with other cultures.

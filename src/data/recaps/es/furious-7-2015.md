@@ -1,0 +1,5 @@
+- Deckard Shaw busca venganza por su hermano Owen: hiere a Hobbs y mata a Han en Tokio.
+- Mr. Nobody ofrece ayudar a Dom a cambio de rescatar a Ramsey, creadora del Ojo de Dios, un programa que rastrea a cualquiera.
+- Del Cáucaso a Abu Dabi y Los Ángeles, pelean contra Shaw y el terrorista Mose Jakande.
+- Letty recupera la memoria. Shaw termina preso.
+- Brian deja la vida de riesgo para estar con Mia y sus hijos: la despedida de Paul Walker.

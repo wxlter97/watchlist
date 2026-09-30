@@ -1,0 +1,4 @@
+- Ignora todas las secuelas: 40 años después, Michael sigue encerrado desde aquella noche.
+- Laurie vive preparada para su regreso, aislada y distanciada de su hija Karen; su nieta Allyson intenta acercarla.
+- Michael escapa en un traslado y vuelve a matar en Haddonfield; el Dr. Sartain, obsesionado con él, lo ayuda.
+- Laurie, Karen y Allyson lo atraen a la casa fortificada de Laurie y lo encierran en el sótano en llamas.

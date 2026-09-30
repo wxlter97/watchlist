@@ -1,0 +1,4 @@
+- Ignores every sequel: 40 years later, Michael has been locked up since that night.
+- Laurie lives ready for his return, isolated and estranged from her daughter Karen; her granddaughter Allyson tries to bridge the gap.
+- Michael escapes during a transfer and kills again in Haddonfield; Dr. Sartain, obsessed with him, helps him.
+- Laurie, Karen and Allyson lure him into Laurie's fortified house and trap him in the burning basement.

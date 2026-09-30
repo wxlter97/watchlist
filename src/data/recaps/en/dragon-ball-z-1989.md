@@ -1,0 +1,5 @@
+- Raditz reveals Goku is a Saiyan, Kakarot, sent to conquer Earth. Goku dies to defeat him alongside Piccolo.
+- Vegeta and Nappa arrive; on Namek, fighting Frieza, Goku becomes a Super Saiyan.
+- Future Trunks warns about the androids. Cell absorbs them and Gohan defeats him; Goku dies in the sacrifice.
+- Majin Buu nearly destroys everything: Goku and Vegeta fuse, and Goku finally wipes him out with a Spirit Bomb.
+- Ten years later, Goku leaves to train Uub, Buu's reincarnation.

@@ -1,0 +1,5 @@
+- Beerus, the god of destruction, seeks the Super Saiyan God; Goku reaches that form, then Blue.
+- Frieza is revived in his Golden form and falls again.
+- A tournament against Universe 6, ruled by Beerus's brother Champa.
+- Future Trunks flees Goku Black and Zamasu; Zeno erases that future timeline.
+- In the Tournament of Power, the losing universes are erased. Goku reaches Ultra Instinct; Android 17 wins and wishes them all back.

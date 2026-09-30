@@ -1,0 +1,5 @@
+- En Estambul roban un disco con las identidades de agentes de la OTAN; Eve dispara por error y Bond es dado por muerto.
+- Un atentado golpea al MI6 y Bond regresa, aunque ya no está en forma.
+- El responsable es Raoul Silva, exagente al que M abandonó, que quiere vengarse de ella.
+- Bond lleva a M a Skyfall, la casa de su infancia en Escocia; mata a Silva, pero M muere.
+- Mallory es el nuevo M, Eve pasa a ser Moneypenny y hay un nuevo Q.

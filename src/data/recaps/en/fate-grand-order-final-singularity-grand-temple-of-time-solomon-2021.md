@@ -1,0 +1,4 @@
+- Chaldea storms Goetia's Temple of Time; Goetia incinerated humanity.
+- Servants from every singularity arrive to fight the demon pillars.
+- Mash sacrifices herself to protect Ritsuka and comes back thanks to Fou.
+- Dr. Roman reveals he is King Solomon and gives up his existence to defeat Goetia. Humanity is restored.

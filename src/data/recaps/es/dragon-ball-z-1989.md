@@ -1,0 +1,5 @@
+- Raditz revela que Goku es un saiyajin, Kakarot, enviado a conquistar la Tierra. Goku muere para vencerlo junto a Piccolo.
+- Llegan Vegeta y Nappa; en Namek, contra Freezer, Goku se convierte en Super Saiyajin.
+- Trunks del futuro advierte sobre los androides. Cell los absorbe y Gohan lo vence; Goku muere en el sacrificio.
+- Majin Buu casi destruye todo: Goku y Vegeta se fusionan y al final Goku lo elimina con una Genkidama.
+- Diez años después, Goku se va a entrenar a Uub, la reencarnación de Buu.

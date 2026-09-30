@@ -1,0 +1,4 @@
+- La nave de carga Nostromo despierta a su tripulación por una señal en el planetoide LV-426.
+- Una criatura se adhiere a la cara de Kane; días después, una cría le revienta el pecho y escapa.
+- El alien crece y mata a la tripulación uno a uno. Ash resulta ser un androide con la orden secreta de la Compañía de llevar al organismo a la Tierra: la tripulación era prescindible.
+- Ripley activa la autodestrucción, huye en la lanzadera con el gato Jones y expulsa al alien al espacio.

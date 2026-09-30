@@ -1,0 +1,5 @@
+- 2029: casi no quedan mutantes. Logan envejece, su factor curativo falla y el adamantium lo envenena.
+- Cuida a un Charles Xavier enfermo, cuyas convulsiones mataron a varios X-Men.
+- Aparece Laura (X-23), creada por Transigen con el ADN de Logan, que busca llegar a «Edén» en la frontera con Canadá.
+- Los persiguen los Reavers de Pierce y X-24, un clon de Logan que mata a Charles.
+- Logan muere protegiendo a Laura y a los otros niños; ella gira la cruz de su tumba para formar una X.

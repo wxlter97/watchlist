@@ -1,0 +1,4 @@
+- Ed y Lorraine Warren, investigadores paranormales, guardan objetos malditos como la muñeca Annabelle.
+- 1971: la familia Perron se muda a una granja de Rhode Island y empieza a sufrir apariciones.
+- La causa es Bathsheba, una bruja que sacrificó a su hijo y maldijo la tierra; posee a Carolyn, la madre, para que mate a su hija.
+- Ed realiza el exorcismo sin esperar a la Iglesia; Carolyn se libera recordando a su familia.

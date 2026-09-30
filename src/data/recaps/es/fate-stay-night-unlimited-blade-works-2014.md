@@ -1,0 +1,4 @@
+- Diez años después empieza la Quinta Guerra. Shirou Emiya, el hijo adoptivo de Kiritsugu, invoca a Saber casi por accidente.
+- Se alía con Rin Tohsaka y su Servant, Archer.
+- Caster le roba a Saber. Archer resulta ser un Shirou del futuro que se arrepiente de su ideal y quiere matar a su yo joven.
+- Shirou vence a Archer defendiendo ese ideal. Gilgamesh, que mató a Illya, cae ante Shirou y Rin, y el Grial se destruye.
