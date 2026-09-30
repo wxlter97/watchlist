@@ -249,7 +249,10 @@
     "season": "Temporada {{number}}",
     "markSeason": "Marcar temporada",
     "seasonDone": "✓ Completa",
-    "episode": "Temporada {{season}}, episodio {{episode}}"
+    "episode": "Temporada {{season}}, episodio {{episode}}",
+    "progress": "{{seen}}/{{total}} episodios",
+    "show": "Mostrar episodios de {{title}}",
+    "hide": "Ocultar episodios de {{title}}"
   },
   "external": {
     "title": "Enlaces externos"

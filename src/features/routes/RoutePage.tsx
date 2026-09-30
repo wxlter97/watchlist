@@ -4,7 +4,7 @@ import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel } from "../../components/ui";
 import { useCatalog, withReferences } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
-import { useIsWatched } from "../../lib/progressStore";
+import { useIsWatched } from "../../lib/watched";
 import { resolveRoute, routeProgress } from "../../lib/routes";
 
 export function RoutePage() {

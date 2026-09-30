@@ -22,7 +22,7 @@ export function TimeBudget({ items, planHref }: { items: readonly OrderedItem[];
   const suggestion = useMemo(() => {
     if (!budget) return undefined;
     const units = pendingUnits(
-      items.map((i) => i.title),
+      items.map(({ title, season }) => ({ title, season })),
       progress,
     );
     return suggestForBudget(units, Number(budget), todayIso());

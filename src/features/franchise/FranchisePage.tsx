@@ -9,6 +9,8 @@ import { ConfirmDialog } from "../../components/ConfirmDialog";
 import { CUSTOM_ORDER_ID, watchedUpTo, type OrderedItem } from "../../lib/orders";
 import { useProgressStore } from "../../lib/progressStore";
 import { showToast } from "../../lib/toasts";
+import { markUnitsWatched } from "../../lib/actions";
+import { unitKey, type IsWatched } from "../../lib/units";
 import { summarize, todayIso } from "../../lib/progress";
 import { RoutesSection } from "../routes/RoutesSection";
 import { FiltersPanel } from "./FiltersPanel";
@@ -25,9 +27,9 @@ import type { Franchise, Title } from "../../lib/types";
 export function FranchisePage() {
   const { franchiseId } = useParams();
   const view = useFranchiseView(franchiseId);
-  const { t, loc, name } = useLang();
+  const { t, loc, unitName } = useLang();
   const [editing, setEditing] = useState(false);
-  const [upTo, setUpTo] = useState<{ titleId: string; ids: string[] } | null>(null);
+  const [upTo, setUpTo] = useState<{ key: string; items: OrderedItem[] } | null>(null);
   const applyMany = useProgressStore((s) => s.applyMany);
   const progress = useProgressStore((s) => s.progress);
   const { franchise, order, items, visibleItems, summary } = view;
@@ -40,24 +42,19 @@ export function FranchisePage() {
   const isCustom = order.type === "custom";
 
   // "Visto hasta aquí" usa el orden completo (sin filtros), no solo lo que se ve.
-  const askWatchedUpTo = (titleId: string) => setUpTo({ titleId, ids: watchedUpTo(items, titleId, view.isWatched, todayIso()) });
+  const askWatchedUpTo = (key: string) => setUpTo({ key, items: watchedUpTo(items, key, view.isWatched, todayIso()) });
   const confirmWatchedUpTo = () => {
-    if (!upTo?.ids.length) return setUpTo(null);
-    const now = new Date().toISOString();
-    const before = Object.fromEntries(upTo.ids.map((id) => [id, progress[id] ?? null]));
-    applyMany(
-      Object.fromEntries(
-        upTo.ids.map((id) => [id, { rewatchCount: 0, ...progress[id], status: "watched" as const, watchedAt: now, updatedAt: now }]),
-      ),
-    );
+    if (!upTo?.items.length) return setUpTo(null);
+    // Las temporadas marcan sus episodios; los títulos, el título entero.
+    const before = markUnitsWatched(upTo.items);
     showToast({
-      message: t("upTo.done", { count: upTo.ids.length }),
+      message: t("upTo.done", { count: upTo.items.length }),
       action: { label: t("upTo.undo"), onClick: () => applyMany(before) },
       duration: 10_000,
     });
     setUpTo(null);
   };
-  const upToTitle = upTo ? view.index.titlesById.get(upTo.titleId) : undefined;
+  const upToItem = upTo ? items.find((i) => i.key === upTo.key) : undefined;
   const sections = groupSections(visibleItems);
   const groupLabels = order.type === "grouped" ? order.groupLabels : undefined;
   const orderName = isCustom ? t("customOrder.name") : loc(order.name);
@@ -164,12 +161,12 @@ export function FranchisePage() {
       {editing ? (
         <Suspense fallback={<p className="py-8 text-center text-muted">…</p>}>
           <CustomOrderEditor
-            titles={items.map((i) => i.title)}
+            units={items.map(({ key, title, season }) => ({ key, title, season }))}
             onCancel={() => setEditing(false)}
-            onSave={(ids) => {
-              // Los títulos de continuidades ocultas conservan su lugar relativo, al final.
-              const rest = computeHiddenTail(view.items, ids, franchise.entries.map((e) => e.titleId));
-              view.saveCustomOrder([...ids, ...rest]);
+            onSave={(keys) => {
+              // Lo de continuidades ocultas conserva su lugar relativo, al final.
+              const rest = computeHiddenTail(view.items, keys, franchise.entries.map((e) => unitKey(e.titleId, e.season)));
+              view.saveCustomOrder([...keys, ...rest]);
               setEditing(false);
             }}
           />
@@ -196,7 +193,7 @@ export function FranchisePage() {
                 <ol>
                   {section.items.map((item) => (
                     <TitleRow
-                      key={item.title.id}
+                      key={item.key}
                       item={item}
                       showChronoNote={order.type === "chronological"}
                       onWatchedUpTo={askWatchedUpTo}
@@ -212,16 +209,16 @@ export function FranchisePage() {
           <ConfirmDialog
             open={Boolean(upTo)}
             title={t("upTo.title")}
-            confirmLabel={t("upTo.confirm", { count: upTo?.ids.length ?? 0 })}
+            confirmLabel={t("upTo.confirm", { count: upTo?.items.length ?? 0 })}
             cancelLabel={t("common.cancel")}
             onCancel={() => setUpTo(null)}
             onConfirm={confirmWatchedUpTo}
           >
-            {upTo && upToTitle && (
+            {upTo && upToItem && (
               <p>
-                {upTo.ids.length
-                  ? t("upTo.body", { count: upTo.ids.length, title: name(upToTitle), order: orderName })
-                  : t("upTo.nothing", { title: name(upToTitle) })}
+                {upTo.items.length
+                  ? t("upTo.body", { count: upTo.items.length, title: unitName(upToItem.title, upToItem.season), order: orderName })
+                  : t("upTo.nothing", { title: unitName(upToItem.title, upToItem.season) })}
               </p>
             )}
           </ConfirmDialog>
@@ -241,9 +238,9 @@ function franchiseMinutes(franchise: Franchise, titlesById: ReadonlyMap<string, 
   return total;
 }
 
-/** Títulos de la franquicia que no estaban en el editor (continuidades ocultas). */
+/** Unidades de la franquicia que no estaban en el editor (continuidades ocultas). */
 function computeHiddenTail(edited: OrderedItem[], savedIds: string[], allIds: string[]): string[] {
-  const inEditor = new Set([...edited.map((i) => i.title.id), ...savedIds]);
+  const inEditor = new Set([...edited.map((i) => i.key), ...savedIds]);
   return allIds.filter((id) => !inEditor.has(id));
 }
 
@@ -254,7 +251,7 @@ function SectionHeader({
 }: {
   label: string;
   items: OrderedItem[];
-  isWatched: (id: string) => boolean;
+  isWatched: IsWatched;
 }) {
   const { t } = useLang();
   const s = summarize(items, isWatched);

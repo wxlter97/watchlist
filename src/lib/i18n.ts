@@ -57,6 +57,9 @@ export function useLang() {
     },
     loc: (text: LocalizedText | undefined) => localize(text, lang),
     name: (title: Title) => titleName(title, lang),
+    /** Nombre de una unidad de un orden: "Loki" o "Loki · Temporada 2". */
+    unitName: (title: Title, season?: number) =>
+      season === undefined ? titleName(title, lang) : `${titleName(title, lang)} · ${t("episodes.season", { number: season })}`,
     date: (iso: string) =>
       new Intl.DateTimeFormat(lang === "es" ? "es-MX" : "en-US", { dateStyle: "medium", timeZone: "UTC" }).format(new Date(iso)),
   };

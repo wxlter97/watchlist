@@ -10,7 +10,7 @@ import {
   ESTIMATED_MOVIE_MIN,
   type PlanUnit,
 } from "./planner";
-import { computePlan, goalExists, goalTitles, newFeedToken } from "./plans";
+import { computePlan, goalExists, goalUnits, newFeedToken } from "./plans";
 import type { ProgressDoc } from "./progressStore";
 import { makeCatalog, title } from "../test/fixtures";
 
@@ -174,8 +174,8 @@ describe("planes", () => {
   const ctx = { index, franchiseState: {}, progress: {} };
 
   it("la meta sale del orden, del orden activo o de la ruta", () => {
-    const ids = (goal: Parameters<typeof goalTitles>[0], state = {}) =>
-      goalTitles(goal, { index, franchiseState: state }).map((t) => t.id);
+    const ids = (goal: Parameters<typeof goalUnits>[0], state = {}) =>
+      goalUnits(goal, { index, franchiseState: state }).map((u) => u.title.id);
     expect(ids({ type: "order", franchiseId: "test", refId: "chrono" })).toEqual(["b-2003", "a-2001", "c-2005", "alt-2004"]);
     expect(ids({ type: "route", franchiseId: "test", refId: "r" })).toEqual(["c-2005", "b-2003"]);
     expect(

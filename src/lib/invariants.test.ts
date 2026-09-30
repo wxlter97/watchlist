@@ -4,6 +4,7 @@ import { catalog, catalogIndex } from "./catalogFull";
 import { buildIndex } from "./catalogIndex";
 import { computeOrder, resolveOrder } from "./orders";
 import { summarize } from "./progress";
+import { unitKey } from "./units";
 import { addDays, buildSchedule, daysBetween, weekdayOf, WEEKDAYS, type PlanUnit, type Weekday } from "./planner";
 import type { ProgressDoc } from "./progressStore";
 import { computeStreak } from "./streaks";
@@ -82,11 +83,11 @@ describe("órdenes del catálogo real", () => {
 
   it.each(pairs.map(([f, o]) => [`${f.id}/${o.id}`, f, o]))("%s", (_, franchise, order) => {
     const items = computeOrder(franchise, resolveOrder(franchise, order.id), catalogIndex.titlesById);
-    const ids = items.map((i) => i.title.id);
+    const ids = items.map((i) => i.key);
     // Sin duplicados y con posiciones 1..n.
     expect(new Set(ids).size).toBe(ids.length);
     expect(items.map((i) => i.position)).toEqual(ids.map((_, i) => i + 1));
-    const entries = franchise.entries.map((e) => e.titleId);
+    const entries = franchise.entries.map((e) => unitKey(e.titleId, e.season));
     if (order.type === "curated") {
       for (const id of ids) expect(entries).toContain(id);
     } else {
@@ -101,10 +102,10 @@ describe("órdenes del catálogo real", () => {
       const hidden = franchise.continuities.slice(1).map((c) => c.id);
       for (const order of franchise.orders) {
         const resolved = resolveOrder(franchise, order.id);
-        const all = new Map(computeOrder(franchise, resolved, catalogIndex.titlesById).map((i) => [i.title.id, i.position]));
+        const all = new Map(computeOrder(franchise, resolved, catalogIndex.titlesById).map((i) => [i.key, i.position]));
         for (const item of computeOrder(franchise, resolved, catalogIndex.titlesById, { hiddenContinuities: hidden })) {
           expect(hidden).not.toContain(item.entry.continuityId);
-          expect(item.position).toBe(all.get(item.title.id));
+          expect(item.position).toBe(all.get(item.key));
         }
       }
     }

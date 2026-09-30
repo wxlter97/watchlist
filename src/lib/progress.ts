@@ -1,5 +1,6 @@
 import type { OrderedItem } from "./orders";
 import type { Title } from "./types";
+import type { IsWatched } from "./units";
 
 /** Fecha local de hoy en ISO (YYYY-MM-DD), comparable con releaseDate. */
 export function todayIso(now = new Date()): string {
@@ -20,17 +21,18 @@ export interface ProgressSummary {
 }
 
 export function summarize(
-  items: readonly OrderedItem[],
-  isWatched: (titleId: string) => boolean,
+  items: readonly Pick<OrderedItem, "title" | "season" | "releaseDate">[],
+  isWatched: IsWatched,
   today = todayIso(),
 ): ProgressSummary {
   let watched = 0;
   let total = 0;
   let upcoming = 0;
-  for (const { title } of items) {
-    if (isReleased(title, today)) {
+  // Cada temporada repartida en el orden cuenta como una unidad.
+  for (const { title, season, releaseDate } of items) {
+    if (releaseDate <= today) {
       total++;
-      if (isWatched(title.id)) watched++;
+      if (isWatched(title.id, season)) watched++;
     } else {
       upcoming++;
     }
@@ -43,9 +45,9 @@ export function summarize(
  * y las continuidades ocultas del perfil. Lo usa el Hub.
  */
 export function summarizeEntries(
-  entries: readonly { titleId: string; continuityId: string; releaseDate: string }[],
+  entries: readonly { titleId: string; season?: number; continuityId: string; releaseDate: string }[],
   hiddenContinuities: readonly string[],
-  isWatched: (titleId: string) => boolean,
+  isWatched: IsWatched,
   today = todayIso(),
 ): ProgressSummary {
   let watched = 0;
@@ -55,7 +57,7 @@ export function summarizeEntries(
     if (hiddenContinuities.includes(e.continuityId)) continue;
     if (e.releaseDate <= today) {
       total++;
-      if (isWatched(e.titleId)) watched++;
+      if (isWatched(e.titleId, e.season)) watched++;
     } else {
       upcoming++;
     }

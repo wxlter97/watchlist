@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { SectionLabel } from "../../components/ui";
 import { useCatalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
-import { useIsWatched } from "../../lib/progressStore";
+import { useIsWatched } from "../../lib/watched";
 import { resolveRoute, ROUTE_KINDS, routeProgress } from "../../lib/routes";
 import type { Franchise, Route } from "../../lib/types";
 

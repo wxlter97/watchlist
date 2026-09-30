@@ -125,10 +125,13 @@ export function TitlePage() {
             {appearances.map(({ franchise, entry }) => {
               const continuity = franchise.continuities.find((c) => c.id === entry.continuityId);
               return (
-                <li key={franchise.id} style={accentStyle(franchise.accentColor)}>
+                <li key={`${franchise.id}#${entry.season ?? ""}`} style={accentStyle(franchise.accentColor)}>
                   <Link to={`/f/${franchise.id}`} className="group block border-2 border-line bg-surface">
                     <div className="label flex justify-between gap-2 border-b-2 border-line bg-accent px-3.5 py-2.5 font-bold text-on-accent">
-                      <span>{loc(franchise.name)}</span>
+                      <span>
+                        {loc(franchise.name)}
+                        {entry.season !== undefined && ` · ${t("episodes.season", { number: entry.season })}`}
+                      </span>
                       <span aria-hidden>→</span>
                     </div>
                     <div className="space-y-2 p-3.5 text-sm">

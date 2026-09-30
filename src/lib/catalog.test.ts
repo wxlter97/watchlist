@@ -13,6 +13,7 @@ import { catalog, catalogIndex } from "./catalogFull";
 import { effectiveHidden } from "./filters";
 import { computeOrder, resolveOrder } from "./orders";
 import { summarize, summarizeEntries } from "./progress";
+import { parseUnitKey, unitReleaseDate } from "./units";
 
 // El catálogo por partes (catalog.ts + catalogData en vite.config.ts) tiene que dar lo mismo
 // que el catálogo entero.
@@ -27,7 +28,11 @@ describe("manifiesto", () => {
       expect(meta.accentColor).toBe(f.accentColor);
       expect(meta.continuities).toEqual(f.continuities);
       expect(meta.titles).toEqual(
-        f.entries.map((e) => ({ titleId: e.titleId, continuityId: e.continuityId, releaseDate: catalogIndex.titlesById.get(e.titleId)!.releaseDate })),
+        f.entries.map((e) => {
+          const title = catalogIndex.titlesById.get(e.titleId)!;
+          const base = { titleId: e.titleId, continuityId: e.continuityId, releaseDate: unitReleaseDate(title, e.season) };
+          return e.season === undefined ? base : { ...base, season: e.season, seasonEpisodes: title.seasons!.find((s) => s.number === e.season)!.episodes };
+        }),
       );
     }
   });
@@ -73,7 +78,7 @@ describe("carga por franquicia", () => {
       await Promise.all(ids.map(loadFranchise));
       await Promise.resolve();
       const refs = [...f.routes.flatMap((r) => r.titleIds), ...f.orders.flatMap((o) => (o.type === "curated" ? o.titleIds : []))];
-      for (const titleId of refs) {
+      for (const titleId of refs.map((k) => parseUnitKey(k).titleId)) {
         expect(index().titlesById.has(titleId)).toBe(true);
         // "Aparece en" del título de la ruta: la franquicia donde es entry también está cargada.
         expect(index().franchisesByTitle.get(titleId)?.length ?? 0).toBeGreaterThan(0);

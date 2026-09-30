@@ -60,7 +60,7 @@ interface TmdbDetails {
   first_air_date?: string;
   runtime?: number;
   episode_run_time?: number[];
-  seasons?: { season_number: number; episode_count: number }[];
+  seasons?: { season_number: number; episode_count: number; air_date: string | null }[];
   external_ids?: { imdb_id: string | null };
   status?: string;
 }
@@ -104,7 +104,8 @@ async function enrich(t: Title, changes: Change[]): Promise<Title> {
   } else {
     const seasons = (en.seasons ?? [])
       .filter((s) => s.season_number > 0 && s.episode_count > 0)
-      .map((s) => ({ number: s.season_number, episodes: s.episode_count }));
+      // La fecha de cada temporada ordena las entries por temporada en el orden de estreno.
+      .map((s) => ({ number: s.season_number, episodes: s.episode_count, ...(s.air_date ? { airDate: s.air_date } : {}) }));
     set("seasons", seasons.length ? seasons : undefined);
 
     // Duración total real: suma de los episodios; si TMDB no la tiene, promedio × episodios.

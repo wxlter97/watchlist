@@ -2,8 +2,9 @@ import { useMemo } from "react";
 import { useCatalog, withReferences } from "../lib/catalog";
 import { applyFilters, effectiveHidden, NO_FILTERS, toggleContinuity } from "../lib/filters";
 import { computeOrder, CUSTOM_ORDER_ID, nextUp, resolveOrder } from "../lib/orders";
-import { useIsWatched, useProgressStore } from "../lib/progressStore";
-import { isReleased, summarize } from "../lib/progress";
+import { useProgressStore } from "../lib/progressStore";
+import { useIsWatched } from "../lib/watched";
+import { summarize, todayIso } from "../lib/progress";
 import { useUiStore } from "../lib/uiStore";
 
 /** Franquicia con su orden activo, continuidades, filtros y progreso del perfil actual. */
@@ -43,8 +44,9 @@ export function useFranchiseView(franchiseId: string | undefined) {
     [franchise, order, items, index, hiddenContinuities],
   );
   const summary = summarize(allItems, isWatched);
+  const today = todayIso();
   const next = nextUp(
-    items.filter((i) => isReleased(i.title)),
+    items.filter((i) => i.releaseDate <= today),
     isWatched,
   );
 

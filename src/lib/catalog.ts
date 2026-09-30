@@ -21,8 +21,8 @@ export interface ManifestData {
     description: LocalizedText;
     accentColor: string;
     continuities: Continuity[];
-    /** [id del título, continuidad, fecha de estreno] de cada entry. */
-    titles: [string, string, string][];
+    /** [id del título, continuidad, fecha de estreno, temporada?, episodios de la temporada?] de cada entry. */
+    titles: ([string, string, string] | [string, string, string, number, number])[];
     /** Títulos que no son entries pero aparecen en sus rutas u órdenes curados. */
     refs: string[];
   }[];
@@ -43,13 +43,15 @@ export interface FranchiseMeta {
   description: LocalizedText;
   accentColor: string;
   continuities: Continuity[];
-  titles: { titleId: string; continuityId: string; releaseDate: string }[];
+  titles: { titleId: string; continuityId: string; releaseDate: string; season?: number; seasonEpisodes?: number }[];
   refs: string[];
 }
 
 export const franchiseMetas: readonly FranchiseMeta[] = manifest.franchises.map((f) => ({
   ...f,
-  titles: f.titles.map(([titleId, continuityId, releaseDate]) => ({ titleId, continuityId, releaseDate })),
+  titles: f.titles.map(([titleId, continuityId, releaseDate, season, seasonEpisodes]) =>
+    season === undefined ? { titleId, continuityId, releaseDate } : { titleId, continuityId, releaseDate, season, seasonEpisodes },
+  ),
 }));
 export const franchiseMetaById: ReadonlyMap<string, FranchiseMeta> = new Map(franchiseMetas.map((f) => [f.id, f]));
 export const ALL_FRANCHISE_IDS: readonly string[] = franchiseMetas.map((f) => f.id);

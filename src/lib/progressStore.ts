@@ -1,4 +1,3 @@
-import { useCallback } from "react";
 import { create } from "zustand";
 
 // Progreso del perfil activo. La UI solo habla con este store; el backend decide dónde se
@@ -161,8 +160,3 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
   replace: (data) => set(pick(data)),
 }));
-
-export function useIsWatched() {
-  const progress = useProgressStore((s) => s.progress);
-  return useCallback((titleId: string) => progress[titleId]?.status === "watched", [progress]);
-}

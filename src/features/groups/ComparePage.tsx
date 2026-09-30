@@ -48,7 +48,7 @@ export function ComparePage() {
     const order = resolveOrder(franchise, "release");
     return computeOrder(franchise, order, index.titlesById, { hiddenContinuities: effectiveHidden(franchise, undefined, undefined) })
       .map((i) => i.title)
-      .filter((t) => isReleased(t));
+      .filter((t, i, all) => isReleased(t) && all.findIndex((x) => x.id === t.id) === i);
   }, [franchise, index]);
 
   if (!uid || profiles.length < 2) {

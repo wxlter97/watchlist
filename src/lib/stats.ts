@@ -1,4 +1,5 @@
 import type { CatalogIndex } from "./catalogIndex";
+import { unitReleaseDate, watchedPredicate } from "./units";
 import { minutesWatched, watchedEpisodes } from "./episodes";
 import type { ProgressDoc } from "./progressStore";
 import { activityDays, computeStreak, type Streak } from "./streaks";
@@ -39,20 +40,23 @@ export function computeStats(index: CatalogIndex, progress: Record<string, Progr
     if (doc.rating) ratings.push(doc.rating);
   }
 
+  const isWatched = watchedPredicate(progress, index.titlesById);
   const perFranchise = [...index.franchisesById.values()]
     .map((franchise) => {
       const visible = new Set(franchise.continuities.filter((c) => !c.hiddenByDefault).map((c) => c.id));
       let fMinutes = 0;
       let watched = 0;
       let total = 0;
+      const counted = new Set<string>();
       for (const entry of franchise.entries) {
         const title = index.titlesById.get(entry.titleId);
         if (!title) continue;
-        const doc = progress[title.id];
-        fMinutes += minutesWatched(title, doc);
-        if (!visible.has(entry.continuityId) || title.releaseDate > today) continue;
+        // Los minutos, una vez por título aunque esté repartido en temporadas.
+        if (!counted.has(title.id)) fMinutes += minutesWatched(title, progress[title.id]);
+        counted.add(title.id);
+        if (!visible.has(entry.continuityId) || unitReleaseDate(title, entry.season) > today) continue;
         total++;
-        if (doc?.status === "watched") watched++;
+        if (isWatched(title.id, entry.season)) watched++;
       }
       return { franchise, minutes: fMinutes, watched, total };
     })

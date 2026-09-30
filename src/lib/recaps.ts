@@ -57,8 +57,8 @@ export function recapsBefore(
   }
   const at = items.findIndex((i) => i.title.id === titleId);
   if (at <= 0) return [];
-  return items
-    .slice(0, at)
-    .map((i) => i.title.id)
-    .filter((id) => ctx.progress[id]?.status === "watched" && ctx.has(id));
+  // Un recap es de la serie entera: se muestra con la serie vista, una sola vez.
+  return [...new Set(items.slice(0, at).map((i) => i.title.id))].filter(
+    (id) => id !== titleId && ctx.progress[id]?.status === "watched" && ctx.has(id),
+  );
 }

@@ -24,17 +24,24 @@ import type { Title } from "../../lib/types";
 // Orden personalizado por perfil (SPEC §4.3): arrastrar con puntero, táctil o teclado
 // (espacio para tomar, flechas para mover), o con los botones de subir/bajar.
 
+/** Una unidad del orden: un título o una temporada (ver units.ts). */
+interface EditorUnit {
+  key: string;
+  title: Title;
+  season?: number;
+}
+
 export function CustomOrderEditor({
-  titles,
+  units,
   onSave,
   onCancel,
 }: {
-  titles: Title[];
-  onSave: (titleIds: string[]) => void;
+  units: EditorUnit[];
+  onSave: (keys: string[]) => void;
   onCancel: () => void;
 }) {
-  const { t, name } = useLang();
-  const [list, setList] = useState(titles);
+  const { t, unitName } = useLang();
+  const [list, setList] = useState(units);
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 4 } }),
     useSensor(TouchSensor, { activationConstraint: { delay: 150, tolerance: 6 } }),
@@ -48,8 +55,8 @@ export function CustomOrderEditor({
   const onDragEnd = ({ active, over }: DragEndEvent) => {
     if (!over || active.id === over.id) return;
     move(
-      list.findIndex((x) => x.id === active.id),
-      list.findIndex((x) => x.id === over.id),
+      list.findIndex((x) => x.key === active.id),
+      list.findIndex((x) => x.key === over.id),
     );
   };
 
@@ -64,13 +71,14 @@ export function CustomOrderEditor({
           screenReaderInstructions: { draggable: t("customOrder.srInstructions") },
         }}
       >
-        <SortableContext items={list.map((x) => x.id)} strategy={verticalListSortingStrategy}>
+        <SortableContext items={list.map((x) => x.key)} strategy={verticalListSortingStrategy}>
           <ol className="border-2 border-line">
-            {list.map((title, i) => (
+            {list.map((unit, i) => (
               <SortableRow
-                key={title.id}
-                title={title}
-                label={name(title)}
+                key={unit.key}
+                id={unit.key}
+                title={unit.title}
+                label={unitName(unit.title, unit.season)}
                 position={i + 1}
                 isFirst={i === 0}
                 isLast={i === list.length - 1}
@@ -83,7 +91,7 @@ export function CustomOrderEditor({
       </DndContext>
 
       <div className="sticky bottom-0 -mx-4 mt-4 flex flex-wrap gap-2 border-t-2 border-line bg-bg px-4 py-3">
-        <Button variant="primary" onClick={() => onSave(list.map((x) => x.id))}>
+        <Button variant="primary" onClick={() => onSave(list.map((x) => x.key))}>
           {t("customOrder.save")}
         </Button>
         <Button onClick={onCancel}>{t("common.cancel")}</Button>
@@ -93,6 +101,7 @@ export function CustomOrderEditor({
 }
 
 function SortableRow({
+  id,
   title,
   label,
   position,
@@ -101,6 +110,7 @@ function SortableRow({
   onUp,
   onDown,
 }: {
+  id: string;
   title: Title;
   label: string;
   position: number;
@@ -111,7 +121,7 @@ function SortableRow({
 }) {
   const { t } = useLang();
   const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, transition, isDragging } = useSortable({
-    id: title.id,
+    id,
   });
 
   return (

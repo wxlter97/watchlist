@@ -78,14 +78,22 @@ function apiDevServer(): Plugin {
  */
 function catalogData(): Plugin {
   type Localized = Record<string, { title: string; overview?: string }>;
-  type RawTitle = { id: string; title: string; releaseDate: string; ongoing?: boolean; overview?: string; localized?: Localized };
+  type RawTitle = {
+    id: string;
+    title: string;
+    releaseDate: string;
+    ongoing?: boolean;
+    overview?: string;
+    localized?: Localized;
+    seasons?: { number: number; episodes: number; airDate?: string }[];
+  };
   type RawFranchise = {
     id: string;
     name: unknown;
     description: unknown;
     accentColor: string;
     continuities: unknown[];
-    entries: { titleId: string; continuityId: string }[];
+    entries: { titleId: string; continuityId: string; season?: number }[];
     orders: { type: string; titleIds?: string[] }[];
     routes: { titleIds: string[]; targetTitleId?: string }[];
   };
@@ -107,12 +115,21 @@ function catalogData(): Plugin {
     return names.length ? { ...t, localized: Object.fromEntries(names.map(([l, v]) => [l, { title: v.title }])) } : t;
   };
   // Todo título que la franquicia menciona: entries, órdenes curados y rutas (que pueden cruzar).
+  // Órdenes y rutas pueden nombrar una temporada ("loki-2021#2"): cuenta el título.
+  const titleOf = (key: string) => key.replace(/#\d+$/, "");
   const titleIdsOf = (f: RawFranchise) =>
     new Set([
       ...f.entries.map((e) => e.titleId),
-      ...f.orders.flatMap((o) => o.titleIds ?? []),
-      ...f.routes.flatMap((r) => [...r.titleIds, ...(r.targetTitleId ? [r.targetTitleId] : [])]),
+      ...f.orders.flatMap((o) => o.titleIds ?? []).map(titleOf),
+      ...f.routes.flatMap((r) => [...r.titleIds, ...(r.targetTitleId ? [r.targetTitleId] : [])]).map(titleOf),
     ]);
+  // Estreno de una entry: el de su temporada, si es de una (como unitReleaseDate en units.ts).
+  const entryDate = (t: RawTitle | undefined, season?: number) => {
+    if (!t) return "";
+    if (season === undefined) return t.releaseDate;
+    const airDate = t.seasons?.find((s) => s.number === season)?.airDate;
+    return airDate ?? (season > 1 && t.ongoing ? "9999-12-31" : t.releaseDate);
+  };
   // JSON.parse de un string es más rápido de evaluar que un literal de objeto grande.
   const json = (data: unknown) => `export default JSON.parse(${JSON.stringify(JSON.stringify(data))});`;
 
@@ -145,7 +162,12 @@ function catalogData(): Plugin {
             description: f.description,
             accentColor: f.accentColor,
             continuities: f.continuities,
-            titles: f.entries.map((e) => [e.titleId, e.continuityId, titlesById.get(e.titleId)?.releaseDate ?? ""]),
+            // [título, continuidad, estreno] y, si la entry es de una temporada, [temporada, episodios].
+            titles: f.entries.map((e) => {
+              const t = titlesById.get(e.titleId);
+              const base = [e.titleId, e.continuityId, entryDate(t, e.season)];
+              return e.season === undefined ? base : [...base, e.season, t?.seasons?.find((s) => s.number === e.season)?.episodes ?? 0];
+            }),
             // Títulos de otras franquicias que aparecen en sus rutas u órdenes curados.
             refs: [...titleIdsOf(f)].filter((tid) => !f.entries.some((e) => e.titleId === tid)),
           })),

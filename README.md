@@ -119,6 +119,16 @@ El catálogo es JSON versionado en `src/data/`:
 
 Agregar una franquicia = agregar su JSON (y sus títulos a `titles.json`). No hay que tocar código.
 
+- **Series por temporada:** una entry puede llevar `"season": 2` para ubicar cada temporada en
+  su lugar del orden (la T2 de Loki va años después de la T1). Si una serie se reparte, todas
+  sus temporadas van así (el validador lo exige). En órdenes curados y rutas, `"loki-2021#2"`
+  nombra una temporada y `"loki-2021"` la serie entera. El progreso sigue siendo del título:
+  una temporada está vista si están todos sus episodios.
+- **Líneas de tiempo compartidas:** una continuidad con `"timelineOf": "mcu"` se intercala con
+  esa en el cronológico (mismo espacio de `chronoOrder`), como Netflix y ABC con el MCU.
+- **Marvel:** el cronológico sigue el "MCU Complete Timeline" oficial de Marvel en Disney+
+  (junio de 2026); `src/lib/marvelTimeline.test.ts` lo verifica.
+
 ```bash
 pnpm catalog:validate    # referencias, chronoOrder duplicados, órdenes obligatorios (corre en CI)
 pnpm catalog:enrich      # trae de TMDB duración, pósters, sinopsis (es/en), temporadas, imdbId

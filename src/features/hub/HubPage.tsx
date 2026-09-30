@@ -7,8 +7,9 @@ import { franchiseMetaById, franchiseMetas, useCatalogStore, type FranchiseMeta 
 import { effectiveHidden } from "../../lib/filters";
 import { useLang } from "../../lib/i18n";
 import { summarizeEntries, todayIso } from "../../lib/progress";
-import { setTitleStatus } from "../../lib/actions";
-import { useIsWatched, useProgressStore } from "../../lib/progressStore";
+import { setUnitWatched } from "../../lib/actions";
+import { useProgressStore } from "../../lib/progressStore";
+import { useManifestIsWatched } from "../../lib/watched";
 import { useSettings } from "../../lib/settings";
 import type { Franchise, Title } from "../../lib/types";
 
@@ -156,7 +157,7 @@ function CardHeader({ children }: { children: ReactNode }) {
 }
 
 function ContinueCard({ franchise }: { franchise: FranchiseMeta }) {
-  const { t, loc, name } = useLang();
+  const { t, loc, unitName } = useLang();
   const { next, ready } = useFranchiseView(franchise.id);
 
   return (
@@ -175,15 +176,15 @@ function ContinueCard({ franchise }: { franchise: FranchiseMeta }) {
             <div className="min-w-0">
               <p className="label text-muted">{t("hub.upNext")}</p>
               <p className="mt-1 truncate font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">
-                {name(next.title)}
+                {unitName(next.title, next.season)}
               </p>
-              <TitleMeta title={next.title} />
+              <TitleMeta title={next.title} season={next.season} />
             </div>
           </Link>
           <WatchToggle
             watched={false}
-            label={t("actions.markWatched", { title: name(next.title) })}
-            onToggle={() => setTitleStatus(next.title, "watched")}
+            label={t("actions.markWatched", { title: unitName(next.title, next.season) })}
+            onToggle={() => setUnitWatched(next.title, next.season, true)}
           />
         </div>
       ) : (
@@ -230,7 +231,7 @@ function UpcomingRow({ item }: { item: UpcomingRowData }) {
 function FranchiseCard({ franchise }: { franchise: FranchiseMeta }) {
   const { t, loc } = useLang();
   const state = useProgressStore((s) => s.franchiseState[franchise.id]);
-  const isWatched = useIsWatched();
+  const isWatched = useManifestIsWatched();
   const summary = summarizeEntries(franchise.titles, effectiveHidden(franchise, state?.hiddenContinuities, state?.shownContinuities), isWatched);
 
   return (
