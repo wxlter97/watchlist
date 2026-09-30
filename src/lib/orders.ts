@@ -120,7 +120,9 @@ export function computeOrder(
     }
   }
 
-  const hidden = new Set(options.hiddenContinuities ?? []);
+  // Un orden curado ya elige qué incluye (también de continuidades ocultas por defecto, como
+  // las X-Men de Fox en "Todo Marvel"): las continuidades ocultas no le quitan nada.
+  const hidden = new Set(order.type === "curated" ? [] : (options.hiddenContinuities ?? []));
   return sorted
     .map((u, i) => ({ ...u, position: i + 1 }))
     .filter((item) => !hidden.has(item.entry.continuityId));

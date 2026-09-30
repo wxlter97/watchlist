@@ -38,6 +38,7 @@
   "franchise": {
     "order": "Orden",
     "continuities": "Continuidades",
+    "continuitiesCurated": "Este orden ya elige qué incluye: las continuidades ocultas no le quitan títulos.",
     "empty": "No hay títulos con estos filtros.",
     "notFound": "No encontramos esa franquicia.",
     "progress": "Progreso",
