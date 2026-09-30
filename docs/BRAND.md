@@ -18,6 +18,6 @@ Definidos en [src/index.css](../src/index.css) como variables CSS y expuestos a 
 |---|---|
 | Claro / oscuro | Sigue al sistema; el toggle del header fija uno y se guarda. (El SPEC pedía oscuro por defecto.) |
 | Color por franquicia | `accentColor` tematiza la franquicia: bloque del encabezado, pestañas activas, barras y "visto". El texto encima se elige por contraste (`src/lib/color.ts`). Nunca se usa el acento como color de texto. |
-| Ícono de app | "O" de *Order* sobre Faro: siguiente paso de la serie (banda completa, letra invertida). La W queda reservada para la marca madre. |
+| Ícono de app | "O" de *Order* en Faro sobre Tinta (fondo oscuro): el sistema oscurece los íconos en modo oscuro y una O negra sobre amarillo oscurecido quedaba negro sobre negro. La W queda reservada para la marca madre. |
 | Acento secundario | Ninguno por ahora. |
 | Importancia | Badges de la marca: esencial (Faro), recomendado (inverso), opcional (neutro), prescindible (neutro punteado). Sin paleta extendida. |
