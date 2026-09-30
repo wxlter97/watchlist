@@ -35,6 +35,11 @@ describe("computeOrder", () => {
     expect(ids("curated")).toEqual(["c-2005", "a-2001"]);
   });
 
+  it("curated: las continuidades ocultas no le quitan títulos (el orden ya eligió qué incluye)", () => {
+    expect(ids("curated", { hiddenContinuities: ["main"] })).toEqual(["c-2005", "a-2001"]);
+    expect(ids("release", { hiddenContinuities: ["alt"] })).not.toContain("alt-2004");
+  });
+
   it("custom: respeta la lista guardada y agrega títulos nuevos al final", () => {
     expect(ids(CUSTOM_ORDER_ID, {}, ["c-2005", "ghost", "a-2001"])).toEqual(["c-2005", "a-2001", "b-2003", "alt-2004"]);
   });

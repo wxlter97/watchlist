@@ -104,7 +104,8 @@ describe("órdenes del catálogo real", () => {
         const resolved = resolveOrder(franchise, order.id);
         const all = new Map(computeOrder(franchise, resolved, catalogIndex.titlesById).map((i) => [i.key, i.position]));
         for (const item of computeOrder(franchise, resolved, catalogIndex.titlesById, { hiddenContinuities: hidden })) {
-          expect(hidden).not.toContain(item.entry.continuityId);
+          // Los curados no se filtran por continuidad (ver computeOrder).
+          if (resolved.type !== "curated") expect(hidden).not.toContain(item.entry.continuityId);
           expect(item.position).toBe(all.get(item.key));
         }
       }

@@ -178,6 +178,7 @@ export function FranchisePage() {
             filters={view.filters}
             hiddenContinuities={view.hiddenContinuities}
             onToggleContinuity={view.toggleContinuity}
+            curated={view.order?.type === "curated"}
             shown={visibleItems.length}
             total={items.length}
           />

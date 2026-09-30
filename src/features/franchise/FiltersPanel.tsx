@@ -15,6 +15,7 @@ export function FiltersPanel({
   filters,
   hiddenContinuities,
   onToggleContinuity,
+  curated,
   shown,
   total,
 }: {
@@ -22,6 +23,8 @@ export function FiltersPanel({
   filters: Filters;
   hiddenContinuities: string[];
   onToggleContinuity: (id: string) => void;
+  /** El orden activo es curado: las continuidades no le quitan títulos (ver computeOrder). */
+  curated: boolean;
   shown: number;
   total: number;
 }) {
@@ -36,7 +39,7 @@ export function FiltersPanel({
 
   const summary = [
     active > 0 && t("filters.active", { count: active }),
-    hiddenContinuities.length > 0 && t("filters.hiddenContinuities", { count: hiddenContinuities.length }),
+    !curated && hiddenContinuities.length > 0 && t("filters.hiddenContinuities", { count: hiddenContinuities.length }),
   ]
     .filter(Boolean)
     .join(" · ");
@@ -63,6 +66,7 @@ export function FiltersPanel({
         <div id="filters-body" className="space-y-5 border-t-2 border-line p-3.5">
           <fieldset>
             <legend className="label mb-2 text-fg-soft">{t("franchise.continuities")}</legend>
+            {curated && <p className="mb-2 text-xs leading-[1.5] text-fg-soft">{t("franchise.continuitiesCurated")}</p>}
             <div className="flex flex-col gap-2">
               {franchise.continuities.map((c) => {
                 const visible = !hiddenContinuities.includes(c.id);

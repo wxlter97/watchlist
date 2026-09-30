@@ -38,6 +38,7 @@
   "franchise": {
     "order": "Order",
     "continuities": "Continuities",
+    "continuitiesCurated": "This order already picks what it includes: hidden continuities don't remove titles from it.",
     "empty": "No titles match these filters.",
     "notFound": "We couldn't find that franchise.",
     "progress": "Progress",
