@@ -5,11 +5,11 @@
 import { timingSafeEqual } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { buildIcs, planEvents } from "../src/lib/ics";
-import type { PlanDay } from "../src/lib/planner";
-import type { Lang } from "../src/lib/types";
-import { adminDb } from "./_lib/admin";
-import { errorResponse, HttpError } from "./_lib/tmdb";
+import { buildIcs, planEvents } from "../src/lib/ics.js";
+import type { PlanDay } from "../src/lib/planner.js";
+import type { Lang } from "../src/lib/types.js";
+import { adminDb } from "./_lib/admin.js";
+import { errorResponse, HttpError } from "./_lib/tmdb.js";
 
 interface CatalogTitle {
   id: string;

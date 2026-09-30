@@ -2,12 +2,12 @@
 // el aviso, y avisa cuando uno llega a un servicio de suscripción de su región (SPEC §7, §9.6).
 // El último estado conocido vive en system/providers (solo firebase-admin), así el primer
 // chequeo de un título solo registra y nunca avisa de algo que ya estaba.
-import { newlyStreaming, streamingMessage, type CatalogTitleLite } from "../../src/lib/notifications";
-import type { Lang } from "../../src/lib/types";
-import { adminDb } from "../_lib/admin";
-import { titlesById } from "../_lib/catalog";
-import { assertCron, sendToUser } from "../_lib/push";
-import { errorResponse, json, tmdb } from "../_lib/tmdb";
+import { newlyStreaming, streamingMessage, type CatalogTitleLite } from "../../src/lib/notifications.js";
+import type { Lang } from "../../src/lib/types.js";
+import { adminDb } from "../_lib/admin.js";
+import { titlesById } from "../_lib/catalog.js";
+import { assertCron, sendToUser } from "../_lib/push.js";
+import { errorResponse, json, tmdb } from "../_lib/tmdb.js";
 
 /** Tope de consultas a TMDB por corrida (límites de la API y del tiempo de la función). */
 const MAX_CHECKS = 250;

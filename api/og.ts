@@ -5,10 +5,10 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { Resvg } from "@resvg/resvg-js";
 import satori from "satori";
-import type { Achievement, Lang, LocalizedText } from "../src/lib/types";
-import { achievementCard, franchiseCard, OG, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards";
-import { loadShare } from "./_lib/shares";
-import { errorResponse, HttpError } from "./_lib/tmdb";
+import type { Achievement, Lang, LocalizedText } from "../src/lib/types.js";
+import { achievementCard, franchiseCard, OG, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards.js";
+import { loadShare } from "./_lib/shares.js";
+import { errorResponse, HttpError } from "./_lib/tmdb.js";
 
 const ROOT = process.cwd();
 const DATA = join(ROOT, "src", "data");

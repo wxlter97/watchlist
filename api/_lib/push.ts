@@ -1,8 +1,8 @@
 // Envío de avisos con FCM desde el servidor. Tokens vencidos se borran solos.
 import { getMessaging } from "firebase-admin/messaging";
-import type { PushMessage } from "../../src/lib/notifications";
-import { adminDb } from "./admin";
-import { HttpError } from "./tmdb";
+import type { PushMessage } from "../../src/lib/notifications.js";
+import { adminDb } from "./admin.js";
+import { HttpError } from "./tmdb.js";
 
 const DEAD = new Set(["messaging/registration-token-not-registered", "messaging/invalid-registration-token", "messaging/invalid-argument"]);
 
