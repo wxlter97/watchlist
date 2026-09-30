@@ -1,9 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { useNavigate } from "react-router";
 import { evaluateAchievements, newlyUnlocked } from "../../lib/achievements";
 import { ACHIEVEMENTS, achievementsById } from "../../lib/achievementsCatalog";
 import { useAchievementsStore } from "../../lib/achievementsStore";
-import { catalogIndex } from "../../lib/catalog";
+import { franchisesMentioning, useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { todayIso } from "../../lib/progress";
 import { useProgressStore } from "../../lib/progressStore";
@@ -20,11 +20,15 @@ export function AchievementSync() {
   const ready = useSession((s) => s.profileReady);
   const loaded = useAchievementsStore((s) => s.loaded);
   const progress = useProgressStore((s) => s.progress);
+  // Solo las franquicias que mencionan algo del progreso: ninguna otra regla puede cumplirse.
+  const needed = useMemo(() => franchisesMentioning(Object.keys(progress)), [progress]);
+  const catalog = useCatalog(needed);
 
   useEffect(() => {
-    if (!ready || !loaded) return;
+    // Con el catálogo a medias se desbloquearían menos logros de los que corresponden.
+    if (!ready || !loaded || !catalog.ready) return;
     const timer = setTimeout(() => {
-      const statuses = evaluateAchievements(ACHIEVEMENTS, { index: catalogIndex, progress, today: todayIso() });
+      const statuses = evaluateAchievements(ACHIEVEMENTS, { index: catalog.index, progress, today: todayIso() });
       const fresh = newlyUnlocked(statuses, useAchievementsStore.getState().unlocked);
       if (!fresh.length) return;
       useAchievementsStore.getState().unlock(fresh);
@@ -40,7 +44,7 @@ export function AchievementSync() {
       });
     }, 800);
     return () => clearTimeout(timer);
-  }, [ready, loaded, progress]);
+  }, [ready, loaded, catalog.ready, catalog.index, progress]);
 
   return null;
 }

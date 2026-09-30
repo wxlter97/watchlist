@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Chip, SelectField } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalogIndex } from "../../lib/catalog";
 import { activeFilterCount, kindsIn, type Filters, type StatusFilter } from "../../lib/filters";
 import { useLang } from "../../lib/i18n";
 import type { Franchise, Importance } from "../../lib/types";
@@ -26,12 +26,13 @@ export function FiltersPanel({
   total: number;
 }) {
   const { t, loc } = useLang();
+  const index = useCatalogIndex();
   const [open, setOpen] = useState(false);
   const setFilters = useUiStore((s) => s.setFilters);
   const clearFilters = useUiStore((s) => s.clearFilters);
   const set = (patch: Partial<Filters>) => setFilters(franchise.id, patch);
   const active = activeFilterCount(filters);
-  const kinds = kindsIn(franchise, (id) => catalogIndex.titlesById.get(id)?.kind);
+  const kinds = kindsIn(franchise, (id) => index.titlesById.get(id)?.kind);
 
   const summary = [
     active > 0 && t("filters.active", { count: active }),

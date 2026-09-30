@@ -38,6 +38,31 @@ export function summarize(
   return { watched, total, upcoming, ratio: total ? watched / total : 0 };
 }
 
+/**
+ * El mismo resumen sin cargar la franquicia: con sus títulos del manifiesto (ver catalog.ts)
+ * y las continuidades ocultas del perfil. Lo usa el Hub.
+ */
+export function summarizeEntries(
+  entries: readonly { titleId: string; continuityId: string; releaseDate: string }[],
+  hiddenContinuities: readonly string[],
+  isWatched: (titleId: string) => boolean,
+  today = todayIso(),
+): ProgressSummary {
+  let watched = 0;
+  let total = 0;
+  let upcoming = 0;
+  for (const e of entries) {
+    if (hiddenContinuities.includes(e.continuityId)) continue;
+    if (e.releaseDate <= today) {
+      total++;
+      if (isWatched(e.titleId)) watched++;
+    } else {
+      upcoming++;
+    }
+  }
+  return { watched, total, upcoming, ratio: total ? watched / total : 0 };
+}
+
 export function splitRuntime(min: number): { h: number; m: number } {
   return { h: Math.floor(min / 60), m: min % 60 };
 }

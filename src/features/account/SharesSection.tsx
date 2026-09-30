@@ -1,5 +1,5 @@
 import { SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useSession } from "../../lib/session";
 import { publicShareUrl } from "../../lib/shares";
@@ -28,7 +28,7 @@ export function SharesSection() {
       <ul className="divide-y-2 divide-line-soft border-2 border-line bg-surface">
         {shares.map((share) => {
           const url = publicShareUrl(location.origin, share.id, lang);
-          const franchise = catalogIndex.franchisesById.get(share.franchiseId);
+          const franchise = franchiseMetaById.get(share.franchiseId);
           const profile = profiles.find((p) => p.id === share.profileId);
           return (
             <li key={share.id} className="p-3">

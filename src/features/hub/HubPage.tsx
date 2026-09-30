@@ -3,13 +3,16 @@ import { Link } from "react-router";
 import { accentStyle, Poster, ProgressBar, SearchIcon, SectionLabel, TitleMeta, WatchToggle } from "../../components/ui";
 import { FollowButton } from "../../components/FollowButton";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
-import { catalog, catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById, franchiseMetas, useCatalogStore, type FranchiseMeta } from "../../lib/catalog";
+import { effectiveHidden } from "../../lib/filters";
 import { useLang } from "../../lib/i18n";
-import { todayIso } from "../../lib/progress";
+import { summarizeEntries, todayIso } from "../../lib/progress";
 import { setTitleStatus } from "../../lib/actions";
-import { useProgressStore } from "../../lib/progressStore";
+import { useIsWatched, useProgressStore } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import type { Franchise, Title } from "../../lib/types";
+
+type FranchiseLabel = Pick<Franchise, "id" | "name" | "accentColor">;
 import { upcomingUrl, useRemote, type UpcomingApiItem } from "../../lib/api";
 import { upcomingReleases } from "../../lib/upcoming";
 import { isWrappedSeason } from "../../lib/wrapped";
@@ -19,24 +22,27 @@ export function HubPage() {
   const followedIds = useSettings((s) => s.followedFranchises);
   const progress = useProgressStore((s) => s.progress);
 
-  const byName = (a: Franchise, b: Franchise) => loc(a.name).localeCompare(loc(b.name));
-  const followed = catalog.franchises.filter((f) => followedIds.includes(f.id)).sort(byName);
-  const others = catalog.franchises.filter((f) => !followedIds.includes(f.id)).sort(byName);
+  // Todo lo del Hub sale del manifiesto: solo "continuar viendo" carga sus franquicias.
+  const titlesById = useCatalogStore((s) => s.index.titlesById);
+  const byName = (a: FranchiseMeta, b: FranchiseMeta) => loc(a.name).localeCompare(loc(b.name));
+  const followed = franchiseMetas.filter((f) => followedIds.includes(f.id)).sort(byName);
+  const others = franchiseMetas.filter((f) => !followedIds.includes(f.id)).sort(byName);
   // Sin franquicias seguidas, "continuar viendo" usa las que ya tienen algo visto.
   const continuing = followed.length
     ? followed
-    : catalog.franchises.filter((f) => f.entries.some((e) => progress[e.titleId]?.status === "watched")).sort(byName);
-  const upcomingIds = (followed.length ? followed : catalog.franchises).map((f) => f.id);
+    : franchiseMetas.filter((f) => f.titles.some((e) => progress[e.titleId]?.status === "watched")).sort(byName);
+  const upcomingIds = (followed.length ? followed : franchiseMetas).map((f) => f.id);
   const remote = useRemote<{ items: UpcomingApiItem[] }>(upcomingUrl(upcomingIds));
-  // La API suma temporadas nuevas de series en curso; sin conexión, se usa el catálogo.
+  // La API suma temporadas nuevas de series en curso; sin conexión, se usa el catálogo. Los
+  // títulos próximos y en emisión vienen en el manifiesto.
   const upcoming: UpcomingRowData[] = (
     remote.state === "ok"
       ? remote.data.items.flatMap((i) => {
-          const title = catalogIndex.titlesById.get(i.titleId);
-          const franchise = catalogIndex.franchisesById.get(i.franchiseId);
+          const title = titlesById.get(i.titleId);
+          const franchise = franchiseMetaById.get(i.franchiseId);
           return title && franchise ? [{ title, franchise, date: i.date, season: i.kind === "release" ? undefined : i.season, episode: i.kind === "episode" ? i.episode : undefined }] : [];
         })
-      : upcomingReleases(catalogIndex, upcomingIds, todayIso()).map((u) => ({ ...u, date: u.title.releaseDate }))
+      : upcomingReleases(franchiseMetaById, titlesById, upcomingIds, todayIso()).map((u) => ({ ...u, date: u.title.releaseDate }))
   ).slice(0, 8);
 
   return (
@@ -129,7 +135,7 @@ function Section({ label, children }: { label: string; children: ReactNode }) {
   );
 }
 
-function FranchiseGrid({ franchises }: { franchises: Franchise[] }) {
+function FranchiseGrid({ franchises }: { franchises: FranchiseMeta[] }) {
   return (
     <ul className="grid gap-4 sm:grid-cols-2">
       {franchises.map((f) => (
@@ -149,9 +155,9 @@ function CardHeader({ children }: { children: ReactNode }) {
   );
 }
 
-function ContinueCard({ franchise }: { franchise: Franchise }) {
+function ContinueCard({ franchise }: { franchise: FranchiseMeta }) {
   const { t, loc, name } = useLang();
-  const { next } = useFranchiseView(franchise.id);
+  const { next, ready } = useFranchiseView(franchise.id);
 
   return (
     <div style={accentStyle(franchise.accentColor)} className="border-2 border-line bg-surface">
@@ -160,7 +166,9 @@ function ContinueCard({ franchise }: { franchise: Franchise }) {
           {loc(franchise.name)}
         </Link>
       </CardHeader>
-      {next ? (
+      {!ready ? (
+        <div aria-busy="true" className="h-[120px]" />
+      ) : next ? (
         <div className="flex items-center gap-3 p-3">
           <Link to={`/t/${next.title.id}`} className="group flex min-w-0 flex-1 items-center gap-3">
             <Poster title={next.title} size="w154" className="h-24 w-16" />
@@ -187,7 +195,7 @@ function ContinueCard({ franchise }: { franchise: Franchise }) {
 
 interface UpcomingRowData {
   title: Title;
-  franchise: Franchise;
+  franchise: FranchiseLabel;
   date: string;
   season?: number;
   episode?: number;
@@ -219,9 +227,11 @@ function UpcomingRow({ item }: { item: UpcomingRowData }) {
   );
 }
 
-function FranchiseCard({ franchise }: { franchise: Franchise }) {
+function FranchiseCard({ franchise }: { franchise: FranchiseMeta }) {
   const { t, loc } = useLang();
-  const { summary } = useFranchiseView(franchise.id);
+  const state = useProgressStore((s) => s.franchiseState[franchise.id]);
+  const isWatched = useIsWatched();
+  const summary = summarizeEntries(franchise.titles, effectiveHidden(franchise, state?.hiddenContinuities, state?.shownContinuities), isWatched);
 
   return (
     <div style={accentStyle(franchise.accentColor)} className="flex h-full flex-col border-2 border-line bg-surface">

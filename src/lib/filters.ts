@@ -48,7 +48,7 @@ export function activeFilterCount(f: Filters): number {
  * así una continuidad agregada después al catálogo respeta su propio valor por defecto.
  */
 export function effectiveHidden(
-  franchise: Franchise,
+  franchise: Pick<Franchise, "continuities">,
   hidden: readonly string[] = [],
   shown: readonly string[] = [],
 ): string[] {

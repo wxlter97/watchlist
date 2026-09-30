@@ -10,7 +10,6 @@ import {
 import { Link, useParams } from "react-router";
 import { accentStyle, Button, Chip, SectionLabel } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
-import { catalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { isReleased } from "../../lib/progress";
 import { useProgressStore } from "../../lib/progressStore";
@@ -37,8 +36,8 @@ export function TimelinePage() {
   const { franchise, hiddenContinuities } = view;
 
   const timeline = useMemo(
-    () => (franchise ? buildTimeline(franchise, catalogIndex.titlesById, hiddenContinuities) : undefined),
-    [franchise, hiddenContinuities],
+    () => (franchise ? buildTimeline(franchise, view.index.titlesById, hiddenContinuities) : undefined),
+    [franchise, view.index, hiddenContinuities],
   );
 
   // Al cambiar el zoom, el centro de la vista se queda en el mismo punto de la línea.
@@ -57,6 +56,7 @@ export function TimelinePage() {
 
   const drag = useDragScroll(scroller);
 
+  if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !timeline) return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
 
   const w = ZOOMS[zoom] ?? ZOOMS[1];

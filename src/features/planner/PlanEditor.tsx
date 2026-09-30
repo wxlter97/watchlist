@@ -1,7 +1,8 @@
 import { useMemo, useState, type FormEvent } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router";
 import { accentStyle, Button, Chip, formatRuntime, Notice, SectionLabel, SelectField, Tabs, TextField, Toggle } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById, franchiseMetas, loadFranchises, useCatalog, withReferences } from "../../lib/catalog";
+import type { CatalogIndex } from "../../lib/catalogIndex";
 import { useLang } from "../../lib/i18n";
 import { CUSTOM_ORDER_ID } from "../../lib/orders";
 import { addDays, WEEKDAYS, type Weekday } from "../../lib/planner";
@@ -13,10 +14,15 @@ import { useGoalLabel, usePlanView } from "./usePlan";
 
 const DEFAULT_DAYS: Weekday[] = ["fri", "sat", "sun"];
 
+/** Franquicia de la meta inicial: la de la URL (?f=marvel) o la primera. */
+function initialFranchiseId(params: URLSearchParams): string {
+  const id = params.get("f") ?? "";
+  return franchiseMetaById.has(id) ? id : franchiseMetas[0]!.id;
+}
+
 /** Meta inicial desde la URL (?f=marvel&type=route&ref=spider-man) o la primera franquicia. */
-function initialGoal(params: URLSearchParams): PlanGoal {
-  const franchises = [...catalogIndex.franchisesById.values()];
-  const franchise = catalogIndex.franchisesById.get(params.get("f") ?? "") ?? franchises[0]!;
+function initialGoal(params: URLSearchParams, index: CatalogIndex): PlanGoal {
+  const franchise = index.franchisesById.get(initialFranchiseId(params))!;
   const type = (["franchise", "order", "route"] as const).find((t) => t === params.get("type")) ?? "franchise";
   const ref = params.get("ref") ?? "";
   if (type === "route" && franchise.routes.some((r) => r.id === ref)) return { type, franchiseId: franchise.id, refId: ref };
@@ -27,10 +33,10 @@ function initialGoal(params: URLSearchParams): PlanGoal {
 }
 
 /** Para "Prepárate para…": terminar el día antes del estreno. */
-function prepDeadline(goal: PlanGoal, today: string): string | undefined {
+function prepDeadline(goal: PlanGoal, today: string, index: CatalogIndex): string | undefined {
   if (goal.type !== "route") return undefined;
-  const route = catalogIndex.franchisesById.get(goal.franchiseId)?.routes.find((r) => r.id === goal.refId);
-  const target = route?.targetTitleId ? catalogIndex.titlesById.get(route.targetTitleId) : undefined;
+  const route = index.franchisesById.get(goal.franchiseId)?.routes.find((r) => r.id === goal.refId);
+  const target = route?.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
   if (!target || target.releaseDate <= today) return undefined;
   return addDays(target.releaseDate, -1);
 }
@@ -39,7 +45,10 @@ export function PlanEditor() {
   const { planId } = useParams();
   const [params] = useSearchParams();
   const existing = usePlansStore((s) => (planId ? s.plans[planId] : undefined));
+  // El formulario arranca con la franquicia de la meta ya cargada.
+  const { ready } = useCatalog(withReferences(existing?.goal.franchiseId ?? initialFranchiseId(params)));
   if (planId && !existing) return <PlanMissing />;
+  if (!ready) return <p className="py-16 text-center text-muted">…</p>;
   // key: al cargar el plan desde Firestore se reinicia el formulario con sus datos.
   return <PlanForm key={existing?.id ?? "new"} existing={existing} params={params} />;
 }
@@ -62,17 +71,20 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
   const savePlan = usePlansStore((s) => s.savePlan);
   const goalLabel = useGoalLabel();
   const today = todayIso();
+  // La franquicia de la meta siempre está cargada: PlanEditor espera la inicial y cambiar de
+  // franquicia la carga antes de elegirla.
+  const { index } = useCatalog(withReferences(existing?.goal.franchiseId ?? initialFranchiseId(params)));
 
-  const [goal, setGoal] = useState<PlanGoal>(() => existing?.goal ?? initialGoal(params));
+  const [goal, setGoal] = useState<PlanGoal>(() => existing?.goal ?? initialGoal(params, index));
   const [essentialOnly, setEssentialOnly] = useState(existing?.essentialOnly ?? false);
   const [weeklyHours, setWeeklyHours] = useState(String(existing?.weeklyHours ?? 6));
   const [availableDays, setAvailableDays] = useState<Weekday[]>(existing?.availableDays ?? DEFAULT_DAYS);
   const [startDate, setStartDate] = useState(existing?.startDate ?? today);
-  const [deadline, setDeadline] = useState(existing?.deadline ?? prepDeadline(goal, today) ?? "");
+  const [deadline, setDeadline] = useState(existing?.deadline ?? prepDeadline(goal, today, index) ?? "");
   const [startTime, setStartTime] = useState(existing?.startTime ?? "20:00");
   const [name, setName] = useState(existing?.name ?? "");
 
-  const franchise = catalogIndex.franchisesById.get(goal.franchiseId)!;
+  const franchise = index.franchisesById.get(goal.franchiseId)!;
   const hasCustomOrder = useProgressStore((s) => Boolean(s.franchiseState[goal.franchiseId]?.customOrder?.length));
   const hours = Number(weeklyHours);
   const validHours = Number.isFinite(hours) && hours >= 0.5 && hours <= 100;
@@ -97,7 +109,7 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
   };
   const changeGoal = (next: PlanGoal) => {
     setGoal(next);
-    const prep = prepDeadline(next, today);
+    const prep = prepDeadline(next, today, index);
     if (prep) setDeadline(prep);
   };
 
@@ -144,8 +156,11 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
         <SelectField
           label={t("franchise.label")}
           value={franchise.id}
-          options={[...catalogIndex.franchisesById.values()].map((f) => ({ value: f.id, label: loc(f.name) }))}
-          onChange={(e) => changeGoal({ type: "franchise", franchiseId: e.target.value, refId: e.target.value })}
+          options={franchiseMetas.map((f) => ({ value: f.id, label: loc(f.name) }))}
+          onChange={(e) => {
+            const id = e.target.value;
+            void loadFranchises(withReferences(id)).then(() => changeGoal({ type: "franchise", franchiseId: id, refId: id }));
+          }}
         />
         <Tabs
           label={t("planner.goalType")}

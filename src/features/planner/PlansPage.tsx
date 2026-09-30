@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { accentStyle, SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import type { PlanDoc } from "../../lib/plans";
 import { usePlansStore } from "../../lib/plansStore";
@@ -42,7 +42,7 @@ function PlanCard({ plan }: { plan: PlanDoc }) {
   const view = usePlanView(plan);
   const goalLabel = useGoalLabel();
   const dayLabel = useDayLabel();
-  const franchise = catalogIndex.franchisesById.get(plan.goal.franchiseId);
+  const franchise = franchiseMetaById.get(plan.goal.franchiseId);
   const next = view?.schedule.days[0];
   const done = view && view.pendingTitles === 0;
 

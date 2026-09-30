@@ -21,8 +21,12 @@ pnpm check:bundle        # después del build: ningún secreto ni código de ser
 
 - El arranque como invitado no descarga Firebase: `session.ts` solo carga `sessionCloud.ts`
   si el dispositivo tiene una cuenta iniciada (`watch-order:account`) o al iniciar sesión.
-- Las sinopsis salen del catálogo del arranque (`catalogSplit` en `vite.config.ts`) y se
-  cargan por idioma al abrir un título.
+- El catálogo se carga por partes (`catalogData` en `vite.config.ts`, `src/lib/catalog.ts`):
+  al abrir la app solo llega un manifiesto (nombre, color, continuidades y `[id, continuidad,
+  fecha]` de cada título, más los próximos estrenos). Cada franquicia completa es un chunk que
+  se descarga cuando una pantalla la pide con `useCatalog`, y sus sinopsis otro, por idioma.
+  Búsqueda, estadísticas, logros y mapa cargan todo al abrirse. Así el arranque crece unos
+  45 bytes por título nuevo, no con la franquicia entera.
 - Todo menos el Hub va en chunks propios, que se precargan cuando la página termina de cargar.
 - `index.html` trae un *app shell* (cabecera y titular del Hub) que se pinta antes del JS.
 - Lighthouse (móvil, `pnpm build && pnpm preview`): rendimiento ≥ 90; accesibilidad, buenas

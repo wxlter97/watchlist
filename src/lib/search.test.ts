@@ -1,5 +1,5 @@
 import { buildIndex } from "./catalogIndex";
-import { catalog } from "./catalog";
+import { catalog } from "./catalogFull";
 import { matchScore, normalize, searchCatalog } from "./search";
 import { upcomingReleases } from "./upcoming";
 import { makeCatalog, title } from "../test/fixtures";
@@ -55,7 +55,8 @@ describe("upcomingReleases", () => {
       { titleId: "later-2028", continuityId: "main", importance: "essential" },
     );
     const index = buildIndex(c);
-    expect(upcomingReleases(index, ["test", "test"], "2026-09-28").map((u) => u.title.id)).toEqual(["soon-2026"]);
-    expect(upcomingReleases(index, ["test"], "2026-09-28", 800).map((u) => u.title.id)).toEqual(["soon-2026", "later-2028"]);
+    const metas = new Map(c.franchises.map((f) => [f.id, { ...f, titles: f.entries }]));
+    expect(upcomingReleases(metas, index.titlesById, ["test", "test"], "2026-09-28").map((u) => u.title.id)).toEqual(["soon-2026"]);
+    expect(upcomingReleases(metas, index.titlesById, ["test"], "2026-09-28", 800).map((u) => u.title.id)).toEqual(["soon-2026", "later-2028"]);
   });
 });

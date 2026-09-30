@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLabel, Tabs } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchisesReferencing, useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useOverview } from "../../lib/overviews";
 import { isReleased } from "../../lib/progress";
@@ -18,18 +18,20 @@ export function TitlePage() {
   const { titleId } = useParams();
   const navigate = useNavigate();
   const { t, lang, name, loc, date } = useLang();
-  const title = titleId ? catalogIndex.titlesById.get(titleId) : undefined;
+  const { index, ready } = useCatalog(franchisesReferencing(titleId));
+  const title = titleId ? index.titlesById.get(titleId) : undefined;
   const doc = useProgressStore((s) => (titleId ? s.progress[titleId] : undefined));
   const status = doc?.status;
   const spoilerFree = useSettings((s) => s.spoilerFree);
   const [revealed, setRevealed] = useState(false);
   const { overview, loading: overviewLoading } = useOverview(title, lang);
 
+  if (!ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
 
-  const appearances = catalogIndex.franchisesByTitle.get(title.id) ?? [];
-  const inRoutes = catalogIndex.routesByTitle.get(title.id) ?? [];
-  const prep = catalogIndex.prepByTarget.get(title.id) ?? [];
+  const appearances = index.franchisesByTitle.get(title.id) ?? [];
+  const inRoutes = index.routesByTitle.get(title.id) ?? [];
+  const prep = index.prepByTarget.get(title.id) ?? [];
   const accent = appearances[0]?.franchise.accentColor ?? "#FFDB00";
   const released = isReleased(title);
   // Sin spoilers por defecto: la sinopsis de lo no visto queda oculta hasta revelarla.

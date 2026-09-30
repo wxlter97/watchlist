@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router";
 import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalog, withReferences } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useIsWatched } from "../../lib/progressStore";
 import { resolveRoute, routeProgress } from "../../lib/routes";
@@ -11,14 +11,16 @@ export function RoutePage() {
   const { franchiseId, routeId } = useParams();
   const { t, loc, name, date } = useLang();
   const isWatched = useIsWatched();
-  const franchise = franchiseId ? catalogIndex.franchisesById.get(franchiseId) : undefined;
+  const { index, ready } = useCatalog(withReferences(franchiseId));
+  const franchise = franchiseId ? index.franchisesById.get(franchiseId) : undefined;
   const route = franchise?.routes.find((r) => r.id === routeId);
 
+  if (!ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !route) return <p className="py-16 text-center text-muted">{t("routes.notFound")}</p>;
 
-  const items = resolveRoute(route, franchise, catalogIndex);
+  const items = resolveRoute(route, franchise, index);
   const progress = routeProgress(items, isWatched);
-  const target = route.targetTitleId ? catalogIndex.titlesById.get(route.targetTitleId) : undefined;
+  const target = route.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
   const ratio = progress.total ? progress.watched / progress.total : 0;
 
   return (

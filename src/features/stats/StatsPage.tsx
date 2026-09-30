@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { Link } from "react-router";
 import { ShareButton } from "../../components/ShareButton";
 import { accentStyle, formatRuntime, ProgressBar, SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { todayIso } from "../../lib/progress";
 import { useProgressStore } from "../../lib/progressStore";
@@ -11,9 +11,13 @@ import { computeStats } from "../../lib/stats";
 export function StatsPage() {
   const { t, loc } = useLang();
   const progress = useProgressStore((s) => s.progress);
-  const stats = useMemo(() => computeStats(catalogIndex, progress, todayIso()), [progress]);
+  // Todas: el desglose por franquicia incluye las que no se empezaron.
+  const catalog = useCatalog("all");
+  const stats = useMemo(() => computeStats(catalog.index, progress, todayIso()), [catalog.index, progress]);
   const hours = Math.floor(stats.minutes / 60);
   const nf = new Intl.NumberFormat(t("meta.locale"), { maximumFractionDigits: 1 });
+
+  if (!catalog.ready) return <p className="py-16 text-center text-muted">…</p>;
 
   return (
     <div className="pt-6">

@@ -6,7 +6,6 @@ import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../comp
 import { useFranchiseView } from "../../hooks/useFranchiseView";
 import { useLang } from "../../lib/i18n";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
-import { catalogIndex } from "../../lib/catalog";
 import { CUSTOM_ORDER_ID, watchedUpTo, type OrderedItem } from "../../lib/orders";
 import { useProgressStore } from "../../lib/progressStore";
 import { showToast } from "../../lib/toasts";
@@ -21,7 +20,7 @@ import { minutesWatched } from "../../lib/episodes";
 // El editor trae @dnd-kit: solo se descarga al empezar a editar el orden.
 const CustomOrderEditor = lazy(() => import("./CustomOrderEditor").then((m) => ({ default: m.CustomOrderEditor })));
 import type { ProgressDoc } from "../../lib/progressStore";
-import type { Franchise } from "../../lib/types";
+import type { Franchise, Title } from "../../lib/types";
 
 export function FranchisePage() {
   const { franchiseId } = useParams();
@@ -33,6 +32,7 @@ export function FranchisePage() {
   const progress = useProgressStore((s) => s.progress);
   const { franchise, order, items, visibleItems, summary } = view;
 
+  if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !order) {
     return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
   }
@@ -57,7 +57,7 @@ export function FranchisePage() {
     });
     setUpTo(null);
   };
-  const upToTitle = upTo ? catalogIndex.titlesById.get(upTo.titleId) : undefined;
+  const upToTitle = upTo ? view.index.titlesById.get(upTo.titleId) : undefined;
   const sections = groupSections(visibleItems);
   const groupLabels = order.type === "grouped" ? order.groupLabels : undefined;
   const orderName = isCustom ? t("customOrder.name") : loc(order.name);
@@ -110,7 +110,7 @@ export function FranchisePage() {
           <div className="mt-4 flex flex-wrap items-center gap-3 border-t-2 border-line-soft pt-3">
             <p className="flex-1 text-sm font-semibold">{t("franchise.completed")}</p>
             <ShareButton
-              card={{ kind: "franchise", id: franchise.id, n: summary.watched, h: Math.round(franchiseMinutes(franchise, progress) / 60) }}
+              card={{ kind: "franchise", id: franchise.id, n: summary.watched, h: Math.round(franchiseMinutes(franchise, view.index.titlesById, progress) / 60) }}
               title={loc(franchise.name)}
               text={t("franchise.shareText", { name: loc(franchise.name) })}
               fileName={`watch-order-${franchise.id}`}
@@ -232,10 +232,10 @@ export function FranchisePage() {
 }
 
 /** Minutos vistos de los títulos de la franquicia (cada título una vez). */
-function franchiseMinutes(franchise: Franchise, progress: Record<string, ProgressDoc>): number {
+function franchiseMinutes(franchise: Franchise, titlesById: ReadonlyMap<string, Title>, progress: Record<string, ProgressDoc>): number {
   let total = 0;
   for (const id of new Set(franchise.entries.map((e) => e.titleId))) {
-    const title = catalogIndex.titlesById.get(id);
+    const title = titlesById.get(id);
     if (title) total += minutesWatched(title, progress[id]);
   }
   return total;

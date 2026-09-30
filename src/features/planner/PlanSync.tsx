@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalog, withReferences } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { computePlan, sameSchedule } from "../../lib/plans";
 import { usePlansStore } from "../../lib/plansStore";
@@ -17,21 +17,24 @@ export function PlanSync() {
   const plans = usePlansStore((s) => s.plans);
   const progress = useProgressStore((s) => s.progress);
   const franchiseState = useProgressStore((s) => s.franchiseState);
+  const feeds = Object.values(plans).filter((p) => p.feedToken);
+  const catalog = useCatalog(feeds.flatMap((p) => withReferences(p.goal.franchiseId)));
 
   useEffect(() => {
-    if (!ready) return;
+    // Con el catálogo incompleto el calendario saldría distinto: se espera a tenerlo.
+    if (!ready || !catalog.ready) return;
     const timer = setTimeout(() => {
       const today = todayIso();
       for (const plan of Object.values(plans)) {
         if (!plan.feedToken) continue;
-        const days = computePlan(plan, { index: catalogIndex, progress, franchiseState }, today).schedule.days;
+        const days = computePlan(plan, { index: catalog.index, progress, franchiseState }, today).schedule.days;
         if (plan.lang !== lang || !sameSchedule(days, plan.schedule)) {
           usePlansStore.getState().savePlan({ ...plan, schedule: days, lang });
         }
       }
     }, 2000);
     return () => clearTimeout(timer);
-  }, [ready, plans, progress, franchiseState, lang]);
+  }, [ready, catalog.ready, catalog.index, plans, progress, franchiseState, lang]);
 
   return null;
 }

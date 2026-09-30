@@ -5,7 +5,7 @@ import { ShareButton } from "../../components/ShareButton";
 import { accentStyle, Button, formatRuntime, Poster } from "../../components/ui";
 import { achievementsById } from "../../lib/achievementsCatalog";
 import { useAchievementsStore } from "../../lib/achievementsStore";
-import { catalogIndex } from "../../lib/catalog";
+import { franchisesMentioning, useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { todayIso } from "../../lib/progress";
 import { useProgressStore } from "../../lib/progressStore";
@@ -21,7 +21,10 @@ export function WrappedPage() {
   const year = param && /^\d{4}$/.test(param) ? Number(param) : currentYear;
   const progress = useProgressStore((s) => s.progress);
   const unlocked = useAchievementsStore((s) => s.unlocked);
-  const wrapped = useMemo(() => computeWrapped(catalogIndex, progress, unlocked, year), [progress, unlocked, year]);
+  const catalog = useCatalog(useMemo(() => franchisesMentioning(Object.keys(progress)), [progress]));
+  const wrapped = useMemo(() => computeWrapped(catalog.index, progress, unlocked, year), [catalog.index, progress, unlocked, year]);
+
+  if (!catalog.ready) return <p className="py-16 text-center text-muted">…</p>;
 
   return (
     <div className="pt-6">

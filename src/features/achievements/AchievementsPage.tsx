@@ -6,7 +6,7 @@ import { ProgressBar, SectionLabel } from "../../components/ui";
 import { evaluateAchievements, type AchievementStatus } from "../../lib/achievements";
 import { ACHIEVEMENTS } from "../../lib/achievementsCatalog";
 import { useAchievementsStore, type UnlockDoc } from "../../lib/achievementsStore";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { todayIso } from "../../lib/progress";
 import { useProgressStore } from "../../lib/progressStore";
@@ -18,8 +18,13 @@ export function AchievementsPage() {
   const unlocked = useAchievementsStore((s) => s.unlocked);
   const { hash } = useLocation();
   const today = todayIso();
+  // Todas: cada logro muestra cuánto falta, también los de franquicias sin empezar.
+  const catalog = useCatalog("all");
 
-  const statuses = useMemo(() => evaluateAchievements(ACHIEVEMENTS, { index: catalogIndex, progress, today }), [progress, today]);
+  const statuses = useMemo(
+    () => (catalog.ready ? evaluateAchievements(ACHIEVEMENTS, { index: catalog.index, progress, today }) : []),
+    [catalog.ready, catalog.index, progress, today],
+  );
   const streak = useMemo(() => computeStreak(activityDays(progress), today), [progress, today]);
   const done = statuses
     .filter((s) => unlocked[s.achievement.id])
@@ -32,6 +37,8 @@ export function AchievementsPage() {
   useEffect(() => {
     if (hash) document.getElementById(hash.slice(1))?.scrollIntoView({ block: "center" });
   }, [hash]);
+
+  if (!catalog.ready) return <p className="py-16 text-center text-muted">…</p>;
 
   return (
     <div className="pt-6">

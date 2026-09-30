@@ -1,5 +1,5 @@
 import { buildIndex } from "./catalogIndex";
-import { catalog as realCatalog } from "./catalog";
+import { catalog as realCatalog } from "./catalogFull";
 import type { ProgressDoc } from "./progressStore";
 import { recapIds, recapsBefore } from "./recaps";
 import { makeCatalog } from "../test/fixtures";

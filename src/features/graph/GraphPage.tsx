@@ -2,7 +2,8 @@ import { forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY
 import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import { Link, useSearchParams } from "react-router";
 import { accentStyle, Button, Chip, SectionLabel, SelectField, TextField } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById, useCatalog } from "../../lib/catalog";
+import type { CatalogIndex } from "../../lib/catalogIndex";
 import { effectiveHidden } from "../../lib/filters";
 import { buildGraph, neighbors, type Graph, type GraphNode, type NodeKind } from "../../lib/graph";
 import { useLang } from "../../lib/i18n";
@@ -40,13 +41,20 @@ function layout(graph: Graph): Positions {
   return new Map(nodes.map((n) => [n.id, { x: n.x ?? 0, y: n.y ?? 0 }]));
 }
 
+// El mapa cruza franquicias (y "Todas"): se carga el catálogo entero.
 export function GraphPage() {
+  const { index, ready } = useCatalog("all");
+  if (!ready) return <p className="py-16 text-center text-muted">…</p>;
+  return <GraphView index={index} />;
+}
+
+function GraphView({ index }: { index: CatalogIndex }) {
   const { t, lang, loc, name } = useLang();
   const [params, setParams] = useSearchParams();
   const franchiseState = useProgressStore((s) => s.franchiseState);
   const progress = useProgressStore((s) => s.progress);
-  const franchises = [...catalogIndex.franchisesById.values()];
-  const selectedFranchise = catalogIndex.franchisesById.get(params.get("f") ?? "")?.id ?? (params.get("f") === ALL ? ALL : franchises[0]!.id);
+  const franchises = [...index.franchisesById.values()];
+  const selectedFranchise = index.franchisesById.get(params.get("f") ?? "")?.id ?? (params.get("f") === ALL ? ALL : franchises[0]!.id);
   const [kinds, setKinds] = useState({ characters: true, teams: true, continuities: true });
   const [selected, setSelected] = useState<string | null>(null);
   const [focus, setFocus] = useState<{ id: string } | null>(null);
@@ -58,7 +66,7 @@ export function GraphPage() {
   const hiddenFor = (id: string) => {
     if (overrides[id]) return overrides[id];
     const s = franchiseState[id];
-    return effectiveHidden(catalogIndex.franchisesById.get(id)!, s?.hiddenContinuities, s?.shownContinuities);
+    return effectiveHidden(index.franchisesById.get(id)!, s?.hiddenContinuities, s?.shownContinuities);
   };
   const hiddenKey = JSON.stringify(franchiseIds.map((id) => [id, hiddenFor(id)]));
   const toggleContinuity = (franchiseId: string, continuityId: string) => {
@@ -71,13 +79,13 @@ export function GraphPage() {
 
   const graph = useMemo(() => {
     const entries = JSON.parse(hiddenKey) as [string, string[]][];
-    return buildGraph(catalogIndex, { franchiseIds: entries.map(([id]) => id), hiddenContinuities: Object.fromEntries(entries), ...kinds });
-  }, [hiddenKey, kinds]);
+    return buildGraph(index, { franchiseIds: entries.map(([id]) => id), hiddenContinuities: Object.fromEntries(entries), ...kinds });
+  }, [index, hiddenKey, kinds]);
   const positions = useMemo(() => layout(graph), [graph]);
 
   const labelOf = (node: GraphNode) => {
     if (node.titleId) {
-      const title = catalogIndex.titlesById.get(node.titleId);
+      const title = index.titlesById.get(node.titleId);
       return title ? name(title) : node.titleId;
     }
     return loc(node.name);
@@ -93,7 +101,7 @@ export function GraphPage() {
     // labelOf solo cambia con el idioma.
   }, [graph, query, lang]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const accent = selectedFranchise === ALL ? "#FFDB00" : catalogIndex.franchisesById.get(selectedFranchise)!.accentColor;
+  const accent = selectedFranchise === ALL ? "#FFDB00" : index.franchisesById.get(selectedFranchise)!.accentColor;
 
   return (
     <div style={accentStyle(accent)} className="pt-6">
@@ -125,7 +133,7 @@ export function GraphPage() {
           <div>
             <SectionLabel>{t("franchise.continuities")}</SectionLabel>
             <div className="flex flex-wrap gap-1.5">
-              {catalogIndex.franchisesById.get(selectedFranchise)!.continuities.map((c) => (
+              {index.franchisesById.get(selectedFranchise)!.continuities.map((c) => (
                 <Chip key={c.id} selected={!hiddenFor(selectedFranchise).includes(c.id)} onClick={() => toggleContinuity(selectedFranchise, c.id)}>
                   {loc(c.name)}
                 </Chip>
@@ -439,7 +447,7 @@ function NodeShape({ node, r, watched, selected }: { node: GraphNode; r: number;
     case "continuity":
       return <rect x={-r} y={-r} width={r * 2} height={r * 2} fill="var(--color-fg)" stroke={stroke} strokeWidth={sw} />;
     case "franchise": {
-      const f = node.franchiseId ? catalogIndex.franchisesById.get(node.franchiseId) : undefined;
+      const f = node.franchiseId ? franchiseMetaById.get(node.franchiseId) : undefined;
       return <rect x={-r} y={-r} width={r * 2} height={r * 2} fill={f?.accentColor ?? "var(--accent)"} stroke={stroke} strokeWidth={3} />;
     }
   }

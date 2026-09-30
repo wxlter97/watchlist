@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useIsWatched } from "../../lib/progressStore";
 import { resolveRoute, ROUTE_KINDS, routeProgress } from "../../lib/routes";
@@ -38,7 +38,8 @@ export function RoutesSection({ franchise }: { franchise: Franchise }) {
 function RouteCard({ franchise, route }: { franchise: Franchise; route: Route }) {
   const { t, loc } = useLang();
   const isWatched = useIsWatched();
-  const progress = routeProgress(resolveRoute(route, franchise, catalogIndex), isWatched);
+  const index = useCatalogIndex();
+  const progress = routeProgress(resolveRoute(route, franchise, index), isWatched);
   const done = progress.watched === progress.total;
 
   return (

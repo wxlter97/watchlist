@@ -2,7 +2,7 @@ import { useDeferredValue, useMemo } from "react";
 import { Link, useSearchParams } from "react-router";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, SearchIcon, SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { searchCatalog } from "../../lib/search";
 
@@ -11,7 +11,9 @@ export function SearchPage() {
   const [params, setParams] = useSearchParams();
   const query = params.get("q") ?? "";
   const deferred = useDeferredValue(query);
-  const results = useMemo(() => searchCatalog(catalogIndex, deferred, lang), [deferred, lang]);
+  // La búsqueda recorre todo el catálogo: se descarga al abrirla (con el service worker, una vez).
+  const catalog = useCatalog("all");
+  const results = useMemo(() => searchCatalog(catalog.index, deferred, lang), [catalog.index, deferred, lang]);
   const empty = deferred.trim() && !results.titles.length && !results.franchises.length && !results.routes.length;
 
   return (
@@ -31,7 +33,8 @@ export function SearchPage() {
       </label>
 
       {!deferred.trim() && <p className="mt-6 text-sm text-fg-soft">{t("search.hint")}</p>}
-      {empty && <p className="mt-6 text-sm text-fg-soft">{t("search.empty", { query: deferred })}</p>}
+      {deferred.trim() && !catalog.ready && <p className="mt-6 text-sm text-muted">…</p>}
+      {empty && catalog.ready && <p className="mt-6 text-sm text-fg-soft">{t("search.empty", { query: deferred })}</p>}
 
       {results.franchises.length > 0 && (
         <section className="mt-8">
@@ -81,7 +84,7 @@ export function SearchPage() {
             {results.titles.map((title, i) => (
               <TitleRow
                 key={title.id}
-                item={{ title, entry: catalogIndex.franchisesByTitle.get(title.id)?.[0]?.entry, position: i + 1 }}
+                item={{ title, entry: catalog.index.franchisesByTitle.get(title.id)?.[0]?.entry, position: i + 1 }}
               />
             ))}
           </ol>

@@ -1,6 +1,6 @@
 import achievementsJson from "../data/achievements.json";
 import { evaluateAchievements } from "./achievements";
-import { catalog, catalogIndex } from "./catalog";
+import { catalog, catalogIndex } from "./catalogFull";
 import { buildIndex } from "./catalogIndex";
 import { computeOrder, resolveOrder } from "./orders";
 import { summarize } from "./progress";
