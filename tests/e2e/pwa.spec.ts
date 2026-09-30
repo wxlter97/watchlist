@@ -59,3 +59,14 @@ test("sin conexión, la app instalada sigue abriendo", async ({ page, context })
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Tus sagas, en el orden que prefieras.");
 });
+
+test("las búsquedas recientes se guardan", async ({ page }) => {
+  await page.goto("/search");
+  await page.getByRole("searchbox").fill("loki");
+  await expect(page.getByText(/\d+ títulos?/)).toBeVisible();
+  await page.waitForTimeout(2000);
+  await page.goto("/search");
+  await expect(page.getByRole("heading", { name: "Búsquedas recientes" }).or(page.getByText("Búsquedas recientes"))).toBeVisible();
+  await page.getByRole("button", { name: "loki", exact: true }).click();
+  await expect(page.getByRole("searchbox")).toHaveValue("loki");
+});
