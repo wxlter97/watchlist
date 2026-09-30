@@ -54,6 +54,13 @@ pnpm rules:deploy        # publica firestore.rules e índices en el proyecto rea
   login por redirect en Safari / PWA de iOS). Al desplegar, cambiar `VITE_FIREBASE_AUTH_DOMAIN`
   al dominio de la app y agregarlo a los dominios autorizados de Firebase Auth.
 
+## Actualizaciones
+
+El service worker toma el control apenas se instala (`skipWaiting` + `clientsClaim`) y
+`src/lib/updates.ts` pregunta por una versión nueva al abrir, al volver a la app y cada 30 min;
+la página se recarga sola al cambiar de versión. Al desplegar, la app instalada se actualiza en
+la siguiente apertura o al volver a primer plano, no al cerrarla por completo.
+
 ## Errores y legales
 
 - Los errores del cliente (no capturados, promesas rechazadas y fallos de render) se envían a

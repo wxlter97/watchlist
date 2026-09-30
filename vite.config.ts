@@ -210,8 +210,8 @@ export default defineConfig(({ mode }) => {
       tailwindcss(),
       VitePWA({
         registerType: "autoUpdate",
-        // El registro del service worker no bloquea el primer render.
-        injectRegister: "script-defer",
+        // El registro lo hace src/lib/updates.ts: revisa versiones nuevas y recarga solo.
+        injectRegister: false,
         includeAssets: ["favicon.png", "apple-touch-icon.png", "pwa-maskable-512.png"],
         manifest: {
           name: "Watch Order",
@@ -231,6 +231,10 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
+          // La versión nueva toma el control al instalarse, sin esperar a que se cierren las
+          // pestañas (antes la app se quedaba en la versión vieja hasta cerrarla por completo).
+          skipWaiting: true,
+          clientsClaim: true,
           globPatterns: ["**/*.{js,css,html,svg,png,woff2}"],
           // El service worker de los avisos push se registra aparte; no va en el precache.
           globIgnores: ["firebase-messaging-sw.js"],

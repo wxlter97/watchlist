@@ -4,9 +4,11 @@ import "./lib/i18n";
 import "./index.css";
 import { App } from "./App";
 import { startErrorReporting } from "./lib/errorReport";
+import { startUpdates } from "./lib/updates";
 import { startSession } from "./lib/session";
 
 startErrorReporting();
+startUpdates();
 startSession();
 
 createRoot(document.getElementById("root")!).render(
