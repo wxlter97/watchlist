@@ -1,0 +1,4 @@
+- The Borg attack Earth in 2373 and a sphere travels back to 2063 to prevent first contact with the Vulcans.
+- The Enterprise-E follows. Part of the crew helps Zefram Cochrane complete the first warp flight.
+- Aboard the ship, the Borg Queen tries to seduce Data. Picard, scarred by his time as Locutus, wants to fight to the end.
+- Data betrays the Queen, the flight succeeds and the Vulcans land: first contact happens.

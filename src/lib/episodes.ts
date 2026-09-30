@@ -53,3 +53,43 @@ export function minutesWatched(title: Title, doc: ProgressDoc | undefined): numb
   if (total > 0 && doc.episodes) return Math.round((base / total) * Math.min(watchedEpisodes(doc.episodes), total));
   return 0;
 }
+
+/** Todos los episodios de la serie: lo que implica un título marcado como visto entero. */
+export function allEpisodes(title: Title): EpisodeMap {
+  return Object.fromEntries((title.seasons ?? []).map((s) => [String(s.number), Array.from({ length: s.episodes }, (_, i) => i + 1)]));
+}
+
+/**
+ * Cambio de progreso al marcar o desmarcar temporadas (unidades de un orden, ver units.ts).
+ * Un título visto entero sin detalle de episodios se expande primero a todos sus episodios,
+ * para poder desmarcar solo una temporada. Devuelve null si no cambia nada.
+ */
+export function seasonsPatch(
+  title: Title,
+  doc: ProgressDoc | undefined,
+  seasons: readonly number[],
+  watched: boolean,
+): { episodes: EpisodeMap; status: WatchStatus | null } | null {
+  if (watched && doc?.status === "watched") return null;
+  let map: EpisodeMap = doc?.status === "watched" ? allEpisodes(title) : (doc?.episodes ?? {});
+  for (const n of seasons) {
+    const count = title.seasons?.find((s) => s.number === n)?.episodes ?? 0;
+    if (count) map = setSeason(map, n, count, watched);
+  }
+  const current = doc?.status === "watched" ? "watching" : doc?.status;
+  // Sin nada visto, el progreso se borra salvo que tenga calificación o notas.
+  const status = statusFromEpisodes(title, map, current) ?? (doc?.rating || doc?.notes ? "planned" : null);
+  return { episodes: map, status };
+}
+
+/** Episodios vistos de hecho: un título visto entero sin detalle cuenta con todos. */
+export function effectiveEpisodes(title: Title, doc: ProgressDoc | undefined): EpisodeMap {
+  return doc?.status === "watched" && !watchedEpisodes(doc.episodes) ? allEpisodes(title) : (doc?.episodes ?? {});
+}
+
+/** Estado que corresponde a un mapa de episodios nuevo (null: borrar el progreso). */
+export function episodesPatch(title: Title, doc: ProgressDoc | undefined, episodes: EpisodeMap): { episodes: EpisodeMap; status: WatchStatus | null } {
+  const current = doc?.status === "watched" ? "watching" : doc?.status;
+  const status = statusFromEpisodes(title, episodes, current) ?? (doc?.rating || doc?.notes ? "planned" : null);
+  return { episodes, status };
+}

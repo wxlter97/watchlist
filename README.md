@@ -21,8 +21,12 @@ pnpm check:bundle        # después del build: ningún secreto ni código de ser
 
 - El arranque como invitado no descarga Firebase: `session.ts` solo carga `sessionCloud.ts`
   si el dispositivo tiene una cuenta iniciada (`watch-order:account`) o al iniciar sesión.
-- Las sinopsis salen del catálogo del arranque (`catalogSplit` en `vite.config.ts`) y se
-  cargan por idioma al abrir un título.
+- El catálogo se carga por partes (`catalogData` en `vite.config.ts`, `src/lib/catalog.ts`):
+  al abrir la app solo llega un manifiesto (nombre, color, continuidades y `[id, continuidad,
+  fecha]` de cada título, más los próximos estrenos). Cada franquicia completa es un chunk que
+  se descarga cuando una pantalla la pide con `useCatalog`, y sus sinopsis otro, por idioma.
+  Búsqueda, estadísticas, logros y mapa cargan todo al abrirse. Así el arranque crece unos
+  45 bytes por título nuevo, no con la franquicia entera.
 - Todo menos el Hub va en chunks propios, que se precargan cuando la página termina de cargar.
 - `index.html` trae un *app shell* (cabecera y titular del Hub) que se pinta antes del JS.
 - Lighthouse (móvil, `pnpm build && pnpm preview`): rendimiento ≥ 90; accesibilidad, buenas
@@ -114,6 +118,17 @@ El catálogo es JSON versionado en `src/data/`:
 - `franchises/<id>.json`: continuidades, pertenencia de títulos (`entries`), órdenes y rutas.
 
 Agregar una franquicia = agregar su JSON (y sus títulos a `titles.json`). No hay que tocar código.
+
+- **Series por temporada:** una entry puede llevar `"season": 2` para ubicar cada temporada en
+  su lugar del orden (la T2 de Loki va años después de la T1). Si una serie se reparte, todas
+  sus temporadas van así (el validador lo exige). En órdenes curados y rutas, `"loki-2021#2"`
+  nombra una temporada y `"loki-2021"` la serie entera. El progreso sigue siendo del título:
+  una temporada está vista si están todos sus episodios.
+- **Líneas de tiempo compartidas:** una continuidad con `"timelineOf": "mcu"` se intercala con
+  esa en el cronológico (mismo espacio de `chronoOrder`), como Netflix y ABC con el MCU.
+- **Marvel:** el cronológico sigue el "MCU Complete Timeline" oficial de Marvel en Disney+
+  (junio de 2026), más Agent Carter donde lo ponen Rotten Tomatoes y marvelwatchlist;
+  `src/lib/marvelTimeline.test.ts` lo verifica.
 
 ```bash
 pnpm catalog:validate    # referencias, chronoOrder duplicados, órdenes obligatorios (corre en CI)

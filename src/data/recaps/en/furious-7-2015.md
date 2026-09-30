@@ -1,0 +1,5 @@
+- Deckard Shaw wants revenge for his brother Owen: he injures Hobbs and kills Han in Tokyo.
+- Mr. Nobody offers to help Dom in exchange for rescuing Ramsey, the creator of God's Eye, a program that can track anyone.
+- From the Caucasus to Abu Dhabi and Los Angeles, they fight Shaw and the terrorist Mose Jakande.
+- Letty gets her memory back. Shaw ends up in prison.
+- Brian leaves the dangerous life to be with Mia and their kids: the farewell to Paul Walker.

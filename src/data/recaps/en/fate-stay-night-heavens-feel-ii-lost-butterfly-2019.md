@@ -1,0 +1,4 @@
+- Saber returns corrupted, as Saber Alter, and kills Berserker.
+- Shirou loses an arm and receives Archer's, which may kill him if he uses it.
+- It's revealed that Sakura was abused by Zouken and that the shadow is tied to her.
+- Shinji attacks her; Sakura kills him and gives herself over to the shadow.

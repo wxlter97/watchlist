@@ -1,0 +1,5 @@
+- Las pruebas de la bomba de hidrógeno despiertan a Godzilla, que arrasa la isla Odo y después Tokio.
+- El paleontólogo Yamane quiere estudiarlo; el ejército no logra detenerlo.
+- El Dr. Serizawa inventó el Destructor de Oxígeno, un arma que teme que se use en guerras.
+- Lo usa en la bahía de Tokio y muere con Godzilla para que su secreto desaparezca.
+- Yamane advierte que, si siguen las pruebas nucleares, puede aparecer otro.

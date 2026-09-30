@@ -1,0 +1,4 @@
+- Chaldea envía a Ritsuka Fujimaru y a Mash Kyrielight a la séptima singularidad: Mesopotamia, 2655 a. C.
+- Gilgamesh, ya rey sabio, defiende Uruk frente a los monstruos demoníacos y la Alianza de las Tres Diosas.
+- Con Merlin, Ana, Ishtar y otros Servants, sobreviven a Kingu, que usa el cuerpo de Enkidu.
+- Despierta Tiamat, la madre primordial. Gilgamesh muere y vuelve desde el inframundo de Ereshkigal; entre todos la derrotan.

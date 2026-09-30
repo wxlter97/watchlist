@@ -1,6 +1,7 @@
 import { totalEpisodes } from "./episodes";
 import type { ProgressDoc } from "./progressStore";
 import type { Title } from "./types";
+import { unitKey, unitReleaseDate } from "./units";
 
 // Planificador de maratón y "Tengo X horas" (SPEC §9.2). Lógica pura: recibe títulos en
 // orden y el progreso, y reparte lo pendiente en días o en un bloque de tiempo.
@@ -46,13 +47,24 @@ export function runtimeOf(title: Title, doc?: ProgressDoc): number | undefined {
   );
 }
 
-/** Lo que falta ver de cada título, en orden: películas completas o episodios sueltos. */
-export function pendingUnits(titles: readonly Title[], progress: Readonly<Record<string, ProgressDoc>>): PlanUnit[] {
+/** Lo que se agenda: un título entero o una temporada (ver units.ts). */
+export type GoalUnit = Title | { title: Title; season?: number };
+
+const asGoal = (u: GoalUnit): { title: Title; season?: number } =>
+  typeof u.title === "object" ? (u as { title: Title; season?: number }) : { title: u as Title };
+
+/**
+ * Lo que falta ver, en orden: películas completas o episodios sueltos. Una temporada
+ * repartida en el orden agenda solo sus episodios, en su lugar.
+ */
+export function pendingUnits(goal: readonly GoalUnit[], progress: Readonly<Record<string, ProgressDoc>>): PlanUnit[] {
   const units: PlanUnit[] = [];
   const seen = new Set<string>();
-  for (const title of titles) {
-    if (seen.has(title.id)) continue;
-    seen.add(title.id);
+  for (const unit of goal) {
+    const { title, season } = asGoal(unit);
+    // Un título entero ya agendado cubre sus temporadas; cada temporada, una vez.
+    if (seen.has(title.id) || seen.has(unitKey(title.id, season))) continue;
+    seen.add(unitKey(title.id, season));
     const doc = progress[title.id];
     if (doc?.status === "watched") continue;
     const runtime = runtimeOf(title, doc);
@@ -61,13 +73,14 @@ export function pendingUnits(titles: readonly Title[], progress: Readonly<Record
     if (title.tmdbType === "tv" && episodes > 0) {
       const perEpisode = runtime ? Math.max(1, Math.round(runtime / episodes)) : ESTIMATED_EPISODE_MIN;
       for (const s of title.seasons ?? []) {
+        if (season !== undefined && s.number !== season) continue;
         const done = new Set(doc?.episodes?.[s.number] ?? []);
         for (let e = 1; e <= s.episodes; e++) {
           if (done.has(e)) continue;
           units.push({
             titleId: title.id,
             minutes: perEpisode,
-            releaseDate: title.releaseDate,
+            releaseDate: unitReleaseDate(title, s.number),
             season: s.number,
             episode: e,
             ...(runtime ? {} : { estimated: true }),

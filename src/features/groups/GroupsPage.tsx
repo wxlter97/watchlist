@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router";
 import { accentStyle, Button, Notice, SectionLabel, SelectField, TextField } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById, franchiseMetas, useCatalog, withReferences } from "../../lib/catalog";
 import { groupTitles } from "../../lib/groups";
 import { createGroup } from "../../lib/groupsCloud";
 import { useGroupsStore } from "../../lib/groupsStore";
@@ -39,6 +39,8 @@ function GroupList() {
   const { t, loc } = useLang();
   const groups = useGroupsStore((s) => s.groups);
   const loaded = useGroupsStore((s) => s.loaded);
+  // Solo el nombre de la ruta necesita la franquicia cargada; el resto sale del manifiesto.
+  const { index } = useCatalog(groups.filter((g) => g.routeId).map((g) => g.franchiseId));
   if (!loaded) return null;
 
   return (
@@ -49,8 +51,8 @@ function GroupList() {
       ) : (
         <ul className="space-y-3">
           {groups.map((g) => {
-            const franchise = catalogIndex.franchisesById.get(g.franchiseId);
-            const route = g.routeId ? franchise?.routes.find((r) => r.id === g.routeId) : undefined;
+            const franchise = franchiseMetaById.get(g.franchiseId);
+            const route = g.routeId ? index.franchisesById.get(g.franchiseId)?.routes.find((r) => r.id === g.routeId) : undefined;
             return (
               <li key={g.id} style={franchise ? accentStyle(franchise.accentColor) : undefined}>
                 <Link to={`/groups/${g.id}`} className="group block border-2 border-line bg-surface">
@@ -77,11 +79,12 @@ function CreateGroup() {
   const navigate = useNavigate();
   const user = useSession((s) => s.user)!;
   const profile = useSession((s) => s.profiles.find((p) => p.id === s.activeProfileId));
-  const franchises = [...catalogIndex.franchisesById.values()];
+  const franchises = franchiseMetas;
   const [name, setName] = useState("");
   const [franchiseId, setFranchiseId] = useState(franchises[0]!.id);
   const [routeId, setRouteId] = useState("");
-  const franchise = catalogIndex.franchisesById.get(franchiseId)!;
+  const { index, ready } = useCatalog(withReferences(franchiseId));
+  const franchise = index.franchisesById.get(franchiseId);
 
   const submit = (e: FormEvent) => {
     e.preventDefault();
@@ -107,12 +110,14 @@ function CreateGroup() {
         <SelectField
           label={t("routes.title")}
           value={routeId}
-          options={[{ value: "", label: t("groups.wholeFranchise") }, ...franchise.routes.map((r) => ({ value: r.id, label: loc(r.name) }))]}
+          options={[{ value: "", label: t("groups.wholeFranchise") }, ...(franchise?.routes ?? []).map((r) => ({ value: r.id, label: loc(r.name) }))]}
           onChange={(e) => setRouteId(e.target.value)}
         />
-        <p className="text-xs text-fg-soft">
-          {t("groups.targetHint", { count: groupTitles({ franchiseId, routeId: routeId || undefined }, catalogIndex).length, profile: profile?.name ?? "" })}
-        </p>
+        {ready && (
+          <p className="text-xs text-fg-soft">
+            {t("groups.targetHint", { count: groupTitles({ franchiseId, routeId: routeId || undefined }, index).length, profile: profile?.name ?? "" })}
+          </p>
+        )}
         <Button type="submit" variant="primary" disabled={!name.trim() || !profile}>
           {t("groups.createAction")}
         </Button>

@@ -1,0 +1,4 @@
+- Chaldea ataca el Templo del Tiempo de Goetia, que incineró a la humanidad.
+- Los Servants de todas las singularidades acuden a pelear contra los pilares demoníacos.
+- Mash se sacrifica para proteger a Ritsuka y vuelve gracias a Fou.
+- El Dr. Roman revela que es el rey Salomón y renuncia a su existencia para derrotar a Goetia. La humanidad se restaura.

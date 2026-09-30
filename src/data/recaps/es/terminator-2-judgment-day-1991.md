@@ -1,0 +1,5 @@
+- Sarah está internada en un psiquiátrico; su hijo John tiene 10 años.
+- Skynet envía al T-1000, de metal líquido, a matar a John. La resistencia envía un T-800 reprogramado para protegerlo.
+- Miles Dyson, de Cyberdyne, construye Skynet a partir del brazo y el chip del primer Terminator. Juntos destruyen su investigación; Dyson muere.
+- El T-1000 cae en acero fundido. El T-800 se hunde también para destruir su propio chip.
+- El Día del Juicio queda en duda: «El futuro no está escrito».

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import { catalogIndex } from "../lib/catalog";
+import { useCatalogIndex } from "../lib/catalog";
 import { useLang } from "../lib/i18n";
 import { useProgressStore } from "../lib/progressStore";
 import { useSession } from "../lib/session";
@@ -16,11 +16,12 @@ export function ShareLinkButton({ target, title, label }: { target: ShareTarget;
   const user = useSession((s) => s.user);
   const profile = useSession((s) => s.profiles.find((p) => p.id === s.activeProfileId));
   const [share, setShare] = useState<ShareDoc | null>(null);
+  const index = useCatalogIndex();
 
   const publish = () => {
     if (!user || !profile) return;
     const { progress, franchiseState } = useProgressStore.getState();
-    const snapshot = buildSnapshot(target, { index: catalogIndex, progress, franchiseState });
+    const snapshot = buildSnapshot(target, { index, progress, franchiseState });
     if (!snapshot) return;
     setShare(publishShare({ uid: user.uid, profileId: profile.id, name: profile.name }, target, { title, lang, snapshot }));
   };

@@ -1,0 +1,4 @@
+- In Amityville, Lorraine sees a demon shaped like a nun and a vision of Ed's death.
+- 1977, Enfield (London): Janet Hodgson seems possessed by Bill Wilkins, an old man who died in the house.
+- The Warrens go at the Church's request. The ghost turns out to be a puppet of the demon Valak, who wants to lure Lorraine.
+- Lorraine learns its name and banishes it by saying it; she saves Ed from the death she'd foreseen.

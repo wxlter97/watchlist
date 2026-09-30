@@ -1,0 +1,5 @@
+- Halloween de 1963: Michael Myers, de seis años, mata a su hermana Judith en Haddonfield.
+- Quince años después escapa del sanatorio y vuelve al pueblo.
+- Acecha a la niñera Laurie Strode y mata a sus amigos Annie, Lynda y Bob.
+- Laurie se defiende; el Dr. Loomis le dispara seis veces y Michael cae del balcón.
+- Cuando miran abajo, el cuerpo ya no está.

@@ -1,0 +1,5 @@
+- Ripley is rescued after 57 years adrift. LV-426 is now a colony, Hadley's Hope, and has gone silent.
+- She returns with the Colonial Marines and Burke from the Company. The colony is a hive: only a girl, Newt, survives.
+- Burke tries to get Ripley and Newt implanted to smuggle embryos; it gets him killed.
+- Ripley rescues Newt from the Queen's nest. The Queen stows away on the ship and Ripley ejects her with a power loader.
+- Ripley, Newt, Corporal Hicks and the android Bishop, torn in half, survive.

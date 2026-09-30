@@ -1,14 +1,16 @@
 import { useMemo } from "react";
-import { catalogIndex } from "../lib/catalog";
+import { useCatalog, withReferences } from "../lib/catalog";
 import { applyFilters, effectiveHidden, NO_FILTERS, toggleContinuity } from "../lib/filters";
 import { computeOrder, CUSTOM_ORDER_ID, nextUp, resolveOrder } from "../lib/orders";
-import { useIsWatched, useProgressStore } from "../lib/progressStore";
-import { isReleased, summarize } from "../lib/progress";
+import { useProgressStore } from "../lib/progressStore";
+import { useIsWatched } from "../lib/watched";
+import { summarize, todayIso } from "../lib/progress";
 import { useUiStore } from "../lib/uiStore";
 
 /** Franquicia con su orden activo, continuidades, filtros y progreso del perfil actual. */
 export function useFranchiseView(franchiseId: string | undefined) {
-  const franchise = franchiseId ? catalogIndex.franchisesById.get(franchiseId) : undefined;
+  const { index, ready } = useCatalog(withReferences(franchiseId));
+  const franchise = franchiseId ? index.franchisesById.get(franchiseId) : undefined;
   const state = useProgressStore((s) => (franchiseId ? s.franchiseState[franchiseId] : undefined));
   const setFranchiseState = useProgressStore((s) => s.setFranchiseState);
   const filters = useUiStore((s) => (franchiseId ? s.filters[franchiseId] : undefined)) ?? NO_FILTERS;
@@ -25,8 +27,8 @@ export function useFranchiseView(franchiseId: string | undefined) {
 
   // Orden completo de las continuidades visibles: base del progreso y de "continuar viendo".
   const items = useMemo(
-    () => (franchise && order ? computeOrder(franchise, order, catalogIndex.titlesById, { hiddenContinuities }) : []),
-    [franchise, order, hiddenContinuities],
+    () => (franchise && order ? computeOrder(franchise, order, index.titlesById, { hiddenContinuities }) : []),
+    [franchise, order, index, hiddenContinuities],
   );
   const visibleItems = useMemo(() => applyFilters(items, filters, isWatched), [items, filters, isWatched]);
 
@@ -36,18 +38,22 @@ export function useFranchiseView(franchiseId: string | undefined) {
     () =>
       franchise
         ? order?.type === "curated"
-          ? computeOrder(franchise, { id: "release", type: "release", name: "" }, catalogIndex.titlesById, { hiddenContinuities })
+          ? computeOrder(franchise, { id: "release", type: "release", name: "" }, index.titlesById, { hiddenContinuities })
           : items
         : [],
-    [franchise, order, items, hiddenContinuities],
+    [franchise, order, items, index, hiddenContinuities],
   );
   const summary = summarize(allItems, isWatched);
+  const today = todayIso();
   const next = nextUp(
-    items.filter((i) => isReleased(i.title)),
+    items.filter((i) => i.releaseDate <= today),
     isWatched,
   );
 
   return {
+    /** La franquicia ya se cargó (o no existe): antes, `franchise` es undefined. */
+    ready,
+    index,
     franchise,
     order,
     items,

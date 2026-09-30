@@ -1,0 +1,5 @@
+- Cuarta Guerra del Santo Grial en Fuyuki: siete Masters invocan a siete Servants para pelear por un Grial que cumple deseos.
+- Kiritsugu Emiya lucha por los Einzbern con Saber, el rey Arturo. Waver Velvet va con Rider, Iskandar.
+- Kirei Kotomine traiciona y mata a su maestro, Tokiomi Tohsaka, y se queda con Archer, Gilgamesh.
+- Kiritsugu descubre que el Grial está corrompido y obliga a Saber a destruirlo; el lodo provoca el gran incendio de Fuyuki.
+- Entre las ruinas rescata a un niño, Shirou, y lo adopta. Gilgamesh sobrevive con cuerpo propio.

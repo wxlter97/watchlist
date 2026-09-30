@@ -1,0 +1,5 @@
+- A creature emerges in Tokyo Bay and evolves on land into Godzilla's form.
+- The Japanese government responds slowly and bureaucratically; Rando Yaguchi assembles a team of outsider experts.
+- Godzilla's atomic breath destroys central Tokyo and kills the cabinet.
+- Using data from the vanished scientist Goro Maki, they develop a coagulant. While the UN readies a nuclear strike, the Yashiori plan freezes it, using trains and buildings as weapons.
+- Godzilla is left standing, frozen in the middle of Tokyo.

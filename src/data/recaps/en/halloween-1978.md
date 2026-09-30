@@ -1,0 +1,5 @@
+- Halloween 1963: six-year-old Michael Myers kills his sister Judith in Haddonfield.
+- Fifteen years later he escapes the sanitarium and returns to town.
+- He stalks babysitter Laurie Strode and kills her friends Annie, Lynda and Bob.
+- Laurie fights back; Dr. Loomis shoots him six times and Michael falls from the balcony.
+- When they look down, the body is gone.

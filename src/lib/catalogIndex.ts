@@ -1,4 +1,5 @@
 import type { Catalog, Entry, Franchise, Route, Title } from "./types";
+import { parseUnitKey } from "./units";
 
 export interface RouteRef {
   franchise: Franchise;
@@ -30,7 +31,7 @@ export function buildIndex(catalog: Catalog): CatalogIndex {
   for (const franchise of catalog.franchises) {
     for (const entry of franchise.entries) push(franchisesByTitle, entry.titleId, { franchise, entry });
     for (const route of franchise.routes) {
-      for (const id of route.titleIds) push(routesByTitle, id, { franchise, route });
+      for (const id of new Set(route.titleIds.map((k) => parseUnitKey(k).titleId))) push(routesByTitle, id, { franchise, route });
       if (route.kind === "prep" && route.targetTitleId) push(prepByTarget, route.targetTitleId, { franchise, route });
     }
   }

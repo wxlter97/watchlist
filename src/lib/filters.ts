@@ -1,5 +1,6 @@
 import type { OrderedItem } from "./orders";
 import type { Franchise, Importance, Kind } from "./types";
+import type { IsWatched } from "./units";
 
 // Filtros de la vista de franquicia (SPEC §8.2). Se aplican después de calcular el orden,
 // así la posición de cada título no cambia al filtrar.
@@ -19,13 +20,13 @@ export const NO_FILTERS: Filters = { kinds: [], importance: [], status: "all" };
 export function applyFilters(
   items: readonly OrderedItem[],
   f: Filters,
-  isWatched: (titleId: string) => boolean,
+  isWatched: IsWatched,
 ): OrderedItem[] {
-  return items.filter(({ title, entry }) => {
+  return items.filter(({ title, entry, season }) => {
     if (f.kinds.length && !f.kinds.includes(title.kind)) return false;
     if (f.importance.length && !f.importance.includes(entry.importance)) return false;
-    if (f.status === "watched" && !isWatched(title.id)) return false;
-    if (f.status === "pending" && isWatched(title.id)) return false;
+    if (f.status === "watched" && !isWatched(title.id, season)) return false;
+    if (f.status === "pending" && isWatched(title.id, season)) return false;
     if (f.character && !entry.characters?.includes(f.character)) return false;
     if (f.team && !entry.teams?.includes(f.team)) return false;
     return true;
@@ -48,7 +49,7 @@ export function activeFilterCount(f: Filters): number {
  * así una continuidad agregada después al catálogo respeta su propio valor por defecto.
  */
 export function effectiveHidden(
-  franchise: Franchise,
+  franchise: Pick<Franchise, "continuities">,
   hidden: readonly string[] = [],
   shown: readonly string[] = [],
 ): string[] {

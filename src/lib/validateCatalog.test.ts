@@ -1,7 +1,7 @@
 import { validateCatalog } from "./validateCatalog";
 import { entry, makeCatalog, title } from "../test/fixtures";
 import type { Catalog } from "./types";
-import { catalog } from "./catalog";
+import { catalog } from "./catalogFull";
 
 const withChange = (fn: (c: Catalog) => void) => {
   const c = makeCatalog();

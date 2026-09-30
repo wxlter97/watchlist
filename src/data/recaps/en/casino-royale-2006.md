@@ -1,0 +1,5 @@
+- A reboot: Bond has just earned his 00 status.
+- He foils a bombing in Miami that costs Le Chiffre, a banker to terrorists, his money; Le Chiffre tries to win it back at a poker game in Montenegro.
+- Vesper Lynd from the Treasury controls Bond's stake. Bond wins, Le Chiffre tortures him and Mr. White's organization kills Le Chiffre.
+- Bond falls for Vesper and resigns, but she had been betraying him under blackmail; she drowns in Venice.
+- Bond tracks down Mr. White: "The name's Bond, James Bond."

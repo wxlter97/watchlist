@@ -1,0 +1,5 @@
+- Una criatura surge en la bahía de Tokio y evoluciona en tierra hasta la forma de Godzilla.
+- El gobierno japonés reacciona con lentitud y burocracia; Rando Yaguchi arma un equipo de expertos marginados.
+- El aliento atómico de Godzilla destruye el centro de Tokio y mata al gabinete.
+- Con los datos del científico desaparecido Goro Maki, crean un coagulante. Mientras la ONU prepara un ataque nuclear, el plan Yashiori lo congela con trenes y edificios como armas.
+- Godzilla queda de pie, congelado en medio de Tokio.

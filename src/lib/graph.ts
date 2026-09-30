@@ -1,4 +1,5 @@
 import type { CatalogIndex } from "./catalogIndex";
+import { parseUnitKey } from "./units";
 import type { Franchise, LocalizedText } from "./types";
 
 // Mapa de conexiones (SPEC §9.3): títulos unidos a sus personajes, equipos y continuidades
@@ -102,7 +103,10 @@ export function buildGraph(index: CatalogIndex, options: GraphOptions): Graph {
     for (const franchise of franchises) {
       const own = visibleByFranchise.get(franchise.id)!;
       for (const route of franchise.routes) {
-        for (const id of route.titleIds) if (!own.has(id) && nodes.has(titleNodeId(id))) addTitle(id, franchise);
+        for (const key of route.titleIds) {
+          const id = parseUnitKey(key).titleId;
+          if (!own.has(id) && nodes.has(titleNodeId(id))) addTitle(id, franchise);
+        }
       }
     }
   }

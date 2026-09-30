@@ -260,8 +260,15 @@ export function TextField({
 }
 
 /** "2008 · PELÍCULA · 2 H 6 MIN" o "2021 · SERIE · 2 TEMPORADAS". */
-export function TitleMeta({ title }: { title: Title }) {
+export function TitleMeta({ title, season }: { title: Title; season?: number }) {
   const { t } = useLang();
+  if (season !== undefined) {
+    // Una temporada: su año y sus episodios.
+    const s = title.seasons?.find((x) => x.number === season);
+    const year = (s?.airDate ?? title.releaseDate).slice(0, 4);
+    const parts = [year, t(`kind.${title.kind}`), ...(s ? [t("title.episodes", { count: s.episodes })] : [])];
+    return <span className="font-mono text-[11px] tracking-[0.06em] text-muted uppercase">{parts.join(" · ")}</span>;
+  }
   const parts: string[] = [title.releaseDate.slice(0, 4), t(`kind.${title.kind}`)];
   if (title.seasons?.length) parts.push(t("title.seasons", { count: title.seasons.length }));
   else if (title.runtimeMin) parts.push(formatRuntime(title.runtimeMin, t));

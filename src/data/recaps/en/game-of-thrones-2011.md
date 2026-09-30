@@ -1,0 +1,6 @@
+- Ned Stark becomes Hand of the King and learns Cersei's children are her brother Jaime's; Joffrey has him executed and war breaks out.
+- Robb Stark dies at the Red Wedding. Joffrey is poisoned and Tyrion, accused, flees after killing his father, Tywin.
+- In Essos, Daenerys Targaryen raises three dragons and frees slaver cities before crossing to Westeros.
+- Jon Snow of the Night's Watch dies and is brought back, retakes Winterfell and unites everyone against the White Walkers. He's revealed to be the son of Lyanna Stark and Rhaegar Targaryen.
+- Arya kills the Night King. Daenerys burns King's Landing and Jon kills her.
+- Bran is chosen king, Sansa becomes Queen in the North and Jon heads beyond the Wall.

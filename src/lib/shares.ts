@@ -1,4 +1,5 @@
 import type { CatalogIndex } from "./catalogIndex";
+import { parseUnitKey, watchedPredicate } from "./units";
 import { effectiveHidden } from "./filters";
 import { computeOrder, CUSTOM_ORDER_ID, resolveOrder } from "./orders";
 import type { FranchiseStateDoc, ProgressDoc } from "./progressStore";
@@ -55,20 +56,22 @@ export function buildSnapshot(
   if (target.kind === "route") {
     const route = franchise.routes.find((r) => r.id === target.refId);
     if (!route) return undefined;
-    titleIds = resolveRoute(route, franchise, ctx.index).map((i) => i.title.id);
+    titleIds = resolveRoute(route, franchise, ctx.index).map((i) => i.key);
   } else if (target.kind === "custom-order") {
     if (!state?.customOrder?.length) return undefined;
     const order = resolveOrder(franchise, CUSTOM_ORDER_ID, state.customOrder);
-    titleIds = computeOrder(franchise, order, ctx.index.titlesById, { hiddenContinuities }).map((i) => i.title.id);
+    titleIds = computeOrder(franchise, order, ctx.index.titlesById, { hiddenContinuities }).map((i) => i.key);
   } else {
     // Progreso: en orden de estreno, lo ya estrenado de las continuidades visibles.
     const order = resolveOrder(franchise, "release");
     const today = new Date().toISOString().slice(0, 10);
     titleIds = computeOrder(franchise, order, ctx.index.titlesById, { hiddenContinuities })
-      .filter((i) => i.title.releaseDate <= today)
-      .map((i) => i.title.id);
+      .filter((i) => i.releaseDate <= today)
+      .map((i) => i.key);
   }
-  return { titleIds, watched: titleIds.filter((id) => ctx.progress[id]?.status === "watched") };
+  // Ids de unidad: "loki-2021#2" es una temporada (ver units.ts).
+  const isWatched = watchedPredicate(ctx.progress, ctx.index.titlesById);
+  return { titleIds, watched: titleIds.filter((key) => isWatched(parseUnitKey(key).titleId, parseUnitKey(key).season)) };
 }
 
 /** El link ya existente para lo mismo (mismo perfil, tipo y referencia), para reusarlo. */

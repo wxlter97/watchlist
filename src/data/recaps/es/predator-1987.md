@@ -1,0 +1,4 @@
+- Dutch y su equipo de comandos entran a la selva centroamericana en un rescate que la CIA, con Dillon, usó como pretexto.
+- Un cazador alienígena invisible los mata uno a uno y se lleva trofeos.
+- Dutch descubre que el cazador ve el calor: cubierto de barro frío, se vuelve invisible para él.
+- En el duelo final lo vence; el Predator activa una autodestrucción y Dutch escapa a tiempo.

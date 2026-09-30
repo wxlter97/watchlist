@@ -1,0 +1,5 @@
+- Walter White, a chemistry teacher with terminal cancer, cooks meth with his former student Jesse Pinkman to leave money for his family.
+- As "Heisenberg" he rises in the business with lawyer Saul Goodman and works for Gus Fring, a distributor whose right hand is Mike.
+- Walt lets Jesse's girlfriend Jane die and kills Gus with a bomb.
+- His brother-in-law Hank, of the DEA, discovers he's Heisenberg; Jack's neo-Nazi gang kills Hank and enslaves Jesse.
+- Walt flees; he returns to kill the gang, frees Jesse and dies in the lab.

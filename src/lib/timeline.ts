@@ -1,4 +1,5 @@
 import type { Continuity, Entry, Franchise, Title } from "./types";
+import { unitReleaseDate } from "./units";
 
 // Línea de tiempo (SPEC §9.3): un carril por continuidad, en orden in-universe
 // (chronoOrder). Una continuidad que se separa de otra (branchesFrom) empieza justo
@@ -28,7 +29,7 @@ export interface Timeline {
 
 const byChrono = (a: { entry: Entry; title: Title }, b: { entry: Entry; title: Title }) =>
   (a.entry.chronoOrder ?? Infinity) - (b.entry.chronoOrder ?? Infinity) ||
-  a.title.releaseDate.localeCompare(b.title.releaseDate) ||
+  unitReleaseDate(a.title, a.entry.season).localeCompare(unitReleaseDate(b.title, b.entry.season)) ||
   a.title.id.localeCompare(b.title.id);
 
 export function buildTimeline(

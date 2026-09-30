@@ -1,0 +1,4 @@
+- Decades ago, King Vegeta exiled baby Broly to the planet Vampa over his power. Soon after, Frieza destroyed Planet Vegeta and Bardock sent his son Kakarot to Earth.
+- Frieza's army finds Broly and his father Paragus and brings them to Earth to fight Goku and Vegeta.
+- Broly's rage makes him unstoppable; Goku and Vegeta fuse into Gogeta.
+- Cheelai uses the Dragon Balls to send Broly back to Vampa. Goku visits to offer him friendship.

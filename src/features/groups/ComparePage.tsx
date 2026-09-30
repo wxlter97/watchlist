@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router";
 import { accentStyle, Notice, ProgressBar, SectionLabel, SelectField } from "../../components/ui";
 import { paths } from "../../lib/cloud";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById, franchiseMetas, useCatalog, withReferences } from "../../lib/catalog";
 import { effectiveHidden } from "../../lib/filters";
 import { db } from "../../lib/firebase";
 import { useLang } from "../../lib/i18n";
@@ -32,7 +32,7 @@ export function ComparePage() {
   const uid = useSession((s) => s.user?.uid);
   const profiles = useSession((s) => s.profiles);
   const activeId = useSession((s) => s.activeProfileId);
-  const franchises = [...catalogIndex.franchisesById.values()];
+  const franchises = franchiseMetas;
   const [a, setA] = useState<string | undefined>();
   const [b, setB] = useState<string | undefined>();
   const [franchiseId, setFranchiseId] = useState(franchises[0]!.id);
@@ -40,14 +40,16 @@ export function ComparePage() {
   const right = b ?? profiles.find((p) => p.id !== left)?.id;
   const progressA = useProfileProgress(uid, left);
   const progressB = useProfileProgress(uid, right);
-  const franchise = catalogIndex.franchisesById.get(franchiseId)!;
+  const { index } = useCatalog(withReferences(franchiseId));
+  const franchise = index.franchisesById.get(franchiseId);
 
   const titles = useMemo(() => {
+    if (!franchise) return [];
     const order = resolveOrder(franchise, "release");
-    return computeOrder(franchise, order, catalogIndex.titlesById, { hiddenContinuities: effectiveHidden(franchise, undefined, undefined) })
+    return computeOrder(franchise, order, index.titlesById, { hiddenContinuities: effectiveHidden(franchise, undefined, undefined) })
       .map((i) => i.title)
-      .filter((t) => isReleased(t));
-  }, [franchise]);
+      .filter((t, i, all) => isReleased(t) && all.findIndex((x) => x.id === t.id) === i);
+  }, [franchise, index]);
 
   if (!uid || profiles.length < 2) {
     return (
@@ -76,7 +78,7 @@ export function ComparePage() {
   const options = profiles.map((p) => ({ value: p.id, label: p.name }));
 
   return (
-    <div className="pt-6" style={accentStyle(franchise.accentColor)}>
+    <div className="pt-6" style={accentStyle(franchiseMetaById.get(franchiseId)!.accentColor)}>
       <h1 className="display text-[39px]">{t("compare.title")}</h1>
       <p className="mt-3 max-w-[58ch] leading-[1.55] text-fg-soft">{t("compare.intro")}</p>
 

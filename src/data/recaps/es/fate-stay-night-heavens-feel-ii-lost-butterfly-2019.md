@@ -1,0 +1,4 @@
+- Saber vuelve corrompida, como Saber Alter, y mata a Berserker.
+- Shirou pierde un brazo y recibe el de Archer, que puede matarlo si lo usa.
+- Se revela que Sakura fue abusada por Zouken y que la sombra está ligada a ella.
+- Shinji la ataca; Sakura lo mata y se entrega a la sombra.

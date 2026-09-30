@@ -1,0 +1,4 @@
+- En Amityville, Lorraine ve a un demonio con forma de monja y una visión de la muerte de Ed.
+- 1977, Enfield (Londres): Janet Hodgson parece poseída por Bill Wilkins, un anciano que murió en la casa.
+- Los Warren viajan por encargo de la Iglesia. El fantasma resulta ser un títere del demonio Valak, que busca atraer a Lorraine.
+- Lorraine descubre su nombre y lo expulsa al pronunciarlo; salva a Ed de la muerte que había visto.

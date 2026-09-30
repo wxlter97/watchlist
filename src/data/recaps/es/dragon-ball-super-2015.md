@@ -1,0 +1,5 @@
+- Bills, el dios de la destrucción, busca al Super Saiyajin Dios; Goku alcanza esa forma y después la Azul.
+- Freezer resucita en su forma dorada y vuelve a caer.
+- Torneo contra el Universo 6 de Champa, hermano de Bills.
+- Trunks del futuro huye de Black Goku y Zamasu; Zen-Oh borra esa línea del futuro.
+- En el Torneo de Poder, los universos perdedores son borrados. Goku alcanza el Ultra Instinto; el Androide 17 gana y pide devolverlos todos.

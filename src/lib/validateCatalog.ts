@@ -1,5 +1,6 @@
 import { contrastRatio, onColor } from "./color";
-import type { Achievement, Catalog, Franchise, Kind } from "./types";
+import type { Achievement, Catalog, Franchise, Kind, Title } from "./types";
+import { parseUnitKey, unitKey } from "./units";
 
 // Reglas del validador (SPEC §4.5). Devuelve la lista de errores; vacía = válido.
 
@@ -13,6 +14,7 @@ const HEX = /^#[0-9a-fA-F]{6}$/;
 export function validateCatalog(catalog: Catalog): string[] {
   const errors: string[] = [];
   const titleIds = new Set<string>();
+  const titlesById = new Map(catalog.titles.map((t) => [t.id, t]));
   const tmdbKeys = new Map<string, string>();
 
   for (const t of catalog.titles) {
@@ -38,12 +40,12 @@ export function validateCatalog(catalog: Catalog): string[] {
   for (const f of catalog.franchises) {
     if (franchiseIds.has(f.id)) errors.push(`franquicia "${f.id}": id duplicado`);
     franchiseIds.add(f.id);
-    errors.push(...validateFranchise(f, titleIds));
+    errors.push(...validateFranchise(f, titleIds, titlesById));
   }
   return errors;
 }
 
-function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[] {
+function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>, titlesById: ReadonlyMap<string, Title>): string[] {
   const errors: string[] = [];
   const at = (what: string) => `franquicia "${f.id}" → ${what}`;
   const requireTitle = (id: string, where: string) => {
@@ -63,6 +65,11 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     if (!CANON.includes(c.canonLevel)) errors.push(at(`continuidad "${c.id}": canonLevel "${c.canonLevel}" desconocido`));
   }
   for (const c of f.continuities) {
+    if (c.timelineOf !== undefined) {
+      const target = f.continuities.find((x) => x.id === c.timelineOf);
+      if (!target || target.id === c.id) errors.push(at(`continuidad "${c.id}": timelineOf "${c.timelineOf}" no existe`));
+      else if (target.timelineOf) errors.push(at(`continuidad "${c.id}": timelineOf apunta a "${target.id}", que ya comparte otra línea de tiempo`));
+    }
     if (!c.branchesFrom) continue;
     if (!continuityIds.has(c.branchesFrom.continuityId))
       errors.push(at(`continuidad "${c.id}": branchesFrom apunta a "${c.branchesFrom.continuityId}", que no existe`));
@@ -82,22 +89,39 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     }
   }
 
+  // Unidades (título o "título#temporada") y títulos que la franquicia tiene como entries.
   const entryIds = new Set<string>();
+  const entryUnits = new Set<string>();
+  const seasonsByTitle = new Map<string, number[]>();
+  const wholeTitles = new Set<string>();
   const chronoSeen = new Map<string, string>();
   const groups = new Set<string>();
+  // Las continuidades que comparten línea de tiempo comparten también los chronoOrder.
+  const timelineOf = new Map(f.continuities.map((c) => [c.id, c.timelineOf ?? c.id]));
   for (const e of f.entries) {
-    const where = `entry "${e.titleId}"`;
+    const key = unitKey(e.titleId, e.season);
+    const where = `entry "${key}"`;
     requireTitle(e.titleId, where);
-    if (entryIds.has(e.titleId)) errors.push(at(`${where}: aparece más de una vez`));
+    if (entryUnits.has(key)) errors.push(at(`${where}: aparece más de una vez`));
+    entryUnits.add(key);
     entryIds.add(e.titleId);
+    if (e.season === undefined) wholeTitles.add(e.titleId);
+    else {
+      const title = titlesById.get(e.titleId);
+      if (!Number.isInteger(e.season) || e.season < 1) errors.push(at(`${where}: season debe ser un entero ≥ 1`));
+      else if (title && !title.seasons?.some((s) => s.number === e.season))
+        errors.push(at(`${where}: "${e.titleId}" no tiene temporada ${e.season} en titles.json`));
+      seasonsByTitle.set(e.titleId, [...(seasonsByTitle.get(e.titleId) ?? []), e.season]);
+    }
     if (!continuityIds.has(e.continuityId)) errors.push(at(`${where}: la continuidad "${e.continuityId}" no existe`));
     if (!IMPORTANCE.includes(e.importance)) errors.push(at(`${where}: importance "${e.importance}" desconocida`));
     if (e.group) groups.add(e.group);
     if (e.chronoOrder !== undefined) {
-      const key = `${e.continuityId}#${e.chronoOrder}`;
-      const other = chronoSeen.get(key);
-      if (other) errors.push(at(`${where}: chronoOrder ${e.chronoOrder} repetido en "${e.continuityId}" (también "${other}")`));
-      chronoSeen.set(key, e.titleId);
+      const timeline = timelineOf.get(e.continuityId) ?? e.continuityId;
+      const chronoKey = `${timeline}#${e.chronoOrder}`;
+      const other = chronoSeen.get(chronoKey);
+      if (other) errors.push(at(`${where}: chronoOrder ${e.chronoOrder} repetido en "${timeline}" (también "${other}")`));
+      chronoSeen.set(chronoKey, key);
     }
     for (const c of e.characters ?? [])
       if (!characterIds.has(c)) errors.push(at(`${where}: el personaje "${c}" no está en tags.characters`));
@@ -107,6 +131,22 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
       errors.push(at(`${where}: postCredits debe tener enteros ≥ 0`));
   }
 
+  // Una serie repartida por temporadas: sin entry del título entero y con todas sus temporadas.
+  for (const [titleId, seasons] of seasonsByTitle) {
+    if (wholeTitles.has(titleId)) errors.push(at(`"${titleId}": tiene entries por temporada y también del título entero`));
+    const missing = (titlesById.get(titleId)?.seasons ?? []).map((s) => s.number).filter((n) => !seasons.includes(n));
+    if (missing.length) errors.push(at(`"${titleId}": faltan entries de las temporadas ${missing.join(", ")}`));
+  }
+  // Ids de órdenes curados y rutas: un título, o una temporada que exista.
+  const requireUnit = (key: string, where: string) => {
+    const { titleId, season } = parseUnitKey(key);
+    requireTitle(titleId, where);
+    const title = titlesById.get(titleId);
+    if (title && season !== undefined && !title.seasons?.some((s) => s.number === season))
+      errors.push(at(`${where}: "${titleId}" no tiene temporada ${season}`));
+    return { titleId, season };
+  };
+
   const orderIds = new Set<string>();
   for (const o of f.orders) {
     if (orderIds.has(o.id)) errors.push(at(`orden "${o.id}" duplicado`));
@@ -114,8 +154,8 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     if (o.id === "custom") errors.push(at(`el id de orden "custom" está reservado para el orden personalizado`));
     if (o.type === "curated") {
       for (const id of o.titleIds) {
-        requireTitle(id, `orden "${o.id}"`);
-        if (titleIds.has(id) && !entryIds.has(id))
+        const { titleId } = requireUnit(id, `orden "${o.id}"`);
+        if (titleIds.has(titleId) && !entryIds.has(titleId))
           errors.push(at(`orden "${o.id}": "${id}" no es entry de esta franquicia`));
       }
     }
@@ -132,11 +172,11 @@ function validateFranchise(f: Franchise, titleIds: ReadonlySet<string>): string[
     if (routeIds.has(r.id)) errors.push(at(`ruta "${r.id}" duplicada`));
     routeIds.add(r.id);
     // Las rutas pueden cruzar franquicias: solo exigen que el título exista.
-    for (const id of r.titleIds) requireTitle(id, `ruta "${r.id}"`);
+    for (const id of r.titleIds) requireUnit(id, `ruta "${r.id}"`);
     if (new Set(r.titleIds).size !== r.titleIds.length) errors.push(at(`ruta "${r.id}": tiene títulos repetidos`));
     if (r.kind === "prep") {
       if (!r.targetTitleId) errors.push(at(`ruta "${r.id}": una ruta "prep" necesita targetTitleId`));
-      else if (r.titleIds.includes(r.targetTitleId))
+      else if (r.titleIds.some((k) => parseUnitKey(k).titleId === r.targetTitleId))
         errors.push(at(`ruta "${r.id}": el título objetivo no va dentro de su propia preparación`));
     }
     if (r.targetTitleId) requireTitle(r.targetTitleId, `ruta "${r.id}" targetTitleId`);

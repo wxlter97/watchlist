@@ -1,6 +1,6 @@
 import { ACHIEVEMENT_ICONS } from "./achievementIcons";
 import { evaluateAchievements, newlyUnlocked } from "./achievements";
-import { catalog as realCatalog } from "./catalog";
+import { catalog as realCatalog } from "./catalogFull";
 import { buildIndex } from "./catalogIndex";
 import type { ProgressDoc } from "./progressStore";
 import type { Achievement, AchievementRule } from "./types";

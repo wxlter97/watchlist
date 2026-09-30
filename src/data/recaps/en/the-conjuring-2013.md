@@ -1,0 +1,4 @@
+- Ed and Lorraine Warren, paranormal investigators, keep cursed objects such as the Annabelle doll.
+- 1971: the Perron family moves into a Rhode Island farmhouse and the hauntings begin.
+- The cause is Bathsheba, a witch who sacrificed her child and cursed the land; she possesses Carolyn, the mother, to make her kill her daughter.
+- Ed performs the exorcism without waiting for the Church; Carolyn breaks free by remembering her family.

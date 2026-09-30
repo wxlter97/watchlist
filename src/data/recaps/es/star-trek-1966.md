@@ -1,0 +1,4 @@
+- Siglo XXIII: la USS Enterprise, al mando del capitán James T. Kirk, cumple una misión de cinco años de exploración.
+- Con Spock, oficial científico medio vulcano, y el Dr. McCoy, enfrentan a klingons y romulanos y descubren civilizaciones nuevas.
+- En «Space Seed» despiertan a Khan Noonien Singh, un tirano genéticamente mejorado del siglo XX; tras intentar tomar la nave, Kirk lo exilia en Ceti Alfa V.
+- La serie establece la Federación, la Flota Estelar y la Primera Directiva: no interferir en otras culturas.

@@ -1,0 +1,5 @@
+- Ripley es rescatada tras 57 años a la deriva. LV-426 ya es una colonia, Hadley's Hope, y perdió el contacto.
+- Vuelve con los marines coloniales y Burke, de la Compañía. La colonia es una colmena: solo sobrevive una niña, Newt.
+- Burke intenta que los aliens implanten a Ripley y a Newt para contrabandear embriones; muere en el intento.
+- Ripley rescata a Newt del nido de la Reina. La Reina se cuela en la nave y Ripley la expulsa al espacio con un cargador mecánico.
+- Sobreviven Ripley, Newt, el cabo Hicks y el androide Bishop, partido a la mitad.

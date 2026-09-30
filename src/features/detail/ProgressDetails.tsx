@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { formatRuntime, SectionLabel, Tabs } from "../../components/ui";
-import { setSeason, statusFromEpisodes, toggleEpisode, totalEpisodes, watchedEpisodes } from "../../lib/episodes";
+import { effectiveEpisodes, episodesPatch, setSeason, toggleEpisode, totalEpisodes, watchedEpisodes } from "../../lib/episodes";
 import { externalUrl, type ExternalService } from "../../lib/externalLinks";
 import { useLang } from "../../lib/i18n";
 import { useProgressStore, type ProgressDoc } from "../../lib/progressStore";
@@ -122,16 +122,20 @@ export function Notes({ title, doc }: { title: Title; doc?: ProgressDoc }) {
 export function Episodes({ title, doc }: { title: Title; doc?: ProgressDoc }) {
   const { t } = useLang();
   const updateProgress = useProgressStore((s) => s.updateProgress);
+  const setStatus = useProgressStore((s) => s.setStatus);
   const [open, setOpen] = useState<number | null>(null);
   if (!title.seasons?.length) return null;
 
+  // Un título visto entero cuenta con todos sus episodios: así se puede desmarcar uno.
+  const map = effectiveEpisodes(title, doc);
   const apply = (episodes: ProgressDoc["episodes"] & object) => {
     // Sin episodios vistos, el progreso se borra salvo que tenga calificación o notas.
-    const status = statusFromEpisodes(title, episodes, doc?.status) ?? (doc?.rating || doc?.notes ? "planned" : null);
-    updateProgress(title.id, { episodes, status });
+    const patch = episodesPatch(title, doc, episodes);
+    if (patch.status === null) setStatus(title.id, null);
+    else updateProgress(title.id, patch);
   };
   const total = totalEpisodes(title);
-  const seen = watchedEpisodes(doc?.episodes);
+  const seen = watchedEpisodes(map);
 
   return (
     <section className="mt-8">
@@ -141,7 +145,7 @@ export function Episodes({ title, doc }: { title: Title; doc?: ProgressDoc }) {
       </div>
       <ul className="border-2 border-line bg-surface">
         {title.seasons.map((s) => {
-          const watched = doc?.episodes?.[s.number] ?? [];
+          const watched = map?.[s.number] ?? [];
           const complete = watched.length >= s.episodes;
           const isOpen = open === s.number;
           return (
@@ -164,7 +168,7 @@ export function Episodes({ title, doc }: { title: Title; doc?: ProgressDoc }) {
                 <button
                   type="button"
                   aria-pressed={complete}
-                  onClick={() => apply(setSeason(doc?.episodes, s.number, s.episodes, !complete))}
+                  onClick={() => apply(setSeason(map, s.number, s.episodes, !complete))}
                   className={`min-h-11 border-2 px-3 font-mono text-[11px] font-bold uppercase transition-colors duration-[120ms] ease-out ${
                     complete ? "border-line bg-accent text-on-accent" : "border-line-soft hover:border-line"
                   }`}
@@ -182,7 +186,7 @@ export function Episodes({ title, doc }: { title: Title; doc?: ProgressDoc }) {
                         type="button"
                         aria-pressed={on}
                         aria-label={t("episodes.episode", { season: s.number, episode: ep })}
-                        onClick={() => apply(toggleEpisode(doc?.episodes, s.number, ep))}
+                        onClick={() => apply(toggleEpisode(map, s.number, ep))}
                         className={`h-11 border-2 font-mono text-sm tabular-nums ${
                           on ? "border-line bg-accent font-bold text-on-accent" : "border-line-soft text-fg hover:border-line"
                         }`}

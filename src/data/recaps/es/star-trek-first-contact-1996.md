@@ -1,0 +1,4 @@
+- Los Borg atacan la Tierra en 2373 y una esfera viaja al pasado, a 2063, para impedir el primer contacto con los vulcanos.
+- La Enterprise-E la sigue. Parte de la tripulación ayuda a Zefram Cochrane a completar el primer vuelo warp.
+- En la nave, la Reina Borg intenta seducir a Data. Picard, marcado por haber sido Locutus, quiere pelear hasta el final.
+- Data traiciona a la Reina, el vuelo sale bien y los vulcanos aterrizan: el primer contacto ocurre.

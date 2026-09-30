@@ -12,13 +12,14 @@ interface ImportMetaEnv {
   readonly VITE_FIREBASE_EMULATORS?: string;
 }
 
-// Generados por catalogSplit() en vite.config.ts a partir de src/data/titles.json.
-declare module "virtual:catalog-titles" {
-  const titles: import("./lib/types").Title[];
-  export default titles;
+// Generados por catalogData() en vite.config.ts a partir de src/data/ (ver src/lib/catalog.ts).
+declare module "virtual:catalog-manifest" {
+  const manifest: import("./lib/catalog").ManifestData;
+  export default manifest;
 }
-declare module "virtual:overviews/*" {
-  /** Sinopsis por id de título, ya resueltas para el idioma. */
-  const overviews: Record<string, string>;
-  export default overviews;
+declare module "virtual:catalog-loaders" {
+  type Load<T> = () => Promise<{ default: T }>;
+  export const franchises: Record<string, Load<import("./lib/catalog").FranchiseChunk | null>>;
+  /** Sinopsis por idioma y franquicia: id de título → texto. */
+  export const overviews: Record<"es" | "en", Record<string, Load<Record<string, string>>>>;
 }

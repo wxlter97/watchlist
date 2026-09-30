@@ -1,0 +1,5 @@
+- Reinicio: Bond acaba de ganar su estatus 00.
+- Frustra un atentado en Miami que hace perder dinero a Le Chiffre, banquero de terroristas, que intenta recuperarlo en una partida de póquer en Montenegro.
+- Vesper Lynd, del Tesoro, controla el dinero de Bond. Bond gana, Le Chiffre lo tortura y la organización del Sr. White mata a Le Chiffre.
+- Bond se enamora de Vesper y renuncia, pero ella lo traicionaba, chantajeada; muere ahogada en Venecia.
+- Bond encuentra al Sr. White: «Me llamo Bond, James Bond».

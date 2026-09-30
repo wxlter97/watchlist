@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLabel, Tabs } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { franchisesReferencing, useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useOverview } from "../../lib/overviews";
+import { curatedPrep, prepUnits } from "../../lib/prep";
 import { isReleased } from "../../lib/progress";
 import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
@@ -18,18 +19,26 @@ export function TitlePage() {
   const { titleId } = useParams();
   const navigate = useNavigate();
   const { t, lang, name, loc, date } = useLang();
-  const title = titleId ? catalogIndex.titlesById.get(titleId) : undefined;
+  const { index, ready } = useCatalog(franchisesReferencing(titleId));
+  const title = titleId ? index.titlesById.get(titleId) : undefined;
   const doc = useProgressStore((s) => (titleId ? s.progress[titleId] : undefined));
   const status = doc?.status;
   const spoilerFree = useSettings((s) => s.spoilerFree);
   const [revealed, setRevealed] = useState(false);
   const { overview, loading: overviewLoading } = useOverview(title, lang);
 
+  if (!ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
 
-  const appearances = catalogIndex.franchisesByTitle.get(title.id) ?? [];
-  const inRoutes = catalogIndex.routesByTitle.get(title.id) ?? [];
-  const prep = catalogIndex.prepByTarget.get(title.id) ?? [];
+  const appearances = index.franchisesByTitle.get(title.id) ?? [];
+  const inRoutes = index.routesByTitle.get(title.id) ?? [];
+  // "Prepárate para…" en cada franquicia del título que tenga algo antes (curado o automático).
+  const prep = [...new Map(appearances.map((a) => [a.franchise.id, a.franchise])).values()].flatMap((franchise) => {
+    const route = curatedPrep(franchise, title.id);
+    const all = prepUnits(franchise, title.id, "all", index).length;
+    if (!route && all === 0) return [];
+    return [{ franchise, href: route ? `/f/${franchise.id}/r/${route.id}` : `/f/${franchise.id}/prep/${title.id}` }];
+  });
   const accent = appearances[0]?.franchise.accentColor ?? "#FFDB00";
   const released = isReleased(title);
   // Sin spoilers por defecto: la sinopsis de lo no visto queda oculta hasta revelarla.
@@ -62,15 +71,18 @@ export function TitlePage() {
         </div>
       </header>
 
-      {prep.map(({ franchise, route }) => (
+      {prep.map(({ franchise, href }) => (
         <Link
-          key={route.id}
-          to={`/f/${franchise.id}/r/${route.id}`}
+          key={franchise.id}
+          to={href}
           className="on-faro group mt-6 flex items-center justify-between gap-3 border-2 border-tinta bg-faro px-3.5 py-3 text-tinta"
         >
           <span>
-            <span className="label block font-bold">{t("title.prepFor")}</span>
-            <span className="font-semibold">{t("routes.count", { count: route.titleIds.length })}</span>
+            <span className="label block font-bold">
+              {t("prep.link")}
+              {prep.length > 1 && ` · ${loc(franchise.name)}`}
+            </span>
+            <span className="text-sm">{t("prep.linkHint")}</span>
           </span>
           <span aria-hidden className="font-mono text-lg">
             →
@@ -123,10 +135,13 @@ export function TitlePage() {
             {appearances.map(({ franchise, entry }) => {
               const continuity = franchise.continuities.find((c) => c.id === entry.continuityId);
               return (
-                <li key={franchise.id} style={accentStyle(franchise.accentColor)}>
+                <li key={`${franchise.id}#${entry.season ?? ""}`} style={accentStyle(franchise.accentColor)}>
                   <Link to={`/f/${franchise.id}`} className="group block border-2 border-line bg-surface">
                     <div className="label flex justify-between gap-2 border-b-2 border-line bg-accent px-3.5 py-2.5 font-bold text-on-accent">
-                      <span>{loc(franchise.name)}</span>
+                      <span>
+                        {loc(franchise.name)}
+                        {entry.season !== undefined && ` · ${t("episodes.season", { number: entry.season })}`}
+                      </span>
                       <span aria-hidden>→</span>
                     </div>
                     <div className="space-y-2 p-3.5 text-sm">

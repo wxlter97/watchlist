@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { Link } from "react-router";
 import { SectionLabel } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useProgressStore } from "../../lib/progressStore";
 import { hasRecap, loadRecap, recapsBefore } from "../../lib/recaps";
@@ -29,10 +29,11 @@ export function Recaps({ title }: { title: Title }) {
   const { t, lang, name } = useLang();
   const progress = useProgressStore((s) => s.progress);
   const franchiseState = useProgressStore((s) => s.franchiseState);
+  const index = useCatalogIndex();
   const watched = progress[title.id]?.status === "watched";
   const ids = useMemo(
-    () => (watched ? [] : recapsBefore(title.id, { index: catalogIndex, progress, franchiseState, has: (id) => hasRecap(lang, id) })),
-    [title.id, watched, progress, franchiseState, lang],
+    () => (watched ? [] : recapsBefore(title.id, { index, progress, franchiseState, has: (id) => hasRecap(lang, id) })),
+    [title.id, watched, index, progress, franchiseState, lang],
   );
   if (!ids.length) return null;
 
@@ -43,7 +44,7 @@ export function Recaps({ title }: { title: Title }) {
       <div className="divide-y-2 divide-line-soft border-2 border-line bg-surface">
         {/* Lo más cercano primero y abierto. */}
         {[...ids].reverse().map((id, i) => {
-          const prev = catalogIndex.titlesById.get(id)!;
+          const prev = index.titlesById.get(id)!;
           return <RecapItem key={id} title={prev} label={name(prev)} open={i === 0} />;
         })}
       </div>

@@ -1,0 +1,4 @@
+- Sakura, bound to the entity inside the Grail, becomes Dark Sakura and attacks Rin and Shirou.
+- With Rider's help, Shirou kills Saber Alter. Rin confronts her sister and gets through to her.
+- Shirou fights Kirei to the end; Kirei dies.
+- Illya sacrifices herself to save Shirou and close the Grail. Shirou returns in a new body and lives on with Sakura.

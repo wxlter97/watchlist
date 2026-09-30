@@ -22,15 +22,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 34
+        "episodes": 34,
+        "airDate": "1966-01-12"
       },
       {
         "number": 2,
-        "episodes": 60
+        "episodes": 60,
+        "airDate": "1966-09-07"
       },
       {
         "number": 3,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1967-09-14"
       }
     ],
     "runtimeMin": 3000
@@ -80,7 +83,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 195
+        "episodes": 195,
+        "airDate": "1966-09-05"
       }
     ],
     "runtimeMin": 1170
@@ -108,15 +112,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 38
+        "episodes": 38,
+        "airDate": "1967-09-09"
       },
       {
         "number": 2,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "1968-09-14"
       },
       {
         "number": 3,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "1970-03-22"
       }
     ],
     "runtimeMin": 1094
@@ -144,7 +151,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "1967-09-09"
       }
     ],
     "runtimeMin": 399
@@ -234,23 +242,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "1977-11-04"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "1978-09-22"
       },
       {
         "number": 3,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "1979-09-21"
       },
       {
         "number": 4,
-        "episodes": 18
+        "episodes": 18,
+        "airDate": "1980-11-07"
       },
       {
         "number": 5,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "1981-10-02"
       }
     ],
     "runtimeMin": 5025
@@ -321,11 +334,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "1978-04-05"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "1978-09-05"
       }
     ],
     "runtimeMin": 780
@@ -353,7 +368,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 41
+        "episodes": 41,
+        "airDate": "1978-05-17"
       }
     ],
     "runtimeMin": 984
@@ -402,7 +418,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1978-09-09"
       }
     ],
     "runtimeMin": 312
@@ -537,7 +554,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1979-09-08"
       }
     ],
     "runtimeMin": 1560
@@ -565,7 +583,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "1979-09-22"
       }
     ],
     "runtimeMin": 336
@@ -718,7 +737,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1981-09-12"
       }
     ],
     "runtimeMin": 624
@@ -746,15 +766,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1981-09-12"
       },
       {
         "number": 2,
-        "episodes": 3
+        "episodes": 3,
+        "airDate": "1982-09-18"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "1983-09-17"
       }
     ],
     "runtimeMin": 548
@@ -781,7 +804,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1982-09-18"
       }
     ],
     "runtimeMin": 390
@@ -893,11 +917,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1985-09-07"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "1986-09-13"
       }
     ],
     "runtimeMin": 611
@@ -924,7 +950,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1985-09-07"
       }
     ],
     "runtimeMin": 311
@@ -1083,7 +1110,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 1
+        "episodes": 1,
+        "airDate": "1989-09-16"
       }
     ],
     "runtimeMin": 21,
@@ -1199,23 +1227,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1992-10-31"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1993-10-23"
       },
       {
         "number": 3,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "1994-07-29"
       },
       {
         "number": 4,
-        "episodes": 17
+        "episodes": 17,
+        "airDate": "1995-09-09"
       },
       {
         "number": 5,
-        "episodes": 14
+        "episodes": 14,
+        "airDate": "1996-09-07"
       }
     ],
     "runtimeMin": 1564
@@ -1265,11 +1298,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1994-09-24"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1995-09-23"
       }
     ],
     "runtimeMin": 532
@@ -1296,11 +1331,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1994-09-24"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1995-09-23"
       }
     ],
     "runtimeMin": 542
@@ -1328,23 +1365,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1994-11-19"
       },
       {
         "number": 2,
-        "episodes": 14
+        "episodes": 14,
+        "airDate": "1995-09-09"
       },
       {
         "number": 3,
-        "episodes": 14
+        "episodes": 14,
+        "airDate": "1996-04-27"
       },
       {
         "number": 4,
-        "episodes": 11
+        "episodes": 11,
+        "airDate": "1997-02-01"
       },
       {
         "number": 5,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1997-09-12"
       }
     ],
     "runtimeMin": 1268
@@ -1415,11 +1457,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1996-09-08"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "1997-09-21"
       }
     ],
     "runtimeMin": 456
@@ -1468,7 +1512,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1998-02-07"
       }
     ],
     "runtimeMin": 257
@@ -1561,7 +1606,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1999-10-02"
       }
     ],
     "runtimeMin": 260
@@ -1589,7 +1635,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "1999-10-30"
       }
     ],
     "runtimeMin": 268
@@ -1639,19 +1686,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2000-11-04"
       },
       {
         "number": 2,
-        "episodes": 17
+        "episodes": 17,
+        "airDate": "2001-09-29"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2002-09-14"
       },
       {
         "number": 4,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2003-08-30"
       }
     ],
     "runtimeMin": 1022
@@ -1678,15 +1729,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2001-10-06"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2002-10-05"
       },
       {
         "number": 3,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2003-09-29"
       }
     ],
     "runtimeMin": 2851
@@ -1972,7 +2026,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2003-07-11"
       }
     ],
     "runtimeMin": 273
@@ -2000,15 +2055,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2003-11-07"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2004-03-26"
       },
       {
         "number": 3,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2005-03-21"
       }
     ],
     "runtimeMin": 136
@@ -2340,7 +2398,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2006-06-28"
       }
     ],
     "runtimeMin": 579
@@ -2412,7 +2471,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2006-09-02"
       }
     ],
     "runtimeMin": 563
@@ -2572,11 +2632,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2008-03-08"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2009-06-22"
       }
     ],
     "runtimeMin": 572
@@ -2714,31 +2776,38 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2008-10-03"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2009-10-02"
       },
       {
         "number": 3,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2010-09-17"
       },
       {
         "number": 4,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2011-09-16"
       },
       {
         "number": 5,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2012-09-29"
       },
       {
         "number": 6,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2014-03-07"
       },
       {
         "number": 7,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2020-02-21"
       }
     ],
     "runtimeMin": 3009
@@ -2788,7 +2857,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2009-01-23"
       }
     ],
     "runtimeMin": 598
@@ -2857,7 +2927,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 67
+        "episodes": 67,
+        "airDate": "2009-03-30"
       }
     ],
     "runtimeMin": 203,
@@ -2886,11 +2957,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2009-04-24"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2011-07-13"
       }
     ],
     "runtimeMin": 1144
@@ -2962,7 +3035,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2009-08-18"
       }
     ],
     "runtimeMin": 53
@@ -2990,11 +3064,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2009-09-14"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2010-10-23"
       }
     ],
     "runtimeMin": 1144
@@ -3022,19 +3098,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2009-10-28"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2013-05-13"
       },
       {
         "number": 3,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2013-05-13"
       },
       {
         "number": 4,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "2013-05-13"
       }
     ],
     "runtimeMin": 299
@@ -3062,7 +3142,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2010-01-16"
       }
     ],
     "runtimeMin": 120
@@ -3134,7 +3215,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2010-10-01"
       }
     ],
     "runtimeMin": 276
@@ -3162,11 +3244,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2010-10-20"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2012-04-01"
       }
     ],
     "runtimeMin": 1322
@@ -3215,7 +3299,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2010-11-30"
       }
     ],
     "runtimeMin": 78
@@ -3243,7 +3328,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2011-01-07"
       }
     ],
     "runtimeMin": 279
@@ -3270,7 +3356,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2011-03-28"
       }
     ],
     "runtimeMin": 72
@@ -3298,7 +3385,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2011-04-01"
       }
     ],
     "runtimeMin": 276
@@ -3392,7 +3480,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2011-07-01"
       }
     ],
     "runtimeMin": 276
@@ -3529,7 +3618,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 40
+        "episodes": 40,
+        "airDate": "2012-04-01"
       },
       {
         "number": 2,
@@ -3561,19 +3651,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2012-04-01"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2013-01-21"
       },
       {
         "number": 3,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2014-07-06"
       },
       {
         "number": 4,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2016-02-21"
       }
     ],
     "runtimeMin": 1787
@@ -3689,35 +3783,43 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2012-10-10"
       },
       {
         "number": 2,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2013-10-09"
       },
       {
         "number": 3,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2014-10-08"
       },
       {
         "number": 4,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2015-10-07"
       },
       {
         "number": 5,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2016-10-05"
       },
       {
         "number": 6,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2017-10-12"
       },
       {
         "number": 7,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2018-10-15"
       },
       {
         "number": 8,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2019-10-15"
       }
     ],
     "runtimeMin": 7150
@@ -3807,7 +3909,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2013-04-23"
       }
     ],
     "runtimeMin": 144
@@ -3857,23 +3960,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2013-05-26"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2014-09-28"
       },
       {
         "number": 3,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2016-03-13"
       },
       {
         "number": 4,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2017-06-17"
       },
       {
         "number": 5,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2018-09-23"
       }
     ],
     "runtimeMin": 2772
@@ -3966,11 +4074,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2013-08-11"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2014-10-12"
       }
     ],
     "runtimeMin": 1221
@@ -3997,7 +4107,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2013-09-09"
       }
     ],
     "runtimeMin": 66
@@ -4025,31 +4136,38 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2013-09-24"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2014-09-23"
       },
       {
         "number": 3,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2015-09-29"
       },
       {
         "number": 4,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2016-09-20"
       },
       {
         "number": 5,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2017-12-01"
       },
       {
         "number": 6,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2019-05-10"
       },
       {
         "number": 7,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2020-05-27"
       }
     ],
     "runtimeMin": 5932
@@ -4183,7 +4301,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2014-01-14"
       }
     ],
     "runtimeMin": 96
@@ -4254,7 +4373,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 51
+        "episodes": 51,
+        "airDate": "2014-04-02"
       }
     ],
     "runtimeMin": 1122
@@ -4325,7 +4445,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2014-05-12"
       }
     ],
     "runtimeMin": 60
@@ -4440,7 +4561,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2014-09-16"
       }
     ],
     "runtimeMin": 120
@@ -4468,39 +4590,48 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2014-10-06"
       },
       {
         "number": 2,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2015-10-05"
       },
       {
         "number": 3,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2016-10-03"
       },
       {
         "number": 4,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2017-10-10"
       },
       {
         "number": 5,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2018-10-09"
       },
       {
         "number": 6,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "2019-10-08"
       },
       {
         "number": 7,
-        "episodes": 18
+        "episodes": 18,
+        "airDate": "2021-03-02"
       },
       {
         "number": 8,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2021-11-16"
       },
       {
         "number": 9,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2023-02-08"
       }
     ],
     "runtimeMin": 7695
@@ -4528,19 +4659,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2014-10-13"
       },
       {
         "number": 2,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "2015-10-14"
       },
       {
         "number": 3,
-        "episodes": 21
+        "episodes": 21,
+        "airDate": "2016-09-24"
       },
       {
         "number": 4,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2017-10-16"
       }
     ],
     "runtimeMin": 1696
@@ -4590,7 +4725,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2014-10-24"
       }
     ],
     "runtimeMin": 551
@@ -4659,11 +4795,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2015-01-06"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2016-01-19"
       }
     ],
     "runtimeMin": 777
@@ -4690,7 +4828,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2015-03-24"
       }
     ],
     "runtimeMin": 50
@@ -4718,15 +4857,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2015-04-10"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2016-03-18"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-10-19"
       }
     ],
     "runtimeMin": 2100
@@ -4775,11 +4917,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2015-07-02"
       },
       {
         "number": 2,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2016-04-22"
       }
     ],
     "runtimeMin": 30
@@ -4851,11 +4995,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2015-08-25"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2016-10-13"
       }
     ],
     "runtimeMin": 64
@@ -4883,15 +5029,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2015-09-05"
       },
       {
         "number": 2,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2017-03-11"
       },
       {
         "number": 3,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2018-03-18"
       }
     ],
     "runtimeMin": 1694
@@ -4918,7 +5067,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2015-10-05"
       }
     ],
     "runtimeMin": 120
@@ -4946,27 +5096,33 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2015-10-26"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2016-10-10"
       },
       {
         "number": 3,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2017-10-09"
       },
       {
         "number": 4,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2018-10-14"
       },
       {
         "number": 5,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "2019-10-06"
       },
       {
         "number": 6,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2021-03-30"
       }
     ],
     "runtimeMin": 5302
@@ -5016,15 +5172,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2015-11-20"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-03-08"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2019-06-14"
       }
     ],
     "runtimeMin": 2030
@@ -5074,31 +5233,38 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2016-01-21"
       },
       {
         "number": 2,
-        "episodes": 17
+        "episodes": 17,
+        "airDate": "2016-10-13"
       },
       {
         "number": 3,
-        "episodes": 18
+        "episodes": 18,
+        "airDate": "2017-10-10"
       },
       {
         "number": 4,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2018-10-22"
       },
       {
         "number": 5,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "2020-01-14"
       },
       {
         "number": 6,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "2021-05-02"
       },
       {
         "number": 7,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2021-10-13"
       }
     ],
     "runtimeMin": 4598
@@ -5233,11 +5399,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2016-06-20"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2017-06-17"
       }
     ],
     "runtimeMin": 577
@@ -5309,11 +5477,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2016-09-30"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-06-22"
       }
     ],
     "runtimeMin": 1467
@@ -5405,7 +5575,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2016-11-30"
       }
     ],
     "runtimeMin": 35
@@ -5432,7 +5603,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2016-12-13"
       }
     ],
     "runtimeMin": 28
@@ -5482,15 +5654,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2017-02-08"
       },
       {
         "number": 2,
-        "episodes": 11
+        "episodes": 11,
+        "airDate": "2018-04-03"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2019-06-24"
       }
     ],
     "runtimeMin": 1357
@@ -5604,7 +5779,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2017-03-10"
       }
     ],
     "runtimeMin": 24
@@ -5632,11 +5808,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2017-03-17"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2018-09-07"
       }
     ],
     "runtimeMin": 1252
@@ -5729,11 +5907,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2017-07-22"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-07-30"
       }
     ],
     "runtimeMin": 936
@@ -5761,7 +5941,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2017-08-18"
       }
     ],
     "runtimeMin": 394
@@ -5789,15 +5970,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2017-08-19"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2018-06-18"
       },
       {
         "number": 3,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2020-04-18"
       }
     ],
     "runtimeMin": 1575
@@ -5825,7 +6009,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2017-09-29"
       }
     ],
     "runtimeMin": 336
@@ -5853,11 +6038,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2017-10-02"
       },
       {
         "number": 2,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2018-09-25"
       }
     ],
     "runtimeMin": 1294
@@ -5906,19 +6093,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2017-10-13"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2018-10-26"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2019-04-10"
       },
       {
         "number": 4,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2020-04-06"
       }
     ],
     "runtimeMin": 144
@@ -5945,11 +6136,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 21
+        "episodes": 21,
+        "airDate": "2017-10-18"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2017-12-20"
       }
     ],
     "runtimeMin": 50
@@ -6018,11 +6211,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2017-11-17"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2019-01-18"
       }
     ],
     "runtimeMin": 1384
@@ -6050,15 +6245,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2017-11-20"
       },
       {
         "number": 2,
-        "episodes": 24
+        "episodes": 24,
+        "airDate": "2019-05-06"
       },
       {
         "number": 3,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "2020-09-21"
       }
     ],
     "runtimeMin": 1390
@@ -6086,15 +6284,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2017-11-21"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-12-21"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2019-12-13"
       }
     ],
     "runtimeMin": 1617
@@ -6121,11 +6322,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2017-12-08"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2018-07-18"
       }
     ],
     "runtimeMin": 72
@@ -6175,19 +6378,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-01-16"
       },
       {
         "number": 2,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2018-10-09"
       },
       {
         "number": 3,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2019-10-07"
       },
       {
         "number": 4,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2021-02-08"
       }
     ],
     "runtimeMin": 2481
@@ -6351,11 +6558,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2018-06-07"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2019-04-04"
       }
     ],
     "runtimeMin": 834
@@ -6405,11 +6614,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2018-08-13"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2018-09-07"
       }
     ],
     "runtimeMin": 48
@@ -6481,11 +6692,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2018-10-07"
       },
       {
         "number": 2,
-        "episodes": 18
+        "episodes": 18,
+        "airDate": "2019-10-06"
       }
     ],
     "runtimeMin": 995
@@ -6512,7 +6725,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2018-11-10"
       }
     ],
     "runtimeMin": 119
@@ -6890,15 +7104,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2019-10-06"
       },
       {
         "number": 2,
-        "episodes": 18
+        "episodes": 18,
+        "airDate": "2021-01-17"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2021-10-13"
       }
     ],
     "runtimeMin": 2163
@@ -6948,15 +7165,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2019-11-12"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2020-10-30"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2023-03-01"
       }
     ],
     "runtimeMin": 1041
@@ -7050,15 +7270,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2020-05-18"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2021-08-10"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2022-08-31"
       }
     ],
     "runtimeMin": 1663
@@ -7085,7 +7308,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2020-06-17"
       }
     ],
     "runtimeMin": 24
@@ -7135,7 +7359,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2020-10-16"
       }
     ],
     "runtimeMin": 516
@@ -7162,7 +7387,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2020-11-01"
       }
     ],
     "runtimeMin": 88
@@ -7234,7 +7460,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2021-01-15"
       }
     ],
     "runtimeMin": 363
@@ -7262,19 +7489,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "2021-02-23"
       },
       {
         "number": 2,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "2022-01-11"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2023-03-14"
       },
       {
         "number": 4,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2024-10-07"
       }
     ],
     "runtimeMin": 2300
@@ -7302,7 +7533,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2021-03-19"
       }
     ],
     "runtimeMin": 330
@@ -7352,15 +7584,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2021-05-04"
       },
       {
         "number": 2,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2023-01-04"
       },
       {
         "number": 3,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "2024-02-21"
       }
     ],
     "runtimeMin": 1397
@@ -7387,7 +7622,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2021-05-21"
       }
     ],
     "runtimeMin": 245
@@ -7415,11 +7651,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2021-06-09"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2023-10-05"
       }
     ],
     "runtimeMin": 615
@@ -7491,23 +7729,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 50
+        "episodes": 50,
+        "airDate": "2021-08-06"
       },
       {
         "number": 2,
-        "episodes": 58
+        "episodes": 58,
+        "airDate": "2022-08-19"
       },
       {
         "number": 3,
-        "episodes": 60
+        "episodes": 60,
+        "airDate": "2024-01-08"
       },
       {
         "number": 4,
-        "episodes": 38
+        "episodes": 38,
+        "airDate": "2025-06-16"
       },
       {
         "number": 5,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2026-07-13"
       }
     ],
     "runtimeMin": 2449,
@@ -7536,15 +7779,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2021-08-11"
       },
       {
         "number": 2,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2023-12-22"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-12-22"
       }
     ],
     "runtimeMin": 865
@@ -7594,15 +7840,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2021-09-22"
       },
       {
         "number": 2,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2023-05-04"
       },
       {
         "number": 3,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2025-10-29"
       }
     ],
     "runtimeMin": 511,
@@ -7718,11 +7967,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2021-11-17"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2024-07-15"
       }
     ],
     "runtimeMin": 516
@@ -7750,7 +8001,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2021-11-24"
       }
     ],
     "runtimeMin": 297
@@ -7800,7 +8052,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "2021-12-29"
       }
     ],
     "runtimeMin": 347
@@ -7828,11 +8081,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2022-01-13"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2025-08-21"
       }
     ],
     "runtimeMin": 688
@@ -7903,7 +8158,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2022-03-30"
       }
     ],
     "runtimeMin": 302
@@ -7997,7 +8253,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2022-05-26"
       }
     ],
     "runtimeMin": 280
@@ -8025,7 +8282,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2022-06-08"
       }
     ],
     "runtimeMin": 289
@@ -8053,7 +8311,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2022-06-29"
       }
     ],
     "runtimeMin": 70
@@ -8125,11 +8384,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2022-08-10"
       },
       {
         "number": 2,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2023-09-06"
       }
     ],
     "runtimeMin": 53
@@ -8157,7 +8418,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2022-08-18"
       }
     ],
     "runtimeMin": 309
@@ -8185,15 +8447,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2022-09-01"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-08-29"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-11-10"
       }
     ],
     "runtimeMin": 1111,
@@ -8222,11 +8487,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2022-09-21"
       },
       {
         "number": 2,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2025-04-22"
       }
     ],
     "runtimeMin": 1212
@@ -8298,7 +8565,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2022-10-26"
       }
     ],
     "runtimeMin": 99
@@ -8370,7 +8638,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2023-01-18"
       }
     ],
     "runtimeMin": 90,
@@ -8399,11 +8668,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2023-02-10"
       },
       {
         "number": 2,
-        "episodes": 24
+        "episodes": 24,
+        "airDate": "2024-02-02"
       }
     ],
     "runtimeMin": 954
@@ -8497,15 +8768,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2023-05-04"
       },
       {
         "number": 2,
-        "episodes": 23
+        "episodes": 23,
+        "airDate": "2024-08-14"
       },
       {
         "number": 3,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "2025-12-08"
       }
     ],
     "runtimeMin": 1465
@@ -8577,7 +8851,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2023-06-21"
       }
     ],
     "runtimeMin": 262
@@ -8605,7 +8880,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2023-06-22"
       }
     ],
     "runtimeMin": 187
@@ -8655,11 +8931,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2023-08-22"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2027-01-19"
       }
     ],
     "runtimeMin": 375,
@@ -8732,11 +9010,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2023-11-16"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2026-02-26"
       }
     ],
     "runtimeMin": 970,
@@ -8787,7 +9067,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 5
+        "episodes": 5,
+        "airDate": "2024-01-09"
       }
     ],
     "runtimeMin": 213
@@ -8837,11 +9118,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2024-03-20"
       },
       {
         "number": 2,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2026-07-01"
       }
     ],
     "runtimeMin": 630,
@@ -8892,7 +9175,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2024-05-03"
       }
     ],
     "runtimeMin": 93
@@ -8920,7 +9204,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-06-04"
       }
     ],
     "runtimeMin": 329
@@ -8970,7 +9255,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2024-09-13"
       }
     ],
     "runtimeMin": 104
@@ -8998,7 +9284,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2024-09-18"
       }
     ],
     "runtimeMin": 379
@@ -9026,7 +9313,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-09-19"
       }
     ],
     "runtimeMin": 467
@@ -9120,7 +9408,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-12-02"
       }
     ],
     "runtimeMin": 316
@@ -9148,7 +9437,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "2024-12-05"
       },
       {
         "number": 2,
@@ -9225,7 +9515,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2025-01-27"
       }
     ],
     "runtimeMin": 317,
@@ -9276,11 +9567,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2025-03-04"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-03-24"
       }
     ],
     "runtimeMin": 868,
@@ -9331,7 +9624,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2025-05-04"
       }
     ],
     "runtimeMin": 98
@@ -9359,7 +9653,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2025-06-24"
       }
     ],
     "runtimeMin": 305
@@ -9408,7 +9703,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2025-07-14"
       }
     ],
     "runtimeMin": 71,
@@ -9459,7 +9755,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2025-08-01"
       }
     ],
     "runtimeMin": 125
@@ -9486,7 +9783,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 60
+        "episodes": 60,
+        "airDate": "2025-08-11"
       }
     ],
     "runtimeMin": 780,
@@ -9515,7 +9813,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2025-09-24"
       }
     ],
     "runtimeMin": 137,
@@ -9564,7 +9863,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 2
+        "episodes": 2,
+        "airDate": "2025-11-14"
       }
     ],
     "runtimeMin": 52
@@ -9592,7 +9892,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-01-26"
       }
     ],
     "runtimeMin": 267
@@ -9620,7 +9921,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2026-04-06"
       }
     ],
     "runtimeMin": 260,
@@ -9693,7 +9995,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-05-25"
       }
     ],
     "runtimeMin": 353
@@ -9750,7 +10053,7 @@
     "kind": "series",
     "releaseDate": "2026-08-16",
     "imdbId": "tt26545992",
-    "posterPath": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+    "posterPath": "/23JHczmoLS41U760uaBNKZ3mLst.jpg",
     "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
     "localized": {
       "en": {
@@ -9765,7 +10068,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-08-16"
       }
     ],
     "runtimeMin": 372,
@@ -9814,7 +10118,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-10-14"
       }
     ],
     "ongoing": true
@@ -9886,7 +10191,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 1
+        "episodes": 1,
+        "airDate": "2026-12-25"
       }
     ],
     "ongoing": true
@@ -10094,19 +10400,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2001-09-26"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2002-09-08"
       },
       {
         "number": 3,
-        "episodes": 24
+        "episodes": 24,
+        "airDate": "2003-09-10"
       },
       {
         "number": 4,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2004-10-08"
       }
     ],
     "runtimeMin": 4239
@@ -10134,23 +10444,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "2017-09-24"
       },
       {
         "number": 2,
-        "episodes": 14
+        "episodes": 14,
+        "airDate": "2019-01-17"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2020-10-15"
       },
       {
         "number": 4,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2021-11-18"
       },
       {
         "number": 5,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2024-04-04"
       }
     ],
     "runtimeMin": 3300
@@ -10178,19 +10493,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2022-05-05"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2023-06-15"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2025-07-17"
       },
       {
         "number": 4,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2026-07-23"
       }
     ],
     "runtimeMin": 2153,
@@ -10219,15 +10538,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 29
+        "episodes": 29,
+        "airDate": "1966-09-08"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1967-09-14"
       },
       {
         "number": 3,
-        "episodes": 24
+        "episodes": 24,
+        "airDate": "1968-09-20"
       }
     ],
     "runtimeMin": 3982
@@ -10255,11 +10577,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "1973-09-08"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "1974-09-07"
       }
     ],
     "runtimeMin": 528
@@ -10441,31 +10765,38 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "1987-09-28"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "1988-11-21"
       },
       {
         "number": 3,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1989-09-25"
       },
       {
         "number": 4,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1990-09-24"
       },
       {
         "number": 5,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1991-09-23"
       },
       {
         "number": 6,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1992-09-21"
       },
       {
         "number": 7,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "1993-09-20"
       }
     ],
     "runtimeMin": 8145
@@ -10493,31 +10824,38 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "1993-01-03"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1993-09-26"
       },
       {
         "number": 3,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1994-09-26"
       },
       {
         "number": 4,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "1995-10-02"
       },
       {
         "number": 5,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1996-09-30"
       },
       {
         "number": 6,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1997-09-29"
       },
       {
         "number": 7,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "1998-09-30"
       }
     ],
     "runtimeMin": 7918
@@ -10567,31 +10905,38 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 15
+        "episodes": 15,
+        "airDate": "1995-01-16"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1995-08-28"
       },
       {
         "number": 3,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1996-09-04"
       },
       {
         "number": 4,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1997-09-03"
       },
       {
         "number": 5,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "1998-10-14"
       },
       {
         "number": 6,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1999-09-22"
       },
       {
         "number": 7,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2000-10-04"
       }
     ],
     "runtimeMin": 7797
@@ -10685,23 +11030,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2020-08-06"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2021-08-12"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2022-08-25"
       },
       {
         "number": 4,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2023-09-07"
       },
       {
         "number": 5,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2024-10-24"
       }
     ],
     "runtimeMin": 1346
@@ -10729,11 +11079,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 19
+        "episodes": 19,
+        "airDate": "2021-10-28"
       },
       {
         "number": 2,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2024-07-01"
       }
     ],
     "runtimeMin": 956
@@ -10761,15 +11113,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2020-01-23"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2022-03-03"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2023-02-16"
       }
     ],
     "runtimeMin": 1513
@@ -10797,7 +11152,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2026-01-15"
       }
     ],
     "runtimeMin": 621,
@@ -10826,11 +11182,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 4
+        "episodes": 4,
+        "airDate": "2018-10-03"
       },
       {
         "number": 2,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2019-10-05"
       }
     ],
     "runtimeMin": 124
@@ -10968,7 +11326,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2025-08-12"
       }
     ],
     "runtimeMin": 454,
@@ -11393,11 +11752,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 9
+        "episodes": 9,
+        "airDate": "2008-01-13"
       },
       {
         "number": 2,
-        "episodes": 22
+        "episodes": 22,
+        "airDate": "2008-09-08"
       }
     ],
     "runtimeMin": 1383
@@ -11469,7 +11830,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-08-29"
       }
     ],
     "runtimeMin": 230
@@ -13013,27 +13375,33 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2019-12-26"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2020-10-09"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2020-12-26"
       },
       {
         "number": 4,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2021-04-16"
       },
       {
         "number": 5,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2021-08-13"
       },
       {
         "number": 6,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2021-12-17"
       }
     ],
     "runtimeMin": 1256
@@ -13655,15 +14023,18 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2022-08-21"
       },
       {
         "number": 2,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2024-06-16"
       },
       {
         "number": 3,
-        "episodes": 8
+        "episodes": 8,
+        "airDate": "2026-06-21"
       }
     ],
     "runtimeMin": 1637,
@@ -13692,7 +14063,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2026-01-18"
       }
     ],
     "runtimeMin": 208,
@@ -13721,35 +14093,43 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2011-04-17"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2012-04-01"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2013-03-31"
       },
       {
         "number": 4,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2014-04-06"
       },
       {
         "number": 5,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2015-04-12"
       },
       {
         "number": 6,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2016-04-24"
       },
       {
         "number": 7,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "2017-07-16"
       },
       {
         "number": 8,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2019-04-14"
       }
     ],
     "runtimeMin": 4232
@@ -13777,27 +14157,33 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2015-02-08"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2016-02-15"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2017-04-10"
       },
       {
         "number": 4,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2018-08-06"
       },
       {
         "number": 5,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2020-02-23"
       },
       {
         "number": 6,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2022-04-18"
       }
     ],
     "runtimeMin": 3178
@@ -13825,23 +14211,28 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 7
+        "episodes": 7,
+        "airDate": "2008-01-20"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2009-03-08"
       },
       {
         "number": 3,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2010-03-21"
       },
       {
         "number": 4,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2011-07-17"
       },
       {
         "number": 5,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2012-07-15"
       }
     ],
     "runtimeMin": 2995
@@ -13890,7 +14281,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 6
+        "episodes": 6,
+        "airDate": "2022-05-23"
       }
     ],
     "runtimeMin": 50
@@ -13918,7 +14310,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 153
+        "episodes": 153,
+        "airDate": "1986-02-26"
       }
     ],
     "runtimeMin": 3825
@@ -13946,39 +14339,48 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 39
+        "episodes": 39,
+        "airDate": "1989-04-26"
       },
       {
         "number": 2,
-        "episodes": 35
+        "episodes": 35,
+        "airDate": "1990-03-14"
       },
       {
         "number": 3,
-        "episodes": 33
+        "episodes": 33,
+        "airDate": "1991-01-30"
       },
       {
         "number": 4,
-        "episodes": 32
+        "episodes": 32,
+        "airDate": "1991-09-18"
       },
       {
         "number": 5,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "1992-05-20"
       },
       {
         "number": 6,
-        "episodes": 29
+        "episodes": 29,
+        "airDate": "1992-11-25"
       },
       {
         "number": 7,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "1993-07-28"
       },
       {
         "number": 8,
-        "episodes": 34
+        "episodes": 34,
+        "airDate": "1994-03-09"
       },
       {
         "number": 9,
-        "episodes": 38
+        "episodes": 38,
+        "airDate": "1995-02-01"
       }
     ],
     "runtimeMin": 7322
@@ -14006,7 +14408,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2024-10-11"
       }
     ],
     "runtimeMin": 488
@@ -14078,7 +14481,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 131
+        "episodes": 131,
+        "airDate": "2015-07-05"
       }
     ],
     "runtimeMin": 3144
@@ -14105,7 +14509,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 1
+        "episodes": 12,
+        "airDate": "2026-10-11"
       }
     ],
     "ongoing": true
@@ -14177,27 +14582,33 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2009-04-05"
       },
       {
         "number": 2,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2009-10-11"
       },
       {
         "number": 3,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2010-04-18"
       },
       {
         "number": 4,
-        "episodes": 20
+        "episodes": 20,
+        "airDate": "2010-10-24"
       },
       {
         "number": 5,
-        "episodes": 35
+        "episodes": 35,
+        "airDate": "2014-04-06"
       },
       {
         "number": 6,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2014-12-14"
       }
     ],
     "runtimeMin": 4108
@@ -14225,7 +14636,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 64
+        "episodes": 64,
+        "airDate": "1996-02-07"
       }
     ],
     "runtimeMin": 1600
@@ -14693,11 +15105,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2011-10-02"
       },
       {
         "number": 2,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2012-04-08"
       }
     ],
     "runtimeMin": 626
@@ -14725,7 +15139,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 24
+        "episodes": 24,
+        "airDate": "2006-01-07"
       }
     ],
     "runtimeMin": 577
@@ -14753,11 +15168,13 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2014-10-12"
       },
       {
         "number": 2,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2015-04-05"
       }
     ],
     "runtimeMin": 643
@@ -14851,7 +15268,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2019-07-07"
       }
     ],
     "runtimeMin": 299
@@ -14945,7 +15363,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 21
+        "episodes": 21,
+        "airDate": "2019-10-05"
       }
     ],
     "runtimeMin": 485
@@ -14995,7 +15414,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2017-07-02"
       }
     ],
     "runtimeMin": 575
@@ -15023,7 +15443,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2018-01-28"
       }
     ],
     "runtimeMin": 336
@@ -15073,7 +15494,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2024-12-31"
       }
     ],
     "runtimeMin": 315,
@@ -15102,19 +15524,23 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2013-07-05"
       },
       {
         "number": 2,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2014-07-09"
       },
       {
         "number": 3,
-        "episodes": 10
+        "episodes": 10,
+        "airDate": "2015-07-24"
       },
       {
         "number": 4,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2016-07-05"
       }
     ],
     "runtimeMin": 1008
@@ -15164,7 +15590,8 @@
     "seasons": [
       {
         "number": 1,
-        "episodes": 12
+        "episodes": 12,
+        "airDate": "2011-08-12"
       }
     ],
     "runtimeMin": 165

@@ -37,13 +37,16 @@ export function groupTitles(group: Pick<GroupDoc, "franchiseId" | "routeId">, in
   if (!franchise) return [];
   if (group.routeId) {
     const route = franchise.routes.find((r) => r.id === group.routeId);
-    return route ? resolveRoute(route, franchise, index).map((i) => i.title) : [];
+    return uniqueTitles(route ? resolveRoute(route, franchise, index).map((i) => i.title) : []);
   }
   const order = resolveOrder(franchise, "release");
-  return computeOrder(franchise, order, index.titlesById, { hiddenContinuities: effectiveHidden(franchise, undefined, undefined) }).map(
-    (i) => i.title,
+  return uniqueTitles(
+    computeOrder(franchise, order, index.titlesById, { hiddenContinuities: effectiveHidden(franchise, undefined, undefined) }).map((i) => i.title),
   );
 }
+
+/** El grupo marca series enteras: una serie repartida por temporadas aparece una vez. */
+const uniqueTitles = (titles: Title[]) => [...new Map(titles.map((t) => [t.id, t])).values()];
 
 /** Siguiente para ver juntos: el primer estreno de la meta que no vieron juntos ni vieron todos. */
 export function nextTogether(

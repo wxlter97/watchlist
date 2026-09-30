@@ -1,0 +1,4 @@
+- Khan survived exile on a devastated Ceti Alpha V. He steals the ship Reliant to take revenge on Kirk, now an admiral.
+- He's after the Genesis device, created by Carol Marcus and her son David, who is Kirk's son: it can create life on a planet, or wipe it out.
+- Kirk beats Khan in the Mutara Nebula; Khan triggers Genesis before he dies.
+- Spock repairs the engine in a radiation-flooded chamber to save the ship and dies. His coffin lands on the planet Genesis created.

@@ -1,0 +1,4 @@
+- 24th century: Captain Jean-Luc Picard commands the Enterprise-D with Riker, the android Data, Worf (Starfleet's first Klingon), Troi, Crusher and La Forge.
+- Q, an omnipotent being, puts humanity on trial from the first episode to the last.
+- The Borg, a hive that assimilates species, capture Picard and turn him into Locutus; they destroy 39 ships at Wolf 359 before he's rescued.
+- Worf gets caught up in Klingon politics and their civil war; the Federation and the Klingon Empire are allies.

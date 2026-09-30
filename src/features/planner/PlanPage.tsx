@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
 import { accentStyle, Button, formatRuntime, Notice, Poster, SectionLabel, WatchToggle } from "../../components/ui";
 import { setTitleStatus } from "../../lib/actions";
-import { catalogIndex } from "../../lib/catalog";
+import { franchiseMetaById, useCatalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { buildIcs, googleCalendarLink, googleSubscribeLink, planEvents } from "../../lib/ics";
 import { addDays, weekdayOf, type PlanDay } from "../../lib/planner";
@@ -42,8 +42,8 @@ function PlanDetail({ plan }: { plan: PlanDoc }) {
   const goalLabel = useGoalLabel();
   const { savePlan, deletePlan } = usePlansStore.getState();
   const [confirmDelete, setConfirmDelete] = useState(false);
-  const franchise = catalogIndex.franchisesById.get(plan.goal.franchiseId);
-  if (!view) return null;
+  const franchise = franchiseMetaById.get(plan.goal.franchiseId);
+  if (!view) return <p className="py-16 text-center text-muted">…</p>;
   const { schedule } = view;
 
   return (
@@ -156,13 +156,14 @@ function Stat({ label, value, alert = false }: { label: string; value: string; a
 }
 
 function Week({ monday, days, plan }: { monday: string; days: PlanDay[]; plan: PlanDoc }) {
+  const index = useCatalogIndex();
   const { t, lang, date, name } = useLang();
   const dayLabel = useDayLabel();
   const itemLabel = useItemLabel();
   const progress = useProgressStore((s) => s.progress);
   const minutes = days.reduce((n, d) => n + d.items.reduce((m, i) => m + i.minutes, 0), 0);
   const nameOf = (id: string) => {
-    const title = catalogIndex.titlesById.get(id);
+    const title = index.titlesById.get(id);
     return title ? name(title) : id;
   };
 
@@ -180,7 +181,7 @@ function Week({ monday, days, plan }: { monday: string; days: PlanDay[]; plan: P
               <div className="w-14 shrink-0 font-mono text-[11px] leading-tight font-bold uppercase">{dayLabel(day.date)}</div>
               <ul className="min-w-0 flex-1 space-y-2">
                 {day.items.map((item) => {
-                  const title = catalogIndex.titlesById.get(item.titleId);
+                  const title = index.titlesById.get(item.titleId);
                   if (!title) return null;
                   const whole = item.season === undefined;
                   const watched = progress[title.id]?.status === "watched";
@@ -225,12 +226,13 @@ function Week({ monday, days, plan }: { monday: string; days: PlanDay[]; plan: P
 }
 
 function ExportSection({ plan, days }: { plan: PlanDoc; days: PlanDay[] }) {
+  const index = useCatalogIndex();
   const { t, lang, name } = useLang();
   const user = useSession((s) => s.user);
   const profileId = useSession((s) => s.activeProfileId);
   const savePlan = usePlansStore((s) => s.savePlan);
   const nameOf = (id: string) => {
-    const title = catalogIndex.titlesById.get(id);
+    const title = index.titlesById.get(id);
     return title ? name(title) : id;
   };
 

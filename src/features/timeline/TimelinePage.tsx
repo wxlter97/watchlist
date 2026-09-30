@@ -10,9 +10,9 @@ import {
 import { Link, useParams } from "react-router";
 import { accentStyle, Button, Chip, SectionLabel } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
-import { catalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
-import { isReleased } from "../../lib/progress";
+import { todayIso } from "../../lib/progress";
+import { isUnitWatched, seasonOf, unitKey, unitReleaseDate } from "../../lib/units";
 import { useProgressStore } from "../../lib/progressStore";
 import { posterUrl } from "../../lib/tmdb";
 import { buildTimeline, type TimelineItem } from "../../lib/timeline";
@@ -37,8 +37,8 @@ export function TimelinePage() {
   const { franchise, hiddenContinuities } = view;
 
   const timeline = useMemo(
-    () => (franchise ? buildTimeline(franchise, catalogIndex.titlesById, hiddenContinuities) : undefined),
-    [franchise, hiddenContinuities],
+    () => (franchise ? buildTimeline(franchise, view.index.titlesById, hiddenContinuities) : undefined),
+    [franchise, view.index, hiddenContinuities],
   );
 
   // Al cambiar el zoom, el centro de la vista se queda en el mismo punto de la línea.
@@ -57,6 +57,7 @@ export function TimelinePage() {
 
   const drag = useDragScroll(scroller);
 
+  if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !timeline) return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
 
   const w = ZOOMS[zoom] ?? ZOOMS[1];
@@ -156,7 +157,7 @@ export function TimelinePage() {
                   <span className="font-mono text-[10px] whitespace-nowrap text-muted uppercase">{t(`canon.${lane.continuity.canonLevel}`)}</span>
                 </div>
                 {lane.items.map((item) => (
-                  <TimelineCard key={item.title.id} item={item} left={x(item.slot)} top={y(i)} width={w} height={h} showName={zoom >= 2} />
+                  <TimelineCard key={unitKey(item.title.id, item.entry.season)} item={item} left={x(item.slot)} top={y(i)} width={w} height={h} showName={zoom >= 2} />
                 ))}
               </div>
             ))}
@@ -199,12 +200,15 @@ function TimelineCard({
   height: number;
   showName: boolean;
 }) {
-  const { t, name, loc } = useLang();
+  const { t, unitName, loc } = useLang();
   const spoilerFree = useSettings((s) => s.spoilerFree);
-  const watched = useProgressStore((s) => s.progress[item.title.id]?.status === "watched");
-  const released = isReleased(item.title);
+  const season = item.entry.season;
+  const watched = useProgressStore((s) =>
+    isUnitWatched(s.progress[item.title.id], season, season === undefined ? undefined : seasonOf(item.title, season)?.episodes),
+  );
+  const released = unitReleaseDate(item.title, season) <= todayIso();
   const src = posterUrl(item.title.posterPath, width > 60 ? "w185" : "w92");
-  const display = name(item.title);
+  const display = unitName(item.title, season);
   const note = item.entry.chronoNote ? loc(item.entry.chronoNote) : undefined;
   // Sin spoilers: lo no visto aparece difuminado.
   const blur = spoilerFree && !watched;

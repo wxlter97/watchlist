@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalog, withReferences } from "../../lib/catalog";
 import { groupTitles, mirrorChanges, type GroupProgressDoc } from "../../lib/groups";
 import { publishWatched, subscribeGroupProgress, useGroupsStore } from "../../lib/groupsStore";
 import { useProgressStore } from "../../lib/progressStore";
@@ -29,17 +29,19 @@ function GroupMirror({ groupId, uid }: { groupId: string; uid: string }) {
   const group = useGroupsStore((s) => s.groups.find((g) => g.id === groupId));
   const progress = useProgressStore((s) => s.progress);
   const [shared, setShared] = useState<Record<string, GroupProgressDoc> | null>(null);
+  // Con la meta sin cargar, mirrorChanges quitaría todo lo publicado: se espera al catálogo.
+  const catalog = useCatalog(withReferences(group?.franchiseId));
 
   useEffect(() => subscribeGroupProgress(groupId, setShared), [groupId]);
 
   useEffect(() => {
-    if (!group || !shared) return;
+    if (!group || !shared || !catalog.ready) return;
     const timer = setTimeout(() => {
-      const changes = mirrorChanges(groupTitles(group, catalogIndex), progress, shared, uid);
+      const changes = mirrorChanges(groupTitles(group, catalog.index), progress, shared, uid);
       if (Object.keys(changes.add).length || changes.remove.length) publishWatched(groupId, uid, changes);
     }, 1500);
     return () => clearTimeout(timer);
-  }, [group, shared, progress, groupId, uid]);
+  }, [group, shared, catalog.ready, catalog.index, progress, groupId, uid]);
 
   return null;
 }

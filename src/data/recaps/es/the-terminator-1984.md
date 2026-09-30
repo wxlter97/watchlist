@@ -1,0 +1,4 @@
+- Skynet, la IA que tomó el control en el futuro, envía a 1984 un T-800 para matar a Sarah Connor, futura madre del líder de la resistencia, John Connor.
+- John envía al soldado Kyle Reese para protegerla. Kyle le cuenta el futuro y se enamoran: él es el padre de John.
+- Kyle muere en la pelea final; Sarah aplasta al Terminator en una prensa hidráulica.
+- Embarazada, Sarah parte hacia México a prepararse para la guerra.

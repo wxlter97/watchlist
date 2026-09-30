@@ -4,7 +4,8 @@ import { effectiveHidden } from "./filters";
 import { computeOrder, resolveOrder } from "./orders";
 import type { ProgressDoc } from "./progressStore";
 import { activityDays, computeStreak } from "./streaks";
-import type { Achievement, AchievementRule, Title } from "./types";
+import type { Achievement, AchievementRule, Entry, Title } from "./types";
+import { parseUnitKey, unitKey, unitReleaseDate, watchedPredicate } from "./units";
 
 // Logros (SPEC §9.4): evaluación pura a partir del progreso. Solo se guarda la fecha en que
 // se desbloquea cada uno; una vez desbloqueado no se pierde aunque se desmarque algo.
@@ -46,22 +47,35 @@ function metrics({ index, progress, today }: AchievementContext): Metrics {
   return { titles, hours: Math.floor(minutes / 60), franchises, bestStreak: computeStreak(activityDays({ ...progress }), today).best };
 }
 
-const released = (titles: Title[], today: string) => titles.filter((t) => t.releaseDate <= today);
+/** Una unidad que exige una regla: un título o una temporada (ver units.ts). */
+export interface RuleUnit {
+  title: Title;
+  season?: number;
+}
 
-/** Títulos que exige una regla de completar (sin repetir, solo los ya estrenados). */
-export function ruleTitles(rule: AchievementRule, { index, today }: Pick<AchievementContext, "index" | "today">): Title[] {
+/** Unidades que exige una regla de completar (sin repetir, solo las ya estrenadas). */
+export function ruleTitles(rule: AchievementRule, { index, today }: Pick<AchievementContext, "index" | "today">): RuleUnit[] {
   const franchise = "franchiseId" in rule ? index.franchisesById.get(rule.franchiseId) : undefined;
   if (!franchise) return [];
-  const byIds = (ids: string[]) => released([...new Set(ids)].flatMap((id) => index.titlesById.get(id) ?? []), today);
+  const byIds = (keys: string[]) => {
+    const out: RuleUnit[] = [];
+    for (const key of new Set(keys)) {
+      const { titleId, season } = parseUnitKey(key);
+      const title = index.titlesById.get(titleId);
+      if (title && unitReleaseDate(title, season) <= today) out.push({ title, season });
+    }
+    return out;
+  };
+  const entryKeys = (entries: Entry[]) => entries.map((e) => unitKey(e.titleId, e.season));
 
   switch (rule.type) {
     case "complete-group":
-      return byIds(franchise.entries.filter((e) => e.group === rule.group).map((e) => e.titleId));
+      return byIds(entryKeys(franchise.entries.filter((e) => e.group === rule.group)));
     case "complete-franchise": {
       const visible = new Set(
         franchise.continuities.filter((c) => (rule.continuityId ? c.id === rule.continuityId : !c.hiddenByDefault)).map((c) => c.id),
       );
-      return byIds(franchise.entries.filter((e) => visible.has(e.continuityId)).map((e) => e.titleId));
+      return byIds(entryKeys(franchise.entries.filter((e) => visible.has(e.continuityId))));
     }
     case "complete-route":
       return byIds(franchise.routes.find((r) => r.id === rule.routeId)?.titleIds ?? []);
@@ -70,19 +84,23 @@ export function ruleTitles(rule: AchievementRule, { index, today }: Pick<Achieve
       if (order.id !== rule.orderId) return [];
       // Un orden curado vale tal cual; uno calculado, con las continuidades visibles por defecto.
       const hiddenContinuities = order.type === "curated" ? [] : effectiveHidden(franchise, undefined, undefined);
-      return byIds(computeOrder(franchise, order, index.titlesById, { hiddenContinuities }).map((i) => i.title.id));
+      return byIds(computeOrder(franchise, order, index.titlesById, { hiddenContinuities }).map((i) => i.key));
     }
     default:
       return [];
   }
 }
 
-/** Todo visto y en esa secuencia: cada título se terminó después (o a la vez) que el anterior. */
-function watchedInSequence(titles: Title[], progress: AchievementContext["progress"]): boolean {
+/**
+ * Todo visto y en esa secuencia: cada título se terminó después (o a la vez) que el anterior.
+ * Las temporadas no tienen fecha propia: la secuencia se mira con títulos enteros.
+ */
+function watchedInSequence(units: RuleUnit[], progress: AchievementContext["progress"]): boolean {
   let last = "";
-  for (const t of titles) {
-    const at = progress[t.id]?.watchedAt;
-    if (progress[t.id]?.status !== "watched" || !at || at < last) return false;
+  for (const { title, season } of units) {
+    if (season !== undefined) continue;
+    const at = progress[title.id]?.watchedAt;
+    if (progress[title.id]?.status !== "watched" || !at || at < last) return false;
     last = at;
   }
   return true;
@@ -101,7 +119,8 @@ export function evaluateAchievements(achievements: readonly Achievement[], ctx: 
         return { achievement, done: m.bestStreak >= rule.days, current: Math.min(m.bestStreak, rule.days), target: rule.days };
       default: {
         const titles = ruleTitles(rule, ctx);
-        const current = titles.filter((t) => ctx.progress[t.id]?.status === "watched").length;
+        const isWatched = watchedPredicate(ctx.progress, ctx.index.titlesById);
+        const current = titles.filter((u) => isWatched(u.title.id, u.season)).length;
         const complete = titles.length > 0 && current === titles.length;
         const done = rule.type === "watched-in-order" ? complete && watchedInSequence(titles, ctx.progress) : complete;
         return { achievement, done, current, target: titles.length };

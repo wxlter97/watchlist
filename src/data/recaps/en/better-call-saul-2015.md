@@ -1,0 +1,5 @@
+- 2002: Jimmy McGill, a former con man known as "Slippin' Jimmy", tries to become a respectable lawyer in Albuquerque.
+- His brother Chuck, a brilliant lawyer, despises and sabotages him; Chuck dies in a fire.
+- Kim Wexler, his partner and colleague, gets pulled into his schemes.
+- Mike works for Gus Fring, and Jimmy gets tangled up with the cartel through Lalo Salamanca. Lalo kills Howard Hamlin and Gus kills Lalo. Kim leaves.
+- Jimmy becomes Saul Goodman. After Breaking Bad he hides as Gene in Omaha; he's caught, confesses everything and takes 86 years in prison.

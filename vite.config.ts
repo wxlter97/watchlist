@@ -1,5 +1,5 @@
 /// <reference types="vitest/config" />
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
@@ -65,38 +65,134 @@ function apiDevServer(): Plugin {
 }
 
 /**
- * titles.json sin sinopsis para el arranque: son más de la mitad del archivo y solo las usa
- * el detalle de un título. `virtual:catalog-titles` trae el resto y `virtual:overviews/{lang}`
- * las sinopsis de un idioma, en un chunk aparte. titles.json sigue siendo la única fuente.
+ * El catálogo se sirve por partes para que el arranque no crezca con cada franquicia nueva
+ * (src/lib/catalog.ts lo consume). Los JSON de src/data/ siguen siendo la única fuente.
+ *
+ * - `virtual:catalog-manifest`: lo que se carga al abrir la app. Por franquicia, nombre,
+ *   color, continuidades, sus títulos como `[id, continuidad, fecha]` (para el progreso del
+ *   Hub) y los de otras franquicias que menciona; además los títulos próximos o en emisión
+ *   (para "Próximos estrenos").
+ * - `virtual:catalog-franchise/{id}`: la franquicia completa y sus títulos, sin sinopsis.
+ * - `virtual:overviews/{lang}/{id}`: las sinopsis de esa franquicia en ese idioma.
+ * - `virtual:catalog-loaders`: los `import()` de todo lo anterior, por id.
  */
-function catalogSplit(): Plugin {
-  const file = resolve("src/data/titles.json");
-  type Raw = { id: string; overview?: string; localized?: Record<string, { title: string; overview?: string }> };
+function catalogData(): Plugin {
+  type Localized = Record<string, { title: string; overview?: string }>;
+  type RawTitle = {
+    id: string;
+    title: string;
+    releaseDate: string;
+    ongoing?: boolean;
+    overview?: string;
+    localized?: Localized;
+    seasons?: { number: number; episodes: number; airDate?: string }[];
+  };
+  type RawFranchise = {
+    id: string;
+    name: unknown;
+    description: unknown;
+    accentColor: string;
+    continuities: unknown[];
+    entries: { titleId: string; continuityId: string; season?: number }[];
+    orders: { type: string; titleIds?: string[] }[];
+    routes: { titleIds: string[]; targetTitleId?: string }[];
+  };
+  const dataDir = resolve("src/data");
+  const franchiseDir = join(dataDir, "franchises");
+  const LANGS = ["es", "en"];
+
+  const read = () => {
+    const titles = JSON.parse(readFileSync(join(dataDir, "titles.json"), "utf8")) as RawTitle[];
+    const franchises = readdirSync(franchiseDir)
+      .filter((f) => f.endsWith(".json"))
+      .sort()
+      .map((f) => JSON.parse(readFileSync(join(franchiseDir, f), "utf8")) as RawFranchise);
+    return { titles, titlesById: new Map(titles.map((t) => [t.id, t])), franchises };
+  };
+  // Sin sinopsis y solo con los títulos localizados distintos del original (titleName cae a él).
+  const lite = ({ overview: _overview, localized, ...t }: RawTitle) => {
+    const names = Object.entries(localized ?? {}).filter(([, v]) => v.title && v.title !== t.title);
+    return names.length ? { ...t, localized: Object.fromEntries(names.map(([l, v]) => [l, { title: v.title }])) } : t;
+  };
+  // Todo título que la franquicia menciona: entries, órdenes curados y rutas (que pueden cruzar).
+  // Órdenes y rutas pueden nombrar una temporada ("loki-2021#2"): cuenta el título.
+  const titleOf = (key: string) => key.replace(/#\d+$/, "");
+  const titleIdsOf = (f: RawFranchise) =>
+    new Set([
+      ...f.entries.map((e) => e.titleId),
+      ...f.orders.flatMap((o) => o.titleIds ?? []).map(titleOf),
+      ...f.routes.flatMap((r) => [...r.titleIds, ...(r.targetTitleId ? [r.targetTitleId] : [])]).map(titleOf),
+    ]);
+  // Estreno de una entry: el de su temporada, si es de una (como unitReleaseDate en units.ts).
+  const entryDate = (t: RawTitle | undefined, season?: number) => {
+    if (!t) return "";
+    if (season === undefined) return t.releaseDate;
+    const airDate = t.seasons?.find((s) => s.number === season)?.airDate;
+    return airDate ?? (season > 1 && t.ongoing ? "9999-12-31" : t.releaseDate);
+  };
+  // JSON.parse de un string es más rápido de evaluar que un literal de objeto grande.
+  const json = (data: unknown) => `export default JSON.parse(${JSON.stringify(JSON.stringify(data))});`;
+
   return {
-    name: "watch-order-catalog-split",
+    name: "watch-order-catalog-data",
     resolveId(id) {
-      if (id === "virtual:catalog-titles" || /^virtual:overviews\/(es|en)$/.test(id)) return `\0${id}`;
+      if (/^virtual:(catalog-manifest|catalog-loaders|catalog-franchise\/[a-z0-9-]+|overviews\/(es|en)\/[a-z0-9-]+)$/.test(id)) return `\0${id}`;
     },
     load(id) {
       if (!id.startsWith("\0virtual:")) return;
-      this.addWatchFile(file);
-      const titles = JSON.parse(readFileSync(file, "utf8")) as Raw[];
-      let data: unknown;
-      if (id === "\0virtual:catalog-titles") {
-        // Solo los títulos localizados distintos del original: titleName() cae al original.
-        data = titles.map(({ overview: _overview, localized, ...t }) => {
-          const names = Object.entries(localized ?? {}).filter(([, v]) => v.title && v.title !== (t as { title?: string }).title);
-          return names.length ? { ...t, localized: Object.fromEntries(names.map(([l, v]) => [l, { title: v.title }])) } : t;
-        });
-      } else {
-        const lang = id.slice(-2);
-        data = Object.fromEntries(titles.flatMap((t) => {
-          const overview = t.localized?.[lang]?.overview || t.overview;
-          return overview ? [[t.id, overview]] : [];
-        }));
+      this.addWatchFile(join(dataDir, "titles.json"));
+      for (const f of readdirSync(franchiseDir)) this.addWatchFile(join(franchiseDir, f));
+      const { titles, titlesById, franchises } = read();
+      const name = id.slice("\0virtual:".length);
+
+      if (name === "catalog-loaders") {
+        const entry = (path: string) => `${JSON.stringify(path.split("/").at(-1))}: () => import(${JSON.stringify(`virtual:${path}`)})`;
+        return [
+          `export const franchises = { ${franchises.map((f) => entry(`catalog-franchise/${f.id}`)).join(", ")} };`,
+          `export const overviews = { ${LANGS.map((l) => `${l}: { ${franchises.map((f) => entry(`overviews/${l}/${f.id}`)).join(", ")} }`).join(", ")} };`,
+        ].join("\n");
       }
-      // JSON.parse de un string es más rápido de evaluar que un literal de objeto grande.
-      return `export default JSON.parse(${JSON.stringify(JSON.stringify(data))});`;
+
+      if (name === "catalog-manifest") {
+        const today = new Date().toISOString().slice(0, 10);
+        return json({
+          franchises: franchises.map((f) => ({
+            id: f.id,
+            name: f.name,
+            description: f.description,
+            accentColor: f.accentColor,
+            continuities: f.continuities,
+            // [título, continuidad, estreno] y, si la entry es de una temporada, [temporada, episodios].
+            titles: f.entries.map((e) => {
+              const t = titlesById.get(e.titleId);
+              const base = [e.titleId, e.continuityId, entryDate(t, e.season)];
+              return e.season === undefined ? base : [...base, e.season, t?.seasons?.find((s) => s.number === e.season)?.episodes ?? 0];
+            }),
+            // Títulos de otras franquicias que aparecen en sus rutas u órdenes curados.
+            refs: [...titleIdsOf(f)].filter((tid) => !f.entries.some((e) => e.titleId === tid)),
+          })),
+          spotlight: titles.filter((t) => t.releaseDate >= today || t.ongoing).map(lite),
+        });
+      }
+
+      const franchiseId = name.split("/").at(-1)!;
+      const franchise = franchises.find((f) => f.id === franchiseId);
+      if (!franchise) return json(null);
+      const ids = titleIdsOf(franchise);
+
+      if (name.startsWith("catalog-franchise/")) {
+        return json({ franchise, titles: [...ids].flatMap((tid) => (titlesById.has(tid) ? [lite(titlesById.get(tid)!)] : [])) });
+      }
+      const lang = name.split("/")[1]!;
+      return json(
+        Object.fromEntries(
+          [...ids].flatMap((tid) => {
+            const t = titlesById.get(tid);
+            const overview = t && (t.localized?.[lang]?.overview || t.overview);
+            return overview ? [[tid, overview]] : [];
+          }),
+        ),
+      );
     },
   };
 }
@@ -109,7 +205,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       apiDevServer(),
-      catalogSplit(),
+      catalogData(),
       react(),
       tailwindcss(),
       VitePWA({
@@ -177,9 +273,6 @@ export default defineConfig(({ mode }) => {
             groups: [
               // Messaging solo se carga al activar avisos: queda fuera del chunk de Firebase.
               { name: "firebase", test: /^(?!.*messaging).*node_modules[\\/].*@?firebase/ },
-              // Los recaps se cargan uno por uno, las sinopsis por idioma y los logros con su
-              // sincronización: bajo demanda, fuera del catálogo del arranque.
-              { name: "catalog", test: /src[\\/]data[\\/](?!recaps|achievements)|virtual:catalog-titles/ },
             ],
           },
         },

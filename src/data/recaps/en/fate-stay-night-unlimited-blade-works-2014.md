@@ -1,0 +1,4 @@
+- Ten years later the Fifth War begins. Shirou Emiya, Kiritsugu's adopted son, summons Saber almost by accident.
+- He allies with Rin Tohsaka and her Servant, Archer.
+- Caster steals Saber from him. Archer turns out to be a future Shirou who regrets his ideal and wants to kill his younger self.
+- Shirou beats Archer by standing by that ideal. Gilgamesh, who killed Illya, falls to Shirou and Rin, and the Grail is destroyed.

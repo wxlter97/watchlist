@@ -3,19 +3,22 @@ import { effectiveHidden } from "./filters";
 import { computeOrder, resolveOrder } from "./orders";
 import { buildSchedule, pendingUnits, type PlanDay, type Schedule, type Weekday } from "./planner";
 import type { FranchiseStateDoc, ProgressDoc } from "./progressStore";
+import { prepUnits, type PrepLevel } from "./prep";
 import { resolveRoute } from "./routes";
-import type { Lang, Title } from "./types";
+import type { Entry, Lang, Title } from "./types";
 
 // Planes de maratón (SPEC §6 plans, §9.2). El calendario se recalcula siempre a partir de
 // hoy y del progreso actual; `schedule` guarda la última versión para el feed .ics.
 
-export type GoalType = "franchise" | "order" | "route";
+export type GoalType = "franchise" | "order" | "route" | "prep";
 
 export interface PlanGoal {
   type: GoalType;
   franchiseId: string;
-  /** Id de la franquicia, del orden o de la ruta. */
+  /** Id de la franquicia, del orden, de la ruta o (prep) del título objetivo. */
   refId: string;
+  /** Solo prep: cuánto ver antes del título (ver prep.ts). */
+  level?: PrepLevel;
 }
 
 export interface PlanDoc {
@@ -45,30 +48,35 @@ export interface GoalContext {
   franchiseState: Readonly<Record<string, FranchiseStateDoc>>;
 }
 
-/** Títulos de la meta, en orden. */
-export function goalTitles(goal: PlanGoal, { index, franchiseState }: GoalContext, essentialOnly = false): Title[] {
+/** Una unidad de la meta: título o temporada, con su entry para filtrar esenciales. */
+export interface GoalItem {
+  title: Title;
+  season?: number;
+  entry?: Entry;
+}
+
+/** Títulos (o temporadas) de la meta, en orden. */
+export function goalUnits(goal: PlanGoal, { index, franchiseState }: GoalContext, essentialOnly = false): GoalItem[] {
   const franchise = index.franchisesById.get(goal.franchiseId);
   if (!franchise) return [];
   const state = franchiseState[franchise.id];
 
-  let titles: Title[];
-  if (goal.type === "route") {
+  let titles: GoalItem[];
+  if (goal.type === "prep") {
+    titles = prepUnits(franchise, goal.refId, goal.level ?? "recommended", index).map(({ title, season, entry }) => ({ title, season, entry }));
+  } else if (goal.type === "route") {
     const route = franchise.routes.find((r) => r.id === goal.refId);
-    titles = route ? resolveRoute(route, franchise, index).map((i) => i.title) : [];
+    titles = route ? resolveRoute(route, franchise, index).map(({ title, season, entry }) => ({ title, season, entry })) : [];
   } else {
     // Franquicia: el orden activo del perfil. Orden: uno concreto. Ambos con las continuidades visibles.
     const orderId = goal.type === "order" ? goal.refId : state?.lastOrderId;
     const order = resolveOrder(franchise, orderId, state?.customOrder);
     const hiddenContinuities = effectiveHidden(franchise, state?.hiddenContinuities, state?.shownContinuities);
-    titles = computeOrder(franchise, order, index.titlesById, { hiddenContinuities }).map((i) => i.title);
+    titles = computeOrder(franchise, order, index.titlesById, { hiddenContinuities }).map(({ title, season, entry }) => ({ title, season, entry }));
   }
 
   if (!essentialOnly) return titles;
-  return titles.filter((title) => {
-    const appearances = index.franchisesByTitle.get(title.id) ?? [];
-    const entry = (appearances.find((a) => a.franchise.id === franchise.id) ?? appearances[0])?.entry;
-    return entry?.importance === "essential";
-  });
+  return titles.filter((u) => u.entry?.importance === "essential");
 }
 
 export interface PlanView {
@@ -91,14 +99,14 @@ export function computePlan(
     weeklyHours: plan.weeklyHours,
     deadline: plan.deadline,
   };
-  const titles = goalTitles(plan.goal, ctx, plan.essentialOnly);
+  const titles = goalUnits(plan.goal, ctx, plan.essentialOnly);
   const units = pendingUnits(titles, ctx.progress);
   const schedule = buildSchedule(units, options);
   const pendingTitles = new Set(units.map((u) => u.titleId)).size;
 
   let essential: Schedule | undefined;
   if (schedule.fitsDeadline === false && !plan.essentialOnly) {
-    const essentialTitles = goalTitles(plan.goal, ctx, true);
+    const essentialTitles = goalUnits(plan.goal, ctx, true);
     if (essentialTitles.length > 0 && essentialTitles.length < titles.length) {
       essential = buildSchedule(pendingUnits(essentialTitles, ctx.progress), options);
     }
@@ -111,6 +119,7 @@ export function goalExists(goal: PlanGoal, index: CatalogIndex): boolean {
   const franchise = index.franchisesById.get(goal.franchiseId);
   if (!franchise) return false;
   if (goal.type === "route") return franchise.routes.some((r) => r.id === goal.refId);
+  if (goal.type === "prep") return franchise.entries.some((e) => e.titleId === goal.refId);
   if (goal.type === "order") return franchise.orders.some((o) => o.id === goal.refId) || goal.refId === "custom";
   return goal.refId === franchise.id;
 }

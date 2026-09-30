@@ -11,6 +11,7 @@ const TEXT = {
     kinds: { route: "Ruta", "custom-order": "Orden personalizado", progress: "Progreso" },
     by: "Compartido por",
     watched: (w: number, t: number) => `${w} de ${t} vistos`,
+    season: (n: number) => `Temporada ${n}`,
     seen: "Visto",
     cta: "Abrir en Watch Order",
     ctaHint: "Sigue tus sagas en el orden que prefieras. Gratis, sin anuncios.",
@@ -23,6 +24,7 @@ const TEXT = {
     kinds: { route: "Route", "custom-order": "Custom order", progress: "Progress" },
     by: "Shared by",
     watched: (w: number, t: number) => `${w} of ${t} watched`,
+    season: (n: number) => `Season ${n}`,
     seen: "Watched",
     cta: "Open in Watch Order",
     ctaHint: "Follow your sagas in the order you prefer. Free, no ads.",
@@ -126,11 +128,14 @@ function render(share: PublicShare, lang: Lang, origin: string): string {
 
   const rows = share.snapshot.titleIds
     .map((id, i) => {
-      const title = titles.get(id);
+      // "loki-2021#2": una temporada (ver src/lib/units.ts).
+      const [titleId, seasonPart] = id.split("#");
+      const title = titles.get(titleId!);
       if (!title) return "";
+      const season = seasonPart ? t.season(Number(seasonPart)) : "";
       const seen = watched.has(id);
       const poster = title.posterPath ? `<img class="p" src="https://image.tmdb.org/t/p/w92${esc(title.posterPath)}" alt="" loading="lazy">` : `<span class="p"></span>`;
-      return `<li class="${seen ? "seen" : ""}"><span class="n">${String(i + 1).padStart(2, "0")}</span>${poster}<span class="t"><b>${esc(titleName(title, lang))}</b><span>${title.releaseDate.slice(0, 4)}</span></span><span class="ok" ${seen ? `aria-label="${t.seen}"` : 'aria-hidden="true"'}>${seen ? "✓" : ""}</span></li>`;
+      return `<li class="${seen ? "seen" : ""}"><span class="n">${String(i + 1).padStart(2, "0")}</span>${poster}<span class="t"><b>${esc(titleName(title, lang))}${season ? ` · ${esc(season)}` : ""}</b><span>${title.releaseDate.slice(0, 4)}</span></span><span class="ok" ${seen ? `aria-label="${t.seen}"` : 'aria-hidden="true"'}>${seen ? "✓" : ""}</span></li>`;
     })
     .join("");
 

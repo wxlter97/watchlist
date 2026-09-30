@@ -23,7 +23,8 @@ export interface Title {
   title: string;
   kind: Kind;
   releaseDate: string;
-  seasons?: { number: number; episodes: number }[];
+  /** `airDate`: estreno de la temporada (TMDB); ordena las entries por temporada. */
+  seasons?: { number: number; episodes: number; airDate?: string }[];
   runtimeMin?: number;
   posterPath?: string;
   overview?: string;
@@ -44,10 +45,21 @@ export interface Continuity {
   branchesFrom?: { continuityId: string; afterTitleId: string };
   /** Oculta hasta que el perfil la active en el filtro de continuidades. */
   hiddenByDefault?: boolean;
+  /**
+   * Comparte la línea de tiempo de otra continuidad: en el orden cronológico sus títulos se
+   * intercalan con los de esa (mismo espacio de chronoOrder) en vez de ir en un bloque aparte.
+   * Ej.: las series de Netflix ocurren en el mismo universo que el MCU.
+   */
+  timelineOf?: string;
 }
 
 export interface Entry {
   titleId: string;
+  /**
+   * Solo esa temporada de la serie. Una serie puede tener una entry por temporada para
+   * ubicar cada una en su lugar del orden; si tiene alguna, todas sus temporadas van así.
+   */
+  season?: number;
   continuityId: string;
   group?: string;
   chronoOrder?: number;
@@ -68,6 +80,7 @@ export type OrderDef =
   | (OrderBase & { type: "release" })
   | (OrderBase & { type: "chronological" })
   | (OrderBase & { type: "grouped"; groupLabels: Record<string, LocalizedText> })
+  /** `titleIds`: ids de título o de temporada ("loki-2021#2"; ver units.ts). Un título repartido por temporadas se expande a todas. */
   | (OrderBase & { type: "curated"; description: LocalizedText; titleIds: string[] });
 
 export interface Route {
@@ -76,6 +89,7 @@ export interface Route {
   description: LocalizedText;
   kind: "character" | "prep" | "theme";
   targetTitleId?: string;
+  /** Ids de título o de temporada ("loki-2021#2"). */
   titleIds: string[];
 }
 

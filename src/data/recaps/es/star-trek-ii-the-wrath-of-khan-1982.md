@@ -1,0 +1,4 @@
+- Khan sobrevivió al exilio en un Ceti Alfa V devastado. Roba la nave Reliant para vengarse de Kirk, ahora almirante.
+- Busca el dispositivo Génesis, creado por Carol Marcus y su hijo David, que es hijo de Kirk: puede crear vida en un planeta, o destruirla.
+- Kirk vence a Khan en la nebulosa Mutara; Khan activa Génesis antes de morir.
+- Spock repara el motor en una cámara radiactiva para salvar la nave y muere. Su ataúd cae en el planeta que creó Génesis.

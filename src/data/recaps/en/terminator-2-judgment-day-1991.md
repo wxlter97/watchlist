@@ -1,0 +1,5 @@
+- Sarah is locked in a psychiatric hospital; her son John is 10.
+- Skynet sends the liquid-metal T-1000 to kill John. The resistance sends a reprogrammed T-800 to protect him.
+- Miles Dyson at Cyberdyne is building Skynet from the first Terminator's arm and chip. Together they destroy his research; Dyson dies.
+- The T-1000 falls into molten steel. The T-800 lowers itself in too, to destroy its own chip.
+- Judgment Day is left in question: "The future is not set."

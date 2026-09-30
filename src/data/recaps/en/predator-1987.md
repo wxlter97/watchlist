@@ -1,0 +1,4 @@
+- Dutch and his commando team go into the Central American jungle on a rescue the CIA, through Dillon, used as cover.
+- An invisible alien hunter kills them one by one and takes trophies.
+- Dutch learns the hunter sees heat: covered in cold mud, he becomes invisible to it.
+- He beats it in the final duel; the Predator triggers a self-destruct and Dutch gets away in time.

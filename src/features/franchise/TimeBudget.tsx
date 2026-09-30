@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router";
 import { formatRuntime, Poster, SectionLabel, Tabs } from "../../components/ui";
-import { catalogIndex } from "../../lib/catalog";
+import { useCatalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import type { OrderedItem } from "../../lib/orders";
 import { pendingUnits, suggestForBudget } from "../../lib/planner";
@@ -14,6 +14,7 @@ const BUDGETS = ["60", "120", "180", "240", "360"] as const;
 /** "Tengo X horas" (SPEC §9.2): lo siguiente del orden activo que cabe en ese tiempo. */
 export function TimeBudget({ items, planHref }: { items: readonly OrderedItem[]; planHref: string }) {
   const { t } = useLang();
+  const index = useCatalogIndex();
   const progress = useProgressStore((s) => s.progress);
   const [budget, setBudget] = useState<(typeof BUDGETS)[number] | undefined>();
   const itemLabel = useItemLabel();
@@ -21,7 +22,7 @@ export function TimeBudget({ items, planHref }: { items: readonly OrderedItem[];
   const suggestion = useMemo(() => {
     if (!budget) return undefined;
     const units = pendingUnits(
-      items.map((i) => i.title),
+      items.map(({ title, season }) => ({ title, season })),
       progress,
     );
     return suggestForBudget(units, Number(budget), todayIso());
@@ -54,7 +55,7 @@ export function TimeBudget({ items, planHref }: { items: readonly OrderedItem[];
             <>
               <ol className="space-y-2">
                 {suggestion.items.map((item) => {
-                  const title = catalogIndex.titlesById.get(item.titleId)!;
+                  const title = index.titlesById.get(item.titleId)!;
                   return (
                     <li key={`${item.titleId}-${item.season}-${item.from}`}>
                       <Link to={`/t/${title.id}`} className="group flex items-center gap-3">

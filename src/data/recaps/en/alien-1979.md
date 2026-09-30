@@ -1,0 +1,4 @@
+- The cargo ship Nostromo wakes its crew to answer a signal from the planetoid LV-426.
+- A creature latches onto Kane's face; days later, a hatchling bursts out of his chest and escapes.
+- The alien grows and kills the crew one by one. Ash turns out to be an android with secret Company orders to bring the organism home: the crew was expendable.
+- Ripley sets the self-destruct, flees in the shuttle with Jones the cat and blows the alien out into space.

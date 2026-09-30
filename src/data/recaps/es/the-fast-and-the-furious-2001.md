@@ -1,0 +1,4 @@
+- Brian O'Conner, policía encubierto, se infiltra en las carreras callejeras de Los Ángeles para encontrar a unos ladrones de camiones.
+- Se hace amigo de Dominic Toretto y se enamora de su hermana Mia.
+- El equipo de Dom (Letty, Vince, Leon, Jesse) es el que roba; un golpe sale mal y Brian revela quién es para salvar a Vince.
+- Tras una última carrera, Brian deja escapar a Dom y le entrega las llaves de su auto.

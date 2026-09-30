@@ -1,0 +1,6 @@
+- Ned Stark se convierte en Mano del Rey y descubre que los hijos de Cersei son de su hermano Jaime; Joffrey lo manda ejecutar y estalla la guerra.
+- Robb Stark muere en la Boda Roja. Joffrey muere envenenado y Tyrion, acusado, huye tras matar a su padre, Tywin.
+- En Essos, Daenerys Targaryen cría tres dragones y libera ciudades esclavistas antes de cruzar a Poniente.
+- Jon Snow, de la Guardia de la Noche, muere y resucita, recupera Invernalia y une a todos contra los Caminantes Blancos. Se revela que es hijo de Lyanna Stark y Rhaegar Targaryen.
+- Arya mata al Rey de la Noche. Daenerys incendia Desembarco del Rey y Jon la mata.
+- Bran es elegido rey, Sansa reina en el Norte y Jon se va al norte del Muro.
