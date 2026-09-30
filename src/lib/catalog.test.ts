@@ -106,7 +106,7 @@ describe("qué cargar", () => {
 
   it("franchisesMentioning incluye todas las que tienen al título, también en rutas", () => {
     expect(franchisesMentioning(["avp-alien-vs-predator-2004"])).toEqual(["alien", "predator"]);
-    const crossRoute = catalog.franchises.flatMap((f) => f.routes.flatMap((r) => r.titleIds.map((t) => [f.id, t] as const)))
+    const crossRoute = catalog.franchises.flatMap((f) => f.routes.flatMap((r) => r.titleIds.map((t) => [f.id, parseUnitKey(t).titleId] as const)))
       .find(([fid, t]) => !catalogIndex.franchisesById.get(fid)!.entries.some((e) => e.titleId === t));
     if (crossRoute) expect(franchisesMentioning([crossRoute[1]])).toContain(crossRoute[0]);
   });

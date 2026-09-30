@@ -4,6 +4,7 @@ import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLab
 import { franchisesReferencing, useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useOverview } from "../../lib/overviews";
+import { curatedPrep, prepUnits } from "../../lib/prep";
 import { isReleased } from "../../lib/progress";
 import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
@@ -31,7 +32,13 @@ export function TitlePage() {
 
   const appearances = index.franchisesByTitle.get(title.id) ?? [];
   const inRoutes = index.routesByTitle.get(title.id) ?? [];
-  const prep = index.prepByTarget.get(title.id) ?? [];
+  // "Prepárate para…" en cada franquicia del título que tenga algo antes (curado o automático).
+  const prep = [...new Map(appearances.map((a) => [a.franchise.id, a.franchise])).values()].flatMap((franchise) => {
+    const route = curatedPrep(franchise, title.id);
+    const all = prepUnits(franchise, title.id, "all", index).length;
+    if (!route && all === 0) return [];
+    return [{ franchise, href: route ? `/f/${franchise.id}/r/${route.id}` : `/f/${franchise.id}/prep/${title.id}` }];
+  });
   const accent = appearances[0]?.franchise.accentColor ?? "#FFDB00";
   const released = isReleased(title);
   // Sin spoilers por defecto: la sinopsis de lo no visto queda oculta hasta revelarla.
@@ -64,15 +71,18 @@ export function TitlePage() {
         </div>
       </header>
 
-      {prep.map(({ franchise, route }) => (
+      {prep.map(({ franchise, href }) => (
         <Link
-          key={route.id}
-          to={`/f/${franchise.id}/r/${route.id}`}
+          key={franchise.id}
+          to={href}
           className="on-faro group mt-6 flex items-center justify-between gap-3 border-2 border-tinta bg-faro px-3.5 py-3 text-tinta"
         >
           <span>
-            <span className="label block font-bold">{t("title.prepFor")}</span>
-            <span className="font-semibold">{t("routes.count", { count: route.titleIds.length })}</span>
+            <span className="label block font-bold">
+              {t("prep.link")}
+              {prep.length > 1 && ` · ${loc(franchise.name)}`}
+            </span>
+            <span className="text-sm">{t("prep.linkHint")}</span>
           </span>
           <span aria-hidden className="font-mono text-lg">
             →

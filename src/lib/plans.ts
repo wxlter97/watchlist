@@ -3,19 +3,22 @@ import { effectiveHidden } from "./filters";
 import { computeOrder, resolveOrder } from "./orders";
 import { buildSchedule, pendingUnits, type PlanDay, type Schedule, type Weekday } from "./planner";
 import type { FranchiseStateDoc, ProgressDoc } from "./progressStore";
+import { prepUnits, type PrepLevel } from "./prep";
 import { resolveRoute } from "./routes";
 import type { Entry, Lang, Title } from "./types";
 
 // Planes de maratón (SPEC §6 plans, §9.2). El calendario se recalcula siempre a partir de
 // hoy y del progreso actual; `schedule` guarda la última versión para el feed .ics.
 
-export type GoalType = "franchise" | "order" | "route";
+export type GoalType = "franchise" | "order" | "route" | "prep";
 
 export interface PlanGoal {
   type: GoalType;
   franchiseId: string;
-  /** Id de la franquicia, del orden o de la ruta. */
+  /** Id de la franquicia, del orden, de la ruta o (prep) del título objetivo. */
   refId: string;
+  /** Solo prep: cuánto ver antes del título (ver prep.ts). */
+  level?: PrepLevel;
 }
 
 export interface PlanDoc {
@@ -59,7 +62,9 @@ export function goalUnits(goal: PlanGoal, { index, franchiseState }: GoalContext
   const state = franchiseState[franchise.id];
 
   let titles: GoalItem[];
-  if (goal.type === "route") {
+  if (goal.type === "prep") {
+    titles = prepUnits(franchise, goal.refId, goal.level ?? "recommended", index).map(({ title, season, entry }) => ({ title, season, entry }));
+  } else if (goal.type === "route") {
     const route = franchise.routes.find((r) => r.id === goal.refId);
     titles = route ? resolveRoute(route, franchise, index).map(({ title, season, entry }) => ({ title, season, entry })) : [];
   } else {
@@ -114,6 +119,7 @@ export function goalExists(goal: PlanGoal, index: CatalogIndex): boolean {
   const franchise = index.franchisesById.get(goal.franchiseId);
   if (!franchise) return false;
   if (goal.type === "route") return franchise.routes.some((r) => r.id === goal.refId);
+  if (goal.type === "prep") return franchise.entries.some((e) => e.titleId === goal.refId);
   if (goal.type === "order") return franchise.orders.some((o) => o.id === goal.refId) || goal.refId === "custom";
   return goal.refId === franchise.id;
 }

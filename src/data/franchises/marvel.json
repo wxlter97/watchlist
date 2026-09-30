@@ -4044,15 +4044,26 @@
         "en": "Get ready for Avengers: Doomsday"
       },
       "description": {
-        "es": "Lo que conviene tener fresco antes del regreso de los Vengadores: el final de la Saga del Infinito, el multiverso y los equipos nuevos.",
-        "en": "What to have fresh before the Avengers return: the end of the Infinity Saga, the multiverse and the new teams."
+        "es": "Lo mínimo es la lista oficial de Disney+ (agosto de 2026): 15 películas y series, de las X-Men de Fox a Los 4 Fantásticos, en orden cronológico.",
+        "en": "The bare minimum is Disney+'s official list (August 2026): 15 films and series, from Fox's X-Men to The Fantastic Four, in chronological order."
       },
       "kind": "prep",
       "targetTitleId": "avengers-doomsday-2026",
       "titleIds": [
+        "x-men-2000",
+        "x2-2003",
+        "captain-america-the-first-avenger-2011",
+        "the-avengers-2012",
+        "avengers-infinity-war-2018",
         "avengers-endgame-2019",
-        "loki-2021",
+        "loki-2021#1",
+        "shang-chi-and-the-legend-of-the-ten-rings-2021",
+        "spider-man-no-way-home-2021",
+        "doctor-strange-in-the-multiverse-of-madness-2022",
+        "black-panther-wakanda-forever-2022",
+        "loki-2021#2",
         "deadpool-and-wolverine-2024",
+        "captain-america-brave-new-world-2025",
         "thunderbolts-2025",
         "the-fantastic-4-first-steps-2025"
       ]

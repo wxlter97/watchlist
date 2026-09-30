@@ -100,7 +100,6 @@
     "postCredits": "Post-créditos",
     "chrono": "Ubicación en la línea temporal",
     "notFound": "No encontramos ese título.",
-    "prepFor": "Prepárate para verlo",
     "inRoutes": "En rutas"
   },
   "about": {
@@ -351,7 +350,8 @@
     "goalTypes": {
       "franchise": "Franquicia",
       "order": "Orden",
-      "route": "Ruta"
+      "route": "Ruta",
+      "prep": "Prepárate"
     },
     "franchiseHint": "Toda la franquicia, en el orden que tienes activo y con tus continuidades visibles.",
     "essentialOnly": "Solo esenciales",
@@ -614,5 +614,25 @@
   "recaps": {
     "title": "Lo que necesitas recordar",
     "hint": "Solo de lo que ya viste antes de este título, en tu orden. Sin spoilers de lo que no."
+  },
+  "prep": {
+    "title": "Prepárate para {{title}}",
+    "auto": "Lo que viene antes de {{title}} en el orden cronológico.",
+    "level": "Cuánto ver",
+    "levels": {
+      "minimum": "Lo mínimo",
+      "recommended": "Recomendado",
+      "all": "Todo"
+    },
+    "hints": {
+      "minimum": "La selección curada: lo indispensable para llegar sin perderte.",
+      "minimumAuto": "Solo lo esencial que viene antes.",
+      "recommended": "Lo esencial y lo recomendado que viene antes, más la selección curada.",
+      "all": "Todo lo que viene antes en el orden cronológico."
+    },
+    "link": "Prepárate para este título",
+    "linkHint": "Lo mínimo, lo recomendado o todo lo que viene antes.",
+    "target": "Título",
+    "empty": "No hay nada antes de este título en el orden cronológico."
   }
 }

@@ -100,7 +100,6 @@
     "postCredits": "Post-credits",
     "chrono": "Place in the timeline",
     "notFound": "We couldn't find that title.",
-    "prepFor": "Get ready to watch it",
     "inRoutes": "In routes"
   },
   "about": {
@@ -351,7 +350,8 @@
     "goalTypes": {
       "franchise": "Franchise",
       "order": "Order",
-      "route": "Route"
+      "route": "Route",
+      "prep": "Get ready"
     },
     "franchiseHint": "The whole franchise, in your active order and with your visible continuities.",
     "essentialOnly": "Essentials only",
@@ -614,5 +614,25 @@
   "recaps": {
     "title": "What you need to remember",
     "hint": "Only from what you've already watched before this title, in your order. No spoilers from what you haven't."
+  },
+  "prep": {
+    "title": "Get ready for {{title}}",
+    "auto": "What comes before {{title}} in chronological order.",
+    "level": "How much to watch",
+    "levels": {
+      "minimum": "Bare minimum",
+      "recommended": "Recommended",
+      "all": "Everything"
+    },
+    "hints": {
+      "minimum": "The curated pick: what you need so you're not lost.",
+      "minimumAuto": "Only the essentials that come before.",
+      "recommended": "The essential and recommended titles before it, plus the curated pick.",
+      "all": "Everything that comes before in chronological order."
+    },
+    "link": "Get ready for this title",
+    "linkHint": "The bare minimum, the recommended titles or everything before it.",
+    "target": "Title",
+    "empty": "Nothing comes before this title in chronological order."
   }
 }

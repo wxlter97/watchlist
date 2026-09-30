@@ -13,10 +13,12 @@ const page = <K extends string>(load: () => Promise<Record<K, ComponentType>>, n
 const loadFranchise = () => import("./features/franchise/FranchisePage");
 const loadTitle = () => import("./features/detail/TitlePage");
 const loadRoute = () => import("./features/routes/RoutePage");
+const loadPrep = () => import("./features/routes/PrepPage");
 const loadSearch = () => import("./features/search/SearchPage");
 const FranchisePage = page(loadFranchise, "FranchisePage");
 const TitlePage = page(loadTitle, "TitlePage");
 const RoutePage = page(loadRoute, "RoutePage");
+const PrepPage = page(loadPrep, "PrepPage");
 const SearchPage = page(loadSearch, "SearchPage");
 // Sincronización en segundo plano (logros, feeds de planes, progreso de grupos): no hace
 // falta para pintar, se carga después.
@@ -193,6 +195,7 @@ const router = createBrowserRouter([
       { index: true, element: <HubPage /> },
       { path: "f/:franchiseId", element: <FranchisePage /> },
       { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },
+      { path: "f/:franchiseId/prep/:titleId", element: <PrepPage /> },
       { path: "t/:titleId", element: <TitlePage /> },
       { path: "account", element: <AccountPage /> },
       { path: "search", element: <SearchPage /> },

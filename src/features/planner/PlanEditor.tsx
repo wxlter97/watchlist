@@ -4,7 +4,9 @@ import { accentStyle, Button, Chip, formatRuntime, Notice, SectionLabel, SelectF
 import { franchiseMetaById, franchiseMetas, loadFranchises, useCatalog, withReferences } from "../../lib/catalog";
 import type { CatalogIndex } from "../../lib/catalogIndex";
 import { useLang } from "../../lib/i18n";
-import { CUSTOM_ORDER_ID } from "../../lib/orders";
+import { computeOrder, CUSTOM_ORDER_ID, resolveOrder } from "../../lib/orders";
+import { isPrepLevel, PREP_LEVELS, prepUnits } from "../../lib/prep";
+import type { Franchise, Title } from "../../lib/types";
 import { addDays, WEEKDAYS, type Weekday } from "../../lib/planner";
 import type { GoalType, PlanDoc, PlanGoal } from "../../lib/plans";
 import { newPlanId, usePlansStore } from "../../lib/plansStore";
@@ -23,8 +25,12 @@ function initialFranchiseId(params: URLSearchParams): string {
 /** Meta inicial desde la URL (?f=marvel&type=route&ref=spider-man) o la primera franquicia. */
 function initialGoal(params: URLSearchParams, index: CatalogIndex): PlanGoal {
   const franchise = index.franchisesById.get(initialFranchiseId(params))!;
-  const type = (["franchise", "order", "route"] as const).find((t) => t === params.get("type")) ?? "franchise";
+  const type = (["franchise", "order", "route", "prep"] as const).find((t) => t === params.get("type")) ?? "franchise";
   const ref = params.get("ref") ?? "";
+  if (type === "prep" && franchise.entries.some((e) => e.titleId === ref)) {
+    const level = params.get("level");
+    return { type, franchiseId: franchise.id, refId: ref, level: isPrepLevel(level) ? level : "recommended" };
+  }
   if (type === "route" && franchise.routes.some((r) => r.id === ref)) return { type, franchiseId: franchise.id, refId: ref };
   if (type === "order" && (ref === CUSTOM_ORDER_ID || franchise.orders.some((o) => o.id === ref))) {
     return { type, franchiseId: franchise.id, refId: ref };
@@ -34,11 +40,21 @@ function initialGoal(params: URLSearchParams, index: CatalogIndex): PlanGoal {
 
 /** Para "Prepárate para…": terminar el día antes del estreno. */
 function prepDeadline(goal: PlanGoal, today: string, index: CatalogIndex): string | undefined {
-  if (goal.type !== "route") return undefined;
-  const route = index.franchisesById.get(goal.franchiseId)?.routes.find((r) => r.id === goal.refId);
-  const target = route?.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
+  let target: Title | undefined;
+  if (goal.type === "prep") target = index.titlesById.get(goal.refId);
+  else if (goal.type === "route") {
+    const route = index.franchisesById.get(goal.franchiseId)?.routes.find((r) => r.id === goal.refId);
+    target = route?.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
+  }
   if (!target || target.releaseDate <= today) return undefined;
   return addDays(target.releaseDate, -1);
+}
+
+/** Títulos de la franquicia con algo antes en el cronológico, en ese orden (sin repetir series). */
+function prepTargetsOf(franchise: Franchise, index: CatalogIndex): Title[] {
+  const chrono = franchise.orders.find((o) => o.type === "chronological")?.id;
+  const titles = computeOrder(franchise, resolveOrder(franchise, chrono), index.titlesById).map((i) => i.title);
+  return [...new Map(titles.map((t) => [t.id, t])).values()].filter((t) => prepUnits(franchise, t.id, "all", index).length > 0);
 }
 
 export function PlanEditor() {
@@ -66,7 +82,7 @@ export function PlanMissing() {
 }
 
 function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchParams }) {
-  const { t, lang, loc, date } = useLang();
+  const { t, lang, loc, date, name: titleLabel } = useLang();
   const navigate = useNavigate();
   const savePlan = usePlansStore((s) => s.savePlan);
   const goalLabel = useGoalLabel();
@@ -102,7 +118,14 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
   const view = usePlanView(draft);
   const valid = validHours && availableDays.length > 0 && Boolean(startDate) && (!deadline || deadline >= startDate);
 
+  // Títulos que se pueden preparar: los del cronológico que tienen algo antes, el más próximo a estrenarse primero elegido.
+  const prepTargets = useMemo(() => prepTargetsOf(franchise, index), [franchise, index]);
   const setGoalType = (type: GoalType) => {
+    if (type === "prep") {
+      const upcoming = prepTargets.find((t) => t.releaseDate >= today) ?? prepTargets.at(-1);
+      if (!upcoming) return;
+      return changeGoal({ type, franchiseId: franchise.id, refId: upcoming.id, level: "recommended" });
+    }
     const refId = type === "route" ? (franchise.routes[0]?.id ?? "") : type === "order" ? franchise.orders[0]!.id : franchise.id;
     if (type === "route" && !refId) return;
     changeGoal({ type, franchiseId: franchise.id, refId });
@@ -164,12 +187,13 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
         />
         <Tabs
           label={t("planner.goalType")}
-          layout="grid grid-cols-3"
+          layout="grid grid-cols-2 sm:grid-cols-4"
           value={goal.type}
           options={[
             { value: "franchise", label: t("planner.goalTypes.franchise") },
             { value: "order", label: t("planner.goalTypes.order") },
             { value: "route", label: t("planner.goalTypes.route"), disabled: franchise.routes.length === 0 },
+            { value: "prep", label: t("planner.goalTypes.prep"), disabled: prepTargets.length === 0 },
           ]}
           onChange={setGoalType}
         />
@@ -181,6 +205,23 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
             options={orderOptions}
             onChange={(e) => changeGoal({ ...goal, refId: e.target.value })}
           />
+        )}
+        {goal.type === "prep" && (
+          <>
+            <SelectField
+              label={t("prep.target")}
+              value={goal.refId}
+              options={prepTargets.map((x) => ({ value: x.id, label: titleLabel(x) }))}
+              onChange={(e) => changeGoal({ ...goal, refId: e.target.value })}
+            />
+            <Tabs
+              label={t("prep.level")}
+              layout="grid grid-cols-3"
+              value={goal.level ?? "recommended"}
+              options={PREP_LEVELS.map((l) => ({ value: l, label: t(`prep.levels.${l}`) }))}
+              onChange={(level) => changeGoal({ ...goal, level })}
+            />
+          </>
         )}
         {goal.type === "route" && (
           <SelectField

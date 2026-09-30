@@ -33,13 +33,17 @@ export function useItemLabel() {
 
 /** Nombre de la meta para mostrar: "Marvel · Ruta esencial". */
 export function useGoalLabel() {
-  const { t, loc } = useLang();
+  const { t, loc, name } = useLang();
   const index = useCatalogIndex();
   return (goal: PlanDoc["goal"]) => {
     const franchise = index.franchisesById.get(goal.franchiseId);
     // Sin cargar todavía: el nombre de la franquicia sale del manifiesto.
     if (!franchise) return loc(franchiseMetaById.get(goal.franchiseId)?.name ?? goal.refId);
     const fName = loc(franchise.name);
+    if (goal.type === "prep") {
+      const target = index.titlesById.get(goal.refId);
+      return `${t("prep.title", { title: target ? name(target) : goal.refId })} · ${t(`prep.levels.${goal.level ?? "recommended"}`)}`;
+    }
     if (goal.type === "route") {
       const route = franchise.routes.find((r) => r.id === goal.refId);
       return route ? loc(route.name) : fName;

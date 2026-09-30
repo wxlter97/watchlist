@@ -6,6 +6,7 @@ import { useCatalog, withReferences } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useIsWatched } from "../../lib/watched";
 import { resolveRoute, routeProgress } from "../../lib/routes";
+import { PrepView } from "./PrepView";
 
 export function RoutePage() {
   const { franchiseId, routeId } = useParams();
@@ -17,6 +18,10 @@ export function RoutePage() {
 
   if (!ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !route) return <p className="py-16 text-center text-muted">{t("routes.notFound")}</p>;
+
+  // "Prepárate para…": con niveles (lo mínimo es esta ruta).
+  const prepTarget = route.kind === "prep" && route.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
+  if (prepTarget) return <PrepView franchise={franchise} target={prepTarget} route={route} index={index} />;
 
   const items = resolveRoute(route, franchise, index);
   const progress = routeProgress(items, isWatched);
