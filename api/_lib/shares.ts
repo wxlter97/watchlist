@@ -1,6 +1,6 @@
-import type { ShareDoc } from "../../src/lib/shares";
-import { adminDb } from "./admin";
-import { HttpError } from "./tmdb";
+import type { ShareDoc } from "../../src/lib/shares.js";
+import { adminDb } from "./admin.js";
+import { HttpError } from "./tmdb.js";
 
 export type PublicShare = Omit<ShareDoc, "createdAt" | "updatedAt"> & { updatedAtMs: number };
 

@@ -1,10 +1,10 @@
 // GET /{lang}/s/{shareId} (reescrito a /api/share?lang=&id=) → página pública de solo lectura
 // de un link compartido, renderizada en el servidor con metadatos Open Graph (SPEC §7, §9.5).
 // Funciona sin JavaScript y sin sesión; muestra la foto guardada, nunca el progreso vivo.
-import type { Lang } from "../src/lib/types";
-import { localize, readFranchise, titleName, titlesById } from "./_lib/catalog";
-import { loadShare, type PublicShare } from "./_lib/shares";
-import { HttpError } from "./_lib/tmdb";
+import type { Lang } from "../src/lib/types.js";
+import { localize, readFranchise, titleName, titlesById } from "./_lib/catalog.js";
+import { loadShare, type PublicShare } from "./_lib/shares.js";
+import { HttpError } from "./_lib/tmdb.js";
 
 const TEXT = {
   es: {

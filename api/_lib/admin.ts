@@ -2,7 +2,7 @@
 // endpoint valida por su cuenta qué puede leer.
 import { cert, getApps, initializeApp } from "firebase-admin/app";
 import { getFirestore, type Firestore } from "firebase-admin/firestore";
-import { HttpError } from "./tmdb";
+import { HttpError } from "./tmdb.js";
 
 export function adminDb(): Firestore {
   if (!getApps().length) {

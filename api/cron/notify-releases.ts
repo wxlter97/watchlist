@@ -1,11 +1,11 @@
 // Cron diario: avisa de estrenos de las franquicias seguidas, hoy y en 7 días (SPEC §7, §9.6).
 import { join } from "node:path";
-import { releasesDue, releasesMessage, type CatalogTitleLite } from "../../src/lib/notifications";
-import type { Lang } from "../../src/lib/types";
-import { adminDb } from "../_lib/admin";
-import { readData, titlesById } from "../_lib/catalog";
-import { assertCron, sendToUser } from "../_lib/push";
-import { errorResponse, json } from "../_lib/tmdb";
+import { releasesDue, releasesMessage, type CatalogTitleLite } from "../../src/lib/notifications.js";
+import type { Lang } from "../../src/lib/types.js";
+import { adminDb } from "../_lib/admin.js";
+import { readData, titlesById } from "../_lib/catalog.js";
+import { assertCron, sendToUser } from "../_lib/push.js";
+import { errorResponse, json } from "../_lib/tmdb.js";
 
 export async function GET(request: Request): Promise<Response> {
   try {

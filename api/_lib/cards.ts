@@ -1,8 +1,8 @@
 // Tarjetas compartibles (SPEC §9.4) como árboles de elementos para satori. Sin JSX: el
 // helper `h` arma los mismos objetos que React.createElement.
-import { ACHIEVEMENT_ICONS, ICON_STROKE } from "../../src/lib/achievementIcons";
-import { onColor } from "../../src/lib/color";
-import type { Lang } from "../../src/lib/types";
+import { ACHIEVEMENT_ICONS, ICON_STROKE } from "../../src/lib/achievementIcons.js";
+import { onColor } from "../../src/lib/color.js";
+import type { Lang } from "../../src/lib/types.js";
 
 export interface El {
   type: string;

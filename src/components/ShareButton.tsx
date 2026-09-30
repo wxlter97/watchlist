@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLang } from "../lib/i18n";
+import { reportError } from "../lib/errorReport";
 import { cardUrl, shareCard, type CardParams } from "../lib/share";
 import { showToast } from "../lib/toasts";
 import { Button } from "./ui";
@@ -31,7 +32,8 @@ export function ShareButton({
     try {
       const result = await shareCard(cardUrl(card, lang), { title, text, fileName });
       if (result === "downloaded") showToast({ message: t("share.downloaded") });
-    } catch {
+    } catch (err) {
+      reportError("share", err);
       showToast({ message: t("share.error") });
     } finally {
       setBusy(false);

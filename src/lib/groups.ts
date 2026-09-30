@@ -29,7 +29,7 @@ export interface GroupProgressDoc {
   updatedAt: string;
 }
 
-export const MAX_MEMBERS = 12;
+export { MAX_MEMBERS } from "./groupLimits";
 
 /** Títulos de la meta: la ruta, o la franquicia por estreno (continuidades visibles por defecto). */
 export function groupTitles(group: Pick<GroupDoc, "franchiseId" | "routeId">, index: CatalogIndex): Title[] {

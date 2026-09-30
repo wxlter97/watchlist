@@ -1,6 +1,6 @@
 // GET /api/providers?tmdbId=&type=movie|tv&region=SV → dónde ver (SPEC §7).
 // Datos de JustWatch vía TMDB: la UI debe mostrar la atribución.
-import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb";
+import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb.js";
 
 interface TmdbProvider {
   provider_id: number;

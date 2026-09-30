@@ -3,7 +3,7 @@
 // temporadas o episodios nuevos de las series que siguen en emisión.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb";
+import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb.js";
 
 interface CatalogTitle {
   id: string;

@@ -4,9 +4,9 @@
 import { timingSafeEqual } from "node:crypto";
 import { getAuth } from "firebase-admin/auth";
 import { FieldValue } from "firebase-admin/firestore";
-import { MAX_MEMBERS } from "../../src/lib/groups";
-import { adminDb } from "../_lib/admin";
-import { errorResponse, HttpError, json } from "../_lib/tmdb";
+import { MAX_MEMBERS } from "../../src/lib/groupLimits.js";
+import { adminDb } from "../_lib/admin.js";
+import { errorResponse, HttpError, json } from "../_lib/tmdb.js";
 
 const ID = /^[A-Za-z0-9_-]{1,128}$/;
 

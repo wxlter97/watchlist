@@ -1,8 +1,8 @@
 // Lectura del catálogo desde las funciones (los JSON de src/data, incluidos en el deploy).
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import type { Lang, LocalizedText } from "../../src/lib/types";
-import { HttpError } from "./tmdb";
+import type { Lang, LocalizedText } from "../../src/lib/types.js";
+import { HttpError } from "./tmdb.js";
 
 const DATA = join(process.cwd(), "src", "data");
 export const readData = <T,>(path: string): T => JSON.parse(readFileSync(join(DATA, path), "utf8")) as T;

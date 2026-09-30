@@ -18,15 +18,39 @@ export function cardUrl(params: CardParams, lang: Lang): string {
   return `/api/og?${search}`;
 }
 
+/** La tarjeta como PNG. Un fallo de red o del servidor se reintenta una vez (arranque en frío). */
+async function fetchCard(url: string): Promise<Blob> {
+  let failure: Error | undefined;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(url);
+      if (res.ok && res.headers.get("content-type")?.startsWith("image/")) return await res.blob();
+      failure = new Error(`og ${res.status} ${(await res.text().catch(() => "")).slice(0, 200)}`);
+      if (res.status < 500) break;
+    } catch (err) {
+      failure = err instanceof Error ? err : new Error(String(err));
+    }
+    await new Promise((r) => setTimeout(r, 800));
+  }
+  throw failure ?? new Error("og: sin respuesta");
+}
+
+function tryFile(blob: Blob, name: string): File | undefined {
+  try {
+    return new File([blob], name, { type: "image/png" });
+  } catch {
+    return undefined;
+  }
+}
+
 export type ShareResult = "shared" | "downloaded" | "cancelled";
 
 export async function shareCard(url: string, { title, text, fileName }: { title: string; text: string; fileName: string }): Promise<ShareResult> {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`og ${res.status}`);
-  const blob = await res.blob();
-  const file = new File([blob], `${fileName}.png`, { type: "image/png" });
+  const blob = await fetchCard(url);
+  // Algunos navegadores no tienen el constructor File: sin él se descarga igual.
+  const file = tryFile(blob, `${fileName}.png`);
 
-  if (typeof navigator.canShare === "function" && navigator.canShare({ files: [file] })) {
+  if (file && typeof navigator.canShare === "function" && navigator.canShare({ files: [file] })) {
     try {
       await navigator.share({ files: [file], title, text });
       return "shared";
@@ -36,7 +60,7 @@ export async function shareCard(url: string, { title, text, fileName }: { title:
     }
   }
   const href = URL.createObjectURL(blob);
-  const a = Object.assign(document.createElement("a"), { href, download: file.name });
+  const a = Object.assign(document.createElement("a"), { href, download: `${fileName}.png` });
   a.click();
   setTimeout(() => URL.revokeObjectURL(href), 1000);
   return "downloaded";
