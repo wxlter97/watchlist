@@ -15,6 +15,7 @@ pnpm test:coverage       # con cobertura; orders, planner, achievements y el val
 pnpm typecheck
 pnpm build && pnpm preview
 pnpm check:bundle        # después del build: ningún secreto ni código de servidor en dist/
+pnpm test:e2e            # PWA en Chromium real: manifest, español por defecto, offline (ver docs/RELEASE.md)
 ```
 
 ### Rendimiento
@@ -53,6 +54,25 @@ pnpm rules:deploy        # publica firestore.rules e índices en el proyecto rea
   login por redirect en Safari / PWA de iOS). Al desplegar, cambiar `VITE_FIREBASE_AUTH_DOMAIN`
   al dominio de la app y agregarlo a los dominios autorizados de Firebase Auth.
 
+## Errores y legales
+
+- Los errores del cliente (no capturados, promesas rechazadas y fallos de render) se envían a
+  `POST /api/log` y quedan en los logs de Vercel como `[client-error]` (solo mensaje, pila,
+  ruta y navegador; sin datos de la cuenta). Revisarlos en Vercel → Logs, filtrando por ese texto.
+- `/privacy` y `/terms` salen de `legal.*` en `src/locales/`. **Revisar el texto (y el contacto)
+  antes de lanzar**: es una base honesta de lo que hace la app, no asesoría legal.
+- Cuenta → "Eliminar cuenta" borra perfiles, progreso, links, grupos propios y el usuario de Auth.
+
+## Anuncios
+
+`AdSlot` (`src/components/AdSlot.tsx`) está listo pero apagado: sin `VITE_ADS_CLIENT` no
+renderiza ni carga nada. Para activarlos: definir `VITE_ADS_CLIENT` (ca-pub-…) y
+`VITE_ADS_SLOT_HUB`, poner la línea de la red en `public/ads.txt`. El aviso de
+consentimiento (`ConsentBanner`) aparece solo con anuncios activos y el script no se carga sin
+«Aceptar». Si se añade una
+CSP, permitir `pagead2.googlesyndication.com`. Los anuncios no van sobre controles ni en el
+flujo de marcar como visto.
+
 ## Funciones (`/api`)
 
 Funciones de Vercel con la firma Web estándar (`export function GET(request: Request)`).
@@ -67,6 +87,7 @@ En desarrollo, `pnpm dev` las sirve con un middleware de Vite: no hace falta `ve
 | `GET /api/og?kind=share&id=…` | Vista previa Open Graph (1200×630) de un link compartido | 1 h |
 | `GET /{es,en}/s/{shareId}` → `/api/share` | Página pública de solo lectura, renderizada en el servidor | 1 min |
 | `POST /api/groups/join` | Unirse a un grupo con el código de invitación (token de Firebase) | — |
+| `POST /api/log` | Errores del cliente a los logs de Vercel (sin datos personales) | — |
 | `GET /api/cron/notify-releases` | Cron diario: estrenos de hoy y en 7 días | — |
 | `GET /api/cron/notify-streaming` | Cron diario: pendientes que llegaron a streaming en la región | — |
 

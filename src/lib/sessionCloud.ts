@@ -4,11 +4,13 @@ import {
   onAuthStateChanged,
   signInWithPopup,
   signInWithRedirect,
+  deleteUser,
   signOut as firebaseSignOut,
   type User,
 } from "firebase/auth";
 import {
   clearIndexedDbPersistence,
+  collection,
   doc,
   getDocs,
   onSnapshot,
@@ -40,7 +42,7 @@ import { planMigration, planSize } from "./migrate";
 import { useSharesStore } from "./sharesStore";
 import { sharesCollection } from "./sharesCloud";
 import { useGroupsStore } from "./groupsStore";
-import { groupsCollection } from "./groupsCloud";
+import { deleteGroup, groupsCollection, removeMember } from "./groupsCloud";
 import { clearAccountHint, enterGuest, isMigrationDismissed, setAccountHint, useSession } from "./session";
 import { EMPTY, hasGuestData, loadGuest, saveGuest, setBackend, useProgressStore, type ProgressData } from "./progressStore";
 
@@ -326,9 +328,10 @@ export async function deleteProfile(pid: string) {
 
 // ---- Auth ----
 
-function isIosStandalone() {
+/** La app instalada (iOS o Android): ahí el popup de Google no devuelve la sesión a la PWA. */
+function isStandalone() {
   const nav = navigator as Navigator & { standalone?: boolean };
-  return nav.standalone === true || (/iPad|iPhone|iPod/.test(navigator.userAgent) && matchMedia("(display-mode: standalone)").matches);
+  return nav.standalone === true || matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches;
 }
 
 function authErrorCode(err: unknown): string {
@@ -341,13 +344,13 @@ function redirect(provider: GoogleAuthProvider) {
   return signInWithRedirect(auth, provider);
 }
 
-/** Login con Google: popup, o redirect en la PWA instalada de iOS y si el popup está bloqueado. */
+/** Login con Google: popup, o redirect en la PWA instalada y si el popup está bloqueado. */
 export async function signIn() {
   const provider = new GoogleAuthProvider();
   set({ authError: undefined });
-  // Con emuladores también redirect: es el flujo de la PWA en iOS y funciona en navegadores
+  // Con emuladores también redirect: es el flujo de la PWA instalada y funciona en navegadores
   // embebidos que no abren popups.
-  if (isIosStandalone() || import.meta.env.VITE_FIREBASE_EMULATORS === "1") return redirect(provider);
+  if (isStandalone() || import.meta.env.VITE_FIREBASE_EMULATORS === "1") return redirect(provider);
   try {
     await signInWithPopup(auth, provider);
   } catch (err) {
@@ -376,5 +379,53 @@ export async function signOut(force = false): Promise<"pending" | "done"> {
   await terminate(db);
   await clearIndexedDbPersistence(db).catch(report);
   location.reload();
+  return "done";
+}
+
+/**
+ * Elimina la cuenta y todo lo suyo: perfiles con su progreso, planes y logros, dispositivos
+ * de avisos, links compartidos, sus grupos (y lo saca de los ajenos) y el usuario de Auth.
+ * Devuelve "reauth" (sin tocar nada) si el último inicio de sesión es viejo: Firebase exige
+ * uno reciente para borrar el usuario y, sin él, los datos se borrarían sin poder cerrar.
+ */
+export async function deleteAccount(): Promise<"done" | "reauth"> {
+  const user = auth.currentUser;
+  if (!user) return "done";
+  const lastSignIn = Date.parse(user.metadata.lastSignInTime ?? "");
+  if (!Number.isFinite(lastSignIn) || Date.now() - lastSignIn > 4 * 60_000) return "reauth";
+
+  const uid = user.uid;
+  const profiles = await getDocs(paths.profiles(db, uid));
+  const refs = (
+    await Promise.all([
+      ...profiles.docs.flatMap((p) =>
+        ["progress", "franchiseState", "plans", "achievements"].map(async (sub) =>
+          (await getDocs(collection(db, "users", uid, "profiles", p.id, sub))).docs.map((d) => d.ref),
+        ),
+      ),
+      getDocs(collection(db, "users", uid, "devices")).then((s) => s.docs.map((d) => d.ref)),
+      getDocs(query(sharesCollection(), where("ownerUid", "==", uid))).then((s) => s.docs.map((d) => d.ref)),
+    ])
+  )
+    .flat()
+    .map((r) => r.withConverter(null));
+  refs.push(...profiles.docs.map((p) => p.ref.withConverter(null)), paths.user(db, uid).withConverter(null));
+
+  for (const group of useGroupsStore.getState().groups) {
+    if (group.ownerUid === uid) await deleteGroup(group.id);
+    else removeMember(group.id, uid);
+  }
+  stop(authUnsubs);
+  stop(profileUnsubs);
+  for (let i = 0; i < refs.length; i += 500) {
+    const batch = writeBatch(db);
+    refs.slice(i, i + 500).forEach((r) => batch.delete(r));
+    await batch.commit();
+  }
+  await deleteUser(user);
+  clearAccountHint();
+  await terminate(db);
+  await clearIndexedDbPersistence(db).catch(report);
+  location.assign("/");
   return "done";
 }

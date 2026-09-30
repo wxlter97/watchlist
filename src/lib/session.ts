@@ -152,7 +152,7 @@ export async function deleteProfile(pid: string) {
   return (await cloud()).deleteProfile(pid);
 }
 
-/** Login con Google: popup, o redirect en la PWA instalada de iOS y si el popup está bloqueado. */
+/** Login con Google: popup, o redirect en la PWA instalada y si el popup está bloqueado. */
 export async function signIn() {
   return (await cloud()).signIn();
 }
@@ -163,4 +163,9 @@ export async function signIn() {
  */
 export async function signOut(force = false): Promise<"pending" | "done"> {
   return (await cloud()).signOut(force);
+}
+
+/** Elimina la cuenta y todos sus datos. "reauth": hay que iniciar sesión otra vez y reintentar. */
+export async function deleteAccount(): Promise<"done" | "reauth"> {
+  return (await cloud()).deleteAccount();
 }

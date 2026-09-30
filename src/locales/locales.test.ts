@@ -3,10 +3,11 @@ import en from "./en.json";
 
 // Criterio de aceptación: toda la interfaz está disponible en español e inglés (SPEC §12).
 
-type Tree = { [key: string]: string | Tree };
+// Los textos largos (legal) son listas de secciones: se recorren igual que los objetos.
+type Tree = unknown;
 
 function leafKeys(tree: Tree, prefix = ""): string[] {
-  return Object.entries(tree).flatMap(([k, v]) => (typeof v === "string" ? [prefix + k] : leafKeys(v, `${prefix}${k}.`)));
+  return Object.entries(tree as object).flatMap(([k, v]) => (typeof v === "string" ? [prefix + k] : leafKeys(v as Tree, `${prefix}${k}.`)));
 }
 
 /** Clave base sin sufijo de plural de i18next (_one, _other…). */

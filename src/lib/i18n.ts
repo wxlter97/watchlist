@@ -17,7 +17,8 @@ void i18n
     nonExplicitSupportedLngs: true,
     fallbackLng: "es",
     interpolation: { escapeValue: false },
-    detection: { order: ["localStorage", "navigator"], lookupLocalStorage: "watch-order:lang", caches: ["localStorage"] },
+    // Español por defecto: solo cuenta el idioma que la persona eligió (no el del navegador).
+    detection: { order: ["localStorage"], lookupLocalStorage: "watch-order:lang", caches: ["localStorage"] },
   });
 
 i18n.on("languageChanged", (lng) => {

@@ -21,6 +21,32 @@ jobs:
       - run: pnpm build
       - run: pnpm check:bundle
 
+  # PWA en un navegador real: manifest, español por defecto, uso sin conexión.
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:e2e
+
+  # Dependencias de producción con vulnerabilidades conocidas (informativo: no bloquea).
+  audit:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: pnpm audit --prod --audit-level=high
+
   rules:
     runs-on: ubuntu-latest
     steps:

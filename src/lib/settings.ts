@@ -23,6 +23,8 @@ export const NO_NOTIFICATIONS: NotificationSettings = { releases: false, streami
 
 export interface Settings {
   followedFranchises: string[];
+  /** Rutas seguidas: su ruta en la app (`/f/marvel/r/…` o `/f/marvel/prep/{título}`). */
+  followedRoutes: string[];
   spoilerFree: boolean;
   streamingRegion: string;
   language?: Lang;
@@ -32,6 +34,7 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   followedFranchises: [],
+  followedRoutes: [],
   spoilerFree: true,
   streamingRegion: "SV",
   externalLinks: { letterboxd: true, imdb: true, trakt: true, letterboxdToast: true },
@@ -43,6 +46,7 @@ export function withDefaults(raw: unknown): Settings {
   const s = (raw && typeof raw === "object" ? raw : {}) as Partial<Settings>;
   return {
     followedFranchises: Array.isArray(s.followedFranchises) ? s.followedFranchises.filter((x) => typeof x === "string") : [],
+    followedRoutes: Array.isArray(s.followedRoutes) ? s.followedRoutes.filter((x) => typeof x === "string") : [],
     spoilerFree: typeof s.spoilerFree === "boolean" ? s.spoilerFree : DEFAULT_SETTINGS.spoilerFree,
     streamingRegion: typeof s.streamingRegion === "string" && /^[A-Z]{2}$/.test(s.streamingRegion) ? s.streamingRegion : DEFAULT_SETTINGS.streamingRegion,
     language: s.language === "es" || s.language === "en" ? s.language : undefined,
@@ -89,6 +93,11 @@ export function toggleFollow(franchiseId: string) {
   updateSettings({
     followedFranchises: current.includes(franchiseId) ? current.filter((id) => id !== franchiseId) : [...current, franchiseId],
   });
+}
+
+export function toggleFollowRoute(path: string) {
+  const current = useSettings.getState().followedRoutes;
+  updateSettings({ followedRoutes: current.includes(path) ? current.filter((p) => p !== path) : [...current, path] });
 }
 
 export function setExternalLink(key: keyof ExternalLinks, value: boolean) {

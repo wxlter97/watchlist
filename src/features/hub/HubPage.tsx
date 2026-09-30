@@ -1,15 +1,18 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router";
 import { accentStyle, Poster, ProgressBar, SearchIcon, SectionLabel, TitleMeta, WatchToggle } from "../../components/ui";
+import { AdSlot } from "../../components/AdSlot";
 import { FollowButton } from "../../components/FollowButton";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
-import { franchiseMetaById, franchiseMetas, useCatalogStore, type FranchiseMeta } from "../../lib/catalog";
+import { franchiseMetaById, franchiseMetas, useCatalog, useCatalogStore, withReferences, type FranchiseMeta } from "../../lib/catalog";
 import { effectiveHidden } from "../../lib/filters";
 import { useLang } from "../../lib/i18n";
 import { summarizeEntries, todayIso } from "../../lib/progress";
 import { setUnitWatched } from "../../lib/actions";
 import { useProgressStore } from "../../lib/progressStore";
-import { useManifestIsWatched } from "../../lib/watched";
+import { useIsWatched, useManifestIsWatched } from "../../lib/watched";
+import { prepUnits } from "../../lib/prep";
+import { resolveRoute, routeProgress } from "../../lib/routes";
 import { useSettings } from "../../lib/settings";
 import type { Franchise, Title } from "../../lib/types";
 
@@ -21,6 +24,7 @@ import { isWrappedSeason } from "../../lib/wrapped";
 export function HubPage() {
   const { t, loc } = useLang();
   const followedIds = useSettings((s) => s.followedFranchises);
+  const followedRoutes = useSettings((s) => s.followedRoutes);
   const progress = useProgressStore((s) => s.progress);
 
   // Todo lo del Hub sale del manifiesto: solo "continuar viendo" carga sus franquicias.
@@ -93,6 +97,18 @@ export function HubPage() {
         </Section>
       )}
 
+      {followedRoutes.length > 0 && (
+        <Section label={t("hub.routes")}>
+          <ul className="grid gap-4 sm:grid-cols-2">
+            {followedRoutes.map((path) => (
+              <li key={path}>
+                <FollowedRouteCard path={path} />
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
+
       {followed.length > 0 && (
         <Section label={t("hub.following")}>
           <FranchiseGrid franchises={followed} />
@@ -103,6 +119,8 @@ export function HubPage() {
         {!followed.length && <p className="mb-4 max-w-[58ch] text-sm leading-[1.55] text-fg-soft">{t("hub.followHint")}</p>}
         <FranchiseGrid franchises={others} />
       </Section>
+
+      <AdSlot slot={import.meta.env.VITE_ADS_SLOT_HUB ?? ""} />
 
       <Section label={t("hub.tools")}>
         <ul className="grid gap-[2px] border-2 border-line bg-line sm:grid-cols-2">
@@ -257,6 +275,41 @@ function FranchiseCard({ franchise }: { franchise: FranchiseMeta }) {
         <span className="border-t-2 border-line px-4 py-2.5 font-mono text-xs font-bold transition-colors duration-[120ms] ease-out group-hover:bg-faro group-hover:text-tinta">
           {t("hub.open")} →
         </span>
+      </Link>
+    </div>
+  );
+}
+
+/** Una ruta seguida: `/f/{franquicia}/r/{ruta}` o la automática `/f/{franquicia}/prep/{título}`. */
+function FollowedRouteCard({ path }: { path: string }) {
+  const { t, loc, name } = useLang();
+  const isWatched = useIsWatched();
+  const [, , franchiseId, kind, ref] = path.split("/");
+  const { index, ready } = useCatalog(withReferences(franchiseId));
+  const franchise = franchiseId ? index.franchisesById.get(franchiseId) : undefined;
+  if (!franchise || !ready) return <div aria-busy="true" className="h-[120px] border-2 border-line bg-surface" />;
+
+  const route = kind === "r" ? franchise.routes.find((r) => r.id === ref) : undefined;
+  const target = kind === "prep" ? index.titlesById.get(ref ?? "") : undefined;
+  if (!route && !target) return null;
+  const items = route ? resolveRoute(route, franchise, index) : prepUnits(franchise, target!.id, "recommended", index);
+  const progress = routeProgress(items, isWatched);
+  const heading = route ? loc(route.name) : t("prep.title", { title: name(target!) });
+
+  return (
+    <div style={accentStyle(franchise.accentColor)} className="flex h-full flex-col border-2 border-line bg-surface">
+      <CardHeader>
+        <span className="truncate">{loc(franchise.name)}</span>
+        <FollowButton route={path} compact />
+      </CardHeader>
+      <Link to={path} className="group flex flex-1 flex-col gap-3 p-4">
+        <h3 className="display text-[22px] group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">{heading}</h3>
+        <div className="mt-auto flex items-end justify-between">
+          <span className="font-mono text-[11px] tracking-[0.06em] text-muted uppercase">
+            {progress.watched === progress.total ? t("routes.done") : t("progress.count", { watched: progress.watched, total: progress.total })}
+          </span>
+        </div>
+        <ProgressBar ratio={progress.total ? progress.watched / progress.total : 0} label={heading} />
       </Link>
     </div>
   );

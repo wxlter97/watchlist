@@ -1,4 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
+import { ConfirmDialog } from "../../components/ConfirmDialog";
 import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
 import { useLang } from "../../lib/i18n";
@@ -6,6 +7,7 @@ import { DataSection, NotificationsSection, Preferences } from "./SettingsSectio
 import { SharesSection } from "./SharesSection";
 import {
   createProfile,
+  deleteAccount,
   deleteProfile,
   preloadAccount,
   renameProfile,
@@ -74,6 +76,21 @@ function SignedInCard() {
   const user = useSession((s) => s.user)!;
   const [pending, setPending] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<"reauth" | "failed" | null>(null);
+
+  const handleDelete = async () => {
+    setBusy(true);
+    setDeleteError(null);
+    try {
+      if ((await deleteAccount()) === "reauth") setDeleteError("reauth");
+    } catch (err) {
+      console.error("[deleteAccount]", err);
+      setDeleteError("failed");
+    }
+    setDeleting(false);
+    setBusy(false);
+  };
 
   const handleSignOut = async (force: boolean) => {
     setBusy(true);
@@ -113,6 +130,24 @@ function SignedInCard() {
           {t("account.signOut")}
         </Button>
       )}
+      {deleteError && (
+        <Notice tone="error">
+          <p>{t(deleteError === "reauth" ? "deleteAccount.reauth" : "deleteAccount.failed")}</p>
+        </Notice>
+      )}
+      <Button variant="danger" disabled={busy} onClick={() => setDeleting(true)}>
+        {t("deleteAccount.title")}
+      </Button>
+      <ConfirmDialog
+        open={deleting}
+        title={t("deleteAccount.title")}
+        confirmLabel={t("deleteAccount.confirm")}
+        cancelLabel={t("common.cancel")}
+        onCancel={() => setDeleting(false)}
+        onConfirm={() => void handleDelete()}
+      >
+        <p>{t("deleteAccount.hint")}</p>
+      </ConfirmDialog>
     </section>
   );
 }
