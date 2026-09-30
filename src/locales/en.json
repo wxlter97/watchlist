@@ -202,7 +202,10 @@
     "hint": "Works in English or Spanish, with or without accents.",
     "empty": "Nothing matches “{{query}}”.",
     "titles_one": "{{count}} title",
-    "titles_other": "{{count}} titles"
+    "titles_other": "{{count}} titles",
+    "recent": "Recent searches",
+    "clearRecent": "Clear",
+    "removeRecent": "Remove “{{query}}” from recent"
   },
   "meta": {
     "locale": "en-US"

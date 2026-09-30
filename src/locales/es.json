@@ -202,7 +202,10 @@
     "hint": "Funciona en español o en inglés, con o sin acentos.",
     "empty": "Nada coincide con «{{query}}».",
     "titles_one": "{{count}} título",
-    "titles_other": "{{count}} títulos"
+    "titles_other": "{{count}} títulos",
+    "recent": "Búsquedas recientes",
+    "clearRecent": "Borrar",
+    "removeRecent": "Quitar «{{query}}» de las recientes"
   },
   "meta": {
     "locale": "es-MX"

@@ -1,9 +1,10 @@
-import { useDeferredValue, useMemo } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, SearchIcon, SectionLabel } from "../../components/ui";
 import { useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
+import { addRecent, clearRecent, loadRecent, removeRecent } from "../../lib/recentSearches";
 import { searchCatalog } from "../../lib/search";
 
 export function SearchPage() {
@@ -14,6 +15,14 @@ export function SearchPage() {
   // La búsqueda recorre todo el catálogo: se descarga al abrirla (con el service worker, una vez).
   const catalog = useCatalog("all");
   const results = useMemo(() => searchCatalog(catalog.index, deferred, lang), [catalog.index, deferred, lang]);
+  const hasResults = results.titles.length + results.franchises.length + results.routes.length > 0;
+  const [recent, setRecent] = useState(loadRecent);
+  // Se guarda la búsqueda que dio resultados y se quedó quieta un momento (no cada letra).
+  useEffect(() => {
+    if (!catalog.ready || !hasResults || deferred.trim().length < 2) return;
+    const timer = setTimeout(() => setRecent(addRecent(deferred)), 1500);
+    return () => clearTimeout(timer);
+  }, [catalog.ready, hasResults, deferred]);
   const empty = deferred.trim() && !results.titles.length && !results.franchises.length && !results.routes.length;
 
   return (
@@ -32,6 +41,33 @@ export function SearchPage() {
         />
       </label>
 
+      {!deferred.trim() && recent.length > 0 && (
+        <section className="mt-6">
+          <div className="flex items-center justify-between">
+            <SectionLabel>{t("search.recent")}</SectionLabel>
+            <button type="button" onClick={() => setRecent(clearRecent())} className="text-link font-mono text-[11px] uppercase">
+              {t("search.clearRecent")}
+            </button>
+          </div>
+          <ul className="flex flex-wrap gap-2">
+            {recent.map((q) => (
+              <li key={q} className="flex border-2 border-line bg-surface">
+                <button type="button" onClick={() => setParams({ q }, { replace: true })} className="min-h-10 px-3 font-mono text-sm hover:bg-fg hover:text-bg">
+                  {q}
+                </button>
+                <button
+                  type="button"
+                  aria-label={t("search.removeRecent", { query: q })}
+                  onClick={() => setRecent(removeRecent(q))}
+                  className="min-h-10 border-l-2 border-line-soft px-2.5 font-mono text-muted hover:bg-fg hover:text-bg"
+                >
+                  ×
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       {!deferred.trim() && <p className="mt-6 text-sm text-fg-soft">{t("search.hint")}</p>}
       {deferred.trim() && !catalog.ready && <p className="mt-6 text-sm text-muted">…</p>}
       {empty && catalog.ready && <p className="mt-6 text-sm text-fg-soft">{t("search.empty", { query: deferred })}</p>}
