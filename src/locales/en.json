@@ -637,5 +637,127 @@
     "linkHint": "The bare minimum, the recommended titles or everything before it.",
     "target": "Title",
     "empty": "Nothing comes before this title in chronological order."
+  },
+  "legal": {
+    "updated": "Last updated: September 30, 2026",
+    "back": "← Back",
+    "privacyLink": "Privacy",
+    "termsLink": "Terms",
+    "privacy": {
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "h": "Who is responsible",
+          "p": [
+            "Watch Order is a personal project by wxlter. For any question about your data, reach me through wxlter.dev."
+          ]
+        },
+        {
+          "h": "What data the app uses",
+          "p": [
+            "As a guest, your progress, plans and settings are stored only on your device (localStorage) and never sent to a server.",
+            "If you sign in with Google, we store your name, email and profile photo (provided by Google), your profiles, what you mark as watched, your plans, achievements, settings and, if you use them, your groups, shared links and your device token for notifications."
+          ]
+        },
+        {
+          "h": "What for",
+          "p": [
+            "Only to make the app work: syncing your progress across devices, showing what's next, sending the notifications you turn on and building the links and groups you create. We don't sell your data or use it to profile you."
+          ]
+        },
+        {
+          "h": "Third-party services",
+          "p": [
+            "Google Firebase (sign-in, database and push notifications), Vercel (hosting; temporarily logs IP addresses) and TMDB (catalog, synopses and posters: your browser requests images directly from image.tmdb.org, and \"where to watch\" uses JustWatch data via TMDB).",
+            "If ads are enabled, Google AdSense may use cookies or identifiers to serve them, only if you accept in the consent notice. You can change your choice below at any time."
+          ]
+        },
+        {
+          "h": "Error logging",
+          "p": [
+            "If the app fails, it sends our server the error message, the page (without parameters) and the browser. It doesn't include your account or your progress."
+          ]
+        },
+        {
+          "h": "How long",
+          "p": [
+            "While you have an account. Signing out clears the device's local cache. Deleting a profile removes its progress."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "You can export your progress (Account → Backup) and delete your account with all your data (Account → Delete account). You can also ask for access or correction by writing to me. If you're in the EU/UK, you can complain to your data protection authority."
+          ]
+        },
+        {
+          "h": "Children",
+          "p": [
+            "The app isn't directed at children under 13."
+          ]
+        },
+        {
+          "h": "Changes",
+          "p": [
+            "If this policy changes, this page and its date are updated."
+          ]
+        }
+      ],
+      "adsChoice": "Ads and cookies",
+      "adsReset": "Change my choice"
+    },
+    "terms": {
+      "title": "Terms of use",
+      "sections": [
+        {
+          "h": "Use",
+          "p": [
+            "Watch Order is free and provided \"as is\", without warranties. Watch orders and recommendations are guidance and may contain mistakes."
+          ]
+        },
+        {
+          "h": "Your account",
+          "p": [
+            "You are responsible for what you do with your account. Links and groups you share are visible to whoever receives them: don't publish anything you don't want others to see."
+          ]
+        },
+        {
+          "h": "Third-party content",
+          "p": [
+            "Titles, synopses and posters come from TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB. Trademarks and works belong to their owners. Watch Order doesn't host or stream movies or shows."
+          ]
+        },
+        {
+          "h": "Acceptable use",
+          "p": [
+            "Don't abuse automated features (API, notifications) or try to access other people's data."
+          ]
+        },
+        {
+          "h": "Changes and ending",
+          "p": [
+            "We may change or remove features. You can stop using the app and delete your account at any time."
+          ]
+        }
+      ]
+    }
+  },
+  "consent": {
+    "text": "We use ads to keep Watch Order running. Do you allow Google advertising cookies and identifiers? You can change this anytime in Privacy.",
+    "accept": "Accept",
+    "reject": "Reject"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "body": "An unexpected error occurred. We've logged it. Reload to continue; your progress is safe.",
+    "reload": "Reload",
+    "home": "Go home"
+  },
+  "deleteAccount": {
+    "title": "Delete account",
+    "hint": "Deletes your account and all your data: profiles, progress, plans, achievements, shared links and your groups. This can't be undone.",
+    "confirm": "Delete everything",
+    "reauth": "For security, sign out, sign in with Google again and repeat this right away.",
+    "failed": "Couldn't delete the account. Try again."
   }
 }

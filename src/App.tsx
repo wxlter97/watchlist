@@ -1,3 +1,5 @@
+import { ConsentBanner } from "./components/ConsentBanner";
+import { RouteError } from "./components/RouteError";
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
 import { lazy, Suspense, useEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
@@ -44,6 +46,8 @@ const ComparePage = page(() => import("./features/groups/ComparePage"), "Compare
 const GroupPage = page(() => import("./features/groups/GroupPage"), "GroupPage");
 const GroupsPage = page(() => import("./features/groups/GroupsPage"), "GroupsPage");
 const JoinPage = page(() => import("./features/groups/JoinPage"), "JoinPage");
+const PrivacyPage = page(() => import("./features/legal/LegalPage"), "PrivacyPage");
+const TermsPage = page(() => import("./features/legal/LegalPage"), "TermsPage");
 const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
@@ -172,6 +176,7 @@ function Layout() {
         </Suspense>
       </main>
       <Toaster />
+      <ConsentBanner />
       <Suspense fallback={null}>
         <PlanSync />
         <AchievementSync />
@@ -183,6 +188,14 @@ function Layout() {
           {t("about.madeBy")}
         </a>
         <p>{t("about.tmdb")}</p>
+        <p className="flex gap-4">
+          <Link to="/privacy" className="underline">
+            {t("legal.privacyLink")}
+          </Link>
+          <Link to="/terms" className="underline">
+            {t("legal.termsLink")}
+          </Link>
+        </p>
       </footer>
     </div>
   );
@@ -191,7 +204,10 @@ function Layout() {
 const router = createBrowserRouter([
   {
     element: <Layout />,
+    errorElement: <RouteError />,
     children: [
+      { path: "privacy", element: <PrivacyPage /> },
+      { path: "terms", element: <TermsPage /> },
       { index: true, element: <HubPage /> },
       { path: "f/:franchiseId", element: <FranchisePage /> },
       { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },

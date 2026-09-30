@@ -164,3 +164,8 @@ export async function signIn() {
 export async function signOut(force = false): Promise<"pending" | "done"> {
   return (await cloud()).signOut(force);
 }
+
+/** Elimina la cuenta y todos sus datos. "reauth": hay que iniciar sesión otra vez y reintentar. */
+export async function deleteAccount(): Promise<"done" | "reauth"> {
+  return (await cloud()).deleteAccount();
+}

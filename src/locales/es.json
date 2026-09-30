@@ -637,5 +637,127 @@
     "linkHint": "Lo mínimo, lo recomendado o todo lo que viene antes.",
     "target": "Título",
     "empty": "No hay nada antes de este título en el orden cronológico."
+  },
+  "legal": {
+    "updated": "Última actualización: 30 de septiembre de 2026",
+    "back": "← Volver",
+    "privacyLink": "Privacidad",
+    "termsLink": "Términos",
+    "privacy": {
+      "title": "Política de privacidad",
+      "sections": [
+        {
+          "h": "Quién es responsable",
+          "p": [
+            "Watch Order es un proyecto personal de wxlter. Para cualquier consulta sobre tus datos, escríbeme desde wxlter.dev."
+          ]
+        },
+        {
+          "h": "Qué datos usa la app",
+          "p": [
+            "Como invitado, tu progreso, tus planes y tus ajustes se guardan solo en tu dispositivo (localStorage) y no se envían a ningún servidor.",
+            "Si inicias sesión con Google, guardamos tu nombre, correo y foto de perfil (los da Google), tus perfiles, lo que marcas como visto, tus planes, logros, ajustes y, si los activas, los datos de tus grupos, links compartidos y el token de tu dispositivo para los avisos."
+          ]
+        },
+        {
+          "h": "Para qué",
+          "p": [
+            "Solo para que la app funcione: sincronizar tu progreso entre dispositivos, mostrarte lo que sigue, enviarte los avisos que actives y armar los links y grupos que tú crees. No vendemos tus datos ni los usamos para perfilarte."
+          ]
+        },
+        {
+          "h": "Servicios de terceros",
+          "p": [
+            "Google Firebase (inicio de sesión, base de datos y avisos push), Vercel (alojamiento; registra direcciones IP de forma temporal) y TMDB (catálogo, sinopsis y pósters: tu navegador pide las imágenes directamente a image.tmdb.org y \"dónde ver\" usa datos de JustWatch vía TMDB).",
+            "Si se activan los anuncios, Google AdSense puede usar cookies o identificadores para mostrarlos, solo si lo aceptas en el aviso de consentimiento. Puedes cambiar tu elección abajo en cualquier momento."
+          ]
+        },
+        {
+          "h": "Registro de errores",
+          "p": [
+            "Si la app falla, envía a nuestro servidor el mensaje del error, la página (sin parámetros) y el navegador. No incluye tu cuenta ni tu progreso."
+          ]
+        },
+        {
+          "h": "Cuánto tiempo",
+          "p": [
+            "Mientras tengas cuenta. Cerrar sesión borra la caché local del dispositivo. Borrar un perfil elimina su progreso."
+          ]
+        },
+        {
+          "h": "Tus derechos",
+          "p": [
+            "Puedes exportar tu progreso (Cuenta → Copia de seguridad) y eliminar tu cuenta con todos tus datos (Cuenta → Eliminar cuenta). También puedes pedir acceso o corrección escribiéndome. Si estás en la UE/UK, puedes reclamar ante tu autoridad de protección de datos."
+          ]
+        },
+        {
+          "h": "Menores",
+          "p": [
+            "La app no está dirigida a menores de 13 años."
+          ]
+        },
+        {
+          "h": "Cambios",
+          "p": [
+            "Si esta política cambia, se actualiza esta página y su fecha."
+          ]
+        }
+      ],
+      "adsChoice": "Anuncios y cookies",
+      "adsReset": "Cambiar mi elección"
+    },
+    "terms": {
+      "title": "Términos de uso",
+      "sections": [
+        {
+          "h": "Uso",
+          "p": [
+            "Watch Order es gratuito y se ofrece \"tal cual\", sin garantías. El orden de visualización y las recomendaciones son orientativos y pueden tener errores."
+          ]
+        },
+        {
+          "h": "Tu cuenta",
+          "p": [
+            "Eres responsable de lo que hagas con tu cuenta. Los links y grupos que compartas son visibles para quien los reciba: no publiques nada que no quieras que otros vean."
+          ]
+        },
+        {
+          "h": "Contenido de terceros",
+          "p": [
+            "Títulos, sinopsis y pósters vienen de TMDB. Esta app usa la API de TMDB pero no está avalada ni certificada por TMDB. Las marcas y obras pertenecen a sus dueños. Watch Order no aloja ni transmite películas ni series."
+          ]
+        },
+        {
+          "h": "Uso aceptable",
+          "p": [
+            "No abuses de las funciones automáticas (API, avisos), ni intentes acceder a datos de otras personas."
+          ]
+        },
+        {
+          "h": "Cambios y cierre",
+          "p": [
+            "Podemos modificar o retirar funciones. Puedes dejar de usar la app y eliminar tu cuenta cuando quieras."
+          ]
+        }
+      ]
+    }
+  },
+  "consent": {
+    "text": "Usamos anuncios para sostener Watch Order. ¿Permites cookies e identificadores publicitarios de Google? Puedes cambiarlo cuando quieras en Privacidad.",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
+  "errors": {
+    "title": "Algo salió mal",
+    "body": "Se produjo un error inesperado. Ya lo registramos. Recarga para seguir; tu progreso está a salvo.",
+    "reload": "Recargar",
+    "home": "Ir al inicio"
+  },
+  "deleteAccount": {
+    "title": "Eliminar cuenta",
+    "hint": "Borra tu cuenta y todos tus datos: perfiles, progreso, planes, logros, links compartidos y tus grupos. No se puede deshacer.",
+    "confirm": "Eliminar todo",
+    "reauth": "Por seguridad, cierra sesión, vuelve a entrar con Google y repite esto enseguida.",
+    "failed": "No se pudo eliminar la cuenta. Inténtalo de nuevo."
   }
 }
