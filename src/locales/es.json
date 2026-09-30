@@ -19,6 +19,7 @@
     "eyebrow": "Watch Order — tus sagas",
     "upcoming": "Próximos estrenos",
     "following": "Tus franquicias",
+    "routes": "Tus rutas",
     "explore": "Explorar",
     "followHint": "Sigue las franquicias que te interesan: aparecen primero, con lo siguiente por ver y sus estrenos.",
     "tools": "Herramientas",
@@ -192,7 +193,8 @@
   },
   "follow": {
     "follow": "Seguir",
-    "following": "Siguiendo"
+    "following": "Siguiendo",
+    "route": "Seguir ruta"
   },
   "search": {
     "title": "Buscar",

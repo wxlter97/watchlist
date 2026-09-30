@@ -19,6 +19,7 @@
     "eyebrow": "Watch Order — your sagas",
     "upcoming": "Upcoming releases",
     "following": "Your franchises",
+    "routes": "Your routes",
     "explore": "Explore",
     "followHint": "Follow the franchises you care about: they show up first, with what's next and upcoming releases.",
     "tools": "Tools",
@@ -192,7 +193,8 @@
   },
   "follow": {
     "follow": "Follow",
-    "following": "Following"
+    "following": "Following",
+    "route": "Follow route"
   },
   "search": {
     "title": "Search",

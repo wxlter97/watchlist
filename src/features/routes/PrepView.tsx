@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router";
+import { FollowButton } from "../../components/FollowButton";
 import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
@@ -55,7 +56,7 @@ export function PrepView({ franchise, target, route, index }: { franchise: Franc
       <section className="mt-6">
         <Tabs
           label={t("prep.level")}
-          layout="grid grid-cols-3"
+          layout="grid grid-cols-3 [&>button]:min-w-0 [&>button]:px-1.5 [&>button]:leading-tight [&>button]:whitespace-normal"
           value={level}
           options={PREP_LEVELS.map((l) => ({ value: l, label: `${t(`prep.levels.${l}`)} · ${byLevel[l].length}` }))}
           onChange={(l) => setParams({ nivel: l }, { replace: true })}
@@ -75,11 +76,10 @@ export function PrepView({ franchise, target, route, index }: { franchise: Franc
         <div className="mt-3">
           <ProgressBar ratio={ratio} label={heading} />
         </div>
-        {route && (
-          <div className="mt-3">
-            <ShareLinkButton target={{ kind: "route", franchiseId: franchise.id, refId: route.id }} title={heading} label={t("shareLink.route")} />
-          </div>
-        )}
+        <div className="mt-3 flex flex-wrap gap-2">
+          <FollowButton route={route ? `/f/${franchise.id}/r/${route.id}` : `/f/${franchise.id}/prep/${target.id}`} />
+          {route && <ShareLinkButton target={{ kind: "route", franchiseId: franchise.id, refId: route.id }} title={heading} label={t("shareLink.route")} />}
+        </div>
         {progress.watched < progress.total && (
           <Link
             to={`/plans/new?f=${franchise.id}&type=prep&ref=${target.id}&level=${level}`}

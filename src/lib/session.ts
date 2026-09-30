@@ -152,7 +152,7 @@ export async function deleteProfile(pid: string) {
   return (await cloud()).deleteProfile(pid);
 }
 
-/** Login con Google: popup, o redirect en la PWA instalada de iOS y si el popup está bloqueado. */
+/** Login con Google: popup, o redirect en la PWA instalada y si el popup está bloqueado. */
 export async function signIn() {
   return (await cloud()).signIn();
 }

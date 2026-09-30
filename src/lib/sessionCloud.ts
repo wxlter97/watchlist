@@ -326,9 +326,10 @@ export async function deleteProfile(pid: string) {
 
 // ---- Auth ----
 
-function isIosStandalone() {
+/** La app instalada (iOS o Android): ahí el popup de Google no devuelve la sesión a la PWA. */
+function isStandalone() {
   const nav = navigator as Navigator & { standalone?: boolean };
-  return nav.standalone === true || (/iPad|iPhone|iPod/.test(navigator.userAgent) && matchMedia("(display-mode: standalone)").matches);
+  return nav.standalone === true || matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches;
 }
 
 function authErrorCode(err: unknown): string {
@@ -341,13 +342,13 @@ function redirect(provider: GoogleAuthProvider) {
   return signInWithRedirect(auth, provider);
 }
 
-/** Login con Google: popup, o redirect en la PWA instalada de iOS y si el popup está bloqueado. */
+/** Login con Google: popup, o redirect en la PWA instalada y si el popup está bloqueado. */
 export async function signIn() {
   const provider = new GoogleAuthProvider();
   set({ authError: undefined });
-  // Con emuladores también redirect: es el flujo de la PWA en iOS y funciona en navegadores
+  // Con emuladores también redirect: es el flujo de la PWA instalada y funciona en navegadores
   // embebidos que no abren popups.
-  if (isIosStandalone() || import.meta.env.VITE_FIREBASE_EMULATORS === "1") return redirect(provider);
+  if (isStandalone() || import.meta.env.VITE_FIREBASE_EMULATORS === "1") return redirect(provider);
   try {
     await signInWithPopup(auth, provider);
   } catch (err) {

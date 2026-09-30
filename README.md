@@ -53,6 +53,15 @@ pnpm rules:deploy        # publica firestore.rules e índices en el proyecto rea
   login por redirect en Safari / PWA de iOS). Al desplegar, cambiar `VITE_FIREBASE_AUTH_DOMAIN`
   al dominio de la app y agregarlo a los dominios autorizados de Firebase Auth.
 
+## Anuncios
+
+`AdSlot` (`src/components/AdSlot.tsx`) está listo pero apagado: sin `VITE_ADS_CLIENT` no
+renderiza ni carga nada. Para activarlos: definir `VITE_ADS_CLIENT` (ca-pub-…) y
+`VITE_ADS_SLOT_HUB`, poner la línea de la red en `public/ads.txt`, y antes publicar una
+política de privacidad y un aviso de consentimiento (obligatorio en UE/UK). Si se añade una
+CSP, permitir `pagead2.googlesyndication.com`. Los anuncios no van sobre controles ni en el
+flujo de marcar como visto.
+
 ## Funciones (`/api`)
 
 Funciones de Vercel con la firma Web estándar (`export function GET(request: Request)`).

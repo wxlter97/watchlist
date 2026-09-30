@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router";
+import { FollowButton } from "../../components/FollowButton";
 import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel } from "../../components/ui";
@@ -67,7 +68,8 @@ export function RoutePage() {
         <div className="mt-3">
           <ProgressBar ratio={ratio} label={loc(route.name)} />
         </div>
-        <div className="mt-3">
+        <div className="mt-3 flex flex-wrap gap-2">
+          <FollowButton route={`/f/${franchise.id}/r/${route.id}`} />
           <ShareLinkButton
             target={{ kind: "route", franchiseId: franchise.id, refId: route.id }}
             title={loc(route.name)}

@@ -1,11 +1,14 @@
 import { useLang } from "../lib/i18n";
 import { offerReleaseAlerts } from "../lib/notifyPrompt";
-import { toggleFollow, useSettings } from "../lib/settings";
+import { toggleFollow, toggleFollowRoute, useSettings } from "../lib/settings";
 
-/** Seguir / dejar de seguir una franquicia. `compact` va dentro de una cabecera de acento. */
-export function FollowButton({ franchiseId, compact = false }: { franchiseId: string; compact?: boolean }) {
+/**
+ * Seguir / dejar de seguir una franquicia o, con `route` (su ruta en la app), una ruta.
+ * `compact` va dentro de una cabecera de acento.
+ */
+export function FollowButton({ franchiseId, route, compact = false }: { franchiseId?: string; route?: string; compact?: boolean }) {
   const { t } = useLang();
-  const following = useSettings((s) => s.followedFranchises.includes(franchiseId));
+  const following = useSettings((s) => (route ? s.followedRoutes.includes(route) : s.followedFranchises.includes(franchiseId ?? "")));
 
   return (
     <button
@@ -13,8 +16,9 @@ export function FollowButton({ franchiseId, compact = false }: { franchiseId: st
       aria-pressed={following}
       onClick={(e) => {
         e.preventDefault();
-        toggleFollow(franchiseId);
-        if (!following) offerReleaseAlerts(t);
+        if (route) toggleFollowRoute(route);
+        else if (franchiseId) toggleFollow(franchiseId);
+        if (!following && !route) offerReleaseAlerts(t);
       }}
       className={
         compact
@@ -28,7 +32,7 @@ export function FollowButton({ franchiseId, compact = false }: { franchiseId: st
             }`
       }
     >
-      {following ? `✓ ${t("follow.following")}` : `+ ${t("follow.follow")}`}
+      {following ? `✓ ${t("follow.following")}` : `+ ${route ? t("follow.route") : t("follow.follow")}`}
     </button>
   );
 }

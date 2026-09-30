@@ -212,7 +212,7 @@ export default defineConfig(({ mode }) => {
         registerType: "autoUpdate",
         // El registro del service worker no bloquea el primer render.
         injectRegister: "script-defer",
-        includeAssets: ["favicon.png", "apple-touch-icon.png"],
+        includeAssets: ["favicon.png", "apple-touch-icon.png", "pwa-maskable-512.png"],
         manifest: {
           name: "Watch Order",
           short_name: "Watch Order",
@@ -227,7 +227,7 @@ export default defineConfig(({ mode }) => {
           icons: [
             { src: "pwa-192.png", sizes: "192x192", type: "image/png" },
             { src: "pwa-512.png", sizes: "512x512", type: "image/png" },
-            { src: "pwa-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+            { src: "pwa-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
           ],
         },
         workbox: {
