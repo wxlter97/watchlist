@@ -127,7 +127,8 @@ Agregar una franquicia = agregar su JSON (y sus títulos a `titles.json`). No ha
 - **Líneas de tiempo compartidas:** una continuidad con `"timelineOf": "mcu"` se intercala con
   esa en el cronológico (mismo espacio de `chronoOrder`), como Netflix y ABC con el MCU.
 - **Marvel:** el cronológico sigue el "MCU Complete Timeline" oficial de Marvel en Disney+
-  (junio de 2026); `src/lib/marvelTimeline.test.ts` lo verifica.
+  (junio de 2026), más Agent Carter donde lo ponen Rotten Tomatoes y marvelwatchlist;
+  `src/lib/marvelTimeline.test.ts` lo verifica.
 
 ```bash
 pnpm catalog:validate    # referencias, chronoOrder duplicados, órdenes obligatorios (corre en CI)

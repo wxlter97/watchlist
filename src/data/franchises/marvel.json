@@ -53,8 +53,8 @@
       "canonLevel": "semicanon",
       "hiddenByDefault": true,
       "description": {
-        "es": "Agents of S.H.I.E.L.D., Agent Carter e Inhumans. Ocurren en el MCU, pero el timeline oficial de Marvel no las incluye: al activarlas se intercalan por temporada.",
-        "en": "Agents of S.H.I.E.L.D., Agent Carter and Inhumans. They take place in the MCU, but Marvel's official timeline leaves them out: when shown, they're interleaved by season."
+        "es": "Agents of S.H.I.E.L.D. e Inhumans. Ocurren en el MCU, pero ni el timeline oficial de Marvel ni Rotten Tomatoes las incluyen: al activarlas se intercalan por temporada.",
+        "en": "Agents of S.H.I.E.L.D. and Inhumans. They take place in the MCU, but neither Marvel's official timeline nor Rotten Tomatoes includes them: when shown, they're interleaved by season."
       },
       "timelineOf": "mcu"
     },
@@ -314,9 +314,9 @@
     {
       "titleId": "marvels-agent-carter-2015",
       "season": 1,
-      "continuityId": "marvel-abc",
+      "continuityId": "mcu",
       "group": "abc",
-      "importance": "optional",
+      "importance": "recommended",
       "chronoOrder": 40,
       "chronoNote": {
         "es": "1946",
@@ -329,9 +329,9 @@
     {
       "titleId": "marvels-agent-carter-2015",
       "season": 2,
-      "continuityId": "marvel-abc",
+      "continuityId": "mcu",
       "group": "abc",
-      "importance": "optional",
+      "importance": "recommended",
       "chronoOrder": 50,
       "chronoNote": {
         "es": "1947",

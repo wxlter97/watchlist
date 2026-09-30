@@ -4,7 +4,9 @@ import { computeOrder, resolveOrder } from "./orders";
 
 // El cronológico de Marvel sigue el "MCU Complete Timeline" oficial de Marvel Studios en
 // Disney+ (marvel.com/articles/movies/mcu-timeline-order-disney-plus, 2 de junio de 2026),
-// con las series por temporada. Lo estrenado después va al final.
+// con las series por temporada. Le suma Agent Carter, que el timeline oficial omite pero
+// Rotten Tomatoes y marvelwatchlist.com incluyen, en el mismo lugar que ellos. Lo estrenado
+// después del timeline va al final.
 const OFFICIAL = [
   "eyes-of-wakanda-2025",
   "captain-america-the-first-avenger-2011",
@@ -93,20 +95,24 @@ const chrono = (hidden: string[]) =>
   computeOrder(marvel, resolveOrder(marvel, "chronological"), catalogIndex.titlesById, { hiddenContinuities: hidden }).map((i) => i.key);
 
 describe("cronológico de Marvel", () => {
-  it("empieza exactamente como el timeline oficial de Disney+", () => {
-    expect(chrono(effectiveHidden(marvel)).slice(0, OFFICIAL.length)).toEqual(OFFICIAL);
+  // El oficial con Agent Carter después del One-Shot, como Rotten Tomatoes y marvelwatchlist.
+  const EXPECTED = OFFICIAL.flatMap((k) =>
+    k === "marvel-one-shot-agent-carter-2013" ? [k, "marvels-agent-carter-2015#1", "marvels-agent-carter-2015#2"] : [k],
+  );
+
+  it("empieza exactamente como el timeline oficial de Disney+, más Agent Carter", () => {
+    expect(chrono(effectiveHidden(marvel)).slice(0, EXPECTED.length)).toEqual(EXPECTED);
   });
 
   it("después vienen los estrenos posteriores al timeline, en orden", () => {
-    const rest = chrono(effectiveHidden(marvel)).slice(OFFICIAL.length);
+    const rest = chrono(effectiveHidden(marvel)).slice(EXPECTED.length);
     expect(rest.slice(0, 3)).toEqual(["spider-man-brand-new-day-2026", "visionquest-2026", "avengers-doomsday-2026"]);
   });
 
   it("al activar ABC, sus temporadas se intercalan sin mover lo oficial", () => {
     const all = chrono(effectiveHidden(marvel).filter((c) => c !== "marvel-abc"));
-    expect(all.filter((k) => OFFICIAL.includes(k))).toEqual(OFFICIAL);
+    expect(all.filter((k) => EXPECTED.includes(k))).toEqual(EXPECTED);
     const at = (k: string) => all.indexOf(k);
-    expect(at("marvels-agent-carter-2015#1")).toBe(at("marvel-one-shot-agent-carter-2013") + 1);
     expect(at("agents-of-shield-2013#1")).toBeLessThan(at("captain-america-the-winter-soldier-2014"));
     expect(at("agents-of-shield-2013#7")).toBeLessThan(at("spider-man-far-from-home-2019"));
   });
