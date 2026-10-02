@@ -1,0 +1,2 @@
+- Cortos animados sobre Baby Groot, que crece en el espacio y se mete en travesuras con personajes variopintos.
+- En la primera temporada da sus primeros pasos y crea arte para sus compañeros; en la segunda va madurando entre lecciones de higiene, pilotear naves y hasta de ser padre.

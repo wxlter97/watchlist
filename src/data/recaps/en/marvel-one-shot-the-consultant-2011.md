@@ -1,0 +1,3 @@
+- S.H.I.E.L.D. agents fear the Council will free Emil Blonsky, the Abomination, to recruit him into the hero-gathering initiative.
+- Coulson and Sitwell send Tony Stark as a "consultant" to annoy General Ross and wreck the meeting.
+- Blonsky stays locked up.

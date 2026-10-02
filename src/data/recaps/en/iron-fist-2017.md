@@ -1,0 +1,2 @@
+- **Season 1:** Danny Rand returns to New York after being presumed dead for fifteen years and wants to reclaim his family's company, now controlled by the Meachums, while using his Iron Fist powers.
+- **Season 2:** after The Defenders, Danny protects the city in Matt Murdock's absence while a new adversary tests his identity and the people he cares about, including Colleen Wing.

@@ -1,0 +1,2 @@
+- Trevor Slattery, el falso Mandarín, vive cómodo en prisión hasta que un cineasta que lo entrevista resulta ser miembro de los verdaderos Diez Anillos.
+- La organización lo saca de la cárcel para llevarlo ante el Mandarín auténtico.

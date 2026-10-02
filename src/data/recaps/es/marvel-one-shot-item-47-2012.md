@@ -1,0 +1,2 @@
+- Una pareja encuentra un arma abandonada de la invasión alienígena de Nueva York y la usa para robar bancos.
+- S.H.I.E.L.D. los localiza; en vez de eliminarlos, los recluta.

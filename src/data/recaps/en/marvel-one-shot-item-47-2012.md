@@ -1,0 +1,2 @@
+- A couple finds an abandoned weapon from the New York alien invasion and uses it to rob banks.
+- S.H.I.E.L.D. tracks them down; instead of eliminating them, it recruits them.
