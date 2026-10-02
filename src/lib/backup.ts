@@ -1,4 +1,12 @@
-import type { FranchiseStateDoc, ProgressData, ProgressDoc, WatchStatus } from "./progressStore";
+import {
+  VIEWING_FORMATS,
+  VIEWING_MEDIUMS,
+  type FranchiseStateDoc,
+  type ProgressData,
+  type ProgressDoc,
+  type Viewing,
+  type WatchStatus,
+} from "./progressStore";
 
 // Exportar / importar el progreso de un perfil en JSON (SPEC §9).
 
@@ -25,6 +33,20 @@ export function buildBackup(profile: string, data: ProgressData, now = new Date(
 
 const isIso = (v: unknown) => typeof v === "string" && !Number.isNaN(Date.parse(v));
 const isStrings = (v: unknown) => Array.isArray(v) && v.every((x) => typeof x === "string");
+
+/** Deja solo los campos válidos del registro de visionado; undefined si no queda ninguno. */
+function cleanViewing(raw: unknown): Viewing | undefined {
+  if (!raw || typeof raw !== "object") return undefined;
+  const v = raw as Partial<Record<keyof Viewing, unknown>>;
+  const formats = Array.isArray(v.formats) ? VIEWING_FORMATS.filter((f) => (v.formats as unknown[]).includes(f)) : [];
+  const out: Viewing = {
+    ...(typeof v.date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v.date) ? { date: v.date } : {}),
+    ...(typeof v.place === "string" && v.place.trim() ? { place: v.place.trim().slice(0, 100) } : {}),
+    ...(VIEWING_MEDIUMS.includes(v.medium as never) ? { medium: v.medium as Viewing["medium"] } : {}),
+    ...(formats.length ? { formats } : {}),
+  };
+  return Object.keys(out).length ? out : undefined;
+}
 
 export type ParseResult = { ok: true; data: ProgressData; profile: string; skipped: number } | { ok: false; error: string };
 
@@ -66,6 +88,7 @@ export function parseBackup(text: string): ParseResult {
       ...(d.rating ? { rating: d.rating } : {}),
       ...(d.notes ? { notes: d.notes.slice(0, 2000) } : {}),
       ...(typeof d.versionId === "string" ? { versionId: d.versionId } : {}),
+      ...(cleanViewing(d.viewing) ? { viewing: cleanViewing(d.viewing)! } : {}),
       ...(d.episodes && typeof d.episodes === "object"
         ? {
             episodes: Object.fromEntries(

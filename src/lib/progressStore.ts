@@ -5,6 +5,20 @@ import { create } from "zustand";
 
 export type WatchStatus = "watched" | "watching" | "dropped" | "planned";
 
+export const VIEWING_MEDIUMS = ["cinema", "streaming", "other"] as const;
+export const VIEWING_FORMATS = ["2d", "3d", "4dx", "imax", "screenx", "dolby", "dubbed", "subbed"] as const;
+export type ViewingMedium = (typeof VIEWING_MEDIUMS)[number];
+export type ViewingFormat = (typeof VIEWING_FORMATS)[number];
+
+/** Cuándo y cómo se vio. Todo opcional: lo escribe el perfil, no se deduce. */
+export interface Viewing {
+  /** Día (YYYY-MM-DD). */
+  date?: string;
+  place?: string;
+  medium?: ViewingMedium;
+  formats?: ViewingFormat[];
+}
+
 export interface ProgressDoc {
   status: WatchStatus;
   watchedAt?: string;
@@ -13,6 +27,7 @@ export interface ProgressDoc {
   notes?: string;
   episodes?: Record<string, number[]>;
   versionId?: string;
+  viewing?: Viewing;
   updatedAt: string;
 }
 

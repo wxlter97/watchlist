@@ -9,7 +9,7 @@ import { isReleased } from "../../lib/progress";
 import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
-import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker } from "./ProgressDetails";
+import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker, ViewingLog } from "./ProgressDetails";
 import { Recaps } from "./Recaps";
 import { WhereToWatch } from "./WhereToWatch";
 
@@ -124,6 +124,7 @@ export function TitlePage() {
       <VersionPicker title={title} doc={doc} />
       <Episodes title={title} doc={doc} />
       {released && <RatingAndRewatch title={title} doc={doc} />}
+      {released && <ViewingLog title={title} doc={doc} />}
       <Notes title={title} doc={doc} />
       {released && <WhereToWatch title={title} />}
       <ExternalLinks title={title} />
