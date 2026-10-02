@@ -1,0 +1,2 @@
+- **Temporada 1:** tras la guerra, Peggy Carter trabaja en la SSR mientras investiga la desaparición de inventos de Howard Stark con ayuda de su mayordomo Jarvis; detiene a Leviatán.
+- **Temporada 2:** en Los Ángeles, Peggy investiga a Whitney Frost y la Materia Cero, que amenaza con abrir un portal; Frost es detenida.

@@ -1,0 +1,2 @@
+- **Temporada 1:** Frank Castle investiga la conspiración detrás de la muerte de su familia con ayuda de Micro; su amigo Billy Russo resulta ser parte de ella y queda desfigurado tras su pelea.
+- **Temporada 2:** Frank protege a una joven, Amy, mientras Russo, ahora Jigsaw, y el fanático John Pilgrim lo persiguen.

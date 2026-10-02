@@ -1,0 +1,3 @@
+- **Temporada 1:** Matt Murdock, abogado ciego, combate de noche el crimen en Hell's Kitchen y se enfrenta a Wilson Fisk, que cae en prisión.
+- **Temporada 2:** llega el Castigador, Frank Castle, y reaparece Elektra, que arrastra a Matt a su pasado con la Mano.
+- **Temporada 3:** Fisk sale de prisión con un trato del FBI; Matt, quebrado, vuelve a vencerlo.

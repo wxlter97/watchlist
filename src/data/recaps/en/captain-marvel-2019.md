@@ -1,0 +1,4 @@
+- In 1995, Vers, a Kree Starforce soldier, discovers she is really Carol Danvers, a human pilot.
+- The Skrulls, led by Talos, were refugees; the Kree had been lying. Carol helps them and turns on the Kree.
+- She meets a young Nick Fury and together they stop the Skrulls; the idea of the Avengers Initiative is born.
+- Carol leaves to defend space and gives Fury a pager to call her.

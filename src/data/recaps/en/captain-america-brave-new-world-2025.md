@@ -1,0 +1,4 @@
+- Sam Wilson, the new Captain America, meets President Thaddeus Ross, who wants to exploit Celestial Island.
+- Samuel Sterns, the Leader, manipulates Ross: his anger turns him into Red Hulk.
+- Sam defeats Ross at the White House; the adamantium dispute strains relations between nations.
+- Isaiah Bradley, mind-controlled by Sterns, tries to assassinate Ross; Sam defends him.

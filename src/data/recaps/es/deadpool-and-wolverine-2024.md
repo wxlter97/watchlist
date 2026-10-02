@@ -1,0 +1,4 @@
+- La TVA amenaza con borrar el universo de Wade Wilson; él viaja al multiverso en busca de un Wolverine para salvarlo.
+- Encuentra una variante de Wolverine y juntos llegan al Vacío, dominado por Cassandra Nova.
+- Derrotan a Cassandra con ayuda de Deadpool y de otros héroes de universos descartados.
+- Wade y Logan salvan el universo de Wade.

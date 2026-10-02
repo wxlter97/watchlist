@@ -1,0 +1,3 @@
+- Daredevil, Jessica Jones, Luke Cage and Iron Fist team up against the Hand, which seeks a substance beneath New York.
+- Alexandra, the Hand's leader, and Elektra (resurrected as the Black Sky) confront them.
+- Matt Murdock is buried in the building's collapse and presumed dead.

@@ -1,0 +1,4 @@
+- Tony Stark has already told the world he is Iron Man and the government demands his suit; he refuses.
+- The palladium in his reactor is poisoning him; from a diagram left by his father, Howard, he creates a new element that saves him.
+- Ivan Vanko (Whiplash) attacks with a suit of his own, backed by weapons maker Justin Hammer; Tony beats him with Rhodey, who becomes War Machine.
+- Natasha Romanoff had been undercover as his assistant, and Nick Fury keeps pulling him in as a consultant for the Avengers Initiative.

@@ -1,0 +1,4 @@
+- Hela, hermana mayor de Thor, llega a Asgard, destruye a Mjolnir y toma el trono.
+- Thor es atrapado en Sakaar, donde conoce al Gran Maestro, a Valquiria y a Hulk, y pierde un ojo.
+- Para detener a Hela, liberan a Surtur, que destruye Asgard; el pueblo asgardiano escapa en una nave.
+- Al final aparece la nave de Thanos.

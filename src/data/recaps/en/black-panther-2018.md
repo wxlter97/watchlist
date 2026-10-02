@@ -1,0 +1,4 @@
+- T'Challa is crowned king of Wakanda, a secretly advanced nation thanks to vibranium.
+- His cousin Erik Killmonger challenges him for the throne, defeats him and wants to arm the world with Wakandan technology.
+- T'Challa recovers, beats Killmonger and lets him choose to die free.
+- Wakanda opens itself to the world with an international outreach center.

@@ -1,0 +1,4 @@
+- Shang-Chi, que huyó de su padre Wenwu, líder de la organización de los Diez Anillos, vive una vida normal en San Francisco con su amiga Katy.
+- Wenwu, dueño de los anillos, quiere liberar a una criatura que cree que es su esposa fallecida.
+- Shang-Chi, su hermana Xialing y Katy viajan a Ta Lo; vencen a la criatura y Shang-Chi hereda los anillos.
+- Wong y Bruce Banner aparecen en escenas posteriores a los créditos.

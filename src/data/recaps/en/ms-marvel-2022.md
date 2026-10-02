@@ -1,0 +1,4 @@
+- Kamala Khan, a New Jersey teenager and Avengers fan, gets powers from wearing a bangle from her family.
+- The Clandestines, exiled from another dimension, want the bangle to return home.
+- Kamala learns her powers come from her genes and that she is a mutant; she saves the city.
+- She later turns up linked to Carol Danvers.

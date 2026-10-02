@@ -1,0 +1,3 @@
+- Jessica Jones, detective privada con superfuerza, intenta rehacer su vida tras haber sido controlada por Kilgrave.
+- Kilgrave regresa y busca controlarla de nuevo; ella se apoya en Luke Cage y su amiga Trish Walker.
+- Jessica logra matarlo y salva a su amiga Hope.

@@ -1,0 +1,4 @@
+- T'Challa died of an illness; Wakanda mourns and becomes a target for Namor, king of Talokan.
+- Shuri, after Ramonda's death, takes up the Black Panther mantle and negotiates with Namor.
+- Riri Williams, an American inventor, helps Wakanda; Namor attacks and Shuri defeats him, sparing his life.
+- T'Challa and Nakia's son, Toussaint, is introduced.

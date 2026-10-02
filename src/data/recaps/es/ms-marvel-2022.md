@@ -1,0 +1,4 @@
+- Kamala Khan, adolescente de Nueva Jersey y fan de los Vengadores, obtiene poderes al usar un brazalete de su familia.
+- Los Clandestinos, exiliados de otra dimensión, quieren el brazalete para volver a casa.
+- Kamala descubre que sus poderes vienen de su genética y que es mutante; salva la ciudad.
+- Más tarde aparece conectada con Carol Danvers.

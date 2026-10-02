@@ -1,0 +1,4 @@
+- Carol Danvers, Monica Rambeau y Kamala Khan intercambian lugares cada vez que usan sus poderes, por un vínculo de luz.
+- Dar-Benn, líder kree, usa un brazalete para robar recursos y dejar planetas sin agua ni aire.
+- Las tres, con Nick Fury, la detienen; Kamala se une al equipo.
+- En una escena posterior, Monica ve a Hank McCoy (Bestia) en otro universo.

@@ -1,0 +1,4 @@
+- Peter Quill meets his father, Ego, a Celestial in the form of a planet who wants to remake the universe in his own image.
+- Ego killed Peter's mother; the Guardians destroy him with help from Mantis and Yondu, who sacrifices himself for Peter.
+- Gamora and Nebula, rival sisters, grow slightly closer; Baby Groot grows up as part of the team.
+- The Ravagers give Yondu a hero's funeral.

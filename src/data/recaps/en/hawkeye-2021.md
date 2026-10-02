@@ -1,0 +1,4 @@
+- Clint Barton wants to spend Christmas with his family, but Kate Bishop, a young archer, drags him into trouble with the Tracksuit Mafia.
+- They discover Maya Lopez (Echo), who wants revenge on Ronin, works for Kingpin.
+- Yelena Belova goes after Clint, blaming him for her sister Natasha's death; Kate persuades her otherwise.
+- Clint returns home; Kate takes over as Hawkeye.

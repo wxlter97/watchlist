@@ -1,0 +1,4 @@
+- Hela, Thor's older sister, arrives in Asgard, destroys Mjolnir and takes the throne.
+- Thor is trapped on Sakaar, where he meets the Grandmaster, Valkyrie and Hulk, and loses an eye.
+- To stop Hela, they free Surtur, who destroys Asgard; the Asgardians escape in a ship.
+- At the end, Thanos's ship appears.

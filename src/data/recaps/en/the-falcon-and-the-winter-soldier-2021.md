@@ -1,0 +1,4 @@
+- Sam Wilson hands Captain America's shield to the government; John Walker takes it as the new Captain.
+- Sam and Bucky face the Flag Smashers, led by Karli Morgenthau, and discover Isaiah Bradley, a forgotten super-soldier.
+- Walker kills a Flag Smasher and is stripped of the shield.
+- Sam accepts the shield and becomes Captain America.

@@ -1,0 +1,4 @@
+- Wanda Maximoff creates a sitcom reality in Westview, New Jersey, where Vision is alive, in her grief over losing him.
+- Agatha Harkness, posing as a neighbor, wants her power; the series reveals Wanda is the Scarlet Witch.
+- Wanda undoes the Hex, loses Vision and her children, and isolates herself.
+- She studies the Darkhold.

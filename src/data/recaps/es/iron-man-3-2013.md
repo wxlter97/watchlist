@@ -1,0 +1,4 @@
+- Tras la batalla de Nueva York, Tony sufre ansiedad y se obsesiona con construir armaduras.
+- El «Mandarín» es un actor, Trevor Slattery, usado por Aldrich Killian, que potencia a soldados con Extremis.
+- Killian secuestra a Pepper y le inyecta Extremis; Tony lo vence con ayuda de Rhodey.
+- Al final destruye todas sus armaduras y se retira el fragmento de metralla del pecho.

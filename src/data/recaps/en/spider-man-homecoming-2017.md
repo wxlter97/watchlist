@@ -1,0 +1,4 @@
+- Peter Parker, 15, wears a suit given to him by Tony Stark and tries to earn a place with the Avengers.
+- Adrian Toomes, the Vulture, sells weapons built from Chitauri technology.
+- Peter stops him without Tony's help and turns down joining the Avengers.
+- His Aunt May discovers he is Spider-Man.

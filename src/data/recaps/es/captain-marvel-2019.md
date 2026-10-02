@@ -1,0 +1,4 @@
+- En 1995, Vers, soldado de la Starforce kree, descubre que en realidad es Carol Danvers, piloto humana.
+- Los skrulls, liderados por Talos, eran refugiados; los kree mentían. Carol los ayuda y rechaza a los kree.
+- Conoce a un joven Nick Fury y ambos frenan a los skrulls; de ahí nace su idea de la Iniciativa Vengadores.
+- Carol se marcha a defender el espacio y le deja a Fury un buscapersonas.

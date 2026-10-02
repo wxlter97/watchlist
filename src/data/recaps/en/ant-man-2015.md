@@ -1,0 +1,4 @@
+- Scott Lang, a thief fresh out of prison, is recruited by Hank Pym to wear the Ant-Man suit.
+- Darren Cross, Pym's former protégé, builds the Yellowjacket and wants to sell it; Scott stops him from inside his suit.
+- Scott shrinks to subatomic size and returns from the Quantum Realm.
+- Hank gives his daughter Hope the Wasp suit.

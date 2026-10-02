@@ -1,0 +1,4 @@
+- Strange protects America Chavez, a young woman who can travel between universes, from Wanda, who wants her power to get her children back.
+- Wanda uses the Darkhold and possesses her counterpart from another universe; Strange crosses the multiverse to stop her.
+- America masters her power; Wanda destroys the Darkhold by bringing down Mount Wundagore and dies.
+- Strange is left with a third eye; in a post-credits scene, Clea takes him into an incursion.
