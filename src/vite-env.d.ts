@@ -9,6 +9,8 @@ interface ImportMetaEnv {
   readonly VITE_FIREBASE_MESSAGING_SENDER_ID: string;
   readonly VITE_FIREBASE_APP_ID: string;
   readonly VITE_FIREBASE_VAPID_KEY?: string;
+  /** Enlace https de pago voluntario (p. ej. Wompi) para "Invítame un café". Sin él no aparece. */
+  readonly VITE_DONATE_URL?: string;
   /** "1" conecta Auth y Firestore a los emuladores locales. */
   readonly VITE_FIREBASE_EMULATORS?: string;
 }
