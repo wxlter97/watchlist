@@ -54,12 +54,12 @@ export function HubPage() {
 
   return (
     <div>
-      <section className="on-faro -mx-4 border-b-2 border-line bg-faro px-4 pt-8 pb-10 text-tinta">
+      <section className="on-faro -mx-4 border-b-2 border-line bg-faro px-4 pt-8 pb-10 text-tinta lg:pt-14 lg:pb-16">
         <p className="label font-bold">{t("hub.eyebrow")}</p>
-        <h1 className="display mt-4 max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px]">{t("app.tagline")}</h1>
+        <h1 className="display mt-4 max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px] lg:max-w-[20ch] lg:text-[72px]">{t("app.tagline")}</h1>
         <Link
           to="/search"
-          className="mt-6 flex min-h-12 max-w-md items-center gap-3 border-2 border-tinta bg-white px-3 font-mono text-sm text-tinta/60 transition-colors duration-[120ms] ease-out hover:text-tinta"
+          className="mt-6 flex min-h-12 max-w-md items-center lg:mt-10 lg:min-h-14 lg:max-w-xl gap-3 border-2 border-tinta bg-white px-3 font-mono text-sm text-tinta/60 transition-colors duration-[120ms] ease-out hover:text-tinta"
         >
           <SearchIcon />
           {t("search.placeholder")}
@@ -81,7 +81,7 @@ export function HubPage() {
 
       {continuing.length > 0 && (
         <Section label={t("hub.continue")}>
-          <div className="space-y-4">
+          <div className="grid gap-4 lg:grid-cols-2">
             {continuing.map((f) => (
               <ContinueCard key={f.id} franchise={f} />
             ))}
@@ -93,7 +93,7 @@ export function HubPage() {
 
       {followedRoutes.length > 0 && (
         <Section label={t("hub.routes")}>
-          <ul className="grid gap-4 sm:grid-cols-2">
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {followedRoutes.map((path) => (
               <li key={path}>
                 <FollowedRouteCard path={path} />
@@ -127,7 +127,7 @@ export function HubPage() {
       <AdSlot slot={import.meta.env.VITE_ADS_SLOT_HUB ?? ""} />
 
       <Section label={t("hub.tools")}>
-        <ul className="grid gap-[2px] border-2 border-line bg-line sm:grid-cols-2">
+        <ul className="grid gap-[2px] border-2 border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
           {[
             { to: "/plans", title: t("planner.title"), body: t("hub.plannerBody") },
             { to: "/map", title: t("graph.title"), body: t("hub.mapBody") },
@@ -160,7 +160,7 @@ function Section({ label, children }: { label: string; children: ReactNode }) {
 
 function FranchiseGrid({ franchises }: { franchises: FranchiseMeta[] }) {
   return (
-    <ul className="grid gap-4 sm:grid-cols-2">
+    <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {franchises.map((f) => (
         <li key={f.id}>
           <FranchiseCard franchise={f} />

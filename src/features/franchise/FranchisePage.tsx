@@ -78,6 +78,9 @@ export function FranchisePage() {
         </div>
       </header>
 
+      {/* En desktop: panel lateral fijo (progreso, orden, filtros) y la lista a la derecha. */}
+      <div className="lg:mt-6 lg:grid lg:grid-cols-[minmax(0,360px)_minmax(0,1fr)] lg:items-start lg:gap-10">
+        <aside className="lg:sticky lg:top-[74px] lg:max-h-[calc(100dvh-90px)] lg:overflow-y-auto lg:pb-4">
       <section className="mt-6 border-2 border-line bg-surface p-4" aria-label={t("franchise.progress")}>
         <div className="flex items-end justify-between gap-4">
           <p className="display text-[39px] tabular-nums">{t("progress.percent", { value: Math.round(summary.ratio * 100) })}</p>
@@ -163,6 +166,20 @@ export function FranchisePage() {
       </section>
 
       {!editing && <TimeBudget items={items} planHref={`/plans/new?f=${franchise.id}&type=order&ref=${order.id}`} />}
+      {!editing && (
+        <FiltersPanel
+          franchise={franchise}
+          filters={view.filters}
+          hiddenContinuities={view.hiddenContinuities}
+          onToggleContinuity={view.toggleContinuity}
+          curated={view.order?.type === "curated"}
+          shown={visibleItems.length}
+          total={items.length}
+        />
+      )}
+        </aside>
+
+        <div className="min-w-0">
 
       {editing ? (
         <Suspense fallback={<p className="py-8 text-center text-muted">…</p>}>
@@ -179,16 +196,6 @@ export function FranchisePage() {
         </Suspense>
       ) : (
         <>
-          <FiltersPanel
-            franchise={franchise}
-            filters={view.filters}
-            hiddenContinuities={view.hiddenContinuities}
-            onToggleContinuity={view.toggleContinuity}
-            curated={view.order?.type === "curated"}
-            shown={visibleItems.length}
-            total={items.length}
-          />
-
           {visibleItems.length === 0 ? (
             <p className="py-12 text-center text-muted">{t("franchise.empty")}</p>
           ) : (
@@ -232,6 +239,8 @@ export function FranchisePage() {
           </ConfirmDialog>
         </>
       )}
+        </div>
+      </div>
     </div>
   );
 }
