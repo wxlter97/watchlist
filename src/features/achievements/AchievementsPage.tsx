@@ -54,7 +54,7 @@ export function AchievementsPage() {
       {done.length > 0 && (
         <section className="mt-10">
           <SectionLabel>{t("achievements.unlocked")}</SectionLabel>
-          <ul className="space-y-3">
+          <ul className="grid gap-3 lg:grid-cols-2">
             {done.map((s) => (
               <AchievementRow key={s.achievement.id} status={s} unlock={unlocked[s.achievement.id]} highlight={hash === `#${s.achievement.id}`} />
             ))}
@@ -64,7 +64,7 @@ export function AchievementsPage() {
 
       <section className="mt-10">
         <SectionLabel>{t("achievements.pending")}</SectionLabel>
-        <ul className="space-y-3">
+        <ul className="grid gap-3 lg:grid-cols-2">
           {pending.map((s) => (
             <AchievementRow key={s.achievement.id} status={s} />
           ))}
