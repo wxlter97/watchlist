@@ -619,7 +619,22 @@
   },
   "recaps": {
     "title": "Lo que necesitas recordar",
-    "hint": "Solo de lo que ya viste antes de este título, en tu orden. Sin spoilers de lo que no."
+    "hint_one": "Lo que viene antes y le importa a este título: {{count}} título, del más al menos importante, con el motivo.",
+    "hint_other": "Lo que viene antes y le importa a este título: {{count}} títulos, del más al menos importante, con el motivo.",
+    "whyLabel": "Por qué importa",
+    "why": {
+      "essential": "Esencial para entenderlo",
+      "recommended": "Recomendado: aporta contexto",
+      "optional": "Opcional: detalles extra",
+      "skippable": "Prescindible: solo si quieres todo",
+      "minimum": "Está en lo mínimo",
+      "continuity": "{{continuity}} ({{franchise}})"
+    },
+    "seen": "Visto",
+    "unseen": "No visto",
+    "none": "Aún no hay resumen de este título.",
+    "spoilerHidden": "Este resumen cuenta lo que pasa en un título que aún no ves. Oculto para evitar spoilers.",
+    "reveal": "Mostrar resumen"
   },
   "prep": {
     "title": "Prepárate para {{title}}",
