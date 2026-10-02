@@ -1,0 +1,4 @@
+- Tras Daredevil: Born Again, Frank Castle vive en Little Sicily, derrumbado por el estrés postraumático y alucinando con su familia, Karen Page y Curtis Hoyle.
+- Ma Gnucci, matriarca de la familia criminal, llega a vengar a su hijo y ataca su edificio.
+- Frank decide salvar a una niña, Charli, en lugar de perseguirla, y Ma Gnucci escapa.
+- Frank retoma su misión con el chaleco de calavera.

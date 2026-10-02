@@ -1,0 +1,4 @@
+- Simon Williams, an actor with superpowers, lands the lead role in a new "Wonder Man" film. His friend Trevor Slattery, the fake Mandarin, goes along.
+- Trevor secretly works for the Department of Damage Control and spies on him. When Simon discovers it on set, he loses control and almost destroys the studio.
+- To protect Simon's career, Trevor confesses on video as the Mandarin and is arrested.
+- Simon infiltrates a Damage Control facility, frees Trevor and they flee across the desert. The film is a hit and his identity stays secret.

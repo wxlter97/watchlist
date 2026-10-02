@@ -1,0 +1,5 @@
+- After Doctor Strange's spell, nobody remembers Peter Parker; Ned and MJ don't know him and Peter protects New York alone, with no mentor or support network.
+- A mysterious villain possesses different people and uses them to attack the Department of Damage Control. She turns out to be Jean Grey, a telepathic mutant searching for "V-Max", a name tied to her sister Sara, who was kidnapped and killed by Damage Control.
+- Frank Castle (the Punisher) gives Peter shelter and gear. Jean briefly controls Hulk (Bruce Banner), and Damage Control's director, Bill Metzger, holds powered people captive.
+- Peter builds a device that cancels Jean's powers and appeals to Bruce's humanity to break her control. When Frank tries to kill Jean, Peter takes the bullet and she keeps him alive; Peter lets her into his mind and she is freed.
+- At the end, Ned recognizes him through their secret handshake, a sign the spell has weakened. In a post-credits scene, Ned's tracker places him in outer space.

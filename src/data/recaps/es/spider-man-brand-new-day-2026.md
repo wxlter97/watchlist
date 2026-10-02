@@ -1,0 +1,5 @@
+- Tras el hechizo de Doctor Strange, nadie recuerda a Peter Parker; Ned y MJ no lo conocen y Peter protege Nueva York solo, sin mentor ni red de apoyo.
+- Una villana misteriosa posee a distintas personas y las usa para atacar al Departamento de Control de Daños. Resulta ser Jean Grey, una mutante telépata que busca «V-Max», nombre ligado a su hermana Sara, secuestrada y muerta por Control de Daños.
+- Frank Castle (el Castigador) le da refugio y equipo a Peter. Jean controla un rato a Hulk (Bruce Banner), y el director de Control de Daños, Bill Metzger, mantiene prisioneros a seres con poderes.
+- Peter crea un dispositivo que anula los poderes de Jean y apela a la humanidad de Bruce para romper su control. Cuando Frank intenta matar a Jean, Peter recibe la bala y ella lo mantiene con vida; Peter la deja entrar en su mente y la libera.
+- Al final, Ned lo reconoce por su saludo secreto, señal de que el hechizo se debilitó. En una escena posterior, el rastreador de Ned lo ubica en el espacio exterior.

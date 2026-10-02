@@ -1,0 +1,4 @@
+- Simon Williams, actor con superpoderes, consigue el papel principal de una nueva película de «Wonder Man». Su amigo Trevor Slattery, el falso Mandarín, lo acompaña.
+- Trevor trabaja en secreto para el Departamento de Control de Daños y lo espía. Cuando Simon lo descubre en el set, pierde el control y casi destruye el estudio.
+- Para proteger la carrera de Simon, Trevor se declara culpable en un video como el Mandarín y lo arrestan.
+- Simon se infiltra en una instalación de Control de Daños, libera a Trevor y escapan por el desierto. La película es un éxito y su identidad sigue en secreto.
