@@ -57,6 +57,10 @@ export function RoutePage() {
         <p className="mt-3 max-w-[58ch] text-[15px] leading-[1.55]">{loc(route.description)}</p>
       </header>
 
+      {/* En desktop: datos y progreso fijos a la izquierda, la lista a la derecha. */}
+      <div className="lg:mt-6 lg:grid lg:grid-cols-[minmax(0,360px)_minmax(0,1fr)] lg:items-start lg:gap-10">
+        <aside className="lg:sticky lg:top-[74px] lg:max-h-[calc(100dvh-90px)] lg:overflow-y-auto lg:pb-4">
+
       {target && (
         <Link to={`/t/${target.id}`} className="group mt-6 flex items-center gap-3 border-2 border-line bg-surface p-3">
           <Poster title={target} size="w92" className="h-[72px] w-12" />
@@ -103,6 +107,9 @@ export function RoutePage() {
         )}
       </section>
 
+        </aside>
+
+        <div className="min-w-0">
       <section className="mt-8">
         <SectionLabel>{target ? t("routes.before") : t("routes.titles")}</SectionLabel>
         <ol>
@@ -111,6 +118,8 @@ export function RoutePage() {
           ))}
         </ol>
       </section>
+        </div>
+      </div>
     </div>
   );
 }
