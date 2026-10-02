@@ -22,7 +22,7 @@ export function AccountPage() {
   const status = useSession((s) => s.status);
 
   return (
-    <div className="space-y-10 pt-6">
+    <div className="max-w-3xl space-y-10 pt-6">
       <h1 className="display text-[39px]">{t("account.title")}</h1>
       {status === "signedIn" ? (
         <>

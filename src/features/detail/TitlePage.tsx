@@ -61,9 +61,9 @@ export function TitlePage() {
       </button>
 
       <header className="mt-6 flex gap-4">
-        <Poster title={title} size="w342" className="aspect-[2/3] w-28 sm:w-40" />
+        <Poster title={title} size="w342" className="aspect-[2/3] w-28 sm:w-40 lg:w-52" />
         <div className="min-w-0 self-end">
-          <h1 className="display text-[31px] sm:text-[39px]">{display}</h1>
+          <h1 className="display text-[31px] sm:text-[39px] lg:text-[56px]">{display}</h1>
           {display !== title.title && <p className="mt-2 text-sm text-muted">{title.title}</p>}
           <p className="mt-3 font-mono text-[11px] leading-relaxed tracking-[0.06em] text-muted uppercase">
             {meta.join(" · ")}
@@ -90,18 +90,10 @@ export function TitlePage() {
         </Link>
       ))}
 
-      <section className="mt-8">
-        <SectionLabel>{t("title.status")}</SectionLabel>
-        {/* Tocar el estado activo lo quita. */}
-        <Tabs
-          label={t("title.status")}
-          value={status}
-          layout="grid grid-cols-2 sm:grid-cols-4"
-          options={STATUSES.map((s) => ({ value: s, label: t(`status.${s}`), disabled: !released && s !== "planned" }))}
-          onChange={(s) => setTitleStatus(title, s === status ? null : s)}
-        />
-      </section>
-
+      {/* En desktop: lo del título a la izquierda y tu seguimiento en un panel fijo a la derecha. */}
+      <div className="flex flex-col lg:mt-2 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,400px)] lg:items-start lg:gap-12">
+        <div className="contents lg:block lg:min-w-0">
+<div className="order-2 lg:order-none">
       <section className="mt-8">
         <SectionLabel>{t("title.overview")}</SectionLabel>
         {overviewLoading ? (
@@ -120,15 +112,10 @@ export function TitlePage() {
         )}
       </section>
 
-      <Recaps title={title} />
-      <VersionPicker title={title} doc={doc} />
-      <Episodes title={title} doc={doc} />
-      {released && <RatingAndRewatch title={title} doc={doc} />}
-      {released && <ViewingLog title={title} doc={doc} />}
-      <Notes title={title} doc={doc} />
-      {released && <WhereToWatch title={title} />}
-      <ExternalLinks title={title} />
-
+</div>
+      <div className="order-3 lg:order-none"><Recaps title={title} /></div>
+      <div className="order-5 lg:order-none"><Episodes title={title} doc={doc} /></div>
+<div className="order-11 lg:order-none">
       {appearances.length > 0 && (
         <section className="mt-8">
           <SectionLabel>{t("title.appearsIn")}</SectionLabel>
@@ -175,6 +162,8 @@ export function TitlePage() {
         </section>
       )}
 
+</div>
+<div className="order-12 lg:order-none">
       {inRoutes.length > 0 && (
         <section className="mt-8">
           <SectionLabel>{t("title.inRoutes")}</SectionLabel>
@@ -198,6 +187,32 @@ export function TitlePage() {
           </ul>
         </section>
       )}
+
+</div>        </div>
+
+        <aside className="contents lg:sticky lg:block lg:min-w-0 lg:top-[74px] lg:max-h-[calc(100dvh-90px)] lg:overflow-y-auto lg:pb-4">
+<div className="order-1 lg:order-none">
+      <section className="mt-8">
+        <SectionLabel>{t("title.status")}</SectionLabel>
+        {/* Tocar el estado activo lo quita. */}
+        <Tabs
+          label={t("title.status")}
+          value={status}
+          layout="grid grid-cols-2 sm:grid-cols-4"
+          options={STATUSES.map((s) => ({ value: s, label: t(`status.${s}`), disabled: !released && s !== "planned" }))}
+          onChange={(s) => setTitleStatus(title, s === status ? null : s)}
+        />
+      </section>
+
+</div>
+      <div className="order-4 lg:order-none"><VersionPicker title={title} doc={doc} /></div>
+      <div className="order-6 lg:order-none">{released && <RatingAndRewatch title={title} doc={doc} />}</div>
+      <div className="order-7 lg:order-none">{released && <ViewingLog title={title} doc={doc} />}</div>
+      <div className="order-8 lg:order-none"><Notes title={title} doc={doc} /></div>
+      <div className="order-9 lg:order-none">{released && <WhereToWatch title={title} />}</div>
+      <div className="order-10 lg:order-none"><ExternalLinks title={title} /></div>
+        </aside>
+      </div>
     </article>
   );
 }

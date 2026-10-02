@@ -146,7 +146,7 @@ function Layout() {
   }, [pathname, key]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="mx-auto flex min-h-dvh max-w-3xl flex-col px-4">
+    <div className="mx-auto flex min-h-dvh max-w-3xl flex-col px-4 lg:max-w-6xl">
       <header className="sticky top-0 z-20 -mx-4 flex h-[58px] items-center justify-between gap-3 border-b-2 border-line bg-bg px-4">
         <Link to="/" className="flex min-w-0 items-center gap-2">
           <AppMark size={30} />

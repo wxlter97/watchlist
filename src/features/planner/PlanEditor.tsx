@@ -166,7 +166,7 @@ function PlanForm({ existing, params }: { existing?: PlanDoc; params: URLSearchP
   ];
 
   return (
-    <form onSubmit={submit} className="space-y-8 pt-6" style={accentStyle(franchise.accentColor)}>
+    <form onSubmit={submit} className="max-w-3xl space-y-8 pt-6" style={accentStyle(franchise.accentColor)}>
       <div>
         <Link to={existing ? `/plans/${existing.id}` : "/plans"} className="label inline-block border-b-2 border-current pb-0.5 font-bold">
           ← {existing ? existing.name : t("planner.title")}
