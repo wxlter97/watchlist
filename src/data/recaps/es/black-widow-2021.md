@@ -1,0 +1,4 @@
+- Tras Civil War, Natasha Romanoff huye y se reencuentra con su hermana Yelena, su madre Melina y su padre Alexei (Guardián Rojo).
+- Descubren que Dreykov, director de la Habitación Roja, sigue vivo; destruyen su base y lo matan.
+- Taskmaster resulta ser su hija, Antonia, a quien Dreykov controlaba.
+- Natasha ayuda a liberar a las viudas y pasa a unirse otra vez a los Vengadores.

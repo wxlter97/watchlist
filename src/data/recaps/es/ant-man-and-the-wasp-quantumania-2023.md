@@ -1,0 +1,4 @@
+- Scott Lang, Hope, Hank Pym, Janet y Cassie quedan atrapados en el Reino Cuántico.
+- Kang el Conquistador, exiliado allí, quiere escapar; usa a Scott para hacerse con su fuente de energía.
+- Los héroes lo detienen, pero Kang advierte que hay variantes suyas en el multiverso.
+- Una escena posterior muestra al Consejo de Kangs.

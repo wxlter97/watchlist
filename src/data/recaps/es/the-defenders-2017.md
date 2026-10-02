@@ -1,0 +1,3 @@
+- Daredevil, Jessica Jones, Luke Cage e Iron Fist se unen contra la Mano, que busca una sustancia bajo Nueva York.
+- Alexandra, líder de la Mano, y Elektra (resucitada como el Arma Negra) los enfrentan.
+- Matt Murdock queda sepultado en el derrumbe del edificio y se le da por muerto.

@@ -1,0 +1,4 @@
+- Scott Lang, ladrón recién salido de prisión, es reclutado por Hank Pym para usar el traje de Ant-Man.
+- Darren Cross, antiguo alumno de Pym, crea el Yellowjacket y quiere venderlo; Scott lo detiene entrando en su traje.
+- Scott se encoge al nivel subatómico y regresa del Reino Cuántico.
+- Hank le da a su hija Hope el traje de la Avispa.

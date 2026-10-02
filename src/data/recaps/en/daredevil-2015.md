@@ -1,0 +1,3 @@
+- **Season 1:** Matt Murdock, a blind lawyer, fights crime at night in Hell's Kitchen and faces Wilson Fisk, who goes to prison.
+- **Season 2:** the Punisher, Frank Castle, arrives and Elektra returns, dragging Matt back into his past with the Hand.
+- **Season 3:** Fisk leaves prison on an FBI deal; Matt, broken, defeats him again.

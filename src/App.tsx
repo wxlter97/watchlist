@@ -1,7 +1,7 @@
 import { ConsentBanner } from "./components/ConsentBanner";
 import { RouteError } from "./components/RouteError";
-import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation } from "react-router";
-import { lazy, Suspense, useEffect, useSyncExternalStore, type ComponentType } from "react";
+import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation, useNavigationType } from "react-router";
+import { lazy, Suspense, useEffect, useLayoutEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { Toaster } from "./components/Toaster";
 import { HubPage } from "./features/hub/HubPage";
@@ -50,6 +50,7 @@ const PrivacyPage = page(() => import("./features/legal/LegalPage"), "PrivacyPag
 const TermsPage = page(() => import("./features/legal/LegalPage"), "TermsPage");
 const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
+import { restoreScroll, savedScroll, setCurrentKey, trackScroll } from "./lib/scroll";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
 function useOnline() {
@@ -124,10 +125,25 @@ function Banners() {
 
 function Layout() {
   const { t } = useLang();
-  const { pathname } = useLocation();
+  const { pathname, key } = useLocation();
+  const navigationType = useNavigationType();
+
+  // El navegador no restaura el scroll de una SPA: se guarda mientras te desplazas y se
+  // restaura al volver con "atrás"; en una entrada nueva se empieza arriba. Un reemplazo (?nivel=) no mueve nada.
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    history.scrollRestoration = "manual";
+    return trackScroll();
+  }, []);
+  useLayoutEffect(() => {
+    setCurrentKey(key);
+    if (navigationType === "REPLACE") return;
+    const saved = navigationType === "POP" ? savedScroll(key) : undefined;
+    if (saved === undefined) {
+      window.scrollTo(0, 0);
+      return undefined;
+    }
+    return restoreScroll(saved);
+  }, [pathname, key]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col px-4">

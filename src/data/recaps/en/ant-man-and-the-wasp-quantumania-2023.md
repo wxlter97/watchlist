@@ -1,0 +1,4 @@
+- Scott Lang, Hope, Hank Pym, Janet and Cassie are trapped in the Quantum Realm.
+- Kang the Conqueror, exiled there, wants to escape; he uses Scott to get his power source.
+- The heroes stop him, but Kang warns that variants of him exist across the multiverse.
+- A post-credits scene shows the Council of Kangs.

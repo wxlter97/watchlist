@@ -1,0 +1,3 @@
+- Five years after a virus turns heroes into zombies, a group of survivors travels to activate a transmitter to call for help from space.
+- Along the way they face Wanda Maximoff as the Queen of the Dead and her army, with heavy casualties.
+- At the end, Kamala Khan wakes in a seemingly restored world, only to find it's not real: Wanda is keeping her in a simulation.

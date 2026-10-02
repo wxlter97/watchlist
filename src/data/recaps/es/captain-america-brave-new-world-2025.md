@@ -1,0 +1,4 @@
+- Sam Wilson, el nuevo Capitán América, se reúne con el presidente Thaddeus Ross, que quiere explotar la Isla Celestial.
+- Samuel Sterns, el Líder, manipula a Ross: su ira lo convierte en Hulk Rojo.
+- Sam vence a Ross en la Casa Blanca; la tensión por el adamantium cala entre naciones.
+- Isaiah Bradley, controlado por Sterns, intenta asesinar a Ross; Sam lo defiende.

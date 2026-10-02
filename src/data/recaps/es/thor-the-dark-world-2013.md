@@ -1,0 +1,4 @@
+- Jane Foster absorbe el Éter, un arma antigua; Malekith, líder de los elfos oscuros, la busca para sumir los mundos en oscuridad.
+- Thor lleva a Jane a Asgard; Frigga muere defendiéndola. Thor libera a Loki para detener a Malekith.
+- Malekith es derrotado en Greenwich. Loki parece morir, pero en realidad se hace pasar por Odín.
+- El Éter queda en manos del Coleccionista.

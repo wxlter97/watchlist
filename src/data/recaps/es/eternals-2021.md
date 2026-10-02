@@ -1,0 +1,4 @@
+- Los Eternos, seres inmortales enviados por los Celestiales, protegen a la humanidad de los Desviantes desde hace siglos.
+- Tras Endgame, Sersi y los suyos se reagrupan cuando los Desviantes reaparecen; Ajak muere.
+- Descubren que un Celestial, Tiamut, está por nacer del interior de la Tierra y destruirá el planeta; Sersi lo petrifica.
+- Ikaris, que sabía la verdad, se suicida; los Eternos se dividen. Dane Whitman aparece en una escena posterior.

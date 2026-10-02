@@ -1,0 +1,2 @@
+- Peggy Carter, relegada a trabajo de oficina, recupera por su cuenta un suero misterioso llamado Zodiac.
+- Su superior desestima el logro, pero Howard Stark interviene y ella queda como codirectora de la recién creada S.H.I.E.L.D.

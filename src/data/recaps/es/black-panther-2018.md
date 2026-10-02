@@ -1,0 +1,4 @@
+- T'Challa se corona rey de Wakanda, nación secretamente avanzada gracias al vibranio.
+- Su primo Erik Killmonger lo desafía por el trono, lo derrota y quiere armar al mundo con la tecnología wakandiana.
+- T'Challa se recupera, vence a Killmonger y le da la oportunidad de morir libre.
+- Wakanda se abre al mundo con un centro de alcance internacional.

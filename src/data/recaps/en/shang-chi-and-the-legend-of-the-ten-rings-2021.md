@@ -1,0 +1,4 @@
+- Shang-Chi, who ran away from his father Wenwu, leader of the Ten Rings organization, lives a normal life in San Francisco with his friend Katy.
+- Wenwu, bearer of the rings, wants to free a creature he believes is his dead wife.
+- Shang-Chi, his sister Xialing and Katy travel to Ta Lo; they defeat the creature and Shang-Chi inherits the rings.
+- Wong and Bruce Banner appear in post-credits scenes.

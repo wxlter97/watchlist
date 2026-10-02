@@ -1,0 +1,4 @@
+- Sam Wilson entrega el escudo del Capitán América al gobierno; John Walker lo recibe como nuevo Capitán.
+- Sam y Bucky se enfrentan a los Flag Smashers, liderados por Karli Morgenthau, y descubren a Isaiah Bradley, un supersoldado olvidado.
+- Walker mata a un Flag Smasher y es despojado del escudo.
+- Sam acepta el escudo y se convierte en el Capitán América.

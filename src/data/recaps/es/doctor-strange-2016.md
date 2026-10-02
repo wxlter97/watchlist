@@ -1,0 +1,4 @@
+- El cirujano Stephen Strange pierde el uso de sus manos en un accidente y busca curación en Kamar-Taj.
+- La Anciana lo entrena en las artes místicas; conoce a Wong y Mordo, y se hace guardián de la Piedra del Tiempo del Ojo de Agamotto.
+- Atrapa a Dormammu en un bucle temporal para que se retire de la Tierra.
+- Se queda como protector del Sancta Sanctorum de Nueva York; Mordo se aparta por la manipulación del tiempo.

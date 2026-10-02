@@ -1,0 +1,4 @@
+- After the Battle of New York, Tony suffers from anxiety and becomes obsessed with building suits.
+- The "Mandarin" is an actor, Trevor Slattery, used by Aldrich Killian, who empowers soldiers with Extremis.
+- Killian kidnaps Pepper and injects her with Extremis; Tony beats him with Rhodey's help.
+- In the end he destroys all his suits and has the shrapnel removed from his chest.

@@ -1,0 +1,4 @@
+- Clint Barton quiere pasar la Navidad con su familia, pero Kate Bishop, una joven arquera, lo mete en un problema con la Mafia del Chándal.
+- Descubren que Maya López (Echo), que busca vengarse de Ronin, trabaja para Kingpin.
+- Yelena Belova va tras Clint, culpándolo de la muerte de su hermana Natasha; Kate la convence de lo contrario.
+- Clint vuelve a casa; Kate toma el relevo como Hawkeye.

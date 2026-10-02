@@ -1,0 +1,4 @@
+- Strange protege a América Chavez, una joven capaz de viajar entre universos, de Wanda, que quiere su poder para recuperar a sus hijos.
+- Wanda se vale del Darkhold y posee a su versión de otro universo; Strange cruza el multiverso para detenerla.
+- América controla su poder; Wanda destruye el Darkhold con el Monte Wundagore y muere.
+- Strange se queda con un tercer ojo; en una escena posterior, Clea lo lleva a una incursión.

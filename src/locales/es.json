@@ -28,7 +28,15 @@
     "achievementsBody": "Insignias por completar fases, sagas, rutas y rachas.",
     "wrappedBody": "Tu año en horas, franquicias y títulos favoritos.",
     "groupsBody": "Vean una saga en pareja o en grupo, cada quien a su ritmo.",
-    "compareBody": "Pon lado a lado el progreso de dos perfiles de tu cuenta."
+    "compareBody": "Pon lado a lado el progreso de dos perfiles de tu cuenta.",
+    "watching": "Viendo ahora",
+    "dropped": "Abandonadas",
+    "droppedHint": "Las dejaste a medias. Retómalas cuando quieras.",
+    "resume": "Retomar",
+    "started": "Empezada el {{date}}",
+    "droppedOn": "Abandonada el {{date}}",
+    "inOrder": "Orden: {{name}}",
+    "routeDone": "Ruta completa: sigue el orden"
   },
   "progress": {
     "count": "{{watched}} de {{total}} vistos",
@@ -788,6 +796,7 @@
     "mediums": {
       "cinema": "Cine",
       "streaming": "Streaming",
+      "tv": "TV",
       "other": "Otro"
     },
     "format": "Experiencia",
@@ -801,6 +810,20 @@
       "dubbed": "Doblada",
       "subbed": "Subtitulada"
     },
-    "clear": "Borrar"
+    "clear": "Borrar",
+    "add": "Registrar cuándo la viste",
+    "addReplay": "Añadir otra vez que la viste",
+    "first": "Primera vez",
+    "replay": "Replay {{number}}",
+    "remove": "Borrar la visualización {{number}}",
+    "season": "Temporada",
+    "language": "Idioma",
+    "note": "Nota",
+    "notePlaceholder": "Con quién, qué tal estuvo…"
+  },
+  "list": {
+    "next": "Sigue",
+    "jump": "Ir a mi siguiente",
+    "jumpTitle": "Vas en {{title}}"
   }
 }

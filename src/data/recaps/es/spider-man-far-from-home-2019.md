@@ -1,0 +1,4 @@
+- Peter Parker viaja a Europa y Nick Fury (en realidad Talos) lo recluta contra los Elementales, junto a Quentin Beck, Mysterio.
+- Beck es un fraude que fabrica ilusiones con la tecnología de Tony, EDITH, que Peter le entregó.
+- Peter lo detiene, pero Beck revela su identidad a todo el mundo antes de morir.
+- Spider-Man queda como fugitivo y J. Jonah Jameson difunde que es un criminal.

@@ -1,0 +1,4 @@
+- Riri Williams, estudiante del MIT, vuelve a Chicago tras perder a su amiga Natalie y a su padrastro, y construye su propia armadura.
+- Se une a la banda de Parker Robbins, que usa una capa mágica, para financiarla.
+- Descubre que la capa toma poder de Mephisto; lo derrota.
+- Acepta un trato con Mephisto que resucita a Natalie, y su brazo queda marcado.

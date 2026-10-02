@@ -1,0 +1,4 @@
+- Jennifer Walters, abogada y prima de Bruce Banner, recibe poderes de Hulk tras un accidente y una transfusión de su sangre.
+- Trabaja como abogada de casos de superhumanos y se enfrenta a Titania y a Intelligencia, que la acosan en línea.
+- Se encuentra con Daredevil y con Wong, y rompe la cuarta pared.
+- Al final rechaza el guion que le plantea K.E.V.I.N. y sigue su vida a su manera.

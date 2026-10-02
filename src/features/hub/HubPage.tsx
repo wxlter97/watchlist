@@ -1,18 +1,20 @@
-import type { ReactNode } from "react";
+import { useMemo, type ReactNode } from "react";
 import { Link } from "react-router";
 import { accentStyle, Poster, ProgressBar, SearchIcon, SectionLabel, TitleMeta, WatchToggle } from "../../components/ui";
 import { AdSlot } from "../../components/AdSlot";
 import { FollowButton } from "../../components/FollowButton";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
-import { franchiseMetaById, franchiseMetas, useCatalog, useCatalogStore, withReferences, type FranchiseMeta } from "../../lib/catalog";
+import { franchiseMetaById, franchiseMetas, useCatalog, useCatalogForTitles, useCatalogStore, withReferences, type FranchiseMeta } from "../../lib/catalog";
 import { effectiveHidden } from "../../lib/filters";
 import { useLang } from "../../lib/i18n";
 import { summarizeEntries, todayIso } from "../../lib/progress";
-import { setUnitWatched } from "../../lib/actions";
-import { useProgressStore } from "../../lib/progressStore";
-import { useIsWatched, useManifestIsWatched } from "../../lib/watched";
-import { prepUnits } from "../../lib/prep";
-import { resolveRoute, routeProgress } from "../../lib/routes";
+import { setTitleStatus, setUnitWatched } from "../../lib/actions";
+import { effectiveEpisodes, totalEpisodes, watchedEpisodes } from "../../lib/episodes";
+import { nextUp } from "../../lib/orders";
+import { useProgressStore, type ProgressDoc } from "../../lib/progressStore";
+import { useIsDropped, useIsWatched, useManifestIsWatched } from "../../lib/watched";
+import { routeUnits } from "../../lib/prep";
+import { routeProgress } from "../../lib/routes";
 import { useSettings } from "../../lib/settings";
 import type { Franchise, Title } from "../../lib/types";
 
@@ -87,15 +89,7 @@ export function HubPage() {
         </Section>
       )}
 
-      {upcoming.length > 0 && (
-        <Section label={t("hub.upcoming")}>
-          <ul className="border-2 border-line bg-surface">
-            {upcoming.map((u) => (
-              <UpcomingRow key={`${u.title.id}-${u.date}`} item={u} />
-            ))}
-          </ul>
-        </Section>
-      )}
+      <StatusSections />
 
       {followedRoutes.length > 0 && (
         <Section label={t("hub.routes")}>
@@ -112,6 +106,16 @@ export function HubPage() {
       {followed.length > 0 && (
         <Section label={t("hub.following")}>
           <FranchiseGrid franchises={followed} />
+        </Section>
+      )}
+
+      {upcoming.length > 0 && (
+        <Section label={t("hub.upcoming")}>
+          <ul className="border-2 border-line bg-surface">
+            {upcoming.map((u) => (
+              <UpcomingRow key={`${u.title.id}-${u.date}`} item={u} />
+            ))}
+          </ul>
         </Section>
       )}
 
@@ -175,8 +179,30 @@ function CardHeader({ children }: { children: ReactNode }) {
 }
 
 function ContinueCard({ franchise }: { franchise: FranchiseMeta }) {
-  const { t, loc, unitName } = useLang();
-  const { next, ready } = useFranchiseView(franchise.id);
+  const { t, loc, name, unitName } = useLang();
+  const view = useFranchiseView(franchise.id);
+  const isDropped = useIsDropped();
+
+  // "Continuar viendo" sigue la última ruta que se abrió en la franquicia (con el nivel elegido);
+  // si no hay, o ya se completó, el orden activo.
+  const route = useMemo(
+    () => (view.franchise && view.state?.activeRoute ? routeUnits(view.state.activeRoute, view.franchise, view.index, view.state) : undefined),
+    [view.franchise, view.index, view.state],
+  );
+  const today = todayIso();
+  const routeNext = route && nextUp(route.items.filter((i) => i.releaseDate <= today), view.isWatched, isDropped);
+  const routeDone = route && !routeNext && route.items.length > 0 && route.items.every((i) => view.isWatched(i.title.id, i.season));
+  const next = routeNext ?? view.next;
+
+  let context: string | undefined;
+  if (view.ready && view.order) {
+    const heading = route && (route.route ? loc(route.route.name) : route.target ? t("prep.title", { title: name(route.target) }) : undefined);
+    context = routeNext
+      ? [heading, route.level && t(`prep.levels.${route.level}`)].filter(Boolean).join(" · ")
+      : routeDone
+        ? t("hub.routeDone")
+        : t("hub.inOrder", { name: view.order.type === "custom" ? t("customOrder.name") : loc(view.order.name) });
+  }
 
   return (
     <div style={accentStyle(franchise.accentColor)} className="border-2 border-line bg-surface">
@@ -185,30 +211,119 @@ function ContinueCard({ franchise }: { franchise: FranchiseMeta }) {
           {loc(franchise.name)}
         </Link>
       </CardHeader>
-      {!ready ? (
+      {!view.ready ? (
         <div aria-busy="true" className="h-[120px]" />
       ) : next ? (
-        <div className="flex items-center gap-3 p-3">
-          <Link to={`/t/${next.title.id}`} className="group flex min-w-0 flex-1 items-center gap-3">
-            <Poster title={next.title} size="w154" className="h-24 w-16" />
-            <div className="min-w-0">
-              <p className="label text-muted">{t("hub.upNext")}</p>
-              <p className="mt-1 truncate font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">
-                {unitName(next.title, next.season)}
-              </p>
-              <TitleMeta title={next.title} season={next.season} />
-            </div>
-          </Link>
-          <WatchToggle
-            watched={false}
-            label={t("actions.markWatched", { title: unitName(next.title, next.season) })}
-            onToggle={() => setUnitWatched(next.title, next.season, true)}
-          />
+        <div>
+          {context && (
+            <p className="truncate border-b-2 border-line-soft px-3 py-2 font-mono text-[11px] tracking-[0.06em] text-muted uppercase">
+              {routeNext && view.state?.activeRoute ? (
+                <Link to={view.state.activeRoute} className="hover:text-fg hover:underline">
+                  {context}
+                </Link>
+              ) : (
+                context
+              )}
+            </p>
+          )}
+          <div className="flex items-center gap-3 p-3">
+            <Link to={`/t/${next.title.id}`} className="group flex min-w-0 flex-1 items-center gap-3">
+              <Poster title={next.title} size="w154" className="h-24 w-16" />
+              <div className="min-w-0">
+                <p className="label text-muted">{t("hub.upNext")}</p>
+                <p className="mt-1 truncate font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">
+                  {unitName(next.title, next.season)}
+                </p>
+                <TitleMeta title={next.title} season={next.season} />
+              </div>
+            </Link>
+            <WatchToggle
+              watched={false}
+              label={t("actions.markWatched", { title: unitName(next.title, next.season) })}
+              onToggle={() => setUnitWatched(next.title, next.season, true)}
+            />
+          </div>
         </div>
       ) : (
         <p className="p-4 text-sm text-fg-soft">{t("hub.allCaughtUp")}</p>
       )}
     </div>
+  );
+}
+
+/**
+ * Lo que está empezado y lo que se dejó a medias. "Viendo ahora" es lo que el perfil marcó
+ * como "viendo" (o una serie con episodios vistos); "Abandonadas" se retoman con un toque.
+ */
+function StatusSections() {
+  const { t } = useLang();
+  const progress = useProgressStore((s) => s.progress);
+  const byRecent = ([, a]: [string, ProgressDoc], [, b]: [string, ProgressDoc]) => (b.startedAt ?? b.updatedAt).localeCompare(a.startedAt ?? a.updatedAt);
+  const watching = Object.entries(progress).filter(([, d]) => d.status === "watching").sort(byRecent);
+  const dropped = Object.entries(progress).filter(([, d]) => d.status === "dropped").sort(byRecent);
+  const { index } = useCatalogForTitles([...watching, ...dropped].map(([id]) => id));
+  const rows = (list: [string, ProgressDoc][]) => list.flatMap(([id, doc]) => (index.titlesById.get(id) ? [{ title: index.titlesById.get(id)!, doc }] : []));
+  const watchingRows = rows(watching);
+  const droppedRows = rows(dropped);
+
+  return (
+    <>
+      {watchingRows.length > 0 && (
+        <Section label={t("hub.watching")}>
+          <ul className="border-2 border-line bg-surface">
+            {watchingRows.map(({ title, doc }) => (
+              <StatusRow key={title.id} title={title} doc={doc} />
+            ))}
+          </ul>
+        </Section>
+      )}
+      {droppedRows.length > 0 && (
+        <Section label={t("hub.dropped")}>
+          <p className="mb-3 text-sm text-fg-soft">{t("hub.droppedHint")}</p>
+          <ul className="border-2 border-line bg-surface">
+            {droppedRows.map(({ title, doc }) => (
+              <StatusRow key={title.id} title={title} doc={doc} />
+            ))}
+          </ul>
+        </Section>
+      )}
+    </>
+  );
+}
+
+function StatusRow({ title, doc }: { title: Title; doc: ProgressDoc }) {
+  const { t, unitName, date } = useLang();
+  const dropped = doc.status === "dropped";
+  const total = totalEpisodes(title);
+  const seen = watchedEpisodes(effectiveEpisodes(title, doc));
+  const since = dropped ? t("hub.droppedOn", { date: date(doc.updatedAt) }) : t("hub.started", { date: date(doc.startedAt ?? doc.updatedAt) });
+  const name = unitName(title);
+
+  return (
+    <li className="border-b-2 border-line-soft last:border-b-0">
+      <div className="flex items-center gap-3 p-3">
+        <Link to={`/t/${title.id}`} className="group flex min-w-0 flex-1 items-center gap-3">
+          <Poster title={title} size="w92" className="h-[60px] w-10" />
+          <div className="min-w-0">
+            <p className="truncate font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">{name}</p>
+            <p className="font-mono text-[11px] tracking-[0.04em] text-muted uppercase">
+              {[total > 0 && t("episodes.progress", { seen, total }), since].filter(Boolean).join(" · ")}
+            </p>
+          </div>
+        </Link>
+        {dropped ? (
+          <button
+            type="button"
+            onClick={() => setTitleStatus(title, "watching")}
+            className="min-h-11 shrink-0 border-2 border-tinta bg-faro px-3 font-mono text-xs font-bold text-tinta uppercase transition-colors duration-[120ms] ease-out hover:bg-tinta hover:text-faro"
+          >
+            {t("hub.resume")}
+          </button>
+        ) : (
+          <WatchToggle watched={false} label={t("actions.markWatched", { title: name })} onToggle={() => setTitleStatus(title, "watched")} />
+        )}
+      </div>
+    </li>
   );
 }
 
@@ -282,19 +397,21 @@ function FranchiseCard({ franchise }: { franchise: FranchiseMeta }) {
 
 /** Una ruta seguida: `/f/{franquicia}/r/{ruta}` o la automática `/f/{franquicia}/prep/{título}`. */
 function FollowedRouteCard({ path }: { path: string }) {
-  const { t, loc, name } = useLang();
+  const { t, loc, name, unitName } = useLang();
   const isWatched = useIsWatched();
-  const [, , franchiseId, kind, ref] = path.split("/");
+  const isDropped = useIsDropped();
+  const [, , franchiseId] = path.split("/");
   const { index, ready } = useCatalog(withReferences(franchiseId));
+  const state = useProgressStore((s) => (franchiseId ? s.franchiseState[franchiseId] : undefined));
   const franchise = franchiseId ? index.franchisesById.get(franchiseId) : undefined;
   if (!franchise || !ready) return <div aria-busy="true" className="h-[120px] border-2 border-line bg-surface" />;
 
-  const route = kind === "r" ? franchise.routes.find((r) => r.id === ref) : undefined;
-  const target = kind === "prep" ? index.titlesById.get(ref ?? "") : undefined;
-  if (!route && !target) return null;
-  const items = route ? resolveRoute(route, franchise, index) : prepUnits(franchise, target!.id, "recommended", index);
-  const progress = routeProgress(items, isWatched);
-  const heading = route ? loc(route.name) : t("prep.title", { title: name(target!) });
+  // Con el nivel que se eligió en esa ruta (no siempre "recomendado").
+  const units = routeUnits(path, franchise, index, state);
+  if (!units) return null;
+  const progress = routeProgress(units.items, isWatched);
+  const heading = units.route ? loc(units.route.name) : t("prep.title", { title: name(units.target!) });
+  const next = nextUp(units.items.filter((i) => i.releaseDate <= todayIso()), isWatched, isDropped);
 
   return (
     <div style={accentStyle(franchise.accentColor)} className="flex h-full flex-col border-2 border-line bg-surface">
@@ -304,6 +421,13 @@ function FollowedRouteCard({ path }: { path: string }) {
       </CardHeader>
       <Link to={path} className="group flex flex-1 flex-col gap-3 p-4">
         <h3 className="display text-[22px] group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">{heading}</h3>
+        {units.level && <p className="label -mt-1.5 text-muted">{t(`prep.levels.${units.level}`)}</p>}
+        {next && (
+          <p className="truncate text-sm">
+            <span className="label mr-1.5 text-muted">{t("hub.upNext")}</span>
+            <span className="font-semibold">{unitName(next.title, next.season)}</span>
+          </p>
+        )}
         <div className="mt-auto flex items-end justify-between">
           <span className="font-mono text-[11px] tracking-[0.06em] text-muted uppercase">
             {progress.watched === progress.total ? t("routes.done") : t("progress.count", { watched: progress.watched, total: progress.total })}

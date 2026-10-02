@@ -1,0 +1,2 @@
+- En una gasolinera de Nuevo México, el agente Coulson se topa con dos ladrones armados y los somete con facilidad.
+- Después paga su compra con calma y se va: es más capaz de lo que aparenta.

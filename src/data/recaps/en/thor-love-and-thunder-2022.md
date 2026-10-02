@@ -1,0 +1,4 @@
+- Gorr, who lost his daughter, vows to kill all the gods and wields the Necrosword.
+- Thor teams up with Valkyrie, Korg and Jane Foster, who wields Mjolnir as the Mighty Thor, though the power worsens her cancer.
+- Gorr is defeated; before dying he asks for his daughter to be revived. Jane dies.
+- Thor adopts Gorr's daughter, Love, and carries on as a father and hero.

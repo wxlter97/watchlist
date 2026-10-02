@@ -1,0 +1,4 @@
+- Peter Parker, de 15 años, usa un traje que le dio Tony Stark e intenta ganarse un lugar con los Vengadores.
+- Adrian Toomes, el Buitre, vende armas hechas con tecnología chitauri.
+- Peter lo detiene sin ayuda de Tony y rechaza unirse a los Vengadores.
+- Su tía May descubre que es Spider-Man.

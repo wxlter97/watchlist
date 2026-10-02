@@ -1,0 +1,2 @@
+- **Season 1:** after the war, Peggy Carter works at the SSR while investigating the disappearance of Howard Stark's inventions with help from his butler, Jarvis; she stops Leviathan.
+- **Season 2:** in Los Angeles, Peggy investigates Whitney Frost and Zero Matter, which threatens to open a portal; Frost is stopped.

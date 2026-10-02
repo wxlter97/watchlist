@@ -1,0 +1,4 @@
+- Tony Stark ya reveló al mundo que es Iron Man y el gobierno exige su armadura; él se niega.
+- El paladio de su reactor lo envenena; a partir de un diagrama de su padre, Howard, crea un elemento nuevo que lo salva.
+- Ivan Vanko (Látigo) ataca con un traje propio, asociado con el fabricante de armas Justin Hammer; Tony lo derrota con Rhodey, que pasa a ser War Machine.
+- Natasha Romanoff estaba infiltrada como su asistente y Nick Fury lo sigue reclutando como consultor de la Iniciativa Vengadores.

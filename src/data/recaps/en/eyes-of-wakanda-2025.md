@@ -1,0 +1,4 @@
+- Anthology series: Wakandan warriors retrieve stolen vibranium artifacts across different eras.
+- In Crete (1260 BC), Noni defeats Nkati; in the Trojan War, B'Kai obtains a necklace from Helen and wounds Achilles.
+- In 15th-century China, Basha recovers vibranium with help from Jorani, who has Iron Fist powers.
+- In 1896 Ethiopia, Prince Tafari meets a future Black Panther queen who traveled back in time and warns of an alien invasion.

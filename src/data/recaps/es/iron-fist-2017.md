@@ -1,0 +1,2 @@
+- **Temporada 1:** Danny Rand vuelve a Nueva York tras ser dado por muerto durante quince años y quiere recuperar la empresa de su familia, controlada por los Meachum, mientras usa sus poderes de Puño de Hierro.
+- **Temporada 2:** tras The Defenders, Danny protege la ciudad en ausencia de Matt Murdock mientras un nuevo adversario pone a prueba su identidad y a quienes quiere, entre ellos Colleen Wing.

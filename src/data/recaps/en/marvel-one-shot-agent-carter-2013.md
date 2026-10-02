@@ -1,0 +1,2 @@
+- Peggy Carter, stuck on desk duty, retrieves a mysterious serum called Zodiac on her own.
+- Her superior dismisses the achievement, but Howard Stark steps in and she is named co-head of the newly formed S.H.I.E.L.D.

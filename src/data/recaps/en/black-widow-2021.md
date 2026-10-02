@@ -1,0 +1,4 @@
+- After Civil War, Natasha Romanoff goes on the run and reunites with her sister Yelena, her mother Melina and her father Alexei (Red Guardian).
+- They learn Dreykov, head of the Red Room, is still alive; they destroy his base and kill him.
+- Taskmaster turns out to be his daughter, Antonia, whom Dreykov controlled.
+- Natasha helps free the widows and goes back to the Avengers.

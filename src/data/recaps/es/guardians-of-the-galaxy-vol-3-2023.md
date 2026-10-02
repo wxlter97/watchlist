@@ -1,0 +1,4 @@
+- Rocket resulta herido y el equipo va tras el Alto Evolucionador, que lo creó y torturó.
+- Conocemos su pasado con sus amigos de laboratorio; Rocket y los Guardianes liberan a los animales.
+- El Alto Evolucionador muere; Rocket pasa a liderar el grupo.
+- Peter vuelve a la Tierra con su abuelo; Gamora, de otra línea temporal, sigue su camino.

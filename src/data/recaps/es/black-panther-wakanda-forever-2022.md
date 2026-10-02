@@ -1,0 +1,4 @@
+- T'Challa murió de una enfermedad; Wakanda llora y su pueblo pasa a ser objetivo de Namor, rey de Talokan.
+- Shuri, tras la muerte de Ramonda, toma el manto de Pantera Negra y negocia con Namor.
+- Riri Williams, inventora estadounidense, ayuda a Wakanda; Namor ataca y Shuri lo vence, perdonándole la vida.
+- Nace Toussaint, el hijo de T'Challa y Nakia.

@@ -1,0 +1,4 @@
+- Bruce Banner hides in Brazil looking for a cure for the monster he becomes; General Ross hunts him.
+- Emil Blonsky, one of Ross's soldiers, injects himself with a version of the serum and becomes the Abomination.
+- Hulk defeats him in Harlem. Banner remains on the run alongside Betty Ross.
+- Tony Stark visits Ross and mentions forming a team.

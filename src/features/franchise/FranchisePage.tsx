@@ -1,7 +1,9 @@
 import { lazy, Suspense, useState } from "react";
 import { Link, useParams } from "react-router";
 import { FollowButton } from "../../components/FollowButton";
+import { JumpToNext } from "../../components/JumpToNext";
 import { TitleRow } from "../../components/TitleRow";
+import { rowId, useScrollToNext } from "../../lib/scroll";
 import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
 import { useLang } from "../../lib/i18n";
@@ -32,7 +34,10 @@ export function FranchisePage() {
   const [upTo, setUpTo] = useState<{ key: string; items: OrderedItem[] } | null>(null);
   const applyMany = useProgressStore((s) => s.applyMany);
   const progress = useProgressStore((s) => s.progress);
-  const { franchise, order, items, visibleItems, summary } = view;
+  const { franchise, order, items, visibleItems, summary, next } = view;
+  // Al abrir la franquicia con avance, la vista va a lo que sigue (no se queda arriba).
+  const nextVisible = next && visibleItems.some((i) => i.key === next.key) ? next : undefined;
+  useScrollToNext(view.ready && !editing, nextVisible && rowId(nextVisible.key), summary.watched > 0 && visibleItems[0]?.key !== nextVisible?.key);
 
   if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !order) {
@@ -103,6 +108,7 @@ export function FranchisePage() {
             />
           )}
         </div>
+        {summary.watched > 0 && <JumpToNext next={nextVisible} />}
         {summary.total > 0 && summary.watched === summary.total && (
           <div className="mt-4 flex flex-wrap items-center gap-3 border-t-2 border-line-soft pt-3">
             <p className="flex-1 text-sm font-semibold">{t("franchise.completed")}</p>
@@ -197,6 +203,7 @@ export function FranchisePage() {
                       key={item.key}
                       item={item}
                       showChronoNote={order.type === "chronological"}
+                      isNext={item.key === nextVisible?.key}
                       onWatchedUpTo={askWatchedUpTo}
                     />
                   ))}

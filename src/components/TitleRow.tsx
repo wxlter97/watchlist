@@ -5,6 +5,7 @@ import { useLang } from "../lib/i18n";
 import { todayIso } from "../lib/progress";
 import { setUnitWatched } from "../lib/actions";
 import { useProgressStore } from "../lib/progressStore";
+import { rowId } from "../lib/scroll";
 import type { Entry, Title } from "../lib/types";
 import { isUnitWatched, seasonOf, unitKey, unitReleaseDate } from "../lib/units";
 import { EpisodePicker } from "./EpisodePicker";
@@ -23,10 +24,13 @@ export interface RowItem {
 export function TitleRow({
   item,
   showChronoNote = false,
+  isNext = false,
   onWatchedUpTo,
 }: {
   item: RowItem;
   showChronoNote?: boolean;
+  /** Es lo siguiente por ver de esta lista: se marca y es a donde lleva "Ir a mi siguiente". */
+  isNext?: boolean;
   /** Muestra la acción "Visto hasta aquí" en el menú de la fila (recibe la clave de la unidad). */
   onWatchedUpTo?: (key: string) => void;
 }) {
@@ -35,6 +39,7 @@ export function TitleRow({
   const [open, setOpen] = useState(false);
   const episodes = season === undefined ? undefined : seasonOf(title, season)?.episodes;
   const watched = useProgressStore((s) => isUnitWatched(s.progress[title.id], season, episodes));
+  const status = useProgressStore((s) => s.progress[title.id]?.status);
   // Episodios marcados de esta fila (la temporada, o toda la serie), para "3/13".
   const seen = useProgressStore((s) => {
     const map = effectiveEpisodes(title, s.progress[title.id]);
@@ -47,7 +52,7 @@ export function TitleRow({
   const hasEpisodes = total > 0 && released;
 
   return (
-    <li className="border-b-2 border-line-soft">
+    <li id={rowId(unitKey(title.id, season))} className="scroll-mt-32 border-b-2 border-line-soft">
       <div className="flex items-center gap-3 py-3">
         <span className="w-6 shrink-0 text-right font-mono text-xs text-muted tabular-nums">
           {String(position).padStart(2, "0")}
@@ -64,6 +69,16 @@ export function TitleRow({
             </p>
             <TitleMeta title={title} season={season} />
             <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1">
+              {isNext && (
+                <span className="inline-block border-2 border-tinta bg-faro px-1.5 py-px font-mono text-[10px] font-bold tracking-[0.1em] text-tinta uppercase">
+                  {t("list.next")}
+                </span>
+              )}
+              {!watched && (status === "watching" || status === "dropped") && (
+                <span className="inline-block border-2 border-line px-1.5 py-px font-mono text-[10px] font-bold tracking-[0.1em] uppercase">
+                  {t(`status.${status}`)}
+                </span>
+              )}
               {entry && <ImportanceBadge importance={entry.importance} />}
               {entry?.postCredits && <PostCreditsIcon {...entry.postCredits} />}
               {showChronoNote && entry?.chronoNote && <span className="font-mono text-[11px] text-muted">{loc(entry.chronoNote)}</span>}

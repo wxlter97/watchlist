@@ -1,0 +1,3 @@
+- Luke Cage, con piel indestructible, vive en Harlem y se enfrenta a Cottonmouth, que domina el crimen del barrio, y a su prima Mariah Dillard.
+- Cottonmouth muere; Diamondback, hermano de Luke, ataca con armas hechas con tecnología chitauri y Luke lo derrota.
+- Luke queda como héroe de Harlem aunque con problemas con la policía.

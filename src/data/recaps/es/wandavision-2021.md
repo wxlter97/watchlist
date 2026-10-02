@@ -1,0 +1,4 @@
+- Wanda Maximoff crea una realidad de sitcom en Westview, Nueva Jersey, donde Vision sigue vivo, tras su dolor por perderlo.
+- Agatha Harkness, que se hacía pasar por una vecina, quiere su poder; la serie revela que Wanda es la Bruja Escarlata.
+- Wanda deshace el Hex, pierde a Vision y a sus hijos, y se aísla.
+- Estudia el Darkhold.

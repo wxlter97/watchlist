@@ -1,0 +1,4 @@
+- Agatha Harkness, atrapada por Wanda en Westview, escapa con la ayuda de un adolescente misterioso y forma un aquelarre para recorrer el Camino de las Brujas y recuperar sus poderes.
+- El chico es Billy Maximoff, hijo de Wanda, que busca a su hermano gemelo Tommy.
+- Agatha revela su pasado: perdió a su hijo y pasó siglos robando poderes a otras brujas.
+- Al final se sacrifica ante la Muerte y le deja a Billy lo necesario para encontrar el alma de Tommy.

@@ -1,0 +1,3 @@
+- Agentes de S.H.I.E.L.D. temen que el Consejo libere de prisión a Emil Blonsky, la Abominación, para unirlo a la iniciativa de reclutar héroes.
+- Coulson y Sitwell envían a Tony Stark como «consultor» para irritar al general Ross y arruinar la reunión.
+- Blonsky sigue encerrado.

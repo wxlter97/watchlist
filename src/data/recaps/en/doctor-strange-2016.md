@@ -1,0 +1,4 @@
+- Surgeon Stephen Strange loses the use of his hands in an accident and seeks a cure at Kamar-Taj.
+- The Ancient One trains him in the mystic arts; he meets Wong and Mordo and becomes keeper of the Time Stone in the Eye of Agamotto.
+- He traps Dormammu in a time loop to make him leave Earth.
+- He stays as protector of the New York Sanctum; Mordo turns away over the manipulation of time.

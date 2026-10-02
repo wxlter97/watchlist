@@ -1,0 +1,3 @@
+- Muere Ulysses Bloodstone y los cazadores de monstruos compiten por una reliquia, la Piedra de la Sangre, en su mansión.
+- Entre ellos está el cazador Jack Russell, que en realidad es un hombre lobo, y Elsa, la hija de Ulysses.
+- Se alían con Ted, un monstruo amistoso. Elsa reclama la piedra.

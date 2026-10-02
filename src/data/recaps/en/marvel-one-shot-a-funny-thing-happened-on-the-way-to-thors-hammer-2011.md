@@ -1,0 +1,2 @@
+- At a New Mexico gas station, Agent Coulson runs into two armed robbers and subdues them easily.
+- He then calmly pays for his purchase and leaves: he is far more capable than he looks.

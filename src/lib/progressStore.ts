@@ -5,18 +5,24 @@ import { create } from "zustand";
 
 export type WatchStatus = "watched" | "watching" | "dropped" | "planned";
 
-export const VIEWING_MEDIUMS = ["cinema", "streaming", "other"] as const;
+export const VIEWING_MEDIUMS = ["cinema", "streaming", "tv", "other"] as const;
 export const VIEWING_FORMATS = ["2d", "3d", "4dx", "imax", "screenx", "dolby", "dubbed", "subbed"] as const;
 export type ViewingMedium = (typeof VIEWING_MEDIUMS)[number];
 export type ViewingFormat = (typeof VIEWING_FORMATS)[number];
 
-/** Cuándo y cómo se vio. Todo opcional: lo escribe el perfil, no se deduce. */
+/**
+ * Una vez que se vio (cada replay es otra entrada). Todo opcional: lo escribe el perfil, no se
+ * deduce. Qué opciones ofrece la UI depende del tipo de título (ver viewings.ts).
+ */
 export interface Viewing {
   /** Día (YYYY-MM-DD). */
   date?: string;
   place?: string;
   medium?: ViewingMedium;
   formats?: ViewingFormat[];
+  /** Temporada que se vio (series). */
+  season?: number;
+  note?: string;
 }
 
 export interface ProgressDoc {
@@ -27,13 +33,22 @@ export interface ProgressDoc {
   notes?: string;
   episodes?: Record<string, number[]>;
   versionId?: string;
+  /** Cada vez que se vio, de la más antigua a la más reciente. */
+  viewings?: Viewing[];
+  /** @deprecated Una sola visualización (versión anterior): ver viewingsOf. */
   viewing?: Viewing;
+  /** Cuándo se empezó a ver (estado "viendo"); se conserva al abandonar y retomar. */
+  startedAt?: string;
   updatedAt: string;
 }
 
 export interface FranchiseStateDoc {
   lastOrderId?: string;
   customOrder?: string[];
+  /** Ruta que el perfil abrió por última vez (`/f/…/r/…` o `/f/…/prep/…`): "continuar viendo" la sigue a ella. */
+  activeRoute?: string;
+  /** Nivel elegido en cada "Prepárate para…", por id del título objetivo. */
+  prepLevels?: Record<string, string>;
   /** Excepciones al hiddenByDefault del catálogo: visibles por defecto que el perfil ocultó… */
   hiddenContinuities?: string[];
   /** …y ocultas por defecto que activó. */
@@ -69,6 +84,18 @@ interface ProgressState extends ProgressData {
 }
 
 const now = () => new Date().toISOString();
+
+/** Las visualizaciones de un título, también las guardadas con el formato anterior (una sola). */
+export const viewingsOf = (doc: Pick<ProgressDoc, "viewings" | "viewing"> | undefined): Viewing[] =>
+  doc?.viewings ?? (doc?.viewing ? [doc.viewing] : []);
+
+/** Fechas que dependen del estado: se ve la primera vez que pasa a "viendo" / "visto". */
+function stamps(prev: ProgressDoc | undefined, status: WatchStatus): Pick<ProgressDoc, "watchedAt" | "startedAt"> {
+  return {
+    watchedAt: status === "watched" ? (prev?.status === "watched" ? prev.watchedAt : now()) : prev?.watchedAt,
+    startedAt: status === "watching" && !prev?.startedAt ? now() : prev?.startedAt,
+  };
+}
 
 // ---- Backend de invitado: localStorage ----
 
@@ -126,7 +153,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
         rewatchCount: 0,
         ...prev,
         status,
-        watchedAt: status === "watched" ? (prev?.status === "watched" ? prev.watchedAt : now()) : prev?.watchedAt,
+        ...stamps(prev, status),
         updatedAt: now(),
       };
       progress[titleId] = doc;
@@ -144,8 +171,10 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       rewatchCount: 0,
       ...prev,
       ...patch,
+      // El formato anterior (una sola visualización) se reemplaza por la lista.
+      ...(patch.viewings ? { viewing: undefined } : {}),
       status,
-      watchedAt: status === "watched" ? (prev?.status === "watched" ? prev.watchedAt : now()) : prev?.watchedAt,
+      ...stamps(prev, status),
       updatedAt: now(),
     };
     set((s) => ({ progress: { ...s.progress, [titleId]: doc } }));

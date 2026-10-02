@@ -27,3 +27,9 @@ export function useManifestIsWatched(): IsWatched {
     [progress],
   );
 }
+
+/** ¿Abandonado? Lo abandonado no cuenta como "siguiente" en ninguna lista. */
+export function useIsDropped(): (titleId: string) => boolean {
+  const progress = useProgressStore((s) => s.progress);
+  return useMemo(() => (titleId: string) => progress[titleId]?.status === "dropped", [progress]);
+}

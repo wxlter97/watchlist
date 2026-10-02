@@ -1,0 +1,4 @@
+- Riri Williams, an MIT student, returns to Chicago after losing her friend Natalie and her stepfather, and builds her own suit of armor.
+- She joins Parker Robbins's crew, who wields a magic cloak, to fund it.
+- She discovers the cloak draws power from Mephisto; she defeats Parker.
+- She accepts a deal with Mephisto that brings Natalie back, and her arm is marked.

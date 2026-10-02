@@ -1,0 +1,4 @@
+- Nick Fury returns from space and learns Skrulls have infiltrated Earth under Gravik, who wants to conquer it with false identities.
+- He discovers allies like Rhodey and Everett Ross are Skrulls in disguise.
+- Gravik kills Talos; his daughter G'iah defeats him with enhanced powers.
+- The Skrulls face persecution; Fury leaves to negotiate peace on a space station.

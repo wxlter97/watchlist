@@ -1,0 +1,4 @@
+- Carol Danvers, Monica Rambeau and Kamala Khan swap places every time they use their powers, because of a link through light.
+- Dar-Benn, a Kree leader, uses a bangle to steal resources and leave planets without air or water.
+- The three, with Nick Fury, stop her; Kamala joins the team.
+- In a post-credits scene, Monica meets Hank McCoy (Beast) in another universe.

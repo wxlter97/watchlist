@@ -1,0 +1,4 @@
+- Steven Grant, empleado de una tienda de regalos, comparte cuerpo con Marc Spector, mercenario, ambos al servicio del dios egipcio Khonshu.
+- Arthur Harrow, seguidor de la diosa Ammit, planea ejecutar a quienes cree que cometerán crímenes.
+- Steven y Marc, con Layla, esposa de Marc, lo detienen y derrotan a Ammit.
+- Se revela una tercera personalidad, Jake Lockley, que sirve a Khonshu.

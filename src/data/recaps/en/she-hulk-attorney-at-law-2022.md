@@ -1,0 +1,4 @@
+- Jennifer Walters, a lawyer and cousin of Bruce Banner, gets Hulk powers after an accident and a transfusion of his blood.
+- She works as an attorney for superhuman cases and faces Titania and Intelligencia, who harass her online.
+- She crosses paths with Daredevil and Wong, and breaks the fourth wall.
+- In the end she rejects the script proposed by K.E.V.I.N. and carries on her own way.

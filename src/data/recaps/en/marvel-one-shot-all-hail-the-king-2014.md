@@ -1,0 +1,2 @@
+- Trevor Slattery, the fake Mandarin, lives comfortably in prison until a documentary filmmaker interviewing him turns out to be a member of the real Ten Rings.
+- The organization extracts him to meet the real Mandarin.

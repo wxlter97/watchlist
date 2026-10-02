@@ -1,0 +1,3 @@
+- Drax y Mantis secuestran a Kevin Bacon para dárselo de regalo de Navidad a Peter Quill.
+- Peter descubre la verdad pero lo toma bien. Mantis revela que es su media hermana: Ego era también su padre.
+- Los Guardianes celebran juntos la Navidad.

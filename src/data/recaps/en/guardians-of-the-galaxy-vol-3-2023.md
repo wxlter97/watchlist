@@ -1,0 +1,4 @@
+- Rocket is badly hurt and the team goes after the High Evolutionary, who created and tortured him.
+- We see his past with his lab companions; Rocket and the Guardians free the animals.
+- The High Evolutionary dies; Rocket takes over as leader.
+- Peter returns to Earth to be with his grandfather; Gamora, from another timeline, goes her own way.
