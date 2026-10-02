@@ -1,35 +1,35 @@
 import { buildIndex } from "./catalogIndex";
 import { catalog as realCatalog } from "./catalogFull";
-import type { ProgressDoc } from "./progressStore";
-import { recapIds, recapsBefore } from "./recaps";
+import { recapIds, recapSources } from "./recaps";
 import { makeCatalog } from "../test/fixtures";
 
 const index = buildIndex(makeCatalog());
-const w: ProgressDoc = { status: "watched", rewatchCount: 0, updatedAt: "" };
 
 describe("recaps", () => {
-  it("solo títulos previos, vistos y con recap, en el orden activo", () => {
-    const has = (id: string) => id !== "b-2003";
-    // Estreno: a-2001, b-2003, alt-2004, c-2005.
-    const progress = { "a-2001": w, "b-2003": w, "alt-2004": w };
-    expect(recapsBefore("c-2005", { index, progress, franchiseState: {}, has })).toEqual(["a-2001", "alt-2004"]);
-    // Cronológico: b-2003, a-2001, c-2005, alt-2004 → antes de c: b (sin recap) y a.
-    expect(recapsBefore("c-2005", { index, progress, franchiseState: { test: { lastOrderId: "chrono", updatedAt: "" } }, has })).toEqual([
-      "a-2001",
-    ]);
+  // Fixture: c-2005 (main) tiene antes b-2003 y a-2001 (a-2001 el más cercano); alt-2004 es otra continuidad que sale de a-2001.
+  it("lista todo lo previo de su linaje, visto o no, y nada de otra línea", () => {
+    expect(recapSources("c-2005", index).map((s) => s.title.id)).toEqual(["a-2001", "b-2003"]);
+    // c-2005 es posterior a la rama alt: no es requisito de alt-2004.
+    expect(recapSources("alt-2004", index).map((s) => s.title.id)).not.toContain("c-2005");
   });
 
-  it("nunca incluye lo no visto", () => {
-    expect(recapsBefore("c-2005", { index, progress: {}, franchiseState: {}, has: () => true })).toEqual([]);
+  it("incluye el motivo y va de más a menos importante", () => {
+    const c = makeCatalog();
+    const f = c.franchises[0]!;
+    f.entries.find((e) => e.titleId === "b-2003")!.importance = "optional";
+    f.entries.find((e) => e.titleId === "a-2001")!.importance = "essential";
+    f.entries.find((e) => e.titleId === "a-2001")!.chronoNote = "Antes de todo";
+    const sources = recapSources("c-2005", buildIndex(c));
+    expect(sources.map((s) => [s.title.id, s.importance, s.inMinimum])).toEqual([
+      ["a-2001", "essential", true],
+      ["b-2003", "optional", false],
+    ]);
+    expect(sources[0]!.chronoNote).toBe("Antes de todo");
+    expect(sources[0]!.continuity?.id).toBe("main");
   });
 
-  it("si el orden curado no incluye el título, usa el cronológico", () => {
-    const state = { test: { lastOrderId: "curated", updatedAt: "" } }; // curated: c-2005, a-2001
-    expect(recapsBefore("b-2003", { index, progress: { "a-2001": w }, franchiseState: state, has: () => true })).toEqual([]);
-    expect(recapsBefore("alt-2004", { index, progress: { "a-2001": w, "c-2005": w }, franchiseState: state, has: () => true })).toEqual([
-      "a-2001",
-      "c-2005",
-    ]);
+  it("nada antes del primer título", () => {
+    expect(recapSources("b-2003", index)).toEqual([]);
   });
 
   it("cada recap existe en ambos idiomas y es de un título del catálogo", () => {

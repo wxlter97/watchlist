@@ -619,7 +619,22 @@
   },
   "recaps": {
     "title": "What you need to remember",
-    "hint": "Only from what you've already watched before this title, in your order. No spoilers from what you haven't."
+    "hint_one": "What comes before and matters to this title: {{count}} title, most to least important, with the reason.",
+    "hint_other": "What comes before and matters to this title: {{count}} titles, most to least important, with the reason.",
+    "whyLabel": "Why it matters",
+    "why": {
+      "essential": "Essential to follow it",
+      "recommended": "Recommended: adds context",
+      "optional": "Optional: extra details",
+      "skippable": "Skippable: only for completionists",
+      "minimum": "In the minimum",
+      "continuity": "{{continuity}} ({{franchise}})"
+    },
+    "seen": "Watched",
+    "unseen": "Not watched",
+    "none": "No recap for this title yet.",
+    "spoilerHidden": "This recap tells what happens in a title you haven't watched. Hidden to avoid spoilers.",
+    "reveal": "Show recap"
   },
   "prep": {
     "title": "Get ready for {{title}}",

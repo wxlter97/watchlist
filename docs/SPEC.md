@@ -358,7 +358,7 @@ Botones en el detalle de título, construidos a partir de los IDs que ya guarda 
 ### 9.3 Visualización del universo
 - **Línea de tiempo interactiva:** eje horizontal por `chronoOrder`, un carril por continuidad; las ramas se dibujan desde `branchesFrom`. Zoom, arrastre, tocar un título abre su detalle. Lo visto se resalta; en modo sin spoilers, lo no visto aparece como póster difuminado.
 - **Mapa de conexiones:** nodos de títulos, personajes y equipos (desde `tags` y rutas de crossover); aristas por aparición compartida. Filtros por franquicia y continuidad. Útil para descubrir crossovers entre franquicias.
-- **Recaps sin spoilers:** "lo que necesitas recordar" antes de ver un título: se arma con los recaps de los títulos previos que el usuario ya vio, nunca de los que no.
+- **Recaps sin spoilers:** "lo que necesitas recordar" antes de ver un título: lista todo lo previo del linaje del título (lo mismo que "Prepárate para…"), visto o no, con el motivo de su relevancia (importancia, selección mínima, continuidad, nota cronológica). El recap de lo no visto queda oculto tras un aviso con el modo sin spoilers activo.
   - Registro de visionado opcional por título (`viewing`: fecha, lugar, cine/streaming/otro y experiencia: 2D, 3D, 4DX, IMAX, ScreenX, Dolby, doblada, subtitulada).
   - Contenido curado y escrito desde cero en `src/data/recaps/{lang}/{titleId}.md` (no copiar sinopsis ni textos de terceros). Se agregan gradualmente, empezando por los títulos `essential`.
 
