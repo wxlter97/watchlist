@@ -762,5 +762,30 @@
     "confirm": "Delete everything",
     "reauth": "For security, sign out, sign in with Google again and repeat this right away.",
     "failed": "Couldn't delete the account. Try again."
+  },
+  "viewing": {
+    "title": "When and how you watched it",
+    "hint": "Everything is optional.",
+    "date": "Date",
+    "place": "Place",
+    "placePlaceholder": "Cinema, platform, someone's home…",
+    "medium": "Where",
+    "mediums": {
+      "cinema": "Cinema",
+      "streaming": "Streaming",
+      "other": "Other"
+    },
+    "format": "Experience",
+    "formats": {
+      "2d": "Standard (2D)",
+      "3d": "3D",
+      "4dx": "4DX",
+      "imax": "IMAX",
+      "screenx": "ScreenX",
+      "dolby": "Dolby",
+      "dubbed": "Dubbed",
+      "subbed": "Subtitled"
+    },
+    "clear": "Clear"
   }
 }

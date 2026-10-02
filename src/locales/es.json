@@ -762,5 +762,30 @@
     "confirm": "Eliminar todo",
     "reauth": "Por seguridad, cierra sesión, vuelve a entrar con Google y repite esto enseguida.",
     "failed": "No se pudo eliminar la cuenta. Inténtalo de nuevo."
+  },
+  "viewing": {
+    "title": "Cuándo y cómo la viste",
+    "hint": "Todo es opcional.",
+    "date": "Fecha",
+    "place": "Lugar",
+    "placePlaceholder": "Cine, plataforma, casa de alguien…",
+    "medium": "Dónde",
+    "mediums": {
+      "cinema": "Cine",
+      "streaming": "Streaming",
+      "other": "Otro"
+    },
+    "format": "Experiencia",
+    "formats": {
+      "2d": "Normal (2D)",
+      "3d": "3D",
+      "4dx": "4DX",
+      "imax": "IMAX",
+      "screenx": "ScreenX",
+      "dolby": "Dolby",
+      "dubbed": "Doblada",
+      "subbed": "Subtitulada"
+    },
+    "clear": "Borrar"
   }
 }

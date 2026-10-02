@@ -35,3 +35,25 @@ describe("respaldo", () => {
     expect(backupFileName("José Ángel", new Date("2026-09-28T10:00:00Z"))).toBe("watch-order-jose-angel-2026-09-28.json");
   });
 });
+
+describe("viewing", () => {
+  const doc = (viewing: unknown) =>
+    JSON.stringify({
+      app: "watch-order",
+      version: 1,
+      exportedAt: "2026-01-01T00:00:00.000Z",
+      profile: "p",
+      progress: { "a-2001": { status: "watched", rewatchCount: 0, updatedAt: "2026-01-01T00:00:00.000Z", viewing } },
+      franchiseState: {},
+    });
+
+  it("conserva solo los campos válidos del registro de visionado", () => {
+    const r = parseBackup(doc({ date: "2026-03-04", place: " Cinépolis ", medium: "cinema", formats: ["3d", "x", "dubbed"], junk: 1 }));
+    expect(r.ok && r.data.progress["a-2001"]!.viewing).toEqual({ date: "2026-03-04", place: "Cinépolis", medium: "cinema", formats: ["3d", "dubbed"] });
+  });
+
+  it("descarta un registro vacío o inválido", () => {
+    const r = parseBackup(doc({ date: "ayer", medium: "tv", formats: [] }));
+    expect(r.ok && r.data.progress["a-2001"]!.viewing).toBeUndefined();
+  });
+});

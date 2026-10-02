@@ -3,7 +3,7 @@ import { formatRuntime, SectionLabel, Tabs } from "../../components/ui";
 import { effectiveEpisodes, episodesPatch, setSeason, toggleEpisode, totalEpisodes, watchedEpisodes } from "../../lib/episodes";
 import { externalUrl, type ExternalService } from "../../lib/externalLinks";
 import { useLang } from "../../lib/i18n";
-import { useProgressStore, type ProgressDoc } from "../../lib/progressStore";
+import { useProgressStore, VIEWING_FORMATS, VIEWING_MEDIUMS, type ProgressDoc, type Viewing } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import type { Title } from "../../lib/types";
 
@@ -85,6 +85,100 @@ export function RatingAndRewatch({ title, doc }: { title: Title; doc?: ProgressD
           </div>
         </div>
       )}
+    </section>
+  );
+}
+
+/** Cuándo, dónde y en qué experiencia se vio. Todo opcional. */
+export function ViewingLog({ title, doc }: { title: Title; doc?: ProgressDoc }) {
+  const { t } = useLang();
+  const updateProgress = useProgressStore((s) => s.updateProgress);
+  const viewing = doc?.viewing;
+  const [place, setPlace] = useState(viewing?.place ?? "");
+  useEffect(() => setPlace(viewing?.place ?? ""), [viewing?.place]);
+
+  // Guardar implica haberlo visto (como calificar); un registro vacío se quita.
+  const save = (patch: Partial<Viewing>) => {
+    const next = { ...viewing, ...patch };
+    const clean = Object.fromEntries(Object.entries(next).filter(([, v]) => (Array.isArray(v) ? v.length : v))) as Viewing;
+    updateProgress(title.id, { viewing: Object.keys(clean).length ? clean : undefined, status: doc?.status ?? "watched" });
+  };
+  const formats = viewing?.formats ?? [];
+  const chip = (on: boolean) =>
+    `min-h-11 border-2 px-3 font-mono text-[11px] font-bold uppercase transition-colors duration-[120ms] ease-out ${
+      on ? "border-line bg-accent text-on-accent" : "border-line-soft hover:border-line"
+    }`;
+
+  return (
+    <section className="mt-8">
+      <SectionLabel>{t("viewing.title")}</SectionLabel>
+      <p className="mb-3 text-xs text-fg-soft">{t("viewing.hint")}</p>
+      <div className="grid gap-4 sm:grid-cols-2">
+        <div>
+          <label htmlFor="viewing-date" className="label mb-2 block text-muted">
+            {t("viewing.date")}
+          </label>
+          <input
+            id="viewing-date"
+            type="date"
+            value={viewing?.date ?? ""}
+            max={new Date().toLocaleDateString("sv")}
+            onChange={(e) => save({ date: e.target.value || undefined })}
+            className="min-h-11 w-full border-2 border-line bg-surface px-3 text-fg"
+          />
+        </div>
+        <div>
+          <label htmlFor="viewing-place" className="label mb-2 block text-muted">
+            {t("viewing.place")}
+          </label>
+          <input
+            id="viewing-place"
+            type="text"
+            value={place}
+            maxLength={100}
+            placeholder={t("viewing.placePlaceholder")}
+            onChange={(e) => setPlace(e.target.value)}
+            onBlur={() => place.trim() !== (viewing?.place ?? "") && save({ place: place.trim() || undefined })}
+            className="min-h-11 w-full border-2 border-line bg-surface px-3 text-fg placeholder:text-muted"
+          />
+        </div>
+      </div>
+      <div className="mt-4">
+        <SectionLabel>{t("viewing.medium")}</SectionLabel>
+        <div className="flex flex-wrap gap-2">
+          {VIEWING_MEDIUMS.map((m) => (
+            <button
+              key={m}
+              type="button"
+              aria-pressed={viewing?.medium === m}
+              // Tocar el activo lo quita.
+              onClick={() => save({ medium: viewing?.medium === m ? undefined : m })}
+              className={chip(viewing?.medium === m)}
+            >
+              {t(`viewing.mediums.${m}`)}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="mt-4">
+        <SectionLabel>{t("viewing.format")}</SectionLabel>
+        <div className="flex flex-wrap gap-2">
+          {VIEWING_FORMATS.map((f) => {
+            const on = formats.includes(f);
+            return (
+              <button
+                key={f}
+                type="button"
+                aria-pressed={on}
+                onClick={() => save({ formats: on ? formats.filter((x) => x !== f) : [...formats, f] })}
+                className={chip(on)}
+              >
+                {t(`viewing.formats.${f}`)}
+              </button>
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
 }
