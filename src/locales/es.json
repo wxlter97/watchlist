@@ -825,5 +825,10 @@
     "next": "Sigue",
     "jump": "Ir a mi siguiente",
     "jumpTitle": "Vas en {{title}}"
+  },
+  "donate": {
+    "cta": "Invítame un café",
+    "title": "Apoya el proyecto",
+    "body": "Watch Order es gratis y seguirá siéndolo. Si te sirve y quieres invitarme un café, eliges tú el monto; no es obligatorio y no desbloquea nada."
   }
 }

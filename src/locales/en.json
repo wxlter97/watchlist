@@ -825,5 +825,10 @@
     "next": "Up next",
     "jump": "Jump to my next",
     "jumpTitle": "You're at {{title}}"
+  },
+  "donate": {
+    "cta": "Buy me a coffee",
+    "title": "Support the project",
+    "body": "Watch Order is free and will stay that way. If it's useful and you'd like to buy me a coffee, you choose the amount; it's optional and unlocks nothing."
   }
 }

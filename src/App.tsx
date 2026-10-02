@@ -3,6 +3,7 @@ import { RouteError } from "./components/RouteError";
 import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation, useNavigationType } from "react-router";
 import { lazy, Suspense, useEffect, useLayoutEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
+import { DonateLink } from "./components/DonateLink";
 import { Toaster } from "./components/Toaster";
 import { HubPage } from "./features/hub/HubPage";
 
@@ -203,6 +204,7 @@ function Layout() {
           <WxlterSymbol size={16} />
           {t("about.madeBy")}
         </a>
+        <DonateLink />
         <p>{t("about.tmdb")}</p>
         <p className="flex gap-4">
           <Link to="/privacy" className="underline">

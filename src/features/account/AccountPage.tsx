@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
+import { DonateLink } from "../../components/DonateLink";
 import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
 import { useLang } from "../../lib/i18n";
@@ -33,6 +34,7 @@ export function AccountPage() {
       ) : (
         <GuestCard loading={status === "loading"} />
       )}
+      <DonateLink variant="card" />
       <Preferences />
       <NotificationsSection />
       <DataSection />
