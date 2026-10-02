@@ -128,9 +128,16 @@ export function computeOrder(
     .filter((item) => !hidden.has(item.entry.continuityId));
 }
 
-/** Primer título (o temporada) del orden que aún no se ha visto. */
-export function nextUp(items: readonly OrderedItem[], isWatched: IsWatched): OrderedItem | undefined {
-  return items.find((item) => !isWatched(item.title.id, item.season));
+/**
+ * Primer título (o temporada) de la lista que aún no se ha visto. Lo abandonado (`skip`) no
+ * frena el avance: sale en "Abandonadas" hasta que se retome.
+ */
+export function nextUp<T extends { title: { id: string }; season?: number }>(
+  items: readonly T[],
+  isWatched: IsWatched,
+  skip?: (titleId: string) => boolean,
+): T | undefined {
+  return items.find((item) => !isWatched(item.title.id, item.season) && !skip?.(item.title.id));
 }
 
 export function resolveOrder(

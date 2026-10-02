@@ -1,6 +1,6 @@
 import { buildIndex } from "./catalogIndex";
 import { catalog, catalogIndex } from "./catalogFull";
-import { prepUnits } from "./prep";
+import { parseRoutePath, prepLevelFor, prepUnits, routeUnits } from "./prep";
 import { makeCatalog, title } from "../test/fixtures";
 
 describe("prepUnits", () => {
@@ -64,5 +64,30 @@ describe("Prepárate para Avengers: Doomsday", () => {
     for (const k of min!) expect(rec).toContain(k);
     for (const k of rec!) expect(all).toContain(k);
     expect(count("all")).toBeGreaterThan(count("recommended"));
+  });
+});
+
+describe("nivel y ruta guardados", () => {
+  it("el nivel guardado manda; sin él, mínimo con ruta curada y recomendado sin ella", () => {
+    expect(prepLevelFor(undefined, "t", true)).toBe("minimum");
+    expect(prepLevelFor(undefined, "t", false)).toBe("recommended");
+    expect(prepLevelFor({ prepLevels: { t: "all" } }, "t", true)).toBe("all");
+    expect(prepLevelFor({ prepLevels: { t: "mucho" } }, "t", false)).toBe("recommended");
+  });
+
+  it("lee las rutas de la app", () => {
+    expect(parseRoutePath("/f/marvel/r/x")).toEqual({ franchiseId: "marvel", kind: "r", ref: "x" });
+    expect(parseRoutePath("/f/marvel/prep/y")).toEqual({ franchiseId: "marvel", kind: "prep", ref: "y" });
+    expect(parseRoutePath("/t/y")).toBeUndefined();
+  });
+
+  it("Doomsday: la lista sigue el nivel que se eligió, no uno fijo", () => {
+    const marvel = catalog.franchises.find((x) => x.id === "marvel")!;
+    const path = "/f/marvel/r/prep-avengers-doomsday-2026";
+    const at = (level?: string) => routeUnits(path, marvel, catalogIndex, level ? { updatedAt: "", prepLevels: { "avengers-doomsday-2026": level } } : undefined)!;
+    expect(at().level).toBe("minimum");
+    expect(at("all").level).toBe("all");
+    expect(at("all").items.length).toBeGreaterThan(at("minimum").items.length);
+    expect(at("recommended").items.length).toBeGreaterThan(at("minimum").items.length);
   });
 });

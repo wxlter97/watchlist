@@ -2,7 +2,8 @@ import type { CatalogIndex } from "./catalogIndex";
 import { effectiveHidden } from "./filters";
 import { computeOrder, resolveOrder, type OrderedItem } from "./orders";
 import { resolveRoute, type RouteItem } from "./routes";
-import type { Continuity, Franchise, Route } from "./types";
+import type { FranchiseStateDoc } from "./progressStore";
+import type { Continuity, Franchise, Route, Title } from "./types";
 
 // "Prepárate para…" en tres niveles, para cualquier título de una franquicia:
 // - minimum: la ruta curada (kind "prep") si existe; si no, lo esencial que viene antes.
@@ -83,4 +84,49 @@ export function prepUnits(franchise: Franchise, targetTitleId: string, level: Pr
   const priorTitles = new Set(prior.map((i) => i.title.id));
   const extras = curated.filter((i) => !priorTitles.has(i.title.id)).sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
   return renumber([...extras, ...chosen.map(toRouteItem)]);
+}
+
+/** Con ruta curada se empieza por lo mínimo (la selección); sin ella, por lo recomendado. */
+export const defaultPrepLevel = (curated: boolean): PrepLevel => (curated ? "minimum" : "recommended");
+
+/** El nivel que el perfil eligió la última vez en ese "Prepárate para…" (o el de por defecto). */
+export function prepLevelFor(state: Pick<FranchiseStateDoc, "prepLevels"> | undefined, targetTitleId: string, curated: boolean): PrepLevel {
+  const saved = state?.prepLevels?.[targetTitleId];
+  return isPrepLevel(saved) ? saved : defaultPrepLevel(curated);
+}
+
+/** `/f/{franquicia}/r/{ruta}` o `/f/{franquicia}/prep/{título}`. */
+export function parseRoutePath(path: string): { franchiseId: string; kind: "r" | "prep"; ref: string } | undefined {
+  const [, f, franchiseId, kind, ref] = path.split("/");
+  return f === "f" && franchiseId && ref && (kind === "r" || kind === "prep") ? { franchiseId, kind, ref } : undefined;
+}
+
+export interface RouteUnits {
+  route?: Route;
+  /** Título al que prepara, si es un "Prepárate para…". */
+  target?: Title;
+  level?: PrepLevel;
+  items: RouteItem[];
+}
+
+/**
+ * Lo que muestra una ruta seguida o activa, con el nivel que el perfil eligió: una ruta
+ * normal es su lista; un "Prepárate para…" (curado o automático), su lista según el nivel.
+ */
+export function routeUnits(path: string, franchise: Franchise, index: CatalogIndex, state: FranchiseStateDoc | undefined): RouteUnits | undefined {
+  const parsed = parseRoutePath(path);
+  if (!parsed || parsed.franchiseId !== franchise.id) return undefined;
+  if (parsed.kind === "r") {
+    const route = franchise.routes.find((r) => r.id === parsed.ref);
+    if (!route) return undefined;
+    const target = route.kind === "prep" && route.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
+    if (!target) return { route, items: resolveRoute(route, franchise, index) };
+    const level = prepLevelFor(state, target.id, true);
+    return { route, target, level, items: prepUnits(franchise, target.id, level, index) };
+  }
+  const target = index.titlesById.get(parsed.ref);
+  if (!target || !franchise.entries.some((e) => e.titleId === target.id)) return undefined;
+  const route = curatedPrep(franchise, target.id);
+  const level = prepLevelFor(state, target.id, Boolean(route));
+  return { route, target, level, items: prepUnits(franchise, target.id, level, index) };
 }

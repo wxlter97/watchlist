@@ -28,7 +28,15 @@
     "achievementsBody": "Badges for finishing phases, sagas, routes and streaks.",
     "wrappedBody": "Your year in hours, franchises and favorite titles.",
     "groupsBody": "Watch a saga as a couple or a group, each at your own pace.",
-    "compareBody": "Put two profiles from your account side by side."
+    "compareBody": "Put two profiles from your account side by side.",
+    "watching": "Watching now",
+    "dropped": "Dropped",
+    "droppedHint": "You left these halfway. Pick them up whenever you like.",
+    "resume": "Resume",
+    "started": "Started {{date}}",
+    "droppedOn": "Dropped {{date}}",
+    "inOrder": "Order: {{name}}",
+    "routeDone": "Route complete: continuing with the order"
   },
   "progress": {
     "count": "{{watched}} of {{total}} watched",
@@ -788,6 +796,7 @@
     "mediums": {
       "cinema": "Cinema",
       "streaming": "Streaming",
+      "tv": "TV",
       "other": "Other"
     },
     "format": "Experience",
@@ -801,6 +810,20 @@
       "dubbed": "Dubbed",
       "subbed": "Subtitled"
     },
-    "clear": "Clear"
+    "clear": "Clear",
+    "add": "Log when you watched it",
+    "addReplay": "Add another viewing",
+    "first": "First time",
+    "replay": "Rewatch {{number}}",
+    "remove": "Delete viewing {{number}}",
+    "season": "Season",
+    "language": "Language",
+    "note": "Note",
+    "notePlaceholder": "Who with, how it went…"
+  },
+  "list": {
+    "next": "Up next",
+    "jump": "Jump to my next",
+    "jumpTitle": "You're at {{title}}"
   }
 }

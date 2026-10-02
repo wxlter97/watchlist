@@ -1,12 +1,6 @@
-import {
-  VIEWING_FORMATS,
-  VIEWING_MEDIUMS,
-  type FranchiseStateDoc,
-  type ProgressData,
-  type ProgressDoc,
-  type Viewing,
-  type WatchStatus,
-} from "./progressStore";
+import { type FranchiseStateDoc, type ProgressData, type ProgressDoc, type WatchStatus } from "./progressStore";
+import { isPrepLevel } from "./prep";
+import { cleanViewings } from "./viewings";
 
 // Exportar / importar el progreso de un perfil en JSON (SPEC §9).
 
@@ -34,20 +28,6 @@ export function buildBackup(profile: string, data: ProgressData, now = new Date(
 const isIso = (v: unknown) => typeof v === "string" && !Number.isNaN(Date.parse(v));
 const isStrings = (v: unknown) => Array.isArray(v) && v.every((x) => typeof x === "string");
 
-/** Deja solo los campos válidos del registro de visionado; undefined si no queda ninguno. */
-function cleanViewing(raw: unknown): Viewing | undefined {
-  if (!raw || typeof raw !== "object") return undefined;
-  const v = raw as Partial<Record<keyof Viewing, unknown>>;
-  const formats = Array.isArray(v.formats) ? VIEWING_FORMATS.filter((f) => (v.formats as unknown[]).includes(f)) : [];
-  const out: Viewing = {
-    ...(typeof v.date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v.date) ? { date: v.date } : {}),
-    ...(typeof v.place === "string" && v.place.trim() ? { place: v.place.trim().slice(0, 100) } : {}),
-    ...(VIEWING_MEDIUMS.includes(v.medium as never) ? { medium: v.medium as Viewing["medium"] } : {}),
-    ...(formats.length ? { formats } : {}),
-  };
-  return Object.keys(out).length ? out : undefined;
-}
-
 export type ParseResult = { ok: true; data: ProgressData; profile: string; skipped: number } | { ok: false; error: string };
 
 /**
@@ -74,21 +54,24 @@ export function parseBackup(text: string): ParseResult {
       STATUSES.includes(d.status as WatchStatus) &&
       isIso(d.updatedAt) &&
       (d.watchedAt === undefined || isIso(d.watchedAt)) &&
+      (d.startedAt === undefined || isIso(d.startedAt)) &&
       (d.rating === undefined || (Number.isInteger(d.rating) && d.rating >= 1 && d.rating <= 5)) &&
       (d.notes === undefined || typeof d.notes === "string");
     if (!valid) {
       skipped++;
       continue;
     }
+    const viewings = cleanViewings(d);
     progress[id] = {
       status: d.status!,
       rewatchCount: Number.isInteger(d.rewatchCount) && d.rewatchCount! >= 0 ? d.rewatchCount! : 0,
       updatedAt: d.updatedAt!,
       ...(d.watchedAt ? { watchedAt: d.watchedAt } : {}),
+      ...(d.startedAt ? { startedAt: d.startedAt } : {}),
       ...(d.rating ? { rating: d.rating } : {}),
       ...(d.notes ? { notes: d.notes.slice(0, 2000) } : {}),
       ...(typeof d.versionId === "string" ? { versionId: d.versionId } : {}),
-      ...(cleanViewing(d.viewing) ? { viewing: cleanViewing(d.viewing)! } : {}),
+      ...(viewings.length ? { viewings } : {}),
       ...(d.episodes && typeof d.episodes === "object"
         ? {
             episodes: Object.fromEntries(
@@ -106,10 +89,15 @@ export function parseBackup(text: string): ParseResult {
       skipped++;
       continue;
     }
+    const prepLevels = Object.fromEntries(
+      Object.entries(d.prepLevels && typeof d.prepLevels === "object" ? d.prepLevels : {}).filter(([k, v]) => /^[a-z0-9-]+$/.test(k) && isPrepLevel(v)),
+    );
     franchiseState[id] = {
       updatedAt: d.updatedAt!,
       ...(typeof d.lastOrderId === "string" ? { lastOrderId: d.lastOrderId } : {}),
       ...(isStrings(d.customOrder) ? { customOrder: d.customOrder } : {}),
+      ...(typeof d.activeRoute === "string" && d.activeRoute.startsWith("/f/") ? { activeRoute: d.activeRoute } : {}),
+      ...(Object.keys(prepLevels).length ? { prepLevels } : {}),
       ...(isStrings(d.hiddenContinuities) ? { hiddenContinuities: d.hiddenContinuities } : {}),
       ...(isStrings(d.shownContinuities) ? { shownContinuities: d.shownContinuities } : {}),
     };

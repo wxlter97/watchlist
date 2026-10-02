@@ -106,6 +106,14 @@ describe("nextUp", () => {
     expect(nextUp(items, (id) => id === "b-2003")?.title.id).toBe("a-2001");
     expect(nextUp(items, () => true)).toBeUndefined();
   });
+
+  it("lo abandonado no frena el avance: se salta al siguiente", () => {
+    const items = computeOrder(franchise, resolveOrder(franchise, "chrono"), titlesById);
+    const first = nextUp(items, () => false)!;
+    const skipped = nextUp(items, () => false, (id) => id === first.title.id);
+    expect(skipped?.title.id).not.toBe(first.title.id);
+    expect(skipped?.position).toBeGreaterThan(first.position);
+  });
 });
 
 describe("progreso vs. orden curado", () => {

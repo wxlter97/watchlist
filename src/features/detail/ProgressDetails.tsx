@@ -3,9 +3,10 @@ import { formatRuntime, SectionLabel, Tabs } from "../../components/ui";
 import { effectiveEpisodes, episodesPatch, setSeason, toggleEpisode, totalEpisodes, watchedEpisodes } from "../../lib/episodes";
 import { externalUrl, type ExternalService } from "../../lib/externalLinks";
 import { useLang } from "../../lib/i18n";
-import { useProgressStore, VIEWING_FORMATS, VIEWING_MEDIUMS, type ProgressDoc, type Viewing } from "../../lib/progressStore";
+import { useProgressStore, viewingsOf, type ProgressDoc, type Viewing } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import type { Title } from "../../lib/types";
+import { viewingOptions, type ViewingOptions } from "../../lib/viewings";
 
 // Bloques del detalle que editan el progreso fino: versión, calificación, rewatch, notas y episodios.
 
@@ -89,88 +90,174 @@ export function RatingAndRewatch({ title, doc }: { title: Title; doc?: ProgressD
   );
 }
 
-/** Cuándo, dónde y en qué experiencia se vio. Todo opcional. */
+const chip = (on: boolean) =>
+  `min-h-11 border-2 px-3 font-mono text-[11px] font-bold uppercase transition-colors duration-[120ms] ease-out ${
+    on ? "border-line bg-accent text-on-accent" : "border-line-soft hover:border-line"
+  }`;
+
+// Campos de texto y fecha: `min-w-0 max-w-full` y sin apariencia nativa, porque en iOS el campo
+// de fecha toma su ancho intrínseco y desborda la pantalla.
+const field = "block min-h-11 w-full min-w-0 max-w-full appearance-none border-2 border-line bg-surface px-3 text-left text-fg";
+
+/**
+ * Cada vez que se vio (el estreno, un replay…), con lo que corresponde al tipo de título:
+ * una película puede haberse visto en cine y en formatos como IMAX; una serie, por temporada.
+ */
 export function ViewingLog({ title, doc }: { title: Title; doc?: ProgressDoc }) {
   const { t } = useLang();
   const updateProgress = useProgressStore((s) => s.updateProgress);
-  const viewing = doc?.viewing;
-  const [place, setPlace] = useState(viewing?.place ?? "");
-  useEffect(() => setPlace(viewing?.place ?? ""), [viewing?.place]);
+  const viewings = viewingsOf(doc);
+  const options = viewingOptions(title.kind, Boolean(title.seasons?.length));
 
-  // Guardar implica haberlo visto (como calificar); un registro vacío se quita.
-  const save = (patch: Partial<Viewing>) => {
-    const next = { ...viewing, ...patch };
-    const clean = Object.fromEntries(Object.entries(next).filter(([, v]) => (Array.isArray(v) ? v.length : v))) as Viewing;
-    updateProgress(title.id, { viewing: Object.keys(clean).length ? clean : undefined, status: doc?.status ?? "watched" });
+  // Guardar implica haberlo visto (como calificar). Cada replay más allá de la primera vez
+  // sube el contador de rewatch si hacía falta.
+  const save = (next: Viewing[]) => {
+    const status = doc?.status ?? "watched";
+    const rewatchCount = Math.max(doc?.rewatchCount ?? 0, status === "watched" ? next.length - 1 : 0);
+    updateProgress(title.id, { viewings: next.length ? next : undefined, rewatchCount, status });
   };
-  const formats = viewing?.formats ?? [];
-  const chip = (on: boolean) =>
-    `min-h-11 border-2 px-3 font-mono text-[11px] font-bold uppercase transition-colors duration-[120ms] ease-out ${
-      on ? "border-line bg-accent text-on-accent" : "border-line-soft hover:border-line"
-    }`;
 
   return (
     <section className="mt-8">
       <SectionLabel>{t("viewing.title")}</SectionLabel>
       <p className="mb-3 text-xs text-fg-soft">{t("viewing.hint")}</p>
-      <div className="grid gap-4 sm:grid-cols-2">
-        <div>
-          <label htmlFor="viewing-date" className="label mb-2 block text-muted">
+      {viewings.length > 0 && (
+        <ol className="space-y-4">
+          {viewings.map((v, i) => (
+            <ViewingEntry
+              key={i}
+              index={i}
+              viewing={v}
+              title={title}
+              options={options}
+              onChange={(patch) => save(viewings.map((x, j) => (j === i ? clean({ ...x, ...patch }) : x)))}
+              onRemove={() => save(viewings.filter((_, j) => j !== i))}
+            />
+          ))}
+        </ol>
+      )}
+      <button
+        type="button"
+        onClick={() => save([...viewings, { date: new Date().toLocaleDateString("sv") }])}
+        className="mt-3 min-h-11 border-2 border-line px-4 font-mono text-xs font-bold uppercase transition-colors duration-[120ms] ease-out hover:bg-fg hover:text-bg"
+      >
+        + {t(viewings.length ? "viewing.addReplay" : "viewing.add")}
+      </button>
+    </section>
+  );
+}
+
+/** Quita los campos vacíos de una entrada (el resto de campos conserva su valor). */
+const clean = (v: Viewing): Viewing =>
+  Object.fromEntries(Object.entries(v).filter(([, x]) => (Array.isArray(x) ? x.length : x !== undefined && x !== ""))) as Viewing;
+
+function ViewingEntry({
+  index,
+  viewing,
+  title,
+  options,
+  onChange,
+  onRemove,
+}: {
+  index: number;
+  viewing: Viewing;
+  title: Title;
+  options: ViewingOptions;
+  onChange: (patch: Partial<Viewing>) => void;
+  onRemove: () => void;
+}) {
+  const { t } = useLang();
+  const [place, setPlace] = useState(viewing.place ?? "");
+  const [note, setNote] = useState(viewing.note ?? "");
+  useEffect(() => setPlace(viewing.place ?? ""), [viewing.place]);
+  useEffect(() => setNote(viewing.note ?? ""), [viewing.note]);
+  const formats = viewing.formats ?? [];
+  const id = `viewing-${index}`;
+
+  return (
+    <li className="min-w-0 border-2 border-line-soft bg-surface p-3">
+      <div className="mb-3 flex items-center justify-between gap-3">
+        <p className="label font-bold">{index === 0 ? t("viewing.first") : t("viewing.replay", { number: index })}</p>
+        <button type="button" onClick={onRemove} aria-label={t("viewing.remove", { number: index + 1 })} className="text-link min-h-11 px-1 uppercase">
+          {t("viewing.clear")}
+        </button>
+      </div>
+      <div className="grid min-w-0 gap-4 sm:grid-cols-2">
+        <div className="min-w-0">
+          <label htmlFor={`${id}-date`} className="label mb-2 block text-muted">
             {t("viewing.date")}
           </label>
           <input
-            id="viewing-date"
+            id={`${id}-date`}
             type="date"
-            value={viewing?.date ?? ""}
+            value={viewing.date ?? ""}
             max={new Date().toLocaleDateString("sv")}
-            onChange={(e) => save({ date: e.target.value || undefined })}
-            className="min-h-11 w-full border-2 border-line bg-surface px-3 text-fg"
+            onChange={(e) => onChange({ date: e.target.value || undefined })}
+            className={field}
           />
         </div>
-        <div>
-          <label htmlFor="viewing-place" className="label mb-2 block text-muted">
+        <div className="min-w-0">
+          <label htmlFor={`${id}-place`} className="label mb-2 block text-muted">
             {t("viewing.place")}
           </label>
           <input
-            id="viewing-place"
+            id={`${id}-place`}
             type="text"
             value={place}
             maxLength={100}
             placeholder={t("viewing.placePlaceholder")}
             onChange={(e) => setPlace(e.target.value)}
-            onBlur={() => place.trim() !== (viewing?.place ?? "") && save({ place: place.trim() || undefined })}
-            className="min-h-11 w-full border-2 border-line bg-surface px-3 text-fg placeholder:text-muted"
+            onBlur={() => place.trim() !== (viewing.place ?? "") && onChange({ place: place.trim() || undefined })}
+            className={`${field} placeholder:text-muted`}
           />
         </div>
       </div>
       <div className="mt-4">
         <SectionLabel>{t("viewing.medium")}</SectionLabel>
         <div className="flex flex-wrap gap-2">
-          {VIEWING_MEDIUMS.map((m) => (
+          {options.mediums.map((m) => (
             <button
               key={m}
               type="button"
-              aria-pressed={viewing?.medium === m}
+              aria-pressed={viewing.medium === m}
               // Tocar el activo lo quita.
-              onClick={() => save({ medium: viewing?.medium === m ? undefined : m })}
-              className={chip(viewing?.medium === m)}
+              onClick={() => onChange({ medium: viewing.medium === m ? undefined : m })}
+              className={chip(viewing.medium === m)}
             >
               {t(`viewing.mediums.${m}`)}
             </button>
           ))}
         </div>
       </div>
+      {options.seasons && title.seasons && (
+        <div className="mt-4">
+          <SectionLabel>{t("viewing.season")}</SectionLabel>
+          <div className="flex flex-wrap gap-2">
+            {title.seasons.map((s) => (
+              <button
+                key={s.number}
+                type="button"
+                aria-pressed={viewing.season === s.number}
+                onClick={() => onChange({ season: viewing.season === s.number ? undefined : s.number })}
+                className={chip(viewing.season === s.number)}
+              >
+                {t("episodes.season", { number: s.number })}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="mt-4">
-        <SectionLabel>{t("viewing.format")}</SectionLabel>
+        <SectionLabel>{t(options.formats.length > 2 ? "viewing.format" : "viewing.language")}</SectionLabel>
         <div className="flex flex-wrap gap-2">
-          {VIEWING_FORMATS.map((f) => {
+          {options.formats.map((f) => {
             const on = formats.includes(f);
             return (
               <button
                 key={f}
                 type="button"
                 aria-pressed={on}
-                onClick={() => save({ formats: on ? formats.filter((x) => x !== f) : [...formats, f] })}
+                onClick={() => onChange({ formats: on ? formats.filter((x) => x !== f) : [...formats, f] })}
                 className={chip(on)}
               >
                 {t(`viewing.formats.${f}`)}
@@ -179,7 +266,22 @@ export function ViewingLog({ title, doc }: { title: Title; doc?: ProgressDoc }) 
           })}
         </div>
       </div>
-    </section>
+      <div className="mt-4">
+        <label htmlFor={`${id}-note`} className="label mb-2 block text-muted">
+          {t("viewing.note")}
+        </label>
+        <textarea
+          id={`${id}-note`}
+          value={note}
+          rows={2}
+          maxLength={500}
+          placeholder={t("viewing.notePlaceholder")}
+          onChange={(e) => setNote(e.target.value)}
+          onBlur={() => note.trim() !== (viewing.note ?? "") && onChange({ note: note.trim() || undefined })}
+          className={`${field} resize-y py-2 text-[15px] leading-[1.55] placeholder:text-muted`}
+        />
+      </div>
+    </li>
   );
 }
 

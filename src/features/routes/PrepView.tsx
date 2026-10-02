@@ -1,15 +1,21 @@
 import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router";
+import { JumpToNext } from "../../components/JumpToNext";
+import { useRememberRoute } from "../../hooks/useActiveRoute";
+import { nextUp } from "../../lib/orders";
+import { useProgressStore } from "../../lib/progressStore";
+import { todayIso } from "../../lib/progress";
+import { rowId, useScrollToNext } from "../../lib/scroll";
 import { FollowButton } from "../../components/FollowButton";
 import { ShareLinkButton } from "../../components/ShareLinkButton";
 import { TitleRow } from "../../components/TitleRow";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import type { CatalogIndex } from "../../lib/catalogIndex";
 import { useLang } from "../../lib/i18n";
-import { isPrepLevel, PREP_LEVELS, prepUnits, type PrepLevel } from "../../lib/prep";
+import { isPrepLevel, PREP_LEVELS, prepLevelFor, prepUnits, type PrepLevel } from "../../lib/prep";
 import { routeProgress } from "../../lib/routes";
 import type { Franchise, Route, Title } from "../../lib/types";
-import { useIsWatched } from "../../lib/watched";
+import { useIsDropped, useIsWatched } from "../../lib/watched";
 
 /**
  * "Prepárate para…" con niveles (ver prep.ts): la ruta curada si existe (`route`) o una
@@ -18,16 +24,28 @@ import { useIsWatched } from "../../lib/watched";
 export function PrepView({ franchise, target, route, index }: { franchise: Franchise; target: Title; route?: Route; index: CatalogIndex }) {
   const { t, loc, name, date } = useLang();
   const isWatched = useIsWatched();
+  const isDropped = useIsDropped();
   const [params, setParams] = useSearchParams();
+  const state = useProgressStore((s) => s.franchiseState[franchise.id]);
+  const setFranchiseState = useProgressStore((s) => s.setFranchiseState);
   const param = params.get("nivel");
-  // Con ruta curada se empieza por lo mínimo (la selección); sin ella, por lo recomendado.
-  const level: PrepLevel = isPrepLevel(param) ? param : route ? "minimum" : "recommended";
+  // El nivel de la URL (un link compartido) manda; si no, el que se eligió la última vez en este
+  // "Prepárate para…"; si no, lo mínimo (con ruta curada) o lo recomendado.
+  const level: PrepLevel = isPrepLevel(param) ? param : prepLevelFor(state, target.id, Boolean(route));
+  const path = route ? `/f/${franchise.id}/r/${route.id}` : `/f/${franchise.id}/prep/${target.id}`;
+  useRememberRoute(franchise.id, path);
+  const chooseLevel = (l: PrepLevel) => {
+    setParams({ nivel: l }, { replace: true });
+    if (state?.prepLevels?.[target.id] !== l) setFranchiseState(franchise.id, { prepLevels: { ...state?.prepLevels, [target.id]: l } });
+  };
   const byLevel = useMemo(
     () => Object.fromEntries(PREP_LEVELS.map((l) => [l, prepUnits(franchise, target.id, l, index)])) as Record<PrepLevel, ReturnType<typeof prepUnits>>,
     [franchise, target.id, index],
   );
   const items = byLevel[level];
   const progress = routeProgress(items, isWatched);
+  const next = nextUp(items.filter((i) => i.releaseDate <= todayIso()), isWatched, isDropped);
+  useScrollToNext(true, next && rowId(next.key), progress.watched > 0 && next?.key !== items[0]?.key);
   const ratio = progress.total ? progress.watched / progress.total : 0;
   const heading = route ? loc(route.name) : t("prep.title", { title: name(target) });
   const hint = t(`prep.hints.${level === "minimum" && !route ? "minimumAuto" : level}`);
@@ -59,7 +77,7 @@ export function PrepView({ franchise, target, route, index }: { franchise: Franc
           layout="grid grid-cols-3 [&>button]:min-w-0 [&>button]:px-1.5 [&>button]:leading-tight [&>button]:whitespace-normal"
           value={level}
           options={PREP_LEVELS.map((l) => ({ value: l, label: `${t(`prep.levels.${l}`)} · ${byLevel[l].length}` }))}
-          onChange={(l) => setParams({ nivel: l }, { replace: true })}
+          onChange={chooseLevel}
         />
         <p className="mt-2 text-sm text-fg-soft">{hint}</p>
       </section>
@@ -80,6 +98,7 @@ export function PrepView({ franchise, target, route, index }: { franchise: Franc
           <FollowButton route={route ? `/f/${franchise.id}/r/${route.id}` : `/f/${franchise.id}/prep/${target.id}`} />
           {route && <ShareLinkButton target={{ kind: "route", franchiseId: franchise.id, refId: route.id }} title={heading} label={t("shareLink.route")} />}
         </div>
+        {progress.watched > 0 && <JumpToNext next={next} />}
         {progress.watched < progress.total && (
           <Link
             to={`/plans/new?f=${franchise.id}&type=prep&ref=${target.id}&level=${level}`}
@@ -97,7 +116,7 @@ export function PrepView({ franchise, target, route, index }: { franchise: Franc
         ) : (
           <ol>
             {items.map((item) => (
-              <TitleRow key={item.key} item={item} />
+              <TitleRow key={item.key} item={item} isNext={item.key === next?.key} />
             ))}
           </ol>
         )}

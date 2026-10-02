@@ -31,7 +31,7 @@ const toTs = (iso: string | undefined) => (iso ? Timestamp.fromDate(new Date(iso
 const toIso = (ts: unknown) => (ts instanceof Timestamp ? ts.toDate().toISOString() : undefined);
 
 export const progressConverter: FirestoreDataConverter<ProgressDoc> = {
-  toFirestore: (p: ProgressDoc) => ({ ...p, watchedAt: toTs(p.watchedAt), updatedAt: toTs(p.updatedAt) }),
+  toFirestore: (p: ProgressDoc) => ({ ...p, watchedAt: toTs(p.watchedAt), startedAt: toTs(p.startedAt), updatedAt: toTs(p.updatedAt) }),
   fromFirestore: (snap: QueryDocumentSnapshot<DocumentData>) => {
     const d = snap.data();
     return {
@@ -39,6 +39,7 @@ export const progressConverter: FirestoreDataConverter<ProgressDoc> = {
       status: d.status,
       rewatchCount: d.rewatchCount ?? 0,
       watchedAt: toIso(d.watchedAt),
+      startedAt: toIso(d.startedAt),
       updatedAt: toIso(d.updatedAt) ?? new Date(0).toISOString(),
     } as ProgressDoc;
   },

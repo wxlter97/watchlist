@@ -3,7 +3,7 @@ import { useCatalog, withReferences } from "../lib/catalog";
 import { applyFilters, effectiveHidden, NO_FILTERS, toggleContinuity } from "../lib/filters";
 import { computeOrder, CUSTOM_ORDER_ID, nextUp, resolveOrder } from "../lib/orders";
 import { useProgressStore } from "../lib/progressStore";
-import { useIsWatched } from "../lib/watched";
+import { useIsDropped, useIsWatched } from "../lib/watched";
 import { summarize, todayIso } from "../lib/progress";
 import { useUiStore } from "../lib/uiStore";
 
@@ -15,6 +15,7 @@ export function useFranchiseView(franchiseId: string | undefined) {
   const setFranchiseState = useProgressStore((s) => s.setFranchiseState);
   const filters = useUiStore((s) => (franchiseId ? s.filters[franchiseId] : undefined)) ?? NO_FILTERS;
   const isWatched = useIsWatched();
+  const isDropped = useIsDropped();
 
   const order = useMemo(
     () => (franchise ? resolveOrder(franchise, state?.lastOrderId, state?.customOrder) : undefined),
@@ -48,6 +49,7 @@ export function useFranchiseView(franchiseId: string | undefined) {
   const next = nextUp(
     items.filter((i) => i.releaseDate <= today),
     isWatched,
+    isDropped,
   );
 
   return {
@@ -64,7 +66,9 @@ export function useFranchiseView(franchiseId: string | undefined) {
     hiddenContinuities,
     isWatched,
     hasCustomOrder: Boolean(state?.customOrder?.length),
-    setOrder: (orderId: string) => franchise && setFranchiseState(franchise.id, { lastOrderId: orderId }),
+    state,
+    // Elegir un orden vuelve a "continuar viendo" por el orden, no por la última ruta abierta.
+    setOrder: (orderId: string) => franchise && setFranchiseState(franchise.id, { lastOrderId: orderId, activeRoute: undefined }),
     saveCustomOrder: (titleIds: string[]) =>
       franchise && setFranchiseState(franchise.id, { customOrder: titleIds, lastOrderId: CUSTOM_ORDER_ID }),
     toggleContinuity: (continuityId: string) =>

@@ -36,24 +36,50 @@ describe("respaldo", () => {
   });
 });
 
-describe("viewing", () => {
-  const doc = (viewing: unknown) =>
+describe("viewings", () => {
+  const doc = (extra: Record<string, unknown>, franchiseState: unknown = {}) =>
     JSON.stringify({
       app: "watch-order",
       version: 1,
       exportedAt: "2026-01-01T00:00:00.000Z",
       profile: "p",
-      progress: { "a-2001": { status: "watched", rewatchCount: 0, updatedAt: "2026-01-01T00:00:00.000Z", viewing } },
-      franchiseState: {},
+      progress: { "a-2001": { status: "watched", rewatchCount: 0, updatedAt: "2026-01-01T00:00:00.000Z", ...extra } },
+      franchiseState,
     });
+  const viewings = (json: string) => {
+    const r = parseBackup(json);
+    return r.ok ? r.data.progress["a-2001"]!.viewings : "invalid";
+  };
 
-  it("conserva solo los campos válidos del registro de visionado", () => {
-    const r = parseBackup(doc({ date: "2026-03-04", place: " Cinépolis ", medium: "cinema", formats: ["3d", "x", "dubbed"], junk: 1 }));
-    expect(r.ok && r.data.progress["a-2001"]!.viewing).toEqual({ date: "2026-03-04", place: "Cinépolis", medium: "cinema", formats: ["3d", "dubbed"] });
+  it("conserva solo los campos válidos de cada visualización", () => {
+    const list = [{ date: "2026-03-04", place: " Cinépolis ", medium: "cinema", formats: ["3d", "x", "dubbed"], season: 2, note: " con amigos ", junk: 1 }];
+    expect(viewings(doc({ viewings: list }))).toEqual([
+      { date: "2026-03-04", place: "Cinépolis", medium: "cinema", formats: ["3d", "dubbed"], season: 2, note: "con amigos" },
+    ]);
   });
 
-  it("descarta un registro vacío o inválido", () => {
-    const r = parseBackup(doc({ date: "ayer", medium: "tv", formats: [] }));
-    expect(r.ok && r.data.progress["a-2001"]!.viewing).toBeUndefined();
+  it("guarda varias visualizaciones (replays) en orden y descarta las vacías", () => {
+    const list = [{ date: "2026-01-01" }, { date: "ayer", medium: "nada" }, { medium: "tv", note: "replay" }];
+    expect(viewings(doc({ viewings: list }))).toEqual([{ date: "2026-01-01" }, { medium: "tv", note: "replay" }]);
+  });
+
+  it("migra la visualización única del formato anterior a una lista", () => {
+    expect(viewings(doc({ viewing: { date: "2026-03-04", medium: "streaming" } }))).toEqual([{ date: "2026-03-04", medium: "streaming" }]);
+  });
+
+  it("sin visualizaciones válidas no deja el campo", () => {
+    expect(viewings(doc({ viewings: [{ date: "ayer" }] }))).toBeUndefined();
+  });
+
+  it("conserva startedAt, la ruta activa y los niveles de Prepárate para válidos", () => {
+    const r = parseBackup(
+      doc(
+        { status: "watching", startedAt: "2026-02-01T00:00:00.000Z" },
+        { marvel: { updatedAt: "2026-01-01T00:00:00.000Z", activeRoute: "/f/marvel/prep/x", prepLevels: { "doom-2026": "all", other: "mucho" } } },
+      ),
+    );
+    expect(r.ok && r.data.progress["a-2001"]!.startedAt).toBe("2026-02-01T00:00:00.000Z");
+    expect(r.ok && r.data.franchiseState.marvel).toMatchObject({ activeRoute: "/f/marvel/prep/x", prepLevels: { "doom-2026": "all" } });
+    expect(r.ok && r.data.franchiseState.marvel!.prepLevels).not.toHaveProperty("other");
   });
 });

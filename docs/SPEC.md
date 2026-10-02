@@ -231,11 +231,15 @@ users/{uid}/profiles/{profileId}/progress/{titleId}
   notes?: string
   episodes?: { [season: string]: number[] }
   versionId?: string        // corte visto; si falta, el default
+  startedAt?: Timestamp     // cuándo pasó a "viendo"; se conserva al abandonar y retomar
+  viewings?: { date?, place?, medium?, formats?, season?, note? }[]   // una entrada por vez que se vio (replays)
   updatedAt: Timestamp
 
 users/{uid}/profiles/{profileId}/franchiseState/{franchiseId}
   lastOrderId: string
   customOrder?: string[]
+  activeRoute?: string      // última ruta abierta (/f/…/r/… o /f/…/prep/…): "continuar viendo" la sigue
+  prepLevels?: { [titleId: string]: "minimum" | "recommended" | "all" }   // nivel elegido en cada "Prepárate para…"
   hiddenContinuities?: string[]
   updatedAt: Timestamp
 
@@ -310,7 +314,7 @@ service cloud.firestore {
 
 ## 8. Pantallas
 
-1. **Hub:** franquicias seguidas con su progreso, "continuar viendo" (siguiente título por franquicia según el último orden usado), próximos estrenos, explorar franquicias.
+1. **Hub:** franquicias seguidas con su progreso, "continuar viendo" (siguiente título por franquicia según la última ruta abierta, con el nivel elegido, o si no según el último orden usado; lo abandonado no cuenta como siguiente), "viendo ahora" y "abandonadas" (con "Retomar"), rutas seguidas con su siguiente título, próximos estrenos (antes de explorar) y explorar franquicias. Las listas (franquicia, ruta, Prepárate para…) marcan lo que sigue y abren ahí; al volver con "atrás" se restaura el scroll.
 2. **Franquicia:** selector de orden, filtro de continuidades, filtros (tipo, importancia, estado, personaje/equipo), progreso por grupo, tarjetas con póster, estado, importancia y post-créditos. Tema según `accentColor`.
 3. **Detalle de título:** datos, sinopsis (oculta si aplica), dónde verlo, calificación, notas, episodios, rewatch, **"aparece en"** (otras franquicias o rutas que lo incluyen) y **enlaces externos** (sección 9.1).
 4. **Rutas:** por personaje, temáticas, "Prepárate para…" y crossovers.
@@ -359,7 +363,7 @@ Botones en el detalle de título, construidos a partir de los IDs que ya guarda 
 - **Línea de tiempo interactiva:** eje horizontal por `chronoOrder`, un carril por continuidad; las ramas se dibujan desde `branchesFrom`. Zoom, arrastre, tocar un título abre su detalle. Lo visto se resalta; en modo sin spoilers, lo no visto aparece como póster difuminado.
 - **Mapa de conexiones:** nodos de títulos, personajes y equipos (desde `tags` y rutas de crossover); aristas por aparición compartida. Filtros por franquicia y continuidad. Útil para descubrir crossovers entre franquicias.
 - **Recaps sin spoilers:** "lo que necesitas recordar" antes de ver un título: lista todo lo previo del linaje del título (lo mismo que "Prepárate para…"), visto o no, con el motivo de su relevancia (importancia, selección mínima, continuidad, nota cronológica). El recap de lo no visto queda oculto tras un aviso con el modo sin spoilers activo.
-  - Registro de visionado opcional por título (`viewing`: fecha, lugar, cine/streaming/otro y experiencia: 2D, 3D, 4DX, IMAX, ScreenX, Dolby, doblada, subtitulada).
+  - Registro de visionado opcional por título (`viewings`, una entrada por cada vez que se vio): fecha, lugar, nota y, según el tipo, cine/streaming/TV/otro y experiencia (películas: 2D, 3D, 4DX, IMAX, ScreenX, Dolby, doblada, subtitulada; series: streaming/TV/otro, temporada vista, doblada o subtitulada).
   - Contenido curado y escrito desde cero en `src/data/recaps/{lang}/{titleId}.md` (no copiar sinopsis ni textos de terceros). Se agregan gradualmente, empezando por los títulos `essential`.
 
 ### 9.4 Gamificación
