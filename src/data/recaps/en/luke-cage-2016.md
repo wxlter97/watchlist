@@ -1,0 +1,3 @@
+- Luke Cage, with unbreakable skin, lives in Harlem and takes on Cottonmouth, who controls the neighborhood's crime, and his cousin Mariah Dillard.
+- Cottonmouth dies; Diamondback, Luke's brother, attacks with weapons built from Chitauri tech and Luke defeats him.
+- Luke becomes Harlem's hero despite trouble with the police.

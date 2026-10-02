@@ -1,0 +1,4 @@
+- Serie animada antológica narrada por el Vigilante, que observa cómo los hechos del MCU cambian en universos alternos.
+- En la primera temporada nace el equipo Guardianes del Multiverso para detener una amenaza.
+- La segunda introduce a Doctor Strange Supremo como antagonista y a Kahhori, una joven mohawk con poderes del Teseracto.
+- La tercera explora la humanidad del Vigilante, cuyo nombre es Uatu.

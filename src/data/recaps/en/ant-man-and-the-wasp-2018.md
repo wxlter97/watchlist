@@ -1,0 +1,4 @@
+- Scott Lang is under house arrest after Civil War; Hank and Hope Pym try to rescue Janet from the Quantum Realm.
+- They're pursued by Ghost, who seeks a cure for her instability, and the black-market dealer Sonny Burch.
+- Janet is rescued and she and Hank are reunited.
+- In a post-credits scene, Hank, Hope and Janet vanish in the Snap while Scott is in the Quantum Realm.

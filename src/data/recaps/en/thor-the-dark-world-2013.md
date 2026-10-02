@@ -1,0 +1,4 @@
+- Jane Foster absorbs the Aether, an ancient weapon; Malekith, leader of the Dark Elves, seeks it to plunge the worlds into darkness.
+- Thor takes Jane to Asgard; Frigga dies defending her. Thor frees Loki to help stop Malekith.
+- Malekith is defeated in Greenwich. Loki appears to die but is actually posing as Odin.
+- The Aether ends up with the Collector.

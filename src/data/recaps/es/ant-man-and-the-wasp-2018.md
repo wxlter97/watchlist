@@ -1,0 +1,4 @@
+- Scott Lang cumple arresto domiciliario tras Civil War; Hank y Hope Pym buscan rescatar a Janet del Reino Cuántico.
+- Los persiguen Ghost, que busca curar su inestabilidad, y el traficante Sonny Burch.
+- Janet es rescatada y Hank y ella se reencuentran.
+- Tras los créditos, Hank, Hope y Janet se desvanecen por el Chasquido mientras Scott está en el Reino Cuántico.

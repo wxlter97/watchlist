@@ -1,0 +1,4 @@
+- Agatha Harkness, trapped by Wanda in Westview, escapes with help from a mysterious teenager and forms a coven to walk the Witches' Road and regain her powers.
+- The boy is Billy Maximoff, Wanda's son, who is looking for his twin brother Tommy.
+- Agatha reveals her past: she lost her son and spent centuries stealing other witches' powers.
+- In the end she sacrifices herself to Death and leaves Billy what he needs to find Tommy's soul.

@@ -1,0 +1,4 @@
+- The Eternals, immortal beings sent by the Celestials, have protected humanity from the Deviants for centuries.
+- After Endgame, Sersi and the others regroup when the Deviants reappear; Ajak is killed.
+- They learn a Celestial, Tiamut, is about to be born from inside Earth and will destroy the planet; Sersi turns him to stone.
+- Ikaris, who knew the truth, takes his own life; the Eternals split up. Dane Whitman appears in a post-credits scene.

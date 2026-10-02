@@ -1,0 +1,4 @@
+- An animated anthology narrated by the Watcher, who observes how events from the MCU play out differently in alternate universes.
+- In season one, the Guardians of the Multiverse team forms to stop a threat.
+- Season two introduces Doctor Strange Supreme as an antagonist and Kahhori, a young Mohawk girl with Tesseract powers.
+- Season three explores the Watcher's humanity; his name is Uatu.

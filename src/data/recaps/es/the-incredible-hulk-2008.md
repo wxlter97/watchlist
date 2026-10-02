@@ -1,0 +1,4 @@
+- Bruce Banner se esconde en Brasil buscando una cura para el monstruo en que se convierte; el general Ross lo persigue.
+- Emil Blonsky, soldado de Ross, se inyecta una versión del suero y se convierte en la Abominación.
+- Hulk lo derrota en Harlem. Banner sigue en fuga junto a Betty Ross.
+- Tony Stark visita a Ross y le habla de formar un equipo.

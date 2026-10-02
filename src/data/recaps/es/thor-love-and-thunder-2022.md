@@ -1,0 +1,4 @@
+- Gorr, que perdió a su hija, jura matar a todos los dioses y empuña la Necroespada.
+- Thor se une a Valquiria, Korg y a Jane Foster, que empuña a Mjolnir como Mighty Thor, aunque el poder agrava su cáncer.
+- Gorr es derrotado; antes de morir pide que resucite a su hija. Jane muere.
+- Thor adopta a la hija de Gorr, Love, y sigue como padre y héroe.

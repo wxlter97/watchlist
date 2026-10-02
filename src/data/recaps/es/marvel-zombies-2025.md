@@ -1,0 +1,3 @@
+- Cinco años después de un virus que convirtió a héroes en zombis, un grupo de sobrevivientes viaja a activar un transmisor para pedir ayuda desde el espacio.
+- En el camino enfrentan a Wanda Maximoff convertida en la Reina de los Muertos y a su ejército, con muchas bajas.
+- Al final, Kamala Khan despierta en un mundo que parece restaurado, pero descubre que no es real: Wanda la mantiene en una simulación.

@@ -1,0 +1,3 @@
+- Ulysses Bloodstone dies and monster hunters compete for a relic, the Bloodstone, at his mansion.
+- Among them is hunter Jack Russell, who is secretly a werewolf, and Elsa, Ulysses's daughter.
+- They ally with Ted, a friendly monster. Elsa claims the stone.

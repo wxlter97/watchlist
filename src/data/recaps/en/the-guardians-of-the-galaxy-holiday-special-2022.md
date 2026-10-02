@@ -1,0 +1,3 @@
+- Drax and Mantis kidnap Kevin Bacon as a Christmas gift for Peter Quill.
+- Peter finds out but takes it well. Mantis reveals she is his half-sister: Ego was her father too.
+- The Guardians celebrate Christmas together.

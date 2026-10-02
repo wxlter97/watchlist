@@ -1,0 +1,4 @@
+- Serie antológica: guerreros de Wakanda recuperan en distintas épocas objetos de vibranio robados.
+- En Creta (1260 a. C.), Noni vence a Nkati; en la guerra de Troya, B'Kai obtiene un collar de Helena y hiere a Aquiles.
+- En la China del siglo XV, Basha recupera vibranio con ayuda de Jorani, que tiene poderes de Puño de Hierro.
+- En Etiopía en 1896, el príncipe Tafari conoce a una futura reina Pantera Negra viajada en el tiempo, que advierte de una invasión alienígena.
