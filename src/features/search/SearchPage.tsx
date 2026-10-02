@@ -116,7 +116,7 @@ export function SearchPage() {
       {results.titles.length > 0 && (
         <section className="mt-8">
           <SectionLabel>{t("search.titles", { count: results.titles.length })}</SectionLabel>
-          <ol>
+          <ol className="lg:grid lg:grid-cols-2 lg:gap-x-10">
             {results.titles.map((title, i) => (
               <TitleRow
                 key={title.id}

@@ -26,7 +26,7 @@ export function PlansPage() {
         {plans.length === 0 ? (
           <p className="border-2 border-dashed border-line-soft p-6 text-center text-muted">{t("planner.none")}</p>
         ) : (
-          <ul className="space-y-3">
+          <ul className="grid gap-3 lg:grid-cols-2">
             {plans.map((plan) => (
               <PlanCard key={plan.id} plan={plan} />
             ))}
