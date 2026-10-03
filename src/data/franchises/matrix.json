@@ -1,0 +1,219 @@
+{
+  "id": "matrix",
+  "name": {
+    "es": "Matrix",
+    "en": "The Matrix"
+  },
+  "description": {
+    "es": "Neo, la píldora roja y la guerra contra las máquinas: las películas y los cortos animados.",
+    "en": "Neo, the red pill and the war against the machines: the films and the animated shorts."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Matrix",
+        "en": "The Matrix"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas y The Animatrix, que cuenta lo que pasó antes y entre ellas.",
+        "en": "The four films and The Animatrix, which tells what happened before and between them."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-animatrix-2003",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Antes y entre las películas",
+        "en": "Antes y entre las películas"
+      },
+      "characters": [
+        "neo"
+      ]
+    },
+    {
+      "titleId": "the-matrix-1999",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1999",
+        "en": "1999"
+      },
+      "characters": [
+        "neo",
+        "trinity",
+        "morpheus"
+      ]
+    },
+    {
+      "titleId": "the-matrix-reloaded-2003",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "neo",
+        "trinity",
+        "morpheus"
+      ]
+    },
+    {
+      "titleId": "the-matrix-revolutions-2003",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "neo",
+        "trinity",
+        "morpheus"
+      ]
+    },
+    {
+      "titleId": "the-matrix-resurrections-2021",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Décadas después",
+        "en": "Décadas después"
+      },
+      "characters": [
+        "neo",
+        "trinity"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "recommended",
+      "type": "curated",
+      "name": {
+        "es": "Orden recomendado",
+        "en": "Recommended order"
+      },
+      "description": {
+        "es": "The Animatrix entre la primera y Reloaded: sus cortos conectan con la segunda película.",
+        "en": "The Animatrix between the first film and Reloaded: its shorts connect to the second film."
+      },
+      "titleIds": [
+        "the-matrix-1999",
+        "the-animatrix-2003",
+        "the-matrix-reloaded-2003",
+        "the-matrix-revolutions-2003",
+        "the-matrix-resurrections-2021"
+      ]
+    },
+    {
+      "id": "films",
+      "type": "curated",
+      "name": {
+        "es": "Solo las películas",
+        "en": "Films only"
+      },
+      "description": {
+        "es": "Las cuatro películas, sin The Animatrix.",
+        "en": "The four films, without The Animatrix."
+      },
+      "titleIds": [
+        "the-matrix-1999",
+        "the-matrix-reloaded-2003",
+        "the-matrix-revolutions-2003",
+        "the-matrix-resurrections-2021"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-the-matrix-resurrections-2021",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Resurrections",
+        "en": "Get ready for Resurrections"
+      },
+      "description": {
+        "es": "La trilogía original: Resurrections la retoma y juega con ella.",
+        "en": "The original trilogy: Resurrections picks it up and plays with it."
+      },
+      "titleIds": [
+        "the-matrix-1999",
+        "the-matrix-reloaded-2003",
+        "the-matrix-revolutions-2003"
+      ],
+      "targetTitleId": "the-matrix-resurrections-2021"
+    },
+    {
+      "id": "neo-y-trinity",
+      "kind": "character",
+      "name": {
+        "es": "Neo y Trinity",
+        "en": "Neo and Trinity"
+      },
+      "description": {
+        "es": "La pareja central de la saga.",
+        "en": "The saga's central pair."
+      },
+      "titleIds": [
+        "the-matrix-1999",
+        "the-matrix-reloaded-2003",
+        "the-matrix-revolutions-2003",
+        "the-matrix-resurrections-2021"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "neo",
+        "name": {
+          "es": "Neo",
+          "en": "Neo"
+        }
+      },
+      {
+        "id": "trinity",
+        "name": {
+          "es": "Trinity",
+          "en": "Trinity"
+        }
+      },
+      {
+        "id": "morpheus",
+        "name": {
+          "es": "Morfeo",
+          "en": "Morpheus"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

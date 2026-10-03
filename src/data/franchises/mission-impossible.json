@@ -1,0 +1,336 @@
+{
+  "id": "mission-impossible",
+  "name": {
+    "es": "Misión: Imposible",
+    "en": "Mission: Impossible"
+  },
+  "description": {
+    "es": "Ethan Hunt y la IMF: ocho películas y la serie que lo empezó todo.",
+    "en": "Ethan Hunt and the IMF: eight films and the series that started it all."
+  },
+  "accentColor": "#0E7490",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas de Ethan Hunt",
+        "en": "Ethan Hunt films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las ocho películas, en el orden en que se estrenaron.",
+        "en": "The eight films, in release order."
+      }
+    },
+    {
+      "id": "tv",
+      "name": {
+        "es": "Serie original",
+        "en": "Original series"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "La serie de 1966 y su continuación de 1988, que inspiraron la saga.",
+        "en": "The 1966 series and its 1988 revival, which inspired the saga."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "mission-impossible-1996",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1996",
+        "en": "1996"
+      },
+      "characters": [
+        "ethan-hunt",
+        "luther-stickell"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-ii-2000",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2000",
+        "en": "2000"
+      },
+      "characters": [
+        "ethan-hunt",
+        "luther-stickell"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-iii-2006",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2006",
+        "en": "2006"
+      },
+      "characters": [
+        "ethan-hunt",
+        "luther-stickell",
+        "benji-dunn"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-ghost-protocol-2011",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2011",
+        "en": "2011"
+      },
+      "characters": [
+        "ethan-hunt",
+        "benji-dunn"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-rogue-nation-2015",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2015",
+        "en": "2015"
+      },
+      "characters": [
+        "ethan-hunt",
+        "ilsa-faust",
+        "benji-dunn",
+        "luther-stickell"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-fallout-2018",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "characters": [
+        "ethan-hunt",
+        "ilsa-faust",
+        "benji-dunn",
+        "luther-stickell"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-dead-reckoning-part-one-2023",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "2023",
+        "en": "2023"
+      },
+      "characters": [
+        "ethan-hunt",
+        "ilsa-faust",
+        "benji-dunn",
+        "luther-stickell"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-the-final-reckoning-2025",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "2025",
+        "en": "2025"
+      },
+      "characters": [
+        "ethan-hunt",
+        "benji-dunn",
+        "luther-stickell"
+      ]
+    },
+    {
+      "titleId": "mission-impossible-1966",
+      "continuityId": "tv",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1966",
+        "en": "1966"
+      }
+    },
+    {
+      "titleId": "mission-impossible-1988",
+      "continuityId": "tv",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1988",
+        "en": "1988"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "essentials",
+      "type": "curated",
+      "name": {
+        "es": "Lo esencial",
+        "en": "The essentials"
+      },
+      "description": {
+        "es": "Lo que se retoma en la recta final: la primera, la tercera y la tetralogía de Rogue Nation a Final Reckoning.",
+        "en": "What gets picked up in the home stretch: the first, the third and the Rogue Nation to Final Reckoning run."
+      },
+      "titleIds": [
+        "mission-impossible-1996",
+        "mission-impossible-iii-2006",
+        "mission-impossible-rogue-nation-2015",
+        "mission-impossible-fallout-2018",
+        "mission-impossible-dead-reckoning-part-one-2023",
+        "mission-impossible-the-final-reckoning-2025"
+      ]
+    },
+    {
+      "id": "entity",
+      "type": "curated",
+      "name": {
+        "es": "El arco de la Entidad",
+        "en": "The Entity arc"
+      },
+      "description": {
+        "es": "Rogue Nation, Fallout y las dos Reckoning, con la amenaza de la IA.",
+        "en": "Rogue Nation, Fallout and the two Reckonings, with the AI threat."
+      },
+      "titleIds": [
+        "mission-impossible-rogue-nation-2015",
+        "mission-impossible-fallout-2018",
+        "mission-impossible-dead-reckoning-part-one-2023",
+        "mission-impossible-the-final-reckoning-2025"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-mission-impossible-the-final-reckoning-2025",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para The Final Reckoning",
+        "en": "Get ready for The Final Reckoning"
+      },
+      "description": {
+        "es": "Lo que la película retoma: la primera, la tercera (el Pie de Conejo), Fallout y Dead Reckoning.",
+        "en": "What the film calls back to: the first, the third (the Rabbit's Foot), Fallout and Dead Reckoning."
+      },
+      "titleIds": [
+        "mission-impossible-1996",
+        "mission-impossible-iii-2006",
+        "mission-impossible-fallout-2018",
+        "mission-impossible-dead-reckoning-part-one-2023"
+      ],
+      "targetTitleId": "mission-impossible-the-final-reckoning-2025"
+    },
+    {
+      "id": "ilsa-faust",
+      "kind": "character",
+      "name": {
+        "es": "Ilsa Faust",
+        "en": "Ilsa Faust"
+      },
+      "description": {
+        "es": "La agente británica que se vuelve el contrapeso de Ethan.",
+        "en": "The British agent who becomes Ethan's counterweight."
+      },
+      "titleIds": [
+        "mission-impossible-rogue-nation-2015",
+        "mission-impossible-fallout-2018",
+        "mission-impossible-dead-reckoning-part-one-2023"
+      ]
+    },
+    {
+      "id": "luther-stickell",
+      "kind": "character",
+      "name": {
+        "es": "Luther Stickell",
+        "en": "Luther Stickell"
+      },
+      "description": {
+        "es": "El compañero de Ethan desde la primera película.",
+        "en": "Ethan's partner since the first film."
+      },
+      "titleIds": [
+        "mission-impossible-1996",
+        "mission-impossible-ii-2000",
+        "mission-impossible-iii-2006",
+        "mission-impossible-rogue-nation-2015",
+        "mission-impossible-fallout-2018",
+        "mission-impossible-dead-reckoning-part-one-2023",
+        "mission-impossible-the-final-reckoning-2025"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "ethan-hunt",
+        "name": {
+          "es": "Ethan Hunt",
+          "en": "Ethan Hunt"
+        }
+      },
+      {
+        "id": "ilsa-faust",
+        "name": {
+          "es": "Ilsa Faust",
+          "en": "Ilsa Faust"
+        }
+      },
+      {
+        "id": "benji-dunn",
+        "name": {
+          "es": "Benji Dunn",
+          "en": "Benji Dunn"
+        }
+      },
+      {
+        "id": "luther-stickell",
+        "name": {
+          "es": "Luther Stickell",
+          "en": "Luther Stickell"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

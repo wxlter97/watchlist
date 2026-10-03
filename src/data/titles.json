@@ -15595,5 +15595,770 @@
       }
     ],
     "runtimeMin": 165
+  },
+  {
+    "id": "jurassic-park-1993",
+    "tmdbId": 329,
+    "tmdbType": "movie",
+    "title": "Jurassic Park",
+    "kind": "movie",
+    "releaseDate": "1993-06-11",
+    "imdbId": "tt0107290",
+    "posterPath": "/d9mtMGQDLANKieb9PbD3yK7xxzo.jpg",
+    "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+    "localized": {
+      "en": {
+        "title": "Jurassic Park",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape."
+      },
+      "es": {
+        "title": "Parque Jurásico",
+        "overview": "El multimillonario John Hammond tiene una idea para un espectacular parque temático: una isla retirada donde los visitantes puedan observar dinosaurios reales. Con la última tecnología en el desarrollo de DNA, los científicos pueden clonar braquiosaurios, triceratops, velociraptors y un tiranosaurio rex, utilizando para ello la sangre fosilizada en ámbar contenida en insectos que los mordieron hace millones de años. Los paleontólogos Alan Grant, Ellie Sattler y Ian Malcolm visitan el parque y quedan muy sorprendidos con los resultados obtenidos. Pero cuando un problemático empleado manipula el sofisticado sistema de seguridad los dinosaurios escapan, obligando a los visitantes a luchar por su supervivencia."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "the-lost-world-jurassic-park-1997",
+    "tmdbId": 330,
+    "tmdbType": "movie",
+    "title": "The Lost World: Jurassic Park",
+    "kind": "movie",
+    "releaseDate": "1997-05-23",
+    "imdbId": "tt0119567",
+    "posterPath": "/s4RkAQWI9hgzctXgNFos8sJUnXJ.jpg",
+    "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that he has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
+    "localized": {
+      "en": {
+        "title": "The Lost World: Jurassic Park",
+        "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that he has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller."
+      },
+      "es": {
+        "title": "El mundo perdido: Jurassic Park",
+        "overview": "Han pasado cuatro años desde la devastación del Parque Jurásico, y el Dr Malcom está a punto de descubrir que algo ha sobrevivido. En una isla de Costa Rica perteneciente a la Costa de las Cinco Muertes, los dinosaurios viven y se reproducen en libertad. Se trata de la llamada zona B: el lugar que servía como laboratorio genético. Después de que John Hammond llevara a la empresa a la bancarrota, su sobrino Peter ha tomado las riendas y está dispuesto a levantar la compañía explotando la peligrosa zona."
+      }
+    },
+    "runtimeMin": 129
+  },
+  {
+    "id": "jurassic-park-iii-2001",
+    "tmdbId": 331,
+    "tmdbType": "movie",
+    "title": "Jurassic Park III",
+    "kind": "movie",
+    "releaseDate": "2001-07-18",
+    "imdbId": "tt0163025",
+    "posterPath": "/oQXj4NUfS3r3gHXtDOzcJgj1lLc.jpg",
+    "overview": "In need of funds for research, Dr. Alan Grant accepts a large sum of money to accompany Paul and Amanda Kirby on an aerial tour of the infamous Isla Sorna. It isn't long before all hell breaks loose and the stranded wayfarers must fight for survival as a host of new -- and even more deadly -- dinosaurs try to make snacks of them.",
+    "localized": {
+      "en": {
+        "title": "Jurassic Park III",
+        "overview": "In need of funds for research, Dr. Alan Grant accepts a large sum of money to accompany Paul and Amanda Kirby on an aerial tour of the infamous Isla Sorna. It isn't long before all hell breaks loose and the stranded wayfarers must fight for survival as a host of new -- and even more deadly -- dinosaurs try to make snacks of them."
+      },
+      "es": {
+        "title": "Parque Jurásico III",
+        "overview": "El doctor Alan Grant, ansioso por conseguir fondos que financien su estudio sobre la inteligencia del velociraptor, acepta la oferta de pareja de millonarios, Paul y Amanda Kirby, para sobrevolar la Isla Sorna, en Puerto Rico, poblada por dinosaurios creados genéticamente para un parque recreativo. Tras producirse un aterrizaje forzoso en la isla, Alan descubre que los Kirby estaban buscando a su hijo adolescente, perdido en la isla tras un accidente de parapente."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "jurassic-world-2015",
+    "tmdbId": 135397,
+    "tmdbType": "movie",
+    "title": "Jurassic World",
+    "kind": "movie",
+    "releaseDate": "2015-06-06",
+    "imdbId": "tt0369610",
+    "posterPath": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
+    "overview": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
+    "localized": {
+      "en": {
+        "title": "Jurassic World",
+        "overview": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond."
+      },
+      "es": {
+        "title": "Jurassic World",
+        "overview": "Veintidós años después de lo ocurrido en Jurassic Park, la isla Nublar ha sido transformada en un enorme parque temático, Jurassic Wold, con versiones «domesticadas» de algunos de los dinosaurios más conocidos. Cuando todo parece ir sobre ruedas y ser el negocio del siglo, un nuevo dinosaurio de especie desconocida, pues ha sido creado manipulando genéticamente su ADN, y que resulta ser mucho más inteligente de lo que se pensaba, se escapa de su recinto y comienza a causar estragos entre los visitantes del Parque"
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "jurassic-world-camp-cretaceous-2020",
+    "tmdbId": 93741,
+    "tmdbType": "tv",
+    "title": "Jurassic World Camp Cretaceous",
+    "kind": "series",
+    "releaseDate": "2020-09-18",
+    "imdbId": "tt10436228",
+    "posterPath": "/pwte1p4ZySI1qAVSVdSTRKjuIAa.jpg",
+    "overview": "Six teens attending an adventure camp on the opposite side of Isla Nublar must band together to survive when dinosaurs wreak havoc on the island.",
+    "localized": {
+      "en": {
+        "title": "Jurassic World Camp Cretaceous",
+        "overview": "Six teens attending an adventure camp on the opposite side of Isla Nublar must band together to survive when dinosaurs wreak havoc on the island."
+      },
+      "es": {
+        "title": "Jurassic World: Campamento Cretácico",
+        "overview": "Ambientada en paralelo a los hechos narrados en \"Jurassic World\", cuenta la historia de seis adolescentes que son elegidos para vivir una aventura única: acampar en una zona cercana a la Isla Nublar. Pero cuando los dinosaurios salen de sus jaulas y crean el caos, estos jóvenes tendrán que sobrevivir a una situación hostil."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2020-09-18"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2021-01-22"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2021-05-21"
+      },
+      {
+        "number": 4,
+        "episodes": 11,
+        "airDate": "2021-12-03"
+      },
+      {
+        "number": 5,
+        "episodes": 12,
+        "airDate": "2022-07-21"
+      }
+    ],
+    "runtimeMin": 1176
+  },
+  {
+    "id": "jurassic-world-fallen-kingdom-2018",
+    "tmdbId": 351286,
+    "tmdbType": "movie",
+    "title": "Jurassic World: Fallen Kingdom",
+    "kind": "movie",
+    "releaseDate": "2018-06-06",
+    "imdbId": "tt4881806",
+    "posterPath": "/x2Us3jR6ToMJjbcPbLimYoxf6xr.jpg",
+    "overview": "Three years after Jurassic World was destroyed, Isla Nublar now sits abandoned. When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+    "localized": {
+      "en": {
+        "title": "Jurassic World: Fallen Kingdom",
+        "overview": "Three years after Jurassic World was destroyed, Isla Nublar now sits abandoned. When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event."
+      },
+      "es": {
+        "title": "Jurassic World 2: El Reino Caído",
+        "overview": "Una erupción volcánica amenaza a los dinosaurios restantes en la Isla Nublar, donde las criaturas han vagado libremente durante años tras de la desaparición del parque temático \"Jurassic World\". Claire Dearing, ex gerente del parque, ahora fundó el Grupo de Protección de Dinosaurios, una organización dedicada a intentar preservarlos. Cuando a Claire le ofrecen la oportunidad de rescatar algunos ejemplares de la isla, acude a Owen Grady, el ex entrenador de dinosaurios que trabajó en el parque, para que la ayude a evitar la extinción de los dinosaurios... Secuela de \"Jurassic World\"."
+      }
+    },
+    "runtimeMin": 129
+  },
+  {
+    "id": "jurassic-world-dominion-2022",
+    "tmdbId": 507086,
+    "tmdbType": "movie",
+    "title": "Jurassic World Dominion",
+    "kind": "movie",
+    "releaseDate": "2022-06-01",
+    "imdbId": "tt8041270",
+    "posterPath": "/jbAvCACjLf1ZG0unB2tdmx5HAf1.jpg",
+    "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures.",
+    "localized": {
+      "en": {
+        "title": "Jurassic World Dominion",
+        "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures."
+      },
+      "es": {
+        "title": "Jurassic World Dominio",
+        "overview": "Cuatro años después de la destrucción de Isla Nublar, los dinosaurios ahora viven y cazan junto a los humanos en todo el mundo. Este frágil equilibrio cambiará el futuro y determinará, de una vez por todas, si los seres humanos deben seguir siendo los depredadores máximos en un planeta que ahora comparten con las criaturas más temibles de la historia."
+      }
+    },
+    "runtimeMin": 147
+  },
+  {
+    "id": "jurassic-world-chaos-theory-2024",
+    "tmdbId": 237512,
+    "tmdbType": "tv",
+    "title": "Jurassic World: Chaos Theory",
+    "kind": "series",
+    "releaseDate": "2024-05-24",
+    "imdbId": "tt29899148",
+    "posterPath": "/c2Od0cY2IeayDj5osUxZSAD1QK.jpg",
+    "overview": "The Camp Cretaceous gang comes together to unravel a mystery when they discover a global conspiracy that brings danger to dinosaurs — and to themselves.",
+    "localized": {
+      "en": {
+        "title": "Jurassic World: Chaos Theory",
+        "overview": "The Camp Cretaceous gang comes together to unravel a mystery when they discover a global conspiracy that brings danger to dinosaurs — and to themselves."
+      },
+      "es": {
+        "title": "Jurassic World: Teoría del dinocaos",
+        "overview": "La pandilla del Campamento Cretácico se reúne para develar un misterio y descubre una conspiración mundial que amenaza a los dinosaurios... y a ellos mismos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2024-05-24"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2024-10-17"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2025-04-03"
+      },
+      {
+        "number": 4,
+        "episodes": 9,
+        "airDate": "2025-11-20"
+      }
+    ],
+    "runtimeMin": 923
+  },
+  {
+    "id": "jurassic-world-rebirth-2025",
+    "tmdbId": 1234821,
+    "tmdbType": "movie",
+    "title": "Jurassic World Rebirth",
+    "kind": "movie",
+    "releaseDate": "2025-06-23",
+    "imdbId": "tt31036941",
+    "posterPath": "/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+    "overview": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+    "localized": {
+      "en": {
+        "title": "Jurassic World Rebirth",
+        "overview": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades."
+      },
+      "es": {
+        "title": "Jurassic World: Renace",
+        "overview": "Cinco años después de los acontecimientos de Jurassic World Dominion, Zora Bennett, una experta en operaciones encubiertas, es contratada para dirigir a un equipo de especialistas cuya misión es conseguir fabricar un medicamento hecho de ADN de tres criaturas más grandes para la raza humana."
+      }
+    },
+    "runtimeMin": 134
+  },
+  {
+    "id": "mission-impossible-1966",
+    "tmdbId": 4357,
+    "tmdbType": "tv",
+    "title": "Mission: Impossible",
+    "kind": "series",
+    "releaseDate": "1966-09-17",
+    "imdbId": "tt0060009",
+    "posterPath": "/1PnUBKbDR1F2w5qicblLg1QGTif.jpg",
+    "overview": "Mission: Impossible is an American television series that was created and initially produced by Bruce Geller. It chronicles the missions of a team of secret government agents known as the Impossible Missions Force. In the first season, the team is led by Dan Briggs, played by Steven Hill; Jim Phelps, played by Peter Graves, takes charge for the remaining seasons. A hallmark of the series shows Briggs or Phelps receiving his instructions on a recording that then self-destructs, followed by the theme music composed by Lalo Schifrin.\n\nThe series aired on the CBS network from September 1966 to March 1973, then returned to television for two seasons on ABC, from 1988 to 1990, retaining only Graves in the cast. It later inspired a popular series of theatrical motion pictures starring Tom Cruise, beginning in 1996.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible",
+        "overview": "Mission: Impossible is an American television series that was created and initially produced by Bruce Geller. It chronicles the missions of a team of secret government agents known as the Impossible Missions Force. In the first season, the team is led by Dan Briggs, played by Steven Hill; Jim Phelps, played by Peter Graves, takes charge for the remaining seasons. A hallmark of the series shows Briggs or Phelps receiving his instructions on a recording that then self-destructs, followed by the theme music composed by Lalo Schifrin.\n\nThe series aired on the CBS network from September 1966 to March 1973, then returned to television for two seasons on ABC, from 1988 to 1990, retaining only Graves in the cast. It later inspired a popular series of theatrical motion pictures starring Tom Cruise, beginning in 1996."
+      },
+      "es": {
+        "title": "Misión: imposible",
+        "overview": "Un grupo de agentes especiales de élite realizan misiones de alto secreto, que comienzan con el líder del equipo recibiendo instrucciones a través de un mensaje grabado en una cinta que se autodestruye en cinco segundos. Elige a su equipo en función de las tareas que deben ser realizadas. Una cosa es vital en una misión imposible: la misión debe llevarse a cabo en completo secreto, a menudo contando con equipos de alta tecnología y elaboradas artimañas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 28,
+        "airDate": "1966-09-17"
+      },
+      {
+        "number": 2,
+        "episodes": 25,
+        "airDate": "1967-09-10"
+      },
+      {
+        "number": 3,
+        "episodes": 25,
+        "airDate": "1968-09-29"
+      },
+      {
+        "number": 4,
+        "episodes": 26,
+        "airDate": "1969-09-28"
+      },
+      {
+        "number": 5,
+        "episodes": 23,
+        "airDate": "1970-09-19"
+      },
+      {
+        "number": 6,
+        "episodes": 22,
+        "airDate": "1971-09-18"
+      },
+      {
+        "number": 7,
+        "episodes": 22,
+        "airDate": "1972-09-16"
+      }
+    ],
+    "runtimeMin": 7849
+  },
+  {
+    "id": "mission-impossible-1988",
+    "tmdbId": 9894,
+    "tmdbType": "tv",
+    "title": "Mission: Impossible",
+    "kind": "series",
+    "releaseDate": "1988-10-23",
+    "imdbId": "tt0094511",
+    "posterPath": "/4AZwDa0RZLIVsOgZxlgOqNUw3U6.jpg",
+    "overview": "Mission: Impossible is an American television series that chronicles the missions of a team of secret American government agents known as the Impossible Missions Force. The show is a revival of the 1966 TV series of the same name. The only actor to return for the series as a regular cast member was Peter Graves who played Jim Phelps, although two other cast members from the original series returned as guest stars. The only other regular cast member to return for every episode was the voice of \"The Tape\", Bob Johnson.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible",
+        "overview": "Mission: Impossible is an American television series that chronicles the missions of a team of secret American government agents known as the Impossible Missions Force. The show is a revival of the 1966 TV series of the same name. The only actor to return for the series as a regular cast member was Peter Graves who played Jim Phelps, although two other cast members from the original series returned as guest stars. The only other regular cast member to return for every episode was the voice of \"The Tape\", Bob Johnson."
+      },
+      "es": {
+        "title": "Misión: Imposible",
+        "overview": "**Misión: Imposible** es una serie de televisión estadounidense que narra las misiones de un equipo de agentes secretos del gobierno de EE. UU. conocido como la Fuerza de Misiones Imposibles. El programa es una nueva versión de la serie de televisión de 1966 del mismo nombre. El único actor que regresó como miembro regular del reparto fue Peter Graves, quien interpretaba a Jim Phelps, aunque otros dos miembros del elenco original regresaron como estrellas invitadas. El único otro miembro regular que apareció en todos los episodios fue la voz de \"La Cinta\", Bob Johnson."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 19,
+        "airDate": "1988-10-23"
+      },
+      {
+        "number": 2,
+        "episodes": 16,
+        "airDate": "1989-09-21"
+      }
+    ],
+    "runtimeMin": 1681
+  },
+  {
+    "id": "mission-impossible-1996",
+    "tmdbId": 954,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible",
+    "kind": "movie",
+    "releaseDate": "1996-05-22",
+    "imdbId": "tt0117060",
+    "posterPath": "/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+    "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the prime suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible",
+        "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the prime suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score."
+      },
+      "es": {
+        "title": "Misión: Imposible",
+        "overview": "Un agente estadounidense, bajo la falsa sospecha de deslealtad, debe descubrir y exponer al verdadero espía sin la ayuda de su organización."
+      }
+    },
+    "runtimeMin": 111
+  },
+  {
+    "id": "mission-impossible-ii-2000",
+    "tmdbId": 955,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible II",
+    "kind": "movie",
+    "releaseDate": "2000-05-24",
+    "imdbId": "tt0120755",
+    "posterPath": "/hfnrual76gPeNFduhD4xzHWpfTw.jpg",
+    "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible II",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude."
+      },
+      "es": {
+        "title": "Misión: Imposible 2",
+        "overview": "El agente del FMI Ethan Hunt es enviado a Sydney para encontrar y destruir una enfermedad genéticamente modificada llamada «Quimera»."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "mission-impossible-iii-2006",
+    "tmdbId": 956,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible III",
+    "kind": "movie",
+    "releaseDate": "2006-04-25",
+    "imdbId": "tt0317919",
+    "posterPath": "/vKGYCpmQyV9uHybWDzXuII8Los5.jpg",
+    "overview": "Retired from active duty, and training recruits for the Impossible Mission Force, agent Ethan Hunt faces the toughest foe of his career: Owen Davian, an international broker of arms and information, who's as cunning as he is ruthless. Davian emerges to threaten Hunt and all that he holds dear – including the woman Hunt loves.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible III",
+        "overview": "Retired from active duty, and training recruits for the Impossible Mission Force, agent Ethan Hunt faces the toughest foe of his career: Owen Davian, an international broker of arms and information, who's as cunning as he is ruthless. Davian emerges to threaten Hunt and all that he holds dear – including the woman Hunt loves."
+      },
+      "es": {
+        "title": "Misión: Imposible 3",
+        "overview": "El agente del FMI Ethan Hunt entra en conflicto con un peligroso y sádico traficante de armas que, en respuesta, amenaza su vida y la de su prometida."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "mission-impossible-ghost-protocol-2011",
+    "tmdbId": 56292,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible - Ghost Protocol",
+    "kind": "movie",
+    "releaseDate": "2011-12-07",
+    "imdbId": "tt1229238",
+    "posterPath": "/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
+    "overview": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible - Ghost Protocol",
+        "overview": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster."
+      },
+      "es": {
+        "title": "Misión imposible 4: Protocolo fantasma",
+        "overview": "El FMI es clausurado cuando está implicado en el atentado del Kremlin, lo que hace que Ethan Hunt y su nuevo equipo se vuelvan rebeldes para limpiar el nombre de su organización."
+      }
+    },
+    "runtimeMin": 133
+  },
+  {
+    "id": "mission-impossible-rogue-nation-2015",
+    "tmdbId": 177677,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible - Rogue Nation",
+    "kind": "movie",
+    "releaseDate": "2015-07-28",
+    "imdbId": "tt2381249",
+    "posterPath": "/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
+    "overview": "Ethan and team take on their most impossible mission yet—eradicating 'The Syndicate', an International and highly-skilled rogue organization committed to destroying the IMF.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible - Rogue Nation",
+        "overview": "Ethan and team take on their most impossible mission yet—eradicating 'The Syndicate', an International and highly-skilled rogue organization committed to destroying the IMF."
+      },
+      "es": {
+        "title": "Misión Imposible 5: Nación Secreta",
+        "overview": "Ethan y su equipo se enfrentan a su misión más imposible hasta el momento cuando tienen que erradicar una organización internacional de delincuentes tan hábil como ellos y comprometida con la destrucción del FMI."
+      }
+    },
+    "runtimeMin": 131
+  },
+  {
+    "id": "mission-impossible-fallout-2018",
+    "tmdbId": 353081,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible - Fallout",
+    "kind": "movie",
+    "releaseDate": "2018-07-25",
+    "imdbId": "tt4912910",
+    "posterPath": "/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+    "overview": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible - Fallout",
+        "overview": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe."
+      },
+      "es": {
+        "title": "Misión Imposible 6: Repercusión",
+        "overview": "Ethan Hunt y su equipo del FMI, junto con algunos aliados conocidos, corren contrarreloj tras una misión que salió mal."
+      }
+    },
+    "runtimeMin": 147
+  },
+  {
+    "id": "mission-impossible-dead-reckoning-part-one-2023",
+    "tmdbId": 575264,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible - Dead Reckoning Part One",
+    "kind": "movie",
+    "releaseDate": "2023-07-08",
+    "imdbId": "tt9603212",
+    "posterPath": "/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+    "overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible - Dead Reckoning Part One",
+        "overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most."
+      },
+      "es": {
+        "title": "Misión: Imposible - Sentencia mortal parte uno",
+        "overview": "Ethan Hunt y su equipo del FMI, se embarcan en su misión más peligrosa hasta la fecha: localizar, antes de que caiga en las manos equivocadas, una nueva y terrorífica arma que amenaza a toda la humanidad. En esta tesitura, y con unas fuerzas oscuras del pasado de Ethan acechando, comienza una carrera mortal alrededor del mundo en la que está en juego el control del futuro y el destino del planeta. Enfrentado a un enemigo misterioso y todopoderoso, Ethan se ve obligado a considerar que nada puede anteponerse a su misión, ni siquiera las vidas de aquellos que más le importan."
+      }
+    },
+    "runtimeMin": 164
+  },
+  {
+    "id": "mission-impossible-the-final-reckoning-2025",
+    "tmdbId": 575265,
+    "tmdbType": "movie",
+    "title": "Mission: Impossible - The Final Reckoning",
+    "kind": "movie",
+    "releaseDate": "2025-05-17",
+    "imdbId": "tt9603208",
+    "posterPath": "/iKPsC9EFUafRP9SrUznI61getVP.jpg",
+    "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+    "localized": {
+      "en": {
+        "title": "Mission: Impossible - The Final Reckoning",
+        "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever."
+      },
+      "es": {
+        "title": "Misión: Imposible - La sentencia final",
+        "overview": "La Entidad, la IA experimental que se ha convertido en el villano de la historia, sigue activa y cuenta con el apoyo del malvado Gabriel en el mundo de los cárnicos. Por suerte, Ethan y su equipo tienen la llave que les podría dar el control de la Entidad, algo que les obligará a arriesgarse para eliminar a esa IA que descansa en el fondo del mar."
+      }
+    },
+    "runtimeMin": 170
+  },
+  {
+    "id": "the-continental-from-the-world-of-john-wick-2023",
+    "tmdbId": 72710,
+    "tmdbType": "tv",
+    "title": "The Continental: From the World of John Wick",
+    "kind": "series",
+    "releaseDate": "2023-09-22",
+    "imdbId": "tt6486762",
+    "posterPath": "/2urdwqEL9FRkGMKAkhfvWTALG00.jpg",
+    "overview": "The origin behind the iconic hotel-for-assassins through the eyes and actions of a young Winston Scott, as he's dragged into the Hell-scape of 1970's New York City to face a past he thought he'd left behind. Winston charts a deadly course through the hotel's mysterious underworld in a harrowing attempt to seize the hotel where he will eventually take his future throne.",
+    "localized": {
+      "en": {
+        "title": "The Continental: From the World of John Wick",
+        "overview": "The origin behind the iconic hotel-for-assassins through the eyes and actions of a young Winston Scott, as he's dragged into the Hell-scape of 1970's New York City to face a past he thought he'd left behind. Winston charts a deadly course through the hotel's mysterious underworld in a harrowing attempt to seize the hotel where he will eventually take his future throne."
+      },
+      "es": {
+        "title": "El Continental: Del mundo de John Wick",
+        "overview": "Serie precuela de la franquicia cinematográfica John Wick, centrada en la historia de Winston Scott. Muestra su camino para llegar a su posición como propietario de la sucursal neoyorquina de la cadena de Hoteles Continental, refugios seguros para asesinos en cuyos terrenos no se puede matar ni dejar de pagar una deuda."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 3,
+        "airDate": "2023-09-22"
+      }
+    ],
+    "runtimeMin": 265
+  },
+  {
+    "id": "john-wick-2014",
+    "tmdbId": 245891,
+    "tmdbType": "movie",
+    "title": "John Wick",
+    "kind": "movie",
+    "releaseDate": "2014-10-16",
+    "imdbId": "tt2911666",
+    "posterPath": "/wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+    "overview": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+    "localized": {
+      "en": {
+        "title": "John Wick",
+        "overview": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him."
+      },
+      "es": {
+        "title": "Otro día para matar",
+        "overview": "La ciudad de Nueva York se convierte en el patio acribillado a balazos de un ex-asesino mientras él elimina a los gánsteres que destruyeron todo lo que él quería."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "john-wick-chapter-2-2017",
+    "tmdbId": 324552,
+    "tmdbType": "movie",
+    "title": "John Wick: Chapter 2",
+    "kind": "movie",
+    "releaseDate": "2017-02-08",
+    "imdbId": "tt4425200",
+    "posterPath": "/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+    "overview": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+    "localized": {
+      "en": {
+        "title": "John Wick: Chapter 2",
+        "overview": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers."
+      },
+      "es": {
+        "title": "John Wick 2: Un Nuevo Día para Matar",
+        "overview": "En esta secuela del éxito de 2014, el legendario asesino John Wick (Keanu Reeves) se ve obligado a salir del retiro por un ex-asociado que planea obtener el control de un misterioso grupo internacional de asesinos. Obligado a ayudarlo por un juramento de sangre, John emprende un viaje a Roma lleno de adrenalina estremecedora para pelear contra los asesinos más peligrosos del mundo."
+      }
+    },
+    "runtimeMin": 122
+  },
+  {
+    "id": "john-wick-chapter-3-parabellum-2019",
+    "tmdbId": 458156,
+    "tmdbType": "movie",
+    "title": "John Wick: Chapter 3 - Parabellum",
+    "kind": "movie",
+    "releaseDate": "2019-05-15",
+    "imdbId": "tt6146586",
+    "posterPath": "/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+    "overview": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+    "localized": {
+      "en": {
+        "title": "John Wick: Chapter 3 - Parabellum",
+        "overview": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn."
+      },
+      "es": {
+        "title": "John Wick 3: Parabellum",
+        "overview": "Después de matar a un miembro del misterioso gremio internacional de asesinos, la Mesa Alta, John Wick está excomulgado, pero los hombres y mujeres más despiadados del mundo esperan cada  uno su turno."
+      }
+    },
+    "runtimeMin": 131
+  },
+  {
+    "id": "john-wick-chapter-4-2023",
+    "tmdbId": 603692,
+    "tmdbType": "movie",
+    "title": "John Wick: Chapter 4",
+    "kind": "movie",
+    "releaseDate": "2023-03-21",
+    "imdbId": "tt10366206",
+    "posterPath": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "localized": {
+      "en": {
+        "title": "John Wick: Chapter 4",
+        "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes."
+      },
+      "es": {
+        "title": "John Wick 4",
+        "overview": "John Wick descubre un camino para derrotar a La Mesa. Pero antes de poder ganar su libertad, Wick deberá enfrentarse a un nuevo enemigo con poderosas alianzas en todo el mundo; y contra las fuerzas que convierten a viejos amigos en enemigos."
+      }
+    },
+    "runtimeMin": 170
+  },
+  {
+    "id": "ballerina-2025",
+    "tmdbId": 541671,
+    "tmdbType": "movie",
+    "title": "Ballerina",
+    "kind": "movie",
+    "releaseDate": "2025-06-04",
+    "imdbId": "tt7181546",
+    "posterPath": "/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+    "overview": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+    "localized": {
+      "en": {
+        "title": "Ballerina",
+        "overview": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma."
+      },
+      "es": {
+        "title": "Bailarina",
+        "overview": "Eve Macarro es una asesina entrenada por la Ruska Roma desde su infancia, la misma organización criminal encargada del adiestramiento de John Wick. En esta violenta historia de venganza, Eve intentará por todos los medios averiguar quién está detrás del asesinato de su padre. En su lucha por conocer la verdad, tendrá que atenerse a las normas de la Alta Mesa y, por supuesto, a las del Hotel Continental, donde descubrirá que existen secretos ocultos sobre su pasado."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "the-matrix-1999",
+    "tmdbId": 603,
+    "tmdbType": "movie",
+    "title": "The Matrix",
+    "kind": "movie",
+    "releaseDate": "1999-03-31",
+    "imdbId": "tt0133093",
+    "posterPath": "/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+    "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+    "localized": {
+      "en": {
+        "title": "The Matrix",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth."
+      },
+      "es": {
+        "title": "Matrix",
+        "overview": "Un hacker informático aprende de misteriosos rebeldes la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores."
+      }
+    },
+    "runtimeMin": 136
+  },
+  {
+    "id": "the-animatrix-2003",
+    "tmdbId": 55931,
+    "tmdbType": "movie",
+    "title": "The Animatrix",
+    "kind": "movie",
+    "releaseDate": "2003-05-09",
+    "imdbId": "tt0328832",
+    "posterPath": "/eDjIG2hAeMU5cxLrd6oiQqdqoZt.jpg",
+    "overview": "Straight from the creators of the groundbreaking Matrix trilogy, this collection of short animated films from the world's leading anime directors fuses computer graphics and Japanese anime to provide the background of the Matrix universe and the conflict between man and machines. The shorts include Final Flight of the Osiris, The Second Renaissance, Kid's Story, Program, World Record, Beyond, A Detective Story and Matriculated.",
+    "localized": {
+      "en": {
+        "title": "The Animatrix",
+        "overview": "Straight from the creators of the groundbreaking Matrix trilogy, this collection of short animated films from the world's leading anime directors fuses computer graphics and Japanese anime to provide the background of the Matrix universe and the conflict between man and machines. The shorts include Final Flight of the Osiris, The Second Renaissance, Kid's Story, Program, World Record, Beyond, A Detective Story and Matriculated."
+      },
+      "es": {
+        "title": "Animatrix",
+        "overview": "Directamente de los creadores de la trilogía de Matrix, esta colección de películas cortas de animación de los principales directores de anime del mundo fusiona gráficos de computadora y anime japonés para proporcionar el fondo del universo Matrix y el conflicto entre el hombre y las máquinas. Los cortometrajes incluyen, el  vuelo final del Osiris, el segundo renacimiento, historia del niño, programa, expediente del mundo, más allá, una historia del detective y matriculado."
+      }
+    },
+    "runtimeMin": 102
+  },
+  {
+    "id": "the-matrix-reloaded-2003",
+    "tmdbId": 604,
+    "tmdbType": "movie",
+    "title": "The Matrix Reloaded",
+    "kind": "movie",
+    "releaseDate": "2003-05-15",
+    "imdbId": "tt0234215",
+    "posterPath": "/8xEVAe84zlL9rkfYT6dZXero4KK.jpg",
+    "overview": "The Resistance builds in numbers as humans are freed from the Matrix and brought to the city of Zion. Neo discovers his superpowers, including the ability to see the code inside the Matrix. With machine sentinels digging to Zion in 72 hours, Neo, Morpheus and Trinity must find the Keymaker to ultimately reach the Source.",
+    "localized": {
+      "en": {
+        "title": "The Matrix Reloaded",
+        "overview": "The Resistance builds in numbers as humans are freed from the Matrix and brought to the city of Zion. Neo discovers his superpowers, including the ability to see the code inside the Matrix. With machine sentinels digging to Zion in 72 hours, Neo, Morpheus and Trinity must find the Keymaker to ultimately reach the Source."
+      },
+      "es": {
+        "title": "Matrix recargado",
+        "overview": "Neo y sus aliados corren contra el tiempo antes de que las máquinas descubran la ciudad de Zion y la destruyan. Mientras busca la verdad sobre la Matrix, Neo debe salvar a Trinity de un oscuro destino."
+      }
+    },
+    "runtimeMin": 138
+  },
+  {
+    "id": "the-matrix-revolutions-2003",
+    "tmdbId": 605,
+    "tmdbType": "movie",
+    "title": "The Matrix Revolutions",
+    "kind": "movie",
+    "releaseDate": "2003-11-05",
+    "imdbId": "tt0242653",
+    "posterPath": "/qEWiBXJGXK28jGBAm8oFKKTB0WD.jpg",
+    "overview": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+    "localized": {
+      "en": {
+        "title": "The Matrix Revolutions",
+        "overview": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+      },
+      "es": {
+        "title": "Matrix: Revoluciones",
+        "overview": "La ciudad humana de Zion se defiende de la invasión masiva de las máquinas mientras Neo lucha por terminar la guerra en otro frente y también se opone al agente Smith."
+      }
+    },
+    "runtimeMin": 129
+  },
+  {
+    "id": "the-matrix-resurrections-2021",
+    "tmdbId": 624860,
+    "tmdbType": "movie",
+    "title": "The Matrix Resurrections",
+    "kind": "movie",
+    "releaseDate": "2021-12-16",
+    "imdbId": "tt10838180",
+    "posterPath": "/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+    "overview": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+    "localized": {
+      "en": {
+        "title": "The Matrix Resurrections",
+        "overview": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix."
+      },
+      "es": {
+        "title": "Matrix resurrecciones",
+        "overview": "El retorno a un mundo de dos realidades: una, la vida cotidiana; la otra, lo que hay detrás de ella. Para descubrir si su realidad es un constructo, para verdaderamente conocerse a sí mismo, el Sr. Anderson deberá elegir seguir al conejo blanco una vez más."
+      }
+    },
+    "runtimeMin": 148
   }
 ]
