@@ -1,0 +1,310 @@
+{
+  "id": "rocky",
+  "name": {
+    "es": "Rocky y Creed",
+    "en": "Rocky & Creed"
+  },
+  "description": {
+    "es": "De Filadelfia al ring: la saga de Rocky Balboa y la de Adonis Creed.",
+    "en": "From Philadelphia to the ring: the saga of Rocky Balboa and Adonis Creed."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "rocky",
+      "name": {
+        "es": "Rocky",
+        "en": "Rocky"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las seis películas de Rocky Balboa, de 1976 a 2006.",
+        "en": "The six Rocky Balboa films, from 1976 to 2006."
+      }
+    },
+    {
+      "id": "creed",
+      "name": {
+        "es": "Creed",
+        "en": "Creed"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La saga de Adonis Creed, que continúa la de Rocky.",
+        "en": "Adonis Creed's saga, which continues Rocky's."
+      },
+      "branchesFrom": {
+        "continuityId": "rocky",
+        "afterTitleId": "rocky-balboa-2006"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "rocky-1976",
+      "continuityId": "rocky",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1976",
+        "en": "1976"
+      },
+      "characters": [
+        "rocky-balboa"
+      ]
+    },
+    {
+      "titleId": "rocky-ii-1979",
+      "continuityId": "rocky",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1976",
+        "en": "1976"
+      },
+      "characters": [
+        "rocky-balboa",
+        "apollo-creed"
+      ]
+    },
+    {
+      "titleId": "rocky-iii-1982",
+      "continuityId": "rocky",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1982",
+        "en": "1982"
+      },
+      "characters": [
+        "rocky-balboa",
+        "apollo-creed"
+      ]
+    },
+    {
+      "titleId": "rocky-iv-1985",
+      "continuityId": "rocky",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1985",
+        "en": "1985"
+      },
+      "characters": [
+        "rocky-balboa",
+        "apollo-creed"
+      ]
+    },
+    {
+      "titleId": "rocky-v-1990",
+      "continuityId": "rocky",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "1990",
+        "en": "1990"
+      },
+      "characters": [
+        "rocky-balboa"
+      ]
+    },
+    {
+      "titleId": "rocky-balboa-2006",
+      "continuityId": "rocky",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2006",
+        "en": "2006"
+      },
+      "characters": [
+        "rocky-balboa"
+      ]
+    },
+    {
+      "titleId": "creed-2015",
+      "continuityId": "creed",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2015",
+        "en": "2015"
+      },
+      "characters": [
+        "rocky-balboa",
+        "adonis-creed"
+      ]
+    },
+    {
+      "titleId": "creed-ii-2018",
+      "continuityId": "creed",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "characters": [
+        "rocky-balboa",
+        "adonis-creed"
+      ]
+    },
+    {
+      "titleId": "creed-iii-2023",
+      "continuityId": "creed",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2023",
+        "en": "2023"
+      },
+      "characters": [
+        "adonis-creed"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "rocky",
+      "type": "curated",
+      "name": {
+        "es": "Solo Rocky",
+        "en": "Rocky only"
+      },
+      "description": {
+        "es": "Las seis películas de Rocky Balboa.",
+        "en": "The six Rocky Balboa films."
+      },
+      "titleIds": [
+        "rocky-1976",
+        "rocky-ii-1979",
+        "rocky-iii-1982",
+        "rocky-iv-1985",
+        "rocky-v-1990",
+        "rocky-balboa-2006"
+      ]
+    },
+    {
+      "id": "creed",
+      "type": "curated",
+      "name": {
+        "es": "Solo Creed",
+        "en": "Creed only"
+      },
+      "description": {
+        "es": "Las tres películas de Adonis Creed.",
+        "en": "The three Adonis Creed films."
+      },
+      "titleIds": [
+        "creed-2015",
+        "creed-ii-2018",
+        "creed-iii-2023"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-creed-ii-2018",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Creed II",
+        "en": "Get ready for Creed II"
+      },
+      "description": {
+        "es": "Creed II retoma a Ivan Drago y Apollo: Rocky IV y Creed.",
+        "en": "Creed II picks up Ivan Drago and Apollo: Rocky IV and Creed."
+      },
+      "titleIds": [
+        "rocky-iv-1985",
+        "creed-2015"
+      ],
+      "targetTitleId": "creed-ii-2018"
+    },
+    {
+      "id": "prep-creed-2015",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Creed",
+        "en": "Get ready for Creed"
+      },
+      "description": {
+        "es": "Rocky, la segunda, la cuarta y Balboa: la historia de Apollo y de Rocky.",
+        "en": "Rocky, the second, the fourth and Balboa: Apollo and Rocky's story."
+      },
+      "titleIds": [
+        "rocky-1976",
+        "rocky-ii-1979",
+        "rocky-iv-1985",
+        "rocky-balboa-2006"
+      ],
+      "targetTitleId": "creed-2015"
+    },
+    {
+      "id": "adonis-creed",
+      "kind": "character",
+      "name": {
+        "es": "Adonis Creed",
+        "en": "Adonis Creed"
+      },
+      "description": {
+        "es": "Las tres películas del hijo de Apollo.",
+        "en": "The three films of Apollo's son."
+      },
+      "titleIds": [
+        "creed-2015",
+        "creed-ii-2018",
+        "creed-iii-2023"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "rocky-balboa",
+        "name": {
+          "es": "Rocky Balboa",
+          "en": "Rocky Balboa"
+        }
+      },
+      {
+        "id": "apollo-creed",
+        "name": {
+          "es": "Apollo Creed",
+          "en": "Apollo Creed"
+        }
+      },
+      {
+        "id": "adonis-creed",
+        "name": {
+          "es": "Adonis Creed",
+          "en": "Adonis Creed"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

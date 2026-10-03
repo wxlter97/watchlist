@@ -1,0 +1,299 @@
+{
+  "id": "planet-of-the-apes",
+  "name": {
+    "es": "El planeta de los simios",
+    "en": "Planet of the Apes"
+  },
+  "description": {
+    "es": "Tres líneas distintas: la saga original, el remake de Burton y la historia de César.",
+    "en": "Three separate lines: the original saga, Burton's remake and Caesar's story."
+  },
+  "accentColor": "#4D7C0F",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Saga original",
+        "en": "Original saga"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas de 1968 a 1973, con un bucle temporal.",
+        "en": "The five films from 1968 to 1973, built around a time loop."
+      }
+    },
+    {
+      "id": "burton",
+      "name": {
+        "es": "Remake de Burton",
+        "en": "Burton's remake"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Una película aparte de 2001, sin relación con las demás.",
+        "en": "A standalone 2001 film, unrelated to the others."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Trilogía de César y Kingdom",
+        "en": "Caesar trilogy and Kingdom"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El reinicio de 2011: el origen de César y lo que viene siglos después.",
+        "en": "The 2011 reboot: Caesar's origin and what comes centuries later."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "planet-of-the-apes-1968",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "3978",
+        "en": "3978"
+      },
+      "characters": [
+        "taylor"
+      ]
+    },
+    {
+      "titleId": "beneath-the-planet-of-the-apes-1970",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "3979",
+        "en": "3979"
+      }
+    },
+    {
+      "titleId": "escape-from-the-planet-of-the-apes-1971",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1973",
+        "en": "1973"
+      },
+      "characters": [
+        "cornelius-y-zira"
+      ]
+    },
+    {
+      "titleId": "conquest-of-the-planet-of-the-apes-1972",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1991",
+        "en": "1991"
+      },
+      "characters": [
+        "cesar"
+      ]
+    },
+    {
+      "titleId": "battle-for-the-planet-of-the-apes-1973",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2003",
+        "en": "2003"
+      },
+      "characters": [
+        "cesar"
+      ]
+    },
+    {
+      "titleId": "planet-of-the-apes-2001",
+      "continuityId": "burton",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2029",
+        "en": "2029"
+      }
+    },
+    {
+      "titleId": "rise-of-the-planet-of-the-apes-2011",
+      "continuityId": "reboot",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Presente",
+        "en": "Present day"
+      },
+      "characters": [
+        "cesar"
+      ]
+    },
+    {
+      "titleId": "dawn-of-the-planet-of-the-apes-2014",
+      "continuityId": "reboot",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Diez años después",
+        "en": "Ten years later"
+      },
+      "characters": [
+        "cesar"
+      ]
+    },
+    {
+      "titleId": "war-for-the-planet-of-the-apes-2017",
+      "continuityId": "reboot",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Dos años después de Dawn",
+        "en": "Two years after Dawn"
+      },
+      "characters": [
+        "cesar"
+      ]
+    },
+    {
+      "titleId": "kingdom-of-the-planet-of-the-apes-2024",
+      "continuityId": "reboot",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Siglos después",
+        "en": "Centuries later"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "cesar",
+      "type": "curated",
+      "name": {
+        "es": "Trilogía de César",
+        "en": "Caesar trilogy"
+      },
+      "description": {
+        "es": "Rise, Dawn y War: la historia completa de César.",
+        "en": "Rise, Dawn and War: Caesar's complete story."
+      },
+      "titleIds": [
+        "rise-of-the-planet-of-the-apes-2011",
+        "dawn-of-the-planet-of-the-apes-2014",
+        "war-for-the-planet-of-the-apes-2017"
+      ]
+    },
+    {
+      "id": "original",
+      "type": "curated",
+      "name": {
+        "es": "Solo la saga original",
+        "en": "Original saga only"
+      },
+      "description": {
+        "es": "Las cinco películas de 1968 a 1973.",
+        "en": "The five films from 1968 to 1973."
+      },
+      "titleIds": [
+        "planet-of-the-apes-1968",
+        "beneath-the-planet-of-the-apes-1970",
+        "escape-from-the-planet-of-the-apes-1971",
+        "conquest-of-the-planet-of-the-apes-1972",
+        "battle-for-the-planet-of-the-apes-1973"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-kingdom-of-the-planet-of-the-apes-2024",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Kingdom",
+        "en": "Get ready for Kingdom"
+      },
+      "description": {
+        "es": "La trilogía de César, que fundamenta el mundo de Kingdom.",
+        "en": "Caesar's trilogy, which grounds Kingdom's world."
+      },
+      "titleIds": [
+        "rise-of-the-planet-of-the-apes-2011",
+        "dawn-of-the-planet-of-the-apes-2014",
+        "war-for-the-planet-of-the-apes-2017"
+      ],
+      "targetTitleId": "kingdom-of-the-planet-of-the-apes-2024"
+    },
+    {
+      "id": "cesar",
+      "kind": "character",
+      "name": {
+        "es": "César",
+        "en": "Caesar"
+      },
+      "description": {
+        "es": "Del laboratorio al líder de los simios.",
+        "en": "From the lab to the leader of the apes."
+      },
+      "titleIds": [
+        "rise-of-the-planet-of-the-apes-2011",
+        "dawn-of-the-planet-of-the-apes-2014",
+        "war-for-the-planet-of-the-apes-2017",
+        "kingdom-of-the-planet-of-the-apes-2024"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "taylor",
+        "name": {
+          "es": "Taylor",
+          "en": "Taylor"
+        }
+      },
+      {
+        "id": "cornelius-y-zira",
+        "name": {
+          "es": "Cornelius y Zira",
+          "en": "Cornelius and Zira"
+        }
+      },
+      {
+        "id": "cesar",
+        "name": {
+          "es": "César",
+          "en": "Caesar"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

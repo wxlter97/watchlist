@@ -1,0 +1,151 @@
+{
+  "id": "avatar",
+  "name": {
+    "es": "Avatar",
+    "en": "Avatar"
+  },
+  "description": {
+    "es": "Pandora, los Na'vi y la familia Sully: tres películas que continúan la misma historia.",
+    "en": "Pandora, the Na'vi and the Sully family: three films continuing one story."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "pandora",
+      "name": {
+        "es": "Pandora",
+        "en": "Pandora"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La historia de Jake Sully y su familia.",
+        "en": "Jake Sully and his family's story."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "avatar-2009",
+      "continuityId": "pandora",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2154",
+        "en": "2154"
+      },
+      "characters": [
+        "jake-sully",
+        "neytiri"
+      ]
+    },
+    {
+      "titleId": "avatar-the-way-of-water-2022",
+      "continuityId": "pandora",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Años después",
+        "en": "Years later"
+      },
+      "characters": [
+        "jake-sully",
+        "neytiri"
+      ]
+    },
+    {
+      "titleId": "avatar-fire-and-ash-2025",
+      "continuityId": "pandora",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Poco después de El camino del agua",
+        "en": "Right after The Way of Water"
+      },
+      "characters": [
+        "jake-sully",
+        "neytiri"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-avatar-fire-and-ash-2025",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Fire and Ash",
+        "en": "Get ready for Fire and Ash"
+      },
+      "description": {
+        "es": "Las dos películas anteriores: Fire and Ash continúa sin pausa.",
+        "en": "The two earlier films: Fire and Ash continues without a break."
+      },
+      "titleIds": [
+        "avatar-2009",
+        "avatar-the-way-of-water-2022"
+      ],
+      "targetTitleId": "avatar-fire-and-ash-2025"
+    },
+    {
+      "id": "jake-y-neytiri",
+      "kind": "character",
+      "name": {
+        "es": "Jake y Neytiri",
+        "en": "Jake and Neytiri"
+      },
+      "description": {
+        "es": "La pareja central de la saga.",
+        "en": "The saga's central pair."
+      },
+      "titleIds": [
+        "avatar-2009",
+        "avatar-the-way-of-water-2022",
+        "avatar-fire-and-ash-2025"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "jake-sully",
+        "name": {
+          "es": "Jake Sully",
+          "en": "Jake Sully"
+        }
+      },
+      {
+        "id": "neytiri",
+        "name": {
+          "es": "Neytiri",
+          "en": "Neytiri"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

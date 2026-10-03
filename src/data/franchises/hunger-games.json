@@ -1,0 +1,209 @@
+{
+  "id": "hunger-games",
+  "name": {
+    "es": "Los juegos del hambre",
+    "en": "The Hunger Games"
+  },
+  "description": {
+    "es": "Panem, Katniss y los juegos: la tetralogía y sus precuelas.",
+    "en": "Panem, Katniss and the Games: the four-film saga and its prequels."
+  },
+  "accentColor": "#9A3412",
+  "continuities": [
+    {
+      "id": "panem",
+      "name": {
+        "es": "Panem",
+        "en": "Panem"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La saga de Katniss y las precuelas que cuentan cómo empezaron los juegos y qué pasó antes.",
+        "en": "Katniss's saga and the prequels about how the Games began and what came before."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-hunger-games-the-ballad-of-songbirds-and-snakes-2023",
+      "continuityId": "panem",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "64 años antes de los primeros Juegos",
+        "en": "64 years before the first Games"
+      },
+      "characters": [
+        "coriolanus-snow"
+      ]
+    },
+    {
+      "titleId": "the-hunger-games-sunrise-on-the-reaping-2026",
+      "continuityId": "panem",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "24 años antes de los primeros Juegos",
+        "en": "24 years before the first Games"
+      },
+      "characters": [
+        "haymitch"
+      ]
+    },
+    {
+      "titleId": "the-hunger-games-2012",
+      "continuityId": "panem",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "katniss-everdeen",
+        "peeta-mellark"
+      ]
+    },
+    {
+      "titleId": "the-hunger-games-catching-fire-2013",
+      "continuityId": "panem",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "katniss-everdeen",
+        "peeta-mellark",
+        "haymitch"
+      ]
+    },
+    {
+      "titleId": "the-hunger-games-mockingjay-part-1-2014",
+      "continuityId": "panem",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "characters": [
+        "katniss-everdeen",
+        "peeta-mellark"
+      ]
+    },
+    {
+      "titleId": "the-hunger-games-mockingjay-part-2-2015",
+      "continuityId": "panem",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "characters": [
+        "katniss-everdeen",
+        "peeta-mellark"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "katniss",
+      "type": "curated",
+      "name": {
+        "es": "La historia de Katniss",
+        "en": "Katniss's story"
+      },
+      "description": {
+        "es": "Las cuatro películas originales.",
+        "en": "The four original films."
+      },
+      "titleIds": [
+        "the-hunger-games-2012",
+        "the-hunger-games-catching-fire-2013",
+        "the-hunger-games-mockingjay-part-1-2014",
+        "the-hunger-games-mockingjay-part-2-2015"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-the-hunger-games-sunrise-on-the-reaping-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Sunrise on the Reaping",
+        "en": "Get ready for Sunrise on the Reaping"
+      },
+      "description": {
+        "es": "La película cuenta los Juegos de Haymitch, que aparece en la saga original.",
+        "en": "The film tells Haymitch's Games; he appears in the original saga."
+      },
+      "titleIds": [
+        "the-hunger-games-2012",
+        "the-hunger-games-catching-fire-2013"
+      ],
+      "targetTitleId": "the-hunger-games-sunrise-on-the-reaping-2026"
+    },
+    {
+      "id": "katniss-y-peeta",
+      "kind": "character",
+      "name": {
+        "es": "Katniss y Peeta",
+        "en": "Katniss and Peeta"
+      },
+      "description": {
+        "es": "La pareja de los Juegos y la rebelión.",
+        "en": "The pair of the Games and the rebellion."
+      },
+      "titleIds": [
+        "the-hunger-games-2012",
+        "the-hunger-games-catching-fire-2013",
+        "the-hunger-games-mockingjay-part-1-2014",
+        "the-hunger-games-mockingjay-part-2-2015"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "katniss-everdeen",
+        "name": {
+          "es": "Katniss Everdeen",
+          "en": "Katniss Everdeen"
+        }
+      },
+      {
+        "id": "peeta-mellark",
+        "name": {
+          "es": "Peeta Mellark",
+          "en": "Peeta Mellark"
+        }
+      },
+      {
+        "id": "haymitch",
+        "name": {
+          "es": "Haymitch Abernathy",
+          "en": "Haymitch Abernathy"
+        }
+      },
+      {
+        "id": "coriolanus-snow",
+        "name": {
+          "es": "Coriolanus Snow",
+          "en": "Coriolanus Snow"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

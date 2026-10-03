@@ -1,0 +1,175 @@
+{
+  "id": "mad-max",
+  "name": {
+    "es": "Mad Max",
+    "en": "Mad Max"
+  },
+  "description": {
+    "es": "El páramo, Max y Furiosa: cinco películas con la misma gasolina y distinto equipo.",
+    "en": "The wasteland, Max and Furiosa: five films, same gasoline, different crews."
+  },
+  "accentColor": "#C2410C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Mad Max",
+        "en": "Mad Max"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas comparten mundo; cada una cuenta una historia casi independiente.",
+        "en": "The five films share a world; each tells an almost standalone story."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "mad-max-1979",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "max-rockatansky"
+      ]
+    },
+    {
+      "titleId": "mad-max-2-1981",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "max-rockatansky"
+      ]
+    },
+    {
+      "titleId": "mad-max-beyond-thunderdome-1985",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "max-rockatansky"
+      ]
+    },
+    {
+      "titleId": "furiosa-a-mad-max-saga-2024",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 35,
+      "chronoNote": {
+        "es": "15 años antes de Fury Road",
+        "en": "15 years before Fury Road"
+      },
+      "characters": [
+        "furiosa"
+      ]
+    },
+    {
+      "titleId": "mad-max-fury-road-2015",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "max-rockatansky",
+        "furiosa"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "recent",
+      "type": "curated",
+      "name": {
+        "es": "Fury Road y Furiosa",
+        "en": "Fury Road and Furiosa"
+      },
+      "description": {
+        "es": "Las dos películas de George Miller más recientes y conectadas.",
+        "en": "The two most recent, connected George Miller films."
+      },
+      "titleIds": [
+        "mad-max-fury-road-2015",
+        "furiosa-a-mad-max-saga-2024"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-furiosa-a-mad-max-saga-2024",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Furiosa",
+        "en": "Get ready for Furiosa"
+      },
+      "description": {
+        "es": "Fury Road, que muestra a Furiosa ya adulta y a la Ciudadela.",
+        "en": "Fury Road, which shows an adult Furiosa and the Citadel."
+      },
+      "titleIds": [
+        "mad-max-fury-road-2015"
+      ],
+      "targetTitleId": "furiosa-a-mad-max-saga-2024"
+    },
+    {
+      "id": "max-rockatansky",
+      "kind": "character",
+      "name": {
+        "es": "Max Rockatansky",
+        "en": "Max Rockatansky"
+      },
+      "description": {
+        "es": "El policía que se convirtió en errante del páramo.",
+        "en": "The cop who became a wasteland wanderer."
+      },
+      "titleIds": [
+        "mad-max-1979",
+        "mad-max-2-1981",
+        "mad-max-beyond-thunderdome-1985",
+        "mad-max-fury-road-2015"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "max-rockatansky",
+        "name": {
+          "es": "Max Rockatansky",
+          "en": "Max Rockatansky"
+        }
+      },
+      {
+        "id": "furiosa",
+        "name": {
+          "es": "Furiosa",
+          "en": "Furiosa"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "saw",
+  "name": {
+    "es": "Saw",
+    "en": "Saw"
+  },
+  "description": {
+    "es": "Jigsaw y sus juegos: diez películas con una sola historia que se cruza en el tiempo.",
+    "en": "Jigsaw and his games: ten films with one story that crosses over in time."
+  },
+  "accentColor": "#991B1B",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Saw",
+        "en": "Saw"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todas las películas comparten historia, con muchos saltos en el tiempo.",
+        "en": "All the films share one story, with lots of jumps in time."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "saw-2004",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-ii-2005",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-iii-2006",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-iv-2007",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "En paralelo a Saw III",
+        "en": "Parallel to Saw III"
+      },
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-v-2008",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-vi-2009",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-3d-2010",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "jigsaw-2017",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "spiral-from-the-book-of-saw-2021",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 90,
+      "characters": [
+        "jigsaw"
+      ]
+    },
+    {
+      "titleId": "saw-x-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 15,
+      "chronoNote": {
+        "es": "Entre Saw y Saw II",
+        "en": "Between Saw and Saw II"
+      },
+      "characters": [
+        "jigsaw"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "core",
+      "type": "curated",
+      "name": {
+        "es": "Los esenciales",
+        "en": "The essentials"
+      },
+      "description": {
+        "es": "La película original y las que más pesan: Saw, II, III, VI y X.",
+        "en": "The original and the ones that weigh most: Saw, II, III, VI and X."
+      },
+      "titleIds": [
+        "saw-2004",
+        "saw-ii-2005",
+        "saw-iii-2006",
+        "saw-vi-2009",
+        "saw-x-2023"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-saw-x-2023",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Saw X",
+        "en": "Get ready for Saw X"
+      },
+      "description": {
+        "es": "Saw X ocurre entre la primera y la segunda; conviene conocer la primera, la segunda y la tercera.",
+        "en": "Saw X is set between the first and second; it helps to know the first, second and third."
+      },
+      "titleIds": [
+        "saw-2004",
+        "saw-ii-2005",
+        "saw-iii-2006"
+      ],
+      "targetTitleId": "saw-x-2023"
+    },
+    {
+      "id": "jigsaw",
+      "kind": "character",
+      "name": {
+        "es": "John Kramer (Jigsaw)",
+        "en": "John Kramer (Jigsaw)"
+      },
+      "description": {
+        "es": "El creador de los juegos, en las películas donde más pesa.",
+        "en": "The creator of the games, in the films where he matters most."
+      },
+      "titleIds": [
+        "saw-2004",
+        "saw-ii-2005",
+        "saw-iii-2006",
+        "saw-vi-2009",
+        "saw-x-2023"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "jigsaw",
+        "name": {
+          "es": "John Kramer (Jigsaw)",
+          "en": "John Kramer (Jigsaw)"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

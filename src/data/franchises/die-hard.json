@@ -1,0 +1,169 @@
+{
+  "id": "die-hard",
+  "name": {
+    "es": "Duro de matar",
+    "en": "Die Hard"
+  },
+  "description": {
+    "es": "John McClane en el lugar y momento equivocados: cinco películas.",
+    "en": "John McClane in the wrong place at the wrong time: five films."
+  },
+  "accentColor": "#0F766E",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Duro de matar",
+        "en": "Die Hard"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas, en el orden en que se estrenaron.",
+        "en": "The five films, in release order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "die-hard-1988",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1988",
+        "en": "1988"
+      },
+      "characters": [
+        "john-mcclane"
+      ]
+    },
+    {
+      "titleId": "die-hard-2-1990",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1990",
+        "en": "1990"
+      },
+      "characters": [
+        "john-mcclane"
+      ]
+    },
+    {
+      "titleId": "die-hard-with-a-vengeance-1995",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1995",
+        "en": "1995"
+      },
+      "characters": [
+        "john-mcclane"
+      ]
+    },
+    {
+      "titleId": "live-free-or-die-hard-2007",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2007",
+        "en": "2007"
+      },
+      "characters": [
+        "john-mcclane"
+      ]
+    },
+    {
+      "titleId": "a-good-day-to-die-hard-2013",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2013",
+        "en": "2013"
+      },
+      "characters": [
+        "john-mcclane"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "classic",
+      "type": "curated",
+      "name": {
+        "es": "Las tres clásicas",
+        "en": "The classic three"
+      },
+      "description": {
+        "es": "Las primeras tres, las más queridas.",
+        "en": "The first three, the best loved."
+      },
+      "titleIds": [
+        "die-hard-1988",
+        "die-hard-2-1990",
+        "die-hard-with-a-vengeance-1995"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "john-mcclane",
+      "kind": "character",
+      "name": {
+        "es": "John McClane",
+        "en": "John McClane"
+      },
+      "description": {
+        "es": "El policía de Nueva York, en las cinco películas.",
+        "en": "The New York cop, across all five films."
+      },
+      "titleIds": [
+        "die-hard-1988",
+        "die-hard-2-1990",
+        "die-hard-with-a-vengeance-1995",
+        "live-free-or-die-hard-2007",
+        "a-good-day-to-die-hard-2013"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "john-mcclane",
+        "name": {
+          "es": "John McClane",
+          "en": "John McClane"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

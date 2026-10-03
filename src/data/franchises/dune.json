@@ -1,0 +1,176 @@
+{
+  "id": "dune",
+  "name": {
+    "es": "Dune",
+    "en": "Dune"
+  },
+  "description": {
+    "es": "Arrakis, la especia y los Atreides: la adaptación de Villeneuve, la precuela y la película de Lynch.",
+    "en": "Arrakis, the spice and the Atreides: Villeneuve's adaptation, the prequel and Lynch's film."
+  },
+  "accentColor": "#A16207",
+  "continuities": [
+    {
+      "id": "villeneuve",
+      "name": {
+        "es": "Universo de Villeneuve",
+        "en": "Villeneuve's universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de Denis Villeneuve y la serie precuela, en un mismo mundo.",
+        "en": "Denis Villeneuve's films and the prequel series, in one world."
+      }
+    },
+    {
+      "id": "lynch",
+      "name": {
+        "es": "Dune de Lynch (1984)",
+        "en": "Lynch's Dune (1984)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La adaptación de David Lynch, aparte de las demás.",
+        "en": "David Lynch's adaptation, separate from the rest."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "dune-prophecy-2024",
+      "continuityId": "villeneuve",
+      "importance": "optional",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "10 000 años antes",
+        "en": "10,000 years earlier"
+      }
+    },
+    {
+      "titleId": "dune-2021",
+      "continuityId": "villeneuve",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "paul-atreides"
+      ]
+    },
+    {
+      "titleId": "dune-part-two-2024",
+      "continuityId": "villeneuve",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "paul-atreides"
+      ]
+    },
+    {
+      "titleId": "dune-part-three-2026",
+      "continuityId": "villeneuve",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "paul-atreides"
+      ]
+    },
+    {
+      "titleId": "dune-1984",
+      "continuityId": "lynch",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "paul-atreides"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "villeneuve",
+      "type": "curated",
+      "name": {
+        "es": "Solo Villeneuve",
+        "en": "Villeneuve only"
+      },
+      "description": {
+        "es": "Dune, Dune: Part Two y Dune: Part Three.",
+        "en": "Dune, Dune: Part Two and Dune: Part Three."
+      },
+      "titleIds": [
+        "dune-2021",
+        "dune-part-two-2024",
+        "dune-part-three-2026"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-dune-part-three-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Dune: Part Three",
+        "en": "Get ready for Dune: Part Three"
+      },
+      "description": {
+        "es": "Las dos películas anteriores de Villeneuve.",
+        "en": "Villeneuve's two earlier films."
+      },
+      "titleIds": [
+        "dune-2021",
+        "dune-part-two-2024"
+      ],
+      "targetTitleId": "dune-part-three-2026"
+    },
+    {
+      "id": "prep-dune-part-two-2024",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Dune: Part Two",
+        "en": "Get ready for Dune: Part Two"
+      },
+      "description": {
+        "es": "La primera parte, que termina a mitad de la historia.",
+        "en": "The first part, which ends mid-story."
+      },
+      "titleIds": [
+        "dune-2021"
+      ],
+      "targetTitleId": "dune-part-two-2024"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "paul-atreides",
+        "name": {
+          "es": "Paul Atreides",
+          "en": "Paul Atreides"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

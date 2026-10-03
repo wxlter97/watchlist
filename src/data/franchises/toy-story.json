@@ -1,0 +1,220 @@
+{
+  "id": "toy-story",
+  "name": {
+    "es": "Toy Story",
+    "en": "Toy Story"
+  },
+  "description": {
+    "es": "Woody, Buzz y los juguetes: cinco películas y el spin-off sobre el Buzz de la película.",
+    "en": "Woody, Buzz and the toys: five films and the spin-off about the movie Buzz."
+  },
+  "accentColor": "#CA8A04",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Toy Story",
+        "en": "Toy Story"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas de los juguetes de Andy y de Bonnie.",
+        "en": "The five films of Andy's and Bonnie's toys."
+      }
+    },
+    {
+      "id": "lightyear",
+      "name": {
+        "es": "Lightyear",
+        "en": "Lightyear"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "La película que, en el universo de Toy Story, vio Andy y por la que le regalan el muñeco de Buzz.",
+        "en": "The film that, in the Toy Story universe, Andy saw and that inspired the Buzz toy."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "toy-story-1995",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1995",
+        "en": "1995"
+      },
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-2-1999",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1999",
+        "en": "1999"
+      },
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-3-2010",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      },
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-4-2019",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2019",
+        "en": "2019"
+      },
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-5-2026",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      },
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "lightyear-2022",
+      "continuityId": "lightyear",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "buzz-lightyear"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "classic",
+      "type": "curated",
+      "name": {
+        "es": "Las cuatro clásicas",
+        "en": "The four classics"
+      },
+      "description": {
+        "es": "Toy Story 1 a 4, sin el spin-off.",
+        "en": "Toy Story 1 to 4, without the spin-off."
+      },
+      "titleIds": [
+        "toy-story-1995",
+        "toy-story-2-1999",
+        "toy-story-3-2010",
+        "toy-story-4-2019"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-toy-story-5-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Toy Story 5",
+        "en": "Get ready for Toy Story 5"
+      },
+      "description": {
+        "es": "Las dos últimas películas de Woody y Buzz.",
+        "en": "Woody and Buzz's last two films."
+      },
+      "titleIds": [
+        "toy-story-3-2010",
+        "toy-story-4-2019"
+      ],
+      "targetTitleId": "toy-story-5-2026"
+    },
+    {
+      "id": "woody-y-buzz",
+      "kind": "character",
+      "name": {
+        "es": "Woody y Buzz",
+        "en": "Woody and Buzz"
+      },
+      "description": {
+        "es": "Los dos héroes, en cada película.",
+        "en": "The two heroes, in every film."
+      },
+      "titleIds": [
+        "toy-story-1995",
+        "toy-story-2-1999",
+        "toy-story-3-2010",
+        "toy-story-4-2019",
+        "toy-story-5-2026"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "woody",
+        "name": {
+          "es": "Woody",
+          "en": "Woody"
+        }
+      },
+      {
+        "id": "buzz-lightyear",
+        "name": {
+          "es": "Buzz Lightyear",
+          "en": "Buzz Lightyear"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

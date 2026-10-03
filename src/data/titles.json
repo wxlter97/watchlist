@@ -16360,5 +16360,1865 @@
       }
     },
     "runtimeMin": 148
+  },
+  {
+    "id": "raiders-of-the-lost-ark-1981",
+    "tmdbId": 85,
+    "tmdbType": "movie",
+    "title": "Raiders of the Lost Ark",
+    "kind": "movie",
+    "releaseDate": "1981-06-12",
+    "imdbId": "tt0082971",
+    "posterPath": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+    "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+    "localized": {
+      "en": {
+        "title": "Raiders of the Lost Ark",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime."
+      },
+      "es": {
+        "title": "Los cazadores del arca perdida",
+        "overview": "Año 1936. Indiana Jones es un profesor de arqueología, dispuesto a correr peligrosas aventuras con tal de conseguir valiosas reliquias históricas. Después de una infructuosa misión en Sudamérica, el gobierno estadounidense le encarga la búsqueda del Arca de la Alianza, donde se conservan las Tablas de la Ley que Dios entregó a Moisés. Según la leyenda, quien las posea tendrá un poder absoluto, razón por la cual también la buscan los nazis."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "indiana-jones-and-the-temple-of-doom-1984",
+    "tmdbId": 87,
+    "tmdbType": "movie",
+    "title": "Indiana Jones and the Temple of Doom",
+    "kind": "movie",
+    "releaseDate": "1984-05-23",
+    "imdbId": "tt0087469",
+    "posterPath": "/gpdVNUaa4LhRMLfJOPj1AZdhAZ3.jpg",
+    "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+    "localized": {
+      "en": {
+        "title": "Indiana Jones and the Temple of Doom",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace."
+      },
+      "es": {
+        "title": "Indiana Jones 2: El templo de la perdición",
+        "overview": "1935. Shanghai. El intrépido arqueólogo Indiana Jones, tras meterse en jaleos en un local nocturno, consigue escapar junto a una bella cantante y su joven acompañante. Tras un accidentado vuelo, los tres acaban en la India, donde intentarán ayudar a los habitantes de un pequeño poblado, cuyos niños han sido raptados."
+      }
+    },
+    "runtimeMin": 118
+  },
+  {
+    "id": "indiana-jones-and-the-last-crusade-1989",
+    "tmdbId": 89,
+    "tmdbType": "movie",
+    "title": "Indiana Jones and the Last Crusade",
+    "kind": "movie",
+    "releaseDate": "1989-05-24",
+    "imdbId": "tt0097576",
+    "posterPath": "/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+    "overview": "In 1938, an art collector appeals to eminent archaeologist Dr. Indiana Jones to embark on a search for the Holy Grail. Indy learns that a medieval historian has vanished while searching for it, and the missing man is his own father, Dr. Henry Jones Sr.. He sets out to rescue his father by following clues in the old man's notebook, which his father had mailed to him before he went missing. Indy arrives in Venice, where he enlists the help of a beautiful academic, Dr. Elsa Schneider, along with Marcus Brody and Sallah. Together they must stop the Nazis from recovering the power of eternal life and taking over the world!",
+    "localized": {
+      "en": {
+        "title": "Indiana Jones and the Last Crusade",
+        "overview": "In 1938, an art collector appeals to eminent archaeologist Dr. Indiana Jones to embark on a search for the Holy Grail. Indy learns that a medieval historian has vanished while searching for it, and the missing man is his own father, Dr. Henry Jones Sr.. He sets out to rescue his father by following clues in the old man's notebook, which his father had mailed to him before he went missing. Indy arrives in Venice, where he enlists the help of a beautiful academic, Dr. Elsa Schneider, along with Marcus Brody and Sallah. Together they must stop the Nazis from recovering the power of eternal life and taking over the world!"
+      },
+      "es": {
+        "title": "Indiana Jones 3: La Última Cruzada",
+        "overview": "En 1938, Indiana Jones es contratado por el empresario estadounidense Walter Donovan para encontrar el Santo Grial. Para su nueva misión, Indiana recibe la ayuda de la doctora Elsa Schneider, poco antes de enterarse de que su padre desapareció sin dejar rastro alguno. Para su sorpresa, Donovan y Elsa están relacionados con los nazis, y han sido ellos quienes han secuestrado al padre de Jones para obtener información acerca de la localización del Grial. Indiana recupera el diario privado de su padre, que contiene valiosa información sobre el cáliz sagrado, y consigue rescatar a este antes de conocer la ubicación de dicho objeto. Tras encontrarlo, Donovan y Elsa se lo arrebatan, en un intento por conseguir la inmortalidad, pero mueren en el acto por razones diferentes. Al final, Indiana y su padre se percatan de que su relación familiar es más importante que la búsqueda de la reliquia, y el Grial termina desapareciendo junto con el templo en el que se hallaba..."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "indiana-jones-and-the-kingdom-of-the-crystal-skull-2008",
+    "tmdbId": 217,
+    "tmdbType": "movie",
+    "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+    "kind": "movie",
+    "releaseDate": "2008-05-21",
+    "imdbId": "tt0367882",
+    "posterPath": "/56As6XEM1flWvprX4LgkPl8ii4K.jpg",
+    "overview": "Set during the Cold War, the Soviets—led by sword-wielding Irina Spalko—are in search of a crystal skull which has supernatural powers related to a mystical Lost City of Gold. Indy is coerced to head to Peru at the behest of a young man whose friend—and Indy's colleague—Professor Oxley has been captured for his knowledge of the skull's whereabouts.",
+    "localized": {
+      "en": {
+        "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+        "overview": "Set during the Cold War, the Soviets—led by sword-wielding Irina Spalko—are in search of a crystal skull which has supernatural powers related to a mystical Lost City of Gold. Indy is coerced to head to Peru at the behest of a young man whose friend—and Indy's colleague—Professor Oxley has been captured for his knowledge of the skull's whereabouts."
+      },
+      "es": {
+        "title": "Indiana Jones 4: El Reino de la Calavera de Cristal",
+        "overview": "Guerra Fría (1957). Indiana Jones y su amigo Mac acaban de escapar de las garras de unos agentes soviéticos en un remoto aeropuerto. El decano de la Universidad le confiesa a su amigo el profesor Jones que las últimas misiones de Indy han fracasado y que está a punto de ser despedido. Mientras tanto, Indiana conoce a Mutt, un joven rebelde que le propone un trato: si le ayuda a resolver un problema personal, él, a cambio, le facilitaría uno de los descubrimientos más espectaculares de la historia: la Calavera de Cristal de Akator, que se encuentra en un lugar remoto del Perú. Pero los agentes soviéticos, dirigidos por la fría y bella Irina Spalko, tienen el mismo objetivo."
+      }
+    },
+    "runtimeMin": 122
+  },
+  {
+    "id": "indiana-jones-and-the-dial-of-destiny-2023",
+    "tmdbId": 335977,
+    "tmdbType": "movie",
+    "title": "Indiana Jones and the Dial of Destiny",
+    "kind": "movie",
+    "releaseDate": "2023-06-25",
+    "imdbId": "tt1462764",
+    "posterPath": "/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+    "overview": "Finding himself in a new era, and approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him. But as the tentacles of an all-too-familiar evil return in the form of an old rival, Indy must don his hat and pick up his whip once more to make sure an ancient and powerful artifact doesn't fall into the wrong hands.",
+    "localized": {
+      "en": {
+        "title": "Indiana Jones and the Dial of Destiny",
+        "overview": "Finding himself in a new era, and approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him. But as the tentacles of an all-too-familiar evil return in the form of an old rival, Indy must don his hat and pick up his whip once more to make sure an ancient and powerful artifact doesn't fall into the wrong hands."
+      },
+      "es": {
+        "title": "Indiana Jones y el dial del destino",
+        "overview": "El arqueólogo Indiana Jones deberá emprender otra aventura contra el tiempo para intentar recuperar un dial legendario que puede cambiar el curso de la historia. Acompañado por su ahijada, Jones pronto se encuentra enfrentándose a Jürgen Voller, un ex nazi que trabaja para la NASA."
+      }
+    },
+    "runtimeMin": 155
+  },
+  {
+    "id": "planet-of-the-apes-1968",
+    "tmdbId": 871,
+    "tmdbType": "movie",
+    "title": "Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "1968-02-07",
+    "imdbId": "tt0063442",
+    "posterPath": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
+    "overview": "Astronaut Taylor crash lands on a distant planet ruled by apes who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+    "localized": {
+      "en": {
+        "title": "Planet of the Apes",
+        "overview": "Astronaut Taylor crash lands on a distant planet ruled by apes who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist."
+      },
+      "es": {
+        "title": "El planeta de los simios",
+        "overview": "Una tripulación de astronautas se estrelló en un planeta en un futuro lejano donde los simios parlantes inteligentes son la especie dominante, y los humanos son los oprimidos y esclavos."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "beneath-the-planet-of-the-apes-1970",
+    "tmdbId": 1685,
+    "tmdbType": "movie",
+    "title": "Beneath the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "1970-04-23",
+    "imdbId": "tt0065462",
+    "posterPath": "/szHCeYwi4ubewuYnlnz0YGqWnQC.jpg",
+    "overview": "The sole survivor of an interplanetary rescue mission lands on the planet of the apes, and uncovers a horrible secret beneath the surface.",
+    "localized": {
+      "en": {
+        "title": "Beneath the Planet of the Apes",
+        "overview": "The sole survivor of an interplanetary rescue mission lands on the planet of the apes, and uncovers a horrible secret beneath the surface."
+      },
+      "es": {
+        "title": "Bajo el planeta de los simios",
+        "overview": "El único sobreviviente de una misión de rescate interplanetario busca al único sobreviviente de la expedición anterior. Descubre un planeta gobernado por simios y una ciudad subterránea dirigida por humanos telepáticos."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "escape-from-the-planet-of-the-apes-1971",
+    "tmdbId": 1687,
+    "tmdbType": "movie",
+    "title": "Escape from the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "1971-05-20",
+    "imdbId": "tt0067065",
+    "posterPath": "/vqD7qjBRizY7sPVIHbFRUZwgEXL.jpg",
+    "overview": "The world is shocked by the appearance of three talking chimpanzees, who arrived mysteriously in a spacecraft. Intrigued by their intelligence, humans use them for research - until the apes attempt to escape.",
+    "localized": {
+      "en": {
+        "title": "Escape from the Planet of the Apes",
+        "overview": "The world is shocked by the appearance of three talking chimpanzees, who arrived mysteriously in a spacecraft. Intrigued by their intelligence, humans use them for research - until the apes attempt to escape."
+      },
+      "es": {
+        "title": "Escape del planeta de los simios",
+        "overview": "El mundo está conmocionado por la aparición de tres chimpancés parlantes que llegaron misteriosamente en una nave espacial estadounidense. Se convierten en el brindis de la sociedad, pero un hombre cree que son una amenaza para la raza humana."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "conquest-of-the-planet-of-the-apes-1972",
+    "tmdbId": 1688,
+    "tmdbType": "movie",
+    "title": "Conquest of the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "1972-06-29",
+    "imdbId": "tt0068408",
+    "posterPath": "/tzKZRY2opw5MruSkevffgT5ocun.jpg",
+    "overview": "In a futuristic world that has embraced ape slavery, a chimpanzee named Caesar resurfaces after almost twenty years of hiding from the authorities, and prepares for a revolt against humanity.",
+    "localized": {
+      "en": {
+        "title": "Conquest of the Planet of the Apes",
+        "overview": "In a futuristic world that has embraced ape slavery, a chimpanzee named Caesar resurfaces after almost twenty years of hiding from the authorities, and prepares for a revolt against humanity."
+      },
+      "es": {
+        "title": "La conquista del planeta de los simios",
+        "overview": "En un mundo futurista que ha abrazado la esclavitud de los simios, César, el hijo de los difuntos simios Cornelius y Zira, sale a la superficie después de casi veinte años de esconderse de las autoridades, y se prepara para una revuelta de esclavos contra la humanidad."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "battle-for-the-planet-of-the-apes-1973",
+    "tmdbId": 1705,
+    "tmdbType": "movie",
+    "title": "Battle for the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "1973-06-15",
+    "imdbId": "tt0069768",
+    "posterPath": "/dP5dYjLp5p2CG103cJMio4Nj29d.jpg",
+    "overview": "The fifth and final episode in the Planet of the Apes series. After the collapse of human civilization, a community of intelligent apes led by Caesar lives in harmony with a group of humans. Gorilla General Aldo tries to cause an ape civil war and a community of human mutants who live beneath a destroyed city try to conquer those whom they perceive as enemies. All leading to the finale.",
+    "localized": {
+      "en": {
+        "title": "Battle for the Planet of the Apes",
+        "overview": "The fifth and final episode in the Planet of the Apes series. After the collapse of human civilization, a community of intelligent apes led by Caesar lives in harmony with a group of humans. Gorilla General Aldo tries to cause an ape civil war and a community of human mutants who live beneath a destroyed city try to conquer those whom they perceive as enemies. All leading to the finale."
+      },
+      "es": {
+        "title": "La batalla por el planeta de los simios",
+        "overview": "Diez años después de una serie mundial de revoluciones de simios y una brutal guerra nuclear entre humanos, César debe proteger a los sobrevivientes de ambas especies de un insidioso culto humano y de una facción de simios militantes por igual."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "planet-of-the-apes-2001",
+    "tmdbId": 869,
+    "tmdbType": "movie",
+    "title": "Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "2001-07-26",
+    "imdbId": "tt0133152",
+    "posterPath": "/3ZWsuP5rExMSji7erxnb1P5SK6F.jpg",
+    "overview": "After a spectacular crash-landing on an uncharted planet, brash astronaut Leo Davidson finds himself trapped in a savage world where talking apes dominate the human race. Desperate to find a way home, Leo must evade the invincible gorilla army led by Ruthless General Thade.",
+    "localized": {
+      "en": {
+        "title": "Planet of the Apes",
+        "overview": "After a spectacular crash-landing on an uncharted planet, brash astronaut Leo Davidson finds himself trapped in a savage world where talking apes dominate the human race. Desperate to find a way home, Leo must evade the invincible gorilla army led by Ruthless General Thade."
+      },
+      "es": {
+        "title": "El Planeta De Los Simios",
+        "overview": "Luego de un espectacular aterrizaje forzoso en un planeta inexplorado, el intrépido astronauta Leo Davidson se encuentra atrapado en un mundo salvaje donde los monos parlantes dominan a la raza humana. Desesperado por encontrar un camino a casa, Leo debe evadir al invencible ejército de gorilas liderado por el despiadado general Thade."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "rise-of-the-planet-of-the-apes-2011",
+    "tmdbId": 61791,
+    "tmdbType": "movie",
+    "title": "Rise of the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "2011-08-03",
+    "imdbId": "tt1318514",
+    "posterPath": "/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg",
+    "overview": "A highly intelligent chimpanzee named Caesar has been living a peaceful suburban life ever since he was born. But when he gets taken to a cruel primate facility, Caesar decides to revolt against those who have harmed him.",
+    "localized": {
+      "en": {
+        "title": "Rise of the Planet of the Apes",
+        "overview": "A highly intelligent chimpanzee named Caesar has been living a peaceful suburban life ever since he was born. But when he gets taken to a cruel primate facility, Caesar decides to revolt against those who have harmed him."
+      },
+      "es": {
+        "title": "El planeta de los simios: (R)evolución",
+        "overview": "Will Rodman es un joven científico que está investigando con monos para obtener un tratamiento contra el alzheimer, una enfermedad que afecta a su padre. Uno de esos primates, al que llaman César, experimenta una evolución en su inteligencia tan notable que el protagonista decide llevárselo a su casa para protegerlo. Le ayudará una bella primatóloga llamada Caroline."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "dawn-of-the-planet-of-the-apes-2014",
+    "tmdbId": 119450,
+    "tmdbType": "movie",
+    "title": "Dawn of the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "2014-07-08",
+    "imdbId": "tt2103281",
+    "posterPath": "/mSmAc9G25fhOHH45SLEeagR0qi7.jpg",
+    "overview": "A group of scientists in San Francisco struggle to stay alive in the aftermath of a plague that is wiping out humanity, while Caesar tries to maintain dominance over his community of intelligent apes.",
+    "localized": {
+      "en": {
+        "title": "Dawn of the Planet of the Apes",
+        "overview": "A group of scientists in San Francisco struggle to stay alive in the aftermath of a plague that is wiping out humanity, while Caesar tries to maintain dominance over his community of intelligent apes."
+      },
+      "es": {
+        "title": "El planeta de los simios: Confrontación",
+        "overview": "Un grupo de sobrevivientes en San Francisco luchan por mantenerse vivos después de una plaga que está limpiando a la humanidad, mientras que César trata de mantener el dominio sobre su comunidad de monos inteligentes."
+      }
+    },
+    "runtimeMin": 130
+  },
+  {
+    "id": "war-for-the-planet-of-the-apes-2017",
+    "tmdbId": 281338,
+    "tmdbType": "movie",
+    "title": "War for the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "2017-07-11",
+    "imdbId": "tt3450958",
+    "posterPath": "/3vYhLLxrTtZLysXtIWktmd57Snv.jpg",
+    "overview": "Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet.",
+    "localized": {
+      "en": {
+        "title": "War for the Planet of the Apes",
+        "overview": "Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet."
+      },
+      "es": {
+        "title": "El Planeta de Los Simios 3: La Guerra",
+        "overview": "Después de que los simios sufren pérdidas inimaginables, César lucha con sus oscuros instintos y comienza su propia búsqueda mítica para vengar a los de su especie."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
+    "id": "kingdom-of-the-planet-of-the-apes-2024",
+    "tmdbId": 653346,
+    "tmdbType": "movie",
+    "title": "Kingdom of the Planet of the Apes",
+    "kind": "movie",
+    "releaseDate": "2024-05-08",
+    "imdbId": "tt11389872",
+    "posterPath": "/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
+    "overview": "Several generations following Caesar's reign, apes – now the dominant species – live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all he's known about the past and to make choices that will define a future for apes and humans alike.",
+    "localized": {
+      "en": {
+        "title": "Kingdom of the Planet of the Apes",
+        "overview": "Several generations following Caesar's reign, apes – now the dominant species – live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all he's known about the past and to make choices that will define a future for apes and humans alike."
+      },
+      "es": {
+        "title": "El planeta de los simios: Nuevo reino",
+        "overview": "300 años después del reinado de César, un nuevo líder tiránico construye su imperio esclavizando a otros clanes de primates, un joven simio llamado Noa emprende un viaje desgarrador que lo hará cuestionar todo lo que sabía sobre el pasado y tomar decisiones que definirán el futuro tanto de simios como humanos."
+      }
+    },
+    "runtimeMin": 145
+  },
+  {
+    "id": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+    "tmdbId": 22,
+    "tmdbType": "movie",
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "kind": "movie",
+    "releaseDate": "2003-07-09",
+    "imdbId": "tt0325980",
+    "posterPath": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg",
+    "overview": "When wily pirate Captain Barbossa seizes Jack Sparrow’s beloved ship, the Black Pearl, and kidnaps the governor’s daughter, Elizabeth Swann, blacksmith Will Turner reluctantly teams up with the unpredictable pirate Jack to rescue her—only to uncover a terrifying curse that turns Barbossa’s crew into the undead.",
+    "localized": {
+      "en": {
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "overview": "When wily pirate Captain Barbossa seizes Jack Sparrow’s beloved ship, the Black Pearl, and kidnaps the governor’s daughter, Elizabeth Swann, blacksmith Will Turner reluctantly teams up with the unpredictable pirate Jack to rescue her—only to uncover a terrifying curse that turns Barbossa’s crew into the undead."
+      },
+      "es": {
+        "title": "Piratas del Caribe: La Maldición del Perla Negra",
+        "overview": "Cuando el astuto pirata Capitán Barbossa se apodera del amado barco de Jack Sparrow, la Perla Negra, y secuestra a la hija del gobernador, Elizabeth Swann, el herrero Will Turner se une a regañadientes al impredecible pirata Jack para rescatarla, solo para descubrir una aterradora maldición que convierte a la tripulación de Barbossa en muertos vivientes."
+      }
+    },
+    "runtimeMin": 143
+  },
+  {
+    "id": "pirates-of-the-caribbean-dead-mans-chest-2006",
+    "tmdbId": 58,
+    "tmdbType": "movie",
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "kind": "movie",
+    "releaseDate": "2006-07-06",
+    "imdbId": "tt0383574",
+    "posterPath": "/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg",
+    "overview": "Captain Jack Sparrow’s got a blood debt to pay: he owes his soul to the legendary Davy Jones, ghastly Ruler of the Ocean Depths. To escape eternal servitude aboard the Flying Dutchman, ever-crafty Jack must track down the still-beating heart of Jones. But he won’t do it alone: Will Turner and Elizabeth Swann are drawn back into another one of his perilous quests—assuming they can evade execution for aiding a pirate.",
+    "localized": {
+      "en": {
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "overview": "Captain Jack Sparrow’s got a blood debt to pay: he owes his soul to the legendary Davy Jones, ghastly Ruler of the Ocean Depths. To escape eternal servitude aboard the Flying Dutchman, ever-crafty Jack must track down the still-beating heart of Jones. But he won’t do it alone: Will Turner and Elizabeth Swann are drawn back into another one of his perilous quests—assuming they can evade execution for aiding a pirate."
+      },
+      "es": {
+        "title": "Piratas del Caribe 2: El Cofre de la Muerte",
+        "overview": "El capitán Jack Sparrow tiene una deuda de sangre que saldar: le debe su alma al legendario Davy Jones, el temible gobernante de las profundidades oceánicas. Para escapar de la servidumbre eterna a bordo del Holandés Errante, el astuto Jack debe encontrar el corazón aún palpitante de Jones. Pero no lo hará solo: Will Turner y Elizabeth Swann se ven envueltos de nuevo en otra de sus peligrosas misiones, siempre y cuando logren evitar la ejecución por ayudar a un pirata."
+      }
+    },
+    "runtimeMin": 151
+  },
+  {
+    "id": "pirates-of-the-caribbean-at-worlds-end-2007",
+    "tmdbId": 285,
+    "tmdbType": "movie",
+    "title": "Pirates of the Caribbean: At World's End",
+    "kind": "movie",
+    "releaseDate": "2007-05-19",
+    "imdbId": "tt0449088",
+    "posterPath": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
+    "overview": "After losing Captain Jack Sparrow to the locker of Davy Jones, Will Turner, Elizabeth Swann, and Captain Barbossa journey to the ends of the earth to rescue him. And as the East India Trading Company tightens its grip on the seas under Lord Cutler Beckett—now in control of Davy Jones—the fate of piracy hangs by a thread. Now, they must unite the pirate lords for one final stand. But as loyalties are tested and alliances shift, each must ultimately choose where they stand in the battle for freedom on the high seas.",
+    "localized": {
+      "en": {
+        "title": "Pirates of the Caribbean: At World's End",
+        "overview": "After losing Captain Jack Sparrow to the locker of Davy Jones, Will Turner, Elizabeth Swann, and Captain Barbossa journey to the ends of the earth to rescue him. And as the East India Trading Company tightens its grip on the seas under Lord Cutler Beckett—now in control of Davy Jones—the fate of piracy hangs by a thread. Now, they must unite the pirate lords for one final stand. But as loyalties are tested and alliances shift, each must ultimately choose where they stand in the battle for freedom on the high seas."
+      },
+      "es": {
+        "title": "Piratas del Caribe 3: En el Fin del Mundo",
+        "overview": "Tras la muerte del capitán Jack Sparrow en el fondo del mar a manos de Davy Jones, Will Turner, Elizabeth Swann y el capitán Barbossa emprenden un viaje a los confines de la tierra para rescatarlo. Mientras la Compañía Británica de las Indias Orientales afianza su dominio sobre los mares bajo el mando de Lord Cutler Beckett —ahora al mando de Davy Jones—, el destino de la piratería pende de un hilo. Ahora, deben unir a los señores piratas para una última batalla. Pero a medida que las lealtades se ponen a prueba y las alianzas cambian, cada uno deberá decidir su posición en la lucha por la libertad en alta mar."
+      }
+    },
+    "runtimeMin": 169
+  },
+  {
+    "id": "pirates-of-the-caribbean-on-stranger-tides-2011",
+    "tmdbId": 1865,
+    "tmdbType": "movie",
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "kind": "movie",
+    "releaseDate": "2011-05-15",
+    "imdbId": "tt1298650",
+    "posterPath": "/keGfSvCmYj7CvdRx36OdVrAEibE.jpg",
+    "overview": "When Jack crosses paths with a woman from his past, he's not sure if it's love...or if she's a ruthless con artist using him to find the fabled Fountain of Youth.",
+    "localized": {
+      "en": {
+        "title": "Pirates of the Caribbean: On Stranger Tides",
+        "overview": "When Jack crosses paths with a woman from his past, he's not sure if it's love...or if she's a ruthless con artist using him to find the fabled Fountain of Youth."
+      },
+      "es": {
+        "title": "Piratas del Caribe 4: Navegando Aguas Misteriosas",
+        "overview": "Cuando Jack se cruza con una mujer de su pasado, no está seguro de si es amor... o si se trata de una estafadora despiadada que lo está utilizando para encontrar la legendaria Fuente de la Juventud."
+      }
+    },
+    "runtimeMin": 136
+  },
+  {
+    "id": "pirates-of-the-caribbean-dead-men-tell-no-tales-2017",
+    "tmdbId": 166426,
+    "tmdbType": "movie",
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "kind": "movie",
+    "releaseDate": "2017-05-23",
+    "imdbId": "tt1790809",
+    "posterPath": "/6lAPOAFYFWIO3SQRemEY2wInQMC.jpg",
+    "overview": "Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar, escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon, but to find it, he must forge an uneasy alliance with a brilliant and beautiful astronomer and a headstrong young man in the British navy.",
+    "localized": {
+      "en": {
+        "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+        "overview": "Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar, escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon, but to find it, he must forge an uneasy alliance with a brilliant and beautiful astronomer and a headstrong young man in the British navy."
+      },
+      "es": {
+        "title": "Piratas del Caribe 5: La Venganza de Salazar",
+        "overview": "Inmerso en una nueva aventura, el desafortunado Capitán Jack Sparrow siente que la mala suerte se cierne sobre él con más fuerza cuando unos letales marineros fantasma, liderados por su antiguo némesis, el malvado Capitán Salazar, escapan del Triángulo de las Bermudas. La única esperanza de supervivencia de Jack reside en encontrar el legendario Tridente de Poseidón, pero para hallarlo, deberá forjar una alianza incómoda con una brillante y hermosa astrónoma y un joven testarudo de la marina británica."
+      }
+    },
+    "runtimeMin": 129
+  },
+  {
+    "id": "the-hunger-games-2012",
+    "tmdbId": 70160,
+    "tmdbType": "movie",
+    "title": "The Hunger Games",
+    "kind": "movie",
+    "releaseDate": "2012-03-12",
+    "imdbId": "tt1392170",
+    "posterPath": "/apa5G43Hha7kH7wJG0gkkHT7FA9.jpg",
+    "overview": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a struggle of survival and defiance.",
+    "localized": {
+      "en": {
+        "title": "The Hunger Games",
+        "overview": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a struggle of survival and defiance."
+      },
+      "es": {
+        "title": "Los juegos del hambre",
+        "overview": "Lo que en el pasado fueron los Estados Unidos, ahora es una nación llamada Panem: un fastuoso Capitolio ejerce un control riguroso sobre los doce distritos que lo rodean y que están aislados entre sí. Cada distrito se ve obligado a enviar anualmente un chico y una chica entre los doce y los dieciocho años para que participen en los Hunger Games, que son transmitidos en directo por la televisión. Se trata de una lucha a muerte, en la que sólo puede haber un superviviente. Katniss Everdeen, una joven de dieciséis años, decide sustituir a su hermana en los juegos; pero para ella, que ya ha visto la muerte de cerca, la lucha por la supervivencia es su segunda naturaleza."
+      }
+    },
+    "runtimeMin": 142
+  },
+  {
+    "id": "the-hunger-games-catching-fire-2013",
+    "tmdbId": 101299,
+    "tmdbType": "movie",
+    "title": "The Hunger Games: Catching Fire",
+    "kind": "movie",
+    "releaseDate": "2013-11-15",
+    "imdbId": "tt1951264",
+    "posterPath": "/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+    "overview": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
+    "localized": {
+      "en": {
+        "title": "The Hunger Games: Catching Fire",
+        "overview": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever."
+      },
+      "es": {
+        "title": "Los juegos del hambre: En llamas",
+        "overview": "Cuando Katniss Everdeen regresa sana y salva a casa tras ganar la 74ª edición anual de los Juegos del Hambre, junto a su compañero tributo Peeta Mellark. Ganar significa tener que dejar atrás a su familia y amigos, para emprender una \"Gira de la Victoria\" por los diferentes distritos. Por el camino, Katniss se da cuenta de que está comenzando a gestarse una rebelión, pero el Capitolio sigue manteniéndolo todo perfectamente bajo control, mientras el presidente Snow prepara la 75ª edición anual de los Juegos del Hambre (El Vasallaje de los Veinticinco), una competición que podría cambiar Panem para siempre..."
+      }
+    },
+    "runtimeMin": 146
+  },
+  {
+    "id": "the-hunger-games-mockingjay-part-1-2014",
+    "tmdbId": 131631,
+    "tmdbType": "movie",
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "kind": "movie",
+    "releaseDate": "2014-11-19",
+    "imdbId": "tt1951265",
+    "posterPath": "/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
+    "overview": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol of resistance, she must navigate fragile alliances while trying to protect those she loves. As propaganda battles rage and Panem moves closer to full-scale war, Katniss is forced to confront the true cost of revolution.",
+    "localized": {
+      "en": {
+        "title": "The Hunger Games: Mockingjay - Part 1",
+        "overview": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol of resistance, she must navigate fragile alliances while trying to protect those she loves. As propaganda battles rage and Panem moves closer to full-scale war, Katniss is forced to confront the true cost of revolution."
+      },
+      "es": {
+        "title": "Los juegos del hambre: Sinsajo - Parte 1",
+        "overview": "Katniss Everdeen (Jennifer Lawrence) en el Distrito 13 tras, literalmente, destrozar los juegos para siempre. Bajo el liderazgo de la Presidenta Coin (Julianne Moore) y contando con las advertencias de los amigos en quien confía, Katniss expande sus alas al tiempo que lucha por salvar a Peeta (Josh Hutcherson) y a una nación conmovida por su coraje..."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "the-hunger-games-mockingjay-part-2-2015",
+    "tmdbId": 131634,
+    "tmdbType": "movie",
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "kind": "movie",
+    "releaseDate": "2015-11-18",
+    "imdbId": "tt1951266",
+    "posterPath": "/lImKHDfExAulp16grYm8zD5eONE.jpg",
+    "overview": "As the war between the Capitol and the districts reaches its peak, Katniss Everdeen embarks on a perilous mission to liberate Panem and confront President Snow. Joined by a team of trusted allies, she navigates deadly traps, shifting loyalties, and the heavy cost of rebellion, determined to bring freedom to her people and end the Hunger Games once and for all.",
+    "localized": {
+      "en": {
+        "title": "The Hunger Games: Mockingjay - Part 2",
+        "overview": "As the war between the Capitol and the districts reaches its peak, Katniss Everdeen embarks on a perilous mission to liberate Panem and confront President Snow. Joined by a team of trusted allies, she navigates deadly traps, shifting loyalties, and the heavy cost of rebellion, determined to bring freedom to her people and end the Hunger Games once and for all."
+      },
+      "es": {
+        "title": "Los juegos del hambre: Sinsajo - Parte 2",
+        "overview": "Katniss Everdeen (Jennifer Lawrence) se da cuenta de que ya no sólo está en juego su supervivencia, sino también el futuro. Con Panem sumida en una guerra a gran escala, Katniss tendrá que plantar cara al presidente Snow (Donald Sutherland) en el enfrentamiento final. Katniss, acompañada por un grupo de sus mejores amigos, que incluye a Gale (Liam Hemsworth), Finnick (Sam Claflin) y Peeta (Josh Hutcherson), emprende una misión con la unidad del Distrito 13, en la que arriesgan sus vidas para liberar a los ciudadanos de Panem y orquestan un intento de asesinato del presidente Snow, cada vez más obsesionado con destruirla. Las trampas mortales, los enemigos y las decisiones morales que aguardan a Katniss la pondrán en mayores aprietos que ninguna arena de Los Juegos del Hambre."
+      }
+    },
+    "runtimeMin": 137
+  },
+  {
+    "id": "the-hunger-games-the-ballad-of-songbirds-and-snakes-2023",
+    "tmdbId": 695721,
+    "tmdbType": "movie",
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "kind": "movie",
+    "releaseDate": "2023-11-15",
+    "imdbId": "tt10545296",
+    "posterPath": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+    "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+    "localized": {
+      "en": {
+        "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+        "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12."
+      },
+      "es": {
+        "title": "Los juegos del hambre: La balada de pájaros cantores y serpientes",
+        "overview": "Años antes de convertirse en el tiránico Presidente de Panem, el Coriolanus Snow de 18 años es la última esperanza de su desvaneciente linaje, la una vez orgullosa familia que había caído en desgracia en un Capitolio post-guerra. Con los décimos Juegos del Hambre aproximándose rápidamente, el joven Snow se sorprende cuando es asignado como mentor de Lucy Gray Baird, la niña tributo del empobrecido Distrito 12. Pero luego de que Lucy Gray consigue toda la atención de Panem al cantar desafiante durante la ceremonia de la cosecha, Snow piensa que podría dar vuelta su suerte. Uniendo sus instintos de espectáculo y de encontrada astucia política, la carrera de Snow y Lucy Gray para sobrevivir revelerá quién es un pájaro cantor, y quién es una víbora."
+      }
+    },
+    "runtimeMin": 157
+  },
+  {
+    "id": "the-hunger-games-sunrise-on-the-reaping-2026",
+    "tmdbId": 1300968,
+    "tmdbType": "movie",
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "kind": "movie",
+    "releaseDate": "2026-11-18",
+    "imdbId": "tt32558705",
+    "posterPath": "/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+    "localized": {
+      "en": {
+        "title": "The Hunger Games: Sunrise on the Reaping",
+        "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell."
+      },
+      "es": {
+        "title": "Los Juegos del Hambre: Amanecer en la cosecha",
+        "overview": "Ambientada décadas antes de los eventos liderados por Katniss y Peeta, la historia sigue a Haymitch Abernathy, el enigmático ganador del 50° Torneo de Los juegos del hambre, en una versión más brutal y decisiva de la competencia. La película también mostrará la primera aparición televisiva de Caesar Flickerman, cuya cobertura transformará para siempre la forma en que Panem vive los Juegos."
+      }
+    },
+    "runtimeMin": 150
+  },
+  {
+    "id": "mad-max-1979",
+    "tmdbId": 9659,
+    "tmdbType": "movie",
+    "title": "Mad Max",
+    "kind": "movie",
+    "releaseDate": "1979-04-12",
+    "imdbId": "tt0079501",
+    "posterPath": "/5LrI4GiCSrChgkdskVZiwv643Kg.jpg",
+    "overview": "In the ravaged near-future, a savage motorcycle gang rules the road. Terrorizing innocent civilians while tearing up the streets, the ruthless gang laughs in the face of a police force hell-bent on stopping them.",
+    "localized": {
+      "en": {
+        "title": "Mad Max",
+        "overview": "In the ravaged near-future, a savage motorcycle gang rules the road. Terrorizing innocent civilians while tearing up the streets, the ruthless gang laughs in the face of a police force hell-bent on stopping them."
+      },
+      "es": {
+        "title": "Mad Max: Salvajes de Autopista",
+        "overview": "En un futuro posnuclear, Max Rockatansky, un policía encargado de la vigilancia de una autopista, tendrá que vérselas con unos criminales que actúan como vándalos, sembrando el pánico por las carreteras. Cuando, durante una persecución, Max acaba con Nightrider, el líder del violento grupo, el resto de la banda jura vengar su muerte."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "mad-max-2-1981",
+    "tmdbId": 8810,
+    "tmdbType": "movie",
+    "title": "Mad Max 2",
+    "kind": "movie",
+    "releaseDate": "1981-12-24",
+    "imdbId": "tt0082694",
+    "posterPath": "/l1KVEhkGDpWRzQ0VqIhZqDDuOim.jpg",
+    "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+    "localized": {
+      "en": {
+        "title": "Mad Max 2",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape."
+      },
+      "es": {
+        "title": "Mad Max 2: El Guerrero de la Carretera",
+        "overview": "Tras el holocausto nuclear, la gasolina se ha convertido en un bien escaso y muy codiciado. Mad Max, héroe solitario, inicia una lucha sin cuartel para ayudar a una colonia de supervivientes constantemente atacada por un grupo de violentos guerreros que intenta arrebatarle un tanque de gasolina. Max decide ayudar a los defensores del tanque."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "mad-max-beyond-thunderdome-1985",
+    "tmdbId": 9355,
+    "tmdbType": "movie",
+    "title": "Mad Max Beyond Thunderdome",
+    "kind": "movie",
+    "releaseDate": "1985-06-29",
+    "imdbId": "tt0089530",
+    "posterPath": "/jJlxcEVVUHnrUeEkQ0077VeHQpb.jpg",
+    "overview": "Mad Max becomes a pawn in a decadent oasis of a technological society, and when exiled, becomes the deliverer of a colony of children.",
+    "localized": {
+      "en": {
+        "title": "Mad Max Beyond Thunderdome",
+        "overview": "Mad Max becomes a pawn in a decadent oasis of a technological society, and when exiled, becomes the deliverer of a colony of children."
+      },
+      "es": {
+        "title": "Mad Max 3: Más Allá de la Cúpula del Trueno",
+        "overview": "Tras la catástrofe nuclear, Mad Max cruza un desierto donde pierde su caravana de camellos. Llega a una ciudad donde le proponen cambiárselos a cambio de que ataque al tirano de la ciudad subterránea, un enano que fabrica gas metano con excrementos de cerdo."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "mad-max-fury-road-2015",
+    "tmdbId": 76341,
+    "tmdbType": "movie",
+    "title": "Mad Max: Fury Road",
+    "kind": "movie",
+    "releaseDate": "2015-05-13",
+    "imdbId": "tt1392190",
+    "posterPath": "/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+    "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+    "localized": {
+      "en": {
+        "title": "Mad Max: Fury Road",
+        "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order."
+      },
+      "es": {
+        "title": "Mad Max: Furia en el camino",
+        "overview": "Perseguido por su turbulento pasado, Mad Max cree que la mejor forma de sobrevivir es ir solo por el mundo. Sin embargo, se ve arrastrado a formar parte de un grupo que huye a través del desierto en un War Rig conducido por una Emperatriz de élite: Furiosa. Escapan de una Ciudadela tiranizada por Immortan Joe, a quien han arrebatado algo irreemplazable. Enfurecido, el Señor de la Guerra moviliza a todas sus bandas y persigue implacablemente a los rebeldes en una \"guerra de la carretera\" de altas revoluciones... Cuarta entrega de la saga post-apocalíptica que resucita la trilogía que a principios de los ochenta protagonizó Mel Gibson."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "furiosa-a-mad-max-saga-2024",
+    "tmdbId": 786892,
+    "tmdbType": "movie",
+    "title": "Furiosa: A Mad Max Saga",
+    "kind": "movie",
+    "releaseDate": "2024-05-22",
+    "imdbId": "tt12037194",
+    "posterPath": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+    "overview": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
+    "localized": {
+      "en": {
+        "title": "Furiosa: A Mad Max Saga",
+        "overview": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home."
+      },
+      "es": {
+        "title": "Furiosa: De la saga Mad Max",
+        "overview": "Mientras el mundo se derrumba, la joven Furiosa es secuestrada del Lugar Verde de Muchas Madres y cae en manos de una Horda de Motociclistas liderada por el Señor de la Guerra Dementus. Recorriendo la tierra baldía llega a la Ciudadela, presidida por Inmortan Joe. Mientras los dos tiranos luchan por el dominio de la zona, Furiosa deberá sobrevivir a muchas pruebas buscando volver a casa"
+      }
+    },
+    "runtimeMin": 149
+  },
+  {
+    "id": "saw-2004",
+    "tmdbId": 176,
+    "tmdbType": "movie",
+    "title": "Saw",
+    "kind": "movie",
+    "releaseDate": "2004-10-01",
+    "imdbId": "tt0387564",
+    "posterPath": "/rLNSOudrayDBo1uqXjrhxcjODIC.jpg",
+    "overview": "Two men wake up to find themselves shackled in a grimy, abandoned bathroom. As they struggle to comprehend their predicament, they discover a disturbing tape left behind by the sadistic mastermind known as Jigsaw. With a chilling voice and cryptic instructions, Jigsaw informs them that they must partake in a gruesome game in order to secure their freedom.",
+    "localized": {
+      "en": {
+        "title": "Saw",
+        "overview": "Two men wake up to find themselves shackled in a grimy, abandoned bathroom. As they struggle to comprehend their predicament, they discover a disturbing tape left behind by the sadistic mastermind known as Jigsaw. With a chilling voice and cryptic instructions, Jigsaw informs them that they must partake in a gruesome game in order to secure their freedom."
+      },
+      "es": {
+        "title": "Juego macabro",
+        "overview": "Adam se despierta encadenado a un tubo oxidado dentro de una decrépita cámara subterránea. A su lado, hay otra persona encadenada, el Dr. Lawrence Gordon. Entre ellos hay un hombre muerto. Ninguno de los dos sabe por qué está allí, pero tienen un casette con instrucciones para que el Dr. Gordon mate a Adam en un plazo de ocho horas. Recordando una investigación de asesinato llevada a cabo por un detective llamado Tapp, Gordon descubre que él y Adam son victimas de un psicópata conocido como Jigsaw. Sólo disponen de unas horas para desenredar el complicado rompecabezas en el que están inmersos."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "saw-ii-2005",
+    "tmdbId": 215,
+    "tmdbType": "movie",
+    "title": "Saw II",
+    "kind": "movie",
+    "releaseDate": "2005-10-28",
+    "imdbId": "tt0432348",
+    "posterPath": "/gTnaTysN8HsvVQqTRUh8m35mmUA.jpg",
+    "overview": "The chilling and relentless Jigsaw killer returns to terrorize the city once again. When a gruesome murder victim emerges with unmistakable traces of Jigsaw's sinister methods, Detective Eric Matthews is thrust into a high-stakes investigation. To his surprise, apprehending Jigsaw seems almost too easy, but what he doesn't realize is that being caught is merely another piece of Jigsaw's intricate puzzle.",
+    "localized": {
+      "en": {
+        "title": "Saw II",
+        "overview": "The chilling and relentless Jigsaw killer returns to terrorize the city once again. When a gruesome murder victim emerges with unmistakable traces of Jigsaw's sinister methods, Detective Eric Matthews is thrust into a high-stakes investigation. To his surprise, apprehending Jigsaw seems almost too easy, but what he doesn't realize is that being caught is merely another piece of Jigsaw's intricate puzzle."
+      },
+      "es": {
+        "title": "Juego macabro 2",
+        "overview": "Decide rápido… o muere despacio». Cuando aparece una nueva víctima de asesinato con los signos característicos de Jigsaw, el Agente Eric Matthews (Donnie Wahlberg) se embarca en una investigación exhaustiva que le permite detener al asesino sin demasiado esfuerzo. Sin embargo, para Jigsaw ser detenido no es sino otra parte de su retorcido plan. Hay otras ocho víctimas jugándose la vida y ahora le toca a Matthews unirse al juego…"
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "saw-iii-2006",
+    "tmdbId": 214,
+    "tmdbType": "movie",
+    "title": "Saw III",
+    "kind": "movie",
+    "releaseDate": "2006-10-26",
+    "imdbId": "tt0489270",
+    "posterPath": "/4iO9n24Rb10peXV0JH2EldIOrAp.jpg",
+    "overview": "Jigsaw has disappeared. Along with his new apprentice Amanda, the puppet-master behind the cruel, intricate games that have terrified a community and baffled police has once again eluded capture and vanished. While city detectives scramble to locate him, Doctor Lynn Denlon and Jeff Reinhart are unaware that they are about to become the latest pawns on his vicious chessboard.",
+    "localized": {
+      "en": {
+        "title": "Saw III",
+        "overview": "Jigsaw has disappeared. Along with his new apprentice Amanda, the puppet-master behind the cruel, intricate games that have terrified a community and baffled police has once again eluded capture and vanished. While city detectives scramble to locate him, Doctor Lynn Denlon and Jeff Reinhart are unaware that they are about to become the latest pawns on his vicious chessboard."
+      },
+      "es": {
+        "title": "El juego del miedo 3",
+        "overview": "Nuevas y macabras aventuras del siniestro Jigsaw, el hombre que mueve los hilos de los espantosos juegos que han aterrorizado a la comunidad y desconcertado a la policía. Jigsaw, una vez más, ha conseguido escapar, esta vez con la ayuda de su nueva aprendiz, Amanda (Shawnee Smith). Mientras la policía local intenta localizarle, el Doctor Lynn Denlon (Bahar Soomekh) y Jeff (Angus Macfayden) no saben que están a punto de convertirse en los siguientes peones de este horrible juego."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "saw-iv-2007",
+    "tmdbId": 663,
+    "tmdbType": "movie",
+    "title": "Saw IV",
+    "kind": "movie",
+    "releaseDate": "2007-10-25",
+    "imdbId": "tt0890870",
+    "posterPath": "/ku1QdCXOU4ckz3zxLLlis8MIJVm.jpg",
+    "overview": "Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game, which promises to test him to the limit.",
+    "localized": {
+      "en": {
+        "title": "Saw IV",
+        "overview": "Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game, which promises to test him to the limit."
+      },
+      "es": {
+        "title": "El juego del miedo 4",
+        "overview": "Jigsaw y su aprendiz Amanda están muertos. Ahora, luego de hacerse público el asesinato de la detective Kerry, dos agentes del FBI, el Agente Strahn y el Agente Pérez, llegan a la aterrorizada comunidad para ayudar al veterano detective Hoffman a examinar minuciosamente los restos grisáceos que quedaron de Jigsaw, y así resolver el rompecabezas. Sin embargo, cuando el Comandante Rigg, perteneciente a la brigada especial SWAT, es secuestrado y empujado dentro del juego, contará con tan solo noventa minutos para triunfar en una serie de trampas dementes y salvar a un viejo amigo o enfrentar las consecuencias mortales…"
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "saw-v-2008",
+    "tmdbId": 11917,
+    "tmdbType": "movie",
+    "title": "Saw V",
+    "kind": "movie",
+    "releaseDate": "2008-10-23",
+    "imdbId": "tt1132626",
+    "posterPath": "/rKl79KqLXg60KFyKsLe4wSSjQ08.jpg",
+    "overview": "Following Jigsaw's grisly demise, Detective Mark Hoffman is commended as a hero, but Agent Strahm is suspicious, and delves into Hoffman's past. Meanwhile, another group of people are put through a series of gruesome tests.",
+    "localized": {
+      "en": {
+        "title": "Saw V",
+        "overview": "Following Jigsaw's grisly demise, Detective Mark Hoffman is commended as a hero, but Agent Strahm is suspicious, and delves into Hoffman's past. Meanwhile, another group of people are put through a series of gruesome tests."
+      },
+      "es": {
+        "title": "El juego del miedo 5",
+        "overview": "Hoffman (Costas Mandylor) es la última persona viva para heredar el legado de Jigsaw (Tobin Bell). Pero cuando su secreto se ve amenazado, Hoffman debe iniciar la caza para eliminar todos los cabos sueltos. Nueva entrega de la saga dirigida por el diseñador de producción de las tres anteriores."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "saw-vi-2009",
+    "tmdbId": 22804,
+    "tmdbType": "movie",
+    "title": "Saw VI",
+    "kind": "movie",
+    "releaseDate": "2009-10-22",
+    "imdbId": "tt1233227",
+    "posterPath": "/jBr7bBPA4PYPaf4O6nfjYViyRWK.jpg",
+    "overview": "Special Agent Strahm is dead, and Detective Hoffman has emerged as the unchallenged successor to Jigsaw's legacy. However, when the FBI draws closer to Hoffman, he is forced to set a game into motion, and Jigsaw's grand scheme is finally understood.",
+    "localized": {
+      "en": {
+        "title": "Saw VI",
+        "overview": "Special Agent Strahm is dead, and Detective Hoffman has emerged as the unchallenged successor to Jigsaw's legacy. However, when the FBI draws closer to Hoffman, he is forced to set a game into motion, and Jigsaw's grand scheme is finally understood."
+      },
+      "es": {
+        "title": "El juego del miedo 6",
+        "overview": "El Agente Especial Strahm está muerto, y el Detective Hoffman es el sucesor de Jigsaw y su juego macabro. Sin embargo, cuando la Brigada de Investigación Criminal comienza a estrechar el cerco a Hoffman, lo forzarán a poner en marcha el juego complejo de Jigsaw, y por fin a entenderlo por completo… Sexta entrega de la sangrienta saga Saw."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "saw-3d-2010",
+    "tmdbId": 41439,
+    "tmdbType": "movie",
+    "title": "Saw 3D",
+    "kind": "movie",
+    "releaseDate": "2010-10-22",
+    "imdbId": "tt1477076",
+    "posterPath": "/qHCZ6LjtmqWDfXXN28TlIC9OppK.jpg",
+    "overview": "As a deadly battle rages over Jigsaw's brutal legacy, a group of Jigsaw survivors gathers to seek the support of self-help guru and fellow survivor Bobby Dagen, a man whose own dark secrets unleash a new wave of terror.",
+    "localized": {
+      "en": {
+        "title": "Saw 3D",
+        "overview": "As a deadly battle rages over Jigsaw's brutal legacy, a group of Jigsaw survivors gathers to seek the support of self-help guru and fellow survivor Bobby Dagen, a man whose own dark secrets unleash a new wave of terror."
+      },
+      "es": {
+        "title": "El juego del miedo 7",
+        "overview": "Mientras estalla una mortal batalla a causa del legado de Jigsaw, un grupo de supervivientes busca el apoyo de Bobby Dagen, gurú de la auto-ayuda, un hombre con oscuros secretos que desatará una nueva oleada de terror."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "jigsaw-2017",
+    "tmdbId": 298250,
+    "tmdbType": "movie",
+    "title": "Jigsaw",
+    "kind": "movie",
+    "releaseDate": "2017-10-25",
+    "imdbId": "tt3348730",
+    "posterPath": "/7RwHxhdUNS996JPFNB9a7CJtlwR.jpg",
+    "overview": "Law enforcement finds itself chasing the ghost of a man dead for over a decade, embroiled in a diabolical new game that's only just begun.",
+    "localized": {
+      "en": {
+        "title": "Jigsaw",
+        "overview": "Law enforcement finds itself chasing the ghost of a man dead for over a decade, embroiled in a diabolical new game that's only just begun."
+      },
+      "es": {
+        "title": "Jigsaw: El Juego Continúa",
+        "overview": "Jigsaw está de vuelta. En esta ocasión atrapará a cinco personas y las enfrentará en una serie de juegos sangrientos como castigo por sus delitos. Al mismo tiempo tiene lugar una investigación en la que científicos forenses tratan de encontrar y capturar al asesino, con la sospecha de que alguien del equipo puede ser el responsable."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "spiral-from-the-book-of-saw-2021",
+    "tmdbId": 602734,
+    "tmdbType": "movie",
+    "title": "Spiral: From the Book of Saw",
+    "kind": "movie",
+    "releaseDate": "2021-05-12",
+    "imdbId": "tt10342730",
+    "posterPath": "/cTvSDfBuXTZTdRCNduGMANd7VEP.jpg",
+    "overview": "Working in the shadow of an esteemed police veteran, brash Detective Ezekiel “Zeke” Banks and his rookie partner take charge of a grisly investigation into murders that are eerily reminiscent of the city’s gruesome past.  Unwittingly entrapped in a deepening mystery, Zeke finds himself at the center of the killer’s morbid game.",
+    "localized": {
+      "en": {
+        "title": "Spiral: From the Book of Saw",
+        "overview": "Working in the shadow of an esteemed police veteran, brash Detective Ezekiel “Zeke” Banks and his rookie partner take charge of a grisly investigation into murders that are eerily reminiscent of the city’s gruesome past.  Unwittingly entrapped in a deepening mystery, Zeke finds himself at the center of the killer’s morbid game."
+      },
+      "es": {
+        "title": "Espiral: El juego del miedo continúa",
+        "overview": "Un detective y su compañero investigan unos espeluznantes asesinatos que recuerdan inquietantemente al pasado."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "saw-x-2023",
+    "tmdbId": 951491,
+    "tmdbType": "movie",
+    "title": "Saw X",
+    "kind": "movie",
+    "releaseDate": "2023-09-27",
+    "imdbId": "tt21807222",
+    "posterPath": "/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+    "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+    "localized": {
+      "en": {
+        "title": "Saw X",
+        "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps."
+      },
+      "es": {
+        "title": "Saw X: El juego del miedo",
+        "overview": "Entre los acontecimientos de 'Saw' y 'Saw II', un enfermo y desesperado John Kramer viaja a México para someterse a un procedimiento médico arriesgado y experimental con la esperanza de encontrar una cura milagrosa para su cáncer, sólo para descubrir que toda la operación es una estafa para defraudar a los más vulnerables. Ahora con un nuevo propósito, el infame asesino en serie regresa a su trabajo, dándole la vuelta a los estafadores en su forma visceral característica a través de trampas tortuosas, trastornadas e ingeniosas."
+      }
+    },
+    "runtimeMin": 118
+  },
+  {
+    "id": "scream-1996",
+    "tmdbId": 4232,
+    "tmdbType": "movie",
+    "title": "Scream",
+    "kind": "movie",
+    "releaseDate": "1996-12-20",
+    "imdbId": "tt0117571",
+    "posterPath": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+    "overview": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+    "localized": {
+      "en": {
+        "title": "Scream",
+        "overview": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game."
+      },
+      "es": {
+        "title": "Scream: Grita antes de morir",
+        "overview": "Un año después del asesinato de su madre, la adolescente Sidney Prescott es aterrorizada por un asesino enmascarado que la ataca a ella y a sus amigas utilizando películas de terror como parte de un juego mortal."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "scream-2-1997",
+    "tmdbId": 4233,
+    "tmdbType": "movie",
+    "title": "Scream 2",
+    "kind": "movie",
+    "releaseDate": "1997-12-12",
+    "imdbId": "tt0120082",
+    "posterPath": "/dORlVasiaDkJXTqt9bdH7nFNs6C.jpg",
+    "overview": "Two years after the Woodsboro murders, Sidney Prescott acclimates to college life while someone donning the Ghostface costume begins a new string of killings.",
+    "localized": {
+      "en": {
+        "title": "Scream 2",
+        "overview": "Two years after the Woodsboro murders, Sidney Prescott acclimates to college life while someone donning the Ghostface costume begins a new string of killings."
+      },
+      "es": {
+        "title": "Scream 2: Grita y vuelve a Gritar",
+        "overview": "Dos años después de los asesinatos de Woodsboro, Sidney Prescott se adapta a la vida universitaria mientras alguien disfrazado de Ghostface comienza una nueva serie de asesinatos."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "scream-3-2000",
+    "tmdbId": 4234,
+    "tmdbType": "movie",
+    "title": "Scream 3",
+    "kind": "movie",
+    "releaseDate": "2000-02-04",
+    "imdbId": "tt0134084",
+    "posterPath": "/qpH8ToZVlFD1bakL04LkEKodyDI.jpg",
+    "overview": "As bodies begin dropping around the Hollywood set of STAB 3, the third film based on the gruesome Woodsboro killings, Sidney and other survivors are once again terrorized by another Ghostface killer.",
+    "localized": {
+      "en": {
+        "title": "Scream 3",
+        "overview": "As bodies begin dropping around the Hollywood set of STAB 3, the third film based on the gruesome Woodsboro killings, Sidney and other survivors are once again terrorized by another Ghostface killer."
+      },
+      "es": {
+        "title": "Scream 3: La Máscara de la Muerte",
+        "overview": "Mientras los cadáveres comienzan a aparecer en el set de rodaje de STAB 3 en Hollywood, la tercera película basada en los espantosos asesinatos de Woodsboro, Sidney y otros supervivientes vuelven a ser aterrorizados por otro asesino con la cara de Ghostface."
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "scream-4-2011",
+    "tmdbId": 41446,
+    "tmdbType": "movie",
+    "title": "Scream 4",
+    "kind": "movie",
+    "releaseDate": "2011-04-13",
+    "imdbId": "tt1262416",
+    "posterPath": "/3cf8p2qw9qnsaaFWc64AG6U05eT.jpg",
+    "overview": "Fifteen years after the original Woodsboro murders, Sidney Prescott returns home to promote her new book about surviving trauma, only for a new Ghostface killer to emerge, targeting a new group of teens.",
+    "localized": {
+      "en": {
+        "title": "Scream 4",
+        "overview": "Fifteen years after the original Woodsboro murders, Sidney Prescott returns home to promote her new book about surviving trauma, only for a new Ghostface killer to emerge, targeting a new group of teens."
+      },
+      "es": {
+        "title": "Scream 4",
+        "overview": "Quince años después de los asesinatos originales de Woodsboro, Sidney Prescott regresa a casa para promocionar su nuevo libro sobre cómo sobrevivir a un trauma, solo para encontrarse con un nuevo asesino con el apodo de Ghostface, que tiene como objetivo a un nuevo grupo de adolescentes."
+      }
+    },
+    "runtimeMin": 111
+  },
+  {
+    "id": "scream-2022",
+    "tmdbId": 646385,
+    "tmdbType": "movie",
+    "title": "Scream",
+    "kind": "movie",
+    "releaseDate": "2022-01-12",
+    "imdbId": "tt11245972",
+    "posterPath": "/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+    "overview": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+    "localized": {
+      "en": {
+        "title": "Scream",
+        "overview": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past."
+      },
+      "es": {
+        "title": "Scream (Grita)",
+        "overview": "Veinticinco años después de que una racha de asesinatos brutales conmocionara a la tranquila ciudad de Woodsboro, un nuevo asesino imitador se ha puesto la máscara de Ghostface para resucitar secretos mortales del pasado."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "scream-vi-2023",
+    "tmdbId": 934433,
+    "tmdbType": "movie",
+    "title": "Scream VI",
+    "kind": "movie",
+    "releaseDate": "2023-03-08",
+    "imdbId": "tt17663992",
+    "posterPath": "/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
+    "overview": "Following the latest Ghostface killings, the four survivors leave Woodsboro behind and start a fresh chapter.",
+    "localized": {
+      "en": {
+        "title": "Scream VI",
+        "overview": "Following the latest Ghostface killings, the four survivors leave Woodsboro behind and start a fresh chapter."
+      },
+      "es": {
+        "title": "Scream 6",
+        "overview": "A pesar de iniciar una nueva vida en Nueva York, Ghostface continúa acechando nuevos asesinatos. Así que Sam, Tara, Mindy y Chad están dispuestos a no rendirse."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "scream-7-2026",
+    "tmdbId": 1159559,
+    "tmdbType": "movie",
+    "title": "Scream 7",
+    "kind": "movie",
+    "releaseDate": "2026-02-25",
+    "imdbId": "tt27047903",
+    "posterPath": "/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+    "overview": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all.",
+    "localized": {
+      "en": {
+        "title": "Scream 7",
+        "overview": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all."
+      },
+      "es": {
+        "title": "Scream 7",
+        "overview": "La tranquila y rehecha vida Sidney Prescott se cae a pedazos cuando Ghostface llega al pueblo. Sin embargo, sus peores temores se hacen realidad cuando su hija Tatum se convierte en la próxima víctima."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "back-to-the-future-1985",
+    "tmdbId": 105,
+    "tmdbType": "movie",
+    "title": "Back to the Future",
+    "kind": "movie",
+    "releaseDate": "1985-07-03",
+    "imdbId": "tt0088763",
+    "posterPath": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+    "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+    "localized": {
+      "en": {
+        "title": "Back to the Future",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985."
+      },
+      "es": {
+        "title": "Volver al Futuro",
+        "overview": "El adolescente de los ochenta Marty McFly es enviado accidentalmente al pasado, a 1955, interrumpiendo sin darse cuenta el primer encuentro de sus padres y atrayendo el interés romántico de su madre. Marty debe reparar el daño a la historia reavivando el romance de sus padres y, con la ayuda de su excéntrico amigo inventor Doc Brown, regresar a 1985."
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "back-to-the-future-part-ii-1989",
+    "tmdbId": 165,
+    "tmdbType": "movie",
+    "title": "Back to the Future Part II",
+    "kind": "movie",
+    "releaseDate": "1989-11-22",
+    "imdbId": "tt0096874",
+    "posterPath": "/hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+    "overview": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
+    "localized": {
+      "en": {
+        "title": "Back to the Future Part II",
+        "overview": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again."
+      },
+      "es": {
+        "title": "Volver al Futuro 2",
+        "overview": "Aunque a Marty McFly todavía le falta tiempo para asimilar el hecho de estar viviendo dentro de la familia perfecta gracias a su anterior viaje en el tiempo, no le queda ni espacio para respirar cuando su amigo Doc aparece de improviso con la máquina del tiempo (mucho más modernizada), e insta a que le acompañen él y su novia a viajar al futuro para solucionar un problema con la ley que tendrá uno de sus futuros hijos."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "back-to-the-future-part-iii-1990",
+    "tmdbId": 196,
+    "tmdbType": "movie",
+    "title": "Back to the Future Part III",
+    "kind": "movie",
+    "releaseDate": "1990-05-25",
+    "imdbId": "tt0099088",
+    "posterPath": "/crzoVQnMzIrRfHtQw0tLBirNfVg.jpg",
+    "overview": "The final installment finds Marty digging the trusty DeLorean out of a mineshaft and looking for Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+    "localized": {
+      "en": {
+        "title": "Back to the Future Part III",
+        "overview": "The final installment finds Marty digging the trusty DeLorean out of a mineshaft and looking for Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen."
+      },
+      "es": {
+        "title": "Volver al Futuro 3",
+        "overview": "Marty McFly sigue en 1955 y su amigo Doc ha retrocedido al año 1885, la época del salvaje oeste. Éste le envía una carta donde comenta que la máquina del tiempo está averiada, y que es imposible repararla. Sin embargo no le preocupa estar atrapado en el pasado, pues allí es muy feliz trabajando de herrero aunque convive con malhechores. Pero Marty descubre una vieja tumba en la que lee que Doc murió en 1885 y, sin pensárselo dos veces, irá a rescatar a su amigo."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "rocky-1976",
+    "tmdbId": 1366,
+    "tmdbType": "movie",
+    "title": "Rocky",
+    "kind": "movie",
+    "releaseDate": "1976-12-03",
+    "imdbId": "tt0075148",
+    "posterPath": "/xSI0dbKLDETwhiVUy6hGE8KXUln.jpg",
+    "overview": "Rocky Balboa is a Philadelphia club fighter who seems to be going nowhere. But when a stroke of fate puts him in the ring with a world heavyweight champion, Rocky knows that it's his one shot at the big time — a once-in-a-lifetime opportunity to go the distance and come out a winner!",
+    "localized": {
+      "en": {
+        "title": "Rocky",
+        "overview": "Rocky Balboa is a Philadelphia club fighter who seems to be going nowhere. But when a stroke of fate puts him in the ring with a world heavyweight champion, Rocky knows that it's his one shot at the big time — a once-in-a-lifetime opportunity to go the distance and come out a winner!"
+      },
+      "es": {
+        "title": "Rocky",
+        "overview": "Cuando el campeón mundial de boxeo de peso pesado, Apollo Creed quiere darle a un luchador desconocido una oportunidad por el título como un truco publicitario, sus manejadores eligen a Rocky Balboa, un coleccionista sin educación para un prestamista de Filadelfia. Rocky se une con el entrenador Mickey Goldmill para aprovechar al máximo esta vez en un descanso de por vida."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "rocky-ii-1979",
+    "tmdbId": 1367,
+    "tmdbType": "movie",
+    "title": "Rocky II",
+    "kind": "movie",
+    "releaseDate": "1979-06-15",
+    "imdbId": "tt0079817",
+    "posterPath": "/nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+    "overview": "After Rocky goes the distance with champ Apollo Creed, both try to put the fight behind them and move on. Rocky settles down with Adrian but can't put his life together outside the ring, while Creed seeks a rematch to restore his reputation. Soon enough, the \"Master of Disaster\" and the \"Italian Stallion\" are set on a collision course for a climactic battle that is brutal and unforgettable.",
+    "localized": {
+      "en": {
+        "title": "Rocky II",
+        "overview": "After Rocky goes the distance with champ Apollo Creed, both try to put the fight behind them and move on. Rocky settles down with Adrian but can't put his life together outside the ring, while Creed seeks a rematch to restore his reputation. Soon enough, the \"Master of Disaster\" and the \"Italian Stallion\" are set on a collision course for a climactic battle that is brutal and unforgettable."
+      },
+      "es": {
+        "title": "Rocky II",
+        "overview": "Después de que Rocky va la distancia con el campeón Apolo Creed, ambo intento de poner la lucha detrás de ellos y circular. Rocky se instala con Adrian, pero no puede reunir su vida fuera del anillo, mientras Creed busca una revancha para restaurar su reputación. Bastante pronto, el «Maestro del Desastre» y el «Semental italiano» se pone en un camino del enfrentamiento para una batalla culminante que es brutal e inolvidable."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "rocky-iii-1982",
+    "tmdbId": 1371,
+    "tmdbType": "movie",
+    "title": "Rocky III",
+    "kind": "movie",
+    "releaseDate": "1982-05-28",
+    "imdbId": "tt0084602",
+    "posterPath": "/uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+    "overview": "Following Rocky Balboa's intense battle with his most powerful adversary yet – the ferocious Clubber Lang – Rocky joins forces with former rival Apollo Creed in an effort to get back his fighting spirit.",
+    "localized": {
+      "en": {
+        "title": "Rocky III",
+        "overview": "Following Rocky Balboa's intense battle with his most powerful adversary yet – the ferocious Clubber Lang – Rocky joins forces with former rival Apollo Creed in an effort to get back his fighting spirit."
+      },
+      "es": {
+        "title": "Rocky III",
+        "overview": "Ahora el campeón del mundo, Rocky Balboa vive en el lujo y sólo lucha contra opositores que no plantean ninguna amenaza para él en el anillo, hasta que Clubber Lang le desafíe a un encuentro. Después de tomar una palpitación de Lang, el campeón humillado da vuelta al antiguo Credo del rival amargo Apolo para una revancha con Lang."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "rocky-iv-1985",
+    "tmdbId": 1374,
+    "tmdbType": "movie",
+    "title": "Rocky IV",
+    "kind": "movie",
+    "releaseDate": "1985-11-21",
+    "imdbId": "tt0089927",
+    "posterPath": "/2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+    "overview": "Rocky Balboa holds the world heavyweight championship, but a new challenger has stepped forward: Drago, a six-foot-four, 261-pound fighter who has the backing of the Soviet Union. This time, Rocky's training regimen takes him to Siberia, where he prepares for a globally televised match in the heart of Moscow. But nothing can truly prepare him for what he's about to face – a fight to the finish, in which he must defend not only himself, but also the honor of his country!",
+    "localized": {
+      "en": {
+        "title": "Rocky IV",
+        "overview": "Rocky Balboa holds the world heavyweight championship, but a new challenger has stepped forward: Drago, a six-foot-four, 261-pound fighter who has the backing of the Soviet Union. This time, Rocky's training regimen takes him to Siberia, where he prepares for a globally televised match in the heart of Moscow. But nothing can truly prepare him for what he's about to face – a fight to the finish, in which he must defend not only himself, but also the honor of his country!"
+      },
+      "es": {
+        "title": "Rocky IV",
+        "overview": "Nuevas aventuras tanto personales como deportivas del boxeador Rocky Balboa, que en esta ocasión debe enfrentarse a un duro y frío boxeador soviético, llamado Ivan Drago."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "rocky-v-1990",
+    "tmdbId": 1375,
+    "tmdbType": "movie",
+    "title": "Rocky V",
+    "kind": "movie",
+    "releaseDate": "1990-11-16",
+    "imdbId": "tt0100507",
+    "posterPath": "/tevHaVxtrMTaUi8f3YjLWYSSY8A.jpg",
+    "overview": "A lifetime of taking shots has ended Rocky’s career, and a crooked accountant has left him broke. Inspired by the memory of his trainer, however, Rocky finds glory in training and takes on an up-and-coming boxer.",
+    "localized": {
+      "en": {
+        "title": "Rocky V",
+        "overview": "A lifetime of taking shots has ended Rocky’s career, and a crooked accountant has left him broke. Inspired by the memory of his trainer, however, Rocky finds glory in training and takes on an up-and-coming boxer."
+      },
+      "es": {
+        "title": "Rocky V",
+        "overview": "Toda una vida de golpes ha terminado la carrera de Rocky, y un torcido contador lo ha dejado en la ruina. Inspirado por el recuerdo de su entrenador, sin embargo, Rocky encuentra la gloria en el entrenamiento y se enfrenta a un boxeador prometedor."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "rocky-balboa-2006",
+    "tmdbId": 1246,
+    "tmdbType": "movie",
+    "title": "Rocky Balboa",
+    "kind": "movie",
+    "releaseDate": "2006-12-20",
+    "imdbId": "tt0479143",
+    "posterPath": "/byBlJvZwCqgtIwrZNv0pyE974jC.jpg",
+    "overview": "When he loses a highly publicized virtual boxing match to ex-champ Rocky Balboa, reigning heavyweight titleholder Mason Dixon retaliates by challenging the Italian Stallion to a 10-round exhibition bout. To the surprise of his son and friends, Rocky agrees to come out of retirement and face an opponent who's faster, stronger and thirty years his junior. Rocky takes on Dixon in what will become the greatest fight in boxing history!",
+    "localized": {
+      "en": {
+        "title": "Rocky Balboa",
+        "overview": "When he loses a highly publicized virtual boxing match to ex-champ Rocky Balboa, reigning heavyweight titleholder Mason Dixon retaliates by challenging the Italian Stallion to a 10-round exhibition bout. To the surprise of his son and friends, Rocky agrees to come out of retirement and face an opponent who's faster, stronger and thirty years his junior. Rocky takes on Dixon in what will become the greatest fight in boxing history!"
+      },
+      "es": {
+        "title": "Rocky Balboa",
+        "overview": "Cuando pierde un partido de boxeo virtual muy publicitado con el ex campeón Rocky Balboa, actual campeón de los pesos pesados, Mason Dixon toma represalias al desafiar a Rocky a una pelea televisiva de 10 asaltos televisada a nivel nacional. Para sorpresa de su hijo y amigos, Rocky acepta salir de su retiro y enfrentar a un oponente que es más rápido, más fuerte y treinta años menor que él."
+      }
+    },
+    "runtimeMin": 102
+  },
+  {
+    "id": "creed-2015",
+    "tmdbId": 312221,
+    "tmdbType": "movie",
+    "title": "Creed",
+    "kind": "movie",
+    "releaseDate": "2015-11-25",
+    "imdbId": "tt3076658",
+    "posterPath": "/1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
+    "overview": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
+    "localized": {
+      "en": {
+        "title": "Creed",
+        "overview": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed."
+      },
+      "es": {
+        "title": "Creed. Corazón de campeón",
+        "overview": "Adonis Johnson nunca conoció a su padre famoso, el campeón mundial de peso pesado Apollo Creed, quien murió antes de que él naciera. Sin embargo, no se puede negar que el boxeo corre por sus venas; así que Adonis se dirige a Filadelfia, el lugar de la legendaria pelea donde Apollo Creed enfrentó a un rudo advenedizo llamado Rocky Balboa. Una vez en la Ciudad del Amor Fraternal, Adonis rastrea a Rocky y le pide que sea su entrenador."
+      }
+    },
+    "runtimeMin": 133
+  },
+  {
+    "id": "creed-ii-2018",
+    "tmdbId": 480530,
+    "tmdbType": "movie",
+    "title": "Creed II",
+    "kind": "movie",
+    "releaseDate": "2018-11-21",
+    "imdbId": "tt6343314",
+    "posterPath": "/v3QyboWRoA4O9RbcsqH8tJMe8EB.jpg",
+    "overview": "Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life.",
+    "localized": {
+      "en": {
+        "title": "Creed II",
+        "overview": "Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life."
+      },
+      "es": {
+        "title": "Creed 2: Defendiendo el Legado",
+        "overview": "Adonis Creed se debate entre las obligaciones personales y el entrenamiento para su próxima gran pelea, con el desafío de su vida por delante. Enfrentarse a un oponente que tiene vínculos con el pasado de su familia solo intensifica su inminente batalla en el ring. Afortunadamente Rocky Balboa está a su lado a lo largo de todo el camino, y juntos se cuestionarán por lo que vale la pena luchar y descubrirán que nada es más importante que la familia…"
+      }
+    },
+    "runtimeMin": 130
+  },
+  {
+    "id": "creed-iii-2023",
+    "tmdbId": 677179,
+    "tmdbType": "movie",
+    "title": "Creed III",
+    "kind": "movie",
+    "releaseDate": "2023-03-01",
+    "imdbId": "tt11145118",
+    "posterPath": "/cvsXj3I9Q2iyyIo95AecSd1tad7.jpg",
+    "overview": "After dominating the boxing world, Adonis Creed has thrived in his career and family life. When a childhood friend and former boxing prodigy, Damian Anderson, resurfaces after serving a long sentence in prison, he is eager to prove that he deserves his shot in the ring. The face-off between former friends is more than just a fight. To settle the score, Adonis must put his future on the line to battle Damian — a fighter with nothing to lose.",
+    "localized": {
+      "en": {
+        "title": "Creed III",
+        "overview": "After dominating the boxing world, Adonis Creed has thrived in his career and family life. When a childhood friend and former boxing prodigy, Damian Anderson, resurfaces after serving a long sentence in prison, he is eager to prove that he deserves his shot in the ring. The face-off between former friends is more than just a fight. To settle the score, Adonis must put his future on the line to battle Damian — a fighter with nothing to lose."
+      },
+      "es": {
+        "title": "Creed III",
+        "overview": "Adonis Creed ya ha llegado a la cima de su carrera y no tiene nada más que demostrar en el mundo del boxeo. Convertido en un ídolo de este boxeo pasa sus días rodeado de su familia y seres queridos. Sin embargo, todo cambiará cuando regrese un fantasma de su infancia. Su amigo de juventud, Damián, acaba de salir de la cárcel y desea demostrar todo lo que ha aprendido de boxeo estos años. Por ello, querrá enfrentarse en el cuadrilátero con su antiguo amigo.  Adonis Creed tendrá que enfrentarse a este adversario, que no solo quiere quitarle su título de boxeador, sino que desea acabar con él."
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "the-bourne-identity-2002",
+    "tmdbId": 2501,
+    "tmdbType": "movie",
+    "title": "The Bourne Identity",
+    "kind": "movie",
+    "releaseDate": "2002-06-14",
+    "imdbId": "tt0258463",
+    "posterPath": "/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+    "overview": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?",
+    "localized": {
+      "en": {
+        "title": "The Bourne Identity",
+        "overview": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?"
+      },
+      "es": {
+        "title": "Identidad desconocida",
+        "overview": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "the-bourne-supremacy-2004",
+    "tmdbId": 2502,
+    "tmdbType": "movie",
+    "title": "The Bourne Supremacy",
+    "kind": "movie",
+    "releaseDate": "2004-07-23",
+    "imdbId": "tt0372183",
+    "posterPath": "/jupG9sFT64YwM8PSkwkUD2wHcYD.jpg",
+    "overview": "A CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced to once again take up his life as a trained assassin to survive.",
+    "localized": {
+      "en": {
+        "title": "The Bourne Supremacy",
+        "overview": "A CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced to once again take up his life as a trained assassin to survive."
+      },
+      "es": {
+        "title": "La supremacía Bourne",
+        "overview": "Cuando Jason Bourne es incriminado en una operación de la CIA que salió mal, se ve obligado a reanudar su vida anterior como asesino entrenado para sobrevivir."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "the-bourne-ultimatum-2007",
+    "tmdbId": 2503,
+    "tmdbType": "movie",
+    "title": "The Bourne Ultimatum",
+    "kind": "movie",
+    "releaseDate": "2007-08-03",
+    "imdbId": "tt0440963",
+    "posterPath": "/15rMz5MRXFp7CP4VxhjYw4y0FUn.jpg",
+    "overview": "Bourne is brought out of hiding once again by reporter Simon Ross who is trying to unveil Operation Blackbriar, an upgrade to Project Treadstone, in a series of newspaper columns. Information from the reporter stirs a new set of memories, and Bourne must finally uncover his dark past while dodging The Company's best efforts to eradicate him.",
+    "localized": {
+      "en": {
+        "title": "The Bourne Ultimatum",
+        "overview": "Bourne is brought out of hiding once again by reporter Simon Ross who is trying to unveil Operation Blackbriar, an upgrade to Project Treadstone, in a series of newspaper columns. Information from the reporter stirs a new set of memories, and Bourne must finally uncover his dark past while dodging The Company's best efforts to eradicate him."
+      },
+      "es": {
+        "title": "Bourne: El ultimátum",
+        "overview": "Jason Bourne esquiva a un despiadado oficial de la C.I.A. y a sus agentes de un nuevo programa de asesinatos mientras busca los orígenes de su vida como asesino entrenado."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "the-bourne-legacy-2012",
+    "tmdbId": 49040,
+    "tmdbType": "movie",
+    "title": "The Bourne Legacy",
+    "kind": "movie",
+    "releaseDate": "2012-08-08",
+    "imdbId": "tt1194173",
+    "posterPath": "/1aExL5DTGHj25ZfIC3dDwS84RWi.jpg",
+    "overview": "New CIA operative Aaron Cross experiences life-or-death stakes that have been triggered by the previous actions of Jason Bourne.",
+    "localized": {
+      "en": {
+        "title": "The Bourne Legacy",
+        "overview": "New CIA operative Aaron Cross experiences life-or-death stakes that have been triggered by the previous actions of Jason Bourne."
+      },
+      "es": {
+        "title": "El Legado Bourne",
+        "overview": "Una expansión del universo a partir de las novelas de Robert Ludlum, centrada en un nuevo héroe cuyo protagonismo se ha desencadenado por los acontecimientos de las tres películas anteriores."
+      }
+    },
+    "runtimeMin": 135
+  },
+  {
+    "id": "jason-bourne-2016",
+    "tmdbId": 324668,
+    "tmdbType": "movie",
+    "title": "Jason Bourne",
+    "kind": "movie",
+    "releaseDate": "2016-07-27",
+    "imdbId": "tt4196776",
+    "posterPath": "/xA7N41glw17MBQtcWSm2eBlBRuG.jpg",
+    "overview": "The most dangerous former operative of the CIA is drawn out of hiding to uncover hidden truths about his past.",
+    "localized": {
+      "en": {
+        "title": "Jason Bourne",
+        "overview": "The most dangerous former operative of the CIA is drawn out of hiding to uncover hidden truths about his past."
+      },
+      "es": {
+        "title": "Jason Bourne",
+        "overview": "El exagente más peligroso de la CIA sale de su escondite para descubrir más verdades explosivas sobre su pasado."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "die-hard-1988",
+    "tmdbId": 562,
+    "tmdbType": "movie",
+    "title": "Die Hard",
+    "kind": "movie",
+    "releaseDate": "1988-07-15",
+    "imdbId": "tt0095016",
+    "posterPath": "/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+    "overview": "High above the city of L.A. a team of terrorists has seized a building, taken hostages, and declared war. One man has manages to escape... An off-duty cop hiding somewhere inside. He's alone, tired... and the only chance anyone has got.",
+    "localized": {
+      "en": {
+        "title": "Die Hard",
+        "overview": "High above the city of L.A. a team of terrorists has seized a building, taken hostages, and declared war. One man has manages to escape... An off-duty cop hiding somewhere inside. He's alone, tired... and the only chance anyone has got."
+      },
+      "es": {
+        "title": "Duro de matar",
+        "overview": "En lo alto de la ciudad de Los Ángeles, un grupo terrorista se ha apoderado de un edificio, tomando a un grupo de personas como rehenes. Sólo un hombre, el policía de Nueva York John McClane, ha conseguido escapar del acoso terrorista. Aunque está solo y fuera de servicio, McClane se enfrentará a los secuestradores. Él es la única esperanza para los rehenes"
+      }
+    },
+    "runtimeMin": 132
+  },
+  {
+    "id": "die-hard-2-1990",
+    "tmdbId": 1573,
+    "tmdbType": "movie",
+    "title": "Die Hard 2",
+    "kind": "movie",
+    "releaseDate": "1990-07-03",
+    "imdbId": "tt0099423",
+    "posterPath": "/ybki0UWO3OPhaM6MSniuKC7sy1R.jpg",
+    "overview": "One year after his heroics in Los Angeles, John McClane is an off-duty cop who is the wrong guy in the wrong place at the wrong time. On a snowy Christmas Eve, as he waits for his wife's plane to land at Washington Dulles International Airport, terrorists take over the air traffic control system in a plot to free a South American army general and drug smuggler being flown into the US to face drug charges. It's now up to McClane to take on the terrorists, while coping with an inept airport police chief, an uncooperative anti-terrorist squad, and the life of his wife and everyone else trapped in planes circling overhead.",
+    "localized": {
+      "en": {
+        "title": "Die Hard 2",
+        "overview": "One year after his heroics in Los Angeles, John McClane is an off-duty cop who is the wrong guy in the wrong place at the wrong time. On a snowy Christmas Eve, as he waits for his wife's plane to land at Washington Dulles International Airport, terrorists take over the air traffic control system in a plot to free a South American army general and drug smuggler being flown into the US to face drug charges. It's now up to McClane to take on the terrorists, while coping with an inept airport police chief, an uncooperative anti-terrorist squad, and the life of his wife and everyone else trapped in planes circling overhead."
+      },
+      "es": {
+        "title": "Duro de matar 2",
+        "overview": "Es Navidad. El teniente John McLane, de la policía de Los Ángeles, espera en el aeropuerto de Dulles, Washington, la llegada de su esposa. Mientras tanto, el coronel Stuart, un militar que ha sido expulsado del Congreso, organiza cerca de este aeropuerto con otros mercenarios profesionales una base de operaciones para liberar a un dictador sudamericano derrocado, al que se considera el mayor traficante del mundo."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "die-hard-with-a-vengeance-1995",
+    "tmdbId": 1572,
+    "tmdbType": "movie",
+    "title": "Die Hard: With a Vengeance",
+    "kind": "movie",
+    "releaseDate": "1995-05-19",
+    "imdbId": "tt0112864",
+    "posterPath": "/buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+    "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+    "localized": {
+      "en": {
+        "title": "Die Hard: With a Vengeance",
+        "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration."
+      },
+      "es": {
+        "title": "Duro de matar 3: La venganza",
+        "overview": "Un tal Simon siembra el pánico en las calles de Nueva York haciendo explotar una serie de bombas y asegura que no dejará de hacerlo a menos que el agente John McClane acceda a jugar con él a un juego llamado \"Simón dice\". Con la ayuda de Zeus, un electricista de Harlem, el agente comienza una trepidante carrera para resolver las adivinanzas planteadas por el terrorista y al mismo tiempo, para averiguar sus intenciones"
+      }
+    },
+    "runtimeMin": 128
+  },
+  {
+    "id": "live-free-or-die-hard-2007",
+    "tmdbId": 1571,
+    "tmdbType": "movie",
+    "title": "Live Free or Die Hard",
+    "kind": "movie",
+    "releaseDate": "2007-06-20",
+    "imdbId": "tt0337978",
+    "posterPath": "/31TT47YjBl7a7uvJ3ff1nrirXhP.jpg",
+    "overview": "John McClane is back and badder than ever, and this time he calls on the services of a young hacker in his bid to stop a ring of Internet terrorists intent on taking control of America's computer infrastructure.",
+    "localized": {
+      "en": {
+        "title": "Live Free or Die Hard",
+        "overview": "John McClane is back and badder than ever, and this time he calls on the services of a young hacker in his bid to stop a ring of Internet terrorists intent on taking control of America's computer infrastructure."
+      },
+      "es": {
+        "title": "Duro de matar 4.0",
+        "overview": "Estados Unidos. Un grupo terrorista bloquea el sistema de computadores que controla las comunicaciones, el transporte y el suministro de energía. El cerebro de la operación había estudiado minuciosamente hasta el más mínimo detalle, pero no había contado con John McClane, un policía de la vieja escuela, pero con los conocimientos necesarios para frustrar una amenaza terrorista de esta índole"
+      }
+    },
+    "runtimeMin": 128
+  },
+  {
+    "id": "a-good-day-to-die-hard-2013",
+    "tmdbId": 47964,
+    "tmdbType": "movie",
+    "title": "A Good Day to Die Hard",
+    "kind": "movie",
+    "releaseDate": "2013-02-06",
+    "imdbId": "tt1606378",
+    "posterPath": "/qJ0csDXAVFMsNn0cRcjy6W6PxAK.jpg",
+    "overview": "Iconoclastic, take-no-prisoners cop John McClane, finds himself for the first time on foreign soil after traveling to Moscow to help his wayward son Jack - unaware that Jack is really a highly-trained CIA operative out to stop a nuclear weapons heist. With the Russian underworld in pursuit, and battling a countdown to war, the two McClanes discover that their opposing methods make them unstoppable heroes.",
+    "localized": {
+      "en": {
+        "title": "A Good Day to Die Hard",
+        "overview": "Iconoclastic, take-no-prisoners cop John McClane, finds himself for the first time on foreign soil after traveling to Moscow to help his wayward son Jack - unaware that Jack is really a highly-trained CIA operative out to stop a nuclear weapons heist. With the Russian underworld in pursuit, and battling a countdown to war, the two McClanes discover that their opposing methods make them unstoppable heroes."
+      },
+      "es": {
+        "title": "Duro de matar: Un buen día para morir",
+        "overview": "John McClane, un policía de la ciudad de Nueva York, y su hijo deben dejar de lado sus diferencias para trabajar juntos y evitar que el hampa de Moscú controle unas armas nucleares"
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "dune-prophecy-2024",
+    "tmdbId": 90228,
+    "tmdbType": "tv",
+    "title": "Dune: Prophecy",
+    "kind": "series",
+    "releaseDate": "2024-11-17",
+    "imdbId": "tt10466872",
+    "posterPath": "/oWVohNsxkxA3u92EzRo8fTuXIS0.jpg",
+    "overview": "Ten thousand years before the ascension of Paul Atreides, sisters Valya and Tula Harkonnen establish the fabled sect and female order that would become known as the Bene Gesserit to control the future of humankind.",
+    "localized": {
+      "en": {
+        "title": "Dune: Prophecy",
+        "overview": "Ten thousand years before the ascension of Paul Atreides, sisters Valya and Tula Harkonnen establish the fabled sect and female order that would become known as the Bene Gesserit to control the future of humankind."
+      },
+      "es": {
+        "title": "Duna: La profecía",
+        "overview": "10.000 años antes de la ascensión de Paul Atreides, las Hermanas Harkonnen luchan contra las fuerzas que amenazan el futuro de la humanidad y establecen la legendaria secta conocida como Bene Gesserit."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2024-11-17"
+      },
+      {
+        "number": 2,
+        "episodes": 8
+      }
+    ],
+    "runtimeMin": 393,
+    "ongoing": true
+  },
+  {
+    "id": "dune-1984",
+    "tmdbId": 841,
+    "tmdbType": "movie",
+    "title": "Dune",
+    "kind": "movie",
+    "releaseDate": "1984-12-14",
+    "imdbId": "tt0087182",
+    "posterPath": "/4kJmUCE7mkVJjXa7A0g2rY4IGTm.jpg",
+    "overview": "In the year 10,191, the most precious substance in the universe is the spice Melange. The spice extends life. The spice expands consciousness. The spice is vital to space travel.  The spice exists on only one planet in the entire universe, the vast desert planet Arrakis, also known as Dune.  Its native inhabitants, the Fremen, have long held a prophecy that a man would come, a messiah who would lead them to true freedom.",
+    "localized": {
+      "en": {
+        "title": "Dune",
+        "overview": "In the year 10,191, the most precious substance in the universe is the spice Melange. The spice extends life. The spice expands consciousness. The spice is vital to space travel.  The spice exists on only one planet in the entire universe, the vast desert planet Arrakis, also known as Dune.  Its native inhabitants, the Fremen, have long held a prophecy that a man would come, a messiah who would lead them to true freedom."
+      },
+      "es": {
+        "title": "Dunas",
+        "overview": "En el año 10,191, el mundo está en guerra por el control del planeta desierto Dune, el único lugar donde se puede encontrar la sustancia de viaje en el tiempo 'Spice'. Pero cuando un líder cede el control, es solo para poder dar un golpe con algunos personajes desagradables."
+      }
+    },
+    "runtimeMin": 136
+  },
+  {
+    "id": "dune-2021",
+    "tmdbId": 438631,
+    "tmdbType": "movie",
+    "title": "Dune",
+    "kind": "movie",
+    "releaseDate": "2021-09-15",
+    "imdbId": "tt1160419",
+    "posterPath": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
+    "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
+    "localized": {
+      "en": {
+        "title": "Dune",
+        "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive."
+      },
+      "es": {
+        "title": "Duna",
+        "overview": "Paul Atreides, un joven brillante y talentoso nacido en un gran destino más allá de su entendimiento, debe viajar al planeta más peligroso del universo para asegurar el futuro de su familia y de su pueblo."
+      }
+    },
+    "runtimeMin": 155
+  },
+  {
+    "id": "dune-part-two-2024",
+    "tmdbId": 693134,
+    "tmdbType": "movie",
+    "title": "Dune: Part Two",
+    "kind": "movie",
+    "releaseDate": "2024-02-27",
+    "imdbId": "tt15239678",
+    "posterPath": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+    "localized": {
+      "en": {
+        "title": "Dune: Part Two",
+        "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee."
+      },
+      "es": {
+        "title": "Duna: Parte dos",
+        "overview": "Sigue la mítica jornada de Paul Atreides mientras se une con Chani y los Fremen en su camino hacia la venganza contra los conspiradores que destruyeron a su familia. Enfrentado a una elección entre el amor de su vida y el destino del universo conocido, Paul se esfuerza por prevenir un terrible futuro que solo él puede prever."
+      }
+    },
+    "runtimeMin": 167
+  },
+  {
+    "id": "dune-part-three-2026",
+    "tmdbId": 1170608,
+    "tmdbType": "movie",
+    "title": "Dune: Part Three",
+    "kind": "movie",
+    "releaseDate": "2026-12-15",
+    "imdbId": "tt31378509",
+    "posterPath": "/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+    "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+    "localized": {
+      "en": {
+        "title": "Dune: Part Three",
+        "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most."
+      },
+      "es": {
+        "title": "Duna: Parte tres",
+        "overview": "Como emperador, Paul Atreides se enfrenta a las consecuencias de su ascenso al poder, mientras conspiraciones políticas y una guerra santa que abarca toda la galaxia amenazan el futuro que solo él puede prever."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
+    "id": "avatar-2009",
+    "tmdbId": 19995,
+    "tmdbType": "movie",
+    "title": "Avatar",
+    "kind": "movie",
+    "releaseDate": "2009-12-16",
+    "imdbId": "tt0499549",
+    "posterPath": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+    "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+    "localized": {
+      "en": {
+        "title": "Avatar",
+        "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization."
+      },
+      "es": {
+        "title": "Avatar",
+        "overview": "Jake Sully, un soldado parapléjico, ha sido designado para ir a la luna Pandora, habitado por una raza de humanoides extraterrestres inteligentes llamados Los Na'vi, en una misión única a través de un avatar."
+      }
+    },
+    "runtimeMin": 162
+  },
+  {
+    "id": "avatar-the-way-of-water-2022",
+    "tmdbId": 76600,
+    "tmdbType": "movie",
+    "title": "Avatar: The Way of Water",
+    "kind": "movie",
+    "releaseDate": "2022-12-14",
+    "imdbId": "tt1630029",
+    "posterPath": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "localized": {
+      "en": {
+        "title": "Avatar: The Way of Water",
+        "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure."
+      },
+      "es": {
+        "title": "Avatar: El camino del agua",
+        "overview": "Más de una década después, los hombres del cielo regresan a Pandora. Entonces Jake Sully, Neytiri y sus hijos deciden hacer un gran sacrificio para mantener a su pueblo a salvo y seguir con vida."
+      }
+    },
+    "runtimeMin": 192
+  },
+  {
+    "id": "avatar-fire-and-ash-2025",
+    "tmdbId": 83533,
+    "tmdbType": "movie",
+    "title": "Avatar: Fire and Ash",
+    "kind": "movie",
+    "releaseDate": "2025-12-17",
+    "imdbId": "tt1757678",
+    "posterPath": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+    "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+    "localized": {
+      "en": {
+        "title": "Avatar: Fire and Ash",
+        "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits."
+      },
+      "es": {
+        "title": "Avatar: Fuego y ceniza",
+        "overview": "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang."
+      }
+    },
+    "runtimeMin": 198
+  },
+  {
+    "id": "toy-story-1995",
+    "tmdbId": 862,
+    "tmdbType": "movie",
+    "title": "Toy Story",
+    "kind": "movie",
+    "releaseDate": "1995-11-22",
+    "imdbId": "tt0114709",
+    "posterPath": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+    "localized": {
+      "en": {
+        "title": "Toy Story",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences."
+      },
+      "es": {
+        "title": "Toy Story",
+        "overview": "Un muñeco vaquero se siente profundamente amenazado y celoso cuando una nueva figura del hombre del espacio lo suplanta como juguete principal en el cuarto de un niño."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "toy-story-2-1999",
+    "tmdbId": 863,
+    "tmdbType": "movie",
+    "title": "Toy Story 2",
+    "kind": "movie",
+    "releaseDate": "1999-10-30",
+    "imdbId": "tt0120363",
+    "posterPath": "/4rbcp3ng8n1MKHjpeqW0L7Fnpzz.jpg",
+    "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+    "localized": {
+      "en": {
+        "title": "Toy Story 2",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong."
+      },
+      "es": {
+        "title": "Toy Story 2",
+        "overview": "Cuando Woody es robado por un coleccionista de juguetes, Buzz y sus amigos emprenden una misión de rescate para salvar a Woody antes de que se convierta en una propiedad de un museo de juguetes con su pandilla de redadas Jessie, el oloroso Pete y Tiro al blanco."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "toy-story-3-2010",
+    "tmdbId": 10193,
+    "tmdbType": "movie",
+    "title": "Toy Story 3",
+    "kind": "movie",
+    "releaseDate": "2010-06-16",
+    "imdbId": "tt0435761",
+    "posterPath": "/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
+    "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+    "localized": {
+      "en": {
+        "title": "Toy Story 3",
+        "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy."
+      },
+      "es": {
+        "title": "Toy Story 3",
+        "overview": "Los juguetes son entregados por error a una guardería en lugar del ático justo antes de que Andy se vaya a la universidad, y depende de Woody convencer a los otros juguetes de que no fueron abandonados y volver a casa."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "toy-story-4-2019",
+    "tmdbId": 301528,
+    "tmdbType": "movie",
+    "title": "Toy Story 4",
+    "kind": "movie",
+    "releaseDate": "2019-06-19",
+    "imdbId": "tt1979376",
+    "posterPath": "/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg",
+    "overview": "Woody has always been confident about his place in the world, devoted to taking care of his kid—whether that's Andy or Bonnie. But after Bonnie creates a reluctant new toy called \"Forky\", a road trip adventure alongside old and new friends challenges everything Woody believes about loyalty, purpose, and what it truly means to be a toy.",
+    "localized": {
+      "en": {
+        "title": "Toy Story 4",
+        "overview": "Woody has always been confident about his place in the world, devoted to taking care of his kid—whether that's Andy or Bonnie. But after Bonnie creates a reluctant new toy called \"Forky\", a road trip adventure alongside old and new friends challenges everything Woody believes about loyalty, purpose, and what it truly means to be a toy."
+      },
+      "es": {
+        "title": "Toy Story 4",
+        "overview": "Cuando un nuevo juguete llamado «Forky» se une a Woody y a la pandilla, un viaje por carretera junto a viejos y nuevos amigos revela lo grande que puede ser el mundo para un juguete."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "lightyear-2022",
+    "tmdbId": 718789,
+    "tmdbType": "movie",
+    "title": "Lightyear",
+    "kind": "movie",
+    "releaseDate": "2022-06-15",
+    "imdbId": "tt10298810",
+    "posterPath": "/ox4goZd956BxqJH6iLwhWPL9ct4.jpg",
+    "overview": "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.",
+    "localized": {
+      "en": {
+        "title": "Lightyear",
+        "overview": "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox."
+      },
+      "es": {
+        "title": "Lightyear",
+        "overview": "Luego de un incidente en el que queda abandonado en un planeta hostil a 4.2 millones de años luz de la Tierra junto a su comandante y tripulación, Buzz intenta encontrar el camino de regreso a casa a través del espacio y el tiempo. Pero la misión se ve amenazada con la llegada de Zurg y su ejército de robots despiadados."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "toy-story-5-2026",
+    "tmdbId": 1084244,
+    "tmdbType": "movie",
+    "title": "Toy Story 5",
+    "kind": "movie",
+    "releaseDate": "2026-06-17",
+    "imdbId": "tt29355505",
+    "posterPath": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+    "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+    "localized": {
+      "en": {
+        "title": "Toy Story 5",
+        "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime."
+      },
+      "es": {
+        "title": "Toy Story 5",
+        "overview": "Cuando Woody logra regresar con Buzz, Jessie y el resto de la pandilla, descubren una nueva amenaza: la tecnología. Un nuevo tiempo de juego para los niños."
+      }
+    },
+    "runtimeMin": 102
   }
 ]

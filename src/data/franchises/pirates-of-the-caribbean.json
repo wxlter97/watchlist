@@ -1,0 +1,207 @@
+{
+  "id": "pirates-of-the-caribbean",
+  "name": {
+    "es": "Piratas del Caribe",
+    "en": "Pirates of the Caribbean"
+  },
+  "description": {
+    "es": "Jack Sparrow, la maldición del Perla Negra y la lucha por el mar.",
+    "en": "Jack Sparrow, the Black Pearl's curse and the fight for the sea."
+  },
+  "accentColor": "#1E3A8A",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Piratas del Caribe",
+        "en": "Pirates of the Caribbean"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas, en orden de estreno y de historia.",
+        "en": "The five films, in release and story order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-sparrow",
+        "will-turner",
+        "elizabeth-swann"
+      ]
+    },
+    {
+      "titleId": "pirates-of-the-caribbean-dead-mans-chest-2006",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "jack-sparrow",
+        "will-turner",
+        "elizabeth-swann"
+      ]
+    },
+    {
+      "titleId": "pirates-of-the-caribbean-at-worlds-end-2007",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "jack-sparrow",
+        "will-turner",
+        "elizabeth-swann"
+      ]
+    },
+    {
+      "titleId": "pirates-of-the-caribbean-on-stranger-tides-2011",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "jack-sparrow"
+      ]
+    },
+    {
+      "titleId": "pirates-of-the-caribbean-dead-men-tell-no-tales-2017",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "jack-sparrow",
+        "will-turner",
+        "elizabeth-swann"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "trilogy",
+      "type": "curated",
+      "name": {
+        "es": "La trilogía original",
+        "en": "The original trilogy"
+      },
+      "description": {
+        "es": "Las tres primeras, con Will y Elizabeth.",
+        "en": "The first three, with Will and Elizabeth."
+      },
+      "titleIds": [
+        "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+        "pirates-of-the-caribbean-dead-mans-chest-2006",
+        "pirates-of-the-caribbean-at-worlds-end-2007"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-pirates-of-the-caribbean-dead-men-tell-no-tales-2017",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para La venganza de Salazar",
+        "en": "Get ready for Dead Men Tell No Tales"
+      },
+      "description": {
+        "es": "La trilogía original: la quinta película cierra la historia de Will y Elizabeth.",
+        "en": "The original trilogy: the fifth film closes Will and Elizabeth's story."
+      },
+      "titleIds": [
+        "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+        "pirates-of-the-caribbean-dead-mans-chest-2006",
+        "pirates-of-the-caribbean-at-worlds-end-2007"
+      ],
+      "targetTitleId": "pirates-of-the-caribbean-dead-men-tell-no-tales-2017"
+    },
+    {
+      "id": "jack-sparrow",
+      "kind": "character",
+      "name": {
+        "es": "Jack Sparrow",
+        "en": "Jack Sparrow"
+      },
+      "description": {
+        "es": "El capitán, en todas sus películas.",
+        "en": "The captain, across every film."
+      },
+      "titleIds": [
+        "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+        "pirates-of-the-caribbean-dead-mans-chest-2006",
+        "pirates-of-the-caribbean-at-worlds-end-2007",
+        "pirates-of-the-caribbean-on-stranger-tides-2011",
+        "pirates-of-the-caribbean-dead-men-tell-no-tales-2017"
+      ]
+    },
+    {
+      "id": "will-y-elizabeth",
+      "kind": "character",
+      "name": {
+        "es": "Will y Elizabeth",
+        "en": "Will and Elizabeth"
+      },
+      "description": {
+        "es": "La historia de los dos, de la primera a la última.",
+        "en": "Their story, from first film to last."
+      },
+      "titleIds": [
+        "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+        "pirates-of-the-caribbean-dead-mans-chest-2006",
+        "pirates-of-the-caribbean-at-worlds-end-2007",
+        "pirates-of-the-caribbean-dead-men-tell-no-tales-2017"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "jack-sparrow",
+        "name": {
+          "es": "Jack Sparrow",
+          "en": "Jack Sparrow"
+        }
+      },
+      {
+        "id": "will-turner",
+        "name": {
+          "es": "Will Turner",
+          "en": "Will Turner"
+        }
+      },
+      {
+        "id": "elizabeth-swann",
+        "name": {
+          "es": "Elizabeth Swann",
+          "en": "Elizabeth Swann"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

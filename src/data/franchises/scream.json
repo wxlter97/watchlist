@@ -1,0 +1,239 @@
+{
+  "id": "scream",
+  "name": {
+    "es": "Scream",
+    "en": "Scream"
+  },
+  "description": {
+    "es": "Ghostface, Woodsboro y las reglas del slasher: siete películas con un humor propio.",
+    "en": "Ghostface, Woodsboro and the rules of the slasher: seven films with their own sense of humor."
+  },
+  "accentColor": "#BE123C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Scream",
+        "en": "Scream"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todas las películas comparten una misma línea, con los «legacy sequels» desde 2022.",
+        "en": "All films share one timeline, with the \"legacy sequels\" from 2022."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "scream-1996",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1996",
+        "en": "1996"
+      },
+      "characters": [
+        "sidney-prescott",
+        "gale-weathers",
+        "dewey-riley"
+      ]
+    },
+    {
+      "titleId": "scream-2-1997",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1997",
+        "en": "1997"
+      },
+      "characters": [
+        "sidney-prescott",
+        "gale-weathers",
+        "dewey-riley"
+      ]
+    },
+    {
+      "titleId": "scream-3-2000",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2000",
+        "en": "2000"
+      },
+      "characters": [
+        "sidney-prescott",
+        "gale-weathers",
+        "dewey-riley"
+      ]
+    },
+    {
+      "titleId": "scream-4-2011",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2011",
+        "en": "2011"
+      },
+      "characters": [
+        "sidney-prescott",
+        "gale-weathers",
+        "dewey-riley"
+      ]
+    },
+    {
+      "titleId": "scream-2022",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2022",
+        "en": "2022"
+      },
+      "characters": [
+        "sidney-prescott",
+        "gale-weathers",
+        "dewey-riley"
+      ]
+    },
+    {
+      "titleId": "scream-vi-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2023",
+        "en": "2023"
+      },
+      "characters": [
+        "gale-weathers"
+      ]
+    },
+    {
+      "titleId": "scream-7-2026",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "2026",
+        "en": "2026"
+      },
+      "characters": [
+        "sidney-prescott"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "craven",
+      "type": "curated",
+      "name": {
+        "es": "Las de Wes Craven",
+        "en": "The Wes Craven films"
+      },
+      "description": {
+        "es": "Las cuatro primeras películas, dirigidas por Craven.",
+        "en": "The first four films, directed by Craven."
+      },
+      "titleIds": [
+        "scream-1996",
+        "scream-2-1997",
+        "scream-3-2000",
+        "scream-4-2011"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-scream-7-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Scream 7",
+        "en": "Get ready for Scream 7"
+      },
+      "description": {
+        "es": "Las que más pesan: la primera y las dos más recientes.",
+        "en": "The ones that weigh most: the first and the two most recent."
+      },
+      "titleIds": [
+        "scream-1996",
+        "scream-2022",
+        "scream-vi-2023"
+      ],
+      "targetTitleId": "scream-7-2026"
+    },
+    {
+      "id": "sidney-prescott",
+      "kind": "character",
+      "name": {
+        "es": "Sidney Prescott",
+        "en": "Sidney Prescott"
+      },
+      "description": {
+        "es": "La sobreviviente de la saga.",
+        "en": "The saga's survivor."
+      },
+      "titleIds": [
+        "scream-1996",
+        "scream-2-1997",
+        "scream-3-2000",
+        "scream-4-2011",
+        "scream-2022",
+        "scream-7-2026"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "sidney-prescott",
+        "name": {
+          "es": "Sidney Prescott",
+          "en": "Sidney Prescott"
+        }
+      },
+      {
+        "id": "gale-weathers",
+        "name": {
+          "es": "Gale Weathers",
+          "en": "Gale Weathers"
+        }
+      },
+      {
+        "id": "dewey-riley",
+        "name": {
+          "es": "Dewey Riley",
+          "en": "Dewey Riley"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
