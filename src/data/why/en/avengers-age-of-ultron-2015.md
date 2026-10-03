@@ -1,0 +1,1 @@
+It introduces Ultron, the Scarlet Witch, Quicksilver and Vision, and leaves the Mind Stone in Vision's forehead. Wanda and Vision are the foundation of WandaVision, so it matters even though it's one of the weaker team-ups.

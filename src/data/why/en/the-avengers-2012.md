@@ -1,0 +1,1 @@
+It brings the team together for the first time and sets the template of a world threat and heroes uniting that Infinity War and Doomsday scale up. It also introduces Thanos in a post-credits scene. A must-watch, and on Disney's official list.

@@ -1,0 +1,1 @@
+Divide a los Vengadores, introduce a Pantera Negra y a Spider-Man, y sienta las bases de las diferencias entre Steve y Tony. Muchas tramas posteriores (Wakanda, Infinity War, Falcon y el Soldado del Invierno) parten de aquí.

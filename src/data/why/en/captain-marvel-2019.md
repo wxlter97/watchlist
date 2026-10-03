@@ -1,0 +1,1 @@
+It introduces Carol Danvers, the group's most powerful hero, and the Skrulls' backstory (who return in Secret Invasion and The Marvels). Set in 1995, it changes little of what follows but explains her role in Endgame.

@@ -1,0 +1,1 @@
+It is the film that brings down S.H.I.E.L.D. and turns Bucky into the Winter Soldier. Everything that happens with Steve, Bucky and Sam afterward (Civil War, The Falcon and the Winter Soldier) starts here. One of the MCU's best and essential.

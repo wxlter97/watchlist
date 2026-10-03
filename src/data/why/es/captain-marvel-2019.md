@@ -1,0 +1,1 @@
+Presenta a Carol Danvers, la más poderosa del grupo, y la historia de los skrulls (que vuelven en Secret Invasion y The Marvels). Se ubica en 1995, así que no cambia mucho lo que sigue, pero es la que explica su presencia en Endgame.

@@ -1,0 +1,1 @@
+Cierra la trilogía de Tony: lo deja marcado por lo de Nueva York y lo lleva a replantear su relación con la armadura. Sus consecuencias se sienten en Ultrón y en Civil War, pero se puede ver aparte del resto.

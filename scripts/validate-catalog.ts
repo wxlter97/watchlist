@@ -27,6 +27,21 @@ for (const id of new Set([...recapsEs, ...recapsEn])) {
   if (!recapsEn.includes(id)) errors.push(`recaps/en/${id}.md: falta la versión en inglés`);
 }
 
+// "Por qué importa": igual que los recaps (título existente, dos idiomas).
+const why = (lang: string) => {
+  try {
+    return readdirSync(`${dataDir}why/${lang}`).filter((f) => f.endsWith(".md")).map((f) => f.replace(/\.md$/, ""));
+  } catch {
+    return [];
+  }
+};
+const [whyEs, whyEn] = [why("es"), why("en")];
+for (const id of new Set([...whyEs, ...whyEn])) {
+  if (!titleIds.has(id)) errors.push(`why/*/${id}.md: no existe el título`);
+  if (!whyEs.includes(id)) errors.push(`why/es/${id}.md: falta la versión en español`);
+  if (!whyEn.includes(id)) errors.push(`why/en/${id}.md: falta la versión en inglés`);
+}
+
 for (const f of franchiseFiles) {
   const id = f.replace(/\.json$/, "");
   if (!catalog.franchises.some((fr) => fr.id === id)) errors.push(`franchises/${f}: el id debe coincidir con el nombre del archivo`);
@@ -38,5 +53,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `Catálogo válido: ${catalog.titles.length} títulos, ${catalog.franchises.length} franquicias, ${achievements.length} logros, ${recapsEs.length} recaps.`,
+  `Catálogo válido: ${catalog.titles.length} títulos, ${catalog.franchises.length} franquicias, ${achievements.length} logros, ${recapsEs.length} recaps, ${whyEs.length} motivos.`,
 );
