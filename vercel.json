@@ -12,7 +12,7 @@
       "includeFiles": "src/data/titles.json"
     },
     "api/og.ts": {
-      "includeFiles": "src/data/**"
+      "includeFiles": "{src/data/**,node_modules/.pnpm/harfbuzzjs@*/node_modules/harfbuzzjs/*.wasm}"
     },
     "api/share.ts": {
       "includeFiles": "src/data/**"
