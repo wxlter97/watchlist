@@ -1,0 +1,3 @@
+- Shinji recovers in a village with his old companions.
+- WILLE prepares for the final confrontation with Gendo.
+- Shinji ends the cycle of Evangelion.

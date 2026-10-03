@@ -1,0 +1,3 @@
+- John tiene una hora antes de ser excomulgado y recompensado por la Alta Mesa.
+- Busca ayuda en Casablanca y ante el Director; la Adjudicadora castiga a sus aliados.
+- John vuelve a Nueva York con Winston, que lo traiciona en el final.

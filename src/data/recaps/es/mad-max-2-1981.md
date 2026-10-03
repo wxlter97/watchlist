@@ -1,0 +1,3 @@
+- Tras el colapso, Max vaga por el desierto en busca de gasolina.
+- Ayuda a una comunidad con una refinería asediada por la banda del Humungus.
+- Los salva desviando a los atacantes.

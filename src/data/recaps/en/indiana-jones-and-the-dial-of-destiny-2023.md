@@ -1,0 +1,3 @@
+- In 1969, Indy, about to retire, teams with his goddaughter Helena to find Archimedes' Dial.
+- A former Nazi, Jürgen Voller, seeks it to change history.
+- The dial takes them to ancient Syracuse; Indy decides to stay in his own time.

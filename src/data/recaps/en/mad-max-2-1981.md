@@ -1,0 +1,3 @@
+- After the collapse, Max wanders the desert looking for gasoline.
+- He helps a community with a refinery besieged by Humungus's gang.
+- He saves them by diverting the attackers.

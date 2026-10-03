@@ -1,0 +1,3 @@
+- Z, a former Marine admiral, wants to destroy the New World.
+- The Straw Hats are dragged into his plan.
+- Luffy faces him.

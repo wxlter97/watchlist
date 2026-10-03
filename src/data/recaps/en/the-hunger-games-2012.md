@@ -1,0 +1,3 @@
+- In Panem, Katniss Everdeen volunteers in her sister's place in the Hunger Games, a televised fight to the death.
+- With Peeta Mellark she wins over the audience.
+- They defy the organizers and both survive.

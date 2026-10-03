@@ -1,0 +1,3 @@
+- Buzz Lightyear, a space ranger, is stranded on a hostile planet.
+- He tries to return by testing fuel, but each trip costs him years.
+- He forms a team to face Zurg.

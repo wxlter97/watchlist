@@ -1,0 +1,2 @@
+- A double film: "Death" recaps the series and "Rebirth" previews the new ending.
+- It adds no new story on its own.

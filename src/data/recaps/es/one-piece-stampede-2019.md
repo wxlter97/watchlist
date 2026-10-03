@@ -1,0 +1,3 @@
+- Un festival de piratas, el Festival Pirata, reúne a muchos piratas para buscar un tesoro.
+- Los Sombrero de Paja participan y enfrentan a Douglas Bullet.
+- Luffy derrota a Bullet.

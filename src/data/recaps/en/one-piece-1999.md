@@ -1,0 +1,3 @@
+- Monkey D. Luffy, a young man with rubber powers, dreams of finding the One Piece and becoming King of the Pirates.
+- He forms the Straw Hat crew with Zoro, Nami, Usopp and Sanji, among others, and travels the Grand Line.
+- The story continues across more than a thousand episodes with arcs about allies and enemies.

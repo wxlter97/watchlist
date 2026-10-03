@@ -1,0 +1,3 @@
+- Apollo pide una revancha; Rocky, ya con Adrian, duda.
+- Se resiste, pero vuelve a entrenar cuando las cosas se complican.
+- Rocky gana el título.

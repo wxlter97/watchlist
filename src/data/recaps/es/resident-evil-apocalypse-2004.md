@@ -1,0 +1,3 @@
+- Raccoon City está en cuarentena; Alice se une a un grupo de sobrevivientes.
+- Umbrella libera a Nemesis, un arma biológica.
+- Alice lo derrota y escapa.

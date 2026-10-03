@@ -1,0 +1,3 @@
+- McClane travels to Russia to help his son, Jack, who turns out to be a CIA agent.
+- A uranium case entangles them.
+- Father and son stop the villains.

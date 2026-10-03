@@ -1,0 +1,3 @@
+- Los Sombrero de Paja llegan a Gran Tesoro, una ciudad del juego dirigida por Gild Tesoro.
+- Cae la tripulación en su control.
+- Luffy se enfrenta a él.

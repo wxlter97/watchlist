@@ -1,0 +1,3 @@
+- Rocky, a widower, runs a restaurant.
+- He accepts an exhibition fight against the current champion, Mason Dixon.
+- He goes the distance.

@@ -1,0 +1,3 @@
+- En 1969, Indy, a punto de jubilarse, se une a su ahijada Helena para encontrar el Dial de Arquímedes.
+- Un exnazi, Jürgen Voller, lo busca para cambiar la historia.
+- El dial los lleva a la antigua Siracusa; Indy decide quedarse en su propio tiempo.

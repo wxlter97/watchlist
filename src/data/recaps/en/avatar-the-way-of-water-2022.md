@@ -1,0 +1,3 @@
+- Years later, Jake and Neytiri have a family; the RDA returns to Pandora with Quaritch, now as a Na'vi.
+- The Sullys take refuge with the sea clan of the Metkayina.
+- After a battle at sea, Jake and his family stay with the Metkayina; Neteyam dies.

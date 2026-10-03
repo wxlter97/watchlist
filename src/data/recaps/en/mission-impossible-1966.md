@@ -1,0 +1,2 @@
+- Spy series: the IMF team receives a mission on a self-destructing tape and carries it out through deception.
+- Each episode is a self-contained operation against dictators and criminals.

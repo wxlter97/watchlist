@@ -1,0 +1,3 @@
+- Hammond reveals InGen also bred dinosaurs on another island, Isla Sorna; Malcolm is sent to investigate.
+- A rival InGen team wants to capture the animals for a San Diego park.
+- A T. rex reaches the city and wreaks havoc before returning to its island.

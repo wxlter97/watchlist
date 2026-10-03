@@ -1,0 +1,3 @@
+- Sesenta y cuatro años antes, Coriolanus Snow, un joven aristócrata, es mentor de Lucy Gray Baird en los Décimos Juegos.
+- Se enamoran, pero él traiciona sus valores por ambición.
+- Termina convertido en el presidente que Katniss conoce.

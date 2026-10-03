@@ -1,0 +1,3 @@
+- Santino D'Antonio, an Italian crime lord, calls in a favor from John: killing his sister to take her seat at the High Table.
+- John does it and then turns on Santino.
+- He kills him inside the Continental, breaking the rules; he is excommunicado with a price on his head.

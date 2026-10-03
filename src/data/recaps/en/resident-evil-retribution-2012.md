@@ -1,0 +1,3 @@
+- Alice wakes in an Umbrella facility with simulated cities.
+- She seeks to escape with Ada Wong's help.
+- Wesker helps her in an alliance against Umbrella.

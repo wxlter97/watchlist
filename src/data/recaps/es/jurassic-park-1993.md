@@ -1,0 +1,4 @@
+- John Hammond abre en Isla Nublar un parque con dinosaurios clonados a partir de ADN en ámbar.
+- Antes de la apertura, el paleontólogo Alan Grant, la paleobotánica Ellie Sattler y el matemático Ian Malcolm lo visitan para validarlo.
+- Un saboteador, Dennis Nedry, apaga la seguridad para robar embriones; los dinosaurios escapan y el grupo debe sobrevivir.
+- Los supervivientes abandonan la isla y Hammond renuncia a su proyecto.

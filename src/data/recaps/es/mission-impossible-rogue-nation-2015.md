@@ -1,0 +1,3 @@
+- La IMF es disuelta y Ethan sigue por su cuenta al Sindicato, una red de agentes exagentes.
+- Conoce a Ilsa Faust, agente británica de doble filo.
+- Con ella y su equipo detiene al líder del Sindicato, Solomon Lane.

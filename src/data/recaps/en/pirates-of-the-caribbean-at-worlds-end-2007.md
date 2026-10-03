@@ -1,0 +1,3 @@
+- The pirates rescue Jack from Davy Jones's locker.
+- Beckett controls the seas with Jones; the pirates unite in a final battle.
+- Will takes command of the Flying Dutchman.

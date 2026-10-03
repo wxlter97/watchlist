@@ -1,0 +1,3 @@
+- Pirate Jack Sparrow helps blacksmith Will Turner rescue Elizabeth Swann, kidnapped by Barbossa.
+- The crew of the Black Pearl is cursed: undead who must return Aztec gold.
+- The curse is broken and Jack recovers his ship.

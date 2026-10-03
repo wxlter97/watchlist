@@ -1,0 +1,3 @@
+- Jigsaw, John Kramer, lets detective Eric Matthews capture him and challenges him to a new game.
+- Eight people are trapped in a house with gas; among them, Eric's son.
+- John reveals his plan with Amanda's help.

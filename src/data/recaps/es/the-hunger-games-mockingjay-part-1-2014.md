@@ -1,0 +1,3 @@
+- Katniss se une a los rebeldes del Distrito 13, que la usan como símbolo, el Sinsajo.
+- Peeta es usado por el Capitolio como propaganda.
+- Los rebeldes rescatan a Peeta, pero está cambiado.

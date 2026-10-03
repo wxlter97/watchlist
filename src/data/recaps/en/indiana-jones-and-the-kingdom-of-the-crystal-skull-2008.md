@@ -1,0 +1,3 @@
+- In 1957, during the Cold War, Indy is captured by Soviet agents seeking a crystal skull.
+- Mutt Williams asks for his help to rescue his mother, Marion.
+- They discover the skull is of alien origin; Indy and Marion marry.

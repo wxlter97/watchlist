@@ -1,0 +1,3 @@
+- NERV is attacked by military forces while SEELE begins the Human Instrumentality Project.
+- Shinji must decide what to do with a merged world.
+- He chooses to live among people even if it means pain.

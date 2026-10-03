@@ -1,0 +1,3 @@
+- Six teens at a camp on Isla Nublar are trapped when the dinosaurs escape during the events of Jurassic World.
+- Over five seasons they survive different dangers, from hunters to robots built by a mysterious corporation.
+- In the final season, now young adults, they uncover a vast conspiracy.

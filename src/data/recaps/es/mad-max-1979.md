@@ -1,0 +1,3 @@
+- En una Australia que se desmorona, el policía Max Rockatansky persigue a una banda de motoristas.
+- La banda mata a su familia.
+- Max se convierte en un vengador solitario.

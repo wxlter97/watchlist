@@ -1,0 +1,3 @@
+- El virus ha arrasado el mundo; Alice vaga por el desierto con un convoy.
+- El científico Isaacs usa clones de Alice.
+- Alice destruye el laboratorio.

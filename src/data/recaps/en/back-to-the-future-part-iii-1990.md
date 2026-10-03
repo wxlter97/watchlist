@@ -1,0 +1,3 @@
+- Marty travels to 1885 to rescue Doc in the Old West.
+- Doc has fallen for Clara and is threatened by Mad Dog Tannen.
+- They return to 1985 on a train; Doc stays with Clara in time.

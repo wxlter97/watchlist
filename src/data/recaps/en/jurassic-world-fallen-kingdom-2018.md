@@ -1,0 +1,3 @@
+- A volcano threatens to wipe out the dinosaurs of Isla Nublar; Claire and Owen take part in a rescue.
+- It turns out Eli Mills wants to sell the animals at an auction, including a hybrid, the Indoraptor.
+- The dinosaurs are released on the mainland and Maisie, Lockwood's granddaughter, chooses to open the door for them.

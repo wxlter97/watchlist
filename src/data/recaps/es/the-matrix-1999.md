@@ -1,0 +1,3 @@
+- Neo, un programador, descubre que el mundo es una simulación creada por máquinas que usan a los humanos como energía.
+- Morfeo lo libera y lo entrena en el mundo real, donde un grupo resiste a las máquinas.
+- Neo se enfrenta al agente Smith, muere y resucita, convencido de que es El Elegido.

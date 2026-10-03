@@ -1,0 +1,3 @@
+- Shiki, a legendary pirate, wants to destroy the world.
+- He kidnaps Nami and the Straw Hats.
+- Luffy defeats him; the film is considered one of the best.

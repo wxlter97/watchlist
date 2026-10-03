@@ -1,0 +1,3 @@
+- Reinicio de la historia: Shinji llega a Tokio-3 y pilota el Eva-01.
+- Rei se une; enfrentan a los Ángeles, entre ellos Ramiel.
+- Introduce cambios sutiles a la serie.

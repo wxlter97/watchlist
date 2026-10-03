@@ -1,0 +1,3 @@
+- Jack debe una deuda a Davy Jones, capitán del Holandés Errante, y busca el Cofre del Hombre Muerto.
+- Will y Elizabeth lo ayudan, arrestados por Lord Beckett.
+- Jack es devorado por el Kraken; la película termina con Barbossa de vuelta.

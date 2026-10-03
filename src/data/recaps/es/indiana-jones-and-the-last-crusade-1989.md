@@ -1,0 +1,3 @@
+- Indy busca el Santo Grial junto a su padre, Henry Jones, secuestrado por los nazis.
+- Descubren que Elsa Schneider trabaja para los nazis.
+- Indy supera tres pruebas y salva a su padre; el Grial queda en su santuario.

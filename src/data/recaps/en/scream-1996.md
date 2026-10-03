@@ -1,0 +1,3 @@
+- In Woodsboro, a masked killer, Ghostface, kills teens and stalks Sidney Prescott.
+- He plays with the rules of horror films.
+- The killers are Billy and Stu; Sidney survives.

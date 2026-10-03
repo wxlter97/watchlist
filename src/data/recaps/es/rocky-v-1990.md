@@ -1,0 +1,3 @@
+- Rocky pierde su dinero y vuelve a su barrio.
+- Entrena a un joven boxeador, Tommy Gunn, que lo traiciona.
+- Rocky se enfrenta a Gunn en la calle.

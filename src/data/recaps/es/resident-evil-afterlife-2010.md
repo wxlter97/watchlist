@@ -1,0 +1,3 @@
+- Alice busca sobrevivientes en Alaska y llega a Los Ángeles.
+- Encuentra a Claire y a otros en una prisión.
+- Se enfrentan a Wesker.

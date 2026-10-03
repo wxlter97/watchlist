@@ -1,0 +1,3 @@
+- Another astronaut, Brent, searches for Taylor and reaches the Forbidden Zone.
+- They discover mutant telepathic humans who worship an atomic bomb.
+- The conflict ends with the destruction of Earth.

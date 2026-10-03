@@ -1,0 +1,3 @@
+- **Serie 14:** el Decimoquinto Doctor (Gatwa) y Ruby Sunday enfrentan a Sutekh, que había estado oculto; el Doctor lo derrota liberándolo en el vórtice del tiempo.
+- **Serie 15:** el Doctor intenta devolver a Belinda Chandra a casa mientras la señora Flood, que resulta ser la Rani, busca resucitar a Omega.
+- El Doctor derrota a Omega y provoca su regeneración.

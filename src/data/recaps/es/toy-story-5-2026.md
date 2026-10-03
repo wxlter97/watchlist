@@ -1,0 +1,3 @@
+- Bonnie recibe una tableta, Lilypad, y descuida a sus juguetes.
+- Jessie pide ayuda a Woody y termina en la granja de su antigua dueña, donde conoce a Blaze.
+- Los juguetes ayudan a que Bonnie y Blaze se hagan amigas; Woody se va con Bo Peep a ayudar a juguetes abandonados.

@@ -1,0 +1,3 @@
+- Astronauts land on a planet where apes rule and humans are animals.
+- Taylor is captured and discovers with help from Cornelius and Zira that the planet is Earth's future.
+- The buried Statue of Liberty reveals it.

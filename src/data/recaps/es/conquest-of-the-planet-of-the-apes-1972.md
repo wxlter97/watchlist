@@ -1,0 +1,3 @@
+- En 1991, tras una plaga, los simios son esclavos; César, hijo de Cornelius y Zira, crece como líder.
+- Organiza una rebelión de los simios contra los humanos.
+- Triunfa y declara una nueva era.

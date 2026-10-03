@@ -1,0 +1,3 @@
+- Years after the rebellion, Caesar leads apes and humans in a city.
+- Gorillas led by Aldo want war against the mutant humans.
+- Caesar achieves a fragile truce.

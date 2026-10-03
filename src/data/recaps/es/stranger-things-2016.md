@@ -1,0 +1,3 @@
+- **Temporada 1:** en 1983, Will Byers desaparece en Hawkins y sus amigos conocen a Once, una niña con poderes que escapó de un laboratorio.
+- **Temporadas 2–4:** el Mundo del Revés y el Azotamentes amenazan al pueblo; en la cuarta aparece Vecna.
+- **Temporada 5:** en 1987, el grupo persigue a Vecna mientras se abren portales; descubren que el Mundo del Revés es un agujero de gusano y lo destruyen. Once se queda dentro del mundo que se derrumba y, dieciocho meses después, queda la esperanza de que esté viva.

@@ -1,0 +1,3 @@
+- Will Rodman, a scientist, develops an Alzheimer's drug that increases a chimpanzee's intelligence, Caesar.
+- Caesar grows up, is sent to a shelter and rebels against the mistreatment.
+- He leads an ape escape and the virus from the treatment spreads among humans.

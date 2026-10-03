@@ -1,0 +1,3 @@
+- En 1935, Indy llega a la India con la cantante Willie y el niño Short Round.
+- Los lleva a un palacio donde una secta roba niños y busca piedras sagradas.
+- Indy libera a los niños y recupera la piedra Sankara.

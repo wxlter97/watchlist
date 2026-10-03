@@ -1,0 +1,3 @@
+- A detective, Zeke Banks, investigates a series of murders that imitate Jigsaw.
+- His father, a former police chief, is implicated.
+- The investigation leads him to corruption within his own department.

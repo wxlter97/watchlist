@@ -1,0 +1,4 @@
+- Dos meses después, Ethan se niega a entregar la llave y persigue a Gabriel, que también la quiere.
+- El equipo recupera un módulo, el Podkova, de un submarino ruso hundido, mientras la Entidad amenaza con lanzar armas nucleares.
+- Gabriel mata a Luther y escapa con el módulo; en un biplano, Ethan lo derrota e inserta el programa antivirus.
+- El equipo atrapa a la Entidad antes del lanzamiento, y Ethan cierra su última misión.

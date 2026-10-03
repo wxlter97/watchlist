@@ -1,0 +1,3 @@
+- Diez años después, el virus ha diezmado a la humanidad y los simios de César viven en el bosque.
+- Un grupo de humanos busca restaurar una presa; Koba, simio traumatizado, quiere guerra.
+- Koba inicia el conflicto y la guerra se vuelve inevitable.

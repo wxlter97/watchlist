@@ -1,0 +1,3 @@
+- Tras la muerte de Neteyam, los Sully escoltan a Spider a un asentamiento humano, pero son atacados por los Mangkwan, un clan hostil.
+- Quaritch se alía con ellos; Kiri se comunica con Eywa y despierta la fauna.
+- Quaritch muere en su enfrentamiento final con Jake; Spider es aceptado entre los Na'vi.

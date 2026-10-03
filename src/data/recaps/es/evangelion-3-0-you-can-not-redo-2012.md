@@ -1,0 +1,3 @@
+- Catorce años después, Shinji despierta en un mundo cambiado, con WILLE enfrentando a NERV.
+- Kaworu se acerca a él.
+- Shinji provoca una nueva catástrofe y queda devastado.

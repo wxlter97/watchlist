@@ -1,0 +1,3 @@
+- Los Decepticons buscan resucitar a Megatron y destruir el Sol con ayuda de The Fallen.
+- Sam recibe un conocimiento que se vuelve clave.
+- Optimus muere y es resucitado.

@@ -1,0 +1,3 @@
+- Jake Sully, un exmarine parapléjico, se une a una misión en Pandora, usando un cuerpo Na'vi, un avatar.
+- Se infiltra entre los Na'vi para convencerlos de ceder su tierra a la RDA, pero se enamora de Neytiri.
+- Jake lidera a los Na'vi contra la RDA y se queda a vivir como uno de ellos.

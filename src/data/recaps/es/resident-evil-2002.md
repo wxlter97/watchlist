@@ -1,0 +1,3 @@
+- Alice despierta sin memoria en una mansión; un equipo militar la lleva a La Colmena, un laboratorio de Umbrella.
+- El virus T ha convertido a los empleados en zombis.
+- Alice sobrevive y ve la ciudad infectada.

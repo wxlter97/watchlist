@@ -1,0 +1,3 @@
+- Seis adolescentes de un campamento en Isla Nublar quedan atrapados cuando los dinosaurios escapan durante los hechos de Jurassic World.
+- A lo largo de cinco temporadas sobreviven a distintos peligros, entre cazadores y robots de una corporación misteriosa.
+- En la última temporada, ya jóvenes adultos, descubren una gran conspiración.

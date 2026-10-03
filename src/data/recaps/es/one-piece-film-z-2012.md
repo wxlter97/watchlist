@@ -1,0 +1,3 @@
+- Z, un exalmirante de la Marina, quiere destruir el Nuevo Mundo.
+- Los Sombrero de Paja son arrastrados a su plan.
+- Luffy lo enfrenta.

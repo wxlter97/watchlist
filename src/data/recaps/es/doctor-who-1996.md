@@ -1,0 +1,3 @@
+- Película para televisión: el Séptimo Doctor se regenera en el Octavo, interpretado por Paul McGann.
+- Se enfrenta al Amo.
+- Intentó relanzar la serie.

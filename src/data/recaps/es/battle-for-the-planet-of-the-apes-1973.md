@@ -1,0 +1,3 @@
+- Años después de la rebelión, César lidera a simios y humanos en una ciudad.
+- Gorilas liderados por Aldo quieren la guerra contra los humanos mutantes.
+- César logra una tregua frágil.

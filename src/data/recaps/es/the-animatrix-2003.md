@@ -1,0 +1,2 @@
+- Colección de nueve cortos animados ambientados en el universo de Matrix.
+- Entre ellos, «El segundo renacimiento», que cuenta cómo las máquinas ganaron la guerra; y «La última vuelta del Osiris», previa a Reloaded.

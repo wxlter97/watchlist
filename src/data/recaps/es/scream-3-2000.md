@@ -1,0 +1,3 @@
+- En el set de Stab 3 en Hollywood, los miembros del reparto son asesinados.
+- Sidney vuelve a enfrentarse a Ghostface.
+- El asesino resulta tener un vínculo con su madre.

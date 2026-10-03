@@ -1,0 +1,3 @@
+- Ten years later, Sidney returns to Woodsboro to promote her book.
+- Her cousin Jill and her friends are attacked by a new Ghostface.
+- The killer seeks fame and to follow the remake rules.

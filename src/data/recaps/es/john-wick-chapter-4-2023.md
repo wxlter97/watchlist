@@ -1,0 +1,3 @@
+- John busca acabar con la persecución de la Alta Mesa; se alía con Caine y con el Rey de Osaka.
+- El marqués Vincent de Gramont, el nuevo líder, lo persigue por todo el mundo.
+- John acuerda un duelo con Gramont y lo mata, pero queda herido de muerte y muere en las escaleras del Sacré-Cœur.

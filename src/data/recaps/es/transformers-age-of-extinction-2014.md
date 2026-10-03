@@ -1,0 +1,3 @@
+- Años después, una agencia caza a los Transformers; el inventor Cade Yeager esconde a Optimus.
+- El cazarrecompensas Lockdown persigue a Optimus.
+- Los Dinobots ayudan a Optimus a derrotar a Galvatron.

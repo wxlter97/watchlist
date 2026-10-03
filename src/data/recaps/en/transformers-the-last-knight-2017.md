@@ -1,0 +1,3 @@
+- Cybertron approaches Earth and Optimus Prime, under Quintessa's control, attacks humans.
+- Cade seeks Merlin's staff to save the planet.
+- Optimus regains his will and the staff stops the threat.

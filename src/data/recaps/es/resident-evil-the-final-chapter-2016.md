@@ -1,0 +1,3 @@
+- Alice regresa a Raccoon City para obtener un antivirus.
+- Descubre que la Colmena es clave.
+- Isaacs la enfrenta y ella lo derrota.

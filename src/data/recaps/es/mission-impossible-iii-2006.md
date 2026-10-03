@@ -1,0 +1,3 @@
+- Ethan vive retirado y a punto de casarse con Julia cuando lo reclutan para rescatar a una agente.
+- El traficante Owen Davian busca el Pie de Conejo, un arma misteriosa.
+- Davian secuestra a Julia; Ethan lo derrota y ella lo apoya en la misión.

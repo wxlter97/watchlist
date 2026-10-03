@@ -1,0 +1,3 @@
+- Serie animada ambientada en el invierno de 1985, entre la segunda y la tercera temporada.
+- Un científico libera esporas de una criatura del Mundo del Revés y aparecen monstruos como un tiburón de nieve y zombis de calabaza.
+- El grupo, con la nueva alumna Nikki Baxter, cierra el portal.

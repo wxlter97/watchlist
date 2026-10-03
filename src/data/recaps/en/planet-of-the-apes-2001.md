@@ -1,0 +1,3 @@
+- Astronaut Leo Davidson crashes on a planet ruled by apes and joins a rebellion.
+- He faces General Thade.
+- He returns to Earth and finds it ruled by apes.

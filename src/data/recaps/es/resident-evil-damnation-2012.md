@@ -1,0 +1,3 @@
+- Leon Kennedy viaja a una república de Europa del Este para investigar armas biológicas.
+- Se involucra en una guerra civil con criaturas.
+- Detiene a quien las controla.

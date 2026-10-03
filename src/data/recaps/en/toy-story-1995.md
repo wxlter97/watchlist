@@ -1,0 +1,3 @@
+- Andy's toys come to life when he's away; Woody is his favorite.
+- The arrival of Buzz Lightyear, who believes he is a space ranger, causes jealousy.
+- They both get lost, team up and get back to Andy.

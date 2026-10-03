@@ -1,0 +1,3 @@
+- Netflix series with two timelines: a young Jade and her sister Billie in 2022 and an adult Jade in 2036.
+- The virus has turned much of the world into monsters.
+- Jade's relationship with Albert Wesker is explored.

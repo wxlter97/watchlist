@@ -1,0 +1,3 @@
+- Adonis, retirado, se reencuentra con un amigo de infancia, Damian, que salió de prisión.
+- Damian quiere una oportunidad de boxear.
+- Se enfrentan en el ring.

@@ -1,0 +1,2 @@
+- Revival de la serie: un nuevo equipo de la FMI dirigido por Jim Phelps ejecuta misiones de espionaje con engaños.
+- Mantiene la estructura de operaciones autocontenidas.

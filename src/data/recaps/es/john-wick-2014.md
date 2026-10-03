@@ -1,0 +1,3 @@
+- John Wick, asesino retirado, pierde a su esposa y recibe un cachorro de regalo de ella.
+- Unos mafiosos rusos le roban el auto y matan al perro; John vuelve a su vida de asesino para vengarse.
+- Mata al hijo del jefe y a su círculo; la película presenta el hotel Continental y las reglas del mundo.

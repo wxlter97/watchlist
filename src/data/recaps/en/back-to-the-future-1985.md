@@ -1,0 +1,3 @@
+- Marty McFly travels from 1985 to 1955 in Doc Brown's DeLorean.
+- He interferes with his parents' meeting and must get his mother to fall for his father.
+- He returns to 1985 with Doc's help, to a better future for his family.

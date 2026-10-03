@@ -1,0 +1,3 @@
+- Hammond revela que InGen también creó dinosaurios en otra isla, Isla Sorna; Malcolm es enviado a investigar.
+- Un equipo rival de InGen quiere capturar los animales para un parque en San Diego.
+- Un T. rex llega a la ciudad y causa estragos antes de volver a su isla.

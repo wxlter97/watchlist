@@ -1,0 +1,3 @@
+- Bourne returns to action when Nicky Parsons reveals facts about his father.
+- CIA director Dewey and the Asset hunt him.
+- Bourne defies the CIA once more.

@@ -1,0 +1,3 @@
+- John Wick, a retired assassin, loses his wife and receives a puppy she left him.
+- Russian mobsters steal his car and kill the dog; John returns to his assassin life for revenge.
+- He kills the boss's son and his circle; the film introduces the Continental hotel and the rules of the world.

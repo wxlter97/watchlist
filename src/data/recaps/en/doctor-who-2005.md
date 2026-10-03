@@ -1,0 +1,3 @@
+- Return of the series: the Ninth Doctor (Eccleston) meets Rose Tyler.
+- The Tenth (Tennant), Eleventh (Smith), Twelfth (Capaldi) and Thirteenth (Whittaker) Doctors follow.
+- The Daleks, Cybermen and the Master remain the threats.

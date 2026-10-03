@@ -1,0 +1,3 @@
+- Caesar is forced to fight a colonel who leads the hunt for the apes.
+- A virus makes humans lose their speech; the apes are captured.
+- Caesar frees his people and leads the apes to a new home.

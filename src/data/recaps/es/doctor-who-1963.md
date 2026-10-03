@@ -1,0 +1,3 @@
+- Un alienígena, el Doctor, viaja en el tiempo y el espacio en la TARDIS, una nave con forma de cabina policial.
+- Se regenera en nuevos rostros: Hartnell, Troughton, Pertwee, Baker, Davison, Baker, McCoy.
+- Enfrenta a villanos como los Daleks y los Cybermen.

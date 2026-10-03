@@ -1,0 +1,3 @@
+- Henry Turner, hijo de Will, busca romper la maldición del Holandés Errante.
+- Salazar, un cazapiratas fantasma, persigue a Jack.
+- Rompen la maldición y Will se reúne con Elizabeth.

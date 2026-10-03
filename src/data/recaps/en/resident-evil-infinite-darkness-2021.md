@@ -1,0 +1,3 @@
+- Series set in 2006: an attack on the White House involves a virus.
+- Leon and Claire investigate a government conspiracy.
+- A conspiracy rooted in an earlier war is revealed.

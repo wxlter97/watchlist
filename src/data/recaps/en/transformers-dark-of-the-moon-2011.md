@@ -1,0 +1,3 @@
+- The Autobots discover a Cybertronian ship crashed on the Moon in the 1960s.
+- Sentinel Prime, an old leader, betrays them.
+- The Autobots win in Chicago.

@@ -1,0 +1,3 @@
+- Shiki, un pirata legendario, quiere destruir el mundo.
+- Secuestra a Nami y a los Sombrero de Paja.
+- Luffy lo derrota; la película se considera una de las mejores.

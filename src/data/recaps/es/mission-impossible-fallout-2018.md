@@ -1,0 +1,3 @@
+- Tras perder tres plutonios por salvar a Luther, Ethan debe recuperarlos mientras la CIA envía a Walker a vigilarlo.
+- Los plutonios iban a manos de los Apóstoles, aliados del Sindicato, y de John Lark.
+- Ethan y Ilsa detienen la bomba; Lark resulta ser Walker.

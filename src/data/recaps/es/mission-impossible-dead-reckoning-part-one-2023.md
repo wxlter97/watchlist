@@ -1,0 +1,3 @@
+- Ethan busca las dos mitades de una llave capaces de controlar a la Entidad, una IA que se vuelve autónoma.
+- Gabriel, un agente del pasado de Ethan, la sirve; Grace, una ladrona, se une al equipo.
+- Gabriel mata a Ilsa; la película termina con Ethan en un tren con la llave.

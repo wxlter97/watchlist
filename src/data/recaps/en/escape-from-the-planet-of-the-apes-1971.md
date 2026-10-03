@@ -1,0 +1,3 @@
+- Cornelius, Zira and the scientist Milo travel back in time to 1973 in Taylor's ship.
+- They are treated as celebrities until it's feared their child will bring about humanity's fall.
+- Zira and Cornelius die; their baby, hidden in a circus, will become Caesar.

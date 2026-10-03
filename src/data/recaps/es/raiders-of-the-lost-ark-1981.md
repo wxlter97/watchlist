@@ -1,0 +1,3 @@
+- En 1936, el arqueólogo Indiana Jones debe encontrar el Arca de la Alianza antes que los nazis.
+- Recupera con Marion Ravenwood la pieza clave del Cetro de Ra y viaja a Egipto.
+- Los nazis abren el Arca y mueren; el gobierno estadounidense la guarda en un almacén secreto.

@@ -1,0 +1,3 @@
+- Aaron Cross, an agent from another program, is at risk after the events of Ultimatum.
+- He seeks a scientist to get the medication that sustains him.
+- They escape together.

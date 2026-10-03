@@ -1,0 +1,3 @@
+- Jack owes a debt to Davy Jones, captain of the Flying Dutchman, and seeks the Dead Man's Chest.
+- Will and Elizabeth help, arrested by Lord Beckett.
+- Jack is devoured by the Kraken; the film ends with Barbossa back.

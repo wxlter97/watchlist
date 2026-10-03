@@ -1,0 +1,3 @@
+- **Series 14:** the Fifteenth Doctor (Gatwa) and Ruby Sunday face Sutekh, who had been hidden; the Doctor defeats him by releasing him into the time vortex.
+- **Series 15:** the Doctor tries to return Belinda Chandra home while Mrs. Flood, who turns out to be the Rani, seeks to resurrect Omega.
+- The Doctor defeats Omega and triggers his own regeneration.

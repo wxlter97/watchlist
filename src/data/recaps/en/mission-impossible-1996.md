@@ -1,0 +1,3 @@
+- Ethan Hunt survives a failed mission in Prague in which his team dies and he is suspected of being the traitor.
+- With help from Luther and Krieger he hunts the real culprit, who turns out to be his mentor, Jim Phelps.
+- Hunt stops him on a train in the Channel Tunnel.

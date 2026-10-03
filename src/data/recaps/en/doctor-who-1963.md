@@ -1,0 +1,3 @@
+- An alien, the Doctor, travels through time and space in the TARDIS, a ship shaped like a police box.
+- He regenerates into new faces: Hartnell, Troughton, Pertwee, Baker, Davison, Baker, McCoy.
+- He faces villains like the Daleks and the Cybermen.

@@ -1,0 +1,3 @@
+- Una epidemia en San Francisco lleva a Leon, Chris, Jill, Claire y Rebecca a Alcatraz.
+- Allí un villano usa a los infectados para su plan.
+- El equipo lo detiene.

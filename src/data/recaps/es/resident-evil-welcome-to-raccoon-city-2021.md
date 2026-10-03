@@ -1,0 +1,3 @@
+- En 1998, Claire Redfield regresa a Raccoon City, donde Umbrella ha dejado un desastre.
+- Su hermano Chris, Jill, Leon y otros enfrentan zombis en una mansión.
+- Descubren la traición de Wesker mientras Birkin escapa.

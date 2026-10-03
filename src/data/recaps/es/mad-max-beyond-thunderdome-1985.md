@@ -1,0 +1,3 @@
+- Max llega a Bartertown, gobernada por Tía Entity.
+- Es obligado a luchar en el Thunderdome.
+- Escapa con niños de una comunidad en el desierto.

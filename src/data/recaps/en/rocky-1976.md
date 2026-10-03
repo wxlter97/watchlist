@@ -1,0 +1,3 @@
+- Rocky Balboa, a mediocre Philadelphia boxer, gets the chance to fight champion Apollo Creed.
+- He trains hard and meets Adrian.
+- He loses by decision but goes the full fifteen rounds.

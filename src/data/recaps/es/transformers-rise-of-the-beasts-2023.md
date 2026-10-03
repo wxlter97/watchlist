@@ -1,0 +1,3 @@
+- En 1994, Noah y Elena descubren a los Autobots, que luchan contra los Terrorcons de Unicron.
+- Los Maximals, dirigidos por Optimus Primal, se unen a ellos.
+- Impiden que Unicron obtenga la Llave Transwarp.

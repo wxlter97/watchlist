@@ -1,0 +1,3 @@
+- Veintidós años después, Isla Nublar es un parque abierto, Jurassic World, que crea un híbrido, el Indominus Rex.
+- El Indominus escapa; Owen Grady, entrenador de velociraptores, y Claire Dearing intentan detenerlo.
+- Lo derrotan con ayuda del T. rex original y un mosasaurio; el parque se evacúa y queda cerrado.

@@ -1,0 +1,3 @@
+- Ethan lives in semi-retirement and is about to marry Julia when he is recruited to rescue an agent.
+- The trafficker Owen Davian seeks the Rabbit's Foot, a mysterious weapon.
+- Davian kidnaps Julia; Ethan beats him and she supports him in the mission.

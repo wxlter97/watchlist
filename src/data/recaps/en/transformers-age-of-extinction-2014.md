@@ -1,0 +1,3 @@
+- Years later, an agency hunts the Transformers; inventor Cade Yeager hides Optimus.
+- The bounty hunter Lockdown pursues Optimus.
+- The Dinobots help Optimus defeat Galvatron.

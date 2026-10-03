@@ -1,0 +1,3 @@
+- Serie ambientada en 2006: un ataque a la Casa Blanca implica un virus.
+- Leon y Claire investigan una conspiración del gobierno.
+- Se revela una conspiración con raíces en una guerra anterior.

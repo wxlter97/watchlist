@@ -1,0 +1,3 @@
+- Mari Makinami, a new pilot, appears and Asuka Shikinami Langley arrives.
+- Shinji faces Angels; the team bonds.
+- Shinji makes his own choices and breaks the series' cycle.

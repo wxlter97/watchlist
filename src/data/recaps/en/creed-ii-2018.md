@@ -1,0 +1,3 @@
+- Adonis wins the title and is challenged by Viktor Drago, son of Ivan, who killed his father.
+- Rocky opposes the fight.
+- Adonis wins in the end.

@@ -1,0 +1,3 @@
+- Otro astronauta, Brent, busca a Taylor y llega a la Zona Prohibida.
+- Descubren a unos humanos mutantes telépatas que veneran una bomba atómica.
+- El conflicto desemboca en la destrucción de la Tierra.

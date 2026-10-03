@@ -1,0 +1,3 @@
+- Five years after Dominion, a team led by Zora Bennett goes to a forbidden island to collect DNA from three huge dinosaurs for a heart treatment.
+- They rescue a shipwrecked family and get stranded while facing mutants, including a six-limbed T. rex.
+- They escape through tunnels to a boat; Zora and the paleontologist decide to release the biological material for global benefit.

@@ -1,0 +1,3 @@
+- A retelling: Shinji arrives in Tokyo-3 and pilots Eva-01.
+- Rei joins; they face the Angels, including Ramiel.
+- It introduces subtle changes to the series.

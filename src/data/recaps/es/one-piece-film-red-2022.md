@@ -1,0 +1,3 @@
+- Uta, la cantante más famosa del mundo y amiga de Luffy de la infancia, es hija de Shanks.
+- Quiere crear un mundo de paz con su música.
+- Su poder vuelve amenazador y los Sombrero de Paja deben detenerla.

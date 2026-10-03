@@ -1,0 +1,3 @@
+- Ivan Drago, boxeador soviético, mata a Apollo Creed en un combate de exhibición.
+- Rocky viaja a la URSS para vengarlo.
+- Derrota a Drago en un combate.

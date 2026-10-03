@@ -1,0 +1,3 @@
+- Ethan must find a virus and its antidote, stolen by former agent Sean Ambrose.
+- He enlists the thief Nyah, with whom he becomes involved.
+- It is the most standalone film of the saga.

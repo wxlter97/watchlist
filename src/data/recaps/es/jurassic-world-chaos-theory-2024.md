@@ -1,0 +1,3 @@
+- Seis años después de escapar de Isla Nublar, el grupo descubre que Brooklynn sobrevivió y que investiga una red de tráfico de dinosaurios.
+- Con la ayuda de la Corredora, que opera una instalación de clonación en Senegal, reúnen pruebas.
+- Se infiltran en Biosyn Valley para frenar la militarización de los dinosaurios y terminan apoyando la conservación.

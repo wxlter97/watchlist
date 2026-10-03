@@ -1,0 +1,3 @@
+- Eve Macarro, hija de asesinos, es criada por la Ruska Roma tras la muerte de su padre y se entrena como bailarina y asesina.
+- Descubre a un miembro de un culto con la marca de quienes mataron a su padre y se rebela para vengarse.
+- John Wick es enviado a detenerla pero acaba ayudándola. Eve derrota al Canciller y deja la Ruska Roma con una recompensa.

@@ -1,0 +1,3 @@
+- Katniss and Peeta become symbols of rebellion; President Snow decides to eliminate them.
+- They are forced to compete in a Quarter Quell with former champions.
+- Katniss destroys the arena and is rescued by the rebels.

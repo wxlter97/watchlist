@@ -1,0 +1,3 @@
+- Años después, Thomas Anderson es un diseñador de videojuegos que ha creado «Matrix», basado en sus recuerdos.
+- Morfeo (en una versión nueva) y Bugs lo liberan de nuevo; Neo busca a Trinity, atrapada como Tiffany.
+- Ambos recuperan su poder y se unen para cambiar el mundo.

@@ -1,0 +1,3 @@
+- NERV es atacada por fuerzas militares mientras SEELE inicia el Proyecto de Instrumentalidad.
+- Shinji debe decidir qué hacer con un mundo fusionado.
+- Elige vivir con la gente aunque implique dolor.

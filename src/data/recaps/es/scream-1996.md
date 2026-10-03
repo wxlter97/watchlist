@@ -1,0 +1,3 @@
+- En Woodsboro, un asesino enmascarado, Ghostface, mata a adolescentes y acecha a Sidney Prescott.
+- Juega con las reglas de las películas de terror.
+- Los asesinos son Billy y Stu; Sidney sobrevive.

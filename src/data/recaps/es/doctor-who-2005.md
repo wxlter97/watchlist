@@ -1,0 +1,3 @@
+- Regreso de la serie: el Noveno Doctor (Eccleston) conoce a Rose Tyler.
+- Siguen los Doctores Décimo (Tennant), Undécimo (Smith), Duodécimo (Capaldi) y la Decimotercera (Whittaker).
+- Se mantienen los Daleks, los Cybermen y el Amo como amenazas.

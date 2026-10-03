@@ -1,0 +1,3 @@
+- John seeks to end the High Table's pursuit; he allies with Caine and the King of Osaka.
+- Marquis Vincent de Gramont, the new leader, hunts him across the world.
+- John agrees to a duel with Gramont and kills him, but is mortally wounded and dies on the steps of Sacré-Cœur.

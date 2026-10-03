@@ -1,0 +1,3 @@
+- Uta, the world's most famous singer and Luffy's childhood friend, is Shanks's daughter.
+- She wants to create a peaceful world with her music.
+- Her power turns threatening and the Straw Hats must stop her.

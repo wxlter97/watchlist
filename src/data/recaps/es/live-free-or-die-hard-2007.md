@@ -1,0 +1,3 @@
+- McClane ayuda a un hacker joven, Matt Farrell, ante un ciberataque a EE. UU.
+- Thomas Gabriel dirige el ataque.
+- McClane lo detiene.

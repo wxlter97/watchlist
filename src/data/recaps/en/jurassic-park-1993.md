@@ -1,0 +1,4 @@
+- John Hammond opens a park on Isla Nublar with dinosaurs cloned from DNA preserved in amber.
+- Before opening, paleontologist Alan Grant, paleobotanist Ellie Sattler and mathematician Ian Malcolm visit to vouch for it.
+- A saboteur, Dennis Nedry, shuts down security to steal embryos; the dinosaurs get loose and the group must survive.
+- The survivors leave the island and Hammond gives up on his project.

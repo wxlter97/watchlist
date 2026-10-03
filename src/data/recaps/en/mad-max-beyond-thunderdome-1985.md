@@ -1,0 +1,3 @@
+- Max arrives at Bartertown, ruled by Aunty Entity.
+- He is forced to fight in the Thunderdome.
+- He escapes with children from a community in the desert.

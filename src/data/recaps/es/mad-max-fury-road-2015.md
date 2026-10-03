@@ -1,0 +1,3 @@
+- Furiosa huye de Immortan Joe con sus esposas cautivas en un camión.
+- Max se une a ella tras ser capturado como fuente de sangre.
+- Derrotan a Joe y entregan la Ciudadela a los oprimidos.

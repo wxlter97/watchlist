@@ -1,0 +1,3 @@
+- Ten thousand years before Paul Atreides, sisters Valya and Tula Harkonnen lead the Sisterhood that will become the Bene Gesserit.
+- Desmond Hart, a soldier with unexplained powers, threatens to burn his victims.
+- It's revealed Desmond is Tula's son and hidden forces are driving events.

@@ -1,0 +1,3 @@
+- Aparece Mari Makinami, nueva piloto, y Asuka Shikinami Langley llega.
+- Shinji enfrenta a Ángeles; el equipo se une.
+- Shinji toma decisiones propias y rompe el ciclo de la serie.

@@ -1,0 +1,3 @@
+- Santino D'Antonio, un capo italiano, cobra un favor a John: matar a su hermana para ocupar su lugar en la Alta Mesa.
+- John cumple y luego se vuelve contra Santino.
+- Lo mata dentro del Continental, rompiendo las reglas; queda excomulgado y con un precio en la cabeza.

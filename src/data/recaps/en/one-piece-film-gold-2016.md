@@ -1,0 +1,3 @@
+- The Straw Hats arrive at Gran Tesoro, a gambling city run by Gild Tesoro.
+- The crew falls under his control.
+- Luffy confronts him.

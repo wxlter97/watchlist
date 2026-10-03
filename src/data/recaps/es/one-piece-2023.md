@@ -1,0 +1,2 @@
+- **Temporada 1:** Luffy reúne a Zoro, Nami, Usopp y Sanji en el East Blue y enfrentan a Buggy y a Arlong, que oprime la tierra de Nami.
+- **Temporada 2:** entran al Grand Line, enfrentan a Baroque Works, reclutan a Chopper y conocen a la princesa Vivi; la temporada termina en Drum Island antes de Alabasta.

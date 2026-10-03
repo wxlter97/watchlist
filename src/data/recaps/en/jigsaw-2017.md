@@ -1,0 +1,3 @@
+- Years after John Kramer's death, new victims appear with his signature.
+- Forensic investigators wonder: is it a copycat or his return?
+- It's revealed who is continuing the games.

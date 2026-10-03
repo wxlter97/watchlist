@@ -1,0 +1,3 @@
+- Rocky Balboa, un boxeador mediocre de Filadelfia, recibe la oportunidad de pelear contra el campeón Apollo Creed.
+- Se entrena duro y conoce a Adrian.
+- Pierde por decisión, pero resiste los quince asaltos.

@@ -1,0 +1,3 @@
+- Sixty-four years earlier, Coriolanus Snow, a young aristocrat, mentors Lucy Gray Baird in the Tenth Hunger Games.
+- They fall in love, but he betrays his values out of ambition.
+- He ends up becoming the president Katniss knows.
