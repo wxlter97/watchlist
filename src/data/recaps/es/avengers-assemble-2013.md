@@ -1,0 +1,3 @@
+- Los Vengadores enfrentan a Red Skull y luego a Thanos y Ultron.
+- Cruzan a Spider-Man y a otros héroes.
+- Termina con la Guerra Secreta y la Pantera Negra.

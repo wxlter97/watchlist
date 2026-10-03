@@ -1,0 +1,3 @@
+- In an alternate MCU timeline, Peter Parker gains powers through a temporal paradox.
+- Norman Osborn is his mentor.
+- The series follows his life as a student and hero.

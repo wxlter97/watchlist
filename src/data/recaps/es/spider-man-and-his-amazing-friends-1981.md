@@ -1,0 +1,2 @@
+- Spider-Man vive con Ice Man y Firestar, compañeros de universidad, y forman un equipo.
+- Enfrentan a villanos de los cómics.

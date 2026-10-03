@@ -1,0 +1,2 @@
+- Hulk and his companions form the Agents of S.M.A.S.H., with humor and cosmic adventures.
+- A light series for younger viewers.

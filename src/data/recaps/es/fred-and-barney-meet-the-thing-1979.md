@@ -1,0 +1,2 @@
+- Programa de Hanna-Barbera donde la Cosa aparece junto a Pedro Picapiedra y Pablo Mármol.
+- Mezcla humor con superhéroes.

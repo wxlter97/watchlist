@@ -1,0 +1,2 @@
+- 1978 TV film: Stephen Strange is chosen as Sorcerer Supreme.
+- He faces a sorceress, Morgan le Fay.

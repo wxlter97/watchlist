@@ -1,0 +1,2 @@
+- Blade se alía con vampiros para enfrentar a los Reapers, mutantes que se alimentan de vampiros y humanos.
+- Dirigida por Guillermo del Toro.

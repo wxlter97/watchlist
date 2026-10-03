@@ -1,0 +1,3 @@
+- Eddie Brock, a journalist, bonds with an alien symbiote, Venom.
+- He investigates Carlton Drake of the Life Foundation.
+- Venom and Eddie team up to stop Riot.

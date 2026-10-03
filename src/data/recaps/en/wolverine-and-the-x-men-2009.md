@@ -1,0 +1,3 @@
+- After Xavier and Jean vanish, Wolverine reunites the X-Men.
+- They face the Brotherhood, the Hellfire Club and the Age of Apocalypse threat.
+- The cause of the explosion is revealed: the Phoenix.

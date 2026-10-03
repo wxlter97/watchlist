@@ -1,0 +1,3 @@
+- Peter intenta mantener a Gwen sin renunciar a ser Spider-Man.
+- Max Dillon se convierte en Electro y Harry Osborn en el Duende Verde.
+- Gwen muere en el enfrentamiento.

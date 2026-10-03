@@ -1,0 +1,2 @@
+- Especial de LEGO centrado en Loki.
+- Está dirigido a un público infantil.

@@ -1,0 +1,2 @@
+- Telefilme de 1978: Spider-Man enfrenta a un criminal que busca una gema.
+- Es un compendio de episodios.

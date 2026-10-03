@@ -1,0 +1,3 @@
+- Cuenta el origen de Wolverine: su infancia, su guerra junto a Victor Creed (Sabretooth) y el experimento Arma X.
+- Con el adamantium en los huesos, se enfrenta a su hermano y a Wade Wilson convertido en Deadpool.
+- Termina sin memoria.

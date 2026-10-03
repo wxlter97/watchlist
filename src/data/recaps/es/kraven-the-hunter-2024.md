@@ -1,0 +1,3 @@
+- Sergei Kravinoff, tras un accidente de caza, obtiene habilidades animales.
+- Se convierte en Kraven y enfrenta a su padre, jefe de una banda.
+- Su hermano hereda el imperio y obtiene poderes.

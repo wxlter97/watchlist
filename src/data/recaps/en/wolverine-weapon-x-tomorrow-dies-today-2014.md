@@ -1,0 +1,2 @@
+- Motion comic: Wolverine faces a threat in the future.
+- A comic with voices.

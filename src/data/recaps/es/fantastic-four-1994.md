@@ -1,0 +1,2 @@
+- Serie animada de los Cuatro Fantásticos con Doctor Doom y Galactus como villanos.
+- Forma parte del universo animado de los 90.

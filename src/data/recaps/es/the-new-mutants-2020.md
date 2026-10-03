@@ -1,0 +1,3 @@
+- Cinco jóvenes mutantes están recluidos en un hospital psiquiátrico donde son vigilados por una doctora.
+- Intentan escapar cuando sus miedos cobran forma.
+- Su historia queda sin continuación.

@@ -1,0 +1,2 @@
+- Serie animada de seis episodios: Wolverine busca a Hulk, el cual huye tras una explosión.
+- Es una historia corta.

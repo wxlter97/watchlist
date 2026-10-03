@@ -1,0 +1,3 @@
+- A family discovers its children are mutants and flees from a government hunting them.
+- They join an underground network of mutants.
+- Season two deepens the conflict between two mutant factions.

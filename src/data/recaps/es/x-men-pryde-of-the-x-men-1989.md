@@ -1,0 +1,2 @@
+- Piloto animado: los X-Men enfrentan a la Hermandad de Mutantes.
+- Fue un precursor de la serie de los 90.

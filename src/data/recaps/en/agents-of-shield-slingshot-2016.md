@@ -1,0 +1,2 @@
+- Web series of six shorts focused on Elena "Yo-Yo" Rodriguez, a powered agent from Agents of S.H.I.E.L.D.
+- It tells how she came to meet Coulson.

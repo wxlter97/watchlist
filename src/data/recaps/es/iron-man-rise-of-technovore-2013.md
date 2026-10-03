@@ -1,0 +1,2 @@
+- Película animada anime: Tony Stark, Iron Man, enfrenta a Technovore, un villano que usa tecnología de Stark.
+- Es una colaboración con Madhouse.

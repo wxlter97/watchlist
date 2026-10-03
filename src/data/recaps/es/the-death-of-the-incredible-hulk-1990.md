@@ -1,0 +1,2 @@
+- Último telefilme: Banner intenta curarse una vez más.
+- Termina con un final trágico.

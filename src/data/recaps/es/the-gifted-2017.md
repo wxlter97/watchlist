@@ -1,0 +1,3 @@
+- Una familia descubre que sus hijos son mutantes y huye de un gobierno que los persigue.
+- Se unen a una red clandestina de mutantes.
+- La segunda temporada ahonda en el conflicto entre dos facciones mutantes.

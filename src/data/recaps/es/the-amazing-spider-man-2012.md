@@ -1,0 +1,3 @@
+- Peter Parker investiga la desaparición de sus padres y descubre a Oscorp.
+- Es picado por una araña y se vuelve Spider-Man.
+- Se enfrenta al Lagarto y se enamora de Gwen Stacy.

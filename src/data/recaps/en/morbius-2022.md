@@ -1,0 +1,3 @@
+- Dr. Michael Morbius, with a blood disease, tries a cure using bats.
+- He becomes a living vampire.
+- He faces his friend Milo, who turns villain.

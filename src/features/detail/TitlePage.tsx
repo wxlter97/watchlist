@@ -10,7 +10,7 @@ import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker, ViewingLog } from "./ProgressDetails";
-import { Recaps } from "./Recaps";
+import { Recaps, WhyItMatters } from "./Recaps";
 import { WhereToWatch } from "./WhereToWatch";
 
 const STATUSES: WatchStatus[] = ["planned", "watching", "watched", "dropped"];
@@ -113,7 +113,8 @@ export function TitlePage() {
       </section>
 
 </div>
-      <div className="order-3 lg:order-none"><Recaps title={title} /></div>
+      <div className="order-2 lg:order-none"><WhyItMatters title={title} show={showOverview} /></div>
+<div className="order-3 lg:order-none"><Recaps title={title} /></div>
       <div className="order-5 lg:order-none"><Episodes title={title} doc={doc} /></div>
 <div className="order-11 lg:order-none">
       {appearances.length > 0 && (

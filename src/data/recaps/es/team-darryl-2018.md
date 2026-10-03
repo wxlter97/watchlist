@@ -1,0 +1,2 @@
+- Tercer corto del falso documental: Darryl vive con su nuevo compañero.
+- Se estrenó con la edición de Thor: Ragnarok.

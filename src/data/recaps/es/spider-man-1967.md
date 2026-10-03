@@ -1,0 +1,2 @@
+- Serie animada clásica: Peter Parker, fotógrafo y estudiante, es Spider-Man y enfrenta a villanos de los cómics.
+- Es famosa por su tema musical.

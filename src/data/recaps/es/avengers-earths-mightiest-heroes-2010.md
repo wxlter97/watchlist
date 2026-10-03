@@ -1,0 +1,3 @@
+- Los Vengadores se reúnen para enfrentar a los enemigos de la Tierra y a los Skrulls.
+- Siguen arcos largos con Kang, Ultron y la invasión.
+- Presenta a los héroes con base en los cómics.

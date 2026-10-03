@@ -1,0 +1,3 @@
+- In a future dominated by Sentinels, Wolverine sends his mind to 1973 to prevent the killing that creates them.
+- He brings together young Xavier and Magneto and persuades Mystique.
+- The timeline is rewritten.

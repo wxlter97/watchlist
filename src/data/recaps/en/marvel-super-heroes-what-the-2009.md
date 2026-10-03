@@ -1,0 +1,2 @@
+- Series of humor shorts with Marvel heroes in parodies.
+- It is aimed at children.

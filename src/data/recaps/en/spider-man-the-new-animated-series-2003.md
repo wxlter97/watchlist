@@ -1,0 +1,2 @@
+- CGI animated Spider-Man series, inspired by Raimi's film.
+- Peter faces classic villains.

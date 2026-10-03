@@ -1,0 +1,3 @@
+- Tandy Bowen and Tyrone Johnson, two New Orleans teens, gain powers after a disaster at a Roxxon platform.
+- They find their powers complement each other and team up.
+- In season two they investigate abductions of women and face Mayhem.

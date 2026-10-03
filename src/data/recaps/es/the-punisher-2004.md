@@ -1,0 +1,3 @@
+- Frank Castle, agente del FBI, ve morir a su familia a manos de un mafioso, Howard Saint.
+- Se convierte en el Castigador.
+- Se venga de Saint.

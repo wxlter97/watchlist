@@ -1,0 +1,2 @@
+- Animated film telling Thor and Loki's youth in Asgard.
+- It follows stories from Norse mythology.

@@ -1,0 +1,2 @@
+- Serie de cortos que parodian un noticiero del universo Marvel.
+- Comenta hechos del MCU.

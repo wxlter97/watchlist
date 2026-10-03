@@ -1,0 +1,3 @@
+- After a personal tragedy, Wade forms X-Force to protect a young mutant, Russell.
+- Cable, from the future, wants to kill Russell.
+- Deadpool prevents it and reverses the outcome.

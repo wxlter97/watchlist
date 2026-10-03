@@ -1,0 +1,2 @@
+- Película animada: Iron Man y Hulk se unen contra Zzzax y un nuevo villano.
+- Es un crossover directo a video.

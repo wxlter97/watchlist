@@ -1,0 +1,3 @@
+- Siblings Daimon and Ana Helstrom, children of a serial killer, hunt criminals and demons with supernatural powers.
+- Their institutionalized mother is possessed by the demon Kthara.
+- In the end they free their mother and take care of an agent's daughter.

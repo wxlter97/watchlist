@@ -1,0 +1,3 @@
+- Logan, haunted by Jean's death, travels to Japan over a debt to an old soldier.
+- He loses his healing and uncovers a plan against the Yashida heir.
+- He faces the Silver Samurai.

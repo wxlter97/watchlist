@@ -1,0 +1,2 @@
+- Serie animada del Silver Surfer, que busca un hogar tras servir a Galactus.
+- Enfrenta a villanos cósmicos.

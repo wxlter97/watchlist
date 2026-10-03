@@ -1,0 +1,2 @@
+- Cortos animados con Nick Fury y sus archivos de héroes.
+- Está dirigido a un público infantil.

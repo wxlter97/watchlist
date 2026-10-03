@@ -1,0 +1,2 @@
+- Animated shorts with Nick Fury and his hero files.
+- It is aimed at children.

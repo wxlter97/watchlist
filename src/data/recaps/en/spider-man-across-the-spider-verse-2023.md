@@ -1,0 +1,3 @@
+- Miles reunites with Gwen and discovers the Spider-Society, which wants to protect canon events.
+- Miguel O'Hara chases him over a rule Miles wants to break.
+- Miles ends up trapped in an alternate dimension.

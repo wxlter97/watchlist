@@ -1,0 +1,2 @@
+- A film that never officially released: Roger Corman's version with Reed, Sue, Johnny and Ben.
+- It faces Doctor Doom.

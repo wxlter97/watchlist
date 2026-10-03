@@ -1,0 +1,2 @@
+- Animated series of Jessica Drew as Spider-Woman, an agent of a secret organization.
+- It follows missions against criminals.

@@ -1,0 +1,3 @@
+- Howard, a talking duck, arrives on Earth from another dimension.
+- He teams with a singer, Beverly, to go home.
+- He faces an alien villain.

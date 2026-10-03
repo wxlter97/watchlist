@@ -1,0 +1,2 @@
+- Película animada: Loki lleva a Hulk a Asgard y Thor debe enfrentarlo.
+- Es una película de Lionsgate.

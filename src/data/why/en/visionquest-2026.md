@@ -1,0 +1,1 @@
+It closes the television trilogy that began with WandaVision and continued with Agatha All Along, with Vision, Jocasta, Tommy Maximoff and Ultron's return. It premieres on October 14, 2026; it helps to have seen WandaVision and Agatha first.

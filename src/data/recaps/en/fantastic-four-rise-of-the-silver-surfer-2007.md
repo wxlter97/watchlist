@@ -1,0 +1,3 @@
+- Reed and Sue's wedding is interrupted by the arrival of the Silver Surfer, Galactus's herald.
+- The government recruits the Four to stop him.
+- They manage to stop Galactus.

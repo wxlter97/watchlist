@@ -1,0 +1,2 @@
+- Película animada: Hulk es exiliado al planeta Sakaar, donde se convierte en gladiador.
+- Se alía con los guerreros y lidera una rebelión.

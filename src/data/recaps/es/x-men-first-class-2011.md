@@ -1,0 +1,3 @@
+- En 1962, Charles Xavier y Erik Lehnsherr se unen para detener a Sebastian Shaw durante la crisis de los misiles de Cuba.
+- Reúnen a los primeros mutantes jóvenes.
+- Sus caminos se separan: Xavier funda la escuela y Erik se vuelve Magneto.

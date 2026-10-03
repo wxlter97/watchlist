@@ -1,0 +1,2 @@
+- Versión adolescente de los X-Men, que van a la escuela de Xavier.
+- Enfrenta a la Hermandad y a Apocalipsis.

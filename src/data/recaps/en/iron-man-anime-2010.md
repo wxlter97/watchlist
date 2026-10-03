@@ -1,0 +1,2 @@
+- Anime series by Madhouse: Tony Stark travels to Japan and faces a villain named Zodiac.
+- A reboot of Iron Man in anime style.

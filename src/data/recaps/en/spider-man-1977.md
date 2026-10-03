@@ -1,0 +1,2 @@
+- 1977 series pilot: Peter becomes Spider-Man and faces a villain.
+- It's the character's first live-action appearance.

@@ -1,0 +1,2 @@
+- Six-episode animated series: Wolverine hunts Hulk, who flees after an explosion.
+- A short story.

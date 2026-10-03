@@ -1,0 +1,3 @@
+- Peter Parker, en su último año de secundaria, equilibra la escuela y su vida de Spider-Man.
+- Enfrenta a villanos de los cómics bajo la sombra de Tombstone y el Duende Verde.
+- Fue cancelada tras dos temporadas con historias sin cerrar.

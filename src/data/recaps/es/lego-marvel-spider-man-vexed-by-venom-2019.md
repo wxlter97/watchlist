@@ -1,0 +1,2 @@
+- Especial de LEGO donde Spider-Man enfrenta a Venom.
+- Está dirigido a un público infantil.

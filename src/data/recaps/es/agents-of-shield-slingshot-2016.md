@@ -1,0 +1,2 @@
+- Serie web de seis cortos centrada en Elena «Yo-Yo» Rodríguez, agente con superpoderes que aparece en Agents of S.H.I.E.L.D.
+- Cuenta cómo llegó a conocer a Coulson.

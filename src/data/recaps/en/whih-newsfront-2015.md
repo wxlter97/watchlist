@@ -1,0 +1,2 @@
+- Series of shorts parodying a Marvel-universe news program.
+- It comments on MCU events.

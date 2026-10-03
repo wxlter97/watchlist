@@ -1,0 +1,3 @@
+- En una línea alterna del MCU, Peter Parker obtiene poderes por una paradoja temporal.
+- Norman Osborn es su mentor.
+- La serie sigue su vida de estudiante y héroe.

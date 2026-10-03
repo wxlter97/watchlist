@@ -1,0 +1,2 @@
+- 1966 animated series with segments on Captain America, Hulk, Iron Man, Thor and Namor.
+- It used comic panels with little animation.

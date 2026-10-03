@@ -1,0 +1,2 @@
+- Motion comic: the Eternals and the Deviants in a comic story.
+- Part of the Marvel Knights anthology.

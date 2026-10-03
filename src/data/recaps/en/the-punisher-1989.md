@@ -1,0 +1,3 @@
+- Frank Castle, a cop, becomes the Punisher after his family's death.
+- He faces the mafia and the yakuza.
+- A low-budget film.

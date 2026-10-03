@@ -1,0 +1,2 @@
+- Animated film: Loki brings Hulk to Asgard and Thor must face him.
+- A Lionsgate film.

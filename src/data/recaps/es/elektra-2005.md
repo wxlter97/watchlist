@@ -1,0 +1,2 @@
+- Elektra, asesina tras su resurrección, protege a una madre y su hija de la Mano.
+- Se enfrenta a asesinos y a su propio pasado.

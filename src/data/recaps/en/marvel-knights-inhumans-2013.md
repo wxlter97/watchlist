@@ -1,0 +1,2 @@
+- Motion comic: the Inhuman royal family, with Black Bolt, faces a conflict in Attilan.
+- It adapts the comic's story.

@@ -1,0 +1,3 @@
+- Matt Murdock, abogado ciego con sentidos agudos, es Daredevil de noche.
+- Se enfrenta al Kingpin y a Bullseye.
+- Se enamora de Elektra, que muere.

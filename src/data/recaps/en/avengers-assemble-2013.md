@@ -1,0 +1,3 @@
+- The Avengers face Red Skull, then Thanos and Ultron.
+- They cross over with Spider-Man and other heroes.
+- It ends with Secret Wars and Black Panther.

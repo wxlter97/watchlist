@@ -1,0 +1,1 @@
+Cierra la trilogía televisiva que empezó con WandaVision y siguió con Agatha All Along, con Vision, Jocasta, Tommy Maximoff y el regreso de Ultrón. Sale el 14 de octubre de 2026; conviene haber visto WandaVision y Agatha antes.

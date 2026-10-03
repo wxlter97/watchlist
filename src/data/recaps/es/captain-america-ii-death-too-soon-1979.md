@@ -1,0 +1,2 @@
+- Segundo telefilme del Capitán América de 1979: enfrenta a un villano con un veneno.
+- Termina con él deteniendo al antagonista.

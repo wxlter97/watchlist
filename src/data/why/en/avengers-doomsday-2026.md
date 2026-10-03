@@ -1,0 +1,1 @@
+The Multiverse Saga's big crossover, directed by the Russo brothers and scheduled for December 18, 2026, with Robert Downey Jr. as Doctor Doom. It brings together the Avengers, the Fantastic Four, the Thunderbolts and the original Fox X-Men. The "Get ready for Doomsday" route follows Disney+'s official list.

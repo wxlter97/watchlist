@@ -1,0 +1,2 @@
+- Continuation of the mockumentary with Darryl and Thor.
+- It tells Darryl's life without Thor.

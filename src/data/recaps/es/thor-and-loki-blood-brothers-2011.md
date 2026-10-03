@@ -1,0 +1,2 @@
+- Corto en motion comic de Thor y Loki.
+- Cuenta su relación como hermanos.

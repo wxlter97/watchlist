@@ -1,0 +1,2 @@
+- A Hanna-Barbera show where the Thing appears alongside Fred and Barney.
+- It mixes humor with superheroes.

@@ -1,0 +1,3 @@
+- El doctor Michael Morbius, con una enfermedad de la sangre, prueba una cura con murciélagos.
+- Se convierte en un vampiro viviente.
+- Enfrenta a su amigo Milo, que se vuelve villano.

@@ -1,0 +1,3 @@
+- Eddie y Venom huyen a México, perseguidos por el gobierno y por los xenófagos de Knull.
+- Venom se sacrifica para destruir el Códice.
+- Eddie es indultado.

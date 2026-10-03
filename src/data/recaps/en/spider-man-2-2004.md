@@ -1,0 +1,3 @@
+- Peter struggles to balance his life and hero role and loses his powers.
+- Dr. Otto Octavius becomes Doc Ock after an experiment.
+- Peter stops him and reconciles with MJ.

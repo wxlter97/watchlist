@@ -1,0 +1,3 @@
+- Wade Wilson, mercenario, se somete a un tratamiento para curar su cáncer que lo deja desfigurado y con regeneración.
+- Se convierte en Deadpool para vengarse de Ajax.
+- Rescata a su novia, Vanessa.

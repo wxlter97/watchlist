@@ -1,0 +1,3 @@
+- Peter Parker, in his last years of high school, balances school and Spider-Man life.
+- He faces comic villains under the shadow of Tombstone and the Green Goblin.
+- It was canceled after two seasons with unresolved storylines.

@@ -1,0 +1,1 @@
+Fue la primera serie del MCU y comparte los hechos de las películas hasta Winter Soldier; después se aparta de la línea principal. Se considera opcional y casi todo lo que importa para el cine se resume en pocas líneas.

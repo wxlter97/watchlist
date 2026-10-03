@@ -1,0 +1,3 @@
+- Tras la desaparición de Xavier y Jean, Wolverine reúne de nuevo a los X-Men.
+- Enfrentan a la Hermandad, al Club Fuego Infernal y a la amenaza de Apocalipsis.
+- Se revela la causa de la explosión: la Fénix.
