@@ -1,0 +1,2 @@
+- Serie japonesa con jóvenes que se unen a los Vengadores en un futuro.
+- Es una serie de anime.

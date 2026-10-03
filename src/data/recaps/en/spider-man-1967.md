@@ -1,0 +1,2 @@
+- Classic animated series: Peter Parker, photographer and student, is Spider-Man and faces comic villains.
+- It's famous for its theme song.

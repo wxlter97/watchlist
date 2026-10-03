@@ -1,0 +1,2 @@
+- Third short of the mockumentary: Darryl lives with his new roommate.
+- Released with the Thor: Ragnarok edition.

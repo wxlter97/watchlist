@@ -1,0 +1,2 @@
+- Cortos animados con Rocket y Groot en aventuras ligeras.
+- Está dirigido a un público infantil.

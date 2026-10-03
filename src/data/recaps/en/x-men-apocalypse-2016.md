@@ -1,0 +1,3 @@
+- In 1983, the first mutant, Apocalypse, wakes after millennia and recruits four horsemen.
+- He wants to destroy the world and remake it.
+- The young X-Men and Magneto stop him.

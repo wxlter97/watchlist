@@ -1,0 +1,2 @@
+- Hiro y su equipo defienden San Fransokyo de villanos con tecnología peligrosa.
+- Continúa tras la película.

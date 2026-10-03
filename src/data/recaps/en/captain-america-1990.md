@@ -1,0 +1,2 @@
+- A low-budget film: Steve Rogers is World War II's Captain America.
+- He wakes decades later to face the Red Skull.

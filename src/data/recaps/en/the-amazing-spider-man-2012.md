@@ -1,0 +1,3 @@
+- Peter Parker investigates his parents' disappearance and discovers Oscorp.
+- He is bitten by a spider and becomes Spider-Man.
+- He faces the Lizard and falls for Gwen Stacy.

@@ -1,0 +1,2 @@
+- Serie de Disney+ centrada en Baymax ayudando a distintas personas.
+- Es una serie de corta duración.

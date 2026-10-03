@@ -1,0 +1,3 @@
+- The Avengers gather to face Earth's enemies and the Skrulls.
+- It follows long arcs with Kang, Ultron and the invasion.
+- It presents the heroes based on the comics.

@@ -1,0 +1,2 @@
+- Peter Parker viaja a la Contra-Tierra, una Tierra alternativa dominada por bestias.
+- Es una serie con tono diferente.

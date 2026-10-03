@@ -1,0 +1,2 @@
+- Serie animada: Tony Stark es Iron Man y enfrenta a villanos como el Mandarín.
+- Fue parte del bloque Marvel Action Universe.

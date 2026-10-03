@@ -1,0 +1,2 @@
+- TV series: David Banner turns into Hulk when angry.
+- He wanders from town to town, helping people.

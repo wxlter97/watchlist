@@ -1,0 +1,2 @@
+- In a Louisiana swamp, a plant creature protects the place from an oil company.
+- A low-budget horror film.

@@ -1,0 +1,3 @@
+- A Japanese macaque, Monkey, is trained by the ghost of an assassin, Bryce Fowler.
+- In Tokyo, they dismantle a criminal conspiracy.
+- In season two they reach New York and face the Co-Op.

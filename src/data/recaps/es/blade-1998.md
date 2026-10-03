@@ -1,0 +1,3 @@
+- Blade, mitad humano y mitad vampiro, caza vampiros en las calles.
+- Se enfrenta a Deacon Frost, que quiere invocar a un dios de la sangre.
+- Blade lo detiene y sigue su cacería.

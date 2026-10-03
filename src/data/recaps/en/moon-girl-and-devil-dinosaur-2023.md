@@ -1,0 +1,3 @@
+- Lunella Lafayette, a 13-year-old genius, opens a portal and brings in a red T. rex, Devil Dinosaur.
+- She becomes Moon Girl and protects her neighborhood.
+- Her family discovers her secret.

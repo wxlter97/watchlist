@@ -1,0 +1,2 @@
+- Película animada con el origen de Wolverine, basada en el cómic de Marvel.
+- Cuenta su infancia en el siglo XIX.

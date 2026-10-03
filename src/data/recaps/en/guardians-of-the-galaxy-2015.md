@@ -1,0 +1,2 @@
+- Animated series: the Guardians protect the galaxy after the 2014 film.
+- They face cosmic villains.

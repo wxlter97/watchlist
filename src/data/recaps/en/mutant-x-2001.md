@@ -1,0 +1,2 @@
+- A science fiction series about a group of mutants fighting an organization.
+- It licenses X-Men characters but has its own story.

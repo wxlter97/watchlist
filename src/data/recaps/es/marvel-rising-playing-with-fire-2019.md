@@ -1,0 +1,2 @@
+- Parte del proyecto Marvel Rising (Playing with Fire): jóvenes héroes como Ms. Marvel, Squirrel Girl y Ghost-Spider forman un equipo.
+- Es contenido animado para jóvenes.

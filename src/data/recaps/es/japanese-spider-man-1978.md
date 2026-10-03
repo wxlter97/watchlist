@@ -1,0 +1,2 @@
+- Serie japonesa con una versión de Spider-Man con un robot gigante, Leopardon.
+- Es una reinterpretación muy distinta.

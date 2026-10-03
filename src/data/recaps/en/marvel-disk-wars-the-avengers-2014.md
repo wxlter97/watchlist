@@ -1,0 +1,2 @@
+- Japanese series: young people gain powers using discs to join the Avengers.
+- They face villains.

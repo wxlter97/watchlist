@@ -1,0 +1,2 @@
+- Animated series with chibi versions of Marvel heroes and villains.
+- It is aimed at children.

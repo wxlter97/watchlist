@@ -1,0 +1,3 @@
+- David Haller descubre que su esquizofrenia podría ser en realidad un poder mutante.
+- Con ayuda de Summerland, aprende que el Rey de las Sombras infecta su mente.
+- A lo largo de tres temporadas, David se vuelve el villano de su propia historia y viaja en el tiempo para cambiar su pasado.

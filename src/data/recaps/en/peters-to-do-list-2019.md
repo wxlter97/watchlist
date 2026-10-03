@@ -1,0 +1,2 @@
+- Short showing Peter Parker's to-do list before his Far From Home trip.
+- It includes humor about his school life.

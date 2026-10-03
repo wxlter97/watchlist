@@ -1,0 +1,3 @@
+- Miles se reencuentra con Gwen y descubre la Sociedad Spider, que quiere proteger los eventos canon.
+- Miguel O'Hara lo persigue por una regla que Miles quiere romper.
+- Miles termina atrapado en una dimensión alternativa.

@@ -1,0 +1,2 @@
+- Part of the Marvel Rising project (Battle of the Bands): young heroes like Ms. Marvel, Squirrel Girl and Ghost-Spider form a team.
+- Animated content for young viewers.

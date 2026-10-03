@@ -1,0 +1,2 @@
+- Johnny Blaze helps a boy escape the devil.
+- A sequel with a more experimental tone.

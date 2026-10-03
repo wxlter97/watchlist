@@ -1,0 +1,3 @@
+- Peter Parker gains powers after a radioactive bite and attends a school for gifted youth.
+- He faces Doc Ock and the Venom symbiote.
+- It closes with the Maximum Venom saga.

@@ -1,0 +1,2 @@
+- Hiro Hamada, un genio adolescente, forma un equipo de héroes con Baymax, un robot sanitario, tras la muerte de su hermano.
+- Enfrentan a un villano enmascarado que usa su invento.

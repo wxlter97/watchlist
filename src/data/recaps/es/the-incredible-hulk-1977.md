@@ -1,0 +1,2 @@
+- Serie de televisión: David Banner se transforma en Hulk cuando se enfurece.
+- Viaja de pueblo en pueblo, ayudando a la gente.

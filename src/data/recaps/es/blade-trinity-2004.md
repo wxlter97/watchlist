@@ -1,0 +1,2 @@
+- Blade, perseguido por el FBI, se une a Nightstalkers para enfrentar a Drácula.
+- Es la última película de la trilogía.

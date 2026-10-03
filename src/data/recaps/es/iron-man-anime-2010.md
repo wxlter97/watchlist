@@ -1,0 +1,2 @@
+- Serie anime de Madhouse: Tony Stark viaja a Japón y enfrenta a un villano llamado Zodiac.
+- Es un reinicio de Iron Man con estilo anime.

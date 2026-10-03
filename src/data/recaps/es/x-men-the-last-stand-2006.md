@@ -1,0 +1,3 @@
+- Una «cura» mutante divide a los mutantes: Magneto arma una hermandad para resistirla.
+- Jean Grey regresa como la Fénix, con un poder fuera de control.
+- Mueren Cyclops, Xavier y Jean; Wolverine debe detenerla.

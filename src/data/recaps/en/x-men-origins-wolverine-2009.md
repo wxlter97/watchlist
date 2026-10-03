@@ -1,0 +1,3 @@
+- It tells Wolverine's origin: his childhood, his war alongside Victor Creed (Sabretooth) and the Weapon X experiment.
+- With adamantium in his bones, he faces his brother and Wade Wilson turned Deadpool.
+- He ends up without memory.

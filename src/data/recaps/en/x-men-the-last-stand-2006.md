@@ -1,0 +1,3 @@
+- A mutant "cure" divides mutants: Magneto builds a brotherhood to resist it.
+- Jean Grey returns as the Phoenix, with a power out of control.
+- Cyclops, Xavier and Jean die; Wolverine must stop her.

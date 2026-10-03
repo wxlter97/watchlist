@@ -126,3 +126,27 @@ function RecapItem({ source, seen, open }: { source: RecapSource; seen: boolean;
     </details>
   );
 }
+
+/** El "por qué importa" de este mismo título, escrito a mano; oculto con el modo sin spoilers hasta revelar la sinopsis. */
+export function WhyItMatters({ title, show }: { title: Title; show: boolean }) {
+  const { t, lang } = useLang();
+  const [text, setText] = useState<string | null>(null);
+  const has = hasWhy(lang, title.id);
+  useEffect(() => {
+    setText(null);
+    if (!show || !has) return;
+    let alive = true;
+    void loadWhy(lang, title.id)?.then((r) => alive && setText(r.trim()));
+    return () => {
+      alive = false;
+    };
+  }, [show, has, lang, title.id]);
+  if (!text) return null;
+
+  return (
+    <section className="mt-8">
+      <SectionLabel>{t("recaps.whyLabel")}</SectionLabel>
+      <p className="max-w-[70ch] text-base leading-[1.55] text-fg-soft">{text}</p>
+    </section>
+  );
+}

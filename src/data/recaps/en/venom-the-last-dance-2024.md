@@ -1,0 +1,3 @@
+- Eddie and Venom flee to Mexico, hunted by the government and Knull's Xenophages.
+- Venom sacrifices himself to destroy the Codex.
+- Eddie is pardoned.

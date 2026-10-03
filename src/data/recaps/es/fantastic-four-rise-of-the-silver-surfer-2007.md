@@ -1,0 +1,3 @@
+- La boda de Reed y Sue se ve interrumpida por la llegada del Silver Surfer, heraldo de Galactus.
+- El gobierno recluta a los Cuatro para detenerlo.
+- Logran frenar a Galactus.

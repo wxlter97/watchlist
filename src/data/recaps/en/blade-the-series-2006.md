@@ -1,0 +1,2 @@
+- A one-season series with Blade facing vampires.
+- It introduces Krista Starr, a woman with ties to him.

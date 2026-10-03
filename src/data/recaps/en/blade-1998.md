@@ -1,0 +1,3 @@
+- Blade, half human and half vampire, hunts vampires on the streets.
+- He faces Deacon Frost, who wants to summon a blood god.
+- Blade stops him and continues his hunt.

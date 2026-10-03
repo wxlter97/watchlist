@@ -1,0 +1,2 @@
+- A teenage version of the X-Men, attending Xavier's school.
+- It faces the Brotherhood and Apocalypse.

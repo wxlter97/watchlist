@@ -1,0 +1,3 @@
+- Ben Reilly, detective privado envejecido en la Nueva York de los años 30, fue antes El Araña.
+- Investiga a una cantante, Cat Hardy, y se enreda con el criminal Silvermane.
+- Termina sacrificando su cura por un villano.

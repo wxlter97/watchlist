@@ -1,0 +1,2 @@
+- Animated shorts with Rocket and Groot in light adventures.
+- It is aimed at children.

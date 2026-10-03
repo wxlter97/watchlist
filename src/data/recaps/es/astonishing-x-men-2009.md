@@ -1,0 +1,2 @@
+- Adaptación en motion comic de la historia de Joss Whedon.
+- Los X-Men enfrentan a un nuevo villano y a la Cura.

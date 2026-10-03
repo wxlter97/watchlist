@@ -1,0 +1,3 @@
+- Ben Reilly, an aging private investigator in 1930s New York, was once The Spider.
+- He investigates a singer, Cat Hardy, and gets entangled with crime boss Silvermane.
+- He ends up sacrificing his cure for a villain.

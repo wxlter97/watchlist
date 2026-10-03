@@ -1,0 +1,2 @@
+- TV movie starring David Hasselhoff as Nick Fury.
+- He faces Hydra and Baron von Strucker.

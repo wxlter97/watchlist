@@ -1,0 +1,2 @@
+- Serie animada con Peter Parker como Spider-Man en aventuras ligeras.
+- Se emitía en los años 80.

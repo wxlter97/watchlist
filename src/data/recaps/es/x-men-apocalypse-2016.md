@@ -1,0 +1,3 @@
+- En 1983, el primer mutante, Apocalipsis, despierta tras milenios y recluta a cuatro jinetes.
+- Quiere destruir el mundo y rehacerlo.
+- Los jóvenes X-Men y Magneto lo detienen.

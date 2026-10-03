@@ -1,0 +1,2 @@
+- Johnny Blaze ayuda a un niño a escapar del diablo.
+- Es una secuela con tono más experimental.

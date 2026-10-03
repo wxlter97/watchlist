@@ -1,0 +1,2 @@
+- 1996 animated Hulk series: Bruce Banner, after a gamma accident, is hunted by the army.
+- He faces villains like the Leader.

@@ -1,0 +1,2 @@
+- Elektra, an assassin after her resurrection, protects a mother and daughter from the Hand.
+- She faces killers and her own past.

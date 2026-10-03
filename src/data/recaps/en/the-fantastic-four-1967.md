@@ -1,0 +1,2 @@
+- Animated Fantastic Four series with adventures against Doctor Doom and other villains.
+- The team's first animated version.

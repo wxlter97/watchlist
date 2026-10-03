@@ -1,0 +1,2 @@
+- CGI animated series with a teenage Tony Stark as Iron Man.
+- He faces the Mandarin and his organization.

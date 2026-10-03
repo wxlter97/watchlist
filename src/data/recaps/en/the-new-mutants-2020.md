@@ -1,0 +1,3 @@
+- Five young mutants are confined in a psychiatric hospital under a doctor's watch.
+- They try to escape when their fears take shape.
+- Their story gets no continuation.

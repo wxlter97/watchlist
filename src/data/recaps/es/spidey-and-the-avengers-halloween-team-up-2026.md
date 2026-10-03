@@ -1,0 +1,2 @@
+- Especial preescolar de Halloween con Spidey y los Vengadores.
+- Está dirigido a un público infantil.

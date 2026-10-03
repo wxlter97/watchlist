@@ -1,0 +1,3 @@
+- Eddie y Venom enfrentan a Cletus Kasady, que se convierte en Carnage.
+- Kasady escapa de prisión con ayuda de Shriek.
+- Venom y Eddie lo derrotan.

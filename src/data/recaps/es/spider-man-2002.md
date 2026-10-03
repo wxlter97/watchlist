@@ -1,0 +1,3 @@
+- Peter Parker, un estudiante tímido, recibe poderes tras la picadura de una araña genéticamente modificada.
+- Tras la muerte de su tío Ben, decide usar su poder para ayudar.
+- Enfrenta al Duende Verde, que es el padre de su amigo Harry.

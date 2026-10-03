@@ -1,0 +1,2 @@
+- Animated series: Bruce Banner turns into Hulk when angry.
+- With Rick Jones, he faces villains.

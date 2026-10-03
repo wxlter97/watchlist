@@ -1,0 +1,2 @@
+- Animated film: Hulk and Wolverine fight within the Weapon X program.
+- Part of a double with Hulk vs. Thor.

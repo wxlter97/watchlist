@@ -1,0 +1,3 @@
+- David Haller discovers his schizophrenia may actually be a mutant power.
+- With Summerland's help, he learns the Shadow King infects his mind.
+- Across three seasons, David becomes the villain of his own story and travels in time to change his past.

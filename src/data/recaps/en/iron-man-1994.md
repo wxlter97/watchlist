@@ -1,0 +1,2 @@
+- Animated series: Tony Stark is Iron Man and faces villains like the Mandarin.
+- It was part of the Marvel Action Universe block.

@@ -1,0 +1,3 @@
+- Peter Parker se une a S.H.I.E.L.D. con otros cuatro jóvenes héroes para entrenar bajo Nick Fury.
+- Enfrenta a los Sinister Six y a amenazas del multiverso.
+- Termina graduándose.

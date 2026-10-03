@@ -1,0 +1,3 @@
+- Seis adolescentes descubren que sus padres forman parte de una organización criminal, el Orgullo, que realiza sacrificios.
+- Se vuelven fugitivos; en la segunda temporada enfrentan a Jonah, una entidad alienígena que posee a sus padres.
+- En la tercera luchan contra Morgan le Fay y usan viajes en el tiempo para rescatar a un amigo.

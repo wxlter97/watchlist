@@ -1,0 +1,2 @@
+- Telefilme de 1988: Banner busca una cura y se encuentra con Thor.
+- Es el primer cruce entre ambos.

@@ -1,0 +1,2 @@
+- Frank Castle enfrenta a una banda y a Jigsaw, un mafioso desfigurado.
+- Es una versión violenta y oscura.

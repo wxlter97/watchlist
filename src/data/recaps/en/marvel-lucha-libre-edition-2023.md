@@ -1,0 +1,3 @@
+- Five-episode mockumentary series, with Lucha Libre AAA, featuring wrestlers dressed as Marvel heroes.
+- It follows the fighters on the road to a big event for the belt.
+- The plot includes the danger of the Symbiote, a clandestine substance.

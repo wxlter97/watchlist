@@ -1,0 +1,2 @@
+- Corto con Deadpool tratando de ser un héroe.
+- Se estrenó junto con Logan.

@@ -1,0 +1,2 @@
+- Animated series with Peter Parker as Spider-Man in light adventures.
+- Aired in the 1980s.

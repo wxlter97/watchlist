@@ -1,0 +1,3 @@
+- En un futuro dominado por Centinelas, Wolverine envía su mente a 1973 para impedir el asesinato que los origina.
+- Reúne a Xavier y Magneto jóvenes y convence a Mystique.
+- Se reescribe la línea temporal.

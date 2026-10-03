@@ -1,0 +1,3 @@
+- The Inhuman royal family of the lunar city Attilan is scattered across Hawaii by Maximus's coup.
+- Black Bolt and his family try to reunite while being hunted.
+- In the end Black Bolt defeats Maximus and destroys Attilan, leaving the Inhumans on Earth.

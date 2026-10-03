@@ -1,0 +1,2 @@
+- Animated film: Stephen Strange, a surgeon, becomes a sorcerer after an accident.
+- He faces Dormammu.

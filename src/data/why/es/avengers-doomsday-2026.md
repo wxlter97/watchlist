@@ -1,0 +1,1 @@
+Es el gran cruce de la Saga del Multiverso, dirigido por los hermanos Russo y programado para el 18 de diciembre de 2026, con Robert Downey Jr. como Doctor Doom. Reúne a los Vengadores, a los Cuatro Fantásticos, a los Thunderbolts y a los X-Men originales de Fox. La ruta de «Prepárate para Doomsday» sigue la lista oficial de Disney+.

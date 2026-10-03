@@ -1,0 +1,3 @@
+- Johnny Blaze vende su alma al diablo para salvar a su padre.
+- Años después, se convierte en el Motorista Fantasma.
+- Enfrenta a Blackheart.
