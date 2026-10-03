@@ -1,0 +1,3 @@
+- En 1957, durante la Guerra Fría, Indy es capturado por agentes soviéticos que buscan una calavera de cristal.
+- Mutt Williams le pide ayuda para rescatar a su madre, Marion.
+- Descubren que la calavera es de origen alienígena; Indy y Marion se casan.

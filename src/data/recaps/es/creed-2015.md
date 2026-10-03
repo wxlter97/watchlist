@@ -1,0 +1,3 @@
+- Adonis Johnson, hijo de Apollo Creed, quiere ser boxeador y pide a Rocky que lo entrene.
+- Rocky, enfermo, lo prepara para pelear contra el campeón Ricky Conlan.
+- Adonis pierde, pero gana el respeto.

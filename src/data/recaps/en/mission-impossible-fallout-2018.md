@@ -1,0 +1,3 @@
+- After losing three plutonium cores to save Luther, Ethan must recover them while the CIA sends Walker to watch him.
+- The plutonium was headed to the Apostles, allies of the Syndicate, and to John Lark.
+- Ethan and Ilsa stop the bomb; Lark turns out to be Walker.

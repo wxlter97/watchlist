@@ -1,0 +1,3 @@
+- Katniss y Peeta se convierten en símbolos de rebelión; el presidente Snow decide eliminarlos.
+- Los fuerzan a competir en un Vasallaje de los Veinticinco con antiguos campeones.
+- Katniss destruye el campo de juego y es rescatada por los rebeldes.

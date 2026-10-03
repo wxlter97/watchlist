@@ -1,0 +1,3 @@
+- A new Ghostface attacks Tara Carpenter; her sister Sam returns to Woodsboro.
+- Sam is Billy Loomis's daughter.
+- Sidney, Gale and Dewey return to help them.

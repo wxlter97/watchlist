@@ -1,0 +1,3 @@
+- The IMF is dissolved and Ethan pursues the Syndicate, a network of rogue former agents, on his own.
+- He meets Ilsa Faust, a double-edged British agent.
+- With her and his team he stops the Syndicate's leader, Solomon Lane.

@@ -1,0 +1,256 @@
+{
+  "id": "evangelion",
+  "name": {
+    "es": "Evangelion",
+    "en": "Evangelion"
+  },
+  "description": {
+    "es": "Shinji, los Ángeles y el Proyecto de Instrumentalidad: la serie original y su rehacer en cuatro películas.",
+    "en": "Shinji, the Angels and the Human Instrumentality Project: the original series and its four-film retelling."
+  },
+  "accentColor": "#6D28D9",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Neon Genesis Evangelion",
+        "en": "Neon Genesis Evangelion"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie de 1995 y su final en The End of Evangelion.",
+        "en": "The 1995 series and its ending in The End of Evangelion."
+      }
+    },
+    {
+      "id": "rebuild",
+      "name": {
+        "es": "Rebuild of Evangelion",
+        "en": "Rebuild of Evangelion"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Cuatro películas que rehacen la historia y cambian el rumbo desde la tercera.",
+        "en": "Four films that retell the story and change course from the third."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "neon-genesis-evangelion-1995",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "shinji-ikari",
+        "rei-ayanami",
+        "asuka"
+      ]
+    },
+    {
+      "titleId": "neon-genesis-evangelion-death-and-rebirth-1997",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "shinji-ikari"
+      ]
+    },
+    {
+      "titleId": "neon-genesis-evangelion-the-end-of-evangelion-1997",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "shinji-ikari",
+        "rei-ayanami",
+        "asuka"
+      ]
+    },
+    {
+      "titleId": "evangelion-1-0-you-are-not-alone-2007",
+      "continuityId": "rebuild",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "shinji-ikari",
+        "rei-ayanami"
+      ]
+    },
+    {
+      "titleId": "evangelion-2-0-you-can-not-advance-2009",
+      "continuityId": "rebuild",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "shinji-ikari",
+        "rei-ayanami",
+        "asuka"
+      ]
+    },
+    {
+      "titleId": "evangelion-3-0-you-can-not-redo-2012",
+      "continuityId": "rebuild",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "shinji-ikari",
+        "rei-ayanami",
+        "asuka"
+      ]
+    },
+    {
+      "titleId": "evangelion-3-0-1-0-thrice-upon-a-time-2021",
+      "continuityId": "rebuild",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "shinji-ikari",
+        "rei-ayanami",
+        "asuka"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "original",
+      "type": "curated",
+      "name": {
+        "es": "La serie original",
+        "en": "The original series"
+      },
+      "description": {
+        "es": "La serie y The End of Evangelion, sin Death & Rebirth.",
+        "en": "The series and The End of Evangelion, without Death & Rebirth."
+      },
+      "titleIds": [
+        "neon-genesis-evangelion-1995",
+        "neon-genesis-evangelion-the-end-of-evangelion-1997"
+      ]
+    },
+    {
+      "id": "rebuild",
+      "type": "curated",
+      "name": {
+        "es": "Rebuild",
+        "en": "Rebuild"
+      },
+      "description": {
+        "es": "Las cuatro películas de la nueva versión.",
+        "en": "The four films of the new version."
+      },
+      "titleIds": [
+        "evangelion-1-0-you-are-not-alone-2007",
+        "evangelion-2-0-you-can-not-advance-2009",
+        "evangelion-3-0-you-can-not-redo-2012",
+        "evangelion-3-0-1-0-thrice-upon-a-time-2021"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-end-of-evangelion-1997",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para The End of Evangelion",
+        "en": "Get ready for The End of Evangelion"
+      },
+      "description": {
+        "es": "La serie, cuyo final alternativo cuenta la película.",
+        "en": "The series, whose alternate ending the film tells."
+      },
+      "titleIds": [
+        "neon-genesis-evangelion-1995"
+      ],
+      "targetTitleId": "neon-genesis-evangelion-the-end-of-evangelion-1997"
+    },
+    {
+      "id": "prep-evangelion-3-0-1-0-thrice-upon-a-time-2021",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Thrice Upon a Time",
+        "en": "Get ready for Thrice Upon a Time"
+      },
+      "description": {
+        "es": "Las tres películas anteriores de Rebuild.",
+        "en": "The three earlier Rebuild films."
+      },
+      "titleIds": [
+        "evangelion-1-0-you-are-not-alone-2007",
+        "evangelion-2-0-you-can-not-advance-2009",
+        "evangelion-3-0-you-can-not-redo-2012"
+      ],
+      "targetTitleId": "evangelion-3-0-1-0-thrice-upon-a-time-2021"
+    },
+    {
+      "id": "shinji-ikari",
+      "kind": "character",
+      "name": {
+        "es": "Shinji Ikari",
+        "en": "Shinji Ikari"
+      },
+      "description": {
+        "es": "El piloto del Eva-01 en cada versión.",
+        "en": "The Eva-01 pilot in every version."
+      },
+      "titleIds": [
+        "neon-genesis-evangelion-1995",
+        "neon-genesis-evangelion-the-end-of-evangelion-1997",
+        "evangelion-1-0-you-are-not-alone-2007",
+        "evangelion-2-0-you-can-not-advance-2009",
+        "evangelion-3-0-you-can-not-redo-2012",
+        "evangelion-3-0-1-0-thrice-upon-a-time-2021"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "shinji-ikari",
+        "name": {
+          "es": "Shinji Ikari",
+          "en": "Shinji Ikari"
+        }
+      },
+      {
+        "id": "rei-ayanami",
+        "name": {
+          "es": "Rei Ayanami",
+          "en": "Rei Ayanami"
+        }
+      },
+      {
+        "id": "asuka",
+        "name": {
+          "es": "Asuka Langley",
+          "en": "Asuka Langley"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

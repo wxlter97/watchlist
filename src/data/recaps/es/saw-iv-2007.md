@@ -1,0 +1,3 @@
+- Tras la muerte de John, el agente Rigg es sometido a un juego para salvar a un compañero.
+- La película ocurre en paralelo a Saw III.
+- Se revela que Hoffman, un detective, es cómplice de John.

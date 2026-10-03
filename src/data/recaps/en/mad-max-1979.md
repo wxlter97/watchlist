@@ -1,0 +1,3 @@
+- In a crumbling Australia, police officer Max Rockatansky chases a motorcycle gang.
+- The gang kills his family.
+- Max becomes a lone avenger.

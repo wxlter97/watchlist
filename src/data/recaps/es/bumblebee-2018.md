@@ -1,0 +1,3 @@
+- En 1987, Bumblebee llega a la Tierra, huyendo de los Decepticons.
+- Charlie Watson lo encuentra y lo esconde como un escarabajo.
+- Juntos derrotan a los Decepticons y Bumblebee reúne a los Autobots.

@@ -1,0 +1,3 @@
+- Eve Macarro, daughter of assassins, is raised by the Ruska Roma after her father's death and trains as a ballerina and assassin.
+- She discovers a cult member with the mark of those who killed her father and defies orders to seek revenge.
+- John Wick is sent to stop her but ends up helping. Eve defeats the Chancellor and leaves the Ruska Roma with a bounty.

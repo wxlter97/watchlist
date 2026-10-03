@@ -1,0 +1,134 @@
+{
+  "id": "back-to-the-future",
+  "name": {
+    "es": "Volver al futuro",
+    "en": "Back to the Future"
+  },
+  "description": {
+    "es": "Marty, Doc y el DeLorean: tres películas que viajan por el mismo siglo y medio.",
+    "en": "Marty, Doc and the DeLorean: three films that hop across the same century and a half."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Trilogía",
+        "en": "Trilogy"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas forman una sola historia.",
+        "en": "The three films form a single story."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "back-to-the-future-1985",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1985",
+        "en": "1985"
+      },
+      "characters": [
+        "marty-mcfly",
+        "doc-brown"
+      ]
+    },
+    {
+      "titleId": "back-to-the-future-part-ii-1989",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2015 y 1985",
+        "en": "2015 and 1985"
+      },
+      "characters": [
+        "marty-mcfly",
+        "doc-brown"
+      ]
+    },
+    {
+      "titleId": "back-to-the-future-part-iii-1990",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1885",
+        "en": "1885"
+      },
+      "characters": [
+        "marty-mcfly",
+        "doc-brown"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "marty-y-doc",
+      "kind": "character",
+      "name": {
+        "es": "Marty y Doc",
+        "en": "Marty and Doc"
+      },
+      "description": {
+        "es": "La pareja de la trilogía.",
+        "en": "The trilogy's duo."
+      },
+      "titleIds": [
+        "back-to-the-future-1985",
+        "back-to-the-future-part-ii-1989",
+        "back-to-the-future-part-iii-1990"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "marty-mcfly",
+        "name": {
+          "es": "Marty McFly",
+          "en": "Marty McFly"
+        }
+      },
+      {
+        "id": "doc-brown",
+        "name": {
+          "es": "Doc Brown",
+          "en": "Doc Brown"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

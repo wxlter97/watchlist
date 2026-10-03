@@ -1,0 +1,3 @@
+- Un detective, Zeke Banks, investiga una serie de asesinatos que imitan a Jigsaw.
+- Su padre, excomisario, está implicado.
+- La investigación lo lleva a corrupción dentro de su propio departamento.

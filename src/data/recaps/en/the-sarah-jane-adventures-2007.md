@@ -1,0 +1,3 @@
+- Sarah Jane Smith, a former companion of the Doctor, investigates alien mysteries with some teenagers.
+- It is a series for younger viewers.
+- It features her adopted son, Luke.

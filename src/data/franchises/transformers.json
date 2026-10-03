@@ -1,0 +1,305 @@
+{
+  "id": "transformers",
+  "name": {
+    "es": "Transformers",
+    "en": "Transformers"
+  },
+  "description": {
+    "es": "Autobots y Decepticons en el cine: la película de 1986, la serie de Bay, Bumblebee y los reinicios.",
+    "en": "Autobots and Decepticons on the big screen: the 1986 film, Bay's series, Bumblebee and the reboots."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "g1",
+      "name": {
+        "es": "La película de 1986",
+        "en": "The 1986 film"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La película animada de la serie original; es su propia línea.",
+        "en": "The animated film from the original series; its own line."
+      }
+    },
+    {
+      "id": "bay",
+      "name": {
+        "es": "Serie de Michael Bay",
+        "en": "Michael Bay's series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas live-action de 2007 a 2017.",
+        "en": "The five live-action films from 2007 to 2017."
+      }
+    },
+    {
+      "id": "bumblebee",
+      "name": {
+        "es": "Bumblebee y Rise of the Beasts",
+        "en": "Bumblebee and Rise of the Beasts"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El reinicio suave: Bumblebee en 1987 y Rise of the Beasts en 1994; no parte de las películas de Bay.",
+        "en": "The soft reboot: Bumblebee in 1987 and Rise of the Beasts in 1994; it doesn't start from Bay's films."
+      }
+    },
+    {
+      "id": "one",
+      "name": {
+        "es": "Transformers One",
+        "en": "Transformers One"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Animada: el origen de Optimus Prime y Megatron en Cybertron.",
+        "en": "Animated: the origin of Optimus Prime and Megatron on Cybertron."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-transformers-the-movie-1986",
+      "continuityId": "g1",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2005",
+        "en": "2005"
+      },
+      "characters": [
+        "optimus-prime"
+      ]
+    },
+    {
+      "titleId": "transformers-2007",
+      "continuityId": "bay",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2007",
+        "en": "2007"
+      },
+      "characters": [
+        "optimus-prime",
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "transformers-revenge-of-the-fallen-2009",
+      "continuityId": "bay",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2009",
+        "en": "2009"
+      },
+      "characters": [
+        "optimus-prime",
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "transformers-dark-of-the-moon-2011",
+      "continuityId": "bay",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2011",
+        "en": "2011"
+      },
+      "characters": [
+        "optimus-prime",
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "transformers-age-of-extinction-2014",
+      "continuityId": "bay",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2014",
+        "en": "2014"
+      },
+      "characters": [
+        "optimus-prime",
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "transformers-the-last-knight-2017",
+      "continuityId": "bay",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2017",
+        "en": "2017"
+      },
+      "characters": [
+        "optimus-prime",
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "bumblebee-2018",
+      "continuityId": "bumblebee",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1987",
+        "en": "1987"
+      },
+      "characters": [
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "transformers-rise-of-the-beasts-2023",
+      "continuityId": "bumblebee",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1994",
+        "en": "1994"
+      },
+      "characters": [
+        "optimus-prime",
+        "bumblebee"
+      ]
+    },
+    {
+      "titleId": "transformers-one-2024",
+      "continuityId": "one",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "optimus-prime"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "best",
+      "type": "curated",
+      "name": {
+        "es": "Lo mejor valorado",
+        "en": "Best regarded"
+      },
+      "description": {
+        "es": "La película de 1986, la primera de Bay, Bumblebee y Transformers One.",
+        "en": "The 1986 film, Bay's first, Bumblebee and Transformers One."
+      },
+      "titleIds": [
+        "the-transformers-the-movie-1986",
+        "transformers-2007",
+        "bumblebee-2018",
+        "transformers-one-2024"
+      ]
+    },
+    {
+      "id": "bay",
+      "type": "curated",
+      "name": {
+        "es": "Solo Bay",
+        "en": "Bay only"
+      },
+      "description": {
+        "es": "Las cinco películas de Michael Bay.",
+        "en": "The five Michael Bay films."
+      },
+      "titleIds": [
+        "transformers-2007",
+        "transformers-revenge-of-the-fallen-2009",
+        "transformers-dark-of-the-moon-2011",
+        "transformers-age-of-extinction-2014",
+        "transformers-the-last-knight-2017"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-transformers-rise-of-the-beasts-2023",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Rise of the Beasts",
+        "en": "Get ready for Rise of the Beasts"
+      },
+      "description": {
+        "es": "Bumblebee, a cuya línea continúa.",
+        "en": "Bumblebee, whose line it continues."
+      },
+      "titleIds": [
+        "bumblebee-2018"
+      ],
+      "targetTitleId": "transformers-rise-of-the-beasts-2023"
+    },
+    {
+      "id": "optimus-prime",
+      "kind": "character",
+      "name": {
+        "es": "Optimus Prime",
+        "en": "Optimus Prime"
+      },
+      "description": {
+        "es": "El líder de los Autobots en todas sus versiones.",
+        "en": "The Autobot leader across all his versions."
+      },
+      "titleIds": [
+        "the-transformers-the-movie-1986",
+        "transformers-2007",
+        "transformers-revenge-of-the-fallen-2009",
+        "transformers-dark-of-the-moon-2011",
+        "transformers-age-of-extinction-2014",
+        "transformers-the-last-knight-2017",
+        "transformers-rise-of-the-beasts-2023",
+        "transformers-one-2024"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "optimus-prime",
+        "name": {
+          "es": "Optimus Prime",
+          "en": "Optimus Prime"
+        }
+      },
+      {
+        "id": "bumblebee",
+        "name": {
+          "es": "Bumblebee",
+          "en": "Bumblebee"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

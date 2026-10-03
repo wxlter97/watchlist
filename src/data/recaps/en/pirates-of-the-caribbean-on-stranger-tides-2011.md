@@ -1,0 +1,3 @@
+- Jack seeks the Fountain of Youth in a race against Barbossa and Blackbeard.
+- He meets Angelica, Blackbeard's daughter.
+- The Fountain is used and the story closes.

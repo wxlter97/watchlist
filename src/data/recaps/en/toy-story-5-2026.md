@@ -1,0 +1,3 @@
+- Bonnie gets a tablet, Lilypad, and neglects her toys.
+- Jessie asks Woody for help and ends up at her former owner's farmhouse, where she meets Blaze.
+- The toys help Bonnie and Blaze become friends; Woody leaves with Bo Peep to help abandoned toys.

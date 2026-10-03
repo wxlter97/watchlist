@@ -1,0 +1,3 @@
+- Sidney Prescott lives in Indiana with her family when a new Ghostface targets her daughter, Tatum.
+- The killers are Marco Davis, a mental institution supervisor, and neighbor Jessica Bowden, obsessed with Sidney.
+- Sidney kills Marco; she and Tatum defeat Jessica. She reconnects with Gale.

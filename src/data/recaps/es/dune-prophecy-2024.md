@@ -1,0 +1,3 @@
+- Diez mil años antes de Paul Atreides, las hermanas Valya y Tula Harkonnen lideran la Hermandad que llegará a ser el Bene Gesserit.
+- Desmond Hart, un soldado con poderes inexplicables, amenaza con quemar a sus víctimas.
+- Se revela que Desmond es hijo de Tula y que fuerzas ocultas manejan los hechos.

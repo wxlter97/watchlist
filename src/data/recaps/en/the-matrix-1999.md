@@ -1,0 +1,3 @@
+- Neo, a programmer, discovers the world is a simulation created by machines that use humans as energy.
+- Morpheus frees him and trains him in the real world, where a group resists the machines.
+- Neo faces Agent Smith, dies and is resurrected, convinced he is The One.

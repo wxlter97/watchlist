@@ -1,0 +1,3 @@
+- A journalist exposes Operation Blackbriar and Bourne seeks his origins.
+- The CIA chases him around the world.
+- He recovers his identity and disappears.

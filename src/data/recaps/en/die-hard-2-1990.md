@@ -1,0 +1,3 @@
+- McClane waits for his wife at Dulles airport when mercenaries take control.
+- They want to free a general.
+- McClane stops them.

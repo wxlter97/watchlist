@@ -1,0 +1,3 @@
+- Andy goes to college and the toys end up at a daycare.
+- They discover it's ruled by Lotso.
+- They escape and Andy gives them to Bonnie.

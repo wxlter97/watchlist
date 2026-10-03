@@ -1,0 +1,3 @@
+- Ethan searches for the two halves of a key able to control the Entity, an AI that has become autonomous.
+- Gabriel, an agent from Ethan's past, serves it; Grace, a thief, joins the team.
+- Gabriel kills Ilsa; the film ends with Ethan on a train with the key.

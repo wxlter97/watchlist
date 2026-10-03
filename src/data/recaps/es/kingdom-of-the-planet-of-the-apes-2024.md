@@ -1,0 +1,3 @@
+- Siglos después, un joven simio, Noa, sale a buscar a su clan raptado por Proximus César.
+- Conoce a Raka y a Mae, una humana que habla.
+- Mae tiene un plan para el futuro; la película termina con tensión entre humanos y simios.

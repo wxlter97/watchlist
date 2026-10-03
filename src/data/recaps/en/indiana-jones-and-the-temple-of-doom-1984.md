@@ -1,0 +1,3 @@
+- In 1935, Indy arrives in India with singer Willie and the boy Short Round.
+- They end up at a palace where a cult kidnaps children and seeks sacred stones.
+- Indy frees the children and recovers the Sankara stone.

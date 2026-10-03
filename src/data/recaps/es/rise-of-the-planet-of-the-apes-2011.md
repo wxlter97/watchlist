@@ -1,0 +1,3 @@
+- Will Rodman, científico, desarrolla una droga contra el Alzheimer que aumenta la inteligencia de un chimpancé, César.
+- César crece, es enviado a un refugio y se rebela contra los maltratos.
+- Lidera una fuga de simios y el virus del tratamiento se propaga entre los humanos.

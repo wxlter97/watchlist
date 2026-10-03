@@ -1,0 +1,3 @@
+- Marty viaja a 1885 para rescatar a Doc del Viejo Oeste.
+- Doc se ha enamorado de Clara y es amenazado por Mad Dog Tannen.
+- Regresan a 1985 en un tren; Doc se queda con Clara en el tiempo.

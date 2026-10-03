@@ -1,0 +1,3 @@
+- John, now gravely ill, continues his games with Amanda and kidnaps a doctor, Lynn, to keep him alive.
+- Jeff, a grieving father, is put through a series of tests.
+- Amanda and John die; the game goes on.

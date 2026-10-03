@@ -1,0 +1,3 @@
+- Años después de la muerte de John Kramer, aparecen nuevas víctimas con su firma.
+- Los forenses dudan: ¿es su imitador o su regreso?
+- Se revela quién continúa los juegos.

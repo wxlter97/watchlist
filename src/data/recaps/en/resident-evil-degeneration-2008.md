@@ -1,0 +1,3 @@
+- Claire Redfield visits an airport when a zombie outbreak erupts.
+- Leon Kennedy and a rescue group step in.
+- They discover a company, WilPharma, is behind it.

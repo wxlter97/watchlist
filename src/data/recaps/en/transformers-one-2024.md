@@ -1,0 +1,3 @@
+- On Cybertron, miners Orion Pax and D-16 are friends.
+- They discover their leader, Sentinel Prime, is lying to them.
+- They split: Orion becomes Optimus Prime and D-16 becomes Megatron.

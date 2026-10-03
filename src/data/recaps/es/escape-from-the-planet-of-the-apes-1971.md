@@ -1,0 +1,3 @@
+- Cornelius, Zira y el científico Milo viajan al pasado, a 1973, en la nave de Taylor.
+- Son tratados como celebridades hasta que se sospecha que su hijo hará caer a la humanidad.
+- Zira y Cornelius mueren; su bebé, escondido en un circo, será César.

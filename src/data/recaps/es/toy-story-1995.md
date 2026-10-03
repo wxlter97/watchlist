@@ -1,0 +1,3 @@
+- Los juguetes de Andy cobran vida cuando él no está; Woody es su favorito.
+- La llegada de Buzz Lightyear, que cree ser un guardián espacial, causa celos.
+- Ambos se pierden, se alían y vuelven con Andy.

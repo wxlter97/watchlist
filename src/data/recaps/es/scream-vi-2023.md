@@ -1,0 +1,3 @@
+- Sam, Tara y sus amigos se mudan a Nueva York, pero Ghostface los sigue.
+- Gale regresa a ayudarlos.
+- El asesino revela vínculos con los crímenes anteriores.

@@ -1,0 +1,3 @@
+- En Panem, Katniss Everdeen se ofrece voluntaria en lugar de su hermana en los Juegos del Hambre, una batalla a muerte televisada.
+- Con Peeta Mellark se hace con el favor del público.
+- Ambos desafían a los organizadores y sobreviven.

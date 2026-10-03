@@ -1,0 +1,3 @@
+- Bourne regresa a la acción cuando Nicky Parsons le revela datos sobre su padre.
+- El director de la CIA Dewey y el Activo lo persiguen.
+- Bourne desafía a la CIA de nuevo.

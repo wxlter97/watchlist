@@ -1,0 +1,3 @@
+- Furiosa is abducted as a child from the Green Place by warlord Dementus.
+- She grows up between the Citadel and Gas Town, in disguise, and seeks revenge.
+- She defeats Dementus and heads toward Fury Road.

@@ -1,0 +1,3 @@
+- Leon Kennedy travels to an Eastern European republic to investigate bioweapons.
+- He gets involved in a civil war with creatures.
+- He stops the one who controls them.

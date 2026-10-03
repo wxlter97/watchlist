@@ -1,0 +1,3 @@
+- Katniss joins the District 13 rebels, who use her as a symbol, the Mockingjay.
+- Peeta is used by the Capitol as propaganda.
+- The rebels rescue Peeta, but he has been changed.

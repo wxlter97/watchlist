@@ -1,0 +1,3 @@
+- Woody sigue con Bonnie, que crea a Forky con basura.
+- En un viaje, Woody se reencuentra con Bo Peep.
+- Decide quedarse con ella y dejar a Bonnie.

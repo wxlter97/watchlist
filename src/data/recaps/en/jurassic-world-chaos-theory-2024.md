@@ -1,0 +1,3 @@
+- Six years after escaping Isla Nublar, the group discovers Brooklynn survived and is investigating a dinosaur smuggling network.
+- With help from the Broker, who runs a cloning facility in Senegal, they gather evidence.
+- They infiltrate Biosyn Valley to stop the weaponization of dinosaurs and end up supporting conservation.

@@ -1,0 +1,3 @@
+- Jake Sully, a paraplegic ex-marine, joins a mission on Pandora using a Na'vi body, an avatar.
+- He infiltrates the Na'vi to convince them to give up their land to the RDA, but falls for Neytiri.
+- Jake leads the Na'vi against the RDA and stays on as one of them.

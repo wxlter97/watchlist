@@ -1,0 +1,3 @@
+- After a bombing at the Kremlin, the IMF is disavowed: "ghost protocol".
+- Ethan and his team (Benji, Jane, Brandt) try to prevent a nuclear war provoked by Hendricks.
+- They defeat him in Mumbai; the IMF regains its status.

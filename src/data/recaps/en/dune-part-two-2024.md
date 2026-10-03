@@ -1,0 +1,3 @@
+- Paul integrates with the Fremen and falls for Chani.
+- While leading a war against the Harkonnen, his mother pushes him as a messiah.
+- Paul takes the emperor's throne; Chani rejects him and a holy war becomes unavoidable.

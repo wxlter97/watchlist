@@ -1,0 +1,3 @@
+- Andy se va a la universidad y los juguetes terminan en una guardería.
+- Descubren que está dominada por Lotso.
+- Escapan y Andy les regala a Bonnie.

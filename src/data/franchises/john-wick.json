@@ -1,0 +1,229 @@
+{
+  "id": "john-wick",
+  "name": {
+    "es": "John Wick",
+    "en": "John Wick"
+  },
+  "description": {
+    "es": "Baba Yagá, la Alta Mesa y los hoteles Continental: las películas y sus derivados.",
+    "en": "Baba Yaga, the High Table and the Continental hotels: the films and their spin-offs."
+  },
+  "accentColor": "#4B5563",
+  "continuities": [
+    {
+      "id": "wickiverse",
+      "name": {
+        "es": "El mundo de John Wick",
+        "en": "The world of John Wick"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todo ocurre en el mismo universo; los derivados rellenan el tiempo antes y entre las películas.",
+        "en": "It all happens in one universe; the spin-offs fill the time before and between the films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-continental-from-the-world-of-john-wick-2023",
+      "continuityId": "wickiverse",
+      "importance": "optional",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "1975",
+        "en": "1975"
+      },
+      "characters": [
+        "winston-scott"
+      ]
+    },
+    {
+      "titleId": "john-wick-2014",
+      "continuityId": "wickiverse",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2014",
+        "en": "2014"
+      },
+      "characters": [
+        "john-wick"
+      ]
+    },
+    {
+      "titleId": "john-wick-chapter-2-2017",
+      "continuityId": "wickiverse",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2017",
+        "en": "2017"
+      },
+      "characters": [
+        "john-wick",
+        "winston-scott"
+      ]
+    },
+    {
+      "titleId": "john-wick-chapter-3-parabellum-2019",
+      "continuityId": "wickiverse",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2019",
+        "en": "2019"
+      },
+      "characters": [
+        "john-wick",
+        "winston-scott"
+      ]
+    },
+    {
+      "titleId": "ballerina-2025",
+      "continuityId": "wickiverse",
+      "importance": "recommended",
+      "chronoOrder": 35,
+      "chronoNote": {
+        "es": "Entre Parabellum y Capítulo 4",
+        "en": "Entre Parabellum y Capítulo 4"
+      },
+      "characters": [
+        "john-wick",
+        "winston-scott"
+      ]
+    },
+    {
+      "titleId": "john-wick-chapter-4-2023",
+      "continuityId": "wickiverse",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2023",
+        "en": "2023"
+      },
+      "characters": [
+        "john-wick",
+        "winston-scott"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "wick",
+      "type": "curated",
+      "name": {
+        "es": "Solo John Wick",
+        "en": "John Wick only"
+      },
+      "description": {
+        "es": "Las cuatro películas de John Wick, sin derivados.",
+        "en": "The four John Wick films, without spin-offs."
+      },
+      "titleIds": [
+        "john-wick-2014",
+        "john-wick-chapter-2-2017",
+        "john-wick-chapter-3-parabellum-2019",
+        "john-wick-chapter-4-2023"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-ballerina-2025",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Ballerina",
+        "en": "Get ready for Ballerina"
+      },
+      "description": {
+        "es": "Las tres primeras películas, que explican la Alta Mesa y las reglas del mundo; Ballerina ocurre entre la tercera y la cuarta.",
+        "en": "The first three films, which explain the High Table and the world's rules; Ballerina is set between the third and fourth."
+      },
+      "titleIds": [
+        "john-wick-2014",
+        "john-wick-chapter-2-2017",
+        "john-wick-chapter-3-parabellum-2019"
+      ],
+      "targetTitleId": "ballerina-2025"
+    },
+    {
+      "id": "prep-john-wick-chapter-4-2023",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Capítulo 4",
+        "en": "Get ready for Chapter 4"
+      },
+      "description": {
+        "es": "La trilogía anterior: Capítulo 4 continúa directamente desde el final de Parabellum.",
+        "en": "The earlier trilogy: Chapter 4 continues directly from the end of Parabellum."
+      },
+      "titleIds": [
+        "john-wick-2014",
+        "john-wick-chapter-2-2017",
+        "john-wick-chapter-3-parabellum-2019"
+      ],
+      "targetTitleId": "john-wick-chapter-4-2023"
+    },
+    {
+      "id": "winston-scott",
+      "kind": "character",
+      "name": {
+        "es": "Winston Scott",
+        "en": "Winston Scott"
+      },
+      "description": {
+        "es": "El dueño del Continental de Nueva York, de joven y de viejo.",
+        "en": "The owner of New York's Continental, young and old."
+      },
+      "titleIds": [
+        "the-continental-from-the-world-of-john-wick-2023",
+        "john-wick-chapter-2-2017",
+        "john-wick-chapter-3-parabellum-2019",
+        "john-wick-chapter-4-2023"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "john-wick",
+        "name": {
+          "es": "John Wick",
+          "en": "John Wick"
+        }
+      },
+      {
+        "id": "winston-scott",
+        "name": {
+          "es": "Winston Scott",
+          "en": "Winston Scott"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

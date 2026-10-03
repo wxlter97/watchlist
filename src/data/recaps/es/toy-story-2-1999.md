@@ -1,0 +1,3 @@
+- Un coleccionista roba a Woody.
+- Descubre que fue una estrella de televisión y que puede ir a un museo.
+- Sus amigos lo rescatan; Woody elige a Andy.

@@ -1,0 +1,4 @@
+- Two months later, Ethan refuses to hand over the key and chases Gabriel, who also wants it.
+- The team retrieves a module, the Podkova, from a sunken Russian submarine while the Entity threatens to launch nuclear weapons.
+- Gabriel kills Luther and escapes with the module; on a biplane, Ethan defeats him and inserts the anti-AI malware.
+- The team traps the Entity before launch, and Ethan closes his final mission.

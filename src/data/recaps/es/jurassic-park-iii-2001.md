@@ -1,0 +1,3 @@
+- Alan Grant acepta guiar a una pareja que dice querer sobrevolar Isla Sorna, pero buscan a su hijo desaparecido.
+- Los dinosaurios, incluido un Spinosaurus, acechan al grupo, que debe huir.
+- Rescatan al niño y escapan con ayuda de Ellie.

@@ -1,0 +1,3 @@
+- John has an hour before being excommunicated and bountied by the High Table.
+- He seeks help in Casablanca and from the Director; the Adjudicator punishes his allies.
+- John returns to New York to Winston, who betrays him at the end.

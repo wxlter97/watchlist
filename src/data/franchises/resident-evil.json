@@ -1,0 +1,353 @@
+{
+  "id": "resident-evil",
+  "name": {
+    "es": "Resident Evil",
+    "en": "Resident Evil"
+  },
+  "description": {
+    "es": "Raccoon City, T-Virus y Umbrella: las películas de Anderson, los reinicios y el universo animado que sigue a los juegos.",
+    "en": "Raccoon City, the T-Virus and Umbrella: Anderson's films, the reboots and the animated universe that follows the games."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "cg",
+      "name": {
+        "es": "Universo animado (CG)",
+        "en": "Animated (CG) universe"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Las películas animadas y Infinite Darkness, que siguen la línea de los videojuegos.",
+        "en": "The animated films and Infinite Darkness, which follow the games' timeline."
+      }
+    },
+    {
+      "id": "anderson",
+      "name": {
+        "es": "Películas de Anderson",
+        "en": "Anderson's films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Seis películas de Alice con historia propia, sin relación con los juegos.",
+        "en": "Six Alice films with their own story, unrelated to the games."
+      }
+    },
+    {
+      "id": "raccoon",
+      "name": {
+        "es": "Welcome to Raccoon City",
+        "en": "Welcome to Raccoon City"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio de 2021 fiel a los dos primeros juegos.",
+        "en": "2021 reboot faithful to the first two games."
+      }
+    },
+    {
+      "id": "netflix",
+      "name": {
+        "es": "Serie de Netflix",
+        "en": "Netflix series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Serie de 2022 con su propia línea temporal.",
+        "en": "2022 series with its own timeline."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "resident-evil-degeneration-2008",
+      "continuityId": "cg",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2005",
+        "en": "2005"
+      },
+      "characters": [
+        "leon-kennedy",
+        "claire-redfield"
+      ]
+    },
+    {
+      "titleId": "resident-evil-infinite-darkness-2021",
+      "continuityId": "cg",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2006",
+        "en": "2006"
+      },
+      "characters": [
+        "leon-kennedy",
+        "claire-redfield"
+      ]
+    },
+    {
+      "titleId": "resident-evil-damnation-2012",
+      "continuityId": "cg",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2011",
+        "en": "2011"
+      },
+      "characters": [
+        "leon-kennedy"
+      ]
+    },
+    {
+      "titleId": "resident-evil-vendetta-2017",
+      "continuityId": "cg",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2014",
+        "en": "2014"
+      },
+      "characters": [
+        "leon-kennedy",
+        "claire-redfield"
+      ]
+    },
+    {
+      "titleId": "resident-evil-death-island-2023",
+      "continuityId": "cg",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "2015",
+        "en": "2015"
+      },
+      "characters": [
+        "leon-kennedy",
+        "claire-redfield"
+      ]
+    },
+    {
+      "titleId": "resident-evil-2002",
+      "continuityId": "anderson",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "alice"
+      ]
+    },
+    {
+      "titleId": "resident-evil-apocalypse-2004",
+      "continuityId": "anderson",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "alice"
+      ]
+    },
+    {
+      "titleId": "resident-evil-extinction-2007",
+      "continuityId": "anderson",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "alice"
+      ]
+    },
+    {
+      "titleId": "resident-evil-afterlife-2010",
+      "continuityId": "anderson",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "alice"
+      ]
+    },
+    {
+      "titleId": "resident-evil-retribution-2012",
+      "continuityId": "anderson",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "characters": [
+        "alice"
+      ]
+    },
+    {
+      "titleId": "resident-evil-the-final-chapter-2016",
+      "continuityId": "anderson",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "alice"
+      ]
+    },
+    {
+      "titleId": "resident-evil-welcome-to-raccoon-city-2021",
+      "continuityId": "raccoon",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1998",
+        "en": "1998"
+      }
+    },
+    {
+      "titleId": "resident-evil-2022",
+      "continuityId": "netflix",
+      "importance": "skippable",
+      "chronoOrder": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "cg",
+      "type": "curated",
+      "name": {
+        "es": "Universo animado",
+        "en": "Animated universe"
+      },
+      "description": {
+        "es": "Degeneration, Infinite Darkness, Damnation, Vendetta y Death Island: la línea de los juegos.",
+        "en": "Degeneration, Infinite Darkness, Damnation, Vendetta and Death Island: the games' timeline."
+      },
+      "titleIds": [
+        "resident-evil-degeneration-2008",
+        "resident-evil-infinite-darkness-2021",
+        "resident-evil-damnation-2012",
+        "resident-evil-vendetta-2017",
+        "resident-evil-death-island-2023"
+      ]
+    },
+    {
+      "id": "anderson",
+      "type": "curated",
+      "name": {
+        "es": "Solo Anderson",
+        "en": "Anderson only"
+      },
+      "description": {
+        "es": "Las seis películas con Alice.",
+        "en": "The six films starring Alice."
+      },
+      "titleIds": [
+        "resident-evil-2002",
+        "resident-evil-apocalypse-2004",
+        "resident-evil-extinction-2007",
+        "resident-evil-afterlife-2010",
+        "resident-evil-retribution-2012",
+        "resident-evil-the-final-chapter-2016"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "leon-kennedy",
+      "kind": "character",
+      "name": {
+        "es": "Leon S. Kennedy",
+        "en": "Leon S. Kennedy"
+      },
+      "description": {
+        "es": "El agente en el universo animado.",
+        "en": "The agent in the animated universe."
+      },
+      "titleIds": [
+        "resident-evil-degeneration-2008",
+        "resident-evil-infinite-darkness-2021",
+        "resident-evil-damnation-2012",
+        "resident-evil-vendetta-2017",
+        "resident-evil-death-island-2023"
+      ]
+    },
+    {
+      "id": "claire-redfield",
+      "kind": "character",
+      "name": {
+        "es": "Claire Redfield",
+        "en": "Claire Redfield"
+      },
+      "description": {
+        "es": "Claire en Degeneration, Infinite Darkness, Vendetta y Death Island.",
+        "en": "Claire in Degeneration, Infinite Darkness, Vendetta and Death Island."
+      },
+      "titleIds": [
+        "resident-evil-degeneration-2008",
+        "resident-evil-infinite-darkness-2021",
+        "resident-evil-vendetta-2017",
+        "resident-evil-death-island-2023"
+      ]
+    },
+    {
+      "id": "alice",
+      "kind": "character",
+      "name": {
+        "es": "Alice",
+        "en": "Alice"
+      },
+      "description": {
+        "es": "La heroína de las películas de Anderson.",
+        "en": "The heroine of Anderson's films."
+      },
+      "titleIds": [
+        "resident-evil-2002",
+        "resident-evil-apocalypse-2004",
+        "resident-evil-extinction-2007",
+        "resident-evil-afterlife-2010",
+        "resident-evil-retribution-2012",
+        "resident-evil-the-final-chapter-2016"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "leon-kennedy",
+        "name": {
+          "es": "Leon S. Kennedy",
+          "en": "Leon S. Kennedy"
+        }
+      },
+      {
+        "id": "claire-redfield",
+        "name": {
+          "es": "Claire Redfield",
+          "en": "Claire Redfield"
+        }
+      },
+      {
+        "id": "alice",
+        "name": {
+          "es": "Alice",
+          "en": "Alice"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

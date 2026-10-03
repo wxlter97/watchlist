@@ -1,0 +1,3 @@
+- Simon Gruber, hermano de Hans, juega con McClane en Nueva York con acertijos y bombas.
+- McClane se alía con Zeus Carver.
+- Descubren que es una distracción para un robo.

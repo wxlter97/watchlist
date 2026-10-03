@@ -1,0 +1,3 @@
+- Hoffman faces William, an insurance executive linked to John.
+- William is put through tests themed around his company.
+- Hoffman secures his place.

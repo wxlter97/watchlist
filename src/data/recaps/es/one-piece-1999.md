@@ -1,0 +1,3 @@
+- Monkey D. Luffy, un joven con poderes de goma, sueña con encontrar el One Piece y convertirse en el Rey de los Piratas.
+- Forma la tripulación de los Sombrero de Paja con Zoro, Nami, Usopp y Sanji, entre otros, y recorre el Grand Line.
+- La historia continúa en más de mil episodios con arcos sobre aliados y enemigos.

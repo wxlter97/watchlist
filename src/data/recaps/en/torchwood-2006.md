@@ -1,0 +1,3 @@
+- A Cardiff team, Torchwood, investigates extraterrestrial phenomena with Captain Jack Harkness.
+- They face alien threats across four seasons.
+- It was created as an adult spin-off of Doctor Who.

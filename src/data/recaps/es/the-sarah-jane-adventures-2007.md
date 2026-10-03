@@ -1,0 +1,3 @@
+- Sarah Jane Smith, antigua acompañante del Doctor, investiga misterios alienígenas con unos adolescentes.
+- Es una serie para jóvenes.
+- Presenta a su hijo adoptivo, Luke.

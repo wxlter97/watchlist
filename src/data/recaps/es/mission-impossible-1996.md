@@ -1,0 +1,3 @@
+- Ethan Hunt sobrevive a una misión fallida en Praga en la que muere su equipo y es sospechoso de ser el traidor.
+- Con ayuda de Luther y Krieger busca al verdadero culpable, que resulta ser su mentor, Jim Phelps.
+- Hunt lo detiene en un tren en el Eurotúnel.

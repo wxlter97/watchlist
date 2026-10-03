@@ -1,0 +1,3 @@
+- Simon Gruber, Hans's brother, plays games with McClane in New York with riddles and bombs.
+- McClane teams up with Zeus Carver.
+- They discover it's a distraction for a heist.

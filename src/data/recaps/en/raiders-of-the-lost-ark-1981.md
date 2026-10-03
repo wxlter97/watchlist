@@ -1,0 +1,3 @@
+- In 1936, archaeologist Indiana Jones must find the Ark of the Covenant before the Nazis.
+- With Marion Ravenwood he recovers the key headpiece of the Staff of Ra and travels to Egypt.
+- The Nazis open the Ark and die; the U.S. government stores it in a secret warehouse.

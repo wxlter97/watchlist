@@ -1,0 +1,3 @@
+- Los piratas rescatan a Jack del limbo de Davy Jones.
+- Beckett controla los mares con Jones; los piratas se reúnen en una batalla final.
+- Will asume el mando del Holandés Errante.

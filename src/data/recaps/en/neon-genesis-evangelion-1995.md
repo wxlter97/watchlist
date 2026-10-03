@@ -1,0 +1,3 @@
+- Shinji Ikari, fourteen, is recruited by his father, Gendo, to pilot an Eva and face the Angels.
+- With Rei and Asuka he defends Tokyo-3 from the attacks.
+- The ending focuses on the characters' minds and the Human Instrumentality Project.

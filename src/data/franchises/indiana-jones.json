@@ -1,0 +1,202 @@
+{
+  "id": "indiana-jones",
+  "name": {
+    "es": "Indiana Jones",
+    "en": "Indiana Jones"
+  },
+  "description": {
+    "es": "El arqueólogo más famoso del cine: cinco películas, de los años 30 a los 60.",
+    "en": "Cinema's most famous archaeologist: five films, from the 1930s to the 1960s."
+  },
+  "accentColor": "#92400E",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas de Indiana Jones",
+        "en": "Indiana Jones films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas; El Templo de la perdición es una precuela de En busca del arca perdida.",
+        "en": "The five films; Temple of Doom is a prequel to Raiders."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "indiana-jones-and-the-temple-of-doom-1984",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1935",
+        "en": "1935"
+      },
+      "characters": [
+        "indiana-jones"
+      ]
+    },
+    {
+      "titleId": "raiders-of-the-lost-ark-1981",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1936",
+        "en": "1936"
+      },
+      "characters": [
+        "indiana-jones",
+        "marion-ravenwood"
+      ]
+    },
+    {
+      "titleId": "indiana-jones-and-the-last-crusade-1989",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "1938",
+        "en": "1938"
+      },
+      "characters": [
+        "indiana-jones",
+        "henry-jones-sr"
+      ]
+    },
+    {
+      "titleId": "indiana-jones-and-the-kingdom-of-the-crystal-skull-2008",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "1957",
+        "en": "1957"
+      },
+      "characters": [
+        "indiana-jones",
+        "marion-ravenwood"
+      ]
+    },
+    {
+      "titleId": "indiana-jones-and-the-dial-of-destiny-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "1969",
+        "en": "1969"
+      },
+      "characters": [
+        "indiana-jones"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "original",
+      "type": "curated",
+      "name": {
+        "es": "Las tres originales",
+        "en": "The original three"
+      },
+      "description": {
+        "es": "La trilogía clásica: En busca del arca perdida, El Templo de la perdición y La última cruzada.",
+        "en": "The classic trilogy: Raiders, Temple of Doom and The Last Crusade."
+      },
+      "titleIds": [
+        "raiders-of-the-lost-ark-1981",
+        "indiana-jones-and-the-temple-of-doom-1984",
+        "indiana-jones-and-the-last-crusade-1989"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-indiana-jones-and-the-dial-of-destiny-2023",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para El dial del destino",
+        "en": "Get ready for Dial of Destiny"
+      },
+      "description": {
+        "es": "Lo que la película retoma: la primera, La última cruzada y El reino de la calavera de cristal.",
+        "en": "What the film picks up: the first, The Last Crusade and Kingdom of the Crystal Skull."
+      },
+      "titleIds": [
+        "raiders-of-the-lost-ark-1981",
+        "indiana-jones-and-the-last-crusade-1989",
+        "indiana-jones-and-the-kingdom-of-the-crystal-skull-2008"
+      ],
+      "targetTitleId": "indiana-jones-and-the-dial-of-destiny-2023"
+    },
+    {
+      "id": "henry-jones-sr",
+      "kind": "character",
+      "name": {
+        "es": "La familia de Indy",
+        "en": "Indy's family"
+      },
+      "description": {
+        "es": "Marion, Mutt y Henry Jones padre a lo largo de la saga.",
+        "en": "Marion, Mutt and Henry Jones Sr. across the saga."
+      },
+      "titleIds": [
+        "raiders-of-the-lost-ark-1981",
+        "indiana-jones-and-the-last-crusade-1989",
+        "indiana-jones-and-the-kingdom-of-the-crystal-skull-2008"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "indiana-jones",
+        "name": {
+          "es": "Indiana Jones",
+          "en": "Indiana Jones"
+        }
+      },
+      {
+        "id": "marion-ravenwood",
+        "name": {
+          "es": "Marion Ravenwood",
+          "en": "Marion Ravenwood"
+        }
+      },
+      {
+        "id": "henry-jones-sr",
+        "name": {
+          "es": "Henry Jones padre",
+          "en": "Henry Jones Sr."
+        }
+      }
+    ],
+    "teams": []
+  }
+}

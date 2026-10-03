@@ -1,0 +1,212 @@
+{
+  "id": "doctor-who",
+  "name": {
+    "es": "Doctor Who",
+    "en": "Doctor Who"
+  },
+  "description": {
+    "es": "El Señor del Tiempo y su TARDIS: la serie clásica, el regreso de 2005, la era de Disney y los spin-offs.",
+    "en": "The Time Lord and his TARDIS: the classic series, the 2005 return, the Disney era and the spin-offs."
+  },
+  "accentColor": "#1E3A8A",
+  "continuities": [
+    {
+      "id": "classic",
+      "name": {
+        "es": "Serie clásica",
+        "en": "Classic series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "De 1963 a 1989, más la película para televisión de 1996.",
+        "en": "From 1963 to 1989, plus the 1996 TV movie."
+      }
+    },
+    {
+      "id": "revival",
+      "name": {
+        "es": "El regreso (2005–2022)",
+        "en": "The revival (2005–2022)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Desde Christopher Eccleston hasta Jodie Whittaker; continúa de la serie clásica.",
+        "en": "From Christopher Eccleston to Jodie Whittaker; it continues the classic series."
+      },
+      "branchesFrom": {
+        "continuityId": "classic",
+        "afterTitleId": "doctor-who-1996"
+      }
+    },
+    {
+      "id": "disney",
+      "name": {
+        "es": "Era de Disney (2024–)",
+        "en": "Disney era (2024–)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La nueva etapa con Ncuti Gatwa como el Decimoquinto Doctor.",
+        "en": "The new era with Ncuti Gatwa as the Fifteenth Doctor."
+      },
+      "branchesFrom": {
+        "continuityId": "revival",
+        "afterTitleId": "doctor-who-2005"
+      }
+    },
+    {
+      "id": "spinoffs",
+      "name": {
+        "es": "Spin-offs",
+        "en": "Spin-offs"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Torchwood y The Sarah Jane Adventures, que comparten mundo con el regreso.",
+        "en": "Torchwood and The Sarah Jane Adventures, which share a world with the revival."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1963–1989",
+        "en": "1963–1989"
+      }
+    },
+    {
+      "titleId": "doctor-who-1996",
+      "continuityId": "classic",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1996",
+        "en": "1996"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2005–2022",
+        "en": "2005–2022"
+      }
+    },
+    {
+      "titleId": "doctor-who-2024",
+      "continuityId": "disney",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2024–",
+        "en": "2024–"
+      }
+    },
+    {
+      "titleId": "torchwood-2006",
+      "continuityId": "spinoffs",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2006–2011",
+        "en": "2006–2011"
+      }
+    },
+    {
+      "titleId": "the-sarah-jane-adventures-2007",
+      "continuityId": "spinoffs",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2007–2011",
+        "en": "2007–2011"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "modern",
+      "type": "curated",
+      "name": {
+        "es": "Desde 2005",
+        "en": "From 2005"
+      },
+      "description": {
+        "es": "La puerta de entrada más usada: el regreso y la era de Disney.",
+        "en": "The most common entry point: the revival and the Disney era."
+      },
+      "titleIds": [
+        "doctor-who-2005",
+        "doctor-who-2024"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "para-empezar",
+      "kind": "theme",
+      "name": {
+        "es": "Para empezar",
+        "en": "Where to start"
+      },
+      "description": {
+        "es": "La mayoría empieza por el regreso de 2005, que se entiende sin haber visto la clásica.",
+        "en": "Most people start with the 2005 revival, which makes sense without the classic series."
+      },
+      "titleIds": [
+        "doctor-who-2005",
+        "doctor-who-2024"
+      ]
+    },
+    {
+      "id": "spin-offs",
+      "kind": "theme",
+      "name": {
+        "es": "Spin-offs",
+        "en": "Spin-offs"
+      },
+      "description": {
+        "es": "Torchwood y The Sarah Jane Adventures.",
+        "en": "Torchwood and The Sarah Jane Adventures."
+      },
+      "titleIds": [
+        "torchwood-2006",
+        "the-sarah-jane-adventures-2007"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

@@ -1,0 +1,3 @@
+- New York cop John McClane visits his wife at a party in Los Angeles's Nakatomi Plaza.
+- Hans Gruber and his terrorists take over the building.
+- McClane defeats them alone, barefoot.

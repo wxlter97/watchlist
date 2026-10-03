@@ -1,0 +1,3 @@
+- Los Autobots descubren que una nave de Cybertron se estrelló en la Luna en los años 60.
+- Sentinel Prime, un antiguo líder, los traiciona.
+- Los Autobots ganan en Chicago.

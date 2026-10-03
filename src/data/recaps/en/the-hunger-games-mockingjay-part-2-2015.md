@@ -1,0 +1,3 @@
+- The rebellion advances on the Capitol with Katniss.
+- Snow is defeated, but she discovers a betrayal by the rebel president.
+- Katniss kills Coin and years later starts a family with Peeta.

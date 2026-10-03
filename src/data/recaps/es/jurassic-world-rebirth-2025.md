@@ -1,0 +1,3 @@
+- Cinco años después de Dominion, un equipo liderado por Zora Bennett va a una isla prohibida a recoger ADN de tres grandes dinosaurios para un tratamiento cardíaco.
+- Rescatan a una familia náufraga y quedan varados mientras enfrentan mutantes, entre ellos un T. rex de seis extremidades.
+- Escapan por túneles hasta una lancha; Zora y el paleontólogo deciden liberar el material biológico para beneficio global.

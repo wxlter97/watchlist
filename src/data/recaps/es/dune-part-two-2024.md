@@ -1,0 +1,3 @@
+- Paul se integra con los fremen y se enamora de Chani.
+- Mientras lidera una guerra contra los Harkonnen, su madre lo impulsa como mesías.
+- Paul toma el trono del emperador; Chani lo rechaza y la guerra santa se vuelve inevitable.

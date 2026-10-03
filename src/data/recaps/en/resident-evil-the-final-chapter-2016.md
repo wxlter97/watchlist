@@ -1,0 +1,3 @@
+- Alice returns to Raccoon City to get an antivirus.
+- She discovers the Hive is key.
+- Isaacs confronts her and she defeats him.

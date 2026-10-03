@@ -1,0 +1,3 @@
+- After John's death, officer Rigg is put through a game to save a colleague.
+- The film happens parallel to Saw III.
+- It's revealed Hoffman, a detective, is John's accomplice.

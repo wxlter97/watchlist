@@ -1,0 +1,3 @@
+- Doc lleva a Marty a 2015 para ayudar a su hijo.
+- Biff roba el almanaque deportivo y crea un 1985 alterno.
+- Marty vuelve a 1955 para repararlo; Doc queda atrapado en el pasado.

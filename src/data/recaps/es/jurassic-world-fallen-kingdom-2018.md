@@ -1,0 +1,3 @@
+- Un volcán amenaza con extinguir a los dinosaurios de Isla Nublar; Claire y Owen participan en un rescate.
+- Resulta que Eli Mills quiere vender los animales en una subasta, incluido un híbrido, el Indoraptor.
+- Los dinosaurios son liberados en tierra firme y Maisie, la nieta de Lockwood, decide abrirles la puerta.

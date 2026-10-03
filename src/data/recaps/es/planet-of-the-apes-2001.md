@@ -1,0 +1,3 @@
+- El astronauta Leo Davidson cae en un planeta dominado por simios y se une a una rebelión.
+- Se enfrenta al general Thade.
+- Regresa a la Tierra y la encuentra gobernada por simios.

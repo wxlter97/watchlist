@@ -1,0 +1,3 @@
+- Rocky, the champion, faces Clubber Lang and loses.
+- Apollo trains him to recover his edge.
+- Rocky defeats Lang.

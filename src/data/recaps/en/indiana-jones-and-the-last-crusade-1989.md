@@ -1,0 +1,3 @@
+- Indy searches for the Holy Grail with his father, Henry Jones, who was kidnapped by the Nazis.
+- They discover Elsa Schneider works for the Nazis.
+- Indy passes three trials and saves his father; the Grail stays in its sanctuary.

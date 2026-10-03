@@ -1,0 +1,3 @@
+- TV movie: the Seventh Doctor regenerates into the Eighth, played by Paul McGann.
+- He faces the Master.
+- It attempted to relaunch the series.

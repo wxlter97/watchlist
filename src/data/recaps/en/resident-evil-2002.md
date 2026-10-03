@@ -1,0 +1,3 @@
+- Alice wakes without memory in a mansion; a military team takes her to The Hive, an Umbrella lab.
+- The T-virus has turned the employees into zombies.
+- Alice survives and sees the infected city.

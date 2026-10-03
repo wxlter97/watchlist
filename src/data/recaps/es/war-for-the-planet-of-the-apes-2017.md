@@ -1,0 +1,3 @@
+- César se ve obligado a luchar contra un coronel que dirige la persecución de los simios.
+- Un virus hace que los humanos pierdan el habla; los simios son capturados.
+- César libera a su gente y guía a los simios hacia un nuevo hogar.

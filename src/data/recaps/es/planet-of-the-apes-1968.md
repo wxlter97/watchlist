@@ -1,0 +1,3 @@
+- Astronautas aterrizan en un planeta donde los simios dominan y los humanos son animales.
+- Taylor es capturado y descubre con la ayuda de Cornelius y Zira que el planeta es la Tierra del futuro.
+- La Estatua de la Libertad enterrada en la arena lo revela.

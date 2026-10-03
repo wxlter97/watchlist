@@ -1,0 +1,3 @@
+- Four years later, dinosaurs live alongside humans around the world.
+- Owen and Claire protect Maisie while the corporation Biosyn breeds giant locusts; Grant, Sattler and Malcolm return.
+- The heroes destroy Biosyn's compound and the dinosaurs remain free in the world.

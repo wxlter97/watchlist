@@ -1,0 +1,3 @@
+- El pirata Jack Sparrow ayuda al herrero Will Turner a rescatar a Elizabeth Swann, secuestrada por Barbossa.
+- La tripulación del Perla Negra está maldita: son muertos vivientes que necesitan devolver el oro azteca.
+- Se rompe la maldición y Jack recupera su barco.

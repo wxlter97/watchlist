@@ -1,0 +1,3 @@
+- Shinji Ikari, de catorce años, es reclutado por su padre, Gendo, para pilotar un Eva y enfrentar a los Ángeles.
+- Con Rei y Asuka protege Tokio-3 de los ataques.
+- El final se centra en la mente de los personajes y el Proyecto de Instrumentalidad.

@@ -1,0 +1,379 @@
+{
+  "id": "jurassic",
+  "name": {
+    "es": "Jurassic Park y Jurassic World",
+    "en": "Jurassic Park & Jurassic World"
+  },
+  "description": {
+    "es": "De la isla de Hammond a dinosaurios por todo el planeta: las películas y las series animadas.",
+    "en": "From Hammond's island to dinosaurs across the planet: the films and the animated series."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "park",
+      "name": {
+        "es": "Jurassic Park",
+        "en": "Jurassic Park"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La trilogía original (1993–2001).",
+        "en": "The original trilogy (1993–2001)."
+      }
+    },
+    {
+      "id": "world",
+      "name": {
+        "es": "Jurassic World",
+        "en": "Jurassic World"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El parque reabierto, la isla destruida y los dinosaurios sueltos. Continúa la historia de Jurassic Park.",
+        "en": "The reopened park, the destroyed island and dinosaurs on the loose. It continues the Jurassic Park story."
+      },
+      "branchesFrom": {
+        "continuityId": "park",
+        "afterTitleId": "jurassic-park-iii-2001"
+      }
+    },
+    {
+      "id": "rebirth",
+      "name": {
+        "es": "Jurassic World Rebirth",
+        "en": "Jurassic World Rebirth"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Cinco años después de Dominion, con un reparto nuevo.",
+        "en": "Five years after Dominion, with a new cast."
+      },
+      "branchesFrom": {
+        "continuityId": "world",
+        "afterTitleId": "jurassic-world-dominion-2022"
+      }
+    },
+    {
+      "id": "animated",
+      "name": {
+        "es": "Series animadas",
+        "en": "Animated series"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Camp Cretaceous y Chaos Theory ocurren en paralelo a las películas de Jurassic World.",
+        "en": "Camp Cretaceous and Chaos Theory happen alongside the Jurassic World films."
+      },
+      "timelineOf": "world"
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "jurassic-park-1993",
+      "continuityId": "park",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1993",
+        "en": "1993"
+      },
+      "characters": [
+        "alan-grant",
+        "ellie-sattler",
+        "ian-malcolm"
+      ]
+    },
+    {
+      "titleId": "the-lost-world-jurassic-park-1997",
+      "continuityId": "park",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1997",
+        "en": "1997"
+      },
+      "characters": [
+        "ian-malcolm"
+      ]
+    },
+    {
+      "titleId": "jurassic-park-iii-2001",
+      "continuityId": "park",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2001",
+        "en": "2001"
+      },
+      "characters": [
+        "alan-grant",
+        "ellie-sattler"
+      ]
+    },
+    {
+      "titleId": "jurassic-world-2015",
+      "continuityId": "world",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2015",
+        "en": "2015"
+      },
+      "characters": [
+        "owen-grady",
+        "claire-dearing",
+        "blue"
+      ]
+    },
+    {
+      "titleId": "jurassic-world-camp-cretaceous-2020",
+      "continuityId": "animated",
+      "importance": "optional",
+      "chronoOrder": 45,
+      "chronoNote": {
+        "es": "2015–2018",
+        "en": "2015–2018"
+      }
+    },
+    {
+      "titleId": "jurassic-world-fallen-kingdom-2018",
+      "continuityId": "world",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "2018",
+        "en": "2018"
+      },
+      "characters": [
+        "owen-grady",
+        "claire-dearing",
+        "ian-malcolm",
+        "blue"
+      ]
+    },
+    {
+      "titleId": "jurassic-world-dominion-2022",
+      "continuityId": "world",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "2022",
+        "en": "2022"
+      },
+      "characters": [
+        "alan-grant",
+        "ellie-sattler",
+        "ian-malcolm",
+        "owen-grady",
+        "claire-dearing",
+        "blue"
+      ]
+    },
+    {
+      "titleId": "jurassic-world-chaos-theory-2024",
+      "continuityId": "animated",
+      "importance": "optional",
+      "chronoOrder": 72,
+      "chronoNote": {
+        "es": "2022 (paralela a Dominion)",
+        "en": "2022 (paralela a Dominion)"
+      }
+    },
+    {
+      "titleId": "jurassic-world-rebirth-2025",
+      "continuityId": "rebirth",
+      "importance": "recommended",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "2027",
+        "en": "2027"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "movies",
+      "type": "curated",
+      "name": {
+        "es": "Solo películas",
+        "en": "Movies only"
+      },
+      "description": {
+        "es": "Las siete películas, sin las series animadas.",
+        "en": "The seven films, without the animated series."
+      },
+      "titleIds": [
+        "jurassic-park-1993",
+        "the-lost-world-jurassic-park-1997",
+        "jurassic-park-iii-2001",
+        "jurassic-world-2015",
+        "jurassic-world-fallen-kingdom-2018",
+        "jurassic-world-dominion-2022",
+        "jurassic-world-rebirth-2025"
+      ]
+    },
+    {
+      "id": "essentials",
+      "type": "curated",
+      "name": {
+        "es": "Lo esencial",
+        "en": "The essentials"
+      },
+      "description": {
+        "es": "Lo que más pesa: el parque original, la reapertura y lo que sigue.",
+        "en": "What weighs most: the original park, the reopening and what follows."
+      },
+      "titleIds": [
+        "jurassic-park-1993",
+        "jurassic-world-2015",
+        "jurassic-world-fallen-kingdom-2018",
+        "jurassic-world-dominion-2022",
+        "jurassic-world-rebirth-2025"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-jurassic-world-rebirth",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Jurassic World Rebirth",
+        "en": "Get ready for Jurassic World Rebirth"
+      },
+      "description": {
+        "es": "Lo mínimo para llegar a Rebirth: el parque original y la trilogía de Jurassic World.",
+        "en": "The minimum to reach Rebirth: the original park and the Jurassic World trilogy."
+      },
+      "titleIds": [
+        "jurassic-park-1993",
+        "jurassic-world-2015",
+        "jurassic-world-fallen-kingdom-2018",
+        "jurassic-world-dominion-2022"
+      ],
+      "targetTitleId": "jurassic-world-rebirth-2025"
+    },
+    {
+      "id": "ian-malcolm",
+      "kind": "character",
+      "name": {
+        "es": "Ian Malcolm",
+        "en": "Ian Malcolm"
+      },
+      "description": {
+        "es": "El matemático del caos, desde la isla hasta el Senado.",
+        "en": "The chaos theorist, from the island to the Senate."
+      },
+      "titleIds": [
+        "jurassic-park-1993",
+        "the-lost-world-jurassic-park-1997",
+        "jurassic-world-fallen-kingdom-2018",
+        "jurassic-world-dominion-2022"
+      ]
+    },
+    {
+      "id": "owen-y-claire",
+      "kind": "character",
+      "name": {
+        "es": "Owen y Claire",
+        "en": "Owen and Claire"
+      },
+      "description": {
+        "es": "La pareja de la nueva trilogía.",
+        "en": "The new trilogy's duo."
+      },
+      "titleIds": [
+        "jurassic-world-2015",
+        "jurassic-world-fallen-kingdom-2018",
+        "jurassic-world-dominion-2022"
+      ]
+    },
+    {
+      "id": "series-animadas",
+      "kind": "theme",
+      "name": {
+        "es": "Las series animadas",
+        "en": "The animated series"
+      },
+      "description": {
+        "es": "Camp Cretaceous y Chaos Theory, con el mismo grupo de jóvenes.",
+        "en": "Camp Cretaceous and Chaos Theory, with the same group of teens."
+      },
+      "titleIds": [
+        "jurassic-world-camp-cretaceous-2020",
+        "jurassic-world-chaos-theory-2024"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "alan-grant",
+        "name": {
+          "es": "Alan Grant",
+          "en": "Alan Grant"
+        }
+      },
+      {
+        "id": "ellie-sattler",
+        "name": {
+          "es": "Ellie Sattler",
+          "en": "Ellie Sattler"
+        }
+      },
+      {
+        "id": "ian-malcolm",
+        "name": {
+          "es": "Ian Malcolm",
+          "en": "Ian Malcolm"
+        }
+      },
+      {
+        "id": "owen-grady",
+        "name": {
+          "es": "Owen Grady",
+          "en": "Owen Grady"
+        }
+      },
+      {
+        "id": "claire-dearing",
+        "name": {
+          "es": "Claire Dearing",
+          "en": "Claire Dearing"
+        }
+      },
+      {
+        "id": "blue",
+        "name": {
+          "es": "Blue",
+          "en": "Blue"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "id": "bourne",
+  "name": {
+    "es": "Jason Bourne",
+    "en": "Bourne"
+  },
+  "description": {
+    "es": "El agente sin memoria: la trilogía, el derivado paralelo y el regreso de Matt Damon.",
+    "en": "The agent with no memory: the trilogy, the parallel spin-off and Matt Damon's return."
+  },
+  "accentColor": "#374151",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Bourne",
+        "en": "Bourne"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todas las películas, con Legacy ocurriendo en paralelo a Ultimatum.",
+        "en": "All the films, with Legacy happening alongside Ultimatum."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-bourne-identity-2002",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "2002",
+        "en": "2002"
+      },
+      "characters": [
+        "jason-bourne"
+      ]
+    },
+    {
+      "titleId": "the-bourne-supremacy-2004",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "2004",
+        "en": "2004"
+      },
+      "characters": [
+        "jason-bourne"
+      ]
+    },
+    {
+      "titleId": "the-bourne-ultimatum-2007",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "2007",
+        "en": "2007"
+      },
+      "characters": [
+        "jason-bourne"
+      ]
+    },
+    {
+      "titleId": "the-bourne-legacy-2012",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 35,
+      "chronoNote": {
+        "es": "En paralelo a Ultimatum",
+        "en": "Parallel to Ultimatum"
+      },
+      "characters": [
+        "aaron-cross"
+      ]
+    },
+    {
+      "titleId": "jason-bourne-2016",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "2016",
+        "en": "2016"
+      },
+      "characters": [
+        "jason-bourne"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "trilogy",
+      "type": "curated",
+      "name": {
+        "es": "La trilogía de Bourne",
+        "en": "The Bourne trilogy"
+      },
+      "description": {
+        "es": "Identity, Supremacy y Ultimatum.",
+        "en": "Identity, Supremacy and Ultimatum."
+      },
+      "titleIds": [
+        "the-bourne-identity-2002",
+        "the-bourne-supremacy-2004",
+        "the-bourne-ultimatum-2007"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-jason-bourne-2016",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Jason Bourne",
+        "en": "Get ready for Jason Bourne"
+      },
+      "description": {
+        "es": "La trilogía original: Jason Bourne la continúa directamente.",
+        "en": "The original trilogy: Jason Bourne continues it directly."
+      },
+      "titleIds": [
+        "the-bourne-identity-2002",
+        "the-bourne-supremacy-2004",
+        "the-bourne-ultimatum-2007"
+      ],
+      "targetTitleId": "jason-bourne-2016"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "jason-bourne",
+        "name": {
+          "es": "Jason Bourne",
+          "en": "Jason Bourne"
+        }
+      },
+      {
+        "id": "aaron-cross",
+        "name": {
+          "es": "Aaron Cross",
+          "en": "Aaron Cross"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

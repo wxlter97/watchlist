@@ -1,0 +1,3 @@
+- In 1991, after a plague, apes are enslaved; Caesar, son of Cornelius and Zira, grows into a leader.
+- He organizes an ape rebellion against humans.
+- He triumphs and declares a new era.

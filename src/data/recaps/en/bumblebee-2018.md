@@ -1,0 +1,3 @@
+- In 1987, Bumblebee arrives on Earth, fleeing the Decepticons.
+- Charlie Watson finds him and hides him as a Beetle.
+- Together they defeat the Decepticons and Bumblebee gathers the Autobots.

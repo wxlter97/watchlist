@@ -1,0 +1,3 @@
+- In the 1970s, Winston Scott seeks revenge on Cormac O'Connor, the Continental's manager who raised him and his brother Frankie as criminals.
+- After Frankie is killed by Cormac's assassins, Winston assembles a team to take over the hotel.
+- They succeed; Winston takes control of the Continental and kills the High Table's Adjudicator.

@@ -1,0 +1,3 @@
+- Alan Grant agrees to guide a couple who claim they want to fly over Isla Sorna, but they are looking for their missing son.
+- Dinosaurs, including a Spinosaurus, stalk the group, who must flee.
+- They rescue the boy and escape with Ellie's help.

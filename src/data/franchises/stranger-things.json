@@ -1,0 +1,139 @@
+{
+  "id": "stranger-things",
+  "name": {
+    "es": "Stranger Things",
+    "en": "Stranger Things"
+  },
+  "description": {
+    "es": "Hawkins, el Mundo del Revés y los chicos que lo enfrentaron: cinco temporadas y su spin-off animado.",
+    "en": "Hawkins, the Upside Down and the kids who faced it: five seasons and an animated spin-off."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie principal",
+        "en": "Main series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco temporadas, de 1983 a 1987.",
+        "en": "The five seasons, from 1983 to 1987."
+      }
+    },
+    {
+      "id": "animated",
+      "name": {
+        "es": "Tales from '85",
+        "en": "Tales from '85"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Serie animada ambientada entre la segunda y la tercera temporada.",
+        "en": "Animated series set between seasons two and three."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "stranger-things-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "1983–1987",
+        "en": "1983–1987"
+      },
+      "characters": [
+        "eleven",
+        "mike-wheeler",
+        "hopper"
+      ]
+    },
+    {
+      "titleId": "stranger-things-tales-from-85-2026",
+      "continuityId": "animated",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Entre la 2.ª y la 3.ª temporada",
+        "en": "Between seasons 2 and 3"
+      },
+      "characters": [
+        "eleven",
+        "mike-wheeler"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "los-chicos-de-hawkins",
+      "kind": "character",
+      "name": {
+        "es": "Los chicos de Hawkins",
+        "en": "The Hawkins kids"
+      },
+      "description": {
+        "es": "Once, Mike y el resto del grupo, en la serie y en su spin-off.",
+        "en": "Eleven, Mike and the rest of the group, in the series and its spin-off."
+      },
+      "titleIds": [
+        "stranger-things-2016",
+        "stranger-things-tales-from-85-2026"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "eleven",
+        "name": {
+          "es": "Once",
+          "en": "Eleven"
+        }
+      },
+      {
+        "id": "mike-wheeler",
+        "name": {
+          "es": "Mike Wheeler",
+          "en": "Mike Wheeler"
+        }
+      },
+      {
+        "id": "hopper",
+        "name": {
+          "es": "Jim Hopper",
+          "en": "Jim Hopper"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

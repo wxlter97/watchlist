@@ -1,0 +1,3 @@
+- Ethan debe encontrar un virus y su antídoto, robados por el exagente Sean Ambrose.
+- Se ayuda de la ladrona Nyah, con quien se involucra.
+- Es la película más autónoma de la saga.

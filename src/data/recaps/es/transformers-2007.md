@@ -1,0 +1,3 @@
+- Sam Witwicky compra un auto, Bumblebee, que resulta ser un Autobot.
+- Los Autobots y los Decepticons buscan el Allspark, una fuente de poder, en la Tierra.
+- Destruyen el Allspark y matan a Megatron.

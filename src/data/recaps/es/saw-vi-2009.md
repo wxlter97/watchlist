@@ -1,0 +1,3 @@
+- Hoffman enfrenta a William, un ejecutivo de seguros relacionado con John.
+- William es sometido a pruebas con su empresa como tema.
+- Hoffman asegura su lugar.

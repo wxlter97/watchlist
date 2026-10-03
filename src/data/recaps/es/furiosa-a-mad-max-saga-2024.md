@@ -1,0 +1,3 @@
+- Furiosa es raptada de niña del Lugar Verde por el señor de la guerra Dementus.
+- Crece entre la Ciudadela y la Gasolinera, disfrazada, y busca vengarse.
+- Derrota a Dementus y se encamina a Fury Road.

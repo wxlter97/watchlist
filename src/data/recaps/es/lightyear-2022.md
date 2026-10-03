@@ -1,0 +1,3 @@
+- Buzz Lightyear, ranger espacial, queda varado en un planeta hostil.
+- Intenta regresar probando combustible, pero cada viaje le hace perder años.
+- Forma un equipo para enfrentar a Zurg.

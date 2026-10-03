@@ -1,0 +1,3 @@
+- Zion se prepara para la invasión de las máquinas mientras Neo se enfrenta a una versión replicada de Smith.
+- Busca al Arquitecto, el creador de Matrix, que le revela su verdadero papel.
+- Neo elige salvar a Trinity en lugar de la humanidad.

@@ -1,0 +1,3 @@
+- Centuries later, a young ape, Noa, sets out to find his clan abducted by Proximus Caesar.
+- He meets Raka and Mae, a human who can speak.
+- Mae has a plan for the future; the film ends with tension between humans and apes.

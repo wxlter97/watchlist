@@ -1,0 +1,3 @@
+- McClane helps a young hacker, Matt Farrell, amid a cyberattack on the U.S.
+- Thomas Gabriel leads the attack.
+- McClane stops him.

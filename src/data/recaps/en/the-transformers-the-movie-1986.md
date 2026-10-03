@@ -1,0 +1,3 @@
+- In 2005, the Decepticons attack Autobot City; Optimus Prime dies fighting Megatron.
+- Unicron, a planet-devouring entity, destroys worlds and turns Megatron into Galvatron.
+- Hot Rod takes the Matrix of Leadership, becomes Rodimus Prime and destroys Unicron.

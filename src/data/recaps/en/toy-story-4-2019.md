@@ -1,0 +1,3 @@
+- Woody stays with Bonnie, who makes Forky from trash.
+- On a trip, Woody reunites with Bo Peep.
+- He decides to stay with her and leave Bonnie.

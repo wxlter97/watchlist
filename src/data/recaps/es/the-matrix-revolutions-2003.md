@@ -1,0 +1,3 @@
+- Las máquinas atacan Zion y los humanos resisten.
+- Neo pacta con las máquinas para derrotar a Smith, que se ha convertido en una amenaza.
+- Neo muere en la lucha y se establece una paz con las máquinas.

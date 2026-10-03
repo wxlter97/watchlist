@@ -1,0 +1,3 @@
+- Alice searches for survivors in Alaska and reaches Los Angeles.
+- She finds Claire and others in a prison.
+- They face Wesker.

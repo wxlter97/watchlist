@@ -1,0 +1,2 @@
+- Una película doble: «Death» resume la serie y «Rebirth» adelanta el nuevo final.
+- No agrega historia nueva por sí sola.

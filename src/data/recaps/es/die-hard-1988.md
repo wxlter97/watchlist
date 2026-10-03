@@ -1,0 +1,3 @@
+- El policía de Nueva York John McClane visita a su esposa en una fiesta en el Nakatomi Plaza, en Los Ángeles.
+- Hans Gruber y sus terroristas toman el edificio.
+- McClane los vence solo, descalzo.

@@ -1,0 +1,3 @@
+- Claire Redfield visita un aeropuerto cuando estalla un brote de zombis.
+- Leon Kennedy y el grupo de rescate intervienen.
+- Descubren que una empresa, WilPharma, está detrás.

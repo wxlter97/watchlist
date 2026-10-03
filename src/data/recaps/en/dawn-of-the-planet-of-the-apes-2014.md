@@ -1,0 +1,3 @@
+- Ten years later, the virus has decimated humanity and Caesar's apes live in the forest.
+- A group of humans seeks to restore a dam; Koba, a traumatized ape, wants war.
+- Koba starts the conflict and war becomes unavoidable.

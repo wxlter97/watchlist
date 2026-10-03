@@ -1,0 +1,3 @@
+- **Season 1:** in 1983, Will Byers vanishes in Hawkins and his friends meet Eleven, a girl with powers who escaped a lab.
+- **Seasons 2–4:** the Upside Down and the Mind Flayer threaten the town; in the fourth, Vecna appears.
+- **Season 5:** in 1987, the group hunts Vecna as rifts open; they learn the Upside Down is a wormhole and destroy it. Eleven stays in the collapsing world and, eighteen months later, there is hope she may be alive.

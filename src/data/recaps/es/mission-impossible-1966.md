@@ -1,0 +1,2 @@
+- Serie de espionaje: el equipo de la FMI recibe una misión en una cinta que se autodestruye y la ejecuta con engaños.
+- Cada episodio es una operación autocontenida contra dictadores y criminales.

@@ -1,0 +1,3 @@
+- Cybertron se acerca a la Tierra y Optimus Prime, bajo control de Quintessa, ataca a los humanos.
+- Cade busca el báculo de Merlín para salvar el planeta.
+- Optimus recupera su voluntad y el báculo detiene la amenaza.

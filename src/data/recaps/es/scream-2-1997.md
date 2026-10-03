@@ -1,0 +1,3 @@
+- Una película basada en lo ocurrido en Woodsboro, Stab, desata nuevos asesinatos en la universidad.
+- Sidney, Gale y Dewey se enfrentan a otro Ghostface.
+- Se revela a los responsables, entre ellos la madre de Billy.

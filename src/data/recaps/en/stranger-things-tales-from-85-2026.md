@@ -1,0 +1,3 @@
+- Animated series set in winter 1985, between seasons two and three.
+- A scientist accidentally releases spores from an Upside Down creature and monsters appear, like a snow shark and pumpkin zombies.
+- The group, with new student Nikki Baxter, closes the gateway.

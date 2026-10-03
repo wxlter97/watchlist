@@ -1,0 +1,2 @@
+- Revival of the series: a new IMF team led by Jim Phelps carries out espionage missions through deception.
+- It keeps the self-contained operation structure.

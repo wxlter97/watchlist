@@ -1,0 +1,3 @@
+- An outbreak in San Francisco brings Leon, Chris, Jill, Claire and Rebecca to Alcatraz.
+- There a villain uses the infected for his plan.
+- The team stops him.

@@ -1,0 +1,3 @@
+- Serie de Netflix con dos líneas temporales: una joven Jade y su hermana Billie en 2022 y una Jade adulta en 2036.
+- El virus ha convertido a gran parte del mundo en monstruos.
+- Se explora la relación de Jade con Albert Wesker.

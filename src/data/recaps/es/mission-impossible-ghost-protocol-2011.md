@@ -1,0 +1,3 @@
+- Tras un atentado en el Kremlin, la IMF es desautorizada: el «protocolo fantasma».
+- Ethan y su equipo (Benji, Jane, Brandt) tratan de evitar una guerra nuclear provocada por Hendricks.
+- Lo derrotan en Mumbai; la IMF recupera su estatus.

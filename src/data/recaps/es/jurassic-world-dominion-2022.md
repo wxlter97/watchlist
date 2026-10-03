@@ -1,0 +1,3 @@
+- Cuatro años después, los dinosaurios conviven con los humanos en todo el mundo.
+- Owen y Claire protegen a Maisie mientras la corporación Biosyn cría langostas gigantes; Grant, Sattler y Malcolm regresan.
+- Los héroes destruyen el complejo de Biosyn y los dinosaurios quedan libres en el mundo.

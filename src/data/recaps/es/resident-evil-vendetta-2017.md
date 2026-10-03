@@ -1,0 +1,3 @@
+- Chris Redfield persigue a un traficante, Glenn Arias, que quiere liberar un virus.
+- Rebecca Chambers y Leon se unen.
+- Derrotan a Arias.

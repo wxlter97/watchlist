@@ -1,0 +1,3 @@
+- Jack busca la Fuente de la Juventud en una carrera contra Barbossa y Barbanegra.
+- Se encuentra con Angélica, hija de Barbanegra.
+- La Fuente se usa y se cierra la historia.

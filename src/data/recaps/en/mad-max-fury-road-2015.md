@@ -1,0 +1,3 @@
+- Furiosa flees Immortan Joe in a truck with his captive wives.
+- Max joins her after being captured as a blood source.
+- They defeat Joe and hand the Citadel to the oppressed.

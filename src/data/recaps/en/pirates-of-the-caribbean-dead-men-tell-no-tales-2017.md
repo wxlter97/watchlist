@@ -1,0 +1,3 @@
+- Henry Turner, Will's son, seeks to break the curse on the Flying Dutchman.
+- Salazar, a ghost pirate hunter, chases Jack.
+- They break the curse and Will is reunited with Elizabeth.

@@ -1,0 +1,3 @@
+- Rocky, viudo, dirige un restaurante.
+- Acepta una pelea de exhibición contra el campeón actual, Mason Dixon.
+- Resiste los asaltos.

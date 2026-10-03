@@ -1,0 +1,3 @@
+- A pirate festival gathers many pirates to seek a treasure.
+- The Straw Hats take part and face Douglas Bullet.
+- Luffy defeats Bullet.
