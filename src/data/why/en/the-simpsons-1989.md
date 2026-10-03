@@ -1,0 +1,1 @@
+Television's longest-running animated series, with almost no continuity between episodes: you can start anywhere. What does vary is quality: the classic era (seasons 3 to 9) is what almost everyone recommends first; after that, regard declines, though there are memorable episodes in every era.

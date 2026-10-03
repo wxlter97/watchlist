@@ -1,0 +1,1 @@
+Es la serie animada más larga de la televisión, y casi no hay continuidad entre episodios: se puede empezar en cualquier punto. Lo que sí varía es la calidad: la era clásica (temporadas 3 a 9) es la que casi todos recomiendan primero; de ahí en adelante la valoración baja, aunque hay episodios memorables en cualquier época.

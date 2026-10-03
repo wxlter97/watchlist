@@ -1,0 +1,3 @@
+- Homer pollutes Springfield's lake, and the environmental agency seals the town under a dome.
+- The family flees to Alaska, but Homer returns when he realizes he must save his town.
+- The movie includes Homer's pig, Spider-Pig, and his antics.

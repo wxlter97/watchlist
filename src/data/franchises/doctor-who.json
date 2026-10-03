@@ -64,69 +64,542 @@
       "description": {
         "es": "Torchwood y The Sarah Jane Adventures, que comparten mundo con el regreso.",
         "en": "Torchwood and The Sarah Jane Adventures, which share a world with the revival."
-      }
+      },
+      "timelineOf": "revival"
     }
   ],
   "entries": [
     {
       "titleId": "doctor-who-1963",
       "continuityId": "classic",
+      "season": 1,
       "importance": "recommended",
       "chronoOrder": 10,
       "chronoNote": {
-        "es": "1963–1989",
-        "en": "1963–1989"
+        "es": "Primer Doctor (Hartnell)",
+        "en": "First Doctor (Hartnell)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 2,
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Primer Doctor (Hartnell)",
+        "en": "First Doctor (Hartnell)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 3,
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Primer Doctor (Hartnell)",
+        "en": "First Doctor (Hartnell)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 4,
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Primer y Segundo Doctor (Hartnell, Troughton)",
+        "en": "First and Second Doctor (Hartnell, Troughton)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 5,
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Segundo Doctor (Troughton)",
+        "en": "Second Doctor (Troughton)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 6,
+      "importance": "optional",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "Segundo Doctor (Troughton)",
+        "en": "Second Doctor (Troughton)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 7,
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "Tercer Doctor (Pertwee)",
+        "en": "Third Doctor (Pertwee)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 8,
+      "importance": "optional",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "Tercer Doctor (Pertwee)",
+        "en": "Third Doctor (Pertwee)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 9,
+      "importance": "optional",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "Tercer Doctor (Pertwee)",
+        "en": "Third Doctor (Pertwee)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 10,
+      "importance": "optional",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "Tercer Doctor (Pertwee)",
+        "en": "Third Doctor (Pertwee)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 11,
+      "importance": "optional",
+      "chronoOrder": 110,
+      "chronoNote": {
+        "es": "Tercer Doctor (Pertwee) y Cuarto (T. Baker)",
+        "en": "Third Doctor (Pertwee) and Fourth (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 12,
+      "importance": "recommended",
+      "chronoOrder": 120,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker)",
+        "en": "Fourth Doctor (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 13,
+      "importance": "recommended",
+      "chronoOrder": 130,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker)",
+        "en": "Fourth Doctor (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 14,
+      "importance": "recommended",
+      "chronoOrder": 140,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker)",
+        "en": "Fourth Doctor (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 15,
+      "importance": "optional",
+      "chronoOrder": 150,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker)",
+        "en": "Fourth Doctor (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 16,
+      "importance": "optional",
+      "chronoOrder": 160,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker)",
+        "en": "Fourth Doctor (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 17,
+      "importance": "optional",
+      "chronoOrder": 170,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker)",
+        "en": "Fourth Doctor (T. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 18,
+      "importance": "optional",
+      "chronoOrder": 180,
+      "chronoNote": {
+        "es": "Cuarto Doctor (T. Baker) y Quinto (Davison)",
+        "en": "Fourth Doctor (T. Baker) and Fifth (Davison)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 19,
+      "importance": "optional",
+      "chronoOrder": 190,
+      "chronoNote": {
+        "es": "Quinto Doctor (Davison)",
+        "en": "Fifth Doctor (Davison)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 20,
+      "importance": "optional",
+      "chronoOrder": 200,
+      "chronoNote": {
+        "es": "Quinto Doctor (Davison)",
+        "en": "Fifth Doctor (Davison)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 21,
+      "importance": "optional",
+      "chronoOrder": 210,
+      "chronoNote": {
+        "es": "Quinto (Davison) y Sexto Doctor (C. Baker)",
+        "en": "Fifth (Davison) and Sixth Doctor (C. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 22,
+      "importance": "optional",
+      "chronoOrder": 220,
+      "chronoNote": {
+        "es": "Sexto Doctor (C. Baker)",
+        "en": "Sixth Doctor (C. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 23,
+      "importance": "optional",
+      "chronoOrder": 230,
+      "chronoNote": {
+        "es": "Sexto Doctor (C. Baker)",
+        "en": "Sixth Doctor (C. Baker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 24,
+      "importance": "optional",
+      "chronoOrder": 240,
+      "chronoNote": {
+        "es": "Séptimo Doctor (McCoy)",
+        "en": "Seventh Doctor (McCoy)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 25,
+      "importance": "optional",
+      "chronoOrder": 250,
+      "chronoNote": {
+        "es": "Séptimo Doctor (McCoy)",
+        "en": "Seventh Doctor (McCoy)"
+      }
+    },
+    {
+      "titleId": "doctor-who-1963",
+      "continuityId": "classic",
+      "season": 26,
+      "importance": "optional",
+      "chronoOrder": 260,
+      "chronoNote": {
+        "es": "Séptimo Doctor (McCoy)",
+        "en": "Seventh Doctor (McCoy)"
       }
     },
     {
       "titleId": "doctor-who-1996",
       "continuityId": "classic",
       "importance": "optional",
-      "chronoOrder": 20,
+      "chronoOrder": 270,
       "chronoNote": {
-        "es": "1996",
-        "en": "1996"
+        "es": "Octavo Doctor (McGann)",
+        "en": "Eighth Doctor (McGann)"
       }
     },
     {
       "titleId": "doctor-who-2005",
       "continuityId": "revival",
+      "season": 1,
       "importance": "essential",
-      "chronoOrder": 10,
+      "chronoOrder": 2005030,
       "chronoNote": {
-        "es": "2005–2022",
-        "en": "2005–2022"
+        "es": "Noveno Doctor (Eccleston)",
+        "en": "Ninth Doctor (Eccleston)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 2,
+      "importance": "essential",
+      "chronoOrder": 2006040,
+      "chronoNote": {
+        "es": "Décimo Doctor (Tennant)",
+        "en": "Tenth Doctor (Tennant)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 3,
+      "importance": "essential",
+      "chronoOrder": 2007040,
+      "chronoNote": {
+        "es": "Décimo Doctor (Tennant)",
+        "en": "Tenth Doctor (Tennant)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 4,
+      "importance": "essential",
+      "chronoOrder": 2008040,
+      "chronoNote": {
+        "es": "Décimo Doctor (Tennant)",
+        "en": "Tenth Doctor (Tennant)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 5,
+      "importance": "essential",
+      "chronoOrder": 2010040,
+      "chronoNote": {
+        "es": "Undécimo Doctor (Smith)",
+        "en": "Eleventh Doctor (Smith)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 6,
+      "importance": "recommended",
+      "chronoOrder": 2011040,
+      "chronoNote": {
+        "es": "Undécimo Doctor (Smith)",
+        "en": "Eleventh Doctor (Smith)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 7,
+      "importance": "recommended",
+      "chronoOrder": 2012090,
+      "chronoNote": {
+        "es": "Undécimo Doctor (Smith)",
+        "en": "Eleventh Doctor (Smith)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 8,
+      "importance": "recommended",
+      "chronoOrder": 2014080,
+      "chronoNote": {
+        "es": "Duodécimo Doctor (Capaldi)",
+        "en": "Twelfth Doctor (Capaldi)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 9,
+      "importance": "recommended",
+      "chronoOrder": 2015090,
+      "chronoNote": {
+        "es": "Duodécimo Doctor (Capaldi)",
+        "en": "Twelfth Doctor (Capaldi)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 10,
+      "importance": "recommended",
+      "chronoOrder": 2017040,
+      "chronoNote": {
+        "es": "Duodécimo Doctor (Capaldi)",
+        "en": "Twelfth Doctor (Capaldi)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 11,
+      "importance": "optional",
+      "chronoOrder": 2018100,
+      "chronoNote": {
+        "es": "Decimotercer Doctor (Whittaker)",
+        "en": "Thirteenth Doctor (Whittaker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 12,
+      "importance": "optional",
+      "chronoOrder": 2020010,
+      "chronoNote": {
+        "es": "Decimotercer Doctor (Whittaker)",
+        "en": "Thirteenth Doctor (Whittaker)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2005",
+      "continuityId": "revival",
+      "season": 13,
+      "importance": "optional",
+      "chronoOrder": 2021100,
+      "chronoNote": {
+        "es": "Decimotercer Doctor (Whittaker)",
+        "en": "Thirteenth Doctor (Whittaker)"
       }
     },
     {
       "titleId": "doctor-who-2024",
       "continuityId": "disney",
+      "season": 1,
       "importance": "recommended",
-      "chronoOrder": 10,
+      "chronoOrder": 2024050,
       "chronoNote": {
-        "es": "2024–",
-        "en": "2024–"
+        "es": "Decimoquinto Doctor (Gatwa)",
+        "en": "Fifteenth Doctor (Gatwa)"
+      }
+    },
+    {
+      "titleId": "doctor-who-2024",
+      "continuityId": "disney",
+      "season": 2,
+      "importance": "recommended",
+      "chronoOrder": 2025040,
+      "chronoNote": {
+        "es": "Decimoquinto Doctor (Gatwa)",
+        "en": "Fifteenth Doctor (Gatwa)"
       }
     },
     {
       "titleId": "torchwood-2006",
       "continuityId": "spinoffs",
+      "season": 1,
       "importance": "optional",
-      "chronoOrder": 10,
+      "chronoOrder": 2006100
+    },
+    {
+      "titleId": "torchwood-2006",
+      "continuityId": "spinoffs",
+      "season": 2,
+      "importance": "optional",
+      "chronoOrder": 2008010
+    },
+    {
+      "titleId": "torchwood-2006",
+      "continuityId": "spinoffs",
+      "season": 3,
+      "importance": "recommended",
+      "chronoOrder": 2009070,
       "chronoNote": {
-        "es": "2006–2011",
-        "en": "2006–2011"
+        "es": "«Children of Earth»",
+        "en": "\"Children of Earth\""
+      }
+    },
+    {
+      "titleId": "torchwood-2006",
+      "continuityId": "spinoffs",
+      "season": 4,
+      "importance": "optional",
+      "chronoOrder": 2011070,
+      "chronoNote": {
+        "es": "«Miracle Day»",
+        "en": "\"Miracle Day\""
       }
     },
     {
       "titleId": "the-sarah-jane-adventures-2007",
       "continuityId": "spinoffs",
+      "season": 1,
       "importance": "optional",
-      "chronoOrder": 20,
-      "chronoNote": {
-        "es": "2007–2011",
-        "en": "2007–2011"
-      }
+      "chronoOrder": 2007090
+    },
+    {
+      "titleId": "the-sarah-jane-adventures-2007",
+      "continuityId": "spinoffs",
+      "season": 2,
+      "importance": "optional",
+      "chronoOrder": 2008090
+    },
+    {
+      "titleId": "the-sarah-jane-adventures-2007",
+      "continuityId": "spinoffs",
+      "season": 3,
+      "importance": "optional",
+      "chronoOrder": 2009100
+    },
+    {
+      "titleId": "the-sarah-jane-adventures-2007",
+      "continuityId": "spinoffs",
+      "season": 4,
+      "importance": "optional",
+      "chronoOrder": 2010100
+    },
+    {
+      "titleId": "the-sarah-jane-adventures-2007",
+      "continuityId": "spinoffs",
+      "season": 5,
+      "importance": "optional",
+      "chronoOrder": 2011100
     }
   ],
   "orders": [
@@ -169,6 +642,25 @@
         "doctor-who-2005",
         "doctor-who-2024"
       ]
+    },
+    {
+      "id": "start",
+      "type": "curated",
+      "name": {
+        "es": "Las primeras cinco",
+        "en": "The first five"
+      },
+      "description": {
+        "es": "Las temporadas 1 a 5 del regreso: de Eccleston a la llegada de Smith.",
+        "en": "Seasons 1 to 5 of the revival: from Eccleston to Smith's arrival."
+      },
+      "titleIds": [
+        "doctor-who-2005#1",
+        "doctor-who-2005#2",
+        "doctor-who-2005#3",
+        "doctor-who-2005#4",
+        "doctor-who-2005#5"
+      ]
     }
   ],
   "routes": [
@@ -180,12 +672,15 @@
         "en": "Where to start"
       },
       "description": {
-        "es": "La mayoría empieza por el regreso de 2005, que se entiende sin haber visto la clásica.",
-        "en": "Most people start with the 2005 revival, which makes sense without the classic series."
+        "es": "Las cinco temporadas con las que casi todos empiezan: se entienden sin haber visto la serie clásica.",
+        "en": "The five seasons almost everyone starts with: they make sense without having seen the classic series."
       },
       "titleIds": [
-        "doctor-who-2005",
-        "doctor-who-2024"
+        "doctor-who-2005#1",
+        "doctor-who-2005#2",
+        "doctor-who-2005#3",
+        "doctor-who-2005#4",
+        "doctor-who-2005#5"
       ]
     },
     {

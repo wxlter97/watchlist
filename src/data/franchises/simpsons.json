@@ -1,0 +1,873 @@
+{
+  "id": "simpsons",
+  "name": {
+    "es": "Los Simpson",
+    "en": "The Simpsons"
+  },
+  "description": {
+    "es": "Springfield desde 1989: la serie más larga de la televisión, la película y los cortos. Casi nada depende del orden: lo útil es saber qué temporadas valen la pena.",
+    "en": "Springfield since 1989: television's longest-running series, the movie and the shorts. Almost nothing depends on order: what's useful is knowing which seasons are worth it."
+  },
+  "accentColor": "#FFD90F",
+  "continuities": [
+    {
+      "id": "series",
+      "name": {
+        "es": "La serie",
+        "en": "The series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Más de 35 temporadas casi sin continuidad entre episodios: se puede empezar en cualquier punto.",
+        "en": "More than 35 seasons with almost no continuity between episodes: you can start anywhere."
+      }
+    },
+    {
+      "id": "extras",
+      "name": {
+        "es": "Película y cortos",
+        "en": "Movie and shorts"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "La película de 2007 y los cortos de Maggie y de Disney+; son historias aparte.",
+        "en": "The 2007 movie and the Maggie and Disney+ shorts; standalone stories."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 1,
+      "group": "classic",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 2,
+      "group": "classic",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 3,
+      "group": "classic",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 4,
+      "group": "classic",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 5,
+      "group": "classic",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 6,
+      "group": "classic",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 7,
+      "group": "classic",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 8,
+      "group": "classic",
+      "importance": "essential",
+      "chronoOrder": 80,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 9,
+      "group": "classic",
+      "importance": "recommended",
+      "chronoOrder": 90,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 10,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 100,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 11,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 12,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 120,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 13,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 130,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 14,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 140,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 15,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 150,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 16,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 160,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 17,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 170,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 18,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 180,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 19,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 190,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 20,
+      "group": "middle",
+      "importance": "optional",
+      "chronoOrder": 200,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 21,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 210,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 22,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 220,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 23,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 230,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 24,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 240,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 25,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 250,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 26,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 260,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 27,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 270,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 28,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 280,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 29,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 290,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 30,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 300,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 31,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 310,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 32,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 320,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 33,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 330,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 34,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 340,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 35,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 350,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 36,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 360,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 37,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 370,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-1989",
+      "continuityId": "series",
+      "season": 38,
+      "group": "modern",
+      "importance": "skippable",
+      "chronoOrder": 380,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-movie-2007",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "maggie-simpson-in-the-longest-daycare-2012",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "maggie"
+      ]
+    },
+    {
+      "titleId": "maggie-simpson-in-playdate-with-destiny-2020",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 21,
+      "characters": [
+        "maggie"
+      ]
+    },
+    {
+      "titleId": "maggie-simpson-in-the-force-awakens-from-its-nap-2021",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 22,
+      "characters": [
+        "maggie"
+      ]
+    },
+    {
+      "titleId": "the-good-the-bart-and-the-loki-2021",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 23,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "when-billie-met-lisa-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 24,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "welcome-to-the-club-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 25,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "the-simpsons-meet-the-bocellis-in-feliz-navidad-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 26,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    },
+    {
+      "titleId": "maggie-simpson-in-rogue-not-quite-one-2023",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 27,
+      "characters": [
+        "maggie"
+      ]
+    },
+    {
+      "titleId": "may-the-12th-be-with-you-2024",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "optional",
+      "chronoOrder": 28,
+      "characters": [
+        "homer",
+        "marge",
+        "bart",
+        "lisa"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "La serie no tiene una línea temporal fija: se ordena por temporada.",
+        "en": "The series has no fixed timeline: it's ordered by season."
+      }
+    },
+    {
+      "id": "eras",
+      "type": "grouped",
+      "name": {
+        "es": "Por eras",
+        "en": "By era"
+      },
+      "description": {
+        "es": "Clásica (T1–T9), media (T10–T20) y actual (T21 en adelante), más la película y los cortos.",
+        "en": "Classic (S1–S9), middle (S10–S20) and current (S21 onward), plus the movie and shorts."
+      },
+      "groupLabels": {
+        "classic": {
+          "es": "Era clásica (T1–T9)",
+          "en": "Classic era (S1–S9)"
+        },
+        "middle": {
+          "es": "Era media (T10–T20)",
+          "en": "Middle era (S10–S20)"
+        },
+        "modern": {
+          "es": "Era actual (T21–)",
+          "en": "Current era (S21–)"
+        },
+        "extras": {
+          "es": "Película y cortos",
+          "en": "Movie and shorts"
+        }
+      }
+    },
+    {
+      "id": "golden-age",
+      "type": "curated",
+      "name": {
+        "es": "Era dorada",
+        "en": "Golden age"
+      },
+      "description": {
+        "es": "Las temporadas 3 a 9, que el público considera las mejores.",
+        "en": "Seasons 3 to 9, widely regarded as the best."
+      },
+      "titleIds": [
+        "the-simpsons-1989#3",
+        "the-simpsons-1989#4",
+        "the-simpsons-1989#5",
+        "the-simpsons-1989#6",
+        "the-simpsons-1989#7",
+        "the-simpsons-1989#8",
+        "the-simpsons-1989#9"
+      ]
+    },
+    {
+      "id": "start",
+      "type": "curated",
+      "name": {
+        "es": "Para empezar",
+        "en": "To start"
+      },
+      "description": {
+        "es": "Las cuatro temporadas con las que casi todos empiezan, más la película.",
+        "en": "The four seasons almost everyone starts with, plus the movie."
+      },
+      "titleIds": [
+        "the-simpsons-1989#3",
+        "the-simpsons-1989#4",
+        "the-simpsons-1989#5",
+        "the-simpsons-1989#6",
+        "the-simpsons-movie-2007"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "era-dorada",
+      "kind": "theme",
+      "name": {
+        "es": "Era dorada",
+        "en": "Golden age"
+      },
+      "description": {
+        "es": "Las temporadas 3 a 9: la época que casi todos recomiendan primero.",
+        "en": "Seasons 3 to 9: the era almost everyone recommends first."
+      },
+      "titleIds": [
+        "the-simpsons-1989#3",
+        "the-simpsons-1989#4",
+        "the-simpsons-1989#5",
+        "the-simpsons-1989#6",
+        "the-simpsons-1989#7",
+        "the-simpsons-1989#8",
+        "the-simpsons-1989#9"
+      ]
+    },
+    {
+      "id": "peliculas-y-cortos",
+      "kind": "theme",
+      "name": {
+        "es": "Película y cortos",
+        "en": "Movie and shorts"
+      },
+      "description": {
+        "es": "La película de 2007 y los cortos de Maggie y de Disney+.",
+        "en": "The 2007 movie and the Maggie and Disney+ shorts."
+      },
+      "titleIds": [
+        "the-simpsons-movie-2007",
+        "maggie-simpson-in-the-longest-daycare-2012",
+        "maggie-simpson-in-playdate-with-destiny-2020",
+        "maggie-simpson-in-the-force-awakens-from-its-nap-2021",
+        "the-good-the-bart-and-the-loki-2021",
+        "when-billie-met-lisa-2022",
+        "welcome-to-the-club-2022",
+        "the-simpsons-meet-the-bocellis-in-feliz-navidad-2022",
+        "maggie-simpson-in-rogue-not-quite-one-2023",
+        "may-the-12th-be-with-you-2024"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "homer",
+        "name": {
+          "es": "Homer",
+          "en": "Homer"
+        }
+      },
+      {
+        "id": "marge",
+        "name": {
+          "es": "Marge",
+          "en": "Marge"
+        }
+      },
+      {
+        "id": "bart",
+        "name": {
+          "es": "Bart",
+          "en": "Bart"
+        }
+      },
+      {
+        "id": "lisa",
+        "name": {
+          "es": "Lisa",
+          "en": "Lisa"
+        }
+      },
+      {
+        "id": "maggie",
+        "name": {
+          "es": "Maggie",
+          "en": "Maggie"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,3 @@
+- La familia Simpson (Homer, Marge, Bart, Lisa y Maggie) vive en Springfield, con humor satírico sobre la vida estadounidense.
+- Cada episodio cuenta una historia independiente; los personajes no envejecen y casi nada cambia entre episodios.
+- La serie nació de unos cortos de The Tracey Ullman Show y estrenó su primera temporada en 1989.
