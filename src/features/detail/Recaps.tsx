@@ -5,6 +5,7 @@ import { useCatalogIndex } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { useProgressStore } from "../../lib/progressStore";
 import { hasRecap, loadRecap, recapSources, type RecapSource } from "../../lib/recaps";
+import { hasWhy, loadWhy } from "../../lib/why";
 import { useSettings } from "../../lib/settings";
 import type { Title } from "../../lib/types";
 
@@ -48,14 +49,25 @@ export function Recaps({ title }: { title: Title }) {
 }
 
 function RecapItem({ source, seen, open }: { source: RecapSource; seen: boolean; open: boolean }) {
-  const { t, lang, name, loc } = useLang();
+  const { t, lang, name } = useLang();
   const spoilerFree = useSettings((s) => s.spoilerFree);
-  const { title, franchise, continuity, importance, inMinimum, chronoNote } = source;
+  const { title, importance, inMinimum } = source;
   const [text, setText] = useState<string | null>(null);
+  const [why, setWhy] = useState<string | null>(null);
   const [expanded, setExpanded] = useState(open);
   const [revealed, setRevealed] = useState(false);
   const recap = hasRecap(lang, title.id);
   const hidden = spoilerFree && !seen && !revealed;
+  const hasReason = hasWhy(lang, title.id);
+  // El motivo puede adelantar la trama: se muestra con el resumen, no antes.
+  useEffect(() => {
+    if (!expanded || hidden || why !== null || !hasReason) return;
+    let alive = true;
+    void loadWhy(lang, title.id)?.then((r) => alive && setWhy(r.trim()));
+    return () => {
+      alive = false;
+    };
+  }, [expanded, hidden, hasReason, why, lang, title.id]);
   useEffect(() => {
     if (!expanded || hidden || text !== null || !recap) return;
     let alive = true;
@@ -66,13 +78,8 @@ function RecapItem({ source, seen, open }: { source: RecapSource; seen: boolean;
   }, [expanded, hidden, recap, text, lang, title.id]);
 
   const label = name(title);
-  // Por qué importa: su nivel, si está en lo mínimo, la nota cronológica y de dónde viene.
-  const why = [
-    t(`recaps.why.${importance}`),
-    inMinimum && t("recaps.why.minimum"),
-    continuity && t("recaps.why.continuity", { continuity: loc(continuity.name), franchise: loc(franchise.name) }),
-    chronoNote && loc(chronoNote),
-  ].filter(Boolean);
+  // Por qué importa: su nivel y, escrito a mano, lo que aporta a la saga.
+  const level = [t(`recaps.why.${importance}`), inMinimum && t("recaps.why.minimum")].filter(Boolean).join(" · ");
 
   return (
     <details open={open} onToggle={(e) => setExpanded(e.currentTarget.open)} className="group">
@@ -91,10 +98,13 @@ function RecapItem({ source, seen, open }: { source: RecapSource; seen: boolean;
         </span>
       </summary>
       <div className="space-y-3 px-3.5 pb-4 text-[15px] leading-[1.55] text-fg-soft">
-        <p className="text-sm">
-          <span className="label mr-1.5 text-muted">{t("recaps.whyLabel")}</span>
-          {why.join(" · ")}
-        </p>
+        <div className="space-y-1 text-sm">
+          <p>
+            <span className="label mr-1.5 text-muted">{t("recaps.whyLabel")}</span>
+            <span className="font-semibold text-fg">{level}</span>
+          </p>
+          {why && <p className="text-[15px] leading-[1.55]">{why}</p>}
+        </div>
         {!recap ? (
           <p className="text-sm text-muted">{t("recaps.none")}</p>
         ) : hidden ? (

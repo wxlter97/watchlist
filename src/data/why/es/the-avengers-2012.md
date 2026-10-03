@@ -1,0 +1,1 @@
+Reúne por primera vez al equipo y fija el modelo de «amenaza mundial, héroes juntos» que Infinity War y Doomsday agrandan. Además introduce a Thanos en una escena posterior a los créditos. Es obligatoria y está en la lista oficial de Disney.

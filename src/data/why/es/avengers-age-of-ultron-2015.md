@@ -1,0 +1,1 @@
+Presenta a Ultrón, a la Bruja Escarlata, a Quicksilver y a Visión, y deja a la Gema de la Mente en la frente de Visión. Wanda y Visión son la base de WandaVision, así que es importante, aunque sea de las películas de equipo más débiles.

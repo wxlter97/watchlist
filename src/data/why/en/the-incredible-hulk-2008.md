@@ -1,0 +1,1 @@
+It is the most skippable Phase 1 entry (Bruce Banner was later recast), but it covers the origin of Hulk, the Abomination and General Ross, who comes back years later in Captain America: Brave New World.

@@ -1,0 +1,1 @@
+Abre el multiverso a los otros Spider-Man y villanos, y termina con todos olvidando a Peter. Es el motivo por el que Peter está solo en Un nuevo día y está en la lista oficial de Disney para Doomsday.

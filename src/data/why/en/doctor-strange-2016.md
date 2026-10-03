@@ -1,0 +1,1 @@
+It introduces magic, the multiverse and the Time Stone. Strange is central in Infinity War, Endgame, No Way Home and Multiverse of Madness, so this is the foundation for what makes the multiverse possible.

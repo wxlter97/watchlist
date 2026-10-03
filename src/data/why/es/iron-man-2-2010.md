@@ -1,0 +1,1 @@
+Muestra a Tony enfrentándose al peso de su legado (su padre, Howard) y presenta a Natasha Romanoff y a Rhodey como War Machine. Es discreta por sí sola, pero prepara a los personajes que usan Vengadores y Civil War.

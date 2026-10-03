@@ -1,0 +1,1 @@
+Es la serie que establece el tono de las producciones de Netflix y a Kingpin como villano, que vuelve en Echo y Daredevil: Born Again. Importa más para el lado callejero del MCU que para la trama cósmica.

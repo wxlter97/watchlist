@@ -1,0 +1,1 @@
+Es la película que rompe S.H.I.E.L.D. y que convierte a Bucky en el Soldado del Invierno. Todo lo que pasa con Steve, Bucky y Sam después (Civil War, Falcon y el Soldado del Invierno) parte de aquí. Es de las mejores del MCU y es esencial.

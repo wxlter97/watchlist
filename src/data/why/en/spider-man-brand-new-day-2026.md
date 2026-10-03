@@ -1,0 +1,1 @@
+It follows Peter alone after everyone forgot him, with the Punisher, Hulk and Damage Control. Its post-credits scene places him in space, which ties it to Doomsday; essential to know the state he arrives in.

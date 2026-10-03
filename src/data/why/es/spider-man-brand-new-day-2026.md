@@ -1,0 +1,1 @@
+Sigue a Peter solo tras olvidarlo todo el mundo, con el Castigador, Hulk y Control de Daños. Su escena final lo sitúa en el espacio, lo que lo conecta con Doomsday; es esencial para saber en qué estado llega.

@@ -1,0 +1,1 @@
+Reinventa a Thor con humor y cambia su estatus: pierde Asgard y encuentra a Hulk y a Valquiria. Prepara a los Asgardianos para Infinity War y muestra el tono que luego vendría. Es una de las favoritas del público.

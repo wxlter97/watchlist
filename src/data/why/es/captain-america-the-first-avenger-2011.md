@@ -1,0 +1,1 @@
+Es el origen de Steve Rogers y del Teseracto, la Piedra del Infinito que hace girar la saga entera. También presenta a Bucky y a Peggy Carter, claves en Winter Soldier, Civil War y Endgame. Disney la incluye en su lista oficial para Doomsday.

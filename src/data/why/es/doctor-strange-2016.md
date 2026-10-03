@@ -1,0 +1,1 @@
+Introduce la magia, el multiverso y la Piedra del Tiempo. Strange es central en Infinity War, Endgame, No Way Home y Multiverso de la locura, así que es la base para entender qué hace posible el multiverso.

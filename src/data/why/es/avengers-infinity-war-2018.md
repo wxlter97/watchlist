@@ -1,0 +1,1 @@
+Culminación de diez años de historias: introduce a Thanos como amenaza real y termina con el Chasquido. Es esencial para entender el estado del universo de ahí en adelante y está en la lista oficial de Disney para Doomsday.
