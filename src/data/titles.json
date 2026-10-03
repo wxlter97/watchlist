@@ -18992,67 +18992,83 @@
       },
       {
         "number": 2,
-        "episodes": 16
+        "episodes": 16,
+        "airDate": "2001-03-21"
       },
       {
         "number": 3,
-        "episodes": 14
+        "episodes": 14,
+        "airDate": "2001-08-26"
       },
       {
         "number": 4,
-        "episodes": 39
+        "episodes": 39,
+        "airDate": "2001-12-09"
       },
       {
         "number": 5,
-        "episodes": 13
+        "episodes": 13,
+        "airDate": "2002-11-03"
       },
       {
         "number": 6,
-        "episodes": 52
+        "episodes": 52,
+        "airDate": "2003-02-09"
       },
       {
         "number": 7,
-        "episodes": 33
+        "episodes": 33,
+        "airDate": "2004-06-20"
       },
       {
         "number": 8,
-        "episodes": 35
+        "episodes": 35,
+        "airDate": "2005-04-17"
       },
       {
         "number": 9,
-        "episodes": 73
+        "episodes": 73,
+        "airDate": "2006-05-21"
       },
       {
         "number": 10,
-        "episodes": 45
+        "episodes": 45,
+        "airDate": "2008-01-06"
       },
       {
         "number": 11,
-        "episodes": 26
+        "episodes": 26,
+        "airDate": "2008-12-21"
       },
       {
         "number": 12,
-        "episodes": 14
+        "episodes": 14,
+        "airDate": "2009-07-05"
       },
       {
         "number": 13,
-        "episodes": 101
+        "episodes": 101,
+        "airDate": "2009-10-18"
       },
       {
         "number": 14,
-        "episodes": 58
+        "episodes": 58,
+        "airDate": "2011-11-13"
       },
       {
         "number": 15,
-        "episodes": 62
+        "episodes": 62,
+        "airDate": "2013-01-20"
       },
       {
         "number": 16,
-        "episodes": 50
+        "episodes": 50,
+        "airDate": "2014-05-04"
       },
       {
         "number": 17,
-        "episodes": 56
+        "episodes": 56,
+        "airDate": "2015-05-17"
       },
       {
         "number": 18,
@@ -19076,11 +19092,13 @@
       },
       {
         "number": 22,
-        "episodes": 67
+        "episodes": 67,
+        "airDate": "2024-01-07"
       },
       {
         "number": 23,
-        "episodes": 25
+        "episodes": 25,
+        "airDate": "2026-04-05"
       }
     ],
     "runtimeMin": 28376,
@@ -19822,5 +19840,439 @@
       }
     ],
     "runtimeMin": 1560
+  },
+  {
+    "id": "the-simpsons-1989",
+    "tmdbId": 456,
+    "tmdbType": "tv",
+    "title": "The Simpsons",
+    "kind": "series",
+    "releaseDate": "1989-12-17",
+    "imdbId": "tt0096697",
+    "posterPath": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "localized": {
+      "en": {
+        "title": "The Simpsons",
+        "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general."
+      },
+      "es": {
+        "title": "Los Simpson",
+        "overview": "La familia Simpson (Homero, Marge, Bart, Lisa y Maggie), y un reparto virtual de miles, viven aventuras cotidianas en Springfield, una ciudad estadounidense promedio."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "1989-12-17"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1990-10-11"
+      },
+      {
+        "number": 3,
+        "episodes": 24,
+        "airDate": "1991-09-19"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "1992-09-24"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "1993-09-30"
+      },
+      {
+        "number": 6,
+        "episodes": 25,
+        "airDate": "1994-09-04"
+      },
+      {
+        "number": 7,
+        "episodes": 25,
+        "airDate": "1995-09-17"
+      },
+      {
+        "number": 8,
+        "episodes": 25,
+        "airDate": "1996-10-27"
+      },
+      {
+        "number": 9,
+        "episodes": 25,
+        "airDate": "1997-09-21"
+      },
+      {
+        "number": 10,
+        "episodes": 23,
+        "airDate": "1998-08-23"
+      },
+      {
+        "number": 11,
+        "episodes": 22,
+        "airDate": "1999-09-26"
+      },
+      {
+        "number": 12,
+        "episodes": 21,
+        "airDate": "2000-11-01"
+      },
+      {
+        "number": 13,
+        "episodes": 22,
+        "airDate": "2001-11-06"
+      },
+      {
+        "number": 14,
+        "episodes": 22,
+        "airDate": "2002-11-03"
+      },
+      {
+        "number": 15,
+        "episodes": 22,
+        "airDate": "2003-11-02"
+      },
+      {
+        "number": 16,
+        "episodes": 21,
+        "airDate": "2004-11-07"
+      },
+      {
+        "number": 17,
+        "episodes": 22,
+        "airDate": "2005-09-11"
+      },
+      {
+        "number": 18,
+        "episodes": 22,
+        "airDate": "2006-09-10"
+      },
+      {
+        "number": 19,
+        "episodes": 20,
+        "airDate": "2007-09-23"
+      },
+      {
+        "number": 20,
+        "episodes": 21,
+        "airDate": "2008-09-28"
+      },
+      {
+        "number": 21,
+        "episodes": 23,
+        "airDate": "2009-09-27"
+      },
+      {
+        "number": 22,
+        "episodes": 22,
+        "airDate": "2010-09-26"
+      },
+      {
+        "number": 23,
+        "episodes": 22,
+        "airDate": "2011-09-25"
+      },
+      {
+        "number": 24,
+        "episodes": 22,
+        "airDate": "2012-09-30"
+      },
+      {
+        "number": 25,
+        "episodes": 22,
+        "airDate": "2013-09-29"
+      },
+      {
+        "number": 26,
+        "episodes": 22,
+        "airDate": "2014-09-28"
+      },
+      {
+        "number": 27,
+        "episodes": 22,
+        "airDate": "2015-09-27"
+      },
+      {
+        "number": 28,
+        "episodes": 22,
+        "airDate": "2016-09-25"
+      },
+      {
+        "number": 29,
+        "episodes": 21,
+        "airDate": "2017-10-01"
+      },
+      {
+        "number": 30,
+        "episodes": 23,
+        "airDate": "2018-09-30"
+      },
+      {
+        "number": 31,
+        "episodes": 22,
+        "airDate": "2019-09-29"
+      },
+      {
+        "number": 32,
+        "episodes": 22,
+        "airDate": "2020-09-27"
+      },
+      {
+        "number": 33,
+        "episodes": 22,
+        "airDate": "2021-09-26"
+      },
+      {
+        "number": 34,
+        "episodes": 22,
+        "airDate": "2022-09-25"
+      },
+      {
+        "number": 35,
+        "episodes": 18,
+        "airDate": "2023-10-01"
+      },
+      {
+        "number": 36,
+        "episodes": 18,
+        "airDate": "2024-09-29"
+      },
+      {
+        "number": 37,
+        "episodes": 15,
+        "airDate": "2025-09-28"
+      },
+      {
+        "number": 38,
+        "episodes": 5,
+        "airDate": "2026-09-27"
+      }
+    ],
+    "runtimeMin": 18249,
+    "ongoing": true
+  },
+  {
+    "id": "the-simpsons-movie-2007",
+    "tmdbId": 35,
+    "tmdbType": "movie",
+    "title": "The Simpsons Movie",
+    "kind": "movie",
+    "releaseDate": "2007-07-25",
+    "imdbId": "tt0462538",
+    "posterPath": "/s3b8TZWwmkYc2KoJ5zk77qB6PzY.jpg",
+    "overview": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the Simpsons are declared fugitives.",
+    "localized": {
+      "en": {
+        "title": "The Simpsons Movie",
+        "overview": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the Simpsons are declared fugitives."
+      },
+      "es": {
+        "title": "Los Simpson: La película",
+        "overview": "Homero debe salvar al mundo de una catástrofe que él mismo ha provocado. Todo comienza con Homero, su nueva mascota, un cerdo, y un silo lleno de excrementos que tiene una fuga, una combinación que desencadena un desastre distinto a todo lo que Springfield haya experimentado jamás. Mientras Marge está indignada por la monumental metedura de pata de su patán marido, una turba vengativa cae sobre el hogar de los Simpson..."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "maggie-simpson-in-the-longest-daycare-2012",
+    "tmdbId": 116440,
+    "tmdbType": "movie",
+    "title": "Maggie Simpson in \"The Longest Daycare\"",
+    "kind": "short",
+    "releaseDate": "2012-07-03",
+    "imdbId": "tt2175842",
+    "posterPath": "/6db4Dzg3GmlQxbUrJCDhcbMvMxN.jpg",
+    "overview": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmates. But when a lonely caterpillar befriends her, she makes it her mission to save it from a ruthless butterfly smashing toddler.",
+    "localized": {
+      "en": {
+        "title": "Maggie Simpson in \"The Longest Daycare\"",
+        "overview": "Maggie must navigate an eventful first day in daycare. At the Ayn Rand School for Tots, Maggie is diagnosed with average intelligence. Barred from the gifted children, she longs to escape from her glue-guzzling classmates. But when a lonely caterpillar befriends her, she makes it her mission to save it from a ruthless butterfly smashing toddler."
+      },
+      "es": {
+        "title": "Maggie Simpson en Un largo día de guardería",
+        "overview": "En la Guardería Ayn Rand, Maggie Simpson protege a una oruga de sus enemigos."
+      }
+    },
+    "runtimeMin": 5
+  },
+  {
+    "id": "maggie-simpson-in-playdate-with-destiny-2020",
+    "tmdbId": 673595,
+    "tmdbType": "movie",
+    "title": "Maggie Simpson in \"Playdate with Destiny\"",
+    "kind": "short",
+    "releaseDate": "2020-02-29",
+    "imdbId": "tt11898442",
+    "posterPath": "/k6fgOq7wPKujibXGWYlcIBgkcwQ.jpg",
+    "overview": "When Maggie Simpson is rescued by a cute young baby from playground peril, it's girl meets boy, girl loses boy, guess what happens next?",
+    "localized": {
+      "en": {
+        "title": "Maggie Simpson in \"Playdate with Destiny\"",
+        "overview": "When Maggie Simpson is rescued by a cute young baby from playground peril, it's girl meets boy, girl loses boy, guess what happens next?"
+      },
+      "es": {
+        "title": "Maggie Simpson: “Jugando con el destino”",
+        "overview": "Cuando a Maggie Simpson la rescata un lindo bebé en el parque infantil, será niña conoce a niño, niña pierde a niño, y adivina qué sucederá después."
+      }
+    },
+    "runtimeMin": 4
+  },
+  {
+    "id": "maggie-simpson-in-the-force-awakens-from-its-nap-2021",
+    "tmdbId": 825597,
+    "tmdbType": "movie",
+    "title": "Maggie Simpson in \"The Force Awakens from Its Nap\"",
+    "kind": "short",
+    "releaseDate": "2021-05-04",
+    "imdbId": "tt14573402",
+    "posterPath": "/ou1cuRaV22FbDq8oEZeyR6C6P6l.jpg",
+    "overview": "In a daycare far, far away… but still in Springfield, Maggie is on an epic quest for her stolen pacifier. Her adventure brings her face-to-face with young Padawans, Sith Lords, familiar droids, Rebel scum, and an ultimate battle against the dark side, in this original short celebrating the Star Wars galaxy.",
+    "localized": {
+      "en": {
+        "title": "Maggie Simpson in \"The Force Awakens from Its Nap\"",
+        "overview": "In a daycare far, far away… but still in Springfield, Maggie is on an epic quest for her stolen pacifier. Her adventure brings her face-to-face with young Padawans, Sith Lords, familiar droids, Rebel scum, and an ultimate battle against the dark side, in this original short celebrating the Star Wars galaxy."
+      },
+      "es": {
+        "title": "Maggie Simpson in \"The Force Awakens from Its Nap\""
+      }
+    },
+    "runtimeMin": 3
+  },
+  {
+    "id": "the-good-the-bart-and-the-loki-2021",
+    "tmdbId": 846214,
+    "tmdbType": "movie",
+    "title": "The Good, the Bart, and the Loki",
+    "kind": "short",
+    "releaseDate": "2021-07-07",
+    "imdbId": "tt14957270",
+    "posterPath": "/rtMdtzywcAGOrF6t8fbxJBqpdcq.jpg",
+    "overview": "Loki is banished from Asgard once again and must face his toughest opponents yet: the Simpsons and Springfield’s mightiest heroes. The God of Mischief teams up with Bart Simpson in the ultimate crossover event paying tribute to the Marvel Cinematic Universe of superheroes and villains.",
+    "localized": {
+      "en": {
+        "title": "The Good, the Bart, and the Loki",
+        "overview": "Loki is banished from Asgard once again and must face his toughest opponents yet: the Simpsons and Springfield’s mightiest heroes. The God of Mischief teams up with Bart Simpson in the ultimate crossover event paying tribute to the Marvel Cinematic Universe of superheroes and villains."
+      },
+      "es": {
+        "title": "Los Simpson: El Bueno, El Bart Y El Loki",
+        "overview": "Loki es desterrado de Asgard una vez más y debe enfrentarse a sus oponentes más duros hasta ahora: los Simpson y los héroes más poderosos de Springfield. El dios de la travesura se une a Bart Simpson en el evento cruzado definitivo que rinde homenaje al universo cinematográfico de Marvel de superhéroes y villanos."
+      }
+    },
+    "runtimeMin": 6
+  },
+  {
+    "id": "when-billie-met-lisa-2022",
+    "tmdbId": 962659,
+    "tmdbType": "movie",
+    "title": "When Billie Met Lisa",
+    "kind": "short",
+    "releaseDate": "2022-04-22",
+    "imdbId": "tt19696852",
+    "posterPath": "/nNplaMrD69kilWOowsBp9rmpd3O.jpg",
+    "overview": "Lisa Simpson is discovered by chart-topping artists Billie Eilish and FINNEAS while searching for a quiet place to practice her saxophone. Billie invites Lisa to her studio for a special jam session she’ll never forget.",
+    "localized": {
+      "en": {
+        "title": "When Billie Met Lisa",
+        "overview": "Lisa Simpson is discovered by chart-topping artists Billie Eilish and FINNEAS while searching for a quiet place to practice her saxophone. Billie invites Lisa to her studio for a special jam session she’ll never forget."
+      },
+      "es": {
+        "title": "Los Simpson: Cuando Billie encontró a Lisa",
+        "overview": "Lisa Simpson encuentra un sitio tranquilo donde practicar con su saxo y allí es descubierta por Billie Eilish y Finneas O’Connell, artistas ganadores de varios GRAMMY® y asiduos de las listas de éxitos. Billie invita a Lisa a su estudio para una sesión de jam especial que nunca olvidará."
+      }
+    },
+    "runtimeMin": 4
+  },
+  {
+    "id": "welcome-to-the-club-2022",
+    "tmdbId": 1015602,
+    "tmdbType": "movie",
+    "title": "Welcome to the Club",
+    "kind": "short",
+    "releaseDate": "2022-09-08",
+    "imdbId": "tt21983602",
+    "posterPath": "/kxB9E6fo0ycHzd13oOTHmGa5Njd.jpg",
+    "overview": "Heart set on becoming a princess, Lisa Simpson is surprised to learn being bad might be more fun.",
+    "localized": {
+      "en": {
+        "title": "Welcome to the Club",
+        "overview": "Heart set on becoming a princess, Lisa Simpson is surprised to learn being bad might be more fun."
+      },
+      "es": {
+        "title": "Bienvenidos al Club",
+        "overview": "Es el Día de Disney+ y Lisa Simpson está decidida a transformarse en una princesa. Después de conocer a algunos de los villanos más notables de Disney, Lisa se sorprende al aprender que ser mala podría ser más divertido."
+      }
+    },
+    "runtimeMin": 4
+  },
+  {
+    "id": "the-simpsons-meet-the-bocellis-in-feliz-navidad-2022",
+    "tmdbId": 1058732,
+    "tmdbType": "movie",
+    "title": "The Simpsons Meet the Bocellis in \"Feliz Navidad\"",
+    "kind": "short",
+    "releaseDate": "2022-12-15",
+    "imdbId": "tt24082346",
+    "posterPath": "/9rJFKvYvSyQ3HoTl1gcU55FOzYi.jpg",
+    "overview": "This Christmas, Homer surprises Marge with the ultimate gift: an unforgettable performance from Italian opera superstar Andrea Bocelli and his children Matteo and Virginia.",
+    "localized": {
+      "en": {
+        "title": "The Simpsons Meet the Bocellis in \"Feliz Navidad\"",
+        "overview": "This Christmas, Homer surprises Marge with the ultimate gift: an unforgettable performance from Italian opera superstar Andrea Bocelli and his children Matteo and Virginia."
+      },
+      "es": {
+        "title": "Los Simpson conocen a los Bocelli en \"Feliz Navidad\"",
+        "overview": "Homero sorprende a Marge con el mejor regalo de Navidad: una presentación inolvidable de la superestrella italiana de la ópera Andrea Bocelli y sus hijos, Matteo y Virginia."
+      }
+    },
+    "runtimeMin": 4
+  },
+  {
+    "id": "maggie-simpson-in-rogue-not-quite-one-2023",
+    "tmdbId": 1121116,
+    "tmdbType": "movie",
+    "title": "Maggie Simpson in \"Rogue Not Quite One\"",
+    "kind": "short",
+    "releaseDate": "2023-05-03",
+    "imdbId": "tt27658815",
+    "posterPath": "/gmTOhwzcSbEGG3xKRfQwwS2BTXD.jpg",
+    "overview": "On their way to daycare, Homer loses track of Maggie who hops in Grogu's hovering pram for a hyperspace-hopping adventure across the galaxy. Facing a squadron of Imperial TIE fighters, Maggie brings the battle to Springfield in this epic short celebrating all things Star Wars.",
+    "localized": {
+      "en": {
+        "title": "Maggie Simpson in \"Rogue Not Quite One\"",
+        "overview": "On their way to daycare, Homer loses track of Maggie who hops in Grogu's hovering pram for a hyperspace-hopping adventure across the galaxy. Facing a squadron of Imperial TIE fighters, Maggie brings the battle to Springfield in this epic short celebrating all things Star Wars."
+      },
+      "es": {
+        "title": "Maggie Simpson en \"Rogue (no del todo) One\"",
+        "overview": "De camino a la guardería, Homero pierde de vista a Maggie que se sube al cochecito flotante de Grogu para emprender una animada aventura por el hiperespacio a través de la galaxia. Enfrentada a un escuadrón de cazas TIE, Maggie lleva la batalla a Springfield en este corto épico que homenajea a La guerra de las galaxias."
+      }
+    },
+    "runtimeMin": 5
+  },
+  {
+    "id": "may-the-12th-be-with-you-2024",
+    "tmdbId": 1284004,
+    "tmdbType": "movie",
+    "title": "May the 12th Be with You",
+    "kind": "short",
+    "releaseDate": "2024-05-09",
+    "imdbId": "tt32268303",
+    "posterPath": "/sHJ2OIgpcpSmhqXkuSWxZ3nwg1S.jpg",
+    "overview": "It's Mother's Day and Marge Simpson joins the moms of Disney+ on a special holiday outing that turns into an epic galactic adventure filled with heroes, villains, and Stewie from Family Guy.",
+    "localized": {
+      "en": {
+        "title": "May the 12th Be with You",
+        "overview": "It's Mother's Day and Marge Simpson joins the moms of Disney+ on a special holiday outing that turns into an epic galactic adventure filled with heroes, villains, and Stewie from Family Guy."
+      },
+      "es": {
+        "title": "Que el Día de la Madre te acompañe",
+        "overview": "Es el Día de la Madre y Marge Simpson acompaña a las mamás de Disney+ en un paseo especial que se convierte en una épica aventura galáctica llena de héroes, de villanos y de Stewie de Padre de familia."
+      }
+    },
+    "runtimeMin": 5
   }
 ]

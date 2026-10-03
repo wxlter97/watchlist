@@ -51,8 +51,321 @@
     {
       "titleId": "one-piece-1999",
       "continuityId": "anime",
+      "season": 1,
       "importance": "essential",
       "chronoOrder": 10,
+      "chronoNote": {
+        "es": "East Blue",
+        "en": "East Blue"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 2,
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Whisky Peak y Little Garden",
+        "en": "Whiskey Peak & Little Garden"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 3,
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Drum Island",
+        "en": "Drum Island"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 4,
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Alabasta",
+        "en": "Alabasta"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 5,
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Sueños y la tripulación del Zenny",
+        "en": "Dreams! & the Zenny Pirate Crew"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 6,
+      "importance": "essential",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "Skypiea",
+        "en": "Skypiea"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 7,
+      "importance": "optional",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "G-8 y Long Ring Long Land",
+        "en": "G-8 & Long Ring Long Land"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 8,
+      "importance": "essential",
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "Water Seven",
+        "en": "Water Seven"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 9,
+      "importance": "essential",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "Enies Lobby",
+        "en": "Enies Lobby"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 10,
+      "importance": "essential",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "Thriller Bark",
+        "en": "Thriller Bark"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 11,
+      "importance": "essential",
+      "chronoOrder": 110,
+      "chronoNote": {
+        "es": "Archipiélago Sabaody",
+        "en": "Sabaody Archipelago"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 12,
+      "importance": "essential",
+      "chronoOrder": 120,
+      "chronoNote": {
+        "es": "Amazon Lily",
+        "en": "Amazon Lily"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 13,
+      "importance": "essential",
+      "chronoOrder": 130,
+      "chronoNote": {
+        "es": "Impel Down y Marineford",
+        "en": "Impel Down & Marineford"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 14,
+      "importance": "essential",
+      "chronoOrder": 140,
+      "chronoNote": {
+        "es": "Isla Gyojin",
+        "en": "Fish-Man Island"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 15,
+      "importance": "essential",
+      "chronoOrder": 150,
+      "chronoNote": {
+        "es": "Punk Hazard",
+        "en": "Punk Hazard"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 16,
+      "importance": "essential",
+      "chronoOrder": 160,
+      "chronoNote": {
+        "es": "Dressrosa",
+        "en": "Dressrosa"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 17,
+      "importance": "essential",
+      "chronoOrder": 170,
+      "chronoNote": {
+        "es": "Dressrosa (2)",
+        "en": "Dressrosa (2)"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 18,
+      "importance": "essential",
+      "chronoOrder": 180,
+      "chronoNote": {
+        "es": "Zou",
+        "en": "Zou"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 19,
+      "importance": "essential",
+      "chronoOrder": 190,
+      "chronoNote": {
+        "es": "Whole Cake Island",
+        "en": "Whole Cake Island"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 20,
+      "importance": "essential",
+      "chronoOrder": 200,
+      "chronoNote": {
+        "es": "Levely",
+        "en": "Levely"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 21,
+      "importance": "essential",
+      "chronoOrder": 210,
+      "chronoNote": {
+        "es": "País de Wano",
+        "en": "Wano Country"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 22,
+      "importance": "essential",
+      "chronoOrder": 220,
+      "chronoNote": {
+        "es": "Egghead",
+        "en": "Egghead"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "season": 23,
+      "importance": "essential",
+      "chronoOrder": 230,
+      "chronoNote": {
+        "es": "Elbaph",
+        "en": "Elbaph"
+      },
       "characters": [
         "luffy"
       ]
@@ -60,8 +373,41 @@
     {
       "titleId": "one-piece-2023",
       "continuityId": "live-action",
+      "season": 1,
       "importance": "recommended",
       "chronoOrder": 10,
+      "chronoNote": {
+        "es": "East Blue",
+        "en": "East Blue"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-2023",
+      "continuityId": "live-action",
+      "season": 2,
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Into the Grand Line",
+        "en": "Into the Grand Line"
+      },
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-2023",
+      "continuityId": "live-action",
+      "season": 3,
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "La batalla de Alabasta",
+        "en": "The Battle of Alabasta"
+      },
       "characters": [
         "luffy"
       ]

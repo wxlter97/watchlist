@@ -1,0 +1,1 @@
+- Corto de Disney+ que mezcla Los Simpson con el universo de Marvel, con Bart y Loki.

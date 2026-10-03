@@ -1,0 +1,3 @@
+- Homer contamina el lago de Springfield, y la agencia ambiental encierra a la ciudad bajo una cúpula.
+- La familia huye a Alaska, pero Homer vuelve al darse cuenta de que debe salvar a su pueblo.
+- La película incluye al cerdo de Homer, Spider-Cerdo, y sus ocurrencias.
