@@ -18220,5 +18220,1607 @@
       }
     },
     "runtimeMin": 102
+  },
+  {
+    "id": "stranger-things-2016",
+    "tmdbId": 66732,
+    "tmdbType": "tv",
+    "title": "Stranger Things",
+    "kind": "series",
+    "releaseDate": "2016-07-15",
+    "imdbId": "tt4574334",
+    "posterPath": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+    "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "localized": {
+      "en": {
+        "title": "Stranger Things",
+        "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl."
+      },
+      "es": {
+        "title": "Stranger Things",
+        "overview": "Después de la extraña desaparición de un niño, un pueblo se encuentra ante un misterio que revela experimentos secretos, fuerzas sobrenaturales y a una niña muy especial."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2016-07-15"
+      },
+      {
+        "number": 2,
+        "episodes": 9,
+        "airDate": "2017-10-27"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2019-07-04"
+      },
+      {
+        "number": 4,
+        "episodes": 9,
+        "airDate": "2022-05-27"
+      },
+      {
+        "number": 5,
+        "episodes": 8,
+        "airDate": "2025-11-26"
+      }
+    ],
+    "runtimeMin": 2722
+  },
+  {
+    "id": "stranger-things-tales-from-85-2026",
+    "tmdbId": 224263,
+    "tmdbType": "tv",
+    "title": "Stranger Things: Tales from '85",
+    "kind": "series",
+    "releaseDate": "2026-04-23",
+    "imdbId": "tt27486290",
+    "posterPath": "/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
+    "overview": "Winter. Hawkins. 1985. Welcome back to a town crawling with secrets, where beloved heroes are facing fresh mysteries... and an all-new breed of strange.",
+    "localized": {
+      "en": {
+        "title": "Stranger Things: Tales from '85",
+        "overview": "Winter. Hawkins. 1985. Welcome back to a town crawling with secrets, where beloved heroes are facing fresh mysteries... and an all-new breed of strange."
+      },
+      "es": {
+        "title": "Stranger Things: Relatos del 85",
+        "overview": "Hawkins, invierno de 1985. En un pueblo lleno de secretos, nuestros queridos héroes se enfrentan a nuevos misterios... y a algo aún más extraño."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2026-04-23"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2026-09-17"
+      }
+    ],
+    "runtimeMin": 531,
+    "ongoing": true
+  },
+  {
+    "id": "the-transformers-the-movie-1986",
+    "tmdbId": 1857,
+    "tmdbType": "movie",
+    "title": "The Transformers: The Movie",
+    "kind": "movie",
+    "releaseDate": "1986-08-08",
+    "imdbId": "tt0092106",
+    "posterPath": "/xJ5W0mOAWCVaXmU0pBZh4NjSRv2.jpg",
+    "overview": "The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons.",
+    "localized": {
+      "en": {
+        "title": "The Transformers: The Movie",
+        "overview": "The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons."
+      },
+      "es": {
+        "title": "Transformers: La película",
+        "overview": "Es el año 2005. Los Decepticons han conquistado Cybertron totalmente. Pero los Autobots tienen bases en la dos lunas de Cybertron, y también tienen Autobot City en la Tierra. La película comienza con una espectacular secuencia en la que Unicron, un planeta mecánico viviente, se come el mundo de Lithone, matando a todos sus habitantes, excepto uno que escapa en una nave espacial. Para impedir una ofensiva Autobot, los Decepticons atacan Autobot City y tiene lugar una enorme batalla que termina con la derrota de Optimus Prime y Megatron."
+      }
+    },
+    "runtimeMin": 85
+  },
+  {
+    "id": "transformers-2007",
+    "tmdbId": 1858,
+    "tmdbType": "movie",
+    "title": "Transformers",
+    "kind": "movie",
+    "releaseDate": "2007-06-27",
+    "imdbId": "tt0418279",
+    "posterPath": "/lkZ9gqCEjzX85lKR6Jjd1uGAXNp.jpg",
+    "overview": "Young teenager Sam Witwicky becomes involved in the ancient struggle between two extraterrestrial factions of transforming robots – the heroic Autobots and the evil Decepticons. Sam holds the clue to unimaginable power and the Decepticons will stop at nothing to retrieve it.",
+    "localized": {
+      "en": {
+        "title": "Transformers",
+        "overview": "Young teenager Sam Witwicky becomes involved in the ancient struggle between two extraterrestrial factions of transforming robots – the heroic Autobots and the evil Decepticons. Sam holds the clue to unimaginable power and the Decepticons will stop at nothing to retrieve it."
+      },
+      "es": {
+        "title": "Transformers",
+        "overview": "El joven adolescente Sam Witwicky se ve envuelto en la antigua lucha entre dos facciones extraterrestres de robots transformables: los heroicos Autobots y los malvados Decepticons. Sam tiene la clave para acceder a un poder inimaginable y los Decepticons no se detendrán ante nada para recuperarla."
+      }
+    },
+    "runtimeMin": 144
+  },
+  {
+    "id": "transformers-revenge-of-the-fallen-2009",
+    "tmdbId": 8373,
+    "tmdbType": "movie",
+    "title": "Transformers: Revenge of the Fallen",
+    "kind": "movie",
+    "releaseDate": "2009-06-19",
+    "imdbId": "tt1055369",
+    "posterPath": "/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg",
+    "overview": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
+    "localized": {
+      "en": {
+        "title": "Transformers: Revenge of the Fallen",
+        "overview": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
+      },
+      "es": {
+        "title": "Transformers: La venganza de los caídos",
+        "overview": "Dos años después de derrotar a los Decepticons, las vidas de Sam y los Autobots han cambiado mucho. Mientras Sam se prepara para ir a la universidad, sus amigos robots se han integrado en una fuerza de élite que captura a enemigos renegados. Pero todo cambia con la llegada de un malvado enemigo que, con un enrevesado plan, planea un nuevo alzamiento de los Decepticons. La humanidad vuelve a estar en peligro, y Sam y los Autobots tendrán que formar una vez más equipo para salvarla."
+      }
+    },
+    "runtimeMin": 150
+  },
+  {
+    "id": "transformers-dark-of-the-moon-2011",
+    "tmdbId": 38356,
+    "tmdbType": "movie",
+    "title": "Transformers: Dark of the Moon",
+    "kind": "movie",
+    "releaseDate": "2011-06-28",
+    "imdbId": "tt1399103",
+    "posterPath": "/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg",
+    "overview": "The Autobots continue to work for NEST, now no longer in secret. But after discovering a strange artifact during a mission in Chernobyl, it becomes apparent to Optimus Prime that the United States government has been less than forthright with them.",
+    "localized": {
+      "en": {
+        "title": "Transformers: Dark of the Moon",
+        "overview": "The Autobots continue to work for NEST, now no longer in secret. But after discovering a strange artifact during a mission in Chernobyl, it becomes apparent to Optimus Prime that the United States government has been less than forthright with them."
+      },
+      "es": {
+        "title": "Transformers: El lado oscuro de la luna",
+        "overview": "En esta tercera entrega de la saga Transformers, los Autobots y los Decepticons se ven envueltos en una peligrosa carrera espacial en la Tierra entre los EE. UU. y Rusia, donde un acontecimiento amenaza con provocar una guerra tan grande que ni los propios transformers puede que sean capaces de salvar nuestro planeta. Y una vez más, como casi siempre, Sam Witwicky se encuentra involuntariamente en medio del conflicto."
+      }
+    },
+    "runtimeMin": 154
+  },
+  {
+    "id": "transformers-age-of-extinction-2014",
+    "tmdbId": 91314,
+    "tmdbType": "movie",
+    "title": "Transformers: Age of Extinction",
+    "kind": "movie",
+    "releaseDate": "2014-06-25",
+    "imdbId": "tt2109248",
+    "posterPath": "/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg",
+    "overview": "As humanity picks up the pieces after the battle of Chicago, a shadowy group reveals itself in an attempt to control the direction of history…while an ancient, powerful new menace sets Earth in its crosshairs. With help from Cade Yeager, Optimus Prime and the Autobots rise to meet their most fearsome challenge yet.",
+    "localized": {
+      "en": {
+        "title": "Transformers: Age of Extinction",
+        "overview": "As humanity picks up the pieces after the battle of Chicago, a shadowy group reveals itself in an attempt to control the direction of history…while an ancient, powerful new menace sets Earth in its crosshairs. With help from Cade Yeager, Optimus Prime and the Autobots rise to meet their most fearsome challenge yet."
+      },
+      "es": {
+        "title": "Transformers: La era de la extinción",
+        "overview": "Han pasado 4 años desde la tragedia de Chicago y la humanidad sigue reparando los destrozos, pero tanto los Autobots como los Decepticons han desaparecido de la faz de la Tierra. Ahora el Gobierno de los Estados Unidos está utilizando la tecnología rescatada en el asedio de Chicago para desarrollar sus propios Transformers. Al frente del proyecto está Joshua Joyce, un arrogante diseñador que piensa que los Autobots son “basura tecnológica” y se cree capaz de fabricar unos robots infinitamente más avanzados. Mientras tanto, Cade Yeager, un mécánico inventor, encuentra un Marmon semi-trailer. Al intentar repararlo, descubre que el camión no solo era un Transformer, sino también el mismísimo Optimus Prime, líder de los Autobots. Lo que Cade ignora son las consecuencias que pueden derivarse de este hallazgo."
+      }
+    },
+    "runtimeMin": 165
+  },
+  {
+    "id": "transformers-the-last-knight-2017",
+    "tmdbId": 335988,
+    "tmdbType": "movie",
+    "title": "Transformers: The Last Knight",
+    "kind": "movie",
+    "releaseDate": "2017-06-16",
+    "imdbId": "tt3371366",
+    "posterPath": "/s5HQf2Gb3lIO2cRcFwNL9sn1o1o.jpg",
+    "overview": "Humans and Transformers are at war. Optimus Prime is gone. The key to saving our future lies buried in the secrets of the past, in the hidden history of Transformers on Earth. Saving our world falls upon the shoulders of an unlikely alliance: Cade Yeager; Bumblebee; an English Lord; and an Oxford Professor.",
+    "localized": {
+      "en": {
+        "title": "Transformers: The Last Knight",
+        "overview": "Humans and Transformers are at war. Optimus Prime is gone. The key to saving our future lies buried in the secrets of the past, in the hidden history of Transformers on Earth. Saving our world falls upon the shoulders of an unlikely alliance: Cade Yeager; Bumblebee; an English Lord; and an Oxford Professor."
+      },
+      "es": {
+        "title": "Transformers 5: El Ultimo Caballero",
+        "overview": "Dos especies en guerra: una de carne y hueso, la otra de metal. El Último Caballero rompe con el mito original de la franquicia de Transformers y redefine lo que significa ser un héroe. Humanos y Transformers están en guerra y Optimus Prime se ha ido. La llave para salvar nuestro futuro está enterrada en los secretos del pasado, en la historia oculta de los Transformers en la Tierra. Salvar a nuestro mundo está en manos de una alianza única: Cade Yeager (Mark Wahlberg); Bumblebee; un Lord Inglés (Sir Anthony Hopkins); y una profesora de la Universidad de Oxford (Laura Haddock). Hay un momento en la vida de todo ser humano en la que recibimos el llamado para hacer la diferencia. En Transformers: El Último Caballero los perseguidos se convertirán en héroes; los héroes se convertirán en villanos y sólo un mundo sobrevivirá: el de ellos o el nuestro. Quinta película de Transformers dirigida por Michael Bay."
+      }
+    },
+    "runtimeMin": 154
+  },
+  {
+    "id": "bumblebee-2018",
+    "tmdbId": 424783,
+    "tmdbType": "movie",
+    "title": "Bumblebee",
+    "kind": "movie",
+    "releaseDate": "2018-11-22",
+    "imdbId": "tt4701182",
+    "posterPath": "/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg",
+    "overview": "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.",
+    "localized": {
+      "en": {
+        "title": "Bumblebee",
+        "overview": "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug."
+      },
+      "es": {
+        "title": "Bumblebee",
+        "overview": "Sexta entrega de la saga 'Transformers', esta vez centrada en el \"hermano pequeño\" de los Autobots, Bumblebee. Tratando de escapar, en el año 1987, Bumblebee encuentra refugio en un depósito de chatarra en una pequeña ciudad en la costa Californiana. Charlie (Hailee Steinfeld), a punto de cumplir 18 años y tratando de encontrar su lugar en el mundo, descubre a Bumblebee, dañado durante una batalla y descompuesto. Cuando Charlie lo revive, aprende rápidamente que éste no es un VW amarillo ordinario."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "transformers-rise-of-the-beasts-2023",
+    "tmdbId": 667538,
+    "tmdbType": "movie",
+    "title": "Transformers: Rise of the Beasts",
+    "kind": "movie",
+    "releaseDate": "2023-06-06",
+    "imdbId": "tt5090568",
+    "posterPath": "/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+    "overview": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
+    "localized": {
+      "en": {
+        "title": "Transformers: Rise of the Beasts",
+        "overview": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth."
+      },
+      "es": {
+        "title": "Transformers: El despertar de las bestias",
+        "overview": "Una aventura alrededor del mundo con los Autobots que introducirá una nueva facción de Transformers - los Maximals - en la batalla existente en la Tierra entre Autobots y Decepticons."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "transformers-one-2024",
+    "tmdbId": 698687,
+    "tmdbType": "movie",
+    "title": "Transformers One",
+    "kind": "movie",
+    "releaseDate": "2024-09-11",
+    "imdbId": "tt8864596",
+    "posterPath": "/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg",
+    "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "localized": {
+      "en": {
+        "title": "Transformers One",
+        "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever."
+      },
+      "es": {
+        "title": "Transformers Uno",
+        "overview": "La esperada historia del origen de cómo los personajes más icónicos del universo Transformers, Orion Pax y D-16, pasaron de ser hermanos de armas a convertirse en los enemigos jurados Optimus Prime y Megatron."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "resident-evil-2002",
+    "tmdbId": 1576,
+    "tmdbType": "movie",
+    "title": "Resident Evil",
+    "kind": "movie",
+    "releaseDate": "2002-03-15",
+    "imdbId": "tt0120804",
+    "posterPath": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+    "overview": "When a virus leaks from a top-secret facility, turning all resident researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil",
+        "overview": "When a virus leaks from a top-secret facility, turning all resident researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak."
+      },
+      "es": {
+        "title": "Resident Evil: El Huésped Maldito",
+        "overview": "Una unidad militar especial lucha contra una poderosa supercomputadora fuera de control y contra cientos de científicos que han mutado en criaturas carnívoras después de un accidente de laboratorio."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "resident-evil-apocalypse-2004",
+    "tmdbId": 1577,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Apocalypse",
+    "kind": "movie",
+    "releaseDate": "2004-09-10",
+    "imdbId": "tt0318627",
+    "posterPath": "/yzNQSLlZb7NAkA4C5uADfNDJ7hm.jpg",
+    "overview": "As the city is locked down under quarantine, Alice finds out that the people that died from the previous incident at the Umbrella Corporation have turned into zombies. She then joins a small band of elite soldiers, who are enlisted to rescue the missing daughter of the creator of the mutating T-virus.  Once lack of luck and resources happen, they begin to wage an exhilarating battle to survive and escape before the Umbrella Corporation erases its experiment from the face of the earth.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Apocalypse",
+        "overview": "As the city is locked down under quarantine, Alice finds out that the people that died from the previous incident at the Umbrella Corporation have turned into zombies. She then joins a small band of elite soldiers, who are enlisted to rescue the missing daughter of the creator of the mutating T-virus.  Once lack of luck and resources happen, they begin to wage an exhilarating battle to survive and escape before the Umbrella Corporation erases its experiment from the face of the earth."
+      },
+      "es": {
+        "title": "Resident Evil: Apocalipsis",
+        "overview": "Alice se despierta en el hospital de Raccoon City después de que la zona haya sido invadida por los zombis, y ahora debe conseguir salir de la ciudad antes de que se lance una bomba nuclear."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "resident-evil-extinction-2007",
+    "tmdbId": 7737,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Extinction",
+    "kind": "movie",
+    "releaseDate": "2007-09-20",
+    "imdbId": "tt0432021",
+    "posterPath": "/6yaLr7Ymg5cvbtSVi5hHwBKx35I.jpg",
+    "overview": "Years after the Racoon City catastrophe, survivors travel across the Nevada desert, hoping to make it to Alaska. Alice joins the caravan and their fight against hordes of zombies and the evil Umbrella Corp.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Extinction",
+        "overview": "Years after the Racoon City catastrophe, survivors travel across the Nevada desert, hoping to make it to Alaska. Alice joins the caravan and their fight against hordes of zombies and the evil Umbrella Corp."
+      },
+      "es": {
+        "title": "Resident Evil 3: La extinción",
+        "overview": "Los supervivientes de la catástrofe de Raccoon City recorren el desierto de Nevada con la esperanza de llegar a Alaska. Alice se une a la caravana y a su lucha contra la malvada Corporación Umbrella."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "resident-evil-afterlife-2010",
+    "tmdbId": 35791,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Afterlife",
+    "kind": "movie",
+    "releaseDate": "2010-09-01",
+    "imdbId": "tt1220634",
+    "posterPath": "/qZHDnt8bnsD2cSJfIbjWbCkIq3G.jpg",
+    "overview": "In a world ravaged by a virus infection, turning its victims into the Undead, Alice continues on her journey to find survivors and lead them to safety. Her deadly battle with the Umbrella Corporation reaches new heights, but Alice gets some unexpected help from an old friend. A new lead that promises a safe haven from the Undead takes them to Los Angeles, but when they arrive the city is overrun by thousands of Undead - and Alice and her comrades are about to step into a deadly trap.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Afterlife",
+        "overview": "In a world ravaged by a virus infection, turning its victims into the Undead, Alice continues on her journey to find survivors and lead them to safety. Her deadly battle with the Umbrella Corporation reaches new heights, but Alice gets some unexpected help from an old friend. A new lead that promises a safe haven from the Undead takes them to Los Angeles, but when they arrive the city is overrun by thousands of Undead - and Alice and her comrades are about to step into a deadly trap."
+      },
+      "es": {
+        "title": "Resident Evil 4: La resurrección",
+        "overview": "Mientras aún está en la búsqueda de la destrucción de la malvada Corporación Umbrella, Alice se une a un grupo de supervivientes que viven en una prisión rodeados de infectados y que también quieren trasladarse al misterioso pero supuestamente indemne refugio conocido como Arcadia."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "resident-evil-retribution-2012",
+    "tmdbId": 71679,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Retribution",
+    "kind": "movie",
+    "releaseDate": "2012-09-12",
+    "imdbId": "tt1855325",
+    "posterPath": "/ohdUDWVlcbuWphaLu6wS91xdJ73.jpg",
+    "overview": "The Umbrella Corporation’s deadly T-virus continues to ravage the Earth, transforming the global population into legions of the flesh eating Undead. The human race’s last and only hope, Alice, awakens in the heart of Umbrella’s most clandestine operations facility and unveils more of her mysterious past as she delves further into the complex. Without a safe haven, Alice continues to hunt those responsible for the outbreak; a chase that takes her from Tokyo to New York, Washington, D.C. and Moscow, culminating in a mind-blowing revelation that will force her to rethink everything that she once thought to be true. Aided by new found allies and familiar friends, Alice must fight to survive long enough to escape a hostile world on the brink of oblivion. The countdown has begun.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Retribution",
+        "overview": "The Umbrella Corporation’s deadly T-virus continues to ravage the Earth, transforming the global population into legions of the flesh eating Undead. The human race’s last and only hope, Alice, awakens in the heart of Umbrella’s most clandestine operations facility and unveils more of her mysterious past as she delves further into the complex. Without a safe haven, Alice continues to hunt those responsible for the outbreak; a chase that takes her from Tokyo to New York, Washington, D.C. and Moscow, culminating in a mind-blowing revelation that will force her to rethink everything that she once thought to be true. Aided by new found allies and familiar friends, Alice must fight to survive long enough to escape a hostile world on the brink of oblivion. The countdown has begun."
+      },
+      "es": {
+        "title": "Resident Evil 5: La venganza",
+        "overview": "Alice lucha junto a un movimiento de resistencia para recuperar su libertad de una instalación de pruebas de la Corporación Umbrella."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "resident-evil-the-final-chapter-2016",
+    "tmdbId": 173897,
+    "tmdbType": "movie",
+    "title": "Resident Evil: The Final Chapter",
+    "kind": "movie",
+    "releaseDate": "2016-12-23",
+    "imdbId": "tt2592614",
+    "posterPath": "/gytKL6fimeiTIjd9kl5bfjY2k4C.jpg",
+    "overview": "Picking up immediately after the events in Resident Evil: Retribution, Alice is the only survivor of what was meant to be humanity's final stand against the undead. Now, she must return to where the nightmare began - The Hive in Raccoon City, where the Umbrella Corporation is gathering its forces for a final strike against the only remaining survivors of the apocalypse.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: The Final Chapter",
+        "overview": "Picking up immediately after the events in Resident Evil: Retribution, Alice is the only survivor of what was meant to be humanity's final stand against the undead. Now, she must return to where the nightmare began - The Hive in Raccoon City, where the Umbrella Corporation is gathering its forces for a final strike against the only remaining survivors of the apocalypse."
+      },
+      "es": {
+        "title": "Resident Evil 6: Capítulo final",
+        "overview": "Alice regresa a donde comenzó la pesadilla: El Panal en Raccoon City, donde la Corporación Umbrella está reuniendo sus fuerzas para un ataque final contra los únicos sobrevivientes del apocalipsis."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "resident-evil-welcome-to-raccoon-city-2021",
+    "tmdbId": 460458,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Welcome to Raccoon City",
+    "kind": "movie",
+    "releaseDate": "2021-11-24",
+    "imdbId": "tt6920084",
+    "posterPath": "/bArhvjRHl535XMaSh9VjInF2mSZ.jpg",
+    "overview": "Once the booming home of pharmaceutical giant Umbrella Corporation, Raccoon City is now a dying Midwestern town. The company’s exodus left the city a wasteland…with great evil brewing below the surface. When that evil is unleashed, the townspeople are forever…changed…and a small group of survivors must work together to uncover the truth behind Umbrella and make it through the night.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Welcome to Raccoon City",
+        "overview": "Once the booming home of pharmaceutical giant Umbrella Corporation, Raccoon City is now a dying Midwestern town. The company’s exodus left the city a wasteland…with great evil brewing below the surface. When that evil is unleashed, the townspeople are forever…changed…and a small group of survivors must work together to uncover the truth behind Umbrella and make it through the night."
+      },
+      "es": {
+        "title": "Resident Evil: Bienvenidos a Raccoon City",
+        "overview": "Raccoon City, antaño la floreciente sede del gigante farmacéutico Umbrella, es ahora una ciudad del Medio Oeste en vías de extinción. El éxodo de la compañía ha dejado la ciudad convertida en un páramo... con un gran mal que se está gestando bajo la superficie. Cuando ese mal se desata, los habitantes de la ciudad cambian para siempre... y un pequeño grupo de supervivientes debe colaborar para descubrir la verdad sobre Umbrella y sobrevivir a la noche."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "resident-evil-degeneration-2008",
+    "tmdbId": 13648,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Degeneration",
+    "kind": "movie",
+    "releaseDate": "2008-02-13",
+    "imdbId": "tt1174954",
+    "posterPath": "/1x5OaFOo38JAwR5yXxeuvQg3VWH.jpg",
+    "overview": "Leon S. Kennedy and Claire Redfield must battle a rogue warrior seeking revenge after unleashing the deadly G-Virus, whilst a mutated monster goes on a rampage.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Degeneration",
+        "overview": "Leon S. Kennedy and Claire Redfield must battle a rogue warrior seeking revenge after unleashing the deadly G-Virus, whilst a mutated monster goes on a rampage."
+      },
+      "es": {
+        "title": "Resident Evil: Degeneración",
+        "overview": "Leon S. Kennedy y Claire Redfield deben enfrentarse a un combatiente que busca venganza tras liberar el mortal virus G, mientras un monstruo mutante se lanza a la caza."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "resident-evil-damnation-2012",
+    "tmdbId": 133121,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Damnation",
+    "kind": "movie",
+    "releaseDate": "2012-09-25",
+    "imdbId": "tt1753496",
+    "posterPath": "/zkHSURVCrt7rpvDDgUXO75CV1v4.jpg",
+    "overview": "U.S. federal agent Leon S. Kennedy sneaks into the \"East Slavic Republic\" to verify rumors that Bio-Organic Weapons (BOWs) are being used in the country's civil war, which the U.S. and Russia are making preparations to jointly intervene in. Right after his infiltration, the U.S. government orders him to leave immediately. Determined to uncover the truth, Leon ignores the order and enters the battlefield to end the chain of tragedies caused by the BOWs.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Damnation",
+        "overview": "U.S. federal agent Leon S. Kennedy sneaks into the \"East Slavic Republic\" to verify rumors that Bio-Organic Weapons (BOWs) are being used in the country's civil war, which the U.S. and Russia are making preparations to jointly intervene in. Right after his infiltration, the U.S. government orders him to leave immediately. Determined to uncover the truth, Leon ignores the order and enters the battlefield to end the chain of tragedies caused by the BOWs."
+      },
+      "es": {
+        "title": "Resident Evil: Infierno",
+        "overview": "El agente especial Leon S. Kennedy va en contra de las órdenes de sus superiores y trabaja para destruir una serie de armas biológicas que se utilizan en una zona de guerra en Europa."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "resident-evil-vendetta-2017",
+    "tmdbId": 400136,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Vendetta",
+    "kind": "movie",
+    "releaseDate": "2017-05-27",
+    "imdbId": "tt5776208",
+    "posterPath": "/kdiMtgjWXEH9QZ85hgmWaSwshjf.jpg",
+    "overview": "When a fearless enemy out for revenge unleashes a brutal and deadly new virus, BSAA captain Chris Redfield enlists the help of Agent Leon S. Kennedy and Professor Rebecca Chambers to bring down the death merchant and save New York City.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Vendetta",
+        "overview": "When a fearless enemy out for revenge unleashes a brutal and deadly new virus, BSAA captain Chris Redfield enlists the help of Agent Leon S. Kennedy and Professor Rebecca Chambers to bring down the death merchant and save New York City."
+      },
+      "es": {
+        "title": "Resident Evil: Venganza",
+        "overview": "Chris Redfield reclama la ayuda de Leon S. Kennedy y Rebecca Chambers para impedir que un mercader de la muerte, con ánimo de venganza, propague un virus mortal en Nueva York."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "resident-evil-death-island-2023",
+    "tmdbId": 1083862,
+    "tmdbType": "movie",
+    "title": "Resident Evil: Death Island",
+    "kind": "movie",
+    "releaseDate": "2023-06-22",
+    "imdbId": "tt26674627",
+    "posterPath": "/qayga07ICNDswm0cMJ8P3VwklFZ.jpg",
+    "overview": "In San Francisco, Jill Valentine is dealing with a zombie outbreak and a new T-Virus, Leon Kennedy is on the trail of a kidnapped DARPA scientist, and Claire Redfield is investigating a monstrous fish that is killing whales in the bay. Joined by Chris Redfield and Rebecca Chambers, they discover the trail of clues from their separate cases all converge on the same location, Alcatraz Island, where a new evil has taken residence and awaits their arrival.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil: Death Island",
+        "overview": "In San Francisco, Jill Valentine is dealing with a zombie outbreak and a new T-Virus, Leon Kennedy is on the trail of a kidnapped DARPA scientist, and Claire Redfield is investigating a monstrous fish that is killing whales in the bay. Joined by Chris Redfield and Rebecca Chambers, they discover the trail of clues from their separate cases all converge on the same location, Alcatraz Island, where a new evil has taken residence and awaits their arrival."
+      },
+      "es": {
+        "title": "Resident Evil: Isla de la Muerte",
+        "overview": "El agente Leon S. Kennedy tiene la misión de rescatar al Dr. Antonio Taylor de unos secuestradores, cuando una mujer misteriosa frustra su búsqueda. Mientras tanto, Chris Redfield está investigando un brote de zombis en San Francisco, donde no se puede identificar la causa de la infección. Lo único que tienen en común las víctimas es que todas visitaron la isla de Alcatraz recientemente. Siguiendo esa pista, Chris y su equipo se dirigen a la isla, donde les espera un nuevo horror."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "resident-evil-infinite-darkness-2021",
+    "tmdbId": 110642,
+    "tmdbType": "tv",
+    "title": "RESIDENT EVIL: Infinite Darkness",
+    "kind": "series",
+    "releaseDate": "2021-07-08",
+    "imdbId": "tt13173144",
+    "posterPath": "/wWwTjKER5a8LRUGHrw86VU0gUy1.jpg",
+    "overview": "Years after the horrors of Raccoon City, Leon and Claire find themselves consumed by a dark conspiracy when a viral attack ravages the White House.",
+    "localized": {
+      "en": {
+        "title": "RESIDENT EVIL: Infinite Darkness",
+        "overview": "Years after the horrors of Raccoon City, Leon and Claire find themselves consumed by a dark conspiracy when a viral attack ravages the White House."
+      },
+      "es": {
+        "title": "Resident Evil: La tiniebla infinita",
+        "overview": "Años después de los horrores de Raccoon City, Leon y Claire se ven atrapados en una oscura conspiración cuando un ataque viral devasta la Casa Blanca."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 4,
+        "airDate": "2021-07-08"
+      }
+    ],
+    "runtimeMin": 107
+  },
+  {
+    "id": "resident-evil-2022",
+    "tmdbId": 108296,
+    "tmdbType": "tv",
+    "title": "Resident Evil",
+    "kind": "series",
+    "releaseDate": "2022-07-14",
+    "imdbId": "tt9660182",
+    "posterPath": "/rmLvn4w4HMdxobPkjmIqrhJiXDO.jpg",
+    "overview": "Years after a viral outbreak caused a global apocalypse, Jade Wesker vows to bring down those responsible while fighting to survive against the Infected.",
+    "localized": {
+      "en": {
+        "title": "Resident Evil",
+        "overview": "Years after a viral outbreak caused a global apocalypse, Jade Wesker vows to bring down those responsible while fighting to survive against the Infected."
+      },
+      "es": {
+        "title": "Resident Evil",
+        "overview": "Años después de que una epidemia viral causara un apocalipsis mundial, Jade Wesker jura hundir a los responsables... mientras libra una batalla de supervivencia."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2022-07-14"
+      }
+    ],
+    "runtimeMin": 415
+  },
+  {
+    "id": "neon-genesis-evangelion-1995",
+    "tmdbId": 890,
+    "tmdbType": "tv",
+    "title": "Neon Genesis Evangelion",
+    "kind": "series",
+    "releaseDate": "1995-10-04",
+    "imdbId": "tt0112159",
+    "posterPath": "/y2ah9t0navXyIvoHg1uIbIHO3tt.jpg",
+    "overview": "At the turn of the century, the Angels returned to Earth, seeking to wipe out humanity in an apocalyptic fury. Devastated, mankind's last remnants moved underground to wait for the day when the Angels would come back to finish the job. Fifteen years later, that day has come... but this time, humanity is ready to fight back with terrifying bio-mechanical weapons known as the Evangelions. Watch as Shinji, Rei, Asuka and the rest of the mysterious shadow agency Nerv battle to save earth from total annihilation.",
+    "localized": {
+      "en": {
+        "title": "Neon Genesis Evangelion",
+        "overview": "At the turn of the century, the Angels returned to Earth, seeking to wipe out humanity in an apocalyptic fury. Devastated, mankind's last remnants moved underground to wait for the day when the Angels would come back to finish the job. Fifteen years later, that day has come... but this time, humanity is ready to fight back with terrifying bio-mechanical weapons known as the Evangelions. Watch as Shinji, Rei, Asuka and the rest of the mysterious shadow agency Nerv battle to save earth from total annihilation."
+      },
+      "es": {
+        "title": "Neon Genesis Evangelion",
+        "overview": "La historia da lugar en un mundo futurista en el que una organización paramilitar llamada NERV protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los «ángeles», utilizando para ello mechas humanoides llamados «EVA». A medida que avanza la trama, esta se vuelve paulatinamente más confusa y psicológica, en donde las personalidades de los personajes se hacen cada vez más inestables y su desarrollo se torna fundamental."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "1995-10-04"
+      }
+    ],
+    "runtimeMin": 615
+  },
+  {
+    "id": "neon-genesis-evangelion-death-and-rebirth-1997",
+    "tmdbId": 21832,
+    "tmdbType": "movie",
+    "title": "Neon Genesis Evangelion: Death and Rebirth",
+    "kind": "movie",
+    "releaseDate": "1997-03-15",
+    "imdbId": "tt0169880",
+    "posterPath": "/lXBjqzo6c4NyLuJtqOiH39kswji.jpg",
+    "overview": "Originally a collection of clips from the Neon Genesis Evangelion TV series, Death was created as a precursor to the re-worked ending of the series. Rebirth was intended as that re-worked ending, but after production overruns Rebirth became only the first half of the first part of The End of Evangelion, with some minor differences.",
+    "localized": {
+      "en": {
+        "title": "Neon Genesis Evangelion: Death and Rebirth",
+        "overview": "Originally a collection of clips from the Neon Genesis Evangelion TV series, Death was created as a precursor to the re-worked ending of the series. Rebirth was intended as that re-worked ending, but after production overruns Rebirth became only the first half of the first part of The End of Evangelion, with some minor differences."
+      },
+      "es": {
+        "title": "Neon Genesis Evangelion: Death & Rebirth",
+        "overview": "Primera película realizada tras la serie Neon Genesis Evangelion que consta de 2 partes: \"Death\" y \"Rebirth\". La primera parte, \"Death\", es un breve resumen de lo que sucede en la serie e incluye alguna escena inédita. La segunda parte, \"Rebirth\", es lo que sucede tras el capítulo 24 de la serie. El desenlace se muestra en la segunda película: \"Evangelion: The End of Evangelion\"."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "neon-genesis-evangelion-the-end-of-evangelion-1997",
+    "tmdbId": 18491,
+    "tmdbType": "movie",
+    "title": "Neon Genesis Evangelion: The End of Evangelion",
+    "kind": "movie",
+    "releaseDate": "1997-07-19",
+    "imdbId": "tt0169858",
+    "posterPath": "/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg",
+    "overview": "SEELE orders an all-out attack on NERV, aiming to destroy the Evas before Gendo can advance his own plans for the Human Instrumentality Project. Shinji is pushed to the limits of his sanity as he is forced to decide the fate of humanity.",
+    "localized": {
+      "en": {
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
+        "overview": "SEELE orders an all-out attack on NERV, aiming to destroy the Evas before Gendo can advance his own plans for the Human Instrumentality Project. Shinji is pushed to the limits of his sanity as he is forced to decide the fate of humanity."
+      },
+      "es": {
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
+        "overview": "NERV se enfrenta al Decimoctavo Ángel, pero al final el destino del mundo depende de las elecciones de Shinji."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "evangelion-1-0-you-are-not-alone-2007",
+    "tmdbId": 15137,
+    "tmdbType": "movie",
+    "title": "Evangelion: 1.0 You Are (Not) Alone",
+    "kind": "movie",
+    "releaseDate": "2007-09-01",
+    "imdbId": "tt0923811",
+    "posterPath": "/pETU4GurpeEjBOM8oytMH0yNBHx.jpg",
+    "overview": "After the Second Impact, Tokyo-3 is being attacked by giant monsters called Angels that seek to eradicate humankind. The child Shinji’s objective is to fight the Angels by piloting one of the mysterious Evangelion mecha units. A remake of the first six episodes of GAINAX’s famous 1996 anime series. The film was retitled “Evangelion: 1.01” for its DVD release and “Evangelion: 1.11” for a release with additional scenes.",
+    "localized": {
+      "en": {
+        "title": "Evangelion: 1.0 You Are (Not) Alone",
+        "overview": "After the Second Impact, Tokyo-3 is being attacked by giant monsters called Angels that seek to eradicate humankind. The child Shinji’s objective is to fight the Angels by piloting one of the mysterious Evangelion mecha units. A remake of the first six episodes of GAINAX’s famous 1996 anime series. The film was retitled “Evangelion: 1.01” for its DVD release and “Evangelion: 1.11” for a release with additional scenes."
+      },
+      "es": {
+        "title": "Evangelion: 1.11 Tú (No) Estás Solo",
+        "overview": "En 1999 un cataclismo ocurre en la Antártida llamado “El Segundo Impacto” como resultado de un incidente ocasionado por unos seres conocidos como “Ángeles”. Gran parte de la Tierra quedó devastada por el fenómeno, aunque gradualmente se va recuperando. Años después, los “Ángeles” regresan y comienzan a atacar a la Tierra. La organización NERV revela su nuevo proyecto con miras a salvar el mundo: gigantes y bio-mecánicos robots conocidos como Evas que son unos de las pocas fuerzas sobre la Tierra capaces de enfrentar a los “Ángeles”."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "evangelion-2-0-you-can-not-advance-2009",
+    "tmdbId": 22843,
+    "tmdbType": "movie",
+    "title": "Evangelion: 2.0 You Can (Not) Advance",
+    "kind": "movie",
+    "releaseDate": "2009-06-26",
+    "imdbId": "tt0860906",
+    "posterPath": "/7VLYN2CfJpB6PrcuzDKKqdGSUi6.jpg",
+    "overview": "Under constant attack by monstrous creatures called Angels that seek to eradicate humankind, U.N. Special Agency NERV introduces two new EVA pilots to help defend the city of Tokyo-3: the mysterious Makinami Mari Illustrous and the intense Asuka Langley Shikinami. Meanwhile, Gendo Ikari and SEELE proceed with a secret project that involves both Rei and Shinji.",
+    "localized": {
+      "en": {
+        "title": "Evangelion: 2.0 You Can (Not) Advance",
+        "overview": "Under constant attack by monstrous creatures called Angels that seek to eradicate humankind, U.N. Special Agency NERV introduces two new EVA pilots to help defend the city of Tokyo-3: the mysterious Makinami Mari Illustrous and the intense Asuka Langley Shikinami. Meanwhile, Gendo Ikari and SEELE proceed with a secret project that involves both Rei and Shinji."
+      },
+      "es": {
+        "title": "Evangelion: 2.22 Tú (No) Puedes Avanzar",
+        "overview": "Bajo el constante ataque de los Angeles, NERV introduce dos nuevos pilotos: la misteriosa Makinami Mari Illustrious, y a la intensa Asuka Langley Shikinami. Paralelamente, Gendo Ikari y SEELE proceden con el proyecto secreto que involucra tanto a Rei como a Shinji. You Can (Not) Advance comienza con el ataque del Tercer Ángel y la aparición de una nueva piloto con el EVA-05, mientras Asuka llega a Tokio-3 con el EVA-02 durante el ataque del Séptimo Ángel. Mientras avanza, la película vuelve a mostrarnos los clásicos conflictos emocionales de la serie, añadiendo nuevas escenas y mejor animación, con un final apocalíptico sorprendente.."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "evangelion-3-0-you-can-not-redo-2012",
+    "tmdbId": 75629,
+    "tmdbType": "movie",
+    "title": "Evangelion: 3.0 You Can (Not) Redo",
+    "kind": "movie",
+    "releaseDate": "2012-11-17",
+    "imdbId": "tt0860907",
+    "posterPath": "/d0s1xvykzl0kz7fP5S2ROYqphdz.jpg",
+    "overview": "Fourteen years after Third Impact, Shinji Ikari awakens to a world he does not remember. He hasn't aged. Much of Earth is laid in ruins, NERV has been dismantled, and people who he once protected have turned against him. Befriending the enigmatic Kaworu Nagisa, Shinji continues the fight against the angels and realizes the fighting is far from over, even when it could be against his former allies. The characters' struggles continue amidst the battles against the angels and each other, spiraling down to what could inevitably be the end of the world.",
+    "localized": {
+      "en": {
+        "title": "Evangelion: 3.0 You Can (Not) Redo",
+        "overview": "Fourteen years after Third Impact, Shinji Ikari awakens to a world he does not remember. He hasn't aged. Much of Earth is laid in ruins, NERV has been dismantled, and people who he once protected have turned against him. Befriending the enigmatic Kaworu Nagisa, Shinji continues the fight against the angels and realizes the fighting is far from over, even when it could be against his former allies. The characters' struggles continue amidst the battles against the angels and each other, spiraling down to what could inevitably be the end of the world."
+      },
+      "es": {
+        "title": "Evangelion: 3.33 Tú (No) Puedes Rehacer",
+        "overview": "Catorce años después del frustrado Tercer Impacto. Las unidades EVA 02 y 08, pilotadas por Asuka Langley Shikinami y Mari Illustrious Makinami, serán las encargadas de realizar una misión para recuperar un contenedor cruciforme, en el que se encuentra la unidad 01, que fue sellada con Shinji Ikari en su interior después del Tercer Impacto. Pero antes de poder recuperarlo, serán atacados por la Némesis, un grupo de veloces drones, que no dejaran que esta importante misión tenga éxito."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "evangelion-3-0-1-0-thrice-upon-a-time-2021",
+    "tmdbId": 283566,
+    "tmdbType": "movie",
+    "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+    "kind": "movie",
+    "releaseDate": "2021-03-08",
+    "imdbId": "tt2458948",
+    "posterPath": "/md5wZRRj8biHrGtyitgBZo7674t.jpg",
+    "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
+    "localized": {
+      "en": {
+        "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+        "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion."
+      },
+      "es": {
+        "title": "Evangelion: 3.0+1.0 Tres veces una vez",
+        "overview": "La cuarta y última entrega de Rebuild of Evangelion. Misato y su grupo anti-NERV Wille llegan a París, una ciudad roja por la coreización. La tripulación del Wunder aterriza en una torre de contención. Tienen 720 segundos para restaurar la ciudad. Cuando aparece una horda de NERV Evas, la Unidad 8 del Eva mejorado de Mari debe interceptarla. Shinji, Asuka y Rei deambulan por Japón."
+      }
+    },
+    "runtimeMin": 155
+  },
+  {
+    "id": "one-piece-1999",
+    "tmdbId": 37854,
+    "tmdbType": "tv",
+    "title": "One Piece",
+    "kind": "series",
+    "releaseDate": "1999-10-20",
+    "imdbId": "tt0388629",
+    "posterPath": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
+    "localized": {
+      "en": {
+        "title": "One Piece",
+        "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!"
+      },
+      "es": {
+        "title": "One Piece",
+        "overview": "Esta historia se sitúa en el momento más álgido de la Gran Era de los Piratas, cuando el joven Monkey D. Luffy quiere llegar a ser el Rey de los Piratas y hacerse al fin con un legendario tesoro, el One Piece."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 61,
+        "airDate": "1999-10-20"
+      },
+      {
+        "number": 2,
+        "episodes": 16
+      },
+      {
+        "number": 3,
+        "episodes": 14
+      },
+      {
+        "number": 4,
+        "episodes": 39
+      },
+      {
+        "number": 5,
+        "episodes": 13
+      },
+      {
+        "number": 6,
+        "episodes": 52
+      },
+      {
+        "number": 7,
+        "episodes": 33
+      },
+      {
+        "number": 8,
+        "episodes": 35
+      },
+      {
+        "number": 9,
+        "episodes": 73
+      },
+      {
+        "number": 10,
+        "episodes": 45
+      },
+      {
+        "number": 11,
+        "episodes": 26
+      },
+      {
+        "number": 12,
+        "episodes": 14
+      },
+      {
+        "number": 13,
+        "episodes": 101
+      },
+      {
+        "number": 14,
+        "episodes": 58
+      },
+      {
+        "number": 15,
+        "episodes": 62
+      },
+      {
+        "number": 16,
+        "episodes": 50
+      },
+      {
+        "number": 17,
+        "episodes": 56
+      },
+      {
+        "number": 18,
+        "episodes": 55,
+        "airDate": "2016-07-13"
+      },
+      {
+        "number": 19,
+        "episodes": 74,
+        "airDate": "2017-09-05"
+      },
+      {
+        "number": 20,
+        "episodes": 14,
+        "airDate": "2019-04-01"
+      },
+      {
+        "number": 21,
+        "episodes": 197,
+        "airDate": "2019-07-08"
+      },
+      {
+        "number": 22,
+        "episodes": 67
+      },
+      {
+        "number": 23,
+        "episodes": 25
+      }
+    ],
+    "runtimeMin": 28376,
+    "ongoing": true
+  },
+  {
+    "id": "one-piece-2023",
+    "tmdbId": 111110,
+    "tmdbType": "tv",
+    "title": "ONE PIECE",
+    "kind": "series",
+    "releaseDate": "2023-08-31",
+    "imdbId": "tt11737520",
+    "posterPath": "/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg",
+    "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.",
+    "localized": {
+      "en": {
+        "title": "ONE PIECE",
+        "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure."
+      },
+      "es": {
+        "title": "ONE PIECE",
+        "overview": "Acompañado de su ecléctica tripulación, el joven pirata Monkey D. Luffy emprende un viaje en busca de un tesoro legendario."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-08-31"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2026-03-10"
+      },
+      {
+        "number": 3,
+        "episodes": 1
+      }
+    ],
+    "runtimeMin": 953,
+    "ongoing": true
+  },
+  {
+    "id": "one-piece-the-movie-2000",
+    "tmdbId": 19576,
+    "tmdbType": "movie",
+    "title": "One Piece: The Movie",
+    "kind": "movie",
+    "releaseDate": "2000-03-04",
+    "imdbId": "tt0814243",
+    "posterPath": "/6QOrTYafoqzXPWLnR2K8129jTHH.jpg",
+    "overview": "There once was a pirate known as the Great Gold Pirate Woonan, who obtained almost one-third of the world's gold. Over the course of a few years, the pirate's existence faded, and a legend grew that he disappeared with his gold to a remote island, an island pirates continue to search for. Aboard the Going Merry, Luffy and his crew, starved and reckless, are robbed of their treasure. In an attempt to get it back, they wreck the getaway ship, guided by a young boy named Tobio, who's a captured part of El Drago's pirate crew. El Drago's love for gold has driven him to look for Woonan's island, and thanks to Woonan's treasure map, he finds it. During this time, Luffy's crew have been split up, and despite their own circumstances, they must find a way to stop El Drago from obtaining Woonan's gold.",
+    "localized": {
+      "en": {
+        "title": "One Piece: The Movie",
+        "overview": "There once was a pirate known as the Great Gold Pirate Woonan, who obtained almost one-third of the world's gold. Over the course of a few years, the pirate's existence faded, and a legend grew that he disappeared with his gold to a remote island, an island pirates continue to search for. Aboard the Going Merry, Luffy and his crew, starved and reckless, are robbed of their treasure. In an attempt to get it back, they wreck the getaway ship, guided by a young boy named Tobio, who's a captured part of El Drago's pirate crew. El Drago's love for gold has driven him to look for Woonan's island, and thanks to Woonan's treasure map, he finds it. During this time, Luffy's crew have been split up, and despite their own circumstances, they must find a way to stop El Drago from obtaining Woonan's gold."
+      },
+      "es": {
+        "title": "ONE PIECE LA PELÍCULA",
+        "overview": "Había una vez un pirata de oro, Woonam, que obtuvo algo así como un tercio del oro del mundo. No obstante, en pocos años no se supo nada más de él, y se alimentó la leyenda de que desapareció junto con todo su oro camino a una isla remota, que los piratas aún hoy siguen buscando. Intentando obtener ese tesoro, Luffy y sus amigos intentarán impedir que Eldrago se haga con el oro de Woonam. Además, de que Eldrago tiene el poder de una fruta del diablo... Primera película de la serie One Piece."
+      }
+    },
+    "runtimeMin": 51
+  },
+  {
+    "id": "one-piece-clockwork-island-adventure-2001",
+    "tmdbId": 23446,
+    "tmdbType": "movie",
+    "title": "One Piece: Clockwork Island Adventure",
+    "kind": "movie",
+    "releaseDate": "2001-03-03",
+    "imdbId": "tt0832449",
+    "posterPath": "/phrVSY5cpUkybc0gU41crWi2XIP.jpg",
+    "overview": "Relaxing on a cozy beach, the Straw Hat Pirates are taking a rest from their quest. Right until Luffy noticed the Going Merry has been hijacked and sailed off from the beach. This leads them to search the ship and find the thief who took it from them. They ran into a duo named the Theif Brothers, who informed them that their ship was stolen by a group of pirates called the Trump Kyoudai. When they encountered the Trump Pirates, Nami ended up getting kidnapped as well as Luffy's hat. They tracked down the pirates to their base on Clockwork Island. Now Luffy, Zoro, Sanji, Usopp, and the Theif Brothers must reclaim the Going Merry, Save Nami, and get back Shank's straw hat.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Clockwork Island Adventure",
+        "overview": "Relaxing on a cozy beach, the Straw Hat Pirates are taking a rest from their quest. Right until Luffy noticed the Going Merry has been hijacked and sailed off from the beach. This leads them to search the ship and find the thief who took it from them. They ran into a duo named the Theif Brothers, who informed them that their ship was stolen by a group of pirates called the Trump Kyoudai. When they encountered the Trump Pirates, Nami ended up getting kidnapped as well as Luffy's hat. They tracked down the pirates to their base on Clockwork Island. Now Luffy, Zoro, Sanji, Usopp, and the Theif Brothers must reclaim the Going Merry, Save Nami, and get back Shank's straw hat."
+      },
+      "es": {
+        "title": "One Piece: Aventura en la Isla Espiral",
+        "overview": "El viento no sopla a favor de Luffy y sus amigos. Después de que les roben su barco, el Going Merry, son capturados por los Hermanos Ladrones, quienes planean hacerse con el Reloj de Diamante para convertirse en los mejores piratas del mundo. Sin embargo, este tesoro se encuentra en la Isla del Reloj, propiedad de una banda de piratas temibles, los Hermanos Trump, quienes también son los responsables del robo del Going Merry. Cuando los Hermanos Trump secuestran a Nami y la obligan a prometerse con su capitán, el terrible Bear King, la tripulación de Sombrero de Paja y los Hermanos Ladrones deciden aliarse contra estos poderosos bandidos. ¿Serán capaces de rescatar a Nami, conseguir el tesoro y liberar al pueblo de la Isla del Reloj de la tiranía?. Segunda película de la serie One Piece."
+      }
+    },
+    "runtimeMin": 60
+  },
+  {
+    "id": "one-piece-choppers-kingdom-in-the-strange-animal-island-2002",
+    "tmdbId": 44725,
+    "tmdbType": "movie",
+    "title": "One Piece: Chopper's Kingdom in the Strange Animal Island",
+    "kind": "movie",
+    "releaseDate": "2002-03-02",
+    "imdbId": "tt0997084",
+    "posterPath": "/9YFUMvTV4zOkpUsPAiPgjaMKWYd.jpg",
+    "overview": "As the Straw Hat Pirates sail through the Grand Line, a sudden eruption of geysers beneath the Going Merry sends the crew flying over a nearby island. In the chaos, Chopper falls overboard and becomes separated from his friends. While Luffy and the others land on the far side of the island, Chopper finds himself hailed as the new king by the local animals. However, danger looms as a group of human “horn hunters” arrives. Their leader, Count Butler, is a violin-playing man who consumes horns to gain strength, and he seeks to devour the island’s greatest treasure to inherit immense power. Can Luffy and the crew stop Count Butler’s scheme and save the island? And will they be able to show Momambi that not all pirates are the villains he believes them to be?",
+    "localized": {
+      "en": {
+        "title": "One Piece: Chopper's Kingdom in the Strange Animal Island",
+        "overview": "As the Straw Hat Pirates sail through the Grand Line, a sudden eruption of geysers beneath the Going Merry sends the crew flying over a nearby island. In the chaos, Chopper falls overboard and becomes separated from his friends. While Luffy and the others land on the far side of the island, Chopper finds himself hailed as the new king by the local animals. However, danger looms as a group of human “horn hunters” arrives. Their leader, Count Butler, is a violin-playing man who consumes horns to gain strength, and he seeks to devour the island’s greatest treasure to inherit immense power. Can Luffy and the crew stop Count Butler’s scheme and save the island? And will they be able to show Momambi that not all pirates are the villains he believes them to be?"
+      },
+      "es": {
+        "title": "One Piece: El reino de Chopper en la isla de los animales raros",
+        "overview": "Luffy y compañia atraviesan un muro de agua, y llegan sin querer a una isla donde solo habitan animales. En esta isla existe la leyenda de que la cornamenta del rey de estos animales dará a su portador la fuerza de un Dios, y muchos cazadores van tras los cuernos. Para sorpresa de todos Chopper será elegido como nuevo Rey."
+      }
+    },
+    "runtimeMin": 56
+  },
+  {
+    "id": "one-piece-dead-end-adventure-2003",
+    "tmdbId": 44727,
+    "tmdbType": "movie",
+    "title": "One Piece: Dead End Adventure",
+    "kind": "movie",
+    "releaseDate": "2003-03-01",
+    "imdbId": "tt1006926",
+    "posterPath": "/tEJBIHzaW1IoOVHtgblXy76kj4G.jpg",
+    "overview": "Desperate for cash, the Straw Hat Pirates enter a secret race between pirate crews known as the Dead End Competition. There, they must battle against powerful people, including the bounty hunter who wants to kill Gasparde and a climatic battle with Marine-turned-pirate Captain Gasparde.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Dead End Adventure",
+        "overview": "Desperate for cash, the Straw Hat Pirates enter a secret race between pirate crews known as the Dead End Competition. There, they must battle against powerful people, including the bounty hunter who wants to kill Gasparde and a climatic battle with Marine-turned-pirate Captain Gasparde."
+      },
+      "es": {
+        "title": "One Piece: La Aventura sin Salida",
+        "overview": "Luffy y la tripulación llegan al puerto de Anabaru. El casino local está llevando a cabo una competencia en la que el ganador obtendrá una gran recompensa monetaria si llega primero a la línea de llegada. Nami está eufórica y decide participar en la competencia. Sin embargo, hay una conspiración detrás de la competencia y el autor intelectual es un ex-comandante militar, Gasparde"
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "one-piece-curse-of-the-sacred-sword-2004",
+    "tmdbId": 44728,
+    "tmdbType": "movie",
+    "title": "One Piece: Curse of the Sacred Sword",
+    "kind": "movie",
+    "releaseDate": "2004-03-06",
+    "imdbId": "tt1010435",
+    "posterPath": "/fSqxVnjHE7zGAdWkhnQNYLJ2FUj.jpg",
+    "overview": "The Straw Hat Pirates landed at Asuka Island, home of the most valuable sword in the world: The Seven Star Sword. Which was said to curse anyone who takes it in possession. When they got back to the Going Merry, they discovered that Zoro is missing from his guard duty. Before they could plan out a search party to relocate him. Luffy and friends escape from the port as Marines were on their tail. They found a new place to dock, which is near a village. Whose job is to keep the Seven Star Sword sealed. Soon it was attacked by the Marines, and among them is Zoro. Luffy and the others don't know why he's helping out the Marines. But it all comes to conclusion when Luffy encounters Saga: Zoro's childhood friend from Swordsman training.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Curse of the Sacred Sword",
+        "overview": "The Straw Hat Pirates landed at Asuka Island, home of the most valuable sword in the world: The Seven Star Sword. Which was said to curse anyone who takes it in possession. When they got back to the Going Merry, they discovered that Zoro is missing from his guard duty. Before they could plan out a search party to relocate him. Luffy and friends escape from the port as Marines were on their tail. They found a new place to dock, which is near a village. Whose job is to keep the Seven Star Sword sealed. Soon it was attacked by the Marines, and among them is Zoro. Luffy and the others don't know why he's helping out the Marines. But it all comes to conclusion when Luffy encounters Saga: Zoro's childhood friend from Swordsman training."
+      },
+      "es": {
+        "title": "One Piece: La maldición de la espada sagrada",
+        "overview": "Luffy y su tripulación van tras la legendaria espada de las siete estrellas. Esta oculta un poder maligno que llenará de oscuridad al mundo si no es detenida. Para colmo, Zoro es vilmente engañado por Saga, un supuesto amigo suyo de la infancia, por lo que enfrentará a sus amigos en esta búsqueda del mencionado tesoro."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "one-piece-baron-omatsuri-and-the-secret-island-2005",
+    "tmdbId": 44729,
+    "tmdbType": "movie",
+    "title": "One Piece: Baron Omatsuri and the Secret Island",
+    "kind": "movie",
+    "releaseDate": "2005-03-05",
+    "imdbId": "tt1018764",
+    "posterPath": "/ueIR4LM4k8eKhSB8gGT9NMhCwGW.jpg",
+    "overview": "The Straw Hats visit a recreational island, run by Baron Omatsuri, who asks them to complete a series of ordeals if they wish to stay on the island. Luffy accepts and the Straw Hats work together to complete them, but as the island's mysteries unfold, their lives and friendships are put to the test. It's up to Luffy to stop the Baron's plot and keep his crew together.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Baron Omatsuri and the Secret Island",
+        "overview": "The Straw Hats visit a recreational island, run by Baron Omatsuri, who asks them to complete a series of ordeals if they wish to stay on the island. Luffy accepts and the Straw Hats work together to complete them, but as the island's mysteries unfold, their lives and friendships are put to the test. It's up to Luffy to stop the Baron's plot and keep his crew together."
+      },
+      "es": {
+        "title": "One Piece: Barón Omatsuri y la Isla Secreta",
+        "overview": "Es la hora de relajarse para los protagonistas. El destino es una isla de recreo en Grand Line, propiedad del barón Omatsuri. Sin embargo, apenas llegan tienen que ir superando una serie de retos para llegar a lugares donde pueden relajarse. Y cuando todo parece estar bien, se dan cuenta que un aire provoca que todos se peleen entre sí. Robin, Chopper y Luffy, cada uno por su lado, buscan cual es el secreto que esconde esta isla."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "one-piece-giant-mecha-soldier-of-karakuri-castle-2006",
+    "tmdbId": 44730,
+    "tmdbType": "movie",
+    "title": "One Piece: Giant Mecha Soldier of Karakuri Castle",
+    "kind": "movie",
+    "releaseDate": "2006-03-04",
+    "imdbId": "tt1059950",
+    "posterPath": "/4Pu26TQNiyl8kjNe1sI3NMG2OQG.jpg",
+    "overview": "The Straw Hats visits an island, known as Mecha Island, where a fisherman sings an old folk song about a Golden Crown. Searching for that mysterious treasure, they find a hidden entrance into the island. The island's leader, Ratchet, impressed with the find and in search of the Golden Crown himself, invites the crew to join him in his search and the crew along with Ratchet and his henchmen enter the cave. As it turns out, the islands true form, is that of a giant turtle. Ratchet, who had known this all along, uses his mechanical castle to take control of the turtle, in order to use it, to take over the world. Now the Straw Hats have to stop not only Ratchet, but also the helpless turtle, from crashing into a nearby island.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Giant Mecha Soldier of Karakuri Castle",
+        "overview": "The Straw Hats visits an island, known as Mecha Island, where a fisherman sings an old folk song about a Golden Crown. Searching for that mysterious treasure, they find a hidden entrance into the island. The island's leader, Ratchet, impressed with the find and in search of the Golden Crown himself, invites the crew to join him in his search and the crew along with Ratchet and his henchmen enter the cave. As it turns out, the islands true form, is that of a giant turtle. Ratchet, who had known this all along, uses his mechanical castle to take control of the turtle, in order to use it, to take over the world. Now the Straw Hats have to stop not only Ratchet, but also the helpless turtle, from crashing into a nearby island."
+      },
+      "es": {
+        "title": "One Piece: El soldado gigante mecánico del castillo Karakuri",
+        "overview": "Durante una tempestad en Grand Line, Luffy y compañía abordan un barco a punto de hundirse, en donde encuentran un gran cofre de tesoro. Atónitos descubren que adentro hay una vieja con dentadura de oro, escondida porque el barco se hundía. En agradecimiento por llevarla a su isla, les ofrece el tesoro legendario Golden Crown una vez lleguen. Cuando arriban, aparece el hijo de la vieja y se la lleva de inmediato a la casa sin dejarle decir nada del tesoro."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "one-piece-the-desert-princess-and-the-pirates-adventure-in-alabasta-2007",
+    "tmdbId": 25278,
+    "tmdbType": "movie",
+    "title": "One Piece: The Desert Princess and the Pirates: Adventure in Alabasta",
+    "kind": "movie",
+    "releaseDate": "2007-03-03",
+    "imdbId": "tt1037116",
+    "posterPath": "/qryaZLg7DkBkZtwKWTH6dfXjT3r.jpg",
+    "overview": "The Straw Hat Pirates are on a quest to save the desert kingdom of Alabasta. A civil war brews among the sands, one started and stirred by the hand of none other than Crocodile and his corrupted Baroque Works gang. The stakes run ever higher as Princess Vivi's homeland threatens to tear itself apart. More than lives are on the line.",
+    "localized": {
+      "en": {
+        "title": "One Piece: The Desert Princess and the Pirates: Adventure in Alabasta",
+        "overview": "The Straw Hat Pirates are on a quest to save the desert kingdom of Alabasta. A civil war brews among the sands, one started and stirred by the hand of none other than Crocodile and his corrupted Baroque Works gang. The stakes run ever higher as Princess Vivi's homeland threatens to tear itself apart. More than lives are on the line."
+      },
+      "es": {
+        "title": "One Piece: Episodio de Alabasta - La Princesa del Desierto y los Piratas",
+        "overview": "Es un remake que junta los capítulos relacionados a la Princesa Vivi y como recibe la ayuda de la tripulación del Sombrero de Paja para poder regresar a su reino, que se encuentra bajo una guerra civil."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "one-piece-episode-of-chopper-plus-2008",
+    "tmdbId": 44731,
+    "tmdbType": "movie",
+    "title": "One Piece: Episode of Chopper Plus: Bloom in the Winter, Miracle Cherry Blossom",
+    "kind": "movie",
+    "releaseDate": "2008-03-01",
+    "imdbId": "tt1206326",
+    "posterPath": "/rGgZ3nIJt1anC1hOT4Do5mCOqAJ.jpg",
+    "overview": "When Nami falls ill, the Straw Hats seek medical care for her on Drum Island. There they meet reindeer doctor Tony Tony Chopper and the Wapol Pirates.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Episode of Chopper Plus: Bloom in the Winter, Miracle Cherry Blossom",
+        "overview": "When Nami falls ill, the Straw Hats seek medical care for her on Drum Island. There they meet reindeer doctor Tony Tony Chopper and the Wapol Pirates."
+      },
+      "es": {
+        "title": "One Piece: Episodio de Chopper - Florece el invierno, el milagro de los cerezos",
+        "overview": "Remake de la saga de Drum, con Franky y Robin destacados como con la tripulación y el Thousand Sunny. Esta también es la única película que no cabe en la continuidad de la historia de las películas."
+      }
+    },
+    "runtimeMin": 113
+  },
+  {
+    "id": "one-piece-film-strong-world-2010",
+    "tmdbId": 41498,
+    "tmdbType": "movie",
+    "title": "One Piece Film: Strong World",
+    "kind": "movie",
+    "releaseDate": "2010-02-11",
+    "imdbId": "tt1485763",
+    "posterPath": "/z9S39hH4IOX9Hmtn3zho3Wdqem8.jpg",
+    "overview": "20 years after his escape from Impel Down, the legendary pirate Shiki, the Golden Lion, reappears causing massive upheaval to the Marines. During his long seclusion, he was able to come up with a scheme to bring the World Government to his knees. On his way to execute the plan, Shiki crosses paths with the Straw Hat Pirates and becomes so impressed with Nami's knowledge of meteorology that he abducts her to forcedly enlist her into his crew. Luffy and the gang end up on a strange land populated with monstrous beasts as they desperately search for Shiki and Nami.",
+    "localized": {
+      "en": {
+        "title": "One Piece Film: Strong World",
+        "overview": "20 years after his escape from Impel Down, the legendary pirate Shiki, the Golden Lion, reappears causing massive upheaval to the Marines. During his long seclusion, he was able to come up with a scheme to bring the World Government to his knees. On his way to execute the plan, Shiki crosses paths with the Straw Hat Pirates and becomes so impressed with Nami's knowledge of meteorology that he abducts her to forcedly enlist her into his crew. Luffy and the gang end up on a strange land populated with monstrous beasts as they desperately search for Shiki and Nami."
+      },
+      "es": {
+        "title": "One Piece Film: Strong World",
+        "overview": "Luffy y sus amigos comienzan su viaje en un bosque que está lleno de monstruos, pero de repente Nami desaparece, dejando un mensaje, y el inicio del equipo en busca de ella, ¿podrán encontrarla o no..? 20 años después de su huida de Impel Down, el legendario pirata Shiki, el León Dorado, quien perdió una batalla contra Gol D. Roger, vuelve a aparecer causando agitación masiva a los marines. Durante su larga reclusión, fue capaz de encontrar un plan para someter al Gobierno Mundial de rodillas. En su camino a ejecutar su plan, Shiki se cruza con los Piratas del Sombrero de Paja y queda muy impresionado con el conocimiento de Nami de la meteorología, tanto así que él la secuestra para alistarse en su tripulación."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "one-piece-film-z-2012",
+    "tmdbId": 176983,
+    "tmdbType": "movie",
+    "title": "One Piece Film: Z",
+    "kind": "movie",
+    "releaseDate": "2012-12-15",
+    "imdbId": "tt2375379",
+    "posterPath": "/dd0HwfxstffjRgbBcQvtw3uqS6O.jpg",
+    "overview": "Zephyr, now known as Z, rides the seas with only one goal: Destroy all pirates and their dreams at becoming King of Pirates. When Luffy and his crew encounter him at sea, not only are they utterly defeated by the man with an arm made of Seastone, Nami, Robin, and Chopper are turned 10 years younger due to Z's minion Ain. Luffy is so determined to win against him that he does not even notice Z's master plan that could sacrifice thousands of lives.",
+    "localized": {
+      "en": {
+        "title": "One Piece Film: Z",
+        "overview": "Zephyr, now known as Z, rides the seas with only one goal: Destroy all pirates and their dreams at becoming King of Pirates. When Luffy and his crew encounter him at sea, not only are they utterly defeated by the man with an arm made of Seastone, Nami, Robin, and Chopper are turned 10 years younger due to Z's minion Ain. Luffy is so determined to win against him that he does not even notice Z's master plan that could sacrifice thousands of lives."
+      },
+      "es": {
+        "title": "One Piece: Z",
+        "overview": "Un ex-almirante de la Marina roba el Dyna Stones, y se cruza en el camino de los Piratas de Sombrero de Paja."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "one-piece-film-gold-2016",
+    "tmdbId": 374205,
+    "tmdbType": "movie",
+    "title": "One Piece Film: GOLD",
+    "kind": "movie",
+    "releaseDate": "2016-07-23",
+    "imdbId": "tt5251328",
+    "posterPath": "/9PgiOFTLZXP7emlwcIt0yRasJ9h.jpg",
+    "overview": "The glittering Gran Tesoro, a city of entertainment beyond the laws of the government, is a sanctuary for the world’s most infamous pirates, Marines, and filthy rich millionaires. Drawn by dreams of hitting the jackpot, Captain Luffy and his crew sail straight for the gold. But behind the gilded curtains lies a powerful king whose deep pockets and deeper ambitions spell disaster for the Straw Hats and the New World alike.",
+    "localized": {
+      "en": {
+        "title": "One Piece Film: GOLD",
+        "overview": "The glittering Gran Tesoro, a city of entertainment beyond the laws of the government, is a sanctuary for the world’s most infamous pirates, Marines, and filthy rich millionaires. Drawn by dreams of hitting the jackpot, Captain Luffy and his crew sail straight for the gold. But behind the gilded curtains lies a powerful king whose deep pockets and deeper ambitions spell disaster for the Straw Hats and the New World alike."
+      },
+      "es": {
+        "title": "One Piece Gold: La película",
+        "overview": "Los Piratas del Sombrero de Paja visitan Gran Tesoro, el barco más lujoso del mundo, que es considerado un país. Tras hacer varias apuestas en el casino, en su última apuesta Luffy pierde todo el dinero ganado, además de deber dinero prestado del casino, por lo que Gild Tesoro, el dueño del lugar, retiene a Zoro hasta que sus compañeros devuelvan el dinero que deben. Por ello, Luffy y su banda se alía con Carina, miembro de la banda de Tesoro y antigua compañera de robos de Nami, para infiltrarse en el casino y robar la fortuna de Tesoro. Se ubicaría despues del especial Heart of Gold."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "one-piece-stampede-2019",
+    "tmdbId": 568012,
+    "tmdbType": "movie",
+    "title": "One Piece: Stampede",
+    "kind": "movie",
+    "releaseDate": "2019-01-03",
+    "imdbId": "tt9430698",
+    "posterPath": "/4E2lyUGLEr3yH4q6kJxPkQUhX7n.jpg",
+    "overview": "The world's boldest buccaneers set sail for the great Pirate Festival, where the Straw Hats join a mad-dash race to find Gol D. Roger's treasure. There's just one little problem: An old member of Roger's crew has a sinister score to settle.",
+    "localized": {
+      "en": {
+        "title": "One Piece: Stampede",
+        "overview": "The world's boldest buccaneers set sail for the great Pirate Festival, where the Straw Hats join a mad-dash race to find Gol D. Roger's treasure. There's just one little problem: An old member of Roger's crew has a sinister score to settle."
+      },
+      "es": {
+        "title": "One Piece: Estampida",
+        "overview": "La película tiene lugar durante la Pirates Expo, \"hecha por piratas para piratas\", donde los piratas de todo el mundo, incluidos algunos de sus personajes más infames, se unen a la búsqueda de un gran tesoro para encontrar un tesoro perdido, esta vez el tesoro. Perteneció nada menos que a Gold Roger!"
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "one-piece-film-red-2022",
+    "tmdbId": 900667,
+    "tmdbType": "movie",
+    "title": "One Piece Film Red",
+    "kind": "movie",
+    "releaseDate": "2022-08-06",
+    "imdbId": "tt16183464",
+    "posterPath": "/8ibfhe4P7rhmn3lrPhOZzIJHA2B.jpg",
+    "overview": "A new adventure begins for Luffy and his crew when mysterious pop superstar Uta unveils her identity — and launches a misguided plan for world peace.",
+    "localized": {
+      "en": {
+        "title": "One Piece Film Red",
+        "overview": "A new adventure begins for Luffy and his crew when mysterious pop superstar Uta unveils her identity — and launches a misguided plan for world peace."
+      },
+      "es": {
+        "title": "One Piece Film: Red",
+        "overview": "Uta, la cantante más querida del mundo. Reconocida por ocultar su propia identidad cuando actúa, su voz ha llegado a ser descrita como \"de otro mundo\". Ahora, por primera vez, Uta se revelará al mundo en un concierto en vivo. A medida que el lugar se llena con todo tipo de fanáticos de Uta: piratas emocionados, la Armada observando de cerca y los Sombreros de Paja liderados por Luffy que simplemente vinieron a disfrutar de su actuación sonora, la voz que todo el mundo ha estado esperando está a punto de resonar. La historia comienza con el impactante hecho de que ella es la hija de Shanks"
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "doctor-who-1963",
+    "tmdbId": 121,
+    "tmdbType": "tv",
+    "title": "Doctor Who",
+    "kind": "series",
+    "releaseDate": "1963-11-23",
+    "imdbId": "tt0056751",
+    "posterPath": "/xinqAmYrZ1TEwowcQhgTkZVtVE0.jpg",
+    "overview": "The adventures of The Doctor, a time-traveling humanoid alien known as a Time Lord. He explores the universe in his TARDIS, a sentient time-traveling spaceship. Its exterior appears as a blue British police box, which was a common sight in Britain in 1963 when the series first aired. Along with a succession of companions, The Doctor faces a variety of foes while working to save civilizations, help ordinary people, and right many wrongs.",
+    "localized": {
+      "en": {
+        "title": "Doctor Who",
+        "overview": "The adventures of The Doctor, a time-traveling humanoid alien known as a Time Lord. He explores the universe in his TARDIS, a sentient time-traveling spaceship. Its exterior appears as a blue British police box, which was a common sight in Britain in 1963 when the series first aired. Along with a succession of companions, The Doctor faces a variety of foes while working to save civilizations, help ordinary people, and right many wrongs."
+      },
+      "es": {
+        "title": "Doctor Who",
+        "overview": "Sigue las aventuras del misterioso Doctor, un viajero en el tiempo y el espacio que viaja en su nave, la TARDIS, que parece ser una cabina telefónica de la policía británica por fuera. Junto con sus acompañantes, el Doctor explora mundos extraños, se enfrenta a enemigos temibles y salva civilizaciones enteras mientras lucha por proteger el universo de amenazas de todo tipo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 42,
+        "airDate": "1963-11-23"
+      },
+      {
+        "number": 2,
+        "episodes": 39,
+        "airDate": "1964-10-31"
+      },
+      {
+        "number": 3,
+        "episodes": 45,
+        "airDate": "1965-09-11"
+      },
+      {
+        "number": 4,
+        "episodes": 43,
+        "airDate": "1966-09-10"
+      },
+      {
+        "number": 5,
+        "episodes": 40,
+        "airDate": "1967-09-02"
+      },
+      {
+        "number": 6,
+        "episodes": 44,
+        "airDate": "1968-08-10"
+      },
+      {
+        "number": 7,
+        "episodes": 25,
+        "airDate": "1970-01-03"
+      },
+      {
+        "number": 8,
+        "episodes": 25,
+        "airDate": "1971-01-02"
+      },
+      {
+        "number": 9,
+        "episodes": 26,
+        "airDate": "1972-01-01"
+      },
+      {
+        "number": 10,
+        "episodes": 26,
+        "airDate": "1972-12-30"
+      },
+      {
+        "number": 11,
+        "episodes": 26,
+        "airDate": "1973-12-15"
+      },
+      {
+        "number": 12,
+        "episodes": 20,
+        "airDate": "1974-12-28"
+      },
+      {
+        "number": 13,
+        "episodes": 26,
+        "airDate": "1975-08-30"
+      },
+      {
+        "number": 14,
+        "episodes": 26,
+        "airDate": "1976-09-04"
+      },
+      {
+        "number": 15,
+        "episodes": 26,
+        "airDate": "1977-09-03"
+      },
+      {
+        "number": 16,
+        "episodes": 26,
+        "airDate": "1978-09-02"
+      },
+      {
+        "number": 17,
+        "episodes": 20,
+        "airDate": "1979-09-01"
+      },
+      {
+        "number": 18,
+        "episodes": 28,
+        "airDate": "1980-08-30"
+      },
+      {
+        "number": 19,
+        "episodes": 26,
+        "airDate": "1982-01-04"
+      },
+      {
+        "number": 20,
+        "episodes": 22,
+        "airDate": "1983-01-03"
+      },
+      {
+        "number": 21,
+        "episodes": 24,
+        "airDate": "1984-01-05"
+      },
+      {
+        "number": 22,
+        "episodes": 13,
+        "airDate": "1985-01-05"
+      },
+      {
+        "number": 23,
+        "episodes": 14,
+        "airDate": "1986-09-06"
+      },
+      {
+        "number": 24,
+        "episodes": 14,
+        "airDate": "1987-09-07"
+      },
+      {
+        "number": 25,
+        "episodes": 14,
+        "airDate": "1988-10-05"
+      },
+      {
+        "number": 26,
+        "episodes": 14,
+        "airDate": "1989-09-06"
+      }
+    ],
+    "runtimeMin": 17535
+  },
+  {
+    "id": "doctor-who-1996",
+    "tmdbId": 15691,
+    "tmdbType": "movie",
+    "title": "Doctor Who",
+    "kind": "movie",
+    "releaseDate": "1996-05-12",
+    "imdbId": "tt0116118",
+    "posterPath": "/cwae2p7JcRNtz1CvNCzpX5ad96V.jpg",
+    "overview": "The Seventh Doctor becomes the Eighth. And on the streets of San Francisco – alongside new ally Grace Holloway - he battles the Master.",
+    "localized": {
+      "en": {
+        "title": "Doctor Who",
+        "overview": "The Seventh Doctor becomes the Eighth. And on the streets of San Francisco – alongside new ally Grace Holloway - he battles the Master."
+      },
+      "es": {
+        "title": "Doctor Who"
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "doctor-who-2005",
+    "tmdbId": 57243,
+    "tmdbType": "tv",
+    "title": "Doctor Who",
+    "kind": "series",
+    "releaseDate": "2005-03-26",
+    "imdbId": "tt0436992",
+    "posterPath": "/lHfmc6d8pOVFrD0eOKPiDbjeucG.jpg",
+    "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living—more of a hobby actually, and the Doctor's very, very good at it.",
+    "localized": {
+      "en": {
+        "title": "Doctor Who",
+        "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living—more of a hobby actually, and the Doctor's very, very good at it."
+      },
+      "es": {
+        "title": "Doctor Who",
+        "overview": "Continuación de la mítica y longeva serie británica que empezó en 1963 y duró hasta 1989. El Doctor es un aventurero que viaja por el tiempo y el espacio visitando desde fantasmas del pasado hasta alienígenas del futuro, desde el día que la Tierra murió en una bola de fuego hasta el fin del universo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2005-03-26"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2006-04-15"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2007-04-01"
+      },
+      {
+        "number": 4,
+        "episodes": 13,
+        "airDate": "2008-04-05"
+      },
+      {
+        "number": 5,
+        "episodes": 13,
+        "airDate": "2010-04-03"
+      },
+      {
+        "number": 6,
+        "episodes": 13,
+        "airDate": "2011-04-23"
+      },
+      {
+        "number": 7,
+        "episodes": 13,
+        "airDate": "2012-09-01"
+      },
+      {
+        "number": 8,
+        "episodes": 12,
+        "airDate": "2014-08-23"
+      },
+      {
+        "number": 9,
+        "episodes": 12,
+        "airDate": "2015-09-19"
+      },
+      {
+        "number": 10,
+        "episodes": 12,
+        "airDate": "2017-04-15"
+      },
+      {
+        "number": 11,
+        "episodes": 10,
+        "airDate": "2018-10-07"
+      },
+      {
+        "number": 12,
+        "episodes": 10,
+        "airDate": "2020-01-01"
+      },
+      {
+        "number": 13,
+        "episodes": 6,
+        "airDate": "2021-10-31"
+      }
+    ],
+    "runtimeMin": 7380
+  },
+  {
+    "id": "doctor-who-2024",
+    "tmdbId": 239770,
+    "tmdbType": "tv",
+    "title": "Doctor Who",
+    "kind": "series",
+    "releaseDate": "2024-05-11",
+    "imdbId": "tt31433814",
+    "posterPath": "/2JP6NSmBwxg75uTcIHiv5R8PpPi.jpg",
+    "overview": "The Doctor and his companion travel across time and space encountering incredible friends and foes.",
+    "localized": {
+      "en": {
+        "title": "Doctor Who",
+        "overview": "The Doctor and his companion travel across time and space encountering incredible friends and foes."
+      },
+      "es": {
+        "title": "Doctor Who",
+        "overview": "El Doctor y su acompañante Ruby Sunday viajan a través del tiempo y espacio, con aventuras que van desde la Época Regencia en Inglaterra hasta mundos futuros devastados por la guerra. A lo largo de sus aventuras en la TARDIS - una nave que viaja en el tiempo con forma de cabina de policía - se encuentran con increíbles amigos y peligrosos enemigos, incluyendo a un aterrador moco-coco y al enemigo más poderoso del Doctor hasta ahora."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2024-05-11"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-04-12"
+      }
+    ],
+    "runtimeMin": 759
+  },
+  {
+    "id": "torchwood-2006",
+    "tmdbId": 424,
+    "tmdbType": "tv",
+    "title": "Torchwood",
+    "kind": "series",
+    "releaseDate": "2006-10-22",
+    "imdbId": "tt0485301",
+    "posterPath": "/bv7C5r7QyXGsaMxvU40FVY7SvrD.jpg",
+    "overview": "The exploits of a team of people whose job is to investigate the unusual, the strange and the extraterrestrial.",
+    "localized": {
+      "en": {
+        "title": "Torchwood",
+        "overview": "The exploits of a team of people whose job is to investigate the unusual, the strange and the extraterrestrial."
+      },
+      "es": {
+        "title": "Torchwood: El día del milagro",
+        "overview": "Dos agentes de la CIA intentan descubrir por qué la gente ha dejado morir."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2006-10-22"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2008-01-16"
+      },
+      {
+        "number": 3,
+        "episodes": 5,
+        "airDate": "2009-07-06"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2011-07-14"
+      }
+    ],
+    "runtimeMin": 2126
+  },
+  {
+    "id": "the-sarah-jane-adventures-2007",
+    "tmdbId": 203,
+    "tmdbType": "tv",
+    "title": "The Sarah Jane Adventures",
+    "kind": "series",
+    "releaseDate": "2007-09-24",
+    "imdbId": "tt0862620",
+    "posterPath": "/hq0S1VtUabnORdp3l3m11OA67BP.jpg",
+    "overview": "Sarah Jane Smith is a truly remarkable woman who inhabits a world of mystery, danger and wonder; a world where aliens are commonplace and the Earth is under constant threat. A world that Maria Jackson, a seemingly ordinary girl, can only dream of – until she moves in next door. Nothing will ever be ordinary again.",
+    "localized": {
+      "en": {
+        "title": "The Sarah Jane Adventures",
+        "overview": "Sarah Jane Smith is a truly remarkable woman who inhabits a world of mystery, danger and wonder; a world where aliens are commonplace and the Earth is under constant threat. A world that Maria Jackson, a seemingly ordinary girl, can only dream of – until she moves in next door. Nothing will ever be ordinary again."
+      },
+      "es": {
+        "title": "The Sarah Jane Adventures"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2007-09-24"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2008-09-29"
+      },
+      {
+        "number": 3,
+        "episodes": 12,
+        "airDate": "2009-10-15"
+      },
+      {
+        "number": 4,
+        "episodes": 12,
+        "airDate": "2010-10-11"
+      },
+      {
+        "number": 5,
+        "episodes": 6,
+        "airDate": "2011-10-03"
+      }
+    ],
+    "runtimeMin": 1560
   }
 ]

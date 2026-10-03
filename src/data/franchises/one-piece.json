@@ -1,0 +1,286 @@
+{
+  "id": "one-piece",
+  "name": {
+    "es": "One Piece",
+    "en": "One Piece"
+  },
+  "description": {
+    "es": "Luffy y los Sombrero de Paja rumbo al One Piece: el anime, la serie live-action y las películas.",
+    "en": "Luffy and the Straw Hats on their way to the One Piece: the anime, the live-action series and the films."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "anime",
+      "name": {
+        "es": "Anime",
+        "en": "Anime"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie de 1999, que sigue al manga.",
+        "en": "The 1999 series, which follows the manga."
+      }
+    },
+    {
+      "id": "live-action",
+      "name": {
+        "es": "Serie live-action (Netflix)",
+        "en": "Live-action series (Netflix)"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Adaptación de 2023 con sus propios cambios y su ritmo.",
+        "en": "2023 adaptation with its own changes and pacing."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Historias aparte: casi todas ocurren fuera de la trama del manga.",
+        "en": "Standalone stories: nearly all happen outside the manga's plot."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "one-piece-1999",
+      "continuityId": "anime",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-2023",
+      "continuityId": "live-action",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-the-movie-2000",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-clockwork-island-adventure-2001",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-choppers-kingdom-in-the-strange-animal-island-2002",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-dead-end-adventure-2003",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-curse-of-the-sacred-sword-2004",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-baron-omatsuri-and-the-secret-island-2005",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 60,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-giant-mecha-soldier-of-karakuri-castle-2006",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 70,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-the-desert-princess-and-the-pirates-adventure-in-alabasta-2007",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 80,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-episode-of-chopper-plus-2008",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 90,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-film-strong-world-2010",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 100,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-film-z-2012",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-film-gold-2016",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 120,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-stampede-2019",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 130,
+      "characters": [
+        "luffy"
+      ]
+    },
+    {
+      "titleId": "one-piece-film-red-2022",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 140,
+      "characters": [
+        "luffy"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "tv",
+      "type": "curated",
+      "name": {
+        "es": "Solo la serie",
+        "en": "Series only"
+      },
+      "description": {
+        "es": "El anime y la serie live-action, sin las películas.",
+        "en": "The anime and the live-action series, without the films."
+      },
+      "titleIds": [
+        "one-piece-1999",
+        "one-piece-2023"
+      ]
+    },
+    {
+      "id": "best",
+      "type": "curated",
+      "name": {
+        "es": "Las películas más vistas",
+        "en": "The most watched films"
+      },
+      "description": {
+        "es": "Strong World, Z, Stampede y Film Red: las más recordadas.",
+        "en": "Strong World, Z, Stampede and Film Red: the best remembered."
+      },
+      "titleIds": [
+        "one-piece-film-strong-world-2010",
+        "one-piece-film-z-2012",
+        "one-piece-stampede-2019",
+        "one-piece-film-red-2022"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "luffy",
+      "kind": "character",
+      "name": {
+        "es": "Monkey D. Luffy",
+        "en": "Monkey D. Luffy"
+      },
+      "description": {
+        "es": "El capitán, en el anime y la serie live-action.",
+        "en": "The captain, in the anime and the live-action series."
+      },
+      "titleIds": [
+        "one-piece-1999",
+        "one-piece-2023"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "luffy",
+        "name": {
+          "es": "Monkey D. Luffy",
+          "en": "Monkey D. Luffy"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
