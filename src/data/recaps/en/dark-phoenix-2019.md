@@ -1,0 +1,3 @@
+- In 1992, Jean Grey absorbs a cosmic force that amplifies her powers but destabilizes her.
+- Her family and the X-Men try to help her, but Vuk, an alien, wants the force.
+- Jean sacrifices herself to save them.

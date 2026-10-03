@@ -1,0 +1,3 @@
+- Peter becomes arrogant after a black suit gives him a symbiote.
+- Eddie Brock becomes Venom and Sandman seeks help for his daughter.
+- Peter and Harry unite against the villains.

@@ -309,6 +309,9 @@
       },
       "teams": [
         "shield"
+      ],
+      "characters": [
+        "peggy-carter"
       ]
     },
     {
@@ -324,6 +327,9 @@
       },
       "teams": [
         "shield"
+      ],
+      "characters": [
+        "peggy-carter"
       ]
     },
     {
@@ -339,6 +345,9 @@
       },
       "teams": [
         "shield"
+      ],
+      "characters": [
+        "peggy-carter"
       ]
     },
     {
@@ -437,7 +446,14 @@
       },
       "teams": [
         "shield"
-      ]
+      ],
+      "characters": [
+        "phil-coulson"
+      ],
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      }
     },
     {
       "titleId": "thor-2011",
@@ -474,7 +490,16 @@
       },
       "teams": [
         "shield"
-      ]
+      ],
+      "characters": [
+        "phil-coulson",
+        "iron-man",
+        "hulk"
+      ],
+      "chronoNote": {
+        "es": "2010",
+        "en": "2010"
+      }
     },
     {
       "titleId": "the-avengers-2012",
@@ -517,7 +542,11 @@
       },
       "teams": [
         "shield"
-      ]
+      ],
+      "chronoNote": {
+        "es": "2012",
+        "en": "2012"
+      }
     },
     {
       "titleId": "thor-the-dark-world-2013",
@@ -583,6 +612,13 @@
       "postCredits": {
         "mid": 0,
         "end": 0
+      },
+      "characters": [
+        "trevor-slattery"
+      ],
+      "chronoNote": {
+        "es": "2013",
+        "en": "2013"
       }
     },
     {
@@ -664,6 +700,9 @@
       },
       "teams": [
         "guardians-of-the-galaxy"
+      ],
+      "characters": [
+        "groot"
       ]
     },
     {
@@ -679,6 +718,9 @@
       },
       "teams": [
         "guardians-of-the-galaxy"
+      ],
+      "characters": [
+        "groot"
       ]
     },
     {
@@ -731,6 +773,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "jessica-jones"
       ]
     },
     {
@@ -829,6 +874,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "luke-cage"
       ]
     },
     {
@@ -844,6 +892,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "iron-fist"
       ]
     },
     {
@@ -1036,6 +1087,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "jessica-jones"
       ]
     },
     {
@@ -1051,6 +1105,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "luke-cage"
       ]
     },
     {
@@ -1066,6 +1123,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "iron-fist"
       ]
     },
     {
@@ -1153,6 +1213,9 @@
       },
       "teams": [
         "defenders"
+      ],
+      "characters": [
+        "jessica-jones"
       ]
     },
     {
@@ -1278,7 +1341,11 @@
       "chronoNote": {
         "es": "Multiverso",
         "en": "Multiverse"
-      }
+      },
+      "characters": [
+        "scarlet-witch",
+        "ms-marvel"
+      ]
     },
     {
       "titleId": "wandavision-2021",
@@ -1307,7 +1374,11 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "characters": [
+        "shang-chi",
+        "doctor-strange"
+      ]
     },
     {
       "titleId": "the-falcon-and-the-winter-soldier-2021",
@@ -1392,7 +1463,8 @@
       "postCredits": {
         "mid": 1,
         "end": 1
-      }
+      },
+      "teams": []
     },
     {
       "titleId": "spider-man-no-way-home-2021",
@@ -1456,7 +1528,10 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
-      }
+      },
+      "characters": [
+        "moon-knight"
+      ]
     },
     {
       "titleId": "black-panther-wakanda-forever-2022",
@@ -1514,7 +1589,10 @@
       "chronoNote": {
         "es": "2025",
         "en": "2025"
-      }
+      },
+      "characters": [
+        "ms-marvel"
+      ]
     },
     {
       "titleId": "thor-love-and-thunder-2022",
@@ -1547,7 +1625,10 @@
       "chronoNote": {
         "es": "2026",
         "en": "2026"
-      }
+      },
+      "characters": [
+        "ironheart"
+      ]
     },
     {
       "titleId": "werewolf-by-night-2022",
@@ -1558,6 +1639,10 @@
       "postCredits": {
         "mid": 0,
         "end": 0
+      },
+      "chronoNote": {
+        "es": "2022",
+        "en": "2022"
       }
     },
     {
@@ -1708,7 +1793,11 @@
       "chronoNote": {
         "es": "2026",
         "en": "2026"
-      }
+      },
+      "characters": [
+        "agatha-harkness",
+        "scarlet-witch"
+      ]
     },
     {
       "titleId": "what-if-2021",
@@ -1793,6 +1882,12 @@
       },
       "teams": [
         "fantastic-four"
+      ],
+      "characters": [
+        "mr-fantastic",
+        "invisible-woman",
+        "human-torch",
+        "the-thing"
       ]
     },
     {
@@ -1800,7 +1895,10 @@
       "continuityId": "mcu",
       "group": "phase-6",
       "importance": "optional",
-      "chronoOrder": 890
+      "chronoOrder": 890,
+      "characters": [
+        "wonder-man"
+      ]
     },
     {
       "titleId": "daredevil-born-again-2025",
@@ -1830,7 +1928,11 @@
       },
       "characters": [
         "punisher"
-      ]
+      ],
+      "chronoNote": {
+        "es": "Tras Daredevil: Born Again",
+        "en": "After Daredevil: Born Again"
+      }
     },
     {
       "titleId": "spider-man-brand-new-day-2026",
@@ -1842,14 +1944,26 @@
         "spider-man",
         "punisher",
         "hulk"
-      ]
+      ],
+      "chronoNote": {
+        "es": "Después de No Way Home",
+        "en": "After No Way Home"
+      }
     },
     {
       "titleId": "visionquest-2026",
       "continuityId": "mcu",
       "group": "phase-6",
       "importance": "recommended",
-      "chronoOrder": 930
+      "chronoOrder": 930,
+      "characters": [
+        "vision",
+        "scarlet-witch"
+      ],
+      "chronoNote": {
+        "es": "Tras Agatha All Along",
+        "en": "After Agatha All Along"
+      }
     },
     {
       "titleId": "avengers-doomsday-2026",
@@ -1859,14 +1973,19 @@
       "chronoOrder": 940,
       "characters": [
         "thor",
-        "loki"
+        "loki",
+        "doctor-doom"
       ],
       "teams": [
         "avengers",
         "x-men",
         "fantastic-four",
         "thunderbolts"
-      ]
+      ],
+      "chronoNote": {
+        "es": "Después de Thunderbolts* y Los 4 Fantásticos",
+        "en": "After Thunderbolts* and The Fantastic Four"
+      }
     },
     {
       "titleId": "avengers-secret-wars-2027",
@@ -1876,7 +1995,14 @@
       "chronoOrder": 950,
       "teams": [
         "avengers"
-      ]
+      ],
+      "characters": [
+        "doctor-doom"
+      ],
+      "chronoNote": {
+        "es": "Después de Doomsday",
+        "en": "After Doomsday"
+      }
     },
     {
       "titleId": "untitled-x-men-film-2028",
@@ -4478,6 +4604,390 @@
         "avengers-doomsday-2026",
         "avengers-secret-wars-2027"
       ]
+    },
+    {
+      "id": "thor",
+      "kind": "character",
+      "name": {
+        "es": "Thor",
+        "en": "Thor"
+      },
+      "description": {
+        "es": "El dios del trueno, de su destierro en la Tierra a su despedida de los Vengadores y su regreso en Doomsday.",
+        "en": "The God of Thunder, from his exile on Earth to leaving the Avengers and returning in Doomsday."
+      },
+      "titleIds": [
+        "thor-2011",
+        "the-avengers-2012",
+        "thor-the-dark-world-2013",
+        "avengers-age-of-ultron-2015",
+        "thor-ragnarok-2017",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "thor-love-and-thunder-2022",
+        "avengers-doomsday-2026"
+      ]
+    },
+    {
+      "id": "hulk",
+      "kind": "character",
+      "name": {
+        "es": "Hulk",
+        "en": "Hulk"
+      },
+      "description": {
+        "es": "Bruce Banner y su otro yo, de la primera película a Ragnarok y She-Hulk.",
+        "en": "Bruce Banner and his other self, from the first film to Ragnarok and She-Hulk."
+      },
+      "titleIds": [
+        "the-incredible-hulk-2008",
+        "the-avengers-2012",
+        "avengers-age-of-ultron-2015",
+        "thor-ragnarok-2017",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "shang-chi-and-the-legend-of-the-ten-rings-2021",
+        "she-hulk-attorney-at-law-2022",
+        "spider-man-brand-new-day-2026"
+      ]
+    },
+    {
+      "id": "black-widow",
+      "kind": "character",
+      "name": {
+        "es": "Black Widow",
+        "en": "Black Widow"
+      },
+      "description": {
+        "es": "Natasha Romanoff y el legado que deja en Yelena y en los Thunderbolts.",
+        "en": "Natasha Romanoff and the legacy she leaves in Yelena and the Thunderbolts."
+      },
+      "titleIds": [
+        "iron-man-2-2010",
+        "the-avengers-2012",
+        "captain-america-the-winter-soldier-2014",
+        "avengers-age-of-ultron-2015",
+        "captain-america-civil-war-2016",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "black-widow-2021",
+        "hawkeye-2021",
+        "thunderbolts-2025"
+      ]
+    },
+    {
+      "id": "hawkeye",
+      "kind": "character",
+      "name": {
+        "es": "Hawkeye",
+        "en": "Hawkeye"
+      },
+      "description": {
+        "es": "Clint Barton, de agente de S.H.I.E.L.D. al mentor de Kate Bishop.",
+        "en": "Clint Barton, from S.H.I.E.L.D. agent to Kate Bishop's mentor."
+      },
+      "titleIds": [
+        "thor-2011",
+        "the-avengers-2012",
+        "avengers-age-of-ultron-2015",
+        "captain-america-civil-war-2016",
+        "avengers-endgame-2019",
+        "hawkeye-2021",
+        "echo-2024"
+      ]
+    },
+    {
+      "id": "loki",
+      "kind": "character",
+      "name": {
+        "es": "Loki",
+        "en": "Loki"
+      },
+      "description": {
+        "es": "El dios de las travesuras, de villano a la pieza clave del multiverso.",
+        "en": "The god of mischief, from villain to the key piece of the multiverse."
+      },
+      "titleIds": [
+        "thor-2011",
+        "the-avengers-2012",
+        "thor-the-dark-world-2013",
+        "thor-ragnarok-2017",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "loki-2021",
+        "avengers-doomsday-2026"
+      ]
+    },
+    {
+      "id": "doctor-strange",
+      "kind": "character",
+      "name": {
+        "es": "Doctor Strange",
+        "en": "Doctor Strange"
+      },
+      "description": {
+        "es": "El Hechicero Supremo y su papel en los hechos del multiverso.",
+        "en": "The Sorcerer Supreme and his role in the multiverse events."
+      },
+      "titleIds": [
+        "doctor-strange-2016",
+        "thor-ragnarok-2017",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "spider-man-no-way-home-2021",
+        "doctor-strange-in-the-multiverse-of-madness-2022"
+      ]
+    },
+    {
+      "id": "black-panther",
+      "kind": "character",
+      "name": {
+        "es": "Pantera Negra y Wakanda",
+        "en": "Black Panther and Wakanda"
+      },
+      "description": {
+        "es": "De T'Challa a Shuri: Wakanda y quienes llevan la máscara.",
+        "en": "From T'Challa to Shuri: Wakanda and those who wear the mask."
+      },
+      "titleIds": [
+        "captain-america-civil-war-2016",
+        "black-panther-2018",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "black-panther-wakanda-forever-2022",
+        "eyes-of-wakanda-2025",
+        "ironheart-2025",
+        "black-panther-3-2028"
+      ]
+    },
+    {
+      "id": "scarlet-witch",
+      "kind": "character",
+      "name": {
+        "es": "Wanda Maximoff",
+        "en": "Wanda Maximoff"
+      },
+      "description": {
+        "es": "La Bruja Escarlata, de Ultrón a WandaVision, el Multiverso de la locura y sus hijos.",
+        "en": "The Scarlet Witch, from Ultron to WandaVision, the Multiverse of Madness and her children."
+      },
+      "titleIds": [
+        "avengers-age-of-ultron-2015",
+        "captain-america-civil-war-2016",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "wandavision-2021",
+        "doctor-strange-in-the-multiverse-of-madness-2022",
+        "agatha-all-along-2024",
+        "visionquest-2026"
+      ]
+    },
+    {
+      "id": "ant-man",
+      "kind": "character",
+      "name": {
+        "es": "Ant-Man y la Avispa",
+        "en": "Ant-Man and the Wasp"
+      },
+      "description": {
+        "es": "Scott Lang, Hope y el Reino Cuántico.",
+        "en": "Scott Lang, Hope and the Quantum Realm."
+      },
+      "titleIds": [
+        "ant-man-2015",
+        "captain-america-civil-war-2016",
+        "ant-man-and-the-wasp-2018",
+        "avengers-endgame-2019",
+        "ant-man-and-the-wasp-quantumania-2023"
+      ]
+    },
+    {
+      "id": "guardians",
+      "kind": "character",
+      "name": {
+        "es": "Guardianes de la Galaxia",
+        "en": "Guardians of the Galaxy"
+      },
+      "description": {
+        "es": "El lado cósmico: Peter Quill y su familia, de la primera película a Volume 3.",
+        "en": "The cosmic side: Peter Quill and his family, from the first film to Volume 3."
+      },
+      "titleIds": [
+        "guardians-of-the-galaxy-2014",
+        "guardians-of-the-galaxy-vol-2-2017",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "thor-love-and-thunder-2022",
+        "the-guardians-of-the-galaxy-holiday-special-2022",
+        "guardians-of-the-galaxy-vol-3-2023"
+      ]
+    },
+    {
+      "id": "captain-marvel",
+      "kind": "character",
+      "name": {
+        "es": "Capitana Marvel",
+        "en": "Captain Marvel"
+      },
+      "description": {
+        "es": "Carol Danvers, de 1995 a The Marvels, con Monica Rambeau y Kamala Khan.",
+        "en": "Carol Danvers, from 1995 to The Marvels, with Monica Rambeau and Kamala Khan."
+      },
+      "titleIds": [
+        "captain-marvel-2019",
+        "avengers-endgame-2019",
+        "wandavision-2021",
+        "ms-marvel-2022",
+        "the-marvels-2023"
+      ]
+    },
+    {
+      "id": "x-men-fox",
+      "kind": "theme",
+      "name": {
+        "es": "X-Men de Fox",
+        "en": "Fox's X-Men"
+      },
+      "description": {
+        "es": "Las películas de X-Men y Deadpool de Fox, en dos líneas: la original y la reescrita por Días del futuro pasado.",
+        "en": "Fox's X-Men and Deadpool films, in two lines: the original and the one rewritten by Days of Future Past."
+      },
+      "titleIds": [
+        "x-men-2000",
+        "x2-2003",
+        "x-men-the-last-stand-2006",
+        "x-men-origins-wolverine-2009",
+        "x-men-first-class-2011",
+        "the-wolverine-2013",
+        "x-men-days-of-future-past-2014",
+        "deadpool-2016",
+        "x-men-apocalypse-2016",
+        "logan-2017",
+        "deadpool-2-2018",
+        "dark-phoenix-2019",
+        "the-new-mutants-2020"
+      ]
+    },
+    {
+      "id": "fantastic-four",
+      "kind": "theme",
+      "name": {
+        "es": "Los Cuatro Fantásticos",
+        "en": "The Fantastic Four"
+      },
+      "description": {
+        "es": "Todas las versiones en cine, hasta su llegada al MCU.",
+        "en": "Every film version, up to their arrival in the MCU."
+      },
+      "titleIds": [
+        "fantastic-four-2005",
+        "fantastic-four-rise-of-the-silver-surfer-2007",
+        "fantastic-four-2015",
+        "the-fantastic-4-first-steps-2025",
+        "avengers-doomsday-2026"
+      ]
+    },
+    {
+      "id": "spider-verse",
+      "kind": "theme",
+      "name": {
+        "es": "Spider-Verse",
+        "en": "Spider-Verse"
+      },
+      "description": {
+        "es": "La trilogía animada de Miles Morales.",
+        "en": "Miles Morales's animated trilogy."
+      },
+      "titleIds": [
+        "spider-man-into-the-spider-verse-2018",
+        "spider-man-across-the-spider-verse-2023",
+        "spider-man-beyond-the-spider-verse-2027"
+      ]
+    },
+    {
+      "id": "infinity-saga",
+      "kind": "theme",
+      "name": {
+        "es": "La Saga del Infinito",
+        "en": "The Infinity Saga"
+      },
+      "description": {
+        "es": "Las 23 películas de las Fases 1 a 3, de Iron Man a Spider-Man: Lejos de casa.",
+        "en": "The 23 films of Phases 1 to 3, from Iron Man to Spider-Man: Far From Home."
+      },
+      "titleIds": [
+        "iron-man-2008",
+        "the-incredible-hulk-2008",
+        "iron-man-2-2010",
+        "thor-2011",
+        "captain-america-the-first-avenger-2011",
+        "the-avengers-2012",
+        "iron-man-3-2013",
+        "thor-the-dark-world-2013",
+        "captain-america-the-winter-soldier-2014",
+        "guardians-of-the-galaxy-2014",
+        "avengers-age-of-ultron-2015",
+        "ant-man-2015",
+        "captain-america-civil-war-2016",
+        "doctor-strange-2016",
+        "guardians-of-the-galaxy-vol-2-2017",
+        "spider-man-homecoming-2017",
+        "thor-ragnarok-2017",
+        "black-panther-2018",
+        "avengers-infinity-war-2018",
+        "ant-man-and-the-wasp-2018",
+        "captain-marvel-2019",
+        "avengers-endgame-2019",
+        "spider-man-far-from-home-2019"
+      ]
+    },
+    {
+      "id": "prep-visionquest-2026",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para VisionQuest",
+        "en": "Get ready for VisionQuest"
+      },
+      "description": {
+        "es": "Vision y Wanda: de Ultrón a WandaVision y Agatha, que cierra con esta serie.",
+        "en": "Vision and Wanda: from Ultron to WandaVision and Agatha, which closes with this series."
+      },
+      "titleIds": [
+        "avengers-age-of-ultron-2015",
+        "avengers-infinity-war-2018",
+        "wandavision-2021",
+        "agatha-all-along-2024"
+      ],
+      "targetTitleId": "visionquest-2026"
+    },
+    {
+      "id": "prep-avengers-secret-wars-2027",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Secret Wars",
+        "en": "Get ready for Secret Wars"
+      },
+      "description": {
+        "es": "Doomsday y todo lo que lo precede: Secret Wars continúa directamente de esa película.",
+        "en": "Doomsday and everything before it: Secret Wars continues directly from that film."
+      },
+      "titleIds": [
+        "x-men-2000",
+        "x2-2003",
+        "captain-america-the-first-avenger-2011",
+        "the-avengers-2012",
+        "avengers-infinity-war-2018",
+        "avengers-endgame-2019",
+        "loki-2021",
+        "spider-man-no-way-home-2021",
+        "doctor-strange-in-the-multiverse-of-madness-2022",
+        "deadpool-and-wolverine-2024",
+        "captain-america-brave-new-world-2025",
+        "thunderbolts-2025",
+        "the-fantastic-4-first-steps-2025",
+        "avengers-doomsday-2026"
+      ],
+      "targetTitleId": "avengers-secret-wars-2027"
     }
   ],
   "tags": {
@@ -4641,6 +5151,167 @@
         "name": {
           "es": "Ghost Rider",
           "en": "Ghost Rider"
+        }
+      },
+      {
+        "id": "peggy-carter",
+        "name": {
+          "es": "Peggy Carter",
+          "en": "Peggy Carter"
+        }
+      },
+      {
+        "id": "phil-coulson",
+        "name": {
+          "es": "Phil Coulson",
+          "en": "Phil Coulson"
+        }
+      },
+      {
+        "id": "trevor-slattery",
+        "name": {
+          "es": "Trevor Slattery",
+          "en": "Trevor Slattery"
+        }
+      },
+      {
+        "id": "groot",
+        "name": {
+          "es": "Groot",
+          "en": "Groot"
+        }
+      },
+      {
+        "id": "jessica-jones",
+        "name": {
+          "es": "Jessica Jones",
+          "en": "Jessica Jones"
+        }
+      },
+      {
+        "id": "luke-cage",
+        "name": {
+          "es": "Luke Cage",
+          "en": "Luke Cage"
+        }
+      },
+      {
+        "id": "iron-fist",
+        "name": {
+          "es": "Iron Fist",
+          "en": "Iron Fist"
+        }
+      },
+      {
+        "id": "shang-chi",
+        "name": {
+          "es": "Shang-Chi",
+          "en": "Shang-Chi"
+        }
+      },
+      {
+        "id": "moon-knight",
+        "name": {
+          "es": "Moon Knight",
+          "en": "Moon Knight"
+        }
+      },
+      {
+        "id": "ms-marvel",
+        "name": {
+          "es": "Ms. Marvel",
+          "en": "Ms. Marvel"
+        }
+      },
+      {
+        "id": "ironheart",
+        "name": {
+          "es": "Ironheart",
+          "en": "Ironheart"
+        }
+      },
+      {
+        "id": "agatha-harkness",
+        "name": {
+          "es": "Agatha Harkness",
+          "en": "Agatha Harkness"
+        }
+      },
+      {
+        "id": "wonder-man",
+        "name": {
+          "es": "Wonder Man",
+          "en": "Wonder Man"
+        }
+      },
+      {
+        "id": "vision",
+        "name": {
+          "es": "Vision",
+          "en": "Vision"
+        }
+      },
+      {
+        "id": "doctor-doom",
+        "name": {
+          "es": "Doctor Doom",
+          "en": "Doctor Doom"
+        }
+      },
+      {
+        "id": "mr-fantastic",
+        "name": {
+          "es": "Mr. Fantástico",
+          "en": "Mr. Fantastic"
+        }
+      },
+      {
+        "id": "invisible-woman",
+        "name": {
+          "es": "La Mujer Invisible",
+          "en": "Invisible Woman"
+        }
+      },
+      {
+        "id": "human-torch",
+        "name": {
+          "es": "La Antorcha Humana",
+          "en": "Human Torch"
+        }
+      },
+      {
+        "id": "the-thing",
+        "name": {
+          "es": "La Cosa",
+          "en": "The Thing"
+        }
+      },
+      {
+        "id": "kingpin",
+        "name": {
+          "es": "Kingpin",
+          "en": "Kingpin"
+        }
+      },
+      {
+        "id": "yelena-belova",
+        "name": {
+          "es": "Yelena Belova",
+          "en": "Yelena Belova"
+        }
+      },
+      {
+        "id": "miles-morales",
+        "name": {
+          "es": "Miles Morales",
+          "en": "Miles Morales"
+        }
+      },
+      {
+        "id": "gwen-stacy",
+        "name": {
+          "es": "Gwen Stacy",
+          "en": "Gwen Stacy"
         }
       }
     ],

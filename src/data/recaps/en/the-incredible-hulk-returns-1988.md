@@ -1,0 +1,2 @@
+- 1988 TV film: Banner searches for a cure and meets Thor.
+- It is the first crossover between the two.

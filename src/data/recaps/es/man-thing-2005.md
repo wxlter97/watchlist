@@ -1,0 +1,2 @@
+- En un pantano de Luisiana, una criatura vegetal protege el lugar de una compañía petrolera.
+- Es una película de terror de bajo presupuesto.

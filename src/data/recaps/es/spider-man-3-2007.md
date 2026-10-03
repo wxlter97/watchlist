@@ -1,0 +1,3 @@
+- Peter se vuelve arrogante tras un traje negro que le da un simbionte.
+- Eddie Brock se convierte en Venom y el Hombre Arena busca ayuda para su hija.
+- Peter y Harry se unen contra los villanos.

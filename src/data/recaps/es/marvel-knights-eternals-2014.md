@@ -1,0 +1,2 @@
+- Motion comic: los Eternos y los Desviantes en una historia de los cómics.
+- Es de la antología Marvel Knights.

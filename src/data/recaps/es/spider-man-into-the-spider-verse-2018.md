@@ -1,0 +1,3 @@
+- Miles Morales, un adolescente de Brooklyn, es picado por una araña y se vuelve Spider-Man.
+- Un colisionador de Kingpin abre el multiverso y llegan otros Spider-Man.
+- Miles asume su rol y detiene la máquina.

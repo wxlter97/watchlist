@@ -1,0 +1,3 @@
+- Phil Coulson, que parecía muerto tras Los Vengadores, reúne un equipo de agentes de S.H.I.E.L.D. para investigar casos extraños.
+- Tras la caída de S.H.I.E.L.D. por Hydra (Winter Soldier), Coulson reconstruye la agencia y descubre a los Inhumanos.
+- A lo largo de siete temporadas enfrentan a Hive, el Framework, a los Kree y a los Chronicoms, con viajes en el tiempo al final.

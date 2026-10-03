@@ -1,0 +1,2 @@
+- Motion comic adaptation of Joss Whedon's run.
+- The X-Men face a new villain and the Cure.

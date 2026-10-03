@@ -1,0 +1,2 @@
+- Blade allies with vampires to face the Reapers, mutants who feed on vampires and humans.
+- Directed by Guillermo del Toro.

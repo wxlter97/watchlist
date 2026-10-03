@@ -1,0 +1,2 @@
+- Serie preescolar con Spidey, Ghost-Spider y Miles Morales en aventuras de equipo.
+- Está dirigido a un público infantil.

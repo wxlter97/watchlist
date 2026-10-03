@@ -1,0 +1,2 @@
+- Película para televisión: jóvenes mutantes de una escuela enfrentan a un villano.
+- Fue un piloto fallido de una serie.

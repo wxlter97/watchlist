@@ -1,0 +1,3 @@
+- Frank Castle, policía, se convierte en el Castigador tras la muerte de su familia.
+- Se enfrenta a la mafia y a la yakuza.
+- Es una película de bajo presupuesto.

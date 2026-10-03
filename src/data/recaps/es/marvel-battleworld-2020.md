@@ -1,0 +1,2 @@
+- Corto animado basado en la historia de Battleworld.
+- Está dirigido a un público infantil.

@@ -1,0 +1,3 @@
+- Los X-Men, liderados por Xavier, luchan por proteger a los humanos y mutantes de la Hermandad y de los Centinelas.
+- Sigue arcos de los cómics como la Saga de la Fénix Oscura y Días del Futuro Pasado.
+- Es la base de X-Men '97.

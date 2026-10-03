@@ -1,0 +1,2 @@
+- Película animada: Stephen Strange, cirujano, se convierte en hechicero tras un accidente.
+- Enfrenta a Dormammu.

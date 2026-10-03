@@ -1,0 +1,2 @@
+- Hulk y sus compañeros forman los Agentes de S.M.A.S.H., con humor y aventuras cósmicas.
+- Es una serie ligera para jóvenes.

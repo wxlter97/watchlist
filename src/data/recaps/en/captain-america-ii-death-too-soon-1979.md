@@ -1,0 +1,2 @@
+- Second 1979 Captain America TV film: he faces a villain with a poison.
+- It ends with him stopping the antagonist.

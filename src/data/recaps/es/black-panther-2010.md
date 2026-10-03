@@ -1,0 +1,2 @@
+- Serie en motion comic: T'Challa defiende Wakanda de una invasión.
+- Es un cómic con voces.

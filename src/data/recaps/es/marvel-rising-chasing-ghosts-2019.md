@@ -1,0 +1,2 @@
+- Parte del proyecto Marvel Rising (Chasing Ghosts): jóvenes héroes como Ms. Marvel, Squirrel Girl y Ghost-Spider forman un equipo.
+- Es contenido animado para jóvenes.

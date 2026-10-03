@@ -1,0 +1,2 @@
+- Corto con Spider-Ham, de Spider-Verse, en una aventura cómica.
+- Está dirigido a un público infantil.

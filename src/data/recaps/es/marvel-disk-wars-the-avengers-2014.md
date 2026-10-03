@@ -1,0 +1,2 @@
+- Serie japonesa: jóvenes obtienen poderes usando discos para unirse a los Vengadores.
+- Enfrentan a villanos.

@@ -1,0 +1,2 @@
+- Serie animada de Hulk de 1996: Bruce Banner, tras un accidente con rayos gamma, es perseguido por el ejército.
+- Enfrenta a villanos como el Líder.

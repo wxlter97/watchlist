@@ -1,0 +1,2 @@
+- Serie animada con versiones chibi de héroes y villanos de Marvel.
+- Está dirigido a un público infantil.

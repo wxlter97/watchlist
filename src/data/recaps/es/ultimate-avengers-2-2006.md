@@ -1,0 +1,2 @@
+- Los Vengadores enfrentan una amenaza de Thor y los Chitauri.
+- Continúa a la primera película.

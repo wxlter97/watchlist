@@ -1,0 +1,3 @@
+- Serie de cinco episodios en formato de falso documental, junto con Lucha Libre AAA, con luchadores vestidos como héroes de Marvel.
+- Sigue a los luchadores en el camino a un gran evento por el cinturón.
+- La trama incluye el peligro del Simbionte, una sustancia clandestina.

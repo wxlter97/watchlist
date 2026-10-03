@@ -1,0 +1,2 @@
+- 1978 TV film: Spider-Man faces a criminal after a gem.
+- It's a compilation of episodes.

@@ -1,0 +1,3 @@
+- Peter Parker is Spider-Man and faces villains like Kingpin and Doc Ock while caring for Aunt May.
+- It is built on long arcs.
+- It became famous for its multiverse ending.

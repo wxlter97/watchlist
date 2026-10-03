@@ -1,0 +1,2 @@
+- Serie animada de los Cuatro Fantásticos con aventuras contra Doctor Doom y otros villanos.
+- Es la primera versión animada del equipo.

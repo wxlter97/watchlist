@@ -1,0 +1,2 @@
+- LEGO special centered on Loki.
+- It is aimed at children.

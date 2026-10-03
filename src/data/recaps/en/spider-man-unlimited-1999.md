@@ -1,0 +1,2 @@
+- Peter Parker travels to Counter-Earth, an alternate Earth ruled by beasts.
+- A series with a different tone.

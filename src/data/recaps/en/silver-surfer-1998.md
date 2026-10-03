@@ -1,0 +1,2 @@
+- Animated Silver Surfer series, seeking a home after serving Galactus.
+- He faces cosmic villains.

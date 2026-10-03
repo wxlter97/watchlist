@@ -1,0 +1,2 @@
+- Continuación del falso documental con Darryl y Thor.
+- Cuenta la vida de Darryl sin Thor.

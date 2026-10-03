@@ -1,0 +1,2 @@
+- Serie animada que reemplaza a Johnny Storm por un robot, H.E.R.B.I.E.
+- Enfrenta a villanos clásicos.

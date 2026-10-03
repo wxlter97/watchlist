@@ -1,0 +1,3 @@
+- La familia real de los Inhumanos, de la ciudad lunar de Attilan, es dispersada en Hawái por un golpe de Estado de Maximus.
+- Black Bolt y los suyos intentan reunirse mientras los persiguen.
+- Al final Black Bolt derrota a Maximus y destruye Attilan, y los inhumanos quedan en la Tierra.

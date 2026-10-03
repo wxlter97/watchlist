@@ -1,0 +1,3 @@
+- Peter Parker es Spider-Man y enfrenta a villanos como Kingpin y Doc Ock mientras cuida a su tía May.
+- Se estructura en arcos largos.
+- Se hizo famosa por su final con el multiverso.

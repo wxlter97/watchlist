@@ -1,0 +1,3 @@
+- Johnny Blaze sells his soul to the devil to save his father.
+- Years later, he becomes the Ghost Rider.
+- He faces Blackheart.

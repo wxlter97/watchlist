@@ -1,0 +1,3 @@
+- Los hermanos Daimon y Ana Helstrom, hijos de un asesino en serie, cazan criminales y demonios con poderes sobrenaturales.
+- Su madre, internada, es poseída por el demonio Kthara.
+- Al final liberan a su madre y se hacen cargo de la hija de una agente.

@@ -1,0 +1,2 @@
+- Corto que muestra las tareas de Peter Parker antes de su viaje de Far From Home.
+- Incluye humor sobre su vida escolar.

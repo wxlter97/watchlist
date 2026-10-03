@@ -1,0 +1,2 @@
+- Anime series by Madhouse about X-Men with its own story, set in Japan.
+- Part of a collaboration between Marvel and Madhouse.

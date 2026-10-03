@@ -1,0 +1,2 @@
+- Japanese series with young people joining the Avengers in a future.
+- An anime series.

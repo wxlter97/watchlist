@@ -1,0 +1,3 @@
+- Peter Parker gana poderes tras una picadura radiactiva y va a una escuela para jóvenes superdotados.
+- Enfrenta a Doc Ock y al simbionte Venom.
+- Cierra con la saga Maximum Venom.

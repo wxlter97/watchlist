@@ -1,0 +1,2 @@
+- Serie animada de 1966 con segmentos de Capitán América, Hulk, Iron Man, Thor y Namor.
+- Usaba imágenes de los cómics con poca animación.

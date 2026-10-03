@@ -1,0 +1,2 @@
+- Halloween animated film: Hulk faces monsters in a castle.
+- An animated special.

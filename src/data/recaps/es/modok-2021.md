@@ -1,0 +1,3 @@
+- M.O.D.O.K. pierde el control de su empresa A.I.M. y debe lidiar con su familia suburbana.
+- Intenta recuperar su estatus.
+- Su versión joven reaparece como villano.

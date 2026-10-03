@@ -1,0 +1,2 @@
+- Frank Castle faces a gang and Jigsaw, a disfigured mobster.
+- A violent and dark version.

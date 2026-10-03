@@ -1,0 +1,3 @@
+- Miles Morales, a Brooklyn teen, is bitten by a spider and becomes Spider-Man.
+- Kingpin's collider opens the multiverse and other Spider-Men arrive.
+- Miles embraces his role and stops the machine.

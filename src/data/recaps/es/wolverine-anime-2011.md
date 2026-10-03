@@ -1,0 +1,2 @@
+- Serie anime de Madhouse sobre Wolverine con historia propia, ambientada en Japón.
+- Es parte de una colaboración entre Marvel y Madhouse.

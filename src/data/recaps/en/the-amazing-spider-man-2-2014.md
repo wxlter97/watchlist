@@ -1,0 +1,3 @@
+- Peter tries to keep Gwen without giving up being Spider-Man.
+- Max Dillon becomes Electro and Harry Osborn becomes the Green Goblin.
+- Gwen dies in the confrontation.

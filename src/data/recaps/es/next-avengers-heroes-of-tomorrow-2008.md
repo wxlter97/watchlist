@@ -1,0 +1,2 @@
+- Película animada: los hijos de los Vengadores luchan contra Ultron en un futuro dominado por él.
+- Es una película directa a video.

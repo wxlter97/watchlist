@@ -1,0 +1,2 @@
+- Miniserie en motion comic con Wolverine y Sabretooth.
+- Cuenta su rivalidad.

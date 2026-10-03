@@ -1,0 +1,3 @@
+- Cuatro personas obtienen poderes tras una tormenta cósmica en el espacio.
+- Reed Richards, Sue Storm, Johnny Storm y Ben Grimm forman los Cuatro Fantásticos.
+- Enfrentan a Victor Von Doom.

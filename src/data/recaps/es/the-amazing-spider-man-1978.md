@@ -1,0 +1,2 @@
+- Serie de televisión: Peter Parker usa sus poderes mientras trabaja de fotógrafo.
+- Enfrenta a crímenes y villanos menores.

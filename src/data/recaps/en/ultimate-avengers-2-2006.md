@@ -1,0 +1,2 @@
+- The Avengers face a threat involving Thor and the Chitauri.
+- It continues the first film.

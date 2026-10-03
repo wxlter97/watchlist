@@ -1,0 +1,2 @@
+- Falso documental de Taika Waititi sobre el compañero de piso de Thor, Darryl.
+- Cuenta qué hizo Thor tras Civil War.

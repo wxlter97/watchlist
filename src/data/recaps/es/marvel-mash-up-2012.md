@@ -1,0 +1,2 @@
+- Cortos de humor que mezclan personajes y parodias.
+- Está dirigido a un público infantil.

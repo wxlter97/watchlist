@@ -1,0 +1,3 @@
+- Six teenagers discover their parents belong to a criminal organization, the Pride, that performs sacrifices.
+- They become fugitives; in season two they face Jonah, an alien entity possessing their parents.
+- In season three they fight Morgan le Fay and use time travel to rescue a friend.

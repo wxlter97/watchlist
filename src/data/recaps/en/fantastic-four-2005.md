@@ -1,0 +1,3 @@
+- Four people gain powers after a cosmic storm in space.
+- Reed Richards, Sue Storm, Johnny Storm and Ben Grimm form the Fantastic Four.
+- They face Victor Von Doom.

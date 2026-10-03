@@ -1,0 +1,2 @@
+- Película animada anime: Black Widow y Punisher enfrentan a una organización terrorista.
+- Es una colaboración con Madhouse.

@@ -1,0 +1,2 @@
+- Motion comic: la familia real Inhumana, con Black Bolt, enfrenta a un conflicto en Attilan.
+- Adapta la historia de los cómics.

@@ -1,0 +1,3 @@
+- Eddie Brock, periodista, se fusiona con un simbionte alienígena, Venom.
+- Investiga a Carlton Drake, de Life Foundation.
+- Venom y Eddie se unen para detener a Riot.

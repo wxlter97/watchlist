@@ -1,0 +1,3 @@
+- Logan, atormentado por la muerte de Jean, viaja a Japón por una deuda con un viejo soldado.
+- Pierde su regeneración y descubre un plan para el heredero Yashida.
+- Se enfrenta al Samurái de Plata.

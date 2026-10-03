@@ -1,0 +1,2 @@
+- Película animada que cuenta el origen de Iron Man en China.
+- Tony Stark enfrenta al Mandarín.

@@ -1,0 +1,2 @@
+- Película de bajo presupuesto: Steve Rogers es el Capitán América de la Segunda Guerra.
+- Despierta décadas después para enfrentar al Cráneo Rojo.

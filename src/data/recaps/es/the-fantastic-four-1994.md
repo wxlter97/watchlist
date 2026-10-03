@@ -1,0 +1,2 @@
+- Película que nunca se estrenó oficialmente: la versión de Roger Corman con Reed, Sue, Johnny y Ben.
+- Enfrenta a Doctor Doom.

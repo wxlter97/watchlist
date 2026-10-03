@@ -1,0 +1,3 @@
+- Cassandra Webb, a paramedic, develops visions of the future.
+- She protects three young women, future Spider-Women, from Ezekiel Sims.
+- She is left blind but becomes their mentor.

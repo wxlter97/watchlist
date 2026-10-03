@@ -1,0 +1,3 @@
+- Four young people travel to a dimension called Planet Zero and return with powers.
+- Victor Von Doom stays behind and returns as a villain.
+- The Four defeat him.

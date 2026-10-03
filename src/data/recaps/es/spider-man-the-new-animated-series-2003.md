@@ -1,0 +1,2 @@
+- Serie animada en CGI de Spider-Man, inspirada en la película de Raimi.
+- Peter enfrenta a villanos clásicos.

@@ -1,0 +1,3 @@
+- Howard, un pato parlante, llega a la Tierra desde otra dimensión.
+- Se alía con una cantante, Beverly, para volver a casa.
+- Enfrenta a un villano alienígena.

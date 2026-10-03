@@ -1,0 +1,2 @@
+- Película animada de Halloween: Hulk enfrenta a monstruos en un castillo.
+- Es un especial animado.

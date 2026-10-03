@@ -1,0 +1,2 @@
+- Serie de una temporada con Blade enfrentando a vampiros.
+- Presenta a Krista Starr, una mujer con una relación con él.

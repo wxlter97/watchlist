@@ -1,0 +1,2 @@
+- Serie animada en CGI con Tony Stark adolescente como Iron Man.
+- Enfrenta al Mandarín y su organización.

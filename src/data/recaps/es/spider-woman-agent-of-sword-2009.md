@@ -1,0 +1,2 @@
+- Cortos de Spider-Woman sobre sus misiones como agente.
+- Son parte de una antología de Marvel Knights.

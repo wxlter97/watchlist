@@ -1,0 +1,2 @@
+- Serie animada de los Cuatro Fantásticos, con Doom y Galactus.
+- Es una versión moderna del equipo.

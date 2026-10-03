@@ -1,0 +1,2 @@
+- Taika Waititi mockumentary about Thor's roommate, Darryl.
+- It tells what Thor did after Civil War.

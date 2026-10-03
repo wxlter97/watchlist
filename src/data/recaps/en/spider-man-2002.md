@@ -1,0 +1,3 @@
+- Peter Parker, a shy student, gets powers after a bite from a genetically modified spider.
+- After his Uncle Ben's death, he decides to use his power to help.
+- He faces the Green Goblin, who is the father of his friend Harry.

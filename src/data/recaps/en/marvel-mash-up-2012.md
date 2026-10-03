@@ -1,0 +1,2 @@
+- Humor shorts mixing characters and parodies.
+- It is aimed at children.

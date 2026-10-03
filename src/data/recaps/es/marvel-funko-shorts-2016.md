@@ -1,0 +1,2 @@
+- Cortos de stop motion con figuras Funko de personajes de Marvel.
+- Está dirigido a un público infantil.

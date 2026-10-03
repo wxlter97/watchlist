@@ -1,0 +1,2 @@
+- Stop-motion shorts with Funko figures of Marvel characters.
+- It is aimed at children.

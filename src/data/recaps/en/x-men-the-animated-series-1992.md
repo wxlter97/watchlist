@@ -1,0 +1,3 @@
+- The X-Men, led by Xavier, fight to protect humans and mutants from the Brotherhood and the Sentinels.
+- It follows comic arcs like the Dark Phoenix Saga and Days of Future Past.
+- It is the base for X-Men '97.

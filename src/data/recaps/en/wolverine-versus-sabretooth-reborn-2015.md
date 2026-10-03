@@ -1,0 +1,2 @@
+- Motion comic continuation of the rivalry between Wolverine and Sabretooth.
+- It closes the miniseries.
