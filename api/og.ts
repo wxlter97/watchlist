@@ -6,6 +6,7 @@ import { join } from "node:path";
 import type satoriType from "satori";
 import type { Achievement, Lang, LocalizedText } from "../src/lib/types.js";
 import { achievementCard, franchiseCard, OG, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards.js";
+import { FONT_FILES } from "./_lib/fonts.js";
 import { loadShare } from "./_lib/shares.js";
 import { errorResponse, HttpError } from "./_lib/tmdb.js";
 
@@ -16,7 +17,7 @@ const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 let fonts: Parameters<typeof satoriType>[1]["fonts"] | undefined;
 function loadFonts() {
-  const font = (file: string) => readFileSync(join(ROOT, "api", "_fonts", file));
+  const font = (file: string) => Buffer.from(FONT_FILES[file]!, "base64");
   fonts ??= [
     { name: "Archivo Black", data: font("archivo-black-latin-400-normal.woff"), weight: 400, style: "normal" },
     { name: "Archivo", data: font("archivo-latin-400-normal.woff"), weight: 400, style: "normal" },
@@ -171,6 +172,14 @@ export async function GET(request: Request): Promise<Response> {
       },
     });
   } catch (err) {
+    // Un fallo interno de la tarjeta deja el motivo (primera línea) en la respuesta, para poder diagnosticarlo.
+    if (!(err instanceof HttpError)) {
+      console.error("[og]", err);
+      return new Response(JSON.stringify({ error: "Error interno", detail: err instanceof Error ? err.message.split("\n")[0] : String(err) }), {
+        status: 500,
+        headers: { "Content-Type": "application/json; charset=utf-8" },
+      });
+    }
     return errorResponse(err);
   }
 }
