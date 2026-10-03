@@ -244,7 +244,7 @@ function Slides({ wrapped }: { wrapped: Wrapped }) {
       <div
         ref={track}
         tabIndex={0}
-        className="scrollbar-none -mx-4 flex snap-x snap-mandatory overflow-x-auto border-y-2 border-line"
+        className="scrollbar-none relative -mx-4 flex snap-x snap-mandatory overflow-x-auto border-y-2 border-line"
       >
         {slides.map((slide, i) => (
           <div

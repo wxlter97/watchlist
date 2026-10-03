@@ -12,7 +12,7 @@
       "includeFiles": "src/data/titles.json"
     },
     "api/og.ts": {
-      "includeFiles": "{src/data/**,api/_fonts/**}"
+      "includeFiles": "{src/data/**,api/_fonts/**,node_modules/.pnpm/@resvg+resvg-js-linux-x64-*/**}"
     },
     "api/share.ts": {
       "includeFiles": "src/data/**"

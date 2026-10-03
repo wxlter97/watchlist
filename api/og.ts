@@ -3,8 +3,7 @@
 // compartir, no se lee su progreso. Mismos parámetros, misma imagen: caché larga en el CDN.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { Resvg } from "@resvg/resvg-js";
-import satori from "satori";
+import type satoriType from "satori";
 import type { Achievement, Lang, LocalizedText } from "../src/lib/types.js";
 import { achievementCard, franchiseCard, OG, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards.js";
 import { loadShare } from "./_lib/shares.js";
@@ -15,7 +14,7 @@ const DATA = join(ROOT, "src", "data");
 const read = <T,>(path: string): T => JSON.parse(readFileSync(join(DATA, path), "utf8")) as T;
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
-let fonts: Parameters<typeof satori>[1]["fonts"] | undefined;
+let fonts: Parameters<typeof satoriType>[1]["fonts"] | undefined;
 function loadFonts() {
   const font = (file: string) => readFileSync(join(ROOT, "api", "_fonts", file));
   fonts ??= [
@@ -138,11 +137,27 @@ function buildSquare(params: URLSearchParams): El {
   }
 }
 
+/**
+ * satori y resvg (con su binario nativo) se cargan aquí y no al inicio del módulo: si el
+ * binario no llega al empaquetado de Vercel, la función falla al arrancar sin dejar rastro
+ * (FUNCTION_INVOCATION_FAILED). Así el error sale en los logs y en la respuesta.
+ */
+async function renderer() {
+  try {
+    const [{ default: satori }, { Resvg }] = await Promise.all([import("satori"), import("@resvg/resvg-js")]);
+    return { satori, Resvg };
+  } catch (err) {
+    console.error("[og] no se pudo cargar satori/resvg", err);
+    throw new HttpError(500, `No se pudo cargar el renderizador: ${err instanceof Error ? err.message.split("\n")[0] : "desconocido"}`);
+  }
+}
+
 export async function GET(request: Request): Promise<Response> {
   try {
     const params = new URL(request.url).searchParams;
     const { card, size } = await buildCard(params);
-    const svg = await satori(card as unknown as Parameters<typeof satori>[0], { ...size, fonts: loadFonts() });
+    const { satori, Resvg } = await renderer();
+    const svg = await satori(card as unknown as Parameters<typeof satoriType>[0], { ...size, fonts: loadFonts() });
     const png = new Resvg(svg, { fitTo: { mode: "width", value: size.width } }).render().asPng();
     return new Response(new Uint8Array(png), {
       headers: {
