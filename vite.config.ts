@@ -5,6 +5,7 @@ import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
+import pkg from "./package.json" with { type: "json" };
 
 function readBody(req: import("node:http").IncomingMessage): Promise<Buffer> {
   return new Promise((resolve, reject) => {
@@ -285,6 +286,8 @@ export default defineConfig(({ mode }) => {
   for (const [key, value] of Object.entries(loadEnv(mode, process.cwd(), ""))) process.env[key] ??= value;
 
   return {
+    // La versión de package.json, visible en el pie y en el asunto del correo de contacto.
+    define: { __APP_VERSION__: JSON.stringify(pkg.version) },
     plugins: [
       apiDevServer(),
       seoHead(),
@@ -307,6 +310,13 @@ export default defineConfig(({ mode }) => {
           display: "standalone",
           background_color: "#111111",
           theme_color: "#111111",
+          // Capturas para el diálogo de instalación enriquecido de Chrome (Android y escritorio).
+          screenshots: [
+            { src: "screenshots/narrow-home.png", sizes: "780x1688", type: "image/png", form_factor: "narrow", label: "Portada: tus franquicias y lo que sigue" },
+            { src: "screenshots/narrow-franchise.png", sizes: "780x1688", type: "image/png", form_factor: "narrow", label: "Una franquicia con tu progreso y el orden elegido" },
+            { src: "screenshots/wide-home.png", sizes: "1280x800", type: "image/png", form_factor: "wide", label: "Portada: tus franquicias y lo que sigue" },
+            { src: "screenshots/wide-franchise.png", sizes: "1280x800", type: "image/png", form_factor: "wide", label: "Una franquicia con tu progreso y el orden elegido" },
+          ],
           icons: [
             { src: "pwa-192.png", sizes: "192x192", type: "image/png" },
             { src: "pwa-512.png", sizes: "512x512", type: "image/png" },
@@ -322,7 +332,7 @@ export default defineConfig(({ mode }) => {
           // El service worker de los avisos push se registra aparte; no va en el precache.
           // Tampoco los textos por título: precachearlos obligaba a descargar ~2000 archivos (3.4 MB) al
           // instalar la app; ahora se guardan al abrir cada título (runtimeCaching).
-          globIgnores: ["firebase-messaging-sw.js", "assets/md/**"],
+          globIgnores: ["firebase-messaging-sw.js", "assets/md/**", "screenshots/**"],
           navigateFallback: "/index.html",
           // El handler de Firebase Auth (/__/auth) y las funciones (/api) nunca caen en la SPA.
           // Las páginas públicas de links compartidos (/es/s/…) las arma el servidor.

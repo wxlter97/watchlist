@@ -8,7 +8,7 @@ export interface PlansBackend {
   writePlan(planId: string, doc: PlanDoc | null): void;
 }
 
-const GUEST_KEY = "watch-order:guest-plans";
+export const GUEST_KEY = "watch-order:guest-plans";
 
 export function loadGuestPlans(): Record<string, PlanDoc> {
   try {

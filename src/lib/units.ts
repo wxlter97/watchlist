@@ -29,8 +29,6 @@ export function unitReleaseDate(title: Title, season?: number): string {
   return season > 1 && title.ongoing ? "9999-12-31" : title.releaseDate;
 }
 
-export const isUnitReleased = (title: Title, season: number | undefined, today: string) => unitReleaseDate(title, season) <= today;
-
 /**
  * ¿Está vista la unidad? `seasonEpisodes` es el número de episodios de la temporada (hace
  * falta cuando el título no está marcado como visto entero).

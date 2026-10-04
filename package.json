@@ -1,7 +1,7 @@
 {
   "name": "watch-order",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,7 +22,8 @@
     "dev:emulators": "VITE_FIREBASE_EMULATORS=1 FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 vite",
     "rules:deploy": "firebase deploy --only firestore:rules,firestore:indexes",
     "catalog:notify": "tsx scripts/notify-catalog-update.ts",
-    "test:e2e:auth": "playwright test -c playwright.auth.config.ts"
+    "test:e2e:auth": "playwright test -c playwright.auth.config.ts",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -49,8 +50,6 @@
     "@playwright/test": "^1.63.0",
     "@tailwindcss/vite": "^4.3.3",
     "@testing-library/jest-dom": "^7.0.1",
-    "@testing-library/react": "^16.3.3",
-    "@testing-library/user-event": "^14.6.7",
     "@types/d3-force": "^3.0.10",
     "@types/node": "^26.6.3",
     "@types/react": "^19.3.0",

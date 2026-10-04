@@ -3,15 +3,16 @@ import { FIREBASE_CONFIGURED } from "./firebaseConfig";
 import { track } from "./analytics";
 import type { Profile } from "./cloud";
 import {
+  GUEST_KEY as ACHIEVEMENTS_KEY,
   guestAchievementsBackend,
   loadGuestAchievements,
   setAchievementsBackend,
   useAchievementsStore,
 } from "./achievementsStore";
 import { useGroupsStore } from "./groupsStore";
-import { guestPlansBackend, loadGuestPlans, setPlansBackend, usePlansStore } from "./plansStore";
-import { guestBackend, loadGuest, setBackend, useProgressStore } from "./progressStore";
-import { guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings } from "./settings";
+import { GUEST_KEY as PLANS_KEY, guestPlansBackend, loadGuestPlans, setPlansBackend, usePlansStore } from "./plansStore";
+import { GUEST_KEY as PROGRESS_KEY, guestBackend, loadGuest, setBackend, useProgressStore } from "./progressStore";
+import { GUEST_KEY as SETTINGS_KEY, guestSettingsWriter, loadGuestSettings, setSettingsWriter, useSettings } from "./settings";
 import { useSharesStore } from "./sharesStore";
 
 // Sesión: invitado (progreso en localStorage) o cuenta de Google (Firestore con caché offline),
@@ -97,12 +98,28 @@ export function preloadAccount() {
   void cloud().catch(report);
 }
 
+/**
+ * Varias pestañas como invitado: cada una guarda su estado completo en localStorage, así que una
+ * pestaña desactualizada pisaba lo que marcó la otra. Cuando otra pestaña escribe, esta recarga
+ * su estado (el evento `storage` solo llega a las demás pestañas, no a la que escribe).
+ */
+function syncGuestAcrossTabs() {
+  addEventListener("storage", (e) => {
+    if (useSession.getState().status !== "guest" || e.storageArea !== localStorage || !e.key) return;
+    if (e.key === PROGRESS_KEY) useProgressStore.getState().replace(loadGuest());
+    else if (e.key === SETTINGS_KEY) useSettings.setState(loadGuestSettings());
+    else if (e.key === PLANS_KEY) usePlansStore.getState().replacePlans(loadGuestPlans());
+    else if (e.key === ACHIEVEMENTS_KEY) useAchievementsStore.getState().replaceUnlocked(loadGuestAchievements());
+  });
+}
+
 let started = false;
 
 /** Arranca una sola vez, desde main.tsx. */
 export function startSession() {
   if (started) return;
   started = true;
+  syncGuestAcrossTabs();
   if (FIREBASE_CONFIGURED && hasAccountHint()) void cloud().catch(report);
   else enterGuest();
 }
