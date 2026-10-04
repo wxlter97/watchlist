@@ -19,6 +19,20 @@ const REGIONS = [
   "MX", "NI", "PA", "PE", "PR", "PT", "PY", "SV", "US", "UY", "VE",
 ];
 
+/**
+ * Baja un JSON. El enlace va en la página y la URL se libera un poco después: con el enlace suelto o
+ * liberada al instante, algunos navegadores pierden la descarga.
+ */
+function downloadJson(data: unknown, fileName: string) {
+  const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }));
+  const a = Object.assign(document.createElement("a"), { href: url, download: fileName });
+  a.hidden = true;
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 10_000);
+}
+
 function Row({ label, hint, children }: { label: string; hint?: string; children: ReactNode }) {
   return (
     <div className="flex items-center justify-between gap-4 p-3">
@@ -102,11 +116,7 @@ export function DataSection() {
 
   const exportData = () => {
     const { progress, franchiseState } = useProgressStore.getState();
-    const blob = new Blob([JSON.stringify(buildBackup(profileName, { progress, franchiseState }), null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = Object.assign(document.createElement("a"), { href: url, download: backupFileName(profileName) });
-    a.click();
-    URL.revokeObjectURL(url);
+    downloadJson(buildBackup(profileName, { progress, franchiseState }), backupFileName(profileName));
   };
 
   const exportEverything = () => {
@@ -120,11 +130,7 @@ export function DataSection() {
       settings: useSettings.getState(),
       account: user ? { name: user.displayName, email: user.email } : null,
     });
-    const blob = new Blob([JSON.stringify(everything, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = Object.assign(document.createElement("a"), { href: url, download: fullExportFileName(profileName) });
-    a.click();
-    URL.revokeObjectURL(url);
+    downloadJson(everything, fullExportFileName(profileName));
   };
 
   const readFile = async (file: File) => {
