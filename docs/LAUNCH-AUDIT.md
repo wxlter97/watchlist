@@ -58,9 +58,9 @@ tope era 20; corregido con `MAX_FRANCHISES = 80` y una prueba); CLS de la portad
   Firebase aparte; App Check (opcional).
 
 **Pendiente, mío**
-- Remedir el CLS de la portada tras el arreglo de `/api/upcoming`; reducir el precache del service worker (~2000
-  archivos); pasada de textos de avisos (toasts) y del login; e2e de login, borrado de cuenta y
-  sincronización con los emuladores de Firebase (requiere Java).
+- Hecho: CLS de la portada (0 tras el arreglo de `/api/upcoming`), precache del service worker (2002 → 216
+  archivos), textos de avisos y login, y e2e con cuenta contra los emuladores de Firebase
+  (`pnpm test:e2e:auth`: login, sincronización, cerrar sesión y eliminar la cuenta; requiere Java 21).
 
 **Pospuesto a propósito (dependen de tener tráfico o de decisiones de marca)**
 - Landing con casos de uso, FAQ pública y comparativas/alternativas (GEO avanzado).
