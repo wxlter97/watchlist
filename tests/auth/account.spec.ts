@@ -12,6 +12,7 @@ async function signIn(page: Page, email: string, name: string) {
   await page.goto("/account");
   await page.getByRole("button", { name: "Entrar con Google" }).click();
   // El emulador lista las cuentas que ya existen: se elige la de este correo o se crea una.
+  await page.waitForLoadState("networkidle");
   const existing = page.getByText(email, { exact: false });
   // Sin cuentas es un botón; con cuentas, un elemento de la lista (#add-account-button).
   const add = page.locator("#add-account-button, button:has-text('Add new account')").filter({ visible: true }).first();
@@ -20,8 +21,14 @@ async function signIn(page: Page, email: string, name: string) {
   if (await existing.count()) {
     await existing.first().click();
   } else {
-    await add.click();
-    await page.locator("#email-input").fill(email);
+    // La página del emulador pinta "no hay cuentas" y luego recarga la lista: si el clic cae en
+    // medio, el formulario se vuelve a ocultar. Se repite hasta que el formulario quede visible.
+    const emailInput = page.locator("#email-input");
+    await expect(async () => {
+      if (!(await emailInput.isVisible())) await add.click({ timeout: 2000 });
+      await expect(emailInput).toBeVisible({ timeout: 2000 });
+    }).toPass({ timeout: 20_000 });
+    await emailInput.fill(email);
     await page.locator("#display-name-input").fill(name);
     await page.getByRole("button", { name: /Sign in with Google\.com/ }).click();
   }
