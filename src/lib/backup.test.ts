@@ -83,3 +83,29 @@ describe("viewings", () => {
     expect(r.ok && r.data.franchiseState.marvel!.prepLevels).not.toHaveProperty("other");
   });
 });
+
+describe("exportación completa", () => {
+  it("incluye plan, logros, ajustes y cuenta, sin el secreto del feed, y no se importa como respaldo", async () => {
+    const { buildFullExport, fullExportFileName, parseBackup } = await import("./backup");
+    const plan = { id: "p1", name: "Maratón", feedToken: "secreto", startDate: "2026-10-04" } as never;
+    const all = buildFullExport(
+      "Ana",
+      {
+        progress: {},
+        franchiseState: {},
+        plans: { p1: plan },
+        achievements: { first: { unlockedAt: "2026-10-04T00:00:00.000Z" } },
+        settings: { spoilerFree: true } as never,
+        account: { name: "Ana", email: "ana@example.com" },
+      },
+      new Date("2026-10-04T12:00:00Z"),
+    );
+    expect(all.app).toBe("watch-order-export");
+    expect(all.plans).toEqual([{ id: "p1", name: "Maratón", startDate: "2026-10-04" }]);
+    expect(JSON.stringify(all)).not.toContain("secreto");
+    expect(all.achievements).toHaveProperty("first");
+    expect(all.account?.email).toBe("ana@example.com");
+    expect(fullExportFileName("Ana", new Date("2026-10-04T12:00:00Z"))).toBe("watch-order-todos-mis-datos-ana-2026-10-04.json");
+    expect(parseBackup(JSON.stringify(all))).toEqual({ ok: false, error: "notBackup" });
+  });
+});

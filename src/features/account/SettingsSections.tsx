@@ -1,7 +1,9 @@
 import { useRef, useState, type ReactNode } from "react";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
 import { Button, Notice, SectionLabel, SelectField, Tabs, Toggle } from "../../components/ui";
-import { backupFileName, buildBackup, parseBackup } from "../../lib/backup";
+import { useAchievementsStore } from "../../lib/achievementsStore";
+import { backupFileName, buildBackup, buildFullExport, fullExportFileName, parseBackup } from "../../lib/backup";
+import { usePlansStore } from "../../lib/plansStore";
 import { LANGS, useLang } from "../../lib/i18n";
 import { planMigration } from "../../lib/migrate";
 import { useProgressStore, type ProgressData } from "../../lib/progressStore";
@@ -107,6 +109,24 @@ export function DataSection() {
     URL.revokeObjectURL(url);
   };
 
+  const exportEverything = () => {
+    const { progress, franchiseState } = useProgressStore.getState();
+    const { user } = useSession.getState();
+    const everything = buildFullExport(profileName, {
+      progress,
+      franchiseState,
+      plans: usePlansStore.getState().plans,
+      achievements: useAchievementsStore.getState().unlocked,
+      settings: useSettings.getState(),
+      account: user ? { name: user.displayName, email: user.email } : null,
+    });
+    const blob = new Blob([JSON.stringify(everything, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = Object.assign(document.createElement("a"), { href: url, download: fullExportFileName(profileName) });
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   const readFile = async (file: File) => {
     setError(null);
     const result = parseBackup(await file.text());
@@ -153,6 +173,7 @@ export function DataSection() {
         <div className="flex flex-wrap gap-2">
           <Button onClick={exportData}>{t("backup.export")}</Button>
           <Button onClick={() => fileInput.current?.click()}>{t("backup.import")}</Button>
+          <Button onClick={exportEverything}>{t("backup.exportAll")}</Button>
           <input
             ref={fileInput}
             type="file"
@@ -167,6 +188,7 @@ export function DataSection() {
             }}
           />
         </div>
+        <p className="text-xs leading-[1.5] text-fg-soft">{t("backup.exportAllHint")}</p>
         {error && (
           <Notice tone="error">
             <p>{error}</p>

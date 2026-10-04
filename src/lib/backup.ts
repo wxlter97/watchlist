@@ -1,5 +1,8 @@
 import { type FranchiseStateDoc, type ProgressData, type ProgressDoc, type WatchStatus } from "./progressStore";
+import type { UnlockDoc } from "./achievementsStore";
+import type { PlanDoc } from "./plans";
 import { isPrepLevel } from "./prep";
+import type { Settings } from "./settings";
 import { cleanViewings } from "./viewings";
 
 // Exportar / importar el progreso de un perfil en JSON (SPEC §9).
@@ -23,6 +26,39 @@ export function buildBackup(profile: string, data: ProgressData, now = new Date(
     progress: data.progress,
     franchiseState: data.franchiseState,
   };
+}
+
+export interface FullExport extends Omit<Backup, "app"> {
+  /** Distingue este archivo (para llevarte tus datos) del respaldo que se puede importar. */
+  app: "watch-order-export";
+  account: { name: string; email: string | null } | null;
+  settings: Settings;
+  plans: Omit<PlanDoc, "feedToken">[];
+  achievements: Record<string, UnlockDoc>;
+}
+
+/**
+ * Todo lo que la app guarda de una persona, en JSON legible (portabilidad de datos): el progreso
+ * del perfil y además planes, logros, ajustes y los datos de la cuenta. El secreto del feed de
+ * calendario se deja fuera: dar el archivo no debe dar acceso al feed.
+ */
+export function buildFullExport(
+  profile: string,
+  data: ProgressData & { plans: Record<string, PlanDoc>; achievements: Record<string, UnlockDoc>; settings: Settings; account: FullExport["account"] },
+  now = new Date(),
+): FullExport {
+  return {
+    ...buildBackup(profile, data, now),
+    app: "watch-order-export",
+    account: data.account,
+    settings: data.settings,
+    plans: Object.values(data.plans).map(({ feedToken: _feedToken, ...plan }) => plan),
+    achievements: data.achievements,
+  };
+}
+
+export function fullExportFileName(profile: string, now = new Date()): string {
+  return backupFileName(profile, now).replace("watch-order-", "watch-order-todos-mis-datos-");
 }
 
 const isIso = (v: unknown) => typeof v === "string" && !Number.isNaN(Date.parse(v));

@@ -330,6 +330,8 @@
     "title": "Tus datos",
     "hint": "Exporta o importa el progreso del perfil «{{profile}}» en JSON.",
     "export": "Exportar",
+    "exportAll": "Exportar todos mis datos",
+    "exportAllHint": "«Exportar todos mis datos» incluye además planes, logros, ajustes y los datos de tu cuenta, para que te los lleves. Ese archivo no se puede importar; para respaldar y restaurar el progreso usa «Exportar» e «Importar».",
     "import": "Importar",
     "apply": "Importar",
     "mode": "Cómo importar",

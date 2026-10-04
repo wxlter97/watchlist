@@ -330,6 +330,8 @@
     "title": "Your data",
     "hint": "Export or import the “{{profile}}” profile's progress as JSON.",
     "export": "Export",
+    "exportAll": "Export all my data",
+    "exportAllHint": "\"Export all my data\" also includes plans, achievements, settings and your account details, so you can take them with you. That file can't be imported; to back up and restore progress use \"Export\" and \"Import\".",
     "import": "Import",
     "apply": "Import",
     "mode": "How to import",

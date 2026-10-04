@@ -31,6 +31,9 @@ Hecho en código (las tablas de abajo describen el estado **antes** de esta pasa
   `share_created` y `search_no_results`. Sin señales de Google ni datos de cuenta; política y aviso
   actualizados. **Logo de TMDB** en el pie.
 
+- **Datos y docs:** exportación completa de datos de la persona; `docs/OPERATIONS.md` (rollback,
+  backups y restauración, incidentes, filtración, solicitudes de usuarios) y `CHANGELOG.md`.
+
 Sigue pendiente (decisión o acción tuya): dominio definitivo (`VITE_SITE_URL`), pasar la CSP a
 enforce tras revisar los reportes, rate limiting en Vercel Firewall, uptime monitor sobre
 `/api/health`, analytics, logo de TMDB, correo de contacto, exportación completa de datos y los
