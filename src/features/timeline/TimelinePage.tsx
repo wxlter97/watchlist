@@ -10,6 +10,7 @@ import {
 import { Link, useParams } from "react-router";
 import { accentStyle, Button, Chip, SectionLabel } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { todayIso } from "../../lib/progress";
 import { isUnitWatched, seasonOf, unitKey, unitReleaseDate } from "../../lib/units";
@@ -58,7 +59,7 @@ export function TimelinePage() {
   const drag = useDragScroll(scroller);
 
   if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
-  if (!franchise || !timeline) return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
+  if (!franchise || !timeline) return <Missing message={t("franchise.notFound")} />;
 
   const w = ZOOMS[zoom] ?? ZOOMS[1];
   const h = Math.round(w * 1.5);
@@ -102,7 +103,7 @@ export function TimelinePage() {
       </div>
 
       {timeline.lanes.length === 0 ? (
-        <p className="py-12 text-center text-muted">{t("franchise.empty")}</p>
+        <p className="py-12 text-center text-muted">{t("timeline.empty")}</p>
       ) : (
         <div
           ref={scroller}

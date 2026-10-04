@@ -1,5 +1,6 @@
 import { Navigate, useParams } from "react-router";
 import { useCatalog, withReferences } from "../../lib/catalog";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { curatedPrep } from "../../lib/prep";
 import { PrepView } from "./PrepView";
@@ -14,7 +15,7 @@ export function PrepPage() {
 
   if (!ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !target || !franchise.entries.some((e) => e.titleId === titleId)) {
-    return <p className="py-16 text-center text-muted">{t("routes.notFound")}</p>;
+    return <Missing message={t("routes.notFound")} />;
   }
   // Si hay una ruta curada para ese título, su página es la de siempre (con los mismos niveles).
   const route = curatedPrep(franchise, titleId);

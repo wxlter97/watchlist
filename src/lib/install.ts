@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from "react";
+import { track } from "./analytics";
 import { isIos, isStandalone } from "./pushSupport";
 
 // Instalar la PWA. Chrome/Edge/Android avisan con `beforeinstallprompt` (se guarda para lanzarlo
@@ -99,5 +100,7 @@ export async function promptInstall(): Promise<boolean> {
   deferred = null;
   emit();
   await event.prompt();
-  return (await event.userChoice).outcome === "accepted";
+  const accepted = (await event.userChoice).outcome === "accepted";
+  track(accepted ? "install_accepted" : "install_dismissed");
+  return accepted;
 }

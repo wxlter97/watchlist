@@ -6,7 +6,9 @@ import { TitleRow } from "../../components/TitleRow";
 import { rowId, useScrollToNext } from "../../lib/scroll";
 import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
+import { usePageMeta } from "../../lib/meta";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
 import { CUSTOM_ORDER_ID, watchedUpTo, type OrderedItem } from "../../lib/orders";
 import { useProgressStore } from "../../lib/progressStore";
@@ -35,13 +37,22 @@ export function FranchisePage() {
   const applyMany = useProgressStore((s) => s.applyMany);
   const progress = useProgressStore((s) => s.progress);
   const { franchise, order, items, visibleItems, summary, franchiseSummary, next } = view;
+  const name = franchise ? loc(franchise.name) : "";
+  usePageMeta(
+    franchise && {
+      title: t("meta.franchiseTitle", { name }),
+      description: t("meta.franchiseDescription", { name, count: new Set(franchise.entries.map((e) => e.titleId)).size }),
+      canonical: `/f/${franchise.id}`,
+    },
+    t("meta.siteDescription"),
+  );
   // Al abrir la franquicia con avance, la vista va a lo que sigue (no se queda arriba).
   const nextVisible = next && visibleItems.some((i) => i.key === next.key) ? next : undefined;
   useScrollToNext(view.ready && !editing, nextVisible && rowId(nextVisible.key), summary.watched > 0 && visibleItems[0]?.key !== nextVisible?.key);
 
   if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !order) {
-    return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
+    return <Missing message={t("franchise.notFound")} />;
   }
 
   const isCustom = order.type === "custom";

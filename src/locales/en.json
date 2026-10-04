@@ -48,8 +48,8 @@
     "order": "Order",
     "continuities": "Continuities",
     "continuitiesCurated": "This order already picks what it includes: hidden continuities don't remove titles from it.",
-    "empty": "No titles match these filters.",
-    "notFound": "We couldn't find that franchise.",
+    "empty": "No title matches the active filters. Remove one or show more continuities in the filters panel.",
+    "notFound": "We couldn't find that franchise. The link may be mistyped, or it may no longer exist.",
     "progress": "Progress",
     "label": "Franchise",
     "progressOf": "Order: {{order}}",
@@ -114,12 +114,13 @@
     "status": "Status",
     "postCredits": "Post-credits",
     "chrono": "Place in the timeline",
-    "notFound": "We couldn't find that title.",
+    "notFound": "We couldn't find that title. The link may be mistyped, or it may no longer be in the catalog.",
     "inRoutes": "In routes"
   },
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
-    "madeBy": "Made by wxlter."
+    "madeBy": "Made by wxlter.",
+    "report": "Contact and reports"
   },
   "common": {
     "cancel": "Cancel",
@@ -130,6 +131,7 @@
     "title": "Account & settings",
     "guest": "Guest mode",
     "guestBody": "Your progress lives only on this device. Sign in with Google to sync it across devices and have several profiles. What you marked as a guest can be moved to your account.",
+    "unconfigured": "Sign-in isn't set up on this installation. You can keep using the app as a guest: your progress is saved on this device.",
     "signIn": "Sign in with Google",
     "signOut": "Sign out",
     "signedInAs": "Signed in as",
@@ -197,7 +199,7 @@
     "target": "Target",
     "before": "Watch these first",
     "titles": "Titles",
-    "notFound": "We couldn't find that route.",
+    "notFound": "We couldn't find that route. The link may be mistyped, or the route may no longer exist.",
     "kinds": {
       "prep": "Get ready for…",
       "character": "By character",
@@ -213,7 +215,7 @@
     "title": "Search",
     "placeholder": "Search a title, franchise or route",
     "hint": "Works in English or Spanish, with or without accents.",
-    "empty": "Nothing matches “{{query}}”.",
+    "empty": "Nothing matches “{{query}}”. Try fewer letters, or the name in Spanish.",
     "titles_one": "{{count}} title",
     "titles_other": "{{count}} titles",
     "recent": "Recent searches",
@@ -221,7 +223,16 @@
     "removeRecent": "Remove “{{query}}” from recent"
   },
   "meta": {
-    "locale": "en-US"
+    "locale": "en-US",
+    "siteTitle": "Watch Order — Your sagas, in the order you like",
+    "siteDescription": "Follow movie and TV franchises in the order you like: release, chronological and routes. Free, no ads.",
+    "franchiseTitle": "{{name}}: what order to watch | Watch Order",
+    "franchiseDescription": "What order to watch {{name}}: {{count}} titles by release date, chronological and routes, with your progress.",
+    "titleTitle": "{{name}} ({{year}}) | Watch Order",
+    "titleDescription": "{{name}} ({{year}}): where it fits in the watch order, cast and where to watch.",
+    "routeTitle": "{{route}} · {{franchise}} | Watch Order",
+    "pageTitle": "{{page}} | Watch Order",
+    "notFound": "We couldn't find this page | Watch Order"
   },
   "toast": {
     "watched": "You marked “{{title}}” as watched.",
@@ -237,7 +248,7 @@
     "confirm_other": "Mark {{count}}",
     "body_one": "{{count}} pending title up to “{{title}}”, inclusive, following “{{order}}”, will be marked as watched.",
     "body_other": "{{count}} pending titles up to “{{title}}”, inclusive, following “{{order}}”, will be marked as watched.",
-    "nothing": "Nothing is pending up to “{{title}}”.",
+    "nothing": "Nothing is pending up to “{{title}}”: everything before it is watched or not released yet.",
     "done_one": "{{count}} title marked as watched.",
     "done_other": "{{count}} titles marked as watched.",
     "undo": "Undo"
@@ -287,8 +298,8 @@
   "cast": {
     "title": "Cast",
     "loading": "Looking up…",
-    "none": "No cast listed yet.",
-    "error": "Couldn't load it. Try again later.",
+    "none": "TMDB doesn't have this title's cast yet (common for upcoming releases).",
+    "error": "Couldn't load the cast. Check your connection and try again in a while.",
     "offline": "Offline: it loads when you're back online.",
     "episodes_one": "{{count}} episode",
     "episodes_other": "{{count}} episodes"
@@ -296,8 +307,8 @@
   "providers": {
     "title": "Where to watch in {{region}}",
     "loading": "Looking…",
-    "none": "Not on any platform in your region right now.",
-    "error": "Couldn't check. Try again later.",
+    "none": "Not on any platform in your region right now. You can change the region in Account → Streaming region.",
+    "error": "Couldn't load this information. Check your connection and try again in a while.",
     "offline": "Offline: we'll check when you're back.",
     "attribution": "Data from JustWatch via TMDB.",
     "offers": {
@@ -320,6 +331,8 @@
     "title": "Your data",
     "hint": "Export or import the “{{profile}}” profile's progress as JSON.",
     "export": "Export",
+    "exportAll": "Export all my data",
+    "exportAllHint": "\"Export all my data\" also includes plans, achievements, settings and your account details, so you can take them with you. That file can't be imported; to back up and restore progress use \"Export\" and \"Import\".",
     "import": "Import",
     "apply": "Import",
     "mode": "How to import",
@@ -369,11 +382,11 @@
     "create": "Create plan",
     "edit": "Edit plan",
     "yourPlans": "Your plans",
-    "none": "You don't have any plans yet.",
-    "notFound": "We couldn't find that plan.",
+    "none": "You don't have any plans yet. Create one and the app spreads what's left to watch across the hours you have each week.",
+    "notFound": "We couldn't find that plan. It may have been deleted, or it may belong to another account.",
     "completed": "Goal reached! You've watched it all.",
     "nextSession": "Next session: {{day}}",
-    "nothingScheduled": "Nothing scheduled.",
+    "nothingScheduled": "Nothing scheduled. You may have already watched everything in the goal, or there may be no available days; check the plan's days and weekly hours.",
     "endsOn": "You finish on {{date}}",
     "late": "Won't make the deadline",
     "lateTitle": "At this pace you won't finish before {{date}}",
@@ -449,11 +462,12 @@
     "hours_one": "{{count}} h",
     "hours_other": "{{count}} h",
     "tooLong": "Next up is {{title}} and it runs {{time}}. Try more time.",
-    "nothing": "Nothing released is left in this order.",
+    "nothing": "Nothing released is left in this order: what remains hasn't been released yet.",
     "total": "Total: {{time}}",
     "then": "Then: {{title}}"
   },
   "timeline": {
+    "empty": "No continuities are visible in this franchise. Show them from the franchise's continuities panel.",
     "title": "Timeline",
     "intro": "Each lane is a continuity, in story order. Branches start at the title where they split off.",
     "zoom": "Zoom",
@@ -494,7 +508,7 @@
     "share": "Share",
     "preparing": "Preparing…",
     "downloaded": "Card downloaded.",
-    "error": "Couldn't create the card. Try again."
+    "error": "Couldn't create the card. Check your connection and try again."
   },
   "achievements": {
     "title": "Achievements",
@@ -570,8 +584,8 @@
     "intro": "Watch a franchise or a route together: everyone marks their own, and the group shows who watched what, what you watched together and what's next.",
     "signIn": "Groups need an account: sign in with Google to create or join one.",
     "yours": "Your groups",
-    "none": "You're not in any group yet.",
-    "notFound": "We couldn't find that group, or you're no longer a member.",
+    "none": "You're not in any group yet. Create one to watch a saga with friends, or open the invitation link they send you.",
+    "notFound": "We couldn't find that group, or you're no longer a member. Ask to be invited again.",
     "members_one": "{{count}} member",
     "members_other": "{{count}} members",
     "create": "New group",
@@ -613,6 +627,7 @@
     "joinErrors": {
       "invalid": "The invitation is invalid or expired. Ask for a new link.",
       "full": "The group is full.",
+      "rateLimited": "Too many wrong codes. For security, wait about 15 minutes and open the invitation link again.",
       "error": "Couldn't join. Check your connection and try again."
     }
   },
@@ -663,7 +678,7 @@
     },
     "seen": "Watched",
     "unseen": "Not watched",
-    "none": "No recap for this title yet.",
+    "none": "No recap for this title yet. Recaps are being added over time.",
     "spoilerHidden": "This recap tells what happens in a title you haven't watched. Hidden to avoid spoilers.",
     "reveal": "Show recap"
   },
@@ -685,10 +700,10 @@
     "link": "Get ready for this title",
     "linkHint": "The bare minimum, the recommended titles or everything before it.",
     "target": "Title",
-    "empty": "Nothing comes before this title in chronological order."
+    "empty": "Nothing comes before this title in chronological order: it's the starting point, you can begin with it."
   },
   "legal": {
-    "updated": "Last updated: September 30, 2026",
+    "updated": "Last updated: October 4, 2026",
     "back": "← Back",
     "privacyLink": "Privacy",
     "termsLink": "Terms",
@@ -698,7 +713,7 @@
         {
           "h": "Who is responsible",
           "p": [
-            "Watch Order is a personal project by wxlter. For any question about your data, reach me through wxlter.dev."
+            "Watch Order is a personal project by wxlter. For any question about your data, email me at work@wxlter.dev."
           ]
         },
         {
@@ -718,7 +733,8 @@
           "h": "Third-party services",
           "p": [
             "Google Firebase (sign-in, database and push notifications), Vercel (hosting; temporarily logs IP addresses) and TMDB (catalog, synopses and posters: your browser requests images directly from image.tmdb.org, and \"where to watch\" uses JustWatch data via TMDB).",
-            "If ads are enabled, Google AdSense may use cookies or identifiers to serve them, only if you accept in the consent notice. You can change your choice below at any time."
+            "If ads are enabled, Google AdSense may use cookies or identifiers to serve them, only if you accept in the consent notice. You can change your choice below at any time.",
+            "If usage measurement is on, Google Analytics 4 counts page views and actions (for example, following a franchise or marking a title as watched) using Google cookies, only if you accept in the consent notice. We do not send your account, your email or the detail of your progress, and we do not use Google signals or ad personalization. If you reject or withdraw it, nothing is loaded or sent."
           ]
         },
         {
@@ -728,9 +744,15 @@
           ]
         },
         {
+          "h": "Legal basis and transfers",
+          "p": [
+            "We process your data because you need it to use your account (performance of the service), because you give us permission (push notifications, ads) and because of our legitimate interest in keeping the app secure and working (error logging). The providers above may process data in the United States and other countries, under their own contractual safeguards."
+          ]
+        },
+        {
           "h": "How long",
           "p": [
-            "While you have an account. Signing out clears the device's local cache. Deleting a profile removes its progress."
+            "While you have an account. Signing out clears the device's local cache. Deleting a profile removes its progress. Error and access logs stay on Vercel for as long as that service keeps them (days, not months)."
           ]
         },
         {
@@ -783,6 +805,18 @@
           ]
         },
         {
+          "h": "Donations",
+          "p": [
+            "If you see a link to buy me a coffee, it is a voluntary contribution through an external service: it is not a purchase, it does not unlock features and I do not refund it."
+          ]
+        },
+        {
+          "h": "Reporting a problem or abuse",
+          "p": [
+            "If you find a bug, or a shared link or group that breaks these terms, email me at work@wxlter.dev or use \"Contact\" at the bottom of the page. I may disable links and groups that abuse the service."
+          ]
+        },
+        {
           "h": "Changes and ending",
           "p": [
             "We may change or remove features. You can stop using the app and delete your account at any time."
@@ -792,9 +826,15 @@
     }
   },
   "consent": {
-    "text": "We use ads to keep Watch Order running. Do you allow Google advertising cookies and identifiers? You can change this anytime in Privacy.",
+    "textAds": "We use ads and usage measurement (Google Analytics) to keep Watch Order running and improve it. Do you allow Google cookies and identifiers? You can change this anytime in Privacy.",
+    "textAnalytics": "We use Google Analytics to learn which parts of Watch Order get used so we can improve them. It only measures page views and actions, never your account or your progress. Do you allow its cookies? You can change this anytime in Privacy.",
     "accept": "Accept",
     "reject": "Reject"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "This address doesn't exist or is no longer available.",
+    "home": "Go home"
   },
   "errors": {
     "title": "Something went wrong",
@@ -807,7 +847,7 @@
     "hint": "Deletes your account and all your data: profiles, progress, plans, achievements, shared links and your groups. This can't be undone.",
     "confirm": "Delete everything",
     "reauth": "For security, sign out, sign in with Google again and repeat this right away.",
-    "failed": "Couldn't delete the account. Try again."
+    "failed": "Couldn't delete the account. Check your connection and try again; if it keeps failing, email me at work@wxlter.dev."
   },
   "viewing": {
     "title": "When and how you watched it",

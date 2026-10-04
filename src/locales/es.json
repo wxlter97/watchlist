@@ -48,8 +48,8 @@
     "order": "Orden",
     "continuities": "Continuidades",
     "continuitiesCurated": "Este orden ya elige qué incluye: las continuidades ocultas no le quitan títulos.",
-    "empty": "No hay títulos con estos filtros.",
-    "notFound": "No encontramos esa franquicia.",
+    "empty": "Ningún título coincide con los filtros activos. Quita alguno o muestra más continuidades en el panel de filtros.",
+    "notFound": "No encontramos esa franquicia. Puede que el link esté mal escrito o que ya no exista.",
     "progress": "Progreso",
     "label": "Franquicia",
     "progressOf": "Orden: {{order}}",
@@ -114,12 +114,13 @@
     "status": "Estado",
     "postCredits": "Post-créditos",
     "chrono": "Ubicación en la línea temporal",
-    "notFound": "No encontramos ese título.",
+    "notFound": "No encontramos ese título. Puede que el link esté mal escrito o que ya no esté en el catálogo.",
     "inRoutes": "En rutas"
   },
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
-    "madeBy": "Hecho por wxlter."
+    "madeBy": "Hecho por wxlter.",
+    "report": "Contacto y reportes"
   },
   "common": {
     "cancel": "Cancelar",
@@ -130,6 +131,7 @@
     "title": "Cuenta y ajustes",
     "guest": "Modo invitado",
     "guestBody": "Tu progreso vive solo en este dispositivo. Entra con Google para sincronizarlo entre dispositivos y tener varios perfiles. Lo que marcaste como invitado se puede pasar a tu cuenta.",
+    "unconfigured": "El inicio de sesión no está configurado en esta instalación. Puedes seguir usando la app como invitado: tu progreso se guarda en este dispositivo.",
     "signIn": "Entrar con Google",
     "signOut": "Cerrar sesión",
     "signedInAs": "Sesión iniciada como",
@@ -197,7 +199,7 @@
     "target": "Objetivo",
     "before": "Antes, ve esto",
     "titles": "Títulos",
-    "notFound": "No encontramos esa ruta.",
+    "notFound": "No encontramos esa ruta. Puede que el link esté mal escrito o que la ruta ya no exista.",
     "kinds": {
       "prep": "Prepárate para…",
       "character": "Por personaje",
@@ -213,7 +215,7 @@
     "title": "Buscar",
     "placeholder": "Busca un título, franquicia o ruta",
     "hint": "Funciona en español o en inglés, con o sin acentos.",
-    "empty": "Nada coincide con «{{query}}».",
+    "empty": "Nada coincide con «{{query}}». Prueba con menos letras, sin acentos o con el nombre en inglés.",
     "titles_one": "{{count}} título",
     "titles_other": "{{count}} títulos",
     "recent": "Búsquedas recientes",
@@ -221,7 +223,16 @@
     "removeRecent": "Quitar «{{query}}» de las recientes"
   },
   "meta": {
-    "locale": "es-MX"
+    "locale": "es-MX",
+    "siteTitle": "Watch Order — Tus sagas, en el orden que prefieras",
+    "siteDescription": "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis, sin anuncios.",
+    "franchiseTitle": "{{name}}: en qué orden verla | Watch Order",
+    "franchiseDescription": "Orden para ver {{name}}: {{count}} títulos por fecha de estreno, cronológico y rutas, con tu progreso.",
+    "titleTitle": "{{name}} ({{year}}) | Watch Order",
+    "titleDescription": "{{name}} ({{year}}): dónde encaja en el orden de visualización, reparto y dónde verla.",
+    "routeTitle": "{{route}} · {{franchise}} | Watch Order",
+    "pageTitle": "{{page}} | Watch Order",
+    "notFound": "No encontramos esta página | Watch Order"
   },
   "toast": {
     "watched": "Marcaste «{{title}}» como vista.",
@@ -237,7 +248,7 @@
     "confirm_other": "Marcar {{count}}",
     "body_one": "Se marca como visto {{count}} título pendiente hasta «{{title}}», inclusive, según «{{order}}».",
     "body_other": "Se marcan como vistos {{count}} títulos pendientes hasta «{{title}}», inclusive, según «{{order}}».",
-    "nothing": "No hay nada pendiente hasta «{{title}}».",
+    "nothing": "No hay nada pendiente hasta «{{title}}»: lo anterior ya está visto o aún no se estrena.",
     "done_one": "{{count}} título marcado como visto.",
     "done_other": "{{count}} títulos marcados como vistos.",
     "undo": "Deshacer"
@@ -287,8 +298,8 @@
   "cast": {
     "title": "Reparto",
     "loading": "Buscando…",
-    "none": "No hay reparto registrado todavía.",
-    "error": "No se pudo consultar. Intenta más tarde.",
+    "none": "TMDB todavía no tiene el reparto de este título (es común en estrenos próximos).",
+    "error": "No se pudo cargar esta información. Revisa tu conexión e intenta de nuevo en un rato.",
     "offline": "Sin conexión: se consulta al volver.",
     "episodes_one": "{{count}} episodio",
     "episodes_other": "{{count}} episodios"
@@ -296,8 +307,8 @@
   "providers": {
     "title": "Dónde verlo en {{region}}",
     "loading": "Buscando…",
-    "none": "No está en ninguna plataforma de tu región por ahora.",
-    "error": "No se pudo consultar. Intenta más tarde.",
+    "none": "No está en ninguna plataforma de tu región por ahora. Puedes cambiar la región en Cuenta → Región de streaming.",
+    "error": "No se pudo cargar esta información. Revisa tu conexión e intenta de nuevo en un rato.",
     "offline": "Sin conexión: se consulta al volver.",
     "attribution": "Datos de JustWatch vía TMDB.",
     "offers": {
@@ -320,6 +331,8 @@
     "title": "Tus datos",
     "hint": "Exporta o importa el progreso del perfil «{{profile}}» en JSON.",
     "export": "Exportar",
+    "exportAll": "Exportar todos mis datos",
+    "exportAllHint": "«Exportar todos mis datos» incluye además planes, logros, ajustes y los datos de tu cuenta, para que te los lleves. Ese archivo no se puede importar; para respaldar y restaurar el progreso usa «Exportar» e «Importar».",
     "import": "Importar",
     "apply": "Importar",
     "mode": "Cómo importar",
@@ -369,11 +382,11 @@
     "create": "Crear plan",
     "edit": "Editar plan",
     "yourPlans": "Tus planes",
-    "none": "Todavía no tienes planes.",
-    "notFound": "No encontramos ese plan.",
+    "none": "Todavía no tienes planes. Crea uno y la app reparte lo que te falta por ver según las horas que tengas por semana.",
+    "notFound": "No encontramos ese plan. Puede que se haya eliminado o que sea de otra cuenta.",
     "completed": "¡Meta cumplida! Ya viste todo.",
     "nextSession": "Próxima sesión: {{day}}",
-    "nothingScheduled": "No hay nada agendado.",
+    "nothingScheduled": "No hay nada agendado. Puede que ya hayas visto todo lo del objetivo o que no haya días disponibles; revisa los días y las horas por semana del plan.",
     "endsOn": "Terminas el {{date}}",
     "late": "No alcanza para la fecha límite",
     "lateTitle": "Con este ritmo no terminas antes del {{date}}",
@@ -449,11 +462,12 @@
     "hours_one": "{{count}} h",
     "hours_other": "{{count}} h",
     "tooLong": "Lo siguiente es {{title}} y dura {{time}}. Prueba con más tiempo.",
-    "nothing": "No hay nada pendiente ya estrenado en este orden.",
+    "nothing": "No hay nada pendiente ya estrenado en este orden: lo que falta todavía no se estrena.",
     "total": "Total: {{time}}",
     "then": "Después: {{title}}"
   },
   "timeline": {
+    "empty": "No hay continuidades visibles en esta franquicia. Muéstralas desde el panel de continuidades de la franquicia.",
     "title": "Línea de tiempo",
     "intro": "Cada carril es una continuidad, en orden dentro de la historia. Las ramas salen del título donde se separan.",
     "zoom": "Zoom",
@@ -494,7 +508,7 @@
     "share": "Compartir",
     "preparing": "Preparando…",
     "downloaded": "Tarjeta descargada.",
-    "error": "No se pudo crear la tarjeta. Intenta de nuevo."
+    "error": "No se pudo crear la tarjeta. Revisa tu conexión e intenta de nuevo."
   },
   "achievements": {
     "title": "Logros",
@@ -570,8 +584,8 @@
     "intro": "Vean una franquicia o una ruta juntos: cada quien marca lo suyo y el grupo muestra qué vio cada uno, qué vieron juntos y qué sigue.",
     "signIn": "Los grupos necesitan una cuenta: entra con Google para crear uno o unirte.",
     "yours": "Tus grupos",
-    "none": "Todavía no estás en ningún grupo.",
-    "notFound": "No encontramos ese grupo, o ya no eres miembro.",
+    "none": "Todavía no estás en ningún grupo. Crea uno para ver una saga con tus amigos, o abre el link de invitación que te manden.",
+    "notFound": "No encontramos ese grupo, o ya no eres miembro. Pide que te vuelvan a invitar.",
     "members_one": "{{count}} miembro",
     "members_other": "{{count}} miembros",
     "create": "Nuevo grupo",
@@ -613,6 +627,7 @@
     "joinErrors": {
       "invalid": "La invitación no es válida o ya venció. Pide un link nuevo.",
       "full": "El grupo ya está lleno.",
+      "rateLimited": "Probaste demasiados códigos incorrectos. Por seguridad, espera unos 15 minutos y vuelve a abrir el link de invitación.",
       "error": "No se pudo unir. Revisa tu conexión e intenta de nuevo."
     }
   },
@@ -663,7 +678,7 @@
     },
     "seen": "Visto",
     "unseen": "No visto",
-    "none": "Aún no hay resumen de este título.",
+    "none": "Aún no hay resumen de este título. Los resúmenes se van agregando poco a poco.",
     "spoilerHidden": "Este resumen cuenta lo que pasa en un título que aún no ves. Oculto para evitar spoilers.",
     "reveal": "Mostrar resumen"
   },
@@ -685,10 +700,10 @@
     "link": "Prepárate para este título",
     "linkHint": "Lo mínimo, lo recomendado o todo lo que viene antes.",
     "target": "Título",
-    "empty": "No hay nada antes de este título en el orden cronológico."
+    "empty": "No hay nada antes de este título en el orden cronológico: es el punto de partida, puedes empezar por él."
   },
   "legal": {
-    "updated": "Última actualización: 30 de septiembre de 2026",
+    "updated": "Última actualización: 4 de octubre de 2026",
     "back": "← Volver",
     "privacyLink": "Privacidad",
     "termsLink": "Términos",
@@ -698,7 +713,7 @@
         {
           "h": "Quién es responsable",
           "p": [
-            "Watch Order es un proyecto personal de wxlter. Para cualquier consulta sobre tus datos, escríbeme desde wxlter.dev."
+            "Watch Order es un proyecto personal de wxlter. Para cualquier consulta sobre tus datos, escríbeme a work@wxlter.dev."
           ]
         },
         {
@@ -718,7 +733,8 @@
           "h": "Servicios de terceros",
           "p": [
             "Google Firebase (inicio de sesión, base de datos y avisos push), Vercel (alojamiento; registra direcciones IP de forma temporal) y TMDB (catálogo, sinopsis y pósters: tu navegador pide las imágenes directamente a image.tmdb.org y \"dónde ver\" usa datos de JustWatch vía TMDB).",
-            "Si se activan los anuncios, Google AdSense puede usar cookies o identificadores para mostrarlos, solo si lo aceptas en el aviso de consentimiento. Puedes cambiar tu elección abajo en cualquier momento."
+            "Si se activan los anuncios, Google AdSense puede usar cookies o identificadores para mostrarlos, solo si lo aceptas en el aviso de consentimiento. Puedes cambiar tu elección abajo en cualquier momento.",
+            "Si está activa la medición de uso, Google Analytics 4 cuenta páginas vistas y acciones (por ejemplo, seguir una franquicia o marcar un título como visto) con cookies de Google, solo si lo aceptas en el aviso de consentimiento. No enviamos tu cuenta, tu correo ni el detalle de tu progreso, y no usamos señales de Google ni personalización de anuncios. Si lo rechazas o lo retiras, no se carga ni se envía nada."
           ]
         },
         {
@@ -728,9 +744,15 @@
           ]
         },
         {
+          "h": "Base legal y transferencias",
+          "p": [
+            "Tratamos tus datos porque los necesitas para usar la cuenta (ejecución del servicio), porque nos das tu permiso (avisos push, anuncios) y por nuestro interés legítimo en que la app sea segura y funcione (registro de errores). Los proveedores de arriba pueden procesar datos en Estados Unidos y otros países; lo hacen bajo sus propias garantías contractuales."
+          ]
+        },
+        {
           "h": "Cuánto tiempo",
           "p": [
-            "Mientras tengas cuenta. Cerrar sesión borra la caché local del dispositivo. Borrar un perfil elimina su progreso."
+            "Mientras tengas cuenta. Cerrar sesión borra la caché local del dispositivo. Borrar un perfil elimina su progreso. Los registros de errores y de acceso quedan en Vercel por el tiempo que ese servicio los conserva (días, no meses)."
           ]
         },
         {
@@ -783,6 +805,18 @@
           ]
         },
         {
+          "h": "Donaciones",
+          "p": [
+            "Si ves un enlace para invitarme un café, es una aportación voluntaria a través de un servicio externo: no es una compra, no desbloquea funciones y no se reembolsa por mi parte."
+          ]
+        },
+        {
+          "h": "Reportar un problema o un abuso",
+          "p": [
+            "Si encuentras un error, un link compartido o un grupo que incumple estos términos, escríbeme a work@wxlter.dev o usa «Contacto» al pie de la página. Puedo desactivar links y grupos que abusen del servicio."
+          ]
+        },
+        {
           "h": "Cambios y cierre",
           "p": [
             "Podemos modificar o retirar funciones. Puedes dejar de usar la app y eliminar tu cuenta cuando quieras."
@@ -792,9 +826,15 @@
     }
   },
   "consent": {
-    "text": "Usamos anuncios para sostener Watch Order. ¿Permites cookies e identificadores publicitarios de Google? Puedes cambiarlo cuando quieras en Privacidad.",
+    "textAds": "Usamos anuncios y medición de uso (Google Analytics) para sostener y mejorar Watch Order. ¿Permites las cookies e identificadores de Google? Puedes cambiarlo cuando quieras en Privacidad.",
+    "textAnalytics": "Usamos Google Analytics para saber qué partes de Watch Order se usan y mejorarlas. Solo mide páginas vistas y acciones, nunca tu cuenta ni tu progreso. ¿Permites sus cookies? Puedes cambiarlo cuando quieras en Privacidad.",
     "accept": "Aceptar",
     "reject": "Rechazar"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Esta dirección no existe o ya no está disponible.",
+    "home": "Ir al inicio"
   },
   "errors": {
     "title": "Algo salió mal",
@@ -807,7 +847,7 @@
     "hint": "Borra tu cuenta y todos tus datos: perfiles, progreso, planes, logros, links compartidos y tus grupos. No se puede deshacer.",
     "confirm": "Eliminar todo",
     "reauth": "Por seguridad, cierra sesión, vuelve a entrar con Google y repite esto enseguida.",
-    "failed": "No se pudo eliminar la cuenta. Inténtalo de nuevo."
+    "failed": "No se pudo eliminar la cuenta. Revisa tu conexión e inténtalo de nuevo; si sigue fallando, escríbeme a work@wxlter.dev."
   },
   "viewing": {
     "title": "Cuándo y cómo la viste",

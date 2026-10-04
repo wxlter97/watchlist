@@ -1,3 +1,4 @@
+import { track } from "./analytics";
 import i18n from "./i18n";
 import { externalUrl } from "./externalLinks";
 import { seasonsPatch } from "./episodes";
@@ -8,10 +9,24 @@ import type { Title } from "./types";
 
 // Acciones de UI con efectos secundarios (avisos), usadas desde varias pantallas.
 
+const FIRST_WATCHED_KEY = "watch-order:first-watched";
+
 /** Cambia el estado; al marcar una película como vista ofrece registrarla en Letterboxd (SPEC §9.1). */
 export function setTitleStatus(title: Title, status: WatchStatus | null) {
   const wasWatched = useProgressStore.getState().progress[title.id]?.status === "watched";
   useProgressStore.getState().setStatus(title.id, status);
+  if (status === "watched" && !wasWatched) {
+    track("title_watched", { kind: title.kind });
+    // Activación: la primera vez que este dispositivo marca algo como visto.
+    try {
+      if (!localStorage.getItem(FIRST_WATCHED_KEY)) {
+        localStorage.setItem(FIRST_WATCHED_KEY, "1");
+        track("first_title_watched");
+      }
+    } catch {
+      /* sin almacenamiento: solo se cuenta title_watched */
+    }
+  }
 
   const { letterboxd, letterboxdToast } = useSettings.getState().externalLinks;
   const href = externalUrl("letterboxd", title);

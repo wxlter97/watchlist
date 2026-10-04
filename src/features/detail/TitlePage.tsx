@@ -2,7 +2,9 @@ import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLabel, Tabs } from "../../components/ui";
 import { franchisesReferencing, useCatalog } from "../../lib/catalog";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
+import { usePageMeta } from "../../lib/meta";
 import { useOverview } from "../../lib/overviews";
 import { curatedPrep, prepUnits } from "../../lib/prep";
 import { isReleased } from "../../lib/progress";
@@ -29,9 +31,17 @@ export function TitlePage() {
   const [revealed, setRevealed] = useState(false);
   const [tab, setTab] = useState<DetailTab>("details");
   const { overview, loading: overviewLoading } = useOverview(title, lang);
+  usePageMeta(
+    title && {
+      title: t("meta.titleTitle", { name: name(title), year: title.releaseDate.slice(0, 4) }),
+      description: t("meta.titleDescription", { name: name(title), year: title.releaseDate.slice(0, 4) }),
+      canonical: `/t/${title.id}`,
+    },
+    t("meta.siteDescription"),
+  );
 
   if (!ready) return <p className="py-16 text-center text-muted">…</p>;
-  if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
+  if (!title) return <Missing message={t("title.notFound")} />;
 
   const appearances = index.franchisesByTitle.get(title.id) ?? [];
   const inRoutes = index.routesByTitle.get(title.id) ?? [];

@@ -1,4 +1,6 @@
 import { create } from "zustand";
+import { FIREBASE_CONFIGURED } from "./firebaseConfig";
+import { track } from "./analytics";
 import type { Profile } from "./cloud";
 import {
   guestAchievementsBackend,
@@ -91,6 +93,7 @@ function cloud() {
 
 /** Adelanta la descarga de Firebase donde es probable iniciar sesión (Cuenta, invitación). */
 export function preloadAccount() {
+  if (!FIREBASE_CONFIGURED) return;
   void cloud().catch(report);
 }
 
@@ -100,7 +103,7 @@ let started = false;
 export function startSession() {
   if (started) return;
   started = true;
-  if (hasAccountHint()) void cloud().catch(report);
+  if (FIREBASE_CONFIGURED && hasAccountHint()) void cloud().catch(report);
   else enterGuest();
 }
 
@@ -154,6 +157,7 @@ export async function deleteProfile(pid: string) {
 
 /** Login con Google: popup, o redirect en la PWA instalada y si el popup está bloqueado. */
 export async function signIn() {
+  track("sign_in_started");
   return (await cloud()).signIn();
 }
 

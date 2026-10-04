@@ -2,11 +2,31 @@
 // Sin base de datos ni datos personales; se recorta todo por seguridad y no se confía en el cuerpo.
 const clip = (value: unknown, max: number) => (typeof value === "string" ? value.slice(0, max) : undefined);
 
+/** GET /api/health (reescrito a /api/log): 200 si la función responde, para un monitor de uptime. */
+export function GET(): Response {
+  return new Response(JSON.stringify({ ok: true, time: new Date().toISOString() }), {
+    headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" },
+  });
+}
+
 export async function POST(request: Request): Promise<Response> {
   try {
     const raw = await request.text();
     if (raw.length > 8_000) return new Response(null, { status: 413 });
     const body = JSON.parse(raw) as Record<string, unknown>;
+    // Violaciones de la CSP en modo "report-only" (vercel.json): mismo destino, para ajustarla antes de aplicarla.
+    const csp = body["csp-report"] as Record<string, unknown> | undefined;
+    if (csp && typeof csp === "object") {
+      console.warn(
+        "[csp-report]",
+        JSON.stringify({
+          directive: clip(csp["violated-directive"], 80),
+          blocked: clip(csp["blocked-uri"], 200),
+          page: clip(csp["document-uri"], 200),
+        }),
+      );
+      return new Response(null, { status: 204 });
+    }
     console.error(
       "[client-error]",
       JSON.stringify({

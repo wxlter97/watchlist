@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { track } from "../lib/analytics";
 import { Link } from "react-router";
 import { useCatalogIndex } from "../lib/catalog";
 import { useLang } from "../lib/i18n";
@@ -23,6 +24,7 @@ export function ShareLinkButton({ target, title, label }: { target: ShareTarget;
     const { progress, franchiseState } = useProgressStore.getState();
     const snapshot = buildSnapshot(target, { index, progress, franchiseState });
     if (!snapshot) return;
+    track("share_created", { kind: target.kind });
     setShare(publishShare({ uid: user.uid, profileId: profile.id, name: profile.name }, target, { title, lang, snapshot }));
   };
 

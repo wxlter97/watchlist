@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { track } from "./analytics";
 import type { Lang } from "./types";
 
 // Ajustes del usuario (SPEC §6, users/{uid}.settings). En invitado viven en localStorage;
@@ -90,6 +91,7 @@ export function updateSettings(patch: Partial<Settings>) {
 
 export function toggleFollow(franchiseId: string) {
   const current = useSettings.getState().followedFranchises;
+  if (!current.includes(franchiseId)) track("follow_franchise", { franchise_id: franchiseId });
   updateSettings({
     followedFranchises: current.includes(franchiseId) ? current.filter((id) => id !== franchiseId) : [...current, franchiseId],
   });
@@ -105,5 +107,6 @@ export function setExternalLink(key: keyof ExternalLinks, value: boolean) {
 }
 
 export function setNotification(key: keyof NotificationSettings, value: boolean) {
+  if (value) track("notifications_enabled", { type: key });
   updateSettings({ notifications: { ...useSettings.getState().notifications, [key]: value } });
 }

@@ -6,6 +6,7 @@ import { useCatalog, withReferences } from "../../lib/catalog";
 import { groupTitles, inviteUrl, memberCounts, nextTogether, type GroupDoc } from "../../lib/groups";
 import { deleteGroup, regenerateInvite, removeMember, setWatchedTogether } from "../../lib/groupsCloud";
 import { useGroupProgress, useGroupsStore } from "../../lib/groupsStore";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { isReleased, todayIso } from "../../lib/progress";
 import { selectProfile, useSession } from "../../lib/session";
@@ -17,7 +18,7 @@ export function GroupPage() {
   const group = useGroupsStore((s) => s.groups.find((g) => g.id === groupId));
   const loaded = useGroupsStore((s) => s.loaded);
   if (!group) {
-    return <p className="py-16 text-center text-muted">{loaded ? t("groups.notFound") : "…"}</p>;
+    return loaded ? <Missing message={t("groups.notFound")} /> : <p className="py-16 text-center text-muted">…</p>;
   }
   return <GroupDetail group={group} />;
 }

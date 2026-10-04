@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { Button } from "../../components/ui";
-import { ADS_ENABLED, setConsent, useConsent } from "../../lib/consent";
+import { CONSENT_NEEDED, setConsent, useConsent } from "../../lib/consent";
 import { useLang } from "../../lib/i18n";
 
 interface Section {
@@ -31,7 +31,7 @@ function LegalPage({ kind }: { kind: "privacy" | "terms" }) {
           ))}
         </section>
       ))}
-      {kind === "privacy" && ADS_ENABLED && (
+      {kind === "privacy" && CONSENT_NEEDED && (
         <section className="space-y-2">
           <h2 className="display text-[22px]">{t("legal.privacy.adsChoice")}</h2>
           <p className="text-fg-soft">{consent === "granted" ? t("consent.accept") : consent === "denied" ? t("consent.reject") : "—"}</p>

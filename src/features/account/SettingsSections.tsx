@@ -1,7 +1,9 @@
 import { useRef, useState, type ReactNode } from "react";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
 import { Button, Notice, SectionLabel, SelectField, Tabs, Toggle } from "../../components/ui";
-import { backupFileName, buildBackup, parseBackup } from "../../lib/backup";
+import { useAchievementsStore } from "../../lib/achievementsStore";
+import { backupFileName, buildBackup, buildFullExport, fullExportFileName, parseBackup } from "../../lib/backup";
+import { usePlansStore } from "../../lib/plansStore";
 import { LANGS, useLang } from "../../lib/i18n";
 import { planMigration } from "../../lib/migrate";
 import { useProgressStore, type ProgressData } from "../../lib/progressStore";
@@ -16,6 +18,20 @@ const REGIONS = [
   "AR", "BO", "BR", "CA", "CL", "CO", "CR", "DE", "DO", "EC", "ES", "FR", "GB", "GT", "HN", "IT",
   "MX", "NI", "PA", "PE", "PR", "PT", "PY", "SV", "US", "UY", "VE",
 ];
+
+/**
+ * Baja un JSON. El enlace va en la página y la URL se libera un poco después: con el enlace suelto o
+ * liberada al instante, algunos navegadores pierden la descarga.
+ */
+function downloadJson(data: unknown, fileName: string) {
+  const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }));
+  const a = Object.assign(document.createElement("a"), { href: url, download: fileName });
+  a.hidden = true;
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 10_000);
+}
 
 function Row({ label, hint, children }: { label: string; hint?: string; children: ReactNode }) {
   return (
@@ -100,11 +116,21 @@ export function DataSection() {
 
   const exportData = () => {
     const { progress, franchiseState } = useProgressStore.getState();
-    const blob = new Blob([JSON.stringify(buildBackup(profileName, { progress, franchiseState }), null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = Object.assign(document.createElement("a"), { href: url, download: backupFileName(profileName) });
-    a.click();
-    URL.revokeObjectURL(url);
+    downloadJson(buildBackup(profileName, { progress, franchiseState }), backupFileName(profileName));
+  };
+
+  const exportEverything = () => {
+    const { progress, franchiseState } = useProgressStore.getState();
+    const { user } = useSession.getState();
+    const everything = buildFullExport(profileName, {
+      progress,
+      franchiseState,
+      plans: usePlansStore.getState().plans,
+      achievements: useAchievementsStore.getState().unlocked,
+      settings: useSettings.getState(),
+      account: user ? { name: user.displayName, email: user.email } : null,
+    });
+    downloadJson(everything, fullExportFileName(profileName));
   };
 
   const readFile = async (file: File) => {
@@ -153,6 +179,7 @@ export function DataSection() {
         <div className="flex flex-wrap gap-2">
           <Button onClick={exportData}>{t("backup.export")}</Button>
           <Button onClick={() => fileInput.current?.click()}>{t("backup.import")}</Button>
+          <Button onClick={exportEverything}>{t("backup.exportAll")}</Button>
           <input
             ref={fileInput}
             type="file"
@@ -167,6 +194,7 @@ export function DataSection() {
             }}
           />
         </div>
+        <p className="text-xs leading-[1.5] text-fg-soft">{t("backup.exportAllHint")}</p>
         {error && (
           <Notice tone="error">
             <p>{error}</p>
