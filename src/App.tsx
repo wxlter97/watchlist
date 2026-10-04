@@ -52,6 +52,7 @@ const PrivacyPage = page(() => import("./features/legal/LegalPage"), "PrivacyPag
 const TermsPage = page(() => import("./features/legal/LegalPage"), "TermsPage");
 const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
+import { trackPageView } from "./lib/analytics";
 import { applyMeta, isPrivatePath } from "./lib/meta";
 import { restoreScroll, savedScroll, setCurrentKey, trackScroll } from "./lib/scroll";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
@@ -149,6 +150,8 @@ function Layout() {
 
   // Meta base de cada ruta, antes de que la página (efecto pasivo) ponga la suya: un layout effect
   // corre antes que cualquier useEffect.
+  useEffect(() => trackPageView(pathname), [pathname]);
+
   useLayoutEffect(() => {
     const site = t("meta.siteDescription");
     const pageKey = PAGE_TITLES["/" + pathname.split("/")[1]];
@@ -235,7 +238,12 @@ function Layout() {
           {t("about.madeBy")}
         </a>
         <DonateLink />
-        <p>{t("about.tmdb")}</p>
+        <p className="flex flex-wrap items-center gap-x-3 gap-y-2">
+          <a href="https://www.themoviedb.org" target="_blank" rel="noopener" className="shrink-0">
+            <img src="/tmdb-logo.svg" alt="TMDB" width={74} height={32} loading="lazy" className="h-6 w-auto" />
+          </a>
+          <span className="min-w-0 flex-1">{t("about.tmdb")}</span>
+        </p>
         <a href="mailto:work@wxlter.dev?subject=Watch%20Order" className="self-start underline">
           {t("about.report")}
         </a>

@@ -1,5 +1,6 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router";
+import { track } from "../../lib/analytics";
 import { FranchiseCard } from "../../components/FranchiseCard";
 import { TitleRow } from "../../components/TitleRow";
 import { SearchIcon, SectionLabel } from "../../components/ui";
@@ -25,6 +26,13 @@ export function SearchPage() {
     return () => clearTimeout(timer);
   }, [catalog.ready, hasResults, deferred]);
   const empty = deferred.trim() && !results.titles.length && !results.franchises.length && !results.routes.length;
+
+  // Qué se busca y no está en el catálogo: guía qué franquicias agregar.
+  useEffect(() => {
+    if (!catalog.ready || !empty) return;
+    const timer = setTimeout(() => track("search_no_results", { term: deferred.trim().toLowerCase().slice(0, 40) }), 1500);
+    return () => clearTimeout(timer);
+  }, [catalog.ready, empty, deferred]);
 
   return (
     <div className="pt-6">

@@ -730,7 +730,8 @@
           "h": "Third-party services",
           "p": [
             "Google Firebase (sign-in, database and push notifications), Vercel (hosting; temporarily logs IP addresses) and TMDB (catalog, synopses and posters: your browser requests images directly from image.tmdb.org, and \"where to watch\" uses JustWatch data via TMDB).",
-            "If ads are enabled, Google AdSense may use cookies or identifiers to serve them, only if you accept in the consent notice. You can change your choice below at any time."
+            "If ads are enabled, Google AdSense may use cookies or identifiers to serve them, only if you accept in the consent notice. You can change your choice below at any time.",
+            "If usage measurement is on, Google Analytics 4 counts page views and actions (for example, following a franchise or marking a title as watched) using Google cookies, only if you accept in the consent notice. We do not send your account, your email or the detail of your progress, and we do not use Google signals or ad personalization. If you reject or withdraw it, nothing is loaded or sent."
           ]
         },
         {
@@ -822,7 +823,8 @@
     }
   },
   "consent": {
-    "text": "We use ads to keep Watch Order running. Do you allow Google advertising cookies and identifiers? You can change this anytime in Privacy.",
+    "textAds": "We use ads and usage measurement (Google Analytics) to keep Watch Order running and improve it. Do you allow Google cookies and identifiers? You can change this anytime in Privacy.",
+    "textAnalytics": "We use Google Analytics to learn which parts of Watch Order get used so we can improve them. It only measures page views and actions, never your account or your progress. Do you allow its cookies? You can change this anytime in Privacy.",
     "accept": "Accept",
     "reject": "Reject"
   },

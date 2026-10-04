@@ -16,6 +16,10 @@ Lo automático corre en CI (`check`, `e2e`, `rules`). Esto es lo que falta hacer
 - [ ] Search Console y Bing Webmaster: verificar el dominio y enviar `/sitemap.xml`.
 - [ ] Revisar `[csp-report]` en los logs unos días y pasar `Content-Security-Policy-Report-Only`
       a `Content-Security-Policy` en `vercel.json`.
+- [ ] Google Analytics 4: crear la propiedad y el flujo web, poner el ID (`G-…`) en `VITE_GA_ID`
+      (Production). En Admin: aceptar los *Data Processing Terms*, retención de datos en 2 meses,
+      desactivar *Google signals* y marcar los eventos `first_title_watched`, `follow_franchise`
+      y `install_accepted` como eventos clave. Sin el aviso aceptado no se carga ni se envía nada.
 - [ ] Con anuncios: `VITE_ADS_CLIENT`, `VITE_ADS_SLOT_HUB`, `public/ads.txt`.
 
 ## Prueba manual en dispositivos (cada versión importante)

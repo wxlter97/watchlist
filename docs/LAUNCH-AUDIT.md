@@ -25,6 +25,12 @@ Hecho en código (las tablas de abajo describen el estado **antes** de esta pasa
 - **Legal/soporte:** política con base legal, transferencias y retención de logs; Términos con
   donaciones y reporte de abusos; enlace "Contacto y reportes" (mailto work@wxlter.dev) en el pie (correo work@wxlter.dev).
 
+- **Analytics:** GA4 con consentimiento previo (`src/lib/analytics.ts`, `VITE_GA_ID`): páginas vistas
+  y los eventos `follow_franchise`, `title_watched`, `first_title_watched` (activación),
+  `sign_in_started`, `install_accepted`/`install_dismissed`, `notifications_enabled`,
+  `share_created` y `search_no_results`. Sin señales de Google ni datos de cuenta; política y aviso
+  actualizados. **Logo de TMDB** en el pie.
+
 Sigue pendiente (decisión o acción tuya): dominio definitivo (`VITE_SITE_URL`), pasar la CSP a
 enforce tras revisar los reportes, rate limiting en Vercel Firewall, uptime monitor sobre
 `/api/health`, analytics, logo de TMDB, correo de contacto, exportación completa de datos y los

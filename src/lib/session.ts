@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { track } from "./analytics";
 import type { Profile } from "./cloud";
 import {
   guestAchievementsBackend,
@@ -154,6 +155,7 @@ export async function deleteProfile(pid: string) {
 
 /** Login con Google: popup, o redirect en la PWA instalada y si el popup está bloqueado. */
 export async function signIn() {
+  track("sign_in_started");
   return (await cloud()).signIn();
 }
 
