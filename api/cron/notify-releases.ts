@@ -32,7 +32,14 @@ export async function GET(request: Request): Promise<Response> {
       followed.forEach(franchise);
       const lang: Lang = settings.language === "en" ? "en" : "es";
       const message = releasesMessage(releasesDue(followed, franchises, titles, today), titles, lang, today);
-      if (message) sent += await sendToUser(user.id, message).catch(() => 0);
+      if (!message) continue;
+      // Un reintento del cron el mismo día no repite el aviso: se reserva el día antes de enviar.
+      const marker = adminDb().doc(`system/releases/sent/${today}_${user.id}`);
+      const reserved = await marker.create({ at: new Date() }).then(() => true, () => false);
+      if (!reserved) continue;
+      const delivered = await sendToUser(user.id, message).catch(() => 0);
+      if (delivered === 0) await marker.delete().catch(() => undefined);
+      sent += delivered;
     }
     return json({ users: users.size, sent });
   } catch (err) {

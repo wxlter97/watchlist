@@ -7,6 +7,19 @@ export async function POST(request: Request): Promise<Response> {
     const raw = await request.text();
     if (raw.length > 8_000) return new Response(null, { status: 413 });
     const body = JSON.parse(raw) as Record<string, unknown>;
+    // Violaciones de la CSP en modo "report-only" (vercel.json): mismo destino, para ajustarla antes de aplicarla.
+    const csp = body["csp-report"] as Record<string, unknown> | undefined;
+    if (csp && typeof csp === "object") {
+      console.warn(
+        "[csp-report]",
+        JSON.stringify({
+          directive: clip(csp["violated-directive"], 80),
+          blocked: clip(csp["blocked-uri"], 200),
+          page: clip(csp["document-uri"], 200),
+        }),
+      );
+      return new Response(null, { status: 204 });
+    }
     console.error(
       "[client-error]",
       JSON.stringify({

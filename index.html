@@ -53,6 +53,7 @@
     <script>
       (function () {
         var hero = document.getElementById("shell-hero");
+        if (!hero) return;
         if (location.pathname !== "/") return hero.remove();
         var lang;
         try { lang = localStorage.getItem("watch-order:lang"); } catch (e) {}

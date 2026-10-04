@@ -259,6 +259,24 @@ export function wrappedCard(
 
 export const OG = { width: 1200, height: 630 };
 
+/** Vista previa Open Graph de una página pública (portada o franquicia, 1200×630). */
+export function pageCard(lang: Lang, d: { title: string; subtitle: string; accent: string }): El {
+  const fg = onColor(d.accent);
+  return frame(
+    lang,
+    d.accent,
+    fg,
+    h(
+      "div",
+      { style: { display: "flex", flexDirection: "column", gap: 24 } },
+      label("Watch Order", fg),
+      display(d.title, Math.min(96, fit(d.title, 108))),
+      h("div", { style: { display: "flex", fontSize: 34, lineHeight: 1.3, maxWidth: 1000 } }, d.subtitle),
+    ),
+    OG,
+  );
+}
+
 /** Vista previa Open Graph de un link compartido (1200×630). */
 export function shareCard(
   lang: Lang,

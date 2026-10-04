@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type satoriType from "satori";
 import type { Achievement, Lang, LocalizedText } from "../src/lib/types.js";
-import { achievementCard, franchiseCard, OG, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards.js";
+import { achievementCard, franchiseCard, OG, pageCard, shareCard, SIZE, statsCard, wrappedCard, type El } from "./_lib/cards.js";
 import { FONT_FILES } from "./_lib/fonts.js";
 import { loadShare } from "./_lib/shares.js";
 import { errorResponse, HttpError } from "./_lib/tmdb.js";
@@ -81,6 +81,20 @@ async function buildCard(params: URLSearchParams): Promise<{ card: El; size: { w
       watched: share.snapshot.watched.length,
       total: share.snapshot.titleIds.length,
     });
+    return { card, size: OG };
+  }
+  if (params.get("kind") === "page") {
+    // Portada (sin f) o página de franquicia: solo datos del catálogo.
+    const lang: Lang = params.get("lang") === "en" ? "en" : "es";
+    const f = slug(params, "f", true);
+    const fr = f ? (franchise(f) as { name: LocalizedText; description?: LocalizedText; accentColor: string }) : undefined;
+    const card = fr
+      ? pageCard(lang, { title: localize(fr.name, lang), subtitle: localize(fr.description, lang), accent: fr.accentColor })
+      : pageCard(lang, {
+          title: lang === "es" ? "Tus sagas, en el orden que prefieras." : "Your sagas, in the order you like.",
+          subtitle: lang === "es" ? "Sigue franquicias de cine y TV: estreno, cronológico y rutas." : "Follow movie and TV franchises: release, chronological and routes.",
+          accent: "#FFDB00",
+        });
     return { card, size: OG };
   }
   return { card: buildSquare(params), size: { width: SIZE, height: SIZE } };
@@ -166,7 +180,7 @@ export async function GET(request: Request): Promise<Response> {
         // Tarjetas: mismos parámetros, misma imagen. Links: la URL lleva v=updatedAt, pero
         // uno revocado debe dejar de verse pronto.
         "Cache-Control":
-          params.get("kind") === "share"
+          params.get("kind") === "share" || params.get("kind") === "page"
             ? "public, max-age=300, s-maxage=3600"
             : "public, max-age=86400, s-maxage=31536000, immutable",
       },

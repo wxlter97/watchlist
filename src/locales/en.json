@@ -119,7 +119,8 @@
   },
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
-    "madeBy": "Made by wxlter."
+    "madeBy": "Made by wxlter.",
+    "report": "Report a problem"
   },
   "common": {
     "cancel": "Cancel",
@@ -221,7 +222,16 @@
     "removeRecent": "Remove “{{query}}” from recent"
   },
   "meta": {
-    "locale": "en-US"
+    "locale": "en-US",
+    "siteTitle": "Watch Order — Your sagas, in the order you like",
+    "siteDescription": "Follow movie and TV franchises in the order you like: release, chronological and routes. Free, no ads.",
+    "franchiseTitle": "{{name}}: what order to watch | Watch Order",
+    "franchiseDescription": "What order to watch {{name}}: {{count}} titles by release date, chronological and routes, with your progress.",
+    "titleTitle": "{{name}} ({{year}}) | Watch Order",
+    "titleDescription": "{{name}} ({{year}}): where it fits in the watch order, cast and where to watch.",
+    "routeTitle": "{{route}} · {{franchise}} | Watch Order",
+    "pageTitle": "{{page}} | Watch Order",
+    "notFound": "We couldn't find this page | Watch Order"
   },
   "toast": {
     "watched": "You marked “{{title}}” as watched.",
@@ -688,7 +698,7 @@
     "empty": "Nothing comes before this title in chronological order."
   },
   "legal": {
-    "updated": "Last updated: September 30, 2026",
+    "updated": "Last updated: October 4, 2026",
     "back": "← Back",
     "privacyLink": "Privacy",
     "termsLink": "Terms",
@@ -728,9 +738,15 @@
           ]
         },
         {
+          "h": "Legal basis and transfers",
+          "p": [
+            "We process your data because you need it to use your account (performance of the service), because you give us permission (push notifications, ads) and because of our legitimate interest in keeping the app secure and working (error logging). The providers above may process data in the United States and other countries, under their own contractual safeguards."
+          ]
+        },
+        {
           "h": "How long",
           "p": [
-            "While you have an account. Signing out clears the device's local cache. Deleting a profile removes its progress."
+            "While you have an account. Signing out clears the device's local cache. Deleting a profile removes its progress. Error and access logs stay on Vercel for as long as that service keeps them (days, not months)."
           ]
         },
         {
@@ -783,6 +799,18 @@
           ]
         },
         {
+          "h": "Donations",
+          "p": [
+            "If you see a link to buy me a coffee, it is a voluntary contribution through an external service: it is not a purchase, it does not unlock features and I do not refund it."
+          ]
+        },
+        {
+          "h": "Reporting a problem or abuse",
+          "p": [
+            "If you find a bug, or a shared link or group that breaks these terms, let me know with \"Report a problem\" at the bottom of the page. I may disable links and groups that abuse the service."
+          ]
+        },
+        {
           "h": "Changes and ending",
           "p": [
             "We may change or remove features. You can stop using the app and delete your account at any time."
@@ -795,6 +823,11 @@
     "text": "We use ads to keep Watch Order running. Do you allow Google advertising cookies and identifiers? You can change this anytime in Privacy.",
     "accept": "Accept",
     "reject": "Reject"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "This address doesn't exist or is no longer available.",
+    "home": "Go home"
   },
   "errors": {
     "title": "Something went wrong",

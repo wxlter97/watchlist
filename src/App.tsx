@@ -4,6 +4,7 @@ import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation, useNavi
 import { lazy, Suspense, useEffect, useLayoutEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { DonateLink } from "./components/DonateLink";
+import { NotFound } from "./components/NotFound";
 import { Toaster } from "./components/Toaster";
 import { HubPage } from "./features/hub/HubPage";
 
@@ -51,6 +52,7 @@ const PrivacyPage = page(() => import("./features/legal/LegalPage"), "PrivacyPag
 const TermsPage = page(() => import("./features/legal/LegalPage"), "TermsPage");
 const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
+import { applyMeta, isPrivatePath } from "./lib/meta";
 import { restoreScroll, savedScroll, setCurrentKey, trackScroll } from "./lib/scroll";
 import { dismissMigration, migrateGuestProgress, useSession } from "./lib/session";
 
@@ -124,10 +126,38 @@ function Banners() {
   );
 }
 
+/** Título de las pantallas que no son del catálogo (el resto lo fija cada página con usePageMeta). */
+const PAGE_TITLES: Record<string, string> = {
+  "/search": "search.title",
+  "/stats": "stats.title",
+  "/plans": "planner.title",
+  "/account": "account.title",
+  "/achievements": "achievements.title",
+  "/groups": "groups.title",
+  "/join": "groups.title",
+  "/compare": "compare.title",
+  "/wrapped": "wrapped.title",
+  "/map": "graph.title",
+  "/privacy": "legal.privacy.title",
+  "/terms": "legal.terms.title",
+};
+
 function Layout() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const { pathname, key } = useLocation();
   const navigationType = useNavigationType();
+
+  // Meta base de cada ruta, antes de que la página (efecto pasivo) ponga la suya: un layout effect
+  // corre antes que cualquier useEffect.
+  useLayoutEffect(() => {
+    const site = t("meta.siteDescription");
+    const pageKey = PAGE_TITLES["/" + pathname.split("/")[1]];
+    if (pathname === "/") applyMeta({ title: t("meta.siteTitle"), canonical: "/" }, site);
+    else if (pageKey) {
+      const isPrivate = isPrivatePath(pathname);
+      applyMeta({ title: t("meta.pageTitle", { page: t(pageKey) }), noindex: isPrivate, canonical: isPrivate ? undefined : pathname }, site);
+    } else applyMeta({ title: t("meta.siteTitle") }, site);
+  }, [pathname, lang, t]);
 
   // El navegador no restaura el scroll de una SPA: se guarda mientras te desplazas y se
   // restaura al volver con "atrás"; en una entrada nueva se empieza arriba. Un reemplazo (?nivel=) no mueve nada.
@@ -206,6 +236,9 @@ function Layout() {
         </a>
         <DonateLink />
         <p>{t("about.tmdb")}</p>
+        <a href="https://github.com/wxlter97/watchlist/issues/new" target="_blank" rel="noopener" className="self-start underline">
+          {t("about.report")}
+        </a>
         <p className="flex gap-4">
           <Link to="/privacy" className="underline">
             {t("legal.privacyLink")}
@@ -250,7 +283,7 @@ const router = createBrowserRouter([
       { path: "plans/new", element: <PlanEditor /> },
       { path: "plans/:planId", element: <PlanPage /> },
       { path: "plans/:planId/edit", element: <PlanEditor /> },
-      { path: "*", element: <HubPage /> },
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);

@@ -32,6 +32,15 @@ function apiDevServer(): Plugin {
           url.searchParams.set("lang", shared[1]!);
           url.searchParams.set("id", shared[2]!);
         }
+        // Igual que los rewrites de vercel.json para el SEO: /f/{id}, /t/{id}, sitemap, robots y llms.
+        const page = /^\/([ft])\/([a-z0-9-]+)$/.exec(url.pathname);
+        if (page) {
+          url.pathname = "/api/page";
+          url.searchParams.set("type", page[1]!);
+          url.searchParams.set("id", page[2]!);
+        }
+        const alias = { "/sitemap.xml": "/api/sitemap", "/robots.txt": "/api/robots", "/llms.txt": "/api/llms" }[url.pathname];
+        if (alias) url.pathname = alias;
         const match = /^\/api\/([a-z0-9-]+)(?:\/([^/]+))?$/.exec(url.pathname);
         if (!match) return next();
         // /api/groups/join → api/groups/join.ts si existe; si no, como el rewrite de vercel.json:
@@ -197,6 +206,58 @@ function catalogData(): Plugin {
   };
 }
 
+/**
+ * Metadatos de la portada en el HTML estático (el resto de páginas públicas las arma
+ * api/page.ts): canonical y Open Graph con URL absoluta, Twitter Card y JSON-LD. El dominio sale
+ * de SITE_URL / VITE_SITE_URL o, en Vercel, del dominio de producción; sin él se omite lo
+ * que necesita URL absoluta.
+ */
+function seoHead(): Plugin {
+  return {
+    name: "watch-order-seo-head",
+    transformIndexHtml(html) {
+      const configured = process.env.SITE_URL ?? process.env.VITE_SITE_URL;
+      const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
+      const site = (configured ?? (vercel ? `https://${vercel}` : "")).replace(/\/+$/, "");
+      const title = "Watch Order — Tus sagas, en el orden que prefieras";
+      const description = "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis, sin anuncios.";
+      const tags = [
+        { tag: "meta", attrs: { property: "og:type", content: "website" } },
+        { tag: "meta", attrs: { property: "og:site_name", content: "Watch Order" } },
+        { tag: "meta", attrs: { property: "og:title", content: title } },
+        { tag: "meta", attrs: { property: "og:description", content: description } },
+        { tag: "meta", attrs: { property: "og:locale", content: "es_MX" } },
+        { tag: "meta", attrs: { name: "twitter:card", content: "summary_large_image" } },
+        ...(site
+          ? [
+              { tag: "link", attrs: { rel: "canonical", href: `${site}/` } },
+              { tag: "meta", attrs: { property: "og:url", content: `${site}/` } },
+              { tag: "meta", attrs: { property: "og:image", content: `${site}/api/og?kind=page&lang=es` } },
+              { tag: "meta", attrs: { property: "og:image:width", content: "1200" } },
+              { tag: "meta", attrs: { property: "og:image:height", content: "630" } },
+            ]
+          : []),
+        {
+          tag: "script",
+          attrs: { type: "application/ld+json" },
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            name: "Watch Order",
+            description,
+            applicationCategory: "EntertainmentApplication",
+            operatingSystem: "Any",
+            inLanguage: ["es", "en"],
+            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            ...(site ? { url: `${site}/` } : {}),
+          }),
+        },
+      ];
+      return { html: html.replace(/<title>[^<]*<\/title>/, `<title>${title}</title>`), tags: tags as never };
+    },
+  };
+}
+
 export default defineConfig(({ mode }) => {
   // Variables sin prefijo VITE_ (TMDB_API_KEY…) solo para las funciones en desarrollo;
   // nunca entran al bundle del cliente.
@@ -205,6 +266,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       apiDevServer(),
+      seoHead(),
       catalogData(),
       react(),
       tailwindcss(),
