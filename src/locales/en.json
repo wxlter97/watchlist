@@ -131,6 +131,7 @@
     "title": "Account & settings",
     "guest": "Guest mode",
     "guestBody": "Your progress lives only on this device. Sign in with Google to sync it across devices and have several profiles. What you marked as a guest can be moved to your account.",
+    "unconfigured": "Sign-in isn't set up on this installation. You can keep using the app as a guest: your progress is saved on this device.",
     "signIn": "Sign in with Google",
     "signOut": "Sign out",
     "signedInAs": "Signed in as",

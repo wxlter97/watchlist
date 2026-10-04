@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { FIREBASE_CONFIGURED } from "./firebaseConfig";
 import { track } from "./analytics";
 import type { Profile } from "./cloud";
 import {
@@ -92,6 +93,7 @@ function cloud() {
 
 /** Adelanta la descarga de Firebase donde es probable iniciar sesión (Cuenta, invitación). */
 export function preloadAccount() {
+  if (!FIREBASE_CONFIGURED) return;
   void cloud().catch(report);
 }
 
@@ -101,7 +103,7 @@ let started = false;
 export function startSession() {
   if (started) return;
   started = true;
-  if (hasAccountHint()) void cloud().catch(report);
+  if (FIREBASE_CONFIGURED && hasAccountHint()) void cloud().catch(report);
   else enterGuest();
 }
 

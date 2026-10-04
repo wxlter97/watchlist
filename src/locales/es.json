@@ -131,6 +131,7 @@
     "title": "Cuenta y ajustes",
     "guest": "Modo invitado",
     "guestBody": "Tu progreso vive solo en este dispositivo. Entra con Google para sincronizarlo entre dispositivos y tener varios perfiles. Lo que marcaste como invitado se puede pasar a tu cuenta.",
+    "unconfigured": "El inicio de sesión no está configurado en esta instalación. Puedes seguir usando la app como invitado: tu progreso se guarda en este dispositivo.",
     "signIn": "Entrar con Google",
     "signOut": "Cerrar sesión",
     "signedInAs": "Sesión iniciada como",

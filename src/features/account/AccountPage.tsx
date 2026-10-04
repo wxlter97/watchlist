@@ -4,6 +4,7 @@ import { InstallSection } from "../../components/InstallPrompt";
 import { DonateLink } from "../../components/DonateLink";
 import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
+import { FIREBASE_CONFIGURED } from "../../lib/firebaseConfig";
 import { useLang } from "../../lib/i18n";
 import { DataSection, NotificationsSection, Preferences } from "./SettingsSections";
 import { SharesSection } from "./SharesSection";
@@ -72,9 +73,15 @@ function GuestCard({ loading }: { loading: boolean }) {
         <div className="label border-b-2 border-line bg-faro px-3.5 py-2.5 font-bold text-tinta">{t("account.guest")}</div>
         <div className="space-y-4 p-4">
           <p className="max-w-[58ch] leading-[1.55] text-fg-soft">{t("account.guestBody")}</p>
-          <Button variant="primary" disabled={loading} onClick={() => void signIn()}>
-            {t("account.signIn")}
-          </Button>
+          {FIREBASE_CONFIGURED ? (
+            <Button variant="primary" disabled={loading} onClick={() => void signIn()}>
+              {t("account.signIn")}
+            </Button>
+          ) : (
+            <Notice>
+              <p>{t("account.unconfigured")}</p>
+            </Notice>
+          )}
         </div>
       </div>
       <AuthError />
