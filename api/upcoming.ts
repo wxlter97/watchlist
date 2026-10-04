@@ -25,6 +25,7 @@ export interface UpcomingItem {
 const DATA = join(process.cwd(), "src", "data");
 const read = <T,>(path: string): T => JSON.parse(readFileSync(join(DATA, path), "utf8")) as T;
 const DAYS = 365;
+const MAX_FRANCHISES = 80;
 
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const out: R[] = [];
@@ -43,7 +44,8 @@ async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promis
 export async function GET(request: Request): Promise<Response> {
   try {
     const ids = (new URL(request.url).searchParams.get("franchise") ?? "").split(",").filter(Boolean);
-    if (!ids.length || ids.length > 20 || !ids.every((id) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(id))) {
+    // Quien no sigue ninguna franquicia pide todas las del catálogo (hoy 44): el tope debe quedar por encima.
+    if (!ids.length || ids.length > MAX_FRANCHISES || !ids.every((id) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(id))) {
       throw new HttpError(400, "franchise: uno o más ids separados por comas");
     }
 
