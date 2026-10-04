@@ -33,8 +33,9 @@ export function useFranchiseView(franchiseId: string | undefined) {
   );
   const visibleItems = useMemo(() => applyFilters(items, filters, isWatched), [items, filters, isWatched]);
 
-  // El progreso es de la franquicia (continuidades visibles), no del orden: un orden curado
-  // incluye solo algunos títulos. "Siguiente" sí sigue el orden activo (SPEC §8.1).
+  // El progreso del orden activo (lo que se ve en la lista) y, aparte, el de toda la franquicia
+  // (continuidades visibles): un orden curado incluye solo algunos títulos y, si solo se mostrara
+  // el de la franquicia, el porcentaje no cambiaría al cambiar de orden.
   const allItems = useMemo(
     () =>
       franchise
@@ -44,7 +45,8 @@ export function useFranchiseView(franchiseId: string | undefined) {
         : [],
     [franchise, order, items, index, hiddenContinuities],
   );
-  const summary = summarize(allItems, isWatched);
+  const summary = summarize(items, isWatched);
+  const franchiseSummary = summarize(allItems, isWatched);
   const today = todayIso();
   const next = nextUp(
     items.filter((i) => i.releaseDate <= today),
@@ -62,6 +64,8 @@ export function useFranchiseView(franchiseId: string | undefined) {
     visibleItems,
     filters,
     summary,
+    /** Toda la franquicia, sin importar el orden: igual a `summary` salvo en órdenes curados. */
+    franchiseSummary,
     next,
     hiddenContinuities,
     isWatched,
