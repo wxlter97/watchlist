@@ -50,6 +50,8 @@ const GroupsPage = page(() => import("./features/groups/GroupsPage"), "GroupsPag
 const JoinPage = page(() => import("./features/groups/JoinPage"), "JoinPage");
 const PrivacyPage = page(() => import("./features/legal/LegalPage"), "PrivacyPage");
 const TermsPage = page(() => import("./features/legal/LegalPage"), "TermsPage");
+const FaqPage = page(() => import("./features/content/ContentPage"), "FaqPage");
+const GuidePage = page(() => import("./features/content/ContentPage"), "GuidePage");
 const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
 import { trackPageView } from "./lib/analytics";
@@ -141,6 +143,8 @@ const PAGE_TITLES: Record<string, string> = {
   "/map": "graph.title",
   "/privacy": "legal.privacy.title",
   "/terms": "legal.terms.title",
+  "/faq": "content.faq.title",
+  "/guide": "content.guide.title",
 };
 
 function Layout() {
@@ -249,7 +253,13 @@ function Layout() {
         <a href="mailto:work@wxlter.dev?subject=Watch%20Order" className="self-start underline">
           {t("about.report")}
         </a>
-        <p className="flex gap-4">
+        <p className="flex flex-wrap gap-x-4 gap-y-1">
+          <Link to="/faq" className="underline">
+            {t("content.links.faq")}
+          </Link>
+          <Link to="/guide" className="underline">
+            {t("content.links.guide")}
+          </Link>
           <Link to="/privacy" className="underline">
             {t("legal.privacyLink")}
           </Link>
@@ -266,6 +276,8 @@ function Layout() {
 const appRoutes: RouteObject[] = [
   { path: "privacy", element: <PrivacyPage /> },
   { path: "terms", element: <TermsPage /> },
+  { path: "faq", element: <FaqPage /> },
+  { path: "guide", element: <GuidePage /> },
   { index: true, element: <HubPage /> },
   { path: "f/:franchiseId", element: <FranchisePage /> },
   { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },

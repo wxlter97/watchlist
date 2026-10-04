@@ -1,9 +1,19 @@
 // Metadatos y contenido público para buscadores y modelos de IA: la app es una SPA, así que las
 // páginas de franquicia y título salen de /api/page con el HTML real (ver api/page.ts).
-import { readdirSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Lang, LocalizedText } from "../../src/lib/types.js";
 import { localize, readData, titleName, titlesById, type ServerTitle } from "./catalog.js";
+
+export interface SeoRoute {
+  id: string;
+  kind: "character" | "theme" | "prep";
+  name: LocalizedText;
+  description: LocalizedText;
+  /** Títulos de la ruta; "loki-2021#2" es una sola temporada. */
+  titleIds: string[];
+  targetTitleId?: string;
+}
 
 export interface SeoFranchise {
   id: string;
@@ -11,6 +21,7 @@ export interface SeoFranchise {
   description: LocalizedText;
   accentColor: string;
   entries: { titleId: string }[];
+  routes: SeoRoute[];
 }
 
 export const esc = (s: string) =>
@@ -82,6 +93,17 @@ export const TEXT = {
 
 /** Las páginas en inglés viven bajo /en; el español, sin prefijo (es también el x-default). */
 export const prefixOf = (lang: Lang) => (lang === "en" ? "/en" : "");
+
+/** Textos de la app (src/locales): las páginas de contenido salen de aquí, igual que en el cliente. */
+export const readLocale = (lang: Lang) =>
+  JSON.parse(readFileSync(join(process.cwd(), "src", "locales", `${lang}.json`), "utf8")) as {
+    content: {
+      faq: { title: string; description: string; intro: string; items: { q: string; a: string }[] };
+      guide: { title: string; description: string; intro: string; sections: { h: string; p: string[] }[] };
+      links: { faq: string; guide: string };
+    };
+    routes: { kinds: Record<string, string> };
+  };
 
 export interface PageSeo {
   title: string;
@@ -170,6 +192,99 @@ export function titlePage(id: string, lang: Lang, origin: string): PageSeo {
   };
 }
 
+const ROUTE_TEXT = {
+  es: {
+    title: (route: string, franchise: string) => `${route} · ${franchise} | Watch Order`,
+    description: (desc: string, n: number) => `${desc} ${n} ${n === 1 ? "título" : "títulos"}, en orden y con tu progreso.`,
+    titles: "Títulos de la ruta",
+    inFranchise: "Más de",
+  },
+  en: {
+    title: (route: string, franchise: string) => `${route} · ${franchise} | Watch Order`,
+    description: (desc: string, n: number) => `${desc} ${n} ${n === 1 ? "title" : "titles"}, in order and with your progress.`,
+    titles: "Titles in this route",
+    inFranchise: "More from",
+  },
+} as const;
+
+/** Una ruta curada (/f/{franquicia}/r/{ruta}): su descripción y sus títulos, en orden. */
+export function routePage(franchiseId: string, routeId: string, lang: Lang, origin: string): PageSeo | undefined {
+  const f = readSeoFranchise(franchiseId);
+  const route = f.routes.find((r) => r.id === routeId);
+  if (!route) return undefined;
+  const titles = titlesById();
+  const t = ROUTE_TEXT[lang];
+  const p = prefixOf(lang);
+  const franchiseName = localize(f.name, lang);
+  const name = localize(route.name, lang);
+  const items = route.titleIds.flatMap((key) => {
+    const [titleId, season] = key.split("#");
+    const title = titles.get(titleId!);
+    return title ? [{ title, season: season ? Number(season) : undefined }] : [];
+  });
+  const label = (x: { title: ServerTitle; season?: number }) => `${titleName(x.title, lang)}${x.season ? ` · ${lang === "es" ? "Temporada" : "Season"} ${x.season}` : ""}`;
+  const description = t.description(localize(route.description, lang), items.length);
+  const path = `${p}/f/${franchiseId}/r/${routeId}`;
+  return {
+    title: t.title(name, franchiseName),
+    description,
+    path,
+    alternates: { es: `/f/${franchiseId}/r/${routeId}`, en: `/en/f/${franchiseId}/r/${routeId}` },
+    image: `${origin}/api/og?kind=page&lang=${lang}&f=${franchiseId}`,
+    body: `<section><h1>${esc(name)}</h1><p>${esc(description)}</p><h2>${t.titles}</h2><ol>${items
+      .map((x) => `<li><a href="${p}/t/${esc(x.title.id)}">${esc(label(x))}</a> (${year(x.title)})</li>`)
+      .join("")}</ol><p><a href="${p}/f/${esc(franchiseId)}">${t.inFranchise} ${esc(franchiseName)}</a></p></section>`,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name,
+        description,
+        url: `${origin}${path}`,
+        inLanguage: lang,
+        numberOfItems: items.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: items.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: `${origin}${p}/t/${x.title.id}`, name: label(x) })),
+      },
+      breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", p || "/"], [franchiseName, `${p}/f/${franchiseId}`], [name, path]]),
+    ],
+  };
+}
+
+/** Preguntas frecuentes (con FAQPage) y guía: el mismo texto que las pantallas /faq y /guide. */
+export function contentPage(kind: "faq" | "guide", lang: Lang, origin: string): PageSeo {
+  const c = readLocale(lang).content;
+  const p = prefixOf(lang);
+  const page = c[kind];
+  const path = `${p}/${kind}`;
+  const entries = kind === "faq" ? c.faq.items.map((i) => ({ h: i.q, p: [i.a] })) : c.guide.sections;
+  const other = kind === "faq" ? "guide" : "faq";
+  return {
+    title: `${page.title} | Watch Order`,
+    description: page.description,
+    path,
+    alternates: { es: `/${kind}`, en: `/en/${kind}` },
+    image: `${origin}/api/og?kind=page&lang=${lang}`,
+    body: `<article><h1>${esc(page.title)}</h1><p>${esc(page.intro)}</p>${entries
+      .map((e) => `<section><h2>${esc(e.h)}</h2>${e.p.map((x) => `<p>${esc(x)}</p>`).join("")}</section>`)
+      .join("")}<p><a href="${p}/${other}">${esc(c.links[other])}</a></p></article>`,
+    jsonLd: [
+      ...(kind === "faq"
+        ? [
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              inLanguage: lang,
+              url: `${origin}${path}`,
+              mainEntity: c.faq.items.map((i) => ({ "@type": "Question", name: i.q, acceptedAnswer: { "@type": "Answer", text: i.a } })),
+            },
+          ]
+        : [{ "@context": "https://schema.org", "@type": "WebPage", name: page.title, description: page.description, inLanguage: lang, url: `${origin}${path}` }]),
+      breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", p || "/"], [page.title, path]]),
+    ],
+  };
+}
+
 /** Portada en inglés (/en): la española es el index.html estático. */
 export function homePage(lang: Lang, origin: string): PageSeo {
   const t = TEXT[lang];
@@ -221,8 +336,9 @@ export function inject(html: string, seo: PageSeo, lang: Lang, origin: string): 
       ]
     : [];
   const head = [
-    `<link rel="canonical" href="${esc(url)}">`,
-    ...alternates,
+    // Una página que no existe (404, noindex) no tiene versión canónica ni paralela.
+    seo.noindex ? "" : `<link rel="canonical" href="${esc(url)}">`,
+    ...(seo.noindex ? [] : alternates),
     seo.noindex ? `<meta name="robots" content="noindex">` : "",
     `<meta property="og:type" content="website">`,
     `<meta property="og:site_name" content="Watch Order">`,
