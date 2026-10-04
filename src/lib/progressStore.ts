@@ -99,7 +99,7 @@ function stamps(prev: ProgressDoc | undefined, status: WatchStatus): Pick<Progre
 
 // ---- Backend de invitado: localStorage ----
 
-const GUEST_KEY = "watch-order:guest";
+export const GUEST_KEY = "watch-order:guest";
 export const EMPTY: ProgressData = { progress: {}, franchiseState: {} };
 
 export function loadGuest(): ProgressData {

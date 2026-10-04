@@ -56,7 +56,7 @@ export function withDefaults(raw: unknown): Settings {
   };
 }
 
-const GUEST_KEY = "watch-order:guest-settings";
+export const GUEST_KEY = "watch-order:guest-settings";
 
 export function loadGuestSettings(): Settings {
   try {

@@ -4,7 +4,9 @@ const clip = (value: unknown, max: number) => (typeof value === "string" ? value
 
 /** GET /api/health (reescrito a /api/log): 200 si la función responde, para un monitor de uptime. */
 export function GET(): Response {
-  return new Response(JSON.stringify({ ok: true, time: new Date().toISOString() }), {
+  // `commit` dice qué versión está desplegada (Vercel lo define en cada deploy).
+  const commit = process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7);
+  return new Response(JSON.stringify({ ok: true, time: new Date().toISOString(), ...(commit ? { commit } : {}) }), {
     headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" },
   });
 }

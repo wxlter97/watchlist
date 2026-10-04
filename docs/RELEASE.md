@@ -67,3 +67,7 @@ En un Android (Chrome) y un iPhone (Safari), con la PWA **desinstalada** antes:
 ## Después de publicar
 - Vercel → Logs: buscar `[client-error]` los primeros días.
 - Vercel → Cron: comprobar que `notify-releases` y `notify-streaming` corren sin error.
+
+## Versiones
+La app sigue [SemVer](https://semver.org/lang/es/): **MAJOR** si cambia algo que rompe datos guardados (el formato del respaldo, `BACKUP_VERSION`), **MINOR** para funciones nuevas y **PATCH** para correcciones.
+Para publicar una versión: sube `version` en `package.json`, pasa lo de «Sin publicar» de `CHANGELOG.md` a una sección con la versión y la fecha, mergea, y etiqueta el commit (`git tag -a vX.Y.Z -m "…" && git push origin vX.Y.Z`). La versión se ve en el pie de la app y `/api/health` dice qué commit está desplegado.

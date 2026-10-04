@@ -250,9 +250,10 @@ function Layout() {
           </a>
           <span className="min-w-0 flex-1">{t("about.tmdb")}</span>
         </p>
-        <a href="mailto:work@wxlter.dev?subject=Watch%20Order" className="self-start underline">
+        <a href={`mailto:work@wxlter.dev?subject=Watch%20Order%20v${__APP_VERSION__}`} className="self-start underline">
           {t("about.report")}
         </a>
+        <p className="text-muted">v{__APP_VERSION__}</p>
         <p className="flex flex-wrap gap-x-4 gap-y-1">
           <Link to="/faq" className="underline">
             {t("content.links.faq")}

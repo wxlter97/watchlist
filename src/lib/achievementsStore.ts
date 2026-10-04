@@ -11,7 +11,7 @@ export interface AchievementsBackend {
   writeUnlocks(unlocks: Record<string, UnlockDoc>): void;
 }
 
-const GUEST_KEY = "watch-order:guest-achievements";
+export const GUEST_KEY = "watch-order:guest-achievements";
 
 export function loadGuestAchievements(): Record<string, UnlockDoc> {
   try {
