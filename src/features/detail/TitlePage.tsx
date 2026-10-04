@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { accentStyle, formatRuntime, ImportanceBadge, Notice, Poster, SectionLabel, Tabs } from "../../components/ui";
 import { franchisesReferencing, useCatalog } from "../../lib/catalog";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { usePageMeta } from "../../lib/meta";
 import { useOverview } from "../../lib/overviews";
@@ -40,7 +41,7 @@ export function TitlePage() {
   );
 
   if (!ready) return <p className="py-16 text-center text-muted">…</p>;
-  if (!title) return <p className="py-16 text-center text-muted">{t("title.notFound")}</p>;
+  if (!title) return <Missing message={t("title.notFound")} />;
 
   const appearances = index.franchisesByTitle.get(title.id) ?? [];
   const inRoutes = index.routesByTitle.get(title.id) ?? [];

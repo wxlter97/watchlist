@@ -145,7 +145,7 @@ export function publishWatched(groupId: string, uid: string, changes: { add: Rec
   }
 }
 
-export async function joinGroup(groupId: string, code: string, profileId: string, name: string): Promise<"ok" | "invalid" | "full" | "error"> {
+export async function joinGroup(groupId: string, code: string, profileId: string, name: string): Promise<"ok" | "invalid" | "full" | "rateLimited" | "error"> {
   const token = await auth.currentUser?.getIdToken();
   if (!token) return "error";
   const res = await fetch("/api/groups/join", {
@@ -157,5 +157,6 @@ export async function joinGroup(groupId: string, code: string, profileId: string
   if (res.ok) return "ok";
   if (res.status === 404) return "invalid";
   if (res.status === 409) return "full";
+  if (res.status === 429) return "rateLimited";
   return "error";
 }

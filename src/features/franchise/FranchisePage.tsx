@@ -6,6 +6,7 @@ import { TitleRow } from "../../components/TitleRow";
 import { rowId, useScrollToNext } from "../../lib/scroll";
 import { accentStyle, Button, ProgressBar, SectionLabel, Tabs } from "../../components/ui";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { usePageMeta } from "../../lib/meta";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
@@ -51,7 +52,7 @@ export function FranchisePage() {
 
   if (!view.ready) return <p className="py-16 text-center text-muted">…</p>;
   if (!franchise || !order) {
-    return <p className="py-16 text-center text-muted">{t("franchise.notFound")}</p>;
+    return <Missing message={t("franchise.notFound")} />;
   }
 
   const isCustom = order.type === "custom";

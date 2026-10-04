@@ -7,6 +7,7 @@ import { TitleRow } from "../../components/TitleRow";
 import { useRememberRoute } from "../../hooks/useActiveRoute";
 import { accentStyle, formatRuntime, Poster, ProgressBar, SectionLabel } from "../../components/ui";
 import { useCatalog, withReferences } from "../../lib/catalog";
+import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { usePageMeta } from "../../lib/meta";
 import { useIsDropped, useIsWatched } from "../../lib/watched";
@@ -44,7 +45,7 @@ export function RoutePage() {
   );
 
   if (!ready) return <p className="py-16 text-center text-muted">…</p>;
-  if (!franchise || !route) return <p className="py-16 text-center text-muted">{t("routes.notFound")}</p>;
+  if (!franchise || !route) return <Missing message={t("routes.notFound")} />;
 
   // "Prepárate para…": con niveles (lo mínimo es esta ruta).
   const prepTarget = route.kind === "prep" && route.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;

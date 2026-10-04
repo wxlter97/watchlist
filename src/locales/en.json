@@ -48,8 +48,8 @@
     "order": "Order",
     "continuities": "Continuities",
     "continuitiesCurated": "This order already picks what it includes: hidden continuities don't remove titles from it.",
-    "empty": "No titles match these filters.",
-    "notFound": "We couldn't find that franchise.",
+    "empty": "No title matches the active filters. Remove one or show more continuities in the filters panel.",
+    "notFound": "We couldn't find that franchise. The link may be mistyped, or it may no longer exist.",
     "progress": "Progress",
     "label": "Franchise",
     "progressOf": "Order: {{order}}",
@@ -114,7 +114,7 @@
     "status": "Status",
     "postCredits": "Post-credits",
     "chrono": "Place in the timeline",
-    "notFound": "We couldn't find that title.",
+    "notFound": "We couldn't find that title. The link may be mistyped, or it may no longer be in the catalog.",
     "inRoutes": "In routes"
   },
   "about": {
@@ -198,7 +198,7 @@
     "target": "Target",
     "before": "Watch these first",
     "titles": "Titles",
-    "notFound": "We couldn't find that route.",
+    "notFound": "We couldn't find that route. The link may be mistyped, or the route may no longer exist.",
     "kinds": {
       "prep": "Get ready for…",
       "character": "By character",
@@ -214,7 +214,7 @@
     "title": "Search",
     "placeholder": "Search a title, franchise or route",
     "hint": "Works in English or Spanish, with or without accents.",
-    "empty": "Nothing matches “{{query}}”.",
+    "empty": "Nothing matches “{{query}}”. Try fewer letters, or the name in Spanish.",
     "titles_one": "{{count}} title",
     "titles_other": "{{count}} titles",
     "recent": "Recent searches",
@@ -247,7 +247,7 @@
     "confirm_other": "Mark {{count}}",
     "body_one": "{{count}} pending title up to “{{title}}”, inclusive, following “{{order}}”, will be marked as watched.",
     "body_other": "{{count}} pending titles up to “{{title}}”, inclusive, following “{{order}}”, will be marked as watched.",
-    "nothing": "Nothing is pending up to “{{title}}”.",
+    "nothing": "Nothing is pending up to “{{title}}”: everything before it is watched or not released yet.",
     "done_one": "{{count}} title marked as watched.",
     "done_other": "{{count}} titles marked as watched.",
     "undo": "Undo"
@@ -297,8 +297,8 @@
   "cast": {
     "title": "Cast",
     "loading": "Looking up…",
-    "none": "No cast listed yet.",
-    "error": "Couldn't load it. Try again later.",
+    "none": "TMDB doesn't have this title's cast yet (common for upcoming releases).",
+    "error": "Couldn't load the cast. Check your connection and try again in a while.",
     "offline": "Offline: it loads when you're back online.",
     "episodes_one": "{{count}} episode",
     "episodes_other": "{{count}} episodes"
@@ -306,8 +306,8 @@
   "providers": {
     "title": "Where to watch in {{region}}",
     "loading": "Looking…",
-    "none": "Not on any platform in your region right now.",
-    "error": "Couldn't check. Try again later.",
+    "none": "Not on any platform in your region right now. You can change the region in Account → Streaming region.",
+    "error": "Couldn't load this information. Check your connection and try again in a while.",
     "offline": "Offline: we'll check when you're back.",
     "attribution": "Data from JustWatch via TMDB.",
     "offers": {
@@ -379,11 +379,11 @@
     "create": "Create plan",
     "edit": "Edit plan",
     "yourPlans": "Your plans",
-    "none": "You don't have any plans yet.",
-    "notFound": "We couldn't find that plan.",
+    "none": "You don't have any plans yet. Create one and the app spreads what's left to watch across the hours you have each week.",
+    "notFound": "We couldn't find that plan. It may have been deleted, or it may belong to another account.",
     "completed": "Goal reached! You've watched it all.",
     "nextSession": "Next session: {{day}}",
-    "nothingScheduled": "Nothing scheduled.",
+    "nothingScheduled": "Nothing scheduled. You may have already watched everything in the goal, or there may be no available days; check the plan's days and weekly hours.",
     "endsOn": "You finish on {{date}}",
     "late": "Won't make the deadline",
     "lateTitle": "At this pace you won't finish before {{date}}",
@@ -459,11 +459,12 @@
     "hours_one": "{{count}} h",
     "hours_other": "{{count}} h",
     "tooLong": "Next up is {{title}} and it runs {{time}}. Try more time.",
-    "nothing": "Nothing released is left in this order.",
+    "nothing": "Nothing released is left in this order: what remains hasn't been released yet.",
     "total": "Total: {{time}}",
     "then": "Then: {{title}}"
   },
   "timeline": {
+    "empty": "No continuities are visible in this franchise. Show them from the franchise's continuities panel.",
     "title": "Timeline",
     "intro": "Each lane is a continuity, in story order. Branches start at the title where they split off.",
     "zoom": "Zoom",
@@ -504,7 +505,7 @@
     "share": "Share",
     "preparing": "Preparing…",
     "downloaded": "Card downloaded.",
-    "error": "Couldn't create the card. Try again."
+    "error": "Couldn't create the card. Check your connection and try again."
   },
   "achievements": {
     "title": "Achievements",
@@ -580,8 +581,8 @@
     "intro": "Watch a franchise or a route together: everyone marks their own, and the group shows who watched what, what you watched together and what's next.",
     "signIn": "Groups need an account: sign in with Google to create or join one.",
     "yours": "Your groups",
-    "none": "You're not in any group yet.",
-    "notFound": "We couldn't find that group, or you're no longer a member.",
+    "none": "You're not in any group yet. Create one to watch a saga with friends, or open the invitation link they send you.",
+    "notFound": "We couldn't find that group, or you're no longer a member. Ask to be invited again.",
     "members_one": "{{count}} member",
     "members_other": "{{count}} members",
     "create": "New group",
@@ -623,6 +624,7 @@
     "joinErrors": {
       "invalid": "The invitation is invalid or expired. Ask for a new link.",
       "full": "The group is full.",
+      "rateLimited": "Too many wrong codes. For security, wait about 15 minutes and open the invitation link again.",
       "error": "Couldn't join. Check your connection and try again."
     }
   },
@@ -673,7 +675,7 @@
     },
     "seen": "Watched",
     "unseen": "Not watched",
-    "none": "No recap for this title yet.",
+    "none": "No recap for this title yet. Recaps are being added over time.",
     "spoilerHidden": "This recap tells what happens in a title you haven't watched. Hidden to avoid spoilers.",
     "reveal": "Show recap"
   },
@@ -695,7 +697,7 @@
     "link": "Get ready for this title",
     "linkHint": "The bare minimum, the recommended titles or everything before it.",
     "target": "Title",
-    "empty": "Nothing comes before this title in chronological order."
+    "empty": "Nothing comes before this title in chronological order: it's the starting point, you can begin with it."
   },
   "legal": {
     "updated": "Last updated: October 4, 2026",
@@ -840,7 +842,7 @@
     "hint": "Deletes your account and all your data: profiles, progress, plans, achievements, shared links and your groups. This can't be undone.",
     "confirm": "Delete everything",
     "reauth": "For security, sign out, sign in with Google again and repeat this right away.",
-    "failed": "Couldn't delete the account. Try again."
+    "failed": "Couldn't delete the account. Check your connection and try again; if it keeps failing, email me at work@wxlter.dev."
   },
   "viewing": {
     "title": "When and how you watched it",

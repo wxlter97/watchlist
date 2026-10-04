@@ -48,8 +48,8 @@
     "order": "Orden",
     "continuities": "Continuidades",
     "continuitiesCurated": "Este orden ya elige qué incluye: las continuidades ocultas no le quitan títulos.",
-    "empty": "No hay títulos con estos filtros.",
-    "notFound": "No encontramos esa franquicia.",
+    "empty": "Ningún título coincide con los filtros activos. Quita alguno o muestra más continuidades en el panel de filtros.",
+    "notFound": "No encontramos esa franquicia. Puede que el link esté mal escrito o que ya no exista.",
     "progress": "Progreso",
     "label": "Franquicia",
     "progressOf": "Orden: {{order}}",
@@ -114,7 +114,7 @@
     "status": "Estado",
     "postCredits": "Post-créditos",
     "chrono": "Ubicación en la línea temporal",
-    "notFound": "No encontramos ese título.",
+    "notFound": "No encontramos ese título. Puede que el link esté mal escrito o que ya no esté en el catálogo.",
     "inRoutes": "En rutas"
   },
   "about": {
@@ -198,7 +198,7 @@
     "target": "Objetivo",
     "before": "Antes, ve esto",
     "titles": "Títulos",
-    "notFound": "No encontramos esa ruta.",
+    "notFound": "No encontramos esa ruta. Puede que el link esté mal escrito o que la ruta ya no exista.",
     "kinds": {
       "prep": "Prepárate para…",
       "character": "Por personaje",
@@ -214,7 +214,7 @@
     "title": "Buscar",
     "placeholder": "Busca un título, franquicia o ruta",
     "hint": "Funciona en español o en inglés, con o sin acentos.",
-    "empty": "Nada coincide con «{{query}}».",
+    "empty": "Nada coincide con «{{query}}». Prueba con menos letras, sin acentos o con el nombre en inglés.",
     "titles_one": "{{count}} título",
     "titles_other": "{{count}} títulos",
     "recent": "Búsquedas recientes",
@@ -247,7 +247,7 @@
     "confirm_other": "Marcar {{count}}",
     "body_one": "Se marca como visto {{count}} título pendiente hasta «{{title}}», inclusive, según «{{order}}».",
     "body_other": "Se marcan como vistos {{count}} títulos pendientes hasta «{{title}}», inclusive, según «{{order}}».",
-    "nothing": "No hay nada pendiente hasta «{{title}}».",
+    "nothing": "No hay nada pendiente hasta «{{title}}»: lo anterior ya está visto o aún no se estrena.",
     "done_one": "{{count}} título marcado como visto.",
     "done_other": "{{count}} títulos marcados como vistos.",
     "undo": "Deshacer"
@@ -297,8 +297,8 @@
   "cast": {
     "title": "Reparto",
     "loading": "Buscando…",
-    "none": "No hay reparto registrado todavía.",
-    "error": "No se pudo consultar. Intenta más tarde.",
+    "none": "TMDB todavía no tiene el reparto de este título (es común en estrenos próximos).",
+    "error": "No se pudo cargar esta información. Revisa tu conexión e intenta de nuevo en un rato.",
     "offline": "Sin conexión: se consulta al volver.",
     "episodes_one": "{{count}} episodio",
     "episodes_other": "{{count}} episodios"
@@ -306,8 +306,8 @@
   "providers": {
     "title": "Dónde verlo en {{region}}",
     "loading": "Buscando…",
-    "none": "No está en ninguna plataforma de tu región por ahora.",
-    "error": "No se pudo consultar. Intenta más tarde.",
+    "none": "No está en ninguna plataforma de tu región por ahora. Puedes cambiar la región en Cuenta → Región de streaming.",
+    "error": "No se pudo cargar esta información. Revisa tu conexión e intenta de nuevo en un rato.",
     "offline": "Sin conexión: se consulta al volver.",
     "attribution": "Datos de JustWatch vía TMDB.",
     "offers": {
@@ -379,11 +379,11 @@
     "create": "Crear plan",
     "edit": "Editar plan",
     "yourPlans": "Tus planes",
-    "none": "Todavía no tienes planes.",
-    "notFound": "No encontramos ese plan.",
+    "none": "Todavía no tienes planes. Crea uno y la app reparte lo que te falta por ver según las horas que tengas por semana.",
+    "notFound": "No encontramos ese plan. Puede que se haya eliminado o que sea de otra cuenta.",
     "completed": "¡Meta cumplida! Ya viste todo.",
     "nextSession": "Próxima sesión: {{day}}",
-    "nothingScheduled": "No hay nada agendado.",
+    "nothingScheduled": "No hay nada agendado. Puede que ya hayas visto todo lo del objetivo o que no haya días disponibles; revisa los días y las horas por semana del plan.",
     "endsOn": "Terminas el {{date}}",
     "late": "No alcanza para la fecha límite",
     "lateTitle": "Con este ritmo no terminas antes del {{date}}",
@@ -459,11 +459,12 @@
     "hours_one": "{{count}} h",
     "hours_other": "{{count}} h",
     "tooLong": "Lo siguiente es {{title}} y dura {{time}}. Prueba con más tiempo.",
-    "nothing": "No hay nada pendiente ya estrenado en este orden.",
+    "nothing": "No hay nada pendiente ya estrenado en este orden: lo que falta todavía no se estrena.",
     "total": "Total: {{time}}",
     "then": "Después: {{title}}"
   },
   "timeline": {
+    "empty": "No hay continuidades visibles en esta franquicia. Muéstralas desde el panel de continuidades de la franquicia.",
     "title": "Línea de tiempo",
     "intro": "Cada carril es una continuidad, en orden dentro de la historia. Las ramas salen del título donde se separan.",
     "zoom": "Zoom",
@@ -504,7 +505,7 @@
     "share": "Compartir",
     "preparing": "Preparando…",
     "downloaded": "Tarjeta descargada.",
-    "error": "No se pudo crear la tarjeta. Intenta de nuevo."
+    "error": "No se pudo crear la tarjeta. Revisa tu conexión e intenta de nuevo."
   },
   "achievements": {
     "title": "Logros",
@@ -580,8 +581,8 @@
     "intro": "Vean una franquicia o una ruta juntos: cada quien marca lo suyo y el grupo muestra qué vio cada uno, qué vieron juntos y qué sigue.",
     "signIn": "Los grupos necesitan una cuenta: entra con Google para crear uno o unirte.",
     "yours": "Tus grupos",
-    "none": "Todavía no estás en ningún grupo.",
-    "notFound": "No encontramos ese grupo, o ya no eres miembro.",
+    "none": "Todavía no estás en ningún grupo. Crea uno para ver una saga con tus amigos, o abre el link de invitación que te manden.",
+    "notFound": "No encontramos ese grupo, o ya no eres miembro. Pide que te vuelvan a invitar.",
     "members_one": "{{count}} miembro",
     "members_other": "{{count}} miembros",
     "create": "Nuevo grupo",
@@ -623,6 +624,7 @@
     "joinErrors": {
       "invalid": "La invitación no es válida o ya venció. Pide un link nuevo.",
       "full": "El grupo ya está lleno.",
+      "rateLimited": "Probaste demasiados códigos incorrectos. Por seguridad, espera unos 15 minutos y vuelve a abrir el link de invitación.",
       "error": "No se pudo unir. Revisa tu conexión e intenta de nuevo."
     }
   },
@@ -673,7 +675,7 @@
     },
     "seen": "Visto",
     "unseen": "No visto",
-    "none": "Aún no hay resumen de este título.",
+    "none": "Aún no hay resumen de este título. Los resúmenes se van agregando poco a poco.",
     "spoilerHidden": "Este resumen cuenta lo que pasa en un título que aún no ves. Oculto para evitar spoilers.",
     "reveal": "Mostrar resumen"
   },
@@ -695,7 +697,7 @@
     "link": "Prepárate para este título",
     "linkHint": "Lo mínimo, lo recomendado o todo lo que viene antes.",
     "target": "Título",
-    "empty": "No hay nada antes de este título en el orden cronológico."
+    "empty": "No hay nada antes de este título en el orden cronológico: es el punto de partida, puedes empezar por él."
   },
   "legal": {
     "updated": "Última actualización: 4 de octubre de 2026",
@@ -840,7 +842,7 @@
     "hint": "Borra tu cuenta y todos tus datos: perfiles, progreso, planes, logros, links compartidos y tus grupos. No se puede deshacer.",
     "confirm": "Eliminar todo",
     "reauth": "Por seguridad, cierra sesión, vuelve a entrar con Google y repite esto enseguida.",
-    "failed": "No se pudo eliminar la cuenta. Inténtalo de nuevo."
+    "failed": "No se pudo eliminar la cuenta. Revisa tu conexión e inténtalo de nuevo; si sigue fallando, escríbeme a work@wxlter.dev."
   },
   "viewing": {
     "title": "Cuándo y cómo la viste",
