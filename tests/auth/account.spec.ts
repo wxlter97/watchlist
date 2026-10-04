@@ -96,6 +96,9 @@ test("eliminar la cuenta borra los datos y vuelve como invitado", async ({ page 
   // Tras borrar, la app vuelve a la portada como invitado ("Entrar" en la cabecera).
   await expect(page.getByRole("banner").getByRole("link", { name: "Entrar" })).toBeVisible({ timeout: 30_000 });
   await expect.poll(() => users(page), { timeout: 20_000 }).toBe(before - 1);
+  // La redirección a la portada llega tarde; si no se espera, choca con la navegación siguiente.
+  await expect(page).toHaveURL(/\/$/);
+  await page.waitForLoadState("networkidle");
 
   // Volver a entrar con el mismo correo crea una cuenta nueva y vacía.
   await signIn(page, email, "Borrar Prueba");
