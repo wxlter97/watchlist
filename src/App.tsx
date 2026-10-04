@@ -236,7 +236,7 @@ function Layout() {
         </a>
         <DonateLink />
         <p>{t("about.tmdb")}</p>
-        <a href="https://github.com/wxlter97/watchlist/issues/new" target="_blank" rel="noopener" className="self-start underline">
+        <a href="mailto:work@wxlter.dev?subject=Watch%20Order" className="self-start underline">
           {t("about.report")}
         </a>
         <p className="flex gap-4">

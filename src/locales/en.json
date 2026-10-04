@@ -120,7 +120,7 @@
   "about": {
     "tmdb": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
     "madeBy": "Made by wxlter.",
-    "report": "Report a problem"
+    "report": "Contact and reports"
   },
   "common": {
     "cancel": "Cancel",
@@ -708,7 +708,7 @@
         {
           "h": "Who is responsible",
           "p": [
-            "Watch Order is a personal project by wxlter. For any question about your data, reach me through wxlter.dev."
+            "Watch Order is a personal project by wxlter. For any question about your data, email me at work@wxlter.dev."
           ]
         },
         {
@@ -807,7 +807,7 @@
         {
           "h": "Reporting a problem or abuse",
           "p": [
-            "If you find a bug, or a shared link or group that breaks these terms, let me know with \"Report a problem\" at the bottom of the page. I may disable links and groups that abuse the service."
+            "If you find a bug, or a shared link or group that breaks these terms, email me at work@wxlter.dev or use \"Contact\" at the bottom of the page. I may disable links and groups that abuse the service."
           ]
         },
         {

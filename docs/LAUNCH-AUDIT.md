@@ -23,7 +23,7 @@ Hecho en código (las tablas de abajo describen el estado **antes** de esta pasa
   (0 conocidas); `.github/dependabot.yml`.
 - **Monitoreo:** `GET /api/health`; `notify-releases` ya no repite el aviso si el cron se reintenta.
 - **Legal/soporte:** política con base legal, transferencias y retención de logs; Términos con
-  donaciones y reporte de abusos; enlace "Reportar un problema" en el pie (GitHub Issues).
+  donaciones y reporte de abusos; enlace "Contacto y reportes" (mailto work@wxlter.dev) en el pie (correo work@wxlter.dev).
 
 Sigue pendiente (decisión o acción tuya): dominio definitivo (`VITE_SITE_URL`), pasar la CSP a
 enforce tras revisar los reportes, rate limiting en Vercel Firewall, uptime monitor sobre
