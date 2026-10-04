@@ -137,7 +137,15 @@
     "signedInAs": "Sesión iniciada como",
     "signOutPending": "Hay cambios que todavía no se subieron (¿sin conexión?). Si cierras sesión ahora, se pierden.",
     "signOutAnyway": "Cerrar sesión igual",
-    "signInError": "No se pudo iniciar sesión ({{code}}). Intenta de nuevo.",
+    "signInErrors": {
+      "popupBlocked": "El navegador bloqueó la ventana de Google. Permite las ventanas emergentes para este sitio e inténtalo de nuevo.",
+      "network": "No se pudo conectar con Google. Revisa tu conexión e inténtalo de nuevo.",
+      "domain": "Este dominio no está autorizado para iniciar sesión. Si eres quien administra la app, agrégalo en Firebase → Authentication → Dominios autorizados.",
+      "tooMany": "Demasiados intentos seguidos. Espera unos minutos y vuelve a intentarlo.",
+      "disabled": "Esta cuenta de Google está deshabilitada en Watch Order. Escríbeme a work@wxlter.dev si crees que es un error.",
+      "environment": "Este navegador no permite iniciar sesión (por ejemplo, en modo privado o con el almacenamiento bloqueado). Prueba en otra ventana o navegador.",
+      "other": "No se pudo iniciar sesión ({{code}}). Inténtalo de nuevo; si sigue fallando, escríbeme a work@wxlter.dev."
+    },
     "profiles": "Perfiles",
     "profilesHint": "Cada perfil lleva su propio progreso. Útil si comparten la cuenta.",
     "active": "Activo",
@@ -661,7 +669,7 @@
     "offer": "¿Te aviso cuando se estrene algo de esta franquicia?",
     "offerIos": "Para recibir avisos de estrenos en iPhone, instala la app en tu pantalla de inicio y actívalos en Cuenta.",
     "enable": "Avisarme",
-    "notGranted": "No se activaron las notificaciones: hace falta tu permiso."
+    "notGranted": "No se activaron las notificaciones: hace falta tu permiso. Si lo bloqueaste antes, actívalo en los ajustes del navegador para este sitio."
   },
   "recaps": {
     "title": "Lo que necesitas recordar",

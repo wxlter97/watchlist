@@ -52,13 +52,24 @@ export function AccountPage() {
   );
 }
 
+/** Códigos de Firebase Auth que se explican con su causa y qué hacer; el resto muestra el código. */
+const SIGN_IN_ERRORS: Record<string, string> = {
+  "auth/popup-blocked": "popupBlocked",
+  "auth/network-request-failed": "network",
+  "auth/unauthorized-domain": "domain",
+  "auth/too-many-requests": "tooMany",
+  "auth/user-disabled": "disabled",
+  "auth/operation-not-supported-in-this-environment": "environment",
+  "auth/web-storage-unsupported": "environment",
+};
+
 function AuthError() {
   const { t } = useLang();
   const code = useSession((s) => s.authError);
   if (!code) return null;
   return (
     <Notice tone="error">
-      <p>{t("account.signInError", { code })}</p>
+      <p>{t(`account.signInErrors.${SIGN_IN_ERRORS[code] ?? "other"}`, { code })}</p>
     </Notice>
   );
 }
