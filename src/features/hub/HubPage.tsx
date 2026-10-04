@@ -2,17 +2,18 @@ import { useMemo, type ReactNode } from "react";
 import { Link } from "react-router";
 import { accentStyle, Poster, ProgressBar, SearchIcon, SectionLabel, TitleMeta, WatchToggle } from "../../components/ui";
 import { AdSlot } from "../../components/AdSlot";
+import { InstallReminder } from "../../components/InstallPrompt";
 import { FollowButton } from "../../components/FollowButton";
+import { CardHeader, FranchiseCard } from "../../components/FranchiseCard";
 import { useFranchiseView } from "../../hooks/useFranchiseView";
 import { franchiseMetaById, franchiseMetas, useCatalog, useCatalogForTitles, useCatalogStore, withReferences, type FranchiseMeta } from "../../lib/catalog";
-import { effectiveHidden } from "../../lib/filters";
 import { useLang } from "../../lib/i18n";
-import { summarizeEntries, todayIso } from "../../lib/progress";
+import { todayIso } from "../../lib/progress";
 import { setTitleStatus, setUnitWatched } from "../../lib/actions";
 import { effectiveEpisodes, totalEpisodes, watchedEpisodes } from "../../lib/episodes";
 import { nextUp } from "../../lib/orders";
 import { useProgressStore, type ProgressDoc } from "../../lib/progressStore";
-import { useIsDropped, useIsWatched, useManifestIsWatched } from "../../lib/watched";
+import { useIsDropped, useIsWatched } from "../../lib/watched";
 import { routeUnits } from "../../lib/prep";
 import { routeProgress } from "../../lib/routes";
 import { useSettings } from "../../lib/settings";
@@ -66,6 +67,8 @@ export function HubPage() {
         </Link>
       </section>
 
+      <InstallReminder />
+
       {isWrappedSeason(todayIso()) && Object.values(progress).some((d) => d.status === "watched") && (
         <Link
           to="/wrapped"
@@ -81,7 +84,7 @@ export function HubPage() {
 
       {continuing.length > 0 && (
         <Section label={t("hub.continue")}>
-          <div className="grid gap-4 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
             {continuing.map((f) => (
               <ContinueCard key={f.id} franchise={f} />
             ))}
@@ -93,7 +96,7 @@ export function HubPage() {
 
       {followedRoutes.length > 0 && (
         <Section label={t("hub.routes")}>
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {followedRoutes.map((path) => (
               <li key={path}>
                 <FollowedRouteCard path={path} />
@@ -160,21 +163,13 @@ function Section({ label, children }: { label: string; children: ReactNode }) {
 
 function FranchiseGrid({ franchises }: { franchises: FranchiseMeta[] }) {
   return (
-    <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {franchises.map((f) => (
         <li key={f.id}>
           <FranchiseCard franchise={f} />
         </li>
       ))}
     </ul>
-  );
-}
-
-function CardHeader({ children }: { children: ReactNode }) {
-  return (
-    <div className="label flex min-h-10 items-center justify-between gap-2 border-b-2 border-line bg-accent px-3.5 py-2 font-bold text-on-accent">
-      {children}
-    </div>
   );
 }
 
@@ -358,40 +353,6 @@ function UpcomingRow({ item }: { item: UpcomingRowData }) {
         <span className="shrink-0 text-right font-mono text-[11px] font-bold uppercase">{date(item.date)}</span>
       </Link>
     </li>
-  );
-}
-
-function FranchiseCard({ franchise }: { franchise: FranchiseMeta }) {
-  const { t, loc } = useLang();
-  const state = useProgressStore((s) => s.franchiseState[franchise.id]);
-  const isWatched = useManifestIsWatched();
-  const summary = summarizeEntries(franchise.titles, effectiveHidden(franchise, state?.hiddenContinuities, state?.shownContinuities), isWatched);
-
-  return (
-    <div style={accentStyle(franchise.accentColor)} className="flex h-full flex-col border-2 border-line bg-surface">
-      <CardHeader>
-        <span>{t("franchise.label")}</span>
-        <FollowButton franchiseId={franchise.id} compact />
-      </CardHeader>
-      <Link to={`/f/${franchise.id}`} className="group flex flex-1 flex-col">
-        <div className="flex flex-1 flex-col gap-3 p-4">
-          <h3 className="display text-[31px]">{loc(franchise.name)}</h3>
-          <p className="line-clamp-2 text-sm leading-[1.55] text-fg-soft">{loc(franchise.description)}</p>
-          <div className="mt-auto flex items-end justify-between">
-            <span className="display text-[31px] tabular-nums">
-              {t("progress.percent", { value: Math.round(summary.ratio * 100) })}
-            </span>
-            <span className="font-mono text-[11px] tracking-[0.06em] text-muted uppercase">
-              {t("progress.count", { watched: summary.watched, total: summary.total })}
-            </span>
-          </div>
-          <ProgressBar ratio={summary.ratio} label={loc(franchise.name)} />
-        </div>
-        <span className="border-t-2 border-line px-4 py-2.5 font-mono text-xs font-bold transition-colors duration-[120ms] ease-out group-hover:bg-faro group-hover:text-tinta">
-          {t("hub.open")} →
-        </span>
-      </Link>
-    </div>
   );
 }
 

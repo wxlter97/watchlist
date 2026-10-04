@@ -10,9 +10,11 @@ import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker, ViewingLog } from "./ProgressDetails";
+import { Cast } from "./Cast";
 import { Recaps, WhyItMatters } from "./Recaps";
 import { WhereToWatch } from "./WhereToWatch";
 
+type DetailTab = "details" | "cast";
 const STATUSES: WatchStatus[] = ["planned", "watching", "watched", "dropped"];
 
 export function TitlePage() {
@@ -25,6 +27,7 @@ export function TitlePage() {
   const status = doc?.status;
   const spoilerFree = useSettings((s) => s.spoilerFree);
   const [revealed, setRevealed] = useState(false);
+  const [tab, setTab] = useState<DetailTab>("details");
   const { overview, loading: overviewLoading } = useOverview(title, lang);
 
   if (!ready) return <p className="py-16 text-center text-muted">…</p>;
@@ -90,8 +93,23 @@ export function TitlePage() {
         </Link>
       ))}
 
+      <div className="mt-6">
+        <Tabs
+          label={t("title.sections")}
+          value={tab}
+          layout="grid grid-cols-2 sm:inline-grid sm:min-w-64"
+          options={[
+            { value: "details", label: t("title.tabDetails") },
+            { value: "cast", label: t("title.tabCast") },
+          ]}
+          onChange={setTab}
+        />
+      </div>
+
+      {tab === "cast" && <Cast key={title.id} title={title} />}
+
       {/* En desktop: lo del título a la izquierda y tu seguimiento en un panel fijo a la derecha. */}
-      <div className="flex flex-col lg:mt-2 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,400px)] lg:items-start lg:gap-12">
+      <div hidden={tab !== "details"} className="flex flex-col lg:mt-2 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,400px)] lg:items-start lg:gap-12">
         <div className="contents lg:block lg:min-w-0">
 <div className="order-2 lg:order-none">
       <section className="mt-8">

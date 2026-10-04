@@ -20,6 +20,19 @@ export interface ProvidersResponse {
   buy: Provider[];
 }
 
+export interface CastMember {
+  id: number;
+  name: string;
+  character: string;
+  profilePath: string | null;
+  /** Solo en series: episodios en los que sale. */
+  episodes?: number;
+}
+
+export interface CreditsResponse {
+  cast: CastMember[];
+}
+
 export interface UpcomingApiItem {
   titleId: string;
   franchiseId: string;
@@ -64,6 +77,9 @@ export function useRemote<T>(url: string | null): Remote<T> {
 
 export const providersUrl = (title: Title, region: string) =>
   `/api/providers?${new URLSearchParams({ tmdbId: String(title.tmdbId), type: title.tmdbType, region })}`;
+
+export const creditsUrl = (title: Title) =>
+  `/api/credits?${new URLSearchParams({ tmdbId: String(title.tmdbId), type: title.tmdbType })}`;
 
 export const upcomingUrl = (franchiseIds: string[]) =>
   franchiseIds.length ? `/api/upcoming?${new URLSearchParams({ franchise: [...franchiseIds].sort().join(",") })}` : null;

@@ -52,6 +52,8 @@
     "notFound": "No encontramos esa franquicia.",
     "progress": "Progreso",
     "label": "Franquicia",
+    "progressOf": "Orden: {{order}}",
+    "progressAll": "Toda la franquicia: {{value}} % · {{watched}} de {{total}} vistos",
     "views": "Vistas",
     "completed": "¡Franquicia completa!",
     "shareText": "Terminé {{name}} en Watch Order."
@@ -94,6 +96,9 @@
     "none": "Sin escenas post-créditos"
   },
   "title": {
+    "sections": "Secciones del título",
+    "tabDetails": "Detalles",
+    "tabCast": "Reparto",
     "upcoming": "Estreno: {{date}}",
     "seasons_one": "{{count}} temporada",
     "seasons_other": "{{count}} temporadas",
@@ -269,6 +274,24 @@
   },
   "external": {
     "title": "Enlaces externos"
+  },
+  "install": {
+    "section": "Instalar la app",
+    "title": "Instala Watch Order",
+    "body": "Ábrela desde tu pantalla de inicio, como una app, y consulta tu progreso incluso sin conexión.",
+    "action": "Instalar",
+    "later": "Más tarde",
+    "installed": "Watch Order está instalada en este dispositivo.",
+    "ios": "En Safari, toca Compartir y luego «Agregar a pantalla de inicio»."
+  },
+  "cast": {
+    "title": "Reparto",
+    "loading": "Buscando…",
+    "none": "No hay reparto registrado todavía.",
+    "error": "No se pudo consultar. Intenta más tarde.",
+    "offline": "Sin conexión: se consulta al volver.",
+    "episodes_one": "{{count}} episodio",
+    "episodes_other": "{{count}} episodios"
   },
   "providers": {
     "title": "Dónde verlo en {{region}}",

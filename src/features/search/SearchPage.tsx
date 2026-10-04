@@ -1,8 +1,9 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router";
+import { FranchiseCard } from "../../components/FranchiseCard";
 import { TitleRow } from "../../components/TitleRow";
-import { accentStyle, SearchIcon, SectionLabel } from "../../components/ui";
-import { useCatalog } from "../../lib/catalog";
+import { SearchIcon, SectionLabel } from "../../components/ui";
+import { franchiseMetaById, useCatalog } from "../../lib/catalog";
 import { useLang } from "../../lib/i18n";
 import { addRecent, clearRecent, loadRecent, removeRecent } from "../../lib/recentSearches";
 import { searchCatalog } from "../../lib/search";
@@ -75,14 +76,11 @@ export function SearchPage() {
       {results.franchises.length > 0 && (
         <section className="mt-8">
           <SectionLabel>{t("hub.franchises")}</SectionLabel>
-          <ul className="flex flex-wrap gap-2">
-            {results.franchises.map((f) => (
-              <li key={f.id} style={accentStyle(f.accentColor)}>
-                <Link to={`/f/${f.id}`} className="label inline-block border-2 border-line bg-accent px-3 py-2 font-bold text-on-accent">
-                  {loc(f.name)} →
-                </Link>
-              </li>
-            ))}
+          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {results.franchises.flatMap((f) => {
+              const meta = franchiseMetaById.get(f.id);
+              return meta ? [<li key={f.id}><FranchiseCard franchise={meta} /></li>] : [];
+            })}
           </ul>
         </section>
       )}

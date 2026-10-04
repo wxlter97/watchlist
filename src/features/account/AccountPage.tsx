@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { ConfirmDialog } from "../../components/ConfirmDialog";
+import { InstallSection } from "../../components/InstallPrompt";
 import { DonateLink } from "../../components/DonateLink";
 import { Button, Notice, SectionLabel, TextField } from "../../components/ui";
 import type { Profile } from "../../lib/cloud";
@@ -23,21 +24,29 @@ export function AccountPage() {
   const status = useSession((s) => s.status);
 
   return (
-    <div className="max-w-3xl space-y-10 pt-6">
+    <div className="pt-6">
       <h1 className="display text-[39px]">{t("account.title")}</h1>
-      {status === "signedIn" ? (
-        <>
-          <SignedInCard />
-          <Profiles />
-          <SharesSection />
-        </>
-      ) : (
-        <GuestCard loading={status === "loading"} />
-      )}
-      <DonateLink variant="card" />
-      <Preferences />
-      <NotificationsSection />
-      <DataSection />
+      {/* En desktop, la cuenta a la izquierda y los ajustes a la derecha; en móvil, una columna. */}
+      <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start lg:gap-12">
+        <div className="min-w-0 space-y-10">
+          {status === "signedIn" ? (
+            <>
+              <SignedInCard />
+              <Profiles />
+              <SharesSection />
+            </>
+          ) : (
+            <GuestCard loading={status === "loading"} />
+          )}
+          <DonateLink variant="card" />
+        </div>
+        <div className="min-w-0 space-y-10">
+          <InstallSection />
+          <Preferences />
+          <NotificationsSection />
+          <DataSection />
+        </div>
+      </div>
     </div>
   );
 }

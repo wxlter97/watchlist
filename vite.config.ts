@@ -244,8 +244,8 @@ export default defineConfig(({ mode }) => {
           navigateFallbackDenylist: [/^\/__\//, /^\/api\//, /^\/(es|en)\/s\//],
           runtimeCaching: [
             {
-              // Dónde ver: se muestra lo último conocido sin conexión y se refresca al volver.
-              urlPattern: ({ url }) => url.pathname === "/api/providers" || url.pathname === "/api/upcoming",
+              // Dónde ver y reparto: se muestra lo último conocido sin conexión y se refresca al volver.
+              urlPattern: ({ url }) => url.pathname === "/api/providers" || url.pathname === "/api/upcoming" || url.pathname === "/api/credits",
               handler: "StaleWhileRevalidate",
               options: {
                 cacheName: "api",

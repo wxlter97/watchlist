@@ -52,6 +52,8 @@
     "notFound": "We couldn't find that franchise.",
     "progress": "Progress",
     "label": "Franchise",
+    "progressOf": "Order: {{order}}",
+    "progressAll": "Whole franchise: {{value}}% · {{watched}} of {{total}} watched",
     "views": "Views",
     "completed": "Franchise complete!",
     "shareText": "I finished {{name}} on Watch Order."
@@ -94,6 +96,9 @@
     "none": "No post-credit scenes"
   },
   "title": {
+    "sections": "Title sections",
+    "tabDetails": "Details",
+    "tabCast": "Cast",
     "upcoming": "Release: {{date}}",
     "seasons_one": "{{count}} season",
     "seasons_other": "{{count}} seasons",
@@ -269,6 +274,24 @@
   },
   "external": {
     "title": "External links"
+  },
+  "install": {
+    "section": "Install the app",
+    "title": "Install Watch Order",
+    "body": "Open it from your home screen like an app, and check your progress even offline.",
+    "action": "Install",
+    "later": "Later",
+    "installed": "Watch Order is installed on this device.",
+    "ios": "In Safari, tap Share and then \"Add to Home Screen\"."
+  },
+  "cast": {
+    "title": "Cast",
+    "loading": "Looking up…",
+    "none": "No cast listed yet.",
+    "error": "Couldn't load it. Try again later.",
+    "offline": "Offline: it loads when you're back online.",
+    "episodes_one": "{{count}} episode",
+    "episodes_other": "{{count}} episodes"
   },
   "providers": {
     "title": "Where to watch in {{region}}",

@@ -34,7 +34,7 @@ export function FranchisePage() {
   const [upTo, setUpTo] = useState<{ key: string; items: OrderedItem[] } | null>(null);
   const applyMany = useProgressStore((s) => s.applyMany);
   const progress = useProgressStore((s) => s.progress);
-  const { franchise, order, items, visibleItems, summary, next } = view;
+  const { franchise, order, items, visibleItems, summary, franchiseSummary, next } = view;
   // Al abrir la franquicia con avance, la vista va a lo que sigue (no se queda arriba).
   const nextVisible = next && visibleItems.some((i) => i.key === next.key) ? next : undefined;
   useScrollToNext(view.ready && !editing, nextVisible && rowId(nextVisible.key), summary.watched > 0 && visibleItems[0]?.key !== nextVisible?.key);
@@ -82,6 +82,7 @@ export function FranchisePage() {
       <div className="lg:mt-6 lg:grid lg:grid-cols-[minmax(0,360px)_minmax(0,1fr)] lg:items-start lg:gap-10">
         <aside className="lg:sticky lg:top-[74px] lg:max-h-[calc(100dvh-90px)] lg:overflow-y-auto lg:pb-4">
       <section className="mt-6 border-2 border-line bg-surface p-4" aria-label={t("franchise.progress")}>
+        <p className="label mb-2 text-muted">{t("franchise.progressOf", { order: orderName })}</p>
         <div className="flex items-end justify-between gap-4">
           <p className="display text-[39px] tabular-nums">{t("progress.percent", { value: Math.round(summary.ratio * 100) })}</p>
           <p className="text-right font-mono text-[11px] leading-relaxed tracking-[0.06em] text-muted uppercase">
@@ -111,12 +112,21 @@ export function FranchisePage() {
             />
           )}
         </div>
+        {franchiseSummary.total !== summary.total && (
+          <p className="mt-3 border-t-2 border-line-soft pt-3 font-mono text-[11px] leading-relaxed tracking-[0.06em] text-muted uppercase">
+            {t("franchise.progressAll", {
+              value: Math.round(franchiseSummary.ratio * 100),
+              watched: franchiseSummary.watched,
+              total: franchiseSummary.total,
+            })}
+          </p>
+        )}
         {summary.watched > 0 && <JumpToNext next={nextVisible} />}
-        {summary.total > 0 && summary.watched === summary.total && (
+        {franchiseSummary.total > 0 && franchiseSummary.watched === franchiseSummary.total && (
           <div className="mt-4 flex flex-wrap items-center gap-3 border-t-2 border-line-soft pt-3">
             <p className="flex-1 text-sm font-semibold">{t("franchise.completed")}</p>
             <ShareButton
-              card={{ kind: "franchise", id: franchise.id, n: summary.watched, h: Math.round(franchiseMinutes(franchise, view.index.titlesById, progress) / 60) }}
+              card={{ kind: "franchise", id: franchise.id, n: franchiseSummary.watched, h: Math.round(franchiseMinutes(franchise, view.index.titlesById, progress) / 60) }}
               title={loc(franchise.name)}
               text={t("franchise.shareText", { name: loc(franchise.name) })}
               fileName={`watch-order-${franchise.id}`}

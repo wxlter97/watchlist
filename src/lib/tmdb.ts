@@ -5,3 +5,7 @@ export type PosterSize = "w92" | "w154" | "w185" | "w342" | "w500";
 export function posterUrl(path: string | undefined, size: PosterSize): string | undefined {
   return path ? `https://image.tmdb.org/t/p/${size}${path}` : undefined;
 }
+
+export function profileUrl(path: string | null | undefined): string | undefined {
+  return path ? `https://image.tmdb.org/t/p/w185${path}` : undefined;
+}

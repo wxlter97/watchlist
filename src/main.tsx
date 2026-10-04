@@ -4,6 +4,7 @@ import "./lib/i18n";
 import "./index.css";
 import { App } from "./App";
 import { startErrorReporting } from "./lib/errorReport";
+import "./lib/install";
 import { startUpdates } from "./lib/updates";
 import { startSession } from "./lib/session";
 
