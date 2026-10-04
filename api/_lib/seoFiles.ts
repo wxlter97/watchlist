@@ -13,7 +13,8 @@ export function sitemap(request: Request): Response {
     const link = (lang: string, href: string) => `<xhtml:link rel="alternate" hreflang="${lang}" href="${esc(origin + href)}"/>`;
     return [es, en].map((loc) => `  <url><loc>${esc(origin + loc)}</loc>${link("es", es)}${link("en", en)}${link("x-default", es)}</url>`);
   };
-  const paths = ["/", ...franchiseIds().map((id) => `/f/${id}`), ...[...titlesById().keys()].sort().map((id) => `/t/${id}`)];
+  const routes = franchiseIds().flatMap((id) => readSeoFranchise(id).routes.map((r) => `/f/${id}/r/${r.id}`));
+  const paths = ["/", "/faq", "/guide", ...franchiseIds().map((id) => `/f/${id}`), ...routes, ...[...titlesById().keys()].sort().map((id) => `/t/${id}`)];
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${paths.flatMap(pair).join("\n")}
@@ -51,6 +52,8 @@ ${list("en", "/en")}
 
 ## Más / More
 
+- [Preguntas frecuentes](${origin}/faq) · [Cómo funciona](${origin}/guide)
+- [FAQ](${origin}/en/faq) · [How it works](${origin}/en/guide)
 - [Mapa del sitio / Sitemap](${origin}/sitemap.xml)
 - [Privacidad / Privacy](${origin}/privacy)
 - [Términos / Terms](${origin}/terms)

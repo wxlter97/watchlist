@@ -62,8 +62,10 @@ tope era 20; corregido con `MAX_FRANCHISES = 80` y una prueba); CLS de la portad
   archivos), textos de avisos y login, y e2e con cuenta contra los emuladores de Firebase
   (`pnpm test:e2e:auth`: login, sincronización, cerrar sesión y eliminar la cuenta; requiere Java 21).
 
+**Hecho después:** FAQ pública (`/faq`), guía de uso con la relación con Letterboxd/IMDb/Trakt (`/guide`) y
+las 116 rutas curadas como páginas indexables (casos de uso), en ES/EN.
+
 **Pospuesto a propósito (dependen de tener tráfico o de decisiones de marca)**
-- Landing con casos de uso, FAQ pública y comparativas/alternativas (GEO avanzado).
 - Lanzamiento: Product Hunt, Reddit/comunidades, redes sociales, anuncio y email de lanzamiento.
 - Redirigir automáticamente a `/en` a quien llega con navegador en inglés (hoy no se hace adrede).
 - Revisar cómo aparece el producto en ChatGPT, Gemini, Perplexity y Google AI, cuando esté indexado.
