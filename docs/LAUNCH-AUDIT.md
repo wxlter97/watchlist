@@ -34,11 +34,37 @@ Hecho en código (las tablas de abajo describen el estado **antes** de esta pasa
 - **Datos y docs:** exportación completa de datos de la persona; `docs/OPERATIONS.md` (rollback,
   backups y restauración, incidentes, filtración, solicitudes de usuarios) y `CHANGELOG.md`.
 
-Sigue pendiente (decisión o acción tuya): dominio definitivo (`VITE_SITE_URL`), pasar la CSP a
-enforce tras revisar los reportes, rate limiting en Vercel Firewall, uptime monitor sobre
-`/api/health`, analytics, logo de TMDB, correo de contacto, exportación completa de datos y los
-puntos 🔧 manuales. Idioma: las páginas públicas se sirven con metadatos en español; falta URL
-por idioma/`hreflang`.
+## Estado a 4 de octubre de 2026 (producción: https://watchlist.wxlter.dev)
+
+**Hecho y verificado:** dominio y `VITE_SITE_URL`; sitemap, robots y llms.txt con el dominio real;
+rutas, canonical y 404 en producción; Vercel en 11 funciones; rate limit (una regla en Firewall);
+uptime monitor sobre `/api/health`; 2FA en las cuentas administrativas; GA4 recibiendo datos; logo
+de TMDB y contacto work@wxlter.dev; textos legales revisados; e2e de flujos críticos en CI.
+
+**Pendiente, tuyo**
+- GA4: desactivar Google signals, retención de 2 meses, aceptar los términos de procesamiento de
+  datos y marcar los eventos clave (`first_title_watched`, `follow_franchise`, `install_accepted`).
+- Bing Webmaster Tools (importar desde Search Console) y confirmar que Google lea el sitemap.
+- Restringir la clave web de Firebase por dominio.
+- CSP: revisar `[csp-report]` unos días y pasarla de report-only a enforce (probar el login).
+- Prueba manual en Android e iPhone (lista de RELEASE.md).
+- **Pospuesto:** backups y restauración de Firestore (plan Blaze); entorno de pruebas/Preview con
+  Firebase aparte; App Check (opcional).
+
+**Pendiente, mío**
+- Lighthouse y accesibilidad sobre producción; reducir el precache del service worker (~2000
+  archivos); pasada de textos de avisos (toasts) y del login; e2e de login, borrado de cuenta y
+  sincronización con los emuladores de Firebase (requiere Java).
+
+**Pospuesto a propósito (dependen de tener tráfico o de decisiones de marca)**
+- Landing con casos de uso, FAQ pública y comparativas/alternativas (GEO avanzado).
+- Lanzamiento: Product Hunt, Reddit/comunidades, redes sociales, anuncio y email de lanzamiento.
+- Redirigir automáticamente a `/en` a quien llega con navegador en inglés (hoy no se hace adrede).
+- Revisar cómo aparece el producto en ChatGPT, Gemini, Perplexity y Google AI, cuando esté indexado.
+
+**Después del lanzamiento:** primeras 24 h (errores `[client-error]`, los dos crons, cuota de
+TMDB, eventos en GA4); primera semana (indexación, consultas de búsqueda, `search_no_results`,
+conversión a `first_title_watched`); primer mes (retención y cohortes).
 
 ## Lo que importa antes de lanzar (por prioridad)
 

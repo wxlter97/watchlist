@@ -3,23 +3,29 @@
 Lo automático corre en CI (`check`, `e2e`, `rules`). Esto es lo que falta hacer a mano.
 
 ## Configuración (una vez)
-- [ ] Vercel: `TMDB_API_KEY`, `CRON_SECRET`, `FIREBASE_SERVICE_ACCOUNT` y las `VITE_FIREBASE_*`
+- [x] Vercel: `TMDB_API_KEY`, `CRON_SECRET`, `FIREBASE_SERVICE_ACCOUNT` y las `VITE_FIREBASE_*`
       (con `VITE_FIREBASE_AUTH_DOMAIN` = el dominio de la app y `VITE_FIREBASE_VAPID_KEY`).
-- [ ] Firebase Auth → dominios autorizados: el dominio de la app.
+- [x] Firebase Auth → dominios autorizados: el dominio de la app.
 - [ ] Vercel usa Node 24 (`engines` en package.json y `.nvmrc`; Project Settings → Node.js Version).
 - [ ] `pnpm rules:deploy`.
-- [ ] Revisar `legal.*` en `src/locales/` (contacto, jurisdicción) y la fecha de "Última actualización".
-- [ ] `VITE_SITE_URL` con el dominio definitivo (canonical, Open Graph, sitemap y robots).
-- [ ] Vercel → Firewall: una regla de rate limit para `/api/` (60 req/min por IP; en Hobby solo cabe
+- [x] Revisar `legal.*` en `src/locales/` (contacto, jurisdicción) y la fecha de "Última actualización".
+- [x] `VITE_SITE_URL` con el dominio definitivo (canonical, Open Graph, sitemap y robots).
+- [x] Vercel → Firewall: una regla de rate limit para `/api/` (60 req/min por IP; en Hobby solo cabe
       una). Los intentos de código en `/api/groups/join` se limitan en código (5 fallos / 15 min).
-- [ ] Monitor de uptime (UptimeRobot, Better Stack…) sobre `/api/health`, con alerta por correo.
-- [ ] Search Console y Bing Webmaster: verificar el dominio y enviar `/sitemap.xml`.
+- [x] Monitor de uptime (UptimeRobot, Better Stack…) sobre `/api/health`, con alerta por correo.
+- [x] Search Console: dominio verificado y `/sitemap.xml` enviado (Google tarda en leerlo; "No se pudo obtener" al principio es normal).
+- [ ] Bing Webmaster Tools: importar el sitio desde Search Console.
 - [ ] Revisar `[csp-report]` en los logs unos días y pasar `Content-Security-Policy-Report-Only`
       a `Content-Security-Policy` en `vercel.json`.
-- [ ] Google Analytics 4: crear la propiedad y el flujo web, poner el ID (`G-…`) en `VITE_GA_ID`
-      (Production). En Admin: aceptar los *Data Processing Terms*, retención de datos en 2 meses,
-      desactivar *Google signals* y marcar los eventos `first_title_watched`, `follow_franchise`
-      y `install_accepted` como eventos clave. Sin el aviso aceptado no se carga ni se envía nada.
+- [x] Google Analytics 4: propiedad creada y `VITE_GA_ID` puesto (ya recibe usuarios).
+- [ ] GA4 → Admin: desactivar *Google signals*, retención de datos en 2 meses, aceptar los *Data
+      Processing Terms* y marcar `first_title_watched`, `follow_franchise` e `install_accepted`
+      como eventos clave.
+- [ ] Restringir la clave web de Firebase por dominio (Google Cloud → APIs y servicios → Credenciales).
+- [x] 2FA en GitHub, Vercel, Google/Firebase, TMDB y el registrador.
+- [ ] Backups de Firestore (plan Blaze con presupuesto y alerta, PITR y backups programados) y una
+      restauración de prueba. **Pospuesto** por decisión: ver docs/OPERATIONS.md.
+- [ ] Entorno de pruebas (proyecto de Firebase aparte para Preview): **pospuesto**, no hay por ahora.
 - [ ] Con anuncios: `VITE_ADS_CLIENT`, `VITE_ADS_SLOT_HUB`, `public/ads.txt`.
 
 ## Prueba manual en dispositivos (cada versión importante)
@@ -38,7 +44,7 @@ En un Android (Chrome) y un iPhone (Safari), con la PWA **desinstalada** antes:
 8. Cuenta → Eliminar cuenta (con una cuenta de prueba): pide volver a entrar si el login es
    viejo; después borra todo y vuelve como invitado.
 
-## Verificar en producción
+## Verificar en producción (hecho el 4 oct 2026: rutas, canonical, sitemap y robots responden bien)
 - `curl -I https://<dominio>/` → `strict-transport-security` presente.
 - `curl -s https://<dominio>/f/saw | grep -E "<title>|canonical|ld\+json"` → metadatos de la franquicia.
 - `curl -s -o /dev/null -w "%{http_code}" https://<dominio>/f/no-existe` → 404.
