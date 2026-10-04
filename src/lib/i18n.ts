@@ -29,6 +29,9 @@ void i18n
 i18n.on("languageChanged", (lng) => {
   document.documentElement.lang = lng;
 });
+// Con los recursos incluidos, init termina antes de registrar el evento: se fija el idioma inicial
+// (por ejemplo el de una URL /en/…) aquí.
+if (i18n.resolvedLanguage) document.documentElement.lang = i18n.resolvedLanguage;
 
 export default i18n;
 

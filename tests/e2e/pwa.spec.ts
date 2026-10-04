@@ -48,7 +48,8 @@ test("los niveles de 'Prepárate para…' caben en la pantalla", async ({ page }
 
 test("sin conexión, la app instalada sigue abriendo", async ({ page, context }) => {
   await page.goto("/");
-  await expect.poll(() => ready(page)).toBe("activated");
+  // Instalar el service worker descarga todo el precache (~2000 archivos): en un CI lento tarda más de 5 s.
+  await expect.poll(() => ready(page), { timeout: 45_000 }).toBe("activated");
   await page.reload(); // ya con el service worker al mando
   // Visitar una franquicia con conexión para que su chunk quede en caché.
   await page.goto("/f/marvel");
