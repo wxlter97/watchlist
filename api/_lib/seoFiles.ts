@@ -57,3 +57,14 @@ ${list("en", "/en")}
 `;
   return new Response(body, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=0, s-maxage=86400" } });
 }
+
+/**
+ * /ads.txt: autoriza a Google a vender los anuncios de este dominio. Sale de VITE_ADS_CLIENT
+ * ("ca-pub-123…" → "pub-123…"); sin él, no hay anuncios y el archivo solo lo dice.
+ */
+export function adsTxt(): Response {
+  const client = (process.env.VITE_ADS_CLIENT ?? "").trim();
+  const pub = /^ca-(pub-\d{10,20})$/.exec(client)?.[1];
+  const body = pub ? `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n` : "# Sin anuncios configurados (VITE_ADS_CLIENT).\n";
+  return new Response(body, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=0, s-maxage=3600" } });
+}

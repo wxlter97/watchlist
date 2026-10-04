@@ -32,17 +32,26 @@ export function AdSlot({ slot, minHeight = 100 }: { slot: string; minHeight?: nu
   const pushed = useRef(false);
   const granted = useConsent((s) => s.consent === "granted");
   useEffect(() => {
-    if (!CLIENT || !granted || pushed.current) return;
-    pushed.current = true;
-    loadScript(CLIENT);
-    try {
-      (window.adsbygoogle ??= []).push({});
-    } catch {
-      // Bloqueador de anuncios: el espacio queda vacío.
-    }
-  }, [granted]);
+    if (!CLIENT || !slot || !granted || pushed.current) return;
+    // El script de anuncios pesa mucho: espera a que la página termine de cargar y a un momento
+    // libre, para no tocar LCP ni el tiempo de bloqueo.
+    const start = () => {
+      if (pushed.current) return;
+      pushed.current = true;
+      loadScript(CLIENT);
+      try {
+        (window.adsbygoogle ??= []).push({});
+      } catch {
+        // Bloqueador de anuncios: el espacio queda vacío.
+      }
+    };
+    const idle = () => ("requestIdleCallback" in window ? requestIdleCallback(start, { timeout: 4000 }) : setTimeout(start, 1500));
+    if (document.readyState === "complete") idle();
+    else addEventListener("load", idle, { once: true });
+    return () => removeEventListener("load", idle);
+  }, [granted, slot]);
 
-  if (!CLIENT || !granted) return null;
+  if (!CLIENT || !slot || !granted) return null;
   return (
     <aside aria-label="Publicidad" className="my-8 overflow-hidden" style={{ minHeight }}>
       <ins className="adsbygoogle block" style={{ display: "block" }} data-ad-client={CLIENT} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true" />

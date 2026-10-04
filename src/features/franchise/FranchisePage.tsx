@@ -1,5 +1,6 @@
 import { lazy, Suspense, useState } from "react";
 import { Link, useParams } from "react-router";
+import { AdSlot } from "../../components/AdSlot";
 import { FollowButton } from "../../components/FollowButton";
 import { JumpToNext } from "../../components/JumpToNext";
 import { TitleRow } from "../../components/TitleRow";
@@ -241,6 +242,8 @@ export function FranchisePage() {
           )}
 
           <RoutesSection franchise={franchise} />
+
+          <AdSlot slot={import.meta.env.VITE_ADS_SLOT_CONTENT ?? ""} />
 
           <ConfirmDialog
             open={Boolean(upTo)}

@@ -26,7 +26,21 @@ Lo automático corre en CI (`check`, `e2e`, `rules`). Esto es lo que falta hacer
 - [ ] Backups de Firestore (plan Blaze con presupuesto y alerta, PITR y backups programados) y una
       restauración de prueba. **Pospuesto** por decisión: ver docs/OPERATIONS.md.
 - [ ] Entorno de pruebas (proyecto de Firebase aparte para Preview): **pospuesto**, no hay por ahora.
-- [ ] Con anuncios: `VITE_ADS_CLIENT`, `VITE_ADS_SLOT_HUB`, `public/ads.txt`.
+- [ ] **Anuncios (AdSense).** El código ya está listo y apagado hasta tener las variables:
+  1. Dar de alta el sitio en AdSense (`watchlist.wxlter.dev`) y poner su ID (`ca-pub-…`) en
+     `VITE_ADS_CLIENT` (Production). Eso publica `/ads.txt` y la meta `google-adsense-account`
+     (verificación sin scripts). Redesplegar y comprobar `https://<dominio>/ads.txt`.
+  2. Esperar la aprobación (días o semanas). AdSense revisa que haya contenido propio suficiente,
+     política de privacidad y términos (ya existen) y navegación clara.
+  3. Con el sitio aprobado: crear dos bloques de anuncios (portada y contenido), poner sus IDs en
+     `VITE_ADS_SLOT_HUB` y `VITE_ADS_SLOT_CONTENT`, y redesplegar.
+  4. **Consentimiento en la UE, Reino Unido y Suiza:** Google exige una plataforma de
+     consentimiento certificada (TCF) para servir anuncios allí. El aviso propio de la app sirve
+     para GA4 y para el resto del mundo, pero **no** es una CMP certificada. Antes de abrir anuncios
+     a tráfico europeo, activar en AdSense → Privacidad y mensajes el mensaje de Google
+     (gratuito) y decidir cómo convive con el aviso propio (puedo integrarlo cuando exista la
+     cuenta).
+  5. Con anuncios en vivo, la CSP debe revisarse con `[csp-report]` antes de pasarla a enforce.
 
 ## Prueba manual en dispositivos (cada versión importante)
 En un Android (Chrome) y un iPhone (Safari), con la PWA **desinstalada** antes:

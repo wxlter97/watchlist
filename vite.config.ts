@@ -34,7 +34,7 @@ function apiDevServer(): Plugin {
         }
         // Igual que los rewrites de vercel.json para el SEO (api/page.ts) y el health check.
         const seoPage = /^(\/en)?\/([ft])\/([a-z0-9-]+)$/.exec(url.pathname);
-        const seoFile = { "/sitemap.xml": "sitemap", "/robots.txt": "robots", "/llms.txt": "llms" }[url.pathname];
+        const seoFile = { "/sitemap.xml": "sitemap", "/robots.txt": "robots", "/llms.txt": "llms", "/ads.txt": "ads" }[url.pathname];
         if (seoPage || url.pathname === "/en" || seoFile) {
           url.searchParams.set("type", seoFile ?? (seoPage ? seoPage[2]! : "home"));
           if (seoPage) url.searchParams.set("id", seoPage[3]!);
@@ -221,7 +221,7 @@ function seoHead(): Plugin {
       const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
       const site = (configured ?? (vercel ? `https://${vercel}` : "")).replace(/\/+$/, "");
       const title = "Watch Order — Tus sagas, en el orden que prefieras";
-      const description = "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis, sin anuncios.";
+      const description = "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis.";
       const tags = [
         { tag: "meta", attrs: { property: "og:type", content: "website" } },
         { tag: "meta", attrs: { property: "og:site_name", content: "Watch Order" } },
@@ -229,6 +229,10 @@ function seoHead(): Plugin {
         { tag: "meta", attrs: { property: "og:description", content: description } },
         { tag: "meta", attrs: { property: "og:locale", content: "es_MX" } },
         { tag: "meta", attrs: { name: "twitter:card", content: "summary_large_image" } },
+        // Verificación de la propiedad en AdSense sin cargar ningún script (el script espera al consentimiento).
+        ...(/^ca-pub-\d+$/.test(process.env.VITE_ADS_CLIENT ?? "")
+          ? [{ tag: "meta", attrs: { name: "google-adsense-account", content: process.env.VITE_ADS_CLIENT! } }]
+          : []),
         ...(site
           ? [
               { tag: "link", attrs: { rel: "canonical", href: `${site}/` } },

@@ -12,6 +12,7 @@ import { setTitleStatus } from "../../lib/actions";
 import { useProgressStore, type WatchStatus } from "../../lib/progressStore";
 import { useSettings } from "../../lib/settings";
 import { Episodes, ExternalLinks, Notes, RatingAndRewatch, VersionPicker, ViewingLog } from "./ProgressDetails";
+import { AdSlot } from "../../components/AdSlot";
 import { Cast } from "./Cast";
 import { Recaps, WhyItMatters } from "./Recaps";
 import { WhereToWatch } from "./WhereToWatch";
@@ -217,7 +218,9 @@ export function TitlePage() {
         </section>
       )}
 
-</div>        </div>
+</div>
+<div className="order-13 lg:order-none"><AdSlot slot={import.meta.env.VITE_ADS_SLOT_CONTENT ?? ""} /></div>
+        </div>
 
         <aside className="contents lg:sticky lg:block lg:min-w-0 lg:top-[74px] lg:max-h-[calc(100dvh-90px)] lg:overflow-y-auto lg:pb-4">
 <div className="order-1 lg:order-none">

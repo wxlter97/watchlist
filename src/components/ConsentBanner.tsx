@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { ANALYTICS_ENABLED } from "../lib/analytics";
 import { ADS_ENABLED, CONSENT_NEEDED, setConsent, useConsent } from "../lib/consent";
 import { useLang } from "../lib/i18n";
 import { Button } from "./ui";
@@ -12,7 +13,7 @@ export function ConsentBanner() {
     <div role="dialog" aria-label={t("legal.privacy.adsChoice")} className="fixed inset-x-0 bottom-0 z-30 border-t-2 border-line bg-surface p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
       <div className="mx-auto flex max-w-3xl flex-col gap-3">
         <p className="text-sm leading-[1.5]">
-          {t(ADS_ENABLED ? "consent.textAds" : "consent.textAnalytics")}{" "}
+          {t(ADS_ENABLED ? (ANALYTICS_ENABLED ? "consent.textAds" : "consent.textAdsOnly") : "consent.textAnalytics")}{" "}
           <Link to="/privacy" className="underline">
             {t("legal.privacyLink")}
           </Link>
