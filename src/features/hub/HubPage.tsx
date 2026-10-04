@@ -56,8 +56,7 @@ export function HubPage() {
   return (
     <div>
       <section className="on-faro -mx-4 border-b-2 border-line bg-faro px-4 pt-8 pb-10 text-tinta lg:pt-14 lg:pb-16">
-        <p className="label font-bold">{t("hub.eyebrow")}</p>
-        <h1 className="display mt-4 max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px] lg:max-w-[20ch] lg:text-[72px]">{t("app.tagline")}</h1>
+        <h1 className="display max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px] lg:max-w-[20ch] lg:text-[72px]">{t("app.tagline")}</h1>
         <Link
           to="/search"
           className="mt-6 flex min-h-12 max-w-md items-center lg:mt-10 lg:min-h-14 lg:max-w-xl gap-3 border-2 border-tinta bg-white px-3 font-mono text-sm text-tinta/60 transition-colors duration-[120ms] ease-out hover:text-tinta"
