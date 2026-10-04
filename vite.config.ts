@@ -303,7 +303,9 @@ export default defineConfig(({ mode }) => {
           clientsClaim: true,
           globPatterns: ["**/*.{js,css,html,svg,png,woff2}"],
           // El service worker de los avisos push se registra aparte; no va en el precache.
-          globIgnores: ["firebase-messaging-sw.js"],
+          // Tampoco los textos por título: precachearlos obligaba a descargar ~2000 archivos (3.4 MB) al
+          // instalar la app; ahora se guardan al abrir cada título (runtimeCaching).
+          globIgnores: ["firebase-messaging-sw.js", "assets/md/**"],
           navigateFallback: "/index.html",
           // El handler de Firebase Auth (/__/auth) y las funciones (/api) nunca caen en la SPA.
           // Las páginas públicas de links compartidos (/es/s/…) las arma el servidor.
@@ -316,6 +318,16 @@ export default defineConfig(({ mode }) => {
               options: {
                 cacheName: "api",
                 expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 7 },
+                cacheableResponse: { statuses: [200] },
+              },
+            },
+            {
+              // Recaps y "por qué importa" de cada título: una vez abiertos, quedan para usarse sin conexión.
+              urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.startsWith("/assets/md/"),
+              handler: "CacheFirst",
+              options: {
+                cacheName: "title-texts",
+                expiration: { maxEntries: 2500, maxAgeSeconds: 60 * 60 * 24 * 365 },
                 cacheableResponse: { statuses: [200] },
               },
             },
@@ -338,6 +350,12 @@ export default defineConfig(({ mode }) => {
       chunkSizeWarningLimit: 650,
       rolldownOptions: {
         output: {
+          // Los textos por título (recaps y "por qué importa", unos 1900 archivos) van en assets/md/:
+          // el service worker no los precachea (ver `globIgnores`) sino que los guarda al abrirlos.
+          chunkFileNames: (chunk) =>
+            (chunk.moduleIds ?? [chunk.facadeModuleId ?? ""]).some((id) => /[\\/]src[\\/]data[\\/](recaps|why)[\\/]/.test(id))
+              ? "assets/md/[name]-[hash].js"
+              : "assets/[name]-[hash].js",
           // Firebase y el catálogo cambian a otro ritmo que el código: chunks propios, caché aparte.
           codeSplitting: {
             groups: [
