@@ -10,6 +10,10 @@ import { errorResponse, HttpError, json } from "../_lib/tmdb.js";
 
 const ID = /^[A-Za-z0-9_-]{1,128}$/;
 
+/** Códigos equivocados permitidos por usuario antes de bloquear, y cuánto dura el bloqueo. */
+const MAX_FAILS = 5;
+const WINDOW_MS = 15 * 60_000;
+
 function sameCode(a: string, b: string): boolean {
   const x = Buffer.from(a.toUpperCase());
   const y = Buffer.from(b.toUpperCase());
@@ -40,22 +44,37 @@ export async function POST(request: Request): Promise<Response> {
     const profile = await db.doc(`users/${uid}/profiles/${profileId}`).get();
     if (!profile.exists) throw new HttpError(400, "Ese perfil no es tuyo");
 
+    // Contador de códigos equivocados (system/ solo lo toca firebase-admin): frena probar códigos a ciegas.
+    const attempts = db.doc(`system/joinAttempts/users/${uid}`);
+    const prior = (await attempts.get()).data() as { fails?: number; since?: number } | undefined;
+    const active = prior?.since !== undefined && Date.now() - prior.since < WINDOW_MS;
+    if (active && (prior?.fails ?? 0) >= MAX_FAILS) throw new HttpError(429, "Demasiados intentos. Prueba de nuevo en unos minutos.");
+
     const ref = db.doc(`groups/${groupId}`);
-    await db.runTransaction(async (tx) => {
-      const snap = await tx.get(ref);
-      const group = snap.data();
-      // Mismo error si no existe o si el código no coincide: no revela qué grupos hay.
-      if (!group || typeof group.inviteCode !== "string" || !sameCode(group.inviteCode, code)) {
-        throw new HttpError(404, "Invitación inválida o vencida");
-      }
-      const memberUids: string[] = group.memberUids ?? [];
-      if (!memberUids.includes(uid) && memberUids.length >= MAX_MEMBERS) throw new HttpError(409, "El grupo está lleno");
-      tx.update(ref, {
-        [`members.${uid}`]: profileId,
-        [`memberNames.${uid}`]: name,
-        memberUids: FieldValue.arrayUnion(uid),
+    try {
+      await db.runTransaction(async (tx) => {
+        const snap = await tx.get(ref);
+        const group = snap.data();
+        // Mismo error si no existe o si el código no coincide: no revela qué grupos hay.
+        if (!group || typeof group.inviteCode !== "string" || !sameCode(group.inviteCode, code)) {
+          throw new HttpError(404, "Invitación inválida o vencida");
+        }
+        const memberUids: string[] = group.memberUids ?? [];
+        if (!memberUids.includes(uid) && memberUids.length >= MAX_MEMBERS) throw new HttpError(409, "El grupo está lleno");
+        tx.update(ref, {
+          [`members.${uid}`]: profileId,
+          [`memberNames.${uid}`]: name,
+          memberUids: FieldValue.arrayUnion(uid),
+        });
       });
-    });
+    } catch (err) {
+      // Solo el código equivocado cuenta como intento; la ventana se reinicia cuando vence.
+      if (err instanceof HttpError && err.status === 404) {
+        await attempts.set({ fails: active ? (prior?.fails ?? 0) + 1 : 1, since: active ? prior!.since : Date.now() }).catch(() => undefined);
+      }
+      throw err;
+    }
+    await attempts.delete().catch(() => undefined);
     return json({ ok: true, groupId });
   } catch (err) {
     return errorResponse(err);

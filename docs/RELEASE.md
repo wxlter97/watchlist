@@ -10,8 +10,8 @@ Lo automático corre en CI (`check`, `e2e`, `rules`). Esto es lo que falta hacer
 - [ ] `pnpm rules:deploy`.
 - [ ] Revisar `legal.*` en `src/locales/` (contacto, jurisdicción) y la fecha de "Última actualización".
 - [ ] `VITE_SITE_URL` con el dominio definitivo (canonical, Open Graph, sitemap y robots).
-- [ ] Vercel → Firewall: regla de rate limit para `/api/*` (p. ej. 60 req/min por IP; más estricta
-      en `/api/og` y `/api/groups/join`).
+- [ ] Vercel → Firewall: una regla de rate limit para `/api/` (60 req/min por IP; en Hobby solo cabe
+      una). Los intentos de código en `/api/groups/join` se limitan en código (5 fallos / 15 min).
 - [ ] Monitor de uptime (UptimeRobot, Better Stack…) sobre `/api/health`, con alerta por correo.
 - [ ] Search Console y Bing Webmaster: verificar el dominio y enviar `/sitemap.xml`.
 - [ ] Revisar `[csp-report]` en los logs unos días y pasar `Content-Security-Policy-Report-Only`
