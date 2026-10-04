@@ -41,6 +41,12 @@ rutas, canonical y 404 en producción; Vercel en 11 funciones; rate limit (una r
 uptime monitor sobre `/api/health`; 2FA en las cuentas administrativas; GA4 recibiendo datos; logo
 de TMDB y contacto work@wxlter.dev; textos legales revisados; e2e de flujos críticos en CI.
 
+**Lighthouse en producción (móvil, 4 oct 2026):** portada 92 / 100 / 96 / 100 (rendimiento,
+accesibilidad, buenas prácticas, SEO); `/f/saw` 92 / 100 / 100 / 100; `/t/saw-2004` 98 / 100 / 100 / 100.
+Hallazgos: `/api/upcoming` devolvía 400 a todo visitante sin franquicias seguidas (pide las 44 y el
+tope era 20; corregido con `MAX_FRANCHISES = 80` y una prueba); CLS de la portada 0.10 en
+"Próximos estrenos" (a remedir tras el arreglo).
+
 **Pendiente, tuyo**
 - GA4: desactivar Google signals, retención de 2 meses, aceptar los términos de procesamiento de
   datos y marcar los eventos clave (`first_title_watched`, `follow_franchise`, `install_accepted`).
@@ -52,7 +58,7 @@ de TMDB y contacto work@wxlter.dev; textos legales revisados; e2e de flujos crí
   Firebase aparte; App Check (opcional).
 
 **Pendiente, mío**
-- Lighthouse y accesibilidad sobre producción; reducir el precache del service worker (~2000
+- Remedir el CLS de la portada tras el arreglo de `/api/upcoming`; reducir el precache del service worker (~2000
   archivos); pasada de textos de avisos (toasts) y del login; e2e de login, borrado de cuenta y
   sincronización con los emuladores de Firebase (requiere Java).
 
