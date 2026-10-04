@@ -26,12 +26,6 @@
     },
     "api/page.ts": {
       "includeFiles": "src/data/**"
-    },
-    "api/sitemap.ts": {
-      "includeFiles": "src/data/**"
-    },
-    "api/llms.ts": {
-      "includeFiles": "src/data/**"
     }
   },
   "rewrites": [
@@ -56,16 +50,32 @@
       "destination": "/api/page?type=t&id=:id"
     },
     {
+      "source": "/en",
+      "destination": "/api/page?type=home&lang=en"
+    },
+    {
+      "source": "/en/f/:id",
+      "destination": "/api/page?type=f&id=:id&lang=en"
+    },
+    {
+      "source": "/en/t/:id",
+      "destination": "/api/page?type=t&id=:id&lang=en"
+    },
+    {
       "source": "/sitemap.xml",
-      "destination": "/api/sitemap"
+      "destination": "/api/page?type=sitemap"
     },
     {
       "source": "/robots.txt",
-      "destination": "/api/robots"
+      "destination": "/api/page?type=robots"
     },
     {
       "source": "/llms.txt",
-      "destination": "/api/llms"
+      "destination": "/api/page?type=llms"
+    },
+    {
+      "source": "/api/health",
+      "destination": "/api/log"
     },
     {
       "source": "/((?!api/|assets/|__/).*)",
@@ -102,7 +112,7 @@
       ]
     },
     {
-      "source": "/(account|plans|groups|join|compare|wrapped|stats|map|achievements|search)(.*)",
+      "source": "/(en/)?(account|plans|groups|join|compare|wrapped|stats|map|achievements|search)(.*)",
       "headers": [
         {
           "key": "X-Robots-Tag",

@@ -80,11 +80,16 @@ export const TEXT = {
   },
 } as const;
 
+/** Las páginas en inglés viven bajo /en; el español, sin prefijo (es también el x-default). */
+export const prefixOf = (lang: Lang) => (lang === "en" ? "/en" : "");
+
 export interface PageSeo {
   title: string;
   description: string;
-  /** Ruta canónica, p. ej. "/f/saw". */
+  /** Ruta canónica de esta versión, p. ej. "/f/saw" o "/en/f/saw". */
   path: string;
+  /** Mismas páginas en cada idioma (para hreflang); sin ellas, la página no tiene versión paralela. */
+  alternates?: Record<Lang, string>;
   image: string;
   /** Contenido visible para quien no ejecuta JavaScript. */
   body: string;
@@ -103,11 +108,13 @@ export function franchisePage(id: string, lang: Lang, origin: string): PageSeo {
     .flatMap((tid) => (titles.has(tid) ? [titles.get(tid)!] : []))
     .sort((a, b) => a.releaseDate.localeCompare(b.releaseDate) || a.id.localeCompare(b.id));
   const t = TEXT[lang];
-  const list = ordered.map((x) => `<li><a href="/t/${esc(x.id)}">${esc(titleName(x, lang))}</a> (${year(x)})</li>`).join("");
+  const p = prefixOf(lang);
+  const list = ordered.map((x) => `<li><a href="${p}/t/${esc(x.id)}">${esc(titleName(x, lang))}</a> (${year(x)})</li>`).join("");
   return {
     title: t.franchiseTitle(name),
     description: t.franchiseDescription(name, ordered.length),
-    path: `/f/${id}`,
+    path: `${p}/f/${id}`,
+    alternates: { es: `/f/${id}`, en: `/en/f/${id}` },
     image: `${origin}/api/og?kind=page&lang=${lang}&f=${id}`,
     body: `<section><h1>${esc(name)}</h1><p>${esc(localize(f.description, lang))}</p><h2>${t.inOrder}</h2><ol>${list}</ol></section>`,
     jsonLd: [
@@ -116,17 +123,18 @@ export function franchisePage(id: string, lang: Lang, origin: string): PageSeo {
         "@type": "ItemList",
         name,
         description: localize(f.description, lang),
-        url: `${origin}/f/${id}`,
+        url: `${origin}${p}/f/${id}`,
+        inLanguage: lang,
         numberOfItems: ordered.length,
         itemListOrder: "https://schema.org/ItemListOrderAscending",
         itemListElement: ordered.map((x, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          url: `${origin}/t/${x.id}`,
+          url: `${origin}${p}/t/${x.id}`,
           name: titleName(x, lang),
         })),
       },
-      breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", "/"], [name, `/f/${id}`]]),
+      breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", p || "/"], [name, `${p}/f/${id}`]]),
     ],
   };
 }
@@ -137,12 +145,14 @@ export function titlePage(id: string, lang: Lang, origin: string): PageSeo {
   const name = titleName(x, lang);
   const franchises = franchisesOfTitle(id);
   const names = franchises.map((f) => localize(f.name, lang));
-  const links = franchises.map((f) => `<li><a href="/f/${esc(f.id)}">${esc(localize(f.name, lang))}</a></li>`).join("");
+  const p = prefixOf(lang);
+  const links = franchises.map((f) => `<li><a href="${p}/f/${esc(f.id)}">${esc(localize(f.name, lang))}</a></li>`).join("");
   const description = t.titleDescription(name, kindName(x.kind, lang), year(x), names.slice(0, 2).join(", "));
   return {
     title: t.titleTitle(name, year(x)),
     description,
-    path: `/t/${id}`,
+    path: `${p}/t/${id}`,
+    alternates: { es: `/t/${id}`, en: `/en/t/${id}` },
     image: posterUrl(x) ?? `${origin}/api/og?kind=page&lang=${lang}`,
     body: `<article><h1>${esc(name)} (${year(x)})</h1><p>${esc(description)}</p>${links ? `<h2>${t.appearsIn}</h2><ul>${links}</ul>` : ""}</article>`,
     jsonLd: [
@@ -150,11 +160,43 @@ export function titlePage(id: string, lang: Lang, origin: string): PageSeo {
         "@context": "https://schema.org",
         "@type": schemaType(x),
         name,
-        url: `${origin}/t/${id}`,
+        url: `${origin}${p}/t/${id}`,
+        inLanguage: lang,
         datePublished: x.releaseDate,
         ...(posterUrl(x) ? { image: posterUrl(x) } : {}),
       },
-      breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", "/"], [name, `/t/${id}`]]),
+      breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", p || "/"], [name, `${p}/t/${id}`]]),
+    ],
+  };
+}
+
+/** Portada en inglés (/en): la española es el index.html estático. */
+export function homePage(lang: Lang, origin: string): PageSeo {
+  const t = TEXT[lang];
+  const p = prefixOf(lang);
+  const list = franchiseIds()
+    .map(readSeoFranchise)
+    .map((f) => `<li><a href="${p}/f/${esc(f.id)}">${esc(localize(f.name, lang))}</a>: ${esc(localize(f.description, lang))}</li>`)
+    .join("");
+  return {
+    title: t.siteTitle,
+    description: t.siteDescription,
+    path: p || "/",
+    alternates: { es: "/", en: "/en" },
+    image: `${origin}/api/og?kind=page&lang=${lang}`,
+    body: `<section><h1>${esc(t.siteTitle)}</h1><p>${esc(t.siteDescription)}</p><ul>${list}</ul></section>`,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        name: "Watch Order",
+        description: t.siteDescription,
+        applicationCategory: "EntertainmentApplication",
+        operatingSystem: "Any",
+        inLanguage: lang,
+        url: `${origin}${p || "/"}`,
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      },
     ],
   };
 }
@@ -171,8 +213,16 @@ function breadcrumbs(origin: string, items: [string, string][]) {
 export function inject(html: string, seo: PageSeo, lang: Lang, origin: string): string {
   const t = TEXT[lang];
   const url = `${origin}${seo.path}`;
+  const alternates = seo.alternates
+    ? [
+        `<link rel="alternate" hreflang="es" href="${esc(origin + seo.alternates.es)}">`,
+        `<link rel="alternate" hreflang="en" href="${esc(origin + seo.alternates.en)}">`,
+        `<link rel="alternate" hreflang="x-default" href="${esc(origin + seo.alternates.es)}">`,
+      ]
+    : [];
   const head = [
     `<link rel="canonical" href="${esc(url)}">`,
+    ...alternates,
     seo.noindex ? `<meta name="robots" content="noindex">` : "",
     `<meta property="og:type" content="website">`,
     `<meta property="og:site_name" content="Watch Order">`,
@@ -188,7 +238,7 @@ export function inject(html: string, seo: PageSeo, lang: Lang, origin: string): 
     .join("\n    ");
   // Lo de la portada (canonical, Open Graph, JSON-LD y el titular del shell) no aplica a esta página.
   const base = html
-    .replace(/\s*<link rel="canonical"[^>]*>/g, "")
+    .replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, "")
     .replace(/\s*<meta (?:property="og:|name="twitter:)[^>]*>/g, "")
     .replace(/\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/g, "")
     .replace(/<section id="shell-hero"[\s\S]*?<\/section>/, "");

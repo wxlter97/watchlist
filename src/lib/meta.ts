@@ -32,7 +32,9 @@ function setCanonical(path: string | undefined) {
   // Con el dominio configurado en el build, el canonical ya viene en el HTML: solo se ajusta la ruta.
   const base = el ? new URL(el.getAttribute("href") ?? "", location.origin).origin : location.origin;
   const tag = el ?? Object.assign(document.createElement("link"), { rel: "canonical" });
-  tag.setAttribute("href", `${base}${path}`);
+  // En las URLs en inglés (/en/…) el canonical es la propia versión en inglés.
+  const prefix = /^\/en(\/|$)/.test(location.pathname) ? "/en" : "";
+  tag.setAttribute("href", `${base}${prefix}${path === "/" ? (prefix ? "" : "/") : path}`);
   if (!el) document.head.append(tag);
 }
 

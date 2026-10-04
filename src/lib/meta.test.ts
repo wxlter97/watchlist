@@ -34,6 +34,15 @@ describe("meta de cada pantalla", () => {
     expect(canonical()).toBe("https://watchorder.example/f/saw");
   });
 
+  it("en una URL en inglés (/en/…) el canonical es la versión en inglés", () => {
+    window.history.pushState({}, "", "/en/f/saw");
+    applyMeta({ title: "Saw", canonical: "/f/saw" }, "General");
+    expect(canonical()).toBe(`${location.origin}/en/f/saw`);
+    applyMeta({ title: "Home", canonical: "/" }, "General");
+    expect(canonical()).toBe(`${location.origin}/en`);
+    window.history.pushState({}, "", "/");
+  });
+
   it("reconoce las rutas privadas", () => {
     expect(isPrivatePath("/account")).toBe(true);
     expect(isPrivatePath("/plans/abc/edit")).toBe(true);

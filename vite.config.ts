@@ -32,15 +32,16 @@ function apiDevServer(): Plugin {
           url.searchParams.set("lang", shared[1]!);
           url.searchParams.set("id", shared[2]!);
         }
-        // Igual que los rewrites de vercel.json para el SEO: /f/{id}, /t/{id}, sitemap, robots y llms.
-        const page = /^\/([ft])\/([a-z0-9-]+)$/.exec(url.pathname);
-        if (page) {
+        // Igual que los rewrites de vercel.json para el SEO (api/page.ts) y el health check.
+        const seoPage = /^(\/en)?\/([ft])\/([a-z0-9-]+)$/.exec(url.pathname);
+        const seoFile = { "/sitemap.xml": "sitemap", "/robots.txt": "robots", "/llms.txt": "llms" }[url.pathname];
+        if (seoPage || url.pathname === "/en" || seoFile) {
+          url.searchParams.set("type", seoFile ?? (seoPage ? seoPage[2]! : "home"));
+          if (seoPage) url.searchParams.set("id", seoPage[3]!);
+          if (seoPage?.[1] || url.pathname === "/en") url.searchParams.set("lang", "en");
           url.pathname = "/api/page";
-          url.searchParams.set("type", page[1]!);
-          url.searchParams.set("id", page[2]!);
         }
-        const alias = { "/sitemap.xml": "/api/sitemap", "/robots.txt": "/api/robots", "/llms.txt": "/api/llms" }[url.pathname];
-        if (alias) url.pathname = alias;
+        if (url.pathname === "/api/health") url.pathname = "/api/log";
         const match = /^\/api\/([a-z0-9-]+)(?:\/([^/]+))?$/.exec(url.pathname);
         if (!match) return next();
         // /api/groups/join → api/groups/join.ts si existe; si no, como el rewrite de vercel.json:
@@ -231,6 +232,9 @@ function seoHead(): Plugin {
         ...(site
           ? [
               { tag: "link", attrs: { rel: "canonical", href: `${site}/` } },
+              { tag: "link", attrs: { rel: "alternate", hreflang: "es", href: `${site}/` } },
+              { tag: "link", attrs: { rel: "alternate", hreflang: "en", href: `${site}/en` } },
+              { tag: "link", attrs: { rel: "alternate", hreflang: "x-default", href: `${site}/` } },
               { tag: "meta", attrs: { property: "og:url", content: `${site}/` } },
               { tag: "meta", attrs: { property: "og:image", content: `${site}/api/og?kind=page&lang=es` } },
               { tag: "meta", attrs: { property: "og:image:width", content: "1200" } },

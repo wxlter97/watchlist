@@ -8,8 +8,13 @@ import { updateSettings } from "./settings";
 
 export const LANGS: readonly Lang[] = ["es", "en"];
 
+// Las páginas en inglés viven bajo /en (ver api/page.ts): abrir una cuenta con ese prefijo la muestra
+// en inglés aunque la preferencia guardada sea otra.
+const detector = new LanguageDetector();
+detector.addDetector({ name: "path", lookup: () => (/^\/en(\/|$)/.test(location.pathname) ? "en" : undefined) });
+
 void i18n
-  .use(LanguageDetector)
+  .use(detector)
   .use(initReactI18next)
   .init({
     resources: { es: { translation: es }, en: { translation: en } },
@@ -18,7 +23,7 @@ void i18n
     fallbackLng: "es",
     interpolation: { escapeValue: false },
     // Español por defecto: solo cuenta el idioma que la persona eligió (no el del navegador).
-    detection: { order: ["localStorage"], lookupLocalStorage: "watch-order:lang", caches: ["localStorage"] },
+    detection: { order: ["path", "localStorage"], lookupLocalStorage: "watch-order:lang", caches: ["localStorage"] },
   });
 
 i18n.on("languageChanged", (lng) => {

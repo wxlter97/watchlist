@@ -2,6 +2,13 @@
 // Sin base de datos ni datos personales; se recorta todo por seguridad y no se confía en el cuerpo.
 const clip = (value: unknown, max: number) => (typeof value === "string" ? value.slice(0, max) : undefined);
 
+/** GET /api/health (reescrito a /api/log): 200 si la función responde, para un monitor de uptime. */
+export function GET(): Response {
+  return new Response(JSON.stringify({ ok: true, time: new Date().toISOString() }), {
+    headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" },
+  });
+}
+
 export async function POST(request: Request): Promise<Response> {
   try {
     const raw = await request.text();

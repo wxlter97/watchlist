@@ -1,6 +1,6 @@
 import { ConsentBanner } from "./components/ConsentBanner";
 import { RouteError } from "./components/RouteError";
-import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation, useNavigationType } from "react-router";
+import { createBrowserRouter, Link, Outlet, RouterProvider, useLocation, useNavigationType, type RouteObject } from "react-router";
 import { lazy, Suspense, useEffect, useLayoutEffect, useSyncExternalStore, type ComponentType } from "react";
 import { AppMark, Button, Notice, SearchIcon, WxlterSymbol } from "./components/ui";
 import { DonateLink } from "./components/DonateLink";
@@ -152,15 +152,17 @@ function Layout() {
   // corre antes que cualquier useEffect.
   useEffect(() => trackPageView(pathname), [pathname]);
 
+  // Meta base de la ruta sin el prefijo /en (las URLs en inglés son las mismas pantallas).
+  const path = pathname.replace(/^\/en(?=\/|$)/, "") || "/";
   useLayoutEffect(() => {
     const site = t("meta.siteDescription");
-    const pageKey = PAGE_TITLES["/" + pathname.split("/")[1]];
-    if (pathname === "/") applyMeta({ title: t("meta.siteTitle"), canonical: "/" }, site);
+    const pageKey = PAGE_TITLES["/" + path.split("/")[1]];
+    if (path === "/") applyMeta({ title: t("meta.siteTitle"), canonical: "/" }, site);
     else if (pageKey) {
-      const isPrivate = isPrivatePath(pathname);
-      applyMeta({ title: t("meta.pageTitle", { page: t(pageKey) }), noindex: isPrivate, canonical: isPrivate ? undefined : pathname }, site);
+      const isPrivate = isPrivatePath(path);
+      applyMeta({ title: t("meta.pageTitle", { page: t(pageKey) }), noindex: isPrivate, canonical: isPrivate ? undefined : path }, site);
     } else applyMeta({ title: t("meta.siteTitle") }, site);
-  }, [pathname, lang, t]);
+  }, [path, lang, t]);
 
   // El navegador no restaura el scroll de una SPA: se guarda mientras te desplazas y se
   // restaura al volver con "atrás"; en una entrada nueva se empieza arriba. Un reemplazo (?nivel=) no mueve nada.
@@ -260,39 +262,39 @@ function Layout() {
   );
 }
 
+/** Las pantallas de la app; se repiten bajo /en para las URLs en inglés (el idioma lo toma i18n.ts). */
+const appRoutes: RouteObject[] = [
+  { path: "privacy", element: <PrivacyPage /> },
+  { path: "terms", element: <TermsPage /> },
+  { index: true, element: <HubPage /> },
+  { path: "f/:franchiseId", element: <FranchisePage /> },
+  { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },
+  { path: "f/:franchiseId/prep/:titleId", element: <PrepPage /> },
+  { path: "t/:titleId", element: <TitlePage /> },
+  { path: "account", element: <AccountPage /> },
+  { path: "search", element: <SearchPage /> },
+  { path: "stats", element: <StatsPage /> },
+  { path: "f/:franchiseId/timeline", element: <TimelinePage /> },
+  { path: "map", element: <GraphPage /> },
+  { path: "achievements", element: <AchievementsPage /> },
+  { path: "groups", element: <GroupsPage /> },
+  { path: "groups/:groupId", element: <GroupPage /> },
+  { path: "join/:groupId", element: <JoinPage /> },
+  { path: "compare", element: <ComparePage /> },
+  { path: "wrapped", element: <WrappedPage /> },
+  { path: "wrapped/:year", element: <WrappedPage /> },
+  { path: "plans", element: <PlansPage /> },
+  { path: "plans/new", element: <PlanEditor /> },
+  { path: "plans/:planId", element: <PlanPage /> },
+  { path: "plans/:planId/edit", element: <PlanEditor /> },
+  { path: "*", element: <NotFound /> },
+];
+
 const router = createBrowserRouter([
   {
     element: <Layout />,
     errorElement: <RouteError />,
-    children: [
-      { path: "privacy", element: <PrivacyPage /> },
-      { path: "terms", element: <TermsPage /> },
-      { index: true, element: <HubPage /> },
-      { path: "f/:franchiseId", element: <FranchisePage /> },
-      { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },
-      { path: "f/:franchiseId/prep/:titleId", element: <PrepPage /> },
-      { path: "t/:titleId", element: <TitlePage /> },
-      { path: "account", element: <AccountPage /> },
-      { path: "search", element: <SearchPage /> },
-      { path: "stats", element: <StatsPage /> },
-      { path: "f/:franchiseId/timeline", element: <TimelinePage /> },
-      {
-        path: "map",
-        element: <GraphPage />,
-      },
-      { path: "achievements", element: <AchievementsPage /> },
-      { path: "groups", element: <GroupsPage /> },
-      { path: "groups/:groupId", element: <GroupPage /> },
-      { path: "join/:groupId", element: <JoinPage /> },
-      { path: "compare", element: <ComparePage /> },
-      { path: "wrapped", element: <WrappedPage /> },
-      { path: "wrapped/:year", element: <WrappedPage /> },
-      { path: "plans", element: <PlansPage /> },
-      { path: "plans/new", element: <PlanEditor /> },
-      { path: "plans/:planId", element: <PlanPage /> },
-      { path: "plans/:planId/edit", element: <PlanEditor /> },
-      { path: "*", element: <NotFound /> },
-    ],
+    children: [...appRoutes, { path: "en", children: appRoutes }],
   },
 ]);
 
