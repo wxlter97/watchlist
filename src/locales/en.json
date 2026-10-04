@@ -137,7 +137,15 @@
     "signedInAs": "Signed in as",
     "signOutPending": "Some changes haven't been uploaded yet (offline?). If you sign out now, they'll be lost.",
     "signOutAnyway": "Sign out anyway",
-    "signInError": "Couldn't sign in ({{code}}). Please try again.",
+    "signInErrors": {
+      "popupBlocked": "Your browser blocked the Google window. Allow pop-ups for this site and try again.",
+      "network": "Couldn't reach Google. Check your connection and try again.",
+      "domain": "This domain isn't authorized for sign-in. If you run the app, add it in Firebase → Authentication → Authorized domains.",
+      "tooMany": "Too many attempts in a row. Wait a few minutes and try again.",
+      "disabled": "This Google account is disabled in Watch Order. Email me at work@wxlter.dev if you think it's a mistake.",
+      "environment": "This browser doesn't allow sign-in (for example in private mode or with storage blocked). Try another window or browser.",
+      "other": "Couldn't sign in ({{code}}). Please try again; if it keeps failing, email me at work@wxlter.dev."
+    },
     "profiles": "Profiles",
     "profilesHint": "Each profile keeps its own progress. Handy if you share the account.",
     "active": "Active",
@@ -661,7 +669,7 @@
     "offer": "Want a heads-up when something from this franchise comes out?",
     "offerIos": "To get release alerts on iPhone, install the app on your home screen and turn them on in Account.",
     "enable": "Notify me",
-    "notGranted": "Notifications weren't turned on: your permission is needed."
+    "notGranted": "Notifications weren't turned on: your permission is needed. If you blocked it before, turn it on in your browser settings for this site."
   },
   "recaps": {
     "title": "What you need to remember",
