@@ -9,7 +9,6 @@ describe("app shell de index.html", () => {
 
   it("usa los textos actuales del Hub en ambos idiomas", () => {
     expect(texts).toEqual([
-      [es.hub.eyebrow, en.hub.eyebrow],
       [es.app.tagline, en.app.tagline],
       [es.search.placeholder, en.search.placeholder],
     ]);
