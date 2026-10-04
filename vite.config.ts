@@ -34,6 +34,19 @@ function apiDevServer(): Plugin {
         }
         // Igual que los rewrites de vercel.json para el SEO (api/page.ts) y el health check.
         const seoPage = /^(\/en)?\/([ft])\/([a-z0-9-]+)$/.exec(url.pathname);
+        const seoRoute = /^(\/en)?\/f\/([a-z0-9-]+)\/r\/([a-z0-9-]+)$/.exec(url.pathname);
+        const seoContent = /^(\/en)?\/(faq|guide)$/.exec(url.pathname);
+        if (seoRoute) {
+          url.searchParams.set("type", "r");
+          url.searchParams.set("id", seoRoute[2]!);
+          url.searchParams.set("route", seoRoute[3]!);
+          if (seoRoute[1]) url.searchParams.set("lang", "en");
+          url.pathname = "/api/page";
+        } else if (seoContent) {
+          url.searchParams.set("type", seoContent[2]!);
+          if (seoContent[1]) url.searchParams.set("lang", "en");
+          url.pathname = "/api/page";
+        }
         const seoFile = { "/sitemap.xml": "sitemap", "/robots.txt": "robots", "/llms.txt": "llms", "/ads.txt": "ads" }[url.pathname];
         if (seoPage || url.pathname === "/en" || seoFile) {
           url.searchParams.set("type", seoFile ?? (seoPage ? seoPage[2]! : "home"));

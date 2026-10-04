@@ -144,3 +144,19 @@ test("'Exportar todos mis datos' baja un archivo con progreso, ajustes y logros"
   expect(Object.keys(all.progress)).toContain("saw-2004");
   expect(all.account).toBeNull();
 });
+
+test("las preguntas frecuentes y la guía se abren desde el pie, en español y en inglés", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("contentinfo").getByRole("link", { name: "Preguntas frecuentes" }).click();
+  await expect(page).toHaveURL(/\/faq$/);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Preguntas frecuentes");
+  await expect(page.getByRole("heading", { name: "¿Qué es «Prepárate para…»?", level: 2 })).toBeVisible();
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /\/faq$/);
+  await page.getByRole("link", { name: /Cómo funciona →/ }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Cómo funciona Watch Order");
+
+  await page.goto("/en/faq");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Frequently asked questions");
+  await expect(page).toHaveTitle("Frequently asked questions | Watch Order");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /\/en\/faq$/);
+});

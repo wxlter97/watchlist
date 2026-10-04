@@ -850,6 +850,141 @@
     "body": "Esta dirección no existe o ya no está disponible.",
     "home": "Ir al inicio"
   },
+  "content": {
+    "links": {
+      "faq": "Preguntas frecuentes",
+      "guide": "Cómo funciona"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas sobre Watch Order: en qué orden ver una saga, rutas «Prepárate para…», cuentas, uso sin conexión, spoilers, datos y privacidad.",
+      "intro": "Lo que más se pregunta sobre Watch Order, la app para seguir sagas y franquicias de cine y TV en el orden que prefieras.",
+      "items": [
+        {
+          "q": "¿Qué es Watch Order?",
+          "a": "Es una app web gratuita (PWA) para seguir sagas y franquicias de cine y TV. Cada franquicia se puede ver en distintos órdenes (por fecha de estreno, cronológico, curado o el tuyo), con rutas por personaje, tema y «Prepárate para…», y guarda tu progreso en el dispositivo o en tu cuenta."
+        },
+        {
+          "q": "¿Es gratis?",
+          "a": "Sí. Se sostiene con donaciones voluntarias y, si se activan, con anuncios de terceros que solo se muestran si aceptas el aviso de consentimiento. No hay planes de pago ni funciones bloqueadas."
+        },
+        {
+          "q": "¿En qué orden debería ver una saga?",
+          "a": "Depende de lo que busques. El orden de estreno es como se vio originalmente; el cronológico sigue la línea de tiempo de la historia; el curado deja solo lo esencial; y puedes armar un orden personalizado. Cada franquicia explica qué ofrece cada orden y marca qué títulos son esenciales, recomendados u opcionales."
+        },
+        {
+          "q": "¿Qué diferencia hay entre el orden de estreno y el cronológico?",
+          "a": "El de estreno respeta la fecha en que salió cada título, así que las sorpresas llegan como las vivió el público. El cronológico los ordena según cuándo ocurre la historia, lo que a veces revela giros antes de tiempo; por eso suele recomendarse para una segunda vez."
+        },
+        {
+          "q": "¿Qué es «Prepárate para…»?",
+          "a": "Es la ruta de lo que conviene ver antes de un estreno o de un título concreto. Tiene tres niveles: «Lo mínimo» (la selección curada), «Recomendado» (lo esencial y lo recomendado) y «Todo» (todo lo que viene antes en el orden cronológico)."
+        },
+        {
+          "q": "¿Necesito una cuenta?",
+          "a": "No. Como invitado, tu progreso se guarda solo en tu dispositivo. Si entras con Google, se sincroniza entre dispositivos y puedes tener varios perfiles (por ejemplo, uno por persona que comparte la cuenta)."
+        },
+        {
+          "q": "¿Funciona sin conexión?",
+          "a": "Sí. Es una PWA: se puede instalar en la pantalla de inicio y abrir sin conexión. Lo que ya abriste, tu progreso y tus ajustes siguen disponibles; los cambios se sincronizan cuando vuelve la red."
+        },
+        {
+          "q": "¿Evita spoilers?",
+          "a": "Por defecto sí: el modo «Sin spoilers» oculta la sinopsis de lo que aún no has visto hasta que decidas mostrarla. Puedes desactivarlo en Cuenta y ajustes."
+        },
+        {
+          "q": "¿De dónde salen los datos?",
+          "a": "Los títulos, sinopsis, pósters y reparto vienen de TMDB, y los datos de «dónde verlo» de JustWatch a través de TMDB. Watch Order usa la API de TMDB pero no está avalada ni certificada por TMDB. El orden, las rutas y los comentarios sobre por qué importa cada título están curados a mano."
+        },
+        {
+          "q": "¿Cómo sé dónde ver un título?",
+          "a": "En el detalle de cada título, la sección «Dónde verlo» muestra las plataformas de tu región (puedes elegirla en Cuenta y ajustes): suscripción, gratis, alquiler y compra."
+        },
+        {
+          "q": "¿Puedo ver una saga con otras personas?",
+          "a": "Sí. Con un grupo, cada quien marca lo suyo a su ritmo y el grupo solo ve el progreso de la meta compartida. También puedes compartir un link de solo lectura con tu progreso, una ruta o tu orden personalizado."
+        },
+        {
+          "q": "¿Se integra con Letterboxd, IMDb o Trakt?",
+          "a": "Desde cada título puedes abrirlo en Letterboxd, IMDb o Trakt, y al marcar una película como vista la app puede ofrecerte registrarla en Letterboxd. No se sincroniza automáticamente con esos servicios: los complementa."
+        },
+        {
+          "q": "¿Qué franquicias incluye?",
+          "a": "Más de 40, entre ellas Marvel, Star Wars, DC, Star Trek, Harry Potter, El señor de los anillos, James Bond, Rápidos y furiosos, Saw, Alien y Los Simpson, con películas, series y especiales. El catálogo crece con el tiempo."
+        },
+        {
+          "q": "¿Puedo pedir que agreguen una saga o corregir un dato?",
+          "a": "Sí, escribe a work@wxlter.dev con la franquicia o el título y qué debería cambiar."
+        },
+        {
+          "q": "¿Cómo exporto o borro mis datos?",
+          "a": "En Cuenta y ajustes puedes exportar tu progreso, o todos tus datos, en JSON y eliminar tu cuenta con todo lo que guarda. Más detalles en la política de privacidad."
+        }
+      ]
+    },
+    "guide": {
+      "title": "Cómo funciona Watch Order",
+      "description": "Guía de Watch Order: órdenes de visualización, rutas por personaje y tema, «Prepárate para…», progreso, planificador de maratones, grupos y uso sin conexión.",
+      "intro": "Una guía corta de lo que puedes hacer con Watch Order para ver sagas y franquicias sin perderte.",
+      "sections": [
+        {
+          "h": "Elige cómo ver una saga",
+          "p": [
+            "Cada franquicia ofrece varios órdenes: por fecha de estreno, cronológico, agrupado por fases o sagas, un orden curado con lo esencial y uno personalizado que armas tú arrastrando títulos. Cambias de orden cuando quieras y tu progreso se conserva: lo ya visto sigue marcado.",
+            "El progreso que ves es el del orden elegido y, cuando el orden no incluye toda la franquicia, también el de la franquicia completa."
+          ]
+        },
+        {
+          "h": "Rutas por personaje y tema",
+          "p": [
+            "Además del orden general hay rutas: listas cortas con un propósito, como seguir a un personaje, una trama o un tema. Pueden cruzar películas y series, y puedes seguir las que te interesen para verlas en tu portada."
+          ]
+        },
+        {
+          "h": "Prepárate para un estreno",
+          "p": [
+            "«Prepárate para…» te dice qué ver antes de un estreno o de un título concreto, con tres niveles: lo mínimo, lo recomendado o todo lo anterior. Es ideal cuando una película nueva da por hecho que viste otras antes."
+          ]
+        },
+        {
+          "h": "Sigue tu progreso y lo que viene",
+          "p": [
+            "Marca lo que ves, califícalo, anota notas y registra cuándo y cómo lo viste. La portada te muestra qué sigue en cada franquicia, lo que estás viendo y lo que dejaste a medias, además de los próximos estrenos. También hay una línea de tiempo, un mapa de conexiones, estadísticas, logros y un resumen anual."
+          ]
+        },
+        {
+          "h": "Planifica un maratón",
+          "p": [
+            "Dile al planificador cuántas horas tienes por semana y qué días, elige una franquicia, un orden o una ruta, y arma un calendario. Puedes llevarlo a Google Calendar o Apple Calendar con un enlace de suscripción."
+          ]
+        },
+        {
+          "h": "Ve sagas con otras personas",
+          "p": [
+            "En un grupo, cada integrante marca lo suyo a su ritmo y todos ven qué sigue para ver juntos; el resto de tu progreso sigue siendo privado. También puedes compartir un link de solo lectura con tu progreso, una ruta o tu orden personalizado."
+          ]
+        },
+        {
+          "h": "Con Letterboxd, IMDb y Trakt",
+          "p": [
+            "Watch Order se centra en el orden y el progreso dentro de una saga, y complementa a los servicios donde llevas tu diario o tus calificaciones: desde cada título puedes abrirlo en Letterboxd, IMDb o Trakt, y la app puede ofrecerte registrar una película en Letterboxd al marcarla como vista. Puedes usar ambos a la vez."
+          ]
+        },
+        {
+          "h": "Sin conexión, en tu pantalla de inicio",
+          "p": [
+            "Instálala desde el navegador (o con el botón de Cuenta) y ábrela como una app. Funciona sin conexión con lo que ya abriste y sincroniza tus cambios al volver la red. Puedes recibir avisos de estrenos y de cuando algo llega a streaming en tu región."
+          ]
+        },
+        {
+          "h": "Tus datos",
+          "p": [
+            "Como invitado, todo se guarda en tu dispositivo. Con una cuenta de Google, se sincroniza y puedes tener varios perfiles. Puedes exportar tu progreso o todos tus datos y eliminar tu cuenta en cualquier momento. Los detalles están en la política de privacidad."
+          ]
+        }
+      ]
+    }
+  },
   "errors": {
     "title": "Algo salió mal",
     "body": "Se produjo un error inesperado. Ya lo registramos. Recarga para seguir; tu progreso está a salvo.",

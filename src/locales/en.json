@@ -850,6 +850,141 @@
     "body": "This address doesn't exist or is no longer available.",
     "home": "Go home"
   },
+  "content": {
+    "links": {
+      "faq": "FAQ",
+      "guide": "How it works"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Answers about Watch Order: what order to watch a saga in, “Get ready for…” routes, accounts, offline use, spoilers, data and privacy.",
+      "intro": "The most common questions about Watch Order, the app to follow movie and TV franchises in the order you like.",
+      "items": [
+        {
+          "q": "What is Watch Order?",
+          "a": "It is a free web app (PWA) to follow movie and TV franchises. Each franchise can be watched in different orders (by release date, chronological, curated or your own), with routes by character, theme and “Get ready for…”, and it keeps your progress on your device or in your account."
+        },
+        {
+          "q": "Is it free?",
+          "a": "Yes. It is supported by voluntary donations and, if turned on, by third-party ads that are only shown if you accept the consent notice. There are no paid plans or locked features."
+        },
+        {
+          "q": "What order should I watch a saga in?",
+          "a": "It depends on what you want. Release order is how it was first seen; chronological follows the story's timeline; curated keeps only the essentials; and you can build a custom order. Each franchise explains what every order offers and marks which titles are essential, recommended or optional."
+        },
+        {
+          "q": "What is the difference between release and chronological order?",
+          "a": "Release order follows the date each title came out, so surprises land the way audiences first experienced them. Chronological order follows when the story takes place, which can reveal twists early, so it is usually recommended for a rewatch."
+        },
+        {
+          "q": "What is “Get ready for…”?",
+          "a": "It is the route for what to watch before a release or a specific title. It has three levels: “Minimum” (the curated selection), “Recommended” (the essential and recommended titles) and “All” (everything that comes before in chronological order)."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. As a guest, your progress is stored only on your device. If you sign in with Google, it syncs across devices and you can have several profiles (for example, one per person sharing the account)."
+        },
+        {
+          "q": "Does it work offline?",
+          "a": "Yes. It is a PWA: you can install it on your home screen and open it offline. What you've already opened, your progress and your settings stay available; changes sync when the connection returns."
+        },
+        {
+          "q": "Does it avoid spoilers?",
+          "a": "By default, yes: “Spoiler-free” mode hides the synopsis of anything you haven't watched until you choose to show it. You can turn it off in Account & settings."
+        },
+        {
+          "q": "Where does the data come from?",
+          "a": "Titles, synopses, posters and cast come from TMDB, and “where to watch” data comes from JustWatch through TMDB. Watch Order uses the TMDB API but is not endorsed or certified by TMDB. The orders, the routes and the notes on why each title matters are curated by hand."
+        },
+        {
+          "q": "How do I know where to watch a title?",
+          "a": "On each title's page, the “Where to watch” section shows the platforms in your region (you can pick it in Account & settings): subscription, free, rent and buy."
+        },
+        {
+          "q": "Can I watch a saga with other people?",
+          "a": "Yes. In a group, each person marks their own progress at their own pace and the group only sees progress on the shared goal. You can also share a read-only link with your progress, a route or your custom order."
+        },
+        {
+          "q": "Does it work with Letterboxd, IMDb or Trakt?",
+          "a": "From each title you can open it on Letterboxd, IMDb or Trakt, and when you mark a movie as watched the app can offer to log it on Letterboxd. It does not sync automatically with those services: it complements them."
+        },
+        {
+          "q": "Which franchises are included?",
+          "a": "More than 40, including Marvel, Star Wars, DC, Star Trek, Harry Potter, The Lord of the Rings, James Bond, Fast & Furious, Saw, Alien and The Simpsons, with movies, series and specials. The catalog grows over time."
+        },
+        {
+          "q": "Can I ask for a saga to be added or a detail to be fixed?",
+          "a": "Yes, email work@wxlter.dev with the franchise or title and what should change."
+        },
+        {
+          "q": "How do I export or delete my data?",
+          "a": "In Account & settings you can export your progress, or all your data, as JSON and delete your account with everything it stores. More details in the privacy policy."
+        }
+      ]
+    },
+    "guide": {
+      "title": "How Watch Order works",
+      "description": "Watch Order guide: watch orders, routes by character and theme, “Get ready for…”, progress, marathon planner, groups and offline use.",
+      "intro": "A short guide to what you can do with Watch Order to follow sagas and franchises without getting lost.",
+      "sections": [
+        {
+          "h": "Choose how to watch a saga",
+          "p": [
+            "Each franchise offers several orders: by release date, chronological, grouped by phases or sagas, a curated order with the essentials, and a custom one you build by dragging titles. You can switch orders any time and your progress is kept: what you've watched stays marked.",
+            "The progress you see is for the chosen order and, when that order doesn't include the whole franchise, also for the full franchise."
+          ]
+        },
+        {
+          "h": "Routes by character and theme",
+          "p": [
+            "Besides the general order there are routes: short lists with a purpose, such as following a character, a storyline or a theme. They can cross movies and series, and you can follow the ones you like to see them on your home screen."
+          ]
+        },
+        {
+          "h": "Get ready for a release",
+          "p": [
+            "“Get ready for…” tells you what to watch before a release or a specific title, with three levels: the minimum, the recommended or everything before it. It is ideal when a new movie assumes you've seen others first."
+          ]
+        },
+        {
+          "h": "Track your progress and what's next",
+          "p": [
+            "Mark what you watch, rate it, take notes and log when and how you watched it. The home page shows what's next in each franchise, what you're watching and what you dropped, plus upcoming releases. There is also a timeline, a connections map, statistics, achievements and a year in review."
+          ]
+        },
+        {
+          "h": "Plan a marathon",
+          "p": [
+            "Tell the planner how many hours you have per week and which days, pick a franchise, an order or a route, and build a schedule. You can take it to Google Calendar or Apple Calendar with a subscription link."
+          ]
+        },
+        {
+          "h": "Watch sagas with other people",
+          "p": [
+            "In a group, each member marks their own progress at their own pace and everyone sees what's next to watch together; the rest of your progress stays private. You can also share a read-only link with your progress, a route or your custom order."
+          ]
+        },
+        {
+          "h": "With Letterboxd, IMDb and Trakt",
+          "p": [
+            "Watch Order focuses on order and progress inside a saga, and complements the services where you keep your diary or ratings: from each title you can open it on Letterboxd, IMDb or Trakt, and the app can offer to log a movie on Letterboxd when you mark it as watched. You can use both at once."
+          ]
+        },
+        {
+          "h": "Offline, on your home screen",
+          "p": [
+            "Install it from your browser (or with the Account button) and open it like an app. It works offline with what you've already opened and syncs your changes when the network returns. You can get alerts about releases and about something reaching streaming in your region."
+          ]
+        },
+        {
+          "h": "Your data",
+          "p": [
+            "As a guest, everything is stored on your device. With a Google account it syncs and you can have several profiles. You can export your progress or all your data and delete your account at any time. Details are in the privacy policy."
+          ]
+        }
+      ]
+    }
+  },
   "errors": {
     "title": "Something went wrong",
     "body": "An unexpected error occurred. We've logged it. Reload to continue; your progress is safe.",

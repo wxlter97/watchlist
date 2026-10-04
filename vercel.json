@@ -25,7 +25,7 @@
       "maxDuration": 60
     },
     "api/page.ts": {
-      "includeFiles": "src/data/**"
+      "includeFiles": "{src/data/**,src/locales/**}"
     }
   },
   "rewrites": [
@@ -48,6 +48,30 @@
     {
       "source": "/t/:id",
       "destination": "/api/page?type=t&id=:id"
+    },
+    {
+      "source": "/f/:id/r/:route",
+      "destination": "/api/page?type=r&id=:id&route=:route"
+    },
+    {
+      "source": "/en/f/:id/r/:route",
+      "destination": "/api/page?type=r&id=:id&route=:route&lang=en"
+    },
+    {
+      "source": "/faq",
+      "destination": "/api/page?type=faq"
+    },
+    {
+      "source": "/guide",
+      "destination": "/api/page?type=guide"
+    },
+    {
+      "source": "/en/faq",
+      "destination": "/api/page?type=faq&lang=en"
+    },
+    {
+      "source": "/en/guide",
+      "destination": "/api/page?type=guide&lang=en"
     },
     {
       "source": "/en",

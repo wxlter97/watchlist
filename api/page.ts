@@ -1,12 +1,12 @@
 // Una sola función para el SEO (el plan Hobby de Vercel limita las funciones). Los rewrites de
 // vercel.json mandan aquí:
-//   /f/{id}, /t/{id}, /en, /en/f/{id}, /en/t/{id} → el HTML de la app con título, descripción,
+//   /f/{id}, /f/{id}/r/{ruta}, /t/{id}, /faq, /guide y sus versiones /en/… → el HTML de la app con título, descripción,
 //     canonical, hreflang, Open Graph, JSON-LD y el contenido en texto, para buscadores y modelos
 //     de IA (que no ejecutan JavaScript). React lo reemplaza al montar. Un id que no existe
 //     responde 404 con noindex (la app muestra "no encontrado").
 //   /sitemap.xml, /robots.txt, /llms.txt → generados desde el catálogo; /ads.txt, del ID de AdSense.
 import { titlesById } from "./_lib/catalog.js";
-import { franchiseIds, franchisePage, homePage, inject, prefixOf, siteOrigin, TEXT, titlePage, type PageSeo } from "./_lib/seo.js";
+import { contentPage, franchiseIds, franchisePage, homePage, inject, prefixOf, routePage, siteOrigin, TEXT, titlePage, type PageSeo } from "./_lib/seo.js";
 import { adsTxt, llms, robots, sitemap } from "./_lib/seoFiles.js";
 
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -24,10 +24,13 @@ export async function GET(request: Request): Promise<Response> {
   const lang = url.searchParams.get("lang") === "en" ? "en" : "es";
 
   let seo: PageSeo | undefined;
+  const routeId = url.searchParams.get("route") ?? "";
   if (type === "home" && lang === "en") seo = homePage(lang, origin);
+  else if (type === "faq" || type === "guide") seo = contentPage(type, lang, origin);
   else if (ID.test(id)) {
     if (type === "f" && franchiseIds().includes(id)) seo = franchisePage(id, lang, origin);
     else if (type === "t" && titlesById().has(id)) seo = titlePage(id, lang, origin);
+    else if (type === "r" && franchiseIds().includes(id) && ID.test(routeId)) seo = routePage(id, routeId, lang, origin);
   }
 
   // El HTML de la app es el estático del build (los archivos tienen prioridad sobre los rewrites).
