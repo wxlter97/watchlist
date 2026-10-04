@@ -233,7 +233,7 @@
   "meta": {
     "locale": "en-US",
     "siteTitle": "Watch Order — Your sagas, in the order you like",
-    "siteDescription": "Follow movie and TV franchises in the order you like: release, chronological and routes. Free, no ads.",
+    "siteDescription": "Follow movie and TV franchises in the order you like: release, chronological and routes. Free.",
     "franchiseTitle": "{{name}}: what order to watch | Watch Order",
     "franchiseDescription": "What order to watch {{name}}: {{count}} titles by release date, chronological and routes, with your progress.",
     "titleTitle": "{{name}} ({{year}}) | Watch Order",
@@ -813,6 +813,12 @@
           ]
         },
         {
+          "h": "Advertising",
+          "p": [
+            "Watch Order may show third-party ads (Google AdSense) to support the project, only if you accept in the consent notice. Ads are not recommendations or part of the catalog, and they do not appear over buttons or in your account."
+          ]
+        },
+        {
           "h": "Donations",
           "p": [
             "If you see a link to buy me a coffee, it is a voluntary contribution through an external service: it is not a purchase, it does not unlock features and I do not refund it."
@@ -835,6 +841,7 @@
   },
   "consent": {
     "textAds": "We use ads and usage measurement (Google Analytics) to keep Watch Order running and improve it. Do you allow Google cookies and identifiers? You can change this anytime in Privacy.",
+    "textAdsOnly": "We use ads to keep Watch Order running. Do you allow Google advertising cookies and identifiers? You can change this anytime in Privacy.",
     "textAnalytics": "We use Google Analytics to learn which parts of Watch Order get used so we can improve them. It only measures page views and actions, never your account or your progress. Do you allow its cookies? You can change this anytime in Privacy.",
     "accept": "Accept",
     "reject": "Reject"

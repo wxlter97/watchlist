@@ -52,7 +52,7 @@ export const kindName = (kind: string, lang: Lang) => KIND[lang][kind] ?? kind;
 export const TEXT = {
   es: {
     siteTitle: "Watch Order — Tus sagas, en el orden que prefieras",
-    siteDescription: "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis, sin anuncios.",
+    siteDescription: "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis.",
     franchiseTitle: (name: string) => `${name}: en qué orden verla | Watch Order`,
     franchiseDescription: (name: string, n: number) => `Orden para ver ${name}: ${n} títulos por fecha de estreno, cronológico y rutas, con tu progreso.`,
     titleTitle: (name: string, y: string) => `${name} (${y}) | Watch Order`,
@@ -66,7 +66,7 @@ export const TEXT = {
   },
   en: {
     siteTitle: "Watch Order — Your sagas, in the order you like",
-    siteDescription: "Follow movie and TV franchises in the order you like: release, chronological and routes. Free, no ads.",
+    siteDescription: "Follow movie and TV franchises in the order you like: release, chronological and routes. Free.",
     franchiseTitle: (name: string) => `${name}: what order to watch | Watch Order`,
     franchiseDescription: (name: string, n: number) => `What order to watch ${name}: ${n} titles by release date, chronological and routes, with your progress.`,
     titleTitle: (name: string, y: string) => `${name} (${y}) | Watch Order`,

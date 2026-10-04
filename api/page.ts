@@ -4,10 +4,10 @@
 //     canonical, hreflang, Open Graph, JSON-LD y el contenido en texto, para buscadores y modelos
 //     de IA (que no ejecutan JavaScript). React lo reemplaza al montar. Un id que no existe
 //     responde 404 con noindex (la app muestra "no encontrado").
-//   /sitemap.xml, /robots.txt, /llms.txt → generados desde el catálogo.
+//   /sitemap.xml, /robots.txt, /llms.txt → generados desde el catálogo; /ads.txt, del ID de AdSense.
 import { titlesById } from "./_lib/catalog.js";
 import { franchiseIds, franchisePage, homePage, inject, prefixOf, siteOrigin, TEXT, titlePage, type PageSeo } from "./_lib/seo.js";
-import { llms, robots, sitemap } from "./_lib/seoFiles.js";
+import { adsTxt, llms, robots, sitemap } from "./_lib/seoFiles.js";
 
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -16,6 +16,7 @@ export async function GET(request: Request): Promise<Response> {
   const type = url.searchParams.get("type");
   if (type === "sitemap") return sitemap(request);
   if (type === "robots") return robots(request);
+  if (type === "ads") return adsTxt();
   if (type === "llms") return llms(request);
 
   const id = url.searchParams.get("id") ?? "";

@@ -73,12 +73,15 @@ la siguiente apertura o al volver a primer plano, no al cerrarla por completo.
 ## Anuncios
 
 `AdSlot` (`src/components/AdSlot.tsx`) está listo pero apagado: sin `VITE_ADS_CLIENT` no
-renderiza ni carga nada. Para activarlos: definir `VITE_ADS_CLIENT` (ca-pub-…) y
-`VITE_ADS_SLOT_HUB`, poner la línea de la red en `public/ads.txt`. El aviso de
-consentimiento (`ConsentBanner`) aparece solo con anuncios activos y el script no se carga sin
-«Aceptar». Si se añade una
-CSP, permitir `pagead2.googlesyndication.com`. Los anuncios no van sobre controles ni en el
-flujo de marcar como visto.
+renderiza ni carga nada. Para activarlos: definir `VITE_ADS_CLIENT` (ca-pub-…) y los bloques
+`VITE_ADS_SLOT_HUB` (portada) y `VITE_ADS_SLOT_CONTENT` (franquicias y títulos, una vez tras la
+lista). `/ads.txt` sale solo de `VITE_ADS_CLIENT` (`api/_lib/seoFiles.ts`) y el HTML trae
+`<meta name="google-adsense-account">` para verificar el sitio sin cargar scripts. El aviso de
+consentimiento (`ConsentBanner`) aparece con anuncios o analítica activos y el script de anuncios
+no se carga sin «Aceptar» (y espera a que la página termine de cargar). La CSP en `vercel.json`
+ya incluye los dominios de AdSense. Los anuncios no van en Cuenta, legales, «no encontrado» ni
+sobre controles. **Aprobación y consentimiento en la UE/Reino Unido/Suiza:** ver
+`docs/RELEASE.md` (sección Anuncios).
 
 ## Funciones (`/api`)
 

@@ -233,7 +233,7 @@
   "meta": {
     "locale": "es-MX",
     "siteTitle": "Watch Order — Tus sagas, en el orden que prefieras",
-    "siteDescription": "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis, sin anuncios.",
+    "siteDescription": "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis.",
     "franchiseTitle": "{{name}}: en qué orden verla | Watch Order",
     "franchiseDescription": "Orden para ver {{name}}: {{count}} títulos por fecha de estreno, cronológico y rutas, con tu progreso.",
     "titleTitle": "{{name}} ({{year}}) | Watch Order",
@@ -813,6 +813,12 @@
           ]
         },
         {
+          "h": "Publicidad",
+          "p": [
+            "Watch Order puede mostrar anuncios de terceros (Google AdSense) para sostener el proyecto, solo si lo aceptas en el aviso de consentimiento. Los anuncios no son recomendaciones ni parte del catálogo, y no van sobre los botones ni en tu cuenta."
+          ]
+        },
+        {
           "h": "Donaciones",
           "p": [
             "Si ves un enlace para invitarme un café, es una aportación voluntaria a través de un servicio externo: no es una compra, no desbloquea funciones y no se reembolsa por mi parte."
@@ -835,6 +841,7 @@
   },
   "consent": {
     "textAds": "Usamos anuncios y medición de uso (Google Analytics) para sostener y mejorar Watch Order. ¿Permites las cookies e identificadores de Google? Puedes cambiarlo cuando quieras en Privacidad.",
+    "textAdsOnly": "Usamos anuncios para sostener Watch Order. ¿Permites las cookies e identificadores publicitarios de Google? Puedes cambiarlo cuando quieras en Privacidad.",
     "textAnalytics": "Usamos Google Analytics para saber qué partes de Watch Order se usan y mejorarlas. Solo mide páginas vistas y acciones, nunca tu cuenta ni tu progreso. ¿Permites sus cookies? Puedes cambiarlo cuando quieras en Privacidad.",
     "accept": "Aceptar",
     "reject": "Rechazar"
