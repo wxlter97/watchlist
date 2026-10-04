@@ -71,3 +71,18 @@ test("las búsquedas recientes se guardan", async ({ page }) => {
   await page.getByRole("button", { name: "loki", exact: true }).click();
   await expect(page.getByRole("searchbox")).toHaveValue("loki");
 });
+
+test("los textos de un título se guardan al abrirlo y siguen ahí sin conexión", async ({ page, context }) => {
+  await page.goto("/");
+  await expect.poll(() => ready(page), { timeout: 45_000 }).toBe("activated");
+  await page.reload(); // ya con el service worker al mando
+  // Recap y "por qué importa" no van en el precache (son ~1900 archivos): se guardan al abrir el título.
+  await page.goto("/t/saw-ii-2005");
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+  // Con el modo sin spoilers, el texto "por qué importa" solo se carga al mostrarlo.
+  await page.getByRole("button", { name: "Mostrar sinopsis" }).click();
+  await expect.poll(() => page.evaluate(`caches.open("title-texts").then((c) => c.keys()).then((k) => k.length)`)).toBeGreaterThan(0);
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+});
