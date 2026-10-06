@@ -9,7 +9,7 @@ const watch = (page: Page, title: string) => page.getByRole("button", { name: `M
 
 /** Entra con Google desde Cuenta usando el emulador; vuelve a la app con la sesión iniciada. */
 async function signIn(page: Page, email: string, name: string) {
-  await page.goto("/account");
+  await go(page, "/account");
   await page.getByRole("button", { name: "Entrar con Google" }).click();
   // El emulador lista las cuentas que ya existen: se elige la de este correo o se crea una.
   await page.waitForLoadState("networkidle");
@@ -33,16 +33,34 @@ async function signIn(page: Page, email: string, name: string) {
     await page.getByRole("button", { name: /Sign in with Google\.com/ }).click();
   }
   await expect(page.getByText("Sesión iniciada como")).toBeVisible();
+  // La vuelta desde el emulador termina de navegar a /account; sin esperarla choca con el siguiente goto.
+  await expect(page).toHaveURL(/\/account$/);
 }
+
+/** goto que reintenta si otra navegación de la app lo interrumpe (la vuelta del login y el cierre de sesión redirigen tarde). */
+const go = (page: Page, url: string) =>
+  expect(async () => {
+    await page.goto(url);
+  }).toPass({ timeout: 15_000 });
 
 async function newDevice(browser: Browser) {
   return (await browser.newContext({ baseURL: "http://localhost:4174", locale: "en-US" })).newPage();
 }
 
-/** Usuarios con datos en Firestore (los emuladores acumulan los de otras pruebas: se compara antes y después). */
-const users = async (page: Page): Promise<number> => {
-  const res = await page.request.get(`${FIRESTORE}/users`, { headers: { Authorization: "Bearer owner" } });
-  return ((await res.json()).documents ?? []).length;
+const AUTH = "http://localhost:9099/identitytoolkit.googleapis.com/v1/projects/demo-watch-order/accounts:query";
+const OWNER = { headers: { Authorization: "Bearer owner" } };
+
+/** uid de la cuenta del emulador con ese correo (undefined si no existe). */
+const uidOf = async (page: Page, email: string): Promise<string | undefined> => {
+  const res = await page.request.post(AUTH, { ...OWNER, data: {} });
+  return ((await res.json()).userInfo ?? []).find((u: { email?: string }) => u.email === email)?.localId;
+};
+
+/** Cuántos documentos hay en la ruta de Firestore de esa cuenta (0 si no existe). */
+const docsOf = async (page: Page, uid: string): Promise<number> => {
+  const user = await page.request.get(`${FIRESTORE}/users/${uid}`, OWNER);
+  const profiles = await page.request.get(`${FIRESTORE}/users/${uid}/profiles`, OWNER);
+  return (user.ok() ? 1 : 0) + (((await profiles.json()).documents ?? []) as unknown[]).length;
 };
 
 test("iniciar sesión muestra la cuenta, el perfil y quita el modo invitado", async ({ page }) => {
@@ -56,13 +74,13 @@ test("iniciar sesión muestra la cuenta, el perfil y quita el modo invitado", as
 test("lo marcado como visto se sincroniza a otro dispositivo con la misma cuenta", async ({ page, browser }) => {
   const email = `sync-${Date.now()}@example.com`;
   await signIn(page, email, "Sync Prueba");
-  await page.goto("/f/saw");
+  await go(page, "/f/saw");
   await watch(page, "Juego macabro").click();
   await expect(page.getByText("1 de 10 vistos")).toBeVisible();
 
   const other = await newDevice(browser);
   await signIn(other, email, "Sync Prueba");
-  await other.goto("/f/saw");
+  await go(other, "/f/saw");
   await expect(unwatch(other, "Juego macabro")).toBeVisible({ timeout: 20_000 });
   await expect(other.getByText("1 de 10 vistos")).toBeVisible();
   await other.context().close();
@@ -70,38 +88,40 @@ test("lo marcado como visto se sincroniza a otro dispositivo con la misma cuenta
 
 test("cerrar sesión vuelve al modo invitado sin dejar el progreso en el dispositivo", async ({ page }) => {
   await signIn(page, `out-${Date.now()}@example.com`, "Salida Prueba");
-  await page.goto("/f/saw");
+  await go(page, "/f/saw");
   await watch(page, "Juego macabro").click();
   await expect(page.getByText("1 de 10 vistos")).toBeVisible();
 
-  await page.goto("/account");
+  await go(page, "/account");
   await page.getByRole("button", { name: "Cerrar sesión" }).click();
   await expect(page.getByRole("button", { name: "Entrar con Google" })).toBeVisible({ timeout: 20_000 });
-  await page.goto("/f/saw");
+  await go(page, "/f/saw");
   await expect(page.getByText("0 de 10 vistos")).toBeVisible();
 });
 
 test("eliminar la cuenta borra los datos y vuelve como invitado", async ({ page }) => {
   const email = `del-${Date.now()}@example.com`;
   await signIn(page, email, "Borrar Prueba");
-  await page.goto("/f/saw");
+  await go(page, "/f/saw");
   await watch(page, "Juego macabro").click();
   await expect(page.getByText("1 de 10 vistos")).toBeVisible();
-  await expect.poll(() => users(page)).toBeGreaterThan(0);
-  const before = await users(page);
+  await expect.poll(() => uidOf(page, email)).toBeTruthy();
+  const uid = (await uidOf(page, email))!;
+  await expect.poll(() => docsOf(page, uid)).toBeGreaterThan(0);
 
-  await page.goto("/account");
+  await go(page, "/account");
   await page.getByRole("button", { name: "Eliminar cuenta" }).click();
   await page.getByRole("button", { name: "Eliminar todo" }).click();
   // Tras borrar, la app vuelve a la portada como invitado ("Entrar" en la cabecera).
   await expect(page.getByRole("banner").getByRole("link", { name: "Entrar" })).toBeVisible({ timeout: 30_000 });
-  await expect.poll(() => users(page), { timeout: 20_000 }).toBe(before - 1);
+  await expect.poll(() => docsOf(page, uid), { timeout: 20_000 }).toBe(0);
+  await expect.poll(() => uidOf(page, email), { timeout: 20_000 }).toBeUndefined();
   // La redirección a la portada llega tarde; si no se espera, choca con la navegación siguiente.
   await expect(page).toHaveURL(/\/$/);
   await page.waitForLoadState("networkidle");
 
   // Volver a entrar con el mismo correo crea una cuenta nueva y vacía.
   await signIn(page, email, "Borrar Prueba");
-  await page.goto("/f/saw");
+  await go(page, "/f/saw");
   await expect(page.getByText("0 de 10 vistos")).toBeVisible();
 });
