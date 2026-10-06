@@ -113,7 +113,7 @@ export function HubPage() {
 
       {upcoming.length > 0 && (
         <Section label={t("hub.upcoming")}>
-          <ul className="border-2 border-line bg-surface">
+          <ul className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             {upcoming.map((u) => (
               <UpcomingRow key={`${u.title.id}-${u.date}`} item={u} />
             ))}
@@ -264,7 +264,7 @@ function StatusSections() {
     <>
       {watchingRows.length > 0 && (
         <Section label={t("hub.watching")}>
-          <ul className="border-2 border-line bg-surface">
+          <ul className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             {watchingRows.map(({ title, doc }) => (
               <StatusRow key={title.id} title={title} doc={doc} />
             ))}
@@ -274,7 +274,7 @@ function StatusSections() {
       {droppedRows.length > 0 && (
         <Section label={t("hub.dropped")}>
           <p className="mb-3 text-sm text-fg-soft">{t("hub.droppedHint")}</p>
-          <ul className="border-2 border-line bg-surface">
+          <ul className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             {droppedRows.map(({ title, doc }) => (
               <StatusRow key={title.id} title={title} doc={doc} />
             ))}
@@ -294,7 +294,7 @@ function StatusRow({ title, doc }: { title: Title; doc: ProgressDoc }) {
   const name = unitName(title);
 
   return (
-    <li className="border-b-2 border-line-soft last:border-b-0">
+    <li className="border-2 border-line bg-surface">
       <div className="flex items-center gap-3 p-3">
         <Link to={`/t/${title.id}`} className="group flex min-w-0 flex-1 items-center gap-3">
           <Poster title={title} size="w92" className="h-[60px] w-10" />
@@ -339,7 +339,7 @@ function UpcomingRow({ item }: { item: UpcomingRowData }) {
         ? t("upcoming.season", { season: item.season })
         : null;
   return (
-    <li className="border-b-2 border-line-soft last:border-b-0" style={accentStyle(franchise.accentColor)}>
+    <li className="border-2 border-line bg-surface" style={accentStyle(franchise.accentColor)}>
       <Link to={`/t/${title.id}`} className="group flex items-center gap-3 p-3 transition-colors duration-[120ms] ease-out hover:bg-surface-muted">
         <Poster title={title} size="w92" className="h-[60px] w-10" />
         <div className="min-w-0 flex-1">
