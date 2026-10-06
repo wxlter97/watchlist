@@ -186,8 +186,9 @@ function Layout() {
   }, [pathname, key]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="mx-auto flex min-h-dvh max-w-3xl flex-col px-4 lg:max-w-6xl">
-      <header className="sticky top-0 z-20 -mx-4 flex h-[58px] items-center justify-between gap-3 border-b-2 border-line bg-bg px-4">
+    <div className="flex min-h-dvh flex-col [--gutter:max(1rem,calc((100vw-48rem)/2+1rem))] lg:[--gutter:max(1rem,calc((100vw-72rem)/2+1rem))]">
+      {/* Fondo y línea de punta a punta; el contenido sigue alineado a la columna (--gutter). */}
+      <header className="sticky top-0 z-20 flex h-[58px] items-center justify-between gap-3 border-b-2 border-line bg-bg px-[var(--gutter)]">
         <Link to="/" className="flex min-w-0 items-center gap-2">
           <AppMark size={30} />
           {/* En pantallas angostas no cabe junto a los accesos: queda el ícono (y el nombre para lectores). */}
@@ -225,8 +226,10 @@ function Layout() {
           <AccountButton />
         </div>
       </header>
-      <Banners />
-      <main className="flex-1 pb-16">
+      <div className="px-[var(--gutter)] empty:hidden">
+        <Banners />
+      </div>
+      <main className="flex-1 px-[var(--gutter)] pb-16">
         <Suspense fallback={<p className="py-16 text-center font-mono text-xs text-muted uppercase">…</p>}>
           <Outlet />
         </Suspense>
@@ -238,7 +241,7 @@ function Layout() {
         <AchievementSync />
         <GroupSync />
       </Suspense>
-      <footer className="-mx-4 flex flex-col gap-2 border-t-2 border-line px-4 py-6 font-mono text-[11px] text-muted">
+      <footer className="flex flex-col gap-2 border-t-2 border-line px-[var(--gutter)] py-6 font-mono text-[11px] text-muted">
         <a href="https://wxlter.dev" className="flex items-center gap-2 self-start font-bold text-fg">
           <WxlterSymbol size={16} />
           {t("about.madeBy")}

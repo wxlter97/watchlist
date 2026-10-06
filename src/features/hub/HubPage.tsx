@@ -55,7 +55,7 @@ export function HubPage() {
 
   return (
     <div>
-      <section className="on-faro -mx-4 border-b-2 border-line bg-faro px-4 pt-8 pb-10 text-tinta lg:pt-14 lg:pb-16">
+      <section className="on-faro -mx-[var(--gutter)] border-b-2 border-line bg-faro px-[var(--gutter)] pt-8 pb-10 text-tinta lg:pt-14 lg:pb-16">
         <h1 className="display max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px] lg:max-w-[20ch] lg:text-[72px]">{t("app.tagline")}</h1>
         <Link
           to="/search"
