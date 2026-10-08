@@ -1,0 +1,2 @@
+- Jonathan Archer capitanea la primera nave con motor warp 5 de la Tierra.
+- Exploran el espacio y establecen contactos con vulcanos, andorianos y otros.

@@ -1,0 +1,2 @@
+- Nero, un romulano del futuro, destruye Vulcano y cambia la historia.
+- Un joven Kirk y Spock se enfrentan primero y luego se alían a bordo del Enterprise.

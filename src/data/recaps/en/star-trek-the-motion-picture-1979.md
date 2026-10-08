@@ -1,0 +1,3 @@
+- An entity destroys three Klingon cruisers and heads for Earth.
+- Kirk takes command of the refitted Enterprise and the crew reunites.
+- The entity turns out to be V'Ger, a probe seeking its creator.

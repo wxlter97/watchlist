@@ -1,0 +1,3 @@
+- Un atentado desde dentro de la Flota Estelar lleva al Enterprise a perseguir a John Harrison.
+- Harrison resulta ser Khan.
+- Kirk muere por salvar a la tripulación y es revivido.

@@ -1,0 +1,3 @@
+- Voyager is thrown into the Delta Quadrant, 75 years from the Federation.
+- The Starfleet crew joins forces with Maquis rebels to get home.
+- Along the way they meet the Borg and other species.

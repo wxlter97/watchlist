@@ -1,0 +1,2 @@
+- Picard and the Enterprise try to prevent the forced relocation of the Ba'ku from a planet with regenerative properties.
+- They must face the Son'a and a faction in Starfleet.

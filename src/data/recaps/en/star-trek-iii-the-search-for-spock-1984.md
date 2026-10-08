@@ -1,0 +1,3 @@
+- McCoy carries Spock's essence and Kirk defies Starfleet to recover his body on the Genesis planet.
+- The Klingons, led by Kruge, want Genesis's secret.
+- The Enterprise is destroyed, but Spock is revived.

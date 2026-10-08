@@ -1,0 +1,2 @@
+- **Seasons 1-2:** Michael Burnham and the Discovery go through a war with the Klingons and then a threat involving Spock and Pike.
+- **Seasons 3-5:** the ship jumps to the 32nd century, where it works to rebuild the Federation.

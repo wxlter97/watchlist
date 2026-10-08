@@ -1,0 +1,3 @@
+- Newt arrives in New York with a case of magical creatures, some of which escape.
+- He meets Tina, Queenie and Jacob.
+- An Obscurus threatens the city and Grindelwald's power is revealed.

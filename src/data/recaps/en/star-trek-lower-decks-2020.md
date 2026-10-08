@@ -1,0 +1,2 @@
+- Ensigns Mariner, Boimler, Rutherford and Tendi do the least glamorous work aboard the U.S.S. Cerritos.
+- Each episode blends humor and franchise nods.

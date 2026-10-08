@@ -1,0 +1,1 @@
+- Un vulcano renegado, Sybok, secuestra el Enterprise para llegar a un planeta mítico en el centro de la galaxia.

@@ -1,0 +1,2 @@
+- Dumbledore reúne a un equipo en torno a Newt para frenar los planes de Grindelwald.
+- Grindelwald intenta tomar el control del mundo mágico.

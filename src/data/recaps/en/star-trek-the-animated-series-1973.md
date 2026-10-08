@@ -1,0 +1,2 @@
+- Kirk, Spock and the crew continue their five-year mission in animated form.
+- It runs two seasons of standalone adventures.

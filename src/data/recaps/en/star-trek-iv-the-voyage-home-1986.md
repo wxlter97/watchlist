@@ -1,0 +1,2 @@
+- An alien probe threatens Earth searching for humpback whales, extinct in the 23rd century.
+- The crew travels to 1986 San Francisco to bring whales back.

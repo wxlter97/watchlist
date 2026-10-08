@@ -1,0 +1,3 @@
+- Soran destruye sistemas estelares para llegar al Nexo, una cinta de energía.
+- Picard y Kirk, en el Nexo, se unen para detenerlo.
+- Kirk muere en el intento.

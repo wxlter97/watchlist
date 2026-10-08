@@ -1,0 +1,3 @@
+- On the way to Riker and Troi's wedding, the Enterprise receives a signal leading to Remus.
+- They face Shinzon, a clone of Picard.
+- Data sacrifices himself to save the Enterprise.

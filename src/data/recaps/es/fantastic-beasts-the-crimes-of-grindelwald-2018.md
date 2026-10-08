@@ -1,0 +1,2 @@
+- Grindelwald escapa de prisión y empieza a reunir seguidores.
+- Dumbledore envía a Newt a detenerlo; la historia pasa por París.

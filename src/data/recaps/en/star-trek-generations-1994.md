@@ -1,0 +1,3 @@
+- Soran destroys star systems to reach the Nexus, a ribbon of energy.
+- Picard and Kirk, inside the Nexus, team up to stop him.
+- Kirk dies in the effort.

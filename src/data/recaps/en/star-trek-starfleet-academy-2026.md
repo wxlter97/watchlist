@@ -1,0 +1,1 @@
+- A group of cadets comes together around a cause of hope and optimism under their instructors' watchful eyes.

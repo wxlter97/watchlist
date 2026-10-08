@@ -1,0 +1,2 @@
+- Un grupo de jóvenes alienígenas toma una vieja nave de Starfleet y aprende a trabajar en equipo.
+- Se cruzan con la figura de Janeway.

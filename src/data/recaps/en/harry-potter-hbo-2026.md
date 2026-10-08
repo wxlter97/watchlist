@@ -1,0 +1,1 @@
+- Harry Potter, a boy with nothing special about him according to his Aunt Petunia, gets an admission letter to Hogwarts on his 11th birthday.

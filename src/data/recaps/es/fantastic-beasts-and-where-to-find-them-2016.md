@@ -1,0 +1,3 @@
+- Newt llega a Nueva York con una maleta de criaturas mágicas, algunas de las cuales se escapan.
+- Se topa con Tina, Queenie y Jacob.
+- Un Obscurus amenaza a la ciudad y se revela el poder de Grindelwald.

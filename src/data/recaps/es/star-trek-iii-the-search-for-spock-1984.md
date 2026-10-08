@@ -1,0 +1,3 @@
+- McCoy lleva en su mente la esencia de Spock y Kirk desafía a Starfleet para recuperar su cuerpo en el planeta Génesis.
+- Los klingon, liderados por Kruge, quieren el secreto de Génesis.
+- El Enterprise es destruido, pero Spock vuelve a la vida.

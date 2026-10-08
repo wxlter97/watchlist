@@ -1,0 +1,3 @@
+- La Voyager es lanzada al Cuadrante Delta, a 75 años de la Federación.
+- La tripulación de Starfleet se une a rebeldes maquis para volver a casa.
+- A lo largo del viaje conocen a los borg y a otras especies.

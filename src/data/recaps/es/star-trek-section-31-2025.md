@@ -1,0 +1,2 @@
+- La emperatriz Philippa Georgiou se une a una división secreta de Starfleet que protege la Federación.
+- Debe enfrentarse a los pecados de su pasado.
