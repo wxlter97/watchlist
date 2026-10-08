@@ -1,0 +1,1 @@
+- Ray Terrill obtiene poderes de luz tras un ataque y se une a los Combatientes por la Libertad.

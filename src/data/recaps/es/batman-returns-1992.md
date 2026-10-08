@@ -1,0 +1,3 @@
+- El Pingüino, que vive en las alcantarillas, se alía con el corrupto Max Shreck.
+- Selina Kyle, tras caer de un edificio, se convierte en Catwoman.
+- Batman enfrenta a ambos.

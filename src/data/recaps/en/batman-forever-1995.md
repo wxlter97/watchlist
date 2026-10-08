@@ -1,0 +1,2 @@
+- Batman faces Two-Face and the Riddler, who steals minds with an invention.
+- He meets Dick Grayson, who will become Robin.

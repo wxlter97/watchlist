@@ -1,0 +1,1 @@
+- Jaime Reyes recibe un escarabajo alienígena que se une a su cuerpo como armadura.

@@ -1,0 +1,2 @@
+- Bruce Wayne y su pupilo Dick Grayson, en secreto Batman y Robin, protegen Gotham de supervillanos.
+- Cada episodio es una aventura independiente, a menudo en dos partes.

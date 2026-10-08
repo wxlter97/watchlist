@@ -1,0 +1,1 @@
+- Ray Terrill gains light powers after an attack and joins the Freedom Fighters.

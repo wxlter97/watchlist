@@ -1,0 +1,1 @@
+- Un ejecutivo contrata a un genio informático para crear kriptonita sintética que derrote a Superman.

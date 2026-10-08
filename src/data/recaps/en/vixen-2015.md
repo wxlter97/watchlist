@@ -1,0 +1,1 @@
+- Mari McCabe uses a totem that grants animal powers.

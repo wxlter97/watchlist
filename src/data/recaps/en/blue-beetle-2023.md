@@ -1,0 +1,1 @@
+- Jaime Reyes receives an alien scarab that bonds with his body as armor.

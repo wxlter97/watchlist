@@ -1,0 +1,2 @@
+- Task Force X is sent to Corto Maltese to destroy a secret facility.
+- They discover Starro, a giant starfish.

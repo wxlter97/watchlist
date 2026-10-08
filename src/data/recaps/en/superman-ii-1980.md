@@ -1,0 +1,2 @@
+- Zod and two Kryptonian criminals arrive on Earth and team up with Lex Luthor.
+- Superman gives up his powers for Lois and must then regain them.

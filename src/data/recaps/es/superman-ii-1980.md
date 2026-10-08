@@ -1,0 +1,2 @@
+- Zod y dos criminales kryptonianos llegan a la Tierra y se alían con Lex Luthor.
+- Superman renuncia a sus poderes por Lois y después debe recuperarlos.

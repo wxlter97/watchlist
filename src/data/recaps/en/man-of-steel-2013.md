@@ -1,0 +1,3 @@
+- Clark Kent discovers his Kryptonian origin.
+- Zod arrives on Earth demanding Kal-El.
+- Superman and Zod clash in Metropolis; Superman kills Zod.

@@ -1,0 +1,1 @@
+- Courtney Whitmore descubre que su padrastro fue acompañante de un superhéroe y hereda el bastón cósmico.

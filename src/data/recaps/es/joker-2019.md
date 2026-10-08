@@ -1,0 +1,2 @@
+- Arthur Fleck, un comediante fracasado, es golpeado por la sociedad y se hunde en la locura.
+- Se convierte en el Joker y en símbolo del caos en Gotham.

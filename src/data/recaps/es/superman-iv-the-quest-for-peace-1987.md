@@ -1,0 +1,2 @@
+- Superman intenta eliminar las armas nucleares del mundo.
+- Lex Luthor crea a un villano, Hombre Nuclear, para detenerlo.

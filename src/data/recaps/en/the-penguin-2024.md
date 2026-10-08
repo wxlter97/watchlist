@@ -1,0 +1,2 @@
+- With Gotham in crisis, Oz Cobb tries to fill the power vacuum left by Falcone's death.
+- He clashes with the Falcone family and Sofia.

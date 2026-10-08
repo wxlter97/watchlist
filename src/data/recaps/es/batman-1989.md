@@ -1,0 +1,2 @@
+- Batman defiende Gotham mientras el mafioso Jack Napier cae en químicos y se convierte en el Guasón.
+- Batman y el Guasón se enfrentan en la ciudad, con Vicki Vale en el medio.

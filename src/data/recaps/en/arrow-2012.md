@@ -1,0 +1,3 @@
+- Oliver Queen returns after five years lost on an island and fights crime as the Arrow.
+- His list of targets gives way to bigger threats in Starling City.
+- His series spawns the rest of the Arrowverse.

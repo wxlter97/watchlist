@@ -1,0 +1,1 @@
+- Jefferson Pierce retoma su identidad de Relámpago Negro para proteger a su comunidad.

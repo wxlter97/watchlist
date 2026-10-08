@@ -1,0 +1,1 @@
+- John Constantine, atormentado por su pasado, defiende a la humanidad de fuerzas oscuras.

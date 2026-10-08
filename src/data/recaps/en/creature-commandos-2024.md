@@ -1,0 +1,1 @@
+- A secret team of incarcerated monsters carries out missions too dangerous for humans.

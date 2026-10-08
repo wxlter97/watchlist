@@ -1,0 +1,1 @@
+- Kate Kane se convierte en Batwoman para proteger Gotham en ausencia de Batman.

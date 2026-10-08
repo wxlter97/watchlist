@@ -1,0 +1,2 @@
+- Clark Kent and Lois Lane return to Smallville with their two sons.
+- They face personal and planetary threats.

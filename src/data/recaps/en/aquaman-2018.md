@@ -1,0 +1,2 @@
+- Arthur Curry learns he is the son of Atlantis's queen.
+- He must claim the throne against his brother Orm.

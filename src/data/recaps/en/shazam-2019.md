@@ -1,0 +1,2 @@
+- Billy Batson receives magic powers from the wizard Shazam.
+- He faces Dr. Sivana, who seeks the sins.

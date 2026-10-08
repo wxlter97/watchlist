@@ -1,0 +1,2 @@
+- Batman defends Gotham as mobster Jack Napier falls into chemicals and becomes the Joker.
+- Batman and the Joker clash across the city, with Vicki Vale in the middle.

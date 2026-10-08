@@ -1,0 +1,2 @@
+- Billy Batson recibe poderes mágicos del mago Shazam.
+- Enfrenta al Dr. Sivana, que busca los pecados.

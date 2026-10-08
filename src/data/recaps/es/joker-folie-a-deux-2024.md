@@ -1,0 +1,1 @@
+- Arthur Fleck está en Arkham y conoce a Lee, con quien comparte música y locura.

@@ -1,0 +1,2 @@
+- Amanda Waller recluta a villanos encarcelados para una misión suicida.
+- Se enfrentan a la Encantadora, una antigua aliada.

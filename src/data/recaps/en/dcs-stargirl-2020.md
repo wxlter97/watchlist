@@ -1,0 +1,1 @@
+- Courtney Whitmore discovers her stepfather was a superhero's sidekick and inherits the cosmic staff.

@@ -1,0 +1,2 @@
+- Con Gotham en crisis, Oz Cobb intenta ocupar el vacío de poder dejado por la muerte de Falcone.
+- Choca con la familia Falcone y con Sofia.

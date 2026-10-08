@@ -1,0 +1,2 @@
+- La Fuerza Especial X es enviada a Corto Maltese a destruir una instalación secreta.
+- Descubren a Starro, una estrella de mar gigante.

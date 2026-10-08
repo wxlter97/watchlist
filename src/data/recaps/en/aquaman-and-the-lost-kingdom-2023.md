@@ -1,0 +1,1 @@
+- Arthur teams up with his brother Orm against Black Manta.

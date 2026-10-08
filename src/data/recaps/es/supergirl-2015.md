@@ -1,0 +1,2 @@
+- Kara Danvers asume su identidad como Supergirl en National City.
+- Enfrenta a villanos alienígenas y a otros amenazas.

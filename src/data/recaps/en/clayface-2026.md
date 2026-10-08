@@ -1,0 +1,1 @@
+- Matt Hagen's rise from Gotham street kid to Hollywood leading man is cut short by a crime boss.
