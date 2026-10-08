@@ -1,0 +1,3 @@
+- Obi-Wan leaves his exile on Tatooine to rescue a young Leia.
+- Inquisitor Reva hunts him and he meets Vader again.
+- Obi-Wan and Vader duel, and Vader is left marked by it.

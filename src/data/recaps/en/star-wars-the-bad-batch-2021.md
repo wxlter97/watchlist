@@ -1,0 +1,2 @@
+- The Bad Batch squad survives Order 66 and becomes mercenaries alongside a young clone, Omega.
+- They flee the Empire as it dismantles the clone program.

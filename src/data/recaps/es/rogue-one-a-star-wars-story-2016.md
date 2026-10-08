@@ -1,0 +1,4 @@
+- Jyn Erso se une a la Rebelión para encontrar los planos de la Estrella de la Muerte que su padre ayudó a construir.
+- Con Cassian Andor y un grupo de rebeldes asalta Scarif.
+- Los planos llegan a Leia, pero casi todos mueren.
+- Vader aparece en la escena final persiguiendo los planos.

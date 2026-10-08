@@ -1,0 +1,3 @@
+- **Temporada 1:** Din Djarin protege a Grogu de un remanente imperial.
+- **Temporada 2:** lo lleva a buscar a los Jedi; Luke Skywalker lo recoge.
+- **Temporada 3:** Din recupera Mandalore y se enfrenta de nuevo al Moff Gideon.

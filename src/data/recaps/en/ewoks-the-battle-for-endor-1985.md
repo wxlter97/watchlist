@@ -1,0 +1,3 @@
+- King Terak's Marauders and the witch Charal attack the Ewok village and kill Cindel's family.
+- Cindel and Wicket escape and meet Teek and old Noa, another castaway.
+- Together they fight Terak and Charal.

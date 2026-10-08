@@ -1,0 +1,2 @@
+- Chewbacca tries to reach his family on Kashyyyk for Life Day while the Empire hunts him.
+- It mixes musical scenes, variety acts and an animated segment that introduces Boba Fett.

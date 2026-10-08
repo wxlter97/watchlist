@@ -1,0 +1,2 @@
+- Rey viaja a un templo Jedi con BB-8 y vive aventuras en distintas épocas de la saga.
+- Intenta volver a tiempo para la celebración del Día de la Vida.

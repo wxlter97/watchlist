@@ -1,0 +1,1 @@
+- C-3PO recounts the saga's adventures while chasing a hooded figure who took R2-D2.

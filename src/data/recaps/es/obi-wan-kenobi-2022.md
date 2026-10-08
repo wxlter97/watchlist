@@ -1,0 +1,3 @@
+- Obi-Wan sale de su exilio en Tatooine para rescatar a una joven Leia.
+- Lo persigue la Inquisidora Reva y se reencuentra con Vader.
+- Obi-Wan y Vader se enfrentan; Vader queda marcado por el duelo.

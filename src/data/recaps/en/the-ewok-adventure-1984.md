@@ -1,0 +1,2 @@
+- Wicket and his Ewok friends help two shipwrecked human children, Mace and Cindel, on Endor.
+- They help them search for their parents.

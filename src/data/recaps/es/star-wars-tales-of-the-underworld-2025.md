@@ -1,0 +1,1 @@
+- Seis cortos que siguen a Asajj Ventress y a Cad Bane en el crimen de la galaxia.

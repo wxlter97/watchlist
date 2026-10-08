@@ -1,0 +1,1 @@
+- Six shorts following Ahsoka Tano and Count Dooku before their final paths.

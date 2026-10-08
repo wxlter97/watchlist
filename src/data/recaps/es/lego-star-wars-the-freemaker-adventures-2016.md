@@ -1,0 +1,1 @@
+- La familia Freemaker, de cazarrecompensas, encuentra un cristal Kyber que los lanza a aventuras a lo largo de la saga.

@@ -1,0 +1,2 @@
+- A Jedi and her old master investigate a series of crimes tied to a shared past.
+- It reveals a darker side of the Jedi Order.

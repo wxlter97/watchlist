@@ -1,0 +1,2 @@
+- Wicket y sus amigos ewoks ayudan a dos niños humanos, Mace y Cindel, náufragos en Endor.
+- Los ayudan a buscar a sus padres.

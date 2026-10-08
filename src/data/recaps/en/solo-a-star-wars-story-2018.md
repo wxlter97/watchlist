@@ -1,0 +1,3 @@
+- Young Han escapes Corellia and joins a smuggler crew led by Beckett.
+- He meets Chewbacca and Lando Calrissian and runs the Kessel Run in the Millennium Falcon.
+- He finds out Qi'ra works for the Crimson Dawn syndicate.

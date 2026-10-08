@@ -1,0 +1,2 @@
+- Four kids from At Attin search for their home planet, lost in the galaxy.
+- They rely on a mysterious guide, Jod Na Nawood.

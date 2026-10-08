@@ -1,0 +1,1 @@
+- C-3PO relata las aventuras de la saga mientras persigue a un encapuchado que se llevó a R2-D2.

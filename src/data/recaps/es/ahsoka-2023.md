@@ -1,0 +1,2 @@
+- Ahsoka investiga una amenaza naciente y busca a Ezra Bridger y al gran almirante Thrawn.
+- Se enfrenta a Baylan Skoll y a su aprendiz.

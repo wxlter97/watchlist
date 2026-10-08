@@ -1,0 +1,2 @@
+- Chewbacca intenta llegar a su familia en Kashyyyk para celebrar el Día de la Vida, perseguido por el Imperio.
+- Mezcla escenas musicales, números de variedades y un segmento animado donde debuta Boba Fett.

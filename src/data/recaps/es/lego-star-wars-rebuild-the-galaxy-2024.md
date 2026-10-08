@@ -1,0 +1,2 @@
+- Sig Greebling desentierra un artefacto y la galaxia queda patas arriba.
+- Debe arreglar el desastre y volver a juntar las piezas.
