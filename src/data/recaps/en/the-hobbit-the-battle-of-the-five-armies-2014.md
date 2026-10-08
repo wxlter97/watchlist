@@ -1,0 +1,2 @@
+- After Smaug's attack on Laketown, Bilbo and the dwarves try to defend Erebor's treasure.
+- Five armies clash.

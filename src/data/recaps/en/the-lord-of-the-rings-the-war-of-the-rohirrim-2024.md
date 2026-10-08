@@ -1,0 +1,2 @@
+- Wulf, a traitorous lord of Rohan, attacks seeking vengeance.
+- The Rohirrim make a stand at Helm's Deep.

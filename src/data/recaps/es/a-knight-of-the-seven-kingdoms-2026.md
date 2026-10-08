@@ -1,0 +1,2 @@
+- Ser Duncan el Alto, un caballero joven e ingenuo, y su diminuto escudero Egg recorren Poniente.
+- Los Targaryen aún ocupan el Trono de Hierro y el último dragón sigue en la memoria.

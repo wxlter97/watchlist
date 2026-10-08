@@ -1,0 +1,1 @@
+- The Straw Hats visit Mecha Island, where a fisherman sings an old song about a castle.

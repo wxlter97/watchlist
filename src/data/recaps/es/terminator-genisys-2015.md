@@ -1,0 +1,2 @@
+- En 2029, John Connor continúa la guerra contra las máquinas.
+- Un viaje en el tiempo altera el pasado de Sarah Connor.

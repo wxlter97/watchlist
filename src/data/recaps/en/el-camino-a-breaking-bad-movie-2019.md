@@ -1,0 +1,2 @@
+- After his escape, Jesse Pinkman must come to terms with his past.
+- He tries to find a possible future.

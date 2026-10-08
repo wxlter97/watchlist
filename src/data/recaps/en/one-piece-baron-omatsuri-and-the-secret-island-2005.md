@@ -1,0 +1,1 @@
+- The Straw Hats visit Baron Omatsuri's recreational island, who asks them to complete a series of challenges.

@@ -1,0 +1,2 @@
+- A warrior from the future travels to 1997 to protect an AI scientist.
+- A relentless cyborg hunts him.

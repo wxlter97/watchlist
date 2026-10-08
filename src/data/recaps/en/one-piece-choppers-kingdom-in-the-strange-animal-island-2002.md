@@ -1,0 +1,1 @@
+- A sudden eruption of geysers strikes the Going Merry and sends them to a strange animal island.

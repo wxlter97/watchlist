@@ -1,0 +1,1 @@
+- A group of explorers is shipwrecked in the South Pacific and meets creatures, including Kong.

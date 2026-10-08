@@ -1,0 +1,2 @@
+- Ten years later, John Connor lives off the grid.
+- A new Terminator, the T-X, is sent to kill him.

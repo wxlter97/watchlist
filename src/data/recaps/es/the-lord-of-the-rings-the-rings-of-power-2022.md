@@ -1,0 +1,1 @@
+- Un reparto coral enfrenta el regreso del mal a la Tierra Media, entre Lindon, Númenor y las Montañas Nubladas.

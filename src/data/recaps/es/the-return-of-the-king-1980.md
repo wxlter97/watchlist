@@ -1,0 +1,2 @@
+- Dos hobbits luchan por destruir el Anillo en el Monte del Destino.
+- Sus amigos combaten a las fuerzas del mal.

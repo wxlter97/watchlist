@@ -1,0 +1,2 @@
+- Decades after Judgment Day was prevented, a new Terminator, the Rev-9, is sent to eliminate a young woman, Dani.
+- Sarah Connor reappears to protect her.

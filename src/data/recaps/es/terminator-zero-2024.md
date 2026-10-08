@@ -1,0 +1,2 @@
+- Un guerrero del futuro viaja a 1997 para proteger a un científico de IA.
+- Lo persigue un cíborg implacable.

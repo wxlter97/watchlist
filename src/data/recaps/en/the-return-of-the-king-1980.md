@@ -1,0 +1,2 @@
+- Two hobbits struggle to destroy the Ring in Mount Doom.
+- Their friends fight evil forces.

@@ -1,0 +1,1 @@
+- Four years after T2, Sarah and John Connor keep running from the machines.

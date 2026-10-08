@@ -1,0 +1,1 @@
+- The Straw Hats are resting on a beach until Luffy and the crew are drawn into an island adventure.

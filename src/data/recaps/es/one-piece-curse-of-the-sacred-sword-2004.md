@@ -1,0 +1,1 @@
+- Los Sombrero de Paja llegan a una isla donde está la espada más valiosa del mundo.

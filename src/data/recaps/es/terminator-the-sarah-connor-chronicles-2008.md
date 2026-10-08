@@ -1,0 +1,1 @@
+- Cuatro años después de T2, Sarah y John Connor siguen huyendo de las máquinas.

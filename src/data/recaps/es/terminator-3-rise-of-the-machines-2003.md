@@ -1,0 +1,2 @@
+- Diez años después, John Connor vive fuera del radar.
+- Una nueva Terminator, la T-X, es enviada a matarlo.

@@ -1,0 +1,1 @@
+- The Straw Hats try to save a desert kingdom from a civil war.

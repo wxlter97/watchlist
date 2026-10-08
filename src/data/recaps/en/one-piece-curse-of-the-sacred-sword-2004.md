@@ -1,0 +1,1 @@
+- The Straw Hats land on an island that holds the world's most valuable sword.

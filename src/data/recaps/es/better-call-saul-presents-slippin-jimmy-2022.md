@@ -1,0 +1,2 @@
+- Las desventuras del joven Jimmy McGill y sus amigos en Chicago, contadas como caricaturas de los setenta.
+- Cada episodio rinde homenaje a un género de cine.

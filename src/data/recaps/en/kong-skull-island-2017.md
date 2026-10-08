@@ -1,0 +1,1 @@
+- A team of explorers reaches the mysterious Skull Island, home of the king of the apes.

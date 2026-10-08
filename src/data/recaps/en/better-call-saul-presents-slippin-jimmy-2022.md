@@ -1,0 +1,2 @@
+- The misadventures of young Jimmy McGill and his friends in Chicago, told like 1970s cartoons.
+- Each episode pays homage to a film genre.

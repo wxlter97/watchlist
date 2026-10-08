@@ -1,0 +1,1 @@
+- Bilbo Bolsón, un hobbit tranquilo, se embarca en una aventura junto a Gandalf y un grupo de enanos.

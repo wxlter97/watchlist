@@ -1,0 +1,2 @@
+- La dinastía Targaryen está en su cima, con más de quince dragones.
+- El rey Viserys nombra heredera a su hija Rhaenyra, lo que divide a la corte cuando después tiene un hijo.
