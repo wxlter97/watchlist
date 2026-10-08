@@ -1,0 +1,1 @@
+- Six years after being presumed dead, Michael returns just as Haddonfield prepares to celebrate Halloween.

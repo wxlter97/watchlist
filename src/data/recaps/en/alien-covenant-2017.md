@@ -1,0 +1,2 @@
+- The crew of the colony ship Covenant finds an apparently paradisiacal planet.
+- They find a deadly danger there.

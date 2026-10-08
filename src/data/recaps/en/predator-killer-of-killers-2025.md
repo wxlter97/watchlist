@@ -1,0 +1,2 @@
+- Three of history's fiercest warriors fight in their own eras.
+- A Predator tests them all.

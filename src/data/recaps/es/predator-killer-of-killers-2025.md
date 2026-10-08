@@ -1,0 +1,2 @@
+- Tres de los guerreros más feroces de la historia luchan en sus épocas.
+- Un Predator los pone a prueba a todos.

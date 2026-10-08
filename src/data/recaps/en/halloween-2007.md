@@ -1,0 +1,1 @@
+- It tells Michael Myers's early years and the events leading to his rampage.

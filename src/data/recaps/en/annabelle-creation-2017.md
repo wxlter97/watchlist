@@ -1,0 +1,2 @@
+- A doll maker and his wife take in a nun and several girls from an orphanage.
+- The doll starts to cause terror.

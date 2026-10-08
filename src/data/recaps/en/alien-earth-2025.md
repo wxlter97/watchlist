@@ -1,0 +1,2 @@
+- A deep-space research ship, the Maginot, crash-lands on Earth.
+- Wendy and a group of soldiers face an unknown threat.

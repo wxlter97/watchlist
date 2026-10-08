@@ -1,0 +1,2 @@
+- Cuatro años después, Laurie decide liberarse del miedo y de la rabia.
+- Un joven llamado Corey se cruza con Michael y todo desemboca en un último enfrentamiento.

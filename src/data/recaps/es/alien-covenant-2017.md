@@ -1,0 +1,2 @@
+- La tripulación de la nave colonial Covenant descubre un planeta aparentemente paradisíaco.
+- Allí encuentran un peligro mortal.

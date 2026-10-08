@@ -1,0 +1,2 @@
+- Un grupo de jóvenes colonos explora una estación abandonada.
+- Se encuentran con la criatura más aterradora del universo.

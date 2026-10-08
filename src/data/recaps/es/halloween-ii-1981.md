@@ -1,0 +1,2 @@
+- Michael sigue a Laurie hasta el hospital, herido de seis balazos del doctor Loomis.
+- Se revela que Laurie es su hermana.

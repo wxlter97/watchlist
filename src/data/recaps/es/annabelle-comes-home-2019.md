@@ -1,0 +1,2 @@
+- Ed y Lorraine Warren encierran a Annabelle en su cuarto de artefactos.
+- Su hija y sus amigas quedan solas con los objetos malditos.

@@ -1,0 +1,2 @@
+- Michael frees himself from Laurie's trap and resumes his killing.
+- Laurie is injured and Haddonfield's residents organize against him.

@@ -1,0 +1,1 @@
+- Michael despierta del coma y vuelve a Haddonfield para matar a Jamie.

@@ -1,0 +1,2 @@
+- Un equipo de exploradores sigue una pista sobre el origen de la humanidad a un planeta lejano.
+- Descubren una amenaza mortal.

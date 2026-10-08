@@ -1,0 +1,2 @@
+- Diez años después, Michael despierta y regresa a Haddonfield para matar a su sobrina Jamie.
+- Loomis lo persigue de nuevo.

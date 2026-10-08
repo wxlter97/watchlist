@@ -1,0 +1,2 @@
+- The Vatican sends a priest and a novice to Romania to investigate a nun's death.
+- They uncover an ancient evil.

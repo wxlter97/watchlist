@@ -1,0 +1,2 @@
+- Un sacerdote es asesinado en Francia y la hermana Irene investiga.
+- Vuelve a enfrentarse a una fuerza oscura.

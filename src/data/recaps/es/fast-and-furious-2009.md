@@ -1,0 +1,2 @@
+- Un crimen devuelve a Dom a Los Ángeles y reabre su enemistad con Brian.
+- Ambos se unen contra un narcotraficante.

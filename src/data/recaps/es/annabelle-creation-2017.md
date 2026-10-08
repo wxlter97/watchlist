@@ -1,0 +1,2 @@
+- Un fabricante de muñecas y su esposa acogen a una monja y a varias niñas de un orfanato.
+- La muñeca empieza a causar terror.

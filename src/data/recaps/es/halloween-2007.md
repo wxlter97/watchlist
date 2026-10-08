@@ -1,0 +1,1 @@
+- Se cuentan los primeros años de Michael Myers y los hechos que llevan a su masacre.

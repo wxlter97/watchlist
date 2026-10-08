@@ -1,0 +1,2 @@
+- A young Predator is cast out of his clan and finds an ally in a damaged android.
+- They set out on a treacherous journey in search of a worthy adversary.

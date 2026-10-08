@@ -1,0 +1,2 @@
+- A crime brings Dom back to L.A. and reopens his feud with Brian.
+- They team up against a drug lord.
