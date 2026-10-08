@@ -1,0 +1,1 @@
+- Una guerra del Santo Grial falsa enfrenta a Masters y Servants en una ciudad estadounidense.

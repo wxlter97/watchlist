@@ -1,0 +1,1 @@
+- Gags absurdos con los personajes de Fate y otras obras de Type-Moon.

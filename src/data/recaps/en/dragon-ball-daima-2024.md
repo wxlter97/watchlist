@@ -1,0 +1,2 @@
+- Goku and his friends are turned into tiny versions of themselves.
+- They travel to the Demon Realm to uncover the mystery.

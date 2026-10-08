@@ -1,0 +1,2 @@
+- After defeating Frieza, Goku camps with Gohan and Krillin until Cooler, Frieza's brother, sends three henchmen.
+- Cooler transforms into his fourth form and has the edge, until Goku becomes a Super Saiyan.

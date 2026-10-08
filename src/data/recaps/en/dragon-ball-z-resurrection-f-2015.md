@@ -1,0 +1,2 @@
+- Two remnants of Frieza's army look for the Dragon Balls to revive him.
+- Goku and Vegeta face him.

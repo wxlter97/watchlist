@@ -1,0 +1,2 @@
+- Paragus convence a Vegeta de gobernar un nuevo planeta; el Kaio avisa a Goku de la destrucción de la Galaxia Sur.
+- Broly, el legendario Super Saiyajin, aparece.

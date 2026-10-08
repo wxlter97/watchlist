@@ -1,0 +1,2 @@
+- A Grail War pits two factions, Black and Red, with fourteen Servants against each other.
+- An extra Servant joins and changes the course.

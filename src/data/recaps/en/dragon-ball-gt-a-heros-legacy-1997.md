@@ -1,0 +1,2 @@
+- Goku Jr., Goku's great-great-grandson, is not a strong fighter but has a kind heart.
+- When his grandmother Pan falls ill, he looks for the Dragon Balls to make a wish.

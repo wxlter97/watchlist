@@ -1,0 +1,1 @@
+- Reescribe el origen de Goku, Bulma y Kame-Sen'nin con otra versión de su encuentro.

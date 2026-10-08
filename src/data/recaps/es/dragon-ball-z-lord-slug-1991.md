@@ -1,0 +1,1 @@
+- Un supernamekiano, Slug, llega a invadir la Tierra.

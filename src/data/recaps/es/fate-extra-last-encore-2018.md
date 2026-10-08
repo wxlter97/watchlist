@@ -1,0 +1,1 @@
+- Hakuno despierta en un mundo virtual sin recuerdos y debe pelear por sobrevivir.

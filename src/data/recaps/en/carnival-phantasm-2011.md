@@ -1,0 +1,1 @@
+- Absurd gags with the characters of Fate and other Type-Moon works.

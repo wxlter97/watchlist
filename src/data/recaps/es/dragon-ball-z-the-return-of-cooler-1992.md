@@ -1,0 +1,1 @@
+- Cooler se resucita como robot y esclaviza a los habitantes de Nueva Namek.

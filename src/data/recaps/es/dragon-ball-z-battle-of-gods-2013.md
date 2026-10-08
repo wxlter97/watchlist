@@ -1,0 +1,2 @@
+- Bills, el Dios de la Destrucción, busca al guerrero saiyajin que derrotó a Freezer.
+- Goku se enfrenta a él y alcanza una nueva transformación.

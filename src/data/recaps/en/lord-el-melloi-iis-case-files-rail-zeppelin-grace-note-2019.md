@@ -1,0 +1,2 @@
+- Waver, now Lord El-Melloi II, solves cases with the help of his student.
+- Connections to the fourth war's Servants appear.

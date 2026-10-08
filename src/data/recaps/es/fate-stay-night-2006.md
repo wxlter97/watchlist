@@ -1,0 +1,2 @@
+- Shirou Emiya entra en la Guerra del Santo Grial como Master de Saber.
+- Se enfrenta a otros Masters y Servants en Fuyuki.

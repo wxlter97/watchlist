@@ -1,0 +1,3 @@
+- Shirou Emiya comes to treat Miyu as a younger sister despite his adoptive father's warnings.
+- The Ainsworth family kidnaps her with the aim of sacrificing her.
+- Shirou must rescue her and decide how to face the danger of her powers.

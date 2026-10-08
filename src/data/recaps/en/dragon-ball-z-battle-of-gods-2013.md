@@ -1,0 +1,2 @@
+- Beerus, the God of Destruction, searches for the Saiyan who defeated Frieza.
+- Goku faces him and reaches a new transformation.

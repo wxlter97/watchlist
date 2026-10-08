@@ -1,0 +1,3 @@
+- Mr. Satan invites everyone to a world martial arts tournament.
+- Among the competitors is Bojack, an ancient villain who has escaped his prison.
+- Goku is dead, so Gohan, Vegeta and Trunks must stop him.

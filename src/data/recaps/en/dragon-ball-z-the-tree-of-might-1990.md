@@ -1,0 +1,1 @@
+- Goku and his friends must stop space pirates from eating fruit from the Tree of Might.

@@ -1,0 +1,2 @@
+- Waver, ahora Lord El-Melloi II, resuelve casos con ayuda de su alumna.
+- Aparecen conexiones con los Servants de la cuarta guerra.

@@ -1,0 +1,2 @@
+- Beerus awakens in search of a worthy rival.
+- Goku and his friends face an epic battle to stop him from destroying Earth.

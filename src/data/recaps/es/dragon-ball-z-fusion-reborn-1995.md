@@ -1,0 +1,2 @@
+- Un joven demonio deja desbordar la máquina de limpieza del mal y se convierte en Janemba.
+- Goku y Vegeta fallan por separado y comprenden que su única opción es la fusión.

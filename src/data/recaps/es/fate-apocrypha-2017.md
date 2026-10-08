@@ -1,0 +1,2 @@
+- Una guerra del Grial enfrenta a dos facciones, el Negro y el Rojo, con catorce Servants.
+- Un Servant adicional irrumpe y cambia el rumbo.

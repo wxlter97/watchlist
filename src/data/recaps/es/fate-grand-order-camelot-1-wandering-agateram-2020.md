@@ -1,0 +1,1 @@
+- El caballero errante Bedivere llega al final de su viaje en Jerusalén, en 1273.

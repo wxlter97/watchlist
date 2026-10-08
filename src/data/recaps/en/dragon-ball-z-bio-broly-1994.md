@@ -1,0 +1,2 @@
+- Jaga Bada invites Mr. Satan to his island for a grudge match; Trunks, Goten and Android 18 come along.
+- Jaga Bada's scientists have found a way to resurrect Broly.

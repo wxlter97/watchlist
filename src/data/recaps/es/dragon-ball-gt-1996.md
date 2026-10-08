@@ -1,0 +1,3 @@
+- Un deseo accidental del emperador Pilaf convierte a Goku otra vez en niño.
+- Con Trunks y su nieta Pan viaja al espacio a buscar las Esferas del Dragón de la Estrella Negra.
+- Si no las reúnen en un año, la Tierra será destruida.

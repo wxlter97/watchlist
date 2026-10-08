@@ -1,0 +1,2 @@
+- The Red Ribbon Army, destroyed years ago by Goku, is reformed by a group of scientists.
+- They create new androids and threaten the world.

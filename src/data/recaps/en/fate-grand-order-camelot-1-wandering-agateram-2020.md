@@ -1,0 +1,1 @@
+- The wandering knight Bedivere reaches the end of his journey in Jerusalem, in 1273.

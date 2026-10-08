@@ -1,0 +1,1 @@
+- Illyasviel von Einzbern, an elementary-school student, becomes a magical girl thanks to a magical wand.

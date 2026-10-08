@@ -1,0 +1,2 @@
+- Roshi inscribe a Goku y Krilin en una competencia organizada por el emperador Chaoz.
+- Un miembro de la casa real planea usar las Esferas del Dragón para extorsionar dinero y poder.

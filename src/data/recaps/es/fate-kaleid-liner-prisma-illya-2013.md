@@ -1,0 +1,1 @@
+- Illyasviel von Einzbern, una niña de primaria, se convierte en chica mágica gracias a un bastón mágico.

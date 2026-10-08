@@ -1,0 +1,2 @@
+- Garlic Jr. collects the Dragon Balls to wish for immortality and avenge his father; he kidnaps Gohan.
+- Goku, Kami, Piccolo and Krillin unite to rescue him and stop the world from being sucked into a dead zone.
