@@ -95,7 +95,9 @@ async function enrich(t: Title, changes: Change[]): Promise<Title> {
   const localized: NonNullable<Title["localized"]> = {};
   for (const [lang, d] of [["en", en], ["es", es]] as const) {
     const title = d.title ?? d.name;
-    if (title) localized[lang] = { title, ...(d.overview ? { overview: d.overview } : {}) };
+    // Si TMDB no tiene sinopsis en ese idioma se conserva la ya escrita (traducciones propias del catálogo).
+    const overview = d.overview || t.localized?.[lang]?.overview;
+    if (title) localized[lang] = { title, ...(overview ? { overview } : {}) };
   }
   set("localized", localized, false);
 
