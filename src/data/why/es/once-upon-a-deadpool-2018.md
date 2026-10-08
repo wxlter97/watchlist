@@ -1,0 +1,1 @@
+Es Deadpool 2 recortada a PG-13, con una historia enmarcada en la que Deadpool se la cuenta a un Fred Savage secuestrado, como en «La princesa prometida». Añade escenas nuevas, pero la trama es la misma: si ya viste Deadpool 2, es opcional.

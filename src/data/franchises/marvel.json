@@ -3995,6 +3995,33 @@
       "characters": [
         "spider-man"
       ]
+    },
+    {
+      "titleId": "once-upon-a-deadpool-2018",
+      "continuityId": "fox-xmen-revised",
+      "group": "fox-x-men",
+      "chronoOrder": 55,
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Versión PG-13 de Deadpool 2, con Fred Savage",
+        "en": "PG-13 cut of Deadpool 2, with Fred Savage"
+      },
+      "characters": [
+        "deadpool"
+      ],
+      "teams": [
+        "x-men"
+      ]
+    },
+    {
+      "titleId": "marvel-studios-legends-2021",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Repasos de personajes y películas del MCU",
+        "en": "MCU character and film recaps"
+      }
     }
   ],
   "orders": [

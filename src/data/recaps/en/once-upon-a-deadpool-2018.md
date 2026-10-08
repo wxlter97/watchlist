@@ -1,0 +1,3 @@
+- PG-13 cut of Deadpool 2, released in theaters in December 2018.
+- Deadpool tells the story to a kidnapped Fred Savage, Princess Bride-style.
+- Same plot as Deadpool 2, with new scenes.

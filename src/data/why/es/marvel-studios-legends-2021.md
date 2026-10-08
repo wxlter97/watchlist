@@ -1,0 +1,1 @@
+Son segmentos cortos de Disney+ que repasan personajes y momentos del MCU antes de cada serie nueva. Sirven para refrescar la memoria, no aportan historia nueva; además adelantan lo ocurrido en las películas, así que mejor verlos después de ellas.

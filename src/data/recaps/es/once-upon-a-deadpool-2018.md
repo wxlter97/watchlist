@@ -1,0 +1,3 @@
+- Versión PG-13 de Deadpool 2, estrenada en cines en diciembre de 2018.
+- Deadpool le cuenta la historia a Fred Savage, secuestrado, al estilo de «La princesa prometida».
+- Mismo argumento que Deadpool 2, con escenas nuevas.
