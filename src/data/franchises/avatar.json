@@ -65,6 +65,34 @@
         "jake-sully",
         "neytiri"
       ]
+    },
+    {
+      "titleId": "avatar-4-2029",
+      "continuityId": "pandora",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Anunciada",
+        "en": "Announced"
+      },
+      "characters": [
+        "jake-sully",
+        "neytiri"
+      ]
+    },
+    {
+      "titleId": "avatar-5-2031",
+      "continuityId": "pandora",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Anunciada",
+        "en": "Announced"
+      },
+      "characters": [
+        "jake-sully",
+        "neytiri"
+      ]
     }
   ],
   "orders": [
