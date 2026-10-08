@@ -1,0 +1,1 @@
+It is Deadpool 2 re-cut to PG-13, with a framing story where Deadpool tells it to a kidnapped Fred Savage, Princess Bride-style. It adds new scenes, but the plot is the same: if you have seen Deadpool 2, it is optional.

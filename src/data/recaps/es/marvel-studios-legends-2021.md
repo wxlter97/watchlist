@@ -1,0 +1,3 @@
+- Serie de repasos de Disney+ de unos 8 minutos por episodio.
+- Revisa héroes, villanos y momentos del MCU como antesala de las series que vienen.
+- Dos temporadas, con 26 y 20 episodios.
