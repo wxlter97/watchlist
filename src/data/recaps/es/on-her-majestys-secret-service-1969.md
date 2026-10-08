@@ -1,0 +1,3 @@
+- Bond conoce a Tracy, hija del jefe de la mafia, y se enamora.
+- Persigue a Blofeld, que prepara un plan con un arma biológica.
+- Bond y Tracy se casan; ella muere poco después.

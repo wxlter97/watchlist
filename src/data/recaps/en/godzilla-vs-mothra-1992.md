@@ -1,0 +1,2 @@
+- Battra, Mothra's dark counterpart, tries to eliminate humanity.
+- Mothra and Battra end up united against Godzilla.

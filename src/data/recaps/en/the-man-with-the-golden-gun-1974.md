@@ -1,0 +1,2 @@
+- Bond searches for an invention that concentrates the sun's heat.
+- He faces the assassin Scaramanga, who uses a golden gun.

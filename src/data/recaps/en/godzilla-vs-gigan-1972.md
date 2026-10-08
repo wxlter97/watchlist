@@ -1,0 +1,2 @@
+- A manga artist finds out an amusement park is an alien scheme.
+- Godzilla and Anguirus fight Gigan and Ghidorah.

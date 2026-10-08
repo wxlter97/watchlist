@@ -1,0 +1,2 @@
+- An expedition salvages Mechagodzilla's remains and runs into Titanosaurus.
+- The aliens rebuild it.

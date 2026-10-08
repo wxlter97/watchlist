@@ -1,0 +1,2 @@
+- SPECTRE se hace con dos bombas nucleares y exige un rescate de cien millones de libras.
+- Bond sigue la pista hasta las Bahamas y se enfrenta a Largo.

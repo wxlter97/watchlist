@@ -1,0 +1,2 @@
+- Un agente 00 aparece muerto con un huevo de Fabergé.
+- Bond sigue la pista y desactiva un plan para detonar una bomba en una base aérea.

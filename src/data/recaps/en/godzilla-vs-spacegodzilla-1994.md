@@ -1,0 +1,2 @@
+- A Godzilla-like creature approaches Earth.
+- Godzilla must confront it.

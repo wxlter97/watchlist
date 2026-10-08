@@ -1,0 +1,2 @@
+- Bond investiga una red de contrabando de diamantes.
+- Descubre que Blofeld usa las gemas para un arma satelital.

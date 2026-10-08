@@ -1,0 +1,2 @@
+- Bond must stop a Russian syndicate that stole the GoldenEye system.
+- He finds out his former partner, Alec Trevelyan, is the traitor.

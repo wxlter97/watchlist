@@ -1,0 +1,2 @@
+- An Okinawan prophecy foretells Earth's destruction.
+- A robotic replica of Godzilla emerges and fights him.

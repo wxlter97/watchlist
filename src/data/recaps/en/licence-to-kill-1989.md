@@ -1,0 +1,1 @@
+- Bond leaves MI6 to avenge his friend Felix Leiter, attacked by a drug lord.

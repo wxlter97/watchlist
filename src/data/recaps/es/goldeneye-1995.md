@@ -1,0 +1,2 @@
+- Bond debe frenar un sindicato ruso que robó el sistema GoldenEye.
+- Descubre que su antiguo compañero, Alec Trevelyan, es el traidor.

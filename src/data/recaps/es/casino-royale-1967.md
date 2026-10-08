@@ -1,0 +1,2 @@
+- Sir James Bond sale del retiro para enfrentar a SMERSH.
+- Para despistar al enemigo, recluta a varios agentes con su nombre.

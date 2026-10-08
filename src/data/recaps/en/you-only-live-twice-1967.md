@@ -1,0 +1,2 @@
+- US and Soviet space capsules vanish and each country blames the other.
+- Bond travels to Japan and finds Blofeld's base in a volcano.

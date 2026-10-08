@@ -1,0 +1,2 @@
+- An undersea race controls Megalon and seizes a robot, Jet Jaguar.
+- Godzilla helps Jet Jaguar win.

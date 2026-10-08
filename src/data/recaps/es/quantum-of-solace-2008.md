@@ -1,0 +1,2 @@
+- Bond persigue al responsable de la muerte de Vesper.
+- Descubre Quantum, una organización con intereses ocultos, y a Dominic Greene.

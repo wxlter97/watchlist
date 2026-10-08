@@ -1,0 +1,2 @@
+- La humanidad encierra a Godzilla en el polo sur.
+- Una invasión alienígena libera a los monstruos y a Godzilla.

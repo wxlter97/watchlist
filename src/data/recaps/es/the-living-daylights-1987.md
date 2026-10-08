@@ -1,0 +1,2 @@
+- Bond ayuda a un general soviético a desertar y descubre un plan para asesinar espías.
+- La pista lo lleva a un traficante de armas.

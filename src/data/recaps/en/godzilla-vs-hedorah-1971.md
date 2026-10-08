@@ -1,0 +1,2 @@
+- An alien life form arrives on a comet and feeds on pollution.
+- Godzilla fights it as it evolves.

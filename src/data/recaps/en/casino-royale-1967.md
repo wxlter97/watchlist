@@ -1,0 +1,2 @@
+- Sir James Bond comes out of retirement to stop SMERSH.
+- To fool the enemy, he recruits several agents all called James Bond.

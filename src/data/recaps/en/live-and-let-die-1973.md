@@ -1,0 +1,2 @@
+- Bond investigates a British agent's death in New Orleans.
+- He faces Kananga, who operates as the drug lord Mr. Big.

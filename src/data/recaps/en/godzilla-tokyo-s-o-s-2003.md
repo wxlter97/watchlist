@@ -1,0 +1,2 @@
+- Mothra and her fairies ask that Kiryu be returned to the sea.
+- Godzilla returns and they face him.

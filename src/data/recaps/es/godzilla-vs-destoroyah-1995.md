@@ -1,0 +1,3 @@
+- Godzilla, al borde de una fusión nuclear, ataca Hong Kong.
+- Surge Destoroyah, nacido del arma que mató a Godzilla de 1954.
+- Godzilla muere; su hijo hereda el poder.

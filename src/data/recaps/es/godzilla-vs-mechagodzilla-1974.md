@@ -1,0 +1,2 @@
+- Una profecía de Okinawa anuncia la destrucción de la Tierra.
+- Surge una réplica robótica de Godzilla que lo enfrenta.

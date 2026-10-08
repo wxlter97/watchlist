@@ -1,0 +1,2 @@
+- Los monstruos de la Tierra viven en Monsterland.
+- Unos alienígenas los controlan y los lanzan contra las capitales del mundo.

@@ -1,0 +1,2 @@
+- Una agencia de la ONU construye Mechagodzilla con tecnología de King Ghidorah.
+- Descubren un huevo de Godzilla.

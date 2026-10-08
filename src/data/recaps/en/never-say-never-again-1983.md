@@ -1,0 +1,2 @@
+- Bond comes out of retirement and faces SPECTRE, which steals two nuclear bombs.
+- He must defeat Largo, who runs the plan.

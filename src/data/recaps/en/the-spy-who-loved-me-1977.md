@@ -1,0 +1,3 @@
+- British and Russian nuclear submarines vanish.
+- Bond and a Soviet agent, Anya, investigate together.
+- They find a tycoon, Stromberg, plans to destroy the world from an underwater base.

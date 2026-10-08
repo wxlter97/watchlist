@@ -1,0 +1,2 @@
+- Astronauts find the Planet X aliens, who ask for Earth's help.
+- The aliens take control of the monsters.

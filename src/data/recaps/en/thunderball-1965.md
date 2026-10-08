@@ -1,0 +1,2 @@
+- SPECTRE seizes two nuclear bombs and demands a hundred-million-pound ransom.
+- Bond follows the trail to the Bahamas and faces Largo.

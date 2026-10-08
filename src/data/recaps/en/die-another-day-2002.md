@@ -1,0 +1,1 @@
+- Bond investigates a North Korean terrorist linked to a diamond mogul.

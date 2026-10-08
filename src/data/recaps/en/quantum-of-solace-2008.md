@@ -1,0 +1,2 @@
+- Bond hunts the person behind Vesper's death.
+- He uncovers Quantum, an organization with hidden interests, and Dominic Greene.

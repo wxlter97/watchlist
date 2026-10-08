@@ -1,0 +1,1 @@
+- Un nuevo Godzilla emerge y Japón construye a Kiryu, un cíborg hecho con los huesos del primero.

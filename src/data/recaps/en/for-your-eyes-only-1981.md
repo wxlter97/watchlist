@@ -1,0 +1,2 @@
+- A British spy ship sinks with an encryption device.
+- Bond must recover it before the Soviets.

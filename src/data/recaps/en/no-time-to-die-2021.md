@@ -1,0 +1,3 @@
+- Bond lives retired in Jamaica until an old ally comes looking.
+- He faces Safin, a villain with a dangerous weapon.
+- Bond dies saving Madeleine and her daughter.
