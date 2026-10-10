@@ -78,7 +78,10 @@
       "chronoNote": {
         "es": "Primer Doctor (Hartnell)",
         "en": "First Doctor (Hartnell)"
-      }
+      },
+      "characters": [
+        "first-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -89,7 +92,10 @@
       "chronoNote": {
         "es": "Primer Doctor (Hartnell)",
         "en": "First Doctor (Hartnell)"
-      }
+      },
+      "characters": [
+        "first-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -100,7 +106,10 @@
       "chronoNote": {
         "es": "Primer Doctor (Hartnell)",
         "en": "First Doctor (Hartnell)"
-      }
+      },
+      "characters": [
+        "first-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -111,7 +120,11 @@
       "chronoNote": {
         "es": "Primer y Segundo Doctor (Hartnell, Troughton)",
         "en": "First and Second Doctor (Hartnell, Troughton)"
-      }
+      },
+      "characters": [
+        "first-doctor",
+        "second-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -122,7 +135,10 @@
       "chronoNote": {
         "es": "Segundo Doctor (Troughton)",
         "en": "Second Doctor (Troughton)"
-      }
+      },
+      "characters": [
+        "second-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -133,7 +149,10 @@
       "chronoNote": {
         "es": "Segundo Doctor (Troughton)",
         "en": "Second Doctor (Troughton)"
-      }
+      },
+      "characters": [
+        "second-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -144,7 +163,10 @@
       "chronoNote": {
         "es": "Tercer Doctor (Pertwee)",
         "en": "Third Doctor (Pertwee)"
-      }
+      },
+      "characters": [
+        "third-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -155,7 +177,10 @@
       "chronoNote": {
         "es": "Tercer Doctor (Pertwee)",
         "en": "Third Doctor (Pertwee)"
-      }
+      },
+      "characters": [
+        "third-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -166,7 +191,10 @@
       "chronoNote": {
         "es": "Tercer Doctor (Pertwee)",
         "en": "Third Doctor (Pertwee)"
-      }
+      },
+      "characters": [
+        "third-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -177,7 +205,10 @@
       "chronoNote": {
         "es": "Tercer Doctor (Pertwee)",
         "en": "Third Doctor (Pertwee)"
-      }
+      },
+      "characters": [
+        "third-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -188,7 +219,11 @@
       "chronoNote": {
         "es": "Tercer Doctor (Pertwee) y Cuarto (T. Baker)",
         "en": "Third Doctor (Pertwee) and Fourth (T. Baker)"
-      }
+      },
+      "characters": [
+        "third-doctor",
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -199,7 +234,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker)",
         "en": "Fourth Doctor (T. Baker)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -210,7 +248,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker)",
         "en": "Fourth Doctor (T. Baker)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -221,7 +262,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker)",
         "en": "Fourth Doctor (T. Baker)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -232,7 +276,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker)",
         "en": "Fourth Doctor (T. Baker)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -243,7 +290,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker)",
         "en": "Fourth Doctor (T. Baker)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -254,7 +304,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker)",
         "en": "Fourth Doctor (T. Baker)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -265,7 +318,10 @@
       "chronoNote": {
         "es": "Cuarto Doctor (T. Baker) y Quinto (Davison)",
         "en": "Fourth Doctor (T. Baker) and Fifth (Davison)"
-      }
+      },
+      "characters": [
+        "fourth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -276,7 +332,10 @@
       "chronoNote": {
         "es": "Quinto Doctor (Davison)",
         "en": "Fifth Doctor (Davison)"
-      }
+      },
+      "characters": [
+        "fifth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -287,7 +346,10 @@
       "chronoNote": {
         "es": "Quinto Doctor (Davison)",
         "en": "Fifth Doctor (Davison)"
-      }
+      },
+      "characters": [
+        "fifth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -298,7 +360,11 @@
       "chronoNote": {
         "es": "Quinto (Davison) y Sexto Doctor (C. Baker)",
         "en": "Fifth (Davison) and Sixth Doctor (C. Baker)"
-      }
+      },
+      "characters": [
+        "fifth-doctor",
+        "sixth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -309,7 +375,10 @@
       "chronoNote": {
         "es": "Sexto Doctor (C. Baker)",
         "en": "Sixth Doctor (C. Baker)"
-      }
+      },
+      "characters": [
+        "sixth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -320,7 +389,10 @@
       "chronoNote": {
         "es": "Sexto Doctor (C. Baker)",
         "en": "Sixth Doctor (C. Baker)"
-      }
+      },
+      "characters": [
+        "sixth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -331,7 +403,10 @@
       "chronoNote": {
         "es": "Séptimo Doctor (McCoy)",
         "en": "Seventh Doctor (McCoy)"
-      }
+      },
+      "characters": [
+        "seventh-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -342,7 +417,10 @@
       "chronoNote": {
         "es": "Séptimo Doctor (McCoy)",
         "en": "Seventh Doctor (McCoy)"
-      }
+      },
+      "characters": [
+        "seventh-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1963",
@@ -353,7 +431,10 @@
       "chronoNote": {
         "es": "Séptimo Doctor (McCoy)",
         "en": "Seventh Doctor (McCoy)"
-      }
+      },
+      "characters": [
+        "seventh-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-1996",
@@ -363,7 +444,10 @@
       "chronoNote": {
         "es": "Octavo Doctor (McGann)",
         "en": "Eighth Doctor (McGann)"
-      }
+      },
+      "characters": [
+        "eighth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -374,7 +458,10 @@
       "chronoNote": {
         "es": "Noveno Doctor (Eccleston)",
         "en": "Ninth Doctor (Eccleston)"
-      }
+      },
+      "characters": [
+        "ninth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -385,7 +472,10 @@
       "chronoNote": {
         "es": "Décimo Doctor (Tennant)",
         "en": "Tenth Doctor (Tennant)"
-      }
+      },
+      "characters": [
+        "tenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -396,7 +486,10 @@
       "chronoNote": {
         "es": "Décimo Doctor (Tennant)",
         "en": "Tenth Doctor (Tennant)"
-      }
+      },
+      "characters": [
+        "tenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -407,7 +500,10 @@
       "chronoNote": {
         "es": "Décimo Doctor (Tennant)",
         "en": "Tenth Doctor (Tennant)"
-      }
+      },
+      "characters": [
+        "tenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -418,7 +514,10 @@
       "chronoNote": {
         "es": "Undécimo Doctor (Smith)",
         "en": "Eleventh Doctor (Smith)"
-      }
+      },
+      "characters": [
+        "eleventh-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -429,7 +528,10 @@
       "chronoNote": {
         "es": "Undécimo Doctor (Smith)",
         "en": "Eleventh Doctor (Smith)"
-      }
+      },
+      "characters": [
+        "eleventh-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -440,7 +542,10 @@
       "chronoNote": {
         "es": "Undécimo Doctor (Smith)",
         "en": "Eleventh Doctor (Smith)"
-      }
+      },
+      "characters": [
+        "eleventh-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -451,7 +556,10 @@
       "chronoNote": {
         "es": "Duodécimo Doctor (Capaldi)",
         "en": "Twelfth Doctor (Capaldi)"
-      }
+      },
+      "characters": [
+        "twelfth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -462,7 +570,10 @@
       "chronoNote": {
         "es": "Duodécimo Doctor (Capaldi)",
         "en": "Twelfth Doctor (Capaldi)"
-      }
+      },
+      "characters": [
+        "twelfth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -473,7 +584,10 @@
       "chronoNote": {
         "es": "Duodécimo Doctor (Capaldi)",
         "en": "Twelfth Doctor (Capaldi)"
-      }
+      },
+      "characters": [
+        "twelfth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -484,7 +598,10 @@
       "chronoNote": {
         "es": "Decimotercer Doctor (Whittaker)",
         "en": "Thirteenth Doctor (Whittaker)"
-      }
+      },
+      "characters": [
+        "thirteenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -495,7 +612,10 @@
       "chronoNote": {
         "es": "Decimotercer Doctor (Whittaker)",
         "en": "Thirteenth Doctor (Whittaker)"
-      }
+      },
+      "characters": [
+        "thirteenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2005",
@@ -506,7 +626,10 @@
       "chronoNote": {
         "es": "Decimotercer Doctor (Whittaker)",
         "en": "Thirteenth Doctor (Whittaker)"
-      }
+      },
+      "characters": [
+        "thirteenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2024",
@@ -517,7 +640,10 @@
       "chronoNote": {
         "es": "Decimoquinto Doctor (Gatwa)",
         "en": "Fifteenth Doctor (Gatwa)"
-      }
+      },
+      "characters": [
+        "fifteenth-doctor"
+      ]
     },
     {
       "titleId": "doctor-who-2024",
@@ -528,21 +654,30 @@
       "chronoNote": {
         "es": "Decimoquinto Doctor (Gatwa)",
         "en": "Fifteenth Doctor (Gatwa)"
-      }
+      },
+      "characters": [
+        "fifteenth-doctor"
+      ]
     },
     {
       "titleId": "torchwood-2006",
       "continuityId": "spinoffs",
       "season": 1,
       "importance": "optional",
-      "chronoOrder": 2006100
+      "chronoOrder": 2006100,
+      "characters": [
+        "captain-jack"
+      ]
     },
     {
       "titleId": "torchwood-2006",
       "continuityId": "spinoffs",
       "season": 2,
       "importance": "optional",
-      "chronoOrder": 2008010
+      "chronoOrder": 2008010,
+      "characters": [
+        "captain-jack"
+      ]
     },
     {
       "titleId": "torchwood-2006",
@@ -553,7 +688,10 @@
       "chronoNote": {
         "es": "«Children of Earth»",
         "en": "\"Children of Earth\""
-      }
+      },
+      "characters": [
+        "captain-jack"
+      ]
     },
     {
       "titleId": "torchwood-2006",
@@ -564,42 +702,60 @@
       "chronoNote": {
         "es": "«Miracle Day»",
         "en": "\"Miracle Day\""
-      }
+      },
+      "characters": [
+        "captain-jack"
+      ]
     },
     {
       "titleId": "the-sarah-jane-adventures-2007",
       "continuityId": "spinoffs",
       "season": 1,
       "importance": "optional",
-      "chronoOrder": 2007090
+      "chronoOrder": 2007090,
+      "characters": [
+        "sarah-jane-smith"
+      ]
     },
     {
       "titleId": "the-sarah-jane-adventures-2007",
       "continuityId": "spinoffs",
       "season": 2,
       "importance": "optional",
-      "chronoOrder": 2008090
+      "chronoOrder": 2008090,
+      "characters": [
+        "sarah-jane-smith"
+      ]
     },
     {
       "titleId": "the-sarah-jane-adventures-2007",
       "continuityId": "spinoffs",
       "season": 3,
       "importance": "optional",
-      "chronoOrder": 2009100
+      "chronoOrder": 2009100,
+      "characters": [
+        "sarah-jane-smith"
+      ]
     },
     {
       "titleId": "the-sarah-jane-adventures-2007",
       "continuityId": "spinoffs",
       "season": 4,
       "importance": "optional",
-      "chronoOrder": 2010100
+      "chronoOrder": 2010100,
+      "characters": [
+        "sarah-jane-smith"
+      ]
     },
     {
       "titleId": "the-sarah-jane-adventures-2007",
       "continuityId": "spinoffs",
       "season": 5,
       "importance": "optional",
-      "chronoOrder": 2011100
+      "chronoOrder": 2011100,
+      "characters": [
+        "sarah-jane-smith"
+      ]
     }
   ],
   "orders": [
@@ -701,7 +857,120 @@
     }
   ],
   "tags": {
-    "characters": [],
+    "characters": [
+      {
+        "id": "first-doctor",
+        "name": {
+          "es": "Primer Doctor (Hartnell)",
+          "en": "1st Doctor (Hartnell)"
+        }
+      },
+      {
+        "id": "second-doctor",
+        "name": {
+          "es": "Segundo Doctor (Troughton)",
+          "en": "2nd Doctor (Troughton)"
+        }
+      },
+      {
+        "id": "third-doctor",
+        "name": {
+          "es": "Tercer Doctor (Pertwee)",
+          "en": "3rd Doctor (Pertwee)"
+        }
+      },
+      {
+        "id": "fourth-doctor",
+        "name": {
+          "es": "Cuarto Doctor (Tom Baker)",
+          "en": "4th Doctor (Tom Baker)"
+        }
+      },
+      {
+        "id": "fifth-doctor",
+        "name": {
+          "es": "Quinto Doctor (Davison)",
+          "en": "5th Doctor (Davison)"
+        }
+      },
+      {
+        "id": "sixth-doctor",
+        "name": {
+          "es": "Sexto Doctor (Colin Baker)",
+          "en": "6th Doctor (Colin Baker)"
+        }
+      },
+      {
+        "id": "seventh-doctor",
+        "name": {
+          "es": "Séptimo Doctor (McCoy)",
+          "en": "7th Doctor (McCoy)"
+        }
+      },
+      {
+        "id": "eighth-doctor",
+        "name": {
+          "es": "Octavo Doctor (McGann)",
+          "en": "8th Doctor (McGann)"
+        }
+      },
+      {
+        "id": "ninth-doctor",
+        "name": {
+          "es": "Noveno Doctor (Eccleston)",
+          "en": "9th Doctor (Eccleston)"
+        }
+      },
+      {
+        "id": "tenth-doctor",
+        "name": {
+          "es": "Décimo Doctor (Tennant)",
+          "en": "10th Doctor (Tennant)"
+        }
+      },
+      {
+        "id": "eleventh-doctor",
+        "name": {
+          "es": "Undécimo Doctor (Smith)",
+          "en": "11th Doctor (Smith)"
+        }
+      },
+      {
+        "id": "twelfth-doctor",
+        "name": {
+          "es": "Duodécimo Doctor (Capaldi)",
+          "en": "12th Doctor (Capaldi)"
+        }
+      },
+      {
+        "id": "thirteenth-doctor",
+        "name": {
+          "es": "Decimotercer Doctor (Whittaker)",
+          "en": "13th Doctor (Whittaker)"
+        }
+      },
+      {
+        "id": "fifteenth-doctor",
+        "name": {
+          "es": "Decimoquinto Doctor (Gatwa)",
+          "en": "15th Doctor (Gatwa)"
+        }
+      },
+      {
+        "id": "captain-jack",
+        "name": {
+          "es": "Capitán Jack Harkness",
+          "en": "Captain Jack Harkness"
+        }
+      },
+      {
+        "id": "sarah-jane-smith",
+        "name": {
+          "es": "Sarah Jane Smith",
+          "en": "Sarah Jane Smith"
+        }
+      }
+    ],
     "teams": []
   }
 }
