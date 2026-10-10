@@ -1,0 +1,2 @@
+- Hellboy goes to England to defeat Nimue, the Blood Queen.
+- Their battle threatens to bring about the end of the world.

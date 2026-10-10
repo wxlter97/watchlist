@@ -1,0 +1,2 @@
+- Las tortugas salen por primera vez a la superficie el día de su cumpleaños número quince.
+- Descubren que la vida fuera de las alcantarillas no es fácil.

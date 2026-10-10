@@ -1,0 +1,2 @@
+- Una expedición viaja a la ciudad perdida de Atlantis, en otra galaxia.
+- Enfrenta a los Wraith y a otros peligros.

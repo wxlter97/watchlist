@@ -1,0 +1,2 @@
+- Un coronel y un egiptólogo atraviesan el Stargate hacia otro mundo.
+- Descubren que el dios Ra gobierna a un pueblo esclavizado y lo enfrentan.

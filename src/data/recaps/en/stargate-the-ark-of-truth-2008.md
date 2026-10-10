@@ -1,0 +1,2 @@
+- SG-1 searches for an ancient weapon to defeat the Ori and travels to their galaxy.
+- The Ori prepare to attack Earth.

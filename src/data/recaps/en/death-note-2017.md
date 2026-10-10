@@ -1,0 +1,1 @@
+- An American student finds the notebook and starts eliminating criminals.

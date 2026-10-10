@@ -1,0 +1,2 @@
+- Hellboy viaja a Inglaterra para enfrentar a Nimue, la Reina de Sangre.
+- Su batalla amenaza con provocar el fin del mundo.

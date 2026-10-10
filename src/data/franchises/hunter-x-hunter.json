@@ -1,0 +1,107 @@
+{
+  "id": "hunter-x-hunter",
+  "name": {
+    "es": "Hunter x Hunter",
+    "en": "Hunter x Hunter"
+  },
+  "description": {
+    "es": "Gon y sus amigos buscan a su padre: dos adaptaciones del manga, la de 2011 es la más fiel.",
+    "en": "Gon and his friends search for his father: two adaptations of the manga, the 2011 one being the most faithful."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "y2011",
+      "name": {
+        "es": "Versión de 2011",
+        "en": "2011 version"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La adaptación completa y más fiel del manga.",
+        "en": "The complete and most faithful manga adaptation."
+      }
+    },
+    {
+      "id": "y1999",
+      "name": {
+        "es": "Versión de 1999",
+        "en": "1999 version"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La primera adaptación, de 62 episodios.",
+        "en": "The first adaptation, 62 episodes."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "hunter-x-hunter-2011",
+      "continuityId": "y2011",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "gon-freecss",
+        "killua-zoldyck"
+      ]
+    },
+    {
+      "titleId": "hunter-x-hunter-1999",
+      "continuityId": "y1999",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "gon-freecss",
+        "killua-zoldyck"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "gon-freecss",
+        "name": {
+          "es": "Gon Freecss",
+          "en": "Gon Freecss"
+        }
+      },
+      {
+        "id": "killua-zoldyck",
+        "name": {
+          "es": "Killua Zoldyck",
+          "en": "Killua Zoldyck"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

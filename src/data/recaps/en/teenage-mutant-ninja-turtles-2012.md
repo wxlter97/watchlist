@@ -1,0 +1,2 @@
+- The turtles surface for the first time on their fifteenth birthday.
+- They find life out of the sewers is not easy.

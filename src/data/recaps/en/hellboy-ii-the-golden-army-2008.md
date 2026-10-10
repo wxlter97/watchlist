@@ -1,0 +1,2 @@
+- Prince Nuada wants to reclaim the Golden Army to take on humanity.
+- Hellboy and his team must stop him.

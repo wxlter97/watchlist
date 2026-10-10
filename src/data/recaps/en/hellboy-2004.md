@@ -1,0 +1,2 @@
+- Hellboy, a demon raised by Professor Broom, works for the B.P.R.D. agency.
+- With Liz Sherman and Abe Sapien he faces the resurrected Rasputin and his monsters.

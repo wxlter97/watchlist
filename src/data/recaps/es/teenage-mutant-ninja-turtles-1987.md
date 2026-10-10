@@ -1,0 +1,2 @@
+- Cuatro tortugas mutantes y su maestro Splinter combaten a Shredder y Krang.
+- Cada episodio es una aventura independiente.

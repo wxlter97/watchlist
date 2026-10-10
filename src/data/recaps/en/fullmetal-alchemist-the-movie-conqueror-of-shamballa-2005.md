@@ -1,0 +1,1 @@
+- Two years after being dragged into our world, Edward researches rocketry in Munich, 1923.

@@ -1,0 +1,2 @@
+- Four mutant turtles and their master Splinter fight Shredder and Krang.
+- Each episode is a standalone adventure.

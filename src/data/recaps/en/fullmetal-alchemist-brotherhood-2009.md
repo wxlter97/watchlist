@@ -1,0 +1,2 @@
+- Edward and Alphonse Elric try to resurrect their mother with alchemy and lose parts of their bodies.
+- They seek the Philosopher's Stone to recover and uncover a conspiracy.

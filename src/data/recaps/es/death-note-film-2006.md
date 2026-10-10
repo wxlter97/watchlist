@@ -1,0 +1,2 @@
+- Light recibe el cuaderno y empieza a eliminar criminales.
+- L inicia su investigación.

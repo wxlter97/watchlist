@@ -1,0 +1,1 @@
+- L, with little time left, takes on one last case.

@@ -1,0 +1,2 @@
+- Ba'al travels back in time and prevents the Stargate program from starting.
+- SG-1 must restore history.

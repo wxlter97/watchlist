@@ -1,0 +1,2 @@
+- Gon Freecss discovers his father Ging, a famous Hunter, is alive and decides to follow his footsteps.
+- With Killua, Kurapika and Leorio he faces exams, auctions and the Chimera Ant arc.

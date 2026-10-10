@@ -1,0 +1,208 @@
+{
+  "id": "tmnt",
+  "name": {
+    "es": "Tortugas Ninja",
+    "en": "Teenage Mutant Ninja Turtles"
+  },
+  "description": {
+    "es": "Leonardo, Donatello, Rafael y Miguel Ángel en todas sus versiones: cada una es un reinicio con su propia línea.",
+    "en": "Leonardo, Donatello, Raphael and Michelangelo in all their versions: each is a reboot with its own line."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "mutant-mayhem",
+      "name": {
+        "es": "Caos mutante (2023)",
+        "en": "Mutant Mayhem (2023)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La versión actual, de animación.",
+        "en": "The current animated version."
+      }
+    },
+    {
+      "id": "classic-1987",
+      "name": {
+        "es": "Serie de 1987",
+        "en": "1987 series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La caricatura clásica.",
+        "en": "The classic cartoon."
+      }
+    },
+    {
+      "id": "films-90s",
+      "name": {
+        "es": "Películas de los noventa",
+        "en": "1990s films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las tres películas con actores y marionetas.",
+        "en": "The three live-action and puppet films."
+      }
+    },
+    {
+      "id": "y2003",
+      "name": {
+        "es": "Línea de 2003",
+        "en": "2003 line"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Serie de 2003 y película TMNT (2007).",
+        "en": "The 2003 series and the TMNT (2007) film."
+      }
+    },
+    {
+      "id": "y2012",
+      "name": {
+        "es": "Serie de 2012",
+        "en": "2012 series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La serie de Nickelodeon.",
+        "en": "The Nickelodeon series."
+      }
+    },
+    {
+      "id": "bay",
+      "name": {
+        "es": "Películas de Michael Bay",
+        "en": "Michael Bay films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las dos películas de 2014 y 2016.",
+        "en": "The two 2014 and 2016 films."
+      }
+    },
+    {
+      "id": "rise",
+      "name": {
+        "es": "Rise (2018)",
+        "en": "Rise (2018)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Serie con estilo nuevo y tono humorístico.",
+        "en": "A series with a new style and humorous tone."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "teenage-mutant-ninja-turtles-mutant-mayhem-2023",
+      "continuityId": "mutant-mayhem",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-1987",
+      "continuityId": "classic-1987",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-1990",
+      "continuityId": "films-90s",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-1991",
+      "continuityId": "films-90s",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-iii-1993",
+      "continuityId": "films-90s",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-2003",
+      "continuityId": "y2003",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "tmnt-2007",
+      "continuityId": "y2003",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-2012",
+      "continuityId": "y2012",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-2014",
+      "continuityId": "bay",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "teenage-mutant-ninja-turtles-out-of-the-shadows-2016",
+      "continuityId": "bay",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "rise-of-the-teenage-mutant-ninja-turtles-2018",
+      "continuityId": "rise",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}
