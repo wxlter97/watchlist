@@ -1,2 +1,2 @@
-- **Temporada 1 (Monstrosity):** Kai llega a la Tierra de los Monstruos tras 'la Fusión' y lucha por sobrevivir.
-- **Temporada 2 (DuskFall):** la historia de Kai continúa.
+- **Temporada 1 (Monstrosity):** tras «la Fusión», Kai está perdido en la Tierra de los Monstruos y debe vencer criaturas para volver a casa.
+- **Temporada 2 (DuskFall):** el espíritu de Ninjago recorre el tiempo, de la era de los Oni a las Guerras de Mechs.

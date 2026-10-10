@@ -1,6 +1,6 @@
-- **Temporada 1:** Duncan MacLeod, inmortal, vive en la actualidad y sigue las reglas del juego.
-- **Temporada 2:** nuevas aventuras de Duncan y otros inmortales.
-- **Temporada 3:** nuevas aventuras de Duncan y otros inmortales.
-- **Temporada 4:** nuevas aventuras de Duncan y otros inmortales.
-- **Temporada 5:** nuevas aventuras de Duncan y otros inmortales.
-- **Temporada 6:** nuevas aventuras de Duncan y otros inmortales.
+- **Temporada 1:** Duncan MacLeod, inmortal de 400 años, participa en el Juego, donde los inmortales se enfrentan hasta que solo quede uno.
+- **Temporada 2:** la serie sigue a Duncan y sus encuentros con otros inmortales.
+- **Temporada 3:** Duncan sigue involucrado en el Juego.
+- **Temporada 4:** Duncan sigue involucrado en el Juego.
+- **Temporada 5:** Duncan sigue involucrado en el Juego.
+- **Temporada 6:** Duncan sigue involucrado en el Juego.

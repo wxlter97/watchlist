@@ -1,30 +1,30 @@
-- **Temporada 1 (Mighty Morphin (1)):** cinco adolescentes reciben poderes para defender la Tierra de Rita Repulsa.
-- **Temporada 2 (Mighty Morphin (2)):** llega Lord Zedd y el equipo cambia de formación.
-- **Temporada 3 (Mighty Morphin (3)):** el equipo se renueva y enfrenta nuevas amenazas.
-- **Temporada 4 (Zeo):** un nuevo poder y una nueva formación enfrentan al Imperio Máquina.
-- **Temporada 5 (Turbo):** los Rangers pasan a ser Turbo y enfrentan a Divatox.
-- **Temporada 6 (In Space):** el equipo viaja al espacio y se enfrenta a Astronema.
-- **Temporada 7 (Lost Galaxy):** un nuevo equipo defiende la galaxia perdida de Mirinoi.
-- **Temporada 8 (Lightspeed Rescue):** un equipo de rescatistas combate demonios en Mariner Bay.
-- **Temporada 9 (Time Force):** policías del futuro llegan al presente para detener a un criminal.
-- **Temporada 10 (Wild Force):** los Rangers usan espíritus animales contra los Orgs.
-- **Temporada 11 (Ninja Storm):** jóvenes de una academia ninja se convierten en Rangers.
-- **Temporada 12 (Dino Thunder):** un nuevo equipo con poderes de dinosaurio, guiado por Tommy Oliver.
-- **Temporada 13 (S.P.D.):** la Patrulla Espacial Delta defiende la Tierra en el futuro.
-- **Temporada 14 (Mystic Force):** un equipo con poderes mágicos enfrenta a criaturas oscuras.
-- **Temporada 15 (Operation Overdrive):** el equipo busca artefactos poderosos por el mundo.
-- **Temporada 16 (Jungle Fury):** tres jóvenes entrenados en artes marciales de animales se convierten en Rangers.
-- **Temporada 17 (RPM):** los Rangers defienden la última ciudad humana.
-- **Temporada 18 (Samurai):** los Rangers Samurai enfrentan a los Nighlok.
-- **Temporada 19 (Super Samurai):** la lucha contra los Nighlok continúa.
-- **Temporada 20 (Megaforce):** los Rangers defienden la Tierra de una invasión alienígena.
-- **Temporada 21 (Super Megaforce):** el equipo cuenta con ayuda de los Rangers anteriores.
-- **Temporada 22 (Dino Charge):** los Rangers buscan las Energemas para proteger la Tierra.
-- **Temporada 23 (Dino Super Charge):** la historia continúa con nuevos poderes.
-- **Temporada 24 (Ninja Steel):** un equipo ninja enfrenta a Galvanax.
-- **Temporada 25 (Super Ninja Steel):** el equipo continúa su lucha con nuevos poderes.
-- **Temporada 26 (Beast Morphers (1)):** los Rangers defienden la ciudad Corinth de Evox.
-- **Temporada 27 (Beast Morphers (2)):** la lucha con Evox continúa.
-- **Temporada 28 (Dino Fury (1)):** un nuevo equipo defiende la Tierra con poderes de dinosaurio.
-- **Temporada 29 (Dino Fury (2)):** los Rangers siguen con su misión.
-- **Temporada 30 (Cosmic Fury):** los Rangers Cosmic Fury cierran la etapa de Dino Fury.
+- **Temporada 1 (Mighty Morphin (1)):** dos astronautas liberan por accidente a la bruja Rita Repulsa, que ataca la Tierra; Zordon recluta a cinco adolescentes como Power Rangers.
+- **Temporada 2 (Mighty Morphin (2)):** Lord Zedd llega para conquistar la Tierra y destituye a Rita; los Rangers reciben los Thunderzords.
+- **Temporada 3 (Mighty Morphin (3)):** Rito Revolto destruye los Thunderzords y los Rangers consiguen nuevos poderes ninja de Ninjor.
+- **Temporada 4 (Zeo):** Rita y Zedd son expulsados de la luna por el Imperio de las Máquinas y los Rangers pasan a usar el poder Zeo.
+- **Temporada 5 (Turbo):** Divatox llega a la Tierra para vengarse y Justin se incorpora al equipo Turbo.
+- **Temporada 6 (In Space):** los Rangers viajan al espacio para ayudar a Zordon y conocen a Andros, el Red Ranger de KO-35.
+- **Temporada 7 (Lost Galaxy):** un nuevo equipo protege a los colonos de la estación espacial Terra Venture.
+- **Temporada 8 (Lightspeed Rescue):** un equipo de rescatistas se enfrenta a unos demonios que atacan Mariner Bay.
+- **Temporada 9 (Time Force):** policías del año 3000 viajan al 2001 para detener a Ransik.
+- **Temporada 10 (Wild Force):** Cole y otros cuatro jóvenes protegen la Tierra de los Orgs usando espíritus animales.
+- **Temporada 11 (Ninja Storm):** tres estudiantes de una academia ninja se convierten en Rangers cuando Lothor ataca la escuela.
+- **Temporada 12 (Dino Thunder):** Tommy, ahora profesor en Reefside, guía a tres estudiantes con poderes de dinosaurio.
+- **Temporada 13 (S.P.D.):** en 2025, el B-Squad de la Patrulla Espacial Delta defiende la Tierra del Imperio Troobian.
+- **Temporada 14 (Mystic Force):** un equipo con poderes mágicos defiende el mundo humano de ejércitos de monstruos.
+- **Temporada 15 (Operation Overdrive):** cinco jóvenes buscan las joyas de la Corona Aurora antes que Moltor y Flurious.
+- **Temporada 16 (Jungle Fury):** un clan de kung fu protege el mundo del espíritu maligno Dai Shi.
+- **Temporada 17 (RPM):** el virus Venjix domina la Tierra y solo resiste la ciudad de Corinth, defendida por los Rangers.
+- **Temporada 18 (Samurai):** la familia Shiba y los Rangers Samurai combaten a los demonios Nighlock de Xandred.
+- **Temporada 19 (Super Samurai):** la lucha contra Xandred continúa con la ayuda de Serrator.
+- **Temporada 20 (Megaforce):** los alienígenas Warstar atacan la Tierra y Gosei recluta a cinco adolescentes para defenderla.
+- **Temporada 21 (Super Megaforce):** los Rangers reciben nuevos poderes para transformarse en los equipos del pasado.
+- **Temporada 22 (Dino Charge):** los Rangers buscan las Energemas para evitar que Sledge conquiste el universo.
+- **Temporada 23 (Dino Super Charge):** sigue la búsqueda de poder de las Energemas con nuevos Zords.
+- **Temporada 24 (Ninja Steel):** un equipo ninja enfrenta a Galvanax, campeón de «Guerreros de la Galaxia».
+- **Temporada 25 (Super Ninja Steel):** continúa el combate contra Galvanax con nuevos poderes.
+- **Temporada 26 (Beast Morphers (1)):** en un futuro cercano, los Beast Morphers enfrentan al virus Evox, que amenaza el Morphin Grid.
+- **Temporada 27 (Beast Morphers (2)):** sigue el combate contra Evox.
+- **Temporada 28 (Dino Fury (1)):** los guerreros de Rafkon y los Rangers enfrentan a las bestias Sporix.
+- **Temporada 29 (Dino Fury (2)):** la lucha contra la amenaza Sporix continúa.
+- **Temporada 30 (Cosmic Fury):** Lord Zedd regresa y el equipo Cosmic Fury debe detenerlo para salvar el universo.

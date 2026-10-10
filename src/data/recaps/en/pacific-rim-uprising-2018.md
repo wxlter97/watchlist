@@ -1,1 +1,1 @@
-- A new group of pilots defends the world from a new threat.
+- Ten years later the kaiju emerge again and Jake Pentecost, Stacker's son, leads a new generation of pilots.

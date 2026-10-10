@@ -1,2 +1,2 @@
-- **Temporada 1:** Lara emprende una aventura por el mundo para descifrar un antiguo misterio mientras afronta sus traumas.
-- **Temporada 2:** la historia continúa con nuevos peligros.
+- **Temporada 1:** Lara regresa a casa cuando un ladrón roba un artefacto chino de la Mansión Croft, y la búsqueda la lleva por el mundo.
+- **Temporada 2:** Lara y su amiga Sam siguen el rastro de unas máscaras africanas Orisha robadas.

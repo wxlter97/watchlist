@@ -1,1 +1,1 @@
-- La Sección 9 investiga un caso de secuestros y un hacker.
+- En 2034, dos años después de 2nd GIG, Kusanagi ha dejado la Sección 9, que sigue operando con Togusa al frente.

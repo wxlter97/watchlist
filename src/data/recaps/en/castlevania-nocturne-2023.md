@@ -1,2 +1,2 @@
-- **Season 1:** Richter Belmont defends his family's legacy during the French Revolution and faces a powerful vampire.
-- **Season 2:** the conflict with the vampire sovereign continues.
+- **Season 1:** Richter Belmont joins Maria and an unusual group to stop the reign of a vampire messiah.
+- **Season 2:** with Alucard's help, Richter and his group try to stop Erzsebet.

@@ -1,1 +1,1 @@
-- A new version of Major Kusanagi's story.
+- In 2029, Niihama City is a cybernetic metropolis and Section 9 combats corruption and cybercrime.

@@ -1,1 +1,1 @@
-- A new threat appears after the series' ending.
+- Year 2314: a ship returns from Jupiter carrying metallic life forms, the ELS, and Celestial Being returns to defend Earth.

@@ -1,1 +1,1 @@
-- **Temporada 1:** a tour of Riley's dreams and the studio that produces them.
+- **Season 1:** a tour of Riley's dreams and the studio that produces them.

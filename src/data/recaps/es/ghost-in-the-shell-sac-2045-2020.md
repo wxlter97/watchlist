@@ -1,2 +1,2 @@
 - **Temporada 1:** una nueva amenaza de ciberterrorismo obliga a reunir a la Sección 9.
-- **Temporada 2:** el conflicto se extiende.
+- **Temporada 2:** la Sección 9 vuelve a Tokio mientras crece la amenaza posthumana.

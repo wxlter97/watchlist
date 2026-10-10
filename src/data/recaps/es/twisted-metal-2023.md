@@ -1,2 +1,2 @@
 - **Temporada 1:** John Doe, sin recuerdos de su pasado, debe entregar un paquete a través de un páramo posapocalíptico.
-- **Temporada 2:** la historia sigue con nuevos peligros.
+- **Temporada 2:** John y Quiet se ven envueltos en el mortal torneo Twisted Metal.

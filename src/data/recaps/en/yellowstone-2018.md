@@ -1,5 +1,5 @@
-- **Season 1:** John Dutton defends his ranch, the largest in Montana, from outside threats.
-- **Season 2:** the conflict with the reservation and developers intensifies.
-- **Season 3:** John enters politics while his family suffers the consequences.
-- **Season 4:** the Duttons face new enemies.
-- **Season 5:** the Duttons' story heads toward its end.
+- **Season 1:** John Dutton defends his ranch and family from the modern forces threatening their way of life.
+- **Season 2:** new alliances, murders and secrets; the dispute with the Becks reaches a breaking point.
+- **Season 3:** new enemies and lucrative deals force the Duttons into unexpected alliances.
+- **Season 4:** the ranch remains under threat and the family faces new trials.
+- **Season 5:** amid shifting alliances and unsolved murders, John Dutton protects his ranch.

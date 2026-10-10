@@ -1,2 +1,2 @@
-- **Temporada 1:** Tylor Tuskmon se une a Monsters, Inc. tras la transición a la energía de la risa.
-- **Temporada 2:** la historia en Monsters, Inc. continúa.
+- **Temporada 1:** Tylor Tuskmon llega a Monsters, Inc. como asustador justo cuando la empresa pasa a la energía de la risa.
+- **Temporada 2:** la amistad de Tylor con Val se pone a prueba cuando se abren puertas en la empresa rival, FearCo.

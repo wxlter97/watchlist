@@ -1,16 +1,16 @@
-- **Temporada 1 (Rise of the Snakes):** los ninjas enfrentan a las serpientes.
-- **Temporada 2 (Legacy of the Green Ninja):** la búsqueda del Ninja Verde.
-- **Temporada 3 (Rebooted):** los ninjas pasan a un mundo digital.
-- **Temporada 4 (Tournament of Elements):** un torneo reúne a maestros de los elementos.
-- **Temporada 5 (Possession):** los villanos poseen a los ninjas.
-- **Temporada 6 (Skybound):** la historia se traslada a los cielos.
-- **Temporada 7 (Hands of Time):** los ninjas enfrentan una amenaza en el tiempo.
-- **Temporada 8 (Sons of Garmadon):** Lloyd afronta su relación con su padre.
-- **Temporada 9 (Hunted):** los ninjas son perseguidos.
-- **Temporada 10 (March of the Oni):** los Oni amenazan Ninjago.
-- **Temporada 11 (Secrets of the Forbidden Spinjitzu):** los ninjas descubren secretos del Spinjitzu prohibido.
-- **Temporada 12 (Prime Empire):** los ninjas se adentran en un videojuego.
-- **Temporada 13 (Master of the Mountain):** una nueva amenaza en la montaña.
-- **Temporada 14 (The Island):** los ninjas viajan a una isla.
-- **Temporada 15 (Seabound):** los ninjas enfrentan peligros en el mar.
-- **Temporada 16 (Crystalized):** la serie original llega a su final.
+- **Temporada 1 (Rise of the Snakes):** los ninjas enfrentan a las serpientes Serpentine mientras buscan el arma definitiva, el Gran Devorador.
+- **Temporada 2 (Legacy of the Green Ninja):** Lloyd, hijo de Garmadon, se convierte en el Ninja Verde ante la batalla final con su padre.
+- **Temporada 3 (Rebooted):** el Overlord reaparece en forma digital y los ninjas lo enfrentan en Nueva Ninjago City.
+- **Temporada 4 (Tournament of Elements):** los ninjas participan en un torneo secreto del Maestro Chen para rescatar a Zane.
+- **Temporada 5 (Possession):** Lloyd es poseído por el espíritu de Morro, que busca el Reino Maldito.
+- **Temporada 6 (Skybound):** el pirata del cielo Nadakhan es liberado y quiere casarse con Nya.
+- **Temporada 7 (Hands of Time):** los Maestros del Tiempo, Acronix y Krux, regresan con planes para cambiar la historia.
+- **Temporada 8 (Sons of Garmadon):** una organización criminal busca revivir a Garmadon con las Máscaras Oni.
+- **Temporada 9 (Hunted):** Lloyd lidera la resistencia contra el Emperador de Cristal mientras el resto del equipo queda atrapado.
+- **Temporada 10 (March of the Oni):** los Oni invaden Ninjago y héroes y villanos deben aliarse.
+- **Temporada 11 (Secrets of the Forbidden Spinjitzu):** los ninjas enfrentan a la hechicera Aspheera y luego viajan a un reino helado donde Zane se corrompe.
+- **Temporada 12 (Prime Empire):** los ninjas son absorbidos por el videojuego Prime Empire para vencer a Unagami.
+- **Temporada 13 (Master of the Mountain):** el equipo viaja al Reino de Shintaro y Cole lidera la lucha contra un ejército de esqueletos.
+- **Temporada 14 (The Island):** temporada corta que sirve de preludio a Seabound, con una isla misteriosa y la desaparición de Misako.
+- **Temporada 15 (Seabound):** Nya cobra protagonismo frente al príncipe marino Kalmaar.
+- **Temporada 16 (Crystalized):** el equipo se reagrupa tras perder a Nya y enfrenta al Rey de Cristal.

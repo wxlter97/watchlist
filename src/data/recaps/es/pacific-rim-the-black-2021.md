@@ -1,2 +1,2 @@
-- **Temporada 1:** Dos hermanos buscan a sus padres en un mundo asolado por kaijus.
-- **Temporada 2:** los hermanos continúan su viaje.
+- **Temporada 1:** tras la devastación de Australia por los kaijus, dos hermanos pilotan un Jaeger para buscar a sus padres.
+- **Temporada 2:** Hayley y Taylor continúan hacia Sídney, pero antes deben superar a un culto sediento de sangre.

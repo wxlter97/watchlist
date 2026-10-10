@@ -1,1 +1,1 @@
-- A group of orphan soldiers rebel against those who exploit them.
+- On a disaster-stricken Mars, a group of children rebels against the adults who betrayed them and the Earth government.

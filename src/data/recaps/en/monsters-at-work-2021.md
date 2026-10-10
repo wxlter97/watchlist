@@ -1,2 +1,2 @@
-- **Temporada 1:** Tylor Tuskmon joins Monsters, Inc. after the switch to laughter energy.
-- **Temporada 2:** the story at Monsters, Inc. continues.
+- **Season 1:** Tylor Tuskmon arrives at Monsters, Inc. as a scarer just as the company switches to laugh energy.
+- **Season 2:** Tylor's friendship with Val is tested when doors open at the rival company, FearCo.

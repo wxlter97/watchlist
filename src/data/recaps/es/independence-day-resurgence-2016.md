@@ -1,1 +1,1 @@
-- Los alienígenas regresan veinte años después, con una amenaza mayor.
+- Veinte años después, las naciones de la Tierra han creado un programa de defensa con tecnología alienígena, pero los invasores regresan con una fuerza mayor.

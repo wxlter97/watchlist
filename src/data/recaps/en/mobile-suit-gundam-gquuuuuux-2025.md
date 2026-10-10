@@ -1,1 +1,1 @@
-- An alternate story that reimagines the One Year War.
+- Universal Century 0085: Char Aznable vanished in a phenomenon called a Zeknova, and Amate Yuzuriha, a high schooler, is pulled into the war after meeting Nyaan.

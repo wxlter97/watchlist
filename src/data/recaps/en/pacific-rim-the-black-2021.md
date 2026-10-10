@@ -1,2 +1,2 @@
-- **Season 1:** Two siblings search for their parents in a world ravaged by kaiju.
-- **Season 2:** the siblings continue their journey.
+- **Season 1:** after kaiju devastate Australia, two siblings pilot a Jaeger to find their parents.
+- **Season 2:** Hayley and Taylor continue toward Sydney, but first must get past a bloodthirsty cult.

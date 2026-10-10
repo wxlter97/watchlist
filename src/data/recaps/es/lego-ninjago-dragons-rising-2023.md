@@ -1,4 +1,4 @@
-- **Temporada 1:** una nueva etapa de la serie.
-- **Temporada 2:** la historia continúa.
-- **Temporada 3:** nuevos retos para los ninjas.
-- **Temporada 4:** el grupo se enfrenta a nuevas amenazas.
+- **Temporada 1:** una nueva etapa de la serie con los ninjas como adolescentes.
+- **Temporada 2:** guerreros con máscara de lobo y una Luna de Sangre: los sueños de Lloyd pueden ser visiones del futuro.
+- **Temporada 3:** los Cinco Prohibidos buscan las Hojas Prismáticas para despertar al dragón del caos, Thunderfang.
+- **Temporada 4:** con los ninjas dispersos y sus poderes debilitados, un enemigo oculto desata monstruos elementales.

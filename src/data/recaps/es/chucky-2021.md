@@ -1,3 +1,3 @@
-- **Temporada 1:** Chucky aparece en un pueblo suburbano y ataca a sus habitantes.
-- **Temporada 2:** los sobrevivientes enfrentan nuevas amenazas.
-- **Temporada 3:** el conflicto llega a la Casa Blanca.
+- **Temporada 1:** el muñeco Good Guy de un mercadillo desata una ola de asesinatos en un pueblo tranquilo.
+- **Temporada 2:** Jake y Devon tienen problemas en su nueva escuela católica y Chucky inicia una nueva ola de asesinatos.
+- **Temporada 3:** Chucky llega a la Casa Blanca y Jake, Devon y Lexy intentan detenerlo.

@@ -1,2 +1,2 @@
 - **Season 1:** Dante, a demon hunter, is drawn into a struggle between good and evil.
-- **Season 2:** the story continues.
+- **Season 2:** Dante faces his twin brother Vergil, the only force that matches his own, in a war between worlds.

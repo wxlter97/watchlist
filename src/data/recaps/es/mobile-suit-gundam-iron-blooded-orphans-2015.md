@@ -1,1 +1,1 @@
-- Un grupo de huérfanos soldados se rebela contra quienes los explotan.
+- En un Marte azotado por el desastre, un grupo de niños se rebela contra los adultos que los traicionaron y contra el gobierno de la Tierra.
