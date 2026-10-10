@@ -1,0 +1,1 @@
+- A radio DJ and a former sheriff hunt Leatherface's family.

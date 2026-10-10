@@ -1,0 +1,1 @@
+- Chucky is rebuilt and goes after Andy, who lives with a foster family.

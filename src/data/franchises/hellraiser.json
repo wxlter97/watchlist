@@ -1,0 +1,150 @@
+{
+  "id": "hellraiser",
+  "name": {
+    "es": "Hellraiser",
+    "en": "Hellraiser"
+  },
+  "description": {
+    "es": "La caja de Lemarchand y los Cenobitas: las películas de Clive Barker y el reinicio de 2022.",
+    "en": "Lemarchand's box and the Cenobites: the Clive Barker films and the 2022 reboot."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie original",
+        "en": "Original series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro primeras películas y Judgment.",
+        "en": "The first four films and Judgment."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio (2022)",
+        "en": "Reboot (2022)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Nueva versión independiente.",
+        "en": "A new, independent version."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "hellraiser-1987",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "pinhead",
+        "kirsty-cotton"
+      ]
+    },
+    {
+      "titleId": "hellbound-hellraiser-ii-1988",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "pinhead",
+        "kirsty-cotton"
+      ]
+    },
+    {
+      "titleId": "hellraiser-iii-hell-on-earth-1992",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "pinhead"
+      ]
+    },
+    {
+      "titleId": "hellraiser-bloodline-1996",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "pinhead"
+      ]
+    },
+    {
+      "titleId": "hellraiser-judgment-2018",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "pinhead"
+      ]
+    },
+    {
+      "titleId": "hellraiser-2022",
+      "continuityId": "reboot",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "the-priest"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "pinhead",
+        "name": {
+          "es": "Pinhead",
+          "en": "Pinhead"
+        }
+      },
+      {
+        "id": "kirsty-cotton",
+        "name": {
+          "es": "Kirsty Cotton",
+          "en": "Kirsty Cotton"
+        }
+      },
+      {
+        "id": "the-priest",
+        "name": {
+          "es": "El Sacerdote",
+          "en": "The Priest"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

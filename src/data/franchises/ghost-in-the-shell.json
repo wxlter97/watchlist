@@ -1,0 +1,197 @@
+{
+  "id": "ghost-in-the-shell",
+  "name": {
+    "es": "Ghost in the Shell",
+    "en": "Ghost in the Shell"
+  },
+  "description": {
+    "es": "El cíborg y la mayor Kusanagi: las películas, la serie Stand Alone Complex, la versión en acción real y la nueva serie.",
+    "en": "The cyborg and Major Kusanagi: the films, the Stand Alone Complex series, the live-action version and the new series."
+  },
+  "accentColor": "#0F766E",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas (1995 y 2004)",
+        "en": "Films (1995 and 2004)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La película original y su secuela, Innocence.",
+        "en": "The original film and its sequel, Innocence."
+      }
+    },
+    {
+      "id": "sac",
+      "name": {
+        "es": "Stand Alone Complex",
+        "en": "Stand Alone Complex"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Una versión independiente en televisión, con su película y SAC_2045.",
+        "en": "An independent television version, with its film and SAC_2045."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "live",
+      "name": {
+        "es": "Película de 2017",
+        "en": "2017 film"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Versión en acción real.",
+        "en": "The live-action version."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "new",
+      "name": {
+        "es": "Serie de 2026",
+        "en": "2026 series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Nueva adaptación animada.",
+        "en": "A new animated adaptation."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "ghost-in-the-shell-1995",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "motoko-kusanagi"
+      ]
+    },
+    {
+      "titleId": "ghost-in-the-shell-2-innocence-2004",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "batou"
+      ]
+    },
+    {
+      "titleId": "ghost-in-the-shell-stand-alone-complex-2002",
+      "season": 1,
+      "continuityId": "sac",
+      "importance": "recommended",
+      "characters": [
+        "motoko-kusanagi"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "ghost-in-the-shell-stand-alone-complex-2002",
+      "season": 2,
+      "continuityId": "sac",
+      "importance": "recommended",
+      "characters": [
+        "motoko-kusanagi"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "ghost-in-the-shell-solid-state-society-2007",
+      "continuityId": "sac",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "motoko-kusanagi"
+      ]
+    },
+    {
+      "titleId": "ghost-in-the-shell-sac-2045-2020",
+      "season": 1,
+      "continuityId": "sac",
+      "importance": "optional",
+      "characters": [
+        "motoko-kusanagi"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "ghost-in-the-shell-sac-2045-2020",
+      "season": 2,
+      "continuityId": "sac",
+      "importance": "optional",
+      "characters": [
+        "motoko-kusanagi"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "ghost-in-the-shell-2017",
+      "continuityId": "live",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "motoko-kusanagi"
+      ]
+    },
+    {
+      "titleId": "the-ghost-in-the-shell-2026",
+      "season": 1,
+      "continuityId": "new",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "motoko-kusanagi",
+        "name": {
+          "es": "Motoko Kusanagi",
+          "en": "Motoko Kusanagi"
+        }
+      },
+      {
+        "id": "batou",
+        "name": {
+          "es": "Batou",
+          "en": "Batou"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

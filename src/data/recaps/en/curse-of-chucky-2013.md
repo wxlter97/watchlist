@@ -1,0 +1,1 @@
+- A woman in a wheelchair receives a doll that stalks her.

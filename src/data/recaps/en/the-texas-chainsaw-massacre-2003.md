@@ -1,0 +1,1 @@
+- A group of friends picks up a hitchhiker and ends up in the hands of a cannibal family.

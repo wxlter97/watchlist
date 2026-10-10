@@ -1,0 +1,1 @@
+- Una mujer en silla de ruedas recibe un muñeco que la persigue.

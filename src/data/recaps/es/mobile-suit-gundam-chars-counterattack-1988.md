@@ -1,0 +1,1 @@
+- Char lidera una rebelión para hacer caer un asteroide sobre la Tierra.

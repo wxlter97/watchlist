@@ -1,0 +1,1 @@
+- Una locutora de radio y un exsheriff buscan a la familia de Leatherface.

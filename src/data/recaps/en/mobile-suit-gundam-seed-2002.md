@@ -1,0 +1,2 @@
+- **Season 1:** Kira Yamato is drawn into the war between Naturals and Coordinators.
+- **Season 2 (Destiny):** the conflict continues years later.

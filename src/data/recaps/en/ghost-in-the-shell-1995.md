@@ -1,0 +1,1 @@
+- Major Kusanagi hunts a hacker known as the Puppet Master.

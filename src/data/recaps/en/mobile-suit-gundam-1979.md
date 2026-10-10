@@ -1,0 +1,2 @@
+- Amuro Ray, a young civilian, pilots the Gundam during the war between the Federation and Zeon.
+- He faces the pilot Char Aznable.

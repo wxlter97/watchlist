@@ -1,0 +1,1 @@
+- Judau Ashta pilota el ZZ Gundam contra Neo Zeon.

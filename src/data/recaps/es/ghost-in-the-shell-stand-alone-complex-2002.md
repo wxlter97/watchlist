@@ -1,0 +1,2 @@
+- **Temporada 1:** la Sección 9 investiga delitos cibernéticos y al Hombre Risueño.
+- **Temporada 2:** la Sección 9 enfrenta nuevas crisis políticas.

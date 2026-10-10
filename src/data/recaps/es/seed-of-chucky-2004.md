@@ -1,0 +1,1 @@
+- El hijo de Chucky y Tiffany busca a sus padres.

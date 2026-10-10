@@ -1,0 +1,2 @@
+- **Season 1:** Celestial Being intervenes in the world's conflicts with Gundam mobile suits.
+- **Season 2:** the conflict continues and nears its resolution.

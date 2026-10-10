@@ -1,0 +1,1 @@
+- Chucky es reconstruido y va tras Andy, que vive con una familia de acogida.

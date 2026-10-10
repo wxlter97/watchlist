@@ -1,0 +1,1 @@
+- Kirsty descubre que su tío regresa del infierno tras usar un cubo y es perseguida por los Cenobitas.

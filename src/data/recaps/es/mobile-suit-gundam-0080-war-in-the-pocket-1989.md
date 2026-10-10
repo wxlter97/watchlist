@@ -1,0 +1,1 @@
+- Al, un niño, se hace amigo de un piloto de Zeon.

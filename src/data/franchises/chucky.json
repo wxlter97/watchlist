@@ -1,0 +1,195 @@
+{
+  "id": "chucky",
+  "name": {
+    "es": "Chucky",
+    "en": "Chucky"
+  },
+  "description": {
+    "es": "El muñeco asesino: las películas originales, la serie y el reinicio de 2019.",
+    "en": "The killer doll: the original films, the series and the 2019 reboot."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Saga original",
+        "en": "Original saga"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de Chucky y la serie que las continúa.",
+        "en": "The Chucky films and the series that continues them."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio (2019)",
+        "en": "Reboot (2019)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Versión independiente con un Chucky distinto.",
+        "en": "An independent version with a different Chucky."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "childs-play-1988",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "chucky"
+      ]
+    },
+    {
+      "titleId": "childs-play-2-1990",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "chucky"
+      ]
+    },
+    {
+      "titleId": "childs-play-3-1991",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "chucky"
+      ]
+    },
+    {
+      "titleId": "bride-of-chucky-1998",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "chucky",
+        "tiffany"
+      ]
+    },
+    {
+      "titleId": "seed-of-chucky-2004",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "chucky",
+        "tiffany"
+      ]
+    },
+    {
+      "titleId": "curse-of-chucky-2013",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "chucky"
+      ]
+    },
+    {
+      "titleId": "cult-of-chucky-2017",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "characters": [
+        "chucky",
+        "tiffany"
+      ]
+    },
+    {
+      "titleId": "chucky-2021",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "chucky",
+        "tiffany"
+      ],
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "chucky-2021",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "chucky",
+        "tiffany"
+      ],
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "chucky-2021",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "chucky",
+        "tiffany"
+      ],
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "childs-play-2019",
+      "continuityId": "reboot",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "chucky"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "chucky",
+        "name": {
+          "es": "Chucky",
+          "en": "Chucky"
+        }
+      },
+      {
+        "id": "tiffany",
+        "name": {
+          "es": "Tiffany",
+          "en": "Tiffany"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

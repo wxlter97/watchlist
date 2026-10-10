@@ -1,0 +1,1 @@
+- Suletta, una joven de Mercurio, llega a una academia y se ve envuelta en duelos de mobile suits.

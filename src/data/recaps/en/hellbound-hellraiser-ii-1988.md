@@ -1,0 +1,1 @@
+- Kirsty, institutionalized, is taken to hell by a doctor obsessed with the box.

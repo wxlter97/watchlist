@@ -1,0 +1,1 @@
+- Kirsty, internada, es llevada al infierno por un médico obsesionado con la caja.

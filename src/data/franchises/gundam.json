@@ -1,0 +1,320 @@
+{
+  "id": "gundam",
+  "name": {
+    "es": "Gundam",
+    "en": "Gundam"
+  },
+  "description": {
+    "es": "La saga de robots gigantes: la línea del Siglo Universal y las historias independientes en otros universos.",
+    "en": "The giant robot saga: the Universal Century line and the stand-alone stories in other universes."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "uc",
+      "name": {
+        "es": "Siglo Universal",
+        "en": "Universal Century"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La línea original, de la Guerra de un Año a Hathaway.",
+        "en": "The original line, from the One Year War to Hathaway."
+      }
+    },
+    {
+      "id": "wing",
+      "name": {
+        "es": "Gundam Wing (Era Posterior a la Colonia)",
+        "en": "Gundam Wing (After Colony)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Una historia independiente, sin conexión con el Siglo Universal.",
+        "en": "A stand-alone story with no link to the Universal Century."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "seed",
+      "name": {
+        "es": "SEED (Era Cósmica)",
+        "en": "SEED (Cosmic Era)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "SEED, su continuación y la película Freedom.",
+        "en": "SEED, its continuation and the Freedom film."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "00",
+      "name": {
+        "es": "00 (Anno Domini)",
+        "en": "00 (Anno Domini)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La serie y su película.",
+        "en": "The series and its film."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "iron",
+      "name": {
+        "es": "Iron-Blooded Orphans",
+        "en": "Iron-Blooded Orphans"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Historia independiente, más oscura.",
+        "en": "A stand-alone, darker story."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "witch",
+      "name": {
+        "es": "La bruja de Mercurio",
+        "en": "The Witch from Mercury"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Historia independiente ambientada en un colegio.",
+        "en": "A stand-alone story set in a school."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "gqux",
+      "name": {
+        "es": "GQuuuuuuX",
+        "en": "GQuuuuuuX"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Una versión alternativa del Siglo Universal.",
+        "en": "An alternate version of the Universal Century."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "mobile-suit-gundam-1979",
+      "continuityId": "uc",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "amuro-ray",
+        "char-aznable"
+      ]
+    },
+    {
+      "titleId": "mobile-suit-gundam-the-08th-ms-team-1996",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 12,
+      "chronoNote": {
+        "es": "Transcurre durante la Guerra de un Año",
+        "en": "Set during the One Year War"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-0080-war-in-the-pocket-1989",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 15,
+      "chronoNote": {
+        "es": "Transcurre al final de la Guerra de un Año",
+        "en": "Set at the end of the One Year War"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-0083-stardust-memory-1991",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-zeta-gundam-1985",
+      "continuityId": "uc",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "amuro-ray",
+        "char-aznable"
+      ]
+    },
+    {
+      "titleId": "mobile-suit-gundam-zz-1986",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-chars-counterattack-1988",
+      "continuityId": "uc",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "amuro-ray",
+        "char-aznable"
+      ]
+    },
+    {
+      "titleId": "mobile-suit-gundam-unicorn-2010",
+      "continuityId": "uc",
+      "importance": "recommended",
+      "chronoOrder": 55,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-narrative-2018",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-hathaway-2021",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-f91-1991",
+      "continuityId": "uc",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-wing-1995",
+      "continuityId": "wing",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-seed-2002",
+      "season": 1,
+      "continuityId": "seed",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "mobile-suit-gundam-seed-2002",
+      "season": 2,
+      "continuityId": "seed",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "mobile-suit-gundam-seed-freedom-2024",
+      "continuityId": "seed",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-00-2007",
+      "season": 1,
+      "continuityId": "00",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "mobile-suit-gundam-00-2007",
+      "season": 2,
+      "continuityId": "00",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "mobile-suit-gundam-00-the-movie-2010",
+      "continuityId": "00",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-iron-blooded-orphans-2015",
+      "continuityId": "iron",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-the-witch-from-mercury-2022",
+      "continuityId": "witch",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "mobile-suit-gundam-gquuuuuux-2025",
+      "continuityId": "gqux",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "amuro-ray",
+        "name": {
+          "es": "Amuro Ray",
+          "en": "Amuro Ray"
+        }
+      },
+      {
+        "id": "char-aznable",
+        "name": {
+          "es": "Char Aznable",
+          "en": "Char Aznable"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

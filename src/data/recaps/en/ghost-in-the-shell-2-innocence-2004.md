@@ -1,0 +1,1 @@
+- Batou investigates androids that attack their owners.

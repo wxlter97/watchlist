@@ -1,0 +1,1 @@
+- Nica, internada, enfrenta de nuevo a Chucky.

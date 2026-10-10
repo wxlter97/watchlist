@@ -1,0 +1,2 @@
+- **Season 1:** a new cyberterrorism threat forces Section 9 to reunite.
+- **Season 2:** the conflict widens.

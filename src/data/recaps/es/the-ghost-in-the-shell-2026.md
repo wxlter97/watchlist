@@ -1,0 +1,1 @@
+- Una nueva versión de la historia de la mayor Kusanagi.

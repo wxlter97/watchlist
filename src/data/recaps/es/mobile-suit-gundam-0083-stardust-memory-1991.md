@@ -1,0 +1,1 @@
+- Un grupo de Zeon intenta robar un Gundam prototipo.

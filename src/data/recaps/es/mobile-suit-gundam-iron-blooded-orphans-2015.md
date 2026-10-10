@@ -1,0 +1,1 @@
+- Un grupo de huérfanos soldados se rebela contra quienes los explotan.

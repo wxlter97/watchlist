@@ -1,0 +1,1 @@
+- The killer Charles Lee Ray transfers his soul into a doll, Chucky, and hunts a boy.

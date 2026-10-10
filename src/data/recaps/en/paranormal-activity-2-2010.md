@@ -1,0 +1,1 @@
+- A family installs cameras after sensing a presence in their home.

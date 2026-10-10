@@ -1,0 +1,1 @@
+- It tells how a young man becomes Leatherface.

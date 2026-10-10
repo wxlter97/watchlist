@@ -1,0 +1,2 @@
+- **Season 1:** Section 9 investigates cybercrime and the Laughing Man.
+- **Season 2:** Section 9 faces new political crises.

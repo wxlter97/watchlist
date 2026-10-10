@@ -1,0 +1,1 @@
+- Años después, Andy está en una academia militar y Chucky reaparece.

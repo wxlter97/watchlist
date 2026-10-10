@@ -1,0 +1,2 @@
+- A young man, Banagher, is drawn into the search for Laplace's Box.
+- He pilots the Unicorn Gundam.

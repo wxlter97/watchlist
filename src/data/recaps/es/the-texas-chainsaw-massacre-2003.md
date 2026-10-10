@@ -1,0 +1,1 @@
+- Un grupo de amigos recoge a una autoestopista y acaba en manos de una familia caníbal.

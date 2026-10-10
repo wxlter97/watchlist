@@ -1,0 +1,1 @@
+- A smart doll, Buddi, becomes obsessed with its owner, a boy.

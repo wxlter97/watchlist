@@ -1,0 +1,3 @@
+- **Season 1:** Chucky appears in a suburban town and attacks its residents.
+- **Season 2:** the survivors face new threats.
+- **Season 3:** the conflict reaches the White House.

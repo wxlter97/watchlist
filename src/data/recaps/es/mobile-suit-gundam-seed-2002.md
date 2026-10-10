@@ -1,0 +1,2 @@
+- **Temporada 1:** Kira Yamato se ve envuelto en la guerra entre los Naturales y los Coordinadores.
+- **Temporada 2 (Destiny):** el conflicto continúa años después.
