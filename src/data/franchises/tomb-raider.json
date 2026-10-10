@@ -1,0 +1,138 @@
+{
+  "id": "tomb-raider",
+  "name": {
+    "es": "Tomb Raider",
+    "en": "Tomb Raider"
+  },
+  "description": {
+    "es": "Lara Croft en el cine y la animación: las películas con Angelina Jolie, el reinicio de 2018 y la serie de Netflix.",
+    "en": "Lara Croft on film and in animation: the Angelina Jolie films, the 2018 reboot and the Netflix series."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "jolie",
+      "name": {
+        "es": "Películas con Angelina Jolie",
+        "en": "Angelina Jolie films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las dos películas de 2001 y 2003.",
+        "en": "The two films from 2001 and 2003."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio (2018)",
+        "en": "Reboot (2018)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Lara Croft joven, con Alicia Vikander.",
+        "en": "A young Lara Croft, with Alicia Vikander."
+      }
+    },
+    {
+      "id": "animated",
+      "name": {
+        "es": "Serie animada",
+        "en": "Animated series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie de Netflix basada en los videojuegos.",
+        "en": "Netflix's series based on the games."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "lara-croft-tomb-raider-2001",
+      "continuityId": "jolie",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "lara-croft"
+      ]
+    },
+    {
+      "titleId": "lara-croft-tomb-raider-the-cradle-of-life-2003",
+      "continuityId": "jolie",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "lara-croft"
+      ]
+    },
+    {
+      "titleId": "tomb-raider-2018",
+      "continuityId": "reboot",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "lara-croft"
+      ]
+    },
+    {
+      "titleId": "tomb-raider-the-legend-of-lara-croft-2024",
+      "season": 1,
+      "continuityId": "animated",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "lara-croft"
+      ]
+    },
+    {
+      "titleId": "tomb-raider-the-legend-of-lara-croft-2024",
+      "season": 2,
+      "continuityId": "animated",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "lara-croft"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "lara-croft",
+        "name": {
+          "es": "Lara Croft",
+          "en": "Lara Croft"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

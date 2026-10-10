@@ -1,0 +1,2 @@
+- Heather Mason discovers on her 18th birthday that she is not who she thinks she is.
+- She must return to Silent Hill to understand her past.

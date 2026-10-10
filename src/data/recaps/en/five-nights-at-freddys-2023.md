@@ -1,0 +1,2 @@
+- Mike starts working as a night guard at Freddy Fazbear's Pizza.
+- He finds the animatronics come alive at night and that his past is tied to the place.

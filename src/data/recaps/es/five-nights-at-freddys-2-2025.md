@@ -1,0 +1,1 @@
+- Un año después, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy.

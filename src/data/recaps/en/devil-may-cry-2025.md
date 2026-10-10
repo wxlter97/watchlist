@@ -1,0 +1,2 @@
+- **Season 1:** Dante, a demon hunter, is drawn into a struggle between good and evil.
+- **Season 2:** the story continues.

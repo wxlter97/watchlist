@@ -1,0 +1,2 @@
+- **Temporada 1:** Joel debe llevar a Ellie, una adolescente inmune a la infección, a través de Estados Unidos.
+- **Temporada 2:** años después, un conflicto con Abby lleva a Ellie por un camino de venganza.

@@ -1,0 +1,2 @@
+- **Temporada 1:** Lucy sale del refugio 33 en busca de su padre y se cruza con el Necrófago y con Maximus, un aspirante de la Hermandad del Acero.
+- **Temporada 2:** el viaje continúa hacia New Vegas.

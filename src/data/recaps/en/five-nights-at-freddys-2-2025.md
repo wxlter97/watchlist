@@ -1,0 +1,1 @@
+- A year later, Abby sneaks out to reunite with Freddy, Bonnie, Chica and Foxy.

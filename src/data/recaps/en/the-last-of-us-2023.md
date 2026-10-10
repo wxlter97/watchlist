@@ -1,0 +1,2 @@
+- **Season 1:** Joel must take Ellie, a teenager immune to the infection, across the United States.
+- **Season 2:** years later, a conflict with Abby sends Ellie down a path of revenge.

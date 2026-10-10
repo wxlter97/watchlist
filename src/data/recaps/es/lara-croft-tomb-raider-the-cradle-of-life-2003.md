@@ -1,0 +1,1 @@
+- Lara viaja a un templo antiguo en busca de la Caja de Pandora para evitar que se use como arma.

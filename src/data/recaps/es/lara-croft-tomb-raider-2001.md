@@ -1,0 +1,1 @@
+- La arqueóloga Lara Croft debe encontrar un antiguo artefacto con poderes cósmicos antes de que caiga en malas manos.

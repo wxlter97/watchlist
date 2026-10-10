@@ -1,0 +1,2 @@
+- Rose Da Silva takes her adopted daughter Sharon to Silent Hill, and she disappears after an accident.
+- Her search leads her to a dark world and the town's secrets.

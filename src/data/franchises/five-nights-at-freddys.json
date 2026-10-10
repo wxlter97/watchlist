@@ -1,0 +1,85 @@
+{
+  "id": "five-nights-at-freddys",
+  "name": {
+    "es": "Five Nights at Freddy's",
+    "en": "Five Nights at Freddy's"
+  },
+  "description": {
+    "es": "Guardias de seguridad y animatrónicos: las películas basadas en el videojuego.",
+    "en": "Security guards and animatronics: the films based on the game."
+  },
+  "accentColor": "#6D28D9",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas, en orden.",
+        "en": "The two films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "five-nights-at-freddys-2023",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "mike-schmidt"
+      ]
+    },
+    {
+      "titleId": "five-nights-at-freddys-2-2025",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "mike-schmidt"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "mike-schmidt",
+        "name": {
+          "es": "Mike Schmidt",
+          "en": "Mike Schmidt"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,1 @@
+- Lara parte a buscar a su padre desaparecido y termina en una isla con una tumba.

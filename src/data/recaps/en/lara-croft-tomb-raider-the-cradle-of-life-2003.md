@@ -1,0 +1,1 @@
+- Lara travels to an ancient temple in search of Pandora's Box to stop it from being used as a weapon.
