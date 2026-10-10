@@ -1,0 +1,2 @@
+- Will Graham, able to think like his prey, hunts a cannibal killer.
+- He works with Dr. Hannibal Lecter without knowing who he is.

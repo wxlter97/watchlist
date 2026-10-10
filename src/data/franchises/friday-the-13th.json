@@ -1,0 +1,203 @@
+{
+  "id": "friday-the-13th",
+  "name": {
+    "es": "Viernes 13",
+    "en": "Friday the 13th"
+  },
+  "description": {
+    "es": "Jason Voorhees y Crystal Lake: la saga original, Jason X, el cruce con Freddy y el remake.",
+    "en": "Jason Voorhees and Crystal Lake: the original saga, Jason X, the crossover with Freddy and the remake."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Saga original",
+        "en": "Original saga"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "De la primera película a Jason X.",
+        "en": "From the first film to Jason X."
+      }
+    },
+    {
+      "id": "crossover",
+      "name": {
+        "es": "Freddy vs. Jason",
+        "en": "Freddy vs. Jason"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El cruce con Pesadilla en Elm Street.",
+        "en": "The crossover with A Nightmare on Elm Street."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "remake",
+      "name": {
+        "es": "Remake (2009)",
+        "en": "Remake (2009)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio con otro tono.",
+        "en": "A reboot with another tone."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "friday-the-13th-1980",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-part-2-1981",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-part-iii-1982",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-the-final-chapter-1984",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-a-new-beginning-1985",
+      "continuityId": "original",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "characters": []
+    },
+    {
+      "titleId": "jason-lives-friday-the-13th-part-vi-1986",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-part-vii-the-new-blood-1988",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-part-viii-jason-takes-manhattan-1989",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "jason-goes-to-hell-the-final-friday-1993",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 90,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "jason-x-2001",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 100,
+      "chronoNote": {
+        "es": "Jason en el espacio, en el futuro",
+        "en": "Jason in space, in the future"
+      },
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "freddy-vs-jason-2003",
+      "continuityId": "crossover",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "jason-voorhees"
+      ]
+    },
+    {
+      "titleId": "friday-the-13th-2009",
+      "continuityId": "remake",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "jason-voorhees"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "jason-voorhees",
+        "name": {
+          "es": "Jason Voorhees",
+          "en": "Jason Voorhees"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

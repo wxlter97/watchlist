@@ -1,0 +1,133 @@
+{
+  "id": "evil-dead",
+  "name": {
+    "es": "Evil Dead",
+    "en": "Evil Dead"
+  },
+  "description": {
+    "es": "El libro de los muertos y Ash Williams: la trilogía clásica, la serie y las versiones modernas.",
+    "en": "The book of the dead and Ash Williams: the classic trilogy, the series and the modern versions."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Ash Williams",
+        "en": "Ash Williams"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La trilogía de Sam Raimi y la serie que continúa a Ash.",
+        "en": "Sam Raimi's trilogy and the series that continues Ash."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Versiones modernas",
+        "en": "Modern versions"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Evil Dead (2013) y Evil Dead Rise, con otros protagonistas.",
+        "en": "Evil Dead (2013) and Evil Dead Rise, with other protagonists."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-evil-dead-1981",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "ash-williams"
+      ]
+    },
+    {
+      "titleId": "evil-dead-ii-1987",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "ash-williams"
+      ]
+    },
+    {
+      "titleId": "army-of-darkness-1992",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "ash-williams"
+      ]
+    },
+    {
+      "titleId": "ash-vs-evil-dead-2015",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Ash, treinta años después",
+        "en": "Ash, thirty years later"
+      },
+      "characters": [
+        "ash-williams"
+      ]
+    },
+    {
+      "titleId": "evil-dead-2013",
+      "continuityId": "reboot",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "evil-dead-rise-2023",
+      "continuityId": "reboot",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "ash-williams",
+        "name": {
+          "es": "Ash Williams",
+          "en": "Ash Williams"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

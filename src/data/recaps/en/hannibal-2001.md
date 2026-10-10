@@ -1,0 +1,2 @@
+- Lecter lives in Florence while Clarice keeps hunting him.
+- A wealthy man, Mason Verger, wants revenge.

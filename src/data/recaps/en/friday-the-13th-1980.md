@@ -1,0 +1,2 @@
+- Young people reopen Camp Crystal Lake and are killed one by one.
+- The ending sets up Jason.

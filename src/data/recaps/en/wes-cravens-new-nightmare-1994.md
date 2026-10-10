@@ -1,0 +1,2 @@
+- A demonic force chooses Freddy Krueger as its portal to the real world.
+- Heather Langenkamp must play Nancy one last time.

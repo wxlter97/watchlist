@@ -1,0 +1,2 @@
+- A girl, Regan, shows strange behavior doctors cannot explain.
+- Her mother turns to two priests for an exorcism.

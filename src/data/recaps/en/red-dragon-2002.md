@@ -1,0 +1,1 @@
+- Will Graham, the agent who caught Lecter, consults him again to catch a new killer.

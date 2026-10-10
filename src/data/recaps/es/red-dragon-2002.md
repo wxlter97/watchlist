@@ -1,0 +1,1 @@
+- Will Graham, el agente que capturó a Lecter, vuelve a consultarlo para atrapar a un nuevo asesino.

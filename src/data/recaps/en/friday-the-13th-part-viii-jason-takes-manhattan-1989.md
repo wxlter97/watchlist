@@ -1,0 +1,1 @@
+- Jason boards a graduation cruise bound for New York.

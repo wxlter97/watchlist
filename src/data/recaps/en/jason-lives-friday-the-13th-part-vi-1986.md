@@ -1,0 +1,1 @@
+- Tommy tries to destroy Jason's body and accidentally brings him back.

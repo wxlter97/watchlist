@@ -1,0 +1,2 @@
+- Ash survives the cabin, now with a possessed hand.
+- He tries to stop the demons with a chainsaw.

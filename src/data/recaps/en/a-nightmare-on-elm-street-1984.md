@@ -1,0 +1,2 @@
+- Teens dream of a disfigured man with a bladed glove.
+- Nancy realizes that dying in a dream means dying for real.

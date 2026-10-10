@@ -1,0 +1,1 @@
+- An FBI task force blows Jason apart; he is reborn able to assume the identity of anyone he touches.

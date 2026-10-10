@@ -1,0 +1,1 @@
+- Ash, mujeriego y cazador con una motosierra, evita su pasado hasta que regresan los Deadites.

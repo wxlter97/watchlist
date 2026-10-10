@@ -1,0 +1,1 @@
+- The first film's survivors spend a night in a haunted house.

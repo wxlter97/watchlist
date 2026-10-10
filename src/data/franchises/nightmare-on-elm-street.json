@@ -1,0 +1,196 @@
+{
+  "id": "nightmare-on-elm-street",
+  "name": {
+    "es": "Pesadilla en Elm Street",
+    "en": "A Nightmare on Elm Street"
+  },
+  "description": {
+    "es": "Freddy Krueger en los sueños: la saga original, Nueva pesadilla, el cruce y el remake.",
+    "en": "Freddy Krueger in your dreams: the original saga, New Nightmare, the crossover and the remake."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Saga original",
+        "en": "Original saga"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "De 1984 a La muerte de Freddy.",
+        "en": "From 1984 to Freddy's Dead."
+      }
+    },
+    {
+      "id": "new-nightmare",
+      "name": {
+        "es": "Nueva pesadilla (1994)",
+        "en": "New Nightmare (1994)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Película autorreferencial de Wes Craven.",
+        "en": "Wes Craven's self-referential film."
+      }
+    },
+    {
+      "id": "crossover",
+      "name": {
+        "es": "Freddy vs. Jason",
+        "en": "Freddy vs. Jason"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El cruce con Viernes 13.",
+        "en": "The crossover with Friday the 13th."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "remake",
+      "name": {
+        "es": "Remake (2010)",
+        "en": "Remake (2010)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio con otro reparto.",
+        "en": "A reboot with another cast."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "a-nightmare-on-elm-street-1984",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "freddy-krueger",
+        "nancy-thompson"
+      ]
+    },
+    {
+      "titleId": "a-nightmare-on-elm-street-part-2-freddys-revenge-1985",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "freddy-krueger"
+      ]
+    },
+    {
+      "titleId": "a-nightmare-on-elm-street-3-dream-warriors-1987",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "freddy-krueger",
+        "nancy-thompson"
+      ]
+    },
+    {
+      "titleId": "a-nightmare-on-elm-street-4-the-dream-master-1988",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "freddy-krueger"
+      ]
+    },
+    {
+      "titleId": "a-nightmare-on-elm-street-the-dream-child-1989",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "freddy-krueger"
+      ]
+    },
+    {
+      "titleId": "freddys-dead-the-final-nightmare-1991",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "freddy-krueger"
+      ]
+    },
+    {
+      "titleId": "wes-cravens-new-nightmare-1994",
+      "continuityId": "new-nightmare",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "freddy-krueger",
+        "nancy-thompson"
+      ]
+    },
+    {
+      "titleId": "freddy-vs-jason-2003",
+      "continuityId": "crossover",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "freddy-krueger"
+      ]
+    },
+    {
+      "titleId": "a-nightmare-on-elm-street-2010",
+      "continuityId": "remake",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "freddy-krueger"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "freddy-krueger",
+        "name": {
+          "es": "Freddy Krueger",
+          "en": "Freddy Krueger"
+        }
+      },
+      {
+        "id": "nancy-thompson",
+        "name": {
+          "es": "Nancy Thompson",
+          "en": "Nancy Thompson"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

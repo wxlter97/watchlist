@@ -1,0 +1,105 @@
+{
+  "id": "final-destination",
+  "name": {
+    "es": "Destino final",
+    "en": "Final Destination"
+  },
+  "description": {
+    "es": "La Muerte persigue a quienes escaparon de una tragedia: las cinco primeras películas y Bloodlines.",
+    "en": "Death hunts those who escaped a tragedy: the first five films and Bloodlines."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las seis películas; todas se ven por separado.",
+        "en": "The six films; all can be watched separately."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "final-destination-5-2011",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Es una precuela: termina enlazando con la primera",
+        "en": "It is a prequel: it ends by linking to the first"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "final-destination-2000",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "final-destination-2-2003",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "final-destination-3-2006",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": []
+    },
+    {
+      "titleId": "the-final-destination-2009",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": []
+    },
+    {
+      "titleId": "final-destination-bloodlines-2025",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

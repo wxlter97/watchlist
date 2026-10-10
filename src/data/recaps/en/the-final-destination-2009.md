@@ -1,0 +1,2 @@
+- A premonition saves a young man and his friends from a racetrack accident.
+- Still, terrible fates await them.

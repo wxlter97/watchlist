@@ -1,0 +1,1 @@
+- A group of friends gathers in a cabin to help a friend through addiction and finds the book.

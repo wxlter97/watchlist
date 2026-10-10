@@ -1,0 +1,1 @@
+- Merrin takes a sabbatical from the Church to devote himself to archaeology, struggling with his faith.

@@ -1,0 +1,2 @@
+- Una fuerza demoníaca elige a Freddy Krueger como puerta al mundo real.
+- Heather Langenkamp debe interpretar a Nancy una última vez.

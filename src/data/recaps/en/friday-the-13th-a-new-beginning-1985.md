@@ -1,0 +1,1 @@
+- Tommy, still haunted, faces new killings at a mental health center.

@@ -1,0 +1,2 @@
+- A girl and her friend return from a three-day disappearance with frightening behavior.
+- Her father seeks help against whatever possesses them.

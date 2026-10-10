@@ -1,0 +1,2 @@
+- Unos jóvenes reabren el Campamento Cristal Lake y son asesinados uno a uno.
+- El final da paso a Jason.

@@ -1,0 +1,1 @@
+- El detective Kinderman investiga una serie de crímenes con ecos de los hechos de la primera película.

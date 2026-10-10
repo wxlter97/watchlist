@@ -1,0 +1,2 @@
+- A man saves his coworkers from a suspension bridge collapse.
+- Death pursues them; the ending connects to the first film.

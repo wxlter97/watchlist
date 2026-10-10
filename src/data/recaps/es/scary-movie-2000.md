@@ -1,0 +1,2 @@
+- Un grupo de adolescentes es perseguido por un asesino enmascarado.
+- La película parodia clásicos del terror.

@@ -1,0 +1,2 @@
+- The Lambert family's son falls into an inexplicable coma.
+- They find his spirit is lost in the Further.

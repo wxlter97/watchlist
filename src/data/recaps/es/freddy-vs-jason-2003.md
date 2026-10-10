@@ -1,0 +1,2 @@
+- Freddy revive a Jason para que siembre miedo en Elm Street y recobrar su poder.
+- Los dos acaban enfrentados.

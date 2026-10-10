@@ -1,0 +1,1 @@
+- Twenty-six years later, the Core Four are back in the masked killer's sights.

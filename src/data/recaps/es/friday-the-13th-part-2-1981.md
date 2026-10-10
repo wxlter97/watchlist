@@ -1,0 +1,1 @@
+- Jason ataca a los monitores de un nuevo campamento cerca de Cristal Lake.

@@ -1,0 +1,2 @@
+- Alex Browning has a premonition his plane will explode and gets off with some classmates.
+- The plane explodes and Death starts claiming the survivors one by one.

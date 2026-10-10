@@ -1,0 +1,1 @@
+- Detective Kinderman investigates a series of crimes echoing the first film's events.

@@ -1,0 +1,119 @@
+{
+  "id": "scary-movie",
+  "name": {
+    "es": "Scary Movie",
+    "en": "Scary Movie"
+  },
+  "description": {
+    "es": "La parodia del terror: seis películas, de 2000 a 2026.",
+    "en": "The horror parody: six films, from 2000 to 2026."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las seis películas, que se ven por separado.",
+        "en": "The six films, which can be watched separately."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "scary-movie-2000",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "cindy-campbell"
+      ]
+    },
+    {
+      "titleId": "scary-movie-2-2001",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "cindy-campbell"
+      ]
+    },
+    {
+      "titleId": "scary-movie-3-2003",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "cindy-campbell"
+      ]
+    },
+    {
+      "titleId": "scary-movie-4-2006",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "cindy-campbell"
+      ]
+    },
+    {
+      "titleId": "scary-movie-5-2013",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "characters": []
+    },
+    {
+      "titleId": "scary-movie-2026",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "cindy-campbell"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "cindy-campbell",
+        "name": {
+          "es": "Cindy Campbell",
+          "en": "Cindy Campbell"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

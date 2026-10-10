@@ -1,0 +1,124 @@
+{
+  "id": "it",
+  "name": {
+    "es": "It (Eso)",
+    "en": "It"
+  },
+  "description": {
+    "es": "Pennywise y el Club de los Perdedores: las películas de 2017 y 2019, la serie Welcome to Derry y la miniserie de 1990.",
+    "en": "Pennywise and the Losers' Club: the 2017 and 2019 films, the Welcome to Derry series and the 1990 miniseries."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas y Welcome to Derry",
+        "en": "Films and Welcome to Derry"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La línea actual: dos películas y la precuela en serie.",
+        "en": "The current line: two films and the prequel series."
+      }
+    },
+    {
+      "id": "miniseries",
+      "name": {
+        "es": "Miniserie (1990)",
+        "en": "Miniseries (1990)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La adaptación televisiva original.",
+        "en": "The original TV adaptation."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "it-welcome-to-derry-2025",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: años cincuenta y sesenta",
+        "en": "Prequel: the 1950s and 60s"
+      },
+      "characters": [
+        "pennywise"
+      ]
+    },
+    {
+      "titleId": "it-2017",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "pennywise"
+      ]
+    },
+    {
+      "titleId": "it-chapter-two-2019",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "27 años después",
+        "en": "27 years later"
+      },
+      "characters": [
+        "pennywise"
+      ]
+    },
+    {
+      "titleId": "it-1990",
+      "continuityId": "miniseries",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "pennywise"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "pennywise",
+        "name": {
+          "es": "Pennywise",
+          "en": "Pennywise"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

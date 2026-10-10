@@ -1,0 +1,1 @@
+- Freddy returns and Alice becomes the new protagonist.

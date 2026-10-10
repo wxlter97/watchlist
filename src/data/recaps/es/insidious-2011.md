@@ -1,0 +1,2 @@
+- El hijo de la familia Lambert cae en un coma inexplicable.
+- Descubren que su espíritu está perdido en el Más Allá.

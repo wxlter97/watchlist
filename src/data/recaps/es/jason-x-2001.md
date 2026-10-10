@@ -1,0 +1,1 @@
+- En 2455, Jason es descongelado en una nave espacial y vuelve a matar.

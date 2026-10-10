@@ -1,0 +1,1 @@
+- Una fuerza especial del FBI destruye a Jason, que renace con la capacidad de tomar la identidad de quien toca.

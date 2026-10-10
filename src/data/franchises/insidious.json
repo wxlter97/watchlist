@@ -1,0 +1,129 @@
+{
+  "id": "insidious",
+  "name": {
+    "es": "Insidious",
+    "en": "Insidious"
+  },
+  "description": {
+    "es": "La familia Lambert, el Más Allá y la médium Elise: cinco películas con dos precuelas.",
+    "en": "The Lambert family, the Further and the medium Elise: five films with two prequels."
+  },
+  "accentColor": "#7C3AED",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas.",
+        "en": "The five films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "insidious-chapter-3-2015",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: tres años antes",
+        "en": "Prequel: years earlier"
+      },
+      "characters": [
+        "elise-rainier"
+      ]
+    },
+    {
+      "titleId": "insidious-the-last-key-2018",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Precuela: poco antes de la primera",
+        "en": "Prequel: shortly before the first"
+      },
+      "characters": [
+        "elise-rainier"
+      ]
+    },
+    {
+      "titleId": "insidious-2011",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "elise-rainier",
+        "josh-lambert"
+      ]
+    },
+    {
+      "titleId": "insidious-chapter-2-2013",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "elise-rainier",
+        "josh-lambert"
+      ]
+    },
+    {
+      "titleId": "insidious-the-red-door-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "josh-lambert"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "elise-rainier",
+        "name": {
+          "es": "Elise Rainier",
+          "en": "Elise Rainier"
+        }
+      },
+      {
+        "id": "josh-lambert",
+        "name": {
+          "es": "Josh Lambert",
+          "en": "Josh Lambert"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

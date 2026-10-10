@@ -1,0 +1,1 @@
+- Jason keeps killing and faces Tommy Jarvis, a boy who loves horror makeup.
