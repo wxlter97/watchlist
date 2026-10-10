@@ -1,0 +1,128 @@
+{
+  "id": "percy-jackson",
+  "name": {
+    "es": "Percy Jackson",
+    "en": "Percy Jackson"
+  },
+  "description": {
+    "es": "El hijo de Poseidón: la serie de Disney+ y las dos películas anteriores.",
+    "en": "Poseidon's son: the Disney+ series and the two earlier films."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "series",
+      "name": {
+        "es": "Serie de Disney+",
+        "en": "Disney+ series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La adaptación actual, más fiel a los libros.",
+        "en": "The current adaptation, closer to the books."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas (2010-2013)",
+        "en": "Films (2010–2013)"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Las dos películas anteriores, con otro reparto y cambios grandes frente a los libros.",
+        "en": "The two earlier films, with a different cast and big changes from the books."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "percy-jackson-and-the-olympians-2023",
+      "season": 1,
+      "continuityId": "series",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "percy-jackson"
+      ]
+    },
+    {
+      "titleId": "percy-jackson-and-the-olympians-2023",
+      "season": 2,
+      "continuityId": "series",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "percy-jackson"
+      ]
+    },
+    {
+      "titleId": "percy-jackson-and-the-olympians-2023",
+      "season": 3,
+      "continuityId": "series",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "percy-jackson"
+      ]
+    },
+    {
+      "titleId": "percy-jackson-and-the-olympians-the-lightning-thief-2010",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "percy-jackson"
+      ]
+    },
+    {
+      "titleId": "percy-jackson-sea-of-monsters-2013",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "percy-jackson"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "percy-jackson",
+        "name": {
+          "es": "Percy Jackson",
+          "en": "Percy Jackson"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,2 @@
+- In 1991 Miami, Dexter goes from student to avenging killer.
+- His father, Harry, helps him adopt the Code he uses to choose his victims.

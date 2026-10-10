@@ -1,0 +1,3 @@
+- Dexter awakens from a coma to find Harrison gone without a trace.
+- He travels to New York to find him.
+- Angel Batista arrives with questions and his past catches up with him.

@@ -1,0 +1,2 @@
+- Lucy, Edmund y su primo Eustace llegan al Viajero del Alba de Caspian.
+- Navegan en busca de siete señores perdidos y enfrentan una amenaza que se esconde en una niebla verde.

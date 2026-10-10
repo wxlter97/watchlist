@@ -1,0 +1,136 @@
+{
+  "id": "dexter",
+  "name": {
+    "es": "Dexter",
+    "en": "Dexter"
+  },
+  "description": {
+    "es": "El forense que mata a asesinos: la serie original, su continuación, la precuela y Resurrection.",
+    "en": "The forensic analyst who kills killers: the original series, its continuation, the prequel and Resurrection."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Dexter",
+        "en": "Dexter"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie, sus continuaciones y la precuela.",
+        "en": "The series, its continuations and the prequel."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "dexter-original-sin-2024",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Miami, 1991",
+        "en": "Miami, 1991"
+      },
+      "characters": [
+        "dexter-morgan"
+      ]
+    },
+    {
+      "titleId": "dexter-2006",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "dexter-morgan",
+        "debra-morgan"
+      ]
+    },
+    {
+      "titleId": "dexter-new-blood-2021",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Diez años después del final",
+        "en": "Ten years after the ending"
+      },
+      "characters": [
+        "dexter-morgan"
+      ]
+    },
+    {
+      "titleId": "dexter-resurrection-2025",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "dexter-morgan"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "core",
+      "type": "curated",
+      "name": {
+        "es": "La historia principal",
+        "en": "The main story"
+      },
+      "description": {
+        "es": "La serie, New Blood y Resurrection, sin la precuela.",
+        "en": "The series, New Blood and Resurrection, without the prequel."
+      },
+      "titleIds": [
+        "dexter-2006",
+        "dexter-new-blood-2021",
+        "dexter-resurrection-2025"
+      ]
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "dexter-morgan",
+        "name": {
+          "es": "Dexter Morgan",
+          "en": "Dexter Morgan"
+        }
+      },
+      {
+        "id": "debra-morgan",
+        "name": {
+          "es": "Debra Morgan",
+          "en": "Debra Morgan"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

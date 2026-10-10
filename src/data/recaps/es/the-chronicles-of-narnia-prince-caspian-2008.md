@@ -1,0 +1,2 @@
+- Los hermanos vuelven a Narnia 1300 años después y ayudan al príncipe Caspian.
+- Caspian lucha contra su tío Miraz, que gobierna a los telmarinos.

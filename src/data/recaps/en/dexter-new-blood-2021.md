@@ -1,0 +1,2 @@
+- Ten years after vanishing in the hurricane, Dexter lives under an assumed name in Iron Lake, New York.
+- Events in the town stir his Dark Passenger again.

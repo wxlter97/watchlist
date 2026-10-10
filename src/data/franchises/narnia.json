@@ -1,0 +1,130 @@
+{
+  "id": "narnia",
+  "name": {
+    "es": "Las crónicas de Narnia",
+    "en": "The Chronicles of Narnia"
+  },
+  "description": {
+    "es": "Los hermanos Pevensie y el reino de Aslan: las tres películas de los 2000 y la serie de la BBC.",
+    "en": "The Pevensie siblings and Aslan's kingdom: the three 2000s films and the BBC series."
+  },
+  "accentColor": "#0F766E",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas (2005-2010)",
+        "en": "Films (2005–2010)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas de Walden Media y Disney, en el orden de la historia.",
+        "en": "The three Walden Media and Disney films, in story order."
+      }
+    },
+    {
+      "id": "bbc",
+      "name": {
+        "es": "Serie de la BBC (1988-1990)",
+        "en": "BBC series (1988–1990)"
+      },
+      "canonLevel": "alternate",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Adaptación televisiva distinta, con producción de los años ochenta.",
+        "en": "A different TV adaptation with 1980s production values."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe-2005",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "aslan",
+        "lucy-pevensie"
+      ]
+    },
+    {
+      "titleId": "the-chronicles-of-narnia-prince-caspian-2008",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "1300 años después en Narnia",
+        "en": "1300 years later in Narnia"
+      },
+      "characters": [
+        "aslan",
+        "lucy-pevensie"
+      ]
+    },
+    {
+      "titleId": "the-chronicles-of-narnia-the-voyage-of-the-dawn-treader-2010",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "aslan",
+        "lucy-pevensie"
+      ]
+    },
+    {
+      "titleId": "the-chronicles-of-narnia-1988",
+      "continuityId": "bbc",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "aslan"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "aslan",
+        "name": {
+          "es": "Aslan",
+          "en": "Aslan"
+        }
+      },
+      {
+        "id": "lucy-pevensie",
+        "name": {
+          "es": "Lucy Pevensie",
+          "en": "Lucy Pevensie"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

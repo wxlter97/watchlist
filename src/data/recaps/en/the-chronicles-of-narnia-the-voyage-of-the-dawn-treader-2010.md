@@ -1,0 +1,2 @@
+- Lucy, Edmund and their cousin Eustace board Caspian's Dawn Treader.
+- They sail in search of seven lost lords and face a threat hidden in a green mist.

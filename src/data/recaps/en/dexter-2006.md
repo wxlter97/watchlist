@@ -1,0 +1,3 @@
+- Dexter Morgan analyzes blood spatter for Miami police and secretly kills killers.
+- Each season pits him against a different killer, while his sister Debra gets closer to the truth.
+- The eighth season's ending was widely criticized.

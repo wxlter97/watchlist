@@ -1,0 +1,2 @@
+- Percy Jackson discovers he is Poseidon's son.
+- He must recover Zeus's master bolt to prevent a war between the gods.

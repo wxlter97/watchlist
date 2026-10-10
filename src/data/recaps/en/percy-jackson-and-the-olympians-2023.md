@@ -1,0 +1,3 @@
+- **Season 1:** Percy, Annabeth and Grover cross the United States to return Zeus's master bolt.
+- **Season 2:** adapts *The Sea of Monsters*.
+- **Season 3:** planned to continue the story.
