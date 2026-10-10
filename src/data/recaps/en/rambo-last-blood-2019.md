@@ -1,0 +1,1 @@
+- Rambo lives on his ranch, but his housekeeper's granddaughter disappears after crossing the border.

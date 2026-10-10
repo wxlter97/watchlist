@@ -1,0 +1,1 @@
+- Robert McCall, ex agente de una agencia secreta, ofrece ayuda privada a víctimas del sistema.

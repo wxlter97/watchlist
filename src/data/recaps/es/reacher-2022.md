@@ -1,0 +1,2 @@
+- Jack Reacher, ex policía militar, viaja por Estados Unidos sin teléfono y con lo mínimo.
+- Cada temporada lo mete en un caso nuevo.

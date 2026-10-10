@@ -1,0 +1,2 @@
+- Danny Ocean reúne a once ladrones para asaltar tres casinos de Las Vegas.
+- El plan busca también recuperar a su exesposa.

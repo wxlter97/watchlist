@@ -1,0 +1,1 @@
+- Reacher returns when his friend Major Turner is framed for espionage.

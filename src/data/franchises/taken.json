@@ -1,0 +1,116 @@
+{
+  "id": "taken",
+  "name": {
+    "es": "Búsqueda implacable",
+    "en": "Taken"
+  },
+  "description": {
+    "es": "Bryan Mills y su 'conjunto muy particular de habilidades': las tres películas y la serie.",
+    "en": "Bryan Mills and his 'very particular set of skills': the three films and the series."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas con Liam Neeson.",
+        "en": "The three films with Liam Neeson."
+      }
+    },
+    {
+      "id": "series",
+      "name": {
+        "es": "Serie (2017)",
+        "en": "Series (2017)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Precuela televisiva con otro actor.",
+        "en": "A television prequel with another actor."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "taken-2008",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "bryan-mills"
+      ]
+    },
+    {
+      "titleId": "taken-2-2012",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "bryan-mills"
+      ]
+    },
+    {
+      "titleId": "taken-3-2014",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "bryan-mills"
+      ]
+    },
+    {
+      "titleId": "taken-2017",
+      "continuityId": "series",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "bryan-mills"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "bryan-mills",
+        "name": {
+          "es": "Bryan Mills",
+          "en": "Bryan Mills"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

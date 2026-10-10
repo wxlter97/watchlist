@@ -1,0 +1,2 @@
+- Mike Lowrey and Marcus Burnett must recover heroin stolen from the police evidence room within days.
+- A witness will only trust one of them.

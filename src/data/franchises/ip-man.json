@@ -1,0 +1,134 @@
+{
+  "id": "ip-man",
+  "name": {
+    "es": "Ip Man",
+    "en": "Ip Man"
+  },
+  "description": {
+    "es": "El maestro de Wing Chun de Bruce Lee: las cuatro películas con Donnie Yen y otras versiones.",
+    "en": "Bruce Lee's Wing Chun master: the four Donnie Yen films and other versions."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "yen",
+      "name": {
+        "es": "Donnie Yen",
+        "en": "Donnie Yen"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas de Wilson Yip.",
+        "en": "Wilson Yip's four films."
+      }
+    },
+    {
+      "id": "others",
+      "name": {
+        "es": "Otras versiones",
+        "en": "Other versions"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Películas independientes de otros directores.",
+        "en": "Standalone films by other directors."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "ip-man-2008",
+      "continuityId": "yen",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "ip-man"
+      ]
+    },
+    {
+      "titleId": "ip-man-2-2010",
+      "continuityId": "yen",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "ip-man"
+      ]
+    },
+    {
+      "titleId": "ip-man-3-2015",
+      "continuityId": "yen",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "ip-man"
+      ]
+    },
+    {
+      "titleId": "ip-man-4-the-finale-2019",
+      "continuityId": "yen",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "ip-man"
+      ]
+    },
+    {
+      "titleId": "the-legend-is-born-ip-man-2010",
+      "continuityId": "others",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "ip-man"
+      ]
+    },
+    {
+      "titleId": "ip-man-the-final-fight-2013",
+      "continuityId": "others",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "ip-man"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "ip-man",
+        "name": {
+          "es": "Ip Man",
+          "en": "Ip Man"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

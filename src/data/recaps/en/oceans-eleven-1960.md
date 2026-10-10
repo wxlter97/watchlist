@@ -1,0 +1,1 @@
+- Eleven friends plan to rob five Las Vegas casinos on New Year's Eve.

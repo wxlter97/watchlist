@@ -1,0 +1,114 @@
+{
+  "id": "lethal-weapon",
+  "name": {
+    "es": "Arma mortal",
+    "en": "Lethal Weapon"
+  },
+  "description": {
+    "es": "Riggs y Murtaugh, la pareja de policías: las cuatro películas.",
+    "en": "Riggs and Murtaugh, the cop duo: the four films."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "lethal-weapon-1987",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "martin-riggs",
+        "roger-murtaugh"
+      ]
+    },
+    {
+      "titleId": "lethal-weapon-2-1989",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "martin-riggs",
+        "roger-murtaugh"
+      ]
+    },
+    {
+      "titleId": "lethal-weapon-3-1992",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "martin-riggs",
+        "roger-murtaugh"
+      ]
+    },
+    {
+      "titleId": "lethal-weapon-4-1998",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "martin-riggs",
+        "roger-murtaugh"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "martin-riggs",
+        "name": {
+          "es": "Martin Riggs",
+          "en": "Martin Riggs"
+        }
+      },
+      {
+        "id": "roger-murtaugh",
+        "name": {
+          "es": "Roger Murtaugh",
+          "en": "Roger Murtaugh"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

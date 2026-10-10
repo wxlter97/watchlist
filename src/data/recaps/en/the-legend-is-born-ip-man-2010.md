@@ -1,0 +1,1 @@
+- It tells Ip Man's youth, from initial training to becoming a master.

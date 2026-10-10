@@ -1,0 +1,146 @@
+{
+  "id": "oceans",
+  "name": {
+    "es": "Ocean's",
+    "en": "Ocean's"
+  },
+  "description": {
+    "es": "Atracos con estilo: la película de 1960, la trilogía de Soderbergh y Ocean's 8.",
+    "en": "Heists with style: the 1960 film, Soderbergh's trilogy and Ocean's 8."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "soderbergh",
+      "name": {
+        "es": "Trilogía de Soderbergh",
+        "en": "Soderbergh trilogy"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas de Danny Ocean y el spin-off Ocean's 8.",
+        "en": "Danny Ocean's three films and the Ocean's 8 spin-off."
+      }
+    },
+    {
+      "id": "rat-pack",
+      "name": {
+        "es": "La original (1960)",
+        "en": "The original (1960)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La película de la que parte la saga, con el Rat Pack.",
+        "en": "The film the saga is based on, with the Rat Pack."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "oceans-eleven-2001",
+      "continuityId": "soderbergh",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "danny-ocean",
+        "rusty-ryan"
+      ]
+    },
+    {
+      "titleId": "oceans-twelve-2004",
+      "continuityId": "soderbergh",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "danny-ocean",
+        "rusty-ryan"
+      ]
+    },
+    {
+      "titleId": "oceans-thirteen-2007",
+      "continuityId": "soderbergh",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "danny-ocean",
+        "rusty-ryan"
+      ]
+    },
+    {
+      "titleId": "oceans-eight-2018",
+      "continuityId": "soderbergh",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Spin-off con Debbie Ocean",
+        "en": "Spin-off with Debbie Ocean"
+      },
+      "characters": [
+        "debbie-ocean"
+      ]
+    },
+    {
+      "titleId": "oceans-eleven-1960",
+      "continuityId": "rat-pack",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "danny-ocean"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "danny-ocean",
+        "name": {
+          "es": "Danny Ocean",
+          "en": "Danny Ocean"
+        }
+      },
+      {
+        "id": "rusty-ryan",
+        "name": {
+          "es": "Rusty Ryan",
+          "en": "Rusty Ryan"
+        }
+      },
+      {
+        "id": "debbie-ocean",
+        "name": {
+          "es": "Debbie Ocean",
+          "en": "Debbie Ocean"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

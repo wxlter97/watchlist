@@ -1,0 +1,1 @@
+- Robert McCall, a quiet man, decides to help a young woman in the hands of the Russian mob.

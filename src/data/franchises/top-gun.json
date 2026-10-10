@@ -1,0 +1,102 @@
+{
+  "id": "top-gun",
+  "name": {
+    "es": "Top Gun",
+    "en": "Top Gun"
+  },
+  "description": {
+    "es": "Maverick, de la academia de pilotos a la misión imposible: las dos películas.",
+    "en": "Maverick, from flight school to the impossible mission: the two films."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas, treinta y seis años aparte.",
+        "en": "The two films, thirty-six years apart."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "top-gun-1986",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "maverick"
+      ]
+    },
+    {
+      "titleId": "top-gun-maverick-2022",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "maverick"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-top-gun-maverick-2022",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Top Gun: Maverick",
+        "en": "Get ready for Top Gun: Maverick"
+      },
+      "description": {
+        "es": "La película de 1986 da el contexto; Maverick se entiende bien sin ella.",
+        "en": "The 1986 film gives context; Maverick works well without it."
+      },
+      "titleIds": [
+        "top-gun-1986"
+      ],
+      "targetTitleId": "top-gun-maverick-2022"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "maverick",
+        "name": {
+          "es": "Maverick",
+          "en": "Maverick"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

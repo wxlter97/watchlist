@@ -1,0 +1,1 @@
+- Rambo travels to Afghanistan to rescue Colonel Trautman.

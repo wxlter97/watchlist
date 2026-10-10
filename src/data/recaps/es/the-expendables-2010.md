@@ -1,0 +1,1 @@
+- Barney Ross y su equipo de mercenarios aceptan una misión contra un dictador en una isla.

@@ -1,0 +1,1 @@
+- Rambo vive en su rancho, pero la nieta de su ama de llaves desaparece al cruzar la frontera.

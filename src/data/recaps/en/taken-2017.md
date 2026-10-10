@@ -1,0 +1,2 @@
+- Bryan Mills, a young former Green Beret, deals with a personal tragedy.
+- He is pulled into a career as a CIA operative.

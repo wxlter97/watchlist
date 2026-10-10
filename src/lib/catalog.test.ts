@@ -84,7 +84,8 @@ describe("carga por franquicia", () => {
         expect(index().franchisesByTitle.get(titleId)?.length ?? 0).toBeGreaterThan(0);
       }
     }
-  });
+    // Recorre todas las franquicias: crece con el catálogo y con la suite en paralelo supera los 5 s por defecto.
+  }, 60_000);
 
   it("con todo cargado, el índice es el del catálogo entero", async () => {
     await loadAllFranchises();

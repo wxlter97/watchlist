@@ -1,0 +1,1 @@
+- La banda planea arruinar a Willy Bank, quien traicionó a Reuben.

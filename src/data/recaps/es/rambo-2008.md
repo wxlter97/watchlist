@@ -1,0 +1,2 @@
+- Rambo guía a un grupo de misioneros por Birmania, que luego son secuestrados.
+- Se une a mercenarios para rescatarlos.

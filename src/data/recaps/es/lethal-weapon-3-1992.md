@@ -1,0 +1,1 @@
+- La pareja investiga a un ex policía que vende armas.

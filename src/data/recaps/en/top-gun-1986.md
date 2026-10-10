@@ -1,0 +1,2 @@
+- Maverick and his wingman Goose enter the Top Gun flight school.
+- He competes with Iceman and falls for an instructor.

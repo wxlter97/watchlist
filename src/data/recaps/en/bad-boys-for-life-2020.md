@@ -1,0 +1,1 @@
+- The pair join a Miami police elite team to take down Armando Armas.

@@ -1,0 +1,2 @@
+- Rambo es enviado a Vietnam a buscar prisioneros de guerra.
+- La misión se complica por una traición.

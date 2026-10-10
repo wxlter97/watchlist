@@ -1,0 +1,2 @@
+- Debbie Ocean, hermana de Danny, reúne a un equipo de ladronas.
+- Planean robar en la gala del Met.

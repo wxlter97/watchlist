@@ -1,0 +1,2 @@
+- Debbie Ocean, Danny's sister, gathers a crew of female thieves.
+- They plan to rob at the Met Gala.

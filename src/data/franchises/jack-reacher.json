@@ -1,0 +1,106 @@
+{
+  "id": "jack-reacher",
+  "name": {
+    "es": "Jack Reacher",
+    "en": "Jack Reacher"
+  },
+  "description": {
+    "es": "El ex policía militar errante: las dos películas con Tom Cruise y la serie de Prime Video.",
+    "en": "The wandering former military cop: the two Tom Cruise films and the Prime Video series."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "series",
+      "name": {
+        "es": "Serie (2022)",
+        "en": "Series (2022)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie, más fiel a los libros.",
+        "en": "The series, closer to the books."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas (2012-2016)",
+        "en": "Films (2012–2016)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las dos películas con Tom Cruise.",
+        "en": "The two Tom Cruise films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "reacher-2022",
+      "continuityId": "series",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-reacher"
+      ]
+    },
+    {
+      "titleId": "jack-reacher-2012",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-reacher"
+      ]
+    },
+    {
+      "titleId": "jack-reacher-never-go-back-2016",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "jack-reacher"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "jack-reacher",
+        "name": {
+          "es": "Jack Reacher",
+          "en": "Jack Reacher"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

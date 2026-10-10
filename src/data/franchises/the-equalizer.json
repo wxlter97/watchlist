@@ -1,0 +1,136 @@
+{
+  "id": "the-equalizer",
+  "name": {
+    "es": "El justiciero",
+    "en": "The Equalizer"
+  },
+  "description": {
+    "es": "Robert McCall, el ex agente que defiende a quien no puede: las películas con Denzel Washington y las series.",
+    "en": "Robert McCall, the former agent who defends those who cannot defend themselves: the Denzel Washington films and the series."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas con Denzel Washington.",
+        "en": "The three films with Denzel Washington."
+      }
+    },
+    {
+      "id": "series-2021",
+      "name": {
+        "es": "Serie (2021)",
+        "en": "Series (2021)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Versión televisiva con Queen Latifah.",
+        "en": "A television version with Queen Latifah."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "series-1985",
+      "name": {
+        "es": "Serie original (1985)",
+        "en": "Original series (1985)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La serie clásica con Edward Woodward.",
+        "en": "The classic series with Edward Woodward."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-equalizer-2014",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "robert-mccall"
+      ]
+    },
+    {
+      "titleId": "the-equalizer-2-2018",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "robert-mccall"
+      ]
+    },
+    {
+      "titleId": "the-equalizer-3-2023",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "robert-mccall"
+      ]
+    },
+    {
+      "titleId": "the-equalizer-2021",
+      "continuityId": "series-2021",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "the-equalizer-1985",
+      "continuityId": "series-1985",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "robert-mccall"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "robert-mccall",
+        "name": {
+          "es": "Robert McCall",
+          "en": "Robert McCall"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

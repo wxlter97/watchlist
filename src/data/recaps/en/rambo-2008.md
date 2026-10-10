@@ -1,0 +1,2 @@
+- Rambo guides missionaries into Burma, who are then kidnapped.
+- He joins mercenaries to rescue them.

@@ -1,0 +1,1 @@
+- Rambo viaja a Afganistán para rescatar al coronel Trautman.
