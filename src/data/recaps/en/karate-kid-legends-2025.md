@@ -1,0 +1,3 @@
+- Li Fong, a young kung fu prodigy, moves to New York.
+- Mr. Han and Daniel LaRusso train him.
+- Li combines kung fu and karate to compete in a tournament.

@@ -1,0 +1,2 @@
+- Miyagi trains a young woman, Julie Pierce, who has trouble with violence at her school.
+- She faces a gang of classmates.

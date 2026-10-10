@@ -1,0 +1,3 @@
+- Kreese y su amigo Terry Silver traman vengarse de Daniel.
+- Daniel, sin Miyagi, acaba entrenado por Silver, que lo engaña.
+- Daniel debe volver a su camino y vencer a Mike Barnes en el torneo.

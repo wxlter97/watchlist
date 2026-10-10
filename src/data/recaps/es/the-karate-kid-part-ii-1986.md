@@ -1,0 +1,3 @@
+- Miyagi vuelve a Okinawa porque su padre está muriendo.
+- Se reencuentra con un viejo rival, Sato, y con su amor, Yukie.
+- Daniel lo acompaña, conoce a Kumiko y enfrenta a Chozen.

@@ -1,0 +1,118 @@
+{
+  "id": "invincible",
+  "name": {
+    "es": "Invencible",
+    "en": "Invincible"
+  },
+  "description": {
+    "es": "Mark Grayson y su padre Omni-Man: la serie animada de Robert Kirkman.",
+    "en": "Mark Grayson and his father Omni-Man: Robert Kirkman's animated series."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Invencible",
+        "en": "Invincible"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie animada, temporada a temporada.",
+        "en": "The animated series, season by season."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "invincible-2021",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "mark-grayson",
+        "omni-man"
+      ]
+    },
+    {
+      "titleId": "invincible-2021",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "mark-grayson",
+        "omni-man"
+      ]
+    },
+    {
+      "titleId": "invincible-2021",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "mark-grayson",
+        "omni-man"
+      ]
+    },
+    {
+      "titleId": "invincible-2021",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "mark-grayson",
+        "omni-man"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "mark-grayson",
+        "name": {
+          "es": "Mark Grayson",
+          "en": "Mark Grayson"
+        }
+      },
+      {
+        "id": "omni-man",
+        "name": {
+          "es": "Omni-Man",
+          "en": "Omni-Man"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

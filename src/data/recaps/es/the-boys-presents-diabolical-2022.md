@@ -1,0 +1,2 @@
+- Cortos animados para adultos con equipos creativos distintos, en el mismo mundo.
+- Cada uno es independiente.

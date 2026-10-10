@@ -20442,5 +20442,348 @@
       }
     },
     "runtimeMin": 5
+  },
+  {
+    "id": "the-karate-kid-1984",
+    "tmdbId": 1885,
+    "tmdbType": "movie",
+    "title": "The Karate Kid",
+    "kind": "movie",
+    "releaseDate": "1984-06-22",
+    "imdbId": "tt0087538",
+    "posterPath": "/1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+    "overview": "New Jersey teen Daniel LaRusso moves to Los Angeles with his mother, and soon strikes up a relationship with Ali. He quickly finds himself the target of bullying by a group of thugs, led by Ali's ex-boyfriend Johnny, who study karate at the Cobra Kai dojo under ruthless sensei John Kreese. Fortunately, Daniel befriends Mr. Miyagi, an unassuming repairman who just happens to be a martial arts master himself. Miyagi takes Daniel under his wing, training him in a more compassionate form of karate for self-defense and, later, preparing him to compete against the brutal Cobra Kai.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid",
+        "overview": "New Jersey teen Daniel LaRusso moves to Los Angeles with his mother, and soon strikes up a relationship with Ali. He quickly finds himself the target of bullying by a group of thugs, led by Ali's ex-boyfriend Johnny, who study karate at the Cobra Kai dojo under ruthless sensei John Kreese. Fortunately, Daniel befriends Mr. Miyagi, an unassuming repairman who just happens to be a martial arts master himself. Miyagi takes Daniel under his wing, training him in a more compassionate form of karate for self-defense and, later, preparing him to compete against the brutal Cobra Kai."
+      },
+      "es": {
+        "title": "Karate Kid",
+        "overview": "Daniel Larusso llega a Los Angeles procedente de la costa Este de Estados Unidos dispuesto a hacer nuevos amigos. Sin embargo, se convierte en el blanco de los ataques de los Cobras, un hostil grupo de estudiantes de kárate, cuando comienza a salir con Ali, la antigua novia del cabecilla del grupo. En tal situación, no tiene más remedio que pedirle ayuda a Miyagi, un maestro de artes marciales, para que le enseñe kárate. Bajo la tutela de Miyagi, Daniel desarrolla no sólo sus aptitudes físicas, sino también la seguridad en sí mismo que necesita para superar todos los obstáculos."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "the-karate-kid-part-ii-1986",
+    "tmdbId": 8856,
+    "tmdbType": "movie",
+    "title": "The Karate Kid Part II",
+    "kind": "movie",
+    "releaseDate": "1986-06-18",
+    "imdbId": "tt0091326",
+    "posterPath": "/k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+    "overview": "Summoned by his dying father, Miyagi returns to his homeland of Okinawa, with Daniel, after a 40-year exile. There he must confront Yukie, the love of his youth, and Sato, his former best friend turned vengeful rival. Sato is bent on a fight to the death, even if it means the destruction of their village. Daniel finds his own love in Yukia's niece, Kumiko, and his own enemy in Sato's nephew, the vicious Chozen. Now, far away from the tournaments, cheering crowds and safety of home, Daniel will face his greatest challenge ever when the cost of honor is life itself.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid Part II",
+        "overview": "Summoned by his dying father, Miyagi returns to his homeland of Okinawa, with Daniel, after a 40-year exile. There he must confront Yukie, the love of his youth, and Sato, his former best friend turned vengeful rival. Sato is bent on a fight to the death, even if it means the destruction of their village. Daniel finds his own love in Yukia's niece, Kumiko, and his own enemy in Sato's nephew, the vicious Chozen. Now, far away from the tournaments, cheering crowds and safety of home, Daniel will face his greatest challenge ever when the cost of honor is life itself."
+      },
+      "es": {
+        "title": "Karate Kid II: La Historia Continúa",
+        "overview": "Daniel y el señor Miyagi viajan a Okinawa, a la pequeña aldea en la que el anciano nació y de la que tuvo que marcharse por un asunto de honor. Su padre está gravemente enfermo y quiere verlo, pero también le espera su antiguo amor de juventud. La llegada del señor MIyagi reabre unas heridas que el tiempo y la distancia parecían haber borrado."
+      }
+    },
+    "runtimeMin": 113
+  },
+  {
+    "id": "the-karate-kid-part-iii-1989",
+    "tmdbId": 10495,
+    "tmdbType": "movie",
+    "title": "The Karate Kid Part III",
+    "kind": "movie",
+    "releaseDate": "1989-06-16",
+    "imdbId": "tt0097647",
+    "posterPath": "/lVZ3r0iDwGejlCvFEvXGzhQB9ds.jpg",
+    "overview": "Despondent over the closing of his karate school, Cobra Kai teacher John Kreese joins a ruthless businessman and martial artist to get revenge on Daniel and Mr. Miyagi.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid Part III",
+        "overview": "Despondent over the closing of his karate school, Cobra Kai teacher John Kreese joins a ruthless businessman and martial artist to get revenge on Daniel and Mr. Miyagi."
+      },
+      "es": {
+        "title": "Karate Kid III: El desafío final",
+        "overview": "El joven karateka Daniel Larusso libra su batalla mas difícil cuando el malvado Kreese le arrastra a una complicada situacion, al obligarle a defender su título de campeón del torneo del Valley. Su maestro Miyagi no está de acuerdo y el joven rompe con él. Daniel tendra un nuevo profesor, que más que como karateka realmente le entrena como si fuera un asesino. Cuando Daniel comprende que el kárate sólo debe usarse para defender el honor y la vida, regresa a las enseñanzas de su viejo maestro."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "the-next-karate-kid-1994",
+    "tmdbId": 11231,
+    "tmdbType": "movie",
+    "title": "The Next Karate Kid",
+    "kind": "movie",
+    "releaseDate": "1994-07-18",
+    "imdbId": "tt0110657",
+    "posterPath": "/wI3gCi9w1cuUJCiwhviAy46we9Q.jpg",
+    "overview": "Mr. Miyagi decides to take Julie, a troubled teenager, under his wing after he learns that she blames herself for her parents' demise and struggles to adjust with her grandmother and fellow pupils.",
+    "localized": {
+      "en": {
+        "title": "The Next Karate Kid",
+        "overview": "Mr. Miyagi decides to take Julie, a troubled teenager, under his wing after he learns that she blames herself for her parents' demise and struggles to adjust with her grandmother and fellow pupils."
+      },
+      "es": {
+        "title": "Karate Kid 4: La nueva aventura",
+        "overview": "Julie perdió a sus padres cuando sólo era una niña. Ahora, a sus 17 años, vive con el señor Miyagi, un anciano japonés amigo de su abuela. La joven además tiene problemas en el instituto con una banda de muchachos que juegan a proteger a su país de enemigos interiores que ya no respetan el viejo orden."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "the-karate-kid-2010",
+    "tmdbId": 38575,
+    "tmdbType": "movie",
+    "title": "The Karate Kid",
+    "kind": "movie",
+    "releaseDate": "2010-06-10",
+    "imdbId": "tt1155076",
+    "posterPath": "/b1RBy3l297N0c7PHjlz35cClWju.jpg",
+    "overview": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid",
+        "overview": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life."
+      },
+      "es": {
+        "title": "Karate Kid",
+        "overview": "Dre Parker podría haber sido el más popular en Detroit, pero la carrera profesional de su madre los lleva a ambos a China. Allí logra hacer conexión con su compañera de clase Mei Ying y el sentimiento es mutuo, hasta que las diferencias culturales hacen que su amistad sea imposible. Para que la situación empeore, Dre se consigue un enemigo, el peleonero de la clase, Cheng. Dre no tiene amigos a quién acudir, excepto el encargado de mantenimiento, el Sr. Han."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
+    "id": "cobra-kai-2018",
+    "tmdbId": 77169,
+    "tmdbType": "tv",
+    "title": "Cobra Kai",
+    "kind": "series",
+    "releaseDate": "2018-05-02",
+    "imdbId": "tt7221388",
+    "posterPath": "/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg",
+    "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+    "localized": {
+      "en": {
+        "title": "Cobra Kai",
+        "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi."
+      },
+      "es": {
+        "title": "Cobra Kai",
+        "overview": "Enemigos acérrimos. Dojos rivales. Sangre nueva. Daniel y Johnny reviven viejas rivalidades en esta secuela de las películas de «Karate Kid»."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2018-05-02"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2019-04-24"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2021-01-01"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2021-12-31"
+      },
+      {
+        "number": 5,
+        "episodes": 10,
+        "airDate": "2022-09-09"
+      },
+      {
+        "number": 6,
+        "episodes": 15,
+        "airDate": "2024-07-18"
+      }
+    ],
+    "runtimeMin": 2337
+  },
+  {
+    "id": "karate-kid-legends-2025",
+    "tmdbId": 1011477,
+    "tmdbType": "movie",
+    "title": "Karate Kid: Legends",
+    "kind": "movie",
+    "releaseDate": "2025-05-08",
+    "imdbId": "tt1674782",
+    "posterPath": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
+    "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
+    "localized": {
+      "en": {
+        "title": "Karate Kid: Legends",
+        "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown."
+      },
+      "es": {
+        "title": "Karate Kid: Leyendas",
+        "overview": "Tras una tragedia familiar, el prodigio del kung fu Li Fong se ve obligado a abandonar su hogar en Pekín y trasladarse a Nueva York con su madre. Li lucha por dejar atrás su pasado mientras intenta encajar con sus nuevos compañeros de clase y, aunque no quiere pelear, los problemas parecen encontrarle en todas partes. Cuando un nuevo amigo necesita su ayuda, Li se presenta a una competición de kárate, pero sus habilidades no son suficientes. El profesor de kung fu de Li, el Sr. Han, pide ayuda al Karate Kid original, Daniel LaRusso, y Li aprende una nueva forma de luchar, fusionando sus dos estilos en uno solo para el enfrentamiento definitivo de artes marciales."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "the-boys-2019",
+    "tmdbId": 76479,
+    "tmdbType": "tv",
+    "title": "The Boys",
+    "kind": "series",
+    "releaseDate": "2019-07-25",
+    "imdbId": "tt1190634",
+    "posterPath": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+    "localized": {
+      "en": {
+        "title": "The Boys",
+        "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty."
+      },
+      "es": {
+        "title": "The Boys",
+        "overview": "La serie tiene lugar en un mundo en el que los superhéroes representan el lado oscuro de la celebridad y la fama. Un grupo de vigilantes que se hacen llamar \"The Boys\" decide hacer todo lo posible por frenar a los superhéroes que están perjudicando a la sociedad, independientemente de los riesgos que ello conlleva."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2019-07-25"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2020-09-03"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2022-06-02"
+      },
+      {
+        "number": 4,
+        "episodes": 8,
+        "airDate": "2024-06-13"
+      },
+      {
+        "number": 5,
+        "episodes": 8,
+        "airDate": "2026-04-08"
+      }
+    ],
+    "runtimeMin": 2546
+  },
+  {
+    "id": "the-boys-presents-diabolical-2022",
+    "tmdbId": 152483,
+    "tmdbType": "tv",
+    "title": "The Boys Presents: Diabolical",
+    "kind": "series",
+    "releaseDate": "2022-03-03",
+    "imdbId": "tt16350094",
+    "posterPath": "/kZKfZWwFOAicgoKS2IO7oM1GuHZ.jpg",
+    "overview": "From some of the most unhinged and maniacal minds in Hollywood today comes this animated anthology series, a collection of irreverent and emotionally shocking animated short films. Each episode plunges elbow-deep into unseen crevices of The Boys Universe.",
+    "localized": {
+      "en": {
+        "title": "The Boys Presents: Diabolical",
+        "overview": "From some of the most unhinged and maniacal minds in Hollywood today comes this animated anthology series, a collection of irreverent and emotionally shocking animated short films. Each episode plunges elbow-deep into unseen crevices of The Boys Universe."
+      },
+      "es": {
+        "title": "The Boys: Diabólico",
+        "overview": "The Boys: Diabólico es una serie de animación del mundo de The Boys creado por Garth Ennis y Darick Robertson. La historia sigue a varios de los personajes ya presentados en la serie original, pero centrándose principalmente en aspectos de sus vidas que nunca antes nadie ha podido ver."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2022-03-03"
+      }
+    ],
+    "runtimeMin": 112
+  },
+  {
+    "id": "gen-v-2023",
+    "tmdbId": 205715,
+    "tmdbType": "tv",
+    "title": "Gen V",
+    "kind": "series",
+    "releaseDate": "2023-09-28",
+    "imdbId": "tt13159924",
+    "posterPath": "/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
+    "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
+    "localized": {
+      "en": {
+        "title": "Gen V",
+        "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become."
+      },
+      "es": {
+        "title": "Gen V",
+        "overview": "En la única universidad para superhéroes de Estados Unidos, los estudiantes superdotados ponen a prueba sus límites morales, compitiendo por la clasificación más alta de la universidad y la oportunidad de unirse a The Seven, el equipo de élite de superhéroes de Vought International. Cuando los oscuros secretos de la escuela salen a la luz, deben decidir en qué tipo de héroes quieren convertirse."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-09-28"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-09-17"
+      }
+    ],
+    "runtimeMin": 761
+  },
+  {
+    "id": "invincible-2021",
+    "tmdbId": 95557,
+    "tmdbType": "tv",
+    "title": "INVINCIBLE",
+    "kind": "series",
+    "releaseDate": "2021-03-25",
+    "imdbId": "tt6741278",
+    "posterPath": "/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+    "localized": {
+      "en": {
+        "title": "INVINCIBLE",
+        "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage."
+      },
+      "es": {
+        "title": "INVENCIBLE",
+        "overview": "Mark Grayson hereda superpoderes a los diecisiete años y se une a su padre como uno de los mayores héroes de la Tierra. Todos sus sueños se hacen realidad, hasta que un evento impactante lo cambia todo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2021-03-25"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2023-11-02"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2025-02-06"
+      },
+      {
+        "number": 4,
+        "episodes": 8,
+        "airDate": "2026-03-18"
+      }
+    ],
+    "runtimeMin": 1616,
+    "ongoing": true
   }
 ]

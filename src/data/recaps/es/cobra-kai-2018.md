@@ -1,0 +1,3 @@
+- **Temporada 1:** Johnny reabre Cobra Kai y Daniel reacciona abriendo Miyagi-Do.
+- **Temporadas 2-5:** vuelven Kreese y Terry Silver y la rivalidad se extiende a sus alumnos y a sus familias.
+- **Temporada 6:** conduce a una competición internacional y al cierre de la historia.

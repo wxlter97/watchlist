@@ -1,0 +1,3 @@
+- Daniel LaRusso moves to Los Angeles and is bullied by students of the Cobra Kai dojo, including Johnny Lawrence.
+- Mr. Miyagi trains him in karate through chores like waxing cars.
+- Daniel reaches the All Valley tournament and beats Johnny with the crane kick.

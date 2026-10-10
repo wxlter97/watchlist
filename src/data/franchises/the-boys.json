@@ -1,0 +1,234 @@
+{
+  "id": "the-boys",
+  "name": {
+    "es": "The Boys",
+    "en": "The Boys"
+  },
+  "description": {
+    "es": "Superhéroes corruptos y quienes los combaten: la serie, Gen V y los cortos animados.",
+    "en": "Corrupt superheroes and the people who fight them: the series, Gen V and the animated shorts."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "The Boys",
+        "en": "The Boys"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie principal y Gen V, que transcurre en el mismo mundo.",
+        "en": "The main series and Gen V, set in the same world."
+      }
+    },
+    {
+      "id": "extras",
+      "name": {
+        "es": "Cortos animados",
+        "en": "Animated shorts"
+      },
+      "canonLevel": "semicanon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Diabolical: ocho cortos sueltos, casi independientes.",
+        "en": "Diabolical: eight standalone shorts, nearly independent."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-boys-2019",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "billy-butcher",
+        "hughie-campbell",
+        "homelander",
+        "starlight"
+      ]
+    },
+    {
+      "titleId": "the-boys-2019",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "billy-butcher",
+        "hughie-campbell",
+        "homelander",
+        "starlight"
+      ]
+    },
+    {
+      "titleId": "the-boys-2019",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "billy-butcher",
+        "hughie-campbell",
+        "homelander",
+        "starlight"
+      ]
+    },
+    {
+      "titleId": "gen-v-2023",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Transcurre entre las temporadas 3 y 4",
+        "en": "Set between seasons 3 and 4"
+      },
+      "characters": [
+        "marie-moreau"
+      ]
+    },
+    {
+      "titleId": "the-boys-2019",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "characters": [
+        "billy-butcher",
+        "hughie-campbell",
+        "homelander",
+        "starlight"
+      ]
+    },
+    {
+      "titleId": "gen-v-2023",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "marie-moreau"
+      ]
+    },
+    {
+      "titleId": "the-boys-2019",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "characters": [
+        "billy-butcher",
+        "hughie-campbell",
+        "homelander",
+        "starlight"
+      ]
+    },
+    {
+      "titleId": "the-boys-presents-diabolical-2022",
+      "continuityId": "extras",
+      "importance": "skippable",
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "core",
+      "type": "curated",
+      "name": {
+        "es": "Solo la serie principal",
+        "en": "Main series only"
+      },
+      "description": {
+        "es": "Las cinco temporadas de The Boys, sin Gen V.",
+        "en": "The five seasons of The Boys, without Gen V."
+      },
+      "titleIds": [
+        "the-boys-2019"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "homelander",
+      "kind": "character",
+      "name": {
+        "es": "Homelander",
+        "en": "Homelander"
+      },
+      "description": {
+        "es": "El superhéroe más poderoso y más inestable de la serie.",
+        "en": "The most powerful and unstable superhero of the series."
+      },
+      "titleIds": [
+        "the-boys-2019"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "billy-butcher",
+        "name": {
+          "es": "Billy Butcher",
+          "en": "Billy Butcher"
+        }
+      },
+      {
+        "id": "hughie-campbell",
+        "name": {
+          "es": "Hughie Campbell",
+          "en": "Hughie Campbell"
+        }
+      },
+      {
+        "id": "homelander",
+        "name": {
+          "es": "Homelander",
+          "en": "Homelander"
+        }
+      },
+      {
+        "id": "starlight",
+        "name": {
+          "es": "Starlight",
+          "en": "Starlight"
+        }
+      },
+      {
+        "id": "marie-moreau",
+        "name": {
+          "es": "Marie Moreau",
+          "en": "Marie Moreau"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
