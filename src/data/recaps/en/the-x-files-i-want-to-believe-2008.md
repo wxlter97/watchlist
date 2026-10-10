@@ -1,0 +1,1 @@
+- Mulder and Scully return to investigate a disappearance.

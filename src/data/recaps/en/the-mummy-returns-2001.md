@@ -1,0 +1,1 @@
+- Years later, the O'Connell family faces the mummy again and the Scorpion King.

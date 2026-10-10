@@ -1,0 +1,6 @@
+- **Temporada 1:** Duncan MacLeod, inmortal, vive en la actualidad y sigue las reglas del juego.
+- **Temporada 2:** nuevas aventuras de Duncan y otros inmortales.
+- **Temporada 3:** nuevas aventuras de Duncan y otros inmortales.
+- **Temporada 4:** nuevas aventuras de Duncan y otros inmortales.
+- **Temporada 5:** nuevas aventuras de Duncan y otros inmortales.
+- **Temporada 6:** nuevas aventuras de Duncan y otros inmortales.

@@ -1,0 +1,2 @@
+- During a party in New York, a monster attacks the city.
+- A group of friends try to survive while filming everything.

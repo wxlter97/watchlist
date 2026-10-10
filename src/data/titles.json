@@ -29415,5 +29415,1311 @@
     ],
     "runtimeMin": 529,
     "ongoing": true
+  },
+  {
+    "id": "buffy-the-vampire-slayer-1997",
+    "tmdbId": 95,
+    "tmdbType": "tv",
+    "title": "Buffy the Vampire Slayer",
+    "kind": "series",
+    "releaseDate": "1997-03-10",
+    "imdbId": "tt0118276",
+    "posterPath": "/y7fVZkyheCEQHDUEHwNmYENGfT2.jpg",
+    "overview": "Into every generation a slayer is born: one girl in all the world, a chosen one. She alone will wield the strength and skill to fight the vampires, demons, and the forces of darkness; to stop the spread of their evil and the swell of their number. She is the Slayer.",
+    "localized": {
+      "en": {
+        "title": "Buffy the Vampire Slayer",
+        "overview": "Into every generation a slayer is born: one girl in all the world, a chosen one. She alone will wield the strength and skill to fight the vampires, demons, and the forces of darkness; to stop the spread of their evil and the swell of their number. She is the Slayer."
+      },
+      "es": {
+        "title": "Buffy, la cazavampiros",
+        "overview": "Buffy Summers acaba de mudarse a Sunnydale después de incendiar el gimnasio de su vieja escuela, y espera escapar de sus deberes de Cazadora. Sus planes se complican por Rupert Giles, su nuevo Vigilante, quien le recuerda a la presencia ineludible del mal. Sunnydale High está construido encima de la Boca del infierno, un portal a dimensiones demoníacas que atrae fenómenos sobrenaturales al área. Buffy se hace amiga de dos compañeros de clase, Xander Harris y Willow Rosenberg, quienes la ayudan a luchar contra el mal a lo largo de la serie, pero primero deben evitar que El Maestro, un vampiro antiguo y especialmente amenazante, desde que abrió la Boca del infierno y se hizo cargo de Sunnydale."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "1997-03-10"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1997-09-15"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "1998-09-29"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "1999-10-05"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "2000-09-26"
+      },
+      {
+        "number": 6,
+        "episodes": 22,
+        "airDate": "2001-10-02"
+      },
+      {
+        "number": 7,
+        "episodes": 22,
+        "airDate": "2002-09-24"
+      }
+    ],
+    "runtimeMin": 6200
+  },
+  {
+    "id": "angel-1999",
+    "tmdbId": 2426,
+    "tmdbType": "tv",
+    "title": "Angel",
+    "kind": "series",
+    "releaseDate": "1999-10-05",
+    "imdbId": "tt0162065",
+    "posterPath": "/142tpNAfillE1aolOMI5iPYeUy9.jpg",
+    "overview": "The vampire Angel, cursed with a soul, moves to Los Angeles and aids people with supernatural-related problems while questing for his own redemption. A spin-off from Buffy the Vampire Slayer.",
+    "localized": {
+      "en": {
+        "title": "Angel",
+        "overview": "The vampire Angel, cursed with a soul, moves to Los Angeles and aids people with supernatural-related problems while questing for his own redemption. A spin-off from Buffy the Vampire Slayer."
+      },
+      "es": {
+        "title": "Angel",
+        "overview": "El vampiro Ángel, maldito con un alma, se muda a Los Ángeles y ayuda a quienes tienen problemas sobrenaturales mientras busca su propia redención. Spin-off de Buffy, la cazavampiros."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22,
+        "airDate": "1999-10-05"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "2000-09-26"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "2001-09-24"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "2002-10-06"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "2003-10-01"
+      }
+    ],
+    "runtimeMin": 4626
+  },
+  {
+    "id": "peaky-blinders-2013",
+    "tmdbId": 60574,
+    "tmdbType": "tv",
+    "title": "Peaky Blinders",
+    "kind": "series",
+    "releaseDate": "2013-09-12",
+    "imdbId": "tt2442560",
+    "posterPath": "/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
+    "overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+    "localized": {
+      "en": {
+        "title": "Peaky Blinders",
+        "overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world."
+      },
+      "es": {
+        "title": "Peaky Blinders",
+        "overview": "Una familia de pandilleros asentada en Birmingham, Reino Unido, tras la Primera Guerra Mundial (1914-1918), dirige un local de apuestas hípicas. Las actividades del ambicioso jefe de la banda llaman la atención del Inspector jefe Chester Campbell, un detective de la Real Policía Irlandesa que es enviado desde Belfast para limpiar la ciudad y acabar con la banda."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2013-09-12"
+      },
+      {
+        "number": 2,
+        "episodes": 6,
+        "airDate": "2014-10-02"
+      },
+      {
+        "number": 3,
+        "episodes": 6,
+        "airDate": "2016-05-05"
+      },
+      {
+        "number": 4,
+        "episodes": 6,
+        "airDate": "2017-11-15"
+      },
+      {
+        "number": 5,
+        "episodes": 6,
+        "airDate": "2019-08-25"
+      },
+      {
+        "number": 6,
+        "episodes": 6,
+        "airDate": "2022-02-27"
+      }
+    ],
+    "runtimeMin": 2080
+  },
+  {
+    "id": "peaky-blinders-the-immortal-man-2026",
+    "tmdbId": 875828,
+    "tmdbType": "movie",
+    "title": "Peaky Blinders: The Immortal Man",
+    "kind": "movie",
+    "releaseDate": "2026-03-05",
+    "imdbId": "tt15574124",
+    "posterPath": "/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+    "overview": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+    "localized": {
+      "en": {
+        "title": "Peaky Blinders: The Immortal Man",
+        "overview": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation."
+      },
+      "es": {
+        "title": "Peaky Blinders: El hombre inmortal",
+        "overview": "Cuando su hijo se ve envuelto en una conspiración nazi, Tommy Shelby debe salir de su autoexilio y regresar a Birmingham para salvar a su familia y su país."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "vikings-2013",
+    "tmdbId": 44217,
+    "tmdbType": "tv",
+    "title": "Vikings",
+    "kind": "series",
+    "releaseDate": "2013-03-03",
+    "imdbId": "tt2306299",
+    "posterPath": "/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+    "overview": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+    "localized": {
+      "en": {
+        "title": "Vikings",
+        "overview": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors."
+      },
+      "es": {
+        "title": "Vikings",
+        "overview": "Narra el ascenso del legendario guerrero Ragnar Lothbrok. La trama sigue su evolución desde un humilde granjero escandinavo hasta convertirse en un poderoso rey vikingo tras desafiar a los líderes locales y explorar exitosamente tierras desconocidas hacia el oeste."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9,
+        "airDate": "2013-03-03"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2014-02-27"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2015-02-19"
+      },
+      {
+        "number": 4,
+        "episodes": 20,
+        "airDate": "2016-02-18"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "2017-11-29"
+      },
+      {
+        "number": 6,
+        "episodes": 20,
+        "airDate": "2019-12-04"
+      }
+    ],
+    "runtimeMin": 4060
+  },
+  {
+    "id": "vikings-valhalla-2022",
+    "tmdbId": 116135,
+    "tmdbType": "tv",
+    "title": "Vikings: Valhalla",
+    "kind": "series",
+    "releaseDate": "2022-02-25",
+    "imdbId": "tt11311302",
+    "posterPath": "/uCr7Ov7Rpzx0c0EPqbPcoEruTYl.jpg",
+    "overview": "In this sequel to \"Vikings,\" a hundred years have passed and a new generation of legendary heroes arises to forge its own destiny — and make history.",
+    "localized": {
+      "en": {
+        "title": "Vikings: Valhalla",
+        "overview": "In this sequel to \"Vikings,\" a hundred years have passed and a new generation of legendary heroes arises to forge its own destiny — and make history."
+      },
+      "es": {
+        "title": "Vikingos: Valhalla",
+        "overview": "Secuela de 'Vikingos' ambientada 100 años después y centrada en las aventuras de Leif Erikson, Freydis, Harald Hardrada y el rey normando Guillermo el Conquistador."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2022-02-25"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2023-01-12"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2024-07-11"
+      }
+    ],
+    "runtimeMin": 1191
+  },
+  {
+    "id": "yellowstone-2018",
+    "tmdbId": 73586,
+    "tmdbType": "tv",
+    "title": "Yellowstone",
+    "kind": "series",
+    "releaseDate": "2018-06-20",
+    "imdbId": "tt4236770",
+    "posterPath": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
+    "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America’s first National Park.",
+    "localized": {
+      "en": {
+        "title": "Yellowstone",
+        "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America’s first National Park."
+      },
+      "es": {
+        "title": "Yellowstone",
+        "overview": "John Dutton es el propietario del rancho más grande de Estados Unidos. Él y sus hijos entablarán una lucha sin cuartel contra una reserva india y contra el Gobierno federal de Estados Unidos que intenta expandir el parque nacional contiguo a la propiedad de los Dutton."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9,
+        "airDate": "2018-06-20"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2019-06-19"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2020-06-21"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2021-11-07"
+      },
+      {
+        "number": 5,
+        "episodes": 14,
+        "airDate": "2022-11-13"
+      }
+    ],
+    "runtimeMin": 2712
+  },
+  {
+    "id": "1883-2021",
+    "tmdbId": 118357,
+    "tmdbType": "tv",
+    "title": "1883",
+    "kind": "series",
+    "releaseDate": "2021-12-19",
+    "imdbId": "tt13991232",
+    "posterPath": "/waLbm384SQDwLTCn6ttPqQS5kfV.jpg",
+    "overview": "Follow the Dutton family as they embark on a journey west through the Great Plains toward the last bastion of untamed America. A stark retelling of Western expansion, and an intense study of one family fleeing poverty to seek a better future in America’s promised land — Montana.",
+    "localized": {
+      "en": {
+        "title": "1883",
+        "overview": "Follow the Dutton family as they embark on a journey west through the Great Plains toward the last bastion of untamed America. A stark retelling of Western expansion, and an intense study of one family fleeing poverty to seek a better future in America’s promised land — Montana."
+      },
+      "es": {
+        "title": "1883",
+        "overview": "Acompañe a la familia Dutton en un viaje hacia el lejano oeste, un recorrido a través de las Grandes Llanuras hasta el último bastión de la América salvaje."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2021-12-19"
+      }
+    ],
+    "runtimeMin": 561
+  },
+  {
+    "id": "1923-2022",
+    "tmdbId": 157744,
+    "tmdbType": "tv",
+    "title": "1923",
+    "kind": "series",
+    "releaseDate": "2022-12-18",
+    "imdbId": "tt18335752",
+    "posterPath": "/zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
+    "overview": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home.",
+    "localized": {
+      "en": {
+        "title": "1923",
+        "overview": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home."
+      },
+      "es": {
+        "title": "1923",
+        "overview": "La familia Dutton lucha por defender sus preciadas tierras durante la dura época de la Gran Depresión y la Ley Seca. Pero la codicia y la violencia se adueñan de todo, hay que estar dispuesto a llegar hasta el final. Precuela de \"Yellowstone\"."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2022-12-18"
+      },
+      {
+        "number": 2,
+        "episodes": 7,
+        "airDate": "2025-02-23"
+      }
+    ],
+    "runtimeMin": 918
+  },
+  {
+    "id": "dark-2017",
+    "tmdbId": 70523,
+    "tmdbType": "tv",
+    "title": "Dark",
+    "kind": "series",
+    "releaseDate": "2017-12-01",
+    "imdbId": "tt5753856",
+    "posterPath": "/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
+    "overview": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
+    "localized": {
+      "en": {
+        "title": "Dark",
+        "overview": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations."
+      },
+      "es": {
+        "title": "Dark",
+        "overview": "La desaparición de un niño lleva a cuatro familias a una frenética búsqueda, mientras descubren un misterio que abarca tres generaciones."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2017-12-01"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2019-06-21"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2020-06-27"
+      }
+    ],
+    "runtimeMin": 1473
+  },
+  {
+    "id": "1899-2022",
+    "tmdbId": 90669,
+    "tmdbType": "tv",
+    "title": "1899",
+    "kind": "series",
+    "releaseDate": "2022-11-17",
+    "imdbId": "tt9319668",
+    "posterPath": "/gZleGu1MQVBArH2dlpZ9CGi0hhy.jpg",
+    "overview": "When mysterious events change the course of an immigrant ship headed for New York in 1899, a mind-bending riddle unfolds for its bewildered passengers.",
+    "localized": {
+      "en": {
+        "title": "1899",
+        "overview": "When mysterious events change the course of an immigrant ship headed for New York in 1899, a mind-bending riddle unfolds for its bewildered passengers."
+      },
+      "es": {
+        "title": "1899",
+        "overview": "Año 1899. Cuando misteriosos eventos cambian el curso de un barco de inmigrantes rumbo a Nueva York, un complejo enigma empieza a develarse para sus desconcertados pasajeros."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2022-11-17"
+      }
+    ],
+    "runtimeMin": 444
+  },
+  {
+    "id": "the-x-files-1993",
+    "tmdbId": 4087,
+    "tmdbType": "tv",
+    "title": "The X-Files",
+    "kind": "series",
+    "releaseDate": "1993-09-10",
+    "imdbId": "tt0106179",
+    "posterPath": "/rcBx0p8h51LHceyhquYMxbspJQu.jpg",
+    "overview": "The exploits of FBI Special Agents Fox Mulder and Dana Scully who investigate X-Files: marginalized, unsolved cases involving paranormal phenomena. Mulder believes in the existence of aliens and the paranormal while Scully, a skeptic, is assigned to make scientific analyses of Mulder's discoveries that debunk Mulder's work and thus return him to mainstream cases.",
+    "localized": {
+      "en": {
+        "title": "The X-Files",
+        "overview": "The exploits of FBI Special Agents Fox Mulder and Dana Scully who investigate X-Files: marginalized, unsolved cases involving paranormal phenomena. Mulder believes in the existence of aliens and the paranormal while Scully, a skeptic, is assigned to make scientific analyses of Mulder's discoveries that debunk Mulder's work and thus return him to mainstream cases."
+      },
+      "es": {
+        "title": "Los Expedientes Secretos X",
+        "overview": "Fox Mulder y Dana Scully son dos investigadores del FBI que investigan casos sin resolución ni explicación, ya sea por razones paranormales (espíritus, criaturas extrañas, aliens...) ya porque el gobierno se ha encargado de ocultar todo tipo de pruebas. Cuando Mulder tenía doce años, su hermana pequeña fue secuestrada por unos desconocidos, aunque él cree que, en realidad, fue abducida por extraterrestres. Tras acabar sus estudios en la universidad de Oxford, ingresó en la Academia de Quantico, donde se ganó el apodo de \"siniestro\"."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 24,
+        "airDate": "1993-09-10"
+      },
+      {
+        "number": 2,
+        "episodes": 25,
+        "airDate": "1994-09-16"
+      },
+      {
+        "number": 3,
+        "episodes": 24,
+        "airDate": "1995-09-22"
+      },
+      {
+        "number": 4,
+        "episodes": 24,
+        "airDate": "1996-10-04"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "1997-11-02"
+      },
+      {
+        "number": 6,
+        "episodes": 22,
+        "airDate": "1998-11-08"
+      },
+      {
+        "number": 7,
+        "episodes": 22,
+        "airDate": "1999-11-07"
+      },
+      {
+        "number": 8,
+        "episodes": 21,
+        "airDate": "2000-11-05"
+      },
+      {
+        "number": 9,
+        "episodes": 20,
+        "airDate": "2001-11-11"
+      },
+      {
+        "number": 10,
+        "episodes": 6,
+        "airDate": "2016-01-24"
+      },
+      {
+        "number": 11,
+        "episodes": 10,
+        "airDate": "2018-01-03"
+      }
+    ],
+    "runtimeMin": 9863
+  },
+  {
+    "id": "the-x-files-1998",
+    "tmdbId": 846,
+    "tmdbType": "movie",
+    "title": "The X-Files",
+    "kind": "movie",
+    "releaseDate": "1998-06-19",
+    "imdbId": "tt0120902",
+    "posterPath": "/yLIw6shz2WC3W3iI0jROsF4B2ha.jpg",
+    "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+    "localized": {
+      "en": {
+        "title": "The X-Files",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth."
+      },
+      "es": {
+        "title": "Los Expedientes X: La película",
+        "overview": "En el norte de Texas, un joven cae en una grieta del suelo mientras juega con sus amigos y éstos contemplan cómo es atacado por un cáncer negro que también infecta a dos bomberos que intentaban rescatarle. Mientras tanto los agentes del FBI Fox Mulder y Dana Scully, apartados de los expedientes-x, inspeccionan un edificio federal de Dallas cuando algo inesperado sucede."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "the-x-files-i-want-to-believe-2008",
+    "tmdbId": 8836,
+    "tmdbType": "movie",
+    "title": "The X-Files: I Want to Believe",
+    "kind": "movie",
+    "releaseDate": "2008-07-24",
+    "imdbId": "tt0443701",
+    "posterPath": "/3zQMhutUMJP6lK49x7i2YfsOHL9.jpg",
+    "overview": "Mulder and Scully are called back to duty by the FBI when a former priest claims to be receiving psychic visions pertaining to a kidnapped agent.",
+    "localized": {
+      "en": {
+        "title": "The X-Files: I Want to Believe",
+        "overview": "Mulder and Scully are called back to duty by the FBI when a former priest claims to be receiving psychic visions pertaining to a kidnapped agent."
+      },
+      "es": {
+        "title": "Los expedientes secretos X: Quiero creer​",
+        "overview": "Los agentes del FBI Mulder y Scully investigan la desaparición de varias mujeres en una población rural de Virginia. Siguiendo algunas pistas, descubren un experimento secreto que puede guardar relación con las desapariciones."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "men-in-black-1997",
+    "tmdbId": 607,
+    "tmdbType": "movie",
+    "title": "Men in Black",
+    "kind": "movie",
+    "releaseDate": "1997-07-02",
+    "imdbId": "tt0119654",
+    "posterPath": "/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg",
+    "overview": "After a police chase with an otherworldly being, a New York City cop is recruited as an agent in a top-secret organization established to monitor and police alien activity on Earth: the Men in Black. Agent K and new recruit Agent J find themselves in the middle of a deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies.",
+    "localized": {
+      "en": {
+        "title": "Men in Black",
+        "overview": "After a police chase with an otherworldly being, a New York City cop is recruited as an agent in a top-secret organization established to monitor and police alien activity on Earth: the Men in Black. Agent K and new recruit Agent J find themselves in the middle of a deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies."
+      },
+      "es": {
+        "title": "Hombres de negro",
+        "overview": "Durante muchos años los extraterrestres han vivido en la Tierra, mezclados con los humanos, sin que nadie lo supiese. Los Hombres de Negro (Men in Black) son unos agentes, pertenecientes a una asociación altamente secreta del gobierno, encargados de controlar a los alienígenas. Ahora dos de estos agentes, uno veterano y otro recién incorporado, y que tienen como misión vigilar a los alienígenas que habitan en la ciudad de Nueva York, descubren a un terrorista galáctico que pretende acabar con la humanidad."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "men-in-black-ii-2002",
+    "tmdbId": 608,
+    "tmdbType": "movie",
+    "title": "Men in Black II",
+    "kind": "movie",
+    "releaseDate": "2002-07-03",
+    "imdbId": "tt0120912",
+    "posterPath": "/enA22EPyzc2WQ1VVyY7zxresQQr.jpg",
+    "overview": "Kay and Jay reunite to provide our best, last and only line of defense against a sinister seductress who levels the toughest challenge yet to the MIB's untarnished mission statement – protecting Earth from the scum of the universe. It's been four years since the alien-seeking agents averted an intergalactic disaster of epic proportions. Now it's a race against the clock as Jay must convince Kay – who not only has absolutely no memory of his time spent with the MIB, but is also the only living person left with the expertise to save the galaxy – to reunite with the MIB before the earth submits to ultimate destruction.",
+    "localized": {
+      "en": {
+        "title": "Men in Black II",
+        "overview": "Kay and Jay reunite to provide our best, last and only line of defense against a sinister seductress who levels the toughest challenge yet to the MIB's untarnished mission statement – protecting Earth from the scum of the universe. It's been four years since the alien-seeking agents averted an intergalactic disaster of epic proportions. Now it's a race against the clock as Jay must convince Kay – who not only has absolutely no memory of his time spent with the MIB, but is also the only living person left with the expertise to save the galaxy – to reunite with the MIB before the earth submits to ultimate destruction."
+      },
+      "es": {
+        "title": "Hombres de Negro 2",
+        "overview": "Después del abandono del agente K, el agente J no considera su trabajo igual: Ambos formaban parte de un organismo secreto que lucha contra los extraterrestres, sin que el resto de los mortales lo sepan, pueblan la Tierra. La misión de los hombres de negro, como se les conoce por sus atuendos, es, en ocasiones imponer el orden y en otras luchar directamente contra quienes tienen pretensiones de hacer daño al planeta Tierra. Pero el agente K prefirió perder la memoria para volver con su esposa y llevar una vida normal. Ahora ya no tiene a su esposa pero es un amable agente de correos. El agente J, que considera a K como su maestro, le echa mucho de menos y no termina de adaptarse a sus nuevos compañeros. Pero algo va a cambiar los acontecimientos: una peligrosa extraterrestre llamada Serleena"
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "men-in-black-3-2012",
+    "tmdbId": 41154,
+    "tmdbType": "movie",
+    "title": "Men in Black 3",
+    "kind": "movie",
+    "releaseDate": "2012-05-23",
+    "imdbId": "tt1409024",
+    "posterPath": "/90DdoEStzeObs96fsYf4GG544iN.jpg",
+    "overview": "Agents J and K are back...in time. J has seen some inexplicable things in his 15 years with the Men in Black, but nothing, not even aliens, perplexes him as much as his wry, reticent partner. But when K's life and the fate of the planet are put at stake, Agent J will have to travel back in time to put things right. J discovers that there are secrets to the universe that K never told him - secrets that will reveal themselves as he teams up with the young Agent K to save his partner, the agency, and the future of humankind.",
+    "localized": {
+      "en": {
+        "title": "Men in Black 3",
+        "overview": "Agents J and K are back...in time. J has seen some inexplicable things in his 15 years with the Men in Black, but nothing, not even aliens, perplexes him as much as his wry, reticent partner. But when K's life and the fate of the planet are put at stake, Agent J will have to travel back in time to put things right. J discovers that there are secrets to the universe that K never told him - secrets that will reveal themselves as he teams up with the young Agent K to save his partner, the agency, and the future of humankind."
+      },
+      "es": {
+        "title": "Hombres de Negro 3",
+        "overview": "La película comienza con la fuga de un extraño y poderoso extraterrestre llamado Boris el animal. Es el último superviviente de la raza alienígena boglodita, que sobrevive mediante el ataque, toma, y ocupación de otros planetas habitados. Boris es un asesino, que fue capturado por el agente K y encarcelado en una prisión secreta en la Luna. K también pudo desplegar un sistema de defensa (denominado \"Arc Net\"), y evitar una invasión boglodita, logrando así su extinción. Sin embargo, Boris logra burlar la seguridad y destruir gran parte de la cárcel, para escapar y vengarse de K."
+      }
+    },
+    "runtimeMin": 106
+  },
+  {
+    "id": "men-in-black-international-2019",
+    "tmdbId": 479455,
+    "tmdbType": "movie",
+    "title": "Men in Black: International",
+    "kind": "movie",
+    "releaseDate": "2019-06-12",
+    "imdbId": "tt2283336",
+    "posterPath": "/dPrUPFcgLfNbmDL8V69vcrTyEfb.jpg",
+    "overview": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to date: a mole in the Men in Black organization.",
+    "localized": {
+      "en": {
+        "title": "Men in Black: International",
+        "overview": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to date: a mole in the Men in Black organization."
+      },
+      "es": {
+        "title": "Hombres de negro: Internacional",
+        "overview": "Cuando alienígenas que cambian de forma amenazan la Tierra, una nueva recluta y un agente veterano emprenden una misión para salvar a su propia organización… y al mundo."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "pacific-rim-2013",
+    "tmdbId": 68726,
+    "tmdbType": "movie",
+    "title": "Pacific Rim",
+    "kind": "movie",
+    "releaseDate": "2013-07-11",
+    "imdbId": "tt1663662",
+    "posterPath": "/lC4ULSf5J4X9jnBOKcY3pwbAwmT.jpg",
+    "overview": "Using massive piloted robots to combat the alien threat, Earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as Earth's final hope against the mounting apocalypse.",
+    "localized": {
+      "en": {
+        "title": "Pacific Rim",
+        "overview": "Using massive piloted robots to combat the alien threat, Earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as Earth's final hope against the mounting apocalypse."
+      },
+      "es": {
+        "title": "Titanes Del Pacífico",
+        "overview": "Cuando legiones de monstruosas criaturas, denominadas Kaiju, comienzan a salir del mar, se inicia una guerra que acabará con millones de vidas y que consumirá los recursos de la humanidad durante interminables años. Para combatir a los Kaiju gigantes diseñan un tipo especial de arma: enormes robots, llamados Jaegers, que son controlados simultáneamente por dos pilotos cuyas mentes están bloqueadas en un puente neural. Pero incluso los Jaegers proporcionan poca defensa ante los incansables Kaiju. A punto de la derrota, las fuerzas que defienden a la humanidad no tienen otra elección que recurrir a dos insólitos héroes: un ex piloto acabado y un aprendiz que todavía no se ha puesto a prueba. Ambos se unen para traer a un legendario pero al parecer obsoleto Jaeger del pasado. Juntos, son la última esperanza de la humanidad frente al Apocalipsis que se avecina"
+      }
+    },
+    "runtimeMin": 131
+  },
+  {
+    "id": "pacific-rim-uprising-2018",
+    "tmdbId": 268896,
+    "tmdbType": "movie",
+    "title": "Pacific Rim: Uprising",
+    "kind": "movie",
+    "releaseDate": "2018-03-21",
+    "imdbId": "tt2557478",
+    "posterPath": "/nFWhttU8PM50t25NPdy7PE7rv3G.jpg",
+    "overview": "It has been ten years since The Battle of the Breach and the oceans are still, but restless. Vindicated by the victory at the Breach, the Jaeger program has evolved into the most powerful global defense force in human history. The PPDC now calls upon the best and brightest to rise up and become the next generation of heroes when the Kaiju threat returns.",
+    "localized": {
+      "en": {
+        "title": "Pacific Rim: Uprising",
+        "overview": "It has been ten years since The Battle of the Breach and the oceans are still, but restless. Vindicated by the victory at the Breach, the Jaeger program has evolved into the most powerful global defense force in human history. The PPDC now calls upon the best and brightest to rise up and become the next generation of heroes when the Kaiju threat returns."
+      },
+      "es": {
+        "title": "Titanes del Pacífico: La insurrección",
+        "overview": "Un futuro cercano. Han pasado 10 años tras la primera invasión que sufrió la humanidad, pero la lucha aún no ha terminado. El planeta vuelve a ser asediado por los Kaiju, una raza de alienígenas colosales, que emergen desde un portal interdimensional con el objetivo de destruir a la raza humana. Ante esta nueva amenaza, los Jaegers, robots gigantes de guerra pilotados por dos personas para sobrellevar la inmensa carga neuronal que conlleva manipularlos, ya no están a la altura de lo que se les viene encima. Será entonces cuando los supervivientes de la primera invasión, además de nuevos personajes como el hijo de Pentecost, tendrán que idear la manera de sorprender al enorme enemigo, apostando por nuevas estrategias defensivas y de ataque. Con la Tierra en ruinas e intentando reconstruirse, esta nueva batalla puede ser decisiva para el futuro..."
+      }
+    },
+    "runtimeMin": 111
+  },
+  {
+    "id": "pacific-rim-the-black-2021",
+    "tmdbId": 112162,
+    "tmdbType": "tv",
+    "title": "Pacific Rim: The Black",
+    "kind": "series",
+    "releaseDate": "2021-03-04",
+    "imdbId": "tt9288848",
+    "posterPath": "/wz2tUYzlUnfQWpBpoerFDbEZdzz.jpg",
+    "overview": "Two siblings - an idealistic teenage boy and his naive younger sister - are forced to pilot an abandoned Jaeger across a hostile landscape in a desperate attempt to find their missing parents.",
+    "localized": {
+      "en": {
+        "title": "Pacific Rim: The Black",
+        "overview": "Two siblings - an idealistic teenage boy and his naive younger sister - are forced to pilot an abandoned Jaeger across a hostile landscape in a desperate attempt to find their missing parents."
+      },
+      "es": {
+        "title": "Titanes del Pacífico: Tierra de nadie",
+        "overview": "Hace un tiempo, los Kaijus emergieron del Pacífico y se encontraron con los Jaegers, unos robots gigantescos diseñados para combatirlos. Pero eso ya es parte del pasado. Ahora, Australia se encuentra bajo el yugo de los Kaijus y la población evacuó todo el continente. Solo quedaron atrás dos hermanos, Taylor y Hayley, quienes a bordo de un maltrecho Jaeger que encuentran abandonado, salen a buscar a sus padres y luchan por sobrevivir."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 7,
+        "airDate": "2021-03-04"
+      },
+      {
+        "number": 2,
+        "episodes": 7,
+        "airDate": "2022-04-19"
+      }
+    ],
+    "runtimeMin": 336
+  },
+  {
+    "id": "a-quiet-place-2018",
+    "tmdbId": 447332,
+    "tmdbType": "movie",
+    "title": "A Quiet Place",
+    "kind": "movie",
+    "releaseDate": "2018-04-03",
+    "imdbId": "tt6644200",
+    "posterPath": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+    "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+    "localized": {
+      "en": {
+        "title": "A Quiet Place",
+        "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound."
+      },
+      "es": {
+        "title": "Un Lugar En Silencio",
+        "overview": "En el año 2020, unas criaturas misteriosas con un sentido auditivo extraordinario han diezmado a la población mundial. Una familia se oculta en una cabaña y se comunica mediante la lengua de signos para no ser cazados por estos monstruos."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "a-quiet-place-part-ii-2020",
+    "tmdbId": 520763,
+    "tmdbType": "movie",
+    "title": "A Quiet Place Part II",
+    "kind": "movie",
+    "releaseDate": "2021-05-21",
+    "imdbId": "tt8332922",
+    "posterPath": "/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg",
+    "overview": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+    "localized": {
+      "en": {
+        "title": "A Quiet Place Part II",
+        "overview": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path."
+      },
+      "es": {
+        "title": "Un lugar en silencio: Parte II",
+        "overview": "La familia Abbott ahora se enfrenta a los terrores del mundo exterior. Forzados a aventurarse en lo desconocido, se dan cuenta de que las criaturas que cazan por el sonido no son las únicas amenazas que acechan más allá del camino de arena."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "a-quiet-place-day-one-2024",
+    "tmdbId": 762441,
+    "tmdbType": "movie",
+    "title": "A Quiet Place: Day One",
+    "kind": "movie",
+    "releaseDate": "2024-06-26",
+    "imdbId": "tt13433802",
+    "posterPath": "/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+    "overview": "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.",
+    "localized": {
+      "en": {
+        "title": "A Quiet Place: Day One",
+        "overview": "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat."
+      },
+      "es": {
+        "title": "Un lugar en silencio: Día uno",
+        "overview": "Mientras la ciudad de Nueva York es invadida por criaturas alienígenas que cazan mediante el sonido, una mujer llamada Sammy lucha por sobrevivir."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "independence-day-1996",
+    "tmdbId": 602,
+    "tmdbType": "movie",
+    "title": "Independence Day",
+    "kind": "movie",
+    "releaseDate": "1996-07-02",
+    "imdbId": "tt0116629",
+    "posterPath": "/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
+    "overview": "Strange phenomena surface around the globe. The skies ignite. Terror races through the world's major cities. As these extraordinary events unfold, it becomes increasingly clear that a force of incredible magnitude has arrived. Its mission: total annihilation over the Fourth of July weekend. The last hope to stop the destruction is an unlikely group of people united by fate and unimaginable circumstances.",
+    "localized": {
+      "en": {
+        "title": "Independence Day",
+        "overview": "Strange phenomena surface around the globe. The skies ignite. Terror races through the world's major cities. As these extraordinary events unfold, it becomes increasingly clear that a force of incredible magnitude has arrived. Its mission: total annihilation over the Fourth of July weekend. The last hope to stop the destruction is an unlikely group of people united by fate and unimaginable circumstances."
+      },
+      "es": {
+        "title": "El Día de la Independencia",
+        "overview": "El 2 de julio, mothership extranjero gigantesco entra en la órbita alrededor de la Tierra y despliega varias docenas de naves espaciales del 'destructor' en forma de platillo que rápidamente ponen la basura a ciudades principales alrededor del planeta. El 3 de julio, los Estados Unidos conducen un contraataque coordinado que falla. El 4 de julio, un plan se idea para ganar el acceso al interior de mothership extranjero en el espacio, a fin de plantar un misil nuclear."
+      }
+    },
+    "runtimeMin": 145
+  },
+  {
+    "id": "independence-day-resurgence-2016",
+    "tmdbId": 47933,
+    "tmdbType": "movie",
+    "title": "Independence Day: Resurgence",
+    "kind": "movie",
+    "releaseDate": "2016-06-22",
+    "imdbId": "tt1628841",
+    "posterPath": "/9S50foUIYGwiNPWOxi1WJF6IPwI.jpg",
+    "overview": "We always knew they were coming back. Using recovered alien technology, the nations of Earth have collaborated on an immense defense program to protect the planet. But nothing can prepare us for the aliens’ advanced and unprecedented force. Only the ingenuity of a few brave men and women can bring our world back from the brink of extinction.",
+    "localized": {
+      "en": {
+        "title": "Independence Day: Resurgence",
+        "overview": "We always knew they were coming back. Using recovered alien technology, the nations of Earth have collaborated on an immense defense program to protect the planet. But nothing can prepare us for the aliens’ advanced and unprecedented force. Only the ingenuity of a few brave men and women can bring our world back from the brink of extinction."
+      },
+      "es": {
+        "title": "El Día de la Independencia 2: Contraataque",
+        "overview": "Utilizando tecnología obtenida de los extraterrestres, las naciones de la Tierra, previendo el regreso de los invasores, han colaborado en un gigantesco programa de defensa para proteger el planeta. Pero nada puede prepararnos para hacer frente a la avanzada e inaudita fuerza de los atacantes. Sólo la inventiva de unos pocos hombres y mujeres valientes puede rescatar a nuestro mundo del borde de la extinción…"
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "cloverfield-2008",
+    "tmdbId": 7191,
+    "tmdbType": "movie",
+    "title": "Cloverfield",
+    "kind": "movie",
+    "releaseDate": "2008-01-15",
+    "imdbId": "tt1060277",
+    "posterPath": "/qIegUGJqyMMCRjkKV1s7A9MqdJ8.jpg",
+    "overview": "Five young New Yorkers throw their friend a going-away party the night that a monster the size of a skyscraper descends upon the city. Told from the point of view of their video camera, the film is a document of their attempt to survive the most surreal, horrifying event of their lives.",
+    "localized": {
+      "en": {
+        "title": "Cloverfield",
+        "overview": "Five young New Yorkers throw their friend a going-away party the night that a monster the size of a skyscraper descends upon the city. Told from the point of view of their video camera, the film is a document of their attempt to survive the most surreal, horrifying event of their lives."
+      },
+      "es": {
+        "title": "Cloverfield: Monstruo",
+        "overview": "La noche en que varios jóvenes neoyorquinos celebran la fiesta de despedida de un amigo en Manhattan, un monstruo del tamaño de un rascacielos llega a la ciudad. Contada desde el punto de vista de la videocámara de uno de ellos, este es el escalofriante documento sobre sus intentos por sobrevivir durante los momentos más increíbles y terroríficos de sus vidas."
+      }
+    },
+    "runtimeMin": 85
+  },
+  {
+    "id": "10-cloverfield-lane-2016",
+    "tmdbId": 333371,
+    "tmdbType": "movie",
+    "title": "10 Cloverfield Lane",
+    "kind": "movie",
+    "releaseDate": "2016-03-10",
+    "imdbId": "tt1179933",
+    "posterPath": "/q8A39vcBDruhvoDTJd6L8a4lnTi.jpg",
+    "overview": "After a catastrophic car crash, a young woman wakes up in a survivalist's underground bunker, where he claims to have saved her from an apocalyptic attack that has left the outside world uninhabitable.",
+    "localized": {
+      "en": {
+        "title": "10 Cloverfield Lane",
+        "overview": "After a catastrophic car crash, a young woman wakes up in a survivalist's underground bunker, where he claims to have saved her from an apocalyptic attack that has left the outside world uninhabitable."
+      },
+      "es": {
+        "title": "Avenida Cloverfield 10",
+        "overview": "Una joven sufre un accidente de coche. Cuando despierta se encuentra encerrada en una celda bajo tierra, secuestrada por un hombre extraño que dice haberla salvado del día del juicio final. El excéntrico captor asegura que el exterior es inhabitable por culpa de un terrible ataque químico, algo que no sabe si creer. Es así como comienza su pesadilla, en una espiral de desconocimiento. La mente del criminal es infranqueable, y ella tendrá que intentar analizar a su enemigo para conseguir sobrevivir."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "the-cloverfield-paradox-2018",
+    "tmdbId": 384521,
+    "tmdbType": "movie",
+    "title": "The Cloverfield Paradox",
+    "kind": "movie",
+    "releaseDate": "2018-02-04",
+    "imdbId": "tt2548396",
+    "posterPath": "/vJi2ExTcWdJR3150VPKqqtdGxsT.jpg",
+    "overview": "Orbiting above a planet on the brink of war, scientists test a device to solve an energy crisis and end up face-to-face with a dark alternate reality.",
+    "localized": {
+      "en": {
+        "title": "The Cloverfield Paradox",
+        "overview": "Orbiting above a planet on the brink of war, scientists test a device to solve an energy crisis and end up face-to-face with a dark alternate reality."
+      },
+      "es": {
+        "title": "La Paradoja Cloverfield",
+        "overview": "Un grupo de científicos que orbita un planeta al borde de la guerra prueba un dispositivo para superar una crisis energética, pero acaba enfrentando una realidad sombría."
+      }
+    },
+    "runtimeMin": 102
+  },
+  {
+    "id": "jumanji-1995",
+    "tmdbId": 8844,
+    "tmdbType": "movie",
+    "title": "Jumanji",
+    "kind": "movie",
+    "releaseDate": "1995-12-15",
+    "imdbId": "tt0113497",
+    "posterPath": "/bdHG5Mo83VPobeZZdlSz0Y7HQHB.jpg",
+    "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
+    "localized": {
+      "en": {
+        "title": "Jumanji",
+        "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures."
+      },
+      "es": {
+        "title": "Jumanji",
+        "overview": "Alan Parrish queda atrapado durante 25 años en un juego de mesa mágico y muy antiguo llamado Jumanji. Cuando por fin, es liberado por dos niños, una manada de animales exóticos queda también en libertad."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "zathura-2005",
+    "tmdbId": 6795,
+    "tmdbType": "movie",
+    "title": "Zathura: A Space Adventure",
+    "kind": "movie",
+    "releaseDate": "2005-11-06",
+    "imdbId": "tt0406375",
+    "posterPath": "/gDb5BW2NLqZ9cvg9nyzkZVvmgze.jpg",
+    "overview": "After their father is called into work, two young boys, Walter and Danny, are left in the care of their teenage sister, Lisa, and told they must stay inside. Walter and Danny, who anticipate a boring day, are shocked when they begin playing Zathura, a space-themed board game, which they realize has mystical powers when their house is shot into space. With the help of an astronaut, the boys attempt to return home.",
+    "localized": {
+      "en": {
+        "title": "Zathura: A Space Adventure",
+        "overview": "After their father is called into work, two young boys, Walter and Danny, are left in the care of their teenage sister, Lisa, and told they must stay inside. Walter and Danny, who anticipate a boring day, are shocked when they begin playing Zathura, a space-themed board game, which they realize has mystical powers when their house is shot into space. With the help of an astronaut, the boys attempt to return home."
+      },
+      "es": {
+        "title": "Zathura: Una aventura espacial",
+        "overview": "Walter y Danny son dos hermanos de 6 y 10 años que con frecuencia andan envueltos en riñas fraternales. Un día, tras la marcha de su padre al trabajo, se quedan al cuidado de su hermana mayor. En medio de una de sus múltiples peleas los chicos descubren en el sótano de su casa un juego de mesa llamado Zathura. Desde la primera jugada se dan cuenta de que no es un juego de mesa normal: la ficha de la nave espacial se mueve sola y lanza mensajes que se cumplen. Zathura los transportará entonces, en el más estricto de los sentidos, a una enorme aventura en el espacio, donde se verán obligados a trabajar juntos si quieren volver a casa antes de que acabe la partida."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "jumanji-welcome-to-the-jungle-2017",
+    "tmdbId": 353486,
+    "tmdbType": "movie",
+    "title": "Jumanji: Welcome to the Jungle",
+    "kind": "movie",
+    "releaseDate": "2017-12-20",
+    "imdbId": "tt2283362",
+    "posterPath": "/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg",
+    "overview": "Four teenagers in detention discover an old video game console with a game they’ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They’ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!",
+    "localized": {
+      "en": {
+        "title": "Jumanji: Welcome to the Jungle",
+        "overview": "Four teenagers in detention discover an old video game console with a game they’ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They’ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!"
+      },
+      "es": {
+        "title": "Jumanji: En la selva",
+        "overview": "Un videojuego absorbe a cuatro estudiantes. Una vez en la selva, deben embarcarse en una búsqueda en sus avatares, que no coinciden para nada con la realidad."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "jumanji-the-next-level-2019",
+    "tmdbId": 512200,
+    "tmdbType": "movie",
+    "title": "Jumanji: The Next Level",
+    "kind": "movie",
+    "releaseDate": "2019-12-04",
+    "imdbId": "tt7975244",
+    "posterPath": "/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg",
+    "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
+    "localized": {
+      "en": {
+        "title": "Jumanji: The Next Level",
+        "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game."
+      },
+      "es": {
+        "title": "Jumanji: El siguiente nivel",
+        "overview": "Las aventuras continúan en el fantástico mundo del video juego Jumanji, donde nada es lo que parece. En esta ocasión, los jugadores vuelven al juego, pero sus personajes se han intercambiado entre sí, lo que ofrece un curioso plantel: los mismos héroes con distinta apariencia y habilidades. Pero, ¿dónde está el resto de la gente?"
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "twilight-2008",
+    "tmdbId": 8966,
+    "tmdbType": "movie",
+    "title": "Twilight",
+    "kind": "movie",
+    "releaseDate": "2008-11-20",
+    "imdbId": "tt1099212",
+    "posterPath": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+    "overview": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't stay away from him, a fatal move that endangers her own life.",
+    "localized": {
+      "en": {
+        "title": "Twilight",
+        "overview": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't stay away from him, a fatal move that endangers her own life."
+      },
+      "es": {
+        "title": "Crepúsculo",
+        "overview": "La joven Bella Swan (Kristen Stewart) siempre fue una chica muy diferente ya en sus años de niña en Phoenix. Cuando su madre se volvió a casar, la mandó a vivir con su padre, a la pequeña y lluviosa ciudad de Forks, Washington, una población sin ningún aliciente para Bella. Pero entonces conoce en el instituo al misterioso y atractivo Edward Cullen (Robert Pattinson), un joven distinto a los demás que esconde un secreto."
+      }
+    },
+    "runtimeMin": 122
+  },
+  {
+    "id": "the-twilight-saga-new-moon-2009",
+    "tmdbId": 18239,
+    "tmdbType": "movie",
+    "title": "The Twilight Saga: New Moon",
+    "kind": "movie",
+    "releaseDate": "2009-11-18",
+    "imdbId": "tt1259571",
+    "posterPath": "/k2qTooPlHffgNABNWxeJdGMglPK.jpg",
+    "overview": "Forks, Washington resident Bella Swan is reeling from the departure of her vampire love, Edward Cullen, and finds comfort in her friendship with Jacob Black, a werewolf. But before she knows it, she's thrust into a centuries-old conflict, and her desire to be with Edward at any cost leads her to take greater and greater risks.",
+    "localized": {
+      "en": {
+        "title": "The Twilight Saga: New Moon",
+        "overview": "Forks, Washington resident Bella Swan is reeling from the departure of her vampire love, Edward Cullen, and finds comfort in her friendship with Jacob Black, a werewolf. But before she knows it, she's thrust into a centuries-old conflict, and her desire to be with Edward at any cost leads her to take greater and greater risks."
+      },
+      "es": {
+        "title": "Crepúsculo: Luna nueva",
+        "overview": "En esta segunda entrega de la Saga Crepúsculo, Edward Cullen (Robert Pattinson) decide abandonar a Bella Swan (Kristen Stewart) para mantenerla alejada de los peligros del mundo vampírico. Con la ayuda de Jacob Black (Taylor Lautner), su amigo de la infancia y miembro de la misteriosa tribu quileute, Bella intentará superar el abandono de Edward, que la ha dejado sumida en el mayor de los desconsuelos. Pero los peligros siguen acechando a la joven; nuevas y asombrosas criaturas sobrenaturales se cruzarán en su camino, y Bella sólo contará con el apoyo del cada vez más cercano e irresistible Jacob. Repentinamente, Bella se encuentra inmersa en el mundo de los hombres lobo, ancestrales enemigos de los vampiros, y su lealtad es puesta a prueba."
+      }
+    },
+    "runtimeMin": 131
+  },
+  {
+    "id": "the-twilight-saga-eclipse-2010",
+    "tmdbId": 24021,
+    "tmdbType": "movie",
+    "title": "The Twilight Saga: Eclipse",
+    "kind": "movie",
+    "releaseDate": "2010-06-23",
+    "imdbId": "tt1325004",
+    "posterPath": "/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
+    "overview": "Bella once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for Edward and her friendship with Jacob, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, Bella is confronted with the most important decision of her life.",
+    "localized": {
+      "en": {
+        "title": "The Twilight Saga: Eclipse",
+        "overview": "Bella once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for Edward and her friendship with Jacob, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, Bella is confronted with the most important decision of her life."
+      },
+      "es": {
+        "title": "Crepúsculo: Eclipse",
+        "overview": "Tercera entrega de la popular saga de vampiros basada en las novelas de Stephenie Meyer. Bella (Kristen Stewart) tendrá que elegir entre Edward (Robert Pattinson) y Jacob (Taylor Lautner). La ciudad de Seattle es devastada por una serie de misteriosos asesinatos que va en aumento, mientras una vampiresa busca venganza. Bella debe escoger entre su amor por Edward y su amistad con Jacob, consciente de que su decisión puede originar una batalla entre vampiros y licántropos. Rodeada de peligros y con su graduación acercándose, ahora se enfrenta a la decisión más importante de su vida... Dirige David Slade (30 Days of Night, Hard Candy)."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "the-twilight-saga-breaking-dawn-part-1-2011",
+    "tmdbId": 50619,
+    "tmdbType": "movie",
+    "title": "The Twilight Saga: Breaking Dawn - Part 1",
+    "kind": "movie",
+    "releaseDate": "2011-11-16",
+    "imdbId": "tt1324999",
+    "posterPath": "/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg",
+    "overview": "Bella Swan and Edward Cullen's honeymoon phase is abruptly disrupted by betrayals and unforeseen tragedies that endanger their world.",
+    "localized": {
+      "en": {
+        "title": "The Twilight Saga: Breaking Dawn - Part 1",
+        "overview": "Bella Swan and Edward Cullen's honeymoon phase is abruptly disrupted by betrayals and unforeseen tragedies that endanger their world."
+      },
+      "es": {
+        "title": "Crepúsculo:  Amanecer - Parte 1",
+        "overview": "El amor que Edward y Bella sienten el uno por el otro se sella con la celebración de una gran ceremonia organizada por Alice. Durante la luna de miel, los recién casados tienen relaciones sexuales y Bella queda embarazada. El rápido crecimiento del feto, mitad humano mitad vampiro, afecta gravemente a su salud, llevándola al borde de la muerte... Primera parte de la adaptación de \"Amanecer\" que supone la cuarta entrega de la saga cinematográfica Crepúsculo, basada en las novelas de Stephenie Meyer."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "the-twilight-saga-breaking-dawn-part-2-2012",
+    "tmdbId": 50620,
+    "tmdbType": "movie",
+    "title": "The Twilight Saga: Breaking Dawn - Part 2",
+    "kind": "movie",
+    "releaseDate": "2012-11-13",
+    "imdbId": "tt1673434",
+    "posterPath": "/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
+    "overview": "After the birth of Renesmee, the Cullens gather other vampire clans in order to protect the child from a false allegation that puts the family in front of the Volturi.",
+    "localized": {
+      "en": {
+        "title": "The Twilight Saga: Breaking Dawn - Part 2",
+        "overview": "After the birth of Renesmee, the Cullens gather other vampire clans in order to protect the child from a false allegation that puts the family in front of the Volturi."
+      },
+      "es": {
+        "title": "Crepúsculo:  Amanecer - Parte 2",
+        "overview": "Quinta y última pelicula de la saga Crepúsculo.\r Tras convertirse en vampiro, Bella debe adaptarse a su nueva naturaleza. Cuando nace Renesmee, la familia Cullen tendrá que protegerse de la amenaza de los Volturi, pues existe una ley que prohíbe transformar a los niños en vampiros, ya que son difíciles de controlar y pueden provocar desastres que pongan en peligro la secreta existencia de los vampiros. Segunda parte de \"Amanecer\" y quinta entrega de la franquicia cinematográfica Crepúsculo, basada en las novelas de Stephenie Meyer"
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "the-mummy-1999",
+    "tmdbId": 564,
+    "tmdbType": "movie",
+    "title": "The Mummy",
+    "kind": "movie",
+    "releaseDate": "1999-04-16",
+    "imdbId": "tt0120616",
+    "posterPath": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+    "overview": "Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love—along with a curse that guarantees eternal doom upon the world if he is ever awoken.",
+    "localized": {
+      "en": {
+        "title": "The Mummy",
+        "overview": "Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love—along with a curse that guarantees eternal doom upon the world if he is ever awoken."
+      },
+      "es": {
+        "title": "La Momia",
+        "overview": "Un aventurero imprudente y un grupo de exploradores desentierran accidentalmente una antigua maldición egipcia. Ahora, deben luchar contra la resucitada momia del sacerdote Imhotep, que busca recuperar su poder y venganza sobre el mundo moderno."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "the-mummy-returns-2001",
+    "tmdbId": 1734,
+    "tmdbType": "movie",
+    "title": "The Mummy Returns",
+    "kind": "movie",
+    "releaseDate": "2001-05-04",
+    "imdbId": "tt0209163",
+    "posterPath": "/kdJsW7hcy1lrj7tdMPycTAQPAiR.jpg",
+    "overview": "Rick and Evelyn O’Connell, along with their 8-year-old son Alex, discover the key to the legendary Scorpion King’s might: the fabled Bracelet of Anubis. Unfortunately, a newly resurrected Imhotep has designs on the bracelet as well, and isn’t above kidnapping its new bearer, Alex, to gain control of Anubis’s otherworldly army.",
+    "localized": {
+      "en": {
+        "title": "The Mummy Returns",
+        "overview": "Rick and Evelyn O’Connell, along with their 8-year-old son Alex, discover the key to the legendary Scorpion King’s might: the fabled Bracelet of Anubis. Unfortunately, a newly resurrected Imhotep has designs on the bracelet as well, and isn’t above kidnapping its new bearer, Alex, to gain control of Anubis’s otherworldly army."
+      },
+      "es": {
+        "title": "La Momia Regresa",
+        "overview": "Rick O'Connell está ahora casado con Evelyn, y se han establecido en Londres, donde crían a su hijo Alex de 8 años. Cuando una cadena de eventos propicia la resurrección de Imhotep, la Momia camina de nuevo sobre la Tierra, determinada a conquistar su búsqueda por la inmortalidad."
+      }
+    },
+    "runtimeMin": 130
+  },
+  {
+    "id": "the-scorpion-king-2002",
+    "tmdbId": 9334,
+    "tmdbType": "movie",
+    "title": "The Scorpion King",
+    "kind": "movie",
+    "releaseDate": "2002-04-18",
+    "imdbId": "tt0277296",
+    "posterPath": "/aITIsX20tACn6jgtyDcCYpRT216.jpg",
+    "overview": "In ancient Egypt, peasant Mathayus is hired to exact revenge on the powerful Memnon and the sorceress Cassandra, who are ready to overtake Balthazar's village. Amid betrayals, thieves, abductions and more, Mathayus strives to bring justice to his complicated world.",
+    "localized": {
+      "en": {
+        "title": "The Scorpion King",
+        "overview": "In ancient Egypt, peasant Mathayus is hired to exact revenge on the powerful Memnon and the sorceress Cassandra, who are ready to overtake Balthazar's village. Amid betrayals, thieves, abductions and more, Mathayus strives to bring justice to his complicated world."
+      },
+      "es": {
+        "title": "El rey escorpión",
+        "overview": "Un guerrero del desierto se levanta contra el malvado ejército que está destruyendo su patria. Captura a la hechicera clave del enemigo, la lleva a las profundidades del desierto y se prepara para un enfrentamiento final."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "the-mummy-tomb-of-the-dragon-emperor-2008",
+    "tmdbId": 1735,
+    "tmdbType": "movie",
+    "title": "The Mummy: Tomb of the Dragon Emperor",
+    "kind": "movie",
+    "releaseDate": "2008-07-01",
+    "imdbId": "tt0859163",
+    "posterPath": "/A3acM1lX5PNWQa6r5qeMAJOxbnT.jpg",
+    "overview": "Archaeologist Rick O'Connell travels to China, pitting him against an emperor from the 2,000-year-old Han dynasty who's returned from the dead to pursue a quest for world domination. This time, O'Connell enlists the help of his wife and son to quash the so-called 'Dragon Emperor' and his abuse of supernatural power.",
+    "localized": {
+      "en": {
+        "title": "The Mummy: Tomb of the Dragon Emperor",
+        "overview": "Archaeologist Rick O'Connell travels to China, pitting him against an emperor from the 2,000-year-old Han dynasty who's returned from the dead to pursue a quest for world domination. This time, O'Connell enlists the help of his wife and son to quash the so-called 'Dragon Emperor' and his abuse of supernatural power."
+      },
+      "es": {
+        "title": "La Momia: La tumba del emperador dragón",
+        "overview": "El aventurero Rick O'Connell y su familia desafían las antiguas maldiciones y se aventuran en China para enfrentarse al cruel emperador dragón, que ha sido despertado de su sueño milenario. En esta trepidante aventura, lucharán contra fuerzas oscuras y criaturas sobrenaturales en una carrera contra el tiempo para salvar al mundo de una nueva amenaza."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "the-mummy-2017",
+    "tmdbId": 282035,
+    "tmdbType": "movie",
+    "title": "The Mummy",
+    "kind": "movie",
+    "releaseDate": "2017-06-06",
+    "imdbId": "tt2345759",
+    "posterPath": "/zxkY8byBnCsXodEYpK8tmwEGXBI.jpg",
+    "overview": "Though safely entombed in a crypt deep beneath the unforgiving desert, an ancient queen whose destiny was unjustly taken from her is awakened in our current day, bringing with her malevolence grown over millennia, and terrors that defy human comprehension.",
+    "localized": {
+      "en": {
+        "title": "The Mummy",
+        "overview": "Though safely entombed in a crypt deep beneath the unforgiving desert, an ancient queen whose destiny was unjustly taken from her is awakened in our current day, bringing with her malevolence grown over millennia, and terrors that defy human comprehension."
+      },
+      "es": {
+        "title": "La momia",
+        "overview": "Una antigua princesa egipcia es despertada de su cripta bajo el desierto, trayendo consigo su malevolencia cultivada durante milenios, y terrores que desafían la comprensión humana."
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "highlander-1986",
+    "tmdbId": 8009,
+    "tmdbType": "movie",
+    "title": "Highlander",
+    "kind": "movie",
+    "releaseDate": "1986-03-07",
+    "imdbId": "tt0091203",
+    "posterPath": "/8Z8dptJEypuLoOQro1WugD855YE.jpg",
+    "overview": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal.",
+    "localized": {
+      "en": {
+        "title": "Highlander",
+        "overview": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal."
+      },
+      "es": {
+        "title": "Highlander: El Inmortal",
+        "overview": "Los Inmortales son seres de una raza especial que sólo pueden morir decapitados entre sí. Viven desde hace siglos entre los hombres, pero ocultando su identidad. Unos defienden el Bien, otros, el Mal. Una maldición los obliga a luchar entre sí hasta que sólo quede uno de ellos. El escocés Connor MacLeod (Christopher Lambert) es uno de los supervivientes del clan de los Inmortales que ha llegado hasta nuestros días"
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "highlander-the-series-1992",
+    "tmdbId": 4414,
+    "tmdbType": "tv",
+    "title": "Highlander: The Series",
+    "kind": "series",
+    "releaseDate": "1992-10-03",
+    "imdbId": "tt0103442",
+    "posterPath": "/rlJzuTbdMAa6jOdpKxxTx8KVN88.jpg",
+    "overview": "Duncan MacLeod cannot die -- he is a 400-year-old immortal, who has seen his share of humanity's history. Still, he risks his life in battle against other immortals and tries to save people from harm.",
+    "localized": {
+      "en": {
+        "title": "Highlander: The Series",
+        "overview": "Duncan MacLeod cannot die -- he is a 400-year-old immortal, who has seen his share of humanity's history. Still, he risks his life in battle against other immortals and tries to save people from harm."
+      },
+      "es": {
+        "title": "Highlander: El inmortal",
+        "overview": "Duncan MacLeod es un inmortal. Ha decidido vivir pacíficamente con su prometida Tessa y mantenerse al margen de la lucha entre clanes. Pero un antiguo enemigo resurge, obligándolo a empuñar de nuevo su espada."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22,
+        "airDate": "1992-10-03"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1993-10-02"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "1994-10-01"
+      },
+      {
+        "number": 4,
+        "episodes": 20,
+        "airDate": "1995-10-01"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "1996-09-23"
+      },
+      {
+        "number": 6,
+        "episodes": 13,
+        "airDate": "1997-10-04"
+      }
+    ],
+    "runtimeMin": 5712
   }
 ]

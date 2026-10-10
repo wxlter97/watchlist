@@ -1,0 +1,7 @@
+- **Season 1:** Buffy arrives in Sunnydale, learns it sits on a Hellmouth and faces the Master.
+- **Season 2:** Spike and Drusilla arrive, and Angel turns into Angelus.
+- **Season 3:** Buffy and her friends prepare to graduate while Faith and Mayor Wilkins become threats.
+- **Season 4:** Buffy starts college and discovers a secret military organization, the Initiative.
+- **Season 5:** Dawn, Buffy's sister, appears along with the threat of Glory.
+- **Season 6:** Buffy returns from the dead and Willow becomes addicted to magic.
+- **Season 7:** the First Evil faces Buffy and the slayers in the final battle.

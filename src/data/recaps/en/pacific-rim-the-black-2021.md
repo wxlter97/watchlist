@@ -1,0 +1,2 @@
+- **Season 1:** Two siblings search for their parents in a world ravaged by kaiju.
+- **Season 2:** the siblings continue their journey.

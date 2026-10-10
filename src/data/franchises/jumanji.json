@@ -1,0 +1,121 @@
+{
+  "id": "jumanji",
+  "name": {
+    "es": "Jumanji",
+    "en": "Jumanji"
+  },
+  "description": {
+    "es": "Un juego de mesa mágico y su continuación como videojuego: las películas.",
+    "en": "A magical board game and its continuation as a video game: the films."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La película de 1995 y sus dos secuelas.",
+        "en": "The 1995 film and its two sequels."
+      }
+    },
+    {
+      "id": "related",
+      "name": {
+        "es": "Relacionada",
+        "en": "Related"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Otra historia del autor original, sin continuidad directa.",
+        "en": "Another story by the original author, with no direct continuity."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "jumanji-1995",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "alan-parrish"
+      ]
+    },
+    {
+      "titleId": "jumanji-welcome-to-the-jungle-2017",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "spencer-gilpin"
+      ]
+    },
+    {
+      "titleId": "jumanji-the-next-level-2019",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "spencer-gilpin"
+      ]
+    },
+    {
+      "titleId": "zathura-2005",
+      "continuityId": "related",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "alan-parrish",
+        "name": {
+          "es": "Alan Parrish",
+          "en": "Alan Parrish"
+        }
+      },
+      {
+        "id": "spencer-gilpin",
+        "name": {
+          "es": "Spencer Gilpin",
+          "en": "Spencer Gilpin"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

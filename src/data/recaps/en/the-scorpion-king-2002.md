@@ -1,0 +1,1 @@
+- A warrior seeks to avenge his people in Ancient Egypt.

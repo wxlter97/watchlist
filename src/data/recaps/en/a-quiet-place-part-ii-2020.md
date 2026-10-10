@@ -1,0 +1,1 @@
+- The Abbott family leaves their refuge and meets other survivors.

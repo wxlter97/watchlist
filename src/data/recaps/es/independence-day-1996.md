@@ -1,0 +1,2 @@
+- Naves alienígenas llegan a la Tierra y atacan las ciudades.
+- Un piloto y un científico colaboran para contraatacar.

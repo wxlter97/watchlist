@@ -1,0 +1,181 @@
+{
+  "id": "yellowstone",
+  "name": {
+    "es": "Yellowstone",
+    "en": "Yellowstone"
+  },
+  "description": {
+    "es": "La familia Dutton y su rancho en Montana, más las precuelas 1883 y 1923.",
+    "en": "The Dutton family and their Montana ranch, plus the prequels 1883 and 1923."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Series",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Yellowstone y sus precuelas.",
+        "en": "Yellowstone and its prequels."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "1883-2021",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "james-dutton"
+      ],
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: siglo XIX",
+        "en": "Prequel: the 19th century"
+      }
+    },
+    {
+      "titleId": "1923-2022",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "jacob-dutton"
+      ],
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Precuela: década de 1920",
+        "en": "Prequel: the 1920s"
+      }
+    },
+    {
+      "titleId": "1923-2022",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "jacob-dutton"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "yellowstone-2018",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "john-dutton",
+        "beth-dutton"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "yellowstone-2018",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "john-dutton",
+        "beth-dutton"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "yellowstone-2018",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "john-dutton",
+        "beth-dutton"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "yellowstone-2018",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "john-dutton",
+        "beth-dutton"
+      ],
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "yellowstone-2018",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "john-dutton",
+        "beth-dutton"
+      ],
+      "chronoOrder": 80
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "john-dutton",
+        "name": {
+          "es": "John Dutton",
+          "en": "John Dutton"
+        }
+      },
+      {
+        "id": "beth-dutton",
+        "name": {
+          "es": "Beth Dutton",
+          "en": "Beth Dutton"
+        }
+      },
+      {
+        "id": "james-dutton",
+        "name": {
+          "es": "James Dutton",
+          "en": "James Dutton"
+        }
+      },
+      {
+        "id": "jacob-dutton",
+        "name": {
+          "es": "Jacob Dutton",
+          "en": "Jacob Dutton"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

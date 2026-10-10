@@ -1,0 +1,143 @@
+{
+  "id": "highlander",
+  "name": {
+    "es": "Highlander",
+    "en": "Highlander"
+  },
+  "description": {
+    "es": "Inmortales que luchan hasta que solo quede uno: la película original y la serie.",
+    "en": "Immortals who fight until only one remains: the original film and the series."
+  },
+  "accentColor": "#1E3A8A",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Película y serie",
+        "en": "Film and series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La película de 1986 y la serie de televisión.",
+        "en": "The 1986 film and the television series."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "highlander-1986",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "connor-macleod"
+      ]
+    },
+    {
+      "titleId": "highlander-the-series-1992",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "duncan-macleod"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "highlander-the-series-1992",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "duncan-macleod"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "highlander-the-series-1992",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "duncan-macleod"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "highlander-the-series-1992",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "duncan-macleod"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "highlander-the-series-1992",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "duncan-macleod"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "highlander-the-series-1992",
+      "season": 6,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "duncan-macleod"
+      ],
+      "chronoOrder": 70
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "connor-macleod",
+        "name": {
+          "es": "Connor MacLeod",
+          "en": "Connor MacLeod"
+        }
+      },
+      {
+        "id": "duncan-macleod",
+        "name": {
+          "es": "Duncan MacLeod",
+          "en": "Duncan MacLeod"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

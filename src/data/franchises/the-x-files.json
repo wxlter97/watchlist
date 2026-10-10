@@ -1,0 +1,219 @@
+{
+  "id": "the-x-files",
+  "name": {
+    "es": "Los expedientes secretos X",
+    "en": "The X-Files"
+  },
+  "description": {
+    "es": "Mulder y Scully investigan lo inexplicable: la serie original, el regreso y las dos películas.",
+    "en": "Mulder and Scully investigate the unexplained: the original series, the revival and the two films."
+  },
+  "accentColor": "#0F766E",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie y películas",
+        "en": "Series and films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las once temporadas y las dos películas, en orden.",
+        "en": "The eleven seasons and the two films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-x-files-1993",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "the-x-files-1998",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 55,
+      "chronoNote": {
+        "es": "Transcurre entre las temporadas 5 y 6",
+        "en": "Set between seasons 5 and 6"
+      },
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ]
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 6,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 7,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 8,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 9,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "the-x-files-i-want-to-believe-2008",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 95,
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ]
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 10,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "the-x-files-1993",
+      "season": 11,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "fox-mulder",
+        "dana-scully"
+      ],
+      "chronoOrder": 110
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "fox-mulder",
+        "name": {
+          "es": "Fox Mulder",
+          "en": "Fox Mulder"
+        }
+      },
+      {
+        "id": "dana-scully",
+        "name": {
+          "es": "Dana Scully",
+          "en": "Dana Scully"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

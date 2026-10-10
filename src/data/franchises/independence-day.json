@@ -1,0 +1,101 @@
+{
+  "id": "independence-day",
+  "name": {
+    "es": "Día de la Independencia",
+    "en": "Independence Day"
+  },
+  "description": {
+    "es": "La invasión alienígena del 4 de julio y su secuela veinte años después.",
+    "en": "The July 4th alien invasion and its sequel twenty years later."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas, en orden.",
+        "en": "The two films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "independence-day-1996",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "steven-hiller",
+        "david-levinson"
+      ]
+    },
+    {
+      "titleId": "independence-day-resurgence-2016",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "jake-morrison",
+        "david-levinson"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "steven-hiller",
+        "name": {
+          "es": "Steven Hiller",
+          "en": "Steven Hiller"
+        }
+      },
+      {
+        "id": "david-levinson",
+        "name": {
+          "es": "David Levinson",
+          "en": "David Levinson"
+        }
+      },
+      {
+        "id": "jake-morrison",
+        "name": {
+          "es": "Jake Morrison",
+          "en": "Jake Morrison"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
