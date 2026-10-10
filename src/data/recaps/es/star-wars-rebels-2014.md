@@ -1,0 +1,4 @@
+- Ezra Bridger se une a la tripulación del Ghost, que desafía al Imperio.
+- Aparecen Ahsoka, Vader, Maul y el gran almirante Thrawn.
+- La célula rebelde se integra en la Alianza Rebelde.
+- Ezra y Thrawn desaparecen en el hiperespacio al final, un hilo que retoma Ahsoka.

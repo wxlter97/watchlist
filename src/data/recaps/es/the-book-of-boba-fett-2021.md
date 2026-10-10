@@ -1,0 +1,2 @@
+- Boba Fett y Fennec Shand se establecen en el palacio de Jabba para gobernar el hampa de Tatooine.
+- Enfrentan a otros sindicatos criminales.

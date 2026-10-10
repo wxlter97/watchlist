@@ -1,0 +1,2 @@
+- Finn plans a surprise vacation for his friends aboard a luxury cruiser.
+- It quickly goes wrong.

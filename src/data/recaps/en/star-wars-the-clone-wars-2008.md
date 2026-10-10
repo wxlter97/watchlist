@@ -1,0 +1,3 @@
+- Anakin is assigned a young apprentice, Ahsoka Tano.
+- They rescue Rotta, Jabba the Hutt's kidnapped son.
+- Obi-Wan and Anakin face Dooku and Ventress.

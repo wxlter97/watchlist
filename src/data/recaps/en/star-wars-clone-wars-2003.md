@@ -1,0 +1,2 @@
+- Obi-Wan assaults Muunilinst while Anakin is given command of the Republic's fleet.
+- Dooku takes Asajj Ventress as a Sith apprentice and tasks her with eliminating Anakin.

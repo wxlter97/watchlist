@@ -1,0 +1,2 @@
+- Aventuras episódicas de Wicket y sus amigos de la Aldea del Árbol Brillante.
+- Cada episodio es independiente.

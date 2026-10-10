@@ -1,0 +1,2 @@
+- Los androides pasan de un amo a otro entre la caída de la República y el inicio de la rebelión.
+- Cada episodio es una aventura independiente.

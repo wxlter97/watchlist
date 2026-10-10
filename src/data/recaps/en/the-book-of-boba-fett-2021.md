@@ -1,0 +1,2 @@
+- Boba Fett and Fennec Shand settle in Jabba's palace to rule Tatooine's underworld.
+- They face rival crime syndicates.

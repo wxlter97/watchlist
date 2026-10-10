@@ -1,0 +1,2 @@
+- Kazuda Xiono, un joven piloto, espía a la Primera Orden desde la Estación Colossus.
+- Descubre la amenaza creciente de la Primera Orden.

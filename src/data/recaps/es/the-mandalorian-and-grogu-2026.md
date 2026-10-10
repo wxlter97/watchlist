@@ -1,0 +1,1 @@
+- Din Djarin y Grogu ayudan a la Nueva República contra los señores de la guerra imperiales que siguen dispersos por la galaxia.

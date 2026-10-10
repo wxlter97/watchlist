@@ -1,0 +1,4 @@
+- La Federación de Comercio bloquea Naboo; los Jedi Qui-Gon y Obi-Wan protegen a la reina Amidala.
+- Descubren al niño Anakin Skywalker en Tatooine y lo llevan a Coruscant.
+- Darth Maul mata a Qui-Gon; Obi-Wan derrota a Maul.
+- Palpatine, senador de Naboo, es elegido canciller supremo.

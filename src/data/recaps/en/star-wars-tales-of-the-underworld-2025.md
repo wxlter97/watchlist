@@ -1,0 +1,1 @@
+- Six shorts following Asajj Ventress and Cad Bane through the galaxy's criminal underworld.

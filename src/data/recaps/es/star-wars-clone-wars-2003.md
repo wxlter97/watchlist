@@ -1,0 +1,2 @@
+- Obi-Wan ataca Muunilinst, mientras Anakin recibe el mando de la flota de la República.
+- Dooku toma a Asajj Ventress como aprendiz Sith y le encarga eliminar a Anakin.

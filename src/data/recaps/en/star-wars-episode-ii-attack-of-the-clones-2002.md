@@ -1,0 +1,4 @@
+- Obi-Wan investigates an attempt on Padmé's life and finds a clone army on Kamino.
+- Anakin, her protector, falls for her and kills the Tuskens who took his mother.
+- The Battle of Geonosis starts the Clone Wars; Anakin loses an arm to Count Dooku.
+- Anakin and Padmé marry in secret.

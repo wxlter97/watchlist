@@ -1,0 +1,4 @@
+- Jyn Erso joins the Rebellion to find the Death Star plans her father helped build.
+- With Cassian Andor and a group of rebels she raids Scarif.
+- The plans reach Leia, but nearly everyone dies.
+- Vader appears in the final scene chasing the plans.

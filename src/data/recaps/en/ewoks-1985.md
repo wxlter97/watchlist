@@ -1,0 +1,2 @@
+- Episodic adventures of Wicket and his friends from the Bright Tree Village.
+- Each episode stands alone.

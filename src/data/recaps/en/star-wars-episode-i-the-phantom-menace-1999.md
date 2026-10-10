@@ -1,0 +1,4 @@
+- The Trade Federation blockades Naboo; Jedi Qui-Gon and Obi-Wan protect Queen Amidala.
+- They find the boy Anakin Skywalker on Tatooine and bring him to Coruscant.
+- Darth Maul kills Qui-Gon; Obi-Wan defeats Maul.
+- Naboo's senator Palpatine is elected Supreme Chancellor.

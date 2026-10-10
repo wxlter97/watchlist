@@ -1,0 +1,3 @@
+- Los merodeadores del rey Terak y la bruja Charal atacan la aldea ewok y matan a la familia de Cindel.
+- Cindel y Wicket escapan, conocen a Teek y al viejo Noa, otro náufrago.
+- Juntos enfrentan a Terak y Charal.

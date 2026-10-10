@@ -1,0 +1,3 @@
+- Anakin recibe como aprendiz a la joven Ahsoka Tano.
+- Ambos rescatan a Rotta, el hijo de Jabba el Hutt, secuestrado.
+- Obi-Wan y Anakin enfrentan a Dooku y Ventress.

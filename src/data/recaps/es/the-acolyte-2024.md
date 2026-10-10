@@ -1,0 +1,2 @@
+- Una Jedi y su antiguo maestro investigan una serie de crímenes ligados a un pasado compartido.
+- Revela un lado oscuro de la Orden Jedi.

@@ -1,0 +1,2 @@
+- Finn organiza unas vacaciones sorpresa para sus amigos a bordo de un lujoso crucero.
+- Todo sale mal.

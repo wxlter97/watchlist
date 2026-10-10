@@ -1,0 +1,2 @@
+- The droids move from master to master between the fall of the Republic and the start of the Rebellion.
+- Each episode is a standalone adventure.

@@ -1,0 +1,2 @@
+- **Season 1:** Cassian goes from running from the Empire to joining a rebel cell led by Luthen.
+- **Season 2:** four years of resistance, including the Ghorman massacre, up to where Rogue One begins.

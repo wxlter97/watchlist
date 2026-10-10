@@ -1,0 +1,3 @@
+- El joven Han escapa de Corellia y se une a una banda de contrabandistas liderada por Beckett.
+- Conoce a Chewbacca y a Lando Calrissian y hace la carrera de Kessel con el Halcón Milenario.
+- Descubre que Qi'ra trabaja para el sindicato Amanecer Carmesí.

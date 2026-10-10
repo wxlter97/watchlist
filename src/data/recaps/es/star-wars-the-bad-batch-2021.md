@@ -1,0 +1,2 @@
+- El Escuadrón Bad Batch sobrevive a la Orden 66 y se vuelve mercenario con una joven clon, Omega.
+- Huyen del Imperio mientras este desmantela el programa de clones.

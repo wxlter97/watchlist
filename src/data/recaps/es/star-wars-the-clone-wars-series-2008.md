@@ -1,0 +1,4 @@
+- Anakin, Obi-Wan y Ahsoka lideran a los clones en misiones por toda la galaxia.
+- Ahsoka abandona la Orden Jedi tras ser acusada injustamente.
+- Maul regresa y construye su propia red criminal.
+- La temporada final coincide con la Orden 66 y el sitio de Mandalore.

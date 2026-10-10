@@ -1,0 +1,4 @@
+- Obi-Wan investiga un atentado contra Padmé y descubre un ejército de clones en Kamino.
+- Anakin, su guardián, se enamora de ella y mata a los tusken que secuestraron a su madre.
+- La batalla de Geonosis desata la Guerra de los Clones; Anakin pierde un brazo ante el conde Dooku.
+- Anakin y Padmé se casan en secreto.

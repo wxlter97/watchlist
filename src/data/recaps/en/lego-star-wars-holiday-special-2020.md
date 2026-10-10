@@ -1,0 +1,2 @@
+- Rey travels to a Jedi temple with BB-8 and has adventures across different eras of the saga.
+- She tries to make it back in time for the Life Day celebration.
