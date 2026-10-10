@@ -1,0 +1,2 @@
+- Una niña y su amiga vuelven de tres días de desaparición con comportamientos inquietantes.
+- Su padre recurre a ayuda para combatir lo que las posee.

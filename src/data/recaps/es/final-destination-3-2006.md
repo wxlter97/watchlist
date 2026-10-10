@@ -1,0 +1,2 @@
+- Wendy tiene una premonición de un accidente en una montaña rusa y salva a unos compañeros.
+- La Muerte los busca.

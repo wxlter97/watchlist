@@ -1,0 +1,2 @@
+- Jason stalks a group of young people at a nearby farm.
+- He adopts the hockey mask.

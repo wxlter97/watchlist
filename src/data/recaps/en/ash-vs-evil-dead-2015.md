@@ -1,0 +1,1 @@
+- Ash, an aging lothario and chainsaw-handed hunter, avoids his past until the Deadites return.

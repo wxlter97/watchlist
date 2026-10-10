@@ -1,0 +1,1 @@
+- A group of young adults visits a boarded-up camp, Crystal Lake, and encounters Jason.

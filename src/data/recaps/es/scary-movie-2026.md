@@ -1,0 +1,1 @@
+- Veintiséis años después, los cuatro vuelven a estar en la mira del asesino enmascarado.

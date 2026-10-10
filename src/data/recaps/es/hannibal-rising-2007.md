@@ -1,0 +1,1 @@
+- La historia cuenta cómo un joven Hannibal Lecter se convierte en el asesino que conocemos.

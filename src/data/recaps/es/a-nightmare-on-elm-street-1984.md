@@ -1,0 +1,2 @@
+- Unos adolescentes tienen pesadillas con un hombre desfigurado con un guante de cuchillas.
+- Nancy comprende que, si muere en sueños, muere de verdad.

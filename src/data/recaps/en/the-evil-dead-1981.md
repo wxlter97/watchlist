@@ -1,0 +1,2 @@
+- Five college students find a Sumerian Book of the Dead in a cabin.
+- They read it and unleash demons that possess them.

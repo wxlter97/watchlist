@@ -1,0 +1,1 @@
+- Jason attacks counselors at a new camp near Crystal Lake.

@@ -1,0 +1,2 @@
+- Un hombre salva a sus compañeros del colapso de un puente colgante.
+- La Muerte los persigue; el final conecta con la primera película.

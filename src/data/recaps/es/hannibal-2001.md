@@ -1,0 +1,2 @@
+- Lecter vive en Florencia mientras Clarice lo sigue buscando.
+- Un millonario, Mason Verger, quiere vengarse de él.

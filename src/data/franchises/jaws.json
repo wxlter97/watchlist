@@ -1,0 +1,99 @@
+{
+  "id": "jaws",
+  "name": {
+    "es": "Tiburón",
+    "en": "Jaws"
+  },
+  "description": {
+    "es": "El tiburón blanco de Amity Island: las cuatro películas.",
+    "en": "Amity Island's great white: the four films."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "jaws-1975",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "martin-brody"
+      ]
+    },
+    {
+      "titleId": "jaws-2-1978",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "martin-brody"
+      ]
+    },
+    {
+      "titleId": "jaws-3-d-1983",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "jaws-the-revenge-1987",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "martin-brody",
+        "name": {
+          "es": "Martin Brody",
+          "en": "Martin Brody"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "the-purge",
+  "name": {
+    "es": "La purga",
+    "en": "The Purge"
+  },
+  "description": {
+    "es": "Una noche al año el crimen es legal: cinco películas y una precuela.",
+    "en": "One night a year crime is legal: five films and a prequel."
+  },
+  "accentColor": "#9A3412",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas.",
+        "en": "The five films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-first-purge-2018",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: la primera purga",
+        "en": "Prequel: the first Purge"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-purge-2013",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "the-purge-anarchy-2014",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "the-purge-election-year-2016",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": []
+    },
+    {
+      "titleId": "the-forever-purge-2021",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

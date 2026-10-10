@@ -1,0 +1,1 @@
+- Ash is sent to the Middle Ages and must find the Book of the Dead to return.

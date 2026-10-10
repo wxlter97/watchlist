@@ -1,0 +1,1 @@
+- Cindy faces an invasion and a ghost.

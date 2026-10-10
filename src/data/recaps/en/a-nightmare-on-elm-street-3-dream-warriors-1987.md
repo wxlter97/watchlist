@@ -1,0 +1,1 @@
+- Nancy returns to help teens in a clinic who also dream of Freddy.

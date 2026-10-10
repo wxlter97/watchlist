@@ -1,0 +1,1 @@
+- Veintisiete años después, el payaso regresa y los Perdedores vuelven a reunirse para acabar con él.

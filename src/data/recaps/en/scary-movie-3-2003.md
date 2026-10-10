@@ -1,0 +1,1 @@
+- Cindy investigates a cursed tape and an alien invasion.

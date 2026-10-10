@@ -1,0 +1,161 @@
+{
+  "id": "the-exorcist",
+  "name": {
+    "es": "El exorcista",
+    "en": "The Exorcist"
+  },
+  "description": {
+    "es": "La posesión de Regan: la película de 1973, sus continuaciones, las precuelas y Believer.",
+    "en": "Regan's possession: the 1973 film, its sequels, the prequels and Believer."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Línea principal",
+        "en": "Main line"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La original y las continuaciones directas.",
+        "en": "The original and the direct sequels."
+      }
+    },
+    {
+      "id": "exorcist-ii",
+      "name": {
+        "es": "Exorcista II",
+        "en": "Exorcist II"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Secuela de 1977, que las demás ignoran.",
+        "en": "A 1977 sequel the others ignore."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "prequels",
+      "name": {
+        "es": "Precuelas",
+        "en": "Prequels"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Dos versiones distintas de la misma precuela.",
+        "en": "Two different versions of the same prequel."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-exorcist-1973",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "regan-macneil",
+        "father-merrin"
+      ]
+    },
+    {
+      "titleId": "the-exorcist-iii-1990",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Continúa la original, ignorando la II",
+        "en": "Continues the original, ignoring II"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-exorcist-believer-2023",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Continúa la original, ignorando el resto",
+        "en": "Continues the original, ignoring the rest"
+      },
+      "characters": [
+        "regan-macneil"
+      ]
+    },
+    {
+      "titleId": "exorcist-ii-the-heretic-1977",
+      "continuityId": "exorcist-ii",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "regan-macneil"
+      ]
+    },
+    {
+      "titleId": "exorcist-the-beginning-2004",
+      "continuityId": "prequels",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "father-merrin"
+      ]
+    },
+    {
+      "titleId": "dominion-prequel-to-the-exorcist-2005",
+      "continuityId": "prequels",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "father-merrin"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "regan-macneil",
+        "name": {
+          "es": "Regan MacNeil",
+          "en": "Regan MacNeil"
+        }
+      },
+      {
+        "id": "father-merrin",
+        "name": {
+          "es": "Padre Merrin",
+          "en": "Father Merrin"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

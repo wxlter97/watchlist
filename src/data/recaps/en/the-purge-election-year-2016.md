@@ -1,0 +1,1 @@
+- A candidate who wants to end the Purge is hunted on Purge night.

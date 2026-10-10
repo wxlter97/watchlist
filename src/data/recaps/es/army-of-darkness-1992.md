@@ -1,0 +1,1 @@
+- Ash es transportado a la Edad Media y debe encontrar el Libro de los Muertos para volver.

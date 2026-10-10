@@ -1,0 +1,2 @@
+- Una premonición salva a un joven y a sus amigos de un accidente en un autódromo.
+- Aun así, les esperan finales terribles.

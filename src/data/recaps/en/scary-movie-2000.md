@@ -1,0 +1,2 @@
+- A group of teens is chased by a masked killer.
+- The film parodies horror classics.

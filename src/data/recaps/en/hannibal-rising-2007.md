@@ -1,0 +1,1 @@
+- It tells how a young Hannibal Lecter becomes the killer we know.

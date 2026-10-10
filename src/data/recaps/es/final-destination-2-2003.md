@@ -1,0 +1,2 @@
+- Una chica tiene una premonición de un choque en la carretera y salva a varias personas.
+- La Muerte las busca y descubre su conexión con el vuelo 180.

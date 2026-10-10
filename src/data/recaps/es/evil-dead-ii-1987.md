@@ -1,0 +1,2 @@
+- Ash sobrevive a la cabaña, ahora con una mano poseída.
+- Intenta detener a los demonios con una motosierra.

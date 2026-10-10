@@ -1,0 +1,2 @@
+- Wendy has a premonition of a rollercoaster accident and saves some classmates.
+- Death goes after them.

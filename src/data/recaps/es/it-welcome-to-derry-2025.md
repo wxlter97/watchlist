@@ -1,0 +1,1 @@
+- En 1962, unos niños desaparecen en Derry y un grupo de amigos empieza a sospechar de un mal antiguo.

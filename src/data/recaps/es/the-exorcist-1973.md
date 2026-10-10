@@ -1,0 +1,2 @@
+- Una niña, Regan, muestra comportamientos extraños que los médicos no explican.
+- Su madre recurre a dos sacerdotes para un exorcismo.

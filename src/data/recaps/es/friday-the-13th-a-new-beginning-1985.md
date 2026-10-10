@@ -1,0 +1,1 @@
+- Tommy, aún marcado, enfrenta nuevos asesinatos en un centro psiquiátrico.

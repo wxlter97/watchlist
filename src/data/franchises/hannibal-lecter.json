@@ -1,0 +1,177 @@
+{
+  "id": "hannibal-lecter",
+  "name": {
+    "es": "Hannibal Lecter",
+    "en": "Hannibal Lecter"
+  },
+  "description": {
+    "es": "El doctor caníbal: las películas con Anthony Hopkins, Manhunter y la serie de Mads Mikkelsen.",
+    "en": "The cannibal doctor: the Anthony Hopkins films, Manhunter and the Mads Mikkelsen series."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "hopkins",
+      "name": {
+        "es": "Anthony Hopkins",
+        "en": "Anthony Hopkins"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El Silencio de los inocentes, Hannibal, Dragón Rojo y El origen del mal.",
+        "en": "The Silence of the Lambs, Hannibal, Red Dragon and Hannibal Rising."
+      }
+    },
+    {
+      "id": "manhunter",
+      "name": {
+        "es": "Manhunter (1986)",
+        "en": "Manhunter (1986)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La primera versión de Dragón Rojo, con otro Lecter.",
+        "en": "The first version of Red Dragon, with another Lecter."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "series",
+      "name": {
+        "es": "Serie (2013)",
+        "en": "Series (2013)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinterpretación televisiva con Mads Mikkelsen.",
+        "en": "A television reinterpretation with Mads Mikkelsen."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "hannibal-rising-2007",
+      "continuityId": "hopkins",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: juventud de Hannibal",
+        "en": "Prequel: Hannibal's youth"
+      },
+      "characters": [
+        "hannibal-lecter"
+      ]
+    },
+    {
+      "titleId": "red-dragon-2002",
+      "continuityId": "hopkins",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Antes de El Silencio de los inocentes",
+        "en": "Before The Silence of the Lambs"
+      },
+      "characters": [
+        "hannibal-lecter",
+        "will-graham"
+      ]
+    },
+    {
+      "titleId": "the-silence-of-the-lambs-1991",
+      "continuityId": "hopkins",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "hannibal-lecter",
+        "clarice-starling"
+      ]
+    },
+    {
+      "titleId": "hannibal-2001",
+      "continuityId": "hopkins",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Diez años después",
+        "en": "Ten years later"
+      },
+      "characters": [
+        "hannibal-lecter",
+        "clarice-starling"
+      ]
+    },
+    {
+      "titleId": "manhunter-1986",
+      "continuityId": "manhunter",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "hannibal-lecter",
+        "will-graham"
+      ]
+    },
+    {
+      "titleId": "hannibal-2013",
+      "continuityId": "series",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "hannibal-lecter",
+        "will-graham"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "hannibal-lecter",
+        "name": {
+          "es": "Hannibal Lecter",
+          "en": "Hannibal Lecter"
+        }
+      },
+      {
+        "id": "clarice-starling",
+        "name": {
+          "es": "Clarice Starling",
+          "en": "Clarice Starling"
+        }
+      },
+      {
+        "id": "will-graham",
+        "name": {
+          "es": "Will Graham",
+          "en": "Will Graham"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

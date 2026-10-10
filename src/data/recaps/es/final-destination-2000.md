@@ -1,0 +1,2 @@
+- Alex Browning tiene una premonición de que su avión explotará y se baja con unos compañeros.
+- El avión explota y la Muerte empieza a cobrarse a los supervivientes uno por uno.

@@ -1,0 +1,2 @@
+- Will Graham, con la capacidad de pensar como sus presas, persigue a un asesino caníbal.
+- Colabora con el doctor Hannibal Lecter, sin saber quién es.

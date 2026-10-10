@@ -1,0 +1,1 @@
+- The family tries to return to normal while the spirits remain.

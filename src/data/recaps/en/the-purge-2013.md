@@ -1,0 +1,2 @@
+- During the Purge, a family locks itself in its home.
+- A wounded stranger draws attackers to them.

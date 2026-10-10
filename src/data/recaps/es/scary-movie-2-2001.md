@@ -1,0 +1,1 @@
+- Los supervivientes de la primera vuelven y pasan una noche en una casa embrujada.

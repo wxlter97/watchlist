@@ -1,0 +1,2 @@
+- Cinco universitarios hallan en una cabaña un libro sumerio de los muertos.
+- Lo leen y desatan demonios que los poseen.

@@ -1,0 +1,2 @@
+- Jason persigue a un grupo de jóvenes en una granja cercana.
+- Adopta la máscara de hockey.

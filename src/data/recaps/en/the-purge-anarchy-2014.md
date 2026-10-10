@@ -1,0 +1,1 @@
+- A group of strangers must survive a night on the streets.

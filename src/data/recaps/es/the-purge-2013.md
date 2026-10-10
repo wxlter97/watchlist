@@ -1,0 +1,2 @@
+- Durante la Purga, una familia se encierra en su casa.
+- Un desconocido herido hace que los ataquen.

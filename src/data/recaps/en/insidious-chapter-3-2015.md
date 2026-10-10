@@ -1,0 +1,1 @@
+- Elise Rainier agrees to help a teenage girl targeted by a dangerous spirit.

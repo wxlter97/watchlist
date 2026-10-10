@@ -1,0 +1,2 @@
+- Clarice Starling, a young FBI agent, consults the prisoner Hannibal Lecter to catch a killer.
+- A disturbing bond forms between them.

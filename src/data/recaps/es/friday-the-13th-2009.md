@@ -1,0 +1,1 @@
+- Un grupo de jóvenes visita un campamento cerrado, Cristal Lake, donde encuentra a Jason.

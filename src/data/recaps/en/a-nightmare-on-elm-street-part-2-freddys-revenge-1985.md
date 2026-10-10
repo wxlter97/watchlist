@@ -1,0 +1,1 @@
+- A young man is possessed by Freddy at the Elm Street house.

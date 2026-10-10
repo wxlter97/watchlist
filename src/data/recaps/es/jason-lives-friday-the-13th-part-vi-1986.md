@@ -1,0 +1,1 @@
+- Tommy intenta destruir el cuerpo de Jason y lo revive sin querer.

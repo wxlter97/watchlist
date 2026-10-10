@@ -1,0 +1,1 @@
+- Jason sigue matando y se enfrenta a Tommy Jarvis, un niño aficionado al maquillaje de terror.
