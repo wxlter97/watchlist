@@ -1,0 +1,2 @@
+- Sam Flynn sigue una pista de su padre desaparecido y entra a la Red.
+- Allí enfrenta a Clu, una versión digital de su padre, y conoce a Quorra.

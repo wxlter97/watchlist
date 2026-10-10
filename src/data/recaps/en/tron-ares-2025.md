@@ -1,0 +1,2 @@
+- Ares, a highly sophisticated program, is sent from the digital world into the real one on a dangerous mission.
+- It is humankind's first encounter with AI beings.

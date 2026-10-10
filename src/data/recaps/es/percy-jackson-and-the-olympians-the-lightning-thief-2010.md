@@ -1,0 +1,2 @@
+- Percy Jackson descubre que es hijo de Poseidón.
+- Debe recuperar el rayo maestro de Zeus para evitar una guerra entre dioses.

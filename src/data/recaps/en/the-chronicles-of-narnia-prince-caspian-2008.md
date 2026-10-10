@@ -1,0 +1,2 @@
+- The siblings return to Narnia 1300 years later and help Prince Caspian.
+- Caspian fights his uncle Miraz, who rules the Telmarines.

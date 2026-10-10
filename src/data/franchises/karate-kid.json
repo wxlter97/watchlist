@@ -1,0 +1,272 @@
+{
+  "id": "karate-kid",
+  "name": {
+    "es": "Karate Kid y Cobra Kai",
+    "en": "Karate Kid and Cobra Kai"
+  },
+  "description": {
+    "es": "Daniel LaRusso, Johnny Lawrence y el señor Miyagi: las películas, la serie Cobra Kai y el remake.",
+    "en": "Daniel LaRusso, Johnny Lawrence and Mr. Miyagi: the films, the Cobra Kai series and the remake."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Línea original",
+        "en": "Original timeline"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de 1984 a 1989, Cobra Kai y Legends.",
+        "en": "The 1984–1989 films, Cobra Kai and Legends."
+      }
+    },
+    {
+      "id": "next-karate-kid",
+      "name": {
+        "es": "La nueva Karate Kid (1994)",
+        "en": "The Next Karate Kid (1994)"
+      },
+      "canonLevel": "semicanon",
+      "hiddenByDefault": true,
+      "description": {
+        "es": "Película aparte con Hilary Swank, con otros personajes y sin conexión directa con el resto.",
+        "en": "A separate film with Hilary Swank, with other characters and no direct connection to the rest."
+      }
+    },
+    {
+      "id": "remake",
+      "name": {
+        "es": "Remake de 2010",
+        "en": "2010 remake"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Dre y el señor Han en Pekín; Legends los enlaza con la línea original.",
+        "en": "Dre and Mr. Han in Beijing; Legends links them to the original timeline."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-karate-kid-1984",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "daniel-larusso",
+        "mr-miyagi",
+        "johnny-lawrence"
+      ]
+    },
+    {
+      "titleId": "the-karate-kid-part-ii-1986",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "daniel-larusso",
+        "mr-miyagi"
+      ]
+    },
+    {
+      "titleId": "the-karate-kid-part-iii-1989",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "daniel-larusso",
+        "mr-miyagi",
+        "john-kreese",
+        "terry-silver"
+      ]
+    },
+    {
+      "titleId": "cobra-kai-2018",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Treinta y cuatro años después",
+        "en": "Thirty-four years later"
+      },
+      "characters": [
+        "daniel-larusso",
+        "johnny-lawrence",
+        "john-kreese",
+        "terry-silver",
+        "miguel-diaz"
+      ]
+    },
+    {
+      "titleId": "karate-kid-legends-2025",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "daniel-larusso",
+        "mr-han",
+        "li-fong"
+      ]
+    },
+    {
+      "titleId": "the-next-karate-kid-1994",
+      "continuityId": "next-karate-kid",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "mr-miyagi"
+      ]
+    },
+    {
+      "titleId": "the-karate-kid-2010",
+      "continuityId": "remake",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "mr-han"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "cobra-kai-path",
+      "type": "curated",
+      "name": {
+        "es": "Hasta Cobra Kai",
+        "en": "Up to Cobra Kai"
+      },
+      "description": {
+        "es": "Las tres películas originales y la serie.",
+        "en": "The three original films and the series."
+      },
+      "titleIds": [
+        "the-karate-kid-1984",
+        "the-karate-kid-part-ii-1986",
+        "the-karate-kid-part-iii-1989",
+        "cobra-kai-2018"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-karate-kid-legends-2025",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Karate Kid: Legends",
+        "en": "Get ready for Karate Kid: Legends"
+      },
+      "description": {
+        "es": "La película une a Daniel LaRusso con el señor Han del remake. Con la original y el remake basta.",
+        "en": "The film joins Daniel LaRusso with Mr. Han from the remake. The original and the remake are enough."
+      },
+      "titleIds": [
+        "the-karate-kid-1984",
+        "the-karate-kid-2010"
+      ],
+      "targetTitleId": "karate-kid-legends-2025"
+    },
+    {
+      "id": "daniel-y-johnny",
+      "kind": "character",
+      "name": {
+        "es": "Daniel y Johnny",
+        "en": "Daniel and Johnny"
+      },
+      "description": {
+        "es": "La rivalidad que empezó en 1984 y sigue en Cobra Kai.",
+        "en": "The rivalry that began in 1984 and continues in Cobra Kai."
+      },
+      "titleIds": [
+        "the-karate-kid-1984",
+        "cobra-kai-2018"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "daniel-larusso",
+        "name": {
+          "es": "Daniel LaRusso",
+          "en": "Daniel LaRusso"
+        }
+      },
+      {
+        "id": "johnny-lawrence",
+        "name": {
+          "es": "Johnny Lawrence",
+          "en": "Johnny Lawrence"
+        }
+      },
+      {
+        "id": "mr-miyagi",
+        "name": {
+          "es": "Señor Miyagi",
+          "en": "Mr. Miyagi"
+        }
+      },
+      {
+        "id": "john-kreese",
+        "name": {
+          "es": "John Kreese",
+          "en": "John Kreese"
+        }
+      },
+      {
+        "id": "terry-silver",
+        "name": {
+          "es": "Terry Silver",
+          "en": "Terry Silver"
+        }
+      },
+      {
+        "id": "miguel-diaz",
+        "name": {
+          "es": "Miguel Díaz",
+          "en": "Miguel Diaz"
+        }
+      },
+      {
+        "id": "mr-han",
+        "name": {
+          "es": "Señor Han",
+          "en": "Mr. Han"
+        }
+      },
+      {
+        "id": "li-fong",
+        "name": {
+          "es": "Li Fong",
+          "en": "Li Fong"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
