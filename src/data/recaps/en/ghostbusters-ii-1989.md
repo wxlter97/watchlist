@@ -1,0 +1,2 @@
+- Five years later, the team reunites when a magical substance threatens New York.
+- They face Vigo, a spirit who wants to possess a baby.

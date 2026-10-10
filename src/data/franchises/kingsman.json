@@ -1,0 +1,123 @@
+{
+  "id": "kingsman",
+  "name": {
+    "es": "Kingsman",
+    "en": "Kingsman"
+  },
+  "description": {
+    "es": "Agentes secretos con traje a medida: dos películas de Eggsy y una precuela en 1914.",
+    "en": "Secret agents in tailored suits: two Eggsy films and a prequel set in 1914."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Kingsman",
+        "en": "Kingsman"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La agencia de espías, de su origen a la actualidad.",
+        "en": "The spy agency, from its origin to the present."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-kings-man-2021",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Primera Guerra Mundial",
+        "en": "World War I"
+      },
+      "characters": [
+        "orlando-oxford"
+      ]
+    },
+    {
+      "titleId": "kingsman-the-secret-service-2015",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "eggsy",
+        "harry-hart",
+        "merlin"
+      ]
+    },
+    {
+      "titleId": "kingsman-the-golden-circle-2017",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "eggsy",
+        "harry-hart",
+        "merlin"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "eggsy",
+        "name": {
+          "es": "Eggsy",
+          "en": "Eggsy"
+        }
+      },
+      {
+        "id": "harry-hart",
+        "name": {
+          "es": "Harry Hart",
+          "en": "Harry Hart"
+        }
+      },
+      {
+        "id": "merlin",
+        "name": {
+          "es": "Merlín",
+          "en": "Merlin"
+        }
+      },
+      {
+        "id": "orlando-oxford",
+        "name": {
+          "es": "Orlando, duque de Oxford",
+          "en": "Orlando, Duke of Oxford"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

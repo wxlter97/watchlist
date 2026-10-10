@@ -1,0 +1,2 @@
+- Seven outcasts in the elven world unite against an unstoppable power.
+- It tells the origins of the Conjunction of the Spheres.

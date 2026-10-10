@@ -1,0 +1,3 @@
+- Rick, un policía, sale del coma y se une a un grupo de supervivientes.
+- A lo largo de las temporadas enfrentan a villanos humanos como el Gobernador y Negan.
+- Las últimas temporadas cierran el mundo de la serie con nuevas comunidades.

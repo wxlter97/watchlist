@@ -1,0 +1,2 @@
+- Ryan intervenes in an attack and makes an enemy.
+- The terrorist seeks revenge on him and his family.

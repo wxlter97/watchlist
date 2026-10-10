@@ -1,0 +1,2 @@
+- Un joven Jack Ryan pasa de soldado a analista de la CIA.
+- Descubre una amenaza contra Estados Unidos.

@@ -1,0 +1,2 @@
+- The Spengler family returns to the New York firehouse and teams up with the original Ghostbusters.
+- An ancient artifact unleashes an evil force that forces them to join forces.

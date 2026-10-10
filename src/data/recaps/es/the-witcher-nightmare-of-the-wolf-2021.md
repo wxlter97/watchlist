@@ -1,0 +1,2 @@
+- Vesemir escapa de la pobreza para convertirse en brujo y mata monstruos por dinero y gloria.
+- Cuando surge una nueva amenaza, debe enfrentarse a los demonios de su pasado.
