@@ -1,0 +1,2 @@
+- Los Cazafantasmas atrapan fantasmas en episodios independientes.
+- Incluye a Slimer como personaje fijo.

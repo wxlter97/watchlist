@@ -1,0 +1,221 @@
+{
+  "id": "the-walking-dead",
+  "name": {
+    "es": "The Walking Dead",
+    "en": "The Walking Dead"
+  },
+  "description": {
+    "es": "El apocalipsis zombi de Rick Grimes y los spin-offs que lo continúan en otros lugares y tiempos.",
+    "en": "Rick Grimes's zombie apocalypse and the spin-offs that continue it in other places and times."
+  },
+  "accentColor": "#9A3412",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "El universo de The Walking Dead",
+        "en": "The Walking Dead universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie original y los spin-offs, en el mismo mundo.",
+        "en": "The original series and spin-offs, in the same world."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-walking-dead-2010",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Empieza durante el brote",
+        "en": "Starts during the outbreak"
+      },
+      "characters": [
+        "rick-grimes",
+        "daryl-dixon",
+        "negan",
+        "maggie-rhee",
+        "michonne"
+      ]
+    },
+    {
+      "titleId": "fear-the-walking-dead-2015",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Empieza en el brote, en otra ciudad; se cruza con la serie original",
+        "en": "Starts in the outbreak, in another city; it crosses over with the original series"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-walking-dead-world-beyond-2020",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Una década después del brote",
+        "en": "A decade after the outbreak"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "tales-of-the-walking-dead-2022",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Antología, sin orden fijo",
+        "en": "Anthology, no fixed order"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-walking-dead-the-ones-who-live-2024",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Continúa a Rick y Michonne",
+        "en": "Continues Rick and Michonne"
+      },
+      "characters": [
+        "rick-grimes",
+        "michonne"
+      ]
+    },
+    {
+      "titleId": "the-walking-dead-daryl-dixon-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "Daryl en Francia tras el final de la serie",
+        "en": "Daryl in France after the series finale"
+      },
+      "characters": [
+        "daryl-dixon"
+      ]
+    },
+    {
+      "titleId": "the-walking-dead-dead-city-2023",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "Maggie y Negan en Manhattan",
+        "en": "Maggie and Negan in Manhattan"
+      },
+      "characters": [
+        "negan",
+        "maggie-rhee"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "core",
+      "type": "curated",
+      "name": {
+        "es": "Los personajes de la serie original",
+        "en": "The original series' characters"
+      },
+      "description": {
+        "es": "La serie y las historias de Rick, Daryl, Maggie y Negan.",
+        "en": "The series and the stories of Rick, Daryl, Maggie and Negan."
+      },
+      "titleIds": [
+        "the-walking-dead-2010",
+        "the-walking-dead-the-ones-who-live-2024",
+        "the-walking-dead-daryl-dixon-2023",
+        "the-walking-dead-dead-city-2023"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "daryl-dixon",
+      "kind": "character",
+      "name": {
+        "es": "Daryl Dixon",
+        "en": "Daryl Dixon"
+      },
+      "description": {
+        "es": "El superviviente más querido, de la serie original a su propia historia.",
+        "en": "The best-loved survivor, from the original series to his own story."
+      },
+      "titleIds": [
+        "the-walking-dead-2010",
+        "the-walking-dead-daryl-dixon-2023"
+      ]
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "rick-grimes",
+        "name": {
+          "es": "Rick Grimes",
+          "en": "Rick Grimes"
+        }
+      },
+      {
+        "id": "daryl-dixon",
+        "name": {
+          "es": "Daryl Dixon",
+          "en": "Daryl Dixon"
+        }
+      },
+      {
+        "id": "negan",
+        "name": {
+          "es": "Negan",
+          "en": "Negan"
+        }
+      },
+      {
+        "id": "maggie-rhee",
+        "name": {
+          "es": "Maggie Rhee",
+          "en": "Maggie Rhee"
+        }
+      },
+      {
+        "id": "michonne",
+        "name": {
+          "es": "Michonne",
+          "en": "Michonne"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

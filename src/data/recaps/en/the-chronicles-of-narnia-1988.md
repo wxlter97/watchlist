@@ -1,0 +1,2 @@
+- It adapts The Lion, the Witch and the Wardrobe, Prince Caspian, The Voyage of the Dawn Treader and The Silver Chair.
+- It blends live action with animation for Aslan and other creatures.

@@ -1,0 +1,3 @@
+- Four siblings evacuated from wartime London discover Narnia through a wardrobe.
+- The White Witch keeps the realm in endless winter; Edmund betrays his siblings to her.
+- Aslan sacrifices himself for Edmund, returns to life and helps defeat the Witch.

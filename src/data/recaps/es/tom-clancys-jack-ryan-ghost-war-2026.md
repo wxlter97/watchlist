@@ -1,0 +1,2 @@
+- Ryan es arrastrado de nuevo al espionaje por una misión encubierta que destapa una conspiración.
+- Se une a Mike November, James Greer y Emma Marlowe contra una unidad rebelde.

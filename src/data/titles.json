@@ -20442,5 +20442,1636 @@
       }
     },
     "runtimeMin": 5
+  },
+  {
+    "id": "the-walking-dead-2010",
+    "tmdbId": 1402,
+    "tmdbType": "tv",
+    "title": "The Walking Dead",
+    "kind": "series",
+    "releaseDate": "2010-10-31",
+    "imdbId": "tt1520211",
+    "posterPath": "/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
+    "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+    "localized": {
+      "en": {
+        "title": "The Walking Dead",
+        "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way."
+      },
+      "es": {
+        "title": "The Walking Dead",
+        "overview": "El oficial Rick Grimes se despierta del coma para descubrir que el mundo está en ruinas y debe guiar a un grupo de sobrevivientes para permanecer con vida."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2010-10-31"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2011-10-16"
+      },
+      {
+        "number": 3,
+        "episodes": 16,
+        "airDate": "2012-10-14"
+      },
+      {
+        "number": 4,
+        "episodes": 16,
+        "airDate": "2013-10-13"
+      },
+      {
+        "number": 5,
+        "episodes": 16,
+        "airDate": "2014-10-12"
+      },
+      {
+        "number": 6,
+        "episodes": 16,
+        "airDate": "2015-10-11"
+      },
+      {
+        "number": 7,
+        "episodes": 16,
+        "airDate": "2016-10-23"
+      },
+      {
+        "number": 8,
+        "episodes": 16,
+        "airDate": "2017-10-22"
+      },
+      {
+        "number": 9,
+        "episodes": 16,
+        "airDate": "2018-10-07"
+      },
+      {
+        "number": 10,
+        "episodes": 22,
+        "airDate": "2019-10-06"
+      },
+      {
+        "number": 11,
+        "episodes": 24,
+        "airDate": "2021-08-22"
+      }
+    ],
+    "runtimeMin": 8196
+  },
+  {
+    "id": "fear-the-walking-dead-2015",
+    "tmdbId": 62286,
+    "tmdbType": "tv",
+    "title": "Fear the Walking Dead",
+    "kind": "series",
+    "releaseDate": "2015-08-23",
+    "imdbId": "tt3743822",
+    "posterPath": "/eKt4ELpQZUKGZCKIDobEbwHwk3I.jpg",
+    "overview": "What did the world look like as it was transforming into the horrifying apocalypse depicted in \"The Walking Dead\"? This spin-off set in Los Angeles, following new characters as they face the beginning of the end of the world, will answer that question.",
+    "localized": {
+      "en": {
+        "title": "Fear the Walking Dead",
+        "overview": "What did the world look like as it was transforming into the horrifying apocalypse depicted in \"The Walking Dead\"? This spin-off set in Los Angeles, following new characters as they face the beginning of the end of the world, will answer that question."
+      },
+      "es": {
+        "title": "Fear the Walking Dead",
+        "overview": "Spin-off / precuela de la serie \"The Walking Dead\", ambientado en la ciudad de Los Ángeles y centrado en una familia que debe sobrevivir a los comienzos del apocalipsis zombie. Muestra el origen del virus y cómo se expandió alrededor del mundo desde el punto de vista de una familia."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2015-08-23"
+      },
+      {
+        "number": 2,
+        "episodes": 15,
+        "airDate": "2016-04-10"
+      },
+      {
+        "number": 3,
+        "episodes": 16,
+        "airDate": "2017-06-04"
+      },
+      {
+        "number": 4,
+        "episodes": 16,
+        "airDate": "2018-04-15"
+      },
+      {
+        "number": 5,
+        "episodes": 16,
+        "airDate": "2019-06-02"
+      },
+      {
+        "number": 6,
+        "episodes": 16,
+        "airDate": "2020-10-11"
+      },
+      {
+        "number": 7,
+        "episodes": 16,
+        "airDate": "2021-10-17"
+      },
+      {
+        "number": 8,
+        "episodes": 12,
+        "airDate": "2023-05-14"
+      }
+    ],
+    "runtimeMin": 5413
+  },
+  {
+    "id": "the-walking-dead-world-beyond-2020",
+    "tmdbId": 94305,
+    "tmdbType": "tv",
+    "title": "The Walking Dead: World Beyond",
+    "kind": "series",
+    "releaseDate": "2020-10-04",
+    "imdbId": "tt10148174",
+    "posterPath": "/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+    "overview": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+    "localized": {
+      "en": {
+        "title": "The Walking Dead: World Beyond",
+        "overview": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world."
+      },
+      "es": {
+        "title": "The Walking Dead: World Beyond",
+        "overview": "La serie, ambientada en Nebraska diez años después del inicio del apocalipsis zombi, presenta a dos jóvenes protagonistas femeninas y se centra en \"la primera generación de jóvenes en alcanzar la mayoría de edad en medio del apocalipsis sin que tengan conocimiento de cómo era el mundo antes de la aparición de los caminantes. Algunos se convertirán en héroes. Algunos se convertirán en villanos. Al final, todos ellos cambiarán para siempre. Adultos y cimentados en sus identidades, tanto buenas como malas\"."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2020-10-04"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2021-10-03"
+      }
+    ],
+    "runtimeMin": 944
+  },
+  {
+    "id": "tales-of-the-walking-dead-2022",
+    "tmdbId": 136248,
+    "tmdbType": "tv",
+    "title": "Tales of the Walking Dead",
+    "kind": "series",
+    "releaseDate": "2022-08-14",
+    "imdbId": "tt15669534",
+    "posterPath": "/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+    "overview": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+    "localized": {
+      "en": {
+        "title": "Tales of the Walking Dead",
+        "overview": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\""
+      },
+      "es": {
+        "title": "Tales of the Walking Dead",
+        "overview": "Esperada expansión del universo de The Walking Dead es un drama episódico que cuenta seis historias originales e independientes centradas en personajes nuevos y establecidos dentro del apocalipsis de los caminantes."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2022-08-14"
+      }
+    ],
+    "runtimeMin": 270
+  },
+  {
+    "id": "the-walking-dead-dead-city-2023",
+    "tmdbId": 194583,
+    "tmdbType": "tv",
+    "title": "The Walking Dead: Dead City",
+    "kind": "series",
+    "releaseDate": "2023-06-18",
+    "imdbId": "tt18546730",
+    "posterPath": "/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
+    "overview": "Maggie and Negan travel to post-apocalyptic Manhattan - long ago cut off from the mainland. The crumbling city is filled with the dead and denizens who have made it a world full of anarchy, danger, beauty, and terror.",
+    "localized": {
+      "en": {
+        "title": "The Walking Dead: Dead City",
+        "overview": "Maggie and Negan travel to post-apocalyptic Manhattan - long ago cut off from the mainland. The crumbling city is filled with the dead and denizens who have made it a world full of anarchy, danger, beauty, and terror."
+      },
+      "es": {
+        "title": "The Walking Dead: Dead City",
+        "overview": "\"Dead City\" amplía la narración de \"The Walking Dead\" en torno a dos personajes inolvidables que los fanáticos han llegado a amar, odiar y luego amar en Maggie y Negan. También explora un rincón de este universo ubicado en la isla de Manhattan, con un horizonte icónico que adquiere un significado muy diferente cuando se ve a través de la lente de un apocalipsis zombie."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2023-06-18"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-05-04"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2026-07-26"
+      }
+    ],
+    "runtimeMin": 1034,
+    "ongoing": true
+  },
+  {
+    "id": "the-walking-dead-daryl-dixon-2023",
+    "tmdbId": 211684,
+    "tmdbType": "tv",
+    "title": "The Walking Dead: Daryl Dixon",
+    "kind": "series",
+    "releaseDate": "2023-09-10",
+    "imdbId": "tt13062500",
+    "posterPath": "/sP5QdW9FN18XWcA4ROz3MPAQBTx.jpg",
+    "overview": "After washing ashore in France, Daryl struggles to piece together how he got there and why, as he navigates a fractured, walker-infested landscape to find his way home. During his journey, Daryl has to protect a young boy, Laurent, who is seen as a messiah, while facing new, dangerous walker variants and the \"Power of the Living\" paramilitary group, as the connections he forms along the way complicate his plan to return home.",
+    "localized": {
+      "en": {
+        "title": "The Walking Dead: Daryl Dixon",
+        "overview": "After washing ashore in France, Daryl struggles to piece together how he got there and why, as he navigates a fractured, walker-infested landscape to find his way home. During his journey, Daryl has to protect a young boy, Laurent, who is seen as a messiah, while facing new, dangerous walker variants and the \"Power of the Living\" paramilitary group, as the connections he forms along the way complicate his plan to return home."
+      },
+      "es": {
+        "title": "The Walking Dead: Daryl Dixon",
+        "overview": "Serie spin-off de The Walking Dead que cuenta la historia de Daryl Dixon tras haber sobtevivido a los diferentes problemas causados a raíz del apocalipsisi zombie. Daryl desembarca en la zona de origen del virus que ha provocado la epidemia, en Francia, pero no sabe muy bien cómo ha llegado hasta allí y con qué motivo.\n\nComenzará allí un viaje a través de una Francia rota pero resistente, con la esperanza de poder volver a casa sano y salvo. Sin embargo, a medida que progresa su travesía de regreso, las conexiones que establece por el camino complican su plan final."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2023-09-10"
+      },
+      {
+        "number": 2,
+        "episodes": 6,
+        "airDate": "2024-09-29"
+      },
+      {
+        "number": 3,
+        "episodes": 7,
+        "airDate": "2025-09-07"
+      },
+      {
+        "number": 4,
+        "episodes": 1
+      }
+    ],
+    "runtimeMin": 1041,
+    "ongoing": true
+  },
+  {
+    "id": "the-walking-dead-the-ones-who-live-2024",
+    "tmdbId": 206586,
+    "tmdbType": "tv",
+    "title": "The Walking Dead: The Ones Who Live",
+    "kind": "series",
+    "releaseDate": "2024-02-25",
+    "imdbId": "tt9859436",
+    "posterPath": "/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
+    "overview": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
+    "localized": {
+      "en": {
+        "title": "The Walking Dead: The Ones Who Live",
+        "overview": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?"
+      },
+      "es": {
+        "title": "The Walking Dead: Sobrevivientes",
+        "overview": "La historia de amor de Rick Grimes y Michonne cambia gracias a un mundo cambiado. Separados por la distancia. Por un poder imparable. ¿Podrán encontrarse y descubrir quiénes eran en una situación diferente a cualquier otra que hayan conocido?"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2024-02-25"
+      }
+    ],
+    "runtimeMin": 313
+  },
+  {
+    "id": "the-witcher-2019",
+    "tmdbId": 71912,
+    "tmdbType": "tv",
+    "title": "The Witcher",
+    "kind": "series",
+    "releaseDate": "2019-12-20",
+    "imdbId": "tt5180504",
+    "posterPath": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
+    "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+    "localized": {
+      "en": {
+        "title": "The Witcher",
+        "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts."
+      },
+      "es": {
+        "title": "The Witcher",
+        "overview": "El brujo Geralt, un cazador mutante de monstruos, lucha por encontrar su lugar en un mundo en el que las personas son frecuentemente más perversas que las bestias."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2019-12-20"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2021-12-17"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2023-06-29"
+      },
+      {
+        "number": 4,
+        "episodes": 8,
+        "airDate": "2025-10-30"
+      }
+    ],
+    "runtimeMin": 1842,
+    "ongoing": true
+  },
+  {
+    "id": "the-witcher-blood-origin-2022",
+    "tmdbId": 106541,
+    "tmdbType": "tv",
+    "title": "The Witcher: Blood Origin",
+    "kind": "series",
+    "releaseDate": "2022-12-25",
+    "imdbId": "tt12785720",
+    "posterPath": "/vpfJK9F0UJNcAIIeC42oJyKMnZQ.jpg",
+    "overview": "More than a thousand years before the world of The Witcher, seven outcasts in the elven world unite in a blood quest against an unstoppable power.",
+    "localized": {
+      "en": {
+        "title": "The Witcher: Blood Origin",
+        "overview": "More than a thousand years before the world of The Witcher, seven outcasts in the elven world unite in a blood quest against an unstoppable power."
+      },
+      "es": {
+        "title": "The Witcher: El origen de la sangre",
+        "overview": "Más de mil años antes de los eventos de «The Witcher», siete parias de un mundo élfico unen sus fuerzas en una misión contra un imperio todopoderoso."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 4,
+        "airDate": "2022-12-25"
+      }
+    ],
+    "runtimeMin": 208
+  },
+  {
+    "id": "the-witcher-nightmare-of-the-wolf-2021",
+    "tmdbId": 666243,
+    "tmdbType": "movie",
+    "title": "The Witcher: Nightmare of the Wolf",
+    "kind": "movie",
+    "releaseDate": "2021-08-22",
+    "imdbId": "tt11657662",
+    "posterPath": "/3sLz2yv6vBDWqBbd8rdnNeoJ2kJ.jpg",
+    "overview": "Escaping from poverty to become a witcher, Vesemir slays monsters for coin and glory, but when a new menace rises, he must face the demons of his past.",
+    "localized": {
+      "en": {
+        "title": "The Witcher: Nightmare of the Wolf",
+        "overview": "Escaping from poverty to become a witcher, Vesemir slays monsters for coin and glory, but when a new menace rises, he must face the demons of his past."
+      },
+      "es": {
+        "title": "The Witcher: La pesadilla del lobo",
+        "overview": "Vesemir huye de la pobreza para convertirse en brujo, matando monstruos por el dinero y la gloria, pero una nueva amenaza lo obliga a enfrentar los demonios de su pasado."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "the-witcher-sirens-of-the-deep-2025",
+    "tmdbId": 1203329,
+    "tmdbType": "movie",
+    "title": "The Witcher: Sirens of the Deep",
+    "kind": "movie",
+    "releaseDate": "2025-02-10",
+    "imdbId": "tt15495150",
+    "posterPath": "/y0pR5aBVvPn5uncaZjl94ZEnuEF.jpg",
+    "overview": "When human sailors are attacked by mysterious creatures of the deep, only one person can stop the war between land and sea: the Witcher, Geralt of Rivia.",
+    "localized": {
+      "en": {
+        "title": "The Witcher: Sirens of the Deep",
+        "overview": "When human sailors are attacked by mysterious creatures of the deep, only one person can stop the war between land and sea: the Witcher, Geralt of Rivia."
+      },
+      "es": {
+        "title": "The Witcher: Sirenas de las profundidades",
+        "overview": "Cuando unos misteriosos seres de las profundidades atacan a unos marineros, solo hay una persona que puede impedir el conflicto entre mar y tierra: Geralt de Rivia."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "ghostbusters-1984",
+    "tmdbId": 620,
+    "tmdbType": "movie",
+    "title": "Ghostbusters",
+    "kind": "movie",
+    "releaseDate": "1984-06-08",
+    "imdbId": "tt0087332",
+    "posterPath": "/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+    "overview": "After losing their university jobs, three parapsychologists start a ghost-catching business in New York City and uncover a supernatural threat that could destroy the world.",
+    "localized": {
+      "en": {
+        "title": "Ghostbusters",
+        "overview": "After losing their university jobs, three parapsychologists start a ghost-catching business in New York City and uncover a supernatural threat that could destroy the world."
+      },
+      "es": {
+        "title": "Los Cazafantasmas",
+        "overview": "Los Drs. Venkman, Stantz y Epengler, son tres doctores en parapsicología que se quedan sin empleo tras quedar excluidos de una beca universitaria de investigación. Entonces deciden formar la empresa \"Los Cazafantasmas\", dedicada a limpiar Nueva York de ectoplasmas. El aumento repentino de apariciones espectrales en la Gran Manzana será el presagio de la llegada de un peligroso y poderoso demonio."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "ghostbusters-ii-1989",
+    "tmdbId": 2978,
+    "tmdbType": "movie",
+    "title": "Ghostbusters II",
+    "kind": "movie",
+    "releaseDate": "1989-06-16",
+    "imdbId": "tt0097428",
+    "posterPath": "/iUZPi31KDP0n5ycpycEsvl51BdV.jpg",
+    "overview": "The discovery of a massive river of ectoplasm and a resurgence of spectral activity allows the staff of Ghostbusters to revive the business.",
+    "localized": {
+      "en": {
+        "title": "Ghostbusters II",
+        "overview": "The discovery of a massive river of ectoplasm and a resurgence of spectral activity allows the staff of Ghostbusters to revive the business."
+      },
+      "es": {
+        "title": "Los Cazafantasmas 2",
+        "overview": "Han pasado cinco años desde que los cazafantasmas entraron por última vez en acción. El doctor Peter Venkman, notable parapsicólogo de persuasivos encantos, ha quedado relegado a maestro de ceremonias de un programa de televisión donde se discuten fenómenos psíquicos. Ray Stantz y su colega Winston Zeddemore se ganan la vida entreteniendo a niños en fiestas infantiles, y el mago tecnológico Egon Spengler continúa sus investigaciones sobre los efectos de las emociones humanas en el campo de energía psicomagnética. La relación de Dana Barrett con Venkman se disolvió; ella se casó con otro hombre y tuvo un hijo, pero el matrimonio fracasó. Ahora Dana vive sola en Nueva York, criando a Oscar, su bebé de ocho meses, y trabajando como restauradora de cuadros en el Museo de arte de Manhattan, junto a un excéntrico experto en pinturas del periodo romántico, Janosz Poha. Todo parece normal hasta que el cochecito de Oscar rueda por sí solo y se mete entre el peligroso tráfico de la ciudad."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "ghostbusters-2016",
+    "tmdbId": 43074,
+    "tmdbType": "movie",
+    "title": "Ghostbusters",
+    "kind": "movie",
+    "releaseDate": "2016-07-14",
+    "imdbId": "tt1289401",
+    "posterPath": "/wJmWliwXIgZOCCVOcGRBhce7xPS.jpg",
+    "overview": "Following a ghost invasion of Manhattan, paranormal enthusiasts Erin Gilbert and Abby Yates, nuclear engineer Jillian Holtzmann, and subway worker Patty Tolan band together to stop the otherworldly threat.",
+    "localized": {
+      "en": {
+        "title": "Ghostbusters",
+        "overview": "Following a ghost invasion of Manhattan, paranormal enthusiasts Erin Gilbert and Abby Yates, nuclear engineer Jillian Holtzmann, and subway worker Patty Tolan band together to stop the otherworldly threat."
+      },
+      "es": {
+        "title": "Cazafantasmas",
+        "overview": "Manhattan, Nueva York. Después de casi treinta años sin saber de ellos, los fantasmas y demonios se han vuelto a escapar de los infiernos para destruir la ciudad. Esta vez un nuevo equipo de cazafantasmas, formado por un grupo de cuatro mujeres, está dispuesto a terminar con cualquier amenaza espectral."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "ghostbusters-afterlife-2021",
+    "tmdbId": 425909,
+    "tmdbType": "movie",
+    "title": "Ghostbusters: Afterlife",
+    "kind": "movie",
+    "releaseDate": "2021-11-18",
+    "imdbId": "tt4513678",
+    "posterPath": "/sg4xJaufDiQl7caFEskBtQXfD4x.jpg",
+    "overview": "When single mom Callie and her two kids Trevor and Phoebe arrive in a small Oklahoma town, they begin to discover their connection to the original Ghostbusters and the secret legacy their grandfather left behind.",
+    "localized": {
+      "en": {
+        "title": "Ghostbusters: Afterlife",
+        "overview": "When single mom Callie and her two kids Trevor and Phoebe arrive in a small Oklahoma town, they begin to discover their connection to the original Ghostbusters and the secret legacy their grandfather left behind."
+      },
+      "es": {
+        "title": "Ghostbusters: El Legado",
+        "overview": "Cuando una madre soltera y dos niños llegan a un pequeño pueblo, ellos comienzan a descubrir la conexión entre los cazafantasmas originales y el legado secreto que dejó su abuelo."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "ghostbusters-frozen-empire-2024",
+    "tmdbId": 967847,
+    "tmdbType": "movie",
+    "title": "Ghostbusters: Frozen Empire",
+    "kind": "movie",
+    "releaseDate": "2024-03-20",
+    "imdbId": "tt21235248",
+    "posterPath": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
+    "overview": "The Spengler family returns to where it all started - the iconic New York City firehouse - to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age.",
+    "localized": {
+      "en": {
+        "title": "Ghostbusters: Frozen Empire",
+        "overview": "The Spengler family returns to where it all started - the iconic New York City firehouse - to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
+      },
+      "es": {
+        "title": "Ghostbusters: Apocalipsis fantasma",
+        "overview": "La familia Spengler regresa al lugar donde empezó todo, la icónica estación de bomberos de la ciudad de Nueva York, para formar equipo con los Cazafantasmas originales, quienes han desarrollado un laboratorio de investigación ultrasecreto para llevar la caza de fantasmas al siguiente nivel. Pero cuando el descubrimiento de un antiguo artefacto desata una fuerza maligna, los Cazafantasmas nuevos y antiguos deben unir fuerzas para proteger su hogar y salvar al mundo de una segunda Edad de Hielo."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "the-real-ghostbusters-1986",
+    "tmdbId": 2286,
+    "tmdbType": "tv",
+    "title": "The Real Ghostbusters",
+    "kind": "series",
+    "releaseDate": "1986-09-13",
+    "imdbId": "tt0090506",
+    "posterPath": "/kLquadlhGPfpKHkVNRgrq0tzHkL.jpg",
+    "overview": "The continuing adventures of paranormal investigators Dr. Peter Venkman, Dr. Egon Spengler, Dr. Ray Stantz, Winston Zeddemore, their secretary Janine Melnitz and their mascot ghost Slimer.",
+    "localized": {
+      "en": {
+        "title": "The Real Ghostbusters",
+        "overview": "The continuing adventures of paranormal investigators Dr. Peter Venkman, Dr. Egon Spengler, Dr. Ray Stantz, Winston Zeddemore, their secretary Janine Melnitz and their mascot ghost Slimer."
+      },
+      "es": {
+        "title": "Los Verdaderos Cazafantasmas",
+        "overview": "Adaptación de animación de la película \"Los Cazafantasmas\". Continúa las aventuras de Peter Venkman, Ray Stantz, Egon Spengler, Winston Zeddmore, su secretaria Janine Melnitz y de su mascota 'Pegajoso\", que buscan a los fantasmas que amenazan a los ciudadanos para encerrarlos en la cámara de almacenamiento oculta en el sótano de su estación."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "1986-09-13"
+      },
+      {
+        "number": 2,
+        "episodes": 65,
+        "airDate": "1987-09-14"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "1987-09-12"
+      },
+      {
+        "number": 4,
+        "episodes": 8,
+        "airDate": "1988-09-10"
+      },
+      {
+        "number": 5,
+        "episodes": 21,
+        "airDate": "1989-09-16"
+      },
+      {
+        "number": 6,
+        "episodes": 16,
+        "airDate": "1990-09-08"
+      },
+      {
+        "number": 7,
+        "episodes": 4,
+        "airDate": "1991-09-07"
+      }
+    ],
+    "runtimeMin": 3520
+  },
+  {
+    "id": "kingsman-the-secret-service-2015",
+    "tmdbId": 207703,
+    "tmdbType": "movie",
+    "title": "Kingsman: The Secret Service",
+    "kind": "movie",
+    "releaseDate": "2015-01-24",
+    "imdbId": "tt2802144",
+    "posterPath": "/r6q9wZK5a2K51KFj4LWVID6Ja1r.jpg",
+    "overview": "The story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius.",
+    "localized": {
+      "en": {
+        "title": "Kingsman: The Secret Service",
+        "overview": "The story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius."
+      },
+      "es": {
+        "title": "Kingsman: El Servicio Secreto",
+        "overview": "Una organización de espías recluta a un prometedor chico de la calle en el programa de entrenamiento de la agencia, mientras que una amenaza global emerge de un genio tecnológico retorcido."
+      }
+    },
+    "runtimeMin": 129
+  },
+  {
+    "id": "kingsman-the-golden-circle-2017",
+    "tmdbId": 343668,
+    "tmdbType": "movie",
+    "title": "Kingsman: The Golden Circle",
+    "kind": "movie",
+    "releaseDate": "2017-09-20",
+    "imdbId": "tt4649466",
+    "posterPath": "/34xBL6BXNYFqtHO9zhcgoakS4aP.jpg",
+    "overview": "When an attack on the Kingsman headquarters takes place and a new villain rises, Eggsy and Merlin are forced to work together with the American agency known as the Statesman to save the world.",
+    "localized": {
+      "en": {
+        "title": "Kingsman: The Golden Circle",
+        "overview": "When an attack on the Kingsman headquarters takes place and a new villain rises, Eggsy and Merlin are forced to work together with the American agency known as the Statesman to save the world."
+      },
+      "es": {
+        "title": "Kingsman: El círculo dorado",
+        "overview": "Tras la destrucción del cuartel general de los Kingsman y la toma de rehenes en el mundo, se descubre una organización de espionaje aliada en Estados Unidos. Estas dos organizaciones secretas de élite deben unirse para derrotar a un enemigo común."
+      }
+    },
+    "runtimeMin": 141
+  },
+  {
+    "id": "the-kings-man-2021",
+    "tmdbId": 476669,
+    "tmdbType": "movie",
+    "title": "The King's Man",
+    "kind": "movie",
+    "releaseDate": "2021-12-22",
+    "imdbId": "tt6856242",
+    "posterPath": "/iMjSfMUuCkCE7z5fzGtjeDusPD3.jpg",
+    "overview": "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them.",
+    "localized": {
+      "en": {
+        "title": "The King's Man",
+        "overview": "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them."
+      },
+      "es": {
+        "title": "The King's Man: El Origen",
+        "overview": "Cuando un grupo formado por los tiranos y las mentes criminales más malvadas de la historia se une para desencadenar una guerra que matará a millones de personas, un hombre tendrá que luchar a contrarreloj para detenerlos. Tercera entrega de la saga 'Kingsman', ambientada muchos años antes de las anteriores y explicando el origen de la agencia."
+      }
+    },
+    "runtimeMin": 131
+  },
+  {
+    "id": "the-hunt-for-red-october-1990",
+    "tmdbId": 1669,
+    "tmdbType": "movie",
+    "title": "The Hunt for Red October",
+    "kind": "movie",
+    "releaseDate": "1990-03-02",
+    "imdbId": "tt0099810",
+    "posterPath": "/yVl7zidse4KiWtGMqHFtZCx4X3N.jpg",
+    "overview": "A new technologically-superior Soviet nuclear sub, the Red October, is heading for the U.S. coast under the command of Captain Marko Ramius. The American government thinks Ramius is planning to attack. Lone CIA analyst Jack Ryan has a different idea: he thinks Ramius is planning to defect, but he has only a few hours to find him and prove it - because the entire Russian naval and air commands are trying to find Ramius, too. The hunt is on!",
+    "localized": {
+      "en": {
+        "title": "The Hunt for Red October",
+        "overview": "A new technologically-superior Soviet nuclear sub, the Red October, is heading for the U.S. coast under the command of Captain Marko Ramius. The American government thinks Ramius is planning to attack. Lone CIA analyst Jack Ryan has a different idea: he thinks Ramius is planning to defect, but he has only a few hours to find him and prove it - because the entire Russian naval and air commands are trying to find Ramius, too. The hunt is on!"
+      },
+      "es": {
+        "title": "La caza del Octubre rojo",
+        "overview": "Un submarino nuclear, al mando de un prestigioso general de la Unión Soviética, se interna en el Océano Atlántico con rumbo a los Estados Unidos. La CIA, que ignora si pretende atacarles o desertar de su país, encarga al agente Jack Ryan que se ponga en contacto con él para saber sus verdaderas intenciones. Fue la primera entrega de una saga sobre las aventuras de Jack Ryan, el brillante analista y agente de la inteligencia americana creado por Tom Clancy."
+      }
+    },
+    "runtimeMin": 135
+  },
+  {
+    "id": "patriot-games-1992",
+    "tmdbId": 9869,
+    "tmdbType": "movie",
+    "title": "Patriot Games",
+    "kind": "movie",
+    "releaseDate": "1992-06-04",
+    "imdbId": "tt0105112",
+    "posterPath": "/9IT7gnszrRthduYxCLqaIkM55Un.jpg",
+    "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+    "localized": {
+      "en": {
+        "title": "Patriot Games",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge."
+      },
+      "es": {
+        "title": "Juego de patriotas",
+        "overview": "Jack Ryan, ya ex agente de la CIA, se encuentra en Londres junto a su esposa Catherine y su hija Sally. Todo transcurre sin problemas, hasta que es testigo presencial de un atentado perpetrado por miembros de un grupúsculo del IRA en contra de Lord William Holmes de la familia real. Jack interviene frustrando el objetivo del atentado y eliminando algunos de los terroristas, entre ellos Paddy Miller. Su hermano Sean Miller es detenido y condenado a prisión, sin embargo es rescatado por ese grupúsculo del IRA y reintegrado a su unidad."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "clear-and-present-danger-1994",
+    "tmdbId": 9331,
+    "tmdbType": "movie",
+    "title": "Clear and Present Danger",
+    "kind": "movie",
+    "releaseDate": "1994-08-03",
+    "imdbId": "tt0109444",
+    "posterPath": "/6xTM8FPxrLRYwz6I3fqtwh7xybs.jpg",
+    "overview": "Agent Jack Ryan becomes acting Deputy Director of Intelligence for the CIA when Admiral Greer is diagnosed with cancer. When an American businessman, and friend of the president, is murdered on his yacht, Ryan starts discovering links between the man and drug dealers. As former CIA agent John Clark is sent to Colombia to kill drug cartel kingpins in retaliation, Ryan must fight through multiple cover-ups to figure out what happened and who's responsible.",
+    "localized": {
+      "en": {
+        "title": "Clear and Present Danger",
+        "overview": "Agent Jack Ryan becomes acting Deputy Director of Intelligence for the CIA when Admiral Greer is diagnosed with cancer. When an American businessman, and friend of the president, is murdered on his yacht, Ryan starts discovering links between the man and drug dealers. As former CIA agent John Clark is sent to Colombia to kill drug cartel kingpins in retaliation, Ryan must fight through multiple cover-ups to figure out what happened and who's responsible."
+      },
+      "es": {
+        "title": "Peligro inminente",
+        "overview": "Cuando el Almirante James Greer cae gravemente enfermo, Ryan es nombrado subdirector de la CIA. Su primera misión: investigar el asesinato de uno de los amigos personales del Presidente, un importante hombre de negocios vinculado al tráfico de drogas colombiano. Pero sin que Ryan lo sepa, la CIA ha enviado una fuerza paramilitar, dirigida por el temible Clark, contra el cártel colombiano. Atrapado entre dos fuegos, Ryan decide arriesgar su carrera y su vida por la única causa en la que aún cree: la verdad."
+      }
+    },
+    "runtimeMin": 141
+  },
+  {
+    "id": "the-sum-of-all-fears-2002",
+    "tmdbId": 4614,
+    "tmdbType": "movie",
+    "title": "The Sum of All Fears",
+    "kind": "movie",
+    "releaseDate": "2002-05-31",
+    "imdbId": "tt0164184",
+    "posterPath": "/3E4LW4bjRhEMDeeXeIsmkJ94v8K.jpg",
+    "overview": "When the president of Russia suddenly dies, a man whose politics are virtually unknown succeeds him. The change in political leaders sparks paranoia among American CIA officials, so CIA director Bill Cabot recruits a young analyst to supply insight and advice on the situation. Then the unthinkable happens: a nuclear bomb explodes in a U.S. city, and America is quick to blame the Russians.",
+    "localized": {
+      "en": {
+        "title": "The Sum of All Fears",
+        "overview": "When the president of Russia suddenly dies, a man whose politics are virtually unknown succeeds him. The change in political leaders sparks paranoia among American CIA officials, so CIA director Bill Cabot recruits a young analyst to supply insight and advice on the situation. Then the unthinkable happens: a nuclear bomb explodes in a U.S. city, and America is quick to blame the Russians."
+      },
+      "es": {
+        "title": "La Suma de Todos los Miedos",
+        "overview": "En 1973, el ejército de Israel perdió un caza con un misil nuclear, abatido por fuerzas enemigas. No se volvió a saber del misil. 29 años después, un viejo árabe lo encuentra semienterrado y abandonado en el Golán, y se lo vende a un mercenario con conexiones con unos potentados neonazis. Al mismo tiempo, en Rusia, se produce un nuevo cambio de presidente, y el nuevo mandatario, apenas conocido, no despierta plena confianza para la CIA... Nueva y trepidante aventura del agente de la CIA Jack Ryan (interpretado ahora por Ben Affleck y al que anteriormente habían dado vida Alec Baldwin y Harrison Ford). La película tuvo su polémica al tratar el tema del terrorismo de forma apocalíptica cuando todavía estaba reciente el recuerdo del 11-S. Además, en la novela de Tom Clancy los terroristas eran fanáticos musulmanes, pero los productores decidieron \"sustituirlos\" por terroristas neonazis en la adaptación cinematográfica..."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "jack-ryan-shadow-recruit-2014",
+    "tmdbId": 137094,
+    "tmdbType": "movie",
+    "title": "Jack Ryan: Shadow Recruit",
+    "kind": "movie",
+    "releaseDate": "2014-01-15",
+    "imdbId": "tt1205537",
+    "posterPath": "/m7HcLUodrD4lM4s0Hui1tzO2pjO.jpg",
+    "overview": "Jack Ryan, as a young covert CIA analyst, uncovers a Russian plot to crash the U.S. economy with a terrorist attack.",
+    "localized": {
+      "en": {
+        "title": "Jack Ryan: Shadow Recruit",
+        "overview": "Jack Ryan, as a young covert CIA analyst, uncovers a Russian plot to crash the U.S. economy with a terrorist attack."
+      },
+      "es": {
+        "title": "Jack Ryan: Código Sombra",
+        "overview": "Jack Ryan, analista encubierto de la CIA, descubre un complot para colapsar la economía estadounidense y debe viajar a Moscú para detenerlo."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "tom-clancys-jack-ryan-2018",
+    "tmdbId": 73375,
+    "tmdbType": "tv",
+    "title": "Tom Clancy's Jack Ryan",
+    "kind": "series",
+    "releaseDate": "2018-08-30",
+    "imdbId": "tt5057054",
+    "posterPath": "/cO4py3L3q5GNPrA0qr1wVDrosK1.jpg",
+    "overview": "When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a massive attack against the US and her allies.",
+    "localized": {
+      "en": {
+        "title": "Tom Clancy's Jack Ryan",
+        "overview": "When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a massive attack against the US and her allies."
+      },
+      "es": {
+        "title": "Jack Ryan",
+        "overview": "Jack Ryan es una serie de acción y política americana, basada en los personajes y el mundo del espionaje internacional, creados por el escritor Tom Clancy. La historia sigue al analista de la CIA, Jack Ryan, mientras es forzado a abandonar el monótono pero seguro papeleo de escritorio y ser lanzado a los riesgosos trabajos de campo, después de tropezarse con una sospechosa serie de transferencias bancarias que lo obligarán a tomar parte en un mortal juego del gato y el ratón. Esta misión lo llevará a diferentes lugares de Europa y del medio Este, tratando de capturar a un poderoso miembro del estado islámico llamado Suleiman. La tensión aumenta a medida que la organización terrorista se prepara para realizar un ataque masivo a gran escala en los Estados Unidos y todos sus países aliados, por lo que Jack deberá de realizar los actos más extremos para tratar de impedirlo. Ademas de esta historia principal, seremos testigo de una trama secundaria en la cual podemos ver los motivos y las aspiraciones que llevaron a Jack a buscar un puesto en la CIA, ademas de fragmentos de su pasado que sirvieron para forjar su carácter."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2018-08-30"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2019-10-31"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2022-12-20"
+      },
+      {
+        "number": 4,
+        "episodes": 6,
+        "airDate": "2023-06-29"
+      }
+    ],
+    "runtimeMin": 1572
+  },
+  {
+    "id": "tom-clancys-jack-ryan-ghost-war-2026",
+    "tmdbId": 1380291,
+    "tmdbType": "movie",
+    "title": "Tom Clancy's Jack Ryan: Ghost War",
+    "kind": "movie",
+    "releaseDate": "2026-05-20",
+    "imdbId": "tt34378301",
+    "posterPath": "/8ehYxUh5MWE41AeE9gkHE8DKzvB.jpg",
+    "overview": "Jack Ryan is reluctantly pulled back into espionage when an international covert mission unravels a deadly conspiracy. Racing against time, he joins CIA allies Mike November & James Greer and sharp MI6 officer Emma Marlowe to battle a rogue black-ops unit in a high-stakes, deeply personal fight.",
+    "localized": {
+      "en": {
+        "title": "Tom Clancy's Jack Ryan: Ghost War",
+        "overview": "Jack Ryan is reluctantly pulled back into espionage when an international covert mission unravels a deadly conspiracy. Racing against time, he joins CIA allies Mike November & James Greer and sharp MI6 officer Emma Marlowe to battle a rogue black-ops unit in a high-stakes, deeply personal fight."
+      },
+      "es": {
+        "title": "Jack Ryan de Tom Clancy: Guerra fantasma",
+        "overview": "En esta nueva película, Jack Ryan vuelve a regañadientes al espionaje cuando una misión encubierta internacional destapa una conspiración mortal. En una carrera contra el tiempo, se une a sus aliados de la CIA Mike November y James Greer y a la astuta oficial del MI6 Emma Marlowe para enfrentarse a una unidad renegada de operaciones encubiertas en una pelea muy personal y con mucho en juego."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe-2005",
+    "tmdbId": 411,
+    "tmdbType": "movie",
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "kind": "movie",
+    "releaseDate": "2005-12-07",
+    "imdbId": "tt0363771",
+    "posterPath": "/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
+    "overview": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "overview": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+      },
+      "es": {
+        "title": "Las crónicas de Narnia: El león, la bruja y el ropero",
+        "overview": "La historia narra las aventuras de cuatro hermanos: Lucy, Edmund, Susan y Peter, que durante la Segunda Guerra Mundial descubren el mundo de Narnia, al que acceden a través de un armario mágico mientras juegan al escondite en la casa de campo de un viejo profesor. En Narnia descubrirán un mundo increíble habitado por animales que hablan, duendes, faunos, centauros y gigantes al que la Bruja Blanca- Jadis- ha condenado al invierno eterno. Con la ayuda del león Aslan, el noble soberano, los niños lucharán para vencer el poder que la Bruja Blanca ejerce sobre Narnia en una espectacular batalla y conseguir así liberarle de la maldición del frío."
+      }
+    },
+    "runtimeMin": 143
+  },
+  {
+    "id": "the-chronicles-of-narnia-prince-caspian-2008",
+    "tmdbId": 2454,
+    "tmdbType": "movie",
+    "title": "The Chronicles of Narnia: Prince Caspian",
+    "kind": "movie",
+    "releaseDate": "2008-05-15",
+    "imdbId": "tt0499448",
+    "posterPath": "/qxz3WIyjZiSKUhaTIEJ3c1GcC9z.jpg",
+    "overview": "One year after their incredible adventures in the Lion, the Witch and the Wardrobe, Peter, Edmund, Lucy and Susan Pevensie return to Narnia to aid a young prince whose life has been threatened by the evil King Miraz. Now, with the help of a colorful cast of new characters, including Trufflehunter the badger and Nikabrik the dwarf, the Pevensie clan embarks on an incredible quest to ensure that Narnia is returned to its rightful heir.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia: Prince Caspian",
+        "overview": "One year after their incredible adventures in the Lion, the Witch and the Wardrobe, Peter, Edmund, Lucy and Susan Pevensie return to Narnia to aid a young prince whose life has been threatened by the evil King Miraz. Now, with the help of a colorful cast of new characters, including Trufflehunter the badger and Nikabrik the dwarf, the Pevensie clan embarks on an incredible quest to ensure that Narnia is returned to its rightful heir."
+      },
+      "es": {
+        "title": "Las crónicas de Narnia: El príncipe Caspian",
+        "overview": "La acción de \"Las crónicas de Narnia. El Príncipe Caspian\" transcurre un año después de los increíbles acontecimientos de «El León, la Bruja y el Armario», cuando los reyes y las reinas de Narnia -los 4 hermanos Pevensie- vuelven a reunirse en ese remoto y fantástico mundo, donde descubrirán que han pasado más de 1.300 años, calculados en tiempo narniano. Durante su ausencia, la Edad de Oro de Narnia ha terminado, y los Telmarinos han conquistado el reino de Narnia, que ahora está dominado por el malvado Rey Miraz, que gobierna sin piedad. Los cuatro niños no tardarán en conocer un nuevo y extraño personaje: el joven Príncipe Caspian, heredero legítimo al trono que se ha visto obligado a esconderse ya que su tío Miraz trama su asesinato para colocar a su hijo recién nacido en el trono."
+      }
+    },
+    "runtimeMin": 150
+  },
+  {
+    "id": "the-chronicles-of-narnia-the-voyage-of-the-dawn-treader-2010",
+    "tmdbId": 10140,
+    "tmdbType": "movie",
+    "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+    "kind": "movie",
+    "releaseDate": "2010-12-02",
+    "imdbId": "tt0980970",
+    "posterPath": "/pP27zlm9yeKrCeDZLFLP2HKELot.jpg",
+    "overview": "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+        "overview": "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world."
+      },
+      "es": {
+        "title": "Las Crónicas de Narnia 3: La Travesía del Viajero del Alba",
+        "overview": "Tercera entrega de la saga literaria creada por C.S. Lewis. En esta ocasión, los hermanos Edmund y Lucy Pevensie y su primo Eustace embarcan en la nave \"El Viajero del Alba\" para buscar a los siete caballeros que han sido expulsados del reino por Miraz, el usurpador del trono de Narnia."
+      }
+    },
+    "runtimeMin": 113
+  },
+  {
+    "id": "the-chronicles-of-narnia-1988",
+    "tmdbId": 13793,
+    "tmdbType": "tv",
+    "title": "The Chronicles of Narnia",
+    "kind": "series",
+    "releaseDate": "1988-11-13",
+    "imdbId": "tt0094500",
+    "posterPath": "/pfAFIkQd9MD4KDxlElCVSNKwnaR.jpg",
+    "overview": "The Chronicles of Narnia is a British television miniseries adapting four of C.S. Lewis's books, blending live-action with animation for fantasy elements like Aslan and the creatures. The first series—The Lion, the Witch and the Wardrobe—aired from 13 November to 18 December 1988; the second—Prince Caspian and The Voyage of the Dawn Treader—aired from 19 November to 24 December 1989; and the third—The Silver Chair—from 18 November to 23 December 1990. Each series consists of six episodes each.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia",
+        "overview": "The Chronicles of Narnia is a British television miniseries adapting four of C.S. Lewis's books, blending live-action with animation for fantasy elements like Aslan and the creatures. The first series—The Lion, the Witch and the Wardrobe—aired from 13 November to 18 December 1988; the second—Prince Caspian and The Voyage of the Dawn Treader—aired from 19 November to 24 December 1989; and the third—The Silver Chair—from 18 November to 23 December 1990. Each series consists of six episodes each."
+      },
+      "es": {
+        "title": "The Chronicles of Narnia"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "1988-11-13"
+      },
+      {
+        "number": 2,
+        "episodes": 6,
+        "airDate": "1989-11-19"
+      },
+      {
+        "number": 3,
+        "episodes": 6,
+        "airDate": "1990-11-18"
+      }
+    ],
+    "runtimeMin": 539
+  },
+  {
+    "id": "tron-1982",
+    "tmdbId": 97,
+    "tmdbType": "movie",
+    "title": "Tron",
+    "kind": "movie",
+    "releaseDate": "1982-07-09",
+    "imdbId": "tt0084827",
+    "posterPath": "/jigY9B6TKz4qlfikZcd18qtzTK4.jpg",
+    "overview": "When brilliant video game maker Flynn hacks the mainframe of his ex-employer, he is beamed inside an astonishing digital world and becomes part of the very game he is designing. In his mission through cyberspace, Flynn matches wits with a maniacal Master Control Program and teams up with Tron, a security measure created to bring balance to the digital environment.",
+    "localized": {
+      "en": {
+        "title": "Tron",
+        "overview": "When brilliant video game maker Flynn hacks the mainframe of his ex-employer, he is beamed inside an astonishing digital world and becomes part of the very game he is designing. In his mission through cyberspace, Flynn matches wits with a maniacal Master Control Program and teams up with Tron, a security measure created to bring balance to the digital environment."
+      },
+      "es": {
+        "title": "Tron",
+        "overview": "Trás hackear la computadora de su exempleador, el creador de videojuegos Kevin Flynn se teletransporta en un asombroso mundo digital. Cómo forma parte del juego, su misión es enfrentarse a un maniático Programa de Control Maestro y aliarse con Tron, un programa de seguridad."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "tron-uprising-2012",
+    "tmdbId": 34356,
+    "tmdbType": "tv",
+    "title": "TRON: Uprising",
+    "kind": "series",
+    "releaseDate": "2012-06-07",
+    "imdbId": "tt1812523",
+    "posterPath": "/dgajee1p38rJo6ndgvJRti4eqcp.jpg",
+    "overview": "Some time between 'Tron' and 'Tron: Legacy', a young program named Beck becomes the skillful leader of a revolution inside the computer world of The Grid.",
+    "localized": {
+      "en": {
+        "title": "TRON: Uprising",
+        "overview": "Some time between 'Tron' and 'Tron: Legacy', a young program named Beck becomes the skillful leader of a revolution inside the computer world of The Grid."
+      },
+      "es": {
+        "title": "Tron: La Resistencia",
+        "overview": "El joven programa llamado Beck se convierte en el hábil líder de una revolución del mundo digital."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 18,
+        "airDate": "2012-06-07"
+      }
+    ],
+    "runtimeMin": 432
+  },
+  {
+    "id": "tron-legacy-2010",
+    "tmdbId": 20526,
+    "tmdbType": "movie",
+    "title": "TRON: Legacy",
+    "kind": "movie",
+    "releaseDate": "2010-12-14",
+    "imdbId": "tt1104001",
+    "posterPath": "/xcO8Uun0mfmE3N9CaiCy0tvjpiu.jpg",
+    "overview": "Sam Flynn, the tech-savvy and daring son of Kevin Flynn, investigates his father's disappearance and is pulled into The Grid. With the help of a mysterious program named Quorra, Sam quests to stop evil dictator Clu from crossing into the real world.",
+    "localized": {
+      "en": {
+        "title": "TRON: Legacy",
+        "overview": "Sam Flynn, the tech-savvy and daring son of Kevin Flynn, investigates his father's disappearance and is pulled into The Grid. With the help of a mysterious program named Quorra, Sam quests to stop evil dictator Clu from crossing into the real world."
+      },
+      "es": {
+        "title": "Tron: El Legado",
+        "overview": "En un intento de descubrir la desaparición de su padre, el audaz Sam Flynn logra ingresar a un mundo digital. Acompañado de Quorra, Sam emprende una misión para impedir los planes del malvado dictador Clu."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "tron-ares-2025",
+    "tmdbId": 533533,
+    "tmdbType": "movie",
+    "title": "TRON: Ares",
+    "kind": "movie",
+    "releaseDate": "2025-10-08",
+    "imdbId": "tt6604188",
+    "posterPath": "/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
+    "overview": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind's first encounter with A.I. beings.",
+    "localized": {
+      "en": {
+        "title": "TRON: Ares",
+        "overview": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind's first encounter with A.I. beings."
+      },
+      "es": {
+        "title": "TRON: Ares",
+        "overview": "Un programa altamente sofisticado llamado Ares es enviado del mundo digital al mundo real en una misión peligrosa, marcando el primer encuentro de la humanidad con seres de IA."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "dexter-2006",
+    "tmdbId": 1405,
+    "tmdbType": "tv",
+    "title": "Dexter",
+    "kind": "series",
+    "releaseDate": "2006-10-01",
+    "imdbId": "tt0773262",
+    "posterPath": "/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+    "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+    "localized": {
+      "en": {
+        "title": "Dexter",
+        "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice."
+      },
+      "es": {
+        "title": "Dexter",
+        "overview": "Dexter Morgan, un analista de patrones de salpicaduras de sangre de la Policía Metropolitana de Miami, también lleva una vida secreta como asesino en serie, persiguiendo a criminales que han escapado a la justicia."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "2006-10-01"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2007-09-30"
+      },
+      {
+        "number": 3,
+        "episodes": 12,
+        "airDate": "2008-09-28"
+      },
+      {
+        "number": 4,
+        "episodes": 12,
+        "airDate": "2009-09-27"
+      },
+      {
+        "number": 5,
+        "episodes": 12,
+        "airDate": "2010-09-26"
+      },
+      {
+        "number": 6,
+        "episodes": 12,
+        "airDate": "2011-10-02"
+      },
+      {
+        "number": 7,
+        "episodes": 12,
+        "airDate": "2012-09-30"
+      },
+      {
+        "number": 8,
+        "episodes": 12,
+        "airDate": "2013-06-30"
+      }
+    ],
+    "runtimeMin": 5062
+  },
+  {
+    "id": "dexter-new-blood-2021",
+    "tmdbId": 131927,
+    "tmdbType": "tv",
+    "title": "Dexter: New Blood",
+    "kind": "series",
+    "releaseDate": "2021-11-07",
+    "imdbId": "tt14164730",
+    "posterPath": "/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
+    "overview": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons.",
+    "localized": {
+      "en": {
+        "title": "Dexter: New Blood",
+        "overview": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons."
+      },
+      "es": {
+        "title": "Dexter: New Blood",
+        "overview": "Ambientada 10 años después de que Dexter desapareciera en el ojo del huracán Laura, la serie lo encuentra viviendo con un nombre falso en la pequeña ciudad de Iron Lake, Nueva York. Dexter puede estar abrazando su nueva vida, pero a raíz de eventos inesperados en esta comunidad unida, su Oscuro Pasajero lo llama."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2021-11-07"
+      }
+    ],
+    "runtimeMin": 531
+  },
+  {
+    "id": "dexter-original-sin-2024",
+    "tmdbId": 219937,
+    "tmdbType": "tv",
+    "title": "Dexter: Original Sin",
+    "kind": "series",
+    "releaseDate": "2024-12-15",
+    "imdbId": "tt32252772",
+    "posterPath": "/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg",
+    "overview": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
+    "localized": {
+      "en": {
+        "title": "Dexter: Original Sin",
+        "overview": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department."
+      },
+      "es": {
+        "title": "Dexter: Pecado Original",
+        "overview": "En 1991, Miami. Dexter Morgan pasa de ser estudiante a ser un asesino en serie vengador, ya que sus impulsos sanguinarios no pueden ignorarse y debe aprender a canalizar su oscuridad interior. Un desafío particular para el joven Dexter, que comienza una pasantía forense en el Departamento de Policía Metropolitana de Miami."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2024-12-15"
+      }
+    ],
+    "runtimeMin": 510
+  },
+  {
+    "id": "dexter-resurrection-2025",
+    "tmdbId": 259909,
+    "tmdbType": "tv",
+    "title": "Dexter: Resurrection",
+    "kind": "series",
+    "releaseDate": "2025-07-13",
+    "imdbId": "tt33043892",
+    "posterPath": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+    "overview": "Dexter Morgan awakens from a coma to find Harrison gone without a trace. Realizing the weight of what he put his son through, Dexter sets out for New York City, determined to find him and make things right. But closure won't come easy. When Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast. As father and son navigate their own darkness in the city that never sleeps, they soon find themselves deeper than they ever imagined - and that the only way out is together.",
+    "localized": {
+      "en": {
+        "title": "Dexter: Resurrection",
+        "overview": "Dexter Morgan awakens from a coma to find Harrison gone without a trace. Realizing the weight of what he put his son through, Dexter sets out for New York City, determined to find him and make things right. But closure won't come easy. When Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast. As father and son navigate their own darkness in the city that never sleeps, they soon find themselves deeper than they ever imagined - and that the only way out is together."
+      },
+      "es": {
+        "title": "Dexter: Resurrección",
+        "overview": "Dexter Morgan despierta de un coma de diez semanas y, mientras comienza una dolorosa recuperación, se entera de que su hijo Harrison Morgan ha huido a Nueva York. Tanto el padre como el hijo se sienten más cerca de enfrentarse a la oscuridad de la que han intentado escapar."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2025-07-13"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2026-11-01"
+      }
+    ],
+    "runtimeMin": 629,
+    "ongoing": true
+  },
+  {
+    "id": "percy-jackson-and-the-olympians-the-lightning-thief-2010",
+    "tmdbId": 32657,
+    "tmdbType": "movie",
+    "title": "Percy Jackson & the Olympians: The Lightning Thief",
+    "kind": "movie",
+    "releaseDate": "2010-02-01",
+    "imdbId": "tt0814255",
+    "posterPath": "/brzpTyZ5bnM7s53C1KSk1TmrMO6.jpg",
+    "overview": "Accident prone teenager, Percy discovers he's actually a demi-God, the son of Poseidon, and he is needed when Zeus' lightning is stolen. Percy must master his new found skills in order to prevent a war between the Gods that could devastate the entire world.",
+    "localized": {
+      "en": {
+        "title": "Percy Jackson & the Olympians: The Lightning Thief",
+        "overview": "Accident prone teenager, Percy discovers he's actually a demi-God, the son of Poseidon, and he is needed when Zeus' lightning is stolen. Percy must master his new found skills in order to prevent a war between the Gods that could devastate the entire world."
+      },
+      "es": {
+        "title": "Percy Jackson y el ladrón del rayo",
+        "overview": "Percy Jackson es un auténtico imán para los desastres y tiene problemas en el instituto -pero ése es el menor de sus retos-. Estamos en el siglo XXI pero los dioses del Olimpo parecen haberse escapado de las páginas del libro de texto de Percy sobre mitología griega para colarse en su vida. Percy se ha enterado de que su verdadero padre es Poseidón, dios del mar, lo que significa que Percy es un semidiós -mitad ser humano, mitad dios-. Al mismo tiempo, Zeus, el rey de todos los dioses, ha acusado a Percy de robarle su rayo... la versión original de las armas de destrucción masiva..."
+      }
+    },
+    "runtimeMin": 118
+  },
+  {
+    "id": "percy-jackson-sea-of-monsters-2013",
+    "tmdbId": 76285,
+    "tmdbType": "movie",
+    "title": "Percy Jackson: Sea of Monsters",
+    "kind": "movie",
+    "releaseDate": "2013-08-07",
+    "imdbId": "tt1854564",
+    "posterPath": "/tAu90qEpLqwqiZLsMqpaMVr55oN.jpg",
+    "overview": "In their quest to confront the ultimate evil, Percy and his friends battle swarms of mythical creatures to find the mythical Golden Fleece and to stop an ancient evil from rising.",
+    "localized": {
+      "en": {
+        "title": "Percy Jackson: Sea of Monsters",
+        "overview": "In their quest to confront the ultimate evil, Percy and his friends battle swarms of mythical creatures to find the mythical Golden Fleece and to stop an ancient evil from rising."
+      },
+      "es": {
+        "title": "Percy Jackson y el mar de los monstruos",
+        "overview": "Percy Jackson no se siente un héroe. El semidiós hijo de Poseidón el dios griego del mar pudo salvar el mundo en una ocasión, pero Percy está empezando a pensar que pudo ser fruto de la casualidad. Y ahora la pregunta es: ¿ha resultado ser un fiasco? Ahora que Percy ha descubierto que tiene un hermanastro que es un monstruo, se pregunta si ser el hijo de Poseidón es una bendición o, más bien, una maldición..."
+      }
+    },
+    "runtimeMin": 106
+  },
+  {
+    "id": "percy-jackson-and-the-olympians-2023",
+    "tmdbId": 103540,
+    "tmdbType": "tv",
+    "title": "Percy Jackson and the Olympians",
+    "kind": "series",
+    "releaseDate": "2023-12-19",
+    "imdbId": "tt12324366",
+    "posterPath": "/bd5ZIqiz1PRiLC7FLexzVBf8qu1.jpg",
+    "overview": "Percy Jackson is on a dangerous quest. Outrunning monsters and outwitting gods, he must journey across America to return Zeus's master bolt and stop an all-out war. With the help of his friends Annabeth and Grover, Percy's journey will lead him closer to the answers he seeks: how to fit into a world where he feels out of place, and who he's destined to be.",
+    "localized": {
+      "en": {
+        "title": "Percy Jackson and the Olympians",
+        "overview": "Percy Jackson is on a dangerous quest. Outrunning monsters and outwitting gods, he must journey across America to return Zeus's master bolt and stop an all-out war. With the help of his friends Annabeth and Grover, Percy's journey will lead him closer to the answers he seeks: how to fit into a world where he feels out of place, and who he's destined to be."
+      },
+      "es": {
+        "title": "Percy Jackson y los dioses del Olimpo",
+        "overview": "Percy Jackson está en una peligrosa misión. Evadiendo monstruos y superando dioses, debe cruzar el país para devolver el rayo maestro de Zeus y evitar una guerra. Con la ayuda de sus compañeros de misión, Annabeth y Grover, el viaje de Percy lo llevará a responderse cómo encajar en un mundo en el que se siente fuera de lugar y a descubrir cuál es su destino."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-12-19"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-12-10"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2026-11-20"
+      }
+    ],
+    "runtimeMin": 652,
+    "ongoing": true
+  },
+  {
+    "id": "the-karate-kid-1984",
+    "tmdbId": 1885,
+    "tmdbType": "movie",
+    "title": "The Karate Kid",
+    "kind": "movie",
+    "releaseDate": "1984-06-22",
+    "imdbId": "tt0087538",
+    "posterPath": "/1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+    "overview": "New Jersey teen Daniel LaRusso moves to Los Angeles with his mother, and soon strikes up a relationship with Ali. He quickly finds himself the target of bullying by a group of thugs, led by Ali's ex-boyfriend Johnny, who study karate at the Cobra Kai dojo under ruthless sensei John Kreese. Fortunately, Daniel befriends Mr. Miyagi, an unassuming repairman who just happens to be a martial arts master himself. Miyagi takes Daniel under his wing, training him in a more compassionate form of karate for self-defense and, later, preparing him to compete against the brutal Cobra Kai.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid",
+        "overview": "New Jersey teen Daniel LaRusso moves to Los Angeles with his mother, and soon strikes up a relationship with Ali. He quickly finds himself the target of bullying by a group of thugs, led by Ali's ex-boyfriend Johnny, who study karate at the Cobra Kai dojo under ruthless sensei John Kreese. Fortunately, Daniel befriends Mr. Miyagi, an unassuming repairman who just happens to be a martial arts master himself. Miyagi takes Daniel under his wing, training him in a more compassionate form of karate for self-defense and, later, preparing him to compete against the brutal Cobra Kai."
+      },
+      "es": {
+        "title": "Karate Kid",
+        "overview": "Daniel Larusso llega a Los Angeles procedente de la costa Este de Estados Unidos dispuesto a hacer nuevos amigos. Sin embargo, se convierte en el blanco de los ataques de los Cobras, un hostil grupo de estudiantes de kárate, cuando comienza a salir con Ali, la antigua novia del cabecilla del grupo. En tal situación, no tiene más remedio que pedirle ayuda a Miyagi, un maestro de artes marciales, para que le enseñe kárate. Bajo la tutela de Miyagi, Daniel desarrolla no sólo sus aptitudes físicas, sino también la seguridad en sí mismo que necesita para superar todos los obstáculos."
+      }
+    },
+    "runtimeMin": 127
+  },
+  {
+    "id": "the-karate-kid-part-ii-1986",
+    "tmdbId": 8856,
+    "tmdbType": "movie",
+    "title": "The Karate Kid Part II",
+    "kind": "movie",
+    "releaseDate": "1986-06-18",
+    "imdbId": "tt0091326",
+    "posterPath": "/k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+    "overview": "Summoned by his dying father, Miyagi returns to his homeland of Okinawa, with Daniel, after a 40-year exile. There he must confront Yukie, the love of his youth, and Sato, his former best friend turned vengeful rival. Sato is bent on a fight to the death, even if it means the destruction of their village. Daniel finds his own love in Yukia's niece, Kumiko, and his own enemy in Sato's nephew, the vicious Chozen. Now, far away from the tournaments, cheering crowds and safety of home, Daniel will face his greatest challenge ever when the cost of honor is life itself.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid Part II",
+        "overview": "Summoned by his dying father, Miyagi returns to his homeland of Okinawa, with Daniel, after a 40-year exile. There he must confront Yukie, the love of his youth, and Sato, his former best friend turned vengeful rival. Sato is bent on a fight to the death, even if it means the destruction of their village. Daniel finds his own love in Yukia's niece, Kumiko, and his own enemy in Sato's nephew, the vicious Chozen. Now, far away from the tournaments, cheering crowds and safety of home, Daniel will face his greatest challenge ever when the cost of honor is life itself."
+      },
+      "es": {
+        "title": "Karate Kid II: La Historia Continúa",
+        "overview": "Daniel y el señor Miyagi viajan a Okinawa, a la pequeña aldea en la que el anciano nació y de la que tuvo que marcharse por un asunto de honor. Su padre está gravemente enfermo y quiere verlo, pero también le espera su antiguo amor de juventud. La llegada del señor MIyagi reabre unas heridas que el tiempo y la distancia parecían haber borrado."
+      }
+    },
+    "runtimeMin": 113
+  },
+  {
+    "id": "the-karate-kid-part-iii-1989",
+    "tmdbId": 10495,
+    "tmdbType": "movie",
+    "title": "The Karate Kid Part III",
+    "kind": "movie",
+    "releaseDate": "1989-06-16",
+    "imdbId": "tt0097647",
+    "posterPath": "/lVZ3r0iDwGejlCvFEvXGzhQB9ds.jpg",
+    "overview": "Despondent over the closing of his karate school, Cobra Kai teacher John Kreese joins a ruthless businessman and martial artist to get revenge on Daniel and Mr. Miyagi.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid Part III",
+        "overview": "Despondent over the closing of his karate school, Cobra Kai teacher John Kreese joins a ruthless businessman and martial artist to get revenge on Daniel and Mr. Miyagi."
+      },
+      "es": {
+        "title": "Karate Kid III: El desafío final",
+        "overview": "El joven karateka Daniel Larusso libra su batalla mas difícil cuando el malvado Kreese le arrastra a una complicada situacion, al obligarle a defender su título de campeón del torneo del Valley. Su maestro Miyagi no está de acuerdo y el joven rompe con él. Daniel tendra un nuevo profesor, que más que como karateka realmente le entrena como si fuera un asesino. Cuando Daniel comprende que el kárate sólo debe usarse para defender el honor y la vida, regresa a las enseñanzas de su viejo maestro."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "the-next-karate-kid-1994",
+    "tmdbId": 11231,
+    "tmdbType": "movie",
+    "title": "The Next Karate Kid",
+    "kind": "movie",
+    "releaseDate": "1994-07-18",
+    "imdbId": "tt0110657",
+    "posterPath": "/wI3gCi9w1cuUJCiwhviAy46we9Q.jpg",
+    "overview": "Mr. Miyagi decides to take Julie, a troubled teenager, under his wing after he learns that she blames herself for her parents' demise and struggles to adjust with her grandmother and fellow pupils.",
+    "localized": {
+      "en": {
+        "title": "The Next Karate Kid",
+        "overview": "Mr. Miyagi decides to take Julie, a troubled teenager, under his wing after he learns that she blames herself for her parents' demise and struggles to adjust with her grandmother and fellow pupils."
+      },
+      "es": {
+        "title": "Karate Kid 4: La nueva aventura",
+        "overview": "Julie perdió a sus padres cuando sólo era una niña. Ahora, a sus 17 años, vive con el señor Miyagi, un anciano japonés amigo de su abuela. La joven además tiene problemas en el instituto con una banda de muchachos que juegan a proteger a su país de enemigos interiores que ya no respetan el viejo orden."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "the-karate-kid-2010",
+    "tmdbId": 38575,
+    "tmdbType": "movie",
+    "title": "The Karate Kid",
+    "kind": "movie",
+    "releaseDate": "2010-06-10",
+    "imdbId": "tt1155076",
+    "posterPath": "/b1RBy3l297N0c7PHjlz35cClWju.jpg",
+    "overview": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life.",
+    "localized": {
+      "en": {
+        "title": "The Karate Kid",
+        "overview": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life."
+      },
+      "es": {
+        "title": "Karate Kid",
+        "overview": "Dre Parker podría haber sido el más popular en Detroit, pero la carrera profesional de su madre los lleva a ambos a China. Allí logra hacer conexión con su compañera de clase Mei Ying y el sentimiento es mutuo, hasta que las diferencias culturales hacen que su amistad sea imposible. Para que la situación empeore, Dre se consigue un enemigo, el peleonero de la clase, Cheng. Dre no tiene amigos a quién acudir, excepto el encargado de mantenimiento, el Sr. Han."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
+    "id": "cobra-kai-2018",
+    "tmdbId": 77169,
+    "tmdbType": "tv",
+    "title": "Cobra Kai",
+    "kind": "series",
+    "releaseDate": "2018-05-02",
+    "imdbId": "tt7221388",
+    "posterPath": "/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg",
+    "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+    "localized": {
+      "en": {
+        "title": "Cobra Kai",
+        "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi."
+      },
+      "es": {
+        "title": "Cobra Kai",
+        "overview": "Enemigos acérrimos. Dojos rivales. Sangre nueva. Daniel y Johnny reviven viejas rivalidades en esta secuela de las películas de «Karate Kid»."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2018-05-02"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2019-04-24"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2021-01-01"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2021-12-31"
+      },
+      {
+        "number": 5,
+        "episodes": 10,
+        "airDate": "2022-09-09"
+      },
+      {
+        "number": 6,
+        "episodes": 15,
+        "airDate": "2024-07-18"
+      }
+    ],
+    "runtimeMin": 2337
+  },
+  {
+    "id": "karate-kid-legends-2025",
+    "tmdbId": 1011477,
+    "tmdbType": "movie",
+    "title": "Karate Kid: Legends",
+    "kind": "movie",
+    "releaseDate": "2025-05-08",
+    "imdbId": "tt1674782",
+    "posterPath": "/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
+    "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
+    "localized": {
+      "en": {
+        "title": "Karate Kid: Legends",
+        "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown."
+      },
+      "es": {
+        "title": "Karate Kid: Leyendas",
+        "overview": "Tras una tragedia familiar, el prodigio del kung fu Li Fong se ve obligado a abandonar su hogar en Pekín y trasladarse a Nueva York con su madre. Li lucha por dejar atrás su pasado mientras intenta encajar con sus nuevos compañeros de clase y, aunque no quiere pelear, los problemas parecen encontrarle en todas partes. Cuando un nuevo amigo necesita su ayuda, Li se presenta a una competición de kárate, pero sus habilidades no son suficientes. El profesor de kung fu de Li, el Sr. Han, pide ayuda al Karate Kid original, Daniel LaRusso, y Li aprende una nueva forma de luchar, fusionando sus dos estilos en uno solo para el enfrentamiento definitivo de artes marciales."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "the-boys-2019",
+    "tmdbId": 76479,
+    "tmdbType": "tv",
+    "title": "The Boys",
+    "kind": "series",
+    "releaseDate": "2019-07-25",
+    "imdbId": "tt1190634",
+    "posterPath": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+    "localized": {
+      "en": {
+        "title": "The Boys",
+        "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty."
+      },
+      "es": {
+        "title": "The Boys",
+        "overview": "La serie tiene lugar en un mundo en el que los superhéroes representan el lado oscuro de la celebridad y la fama. Un grupo de vigilantes que se hacen llamar \"The Boys\" decide hacer todo lo posible por frenar a los superhéroes que están perjudicando a la sociedad, independientemente de los riesgos que ello conlleva."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2019-07-25"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2020-09-03"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2022-06-02"
+      },
+      {
+        "number": 4,
+        "episodes": 8,
+        "airDate": "2024-06-13"
+      },
+      {
+        "number": 5,
+        "episodes": 8,
+        "airDate": "2026-04-08"
+      }
+    ],
+    "runtimeMin": 2546
+  },
+  {
+    "id": "the-boys-presents-diabolical-2022",
+    "tmdbId": 152483,
+    "tmdbType": "tv",
+    "title": "The Boys Presents: Diabolical",
+    "kind": "series",
+    "releaseDate": "2022-03-03",
+    "imdbId": "tt16350094",
+    "posterPath": "/kZKfZWwFOAicgoKS2IO7oM1GuHZ.jpg",
+    "overview": "From some of the most unhinged and maniacal minds in Hollywood today comes this animated anthology series, a collection of irreverent and emotionally shocking animated short films. Each episode plunges elbow-deep into unseen crevices of The Boys Universe.",
+    "localized": {
+      "en": {
+        "title": "The Boys Presents: Diabolical",
+        "overview": "From some of the most unhinged and maniacal minds in Hollywood today comes this animated anthology series, a collection of irreverent and emotionally shocking animated short films. Each episode plunges elbow-deep into unseen crevices of The Boys Universe."
+      },
+      "es": {
+        "title": "The Boys: Diabólico",
+        "overview": "The Boys: Diabólico es una serie de animación del mundo de The Boys creado por Garth Ennis y Darick Robertson. La historia sigue a varios de los personajes ya presentados en la serie original, pero centrándose principalmente en aspectos de sus vidas que nunca antes nadie ha podido ver."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2022-03-03"
+      }
+    ],
+    "runtimeMin": 112
+  },
+  {
+    "id": "gen-v-2023",
+    "tmdbId": 205715,
+    "tmdbType": "tv",
+    "title": "Gen V",
+    "kind": "series",
+    "releaseDate": "2023-09-28",
+    "imdbId": "tt13159924",
+    "posterPath": "/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
+    "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
+    "localized": {
+      "en": {
+        "title": "Gen V",
+        "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become."
+      },
+      "es": {
+        "title": "Gen V",
+        "overview": "En la única universidad para superhéroes de Estados Unidos, los estudiantes superdotados ponen a prueba sus límites morales, compitiendo por la clasificación más alta de la universidad y la oportunidad de unirse a The Seven, el equipo de élite de superhéroes de Vought International. Cuando los oscuros secretos de la escuela salen a la luz, deben decidir en qué tipo de héroes quieren convertirse."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-09-28"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-09-17"
+      }
+    ],
+    "runtimeMin": 761
+  },
+  {
+    "id": "invincible-2021",
+    "tmdbId": 95557,
+    "tmdbType": "tv",
+    "title": "INVINCIBLE",
+    "kind": "series",
+    "releaseDate": "2021-03-25",
+    "imdbId": "tt6741278",
+    "posterPath": "/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+    "localized": {
+      "en": {
+        "title": "INVINCIBLE",
+        "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage."
+      },
+      "es": {
+        "title": "INVENCIBLE",
+        "overview": "Mark Grayson hereda superpoderes a los diecisiete años y se une a su padre como uno de los mayores héroes de la Tierra. Todos sus sueños se hacen realidad, hasta que un evento impactante lo cambia todo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2021-03-25"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2023-11-02"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2025-02-06"
+      },
+      {
+        "number": 4,
+        "episodes": 8,
+        "airDate": "2026-03-18"
+      }
+    ],
+    "runtimeMin": 1616,
+    "ongoing": true
   }
 ]

@@ -1,0 +1,2 @@
+- En el Miami de 1991, Dexter pasa de estudiante a asesino justiciero.
+- Su padre, Harry, lo ayuda a adoptar el Código que usa para elegir a sus víctimas.

@@ -1,0 +1,3 @@
+- Dre Parker moves to Beijing and is bullied by classmates.
+- Mr. Han, a maintenance man, trains him in kung fu.
+- Dre competes in a tournament and earns his rivals' respect.

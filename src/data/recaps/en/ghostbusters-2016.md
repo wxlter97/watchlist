@@ -1,0 +1,2 @@
+- A team of women scientists starts a ghost-catching business in New York.
+- They face a villain who wants to unleash ghosts across the city.

@@ -1,0 +1,2 @@
+- A nuclear bomb threatens to start a war between superpowers.
+- Ryan, still an analyst, tries to prevent disaster.

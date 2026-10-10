@@ -1,0 +1,2 @@
+- Diez años después de desaparecer en el huracán, Dexter vive con otro nombre en Iron Lake, Nueva York.
+- Los sucesos del pueblo despiertan de nuevo a su Pasajero Oscuro.

@@ -1,0 +1,2 @@
+- Un analista de la CIA encuentra transferencias bancarias sospechosas que lo llevan a Europa y Oriente Medio.
+- Las temporadas siguientes lo envían a nuevos conflictos internacionales.

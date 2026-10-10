@@ -1,0 +1,3 @@
+- **Temporada 1:** Geralt, Yennefer y Ciri siguen caminos que acaban por unirse.
+- **Temporadas 2-3:** Geralt protege a Ciri de quienes la persiguen.
+- **Temporada 4:** continúa la historia con un nuevo actor como Geralt.

@@ -1,0 +1,2 @@
+- La familia Spengler regresa al cuartel de Nueva York y se une a los Cazafantasmas originales.
+- Un artefacto antiguo libera una fuerza maligna que los obliga a unir fuerzas.

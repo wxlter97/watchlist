@@ -1,0 +1,2 @@
+- Maggie and Negan travel to a post-apocalyptic Manhattan, cut off from the mainland.
+- The city is full of the dead and of people who made it a place of anarchy and danger.

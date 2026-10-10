@@ -1,0 +1,2 @@
+- Human sailors are attacked by mysterious creatures of the deep.
+- Geralt must stop a war between the human and undersea worlds.
