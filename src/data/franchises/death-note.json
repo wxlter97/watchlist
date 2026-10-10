@@ -1,0 +1,160 @@
+{
+  "id": "death-note",
+  "name": {
+    "es": "Death Note",
+    "en": "Death Note"
+  },
+  "description": {
+    "es": "Light Yagami y el cuaderno de la muerte: el anime, las películas japonesas y la versión de Netflix.",
+    "en": "Light Yagami and the death notebook: the anime, the Japanese films and the Netflix version."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "anime",
+      "name": {
+        "es": "Anime (2006)",
+        "en": "Anime (2006)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie de 37 episodios.",
+        "en": "The 37-episode series."
+      }
+    },
+    {
+      "id": "jp-films",
+      "name": {
+        "es": "Películas japonesas",
+        "en": "Japanese films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Dos películas de 2006, un spin-off de L y una secuela de 2016.",
+        "en": "Two 2006 films, an L spin-off and a 2016 sequel."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "netflix",
+      "name": {
+        "es": "Versión de Netflix (2017)",
+        "en": "Netflix version (2017)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinterpretación estadounidense, aparte.",
+        "en": "An American reinterpretation, apart."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "death-note-2006",
+      "continuityId": "anime",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "light-yagami",
+        "l"
+      ]
+    },
+    {
+      "titleId": "death-note-film-2006",
+      "continuityId": "jp-films",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "light-yagami",
+        "l"
+      ]
+    },
+    {
+      "titleId": "death-note-the-last-name-2006",
+      "continuityId": "jp-films",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "light-yagami",
+        "l"
+      ]
+    },
+    {
+      "titleId": "death-note-l-change-the-world-2008",
+      "continuityId": "jp-films",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "l"
+      ]
+    },
+    {
+      "titleId": "death-note-light-up-the-new-world-2016",
+      "continuityId": "jp-films",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Diez años después",
+        "en": "Ten years later"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "death-note-2017",
+      "continuityId": "netflix",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "light-yagami",
+        "l"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "light-yagami",
+        "name": {
+          "es": "Light Yagami",
+          "en": "Light Yagami"
+        }
+      },
+      {
+        "id": "l",
+        "name": {
+          "es": "L",
+          "en": "L"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

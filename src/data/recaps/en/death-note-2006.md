@@ -1,0 +1,3 @@
+- Light Yagami, a student, finds a notebook that kills whoever is written in it.
+- He starts eliminating criminals as 'Kira'.
+- A detective, L, hunts him in a battle of minds.

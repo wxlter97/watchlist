@@ -23459,5 +23459,973 @@
       }
     },
     "runtimeMin": 116
+  },
+  {
+    "id": "hellboy-2004",
+    "tmdbId": 1487,
+    "tmdbType": "movie",
+    "title": "Hellboy",
+    "kind": "movie",
+    "releaseDate": "2004-04-02",
+    "imdbId": "tt0167190",
+    "posterPath": "/21hS8mD8uxBVvf8xVYR30LbbmPO.jpg",
+    "overview": "In the final days of World War II, the Nazis attempt to use black magic to aid their dying cause. The Allies raid the camp where the ceremony is taking place, but not before they summon a baby demon who is rescued by Allied forces and dubbed \"Hellboy\". Sixty years later, Hellboy serves the cause of good rather than evil as an agent in the Bureau of Paranormal Research & Defense, along with Abe Sapien - a merman with psychic powers, and Liz Sherman - a woman with pyrokinesis, protecting America against dark forces.",
+    "localized": {
+      "en": {
+        "title": "Hellboy",
+        "overview": "In the final days of World War II, the Nazis attempt to use black magic to aid their dying cause. The Allies raid the camp where the ceremony is taking place, but not before they summon a baby demon who is rescued by Allied forces and dubbed \"Hellboy\". Sixty years later, Hellboy serves the cause of good rather than evil as an agent in the Bureau of Paranormal Research & Defense, along with Abe Sapien - a merman with psychic powers, and Liz Sherman - a woman with pyrokinesis, protecting America against dark forces."
+      },
+      "es": {
+        "title": "Hellboy",
+        "overview": "Un demonio, criado desde la infancia después de ser conjurado y rescatado de los nazis, crece para convertirse en un defensor contra las fuerzas de la oscuridad."
+      }
+    },
+    "runtimeMin": 122
+  },
+  {
+    "id": "hellboy-ii-the-golden-army-2008",
+    "tmdbId": 11253,
+    "tmdbType": "movie",
+    "title": "Hellboy II: The Golden Army",
+    "kind": "movie",
+    "releaseDate": "2008-07-11",
+    "imdbId": "tt0411477",
+    "posterPath": "/zO0Wdrxnhx3KoJEvychSmnY3urC.jpg",
+    "overview": "Hellboy, his pyrokinetic girlfriend, Liz, and aquatic empath, Abe Sapien, face their biggest battle when an underworld elven prince plans to reclaim Earth for his magical kindred. Tired of living in the shadow of humans, Prince Nuada tries to awaken an ancient force of killing machines, the all-powerful Golden Army, to clear the way for fantasy creatures to roam free. Only Hellboy can stop the dark prince and prevent humanity's annihilation.",
+    "localized": {
+      "en": {
+        "title": "Hellboy II: The Golden Army",
+        "overview": "Hellboy, his pyrokinetic girlfriend, Liz, and aquatic empath, Abe Sapien, face their biggest battle when an underworld elven prince plans to reclaim Earth for his magical kindred. Tired of living in the shadow of humans, Prince Nuada tries to awaken an ancient force of killing machines, the all-powerful Golden Army, to clear the way for fantasy creatures to roam free. Only Hellboy can stop the dark prince and prevent humanity's annihilation."
+      },
+      "es": {
+        "title": "Hellboy II: El Ejército Dorado",
+        "overview": "Un líder despiadado decide traicionar a sus ancestros y organiza un ejército de criaturas diabólicas para desatar el infierno en la Tierra. Entonces Hellboy y con la colaboración de la Agencia de Investigación y Defensa Paranormal viajarán entre dos mundos mientras Hellboy deberá elegir entre la vida que conoce y el desconocido destino que le reclama."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "hellboy-2019",
+    "tmdbId": 456740,
+    "tmdbType": "movie",
+    "title": "Hellboy",
+    "kind": "movie",
+    "releaseDate": "2019-04-10",
+    "imdbId": "tt2274648",
+    "posterPath": "/bk8LyaMqUtaQ9hUShuvFznQYQKR.jpg",
+    "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
+    "localized": {
+      "en": {
+        "title": "Hellboy",
+        "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away."
+      },
+      "es": {
+        "title": "Hellboy",
+        "overview": "La Agencia para la Investigación y Defensa Paranormal (AIDP) encomienda a Hellboy la tarea de derrotar a un espíritu ancestral: Nimue, conocida como \"La Reina de la Sangre\" que ha vuelto de entre los muertos con la intención de destruir a la humanidad con su magia negra."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "hellboy-the-crooked-man-2024",
+    "tmdbId": 1087822,
+    "tmdbType": "movie",
+    "title": "Hellboy: The Crooked Man",
+    "kind": "movie",
+    "releaseDate": "2024-08-29",
+    "imdbId": "tt26757462",
+    "posterPath": "/iz2GabtToVB05gLTVSH7ZvFtsMM.jpg",
+    "overview": "Hellboy and a rookie BPRD agent get stranded in 1950s rural Appalachia. There, they discover a small community haunted by witches, led by a local devil with a troubling connection to Hellboy's past: the Crooked Man.",
+    "localized": {
+      "en": {
+        "title": "Hellboy: The Crooked Man",
+        "overview": "Hellboy and a rookie BPRD agent get stranded in 1950s rural Appalachia. There, they discover a small community haunted by witches, led by a local devil with a troubling connection to Hellboy's past: the Crooked Man."
+      },
+      "es": {
+        "title": "Hellboy: The Crooked Man",
+        "overview": "Hellboy y un agente novato de la BPRD quedan varados en la zona rural de los Apalaches en la década de 1950. Allí, descubren una pequeña comunidad embrujada por brujas, lideradas por un demonio local con una conexión inquietante con el pasado de Hellboy."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "fullmetal-alchemist-2003",
+    "tmdbId": 37863,
+    "tmdbType": "tv",
+    "title": "Fullmetal Alchemist",
+    "kind": "series",
+    "releaseDate": "2003-10-04",
+    "imdbId": "tt0421357",
+    "posterPath": "/kKOQbCKbGB75h1d3Jlx9Gy4ZTfv.jpg",
+    "overview": "Two young brothers are raised as alchemists, but when they are severely injured trying to perform a forbidden act, they begin searching for the one thing that can save them; the fabled philosopher's stone.",
+    "localized": {
+      "en": {
+        "title": "Fullmetal Alchemist",
+        "overview": "Two young brothers are raised as alchemists, but when they are severely injured trying to perform a forbidden act, they begin searching for the one thing that can save them; the fabled philosopher's stone."
+      },
+      "es": {
+        "title": "FullMetal Alchemist",
+        "overview": "Edward y Alphonse Elric son dos hermanos dotados con la habilidad de la alquimia, la ciencia de tomar una cosa y cambiarla por otra. Sin embargo, la alquimia funciona con la teoría del intercambio equivalente: para que algo se cree, se debe sacrificar algo más de igual valor. Cuando su madre muere, Edward decide hacer lo impensable, devolviéndola a la vida rompiendo uno de los mayores tabúes de Alchemy y realizando Human Alchemy. Pensando que no tienen nada más que perder, él y Alphonse hacen su intento, pero algo sale terriblemente mal. En el proceso, Alphonse pierde su cuerpo y Edward pierde su pierna. Ed logra salvar a Al uniendo su espíritu a una armadura, pero a costa de su brazo y pierna."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 51,
+        "airDate": "2003-10-04"
+      }
+    ],
+    "runtimeMin": 1224
+  },
+  {
+    "id": "fullmetal-alchemist-the-movie-conqueror-of-shamballa-2005",
+    "tmdbId": 14003,
+    "tmdbType": "movie",
+    "title": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
+    "kind": "movie",
+    "releaseDate": "2005-07-21",
+    "imdbId": "tt0485323",
+    "posterPath": "/kdovrjrKighUFEh9ZRQul0Evx6L.jpg",
+    "overview": "Munich, Germany, 1923. Two years have passed since Edward Elric was dragged from his own world to ours, leaving behind his country, his friends and his younger brother, Alphonse. Stripped of his alchemical powers, he has been all this time researching rocketry together with Alphonse Heiderich, a young man who resembles his own brother, hoping to one day find a way back home. His efforts so far had proven fruitless, but after lending a hand to a troubled gipsy girl, Edward is thrown in a series of events that can wreak havoc in both worlds. Meanwhile, at his own world, Alphonse Elric ventures deeper into the mysteries of alchemy in search for a way to reunite with his older brother.",
+    "localized": {
+      "en": {
+        "title": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
+        "overview": "Munich, Germany, 1923. Two years have passed since Edward Elric was dragged from his own world to ours, leaving behind his country, his friends and his younger brother, Alphonse. Stripped of his alchemical powers, he has been all this time researching rocketry together with Alphonse Heiderich, a young man who resembles his own brother, hoping to one day find a way back home. His efforts so far had proven fruitless, but after lending a hand to a troubled gipsy girl, Edward is thrown in a series of events that can wreak havoc in both worlds. Meanwhile, at his own world, Alphonse Elric ventures deeper into the mysteries of alchemy in search for a way to reunite with his older brother."
+      },
+      "es": {
+        "title": "Fullmetal Alchemist: El conquistador de Shambala",
+        "overview": "Es el año 1923, en Munich. Han pasado dos años desde el episodio final de la serie \"Fullmetal Alchemist\", dos años desde que Edward se sacrificara para poder resucitar a su hermano Alphonse y que llegara nuestro mundo. Hasta entonces, Edo ha estado intentando volver a su mundo, estudiando sobre cohetes y el viaje al espacio, creyendo que así podrá regresar. Mientras, Al viaja por su mundo buscando la manera de poder recuperar a su hermano. Lo que ellos no saben es que una organizacion oculta prepara un plan que podría poner en peligro ambos mundos..."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-2009",
+    "tmdbId": 31911,
+    "tmdbType": "tv",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "kind": "series",
+    "releaseDate": "2009-04-05",
+    "imdbId": "tt1355642",
+    "posterPath": "/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
+    "overview": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
+    "localized": {
+      "en": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "overview": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable."
+      },
+      "es": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "overview": "La imprudente indiferencia de Edward y Alphonse Elric por las leyes fundamentales de la alquimia le arrancaron la mitad de las extremidades a Ed y dejaron el alma de Al pegada a una fría armadura. Para restaurar lo que se perdió, los hermanos recorren una tierra devastada por la guerra para la Piedra Filosofal, una reliquia legendaria que otorga la capacidad de realizar la alquimia de maneras imposibles.\n\nLos Elrics no están solos en su búsqueda; el corrupto Estado Militar también está ansioso por aprovechar el poder del artefacto. También lo son los extraños Homúnculos y su oscuro creador. La gema mítica atrae a los alquimistas exóticos de reinos distantes, dejando cicatrices profundas que inspiran el asesinato. A medida que los Elrics encuentran su curso alterado por estos enemigos y aliados, su propósito permanece inalterado, y su vínculo es irrompible."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 64,
+        "airDate": "2009-04-05"
+      }
+    ],
+    "runtimeMin": 1600
+  },
+  {
+    "id": "hunter-x-hunter-1999",
+    "tmdbId": 45952,
+    "tmdbType": "tv",
+    "title": "Hunter x Hunter",
+    "kind": "series",
+    "releaseDate": "1999-10-16",
+    "imdbId": "tt0426719",
+    "posterPath": "/eobAuhCJA8oRp814V67WhezVXtQ.jpg",
+    "overview": "Gon Freecss discovers that the father he had always been told was dead was actually alive the whole time. Ging is a famous Hunter: an individual who has proven themself an elite member of humanity. Gon becomes determined to follow in his father's footsteps, pass the rigorous Hunter Examination.",
+    "localized": {
+      "en": {
+        "title": "Hunter x Hunter",
+        "overview": "Gon Freecss discovers that the father he had always been told was dead was actually alive the whole time. Ging is a famous Hunter: an individual who has proven themself an elite member of humanity. Gon becomes determined to follow in his father's footsteps, pass the rigorous Hunter Examination."
+      },
+      "es": {
+        "title": "Hunter x Hunter",
+        "overview": "En un mundo de fantasía y ensueño ha nacido una nueva profesión, la de los Cazadores, valientes aventureros encargados de encontrar y capturar tesoros, recompensas y villanos. Para formarlos existen las escuelas de Cazadores, donde los jóvenes aprendices desarrollan sus habilidades. Los que se esfuerzan y consiguen graduarse se convierten en famosos cazadores y en un ejemplo para todos los niños del mundo. Uno de esos jóvenes alumnos es Gon, un muchacho con el corazón de oro ilusionado por convertirse en un Cazador y que se convertirá en una auténtica leyenda. Pero Gon sólo tiene un sueño, encontrar a su padre desaparecido años atrás."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 62,
+        "airDate": "1999-10-16"
+      }
+    ],
+    "runtimeMin": 1426
+  },
+  {
+    "id": "hunter-x-hunter-2011",
+    "tmdbId": 46298,
+    "tmdbType": "tv",
+    "title": "Hunter x Hunter",
+    "kind": "series",
+    "releaseDate": "2011-10-02",
+    "imdbId": "tt2098220",
+    "posterPath": "/i2EEr2uBvRlAwJ8d8zTG2Y19mIa.jpg",
+    "overview": "Gon, a young boy who lives on Whale Island, dreams of becoming a Hunter like his father, who left when Gon was still young.",
+    "localized": {
+      "en": {
+        "title": "Hunter x Hunter",
+        "overview": "Gon, a young boy who lives on Whale Island, dreams of becoming a Hunter like his father, who left when Gon was still young."
+      },
+      "es": {
+        "title": "Hunter × Hunter",
+        "overview": "Gon Frecks, un niño de 12 años, vive con su tía Mito y su abuela en Isla Ballena, huérfano de madre y según su tía también de padre. Un día Gon es atacado por un oso del bosque, pero es salvado por un cazador quien le explica que está en busca de su maestro para así convertirse en un cazador, él es quien le dice que su padre Gin está vivo. Enterado de esto Gon decide convertirse en cazador para poder encontrar a su padre."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 62,
+        "airDate": "2011-10-02"
+      },
+      {
+        "number": 2,
+        "episodes": 74,
+        "airDate": "2012-12-15"
+      },
+      {
+        "number": 3,
+        "episodes": 12,
+        "airDate": "2014-07-07"
+      }
+    ],
+    "runtimeMin": 3503
+  },
+  {
+    "id": "death-note-2006",
+    "tmdbId": 13916,
+    "tmdbType": "tv",
+    "title": "Death Note",
+    "kind": "series",
+    "releaseDate": "2006-10-04",
+    "imdbId": "tt0877057",
+    "posterPath": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
+    "overview": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+    "localized": {
+      "en": {
+        "title": "Death Note",
+        "overview": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?"
+      },
+      "es": {
+        "title": "Death Note",
+        "overview": "Light Yagami es un joven estudiante que un día encuentra un cuaderno llamado Death Note que tiene una macabra propiedad: si el nombre de una persona aparece escrito en él, morirá. Light decide, entonces, embarcarse en una misión para librar al mundo de todos los criminales. Sin embargo, su plan empieza a torcerse cuando L, un brillante detective, intenta descifrar el misterio que rodea a todas estas muertes."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 37,
+        "airDate": "2006-10-04"
+      }
+    ],
+    "runtimeMin": 807
+  },
+  {
+    "id": "death-note-film-2006",
+    "tmdbId": 16007,
+    "tmdbType": "movie",
+    "title": "Death Note",
+    "kind": "movie",
+    "releaseDate": "2006-06-17",
+    "imdbId": "tt0758742",
+    "posterPath": "/xiJPZntaz1BMooXfiwi2iZAMbhY.jpg",
+    "overview": "Light Yagami finds the \"Death Note,\" a notebook with the power to kill, and decides to create a Utopia by killing the world's criminals, and soon the world's greatest detective, \"L,\" is hired to find the mysterious murderer. An all out battle between the two greatest minds on earth begins and the winner will control the world.",
+    "localized": {
+      "en": {
+        "title": "Death Note",
+        "overview": "Light Yagami finds the \"Death Note,\" a notebook with the power to kill, and decides to create a Utopia by killing the world's criminals, and soon the world's greatest detective, \"L,\" is hired to find the mysterious murderer. An all out battle between the two greatest minds on earth begins and the winner will control the world."
+      },
+      "es": {
+        "title": "Death Note",
+        "overview": "Light Yagami es un brillante estudiante japonés que verá cambiar radicalmente su vida cuando se encuentra en el suelo un misterioso cuaderno en cuya portada se lee DEATH NOTE (Cuaderno de muerte). El cuaderno permite matar a cualquier persona si se conoce su nombre y su rostro, por lo que Yagami decide usarlo para limpiar el mundo de maldad."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "death-note-the-last-name-2006",
+    "tmdbId": 16140,
+    "tmdbType": "movie",
+    "title": "Death Note: The Last Name",
+    "kind": "movie",
+    "releaseDate": "2006-10-28",
+    "imdbId": "tt0810827",
+    "posterPath": "/zFwCNC5LfmPKBsqMuAhzcG5Jubm.jpg",
+    "overview": "In the second installment of the Death Note film franchise, Light Yagami meets a second Kira and faithful follower Misa Amane and her Shinigami named Rem. Light attempts to defeat L along with Teru Mikami (a Kira follower) and Kiyomi Takada (another Kira follower) but in the end will Light win? or will a Shinigami named Ryuk make all the difference in Light's victory or his ultimate death?",
+    "localized": {
+      "en": {
+        "title": "Death Note: The Last Name",
+        "overview": "In the second installment of the Death Note film franchise, Light Yagami meets a second Kira and faithful follower Misa Amane and her Shinigami named Rem. Light attempts to defeat L along with Teru Mikami (a Kira follower) and Kiyomi Takada (another Kira follower) but in the end will Light win? or will a Shinigami named Ryuk make all the difference in Light's victory or his ultimate death?"
+      },
+      "es": {
+        "title": "Death Note: El último nombre",
+        "overview": "La segunda película es la continuación de la primera y utiliza elementos del argumento que transcurre en Yotsuba al igual que del final de la serie. El papel de Higuchi es reemplazado por Takada, quien eventualmente es capturada de igual forma que este último."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
+    "id": "death-note-l-change-the-world-2008",
+    "tmdbId": 20329,
+    "tmdbType": "movie",
+    "title": "Death Note: L Change the WorLd",
+    "kind": "movie",
+    "releaseDate": "2008-02-07",
+    "imdbId": "tt0912597",
+    "posterPath": "/aTV14kh4YVXafBZtyNjQ2GrWsNh.jpg",
+    "overview": "\"The human whose name is written in the Death Note shall die.\" After making the hardest decision ever, another serious case confronts L. There are only 23 days left and without his best partner Watari, L has to solve the case all by himself for the very first time.",
+    "localized": {
+      "en": {
+        "title": "Death Note: L Change the WorLd",
+        "overview": "\"The human whose name is written in the Death Note shall die.\" After making the hardest decision ever, another serious case confronts L. There are only 23 days left and without his best partner Watari, L has to solve the case all by himself for the very first time."
+      },
+      "es": {
+        "title": "L: Cambiando el mundo",
+        "overview": "En algún lugar de Tailandia, Un virus creado por manos humanas hace la gente de una pequeña villa muera a causa de una horrible enfermedad en la piel (de hecho, se les derrite la piel). El virus rápidamente se convierte en el arma que todos quieren obtener en el mercado negro… pero hay un problema, el virus muta y el antídoto ya no funciona. La villa es destruida pero un pequeño niño escapa… Esta contagiado y logra huir a Tokio de una banda de Eco-Terroristas que quieren salvar al mundo usando el virus para acabar con la humanidad. En Tokio, L se promete a si mismo usar los días que le quedan de vida para proteger a este niño."
+      }
+    },
+    "runtimeMin": 128
+  },
+  {
+    "id": "death-note-light-up-the-new-world-2016",
+    "tmdbId": 382272,
+    "tmdbType": "movie",
+    "title": "Death Note: Light Up the NEW World",
+    "kind": "movie",
+    "releaseDate": "2016-10-29",
+    "imdbId": "tt5058340",
+    "posterPath": "/cDBV5mIMc8h0dsRHF43rUUk3I0O.jpg",
+    "overview": "10 years has passed since the confrontation between Kira and L. Again, Shinigami sends death notes to the ground and due to this, the world soon falls into chaos. Tsukuru is a member of the Death Note special task force team with 6 other investigators including Matsuda who experienced the Kira case of 10 years ago.  Mass murders caused by the death note takes place on Wall Street in the U.S., Shibuya in Japan and other places. World famous private investigator Ryuzaki, who is the rightful successor of L, also investigates the mass murders. They discover that 6 death notes exists in the world.  A computer virus called Kira spreads in the world. A message in the Kira virus says to turn in 6 death notes.  A person who has 6 death notes overwhelm the world. The confrontation begins between the person who wants Kira’s revival and the people who want to stop it.",
+    "localized": {
+      "en": {
+        "title": "Death Note: Light Up the NEW World",
+        "overview": "10 years has passed since the confrontation between Kira and L. Again, Shinigami sends death notes to the ground and due to this, the world soon falls into chaos. Tsukuru is a member of the Death Note special task force team with 6 other investigators including Matsuda who experienced the Kira case of 10 years ago.  Mass murders caused by the death note takes place on Wall Street in the U.S., Shibuya in Japan and other places. World famous private investigator Ryuzaki, who is the rightful successor of L, also investigates the mass murders. They discover that 6 death notes exists in the world.  A computer virus called Kira spreads in the world. A message in the Kira virus says to turn in 6 death notes.  A person who has 6 death notes overwhelm the world. The confrontation begins between the person who wants Kira’s revival and the people who want to stop it."
+      },
+      "es": {
+        "title": "Death Note: Iluminando un nuevo mundo",
+        "overview": "Diez años han pasado desde la confrontación entre Kira y L. Una vez más, los Shinigamis envían Death Notes al suelo y debido a esto, el mundo pronto cae en el caos. Tsukuru es un miembro del equipo de fuerza especial sobre la investigación de las Death Notes con otros seis investigadores, incluyendo a Matsuda que experimentó el caso de Kira hace años. El mundialmente famoso investigador privado Ryuzaki, que es el legítimo sucesor de L, también investiga los asesinatos en masa. A su vez, un virus informático llamado Kira se propaga por el mundo. El enfrentamiento comienza entre la persona que quiere el avivamiento de Kira y las personas que quieren detenerlo."
+      }
+    },
+    "runtimeMin": 134
+  },
+  {
+    "id": "death-note-2017",
+    "tmdbId": 351460,
+    "tmdbType": "movie",
+    "title": "Death Note",
+    "kind": "movie",
+    "releaseDate": "2017-08-25",
+    "imdbId": "tt1241317",
+    "posterPath": "/8xRQ0KG9ZZzjEiFa5fgEaTKhc0d.jpg",
+    "overview": "Light Turner finds a supernatural notebook and uses it to mete out death, attracting the attention of a detective, a demon and a girl in his class.",
+    "localized": {
+      "en": {
+        "title": "Death Note",
+        "overview": "Light Turner finds a supernatural notebook and uses it to mete out death, attracting the attention of a detective, a demon and a girl in his class."
+      },
+      "es": {
+        "title": "Death Note",
+        "overview": "Un adolescente encuentra un cuaderno con poderes y lo usa para matar. Ahora tiene a un detective, un demonio y una chica tras él."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "stargate-1994",
+    "tmdbId": 2164,
+    "tmdbType": "movie",
+    "title": "Stargate",
+    "kind": "movie",
+    "releaseDate": "1994-10-28",
+    "imdbId": "tt0111282",
+    "posterPath": "/4T6Po0XnZlevmhfPh3ZfEs5butR.jpg",
+    "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+    "localized": {
+      "en": {
+        "title": "Stargate",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra."
+      },
+      "es": {
+        "title": "Stargate: La puerta del tiempo",
+        "overview": "Un coronel y un científico, movidos por distintos intereses, investigan el misterioso hallazgo en unas excavaciones de un extraño artefacto al que llaman \"Puerta de las Estrellas\". Acompañados de un equipo de reconocimiento, atraviesan la Puerta y son transportados a un lejano planeta."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "stargate-sg-1-1997",
+    "tmdbId": 4629,
+    "tmdbType": "tv",
+    "title": "Stargate SG-1",
+    "kind": "series",
+    "releaseDate": "1997-07-27",
+    "imdbId": "tt0118480",
+    "posterPath": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
+    "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori.",
+    "localized": {
+      "en": {
+        "title": "Stargate SG-1",
+        "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori."
+      },
+      "es": {
+        "title": "Stargate SG-1",
+        "overview": "Stargate SG-1 es una serie televisiva estadounidense derivada del largometraje de ciencia ficción Stargate: Puerta a las Estrellas (1994). Producida por los estudios Metro Goldwyn Mayer. Esta serie se centra en las vivencias y aventuras de un equipo de militares y científicos miembros de un proyecto ultra-secreto de las Fuerzas Aéreas de los Estados Unidos, que utiliza un ingenio extraterrestre (Stargate) para desplazarse a otros planetas de manera casi instantánea."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22,
+        "airDate": "1997-07-27"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1998-06-26"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "1999-06-25"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "2000-06-30"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "2001-06-29"
+      },
+      {
+        "number": 6,
+        "episodes": 22,
+        "airDate": "2002-06-07"
+      },
+      {
+        "number": 7,
+        "episodes": 22,
+        "airDate": "2003-06-13"
+      },
+      {
+        "number": 8,
+        "episodes": 20,
+        "airDate": "2004-07-09"
+      },
+      {
+        "number": 9,
+        "episodes": 20,
+        "airDate": "2005-07-15"
+      },
+      {
+        "number": 10,
+        "episodes": 20,
+        "airDate": "2006-07-14"
+      }
+    ],
+    "runtimeMin": 9436
+  },
+  {
+    "id": "stargate-atlantis-2004",
+    "tmdbId": 2290,
+    "tmdbType": "tv",
+    "title": "Stargate Atlantis",
+    "kind": "series",
+    "releaseDate": "2004-07-15",
+    "imdbId": "tt0374455",
+    "posterPath": "/l0JYr2iqwId6VOmCV8dHzlIM6Wd.jpg",
+    "overview": "With the Ancients' city of Atlantis discovered in the Pegasus Galaxy by Stargate Command, Dr. Elizabeth Weir and Major Sheppard lead a scientific expedition to the ancient abandoned city. Once there, the team not only find themselves unable to contact Earth, but their explorations unexpectedly reawaken the Ancients' deadly enemies, The Wraith, who hunger for this new prey. Now with the help of newfound local allies like Teyla Emmagan, the Atlantis Team sets about to uncover their new home's secrets even as their war of survival against the Wraith begins.",
+    "localized": {
+      "en": {
+        "title": "Stargate Atlantis",
+        "overview": "With the Ancients' city of Atlantis discovered in the Pegasus Galaxy by Stargate Command, Dr. Elizabeth Weir and Major Sheppard lead a scientific expedition to the ancient abandoned city. Once there, the team not only find themselves unable to contact Earth, but their explorations unexpectedly reawaken the Ancients' deadly enemies, The Wraith, who hunger for this new prey. Now with the help of newfound local allies like Teyla Emmagan, the Atlantis Team sets about to uncover their new home's secrets even as their war of survival against the Wraith begins."
+      },
+      "es": {
+        "title": "Stargate Atlantis",
+        "overview": "La historia de la serie parte del final de la séptima temporada y el inicio de la octava de Stargate SG-1. Un grupo de científicos, entre los que se encuentran el Dr. Daniel Jackson, la Doctora Elizabeth Weir y el Dr. Rodney McKay, están estudiando el puesto avanzado de los Antiguos que O'Neill descubrió al final de la séptima temporada. El Dr. Jackson consigue averiguar que pasó con Atlantis: los Antiguos se la llevaron a otra galaxia, Pegaso, y tiene la dirección de donde fueron. El problema es que abrir el Stargate a otra galaxia gasta mucha energía, por lo que es posible que sea un viaje sin retorno. Sin embargo, una expedición científico-militar, la Expedición Atlantis, capitaneada por la propia Weir, decide embancarse en la aventura y parte hacia la ciudad perdida de los Antiguos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 20,
+        "airDate": "2004-07-15"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2005-07-15"
+      },
+      {
+        "number": 3,
+        "episodes": 20,
+        "airDate": "2006-07-13"
+      },
+      {
+        "number": 4,
+        "episodes": 20,
+        "airDate": "2007-09-27"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "2008-07-10"
+      }
+    ],
+    "runtimeMin": 4340
+  },
+  {
+    "id": "stargate-the-ark-of-truth-2008",
+    "tmdbId": 13001,
+    "tmdbType": "movie",
+    "title": "Stargate: The Ark of Truth",
+    "kind": "movie",
+    "releaseDate": "2008-03-11",
+    "imdbId": "tt0942903",
+    "posterPath": "/kIqsCdZBmKYuPwaDnrFYzK1gqlM.jpg",
+    "overview": "SG-1 searches for an ancient weapon which could help them defeat the Ori, and discover it may be in the Ori's own home galaxy. As the Ori prepare to send ships through to the Milky Way to attack Earth, SG-1 travels to the Ori galaxy aboard the Odyssey. The International Oversight committee have their own plans and SG-1 finds themselves in a distant galaxy fighting two powerful enemies.",
+    "localized": {
+      "en": {
+        "title": "Stargate: The Ark of Truth",
+        "overview": "SG-1 searches for an ancient weapon which could help them defeat the Ori, and discover it may be in the Ori's own home galaxy. As the Ori prepare to send ships through to the Milky Way to attack Earth, SG-1 travels to the Ori galaxy aboard the Odyssey. The International Oversight committee have their own plans and SG-1 finds themselves in a distant galaxy fighting two powerful enemies."
+      },
+      "es": {
+        "title": "Stargate: El arca de la verdad",
+        "overview": "Mientras el SG-1 busca un artefacto antiguo con el que esperan poder derrotar a los ejércitos de los Ori, descubren que más naves Ori están a punto de ser enviadas a través del SuperStargate para lanzar un asalto final sobre la Tierra. Daniel descubre que un artefacto, el Arca de la Verdad, puede estar en la galaxia Ori, y el SG-1 se embarca a bordo del Odyssey para encontrarlo y dificultar el ataque. El IOA tiene un plan propio y el SG-1 termina en una galaxia distante luchando contra dos enemigos poderosos."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "stargate-continuum-2008",
+    "tmdbId": 12914,
+    "tmdbType": "movie",
+    "title": "Stargate: Continuum",
+    "kind": "movie",
+    "releaseDate": "2008-07-29",
+    "imdbId": "tt0929629",
+    "posterPath": "/1rQUvblJHU8766FatqTtCMiRhph.jpg",
+    "overview": "Ba'al travels back in time and prevents the Stargate program from being started. SG-1 must somehow restore history.",
+    "localized": {
+      "en": {
+        "title": "Stargate: Continuum",
+        "overview": "Ba'al travels back in time and prevents the Stargate program from being started. SG-1 must somehow restore history."
+      },
+      "es": {
+        "title": "Stargate: El contínuo",
+        "overview": "Ba'al viaja atrás en el tiempo e impide que el programa Stargate se inicie. El SG-1 debe de alguna manera restaurar la historia."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "stargate-universe-2009",
+    "tmdbId": 5148,
+    "tmdbType": "tv",
+    "title": "Stargate Universe",
+    "kind": "series",
+    "releaseDate": "2009-10-02",
+    "imdbId": "tt1286039",
+    "posterPath": "/dHOaOZGUhnoRXeK9mhYeSRPh59H.jpg",
+    "overview": "The adventures of a present-day, multinational exploration team traveling on the Ancient spaceship Destiny many billions of light years distant from the Milky Way Galaxy. They evacuated there and are now trying to figure out a way to return to Earth, while simultaneously trying to explore and to survive in their unknown area of the universe.",
+    "localized": {
+      "en": {
+        "title": "Stargate Universe",
+        "overview": "The adventures of a present-day, multinational exploration team traveling on the Ancient spaceship Destiny many billions of light years distant from the Milky Way Galaxy. They evacuated there and are now trying to figure out a way to return to Earth, while simultaneously trying to explore and to survive in their unknown area of the universe."
+      },
+      "es": {
+        "title": "Stargate Universe",
+        "overview": "Soldados, científicos y civiles viajan lejos de la Tierra en una nave espacial fuera de control en esta serie de ciencia ficción derivada de 'Stargate SG-1'."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 20,
+        "airDate": "2009-10-02"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2010-09-28"
+      }
+    ],
+    "runtimeMin": 1753
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-1987",
+    "tmdbId": 160,
+    "tmdbType": "tv",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "1987-12-14",
+    "imdbId": "tt0131613",
+    "posterPath": "/AaihPizftZo5YCqzEgHMwkceaEo.jpg",
+    "overview": "Four turtles fall into the sewers and are befriended by Hamato Yoshi a Japanese man sent to New York who was forced to live in the sewers. One day he sees a strange green glow which transforms the four turtles into human-like creatures. Hamato (now Master Splinter) changes into a giant rat from the green glow and teaches the turtles the skills of the ninja as they team up with news reporter April O'Neil to battle against Yoshi's arch enemy Shredder and Krang, an alien warlord from Dimension X.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "Four turtles fall into the sewers and are befriended by Hamato Yoshi a Japanese man sent to New York who was forced to live in the sewers. One day he sees a strange green glow which transforms the four turtles into human-like creatures. Hamato (now Master Splinter) changes into a giant rat from the green glow and teaches the turtles the skills of the ninja as they team up with news reporter April O'Neil to battle against Yoshi's arch enemy Shredder and Krang, an alien warlord from Dimension X."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja",
+        "overview": "Las Tortugas Ninja nacieron en las alcantarillas de Manhattan después de que una sustancia mutagénica transformara a cuatro tortugas mascota en criaturas mitad humanas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 5,
+        "airDate": "1987-12-14"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "1988-10-01"
+      },
+      {
+        "number": 3,
+        "episodes": 47,
+        "airDate": "1989-09-25"
+      },
+      {
+        "number": 4,
+        "episodes": 39,
+        "airDate": "1990-09-10"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "1991-09-23"
+      },
+      {
+        "number": 6,
+        "episodes": 16,
+        "airDate": "1992-09-14"
+      },
+      {
+        "number": 7,
+        "episodes": 27,
+        "airDate": "1993-09-18"
+      },
+      {
+        "number": 8,
+        "episodes": 8,
+        "airDate": "1994-09-17"
+      },
+      {
+        "number": 9,
+        "episodes": 8,
+        "airDate": "1995-09-16"
+      },
+      {
+        "number": 10,
+        "episodes": 8,
+        "airDate": "1996-09-14"
+      }
+    ],
+    "runtimeMin": 4354
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-1990",
+    "tmdbId": 1498,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "movie",
+    "releaseDate": "1990-03-30",
+    "imdbId": "tt0100758",
+    "posterPath": "/shfAU6xIIEAEtsloIT3n9Fscz2E.jpg",
+    "overview": "A quartet of humanoid turtles, trained by their mentor in Ninjutsu, must learn to work together to face the menace of Shredder and the Foot Clan.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "A quartet of humanoid turtles, trained by their mentor in Ninjutsu, must learn to work together to face the menace of Shredder and the Foot Clan."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja",
+        "overview": "Después de haber sido contaminadas con una misteriosa sustancia química, llamada Ooze, cuatro tortugas mutantes, Leonardo, Miguel Ángel, Donatello y Rafael, entrenadas por su mentor en ninjitsu, el Maestro Splinter, deben aprender a trabajar juntos para enfrentar la amenaza de Shredder y el Clan del Pie."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-1991",
+    "tmdbId": 1497,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+    "kind": "movie",
+    "releaseDate": "1991-03-22",
+    "imdbId": "tt0103060",
+    "posterPath": "/Hyvvz9Z3le1is8a0EeFJQm0aSC.jpg",
+    "overview": "The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to create an army of new mutants. Meanwhile Splinter is coming... to a decision.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+        "overview": "The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to create an army of new mutants. Meanwhile Splinter is coming... to a decision."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja II: El Secreto del Ooze",
+        "overview": "Con el último bote del Oozze, Shredder quiere crear un ejército de nuevos mutantes. Así que Las Tortugas y Shredder deben luchar una vez más, junto con la periodista Abril y el joven repartidor de pizzas, Keno."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-iii-1993",
+    "tmdbId": 1499,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles III",
+    "kind": "movie",
+    "releaseDate": "1993-03-17",
+    "imdbId": "tt0108308",
+    "posterPath": "/fwX5RdPDBFsbEAXc46DrvRz5Bca.jpg",
+    "overview": "The four turtles travel back in time to the days of the legendary and deadly samurai in ancient Japan, where they train to perfect the art of becoming one. The turtles also assist a small village in an uprising.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles III",
+        "overview": "The four turtles travel back in time to the days of the legendary and deadly samurai in ancient Japan, where they train to perfect the art of becoming one. The turtles also assist a small village in an uprising."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja III: Viaje al pasado",
+        "overview": "Cuando un centro mágico transporta por accidente a Abril al Japón del siglo XVII, los chicos se lanzan en su busca y aparecen, a través de la alcantarilla, en la tierra de los samuráis. Ahora deben enfrentarse a Nortaga, el malvado Señor de la guerra, y recuperar el cetro que los transportará de vuelta a lo más profundo del metro de Nueva York."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-2003",
+    "tmdbId": 2284,
+    "tmdbType": "tv",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "2003-02-08",
+    "imdbId": "tt0318913",
+    "posterPath": "/sEb6sTxyGoguCX4fK1G0hyzyLcv.jpg",
+    "overview": "When four pet turtles were bathed in alien ooze, they began to mutate and became the Teenage Mutant Ninja Turtles. Raised in New York City sewers by their foster father and wise sensei, Master Splinter, Leonardo, Michelangelo, Donatello, and Raphael wage war against crime. Led by Master Splinter, the four turtles learn the ancient martial art of Ninjitsu, mastering skills of stealth, weapons, and fighting. They stop evildoers in all forms, whether barbaric gangs, lowlife crooks, deranged cyborgs, or even the crime syndicate The Foot, led by their archrival, The Shredder.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "When four pet turtles were bathed in alien ooze, they began to mutate and became the Teenage Mutant Ninja Turtles. Raised in New York City sewers by their foster father and wise sensei, Master Splinter, Leonardo, Michelangelo, Donatello, and Raphael wage war against crime. Led by Master Splinter, the four turtles learn the ancient martial art of Ninjitsu, mastering skills of stealth, weapons, and fighting. They stop evildoers in all forms, whether barbaric gangs, lowlife crooks, deranged cyborgs, or even the crime syndicate The Foot, led by their archrival, The Shredder."
+      },
+      "es": {
+        "title": "Tortugas Ninjas Mutantes Adolescentes",
+        "overview": "Leonardo, Raphael, Michaelangelo y Donatello deben salvar la ciudad de Nueva York del malvado señor del crimen Shredder y su asistente, Baxter Stockman. Las tortugas deben luchar contra los soldados de infantería, los ratones y las pandillas y obtener ayuda de su sensai Splinter, su amiga April O'Neil y su compañero Casey Jones en una nueva serie llena de acción."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2003-02-08"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2003-11-08"
+      },
+      {
+        "number": 3,
+        "episodes": 26,
+        "airDate": "2004-10-09"
+      },
+      {
+        "number": 4,
+        "episodes": 25,
+        "airDate": "2005-09-10"
+      },
+      {
+        "number": 5,
+        "episodes": 12,
+        "airDate": "2008-02-16"
+      },
+      {
+        "number": 6,
+        "episodes": 26,
+        "airDate": "2006-07-29"
+      },
+      {
+        "number": 7,
+        "episodes": 13,
+        "airDate": "2008-09-13"
+      }
+    ],
+    "runtimeMin": 3241
+  },
+  {
+    "id": "tmnt-2007",
+    "tmdbId": 1273,
+    "tmdbType": "movie",
+    "title": "TMNT",
+    "kind": "movie",
+    "releaseDate": "2007-03-23",
+    "imdbId": "tt0453556",
+    "posterPath": "/poi1xctCgyzTRkNwiVYp6auQNhj.jpg",
+    "overview": "After the defeat of their old arch nemesis, The Shredder, the Turtles have grown apart as a family. Struggling to keep them together, their rat sensei, Splinter, becomes worried when strange things begin to brew in New York City.",
+    "localized": {
+      "en": {
+        "title": "TMNT",
+        "overview": "After the defeat of their old arch nemesis, The Shredder, the Turtles have grown apart as a family. Struggling to keep them together, their rat sensei, Splinter, becomes worried when strange things begin to brew in New York City."
+      },
+      "es": {
+        "title": "TMNT: Las Tortugas Ninja",
+        "overview": "Después de la derrota de su antiguo archienemigo, Shredder, las Tortugas se han distanciado como familia. Pero una vez que las tortugas se volvieron a juntarse, comienzan a suceder extrañas sucesos en la ciudad de Nueva York."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-2012",
+    "tmdbId": 51817,
+    "tmdbType": "tv",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "2012-09-28",
+    "imdbId": "tt1877889",
+    "posterPath": "/n0DN6kJf0kGeuNFUYLT6eZe5ERR.jpg",
+    "overview": "The Teenage Mutant Ninja Turtles are back in an all-new animated series on Nickelodeon! Surfacing topside for the first time on their fifteenth birthday, the titular turtles, Leonardo, Michelangelo, Raphael and Donatello, find that life out of the sewers isn't exactly what they thought it would be. Now the turtles must work together as a team to take on new enemies that arise to take over New York City.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "The Teenage Mutant Ninja Turtles are back in an all-new animated series on Nickelodeon! Surfacing topside for the first time on their fifteenth birthday, the titular turtles, Leonardo, Michelangelo, Raphael and Donatello, find that life out of the sewers isn't exactly what they thought it would be. Now the turtles must work together as a team to take on new enemies that arise to take over New York City."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja",
+        "overview": "Leo, Rafa, Mikey y Donnie son tortugas mutantes que han sido entrenadas por el Maestro Splinter. Viven en su guarida de las alcantarillas y emergen para luchar contra los villanos y para comerse la pizza más deliciosa del mundo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2012-09-28"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2013-10-12"
+      },
+      {
+        "number": 3,
+        "episodes": 26,
+        "airDate": "2014-10-03"
+      },
+      {
+        "number": 4,
+        "episodes": 26,
+        "airDate": "2015-10-25"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "2017-03-19"
+      }
+    ],
+    "runtimeMin": 2758
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-2014",
+    "tmdbId": 98566,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "movie",
+    "releaseDate": "2014-08-07",
+    "imdbId": "tt1291150",
+    "posterPath": "/azL2ThbJMIkts3ZMt3j1YgBUeDB.jpg",
+    "overview": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home."
+      },
+      "es": {
+        "title": "Tortugas Ninja",
+        "overview": "Shredder y el Clan del Pie dominan las calles de Nueva York. Pero, cuatro tortugas mutantes (Leonardo, Michelangelo, Donatello y Raphael) saldrán de las alcantarillas para salvar la ciudad, junto con la reportera Abril O'Neil y su compañero Vern Fenwick."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-out-of-the-shadows-2016",
+    "tmdbId": 308531,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+    "kind": "movie",
+    "releaseDate": "2016-05-30",
+    "imdbId": "tt3949660",
+    "posterPath": "/euVaCiCWz3AALcQXHT6aUqdGUo6.jpg",
+    "overview": "After supervillain Shredder escapes custody, he joins forces with mad scientist Baxter Stockman and two dimwitted henchmen, Bebop and Rocksteady, to unleash a diabolical plan to take over the world. As the Turtles prepare to take on Shredder and his new crew, they find themselves facing an even greater evil with similar intentions: the notorious Krang.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+        "overview": "After supervillain Shredder escapes custody, he joins forces with mad scientist Baxter Stockman and two dimwitted henchmen, Bebop and Rocksteady, to unleash a diabolical plan to take over the world. As the Turtles prepare to take on Shredder and his new crew, they find themselves facing an even greater evil with similar intentions: the notorious Krang."
+      },
+      "es": {
+        "title": "Tortugas Ninja 2: Fuera de las sombras",
+        "overview": "Las Tortugas, junto con Abril O’Neil y el nuevo vigilante enmascarado Casey Jones, deben detener un plan diabólico en desarrollo después que Shredder logra escapar de la cárcel."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "rise-of-the-teenage-mutant-ninja-turtles-2018",
+    "tmdbId": 81026,
+    "tmdbType": "tv",
+    "title": "Rise of the Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "2018-07-20",
+    "imdbId": "tt6601082",
+    "posterPath": "/4LZxcn6nWG1yWBKG0RD98HY13b4.jpg",
+    "overview": "Rise up! The Teenage Mutant Ninja Turtles get an all-new look, new weapons, and awesome new powers! Join the legendary heroes, Raph, Leo, Donnie and Mikey as these brothers discover a Hidden City beneath New York, learn amazing mystic ninja skills, battle absurd mutants… and always find time for a slice of their favorite pizza! Cowabunga!",
+    "localized": {
+      "en": {
+        "title": "Rise of the Teenage Mutant Ninja Turtles",
+        "overview": "Rise up! The Teenage Mutant Ninja Turtles get an all-new look, new weapons, and awesome new powers! Join the legendary heroes, Raph, Leo, Donnie and Mikey as these brothers discover a Hidden City beneath New York, learn amazing mystic ninja skills, battle absurd mutants… and always find time for a slice of their favorite pizza! Cowabunga!"
+      },
+      "es": {
+        "title": "El ascenso de las Tortugas Ninja",
+        "overview": "Los hermanos tortuga tienen por objetivo cumplir su destino como superhéroes. Aprovechando sus poderes ninja, descubren un mundo lleno de magia, villanos y problemas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 46,
+        "airDate": "2018-07-20"
+      },
+      {
+        "number": 2,
+        "episodes": 24,
+        "airDate": "2019-10-12"
+      }
+    ],
+    "runtimeMin": 886
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-mutant-mayhem-2023",
+    "tmdbId": 614930,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+    "kind": "movie",
+    "releaseDate": "2023-07-31",
+    "imdbId": "tt8589698",
+    "posterPath": "/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
+    "overview": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+        "overview": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them."
+      },
+      "es": {
+        "title": "Tortugas Ninja: Caos mutante",
+        "overview": "Tras años aislados del mundo humano, los hermanos Tortuga se propusieron conquistar el corazón de los neoyorquinos y ser aceptados como adolescentes normales mediante actos heroicos. Su nueva amiga April O'Neil los ayudó a enfrentarse a un misterioso sindicato del crimen, pero pronto se vieron superados por un ejército de mutantes que los asaltaba."
+      }
+    },
+    "runtimeMin": 100
   }
 ]

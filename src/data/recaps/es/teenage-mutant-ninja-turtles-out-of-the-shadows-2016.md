@@ -1,0 +1,2 @@
+- Shredder escapa y se alía con Krang, Bebop y Rocksteady.
+- Las tortugas deben detenerlos.

@@ -1,0 +1,1 @@
+- Dos años después de ser arrastrado a nuestro mundo, Edward investiga cohetes en Múnich, 1923.

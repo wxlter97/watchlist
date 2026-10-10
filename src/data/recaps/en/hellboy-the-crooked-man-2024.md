@@ -1,0 +1,2 @@
+- Hellboy and a rookie agent get stranded in rural 1950s Appalachia.
+- They find a community haunted by witches and a local devil, the Crooked Man.

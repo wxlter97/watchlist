@@ -1,0 +1,2 @@
+- Stargate Command sends teams to other worlds.
+- Over the years the enemies grow: Goa'uld, Replicators and the Ori.

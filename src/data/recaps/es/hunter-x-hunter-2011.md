@@ -1,0 +1,2 @@
+- Gon Freecss descubre que su padre Ging, un famoso Cazador, está vivo y decide seguir sus pasos.
+- Con Killua, Kurapika y Leorio, enfrenta exámenes, subastas y la Hormiga Quimera.

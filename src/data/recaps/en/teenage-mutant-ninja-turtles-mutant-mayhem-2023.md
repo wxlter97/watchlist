@@ -1,0 +1,2 @@
+- The turtle brothers, sheltered from the human world, want to be accepted as normal teens.
+- With April O'Neil they take on a crime syndicate.

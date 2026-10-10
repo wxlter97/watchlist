@@ -1,0 +1,2 @@
+- Cuatro tortugas mutadas por una sustancia alienígena viven en las alcantarillas de Nueva York bajo la guía de Splinter.
+- Combaten a Shredder y a otros enemigos.

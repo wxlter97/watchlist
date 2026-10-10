@@ -1,0 +1,2 @@
+- Shredder escapes and teams up with Krang, Bebop and Rocksteady.
+- The turtles must stop them.

@@ -1,0 +1,2 @@
+- El Comando Stargate envía equipos a otros mundos.
+- Con los años, los enemigos crecen: Goa'uld, replicadores y los Ori.

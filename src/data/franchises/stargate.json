@@ -1,0 +1,342 @@
+{
+  "id": "stargate",
+  "name": {
+    "es": "Stargate",
+    "en": "Stargate"
+  },
+  "description": {
+    "es": "Los portales a otros mundos: la película de 1994, SG-1, Atlantis, Universe y las películas de SG-1.",
+    "en": "Portals to other worlds: the 1994 film, SG-1, Atlantis, Universe and the SG-1 films."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Universo Stargate",
+        "en": "Stargate universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La película, las tres series y las dos películas de SG-1.",
+        "en": "The film, the three series and the two SG-1 films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "stargate-1994",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 20,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 30,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 40,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 50,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 5,
+      "chronoOrder": 60,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 6,
+      "chronoOrder": 70,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 7,
+      "chronoOrder": 80,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 8,
+      "chronoOrder": 90,
+      "characters": [
+        "jack-oneill",
+        "daniel-jackson",
+        "samantha-carter",
+        "tealc"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "recommended",
+      "season": 9,
+      "chronoOrder": 100,
+      "characters": [
+        "samantha-carter",
+        "daniel-jackson"
+      ]
+    },
+    {
+      "titleId": "stargate-sg-1-1997",
+      "continuityId": "main",
+      "importance": "recommended",
+      "season": 10,
+      "chronoOrder": 110,
+      "characters": [
+        "samantha-carter",
+        "daniel-jackson"
+      ]
+    },
+    {
+      "titleId": "stargate-atlantis-2004",
+      "continuityId": "main",
+      "importance": "recommended",
+      "season": 1,
+      "chronoOrder": 120,
+      "chronoNote": {
+        "es": "Se emitió junto a SG-1",
+        "en": "Aired alongside SG-1"
+      },
+      "characters": [
+        "john-sheppard",
+        "rodney-mckay"
+      ]
+    },
+    {
+      "titleId": "stargate-atlantis-2004",
+      "continuityId": "main",
+      "importance": "recommended",
+      "season": 2,
+      "chronoOrder": 130,
+      "chronoNote": {
+        "es": "Se emitió junto a SG-1",
+        "en": "Aired alongside SG-1"
+      },
+      "characters": [
+        "john-sheppard",
+        "rodney-mckay"
+      ]
+    },
+    {
+      "titleId": "stargate-atlantis-2004",
+      "continuityId": "main",
+      "importance": "recommended",
+      "season": 3,
+      "chronoOrder": 140,
+      "characters": [
+        "john-sheppard",
+        "rodney-mckay"
+      ],
+      "chronoNote": {
+        "es": "Se emitió junto a SG-1",
+        "en": "Aired alongside SG-1"
+      }
+    },
+    {
+      "titleId": "stargate-atlantis-2004",
+      "continuityId": "main",
+      "importance": "optional",
+      "season": 4,
+      "chronoOrder": 150,
+      "characters": [
+        "john-sheppard",
+        "rodney-mckay"
+      ]
+    },
+    {
+      "titleId": "stargate-atlantis-2004",
+      "continuityId": "main",
+      "importance": "optional",
+      "season": 5,
+      "chronoOrder": 160,
+      "characters": [
+        "john-sheppard",
+        "rodney-mckay"
+      ]
+    },
+    {
+      "titleId": "stargate-the-ark-of-truth-2008",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 170,
+      "chronoNote": {
+        "es": "Cierra la historia de los Ori tras la temporada 10",
+        "en": "Closes the Ori story after season 10"
+      },
+      "characters": [
+        "samantha-carter",
+        "daniel-jackson"
+      ]
+    },
+    {
+      "titleId": "stargate-continuum-2008",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 180,
+      "characters": [
+        "samantha-carter",
+        "jack-oneill"
+      ]
+    },
+    {
+      "titleId": "stargate-universe-2009",
+      "continuityId": "main",
+      "importance": "optional",
+      "season": 1,
+      "chronoOrder": 190,
+      "characters": []
+    },
+    {
+      "titleId": "stargate-universe-2009",
+      "continuityId": "main",
+      "importance": "optional",
+      "season": 2,
+      "chronoOrder": 200,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "jack-oneill",
+        "name": {
+          "es": "Jack O'Neill",
+          "en": "Jack O'Neill"
+        }
+      },
+      {
+        "id": "daniel-jackson",
+        "name": {
+          "es": "Daniel Jackson",
+          "en": "Daniel Jackson"
+        }
+      },
+      {
+        "id": "samantha-carter",
+        "name": {
+          "es": "Samantha Carter",
+          "en": "Samantha Carter"
+        }
+      },
+      {
+        "id": "tealc",
+        "name": {
+          "es": "Teal'c",
+          "en": "Teal'c"
+        }
+      },
+      {
+        "id": "john-sheppard",
+        "name": {
+          "es": "John Sheppard",
+          "en": "John Sheppard"
+        }
+      },
+      {
+        "id": "rodney-mckay",
+        "name": {
+          "es": "Rodney McKay",
+          "en": "Rodney McKay"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

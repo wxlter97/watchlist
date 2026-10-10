@@ -1,0 +1,2 @@
+- Ba'al viaja al pasado y evita que empiece el programa Stargate.
+- SG-1 debe restaurar la historia.

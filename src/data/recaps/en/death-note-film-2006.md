@@ -1,0 +1,2 @@
+- Light receives the notebook and starts eliminating criminals.
+- L begins his investigation.
