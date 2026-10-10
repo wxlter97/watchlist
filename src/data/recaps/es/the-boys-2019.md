@@ -1,0 +1,4 @@
+- **Temporada 1:** Hughie pierde a su novia por culpa de un superhéroe y se une a Billy Butcher contra Vought.
+- **Temporada 2:** aparece Stormfront y crecen las tensiones con Homelander.
+- **Temporada 3:** buscan a Soldier Boy para frenar a Homelander.
+- **Temporadas 4-5:** Homelander busca el control total y la historia llega a su final.
