@@ -1,0 +1,2 @@
+- Laurie Strode, 20 years later, lives under another name as a school principal.
+- Michael finds her and she must face him.

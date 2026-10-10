@@ -1,0 +1,2 @@
+- A group of young colonists scavenges an abandoned station.
+- They come face to face with the most terrifying creature in the universe.

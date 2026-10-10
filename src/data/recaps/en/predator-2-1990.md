@@ -1,0 +1,1 @@
+- A police chief discovers an extraterrestrial creature is hunting Los Angeles residents.

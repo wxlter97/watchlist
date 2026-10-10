@@ -1,0 +1,2 @@
+- A hybrid, the PredAlien, crash-lands near a Colorado town.
+- The townspeople are caught between the creatures.

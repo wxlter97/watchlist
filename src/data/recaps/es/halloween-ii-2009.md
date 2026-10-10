@@ -1,0 +1,1 @@
+- Laurie lidia con el regreso mortal de su hermano Michael mientras él se prepara para volver a Haddonfield.

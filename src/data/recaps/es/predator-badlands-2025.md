@@ -1,0 +1,2 @@
+- Un joven Predator es expulsado de su clan y se alía con un androide dañado.
+- Emprenden un viaje peligroso en busca de un adversario digno.

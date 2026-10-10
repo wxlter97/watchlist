@@ -1,0 +1,2 @@
+- Former cop Brian O'Conner teams up with his friend Roman Pearce for a mission.
+- They try to infiltrate a criminal in Miami.

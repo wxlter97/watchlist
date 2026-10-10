@@ -1,0 +1,2 @@
+- Sean Boswell moves to Tokyo with his father to avoid jail.
+- He gets into drift racing and meets Han.

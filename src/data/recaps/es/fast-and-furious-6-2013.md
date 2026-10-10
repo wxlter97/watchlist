@@ -1,0 +1,2 @@
+- Hobbs pide a Dom y Brian que reúnan a su equipo para detener a un grupo de mercenarios.
+- Dom descubre que Letty sigue viva.

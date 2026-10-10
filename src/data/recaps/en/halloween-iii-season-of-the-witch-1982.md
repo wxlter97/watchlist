@@ -1,0 +1,2 @@
+- A terrified toy salesman arrives at a hospital clutching a Halloween mask.
+- The investigation reveals a plot tied to the Silver Shamrock factory's masks.

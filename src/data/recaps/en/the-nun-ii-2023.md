@@ -1,0 +1,2 @@
+- A priest is murdered in France and Sister Irene investigates.
+- She comes face to face with a dark force again.

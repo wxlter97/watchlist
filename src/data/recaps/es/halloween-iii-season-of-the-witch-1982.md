@@ -1,0 +1,2 @@
+- Un vendedor de juguetes llega aterrado a un hospital con una máscara de Halloween en las manos.
+- La investigación revela un plan ligado a las máscaras de la fábrica Silver Shamrock.

@@ -1,0 +1,2 @@
+- Ed and Lorraine Warren lock Annabelle in their artifact room.
+- Their daughter and her friends are left alone with the cursed objects.

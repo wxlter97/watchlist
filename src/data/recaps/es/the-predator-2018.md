@@ -1,0 +1,2 @@
+- Un niño activa sin querer el regreso de los cazadores a la Tierra.
+- Un grupo de ex soldados y una científica intentan evitar el fin de la humanidad.

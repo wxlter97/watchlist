@@ -1,0 +1,2 @@
+- Four years later, Laurie decides to free herself from fear and rage.
+- A young man named Corey crosses paths with Michael and it all leads to a final confrontation.

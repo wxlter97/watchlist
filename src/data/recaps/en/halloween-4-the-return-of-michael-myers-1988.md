@@ -1,0 +1,2 @@
+- Ten years later, Michael awakens and returns to Haddonfield to kill his niece Jamie.
+- Loomis chases him again.

@@ -1,0 +1,2 @@
+- Una misteriosa mujer seduce a Dom hacia el crimen y lo lleva a traicionar a los suyos.
+- El equipo debe enfrentar la prueba más difícil de su historia.

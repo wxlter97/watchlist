@@ -1,0 +1,2 @@
+- A team of explorers follows a clue about humanity's origin to a distant planet.
+- They discover a deadly threat.

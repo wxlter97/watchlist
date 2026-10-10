@@ -1,0 +1,2 @@
+- Brian O'Conner, ex policía, se asocia con su amigo Roman Pearce para una misión.
+- Intentan infiltrar a un criminal de Miami.

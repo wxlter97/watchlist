@@ -1,0 +1,1 @@
+- Un matrimonio empieza a sufrir hechos sobrenaturales con una muñeca antigua tras un asalto a su casa.

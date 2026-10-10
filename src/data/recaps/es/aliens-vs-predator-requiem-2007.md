@@ -1,0 +1,2 @@
+- Un híbrido, el PredAlien, se estrella cerca de un pueblo de Colorado.
+- Los habitantes quedan atrapados entre las criaturas.

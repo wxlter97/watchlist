@@ -1,0 +1,2 @@
+- Sean Boswell se muda a Tokio con su padre para evitar la cárcel.
+- Se mete en el mundo de las carreras de derrape y conoce a Han.

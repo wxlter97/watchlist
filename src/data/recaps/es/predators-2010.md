@@ -1,0 +1,1 @@
+- Un grupo de asesinos despierta en un planeta alienígena donde los cazan los Predators.

@@ -1,0 +1,1 @@
+- Laurie struggles with her brother Michael's deadly return while he prepares to come back to Haddonfield.

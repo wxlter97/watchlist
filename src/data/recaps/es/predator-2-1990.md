@@ -1,0 +1,1 @@
+- Un jefe de policía descubre que una criatura extraterrestre está cazando a los residentes de Los Ángeles.

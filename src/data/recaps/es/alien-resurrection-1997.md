@@ -1,0 +1,2 @@
+- Doscientos años después de su muerte, científicos clonan a Ripley.
+- La nueva Ripley y los xenomorfos escapan de control.

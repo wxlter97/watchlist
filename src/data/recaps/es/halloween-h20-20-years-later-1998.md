@@ -1,0 +1,2 @@
+- Laurie Strode, 20 años después, vive con otro nombre como directora de un colegio.
+- Michael la encuentra y debe enfrentarlo.

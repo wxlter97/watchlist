@@ -1,0 +1,2 @@
+- Científicos descubren una pirámide enterrada cerca de la Antártida.
+- Los xenomorfos y los Predators chocan mientras ellos intentan sobrevivir.

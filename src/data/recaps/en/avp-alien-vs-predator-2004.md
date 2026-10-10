@@ -1,0 +1,2 @@
+- Scientists discover a buried pyramid near Antarctica.
+- Xenomorphs and Predators clash while they try to survive.

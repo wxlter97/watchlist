@@ -1,0 +1,1 @@
+- A couple begins to experience supernatural events with a vintage doll after their home is invaded.

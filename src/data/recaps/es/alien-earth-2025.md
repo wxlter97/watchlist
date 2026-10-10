@@ -1,0 +1,2 @@
+- Una nave de investigación, la Maginot, se estrella en la Tierra.
+- Wendy y un grupo de soldados se enfrentan a una amenaza desconocida.

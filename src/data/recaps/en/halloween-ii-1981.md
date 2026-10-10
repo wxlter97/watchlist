@@ -1,0 +1,2 @@
+- Michael follows Laurie to the hospital after taking six bullets from Dr. Loomis.
+- It is revealed that Laurie is his sister.

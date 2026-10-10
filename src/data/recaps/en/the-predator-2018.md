@@ -1,0 +1,2 @@
+- A boy accidentally triggers the hunters' return to Earth.
+- A ragtag crew of ex-soldiers and a scientist try to prevent humanity's end.
