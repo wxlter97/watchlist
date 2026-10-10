@@ -1,0 +1,2 @@
+- The Cylons, created by humans, attack the Twelve Colonies.
+- The survivors flee aboard Galactica in search of Earth.

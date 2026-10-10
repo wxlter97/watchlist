@@ -1,0 +1,1 @@
+- La primera guerra cylon lleva diez años; el joven alférez William Adama se une a la flota.

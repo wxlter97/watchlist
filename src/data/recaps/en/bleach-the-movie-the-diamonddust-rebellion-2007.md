@@ -1,0 +1,1 @@
+- The King's Seal is stolen and Toshiro is suspected.

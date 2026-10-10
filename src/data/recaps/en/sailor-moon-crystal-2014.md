@@ -1,0 +1,2 @@
+- Usagi is chosen as a guardian of justice to find the Silver Crystal before the Dark Kingdom invades Earth.
+- The three seasons adapt the manga's first arcs.

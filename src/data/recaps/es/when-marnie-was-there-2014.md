@@ -1,0 +1,2 @@
+- Anna, una adolescente distante, se obsesiona con una mansión abandonada.
+- Conoce a una niña que quizá solo existe en sus sueños.

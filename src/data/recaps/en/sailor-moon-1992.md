@@ -1,0 +1,2 @@
+- Usagi Tsukino, a clumsy teen, learns with the cat Luna that she is Sailor Moon.
+- She gathers other guardians to face a new enemy each season.

@@ -1,0 +1,2 @@
+- A clumsy teen becomes Sailor Moon after meeting the cat Luna.
+- She seeks the reincarnated princess of a lost kingdom.

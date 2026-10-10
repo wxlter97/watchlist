@@ -1,0 +1,2 @@
+- Satsuki y Mei se mudan al campo con su padre.
+- Descubren a Totoro, un espíritu del bosque.

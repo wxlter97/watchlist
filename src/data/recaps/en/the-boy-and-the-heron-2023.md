@@ -1,0 +1,2 @@
+- During World War II, young Mahito moves to the countryside after his mother's death.
+- A heron leads him to a strange world.

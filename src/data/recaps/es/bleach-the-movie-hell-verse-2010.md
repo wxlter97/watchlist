@@ -1,0 +1,1 @@
+- Un grupo de pecadores planea escapar del Infierno, un lugar vedado incluso para los Segadores de Almas.

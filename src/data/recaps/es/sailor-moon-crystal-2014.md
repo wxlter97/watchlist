@@ -1,0 +1,2 @@
+- Usagi es elegida guardiana de la justicia para encontrar el Cristal de Plata antes de que el Reino Oscuro invada la Tierra.
+- Las tres temporadas adaptan los primeros arcos del manga.

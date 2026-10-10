@@ -1,0 +1,1 @@
+- Seita and his sister Setsuko try to survive in Japan at the end of World War II.

@@ -1,0 +1,1 @@
+- Seita y su hermana Setsuko intentan sobrevivir en el Japón del final de la Segunda Guerra Mundial.

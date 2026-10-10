@@ -1,0 +1,1 @@
+- Una perturbación lleva a Ichigo y Kon a Soul Society, donde Rukia ha desaparecido y nadie lo recuerda.

@@ -1,0 +1,1 @@
+- Sailor Galaxia steals Mamoru's Golden Crystal and the mysterious Sailor Starlights appear.

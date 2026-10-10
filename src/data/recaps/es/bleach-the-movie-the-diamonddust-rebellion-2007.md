@@ -1,0 +1,1 @@
+- El Sello del Rey es robado y Toshiro es sospechoso.

@@ -1,0 +1,1 @@
+- Continúa la historia de Crystal con el siguiente arco del manga.

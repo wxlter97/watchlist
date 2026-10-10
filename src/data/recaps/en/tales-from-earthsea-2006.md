@@ -1,0 +1,2 @@
+- Crops dwindle and dragons reappear.
+- Archmage Sparrowhawk and Prince Arren search for the cause of the imbalance.

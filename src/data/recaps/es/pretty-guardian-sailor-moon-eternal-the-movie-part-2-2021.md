@@ -1,0 +1,2 @@
+- Hotaru envejece rápidamente al cuidado de las Sailor Exteriores.
+- Llega el momento de que todas las Guerreras se reúnan.

@@ -24427,5 +24427,1157 @@
       }
     },
     "runtimeMin": 100
+  },
+  {
+    "id": "battlestar-galactica-1978",
+    "tmdbId": 501,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica",
+    "kind": "series",
+    "releaseDate": "1978-09-17",
+    "imdbId": "tt0076984",
+    "posterPath": "/27jl4H9PauenZlmVBbOO1pr1lGf.jpg",
+    "overview": "When the 12 Colonies of Man are wiped out by a cybernetic race called the Cylons, Commander Adama and the crew of the battlestar Galactica lead a ragtag fleet of human survivors in search of a \"mythical planet\" called Earth.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica",
+        "overview": "When the 12 Colonies of Man are wiped out by a cybernetic race called the Cylons, Commander Adama and the crew of the battlestar Galactica lead a ragtag fleet of human survivors in search of a \"mythical planet\" called Earth."
+      },
+      "es": {
+        "title": "Battlestar Galactica",
+        "overview": "Cuando las 12 Colonias del Hombre son aniquiladas por una raza cibernética llamada los Cylon, el Comandante Adama y la tripulación de la estrella de combate Galactica lideran una variopinta flota de supervivientes humanos en busca de un «planeta mítico» llamado Tierra."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 21,
+        "airDate": "1978-09-17"
+      }
+    ],
+    "runtimeMin": 1121
+  },
+  {
+    "id": "galactica-1980",
+    "tmdbId": 4621,
+    "tmdbType": "tv",
+    "title": "Galactica 1980",
+    "kind": "series",
+    "releaseDate": "1980-01-27",
+    "imdbId": "tt0080221",
+    "posterPath": "/spBhYAvmJnP6wSxT1omQn7TZwoY.jpg",
+    "overview": "30 years after the original Battlestar Galactica series. Upon reaching Earth, the inhabitants of the renegade starfleet take action when they realize earthlings aren't advanced enough to help battle the Cylons.",
+    "localized": {
+      "en": {
+        "title": "Galactica 1980",
+        "overview": "30 years after the original Battlestar Galactica series. Upon reaching Earth, the inhabitants of the renegade starfleet take action when they realize earthlings aren't advanced enough to help battle the Cylons."
+      },
+      "es": {
+        "title": "Galactica 1980"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "1980-01-27"
+      }
+    ],
+    "runtimeMin": 490
+  },
+  {
+    "id": "battlestar-galactica-2003",
+    "tmdbId": 71365,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica",
+    "kind": "series",
+    "releaseDate": "2003-12-08",
+    "imdbId": "tt0314979",
+    "posterPath": "/imTQ4nBdA68TVpLaWhhQJnb7NQh.jpg",
+    "overview": "A re-imagining of the original series in which a \"rag-tag fugitive fleet\" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica",
+        "overview": "A re-imagining of the original series in which a \"rag-tag fugitive fleet\" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth."
+      },
+      "es": {
+        "title": "Battlestar Galactica: La Miniserie",
+        "overview": "En una galaxia lejana residen \"Las doce colonias\" de hombres, una civilización que ha permanecido en paz durante más de 40 años con unas máquinas, los Cyclons, creadas por generaciones de hombres años atrás. Remake de una serie de TV de 1978, y que a su vez dio lugar a otra serie de TV en el año 2004 de mismo nombre."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 2,
+        "airDate": "2003-12-08"
+      }
+    ],
+    "runtimeMin": 185
+  },
+  {
+    "id": "battlestar-galactica-2004",
+    "tmdbId": 1972,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica",
+    "kind": "series",
+    "releaseDate": "2004-10-18",
+    "imdbId": "tt0407362",
+    "posterPath": "/99PJSbcO2LeM10uOGWeFihNp77j.jpg",
+    "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica",
+        "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth."
+      },
+      "es": {
+        "title": "Battlestar Galactica",
+        "overview": "Reinvención de la serie con el mismo nombre de 1978, creada por Glen A. Larson. La historia se sitúa en un sistema lejano del universo, donde la civilización humana vive en un grupo de planetas conocidos como las doce Colonias. En el pasado estuvieron en guerra contra los Cylon, una raza cibernética creada por ellos mismos. Inesperadamente ese viejo enemigo reaparece lanzando un ataque que devasta a casi toda la población humana de los planetas. Battlestar Galactica parece ser la única nave superviviente de la Flota Colonial. Así, bajo el liderazgo del comandante William \"Bill\" Adama y la nueva presidenta, Laura Roslin, la tripulación de Battlestar Galactica asume la tarea de guiar a lo que queda de la raza humana por el espacio, en busca de un refugio legendario, conocido como Tierra."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2004-10-18"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2005-07-15"
+      },
+      {
+        "number": 3,
+        "episodes": 20,
+        "airDate": "2006-10-06"
+      },
+      {
+        "number": 4,
+        "episodes": 20,
+        "airDate": "2008-04-04"
+      }
+    ],
+    "runtimeMin": 3285
+  },
+  {
+    "id": "battlestar-galactica-razor-2007",
+    "tmdbId": 69315,
+    "tmdbType": "movie",
+    "title": "Battlestar Galactica: Razor",
+    "kind": "movie",
+    "releaseDate": "2007-11-12",
+    "imdbId": "tt0991178",
+    "posterPath": "/tO3EoFJj0FJjKelDW5SUtquDIy2.jpg",
+    "overview": "The history and adventures of the Battlestar Pegasus, from shortly before the Cylon invasion to shortly after Lee Adama is made commander. The story is told through the eyes of and largely focuses on one particular member of Pegasus's crew, Kendra Shaw.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica: Razor",
+        "overview": "The history and adventures of the Battlestar Pegasus, from shortly before the Cylon invasion to shortly after Lee Adama is made commander. The story is told through the eyes of and largely focuses on one particular member of Pegasus's crew, Kendra Shaw."
+      },
+      "es": {
+        "title": "Battlestar Galactica: Razor",
+        "overview": "Situada entre la 3er y 4ta temporada de la serie Battlestar Galactica Razor explora los eventos a bordo de la nave Pegasus. Sigue a Kendra Shaw, una oficial bajo el mando de la almirante Helena Cain, mientras enfrenta decisiones extremas para sobrevivir tras el ataque cylon. A través de flashbacks, se muestra cómo Cain transforma a su tripulación en soldados despiadados y revela secretos cylons, como la creación del primer híbrido humano-cylon. La película aborda temas de moralidad y sacrificio en tiempos de guerra."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "battlestar-galactica-the-plan-2009",
+    "tmdbId": 105077,
+    "tmdbType": "movie",
+    "title": "Battlestar Galactica: The Plan",
+    "kind": "movie",
+    "releaseDate": "2009-10-27",
+    "imdbId": "tt1286130",
+    "posterPath": "/vwtHIRwwASCiX0Ku487DY7YZrag.jpg",
+    "overview": "When the initial Cylon attack against the Twelve Colonies fails to achieve complete extermination of human life as planned, twin Number Ones (Cavils) embedded on Galactica and Caprica must improvise to destroy the human survivors.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica: The Plan",
+        "overview": "When the initial Cylon attack against the Twelve Colonies fails to achieve complete extermination of human life as planned, twin Number Ones (Cavils) embedded on Galactica and Caprica must improvise to destroy the human survivors."
+      },
+      "es": {
+        "title": "Battlestar Galactica: The Plan",
+        "overview": "\"Battlestar Galactica: The Plan\" es una película de 2009 que ofrece una perspectiva desde el punto de vista de los Cylons sobre los eventos ocurridos en la serie principal. La trama se centra en los modelos Número Uno, conocidos como Cavil, quienes lideran el ataque genocida contra las Doce Colonias humanas. Tras el fracaso en la completa exterminación de la humanidad, los Cavils implementan planes encubiertos para infiltrarse y sabotear a los sobrevivientes, explorando las motivaciones y conflictos internos de los Cylons en su intento por aniquilar a la raza humana."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "caprica-2010",
+    "tmdbId": 877,
+    "tmdbType": "tv",
+    "title": "Caprica",
+    "kind": "series",
+    "releaseDate": "2010-01-22",
+    "imdbId": "tt0799862",
+    "posterPath": "/wGCdHYsx0aY5Z5236XTC6JQMpNn.jpg",
+    "overview": "Set 58 years before Battlestar Galactica, Caprica follows two rival families - the Graystones and the Adamas - as they grow, compete, and thrive in the vibrant world of the peaceful 12 Colonies, living in a society close to our own. Entangled in the burgeoning technology of artificial intelligence and robotics that will eventually lead to the creation of the Cylons, the two houses go toe-to-toe, blending action with corporate conspiracy and sexual politics.",
+    "localized": {
+      "en": {
+        "title": "Caprica",
+        "overview": "Set 58 years before Battlestar Galactica, Caprica follows two rival families - the Graystones and the Adamas - as they grow, compete, and thrive in the vibrant world of the peaceful 12 Colonies, living in a society close to our own. Entangled in the burgeoning technology of artificial intelligence and robotics that will eventually lead to the creation of the Cylons, the two houses go toe-to-toe, blending action with corporate conspiracy and sexual politics."
+      },
+      "es": {
+        "title": "Caprica",
+        "overview": "Seriado que antecede la serie \"Battlestar Galactica\" y gira en torno a la inteligencia artificial, la responsabilidad corporativa y la rivalidad entre las familias Graystone y Adama."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 18,
+        "airDate": "2010-01-22"
+      }
+    ],
+    "runtimeMin": 787
+  },
+  {
+    "id": "battlestar-galactica-blood-and-chrome-2012",
+    "tmdbId": 33240,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica: Blood & Chrome",
+    "kind": "series",
+    "releaseDate": "2012-11-09",
+    "imdbId": "tt1704292",
+    "posterPath": "/fuHuvxnfcPXZauX1Pm7qwmc9k5L.jpg",
+    "overview": "The first Cylon war has been raging for 10 years and a young Ensign William Adama joins the fleet. He's disappointed not to be assigned to a fighter but to a freighter. His co-pilot, Lt. Coker Fasjovic, isn't too keen on having a rookie flying his aircraft as he has only a short time before he again becomes a civilian. Their cargo is a civilian scientist, Dr. Becca Kelly, but they no sooner leave than she has new orders for them and a new destination. She is less than forthcoming about just what her secret mission is but Adama is keen, particularly as it involves going into Cylon controlled space. Nothing is as it seems however.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica: Blood & Chrome",
+        "overview": "The first Cylon war has been raging for 10 years and a young Ensign William Adama joins the fleet. He's disappointed not to be assigned to a fighter but to a freighter. His co-pilot, Lt. Coker Fasjovic, isn't too keen on having a rookie flying his aircraft as he has only a short time before he again becomes a civilian. Their cargo is a civilian scientist, Dr. Becca Kelly, but they no sooner leave than she has new orders for them and a new destination. She is less than forthcoming about just what her secret mission is but Adama is keen, particularly as it involves going into Cylon controlled space. Nothing is as it seems however."
+      },
+      "es": {
+        "title": "Battlestar Galactica: Blood & Chrome"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2012-11-09"
+      }
+    ],
+    "runtimeMin": 94
+  },
+  {
+    "id": "nausicaa-of-the-valley-of-the-wind-1984",
+    "tmdbId": 81,
+    "tmdbType": "movie",
+    "title": "Warriors of the Wind",
+    "kind": "movie",
+    "releaseDate": "1984-03-11",
+    "imdbId": "tt0087544",
+    "posterPath": "/tcrkfB8SRPQCgwI88hQScua6nxh.jpg",
+    "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth.",
+    "localized": {
+      "en": {
+        "title": "Warriors of the Wind",
+        "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth."
+      },
+      "es": {
+        "title": "Nausicaä del Valle del Viento",
+        "overview": "En un futuro lejano, mil años después de una guerra de carácter apocalíptico, la Tierra aparece cubierta de bosques plagados de hongos venenosos y de insectos gigantescos. Los hombres han sido diezmados; los supervivientes viven en algunos poblados aislados y sobreviven a duras penas en las cercanías de un bosque contaminado con gases tóxicos e insectos mutantes gigantes, que cubren gran parte de la Tierra. Nausicaä es la princesa de El Valle de Viento, un reino minúsculo, rodeado de reinos más poderosos y hostiles. Es una guerrera que sabe pilotar naves, pero es también compasiva, tanto que se resiste a ver a los insectos como enemigos, sobre todo a los Ohms, artrópodos gigantescos y temibles por los que siente una extraña simpatía. La crisis estalla cuando el reino vecino de Tolmekia, encabezado por la princesa Kushana, invade El Valle del Viento."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "castle-in-the-sky-1986",
+    "tmdbId": 10515,
+    "tmdbType": "movie",
+    "title": "Castle in the Sky",
+    "kind": "movie",
+    "releaseDate": "1986-08-02",
+    "imdbId": "tt0092067",
+    "posterPath": "/41XxSsJc5OrulP0m7TrrUeO2hoz.jpg",
+    "overview": "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle.",
+    "localized": {
+      "en": {
+        "title": "Castle in the Sky",
+        "overview": "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle."
+      },
+      "es": {
+        "title": "El castillo en el cielo",
+        "overview": "En esta aventura infantil, un joven minero y una misteriosa chica buscan una isla perdida que, según la leyenda, oculta grandes riquezas."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "grave-of-the-fireflies-1988",
+    "tmdbId": 12477,
+    "tmdbType": "movie",
+    "title": "Grave of the Fireflies",
+    "kind": "movie",
+    "releaseDate": "1988-04-16",
+    "imdbId": "tt0095327",
+    "posterPath": "/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
+    "localized": {
+      "en": {
+        "title": "Grave of the Fireflies",
+        "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive."
+      },
+      "es": {
+        "title": "La Tumba de las Luciérnagas",
+        "overview": "Centrada en la ciudad de Kōbe, Japón, narra la dura historia de dos hermanos, Seita y Setsuko, y de su lucha desesperada por sobrevivir durante los últimos meses de la Segunda Guerra Mundial."
+      }
+    },
+    "runtimeMin": 89
+  },
+  {
+    "id": "my-neighbor-totoro-1988",
+    "tmdbId": 8392,
+    "tmdbType": "movie",
+    "title": "My Neighbor Totoro",
+    "kind": "movie",
+    "releaseDate": "1988-04-16",
+    "imdbId": "tt0096283",
+    "posterPath": "/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+    "overview": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+    "localized": {
+      "en": {
+        "title": "My Neighbor Totoro",
+        "overview": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her."
+      },
+      "es": {
+        "title": "Mi vecino Totoro",
+        "overview": "Dos chicas jóvenes, Mei y Satsuki, se mudan a una nueva casa cerca del hospital en el que se encuentra su madre. En el patio junto a la casa ,existe un gran árbol que es el hogar de tres Totoros, dioses de la selva. Poco después, reciben noticias desde el hospital de que su madre no puede venir a casa como había prometido, por lo que Mei (la más joven) se escapa para ir a visitarla. Satsuki tiene que recurrir a un Totoro para ayudar a encontrarla."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "kikis-delivery-service-1989",
+    "tmdbId": 16859,
+    "tmdbType": "movie",
+    "title": "Kiki's Delivery Service",
+    "kind": "movie",
+    "releaseDate": "1989-07-29",
+    "imdbId": "tt0097814",
+    "posterPath": "/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg",
+    "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+    "localized": {
+      "en": {
+        "title": "Kiki's Delivery Service",
+        "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service."
+      },
+      "es": {
+        "title": "Kiki: Entregas a Domicilio",
+        "overview": "Kiki no es una niña como otra cualquiera porque es aprendiz de bruja. Con solo 13 años y por tradición del oficio que está aprendiendo, la niña tiene que abandonar la casa de sus padres y buscar algún sitio donde sean necesarios sus servicios de bruja. Para emprender el viaje, Kiki se acompaña de su amigo Jiji y también de su gato; juntos, y sobre una escoba voladora, los amigos se instalan en un pueblecito que da al mar, donde la niña empezará a conocerse verdaderamente a sí misma."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "only-yesterday-1991",
+    "tmdbId": 15080,
+    "tmdbType": "movie",
+    "title": "Only Yesterday",
+    "kind": "movie",
+    "releaseDate": "1991-07-20",
+    "imdbId": "tt0102587",
+    "posterPath": "/tOSnFE9e82iH3ZAzSTtuOkBsabJ.jpg",
+    "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
+    "localized": {
+      "en": {
+        "title": "Only Yesterday",
+        "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
+      },
+      "es": {
+        "title": "Recuerdos del ayer",
+        "overview": "Taeko Okajima es una joven de que pide permiso de vacaciones para poder regresar a casa a Yamagata, el pueblo de su cuñada, y donde de niña vivió los momentos mas felices de toda su vida. En el transcurso de su viaje a a la granja de sus familiares y a su posterior residencia, Taeko ira recordando su pasado en el colegio, mientras vive intensamente su presente, sin saber bien qué hacer con su vida y si acceder a las presiones de la familia para casarse con el granjero Toshio con el que le une un poderoso afecto."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "porco-rosso-1992",
+    "tmdbId": 11621,
+    "tmdbType": "movie",
+    "title": "Porco Rosso",
+    "kind": "movie",
+    "releaseDate": "1992-07-18",
+    "imdbId": "tt0104652",
+    "posterPath": "/8mIvSvnVBApfORL9N6S38Q7wD6A.jpg",
+    "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
+    "localized": {
+      "en": {
+        "title": "Porco Rosso",
+        "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina."
+      },
+      "es": {
+        "title": "Porco Rosso",
+        "overview": "Periodo de entreguerras. Porco es un cerdo aviador que frustra todos los actos de piratería perpetrados por los piratas aéreos del Adriático. Éstos, decididos a acabar con el valiente y hábil aviador, se ponen de acuerdo para contratar a un aventurero americano cuya misión será eliminarlo."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "pom-poko-1994",
+    "tmdbId": 15283,
+    "tmdbType": "movie",
+    "title": "Pom Poko",
+    "kind": "movie",
+    "releaseDate": "1994-07-16",
+    "imdbId": "tt0110008",
+    "posterPath": "/gyoJmFf24MOUc4TTu97sd0cHIQF.jpg",
+    "overview": "The Raccoons of the Tama Hills are being forced from their homes by the rapid development of houses and shopping malls. As it becomes harder to find food and shelter, they decide to band together and fight back. The Raccoons practice and perfect the ancient art of transformation until they are even able to appear as humans in hilarious circumstances.",
+    "localized": {
+      "en": {
+        "title": "Pom Poko",
+        "overview": "The Raccoons of the Tama Hills are being forced from their homes by the rapid development of houses and shopping malls. As it becomes harder to find food and shelter, they decide to band together and fight back. The Raccoons practice and perfect the ancient art of transformation until they are even able to appear as humans in hilarious circumstances."
+      },
+      "es": {
+        "title": "La Guerra de los Mapaches",
+        "overview": "Ante la inminente destrucción de un frondoso bosque cercano a una ciudad, cuyos dirigentes quieren construir en su lugar una urbanización, los mapaches que viven en el bosque intentarán sabotear la operación para así conservar sus hogares."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "whisper-of-the-heart-1995",
+    "tmdbId": 37797,
+    "tmdbType": "movie",
+    "title": "Whisper of the Heart",
+    "kind": "movie",
+    "releaseDate": "1995-07-15",
+    "imdbId": "tt0113824",
+    "posterPath": "/5FROLD8zpWFs9ja7aYho1uOMJHg.jpg",
+    "overview": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: \"Seiji Amasawa.\"",
+    "localized": {
+      "en": {
+        "title": "Whisper of the Heart",
+        "overview": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: \"Seiji Amasawa.\""
+      },
+      "es": {
+        "title": "Susurros del Corazón",
+        "overview": "Shizuku Tsukishima es una chica que le encanta leer. Su padre trabaja en una biblioteca, y ella a veces traduce canciones occidentales al jápones. Es entonces cuando se da cuenta de que, en las tarjetas de los libros de la biblioteca, Seiji Amasawa aparece antes que ella, y se empieza a imaginar como será el chico que se leyo los mismos libros antes que ella. Es entonces cuando por seguir a un gato llega a una bonita tienda, el nieto del tendero es ese tal Seiji, comenzará así una historia de amor, con dificultades ya que ella no se siente segura de lo que va a ser en la vida mientras que Seiji quiere viajar para realizar su sueño de convertirse en un artesano de violines."
+      }
+    },
+    "runtimeMin": 111
+  },
+  {
+    "id": "princess-mononoke-1997",
+    "tmdbId": 128,
+    "tmdbType": "movie",
+    "title": "Princess Mononoke",
+    "kind": "movie",
+    "releaseDate": "1997-07-12",
+    "imdbId": "tt0119698",
+    "posterPath": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+    "overview": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+    "localized": {
+      "en": {
+        "title": "Princess Mononoke",
+        "overview": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict."
+      },
+      "es": {
+        "title": "La princesa Mononoke",
+        "overview": "Tras sufrir el ataque de un monstruoso jabalí maldito, el joven Ashitaka emprende el camino en busca de la cura que detenga la infección. Mientras, los humanos están acabando con los bosques y los dioses convertidos en temibles bestias hacen todo lo posible por protegerlo encabezados por Mononoke, una princesa guerrera. Ashikata deberá escoger bando y decidir si ayudar a los hombres o las deidades intentando detener la maldición de su herida que se extiende por su cuerpo sin cuartel."
+      }
+    },
+    "runtimeMin": 134
+  },
+  {
+    "id": "my-neighbors-the-yamadas-1999",
+    "tmdbId": 16198,
+    "tmdbType": "movie",
+    "title": "My Neighbors the Yamadas",
+    "kind": "movie",
+    "releaseDate": "1999-07-17",
+    "imdbId": "tt0206013",
+    "posterPath": "/nj0ijnOozQtu52r0ncut769G1FX.jpg",
+    "overview": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humorous to the heartbreaking, we see this family cope with life's little conflicts, problems, and joys in their own way.",
+    "localized": {
+      "en": {
+        "title": "My Neighbors the Yamadas",
+        "overview": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humorous to the heartbreaking, we see this family cope with life's little conflicts, problems, and joys in their own way."
+      },
+      "es": {
+        "title": "Mis vecinos los Yamada",
+        "overview": "Basada en el famoso manga de Hisachi Ishii, esta película cuenta pequeñas e imaginativas historias de la vida diaria de una típica familia de clase media de Tokyo. Los Yamada son Takashi y Matsuko (el padre y la madre), Shige (la suegra), Noboru (el hijo), Nonoko (la hija) y Pochi (el perro de la familia)."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "spirited-away-2001",
+    "tmdbId": 129,
+    "tmdbType": "movie",
+    "title": "Spirited Away",
+    "kind": "movie",
+    "releaseDate": "2001-07-20",
+    "imdbId": "tt0245429",
+    "posterPath": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "localized": {
+      "en": {
+        "title": "Spirited Away",
+        "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family."
+      },
+      "es": {
+        "title": "El viaje de Chihiro",
+        "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "the-cat-returns-2002",
+    "tmdbId": 15370,
+    "tmdbType": "movie",
+    "title": "The Cat Returns",
+    "kind": "movie",
+    "releaseDate": "2002-07-19",
+    "imdbId": "tt0347618",
+    "posterPath": "/pqyY7IEWkCWNZ7EuRStQaJITEta.jpg",
+    "overview": "Young Haru rescues a cat from being run over, but soon learns it's no ordinary feline; it happens to be the Prince of the Cats.",
+    "localized": {
+      "en": {
+        "title": "The Cat Returns",
+        "overview": "Young Haru rescues a cat from being run over, but soon learns it's no ordinary feline; it happens to be the Prince of the Cats."
+      },
+      "es": {
+        "title": "El regreso del gato",
+        "overview": "Esta es la historia de Haru, una joven cuya suerte cambiará un día al volver del instituto, cuando salvará a un gato de ser atropellado por un camión. Pero no es un gato común, es Lune, el Príncipe del Reino de los Gatos. En recompensa por su acción, Haru será invitada a pasar un tiempo en el Reino de los Gatos, aunque no es lo que ella esperaba...."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "howls-moving-castle-2004",
+    "tmdbId": 4935,
+    "tmdbType": "movie",
+    "title": "Howl's Moving Castle",
+    "kind": "movie",
+    "releaseDate": "2004-09-09",
+    "imdbId": "tt0347149",
+    "posterPath": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+    "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
+    "localized": {
+      "en": {
+        "title": "Howl's Moving Castle",
+        "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king."
+      },
+      "es": {
+        "title": "El increíble castillo vagabundo",
+        "overview": "Sophie es una joven de 18 años que trabaja sin descanso en la tienda de sombreros de la familia. En uno de sus frecuentes paseos conoce al enigmático mago Howl, lo que despierta la ira de la Bruja Calamidad, que odia a Howl con todas sus fuerzas. Cuando Sophie vuelve a la tienda, la Bruja se hace pasar por una clienta para acercarse a ella y lanzarle un hechizo… ¡que convierte a Sophie en una anciana de 90 años! Sophie, que no puede revelar su auténtica identidad, recurre a Howl para buscar una solución a su problema. Para ello se embarca en un viaje fantástico en el castillo ambulante del mago, habitado por personajes de lo más curiosos. Sophie necesita ayuda pero quizás sea Howl el que realmente está en apuros."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "tales-from-earthsea-2006",
+    "tmdbId": 37933,
+    "tmdbType": "movie",
+    "title": "Tales from Earthsea",
+    "kind": "movie",
+    "releaseDate": "2006-07-29",
+    "imdbId": "tt0495596",
+    "posterPath": "/y0VnJt4eRPMjA1hpJ8f1EFoVaSf.jpg",
+    "overview": "As crops dwindle and dragons reappear, mankind stands on the verge of total chaos. Lord Archmage Sparrowhawk, a powerful wizard, and Arren, a troubled young prince, search for the force behind this mysterious imbalance that threatens to destroy the land of Earthsea.",
+    "localized": {
+      "en": {
+        "title": "Tales from Earthsea",
+        "overview": "As crops dwindle and dragons reappear, mankind stands on the verge of total chaos. Lord Archmage Sparrowhawk, a powerful wizard, and Arren, a troubled young prince, search for the force behind this mysterious imbalance that threatens to destroy the land of Earthsea."
+      },
+      "es": {
+        "title": "Cuentos de Terramar",
+        "overview": "Arren tenía una vida tranquila como príncipe de Enlad, pero ahora que se encuentra en el exilio es constantemente perseguido por una misteriosa sombra que conoce sus debilidades. Cuando se da cuenta de que el equilibrio del mundo se ha roto por culpa de una bruja, pide la ayuda de Gavilán, el mago más poderoso de las islas de Terramar. Juntos emprenderán un viaje fascinante en el que unirán su destino al de una joven maltratada por el pasado. La batalla contra las fuerzas del mal les espera."
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "ponyo-2008",
+    "tmdbId": 12429,
+    "tmdbType": "movie",
+    "title": "Ponyo",
+    "kind": "movie",
+    "releaseDate": "2008-07-19",
+    "imdbId": "tt0876563",
+    "posterPath": "/yp8vEZflGynlEylxEesbYasc06i.jpg",
+    "overview": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea.",
+    "localized": {
+      "en": {
+        "title": "Ponyo",
+        "overview": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea."
+      },
+      "es": {
+        "title": "Ponyo y el secreto de la sirenita",
+        "overview": "La historia se centra en Sosuke, un niño de 5 años, y su relación con una princesa pez que ansía convertirse en un ser humano. Libre adaptación de \"La sirenita\" que obtuvo muy buena acogida de la crítica en el Festival de Venecia 2008."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "arrietty-2010",
+    "tmdbId": 51739,
+    "tmdbType": "movie",
+    "title": "Arrietty",
+    "kind": "movie",
+    "releaseDate": "2010-07-16",
+    "imdbId": "tt1568921",
+    "posterPath": "/3lSRaSjDp2nkXMQkzzjpRi3035O.jpg",
+    "overview": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
+    "localized": {
+      "en": {
+        "title": "Arrietty",
+        "overview": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty."
+      },
+      "es": {
+        "title": "El mundo secreto de Arrietty",
+        "overview": "En una casita oculta bajo las tablas del suelo de una mansión campestre, vive una familia de seres diminutos, de apenas 10 cm. de altura, que tienen la norma de no dejarse ver nunca por los seres humanos; sin embargo, su tranquila existencia cambia cuando Arrietty, una audaz adolescente, es vista accidentalmente por un niño que se acaba de establecer en la casa debido a su delicada salud. Al tiempo que entre ambos surge una gran amistad, la existencia de los diminutos seres se verá peligrosamente amenazada... Adaptación del cuento infantil \"The Borrowers\", escrito por Mary Norton y ambientado en el Tokio contemporáneo."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "from-up-on-poppy-hill-2011",
+    "tmdbId": 83389,
+    "tmdbType": "movie",
+    "title": "From Up on Poppy Hill",
+    "kind": "movie",
+    "releaseDate": "2011-07-16",
+    "imdbId": "tt1798188",
+    "posterPath": "/rRLYX4RZIyloHSJwvZKAhphAjiB.jpg",
+    "overview": "Yokohama, 1963. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics—and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. Against this backdrop of hope and change, a friendship begins to blossom between high school students Umi and Shun—but a buried secret from their past emerges to cast a shadow on the future and pull them apart.",
+    "localized": {
+      "en": {
+        "title": "From Up on Poppy Hill",
+        "overview": "Yokohama, 1963. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics—and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. Against this backdrop of hope and change, a friendship begins to blossom between high school students Umi and Shun—but a buried secret from their past emerges to cast a shadow on the future and pull them apart."
+      },
+      "es": {
+        "title": "La Colina de las Amapolas",
+        "overview": "Umi Matsuzaki es una chica de instituto que cuida a sus dos hermanos y, en ausencia de su madre, administra un albergue de estilo occidental, el Coquelicot Manor, cercano al mar. La chica compagina tranquilamente sus responsabilidades con su vida escolar junto a Shun Kazama, miembro del club de periodismo, y Shiro Mizunuma, presidente del consejo de estudiantes."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "the-wind-rises-2013",
+    "tmdbId": 149870,
+    "tmdbType": "movie",
+    "title": "The Wind Rises",
+    "kind": "movie",
+    "releaseDate": "2013-07-20",
+    "imdbId": "tt2013293",
+    "posterPath": "/jfwSexzlIzaOgxP9A8bTA6t8YYb.jpg",
+    "overview": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
+    "localized": {
+      "en": {
+        "title": "The Wind Rises",
+        "overview": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane."
+      },
+      "es": {
+        "title": "Se levanta el viento",
+        "overview": "Una mirada a la vida de Jirō Horikoshi, el hombre que diseñó los aviones de combate japoneses durante la Segunda Guerra Mundial."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "the-tale-of-the-princess-kaguya-2013",
+    "tmdbId": 149871,
+    "tmdbType": "movie",
+    "title": "The Tale of The Princess Kaguya",
+    "kind": "movie",
+    "releaseDate": "2013-11-23",
+    "imdbId": "tt2576852",
+    "posterPath": "/cQidJuA546OSSXKWXoiCeINDxuj.jpg",
+    "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.",
+    "localized": {
+      "en": {
+        "title": "The Tale of The Princess Kaguya",
+        "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate."
+      },
+      "es": {
+        "title": "El cuento de la Princesa Kaguya",
+        "overview": "Basada en un cuento popular japonés anónimo del siglo IX, \"El cortador de bambú\". La historia comienza cuando una pareja de ancianos campesinos encuentra a una niña diminuta dentro de una planta de bambú, y deciden adoptarla como si fuera su hija. Pasan los años, y rápidamente se convierte en una hermosa mujer pretendida por muchos hombres poderosos."
+      }
+    },
+    "runtimeMin": 137
+  },
+  {
+    "id": "when-marnie-was-there-2014",
+    "tmdbId": 242828,
+    "tmdbType": "movie",
+    "title": "When Marnie Was There",
+    "kind": "movie",
+    "releaseDate": "2014-07-19",
+    "imdbId": "tt3398268",
+    "posterPath": "/vug1dvDI1tSa60Z8qjCuUE7ntkO.jpg",
+    "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real.",
+    "localized": {
+      "en": {
+        "title": "When Marnie Was There",
+        "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real."
+      },
+      "es": {
+        "title": "El recuerdo de Marnie",
+        "overview": "Una historia sobre un fantasma evocador con verdades que contar sobre la amistad, las relaciones familiares y la soledad. Anna vive con sus padres adoptivos, es un verso suelto solitario, siempre pensando en las musarañas. En verano, sus padres deciden enviarle a Norfolk para quedarse con el anciano matrimonio Pegg, donde recorre las dunas cerca del mar. Mientras juega en el agua encuentra una casa, la Casa del Pantano, la cual a Anna le resulta familiar. En la casa se encuentra con una niña enigmática llamada Marnie, que se convierte en la primera amiga de Anna. Pero un día, Marnie desaparece."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "earwig-and-the-witch-2021",
+    "tmdbId": 683127,
+    "tmdbType": "movie",
+    "title": "Earwig and the Witch",
+    "kind": "movie",
+    "releaseDate": "2021-02-03",
+    "imdbId": "tt12441478",
+    "posterPath": "/9oK820JieICOcfUhI6mkpFrcA9m.jpg",
+    "overview": "A headstrong orphan discovers a world of spells and potions while living with a selfish witch.",
+    "localized": {
+      "en": {
+        "title": "Earwig and the Witch",
+        "overview": "A headstrong orphan discovers a world of spells and potions while living with a selfish witch."
+      },
+      "es": {
+        "title": "Earwig y la bruja",
+        "overview": "Earwig tiene diez años, vive en el orfanato San Morwald y no quiere marcharse de allí. Para ahuyentar a posibles padres adoptivos, utiliza sus poderes mágicos. Sin embargo, un día aparecerán Bella Yaga y Mandrágora, dos extraños y espeluznantes personajes que conseguirán adoptarla. La joven Earwig descubrirá que Bella Yaga es una poderosa bruja y se convertirá en su aprendiz."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "the-boy-and-the-heron-2023",
+    "tmdbId": 508883,
+    "tmdbType": "movie",
+    "title": "The Boy and the Heron",
+    "kind": "movie",
+    "releaseDate": "2023-07-14",
+    "imdbId": "tt6587046",
+    "posterPath": "/f4oZTcfGrVTXKTWg157AwikXqmP.jpg",
+    "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother.  As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+    "localized": {
+      "en": {
+        "title": "The Boy and the Heron",
+        "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother.  As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\""
+      },
+      "es": {
+        "title": "El niño y la garza",
+        "overview": "Mientras la Segunda Guerra Mundial hace estragos, el adolescente Mahito, atormentado por la trágica muerte de su madre, es trasladado de Tokio a la serena casa rural de su nueva madrastra Natsuko, una mujer que tiene un sorprendente parecido con la madre del niño. Mientras intenta adaptarse, este nuevo y extraño mundo se vuelve aún más extraño tras la aparición de una persistente garza real, que deja perplejo y atormenta a Mahito, llamándolo \"el tan esperado\"."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "bleach-2004",
+    "tmdbId": 30984,
+    "tmdbType": "tv",
+    "title": "Bleach",
+    "kind": "series",
+    "releaseDate": "2004-10-05",
+    "imdbId": "tt0434665",
+    "posterPath": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg",
+    "overview": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil.",
+    "localized": {
+      "en": {
+        "title": "Bleach",
+        "overview": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil."
+      },
+      "es": {
+        "title": "Bleach",
+        "overview": "La serie narra las aventuras de Ichigo Kurosaki, un adolescente que tiene la facultad de interactuar con los espíritus. Una noche, Ichigo se encuentra con una Cegador —personificación japonesa del Dios de la muerte— llamada Rukia Kuchiki, quien se sorprende que pueda verla. Sin embargo, su conversación es interrumpida por la aparición de un Hueco, un espíritu maligno. Después de que Rukia fuera gravemente herida al tratar de proteger a Ichigo, esta intenta traspasarle parte de sus poderes a Ichigo para que pueda enfrentarse al Hueco en igualdad de condiciones. No obstante, Ichigo sin darse cuenta los absorbe casi por completo y logra vencer con facilidad al espíritu."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 366,
+        "airDate": "2004-10-05"
+      },
+      {
+        "number": 2,
+        "episodes": 50,
+        "airDate": "2022-10-11"
+      }
+    ],
+    "runtimeMin": 9885,
+    "ongoing": true
+  },
+  {
+    "id": "bleach-the-movie-memories-of-nobody-2006",
+    "tmdbId": 15575,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: Memories of Nobody",
+    "kind": "movie",
+    "releaseDate": "2006-12-16",
+    "imdbId": "tt1105263",
+    "posterPath": "/1QXGWJ0bsmbMUDBXXfS1RnFadkS.jpg",
+    "overview": "In Karakura Town, unidentifiable spirits begin appearing en mases. While attempting to deal with these strange souls, Ichigo Kurosaki and Rukia Kuchiki meet Senna, a mysterious shinigami who wipes out most of them. Senna refuses to answer any questions, so Ichigo is forced to follow her while Rukia tries to find out what's going on.",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: Memories of Nobody",
+        "overview": "In Karakura Town, unidentifiable spirits begin appearing en mases. While attempting to deal with these strange souls, Ichigo Kurosaki and Rukia Kuchiki meet Senna, a mysterious shinigami who wipes out most of them. Senna refuses to answer any questions, so Ichigo is forced to follow her while Rukia tries to find out what's going on."
+      },
+      "es": {
+        "title": "Bleach: Memorias de nadie",
+        "overview": "Después de regresar de la Sociedad de Almas y estando en el mundo humano, específicamente en la ciudad Karakura, Ichigo Kurosaki y Rukia Kuchiki son atacados por una gran cantidad de almas desconocidas. Mientras Ichigo y Rukia peleaban contra estos espíritus, aparece un shinigami llamado Senna, una chica de pelo morado y ojos anaranjados, quien destruye fácilmente a los espíritus con su shikai. Como Senna niega responder pregunta alguna por parte de Ichigo, se ve obligado a seguirla."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "bleach-the-movie-the-diamonddust-rebellion-2007",
+    "tmdbId": 17101,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: The DiamondDust Rebellion",
+    "kind": "movie",
+    "releaseDate": "2007-12-22",
+    "imdbId": "tt1148261",
+    "posterPath": "/1PV8OKvHSYvgmdVnU2wcuzQGthP.jpg",
+    "overview": "When an artifact known as the \"King's Seal\" is stolen during transport from Soul Society, Hitsugaya Toushirou is assigned to retrieve it. Toushirou goes missing after a battle with the thieves, leading Seireitei to suspect him of treachery. They order his immediate capture and execution. Unwilling to believe him capable of such a crime, Ichigo, Rangiku, Rukia, and Renji set out to find Toushirou.",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: The DiamondDust Rebellion",
+        "overview": "When an artifact known as the \"King's Seal\" is stolen during transport from Soul Society, Hitsugaya Toushirou is assigned to retrieve it. Toushirou goes missing after a battle with the thieves, leading Seireitei to suspect him of treachery. They order his immediate capture and execution. Unwilling to believe him capable of such a crime, Ichigo, Rangiku, Rukia, and Renji set out to find Toushirou."
+      },
+      "es": {
+        "title": "Bleach: La rebelión del polvo de diamante",
+        "overview": "Cuando un artefacto conocido como el \"Sello del Rey\" es robado durante el transporte desde la Sociedad de Almas, Hitsugaya Toushirou es asignado para recuperarlo. Toushirou desaparece después de una batalla con los ladrones, lo que lleva a Seireitei a sospechar de él por traición. Ellos ordenan su captura y ejecución inmediata. No dispuestos a creerlo capaz de semejante crimen, Ichigo, Rangiku, Rukia y Renji se dirigieron a buscar a Toushirou."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "bleach-the-movie-fade-to-black-2008",
+    "tmdbId": 17165,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: Fade to Black",
+    "kind": "movie",
+    "releaseDate": "2008-12-13",
+    "imdbId": "tt1339302",
+    "posterPath": "/IfR2DrWLb26AAdQFwGkhvPTflX.jpg",
+    "overview": "A strange disturbance in the World of the Living sends Ichigo and Kon to the Soul Society, where the Seireitei has been devastated by an explosion of reishi and Rukia is missing. Stranger still, none of the Soul Reapers remember Ichigo, and they think he’s the one responsible for the destruction. Now on the run, Ichigo is forced into a lonely battle in order to find Rukia and stop the real culprits!",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: Fade to Black",
+        "overview": "A strange disturbance in the World of the Living sends Ichigo and Kon to the Soul Society, where the Seireitei has been devastated by an explosion of reishi and Rukia is missing. Stranger still, none of the Soul Reapers remember Ichigo, and they think he’s the one responsible for the destruction. Now on the run, Ichigo is forced into a lonely battle in order to find Rukia and stop the real culprits!"
+      },
+      "es": {
+        "title": "Bleach: Fade to Black, Llamo tu nombre",
+        "overview": "El pasado de Rukia que ahora es revelado. La \"verdad\" que está encerrada dentro del recuerdo de la oscuridad. Alguien con un objeto parecido a una hoz ha atacado a Mayuri, quien estaba en su laboratorio. Mayuri, quien de repente perdió el control, golpeó su tablero de control de su laboratorio. Entonces, de pronto el Sereitei estaba cubierto por una nube de reiatsu y atrapó a los shinigamis dentro de una fortaleza. Cuando Kenpachi entra corriendo al laboratorio de Mayuri hubo una enorme explosión de reiatsu que destruyó al Seireitei. Observando la destrucción del Seireitei desde lejos, una sombra aparece frente a Rukia, quien estaba impresionada por el repentino incidente. La hoz se dirige hacia ella y algo en Rukia desaparece. Al mismo tiempo Ichigo siente peligro y va hacia la tienda de Urahara. Ahí escucha de Urahara sobre \"la aniquilación del Seireitei\" y se dirige a la Sociedad de Almas junto a Kon."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "bleach-the-movie-hell-verse-2010",
+    "tmdbId": 73245,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: Hell Verse",
+    "kind": "movie",
+    "releaseDate": "2010-12-04",
+    "imdbId": "tt1785394",
+    "posterPath": "/pd7V5iCB19VBPJkihxFXFwSRW2M.jpg",
+    "overview": "Hell – A place where beings that have committed mortal sins during their lifetime are sent. It is a realm where even Soul Reapers are forbidden to interfere. When a group of vicious Sinners plot to escape from this eternal prison, they discover that Substitute Soul Reaper Ichigo Kurosaki is the key to their freedom.",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: Hell Verse",
+        "overview": "Hell – A place where beings that have committed mortal sins during their lifetime are sent. It is a realm where even Soul Reapers are forbidden to interfere. When a group of vicious Sinners plot to escape from this eternal prison, they discover that Substitute Soul Reaper Ichigo Kurosaki is the key to their freedom."
+      },
+      "es": {
+        "title": "Bleach: Verso del infierno",
+        "overview": "El \"INFIERNO\" es el lugar donde una persona que cometió crímenes violentos cuando estaba viva, es enviada. Los \"Shinigamis\" tienen prohibido ir a ese lugar.  Un día, los prisioneros (pecadores) se revelan, y deciden escapar a la Ciudad de Karakura donde Ichigo Kurosaki y sus amigos viven. Ichigo y sus amigos son derrotados uno tras otro por los prisioneros con un abrumador poder. Aparece un hombre misterioso llamado Kokutto quien viene a su rescate, sin embargo los atacantes terminan llevándose a Yuzu sin dar oportunidad a que ichigo y su equipo puedan reaccionar.  Con Kokutoo dirijiendo el camino, Ichigo, Rukia, Uryuu y Renji marchan al INFIERNO para salvar a Yuzu de los que se la llevaron."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "bleach-2018",
+    "tmdbId": 420426,
+    "tmdbType": "movie",
+    "title": "Bleach",
+    "kind": "movie",
+    "releaseDate": "2018-07-20",
+    "imdbId": "tt5979872",
+    "posterPath": "/hpZVfeJaCilXr9Br7wO9xkfZn7V.jpg",
+    "overview": "High school student Ichigo Kurosaki lives an ordinary life, besides being able to see ghosts and the blurry memories of his mother's death under strange circumstances when he was a kid. His peaceful world suddenly breaks as he meets Rukia Kuchiki, a God of Death.",
+    "localized": {
+      "en": {
+        "title": "Bleach",
+        "overview": "High school student Ichigo Kurosaki lives an ordinary life, besides being able to see ghosts and the blurry memories of his mother's death under strange circumstances when he was a kid. His peaceful world suddenly breaks as he meets Rukia Kuchiki, a God of Death."
+      },
+      "es": {
+        "title": "Bleach",
+        "overview": "Kurosaki Ichigo es un chico de 15 años que puede ver, tocar y hablar con espiritus de personas muertas.Hasta que un dia el encuentra a Kuchiki Rukia, una Shinigami (diosa de la muerte) y descubre que el tambien es un Shinigami, ahora con sus poderes el tendra que proteger a su ciudad de las fuerzas del mal."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "sailor-moon-1992",
+    "tmdbId": 3570,
+    "tmdbType": "tv",
+    "title": "Sailor Moon",
+    "kind": "series",
+    "releaseDate": "1992-03-07",
+    "imdbId": "tt0103369",
+    "posterPath": "/m0e8QxAM0n3XK9GPvkxzRB0YL4k.jpg",
+    "overview": "One day, Usagi Tsukino, clumsy 2nd-year middle school student, stumbles upon a talking cat named Luna. Luna tells her that she is destined to be Sailor Moon, \"champion of love and justice\", and she must search for the fabled Moon Princess. Usagi finds friends that turn out to be destined senshi as well, and together they fight to save the world from the certain doom brought upon by the Dark Kingdom.",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon",
+        "overview": "One day, Usagi Tsukino, clumsy 2nd-year middle school student, stumbles upon a talking cat named Luna. Luna tells her that she is destined to be Sailor Moon, \"champion of love and justice\", and she must search for the fabled Moon Princess. Usagi finds friends that turn out to be destined senshi as well, and together they fight to save the world from the certain doom brought upon by the Dark Kingdom."
+      },
+      "es": {
+        "title": "Sailor Moon",
+        "overview": "La historia comienza el día que Serena Tsukino se cruza con una gata negra que tiene una mancha con forma de luna creciente llamada Luna, le revela un secreto, Serena es una Sailor Scout y debe derrotar a los enemigos de la Tierra y salvar a la princesa de la Luna."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 46,
+        "airDate": "1992-03-07"
+      },
+      {
+        "number": 2,
+        "episodes": 43,
+        "airDate": "1993-03-05"
+      },
+      {
+        "number": 3,
+        "episodes": 38,
+        "airDate": "1994-03-19"
+      },
+      {
+        "number": 4,
+        "episodes": 39,
+        "airDate": "1995-03-04"
+      },
+      {
+        "number": 5,
+        "episodes": 34,
+        "airDate": "1996-03-09"
+      }
+    ],
+    "runtimeMin": 4800
+  },
+  {
+    "id": "sailor-moon-r-the-movie-the-promise-of-the-rose-1993",
+    "tmdbId": 37100,
+    "tmdbType": "movie",
+    "title": "Sailor Moon R: The Movie - The Promise of the Rose",
+    "kind": "movie",
+    "releaseDate": "1993-12-05",
+    "imdbId": "tt0106417",
+    "posterPath": "/sOsEDVFv2dJ8sI77XzQ2SeqRObZ.jpg",
+    "overview": "While enjoying the flower gardens, Sailor Moon and friends encounter an old childhood friend of Mamoru's: an alien! He's come back to give Mamoru a special flower but doesn't like Usagi and the rest of the planet's inhabitants. Sailor Moon must defend the earth from the evil Kisenian Flower he's brought back... before the evil vines and blossoms overrun the planet!",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon R: The Movie - The Promise of the Rose",
+        "overview": "While enjoying the flower gardens, Sailor Moon and friends encounter an old childhood friend of Mamoru's: an alien! He's come back to give Mamoru a special flower but doesn't like Usagi and the rest of the planet's inhabitants. Sailor Moon must defend the earth from the evil Kisenian Flower he's brought back... before the evil vines and blossoms overrun the planet!"
+      },
+      "es": {
+        "title": "Sailor Moon R: La Promesa de la Rosa",
+        "overview": "Fiore es un extraterrestre que vuelve a la Tierra a buscar a Mamoru Chiba tras haberlo conocido años antes, cuando ambos aún eran niños. Usagi y las demás Sailor Senshi dudan acerca del tipo de relación entre ellos, hasta que Mamoru es raptado por Fiore y llevado a su planeta. Las Sailor Senshi deben entonces enfrentarse a Fiore y a sus tropas de flores malignas (unas flores con forma humana) para salvar al joven. Más tarde, se dan cuenta de que Fiore en realidad no actúa por sí mismo sino que está siendo poseído por Kisenian; una malvada criatura cuyo objetivo es manipular a Fiore para que éste haga estrellar un meteoro contra el planeta Tierra."
+      }
+    },
+    "runtimeMin": 61
+  },
+  {
+    "id": "sailor-moon-s-the-movie-hearts-in-ice-1994",
+    "tmdbId": 30575,
+    "tmdbType": "movie",
+    "title": "Sailor Moon S the Movie: Hearts in Ice",
+    "kind": "movie",
+    "releaseDate": "1994-12-04",
+    "imdbId": "tt0109277",
+    "posterPath": "/8HLrjXHz5LhmIMiahoC3S55bSim.jpg",
+    "overview": "As Usagi and her friends enjoy Christmas vacation, an unusual and fierce snowstorm hits town... The evil Snow Queen Kaguya has returned to claim Earth as her own. Crucial to Queen Kaguya's plan is a magical crystal from outer space, approaching Earth disguised as a comet. Once she gets hold of the crystal, she will have the power to suck away all life energy and cover the Earth in ice. Will Sailor Moon find the crystal before Queen Kaguya? Will her powers be enough to save the Earth from permanent winter? All hope lies with the Legendary Ultimate Scout Power!",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon S the Movie: Hearts in Ice",
+        "overview": "As Usagi and her friends enjoy Christmas vacation, an unusual and fierce snowstorm hits town... The evil Snow Queen Kaguya has returned to claim Earth as her own. Crucial to Queen Kaguya's plan is a magical crystal from outer space, approaching Earth disguised as a comet. Once she gets hold of the crystal, she will have the power to suck away all life energy and cover the Earth in ice. Will Sailor Moon find the crystal before Queen Kaguya? Will her powers be enough to save the Earth from permanent winter? All hope lies with the Legendary Ultimate Scout Power!"
+      },
+      "es": {
+        "title": "Sailor Moon S: El amor de la princesa Kaguya",
+        "overview": "La película tiene como personaje principal a Luna quién vive una extraña aventura y se enamora de un humano. La llegada de un cometa trae consigo a una ancestral enemiga del milenio de plata. La cual causo la anterior era glacial. Vencida hace mucho por el cristal de plata vuelve para conquistar la tierra y cubrirla de hielo una vez más, su llegada esta ligada a un joven astronomo obsesionado con la leyenda de la princesa Kaguya (princesa de la luna) lo que lo a llevado a ser una persona solitaria ya que muchas personas creen el se basa en en una fantasia al decir que realmente hay una princesa en la luna."
+      }
+    },
+    "runtimeMin": 59
+  },
+  {
+    "id": "sailor-moon-supers-the-movie-black-dream-hole-1995",
+    "tmdbId": 28460,
+    "tmdbType": "movie",
+    "title": "Sailor Moon SuperS: The Movie - Black Dream Hole",
+    "kind": "movie",
+    "releaseDate": "1995-12-23",
+    "imdbId": "tt0112513",
+    "posterPath": "/11GoqlOv0AqNZ4V9w3oUhBMg86r.jpg",
+    "overview": "The wicked Badiyanu has come to capture all Earth's children to gain enough power to absorb the planet in her Black Dream Hole. The Black Dream Hole is in Badiyanu's castle and absorbs the dream energy from children. The more children Badiyanu kidnaps, the larger the dream hole gets. The Sailor Team must save Earth's children and prevent the Black Dream Hole from enveloping the entire planet!",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon SuperS: The Movie - Black Dream Hole",
+        "overview": "The wicked Badiyanu has come to capture all Earth's children to gain enough power to absorb the planet in her Black Dream Hole. The Black Dream Hole is in Badiyanu's castle and absorbs the dream energy from children. The more children Badiyanu kidnaps, the larger the dream hole gets. The Sailor Team must save Earth's children and prevent the Black Dream Hole from enveloping the entire planet!"
+      },
+      "es": {
+        "title": "Sailor Moon SuperS El Milagro del Agujero Negro de los Sueños",
+        "overview": "Correspondiente a la saga Sailor Moon SuperS. Los niños de la ciudad de Tokio están desapareciendo y Sailor Moon y sus amigos descubren que unos elfos de los sueños son los responsables. Durante la noche, ellos hechizan a los pequeños al son de una flauta para que les sigan y luego llevárselos en un barco flotante, por órdenes de la malvada bruja Vadyanne. Sin embargo, una vez que Chibiusa es también secuestrada, uno de los elfos llamado Peruru se arrepiente y decide oponerse a los planes de Vadyanne, ayudando a Sailor Moon y a los suyos a rescatarla junto con los demás niños raptados."
+      }
+    },
+    "runtimeMin": 60
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-2003",
+    "tmdbId": 5405,
+    "tmdbType": "tv",
+    "title": "Pretty Guardian Sailor Moon",
+    "kind": "series",
+    "releaseDate": "2003-10-04",
+    "imdbId": "tt0386917",
+    "posterPath": "/dDBug7hReP1FNQyIoGF4gBmHbxM.jpg",
+    "overview": "Usagi Tsukino is a clumsy teenage girl who becomes a Magical Girl named Sailor Moon after meeting a cat named Luna, who tells her she is a destined warrior who must find the reincarnated princess of a lost kingdom. Along the way, she meets other reincarnated warriors who join her group known as the Sailor Senshi who fight the forces of the evil mastermind behind the Dark Kingdom.",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon",
+        "overview": "Usagi Tsukino is a clumsy teenage girl who becomes a Magical Girl named Sailor Moon after meeting a cat named Luna, who tells her she is a destined warrior who must find the reincarnated princess of a lost kingdom. Along the way, she meets other reincarnated warriors who join her group known as the Sailor Senshi who fight the forces of the evil mastermind behind the Dark Kingdom."
+      },
+      "es": {
+        "title": "美少女戦士セーラームーン"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 49,
+        "airDate": "2003-10-04"
+      }
+    ],
+    "runtimeMin": 1225
+  },
+  {
+    "id": "sailor-moon-crystal-2014",
+    "tmdbId": 61339,
+    "tmdbType": "tv",
+    "title": "Sailor Moon Crystal",
+    "kind": "series",
+    "releaseDate": "2014-07-05",
+    "imdbId": "tt3124992",
+    "posterPath": "/mVXlsNJw4fxD2UWNzaUh2TFfI5c.jpg",
+    "overview": "Usagi Tsukino is chosen to be a guardian of justice and is sent on a quest to locate a Silver Crystal before the Dark Kingdom invades the Earth.",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon Crystal",
+        "overview": "Usagi Tsukino is chosen to be a guardian of justice and is sent on a quest to locate a Silver Crystal before the Dark Kingdom invades the Earth."
+      },
+      "es": {
+        "title": "Sailor Moon Crystal",
+        "overview": "Usagi Tsukino es una estudiante de segundo curso un poco torpe y llorica, pero que siempre está llena de energía. Un día se encuentra con Luna, un gato negro con una luna creciente en la frente, y se transforma en “Sailor Moon”, una guerra del amor y la justicia que luce un traje especial. Elegida como la guardiana de la justicia, a Usagi se le encomienda la misión de encontrar el “Cristal de plata ilusorio” junto a otras Sailor y de proteger a la Princesa. Mientras tanto, la Reina Beryl, realeza del Reino Oscuro, envía secuaces a la ciudad en la que vive Usagi para arrebatarle el Cristal, que resulta ser un objeto con un poder inmenso. Y entonces, extraños sucesos comienzan a darse… ¡¿Podrá Sailor Moon, acompañada del resto de Sailor, encontrar el Cristal y proteger a la Princesa?!"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 14,
+        "airDate": "2014-07-05"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2015-02-07"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2016-04-04"
+      }
+    ],
+    "runtimeMin": 975
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-eternal-the-movie-part-1-2021",
+    "tmdbId": 618851,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 1",
+    "kind": "movie",
+    "releaseDate": "2021-01-08",
+    "imdbId": "tt10635042",
+    "posterPath": "/dJaGPwYJh3c6EXNX8JlHBYQH0Ij.jpg",
+    "overview": "After a total solar eclipse, a dark circus troupe appears, Mamoru is stricken with a mysterious malady and bad things start happening across the city.  Sequel to the Sailor Moon Crystal TV series.",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 1",
+        "overview": "After a total solar eclipse, a dark circus troupe appears, Mamoru is stricken with a mysterious malady and bad things start happening across the city.  Sequel to the Sailor Moon Crystal TV series."
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Eternal: La Película - Parte 1",
+        "overview": "Tras un eclipse total de sol, la Tierra queda sumida en una densa oscuridad. Para devolverle la luz, el grupo de Sailor Guardians deberá unirse una vez más."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-eternal-the-movie-part-2-2021",
+    "tmdbId": 784500,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 2",
+    "kind": "movie",
+    "releaseDate": "2021-02-11",
+    "imdbId": "tt25407384",
+    "posterPath": "/f91rtk8dODezNLT3grQrELyzFwA.jpg",
+    "overview": "While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 2",
+        "overview": "While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!"
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Eternal: La Película - Parte 2",
+        "overview": "Tras un eclipse total de sol, la Tierra queda sumida en una densa oscuridad. Para devolverle la luz, el grupo de Sailor Guardians deberá unirse una vez más."
+      }
+    },
+    "runtimeMin": 80
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-cosmos-the-movie-part-1-2023",
+    "tmdbId": 968868,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 1",
+    "kind": "movie",
+    "releaseDate": "2023-06-09",
+    "imdbId": "tt39318020",
+    "posterPath": "/8CZm6hQe9kdTaUaFqB3w2GjjwZ0.jpg",
+    "overview": "The Sailor Guardians enjoy a brief moment of peace until Mamoru's Golden Crystal is stolen by Sailor Galaxia and the mysterious Sailor Starlights appear. One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos.",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 1",
+        "overview": "The Sailor Guardians enjoy a brief moment of peace until Mamoru's Golden Crystal is stolen by Sailor Galaxia and the mysterious Sailor Starlights appear. One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos."
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Cosmos: La película Parte 1",
+        "overview": "El arco de Shadow Galactica, conocido por su profundidad y complejidad, será el punto culminante de esta amada serie que ha capturado los corazones de fanáticos en todo el mundo durante décadas."
+      }
+    },
+    "runtimeMin": 80
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-cosmos-the-movie-part-2-2023",
+    "tmdbId": 968870,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 2",
+    "kind": "movie",
+    "releaseDate": "2023-06-30",
+    "imdbId": "tt28284638",
+    "posterPath": "/sHmtdPMhnVtZWHro6f8CuDQuusz.jpg",
+    "overview": "One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos. After devastating losses, Sailor Moon endures her battle against Shadow Galactica. Will despair crush her, or will she find light in the darkness?",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 2",
+        "overview": "One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos. After devastating losses, Sailor Moon endures her battle against Shadow Galactica. Will despair crush her, or will she find light in the darkness?"
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Cosmos: La película Parte 2",
+        "overview": "El arco de Shadow Galactica, conocido por su profundidad y complejidad, será el punto culminante de esta amada serie que ha capturado los corazones de fanáticos en todo el mundo durante décadas."
+      }
+    },
+    "runtimeMin": 80
   }
 ]

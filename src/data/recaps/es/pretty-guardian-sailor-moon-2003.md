@@ -1,0 +1,2 @@
+- Una torpe adolescente se convierte en Sailor Moon tras conocer a la gata Luna.
+- Busca a la princesa reencarnada de un reino perdido.

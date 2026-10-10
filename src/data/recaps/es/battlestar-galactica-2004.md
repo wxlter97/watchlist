@@ -1,0 +1,2 @@
+- La flota intenta sobrevivir mientras los cylon se infiltran entre los humanos.
+- Las temporadas siguientes revelan la verdad sobre los cylon y el destino de la Tierra.

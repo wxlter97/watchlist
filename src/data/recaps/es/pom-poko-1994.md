@@ -1,0 +1,2 @@
+- Los mapaches de Tama ven amenazadas sus casas por la construcción de viviendas y centros comerciales.
+- Deciden unirse y usar sus poderes de transformación.

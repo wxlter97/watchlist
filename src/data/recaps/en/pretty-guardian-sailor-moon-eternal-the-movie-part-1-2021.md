@@ -1,0 +1,1 @@
+- It continues Crystal's story with the manga's next arc.

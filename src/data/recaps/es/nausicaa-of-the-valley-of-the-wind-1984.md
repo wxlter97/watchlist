@@ -1,0 +1,2 @@
+- Tras una guerra mundial, el Valle del Viento sobrevive a la selva tóxica y a los insectos gigantes que la protegen.
+- La princesa Nausicaä intenta evitar un conflicto entre reinos.

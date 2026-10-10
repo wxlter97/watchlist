@@ -1,0 +1,2 @@
+- Dos familias rivales conviven en las Doce Colonias en paz.
+- La creación de una inteligencia artificial anticipa la guerra con los cylon.

@@ -1,0 +1,1 @@
+- Continúa y concluye la lucha contra Sailor Galaxia.

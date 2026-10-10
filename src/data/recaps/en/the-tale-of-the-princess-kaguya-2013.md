@@ -1,0 +1,2 @@
+- A bamboo cutter finds a tiny girl inside a bamboo stalk.
+- He raises her as a daughter and she grows into a princess.

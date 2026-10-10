@@ -1,0 +1,1 @@
+- The first Cylon war has raged ten years and a young Ensign William Adama joins the fleet.

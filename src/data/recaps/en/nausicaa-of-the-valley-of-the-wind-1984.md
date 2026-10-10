@@ -1,0 +1,2 @@
+- After a global war, the Valley of the Wind survives the toxic jungle and its giant insects.
+- Princess Nausicaä tries to prevent a conflict between kingdoms.

@@ -1,0 +1,1 @@
+- A group of sinners plots to escape Hell, a realm forbidden even to Soul Reapers.
