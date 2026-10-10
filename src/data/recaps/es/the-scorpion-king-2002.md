@@ -1,0 +1,1 @@
+- Un guerrero busca vengar a su pueblo en el Antiguo Egipto.

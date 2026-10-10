@@ -1,0 +1,2 @@
+- Durante una fiesta en Nueva York, un monstruo ataca la ciudad.
+- Un grupo de amigos intenta sobrevivir mientras lo graba todo.

@@ -1,0 +1,1 @@
+- A woman survives in New York during the first day of the invasion.

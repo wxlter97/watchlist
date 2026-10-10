@@ -1,0 +1,1 @@
+- An adventurer and a librarian accidentally awaken a mummy in Egypt.

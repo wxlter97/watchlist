@@ -1,0 +1,2 @@
+- Kaiju emerge from the ocean and humanity builds giant robots, the Jaegers.
+- A retired pilot and a rookie must pilot one.

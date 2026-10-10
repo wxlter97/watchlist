@@ -1,0 +1,218 @@
+{
+  "id": "buffy",
+  "name": {
+    "es": "Buffy y Ángel",
+    "en": "Buffy & Angel"
+  },
+  "description": {
+    "es": "Buffy, la cazavampiros, y su spin-off Ángel: el universo de Joss Whedon.",
+    "en": "Buffy the vampire slayer and her spin-off Angel: Joss Whedon's universe."
+  },
+  "accentColor": "#7E22CE",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie principal",
+        "en": "Main series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Buffy y Ángel, con sus temporadas intercaladas por fecha de emisión.",
+        "en": "Buffy and Angel, with their seasons interleaved by air date."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "buffy-summers"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "buffy-summers",
+        "angel"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "buffy-summers"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "buffy-summers"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "angel-1999",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "angel"
+      ],
+      "chronoOrder": 45,
+      "chronoNote": {
+        "es": "Se emite en paralelo a Buffy, temporadas 4 y 5",
+        "en": "Airs alongside Buffy seasons 4 and 5"
+      }
+    },
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "buffy-summers"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "angel-1999",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "angel"
+      ],
+      "chronoOrder": 55
+    },
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 6,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "buffy-summers"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "angel-1999",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "angel"
+      ],
+      "chronoOrder": 65
+    },
+    {
+      "titleId": "buffy-the-vampire-slayer-1997",
+      "season": 7,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "buffy-summers"
+      ],
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "angel-1999",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "angel"
+      ],
+      "chronoOrder": 75
+    },
+    {
+      "titleId": "angel-1999",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "angel"
+      ],
+      "chronoOrder": 80,
+      "chronoNote": {
+        "es": "Cierra la historia de Ángel, tras el final de Buffy",
+        "en": "Closes Angel's story, after the Buffy finale"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "buffy-only",
+      "type": "curated",
+      "name": {
+        "es": "Solo Buffy",
+        "en": "Buffy only"
+      },
+      "description": {
+        "es": "Las siete temporadas de Buffy, sin Ángel.",
+        "en": "Buffy's seven seasons, without Angel."
+      },
+      "titleIds": [
+        "buffy-the-vampire-slayer-1997"
+      ]
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "buffy-summers",
+        "name": {
+          "es": "Buffy Summers",
+          "en": "Buffy Summers"
+        }
+      },
+      {
+        "id": "angel",
+        "name": {
+          "es": "Ángel",
+          "en": "Angel"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

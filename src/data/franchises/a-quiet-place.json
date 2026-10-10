@@ -1,0 +1,129 @@
+{
+  "id": "a-quiet-place",
+  "name": {
+    "es": "Un lugar en silencio",
+    "en": "A Quiet Place"
+  },
+  "description": {
+    "es": "Criaturas que cazan por el sonido: las dos películas de la familia Abbott y la precuela Day One.",
+    "en": "Creatures that hunt by sound: the two Abbott family films and the prequel Day One."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas de la saga.",
+        "en": "The saga's three films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "a-quiet-place-day-one-2024",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: el primer día de la invasión",
+        "en": "Prequel: the first day of the invasion"
+      },
+      "characters": [
+        "samira",
+        "eric"
+      ]
+    },
+    {
+      "titleId": "a-quiet-place-2018",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "evelyn-abbott",
+        "lee-abbott"
+      ]
+    },
+    {
+      "titleId": "a-quiet-place-part-ii-2020",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "evelyn-abbott",
+        "regan-abbott"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "evelyn-abbott",
+        "name": {
+          "es": "Evelyn Abbott",
+          "en": "Evelyn Abbott"
+        }
+      },
+      {
+        "id": "lee-abbott",
+        "name": {
+          "es": "Lee Abbott",
+          "en": "Lee Abbott"
+        }
+      },
+      {
+        "id": "regan-abbott",
+        "name": {
+          "es": "Regan Abbott",
+          "en": "Regan Abbott"
+        }
+      },
+      {
+        "id": "samira",
+        "name": {
+          "es": "Samira",
+          "en": "Samira"
+        }
+      },
+      {
+        "id": "eric",
+        "name": {
+          "es": "Eric",
+          "en": "Eric"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

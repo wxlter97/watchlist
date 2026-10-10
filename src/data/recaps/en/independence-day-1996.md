@@ -1,0 +1,2 @@
+- Alien ships arrive on Earth and attack cities.
+- A pilot and a scientist team up to fight back.

@@ -1,0 +1,118 @@
+{
+  "id": "pacific-rim",
+  "name": {
+    "es": "Titanes del Pacífico",
+    "en": "Pacific Rim"
+  },
+  "description": {
+    "es": "Jaegers contra Kaijus: las dos películas y la serie animada de Netflix.",
+    "en": "Jaegers against Kaiju: the two films and Netflix's animated series."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas y serie",
+        "en": "Films and series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas y la serie animada.",
+        "en": "The two films and the animated series."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "pacific-rim-2013",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "raleigh-becket",
+        "mako-mori"
+      ]
+    },
+    {
+      "titleId": "pacific-rim-uprising-2018",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Diez años después de la primera",
+        "en": "Ten years after the first"
+      },
+      "characters": [
+        "jake-pentecost"
+      ]
+    },
+    {
+      "titleId": "pacific-rim-the-black-2021",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": []
+    },
+    {
+      "titleId": "pacific-rim-the-black-2021",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "raleigh-becket",
+        "name": {
+          "es": "Raleigh Becket",
+          "en": "Raleigh Becket"
+        }
+      },
+      {
+        "id": "mako-mori",
+        "name": {
+          "es": "Mako Mori",
+          "en": "Mako Mori"
+        }
+      },
+      {
+        "id": "jake-pentecost",
+        "name": {
+          "es": "Jake Pentecost",
+          "en": "Jake Pentecost"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

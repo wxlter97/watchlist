@@ -1,0 +1,134 @@
+{
+  "id": "the-mummy",
+  "name": {
+    "es": "La momia",
+    "en": "The Mummy"
+  },
+  "description": {
+    "es": "Aventuras en el Antiguo Egipto: las películas con Brendan Fraser, el Rey Escorpión y el reinicio de 2017.",
+    "en": "Adventures in Ancient Egypt: the Brendan Fraser films, The Scorpion King and the 2017 reboot."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "fraser",
+      "name": {
+        "es": "Películas con Brendan Fraser",
+        "en": "Brendan Fraser films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas de Rick O'Connell y el spin-off El Rey Escorpión.",
+        "en": "Rick O'Connell's three films and the spin-off The Scorpion King."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio (2017)",
+        "en": "Reboot (2017)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Versión con Tom Cruise, independiente de las anteriores.",
+        "en": "The Tom Cruise version, independent from the earlier ones."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-scorpion-king-2002",
+      "continuityId": "fraser",
+      "importance": "optional",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Transcurre miles de años antes de La momia",
+        "en": "Set thousands of years before The Mummy"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-mummy-1999",
+      "continuityId": "fraser",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "rick-oconnell",
+        "evelyn-carnahan"
+      ]
+    },
+    {
+      "titleId": "the-mummy-returns-2001",
+      "continuityId": "fraser",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "rick-oconnell",
+        "evelyn-carnahan"
+      ]
+    },
+    {
+      "titleId": "the-mummy-tomb-of-the-dragon-emperor-2008",
+      "continuityId": "fraser",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "rick-oconnell"
+      ]
+    },
+    {
+      "titleId": "the-mummy-2017",
+      "continuityId": "reboot",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "rick-oconnell",
+        "name": {
+          "es": "Rick O'Connell",
+          "en": "Rick O'Connell"
+        }
+      },
+      {
+        "id": "evelyn-carnahan",
+        "name": {
+          "es": "Evelyn Carnahan",
+          "en": "Evelyn Carnahan"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

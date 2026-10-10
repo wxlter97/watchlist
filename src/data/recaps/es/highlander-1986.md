@@ -1,0 +1,1 @@
+- Connor MacLeod descubre que es inmortal y enfrenta a otro inmortal, el Kurgan.

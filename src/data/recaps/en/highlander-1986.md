@@ -1,0 +1,1 @@
+- Connor MacLeod discovers he is immortal and faces another immortal, the Kurgan.

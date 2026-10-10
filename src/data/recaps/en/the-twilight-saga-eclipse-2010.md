@@ -1,0 +1,1 @@
+- Bella must choose between Edward and Jacob as a threat approaches.

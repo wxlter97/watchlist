@@ -1,0 +1,1 @@
+- A soldier awakens an ancient Egyptian princess and must stop her.

@@ -1,0 +1,6 @@
+- **Temporada 1:** Ragnar Lothbrok, un granjero vikingo, sueña con navegar al oeste y organiza sus primeras incursiones en Inglaterra.
+- **Temporada 2:** Ragnar consolida su poder y su reino.
+- **Temporada 3:** los vikingos atacan París.
+- **Temporada 4:** Ragnar enfrenta las consecuencias de su ambición y sus hijos comienzan a destacar.
+- **Temporada 5:** los hijos de Ragnar luchan por su legado.
+- **Temporada 6:** la historia llega a su final.

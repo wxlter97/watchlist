@@ -1,0 +1,140 @@
+{
+  "id": "peaky-blinders",
+  "name": {
+    "es": "Peaky Blinders",
+    "en": "Peaky Blinders"
+  },
+  "description": {
+    "es": "La familia Shelby en la Birmingham de entreguerras: las seis temporadas y la película.",
+    "en": "The Shelby family in interwar Birmingham: the six seasons and the film."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie y película",
+        "en": "Series and film"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las seis temporadas y la película que continúa la historia.",
+        "en": "The six seasons and the film that continues the story."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "peaky-blinders-2013",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "tommy-shelby"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "peaky-blinders-2013",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "tommy-shelby"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "peaky-blinders-2013",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "tommy-shelby"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "peaky-blinders-2013",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "tommy-shelby"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "peaky-blinders-2013",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "tommy-shelby"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "peaky-blinders-2013",
+      "season": 6,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "tommy-shelby"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "peaky-blinders-the-immortal-man-2026",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "Continúa la historia tras la sexta temporada",
+        "en": "Continues the story after season 6"
+      },
+      "characters": [
+        "tommy-shelby"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "tommy-shelby",
+        "name": {
+          "es": "Tommy Shelby",
+          "en": "Tommy Shelby"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

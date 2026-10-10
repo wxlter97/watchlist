@@ -1,0 +1,2 @@
+- **Temporada 1:** Dos hermanos buscan a sus padres en un mundo asolado por kaijus.
+- **Temporada 2:** los hermanos continúan su viaje.
