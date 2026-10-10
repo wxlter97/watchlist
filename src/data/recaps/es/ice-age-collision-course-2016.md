@@ -1,0 +1,1 @@
+- La persecución de Scrat lo lanza al espacio y causa una catástrofe cósmica.

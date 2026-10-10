@@ -1,0 +1,2 @@
+- El Gato con Botas se une a Humpty Dumpty y Kitty Softpaws para robar unos frijoles mágicos.
+- Descubre que su pasado con Humpty complica el plan.

@@ -1,0 +1,2 @@
+- El Gato descubre que ha gastado ocho de sus nueve vidas.
+- Parte en busca del Último Deseo para recuperarlas.

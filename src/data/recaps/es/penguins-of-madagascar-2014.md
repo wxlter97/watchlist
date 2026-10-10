@@ -1,0 +1,2 @@
+- Skipper, Kowalski, Rico y Private se unen a una organización encubierta, la Brisa del Norte.
+- Detienen al Dr. Octavius Brine.

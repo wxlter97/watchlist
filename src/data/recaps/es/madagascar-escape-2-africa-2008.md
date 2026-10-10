@@ -1,0 +1,1 @@
+- El avión de los animales cae en África, donde Alex encuentra a su familia.

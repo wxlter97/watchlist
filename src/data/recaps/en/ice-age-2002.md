@@ -1,0 +1,2 @@
+- Manny, Sid and Diego return a human baby to his tribe.
+- Scrat chases his acorn along the way.

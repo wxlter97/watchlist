@@ -1,0 +1,2 @@
+- Hipo, un joven vikingo, se hace amigo de Chimuelo, un temido Furia Nocturna.
+- Su vínculo cambia la relación entre vikingos y dragones.

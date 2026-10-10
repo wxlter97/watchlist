@@ -1,0 +1,2 @@
+- Po, a kung fu-loving panda, is chosen by mistake as the Dragon Warrior.
+- He must train with the Furious Five and stop Tai Lung.

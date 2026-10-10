@@ -1,0 +1,136 @@
+{
+  "id": "how-to-train-your-dragon",
+  "name": {
+    "es": "Cómo entrenar a tu dragón",
+    "en": "How to Train Your Dragon"
+  },
+  "description": {
+    "es": "Hipo y Chimuelo: la trilogía animada y la adaptación con actores reales.",
+    "en": "Hiccup and Toothless: the animated trilogy and the live-action adaptation."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "animated",
+      "name": {
+        "es": "Trilogía animada",
+        "en": "Animated trilogy"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas animadas.",
+        "en": "The three animated films."
+      }
+    },
+    {
+      "id": "live",
+      "name": {
+        "es": "Acción real",
+        "en": "Live action"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La nueva adaptación de 2025 y su secuela.",
+        "en": "The new 2025 adaptation and its sequel."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "how-to-train-your-dragon-2010",
+      "continuityId": "animated",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "hiccup",
+        "toothless"
+      ]
+    },
+    {
+      "titleId": "how-to-train-your-dragon-2-2014",
+      "continuityId": "animated",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "hiccup",
+        "toothless"
+      ]
+    },
+    {
+      "titleId": "how-to-train-your-dragon-the-hidden-world-2019",
+      "continuityId": "animated",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "hiccup",
+        "toothless"
+      ]
+    },
+    {
+      "titleId": "how-to-train-your-dragon-2025",
+      "continuityId": "live",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "hiccup",
+        "toothless"
+      ]
+    },
+    {
+      "titleId": "how-to-train-your-dragon-2-2027",
+      "continuityId": "live",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "hiccup",
+        "toothless"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "hiccup",
+        "name": {
+          "es": "Hipo",
+          "en": "Hiccup"
+        }
+      },
+      {
+        "id": "toothless",
+        "name": {
+          "es": "Chimuelo",
+          "en": "Toothless"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

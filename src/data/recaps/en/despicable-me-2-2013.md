@@ -1,0 +1,2 @@
+- Gru is recruited by the Anti-Villain League.
+- With Lucy he investigates a theft.

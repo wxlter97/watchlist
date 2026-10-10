@@ -1,0 +1,1 @@
+- Hiccup and Toothless explore new lands and discover a dragon conqueror.

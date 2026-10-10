@@ -1,0 +1,1 @@
+- Van Helsing's invention turns monsters into humans and Johnny into a monster.

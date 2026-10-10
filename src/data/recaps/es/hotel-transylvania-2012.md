@@ -1,0 +1,2 @@
+- Drácula protege a su hija Mavis en un hotel para monstruos.
+- Un humano, Johnny, llega por accidente y se enamora de ella.

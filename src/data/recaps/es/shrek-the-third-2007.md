@@ -1,0 +1,2 @@
+- Tras morir el rey, Shrek y Fiona deben suceder al trono, pero Shrek prefiere su pantano.
+- Burro y él parten a buscar a otro heredero.

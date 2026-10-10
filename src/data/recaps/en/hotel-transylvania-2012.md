@@ -1,0 +1,2 @@
+- Dracula shelters his daughter Mavis in a hotel for monsters.
+- A human, Johnny, arrives by accident and falls for her.

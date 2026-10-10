@@ -1,0 +1,188 @@
+{
+  "id": "shrek",
+  "name": {
+    "es": "Shrek",
+    "en": "Shrek"
+  },
+  "description": {
+    "es": "El ogro, el burro y el Gato con Botas: las películas de Shrek y las del Gato.",
+    "en": "The ogre, the donkey and Puss in Boots: the Shrek films and Puss's own."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Universo Shrek",
+        "en": "Shrek universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de Shrek y las del Gato con Botas.",
+        "en": "The Shrek films and Puss in Boots's."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "puss-in-boots-2011",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Precuela con el pasado del Gato",
+        "en": "Prequel with Puss's past"
+      },
+      "characters": [
+        "puss-in-boots"
+      ]
+    },
+    {
+      "titleId": "shrek-2001",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "shrek",
+        "donkey",
+        "fiona"
+      ]
+    },
+    {
+      "titleId": "shrek-2-2004",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "shrek",
+        "donkey",
+        "fiona",
+        "puss-in-boots"
+      ]
+    },
+    {
+      "titleId": "shrek-the-third-2007",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "shrek",
+        "donkey",
+        "fiona",
+        "puss-in-boots"
+      ]
+    },
+    {
+      "titleId": "shrek-forever-after-2010",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "shrek",
+        "donkey",
+        "fiona",
+        "puss-in-boots"
+      ]
+    },
+    {
+      "titleId": "puss-in-boots-the-last-wish-2022",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "puss-in-boots"
+      ]
+    },
+    {
+      "titleId": "shrek-5-2027",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "shrek",
+        "donkey",
+        "fiona"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-shrek-5-2027",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Shrek 5",
+        "en": "Get ready for Shrek 5"
+      },
+      "description": {
+        "es": "Las cuatro películas de Shrek bastan para ponerse al día.",
+        "en": "The four Shrek films are enough to catch up."
+      },
+      "titleIds": [
+        "shrek-2001",
+        "shrek-2-2004",
+        "shrek-the-third-2007",
+        "shrek-forever-after-2010"
+      ],
+      "targetTitleId": "shrek-5-2027"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "shrek",
+        "name": {
+          "es": "Shrek",
+          "en": "Shrek"
+        }
+      },
+      {
+        "id": "donkey",
+        "name": {
+          "es": "Burro",
+          "en": "Donkey"
+        }
+      },
+      {
+        "id": "fiona",
+        "name": {
+          "es": "Fiona",
+          "en": "Fiona"
+        }
+      },
+      {
+        "id": "puss-in-boots",
+        "name": {
+          "es": "Gato con Botas",
+          "en": "Puss in Boots"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

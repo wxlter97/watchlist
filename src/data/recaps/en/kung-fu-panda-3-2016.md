@@ -1,0 +1,2 @@
+- Po and his father visit a secret panda village.
+- An evil spirit threatens China and Po must form an army.

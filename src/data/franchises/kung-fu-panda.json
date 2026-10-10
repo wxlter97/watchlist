@@ -1,0 +1,113 @@
+{
+  "id": "kung-fu-panda",
+  "name": {
+    "es": "Kung Fu Panda",
+    "en": "Kung Fu Panda"
+  },
+  "description": {
+    "es": "Po, el Guerrero Dragón: las cuatro películas.",
+    "en": "Po, the Dragon Warrior: the four films."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "kung-fu-panda-2008",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "po",
+        "tigress"
+      ]
+    },
+    {
+      "titleId": "kung-fu-panda-2-2011",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "po",
+        "tigress"
+      ]
+    },
+    {
+      "titleId": "kung-fu-panda-3-2016",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "po",
+        "tigress"
+      ]
+    },
+    {
+      "titleId": "kung-fu-panda-4-2024",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "po"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "po",
+        "name": {
+          "es": "Po",
+          "en": "Po"
+        }
+      },
+      {
+        "id": "tigress",
+        "name": {
+          "es": "Tigresa",
+          "en": "Tigress"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

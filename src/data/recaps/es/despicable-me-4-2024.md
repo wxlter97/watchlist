@@ -1,0 +1,1 @@
+- La familia suma a Gru Jr. y enfrenta a Maxime Le Mal y a su novia Valentina.

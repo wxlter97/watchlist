@@ -1,0 +1,2 @@
+- Po prepares to become spiritual leader and must train a new Dragon Warrior.
+- He faces the Chameleon.

@@ -1,0 +1,1 @@
+- Alex, Marty, Melman and Gloria escape the zoo and are stranded in Madagascar.

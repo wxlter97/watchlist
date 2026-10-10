@@ -1,0 +1,2 @@
+- Hiccup, a young Viking, befriends Toothless, a feared Night Fury.
+- Their bond changes the relationship between Vikings and dragons.

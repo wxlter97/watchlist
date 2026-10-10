@@ -1,0 +1,2 @@
+- The friends head to Europe after the penguins and chimps who broke the bank in Monte Carlo.
+- An animal control officer chases them.
