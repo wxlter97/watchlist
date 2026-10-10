@@ -1,0 +1,144 @@
+{
+  "id": "attack-on-titan",
+  "name": {
+    "es": "Ataque a los Titanes",
+    "en": "Attack on Titan"
+  },
+  "description": {
+    "es": "Eren, Mikasa y Armin frente a los titanes: las cuatro temporadas y el resumen del final.",
+    "en": "Eren, Mikasa and Armin against the Titans: the four seasons and the finale recap."
+  },
+  "accentColor": "#9A3412",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Historia principal",
+        "en": "Main story"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El anime completo, en orden.",
+        "en": "The complete anime, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "attack-on-titan-2013",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 10,
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ]
+    },
+    {
+      "titleId": "attack-on-titan-2013",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 20,
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ]
+    },
+    {
+      "titleId": "attack-on-titan-2013",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 30,
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ]
+    },
+    {
+      "titleId": "attack-on-titan-2013",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 40,
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ]
+    },
+    {
+      "titleId": "attack-on-titan-the-last-attack-2024",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Reúne el final de la serie en una película",
+        "en": "Gathers the series' ending in a film"
+      },
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "eren-yeager",
+        "name": {
+          "es": "Eren Jaeger",
+          "en": "Eren Yeager"
+        }
+      },
+      {
+        "id": "mikasa-ackerman",
+        "name": {
+          "es": "Mikasa Ackerman",
+          "en": "Mikasa Ackerman"
+        }
+      },
+      {
+        "id": "armin-arlert",
+        "name": {
+          "es": "Armin Arlert",
+          "en": "Armin Arlert"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -22827,5 +22827,637 @@
     ],
     "runtimeMin": 1616,
     "ongoing": true
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-2019",
+    "tmdbId": 85937,
+    "tmdbType": "tv",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "kind": "series",
+    "releaseDate": "2019-04-06",
+    "imdbId": "tt9335498",
+    "posterPath": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+    "overview": "After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost.",
+    "localized": {
+      "en": {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "overview": "After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost."
+      },
+      "es": {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "overview": "En la era Taisho de Japón, Tanjiro, un joven vendedor de carbón, descubre que su familia ha sido asesinada por un demonio. Su hermana Nezuko, la única superviviente, se ha convertido en demonio. Tanjiro decide convertirse en cazador de demonios para devolver a su hermana a la normalidad y vengar a su familia"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2019-04-06"
+      },
+      {
+        "number": 2,
+        "episodes": 7,
+        "airDate": "2021-10-10"
+      },
+      {
+        "number": 3,
+        "episodes": 11,
+        "airDate": "2021-12-05"
+      },
+      {
+        "number": 4,
+        "episodes": 11,
+        "airDate": "2023-04-09"
+      },
+      {
+        "number": 5,
+        "episodes": 8,
+        "airDate": "2024-05-12"
+      }
+    ],
+    "runtimeMin": 1617
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train-2020",
+    "tmdbId": 635302,
+    "tmdbType": "movie",
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+    "kind": "movie",
+    "releaseDate": "2020-10-16",
+    "imdbId": "tt11032374",
+    "posterPath": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+    "overview": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+    "localized": {
+      "en": {
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "overview": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!"
+      },
+      "es": {
+        "title": "Demon Slayer: Mugen Train La película",
+        "overview": "Tanjiro Kamado y sus amigos de la Compañía de Cazadores de Demonios (Kimetsu no Yaiba Corps), se unen con uno de los mejores espadachines de la compañía, Kyojuro Rengoku, para investigar una misteriosa serie de desapariciones que han ocurrido dentro del “Tren Infinito”. Poco saben que Enmu, uno de los miembros de las Doce Lunas Demoníacas, también está a bordo y les ha preparado una trampa."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-infinity-castle-2025",
+    "tmdbId": 1311031,
+    "tmdbType": "movie",
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "kind": "movie",
+    "releaseDate": "2025-07-18",
+    "imdbId": "tt32820897",
+    "posterPath": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+    "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+    "localized": {
+      "en": {
+        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+        "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins."
+      },
+      "es": {
+        "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+        "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios."
+      }
+    },
+    "runtimeMin": 156
+  },
+  {
+    "id": "attack-on-titan-2013",
+    "tmdbId": 1429,
+    "tmdbType": "tv",
+    "title": "Attack on Titan",
+    "kind": "series",
+    "releaseDate": "2013-04-07",
+    "imdbId": "tt2560140",
+    "posterPath": "/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+    "overview": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
+    "localized": {
+      "en": {
+        "title": "Attack on Titan",
+        "overview": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!"
+      },
+      "es": {
+        "title": "Attack on Titan",
+        "overview": "Muchos años atrás, la humanidad estuvo al borde de la extinción con la aparición de unas criaturas gigantes que devoraban a todas las personas. Huyendo, la humanidad consiguió sobrevivir en una ciudad fortificada de altas murallas que se ha convertido en el último reducto de la civilización contra los Titanes que campan a sus anchas por el mundo. Ahora esa paz está a punto de verse interrumpida por una cadena de acontecimientos que llevará a desvelar qué son los Titanes y cómo aparecieron."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 25,
+        "airDate": "2013-04-07"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2017-04-01"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "2018-07-23"
+      },
+      {
+        "number": 4,
+        "episodes": 28,
+        "airDate": "2020-12-07"
+      }
+    ],
+    "runtimeMin": 2087
+  },
+  {
+    "id": "attack-on-titan-the-last-attack-2024",
+    "tmdbId": 1333100,
+    "tmdbType": "movie",
+    "title": "Attack on Titan: THE LAST ATTACK",
+    "kind": "movie",
+    "releaseDate": "2024-03-20",
+    "imdbId": "tt33175825",
+    "posterPath": "/wgwldDDlTDDMrluOMkpSA8lyKjv.jpg",
+    "overview": "A colossal-sized omnibus film bringing together the last two episodes of Attack on Titan in the franchise's first-ever theatrical experience. After venturing beyond the walls and separated from his comrades, Eren finds himself inspired by this new truth and plots the \"Rumbling,\" a terrifying plan to eradicate every living thing in the world. With the fate of the world hanging in the balance, a motley crew of Eren's former comrades and enemies scramble to halt his deadly mission. The only question is, can they stop him?",
+    "localized": {
+      "en": {
+        "title": "Attack on Titan: THE LAST ATTACK",
+        "overview": "A colossal-sized omnibus film bringing together the last two episodes of Attack on Titan in the franchise's first-ever theatrical experience. After venturing beyond the walls and separated from his comrades, Eren finds himself inspired by this new truth and plots the \"Rumbling,\" a terrifying plan to eradicate every living thing in the world. With the fate of the world hanging in the balance, a motley crew of Eren's former comrades and enemies scramble to halt his deadly mission. The only question is, can they stop him?"
+      },
+      "es": {
+        "title": "Attack on Titan: EL ATAQUE FINAL",
+        "overview": "Película recopilatoria para cines de los dos últimos episodios especiales de la última temporada de \"Ataque a los Titanes\". La humanidad vivía en paz tras los enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio truncado por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Yeager, que juró vengarse de los titanes. Años después de unirse a la Tropa de Reconocimiento, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que revela una nueva verdad sobre el mundo que conoce... Tras aventurarse más allá de los muros y separarse de sus camaradas, Eren, motivado por sus nuevos conocimientos del mundo, planea el \"Retumbar\", un terrorífico plan para erradicar a todo ser vivo del mundo. Con el destino del mundo pendiendo de un hilo, un variopinto grupo de antiguos camaradas y enemigos de Eren lucha por detener su letal misión. La única pregunta es: ¿lo conseguirán?"
+      }
+    },
+    "runtimeMin": 145
+  },
+  {
+    "id": "jujutsu-kaisen-2020",
+    "tmdbId": 95479,
+    "tmdbType": "tv",
+    "title": "JUJUTSU KAISEN",
+    "kind": "series",
+    "releaseDate": "2020-10-03",
+    "imdbId": "tt12343534",
+    "posterPath": "/6qQzMJG27XOJsyAEEIisoJB45j2.jpg",
+    "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+    "localized": {
+      "en": {
+        "title": "JUJUTSU KAISEN",
+        "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back."
+      },
+      "es": {
+        "title": "Jujutsu Kaisen",
+        "overview": "La vida de Itadori cambia para siempre cuando, para salvar a un compañero de clase, se come el dedo de Ryomen Sukuna y absorbe una poderosa maldición."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 59,
+        "airDate": "2020-10-03"
+      }
+    ],
+    "runtimeMin": 1427,
+    "ongoing": true
+  },
+  {
+    "id": "jujutsu-kaisen-0-2021",
+    "tmdbId": 810693,
+    "tmdbType": "movie",
+    "title": "Jujutsu Kaisen 0",
+    "kind": "movie",
+    "releaseDate": "2021-12-24",
+    "imdbId": "tt14331144",
+    "posterPath": "/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg",
+    "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?",
+    "localized": {
+      "en": {
+        "title": "Jujutsu Kaisen 0",
+        "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?"
+      },
+      "es": {
+        "title": "Jujutsu Kaisen 0",
+        "overview": "Rika, amiga de la infancia de Yuta Okkotsu, murió en un accidente automovilístico. Su espíritu permanece con él, más ya no es la dulce niña que él conocía. Se manifiesta como una entidad monstruosa y poderosa que lo protege ferozmente."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "my-hero-academia-2016",
+    "tmdbId": 65930,
+    "tmdbType": "tv",
+    "title": "My Hero Academia",
+    "kind": "series",
+    "releaseDate": "2016-04-03",
+    "imdbId": "tt5626028",
+    "posterPath": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
+    "overview": "Izuku has dreamt of being a hero all his life—a lofty goal for anyone, but especially challenging for a kid with no superpowers. That’s right, in a world where eighty percent of the population has some kind of super-powered \"quirk,\" Izuku was unlucky enough to be born completely normal. But that’s not enough to stop him from enrolling in one of the world’s most prestigious hero academies.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia",
+        "overview": "Izuku has dreamt of being a hero all his life—a lofty goal for anyone, but especially challenging for a kid with no superpowers. That’s right, in a world where eighty percent of the population has some kind of super-powered \"quirk,\" Izuku was unlucky enough to be born completely normal. But that’s not enough to stop him from enrolling in one of the world’s most prestigious hero academies."
+      },
+      "es": {
+        "title": "My Hero Academia",
+        "overview": "El 80% de la población mundial ha desarrollado superpoderes y son entrenados en la Academia de Héroes. Como consecuencia, han surgido tanto superhéroes como supervillanos. Izuku Midoriya es parte de ese 20% sin ningún poder sobrenatural. Sin embargo, su mayor deseo es poder estudiar en la Academia y convertirse en un héroe"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2016-04-03"
+      },
+      {
+        "number": 2,
+        "episodes": 25,
+        "airDate": "2017-04-01"
+      },
+      {
+        "number": 3,
+        "episodes": 25,
+        "airDate": "2018-04-07"
+      },
+      {
+        "number": 4,
+        "episodes": 25,
+        "airDate": "2019-10-12"
+      },
+      {
+        "number": 5,
+        "episodes": 25,
+        "airDate": "2021-03-27"
+      },
+      {
+        "number": 6,
+        "episodes": 25,
+        "airDate": "2022-10-01"
+      },
+      {
+        "number": 7,
+        "episodes": 21,
+        "airDate": "2024-05-04"
+      },
+      {
+        "number": 8,
+        "episodes": 11,
+        "airDate": "2025-10-04"
+      }
+    ],
+    "runtimeMin": 4079
+  },
+  {
+    "id": "my-hero-academia-two-heroes-2018",
+    "tmdbId": 505262,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: Two Heroes",
+    "kind": "movie",
+    "releaseDate": "2018-08-03",
+    "imdbId": "tt7745068",
+    "posterPath": "/hC4nTxdhXqFWzgqynGvvXVMiMNp.jpg",
+    "overview": "All Might and Deku accept an invitation to go abroad to a floating and mobile manmade city, called 'I-Island', where they research quirks as well as hero supplemental items at the special 'I-Expo' convention that is currently being held on the island. During that time, suddenly, despite an iron wall of security surrounding the island, the system is breached by a villain, and the only ones able to stop him are the students of Class 1-A.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: Two Heroes",
+        "overview": "All Might and Deku accept an invitation to go abroad to a floating and mobile manmade city, called 'I-Island', where they research quirks as well as hero supplemental items at the special 'I-Expo' convention that is currently being held on the island. During that time, suddenly, despite an iron wall of security surrounding the island, the system is breached by a villain, and the only ones able to stop him are the students of Class 1-A."
+      },
+      "es": {
+        "title": "My Hero Academia: Dos héroes",
+        "overview": "Deku y All-Might visitan la isla I, una ciudad flotante hecha por el hombre. Allí, conocen a una chica y pelean contra un villano que domina el lugar. Además, se develará información sobre el pasado de All-Might."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "my-hero-academia-heroes-rising-2019",
+    "tmdbId": 592350,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: Heroes Rising",
+    "kind": "movie",
+    "releaseDate": "2019-12-20",
+    "imdbId": "tt11107074",
+    "posterPath": "/kpWsIkfXrnQ1pmR79qAHHq7DPxc.jpg",
+    "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation... until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: Heroes Rising",
+        "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation... until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope."
+      },
+      "es": {
+        "title": "My Hero Academia: El Despertar de los Héroes",
+        "overview": "Un nuevo villano, llamado Nine, está buscando a Tomura Shigaraki. Para ello, decide atacar la isla de Nabutō. Segunda película de la serie anime \"My Hero Academia\"."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "my-hero-academia-world-heroes-mission-2021",
+    "tmdbId": 768744,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: World Heroes' Mission",
+    "kind": "movie",
+    "releaseDate": "2021-08-06",
+    "imdbId": "tt13544716",
+    "posterPath": "/jzP5rPwwNqUGERlrUzKKljfyulf.jpg",
+    "overview": "A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: World Heroes' Mission",
+        "overview": "A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia."
+      },
+      "es": {
+        "title": "Boku no Hero Academia: Misión Mundial de Héroes",
+        "overview": "Cuando una siniestra organización amenaza con acabar con todos los dones, el destino del mundo está en juego. Con dos horas hasta el colapso de la civilización, Deku, Bakugo y Todoroki logran trabajar en equipo, sin embargo, durante el transcurso de esta operación, Deku se involucra en un evento que hace que se convierta en uno de los criminales más buscados de todo el mundo."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "my-hero-academia-youre-next-2024",
+    "tmdbId": 1159311,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: You're Next",
+    "kind": "movie",
+    "releaseDate": "2024-08-02",
+    "imdbId": "tt32176689",
+    "posterPath": "/tTrI6PwqzxkgO3dvQ7BEKXM7SYR.jpg",
+    "overview": "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the 'symbol of peace', stands in front of Izuku and his friends...",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: You're Next",
+        "overview": "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the 'symbol of peace', stands in front of Izuku and his friends..."
+      },
+      "es": {
+        "title": "My Hero Academia: Ahora es tu turno"
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "sonic-the-hedgehog-2020",
+    "tmdbId": 454626,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog",
+    "kind": "movie",
+    "releaseDate": "2020-02-12",
+    "imdbId": "tt3794354",
+    "posterPath": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+    "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog",
+        "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination."
+      },
+      "es": {
+        "title": "Sonic: La película",
+        "overview": "Tom Wachowski, el sheriff de la ciudad de Green Hills, viajará a San Francisco para ayudar a Sonic, un erizo azul antropomórfico que corre a velocidades supersónicas, en su batalla contra el maligno Dr. Robotnik y sus aliados."
+      }
+    },
+    "runtimeMin": 99
+  },
+  {
+    "id": "sonic-the-hedgehog-2-2022",
+    "tmdbId": 675353,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog 2",
+    "kind": "movie",
+    "releaseDate": "2022-03-30",
+    "imdbId": "tt12412888",
+    "posterPath": "/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+    "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog 2",
+        "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands."
+      },
+      "es": {
+        "title": "Sonic 2: La película",
+        "overview": "Cuando el Dr. Robotnik regresa, esta vez con un nuevo compañero, Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones. Sonic se une a su propio compañero, Tails, y juntos se embarcan en un viaje por el mundo para encontrar la esmeralda antes de que caiga en las manos equivocadas."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "knuckles-2024",
+    "tmdbId": 158300,
+    "tmdbType": "tv",
+    "title": "Knuckles",
+    "kind": "series",
+    "releaseDate": "2024-04-26",
+    "imdbId": "tt18291136",
+    "posterPath": "/sK6Nr6KNUA4WlAHyNBTioz9FK87.jpg",
+    "overview": "Knuckles embarks on a hilarious and action-packed journey of self-discovery as he agrees to train Wade as his protégé and teach him the ways of the Echidna warrior.",
+    "localized": {
+      "en": {
+        "title": "Knuckles",
+        "overview": "Knuckles embarks on a hilarious and action-packed journey of self-discovery as he agrees to train Wade as his protégé and teach him the ways of the Echidna warrior."
+      },
+      "es": {
+        "title": "Knuckles",
+        "overview": "Knuckles se embarca en un viaje de autodescubrimiento hilarante y lleno de acción cuando acepta entrenar a Wade como su protegido y enseñarle los caminos del guerrero Equidna."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2024-04-26"
+      }
+    ],
+    "runtimeMin": 174
+  },
+  {
+    "id": "sonic-the-hedgehog-3-2024",
+    "tmdbId": 939243,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog 3",
+    "kind": "movie",
+    "releaseDate": "2024-12-19",
+    "imdbId": "tt18259086",
+    "posterPath": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+    "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog 3",
+        "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet."
+      },
+      "es": {
+        "title": "Sonic 3: La película",
+        "overview": "Sonic, Knuckles y Tails se reúnen para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. Con sus habilidades superadas en todos los sentidos, el Equipo Sonic debe buscar una alianza improbable con la esperanza de detener a Shadow y proteger el planeta."
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "sonic-the-hedgehog-4-2027",
+    "tmdbId": 1401586,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog 4",
+    "kind": "movie",
+    "releaseDate": "2027-03-11",
+    "imdbId": "tt16744566",
+    "posterPath": "/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
+    "overview": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog 4",
+        "overview": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic."
+      },
+      "es": {
+        "title": "Sonic 4: La Película",
+        "overview": "Sonic el Erizo, acompañado por una nueva heroína llamada Amy, se enfrenta a un nuevo némesis tecnológico conocido como Metal Sonic."
+      }
+    }
+  },
+  {
+    "id": "super-mario-bros-1993",
+    "tmdbId": 9607,
+    "tmdbType": "movie",
+    "title": "Super Mario Bros.",
+    "kind": "movie",
+    "releaseDate": "1993-05-28",
+    "imdbId": "tt0108255",
+    "posterPath": "/yt5bbMfKpg1nRr4k5edxs7tPK2m.jpg",
+    "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa.",
+    "localized": {
+      "en": {
+        "title": "Super Mario Bros.",
+        "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa."
+      },
+      "es": {
+        "title": "Super Mario Bros.",
+        "overview": "Basada en el famoso videojuego de la compañía Nintendo. Dos hermanos fontaneros se adentran en un mundo paralelo para salvar a la princesa Daisy de las garras del rey Koopa y su ejército de reptiles"
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "the-super-mario-bros-movie-2023",
+    "tmdbId": 502356,
+    "tmdbType": "movie",
+    "title": "The Super Mario Bros. Movie",
+    "kind": "movie",
+    "releaseDate": "2023-04-05",
+    "imdbId": "tt6718170",
+    "posterPath": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+    "localized": {
+      "en": {
+        "title": "The Super Mario Bros. Movie",
+        "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi."
+      },
+      "es": {
+        "title": "Super Mario Bros. La película",
+        "overview": "Mientras trabaja bajo tierra para arreglar una tubería de agua, los plomeros de Brooklyn Mario y su hermano Luigi son transportados por una misteriosa tubería y llegan a un nuevo mundo mágico."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "the-super-mario-galaxy-movie-2026",
+    "tmdbId": 1226863,
+    "tmdbType": "movie",
+    "title": "The Super Mario Galaxy Movie",
+    "kind": "movie",
+    "releaseDate": "2026-04-01",
+    "imdbId": "tt28650488",
+    "posterPath": "/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+    "localized": {
+      "en": {
+        "title": "The Super Mario Galaxy Movie",
+        "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade."
+      },
+      "es": {
+        "title": "Super Mario Galaxy: La película",
+        "overview": "Mario y Luigi se enfrentan una nueva amenaza: Bowser Jr., quién está decidido liberar a su padre del cautiverio y restaurar el legado familiar. Junto con nuevos y viejos compañeros, los hermanos viajan a través de las estrellas para detener la cruzada del joven heredero."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "mortal-kombat-1995",
+    "tmdbId": 9312,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat",
+    "kind": "movie",
+    "releaseDate": "1995-08-18",
+    "imdbId": "tt0113855",
+    "posterPath": "/9YhpvhhvLrtL1wlwEfpVL16GI9d.jpg",
+    "overview": "For nine generations an evil sorcerer has been victorious in hand-to-hand battle against his mortal enemies. If he wins a tenth Mortal Kombat tournament, desolation and evil will reign over the multiverse forever. To save Earth, three warriors must overcome seemingly insurmountable odds, their own inner demons, and superhuman foes.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat",
+        "overview": "For nine generations an evil sorcerer has been victorious in hand-to-hand battle against his mortal enemies. If he wins a tenth Mortal Kombat tournament, desolation and evil will reign over the multiverse forever. To save Earth, three warriors must overcome seemingly insurmountable odds, their own inner demons, and superhuman foes."
+      },
+      "es": {
+        "title": "Mortal Kombat",
+        "overview": "Durante nueve generaciones, Shang Tsung, un brujo malvado, ha llevado a un poderoso príncipe a la victoria contra sus mortales enemigos. Si vence el décimo torneo Mortal Kombat, la desolación y el mal que han florecido en el mundo exterior reinarán la Tierra por siempre."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "mortal-kombat-annihilation-1997",
+    "tmdbId": 9823,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat: Annihilation",
+    "kind": "movie",
+    "releaseDate": "1997-11-11",
+    "imdbId": "tt0119707",
+    "posterPath": "/ttryglcY2osWZE3sRYBf3ewTZsW.jpg",
+    "overview": "A group of heroic warriors has only six days to save the planet in \"Mortal Kombat Annihilation.\" To succeed they must survive the most spectacular series of challenges any human, or god, has ever encountered as they battle an evil warlord bent on taking control of Earth.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat: Annihilation",
+        "overview": "A group of heroic warriors has only six days to save the planet in \"Mortal Kombat Annihilation.\" To succeed they must survive the most spectacular series of challenges any human, or god, has ever encountered as they battle an evil warlord bent on taking control of Earth."
+      },
+      "es": {
+        "title": "Mortal Kombat: Aniquilación",
+        "overview": "Estamos en el universo del Emperador Shao-Khan, donde las reglas no existen y la vida es una continua batalla. Los esbirros del maquiavélico Khan han sido adiestrados para matar y están dispuestos a cumplir las órdenes de su amo, conseguir el control de la Tierra para iniciar su aniquilación total. Un héroe, llamado Liu Kang, les hará frente."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "mortal-kombat-2021",
+    "tmdbId": 460465,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat",
+    "kind": "movie",
+    "releaseDate": "2021-04-07",
+    "imdbId": "tt0293429",
+    "posterPath": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg",
+    "overview": "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of Outworld in a high stakes battle for the universe.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat",
+        "overview": "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of Outworld in a high stakes battle for the universe."
+      },
+      "es": {
+        "title": "Mortal Kombat",
+        "overview": "Un boxeador fracasado descubre un secreto familiar que le lleva a un torneo místico llamado Mortal Kombat donde conoce a un grupo de guerreros que luchan a muerte para salvar los reinos del malvado hechicero Shang Tsung."
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "mortal-kombat-ii-2026",
+    "tmdbId": 931285,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat II",
+    "kind": "movie",
+    "releaseDate": "2026-05-06",
+    "imdbId": "tt17490712",
+    "posterPath": "/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat II",
+        "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders."
+      },
+      "es": {
+        "title": "Mortal Kombat II",
+        "overview": "Los campeones favoritos de los fans —ahora acompañados por el mismísimo Johnny Cage— se enfrentan entre sí en la batalla definitiva, sangrienta y sin reglas, para derrotar el oscuro dominio de Shao Kahn, que amenaza con destruir el Reino de la Tierra y a sus defensores."
+      }
+    },
+    "runtimeMin": 116
   }
 ]

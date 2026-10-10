@@ -1,0 +1,2 @@
+- Class 1-A visits Nabu Island, which seems like a vacation.
+- A villain with an unsettling Quirk attacks them.

@@ -1,0 +1,2 @@
+- Cole Young, a washed-up MMA fighter, is hunted by Sub-Zero.
+- He trains with Earth's champions to face Outworld's enemies.

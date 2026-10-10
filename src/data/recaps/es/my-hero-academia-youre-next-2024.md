@@ -1,0 +1,2 @@
+- Una fortaleza gigante aparece de golpe y engulle ciudades.
+- Un hombre parecido a All Might se planta frente a Izuku y sus amigos.

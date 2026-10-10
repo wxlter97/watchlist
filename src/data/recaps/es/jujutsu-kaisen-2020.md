@@ -1,0 +1,2 @@
+- Yuji se come el dedo de Ryomen Sukuna para salvar a un compañero y comparte su cuerpo con él.
+- Se une a la Escuela Jujutsu y enfrenta maldiciones y hechiceros.

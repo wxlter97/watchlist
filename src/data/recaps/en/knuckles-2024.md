@@ -1,0 +1,2 @@
+- Knuckles agrees to train Wade as his protégé.
+- He teaches him the ways of the Echidna warrior.

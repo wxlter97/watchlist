@@ -1,0 +1,2 @@
+- The champions, now joined by Johnny Cage, fight in a no-holds-barred battle.
+- The goal is to defeat Shao Kahn's dark rule.

@@ -1,0 +1,139 @@
+{
+  "id": "mortal-kombat",
+  "name": {
+    "es": "Mortal Kombat",
+    "en": "Mortal Kombat"
+  },
+  "description": {
+    "es": "El torneo de las artes marciales entre reinos: las películas de los años noventa y el reinicio.",
+    "en": "The martial arts tournament between realms: the 1990s films and the reboot."
+  },
+  "accentColor": "#9A3412",
+  "continuities": [
+    {
+      "id": "nineties",
+      "name": {
+        "es": "Películas de los noventa",
+        "en": "1990s films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La película de 1995 y su secuela de 1997.",
+        "en": "The 1995 film and its 1997 sequel."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio (2021)",
+        "en": "Reboot (2021)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas actuales.",
+        "en": "The current films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "mortal-kombat-1995",
+      "continuityId": "nineties",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "liu-kang"
+      ]
+    },
+    {
+      "titleId": "mortal-kombat-annihilation-1997",
+      "continuityId": "nineties",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "liu-kang"
+      ]
+    },
+    {
+      "titleId": "mortal-kombat-2021",
+      "continuityId": "reboot",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "scorpion",
+        "sub-zero",
+        "liu-kang"
+      ]
+    },
+    {
+      "titleId": "mortal-kombat-ii-2026",
+      "continuityId": "reboot",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "liu-kang",
+        "johnny-cage"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "liu-kang",
+        "name": {
+          "es": "Liu Kang",
+          "en": "Liu Kang"
+        }
+      },
+      {
+        "id": "scorpion",
+        "name": {
+          "es": "Scorpion",
+          "en": "Scorpion"
+        }
+      },
+      {
+        "id": "sub-zero",
+        "name": {
+          "es": "Sub-Zero",
+          "en": "Sub-Zero"
+        }
+      },
+      {
+        "id": "johnny-cage",
+        "name": {
+          "es": "Johnny Cage",
+          "en": "Johnny Cage"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,3 @@
+- **Temporadas 1-2:** Eren, Mikasa y Armin se unen a la Legión de Reconocimiento contra los titanes.
+- **Temporada 3:** la historia de los muros se vuelve más política.
+- **Temporada 4:** cambia de perspectiva y conduce al final de la serie.

@@ -1,0 +1,2 @@
+- Sonic quiere demostrar que es un héroe y Robotnik regresa con Knuckles.
+- Sonic se une a Tails para detenerlos.

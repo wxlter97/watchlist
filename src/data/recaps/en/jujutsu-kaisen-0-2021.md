@@ -1,0 +1,2 @@
+- Yuta Okkotsu, a nervous student, suffers because his childhood friend Rika turned into a curse.
+- Satoru Gojo takes him to Jujutsu High.

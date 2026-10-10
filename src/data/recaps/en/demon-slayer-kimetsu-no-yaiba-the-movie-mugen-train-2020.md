@@ -1,0 +1,2 @@
+- Tanjiro, Inosuke and Zenitsu board the Infinity Train with the Fire Hashira, Kyojuro Rengoku.
+- They must defeat a demon tormenting the train.

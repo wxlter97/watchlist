@@ -1,0 +1,2 @@
+- Un hechicero ha ganado nueve torneos y, si gana el décimo, el mal reinará para siempre.
+- Tres guerreros deben salvar la Tierra.

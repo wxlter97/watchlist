@@ -1,0 +1,2 @@
+- Los campeones, ahora junto a Johnny Cage, se enfrentan en una batalla sin reglas.
+- El objetivo es derrotar el gobierno oscuro de Shao Kahn.

@@ -1,0 +1,2 @@
+- The Demon Slayer Corps are drawn into the Infinity Castle.
+- Tanjiro, Nezuko and the Hashira face Upper Rank demons as the final battle against Muzan begins.
