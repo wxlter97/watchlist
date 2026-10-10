@@ -1,0 +1,207 @@
+{
+  "id": "ghostbusters",
+  "name": {
+    "es": "Cazafantasmas",
+    "en": "Ghostbusters"
+  },
+  "description": {
+    "es": "Las películas de los Cazafantasmas, el reinicio de 2016 y la serie animada.",
+    "en": "The Ghostbusters films, the 2016 reboot and the animated series."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Línea original",
+        "en": "Original timeline"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos primeras películas y las continuaciones Afterlife y Frozen Empire.",
+        "en": "The first two films and the sequels Afterlife and Frozen Empire."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio de 2016",
+        "en": "2016 reboot"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Otro reparto y otra historia, sin relación con el resto.",
+        "en": "A different cast and story, unrelated to the rest."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "animated",
+      "name": {
+        "es": "Serie animada",
+        "en": "Animated series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "The Real Ghostbusters (1986), una versión para la televisión.",
+        "en": "The Real Ghostbusters (1986), a television version."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "ghostbusters-1984",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "peter-venkman",
+        "egon-spengler",
+        "ray-stantz",
+        "winston-zeddemore"
+      ]
+    },
+    {
+      "titleId": "ghostbusters-ii-1989",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "peter-venkman",
+        "egon-spengler",
+        "ray-stantz",
+        "winston-zeddemore"
+      ]
+    },
+    {
+      "titleId": "ghostbusters-afterlife-2021",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Décadas después",
+        "en": "Decades later"
+      },
+      "characters": [
+        "egon-spengler",
+        "phoebe-spengler"
+      ]
+    },
+    {
+      "titleId": "ghostbusters-frozen-empire-2024",
+      "continuityId": "original",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "phoebe-spengler",
+        "peter-venkman"
+      ]
+    },
+    {
+      "titleId": "ghostbusters-2016",
+      "continuityId": "reboot",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "the-real-ghostbusters-1986",
+      "continuityId": "animated",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "peter-venkman",
+        "egon-spengler",
+        "ray-stantz",
+        "winston-zeddemore"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-ghostbusters-frozen-empire-2024",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Frozen Empire",
+        "en": "Get ready for Frozen Empire"
+      },
+      "description": {
+        "es": "La película continúa Afterlife y esta continúa las dos primeras.",
+        "en": "The film continues Afterlife, which continues the first two."
+      },
+      "titleIds": [
+        "ghostbusters-1984",
+        "ghostbusters-ii-1989",
+        "ghostbusters-afterlife-2021"
+      ],
+      "targetTitleId": "ghostbusters-frozen-empire-2024"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "peter-venkman",
+        "name": {
+          "es": "Peter Venkman",
+          "en": "Peter Venkman"
+        }
+      },
+      {
+        "id": "egon-spengler",
+        "name": {
+          "es": "Egon Spengler",
+          "en": "Egon Spengler"
+        }
+      },
+      {
+        "id": "ray-stantz",
+        "name": {
+          "es": "Ray Stantz",
+          "en": "Ray Stantz"
+        }
+      },
+      {
+        "id": "winston-zeddemore",
+        "name": {
+          "es": "Winston Zeddemore",
+          "en": "Winston Zeddemore"
+        }
+      },
+      {
+        "id": "phoebe-spengler",
+        "name": {
+          "es": "Phoebe Spengler",
+          "en": "Phoebe Spengler"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

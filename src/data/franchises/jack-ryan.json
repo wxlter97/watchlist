@@ -1,0 +1,172 @@
+{
+  "id": "jack-ryan",
+  "name": {
+    "es": "Jack Ryan",
+    "en": "Jack Ryan"
+  },
+  "description": {
+    "es": "El analista de la CIA de Tom Clancy, interpretado por distintos actores en distintas líneas.",
+    "en": "Tom Clancy's CIA analyst, played by different actors across different lines."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "classic",
+      "name": {
+        "es": "Baldwin y Ford (1990-1994)",
+        "en": "Baldwin and Ford (1990–1994)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La trilogía clásica: La caza del Octubre Rojo, Juegos de patriotas y Peligro inminente.",
+        "en": "The classic trilogy: The Hunt for Red October, Patriot Games and Clear and Present Danger."
+      }
+    },
+    {
+      "id": "krasinski",
+      "name": {
+        "es": "Krasinski (2018-2026)",
+        "en": "Krasinski (2018–2026)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie de Prime Video y la película Ghost War.",
+        "en": "The Prime Video series and the Ghost War film."
+      }
+    },
+    {
+      "id": "affleck",
+      "name": {
+        "es": "Affleck (2002)",
+        "en": "Affleck (2002)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Un Jack Ryan más joven, en otra línea.",
+        "en": "A younger Jack Ryan, in another line."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "pine",
+      "name": {
+        "es": "Pine (2014)",
+        "en": "Pine (2014)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio con Chris Pine, en otra línea.",
+        "en": "A reboot with Chris Pine, in another line."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-hunt-for-red-october-1990",
+      "continuityId": "classic",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-ryan"
+      ]
+    },
+    {
+      "titleId": "patriot-games-1992",
+      "continuityId": "classic",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "jack-ryan"
+      ]
+    },
+    {
+      "titleId": "clear-and-present-danger-1994",
+      "continuityId": "classic",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "jack-ryan"
+      ]
+    },
+    {
+      "titleId": "tom-clancys-jack-ryan-2018",
+      "continuityId": "krasinski",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-ryan"
+      ]
+    },
+    {
+      "titleId": "tom-clancys-jack-ryan-ghost-war-2026",
+      "continuityId": "krasinski",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Después de la serie",
+        "en": "After the series"
+      },
+      "characters": [
+        "jack-ryan"
+      ]
+    },
+    {
+      "titleId": "the-sum-of-all-fears-2002",
+      "continuityId": "affleck",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-ryan"
+      ]
+    },
+    {
+      "titleId": "jack-ryan-shadow-recruit-2014",
+      "continuityId": "pine",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "jack-ryan"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "jack-ryan",
+        "name": {
+          "es": "Jack Ryan",
+          "en": "Jack Ryan"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

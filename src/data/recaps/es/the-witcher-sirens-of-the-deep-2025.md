@@ -1,0 +1,2 @@
+- Marineros humanos son atacados por criaturas misteriosas del mar.
+- Geralt debe detener una guerra entre el mundo humano y el submarino.

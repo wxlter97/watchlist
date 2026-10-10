@@ -1,0 +1,183 @@
+{
+  "id": "the-witcher",
+  "name": {
+    "es": "The Witcher",
+    "en": "The Witcher"
+  },
+  "description": {
+    "es": "Geralt de Rivia en la serie de Netflix, sus precuelas y las películas animadas.",
+    "en": "Geralt of Rivia in the Netflix series, its prequels and the animated films."
+  },
+  "accentColor": "#0F766E",
+  "continuities": [
+    {
+      "id": "netflix",
+      "name": {
+        "es": "Universo de Netflix",
+        "en": "Netflix universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie y sus derivados, basados en los libros de Andrzej Sapkowski.",
+        "en": "The series and its spin-offs, based on Andrzej Sapkowski's books."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-witcher-blood-origin-2022",
+      "continuityId": "netflix",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Unos mil doscientos años antes",
+        "en": "About twelve hundred years earlier"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-witcher-nightmare-of-the-wolf-2021",
+      "continuityId": "netflix",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Décadas antes de Geralt",
+        "en": "Decades before Geralt"
+      },
+      "characters": [
+        "vesemir"
+      ]
+    },
+    {
+      "titleId": "the-witcher-2019",
+      "continuityId": "netflix",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 30,
+      "characters": [
+        "geralt",
+        "yennefer",
+        "ciri",
+        "jaskier"
+      ]
+    },
+    {
+      "titleId": "the-witcher-2019",
+      "continuityId": "netflix",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 40,
+      "characters": [
+        "geralt",
+        "yennefer",
+        "ciri",
+        "jaskier"
+      ]
+    },
+    {
+      "titleId": "the-witcher-2019",
+      "continuityId": "netflix",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 50,
+      "characters": [
+        "geralt",
+        "yennefer",
+        "ciri",
+        "jaskier"
+      ]
+    },
+    {
+      "titleId": "the-witcher-2019",
+      "continuityId": "netflix",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 60,
+      "characters": [
+        "geralt",
+        "yennefer",
+        "ciri"
+      ]
+    },
+    {
+      "titleId": "the-witcher-sirens-of-the-deep-2025",
+      "continuityId": "netflix",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Película animada con Geralt y Jaskier",
+        "en": "Animated film with Geralt and Jaskier"
+      },
+      "characters": [
+        "geralt",
+        "jaskier"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "geralt",
+        "name": {
+          "es": "Geralt de Rivia",
+          "en": "Geralt of Rivia"
+        }
+      },
+      {
+        "id": "yennefer",
+        "name": {
+          "es": "Yennefer",
+          "en": "Yennefer"
+        }
+      },
+      {
+        "id": "ciri",
+        "name": {
+          "es": "Ciri",
+          "en": "Ciri"
+        }
+      },
+      {
+        "id": "jaskier",
+        "name": {
+          "es": "Jaskier",
+          "en": "Jaskier"
+        }
+      },
+      {
+        "id": "vesemir",
+        "name": {
+          "es": "Vesemir",
+          "en": "Vesemir"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

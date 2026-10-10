@@ -1,0 +1,1 @@
+- Un submarino soviético se dirige a Estados Unidos y Jack Ryan debe decidir si su capitán busca desertar o atacar.

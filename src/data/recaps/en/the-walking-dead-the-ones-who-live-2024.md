@@ -1,0 +1,2 @@
+- Rick and Michonne are caught in another world, built on a war against the dead and the living.
+- They try to find each other without knowing who they are now.

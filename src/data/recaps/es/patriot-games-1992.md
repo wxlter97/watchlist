@@ -1,0 +1,2 @@
+- Ryan interviene en un atentado y se gana un enemigo.
+- El terrorista busca vengarse de él y de su familia.

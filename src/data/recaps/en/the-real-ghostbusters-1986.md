@@ -1,0 +1,2 @@
+- The Ghostbusters catch ghosts in standalone episodes.
+- It features Slimer as a regular character.

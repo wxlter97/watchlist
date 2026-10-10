@@ -1,0 +1,3 @@
+- Venkman, Stantz and Spengler start the Ghostbusters after losing their jobs.
+- A portal above a building releases Gozer.
+- The team faces it, with the Stay Puft Marshmallow Man as a memorable moment.

@@ -1,0 +1,2 @@
+- Un grupo de adolescentes protegidos del mundo exterior recibe un mensaje y sale a un viaje a través del país.
+- Buscan al hombre que podría salvar al mundo.

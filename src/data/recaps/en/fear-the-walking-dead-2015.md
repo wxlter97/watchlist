@@ -1,0 +1,2 @@
+- The story follows a Los Angeles family during the apocalypse's start.
+- Later it shares characters and plots with The Walking Dead.

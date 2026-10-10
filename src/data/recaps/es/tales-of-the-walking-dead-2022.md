@@ -1,0 +1,1 @@
+- Cada episodio cuenta una historia independiente en el mundo de The Walking Dead.

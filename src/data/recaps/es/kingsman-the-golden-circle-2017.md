@@ -1,0 +1,2 @@
+- Kingsman es atacada y los supervivientes buscan ayuda en Statesman.
+- Enfrentan a Poppy, una narcotraficante.

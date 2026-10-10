@@ -1,0 +1,3 @@
+- Rick, a police officer, comes out of a coma and joins a group of survivors.
+- Over the seasons they face human villains such as the Governor and Negan.
+- The final seasons close the series' world with new communities.

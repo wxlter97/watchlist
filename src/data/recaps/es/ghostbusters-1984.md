@@ -1,0 +1,3 @@
+- Venkman, Stantz y Spengler abren los Cazafantasmas tras perder sus empleos.
+- Un portal sobre un edificio libera a Gozer.
+- El equipo lo enfrenta, con el Hombre de Malvavisco como momento memorable.

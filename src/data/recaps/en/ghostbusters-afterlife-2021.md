@@ -1,0 +1,2 @@
+- Single mom Callie and her two kids, Trevor and Phoebe, arrive in an Oklahoma town.
+- They discover their link to the original Ghostbusters and the legacy of their grandfather.

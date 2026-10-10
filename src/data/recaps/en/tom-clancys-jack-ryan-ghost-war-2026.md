@@ -1,0 +1,2 @@
+- Ryan is reluctantly pulled back into espionage by a covert mission that unravels a conspiracy.
+- He teams up with Mike November, James Greer and Emma Marlowe against a rogue unit.

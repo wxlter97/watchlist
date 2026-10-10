@@ -1,0 +1,2 @@
+- Una bomba nuclear amenaza con provocar una guerra entre superpotencias.
+- Ryan, aún analista, intenta evitar el desastre.

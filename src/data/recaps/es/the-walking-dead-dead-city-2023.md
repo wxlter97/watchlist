@@ -1,0 +1,2 @@
+- Maggie y Negan viajan a una Manhattan postapocalíptica, aislada del continente.
+- La ciudad está llena de muertos y de habitantes que la volvieron un lugar de anarquía y peligro.

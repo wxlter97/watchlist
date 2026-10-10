@@ -1,0 +1,1 @@
+- A Soviet submarine heads for the United States and Jack Ryan must decide whether its captain means to defect or attack.

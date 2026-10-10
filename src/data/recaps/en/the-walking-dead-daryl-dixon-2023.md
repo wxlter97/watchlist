@@ -1,0 +1,2 @@
+- Daryl washes ashore in France without remembering how or why.
+- He protects a boy, Laurent, seen as a messiah, while facing new walker variants.

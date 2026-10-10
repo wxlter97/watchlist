@@ -1,0 +1,2 @@
+- La historia sigue a una familia de Los Ángeles durante el inicio del apocalipsis.
+- Más adelante comparte personajes y tramas con The Walking Dead.
