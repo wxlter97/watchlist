@@ -1,0 +1,2 @@
+- Four turtles mutated by an alien ooze live in the New York sewers under Splinter's guidance.
+- They fight Shredder and other enemies.

@@ -1,0 +1,2 @@
+- The fleet tries to survive while the Cylons infiltrate humanity.
+- The later seasons reveal the truth about the Cylons and Earth's fate.

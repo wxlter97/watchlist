@@ -1,0 +1,264 @@
+{
+  "id": "studio-ghibli",
+  "name": {
+    "es": "Studio Ghibli",
+    "en": "Studio Ghibli"
+  },
+  "description": {
+    "es": "Las películas del estudio de Hayao Miyazaki e Isao Takahata: historias independientes, sin orden obligatorio.",
+    "en": "The films of Hayao Miyazaki and Isao Takahata's studio: standalone stories, with no required order."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Cada película es independiente; se pueden ver en cualquier orden.",
+        "en": "Each film is standalone; they can be watched in any order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "nausicaa-of-the-valley-of-the-wind-1984",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "castle-in-the-sky-1986",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "grave-of-the-fireflies-1988",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "my-neighbor-totoro-1988",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": []
+    },
+    {
+      "titleId": "kikis-delivery-service-1989",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": []
+    },
+    {
+      "titleId": "only-yesterday-1991",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": []
+    },
+    {
+      "titleId": "porco-rosso-1992",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "characters": []
+    },
+    {
+      "titleId": "pom-poko-1994",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": []
+    },
+    {
+      "titleId": "whisper-of-the-heart-1995",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 90,
+      "characters": []
+    },
+    {
+      "titleId": "princess-mononoke-1997",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 100,
+      "characters": []
+    },
+    {
+      "titleId": "my-neighbors-the-yamadas-1999",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "characters": []
+    },
+    {
+      "titleId": "spirited-away-2001",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 120,
+      "characters": []
+    },
+    {
+      "titleId": "the-cat-returns-2002",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 130,
+      "characters": []
+    },
+    {
+      "titleId": "howls-moving-castle-2004",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 140,
+      "characters": []
+    },
+    {
+      "titleId": "tales-from-earthsea-2006",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 150,
+      "characters": []
+    },
+    {
+      "titleId": "ponyo-2008",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 160,
+      "characters": []
+    },
+    {
+      "titleId": "arrietty-2010",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 170,
+      "characters": []
+    },
+    {
+      "titleId": "from-up-on-poppy-hill-2011",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 180,
+      "characters": []
+    },
+    {
+      "titleId": "the-wind-rises-2013",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 190,
+      "characters": []
+    },
+    {
+      "titleId": "the-tale-of-the-princess-kaguya-2013",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 200,
+      "characters": []
+    },
+    {
+      "titleId": "when-marnie-was-there-2014",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 210,
+      "characters": []
+    },
+    {
+      "titleId": "earwig-and-the-witch-2021",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 220,
+      "characters": []
+    },
+    {
+      "titleId": "the-boy-and-the-heron-2023",
+      "continuityId": "films",
+      "importance": "recommended",
+      "chronoOrder": 230,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "miyazaki",
+      "type": "curated",
+      "name": {
+        "es": "Las de Hayao Miyazaki",
+        "en": "Hayao Miyazaki's films"
+      },
+      "description": {
+        "es": "Las películas dirigidas por Miyazaki.",
+        "en": "The films directed by Miyazaki."
+      },
+      "titleIds": [
+        "nausicaa-of-the-valley-of-the-wind-1984",
+        "castle-in-the-sky-1986",
+        "my-neighbor-totoro-1988",
+        "kikis-delivery-service-1989",
+        "porco-rosso-1992",
+        "princess-mononoke-1997",
+        "spirited-away-2001",
+        "howls-moving-castle-2004",
+        "ponyo-2008",
+        "the-wind-rises-2013",
+        "the-boy-and-the-heron-2023"
+      ]
+    },
+    {
+      "id": "takahata",
+      "type": "curated",
+      "name": {
+        "es": "Las de Isao Takahata",
+        "en": "Isao Takahata's films"
+      },
+      "description": {
+        "es": "Las películas dirigidas por Takahata.",
+        "en": "The films directed by Takahata."
+      },
+      "titleIds": [
+        "grave-of-the-fireflies-1988",
+        "only-yesterday-1991",
+        "pom-poko-1994",
+        "my-neighbors-the-yamadas-1999",
+        "the-tale-of-the-princess-kaguya-2013"
+      ]
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

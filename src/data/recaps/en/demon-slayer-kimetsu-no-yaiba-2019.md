@@ -1,0 +1,3 @@
+- **Season 1:** Tanjiro joins the Demon Slayer Corps to cure his sister Nezuko.
+- **Season 2:** adapts the train film with Kyojuro Rengoku.
+- **Seasons 3-5:** continue with the Entertainment District, Swordsmith Village and Hashira Training arcs.

@@ -1,0 +1,2 @@
+- SG-1 busca un arma antigua para vencer a los Ori y viaja a su galaxia.
+- Los Ori preparan atacar la Tierra.

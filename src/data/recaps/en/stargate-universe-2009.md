@@ -1,0 +1,2 @@
+- An evacuated team ends up billions of light years from the Milky Way aboard the ship Destiny.
+- It tries to get back to Earth.

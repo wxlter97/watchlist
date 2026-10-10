@@ -1,0 +1,3 @@
+- Light Yagami, un estudiante, encuentra un cuaderno que mata a quien escribe en él.
+- Empieza a eliminar criminales como «Kira».
+- Un detective, L, lo persigue en un duelo mental.

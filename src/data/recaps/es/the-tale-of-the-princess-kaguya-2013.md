@@ -1,0 +1,2 @@
+- Un leñador encuentra a una niña diminuta dentro de un bambú.
+- La cría como a una hija y ella crece hasta ser una princesa.

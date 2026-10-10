@@ -1,0 +1,2 @@
+- Two rival families live in the peaceful Twelve Colonies.
+- The creation of an artificial intelligence foreshadows the war with the Cylons.

@@ -1,0 +1,2 @@
+- Los cylon, creados por los humanos, atacan las Doce Colonias.
+- Los supervivientes huyen con la Galactica en busca de la Tierra.

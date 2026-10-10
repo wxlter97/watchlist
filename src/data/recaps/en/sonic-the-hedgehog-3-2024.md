@@ -1,0 +1,2 @@
+- Sonic, Knuckles and Tails reunite against a new adversary, Shadow.
+- Outmatched, they must seek an unlikely alliance.

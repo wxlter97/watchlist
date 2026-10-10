@@ -1,0 +1,2 @@
+- The Elric brothers search for the Philosopher's Stone after a failed attempt to revive their mother.
+- The story takes its own path, different from the manga's.

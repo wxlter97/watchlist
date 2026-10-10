@@ -1,0 +1,186 @@
+{
+  "id": "demon-slayer",
+  "name": {
+    "es": "Guardianes de la noche",
+    "en": "Demon Slayer"
+  },
+  "description": {
+    "es": "Tanjiro y su cruzada contra los demonios: la serie por arcos, la película del tren y el Castillo Infinito.",
+    "en": "Tanjiro and his crusade against demons: the series by arcs, the train film and Infinity Castle."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Historia principal",
+        "en": "Main story"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie y la película del Castillo Infinito.",
+        "en": "The series and the Infinity Castle film."
+      }
+    },
+    {
+      "id": "movie-version",
+      "name": {
+        "es": "Mugen Train en película",
+        "en": "Mugen Train as a film"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La misma historia de la temporada 2, en versión de película.",
+        "en": "The same story as season 2, as a film."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-2019",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 10,
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira"
+      ]
+    },
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-2019",
+      "continuityId": "main",
+      "importance": "recommended",
+      "season": 2,
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Es la película del tren, en formato serie",
+        "en": "It is the train film, as a series"
+      },
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ]
+    },
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-2019",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 30,
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ]
+    },
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-2019",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 40,
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ]
+    },
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-2019",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 5,
+      "chronoOrder": 50,
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ]
+    },
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-infinity-castle-2025",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ]
+    },
+    {
+      "titleId": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train-2020",
+      "continuityId": "movie-version",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Equivale a la temporada 2 de la serie",
+        "en": "Equivalent to the series' season 2"
+      },
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "tanjiro-kamado",
+        "name": {
+          "es": "Tanjiro Kamado",
+          "en": "Tanjiro Kamado"
+        }
+      },
+      {
+        "id": "nezuko-kamado",
+        "name": {
+          "es": "Nezuko Kamado",
+          "en": "Nezuko Kamado"
+        }
+      },
+      {
+        "id": "zenitsu-agatsuma",
+        "name": {
+          "es": "Zenitsu Agatsuma",
+          "en": "Zenitsu Agatsuma"
+        }
+      },
+      {
+        "id": "inosuke-hashibira",
+        "name": {
+          "es": "Inosuke Hashibira",
+          "en": "Inosuke Hashibira"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

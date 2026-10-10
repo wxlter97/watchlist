@@ -1,0 +1,2 @@
+- Los hermanos tortuga, aislados del mundo humano, quieren ser aceptados como adolescentes normales.
+- Con April O'Neil enfrentan a un sindicato criminal.

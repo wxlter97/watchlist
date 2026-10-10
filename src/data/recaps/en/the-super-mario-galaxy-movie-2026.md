@@ -1,0 +1,2 @@
+- Bowser Jr. wants to free his father and restore the family legacy.
+- Mario and Luigi travel across the stars to stop him.

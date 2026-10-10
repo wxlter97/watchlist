@@ -1,0 +1,2 @@
+- Yuta Okkotsu, un estudiante nervioso, sufre porque su amiga de la infancia Rika se convirtió en una maldición.
+- Satoru Gojo lo lleva a la Escuela Jujutsu.

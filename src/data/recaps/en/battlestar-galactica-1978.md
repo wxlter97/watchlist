@@ -1,0 +1,2 @@
+- The Cylons wipe out the Twelve Colonies and Commander Adama leads a fleet of survivors.
+- They search for a mythical planet, Earth.

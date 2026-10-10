@@ -1,0 +1,2 @@
+- Una bruja convierte a Sophie en anciana.
+- Ella llega al castillo del mago Howl, mientras una guerra amenaza el reino.

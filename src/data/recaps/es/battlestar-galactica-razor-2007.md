@@ -1,0 +1,2 @@
+- Cuenta la historia de la Pegasus, desde poco antes de la invasión cylon hasta que Lee Adama es comandante.
+- Se narra desde la mirada de una oficial de la nave.

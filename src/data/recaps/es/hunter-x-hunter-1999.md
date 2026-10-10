@@ -1,0 +1,1 @@
+- Gon Freecss descubre que su padre Ging está vivo y quiere seguirlo como Cazador.

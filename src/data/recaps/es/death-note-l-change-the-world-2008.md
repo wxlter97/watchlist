@@ -1,0 +1,1 @@
+- L, con poco tiempo de vida, enfrenta un último caso.

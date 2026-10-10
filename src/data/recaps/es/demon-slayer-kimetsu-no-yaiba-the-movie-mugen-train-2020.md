@@ -1,0 +1,2 @@
+- Tanjiro, Inosuke y Zenitsu suben al Tren Infinito con el Pilar de Fuego, Kyojuro Rengoku.
+- Deben derrotar a un demonio que atormenta el tren.

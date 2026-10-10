@@ -1,0 +1,2 @@
+- All Might y Deku viajan a I-Island, una ciudad artificial.
+- Un ataque súbito convierte la isla en una trampa.

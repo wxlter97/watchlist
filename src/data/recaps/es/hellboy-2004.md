@@ -1,0 +1,2 @@
+- Hellboy, un demonio criado por el profesor Broom, trabaja para la agencia B.P.R.D.
+- Con Liz Sherman y Abe Sapien enfrenta al resurgido Rasputin y a sus monstruos.

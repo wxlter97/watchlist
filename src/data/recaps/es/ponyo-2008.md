@@ -1,0 +1,2 @@
+- Ponyo, una pez dorada, quiere ser niña tras conocer a Sosuke.
+- Su deseo altera el equilibrio del mar.

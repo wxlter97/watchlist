@@ -1,0 +1,2 @@
+- Ten years after the confrontation between Kira and L, shinigami send new notebooks to Earth.
+- A special task force tries to stop the chaos.

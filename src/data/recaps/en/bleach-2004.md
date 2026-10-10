@@ -1,0 +1,2 @@
+- **Season 1:** Ichigo, who can see ghosts, inherits the Soul Reaper Rukia's powers and fights Hollows.
+- **Season 2:** the Thousand-Year Blood War continues the story more than a decade later.

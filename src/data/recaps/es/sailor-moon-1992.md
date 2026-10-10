@@ -1,0 +1,2 @@
+- Usagi Tsukino, una joven torpe, descubre con la gata Luna que es Sailor Moon.
+- Reúne a otras guerreras para enfrentar a enemigos cada temporada.

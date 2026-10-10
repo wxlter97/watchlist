@@ -1,0 +1,2 @@
+- Haru salva a un gato y es invitada al Reino de los Gatos.
+- Busca ayuda para evitar que se case con el príncipe.

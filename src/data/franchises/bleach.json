@@ -1,0 +1,159 @@
+{
+  "id": "bleach",
+  "name": {
+    "es": "Bleach",
+    "en": "Bleach"
+  },
+  "description": {
+    "es": "Ichigo Kurosaki y los Segadores de Almas: el anime, su regreso con la Guerra Sangrienta de los Mil Años y las películas.",
+    "en": "Ichigo Kurosaki and the Soul Reapers: the anime, its return with the Thousand-Year Blood War and the films."
+  },
+  "accentColor": "#C2410C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Anime",
+        "en": "Anime"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie original y la Guerra Sangrienta de los Mil Años.",
+        "en": "The original series and the Thousand-Year Blood War."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas y acción real",
+        "en": "Films and live action"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Historias independientes que no cambian la trama principal.",
+        "en": "Standalone stories that do not change the main plot."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "bleach-2004",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 10,
+      "characters": [
+        "ichigo-kurosaki",
+        "rukia-kuchiki"
+      ]
+    },
+    {
+      "titleId": "bleach-2004",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Regresa más de diez años después",
+        "en": "Returns more than ten years later"
+      },
+      "characters": [
+        "ichigo-kurosaki",
+        "rukia-kuchiki"
+      ]
+    },
+    {
+      "titleId": "bleach-the-movie-memories-of-nobody-2006",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "ichigo-kurosaki"
+      ]
+    },
+    {
+      "titleId": "bleach-the-movie-the-diamonddust-rebellion-2007",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "ichigo-kurosaki"
+      ]
+    },
+    {
+      "titleId": "bleach-the-movie-fade-to-black-2008",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": [
+        "ichigo-kurosaki",
+        "rukia-kuchiki"
+      ]
+    },
+    {
+      "titleId": "bleach-the-movie-hell-verse-2010",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": [
+        "ichigo-kurosaki"
+      ]
+    },
+    {
+      "titleId": "bleach-2018",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "ichigo-kurosaki"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "ichigo-kurosaki",
+        "name": {
+          "es": "Ichigo Kurosaki",
+          "en": "Ichigo Kurosaki"
+        }
+      },
+      {
+        "id": "rukia-kuchiki",
+        "name": {
+          "es": "Rukia Kuchiki",
+          "en": "Rukia Kuchiki"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

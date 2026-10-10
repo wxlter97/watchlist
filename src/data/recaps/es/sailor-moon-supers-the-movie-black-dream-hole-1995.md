@@ -1,0 +1,1 @@
+- Badiyanu captura a los niños de la Tierra para absorber su energía de sueños.

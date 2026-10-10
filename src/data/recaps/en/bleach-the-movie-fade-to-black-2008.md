@@ -1,0 +1,1 @@
+- A disturbance sends Ichigo and Kon to Soul Society, where Rukia is missing and no one remembers him.

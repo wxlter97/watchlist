@@ -1,0 +1,2 @@
+- Edward y Alphonse Elric intentan resucitar a su madre con alquimia y pierden partes de su cuerpo.
+- Buscan la Piedra Filosofal para recuperarse y descubren una conspiración.

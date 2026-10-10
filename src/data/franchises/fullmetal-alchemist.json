@@ -1,0 +1,120 @@
+{
+  "id": "fullmetal-alchemist",
+  "name": {
+    "es": "Fullmetal Alchemist",
+    "en": "Fullmetal Alchemist"
+  },
+  "description": {
+    "es": "Edward y Alphonse Elric: dos animes con la misma base y finales distintos.",
+    "en": "Edward and Alphonse Elric: two anime with the same base and different endings."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "brotherhood",
+      "name": {
+        "es": "Brotherhood (2009)",
+        "en": "Brotherhood (2009)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La adaptación completa y fiel del manga.",
+        "en": "The complete, faithful manga adaptation."
+      }
+    },
+    {
+      "id": "anime-2003",
+      "name": {
+        "es": "Anime de 2003",
+        "en": "2003 anime"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Se aparta del manga a mitad de camino y tiene final propio; la película lo continúa.",
+        "en": "It departs from the manga midway and has its own ending; the film continues it."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "fullmetal-alchemist-brotherhood-2009",
+      "continuityId": "brotherhood",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "edward-elric",
+        "alphonse-elric"
+      ]
+    },
+    {
+      "titleId": "fullmetal-alchemist-2003",
+      "continuityId": "anime-2003",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "edward-elric",
+        "alphonse-elric"
+      ]
+    },
+    {
+      "titleId": "fullmetal-alchemist-the-movie-conqueror-of-shamballa-2005",
+      "continuityId": "anime-2003",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Continúa la serie de 2003",
+        "en": "Continues the 2003 series"
+      },
+      "characters": [
+        "edward-elric",
+        "alphonse-elric"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "edward-elric",
+        "name": {
+          "es": "Edward Elric",
+          "en": "Edward Elric"
+        }
+      },
+      {
+        "id": "alphonse-elric",
+        "name": {
+          "es": "Alphonse Elric",
+          "en": "Alphonse Elric"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

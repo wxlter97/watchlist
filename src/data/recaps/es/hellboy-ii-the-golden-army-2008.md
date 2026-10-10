@@ -1,0 +1,2 @@
+- El príncipe Nuada quiere recuperar el Ejército Dorado para enfrentar a los humanos.
+- Hellboy y su equipo deben detenerlo.

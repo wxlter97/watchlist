@@ -1,0 +1,2 @@
+- Sonic, Knuckles y Tails se reúnen contra un nuevo enemigo, Shadow.
+- Superados en poder, deben buscar una alianza inesperada.

@@ -1,0 +1,2 @@
+- Los hermanos fontaneros son transportados por una tubería a un mundo mágico.
+- Mario se separa de Luigi y emprende una búsqueda para encontrarlo.

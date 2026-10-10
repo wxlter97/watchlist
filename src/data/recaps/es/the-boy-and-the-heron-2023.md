@@ -1,0 +1,2 @@
+- En plena Segunda Guerra Mundial, el joven Mahito se muda al campo tras la muerte de su madre.
+- Una garza lo lleva a un mundo extraño.

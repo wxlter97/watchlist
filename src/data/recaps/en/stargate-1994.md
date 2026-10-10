@@ -1,0 +1,2 @@
+- A colonel and an Egyptologist go through the Stargate to another world.
+- They find the god Ra rules an enslaved people and face him.

@@ -1,0 +1,2 @@
+- Un equipo evacuado queda a miles de millones de años luz de la Vía Láctea a bordo de la nave Destiny.
+- Intenta regresar a la Tierra.

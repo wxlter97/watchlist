@@ -1,0 +1,244 @@
+{
+  "id": "sailor-moon",
+  "name": {
+    "es": "Sailor Moon",
+    "en": "Sailor Moon"
+  },
+  "description": {
+    "es": "Usagi y las Guerreras Sailor: el anime clásico, la adaptación Crystal y sus películas.",
+    "en": "Usagi and the Sailor Guardians: the classic anime, the Crystal adaptation and their films."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "classic",
+      "name": {
+        "es": "Anime clásico (1992-1997)",
+        "en": "Classic anime (1992–1997)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie de cinco temporadas y sus tres películas.",
+        "en": "The five-season series and its three films."
+      }
+    },
+    {
+      "id": "crystal",
+      "name": {
+        "es": "Crystal y películas modernas",
+        "en": "Crystal and modern films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La adaptación más fiel al manga, de 2014 a 2023.",
+        "en": "The adaptation closest to the manga, from 2014 to 2023."
+      }
+    },
+    {
+      "id": "live",
+      "name": {
+        "es": "Acción real (2003)",
+        "en": "Live action (2003)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La serie con actores reales.",
+        "en": "The live-action series."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "sailor-moon-1992",
+      "continuityId": "classic",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 10,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-1992",
+      "continuityId": "classic",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 20,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-1992",
+      "continuityId": "classic",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 30,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-1992",
+      "continuityId": "classic",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 40,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-1992",
+      "continuityId": "classic",
+      "importance": "essential",
+      "season": 5,
+      "chronoOrder": 50,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-r-the-movie-the-promise-of-the-rose-1993",
+      "continuityId": "classic",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-s-the-movie-hearts-in-ice-1994",
+      "continuityId": "classic",
+      "importance": "optional",
+      "chronoOrder": 70,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-supers-the-movie-black-dream-hole-1995",
+      "continuityId": "classic",
+      "importance": "optional",
+      "chronoOrder": 80,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-crystal-2014",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 10,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-crystal-2014",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 20,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "sailor-moon-crystal-2014",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 30,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "pretty-guardian-sailor-moon-eternal-the-movie-part-1-2021",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "pretty-guardian-sailor-moon-eternal-the-movie-part-2-2021",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "pretty-guardian-sailor-moon-cosmos-the-movie-part-1-2023",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "chronoOrder": 60,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "pretty-guardian-sailor-moon-cosmos-the-movie-part-2-2023",
+      "continuityId": "crystal",
+      "importance": "essential",
+      "chronoOrder": 70,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    },
+    {
+      "titleId": "pretty-guardian-sailor-moon-2003",
+      "continuityId": "live",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "usagi-tsukino"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "usagi-tsukino",
+        "name": {
+          "es": "Usagi Tsukino",
+          "en": "Usagi Tsukino"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

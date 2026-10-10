@@ -1,0 +1,2 @@
+- All Might and Deku travel to I-Island, a manmade city.
+- A sudden attack turns the island into a trap.

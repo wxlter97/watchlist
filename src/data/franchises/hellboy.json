@@ -1,0 +1,129 @@
+{
+  "id": "hellboy",
+  "name": {
+    "es": "Hellboy",
+    "en": "Hellboy"
+  },
+  "description": {
+    "es": "El demonio detective de Mike Mignola: las películas de Guillermo del Toro, el reinicio de 2019 y The Crooked Man.",
+    "en": "Mike Mignola's demon detective: Guillermo del Toro's films, the 2019 reboot and The Crooked Man."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "del-toro",
+      "name": {
+        "es": "Guillermo del Toro",
+        "en": "Guillermo del Toro"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas con Ron Perlman.",
+        "en": "The two films with Ron Perlman."
+      }
+    },
+    {
+      "id": "reboot",
+      "name": {
+        "es": "Reinicio (2019)",
+        "en": "Reboot (2019)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Otro reparto y otra historia.",
+        "en": "A different cast and story."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "crooked-man",
+      "name": {
+        "es": "The Crooked Man (2024)",
+        "en": "The Crooked Man (2024)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Película independiente con otro Hellboy.",
+        "en": "A standalone film with another Hellboy."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "hellboy-2004",
+      "continuityId": "del-toro",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "hellboy"
+      ]
+    },
+    {
+      "titleId": "hellboy-ii-the-golden-army-2008",
+      "continuityId": "del-toro",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "hellboy"
+      ]
+    },
+    {
+      "titleId": "hellboy-2019",
+      "continuityId": "reboot",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "hellboy"
+      ]
+    },
+    {
+      "titleId": "hellboy-the-crooked-man-2024",
+      "continuityId": "crooked-man",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "hellboy"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "hellboy",
+        "name": {
+          "es": "Hellboy",
+          "en": "Hellboy"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

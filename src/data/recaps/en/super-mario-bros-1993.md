@@ -1,0 +1,2 @@
+- Mario and Luigi, Brooklyn plumbers, find themselves in an alternate universe of evolved dinosaurs.
+- They must stop dictator Koopa's invasion.

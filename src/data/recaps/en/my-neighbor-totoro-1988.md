@@ -1,0 +1,2 @@
+- Satsuki and Mei move to the countryside with their father.
+- They discover Totoro, a forest spirit.

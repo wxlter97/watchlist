@@ -1,0 +1,1 @@
+- Gon Freecss discovers his father Ging is alive and wants to follow him as a Hunter.

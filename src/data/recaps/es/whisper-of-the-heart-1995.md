@@ -1,0 +1,2 @@
+- Shizuku, lectora, conoce a Seiji, un joven que quiere ser fabricante de violines.
+- Ambos se inspiran a perseguir sus sueños.

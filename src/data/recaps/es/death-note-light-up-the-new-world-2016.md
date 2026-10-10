@@ -1,0 +1,2 @@
+- Diez años después del enfrentamiento entre Kira y L, los shinigami envían nuevos cuadernos a la Tierra.
+- Un equipo especial intenta frenar el caos.

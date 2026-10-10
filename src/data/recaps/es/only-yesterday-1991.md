@@ -1,0 +1,2 @@
+- Taeko, de 27 años, viaja al campo y recuerda su infancia.
+- Se pregunta si ha sido fiel a los sueños de su yo de niña.

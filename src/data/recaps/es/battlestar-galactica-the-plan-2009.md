@@ -1,0 +1,1 @@
+- Los dos Cavil, infiltrados, improvisan cuando el ataque inicial no extermina a la humanidad.

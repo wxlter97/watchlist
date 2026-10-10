@@ -1,0 +1,2 @@
+- Reúne los últimos dos episodios de la serie.
+- Eren lleva adelante el plan llamado el Retumbar.

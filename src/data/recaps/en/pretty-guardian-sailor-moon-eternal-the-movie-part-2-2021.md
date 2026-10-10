@@ -1,0 +1,2 @@
+- Hotaru ages rapidly under the care of the Outer Sailor Guardians.
+- The time comes for all the Sailor Guardians to reunite.

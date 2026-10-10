@@ -1,0 +1,1 @@
+- The two Cavils, embedded, improvise when the initial attack fails to exterminate humanity.

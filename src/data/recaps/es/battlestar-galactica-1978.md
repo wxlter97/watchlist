@@ -1,0 +1,2 @@
+- Los cylon destruyen las Doce Colonias y el comandante Adama lidera una flota de supervivientes.
+- Buscan un planeta mítico, la Tierra.

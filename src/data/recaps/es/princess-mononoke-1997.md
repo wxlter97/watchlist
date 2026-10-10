@@ -1,0 +1,2 @@
+- Ashitaka queda marcado por una maldición y viaja al oeste en busca de una cura.
+- Se encuentra en medio de la guerra entre la gente de Ciudad del Hierro y los espíritus del bosque, con San.

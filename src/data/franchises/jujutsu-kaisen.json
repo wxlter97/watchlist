@@ -1,0 +1,113 @@
+{
+  "id": "jujutsu-kaisen",
+  "name": {
+    "es": "Jujutsu Kaisen",
+    "en": "Jujutsu Kaisen"
+  },
+  "description": {
+    "es": "Yuji Itadori y los hechiceros: la serie y la película Jujutsu Kaisen 0.",
+    "en": "Yuji Itadori and the sorcerers: the series and the Jujutsu Kaisen 0 film."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Historia principal",
+        "en": "Main story"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie y la película precuela.",
+        "en": "The series and the prequel film."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "jujutsu-kaisen-0-2021",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: transcurre un año antes de la serie",
+        "en": "Prequel: set a year before the series"
+      },
+      "characters": [
+        "satoru-gojo"
+      ]
+    },
+    {
+      "titleId": "jujutsu-kaisen-2020",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "yuji-itadori",
+        "megumi-fushiguro",
+        "nobara-kugisaki",
+        "satoru-gojo"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "yuji-itadori",
+        "name": {
+          "es": "Yuji Itadori",
+          "en": "Yuji Itadori"
+        }
+      },
+      {
+        "id": "megumi-fushiguro",
+        "name": {
+          "es": "Megumi Fushiguro",
+          "en": "Megumi Fushiguro"
+        }
+      },
+      {
+        "id": "nobara-kugisaki",
+        "name": {
+          "es": "Nobara Kugisaki",
+          "en": "Nobara Kugisaki"
+        }
+      },
+      {
+        "id": "satoru-gojo",
+        "name": {
+          "es": "Satoru Gojo",
+          "en": "Satoru Gojo"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

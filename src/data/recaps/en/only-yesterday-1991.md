@@ -1,0 +1,2 @@
+- Taeko, 27, travels to the countryside and recalls her childhood.
+- She wonders if she has been true to her childhood self's dreams.

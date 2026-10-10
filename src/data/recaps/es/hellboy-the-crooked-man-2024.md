@@ -1,0 +1,2 @@
+- Hellboy y un agente novato quedan varados en una zona rural de los Apalaches.
+- Descubren un pueblo atormentado por brujas y un diablo local, el Hombre Torcido.

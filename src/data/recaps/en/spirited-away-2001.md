@@ -1,0 +1,2 @@
+- Ten-year-old Chihiro is trapped in a world of spirits.
+- She works in a bathhouse to free her parents, turned into pigs.

@@ -1,0 +1,1 @@
+- Un estudiante estadounidense encuentra el cuaderno y empieza a eliminar criminales.

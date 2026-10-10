@@ -22827,5 +22827,2757 @@
     ],
     "runtimeMin": 1616,
     "ongoing": true
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-2019",
+    "tmdbId": 85937,
+    "tmdbType": "tv",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "kind": "series",
+    "releaseDate": "2019-04-06",
+    "imdbId": "tt9335498",
+    "posterPath": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+    "overview": "After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost.",
+    "localized": {
+      "en": {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "overview": "After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost."
+      },
+      "es": {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "overview": "En la era Taisho de Japón, Tanjiro, un joven vendedor de carbón, descubre que su familia ha sido asesinada por un demonio. Su hermana Nezuko, la única superviviente, se ha convertido en demonio. Tanjiro decide convertirse en cazador de demonios para devolver a su hermana a la normalidad y vengar a su familia"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2019-04-06"
+      },
+      {
+        "number": 2,
+        "episodes": 7,
+        "airDate": "2021-10-10"
+      },
+      {
+        "number": 3,
+        "episodes": 11,
+        "airDate": "2021-12-05"
+      },
+      {
+        "number": 4,
+        "episodes": 11,
+        "airDate": "2023-04-09"
+      },
+      {
+        "number": 5,
+        "episodes": 8,
+        "airDate": "2024-05-12"
+      }
+    ],
+    "runtimeMin": 1617
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train-2020",
+    "tmdbId": 635302,
+    "tmdbType": "movie",
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+    "kind": "movie",
+    "releaseDate": "2020-10-16",
+    "imdbId": "tt11032374",
+    "posterPath": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+    "overview": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+    "localized": {
+      "en": {
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "overview": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!"
+      },
+      "es": {
+        "title": "Demon Slayer: Mugen Train La película",
+        "overview": "Tanjiro Kamado y sus amigos de la Compañía de Cazadores de Demonios (Kimetsu no Yaiba Corps), se unen con uno de los mejores espadachines de la compañía, Kyojuro Rengoku, para investigar una misteriosa serie de desapariciones que han ocurrido dentro del “Tren Infinito”. Poco saben que Enmu, uno de los miembros de las Doce Lunas Demoníacas, también está a bordo y les ha preparado una trampa."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-infinity-castle-2025",
+    "tmdbId": 1311031,
+    "tmdbType": "movie",
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "kind": "movie",
+    "releaseDate": "2025-07-18",
+    "imdbId": "tt32820897",
+    "posterPath": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+    "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+    "localized": {
+      "en": {
+        "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+        "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins."
+      },
+      "es": {
+        "title": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+        "overview": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios."
+      }
+    },
+    "runtimeMin": 156
+  },
+  {
+    "id": "attack-on-titan-2013",
+    "tmdbId": 1429,
+    "tmdbType": "tv",
+    "title": "Attack on Titan",
+    "kind": "series",
+    "releaseDate": "2013-04-07",
+    "imdbId": "tt2560140",
+    "posterPath": "/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+    "overview": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
+    "localized": {
+      "en": {
+        "title": "Attack on Titan",
+        "overview": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!"
+      },
+      "es": {
+        "title": "Attack on Titan",
+        "overview": "Muchos años atrás, la humanidad estuvo al borde de la extinción con la aparición de unas criaturas gigantes que devoraban a todas las personas. Huyendo, la humanidad consiguió sobrevivir en una ciudad fortificada de altas murallas que se ha convertido en el último reducto de la civilización contra los Titanes que campan a sus anchas por el mundo. Ahora esa paz está a punto de verse interrumpida por una cadena de acontecimientos que llevará a desvelar qué son los Titanes y cómo aparecieron."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 25,
+        "airDate": "2013-04-07"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2017-04-01"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "2018-07-23"
+      },
+      {
+        "number": 4,
+        "episodes": 28,
+        "airDate": "2020-12-07"
+      }
+    ],
+    "runtimeMin": 2087
+  },
+  {
+    "id": "attack-on-titan-the-last-attack-2024",
+    "tmdbId": 1333100,
+    "tmdbType": "movie",
+    "title": "Attack on Titan: THE LAST ATTACK",
+    "kind": "movie",
+    "releaseDate": "2024-03-20",
+    "imdbId": "tt33175825",
+    "posterPath": "/wgwldDDlTDDMrluOMkpSA8lyKjv.jpg",
+    "overview": "A colossal-sized omnibus film bringing together the last two episodes of Attack on Titan in the franchise's first-ever theatrical experience. After venturing beyond the walls and separated from his comrades, Eren finds himself inspired by this new truth and plots the \"Rumbling,\" a terrifying plan to eradicate every living thing in the world. With the fate of the world hanging in the balance, a motley crew of Eren's former comrades and enemies scramble to halt his deadly mission. The only question is, can they stop him?",
+    "localized": {
+      "en": {
+        "title": "Attack on Titan: THE LAST ATTACK",
+        "overview": "A colossal-sized omnibus film bringing together the last two episodes of Attack on Titan in the franchise's first-ever theatrical experience. After venturing beyond the walls and separated from his comrades, Eren finds himself inspired by this new truth and plots the \"Rumbling,\" a terrifying plan to eradicate every living thing in the world. With the fate of the world hanging in the balance, a motley crew of Eren's former comrades and enemies scramble to halt his deadly mission. The only question is, can they stop him?"
+      },
+      "es": {
+        "title": "Attack on Titan: EL ATAQUE FINAL",
+        "overview": "Película recopilatoria para cines de los dos últimos episodios especiales de la última temporada de \"Ataque a los Titanes\". La humanidad vivía en paz tras los enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio truncado por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Yeager, que juró vengarse de los titanes. Años después de unirse a la Tropa de Reconocimiento, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que revela una nueva verdad sobre el mundo que conoce... Tras aventurarse más allá de los muros y separarse de sus camaradas, Eren, motivado por sus nuevos conocimientos del mundo, planea el \"Retumbar\", un terrorífico plan para erradicar a todo ser vivo del mundo. Con el destino del mundo pendiendo de un hilo, un variopinto grupo de antiguos camaradas y enemigos de Eren lucha por detener su letal misión. La única pregunta es: ¿lo conseguirán?"
+      }
+    },
+    "runtimeMin": 145
+  },
+  {
+    "id": "jujutsu-kaisen-2020",
+    "tmdbId": 95479,
+    "tmdbType": "tv",
+    "title": "JUJUTSU KAISEN",
+    "kind": "series",
+    "releaseDate": "2020-10-03",
+    "imdbId": "tt12343534",
+    "posterPath": "/6qQzMJG27XOJsyAEEIisoJB45j2.jpg",
+    "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+    "localized": {
+      "en": {
+        "title": "JUJUTSU KAISEN",
+        "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back."
+      },
+      "es": {
+        "title": "Jujutsu Kaisen",
+        "overview": "La vida de Itadori cambia para siempre cuando, para salvar a un compañero de clase, se come el dedo de Ryomen Sukuna y absorbe una poderosa maldición."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 59,
+        "airDate": "2020-10-03"
+      }
+    ],
+    "runtimeMin": 1427,
+    "ongoing": true
+  },
+  {
+    "id": "jujutsu-kaisen-0-2021",
+    "tmdbId": 810693,
+    "tmdbType": "movie",
+    "title": "Jujutsu Kaisen 0",
+    "kind": "movie",
+    "releaseDate": "2021-12-24",
+    "imdbId": "tt14331144",
+    "posterPath": "/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg",
+    "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?",
+    "localized": {
+      "en": {
+        "title": "Jujutsu Kaisen 0",
+        "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?"
+      },
+      "es": {
+        "title": "Jujutsu Kaisen 0",
+        "overview": "Rika, amiga de la infancia de Yuta Okkotsu, murió en un accidente automovilístico. Su espíritu permanece con él, más ya no es la dulce niña que él conocía. Se manifiesta como una entidad monstruosa y poderosa que lo protege ferozmente."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "my-hero-academia-2016",
+    "tmdbId": 65930,
+    "tmdbType": "tv",
+    "title": "My Hero Academia",
+    "kind": "series",
+    "releaseDate": "2016-04-03",
+    "imdbId": "tt5626028",
+    "posterPath": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
+    "overview": "Izuku has dreamt of being a hero all his life—a lofty goal for anyone, but especially challenging for a kid with no superpowers. That’s right, in a world where eighty percent of the population has some kind of super-powered \"quirk,\" Izuku was unlucky enough to be born completely normal. But that’s not enough to stop him from enrolling in one of the world’s most prestigious hero academies.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia",
+        "overview": "Izuku has dreamt of being a hero all his life—a lofty goal for anyone, but especially challenging for a kid with no superpowers. That’s right, in a world where eighty percent of the population has some kind of super-powered \"quirk,\" Izuku was unlucky enough to be born completely normal. But that’s not enough to stop him from enrolling in one of the world’s most prestigious hero academies."
+      },
+      "es": {
+        "title": "My Hero Academia",
+        "overview": "El 80% de la población mundial ha desarrollado superpoderes y son entrenados en la Academia de Héroes. Como consecuencia, han surgido tanto superhéroes como supervillanos. Izuku Midoriya es parte de ese 20% sin ningún poder sobrenatural. Sin embargo, su mayor deseo es poder estudiar en la Academia y convertirse en un héroe"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2016-04-03"
+      },
+      {
+        "number": 2,
+        "episodes": 25,
+        "airDate": "2017-04-01"
+      },
+      {
+        "number": 3,
+        "episodes": 25,
+        "airDate": "2018-04-07"
+      },
+      {
+        "number": 4,
+        "episodes": 25,
+        "airDate": "2019-10-12"
+      },
+      {
+        "number": 5,
+        "episodes": 25,
+        "airDate": "2021-03-27"
+      },
+      {
+        "number": 6,
+        "episodes": 25,
+        "airDate": "2022-10-01"
+      },
+      {
+        "number": 7,
+        "episodes": 21,
+        "airDate": "2024-05-04"
+      },
+      {
+        "number": 8,
+        "episodes": 11,
+        "airDate": "2025-10-04"
+      }
+    ],
+    "runtimeMin": 4079
+  },
+  {
+    "id": "my-hero-academia-two-heroes-2018",
+    "tmdbId": 505262,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: Two Heroes",
+    "kind": "movie",
+    "releaseDate": "2018-08-03",
+    "imdbId": "tt7745068",
+    "posterPath": "/hC4nTxdhXqFWzgqynGvvXVMiMNp.jpg",
+    "overview": "All Might and Deku accept an invitation to go abroad to a floating and mobile manmade city, called 'I-Island', where they research quirks as well as hero supplemental items at the special 'I-Expo' convention that is currently being held on the island. During that time, suddenly, despite an iron wall of security surrounding the island, the system is breached by a villain, and the only ones able to stop him are the students of Class 1-A.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: Two Heroes",
+        "overview": "All Might and Deku accept an invitation to go abroad to a floating and mobile manmade city, called 'I-Island', where they research quirks as well as hero supplemental items at the special 'I-Expo' convention that is currently being held on the island. During that time, suddenly, despite an iron wall of security surrounding the island, the system is breached by a villain, and the only ones able to stop him are the students of Class 1-A."
+      },
+      "es": {
+        "title": "My Hero Academia: Dos héroes",
+        "overview": "Deku y All-Might visitan la isla I, una ciudad flotante hecha por el hombre. Allí, conocen a una chica y pelean contra un villano que domina el lugar. Además, se develará información sobre el pasado de All-Might."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "my-hero-academia-heroes-rising-2019",
+    "tmdbId": 592350,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: Heroes Rising",
+    "kind": "movie",
+    "releaseDate": "2019-12-20",
+    "imdbId": "tt11107074",
+    "posterPath": "/kpWsIkfXrnQ1pmR79qAHHq7DPxc.jpg",
+    "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation... until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: Heroes Rising",
+        "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation... until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope."
+      },
+      "es": {
+        "title": "My Hero Academia: El Despertar de los Héroes",
+        "overview": "Un nuevo villano, llamado Nine, está buscando a Tomura Shigaraki. Para ello, decide atacar la isla de Nabutō. Segunda película de la serie anime \"My Hero Academia\"."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "my-hero-academia-world-heroes-mission-2021",
+    "tmdbId": 768744,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: World Heroes' Mission",
+    "kind": "movie",
+    "releaseDate": "2021-08-06",
+    "imdbId": "tt13544716",
+    "posterPath": "/jzP5rPwwNqUGERlrUzKKljfyulf.jpg",
+    "overview": "A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia.",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: World Heroes' Mission",
+        "overview": "A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia."
+      },
+      "es": {
+        "title": "Boku no Hero Academia: Misión Mundial de Héroes",
+        "overview": "Cuando una siniestra organización amenaza con acabar con todos los dones, el destino del mundo está en juego. Con dos horas hasta el colapso de la civilización, Deku, Bakugo y Todoroki logran trabajar en equipo, sin embargo, durante el transcurso de esta operación, Deku se involucra en un evento que hace que se convierta en uno de los criminales más buscados de todo el mundo."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "my-hero-academia-youre-next-2024",
+    "tmdbId": 1159311,
+    "tmdbType": "movie",
+    "title": "My Hero Academia: You're Next",
+    "kind": "movie",
+    "releaseDate": "2024-08-02",
+    "imdbId": "tt32176689",
+    "posterPath": "/tTrI6PwqzxkgO3dvQ7BEKXM7SYR.jpg",
+    "overview": "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the 'symbol of peace', stands in front of Izuku and his friends...",
+    "localized": {
+      "en": {
+        "title": "My Hero Academia: You're Next",
+        "overview": "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the 'symbol of peace', stands in front of Izuku and his friends..."
+      },
+      "es": {
+        "title": "My Hero Academia: Ahora es tu turno"
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "sonic-the-hedgehog-2020",
+    "tmdbId": 454626,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog",
+    "kind": "movie",
+    "releaseDate": "2020-02-12",
+    "imdbId": "tt3794354",
+    "posterPath": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+    "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog",
+        "overview": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination."
+      },
+      "es": {
+        "title": "Sonic: La película",
+        "overview": "Tom Wachowski, el sheriff de la ciudad de Green Hills, viajará a San Francisco para ayudar a Sonic, un erizo azul antropomórfico que corre a velocidades supersónicas, en su batalla contra el maligno Dr. Robotnik y sus aliados."
+      }
+    },
+    "runtimeMin": 99
+  },
+  {
+    "id": "sonic-the-hedgehog-2-2022",
+    "tmdbId": 675353,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog 2",
+    "kind": "movie",
+    "releaseDate": "2022-03-30",
+    "imdbId": "tt12412888",
+    "posterPath": "/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+    "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog 2",
+        "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands."
+      },
+      "es": {
+        "title": "Sonic 2: La película",
+        "overview": "Cuando el Dr. Robotnik regresa, esta vez con un nuevo compañero, Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones. Sonic se une a su propio compañero, Tails, y juntos se embarcan en un viaje por el mundo para encontrar la esmeralda antes de que caiga en las manos equivocadas."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "knuckles-2024",
+    "tmdbId": 158300,
+    "tmdbType": "tv",
+    "title": "Knuckles",
+    "kind": "series",
+    "releaseDate": "2024-04-26",
+    "imdbId": "tt18291136",
+    "posterPath": "/sK6Nr6KNUA4WlAHyNBTioz9FK87.jpg",
+    "overview": "Knuckles embarks on a hilarious and action-packed journey of self-discovery as he agrees to train Wade as his protégé and teach him the ways of the Echidna warrior.",
+    "localized": {
+      "en": {
+        "title": "Knuckles",
+        "overview": "Knuckles embarks on a hilarious and action-packed journey of self-discovery as he agrees to train Wade as his protégé and teach him the ways of the Echidna warrior."
+      },
+      "es": {
+        "title": "Knuckles",
+        "overview": "Knuckles se embarca en un viaje de autodescubrimiento hilarante y lleno de acción cuando acepta entrenar a Wade como su protegido y enseñarle los caminos del guerrero Equidna."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2024-04-26"
+      }
+    ],
+    "runtimeMin": 174
+  },
+  {
+    "id": "sonic-the-hedgehog-3-2024",
+    "tmdbId": 939243,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog 3",
+    "kind": "movie",
+    "releaseDate": "2024-12-19",
+    "imdbId": "tt18259086",
+    "posterPath": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+    "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog 3",
+        "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet."
+      },
+      "es": {
+        "title": "Sonic 3: La película",
+        "overview": "Sonic, Knuckles y Tails se reúnen para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. Con sus habilidades superadas en todos los sentidos, el Equipo Sonic debe buscar una alianza improbable con la esperanza de detener a Shadow y proteger el planeta."
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "sonic-the-hedgehog-4-2027",
+    "tmdbId": 1401586,
+    "tmdbType": "movie",
+    "title": "Sonic the Hedgehog 4",
+    "kind": "movie",
+    "releaseDate": "2027-03-11",
+    "imdbId": "tt16744566",
+    "posterPath": "/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
+    "overview": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic.",
+    "localized": {
+      "en": {
+        "title": "Sonic the Hedgehog 4",
+        "overview": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic."
+      },
+      "es": {
+        "title": "Sonic 4: La Película",
+        "overview": "Sonic el Erizo, acompañado por una nueva heroína llamada Amy, se enfrenta a un nuevo némesis tecnológico conocido como Metal Sonic."
+      }
+    }
+  },
+  {
+    "id": "super-mario-bros-1993",
+    "tmdbId": 9607,
+    "tmdbType": "movie",
+    "title": "Super Mario Bros.",
+    "kind": "movie",
+    "releaseDate": "1993-05-28",
+    "imdbId": "tt0108255",
+    "posterPath": "/yt5bbMfKpg1nRr4k5edxs7tPK2m.jpg",
+    "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa.",
+    "localized": {
+      "en": {
+        "title": "Super Mario Bros.",
+        "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa."
+      },
+      "es": {
+        "title": "Super Mario Bros.",
+        "overview": "Basada en el famoso videojuego de la compañía Nintendo. Dos hermanos fontaneros se adentran en un mundo paralelo para salvar a la princesa Daisy de las garras del rey Koopa y su ejército de reptiles"
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "the-super-mario-bros-movie-2023",
+    "tmdbId": 502356,
+    "tmdbType": "movie",
+    "title": "The Super Mario Bros. Movie",
+    "kind": "movie",
+    "releaseDate": "2023-04-05",
+    "imdbId": "tt6718170",
+    "posterPath": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+    "localized": {
+      "en": {
+        "title": "The Super Mario Bros. Movie",
+        "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi."
+      },
+      "es": {
+        "title": "Super Mario Bros. La película",
+        "overview": "Mientras trabaja bajo tierra para arreglar una tubería de agua, los plomeros de Brooklyn Mario y su hermano Luigi son transportados por una misteriosa tubería y llegan a un nuevo mundo mágico."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "the-super-mario-galaxy-movie-2026",
+    "tmdbId": 1226863,
+    "tmdbType": "movie",
+    "title": "The Super Mario Galaxy Movie",
+    "kind": "movie",
+    "releaseDate": "2026-04-01",
+    "imdbId": "tt28650488",
+    "posterPath": "/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+    "localized": {
+      "en": {
+        "title": "The Super Mario Galaxy Movie",
+        "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade."
+      },
+      "es": {
+        "title": "Super Mario Galaxy: La película",
+        "overview": "Mario y Luigi se enfrentan una nueva amenaza: Bowser Jr., quién está decidido liberar a su padre del cautiverio y restaurar el legado familiar. Junto con nuevos y viejos compañeros, los hermanos viajan a través de las estrellas para detener la cruzada del joven heredero."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "mortal-kombat-1995",
+    "tmdbId": 9312,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat",
+    "kind": "movie",
+    "releaseDate": "1995-08-18",
+    "imdbId": "tt0113855",
+    "posterPath": "/9YhpvhhvLrtL1wlwEfpVL16GI9d.jpg",
+    "overview": "For nine generations an evil sorcerer has been victorious in hand-to-hand battle against his mortal enemies. If he wins a tenth Mortal Kombat tournament, desolation and evil will reign over the multiverse forever. To save Earth, three warriors must overcome seemingly insurmountable odds, their own inner demons, and superhuman foes.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat",
+        "overview": "For nine generations an evil sorcerer has been victorious in hand-to-hand battle against his mortal enemies. If he wins a tenth Mortal Kombat tournament, desolation and evil will reign over the multiverse forever. To save Earth, three warriors must overcome seemingly insurmountable odds, their own inner demons, and superhuman foes."
+      },
+      "es": {
+        "title": "Mortal Kombat",
+        "overview": "Durante nueve generaciones, Shang Tsung, un brujo malvado, ha llevado a un poderoso príncipe a la victoria contra sus mortales enemigos. Si vence el décimo torneo Mortal Kombat, la desolación y el mal que han florecido en el mundo exterior reinarán la Tierra por siempre."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "mortal-kombat-annihilation-1997",
+    "tmdbId": 9823,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat: Annihilation",
+    "kind": "movie",
+    "releaseDate": "1997-11-11",
+    "imdbId": "tt0119707",
+    "posterPath": "/ttryglcY2osWZE3sRYBf3ewTZsW.jpg",
+    "overview": "A group of heroic warriors has only six days to save the planet in \"Mortal Kombat Annihilation.\" To succeed they must survive the most spectacular series of challenges any human, or god, has ever encountered as they battle an evil warlord bent on taking control of Earth.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat: Annihilation",
+        "overview": "A group of heroic warriors has only six days to save the planet in \"Mortal Kombat Annihilation.\" To succeed they must survive the most spectacular series of challenges any human, or god, has ever encountered as they battle an evil warlord bent on taking control of Earth."
+      },
+      "es": {
+        "title": "Mortal Kombat: Aniquilación",
+        "overview": "Estamos en el universo del Emperador Shao-Khan, donde las reglas no existen y la vida es una continua batalla. Los esbirros del maquiavélico Khan han sido adiestrados para matar y están dispuestos a cumplir las órdenes de su amo, conseguir el control de la Tierra para iniciar su aniquilación total. Un héroe, llamado Liu Kang, les hará frente."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "mortal-kombat-2021",
+    "tmdbId": 460465,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat",
+    "kind": "movie",
+    "releaseDate": "2021-04-07",
+    "imdbId": "tt0293429",
+    "posterPath": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg",
+    "overview": "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of Outworld in a high stakes battle for the universe.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat",
+        "overview": "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of Outworld in a high stakes battle for the universe."
+      },
+      "es": {
+        "title": "Mortal Kombat",
+        "overview": "Un boxeador fracasado descubre un secreto familiar que le lleva a un torneo místico llamado Mortal Kombat donde conoce a un grupo de guerreros que luchan a muerte para salvar los reinos del malvado hechicero Shang Tsung."
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "mortal-kombat-ii-2026",
+    "tmdbId": 931285,
+    "tmdbType": "movie",
+    "title": "Mortal Kombat II",
+    "kind": "movie",
+    "releaseDate": "2026-05-06",
+    "imdbId": "tt17490712",
+    "posterPath": "/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
+    "localized": {
+      "en": {
+        "title": "Mortal Kombat II",
+        "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders."
+      },
+      "es": {
+        "title": "Mortal Kombat II",
+        "overview": "Los campeones favoritos de los fans —ahora acompañados por el mismísimo Johnny Cage— se enfrentan entre sí en la batalla definitiva, sangrienta y sin reglas, para derrotar el oscuro dominio de Shao Kahn, que amenaza con destruir el Reino de la Tierra y a sus defensores."
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "hellboy-2004",
+    "tmdbId": 1487,
+    "tmdbType": "movie",
+    "title": "Hellboy",
+    "kind": "movie",
+    "releaseDate": "2004-04-02",
+    "imdbId": "tt0167190",
+    "posterPath": "/21hS8mD8uxBVvf8xVYR30LbbmPO.jpg",
+    "overview": "In the final days of World War II, the Nazis attempt to use black magic to aid their dying cause. The Allies raid the camp where the ceremony is taking place, but not before they summon a baby demon who is rescued by Allied forces and dubbed \"Hellboy\". Sixty years later, Hellboy serves the cause of good rather than evil as an agent in the Bureau of Paranormal Research & Defense, along with Abe Sapien - a merman with psychic powers, and Liz Sherman - a woman with pyrokinesis, protecting America against dark forces.",
+    "localized": {
+      "en": {
+        "title": "Hellboy",
+        "overview": "In the final days of World War II, the Nazis attempt to use black magic to aid their dying cause. The Allies raid the camp where the ceremony is taking place, but not before they summon a baby demon who is rescued by Allied forces and dubbed \"Hellboy\". Sixty years later, Hellboy serves the cause of good rather than evil as an agent in the Bureau of Paranormal Research & Defense, along with Abe Sapien - a merman with psychic powers, and Liz Sherman - a woman with pyrokinesis, protecting America against dark forces."
+      },
+      "es": {
+        "title": "Hellboy",
+        "overview": "Un demonio, criado desde la infancia después de ser conjurado y rescatado de los nazis, crece para convertirse en un defensor contra las fuerzas de la oscuridad."
+      }
+    },
+    "runtimeMin": 122
+  },
+  {
+    "id": "hellboy-ii-the-golden-army-2008",
+    "tmdbId": 11253,
+    "tmdbType": "movie",
+    "title": "Hellboy II: The Golden Army",
+    "kind": "movie",
+    "releaseDate": "2008-07-11",
+    "imdbId": "tt0411477",
+    "posterPath": "/zO0Wdrxnhx3KoJEvychSmnY3urC.jpg",
+    "overview": "Hellboy, his pyrokinetic girlfriend, Liz, and aquatic empath, Abe Sapien, face their biggest battle when an underworld elven prince plans to reclaim Earth for his magical kindred. Tired of living in the shadow of humans, Prince Nuada tries to awaken an ancient force of killing machines, the all-powerful Golden Army, to clear the way for fantasy creatures to roam free. Only Hellboy can stop the dark prince and prevent humanity's annihilation.",
+    "localized": {
+      "en": {
+        "title": "Hellboy II: The Golden Army",
+        "overview": "Hellboy, his pyrokinetic girlfriend, Liz, and aquatic empath, Abe Sapien, face their biggest battle when an underworld elven prince plans to reclaim Earth for his magical kindred. Tired of living in the shadow of humans, Prince Nuada tries to awaken an ancient force of killing machines, the all-powerful Golden Army, to clear the way for fantasy creatures to roam free. Only Hellboy can stop the dark prince and prevent humanity's annihilation."
+      },
+      "es": {
+        "title": "Hellboy II: El Ejército Dorado",
+        "overview": "Un líder despiadado decide traicionar a sus ancestros y organiza un ejército de criaturas diabólicas para desatar el infierno en la Tierra. Entonces Hellboy y con la colaboración de la Agencia de Investigación y Defensa Paranormal viajarán entre dos mundos mientras Hellboy deberá elegir entre la vida que conoce y el desconocido destino que le reclama."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "hellboy-2019",
+    "tmdbId": 456740,
+    "tmdbType": "movie",
+    "title": "Hellboy",
+    "kind": "movie",
+    "releaseDate": "2019-04-10",
+    "imdbId": "tt2274648",
+    "posterPath": "/bk8LyaMqUtaQ9hUShuvFznQYQKR.jpg",
+    "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
+    "localized": {
+      "en": {
+        "title": "Hellboy",
+        "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away."
+      },
+      "es": {
+        "title": "Hellboy",
+        "overview": "La Agencia para la Investigación y Defensa Paranormal (AIDP) encomienda a Hellboy la tarea de derrotar a un espíritu ancestral: Nimue, conocida como \"La Reina de la Sangre\" que ha vuelto de entre los muertos con la intención de destruir a la humanidad con su magia negra."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "hellboy-the-crooked-man-2024",
+    "tmdbId": 1087822,
+    "tmdbType": "movie",
+    "title": "Hellboy: The Crooked Man",
+    "kind": "movie",
+    "releaseDate": "2024-08-29",
+    "imdbId": "tt26757462",
+    "posterPath": "/iz2GabtToVB05gLTVSH7ZvFtsMM.jpg",
+    "overview": "Hellboy and a rookie BPRD agent get stranded in 1950s rural Appalachia. There, they discover a small community haunted by witches, led by a local devil with a troubling connection to Hellboy's past: the Crooked Man.",
+    "localized": {
+      "en": {
+        "title": "Hellboy: The Crooked Man",
+        "overview": "Hellboy and a rookie BPRD agent get stranded in 1950s rural Appalachia. There, they discover a small community haunted by witches, led by a local devil with a troubling connection to Hellboy's past: the Crooked Man."
+      },
+      "es": {
+        "title": "Hellboy: The Crooked Man",
+        "overview": "Hellboy y un agente novato de la BPRD quedan varados en la zona rural de los Apalaches en la década de 1950. Allí, descubren una pequeña comunidad embrujada por brujas, lideradas por un demonio local con una conexión inquietante con el pasado de Hellboy."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "fullmetal-alchemist-2003",
+    "tmdbId": 37863,
+    "tmdbType": "tv",
+    "title": "Fullmetal Alchemist",
+    "kind": "series",
+    "releaseDate": "2003-10-04",
+    "imdbId": "tt0421357",
+    "posterPath": "/kKOQbCKbGB75h1d3Jlx9Gy4ZTfv.jpg",
+    "overview": "Two young brothers are raised as alchemists, but when they are severely injured trying to perform a forbidden act, they begin searching for the one thing that can save them; the fabled philosopher's stone.",
+    "localized": {
+      "en": {
+        "title": "Fullmetal Alchemist",
+        "overview": "Two young brothers are raised as alchemists, but when they are severely injured trying to perform a forbidden act, they begin searching for the one thing that can save them; the fabled philosopher's stone."
+      },
+      "es": {
+        "title": "FullMetal Alchemist",
+        "overview": "Edward y Alphonse Elric son dos hermanos dotados con la habilidad de la alquimia, la ciencia de tomar una cosa y cambiarla por otra. Sin embargo, la alquimia funciona con la teoría del intercambio equivalente: para que algo se cree, se debe sacrificar algo más de igual valor. Cuando su madre muere, Edward decide hacer lo impensable, devolviéndola a la vida rompiendo uno de los mayores tabúes de Alchemy y realizando Human Alchemy. Pensando que no tienen nada más que perder, él y Alphonse hacen su intento, pero algo sale terriblemente mal. En el proceso, Alphonse pierde su cuerpo y Edward pierde su pierna. Ed logra salvar a Al uniendo su espíritu a una armadura, pero a costa de su brazo y pierna."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 51,
+        "airDate": "2003-10-04"
+      }
+    ],
+    "runtimeMin": 1224
+  },
+  {
+    "id": "fullmetal-alchemist-the-movie-conqueror-of-shamballa-2005",
+    "tmdbId": 14003,
+    "tmdbType": "movie",
+    "title": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
+    "kind": "movie",
+    "releaseDate": "2005-07-21",
+    "imdbId": "tt0485323",
+    "posterPath": "/kdovrjrKighUFEh9ZRQul0Evx6L.jpg",
+    "overview": "Munich, Germany, 1923. Two years have passed since Edward Elric was dragged from his own world to ours, leaving behind his country, his friends and his younger brother, Alphonse. Stripped of his alchemical powers, he has been all this time researching rocketry together with Alphonse Heiderich, a young man who resembles his own brother, hoping to one day find a way back home. His efforts so far had proven fruitless, but after lending a hand to a troubled gipsy girl, Edward is thrown in a series of events that can wreak havoc in both worlds. Meanwhile, at his own world, Alphonse Elric ventures deeper into the mysteries of alchemy in search for a way to reunite with his older brother.",
+    "localized": {
+      "en": {
+        "title": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
+        "overview": "Munich, Germany, 1923. Two years have passed since Edward Elric was dragged from his own world to ours, leaving behind his country, his friends and his younger brother, Alphonse. Stripped of his alchemical powers, he has been all this time researching rocketry together with Alphonse Heiderich, a young man who resembles his own brother, hoping to one day find a way back home. His efforts so far had proven fruitless, but after lending a hand to a troubled gipsy girl, Edward is thrown in a series of events that can wreak havoc in both worlds. Meanwhile, at his own world, Alphonse Elric ventures deeper into the mysteries of alchemy in search for a way to reunite with his older brother."
+      },
+      "es": {
+        "title": "Fullmetal Alchemist: El conquistador de Shambala",
+        "overview": "Es el año 1923, en Munich. Han pasado dos años desde el episodio final de la serie \"Fullmetal Alchemist\", dos años desde que Edward se sacrificara para poder resucitar a su hermano Alphonse y que llegara nuestro mundo. Hasta entonces, Edo ha estado intentando volver a su mundo, estudiando sobre cohetes y el viaje al espacio, creyendo que así podrá regresar. Mientras, Al viaja por su mundo buscando la manera de poder recuperar a su hermano. Lo que ellos no saben es que una organizacion oculta prepara un plan que podría poner en peligro ambos mundos..."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "fullmetal-alchemist-brotherhood-2009",
+    "tmdbId": 31911,
+    "tmdbType": "tv",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "kind": "series",
+    "releaseDate": "2009-04-05",
+    "imdbId": "tt1355642",
+    "posterPath": "/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
+    "overview": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
+    "localized": {
+      "en": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "overview": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable."
+      },
+      "es": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "overview": "La imprudente indiferencia de Edward y Alphonse Elric por las leyes fundamentales de la alquimia le arrancaron la mitad de las extremidades a Ed y dejaron el alma de Al pegada a una fría armadura. Para restaurar lo que se perdió, los hermanos recorren una tierra devastada por la guerra para la Piedra Filosofal, una reliquia legendaria que otorga la capacidad de realizar la alquimia de maneras imposibles.\n\nLos Elrics no están solos en su búsqueda; el corrupto Estado Militar también está ansioso por aprovechar el poder del artefacto. También lo son los extraños Homúnculos y su oscuro creador. La gema mítica atrae a los alquimistas exóticos de reinos distantes, dejando cicatrices profundas que inspiran el asesinato. A medida que los Elrics encuentran su curso alterado por estos enemigos y aliados, su propósito permanece inalterado, y su vínculo es irrompible."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 64,
+        "airDate": "2009-04-05"
+      }
+    ],
+    "runtimeMin": 1600
+  },
+  {
+    "id": "hunter-x-hunter-1999",
+    "tmdbId": 45952,
+    "tmdbType": "tv",
+    "title": "Hunter x Hunter",
+    "kind": "series",
+    "releaseDate": "1999-10-16",
+    "imdbId": "tt0426719",
+    "posterPath": "/eobAuhCJA8oRp814V67WhezVXtQ.jpg",
+    "overview": "Gon Freecss discovers that the father he had always been told was dead was actually alive the whole time. Ging is a famous Hunter: an individual who has proven themself an elite member of humanity. Gon becomes determined to follow in his father's footsteps, pass the rigorous Hunter Examination.",
+    "localized": {
+      "en": {
+        "title": "Hunter x Hunter",
+        "overview": "Gon Freecss discovers that the father he had always been told was dead was actually alive the whole time. Ging is a famous Hunter: an individual who has proven themself an elite member of humanity. Gon becomes determined to follow in his father's footsteps, pass the rigorous Hunter Examination."
+      },
+      "es": {
+        "title": "Hunter x Hunter",
+        "overview": "En un mundo de fantasía y ensueño ha nacido una nueva profesión, la de los Cazadores, valientes aventureros encargados de encontrar y capturar tesoros, recompensas y villanos. Para formarlos existen las escuelas de Cazadores, donde los jóvenes aprendices desarrollan sus habilidades. Los que se esfuerzan y consiguen graduarse se convierten en famosos cazadores y en un ejemplo para todos los niños del mundo. Uno de esos jóvenes alumnos es Gon, un muchacho con el corazón de oro ilusionado por convertirse en un Cazador y que se convertirá en una auténtica leyenda. Pero Gon sólo tiene un sueño, encontrar a su padre desaparecido años atrás."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 62,
+        "airDate": "1999-10-16"
+      }
+    ],
+    "runtimeMin": 1426
+  },
+  {
+    "id": "hunter-x-hunter-2011",
+    "tmdbId": 46298,
+    "tmdbType": "tv",
+    "title": "Hunter x Hunter",
+    "kind": "series",
+    "releaseDate": "2011-10-02",
+    "imdbId": "tt2098220",
+    "posterPath": "/i2EEr2uBvRlAwJ8d8zTG2Y19mIa.jpg",
+    "overview": "Gon, a young boy who lives on Whale Island, dreams of becoming a Hunter like his father, who left when Gon was still young.",
+    "localized": {
+      "en": {
+        "title": "Hunter x Hunter",
+        "overview": "Gon, a young boy who lives on Whale Island, dreams of becoming a Hunter like his father, who left when Gon was still young."
+      },
+      "es": {
+        "title": "Hunter × Hunter",
+        "overview": "Gon Frecks, un niño de 12 años, vive con su tía Mito y su abuela en Isla Ballena, huérfano de madre y según su tía también de padre. Un día Gon es atacado por un oso del bosque, pero es salvado por un cazador quien le explica que está en busca de su maestro para así convertirse en un cazador, él es quien le dice que su padre Gin está vivo. Enterado de esto Gon decide convertirse en cazador para poder encontrar a su padre."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 62,
+        "airDate": "2011-10-02"
+      },
+      {
+        "number": 2,
+        "episodes": 74,
+        "airDate": "2012-12-15"
+      },
+      {
+        "number": 3,
+        "episodes": 12,
+        "airDate": "2014-07-07"
+      }
+    ],
+    "runtimeMin": 3503
+  },
+  {
+    "id": "death-note-2006",
+    "tmdbId": 13916,
+    "tmdbType": "tv",
+    "title": "Death Note",
+    "kind": "series",
+    "releaseDate": "2006-10-04",
+    "imdbId": "tt0877057",
+    "posterPath": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
+    "overview": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+    "localized": {
+      "en": {
+        "title": "Death Note",
+        "overview": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?"
+      },
+      "es": {
+        "title": "Death Note",
+        "overview": "Light Yagami es un joven estudiante que un día encuentra un cuaderno llamado Death Note que tiene una macabra propiedad: si el nombre de una persona aparece escrito en él, morirá. Light decide, entonces, embarcarse en una misión para librar al mundo de todos los criminales. Sin embargo, su plan empieza a torcerse cuando L, un brillante detective, intenta descifrar el misterio que rodea a todas estas muertes."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 37,
+        "airDate": "2006-10-04"
+      }
+    ],
+    "runtimeMin": 807
+  },
+  {
+    "id": "death-note-film-2006",
+    "tmdbId": 16007,
+    "tmdbType": "movie",
+    "title": "Death Note",
+    "kind": "movie",
+    "releaseDate": "2006-06-17",
+    "imdbId": "tt0758742",
+    "posterPath": "/xiJPZntaz1BMooXfiwi2iZAMbhY.jpg",
+    "overview": "Light Yagami finds the \"Death Note,\" a notebook with the power to kill, and decides to create a Utopia by killing the world's criminals, and soon the world's greatest detective, \"L,\" is hired to find the mysterious murderer. An all out battle between the two greatest minds on earth begins and the winner will control the world.",
+    "localized": {
+      "en": {
+        "title": "Death Note",
+        "overview": "Light Yagami finds the \"Death Note,\" a notebook with the power to kill, and decides to create a Utopia by killing the world's criminals, and soon the world's greatest detective, \"L,\" is hired to find the mysterious murderer. An all out battle between the two greatest minds on earth begins and the winner will control the world."
+      },
+      "es": {
+        "title": "Death Note",
+        "overview": "Light Yagami es un brillante estudiante japonés que verá cambiar radicalmente su vida cuando se encuentra en el suelo un misterioso cuaderno en cuya portada se lee DEATH NOTE (Cuaderno de muerte). El cuaderno permite matar a cualquier persona si se conoce su nombre y su rostro, por lo que Yagami decide usarlo para limpiar el mundo de maldad."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "death-note-the-last-name-2006",
+    "tmdbId": 16140,
+    "tmdbType": "movie",
+    "title": "Death Note: The Last Name",
+    "kind": "movie",
+    "releaseDate": "2006-10-28",
+    "imdbId": "tt0810827",
+    "posterPath": "/zFwCNC5LfmPKBsqMuAhzcG5Jubm.jpg",
+    "overview": "In the second installment of the Death Note film franchise, Light Yagami meets a second Kira and faithful follower Misa Amane and her Shinigami named Rem. Light attempts to defeat L along with Teru Mikami (a Kira follower) and Kiyomi Takada (another Kira follower) but in the end will Light win? or will a Shinigami named Ryuk make all the difference in Light's victory or his ultimate death?",
+    "localized": {
+      "en": {
+        "title": "Death Note: The Last Name",
+        "overview": "In the second installment of the Death Note film franchise, Light Yagami meets a second Kira and faithful follower Misa Amane and her Shinigami named Rem. Light attempts to defeat L along with Teru Mikami (a Kira follower) and Kiyomi Takada (another Kira follower) but in the end will Light win? or will a Shinigami named Ryuk make all the difference in Light's victory or his ultimate death?"
+      },
+      "es": {
+        "title": "Death Note: El último nombre",
+        "overview": "La segunda película es la continuación de la primera y utiliza elementos del argumento que transcurre en Yotsuba al igual que del final de la serie. El papel de Higuchi es reemplazado por Takada, quien eventualmente es capturada de igual forma que este último."
+      }
+    },
+    "runtimeMin": 140
+  },
+  {
+    "id": "death-note-l-change-the-world-2008",
+    "tmdbId": 20329,
+    "tmdbType": "movie",
+    "title": "Death Note: L Change the WorLd",
+    "kind": "movie",
+    "releaseDate": "2008-02-07",
+    "imdbId": "tt0912597",
+    "posterPath": "/aTV14kh4YVXafBZtyNjQ2GrWsNh.jpg",
+    "overview": "\"The human whose name is written in the Death Note shall die.\" After making the hardest decision ever, another serious case confronts L. There are only 23 days left and without his best partner Watari, L has to solve the case all by himself for the very first time.",
+    "localized": {
+      "en": {
+        "title": "Death Note: L Change the WorLd",
+        "overview": "\"The human whose name is written in the Death Note shall die.\" After making the hardest decision ever, another serious case confronts L. There are only 23 days left and without his best partner Watari, L has to solve the case all by himself for the very first time."
+      },
+      "es": {
+        "title": "L: Cambiando el mundo",
+        "overview": "En algún lugar de Tailandia, Un virus creado por manos humanas hace la gente de una pequeña villa muera a causa de una horrible enfermedad en la piel (de hecho, se les derrite la piel). El virus rápidamente se convierte en el arma que todos quieren obtener en el mercado negro… pero hay un problema, el virus muta y el antídoto ya no funciona. La villa es destruida pero un pequeño niño escapa… Esta contagiado y logra huir a Tokio de una banda de Eco-Terroristas que quieren salvar al mundo usando el virus para acabar con la humanidad. En Tokio, L se promete a si mismo usar los días que le quedan de vida para proteger a este niño."
+      }
+    },
+    "runtimeMin": 128
+  },
+  {
+    "id": "death-note-light-up-the-new-world-2016",
+    "tmdbId": 382272,
+    "tmdbType": "movie",
+    "title": "Death Note: Light Up the NEW World",
+    "kind": "movie",
+    "releaseDate": "2016-10-29",
+    "imdbId": "tt5058340",
+    "posterPath": "/cDBV5mIMc8h0dsRHF43rUUk3I0O.jpg",
+    "overview": "10 years has passed since the confrontation between Kira and L. Again, Shinigami sends death notes to the ground and due to this, the world soon falls into chaos. Tsukuru is a member of the Death Note special task force team with 6 other investigators including Matsuda who experienced the Kira case of 10 years ago.  Mass murders caused by the death note takes place on Wall Street in the U.S., Shibuya in Japan and other places. World famous private investigator Ryuzaki, who is the rightful successor of L, also investigates the mass murders. They discover that 6 death notes exists in the world.  A computer virus called Kira spreads in the world. A message in the Kira virus says to turn in 6 death notes.  A person who has 6 death notes overwhelm the world. The confrontation begins between the person who wants Kira’s revival and the people who want to stop it.",
+    "localized": {
+      "en": {
+        "title": "Death Note: Light Up the NEW World",
+        "overview": "10 years has passed since the confrontation between Kira and L. Again, Shinigami sends death notes to the ground and due to this, the world soon falls into chaos. Tsukuru is a member of the Death Note special task force team with 6 other investigators including Matsuda who experienced the Kira case of 10 years ago.  Mass murders caused by the death note takes place on Wall Street in the U.S., Shibuya in Japan and other places. World famous private investigator Ryuzaki, who is the rightful successor of L, also investigates the mass murders. They discover that 6 death notes exists in the world.  A computer virus called Kira spreads in the world. A message in the Kira virus says to turn in 6 death notes.  A person who has 6 death notes overwhelm the world. The confrontation begins between the person who wants Kira’s revival and the people who want to stop it."
+      },
+      "es": {
+        "title": "Death Note: Iluminando un nuevo mundo",
+        "overview": "Diez años han pasado desde la confrontación entre Kira y L. Una vez más, los Shinigamis envían Death Notes al suelo y debido a esto, el mundo pronto cae en el caos. Tsukuru es un miembro del equipo de fuerza especial sobre la investigación de las Death Notes con otros seis investigadores, incluyendo a Matsuda que experimentó el caso de Kira hace años. El mundialmente famoso investigador privado Ryuzaki, que es el legítimo sucesor de L, también investiga los asesinatos en masa. A su vez, un virus informático llamado Kira se propaga por el mundo. El enfrentamiento comienza entre la persona que quiere el avivamiento de Kira y las personas que quieren detenerlo."
+      }
+    },
+    "runtimeMin": 134
+  },
+  {
+    "id": "death-note-2017",
+    "tmdbId": 351460,
+    "tmdbType": "movie",
+    "title": "Death Note",
+    "kind": "movie",
+    "releaseDate": "2017-08-25",
+    "imdbId": "tt1241317",
+    "posterPath": "/8xRQ0KG9ZZzjEiFa5fgEaTKhc0d.jpg",
+    "overview": "Light Turner finds a supernatural notebook and uses it to mete out death, attracting the attention of a detective, a demon and a girl in his class.",
+    "localized": {
+      "en": {
+        "title": "Death Note",
+        "overview": "Light Turner finds a supernatural notebook and uses it to mete out death, attracting the attention of a detective, a demon and a girl in his class."
+      },
+      "es": {
+        "title": "Death Note",
+        "overview": "Un adolescente encuentra un cuaderno con poderes y lo usa para matar. Ahora tiene a un detective, un demonio y una chica tras él."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "stargate-1994",
+    "tmdbId": 2164,
+    "tmdbType": "movie",
+    "title": "Stargate",
+    "kind": "movie",
+    "releaseDate": "1994-10-28",
+    "imdbId": "tt0111282",
+    "posterPath": "/4T6Po0XnZlevmhfPh3ZfEs5butR.jpg",
+    "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+    "localized": {
+      "en": {
+        "title": "Stargate",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra."
+      },
+      "es": {
+        "title": "Stargate: La puerta del tiempo",
+        "overview": "Un coronel y un científico, movidos por distintos intereses, investigan el misterioso hallazgo en unas excavaciones de un extraño artefacto al que llaman \"Puerta de las Estrellas\". Acompañados de un equipo de reconocimiento, atraviesan la Puerta y son transportados a un lejano planeta."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "stargate-sg-1-1997",
+    "tmdbId": 4629,
+    "tmdbType": "tv",
+    "title": "Stargate SG-1",
+    "kind": "series",
+    "releaseDate": "1997-07-27",
+    "imdbId": "tt0118480",
+    "posterPath": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
+    "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori.",
+    "localized": {
+      "en": {
+        "title": "Stargate SG-1",
+        "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori."
+      },
+      "es": {
+        "title": "Stargate SG-1",
+        "overview": "Stargate SG-1 es una serie televisiva estadounidense derivada del largometraje de ciencia ficción Stargate: Puerta a las Estrellas (1994). Producida por los estudios Metro Goldwyn Mayer. Esta serie se centra en las vivencias y aventuras de un equipo de militares y científicos miembros de un proyecto ultra-secreto de las Fuerzas Aéreas de los Estados Unidos, que utiliza un ingenio extraterrestre (Stargate) para desplazarse a otros planetas de manera casi instantánea."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22,
+        "airDate": "1997-07-27"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1998-06-26"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "1999-06-25"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "2000-06-30"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "2001-06-29"
+      },
+      {
+        "number": 6,
+        "episodes": 22,
+        "airDate": "2002-06-07"
+      },
+      {
+        "number": 7,
+        "episodes": 22,
+        "airDate": "2003-06-13"
+      },
+      {
+        "number": 8,
+        "episodes": 20,
+        "airDate": "2004-07-09"
+      },
+      {
+        "number": 9,
+        "episodes": 20,
+        "airDate": "2005-07-15"
+      },
+      {
+        "number": 10,
+        "episodes": 20,
+        "airDate": "2006-07-14"
+      }
+    ],
+    "runtimeMin": 9436
+  },
+  {
+    "id": "stargate-atlantis-2004",
+    "tmdbId": 2290,
+    "tmdbType": "tv",
+    "title": "Stargate Atlantis",
+    "kind": "series",
+    "releaseDate": "2004-07-15",
+    "imdbId": "tt0374455",
+    "posterPath": "/l0JYr2iqwId6VOmCV8dHzlIM6Wd.jpg",
+    "overview": "With the Ancients' city of Atlantis discovered in the Pegasus Galaxy by Stargate Command, Dr. Elizabeth Weir and Major Sheppard lead a scientific expedition to the ancient abandoned city. Once there, the team not only find themselves unable to contact Earth, but their explorations unexpectedly reawaken the Ancients' deadly enemies, The Wraith, who hunger for this new prey. Now with the help of newfound local allies like Teyla Emmagan, the Atlantis Team sets about to uncover their new home's secrets even as their war of survival against the Wraith begins.",
+    "localized": {
+      "en": {
+        "title": "Stargate Atlantis",
+        "overview": "With the Ancients' city of Atlantis discovered in the Pegasus Galaxy by Stargate Command, Dr. Elizabeth Weir and Major Sheppard lead a scientific expedition to the ancient abandoned city. Once there, the team not only find themselves unable to contact Earth, but their explorations unexpectedly reawaken the Ancients' deadly enemies, The Wraith, who hunger for this new prey. Now with the help of newfound local allies like Teyla Emmagan, the Atlantis Team sets about to uncover their new home's secrets even as their war of survival against the Wraith begins."
+      },
+      "es": {
+        "title": "Stargate Atlantis",
+        "overview": "La historia de la serie parte del final de la séptima temporada y el inicio de la octava de Stargate SG-1. Un grupo de científicos, entre los que se encuentran el Dr. Daniel Jackson, la Doctora Elizabeth Weir y el Dr. Rodney McKay, están estudiando el puesto avanzado de los Antiguos que O'Neill descubrió al final de la séptima temporada. El Dr. Jackson consigue averiguar que pasó con Atlantis: los Antiguos se la llevaron a otra galaxia, Pegaso, y tiene la dirección de donde fueron. El problema es que abrir el Stargate a otra galaxia gasta mucha energía, por lo que es posible que sea un viaje sin retorno. Sin embargo, una expedición científico-militar, la Expedición Atlantis, capitaneada por la propia Weir, decide embancarse en la aventura y parte hacia la ciudad perdida de los Antiguos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 20,
+        "airDate": "2004-07-15"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2005-07-15"
+      },
+      {
+        "number": 3,
+        "episodes": 20,
+        "airDate": "2006-07-13"
+      },
+      {
+        "number": 4,
+        "episodes": 20,
+        "airDate": "2007-09-27"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "2008-07-10"
+      }
+    ],
+    "runtimeMin": 4340
+  },
+  {
+    "id": "stargate-the-ark-of-truth-2008",
+    "tmdbId": 13001,
+    "tmdbType": "movie",
+    "title": "Stargate: The Ark of Truth",
+    "kind": "movie",
+    "releaseDate": "2008-03-11",
+    "imdbId": "tt0942903",
+    "posterPath": "/kIqsCdZBmKYuPwaDnrFYzK1gqlM.jpg",
+    "overview": "SG-1 searches for an ancient weapon which could help them defeat the Ori, and discover it may be in the Ori's own home galaxy. As the Ori prepare to send ships through to the Milky Way to attack Earth, SG-1 travels to the Ori galaxy aboard the Odyssey. The International Oversight committee have their own plans and SG-1 finds themselves in a distant galaxy fighting two powerful enemies.",
+    "localized": {
+      "en": {
+        "title": "Stargate: The Ark of Truth",
+        "overview": "SG-1 searches for an ancient weapon which could help them defeat the Ori, and discover it may be in the Ori's own home galaxy. As the Ori prepare to send ships through to the Milky Way to attack Earth, SG-1 travels to the Ori galaxy aboard the Odyssey. The International Oversight committee have their own plans and SG-1 finds themselves in a distant galaxy fighting two powerful enemies."
+      },
+      "es": {
+        "title": "Stargate: El arca de la verdad",
+        "overview": "Mientras el SG-1 busca un artefacto antiguo con el que esperan poder derrotar a los ejércitos de los Ori, descubren que más naves Ori están a punto de ser enviadas a través del SuperStargate para lanzar un asalto final sobre la Tierra. Daniel descubre que un artefacto, el Arca de la Verdad, puede estar en la galaxia Ori, y el SG-1 se embarca a bordo del Odyssey para encontrarlo y dificultar el ataque. El IOA tiene un plan propio y el SG-1 termina en una galaxia distante luchando contra dos enemigos poderosos."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "stargate-continuum-2008",
+    "tmdbId": 12914,
+    "tmdbType": "movie",
+    "title": "Stargate: Continuum",
+    "kind": "movie",
+    "releaseDate": "2008-07-29",
+    "imdbId": "tt0929629",
+    "posterPath": "/1rQUvblJHU8766FatqTtCMiRhph.jpg",
+    "overview": "Ba'al travels back in time and prevents the Stargate program from being started. SG-1 must somehow restore history.",
+    "localized": {
+      "en": {
+        "title": "Stargate: Continuum",
+        "overview": "Ba'al travels back in time and prevents the Stargate program from being started. SG-1 must somehow restore history."
+      },
+      "es": {
+        "title": "Stargate: El contínuo",
+        "overview": "Ba'al viaja atrás en el tiempo e impide que el programa Stargate se inicie. El SG-1 debe de alguna manera restaurar la historia."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "stargate-universe-2009",
+    "tmdbId": 5148,
+    "tmdbType": "tv",
+    "title": "Stargate Universe",
+    "kind": "series",
+    "releaseDate": "2009-10-02",
+    "imdbId": "tt1286039",
+    "posterPath": "/dHOaOZGUhnoRXeK9mhYeSRPh59H.jpg",
+    "overview": "The adventures of a present-day, multinational exploration team traveling on the Ancient spaceship Destiny many billions of light years distant from the Milky Way Galaxy. They evacuated there and are now trying to figure out a way to return to Earth, while simultaneously trying to explore and to survive in their unknown area of the universe.",
+    "localized": {
+      "en": {
+        "title": "Stargate Universe",
+        "overview": "The adventures of a present-day, multinational exploration team traveling on the Ancient spaceship Destiny many billions of light years distant from the Milky Way Galaxy. They evacuated there and are now trying to figure out a way to return to Earth, while simultaneously trying to explore and to survive in their unknown area of the universe."
+      },
+      "es": {
+        "title": "Stargate Universe",
+        "overview": "Soldados, científicos y civiles viajan lejos de la Tierra en una nave espacial fuera de control en esta serie de ciencia ficción derivada de 'Stargate SG-1'."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 20,
+        "airDate": "2009-10-02"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2010-09-28"
+      }
+    ],
+    "runtimeMin": 1753
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-1987",
+    "tmdbId": 160,
+    "tmdbType": "tv",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "1987-12-14",
+    "imdbId": "tt0131613",
+    "posterPath": "/AaihPizftZo5YCqzEgHMwkceaEo.jpg",
+    "overview": "Four turtles fall into the sewers and are befriended by Hamato Yoshi a Japanese man sent to New York who was forced to live in the sewers. One day he sees a strange green glow which transforms the four turtles into human-like creatures. Hamato (now Master Splinter) changes into a giant rat from the green glow and teaches the turtles the skills of the ninja as they team up with news reporter April O'Neil to battle against Yoshi's arch enemy Shredder and Krang, an alien warlord from Dimension X.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "Four turtles fall into the sewers and are befriended by Hamato Yoshi a Japanese man sent to New York who was forced to live in the sewers. One day he sees a strange green glow which transforms the four turtles into human-like creatures. Hamato (now Master Splinter) changes into a giant rat from the green glow and teaches the turtles the skills of the ninja as they team up with news reporter April O'Neil to battle against Yoshi's arch enemy Shredder and Krang, an alien warlord from Dimension X."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja",
+        "overview": "Las Tortugas Ninja nacieron en las alcantarillas de Manhattan después de que una sustancia mutagénica transformara a cuatro tortugas mascota en criaturas mitad humanas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 5,
+        "airDate": "1987-12-14"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "1988-10-01"
+      },
+      {
+        "number": 3,
+        "episodes": 47,
+        "airDate": "1989-09-25"
+      },
+      {
+        "number": 4,
+        "episodes": 39,
+        "airDate": "1990-09-10"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "1991-09-23"
+      },
+      {
+        "number": 6,
+        "episodes": 16,
+        "airDate": "1992-09-14"
+      },
+      {
+        "number": 7,
+        "episodes": 27,
+        "airDate": "1993-09-18"
+      },
+      {
+        "number": 8,
+        "episodes": 8,
+        "airDate": "1994-09-17"
+      },
+      {
+        "number": 9,
+        "episodes": 8,
+        "airDate": "1995-09-16"
+      },
+      {
+        "number": 10,
+        "episodes": 8,
+        "airDate": "1996-09-14"
+      }
+    ],
+    "runtimeMin": 4354
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-1990",
+    "tmdbId": 1498,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "movie",
+    "releaseDate": "1990-03-30",
+    "imdbId": "tt0100758",
+    "posterPath": "/shfAU6xIIEAEtsloIT3n9Fscz2E.jpg",
+    "overview": "A quartet of humanoid turtles, trained by their mentor in Ninjutsu, must learn to work together to face the menace of Shredder and the Foot Clan.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "A quartet of humanoid turtles, trained by their mentor in Ninjutsu, must learn to work together to face the menace of Shredder and the Foot Clan."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja",
+        "overview": "Después de haber sido contaminadas con una misteriosa sustancia química, llamada Ooze, cuatro tortugas mutantes, Leonardo, Miguel Ángel, Donatello y Rafael, entrenadas por su mentor en ninjitsu, el Maestro Splinter, deben aprender a trabajar juntos para enfrentar la amenaza de Shredder y el Clan del Pie."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-1991",
+    "tmdbId": 1497,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+    "kind": "movie",
+    "releaseDate": "1991-03-22",
+    "imdbId": "tt0103060",
+    "posterPath": "/Hyvvz9Z3le1is8a0EeFJQm0aSC.jpg",
+    "overview": "The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to create an army of new mutants. Meanwhile Splinter is coming... to a decision.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+        "overview": "The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to create an army of new mutants. Meanwhile Splinter is coming... to a decision."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja II: El Secreto del Ooze",
+        "overview": "Con el último bote del Oozze, Shredder quiere crear un ejército de nuevos mutantes. Así que Las Tortugas y Shredder deben luchar una vez más, junto con la periodista Abril y el joven repartidor de pizzas, Keno."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-iii-1993",
+    "tmdbId": 1499,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles III",
+    "kind": "movie",
+    "releaseDate": "1993-03-17",
+    "imdbId": "tt0108308",
+    "posterPath": "/fwX5RdPDBFsbEAXc46DrvRz5Bca.jpg",
+    "overview": "The four turtles travel back in time to the days of the legendary and deadly samurai in ancient Japan, where they train to perfect the art of becoming one. The turtles also assist a small village in an uprising.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles III",
+        "overview": "The four turtles travel back in time to the days of the legendary and deadly samurai in ancient Japan, where they train to perfect the art of becoming one. The turtles also assist a small village in an uprising."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja III: Viaje al pasado",
+        "overview": "Cuando un centro mágico transporta por accidente a Abril al Japón del siglo XVII, los chicos se lanzan en su busca y aparecen, a través de la alcantarilla, en la tierra de los samuráis. Ahora deben enfrentarse a Nortaga, el malvado Señor de la guerra, y recuperar el cetro que los transportará de vuelta a lo más profundo del metro de Nueva York."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-2003",
+    "tmdbId": 2284,
+    "tmdbType": "tv",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "2003-02-08",
+    "imdbId": "tt0318913",
+    "posterPath": "/sEb6sTxyGoguCX4fK1G0hyzyLcv.jpg",
+    "overview": "When four pet turtles were bathed in alien ooze, they began to mutate and became the Teenage Mutant Ninja Turtles. Raised in New York City sewers by their foster father and wise sensei, Master Splinter, Leonardo, Michelangelo, Donatello, and Raphael wage war against crime. Led by Master Splinter, the four turtles learn the ancient martial art of Ninjitsu, mastering skills of stealth, weapons, and fighting. They stop evildoers in all forms, whether barbaric gangs, lowlife crooks, deranged cyborgs, or even the crime syndicate The Foot, led by their archrival, The Shredder.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "When four pet turtles were bathed in alien ooze, they began to mutate and became the Teenage Mutant Ninja Turtles. Raised in New York City sewers by their foster father and wise sensei, Master Splinter, Leonardo, Michelangelo, Donatello, and Raphael wage war against crime. Led by Master Splinter, the four turtles learn the ancient martial art of Ninjitsu, mastering skills of stealth, weapons, and fighting. They stop evildoers in all forms, whether barbaric gangs, lowlife crooks, deranged cyborgs, or even the crime syndicate The Foot, led by their archrival, The Shredder."
+      },
+      "es": {
+        "title": "Tortugas Ninjas Mutantes Adolescentes",
+        "overview": "Leonardo, Raphael, Michaelangelo y Donatello deben salvar la ciudad de Nueva York del malvado señor del crimen Shredder y su asistente, Baxter Stockman. Las tortugas deben luchar contra los soldados de infantería, los ratones y las pandillas y obtener ayuda de su sensai Splinter, su amiga April O'Neil y su compañero Casey Jones en una nueva serie llena de acción."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2003-02-08"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2003-11-08"
+      },
+      {
+        "number": 3,
+        "episodes": 26,
+        "airDate": "2004-10-09"
+      },
+      {
+        "number": 4,
+        "episodes": 25,
+        "airDate": "2005-09-10"
+      },
+      {
+        "number": 5,
+        "episodes": 12,
+        "airDate": "2008-02-16"
+      },
+      {
+        "number": 6,
+        "episodes": 26,
+        "airDate": "2006-07-29"
+      },
+      {
+        "number": 7,
+        "episodes": 13,
+        "airDate": "2008-09-13"
+      }
+    ],
+    "runtimeMin": 3241
+  },
+  {
+    "id": "tmnt-2007",
+    "tmdbId": 1273,
+    "tmdbType": "movie",
+    "title": "TMNT",
+    "kind": "movie",
+    "releaseDate": "2007-03-23",
+    "imdbId": "tt0453556",
+    "posterPath": "/poi1xctCgyzTRkNwiVYp6auQNhj.jpg",
+    "overview": "After the defeat of their old arch nemesis, The Shredder, the Turtles have grown apart as a family. Struggling to keep them together, their rat sensei, Splinter, becomes worried when strange things begin to brew in New York City.",
+    "localized": {
+      "en": {
+        "title": "TMNT",
+        "overview": "After the defeat of their old arch nemesis, The Shredder, the Turtles have grown apart as a family. Struggling to keep them together, their rat sensei, Splinter, becomes worried when strange things begin to brew in New York City."
+      },
+      "es": {
+        "title": "TMNT: Las Tortugas Ninja",
+        "overview": "Después de la derrota de su antiguo archienemigo, Shredder, las Tortugas se han distanciado como familia. Pero una vez que las tortugas se volvieron a juntarse, comienzan a suceder extrañas sucesos en la ciudad de Nueva York."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-2012",
+    "tmdbId": 51817,
+    "tmdbType": "tv",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "2012-09-28",
+    "imdbId": "tt1877889",
+    "posterPath": "/n0DN6kJf0kGeuNFUYLT6eZe5ERR.jpg",
+    "overview": "The Teenage Mutant Ninja Turtles are back in an all-new animated series on Nickelodeon! Surfacing topside for the first time on their fifteenth birthday, the titular turtles, Leonardo, Michelangelo, Raphael and Donatello, find that life out of the sewers isn't exactly what they thought it would be. Now the turtles must work together as a team to take on new enemies that arise to take over New York City.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "The Teenage Mutant Ninja Turtles are back in an all-new animated series on Nickelodeon! Surfacing topside for the first time on their fifteenth birthday, the titular turtles, Leonardo, Michelangelo, Raphael and Donatello, find that life out of the sewers isn't exactly what they thought it would be. Now the turtles must work together as a team to take on new enemies that arise to take over New York City."
+      },
+      "es": {
+        "title": "Las Tortugas Ninja",
+        "overview": "Leo, Rafa, Mikey y Donnie son tortugas mutantes que han sido entrenadas por el Maestro Splinter. Viven en su guarida de las alcantarillas y emergen para luchar contra los villanos y para comerse la pizza más deliciosa del mundo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2012-09-28"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2013-10-12"
+      },
+      {
+        "number": 3,
+        "episodes": 26,
+        "airDate": "2014-10-03"
+      },
+      {
+        "number": 4,
+        "episodes": 26,
+        "airDate": "2015-10-25"
+      },
+      {
+        "number": 5,
+        "episodes": 20,
+        "airDate": "2017-03-19"
+      }
+    ],
+    "runtimeMin": 2758
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-2014",
+    "tmdbId": 98566,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles",
+    "kind": "movie",
+    "releaseDate": "2014-08-07",
+    "imdbId": "tt1291150",
+    "posterPath": "/azL2ThbJMIkts3ZMt3j1YgBUeDB.jpg",
+    "overview": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles",
+        "overview": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home."
+      },
+      "es": {
+        "title": "Tortugas Ninja",
+        "overview": "Shredder y el Clan del Pie dominan las calles de Nueva York. Pero, cuatro tortugas mutantes (Leonardo, Michelangelo, Donatello y Raphael) saldrán de las alcantarillas para salvar la ciudad, junto con la reportera Abril O'Neil y su compañero Vern Fenwick."
+      }
+    },
+    "runtimeMin": 101
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-out-of-the-shadows-2016",
+    "tmdbId": 308531,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+    "kind": "movie",
+    "releaseDate": "2016-05-30",
+    "imdbId": "tt3949660",
+    "posterPath": "/euVaCiCWz3AALcQXHT6aUqdGUo6.jpg",
+    "overview": "After supervillain Shredder escapes custody, he joins forces with mad scientist Baxter Stockman and two dimwitted henchmen, Bebop and Rocksteady, to unleash a diabolical plan to take over the world. As the Turtles prepare to take on Shredder and his new crew, they find themselves facing an even greater evil with similar intentions: the notorious Krang.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+        "overview": "After supervillain Shredder escapes custody, he joins forces with mad scientist Baxter Stockman and two dimwitted henchmen, Bebop and Rocksteady, to unleash a diabolical plan to take over the world. As the Turtles prepare to take on Shredder and his new crew, they find themselves facing an even greater evil with similar intentions: the notorious Krang."
+      },
+      "es": {
+        "title": "Tortugas Ninja 2: Fuera de las sombras",
+        "overview": "Las Tortugas, junto con Abril O’Neil y el nuevo vigilante enmascarado Casey Jones, deben detener un plan diabólico en desarrollo después que Shredder logra escapar de la cárcel."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "rise-of-the-teenage-mutant-ninja-turtles-2018",
+    "tmdbId": 81026,
+    "tmdbType": "tv",
+    "title": "Rise of the Teenage Mutant Ninja Turtles",
+    "kind": "series",
+    "releaseDate": "2018-07-20",
+    "imdbId": "tt6601082",
+    "posterPath": "/4LZxcn6nWG1yWBKG0RD98HY13b4.jpg",
+    "overview": "Rise up! The Teenage Mutant Ninja Turtles get an all-new look, new weapons, and awesome new powers! Join the legendary heroes, Raph, Leo, Donnie and Mikey as these brothers discover a Hidden City beneath New York, learn amazing mystic ninja skills, battle absurd mutants… and always find time for a slice of their favorite pizza! Cowabunga!",
+    "localized": {
+      "en": {
+        "title": "Rise of the Teenage Mutant Ninja Turtles",
+        "overview": "Rise up! The Teenage Mutant Ninja Turtles get an all-new look, new weapons, and awesome new powers! Join the legendary heroes, Raph, Leo, Donnie and Mikey as these brothers discover a Hidden City beneath New York, learn amazing mystic ninja skills, battle absurd mutants… and always find time for a slice of their favorite pizza! Cowabunga!"
+      },
+      "es": {
+        "title": "El ascenso de las Tortugas Ninja",
+        "overview": "Los hermanos tortuga tienen por objetivo cumplir su destino como superhéroes. Aprovechando sus poderes ninja, descubren un mundo lleno de magia, villanos y problemas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 46,
+        "airDate": "2018-07-20"
+      },
+      {
+        "number": 2,
+        "episodes": 24,
+        "airDate": "2019-10-12"
+      }
+    ],
+    "runtimeMin": 886
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-mutant-mayhem-2023",
+    "tmdbId": 614930,
+    "tmdbType": "movie",
+    "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+    "kind": "movie",
+    "releaseDate": "2023-07-31",
+    "imdbId": "tt8589698",
+    "posterPath": "/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
+    "overview": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
+    "localized": {
+      "en": {
+        "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+        "overview": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them."
+      },
+      "es": {
+        "title": "Tortugas Ninja: Caos mutante",
+        "overview": "Tras años aislados del mundo humano, los hermanos Tortuga se propusieron conquistar el corazón de los neoyorquinos y ser aceptados como adolescentes normales mediante actos heroicos. Su nueva amiga April O'Neil los ayudó a enfrentarse a un misterioso sindicato del crimen, pero pronto se vieron superados por un ejército de mutantes que los asaltaba."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "battlestar-galactica-1978",
+    "tmdbId": 501,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica",
+    "kind": "series",
+    "releaseDate": "1978-09-17",
+    "imdbId": "tt0076984",
+    "posterPath": "/27jl4H9PauenZlmVBbOO1pr1lGf.jpg",
+    "overview": "When the 12 Colonies of Man are wiped out by a cybernetic race called the Cylons, Commander Adama and the crew of the battlestar Galactica lead a ragtag fleet of human survivors in search of a \"mythical planet\" called Earth.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica",
+        "overview": "When the 12 Colonies of Man are wiped out by a cybernetic race called the Cylons, Commander Adama and the crew of the battlestar Galactica lead a ragtag fleet of human survivors in search of a \"mythical planet\" called Earth."
+      },
+      "es": {
+        "title": "Battlestar Galactica",
+        "overview": "Cuando las 12 Colonias del Hombre son aniquiladas por una raza cibernética llamada los Cylon, el Comandante Adama y la tripulación de la estrella de combate Galactica lideran una variopinta flota de supervivientes humanos en busca de un «planeta mítico» llamado Tierra."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 21,
+        "airDate": "1978-09-17"
+      }
+    ],
+    "runtimeMin": 1121
+  },
+  {
+    "id": "galactica-1980",
+    "tmdbId": 4621,
+    "tmdbType": "tv",
+    "title": "Galactica 1980",
+    "kind": "series",
+    "releaseDate": "1980-01-27",
+    "imdbId": "tt0080221",
+    "posterPath": "/spBhYAvmJnP6wSxT1omQn7TZwoY.jpg",
+    "overview": "30 years after the original Battlestar Galactica series. Upon reaching Earth, the inhabitants of the renegade starfleet take action when they realize earthlings aren't advanced enough to help battle the Cylons.",
+    "localized": {
+      "en": {
+        "title": "Galactica 1980",
+        "overview": "30 years after the original Battlestar Galactica series. Upon reaching Earth, the inhabitants of the renegade starfleet take action when they realize earthlings aren't advanced enough to help battle the Cylons."
+      },
+      "es": {
+        "title": "Galactica 1980"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "1980-01-27"
+      }
+    ],
+    "runtimeMin": 490
+  },
+  {
+    "id": "battlestar-galactica-2003",
+    "tmdbId": 71365,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica",
+    "kind": "series",
+    "releaseDate": "2003-12-08",
+    "imdbId": "tt0314979",
+    "posterPath": "/imTQ4nBdA68TVpLaWhhQJnb7NQh.jpg",
+    "overview": "A re-imagining of the original series in which a \"rag-tag fugitive fleet\" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica",
+        "overview": "A re-imagining of the original series in which a \"rag-tag fugitive fleet\" of the last remnants of mankind flees pursuing robots while simultaneously searching for their true home, Earth."
+      },
+      "es": {
+        "title": "Battlestar Galactica: La Miniserie",
+        "overview": "En una galaxia lejana residen \"Las doce colonias\" de hombres, una civilización que ha permanecido en paz durante más de 40 años con unas máquinas, los Cyclons, creadas por generaciones de hombres años atrás. Remake de una serie de TV de 1978, y que a su vez dio lugar a otra serie de TV en el año 2004 de mismo nombre."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 2,
+        "airDate": "2003-12-08"
+      }
+    ],
+    "runtimeMin": 185
+  },
+  {
+    "id": "battlestar-galactica-2004",
+    "tmdbId": 1972,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica",
+    "kind": "series",
+    "releaseDate": "2004-10-18",
+    "imdbId": "tt0407362",
+    "posterPath": "/99PJSbcO2LeM10uOGWeFihNp77j.jpg",
+    "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica",
+        "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth."
+      },
+      "es": {
+        "title": "Battlestar Galactica",
+        "overview": "Reinvención de la serie con el mismo nombre de 1978, creada por Glen A. Larson. La historia se sitúa en un sistema lejano del universo, donde la civilización humana vive en un grupo de planetas conocidos como las doce Colonias. En el pasado estuvieron en guerra contra los Cylon, una raza cibernética creada por ellos mismos. Inesperadamente ese viejo enemigo reaparece lanzando un ataque que devasta a casi toda la población humana de los planetas. Battlestar Galactica parece ser la única nave superviviente de la Flota Colonial. Así, bajo el liderazgo del comandante William \"Bill\" Adama y la nueva presidenta, Laura Roslin, la tripulación de Battlestar Galactica asume la tarea de guiar a lo que queda de la raza humana por el espacio, en busca de un refugio legendario, conocido como Tierra."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2004-10-18"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2005-07-15"
+      },
+      {
+        "number": 3,
+        "episodes": 20,
+        "airDate": "2006-10-06"
+      },
+      {
+        "number": 4,
+        "episodes": 20,
+        "airDate": "2008-04-04"
+      }
+    ],
+    "runtimeMin": 3285
+  },
+  {
+    "id": "battlestar-galactica-razor-2007",
+    "tmdbId": 69315,
+    "tmdbType": "movie",
+    "title": "Battlestar Galactica: Razor",
+    "kind": "movie",
+    "releaseDate": "2007-11-12",
+    "imdbId": "tt0991178",
+    "posterPath": "/tO3EoFJj0FJjKelDW5SUtquDIy2.jpg",
+    "overview": "The history and adventures of the Battlestar Pegasus, from shortly before the Cylon invasion to shortly after Lee Adama is made commander. The story is told through the eyes of and largely focuses on one particular member of Pegasus's crew, Kendra Shaw.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica: Razor",
+        "overview": "The history and adventures of the Battlestar Pegasus, from shortly before the Cylon invasion to shortly after Lee Adama is made commander. The story is told through the eyes of and largely focuses on one particular member of Pegasus's crew, Kendra Shaw."
+      },
+      "es": {
+        "title": "Battlestar Galactica: Razor",
+        "overview": "Situada entre la 3er y 4ta temporada de la serie Battlestar Galactica Razor explora los eventos a bordo de la nave Pegasus. Sigue a Kendra Shaw, una oficial bajo el mando de la almirante Helena Cain, mientras enfrenta decisiones extremas para sobrevivir tras el ataque cylon. A través de flashbacks, se muestra cómo Cain transforma a su tripulación en soldados despiadados y revela secretos cylons, como la creación del primer híbrido humano-cylon. La película aborda temas de moralidad y sacrificio en tiempos de guerra."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "battlestar-galactica-the-plan-2009",
+    "tmdbId": 105077,
+    "tmdbType": "movie",
+    "title": "Battlestar Galactica: The Plan",
+    "kind": "movie",
+    "releaseDate": "2009-10-27",
+    "imdbId": "tt1286130",
+    "posterPath": "/vwtHIRwwASCiX0Ku487DY7YZrag.jpg",
+    "overview": "When the initial Cylon attack against the Twelve Colonies fails to achieve complete extermination of human life as planned, twin Number Ones (Cavils) embedded on Galactica and Caprica must improvise to destroy the human survivors.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica: The Plan",
+        "overview": "When the initial Cylon attack against the Twelve Colonies fails to achieve complete extermination of human life as planned, twin Number Ones (Cavils) embedded on Galactica and Caprica must improvise to destroy the human survivors."
+      },
+      "es": {
+        "title": "Battlestar Galactica: The Plan",
+        "overview": "\"Battlestar Galactica: The Plan\" es una película de 2009 que ofrece una perspectiva desde el punto de vista de los Cylons sobre los eventos ocurridos en la serie principal. La trama se centra en los modelos Número Uno, conocidos como Cavil, quienes lideran el ataque genocida contra las Doce Colonias humanas. Tras el fracaso en la completa exterminación de la humanidad, los Cavils implementan planes encubiertos para infiltrarse y sabotear a los sobrevivientes, explorando las motivaciones y conflictos internos de los Cylons en su intento por aniquilar a la raza humana."
+      }
+    },
+    "runtimeMin": 112
+  },
+  {
+    "id": "caprica-2010",
+    "tmdbId": 877,
+    "tmdbType": "tv",
+    "title": "Caprica",
+    "kind": "series",
+    "releaseDate": "2010-01-22",
+    "imdbId": "tt0799862",
+    "posterPath": "/wGCdHYsx0aY5Z5236XTC6JQMpNn.jpg",
+    "overview": "Set 58 years before Battlestar Galactica, Caprica follows two rival families - the Graystones and the Adamas - as they grow, compete, and thrive in the vibrant world of the peaceful 12 Colonies, living in a society close to our own. Entangled in the burgeoning technology of artificial intelligence and robotics that will eventually lead to the creation of the Cylons, the two houses go toe-to-toe, blending action with corporate conspiracy and sexual politics.",
+    "localized": {
+      "en": {
+        "title": "Caprica",
+        "overview": "Set 58 years before Battlestar Galactica, Caprica follows two rival families - the Graystones and the Adamas - as they grow, compete, and thrive in the vibrant world of the peaceful 12 Colonies, living in a society close to our own. Entangled in the burgeoning technology of artificial intelligence and robotics that will eventually lead to the creation of the Cylons, the two houses go toe-to-toe, blending action with corporate conspiracy and sexual politics."
+      },
+      "es": {
+        "title": "Caprica",
+        "overview": "Seriado que antecede la serie \"Battlestar Galactica\" y gira en torno a la inteligencia artificial, la responsabilidad corporativa y la rivalidad entre las familias Graystone y Adama."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 18,
+        "airDate": "2010-01-22"
+      }
+    ],
+    "runtimeMin": 787
+  },
+  {
+    "id": "battlestar-galactica-blood-and-chrome-2012",
+    "tmdbId": 33240,
+    "tmdbType": "tv",
+    "title": "Battlestar Galactica: Blood & Chrome",
+    "kind": "series",
+    "releaseDate": "2012-11-09",
+    "imdbId": "tt1704292",
+    "posterPath": "/fuHuvxnfcPXZauX1Pm7qwmc9k5L.jpg",
+    "overview": "The first Cylon war has been raging for 10 years and a young Ensign William Adama joins the fleet. He's disappointed not to be assigned to a fighter but to a freighter. His co-pilot, Lt. Coker Fasjovic, isn't too keen on having a rookie flying his aircraft as he has only a short time before he again becomes a civilian. Their cargo is a civilian scientist, Dr. Becca Kelly, but they no sooner leave than she has new orders for them and a new destination. She is less than forthcoming about just what her secret mission is but Adama is keen, particularly as it involves going into Cylon controlled space. Nothing is as it seems however.",
+    "localized": {
+      "en": {
+        "title": "Battlestar Galactica: Blood & Chrome",
+        "overview": "The first Cylon war has been raging for 10 years and a young Ensign William Adama joins the fleet. He's disappointed not to be assigned to a fighter but to a freighter. His co-pilot, Lt. Coker Fasjovic, isn't too keen on having a rookie flying his aircraft as he has only a short time before he again becomes a civilian. Their cargo is a civilian scientist, Dr. Becca Kelly, but they no sooner leave than she has new orders for them and a new destination. She is less than forthcoming about just what her secret mission is but Adama is keen, particularly as it involves going into Cylon controlled space. Nothing is as it seems however."
+      },
+      "es": {
+        "title": "Battlestar Galactica: Blood & Chrome"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2012-11-09"
+      }
+    ],
+    "runtimeMin": 94
+  },
+  {
+    "id": "nausicaa-of-the-valley-of-the-wind-1984",
+    "tmdbId": 81,
+    "tmdbType": "movie",
+    "title": "Warriors of the Wind",
+    "kind": "movie",
+    "releaseDate": "1984-03-11",
+    "imdbId": "tt0087544",
+    "posterPath": "/tcrkfB8SRPQCgwI88hQScua6nxh.jpg",
+    "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth.",
+    "localized": {
+      "en": {
+        "title": "Warriors of the Wind",
+        "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth."
+      },
+      "es": {
+        "title": "Nausicaä del Valle del Viento",
+        "overview": "En un futuro lejano, mil años después de una guerra de carácter apocalíptico, la Tierra aparece cubierta de bosques plagados de hongos venenosos y de insectos gigantescos. Los hombres han sido diezmados; los supervivientes viven en algunos poblados aislados y sobreviven a duras penas en las cercanías de un bosque contaminado con gases tóxicos e insectos mutantes gigantes, que cubren gran parte de la Tierra. Nausicaä es la princesa de El Valle de Viento, un reino minúsculo, rodeado de reinos más poderosos y hostiles. Es una guerrera que sabe pilotar naves, pero es también compasiva, tanto que se resiste a ver a los insectos como enemigos, sobre todo a los Ohms, artrópodos gigantescos y temibles por los que siente una extraña simpatía. La crisis estalla cuando el reino vecino de Tolmekia, encabezado por la princesa Kushana, invade El Valle del Viento."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "castle-in-the-sky-1986",
+    "tmdbId": 10515,
+    "tmdbType": "movie",
+    "title": "Castle in the Sky",
+    "kind": "movie",
+    "releaseDate": "1986-08-02",
+    "imdbId": "tt0092067",
+    "posterPath": "/41XxSsJc5OrulP0m7TrrUeO2hoz.jpg",
+    "overview": "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle.",
+    "localized": {
+      "en": {
+        "title": "Castle in the Sky",
+        "overview": "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle."
+      },
+      "es": {
+        "title": "El castillo en el cielo",
+        "overview": "En esta aventura infantil, un joven minero y una misteriosa chica buscan una isla perdida que, según la leyenda, oculta grandes riquezas."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "grave-of-the-fireflies-1988",
+    "tmdbId": 12477,
+    "tmdbType": "movie",
+    "title": "Grave of the Fireflies",
+    "kind": "movie",
+    "releaseDate": "1988-04-16",
+    "imdbId": "tt0095327",
+    "posterPath": "/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
+    "localized": {
+      "en": {
+        "title": "Grave of the Fireflies",
+        "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive."
+      },
+      "es": {
+        "title": "La Tumba de las Luciérnagas",
+        "overview": "Centrada en la ciudad de Kōbe, Japón, narra la dura historia de dos hermanos, Seita y Setsuko, y de su lucha desesperada por sobrevivir durante los últimos meses de la Segunda Guerra Mundial."
+      }
+    },
+    "runtimeMin": 89
+  },
+  {
+    "id": "my-neighbor-totoro-1988",
+    "tmdbId": 8392,
+    "tmdbType": "movie",
+    "title": "My Neighbor Totoro",
+    "kind": "movie",
+    "releaseDate": "1988-04-16",
+    "imdbId": "tt0096283",
+    "posterPath": "/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+    "overview": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+    "localized": {
+      "en": {
+        "title": "My Neighbor Totoro",
+        "overview": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her."
+      },
+      "es": {
+        "title": "Mi vecino Totoro",
+        "overview": "Dos chicas jóvenes, Mei y Satsuki, se mudan a una nueva casa cerca del hospital en el que se encuentra su madre. En el patio junto a la casa ,existe un gran árbol que es el hogar de tres Totoros, dioses de la selva. Poco después, reciben noticias desde el hospital de que su madre no puede venir a casa como había prometido, por lo que Mei (la más joven) se escapa para ir a visitarla. Satsuki tiene que recurrir a un Totoro para ayudar a encontrarla."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "kikis-delivery-service-1989",
+    "tmdbId": 16859,
+    "tmdbType": "movie",
+    "title": "Kiki's Delivery Service",
+    "kind": "movie",
+    "releaseDate": "1989-07-29",
+    "imdbId": "tt0097814",
+    "posterPath": "/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg",
+    "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+    "localized": {
+      "en": {
+        "title": "Kiki's Delivery Service",
+        "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service."
+      },
+      "es": {
+        "title": "Kiki: Entregas a Domicilio",
+        "overview": "Kiki no es una niña como otra cualquiera porque es aprendiz de bruja. Con solo 13 años y por tradición del oficio que está aprendiendo, la niña tiene que abandonar la casa de sus padres y buscar algún sitio donde sean necesarios sus servicios de bruja. Para emprender el viaje, Kiki se acompaña de su amigo Jiji y también de su gato; juntos, y sobre una escoba voladora, los amigos se instalan en un pueblecito que da al mar, donde la niña empezará a conocerse verdaderamente a sí misma."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "only-yesterday-1991",
+    "tmdbId": 15080,
+    "tmdbType": "movie",
+    "title": "Only Yesterday",
+    "kind": "movie",
+    "releaseDate": "1991-07-20",
+    "imdbId": "tt0102587",
+    "posterPath": "/tOSnFE9e82iH3ZAzSTtuOkBsabJ.jpg",
+    "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
+    "localized": {
+      "en": {
+        "title": "Only Yesterday",
+        "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
+      },
+      "es": {
+        "title": "Recuerdos del ayer",
+        "overview": "Taeko Okajima es una joven de que pide permiso de vacaciones para poder regresar a casa a Yamagata, el pueblo de su cuñada, y donde de niña vivió los momentos mas felices de toda su vida. En el transcurso de su viaje a a la granja de sus familiares y a su posterior residencia, Taeko ira recordando su pasado en el colegio, mientras vive intensamente su presente, sin saber bien qué hacer con su vida y si acceder a las presiones de la familia para casarse con el granjero Toshio con el que le une un poderoso afecto."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "porco-rosso-1992",
+    "tmdbId": 11621,
+    "tmdbType": "movie",
+    "title": "Porco Rosso",
+    "kind": "movie",
+    "releaseDate": "1992-07-18",
+    "imdbId": "tt0104652",
+    "posterPath": "/8mIvSvnVBApfORL9N6S38Q7wD6A.jpg",
+    "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
+    "localized": {
+      "en": {
+        "title": "Porco Rosso",
+        "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina."
+      },
+      "es": {
+        "title": "Porco Rosso",
+        "overview": "Periodo de entreguerras. Porco es un cerdo aviador que frustra todos los actos de piratería perpetrados por los piratas aéreos del Adriático. Éstos, decididos a acabar con el valiente y hábil aviador, se ponen de acuerdo para contratar a un aventurero americano cuya misión será eliminarlo."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "pom-poko-1994",
+    "tmdbId": 15283,
+    "tmdbType": "movie",
+    "title": "Pom Poko",
+    "kind": "movie",
+    "releaseDate": "1994-07-16",
+    "imdbId": "tt0110008",
+    "posterPath": "/gyoJmFf24MOUc4TTu97sd0cHIQF.jpg",
+    "overview": "The Raccoons of the Tama Hills are being forced from their homes by the rapid development of houses and shopping malls. As it becomes harder to find food and shelter, they decide to band together and fight back. The Raccoons practice and perfect the ancient art of transformation until they are even able to appear as humans in hilarious circumstances.",
+    "localized": {
+      "en": {
+        "title": "Pom Poko",
+        "overview": "The Raccoons of the Tama Hills are being forced from their homes by the rapid development of houses and shopping malls. As it becomes harder to find food and shelter, they decide to band together and fight back. The Raccoons practice and perfect the ancient art of transformation until they are even able to appear as humans in hilarious circumstances."
+      },
+      "es": {
+        "title": "La Guerra de los Mapaches",
+        "overview": "Ante la inminente destrucción de un frondoso bosque cercano a una ciudad, cuyos dirigentes quieren construir en su lugar una urbanización, los mapaches que viven en el bosque intentarán sabotear la operación para así conservar sus hogares."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "whisper-of-the-heart-1995",
+    "tmdbId": 37797,
+    "tmdbType": "movie",
+    "title": "Whisper of the Heart",
+    "kind": "movie",
+    "releaseDate": "1995-07-15",
+    "imdbId": "tt0113824",
+    "posterPath": "/5FROLD8zpWFs9ja7aYho1uOMJHg.jpg",
+    "overview": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: \"Seiji Amasawa.\"",
+    "localized": {
+      "en": {
+        "title": "Whisper of the Heart",
+        "overview": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: \"Seiji Amasawa.\""
+      },
+      "es": {
+        "title": "Susurros del Corazón",
+        "overview": "Shizuku Tsukishima es una chica que le encanta leer. Su padre trabaja en una biblioteca, y ella a veces traduce canciones occidentales al jápones. Es entonces cuando se da cuenta de que, en las tarjetas de los libros de la biblioteca, Seiji Amasawa aparece antes que ella, y se empieza a imaginar como será el chico que se leyo los mismos libros antes que ella. Es entonces cuando por seguir a un gato llega a una bonita tienda, el nieto del tendero es ese tal Seiji, comenzará así una historia de amor, con dificultades ya que ella no se siente segura de lo que va a ser en la vida mientras que Seiji quiere viajar para realizar su sueño de convertirse en un artesano de violines."
+      }
+    },
+    "runtimeMin": 111
+  },
+  {
+    "id": "princess-mononoke-1997",
+    "tmdbId": 128,
+    "tmdbType": "movie",
+    "title": "Princess Mononoke",
+    "kind": "movie",
+    "releaseDate": "1997-07-12",
+    "imdbId": "tt0119698",
+    "posterPath": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+    "overview": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+    "localized": {
+      "en": {
+        "title": "Princess Mononoke",
+        "overview": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict."
+      },
+      "es": {
+        "title": "La princesa Mononoke",
+        "overview": "Tras sufrir el ataque de un monstruoso jabalí maldito, el joven Ashitaka emprende el camino en busca de la cura que detenga la infección. Mientras, los humanos están acabando con los bosques y los dioses convertidos en temibles bestias hacen todo lo posible por protegerlo encabezados por Mononoke, una princesa guerrera. Ashikata deberá escoger bando y decidir si ayudar a los hombres o las deidades intentando detener la maldición de su herida que se extiende por su cuerpo sin cuartel."
+      }
+    },
+    "runtimeMin": 134
+  },
+  {
+    "id": "my-neighbors-the-yamadas-1999",
+    "tmdbId": 16198,
+    "tmdbType": "movie",
+    "title": "My Neighbors the Yamadas",
+    "kind": "movie",
+    "releaseDate": "1999-07-17",
+    "imdbId": "tt0206013",
+    "posterPath": "/nj0ijnOozQtu52r0ncut769G1FX.jpg",
+    "overview": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humorous to the heartbreaking, we see this family cope with life's little conflicts, problems, and joys in their own way.",
+    "localized": {
+      "en": {
+        "title": "My Neighbors the Yamadas",
+        "overview": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humorous to the heartbreaking, we see this family cope with life's little conflicts, problems, and joys in their own way."
+      },
+      "es": {
+        "title": "Mis vecinos los Yamada",
+        "overview": "Basada en el famoso manga de Hisachi Ishii, esta película cuenta pequeñas e imaginativas historias de la vida diaria de una típica familia de clase media de Tokyo. Los Yamada son Takashi y Matsuko (el padre y la madre), Shige (la suegra), Noboru (el hijo), Nonoko (la hija) y Pochi (el perro de la familia)."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "spirited-away-2001",
+    "tmdbId": 129,
+    "tmdbType": "movie",
+    "title": "Spirited Away",
+    "kind": "movie",
+    "releaseDate": "2001-07-20",
+    "imdbId": "tt0245429",
+    "posterPath": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "localized": {
+      "en": {
+        "title": "Spirited Away",
+        "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family."
+      },
+      "es": {
+        "title": "El viaje de Chihiro",
+        "overview": "Durante la mudanza de su familia a los suburbios, una huraña niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "the-cat-returns-2002",
+    "tmdbId": 15370,
+    "tmdbType": "movie",
+    "title": "The Cat Returns",
+    "kind": "movie",
+    "releaseDate": "2002-07-19",
+    "imdbId": "tt0347618",
+    "posterPath": "/pqyY7IEWkCWNZ7EuRStQaJITEta.jpg",
+    "overview": "Young Haru rescues a cat from being run over, but soon learns it's no ordinary feline; it happens to be the Prince of the Cats.",
+    "localized": {
+      "en": {
+        "title": "The Cat Returns",
+        "overview": "Young Haru rescues a cat from being run over, but soon learns it's no ordinary feline; it happens to be the Prince of the Cats."
+      },
+      "es": {
+        "title": "El regreso del gato",
+        "overview": "Esta es la historia de Haru, una joven cuya suerte cambiará un día al volver del instituto, cuando salvará a un gato de ser atropellado por un camión. Pero no es un gato común, es Lune, el Príncipe del Reino de los Gatos. En recompensa por su acción, Haru será invitada a pasar un tiempo en el Reino de los Gatos, aunque no es lo que ella esperaba...."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "howls-moving-castle-2004",
+    "tmdbId": 4935,
+    "tmdbType": "movie",
+    "title": "Howl's Moving Castle",
+    "kind": "movie",
+    "releaseDate": "2004-09-09",
+    "imdbId": "tt0347149",
+    "posterPath": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+    "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
+    "localized": {
+      "en": {
+        "title": "Howl's Moving Castle",
+        "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king."
+      },
+      "es": {
+        "title": "El increíble castillo vagabundo",
+        "overview": "Sophie es una joven de 18 años que trabaja sin descanso en la tienda de sombreros de la familia. En uno de sus frecuentes paseos conoce al enigmático mago Howl, lo que despierta la ira de la Bruja Calamidad, que odia a Howl con todas sus fuerzas. Cuando Sophie vuelve a la tienda, la Bruja se hace pasar por una clienta para acercarse a ella y lanzarle un hechizo… ¡que convierte a Sophie en una anciana de 90 años! Sophie, que no puede revelar su auténtica identidad, recurre a Howl para buscar una solución a su problema. Para ello se embarca en un viaje fantástico en el castillo ambulante del mago, habitado por personajes de lo más curiosos. Sophie necesita ayuda pero quizás sea Howl el que realmente está en apuros."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "tales-from-earthsea-2006",
+    "tmdbId": 37933,
+    "tmdbType": "movie",
+    "title": "Tales from Earthsea",
+    "kind": "movie",
+    "releaseDate": "2006-07-29",
+    "imdbId": "tt0495596",
+    "posterPath": "/y0VnJt4eRPMjA1hpJ8f1EFoVaSf.jpg",
+    "overview": "As crops dwindle and dragons reappear, mankind stands on the verge of total chaos. Lord Archmage Sparrowhawk, a powerful wizard, and Arren, a troubled young prince, search for the force behind this mysterious imbalance that threatens to destroy the land of Earthsea.",
+    "localized": {
+      "en": {
+        "title": "Tales from Earthsea",
+        "overview": "As crops dwindle and dragons reappear, mankind stands on the verge of total chaos. Lord Archmage Sparrowhawk, a powerful wizard, and Arren, a troubled young prince, search for the force behind this mysterious imbalance that threatens to destroy the land of Earthsea."
+      },
+      "es": {
+        "title": "Cuentos de Terramar",
+        "overview": "Arren tenía una vida tranquila como príncipe de Enlad, pero ahora que se encuentra en el exilio es constantemente perseguido por una misteriosa sombra que conoce sus debilidades. Cuando se da cuenta de que el equilibrio del mundo se ha roto por culpa de una bruja, pide la ayuda de Gavilán, el mago más poderoso de las islas de Terramar. Juntos emprenderán un viaje fascinante en el que unirán su destino al de una joven maltratada por el pasado. La batalla contra las fuerzas del mal les espera."
+      }
+    },
+    "runtimeMin": 116
+  },
+  {
+    "id": "ponyo-2008",
+    "tmdbId": 12429,
+    "tmdbType": "movie",
+    "title": "Ponyo",
+    "kind": "movie",
+    "releaseDate": "2008-07-19",
+    "imdbId": "tt0876563",
+    "posterPath": "/yp8vEZflGynlEylxEesbYasc06i.jpg",
+    "overview": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea.",
+    "localized": {
+      "en": {
+        "title": "Ponyo",
+        "overview": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea."
+      },
+      "es": {
+        "title": "Ponyo y el secreto de la sirenita",
+        "overview": "La historia se centra en Sosuke, un niño de 5 años, y su relación con una princesa pez que ansía convertirse en un ser humano. Libre adaptación de \"La sirenita\" que obtuvo muy buena acogida de la crítica en el Festival de Venecia 2008."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "arrietty-2010",
+    "tmdbId": 51739,
+    "tmdbType": "movie",
+    "title": "Arrietty",
+    "kind": "movie",
+    "releaseDate": "2010-07-16",
+    "imdbId": "tt1568921",
+    "posterPath": "/3lSRaSjDp2nkXMQkzzjpRi3035O.jpg",
+    "overview": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
+    "localized": {
+      "en": {
+        "title": "Arrietty",
+        "overview": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty."
+      },
+      "es": {
+        "title": "El mundo secreto de Arrietty",
+        "overview": "En una casita oculta bajo las tablas del suelo de una mansión campestre, vive una familia de seres diminutos, de apenas 10 cm. de altura, que tienen la norma de no dejarse ver nunca por los seres humanos; sin embargo, su tranquila existencia cambia cuando Arrietty, una audaz adolescente, es vista accidentalmente por un niño que se acaba de establecer en la casa debido a su delicada salud. Al tiempo que entre ambos surge una gran amistad, la existencia de los diminutos seres se verá peligrosamente amenazada... Adaptación del cuento infantil \"The Borrowers\", escrito por Mary Norton y ambientado en el Tokio contemporáneo."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "from-up-on-poppy-hill-2011",
+    "tmdbId": 83389,
+    "tmdbType": "movie",
+    "title": "From Up on Poppy Hill",
+    "kind": "movie",
+    "releaseDate": "2011-07-16",
+    "imdbId": "tt1798188",
+    "posterPath": "/rRLYX4RZIyloHSJwvZKAhphAjiB.jpg",
+    "overview": "Yokohama, 1963. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics—and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. Against this backdrop of hope and change, a friendship begins to blossom between high school students Umi and Shun—but a buried secret from their past emerges to cast a shadow on the future and pull them apart.",
+    "localized": {
+      "en": {
+        "title": "From Up on Poppy Hill",
+        "overview": "Yokohama, 1963. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics—and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. Against this backdrop of hope and change, a friendship begins to blossom between high school students Umi and Shun—but a buried secret from their past emerges to cast a shadow on the future and pull them apart."
+      },
+      "es": {
+        "title": "La Colina de las Amapolas",
+        "overview": "Umi Matsuzaki es una chica de instituto que cuida a sus dos hermanos y, en ausencia de su madre, administra un albergue de estilo occidental, el Coquelicot Manor, cercano al mar. La chica compagina tranquilamente sus responsabilidades con su vida escolar junto a Shun Kazama, miembro del club de periodismo, y Shiro Mizunuma, presidente del consejo de estudiantes."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "the-wind-rises-2013",
+    "tmdbId": 149870,
+    "tmdbType": "movie",
+    "title": "The Wind Rises",
+    "kind": "movie",
+    "releaseDate": "2013-07-20",
+    "imdbId": "tt2013293",
+    "posterPath": "/jfwSexzlIzaOgxP9A8bTA6t8YYb.jpg",
+    "overview": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
+    "localized": {
+      "en": {
+        "title": "The Wind Rises",
+        "overview": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane."
+      },
+      "es": {
+        "title": "Se levanta el viento",
+        "overview": "Una mirada a la vida de Jirō Horikoshi, el hombre que diseñó los aviones de combate japoneses durante la Segunda Guerra Mundial."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "the-tale-of-the-princess-kaguya-2013",
+    "tmdbId": 149871,
+    "tmdbType": "movie",
+    "title": "The Tale of The Princess Kaguya",
+    "kind": "movie",
+    "releaseDate": "2013-11-23",
+    "imdbId": "tt2576852",
+    "posterPath": "/cQidJuA546OSSXKWXoiCeINDxuj.jpg",
+    "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.",
+    "localized": {
+      "en": {
+        "title": "The Tale of The Princess Kaguya",
+        "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate."
+      },
+      "es": {
+        "title": "El cuento de la Princesa Kaguya",
+        "overview": "Basada en un cuento popular japonés anónimo del siglo IX, \"El cortador de bambú\". La historia comienza cuando una pareja de ancianos campesinos encuentra a una niña diminuta dentro de una planta de bambú, y deciden adoptarla como si fuera su hija. Pasan los años, y rápidamente se convierte en una hermosa mujer pretendida por muchos hombres poderosos."
+      }
+    },
+    "runtimeMin": 137
+  },
+  {
+    "id": "when-marnie-was-there-2014",
+    "tmdbId": 242828,
+    "tmdbType": "movie",
+    "title": "When Marnie Was There",
+    "kind": "movie",
+    "releaseDate": "2014-07-19",
+    "imdbId": "tt3398268",
+    "posterPath": "/vug1dvDI1tSa60Z8qjCuUE7ntkO.jpg",
+    "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real.",
+    "localized": {
+      "en": {
+        "title": "When Marnie Was There",
+        "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real."
+      },
+      "es": {
+        "title": "El recuerdo de Marnie",
+        "overview": "Una historia sobre un fantasma evocador con verdades que contar sobre la amistad, las relaciones familiares y la soledad. Anna vive con sus padres adoptivos, es un verso suelto solitario, siempre pensando en las musarañas. En verano, sus padres deciden enviarle a Norfolk para quedarse con el anciano matrimonio Pegg, donde recorre las dunas cerca del mar. Mientras juega en el agua encuentra una casa, la Casa del Pantano, la cual a Anna le resulta familiar. En la casa se encuentra con una niña enigmática llamada Marnie, que se convierte en la primera amiga de Anna. Pero un día, Marnie desaparece."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "earwig-and-the-witch-2021",
+    "tmdbId": 683127,
+    "tmdbType": "movie",
+    "title": "Earwig and the Witch",
+    "kind": "movie",
+    "releaseDate": "2021-02-03",
+    "imdbId": "tt12441478",
+    "posterPath": "/9oK820JieICOcfUhI6mkpFrcA9m.jpg",
+    "overview": "A headstrong orphan discovers a world of spells and potions while living with a selfish witch.",
+    "localized": {
+      "en": {
+        "title": "Earwig and the Witch",
+        "overview": "A headstrong orphan discovers a world of spells and potions while living with a selfish witch."
+      },
+      "es": {
+        "title": "Earwig y la bruja",
+        "overview": "Earwig tiene diez años, vive en el orfanato San Morwald y no quiere marcharse de allí. Para ahuyentar a posibles padres adoptivos, utiliza sus poderes mágicos. Sin embargo, un día aparecerán Bella Yaga y Mandrágora, dos extraños y espeluznantes personajes que conseguirán adoptarla. La joven Earwig descubrirá que Bella Yaga es una poderosa bruja y se convertirá en su aprendiz."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "the-boy-and-the-heron-2023",
+    "tmdbId": 508883,
+    "tmdbType": "movie",
+    "title": "The Boy and the Heron",
+    "kind": "movie",
+    "releaseDate": "2023-07-14",
+    "imdbId": "tt6587046",
+    "posterPath": "/f4oZTcfGrVTXKTWg157AwikXqmP.jpg",
+    "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother.  As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+    "localized": {
+      "en": {
+        "title": "The Boy and the Heron",
+        "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother.  As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\""
+      },
+      "es": {
+        "title": "El niño y la garza",
+        "overview": "Mientras la Segunda Guerra Mundial hace estragos, el adolescente Mahito, atormentado por la trágica muerte de su madre, es trasladado de Tokio a la serena casa rural de su nueva madrastra Natsuko, una mujer que tiene un sorprendente parecido con la madre del niño. Mientras intenta adaptarse, este nuevo y extraño mundo se vuelve aún más extraño tras la aparición de una persistente garza real, que deja perplejo y atormenta a Mahito, llamándolo \"el tan esperado\"."
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "bleach-2004",
+    "tmdbId": 30984,
+    "tmdbType": "tv",
+    "title": "Bleach",
+    "kind": "series",
+    "releaseDate": "2004-10-05",
+    "imdbId": "tt0434665",
+    "posterPath": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg",
+    "overview": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil.",
+    "localized": {
+      "en": {
+        "title": "Bleach",
+        "overview": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil."
+      },
+      "es": {
+        "title": "Bleach",
+        "overview": "La serie narra las aventuras de Ichigo Kurosaki, un adolescente que tiene la facultad de interactuar con los espíritus. Una noche, Ichigo se encuentra con una Cegador —personificación japonesa del Dios de la muerte— llamada Rukia Kuchiki, quien se sorprende que pueda verla. Sin embargo, su conversación es interrumpida por la aparición de un Hueco, un espíritu maligno. Después de que Rukia fuera gravemente herida al tratar de proteger a Ichigo, esta intenta traspasarle parte de sus poderes a Ichigo para que pueda enfrentarse al Hueco en igualdad de condiciones. No obstante, Ichigo sin darse cuenta los absorbe casi por completo y logra vencer con facilidad al espíritu."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 366,
+        "airDate": "2004-10-05"
+      },
+      {
+        "number": 2,
+        "episodes": 50,
+        "airDate": "2022-10-11"
+      }
+    ],
+    "runtimeMin": 9885,
+    "ongoing": true
+  },
+  {
+    "id": "bleach-the-movie-memories-of-nobody-2006",
+    "tmdbId": 15575,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: Memories of Nobody",
+    "kind": "movie",
+    "releaseDate": "2006-12-16",
+    "imdbId": "tt1105263",
+    "posterPath": "/1QXGWJ0bsmbMUDBXXfS1RnFadkS.jpg",
+    "overview": "In Karakura Town, unidentifiable spirits begin appearing en mases. While attempting to deal with these strange souls, Ichigo Kurosaki and Rukia Kuchiki meet Senna, a mysterious shinigami who wipes out most of them. Senna refuses to answer any questions, so Ichigo is forced to follow her while Rukia tries to find out what's going on.",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: Memories of Nobody",
+        "overview": "In Karakura Town, unidentifiable spirits begin appearing en mases. While attempting to deal with these strange souls, Ichigo Kurosaki and Rukia Kuchiki meet Senna, a mysterious shinigami who wipes out most of them. Senna refuses to answer any questions, so Ichigo is forced to follow her while Rukia tries to find out what's going on."
+      },
+      "es": {
+        "title": "Bleach: Memorias de nadie",
+        "overview": "Después de regresar de la Sociedad de Almas y estando en el mundo humano, específicamente en la ciudad Karakura, Ichigo Kurosaki y Rukia Kuchiki son atacados por una gran cantidad de almas desconocidas. Mientras Ichigo y Rukia peleaban contra estos espíritus, aparece un shinigami llamado Senna, una chica de pelo morado y ojos anaranjados, quien destruye fácilmente a los espíritus con su shikai. Como Senna niega responder pregunta alguna por parte de Ichigo, se ve obligado a seguirla."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "bleach-the-movie-the-diamonddust-rebellion-2007",
+    "tmdbId": 17101,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: The DiamondDust Rebellion",
+    "kind": "movie",
+    "releaseDate": "2007-12-22",
+    "imdbId": "tt1148261",
+    "posterPath": "/1PV8OKvHSYvgmdVnU2wcuzQGthP.jpg",
+    "overview": "When an artifact known as the \"King's Seal\" is stolen during transport from Soul Society, Hitsugaya Toushirou is assigned to retrieve it. Toushirou goes missing after a battle with the thieves, leading Seireitei to suspect him of treachery. They order his immediate capture and execution. Unwilling to believe him capable of such a crime, Ichigo, Rangiku, Rukia, and Renji set out to find Toushirou.",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: The DiamondDust Rebellion",
+        "overview": "When an artifact known as the \"King's Seal\" is stolen during transport from Soul Society, Hitsugaya Toushirou is assigned to retrieve it. Toushirou goes missing after a battle with the thieves, leading Seireitei to suspect him of treachery. They order his immediate capture and execution. Unwilling to believe him capable of such a crime, Ichigo, Rangiku, Rukia, and Renji set out to find Toushirou."
+      },
+      "es": {
+        "title": "Bleach: La rebelión del polvo de diamante",
+        "overview": "Cuando un artefacto conocido como el \"Sello del Rey\" es robado durante el transporte desde la Sociedad de Almas, Hitsugaya Toushirou es asignado para recuperarlo. Toushirou desaparece después de una batalla con los ladrones, lo que lleva a Seireitei a sospechar de él por traición. Ellos ordenan su captura y ejecución inmediata. No dispuestos a creerlo capaz de semejante crimen, Ichigo, Rangiku, Rukia y Renji se dirigieron a buscar a Toushirou."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "bleach-the-movie-fade-to-black-2008",
+    "tmdbId": 17165,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: Fade to Black",
+    "kind": "movie",
+    "releaseDate": "2008-12-13",
+    "imdbId": "tt1339302",
+    "posterPath": "/IfR2DrWLb26AAdQFwGkhvPTflX.jpg",
+    "overview": "A strange disturbance in the World of the Living sends Ichigo and Kon to the Soul Society, where the Seireitei has been devastated by an explosion of reishi and Rukia is missing. Stranger still, none of the Soul Reapers remember Ichigo, and they think he’s the one responsible for the destruction. Now on the run, Ichigo is forced into a lonely battle in order to find Rukia and stop the real culprits!",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: Fade to Black",
+        "overview": "A strange disturbance in the World of the Living sends Ichigo and Kon to the Soul Society, where the Seireitei has been devastated by an explosion of reishi and Rukia is missing. Stranger still, none of the Soul Reapers remember Ichigo, and they think he’s the one responsible for the destruction. Now on the run, Ichigo is forced into a lonely battle in order to find Rukia and stop the real culprits!"
+      },
+      "es": {
+        "title": "Bleach: Fade to Black, Llamo tu nombre",
+        "overview": "El pasado de Rukia que ahora es revelado. La \"verdad\" que está encerrada dentro del recuerdo de la oscuridad. Alguien con un objeto parecido a una hoz ha atacado a Mayuri, quien estaba en su laboratorio. Mayuri, quien de repente perdió el control, golpeó su tablero de control de su laboratorio. Entonces, de pronto el Sereitei estaba cubierto por una nube de reiatsu y atrapó a los shinigamis dentro de una fortaleza. Cuando Kenpachi entra corriendo al laboratorio de Mayuri hubo una enorme explosión de reiatsu que destruyó al Seireitei. Observando la destrucción del Seireitei desde lejos, una sombra aparece frente a Rukia, quien estaba impresionada por el repentino incidente. La hoz se dirige hacia ella y algo en Rukia desaparece. Al mismo tiempo Ichigo siente peligro y va hacia la tienda de Urahara. Ahí escucha de Urahara sobre \"la aniquilación del Seireitei\" y se dirige a la Sociedad de Almas junto a Kon."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "bleach-the-movie-hell-verse-2010",
+    "tmdbId": 73245,
+    "tmdbType": "movie",
+    "title": "Bleach the Movie: Hell Verse",
+    "kind": "movie",
+    "releaseDate": "2010-12-04",
+    "imdbId": "tt1785394",
+    "posterPath": "/pd7V5iCB19VBPJkihxFXFwSRW2M.jpg",
+    "overview": "Hell – A place where beings that have committed mortal sins during their lifetime are sent. It is a realm where even Soul Reapers are forbidden to interfere. When a group of vicious Sinners plot to escape from this eternal prison, they discover that Substitute Soul Reaper Ichigo Kurosaki is the key to their freedom.",
+    "localized": {
+      "en": {
+        "title": "Bleach the Movie: Hell Verse",
+        "overview": "Hell – A place where beings that have committed mortal sins during their lifetime are sent. It is a realm where even Soul Reapers are forbidden to interfere. When a group of vicious Sinners plot to escape from this eternal prison, they discover that Substitute Soul Reaper Ichigo Kurosaki is the key to their freedom."
+      },
+      "es": {
+        "title": "Bleach: Verso del infierno",
+        "overview": "El \"INFIERNO\" es el lugar donde una persona que cometió crímenes violentos cuando estaba viva, es enviada. Los \"Shinigamis\" tienen prohibido ir a ese lugar.  Un día, los prisioneros (pecadores) se revelan, y deciden escapar a la Ciudad de Karakura donde Ichigo Kurosaki y sus amigos viven. Ichigo y sus amigos son derrotados uno tras otro por los prisioneros con un abrumador poder. Aparece un hombre misterioso llamado Kokutto quien viene a su rescate, sin embargo los atacantes terminan llevándose a Yuzu sin dar oportunidad a que ichigo y su equipo puedan reaccionar.  Con Kokutoo dirijiendo el camino, Ichigo, Rukia, Uryuu y Renji marchan al INFIERNO para salvar a Yuzu de los que se la llevaron."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "bleach-2018",
+    "tmdbId": 420426,
+    "tmdbType": "movie",
+    "title": "Bleach",
+    "kind": "movie",
+    "releaseDate": "2018-07-20",
+    "imdbId": "tt5979872",
+    "posterPath": "/hpZVfeJaCilXr9Br7wO9xkfZn7V.jpg",
+    "overview": "High school student Ichigo Kurosaki lives an ordinary life, besides being able to see ghosts and the blurry memories of his mother's death under strange circumstances when he was a kid. His peaceful world suddenly breaks as he meets Rukia Kuchiki, a God of Death.",
+    "localized": {
+      "en": {
+        "title": "Bleach",
+        "overview": "High school student Ichigo Kurosaki lives an ordinary life, besides being able to see ghosts and the blurry memories of his mother's death under strange circumstances when he was a kid. His peaceful world suddenly breaks as he meets Rukia Kuchiki, a God of Death."
+      },
+      "es": {
+        "title": "Bleach",
+        "overview": "Kurosaki Ichigo es un chico de 15 años que puede ver, tocar y hablar con espiritus de personas muertas.Hasta que un dia el encuentra a Kuchiki Rukia, una Shinigami (diosa de la muerte) y descubre que el tambien es un Shinigami, ahora con sus poderes el tendra que proteger a su ciudad de las fuerzas del mal."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "sailor-moon-1992",
+    "tmdbId": 3570,
+    "tmdbType": "tv",
+    "title": "Sailor Moon",
+    "kind": "series",
+    "releaseDate": "1992-03-07",
+    "imdbId": "tt0103369",
+    "posterPath": "/m0e8QxAM0n3XK9GPvkxzRB0YL4k.jpg",
+    "overview": "One day, Usagi Tsukino, clumsy 2nd-year middle school student, stumbles upon a talking cat named Luna. Luna tells her that she is destined to be Sailor Moon, \"champion of love and justice\", and she must search for the fabled Moon Princess. Usagi finds friends that turn out to be destined senshi as well, and together they fight to save the world from the certain doom brought upon by the Dark Kingdom.",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon",
+        "overview": "One day, Usagi Tsukino, clumsy 2nd-year middle school student, stumbles upon a talking cat named Luna. Luna tells her that she is destined to be Sailor Moon, \"champion of love and justice\", and she must search for the fabled Moon Princess. Usagi finds friends that turn out to be destined senshi as well, and together they fight to save the world from the certain doom brought upon by the Dark Kingdom."
+      },
+      "es": {
+        "title": "Sailor Moon",
+        "overview": "La historia comienza el día que Serena Tsukino se cruza con una gata negra que tiene una mancha con forma de luna creciente llamada Luna, le revela un secreto, Serena es una Sailor Scout y debe derrotar a los enemigos de la Tierra y salvar a la princesa de la Luna."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 46,
+        "airDate": "1992-03-07"
+      },
+      {
+        "number": 2,
+        "episodes": 43,
+        "airDate": "1993-03-05"
+      },
+      {
+        "number": 3,
+        "episodes": 38,
+        "airDate": "1994-03-19"
+      },
+      {
+        "number": 4,
+        "episodes": 39,
+        "airDate": "1995-03-04"
+      },
+      {
+        "number": 5,
+        "episodes": 34,
+        "airDate": "1996-03-09"
+      }
+    ],
+    "runtimeMin": 4800
+  },
+  {
+    "id": "sailor-moon-r-the-movie-the-promise-of-the-rose-1993",
+    "tmdbId": 37100,
+    "tmdbType": "movie",
+    "title": "Sailor Moon R: The Movie - The Promise of the Rose",
+    "kind": "movie",
+    "releaseDate": "1993-12-05",
+    "imdbId": "tt0106417",
+    "posterPath": "/sOsEDVFv2dJ8sI77XzQ2SeqRObZ.jpg",
+    "overview": "While enjoying the flower gardens, Sailor Moon and friends encounter an old childhood friend of Mamoru's: an alien! He's come back to give Mamoru a special flower but doesn't like Usagi and the rest of the planet's inhabitants. Sailor Moon must defend the earth from the evil Kisenian Flower he's brought back... before the evil vines and blossoms overrun the planet!",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon R: The Movie - The Promise of the Rose",
+        "overview": "While enjoying the flower gardens, Sailor Moon and friends encounter an old childhood friend of Mamoru's: an alien! He's come back to give Mamoru a special flower but doesn't like Usagi and the rest of the planet's inhabitants. Sailor Moon must defend the earth from the evil Kisenian Flower he's brought back... before the evil vines and blossoms overrun the planet!"
+      },
+      "es": {
+        "title": "Sailor Moon R: La Promesa de la Rosa",
+        "overview": "Fiore es un extraterrestre que vuelve a la Tierra a buscar a Mamoru Chiba tras haberlo conocido años antes, cuando ambos aún eran niños. Usagi y las demás Sailor Senshi dudan acerca del tipo de relación entre ellos, hasta que Mamoru es raptado por Fiore y llevado a su planeta. Las Sailor Senshi deben entonces enfrentarse a Fiore y a sus tropas de flores malignas (unas flores con forma humana) para salvar al joven. Más tarde, se dan cuenta de que Fiore en realidad no actúa por sí mismo sino que está siendo poseído por Kisenian; una malvada criatura cuyo objetivo es manipular a Fiore para que éste haga estrellar un meteoro contra el planeta Tierra."
+      }
+    },
+    "runtimeMin": 61
+  },
+  {
+    "id": "sailor-moon-s-the-movie-hearts-in-ice-1994",
+    "tmdbId": 30575,
+    "tmdbType": "movie",
+    "title": "Sailor Moon S the Movie: Hearts in Ice",
+    "kind": "movie",
+    "releaseDate": "1994-12-04",
+    "imdbId": "tt0109277",
+    "posterPath": "/8HLrjXHz5LhmIMiahoC3S55bSim.jpg",
+    "overview": "As Usagi and her friends enjoy Christmas vacation, an unusual and fierce snowstorm hits town... The evil Snow Queen Kaguya has returned to claim Earth as her own. Crucial to Queen Kaguya's plan is a magical crystal from outer space, approaching Earth disguised as a comet. Once she gets hold of the crystal, she will have the power to suck away all life energy and cover the Earth in ice. Will Sailor Moon find the crystal before Queen Kaguya? Will her powers be enough to save the Earth from permanent winter? All hope lies with the Legendary Ultimate Scout Power!",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon S the Movie: Hearts in Ice",
+        "overview": "As Usagi and her friends enjoy Christmas vacation, an unusual and fierce snowstorm hits town... The evil Snow Queen Kaguya has returned to claim Earth as her own. Crucial to Queen Kaguya's plan is a magical crystal from outer space, approaching Earth disguised as a comet. Once she gets hold of the crystal, she will have the power to suck away all life energy and cover the Earth in ice. Will Sailor Moon find the crystal before Queen Kaguya? Will her powers be enough to save the Earth from permanent winter? All hope lies with the Legendary Ultimate Scout Power!"
+      },
+      "es": {
+        "title": "Sailor Moon S: El amor de la princesa Kaguya",
+        "overview": "La película tiene como personaje principal a Luna quién vive una extraña aventura y se enamora de un humano. La llegada de un cometa trae consigo a una ancestral enemiga del milenio de plata. La cual causo la anterior era glacial. Vencida hace mucho por el cristal de plata vuelve para conquistar la tierra y cubrirla de hielo una vez más, su llegada esta ligada a un joven astronomo obsesionado con la leyenda de la princesa Kaguya (princesa de la luna) lo que lo a llevado a ser una persona solitaria ya que muchas personas creen el se basa en en una fantasia al decir que realmente hay una princesa en la luna."
+      }
+    },
+    "runtimeMin": 59
+  },
+  {
+    "id": "sailor-moon-supers-the-movie-black-dream-hole-1995",
+    "tmdbId": 28460,
+    "tmdbType": "movie",
+    "title": "Sailor Moon SuperS: The Movie - Black Dream Hole",
+    "kind": "movie",
+    "releaseDate": "1995-12-23",
+    "imdbId": "tt0112513",
+    "posterPath": "/11GoqlOv0AqNZ4V9w3oUhBMg86r.jpg",
+    "overview": "The wicked Badiyanu has come to capture all Earth's children to gain enough power to absorb the planet in her Black Dream Hole. The Black Dream Hole is in Badiyanu's castle and absorbs the dream energy from children. The more children Badiyanu kidnaps, the larger the dream hole gets. The Sailor Team must save Earth's children and prevent the Black Dream Hole from enveloping the entire planet!",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon SuperS: The Movie - Black Dream Hole",
+        "overview": "The wicked Badiyanu has come to capture all Earth's children to gain enough power to absorb the planet in her Black Dream Hole. The Black Dream Hole is in Badiyanu's castle and absorbs the dream energy from children. The more children Badiyanu kidnaps, the larger the dream hole gets. The Sailor Team must save Earth's children and prevent the Black Dream Hole from enveloping the entire planet!"
+      },
+      "es": {
+        "title": "Sailor Moon SuperS El Milagro del Agujero Negro de los Sueños",
+        "overview": "Correspondiente a la saga Sailor Moon SuperS. Los niños de la ciudad de Tokio están desapareciendo y Sailor Moon y sus amigos descubren que unos elfos de los sueños son los responsables. Durante la noche, ellos hechizan a los pequeños al son de una flauta para que les sigan y luego llevárselos en un barco flotante, por órdenes de la malvada bruja Vadyanne. Sin embargo, una vez que Chibiusa es también secuestrada, uno de los elfos llamado Peruru se arrepiente y decide oponerse a los planes de Vadyanne, ayudando a Sailor Moon y a los suyos a rescatarla junto con los demás niños raptados."
+      }
+    },
+    "runtimeMin": 60
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-2003",
+    "tmdbId": 5405,
+    "tmdbType": "tv",
+    "title": "Pretty Guardian Sailor Moon",
+    "kind": "series",
+    "releaseDate": "2003-10-04",
+    "imdbId": "tt0386917",
+    "posterPath": "/dDBug7hReP1FNQyIoGF4gBmHbxM.jpg",
+    "overview": "Usagi Tsukino is a clumsy teenage girl who becomes a Magical Girl named Sailor Moon after meeting a cat named Luna, who tells her she is a destined warrior who must find the reincarnated princess of a lost kingdom. Along the way, she meets other reincarnated warriors who join her group known as the Sailor Senshi who fight the forces of the evil mastermind behind the Dark Kingdom.",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon",
+        "overview": "Usagi Tsukino is a clumsy teenage girl who becomes a Magical Girl named Sailor Moon after meeting a cat named Luna, who tells her she is a destined warrior who must find the reincarnated princess of a lost kingdom. Along the way, she meets other reincarnated warriors who join her group known as the Sailor Senshi who fight the forces of the evil mastermind behind the Dark Kingdom."
+      },
+      "es": {
+        "title": "美少女戦士セーラームーン"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 49,
+        "airDate": "2003-10-04"
+      }
+    ],
+    "runtimeMin": 1225
+  },
+  {
+    "id": "sailor-moon-crystal-2014",
+    "tmdbId": 61339,
+    "tmdbType": "tv",
+    "title": "Sailor Moon Crystal",
+    "kind": "series",
+    "releaseDate": "2014-07-05",
+    "imdbId": "tt3124992",
+    "posterPath": "/mVXlsNJw4fxD2UWNzaUh2TFfI5c.jpg",
+    "overview": "Usagi Tsukino is chosen to be a guardian of justice and is sent on a quest to locate a Silver Crystal before the Dark Kingdom invades the Earth.",
+    "localized": {
+      "en": {
+        "title": "Sailor Moon Crystal",
+        "overview": "Usagi Tsukino is chosen to be a guardian of justice and is sent on a quest to locate a Silver Crystal before the Dark Kingdom invades the Earth."
+      },
+      "es": {
+        "title": "Sailor Moon Crystal",
+        "overview": "Usagi Tsukino es una estudiante de segundo curso un poco torpe y llorica, pero que siempre está llena de energía. Un día se encuentra con Luna, un gato negro con una luna creciente en la frente, y se transforma en “Sailor Moon”, una guerra del amor y la justicia que luce un traje especial. Elegida como la guardiana de la justicia, a Usagi se le encomienda la misión de encontrar el “Cristal de plata ilusorio” junto a otras Sailor y de proteger a la Princesa. Mientras tanto, la Reina Beryl, realeza del Reino Oscuro, envía secuaces a la ciudad en la que vive Usagi para arrebatarle el Cristal, que resulta ser un objeto con un poder inmenso. Y entonces, extraños sucesos comienzan a darse… ¡¿Podrá Sailor Moon, acompañada del resto de Sailor, encontrar el Cristal y proteger a la Princesa?!"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 14,
+        "airDate": "2014-07-05"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2015-02-07"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2016-04-04"
+      }
+    ],
+    "runtimeMin": 975
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-eternal-the-movie-part-1-2021",
+    "tmdbId": 618851,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 1",
+    "kind": "movie",
+    "releaseDate": "2021-01-08",
+    "imdbId": "tt10635042",
+    "posterPath": "/dJaGPwYJh3c6EXNX8JlHBYQH0Ij.jpg",
+    "overview": "After a total solar eclipse, a dark circus troupe appears, Mamoru is stricken with a mysterious malady and bad things start happening across the city.  Sequel to the Sailor Moon Crystal TV series.",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 1",
+        "overview": "After a total solar eclipse, a dark circus troupe appears, Mamoru is stricken with a mysterious malady and bad things start happening across the city.  Sequel to the Sailor Moon Crystal TV series."
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Eternal: La Película - Parte 1",
+        "overview": "Tras un eclipse total de sol, la Tierra queda sumida en una densa oscuridad. Para devolverle la luz, el grupo de Sailor Guardians deberá unirse una vez más."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-eternal-the-movie-part-2-2021",
+    "tmdbId": 784500,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 2",
+    "kind": "movie",
+    "releaseDate": "2021-02-11",
+    "imdbId": "tt25407384",
+    "posterPath": "/f91rtk8dODezNLT3grQrELyzFwA.jpg",
+    "overview": "While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Eternal the Movie Part 2",
+        "overview": "While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!"
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Eternal: La Película - Parte 2",
+        "overview": "Tras un eclipse total de sol, la Tierra queda sumida en una densa oscuridad. Para devolverle la luz, el grupo de Sailor Guardians deberá unirse una vez más."
+      }
+    },
+    "runtimeMin": 80
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-cosmos-the-movie-part-1-2023",
+    "tmdbId": 968868,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 1",
+    "kind": "movie",
+    "releaseDate": "2023-06-09",
+    "imdbId": "tt39318020",
+    "posterPath": "/8CZm6hQe9kdTaUaFqB3w2GjjwZ0.jpg",
+    "overview": "The Sailor Guardians enjoy a brief moment of peace until Mamoru's Golden Crystal is stolen by Sailor Galaxia and the mysterious Sailor Starlights appear. One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos.",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 1",
+        "overview": "The Sailor Guardians enjoy a brief moment of peace until Mamoru's Golden Crystal is stolen by Sailor Galaxia and the mysterious Sailor Starlights appear. One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos."
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Cosmos: La película Parte 1",
+        "overview": "El arco de Shadow Galactica, conocido por su profundidad y complejidad, será el punto culminante de esta amada serie que ha capturado los corazones de fanáticos en todo el mundo durante décadas."
+      }
+    },
+    "runtimeMin": 80
+  },
+  {
+    "id": "pretty-guardian-sailor-moon-cosmos-the-movie-part-2-2023",
+    "tmdbId": 968870,
+    "tmdbType": "movie",
+    "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 2",
+    "kind": "movie",
+    "releaseDate": "2023-06-30",
+    "imdbId": "tt28284638",
+    "posterPath": "/sHmtdPMhnVtZWHro6f8CuDQuusz.jpg",
+    "overview": "One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos. After devastating losses, Sailor Moon endures her battle against Shadow Galactica. Will despair crush her, or will she find light in the darkness?",
+    "localized": {
+      "en": {
+        "title": "Pretty Guardian Sailor Moon Cosmos the Movie Part 2",
+        "overview": "One by one, Sailor Moon’s friends and loved ones are targeted by a formidable new enemy who threatens to destroy everything and rule over the cosmos. After devastating losses, Sailor Moon endures her battle against Shadow Galactica. Will despair crush her, or will she find light in the darkness?"
+      },
+      "es": {
+        "title": "Pretty Guardian Sailor Moon Cosmos: La película Parte 2",
+        "overview": "El arco de Shadow Galactica, conocido por su profundidad y complejidad, será el punto culminante de esta amada serie que ha capturado los corazones de fanáticos en todo el mundo durante décadas."
+      }
+    },
+    "runtimeMin": 80
   }
 ]

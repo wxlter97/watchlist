@@ -1,0 +1,1 @@
+- Ichigo Kurosaki, un estudiante que ve fantasmas, conoce a Rukia y se vuelve Segador de Almas.

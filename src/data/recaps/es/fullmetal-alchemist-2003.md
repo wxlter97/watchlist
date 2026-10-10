@@ -1,0 +1,2 @@
+- Los hermanos Elric buscan la Piedra Filosofal tras un intento fallido de resucitar a su madre.
+- La historia toma un camino propio y distinto al del manga.

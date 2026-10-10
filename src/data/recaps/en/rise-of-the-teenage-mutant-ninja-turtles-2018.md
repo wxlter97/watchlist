@@ -1,0 +1,1 @@
+- The turtles discover a hidden city beneath New York and learn mystic ninja skills.

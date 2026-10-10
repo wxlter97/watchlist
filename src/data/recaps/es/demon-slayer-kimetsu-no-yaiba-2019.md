@@ -1,0 +1,3 @@
+- **Temporada 1:** Tanjiro se une a los Cazadores de Demonios para curar a su hermana Nezuko.
+- **Temporada 2:** adapta la película del tren con Kyojuro Rengoku.
+- **Temporadas 3-5:** continúan con los arcos del Distrito del Entretenimiento, la Aldea de los Herreros y el entrenamiento de los Pilares.

@@ -1,0 +1,134 @@
+{
+  "id": "super-mario",
+  "name": {
+    "es": "Super Mario",
+    "en": "Super Mario"
+  },
+  "description": {
+    "es": "Mario y Luigi en el cine: las películas animadas y la versión de 1993.",
+    "en": "Mario and Luigi on film: the animated films and the 1993 version."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "animated",
+      "name": {
+        "es": "Películas animadas",
+        "en": "Animated films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas de Nintendo e Illumination.",
+        "en": "The Nintendo and Illumination films."
+      }
+    },
+    {
+      "id": "live-action",
+      "name": {
+        "es": "Versión de 1993",
+        "en": "1993 version"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Película con actores reales, sin relación con las animadas.",
+        "en": "A live-action film, unrelated to the animated ones."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-super-mario-bros-movie-2023",
+      "continuityId": "animated",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "mario",
+        "luigi",
+        "princess-peach",
+        "bowser"
+      ]
+    },
+    {
+      "titleId": "the-super-mario-galaxy-movie-2026",
+      "continuityId": "animated",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "mario",
+        "luigi",
+        "princess-peach"
+      ]
+    },
+    {
+      "titleId": "super-mario-bros-1993",
+      "continuityId": "live-action",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "mario",
+        "luigi"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "mario",
+        "name": {
+          "es": "Mario",
+          "en": "Mario"
+        }
+      },
+      {
+        "id": "luigi",
+        "name": {
+          "es": "Luigi",
+          "en": "Luigi"
+        }
+      },
+      {
+        "id": "princess-peach",
+        "name": {
+          "es": "Princesa Peach",
+          "en": "Princess Peach"
+        }
+      },
+      {
+        "id": "bowser",
+        "name": {
+          "es": "Bowser",
+          "en": "Bowser"
+        }
+      }
+    ],
+    "teams": []
+  }
+}
