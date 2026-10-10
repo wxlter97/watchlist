@@ -1,0 +1,246 @@
+{
+  "id": "my-hero-academia",
+  "name": {
+    "es": "My Hero Academia",
+    "en": "My Hero Academia"
+  },
+  "description": {
+    "es": "Izuku Midoriya y la academia de héroes: ocho temporadas y cuatro películas.",
+    "en": "Izuku Midoriya and the hero academy: eight seasons and four films."
+  },
+  "accentColor": "#15803D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las ocho temporadas del anime.",
+        "en": "The anime's eight seasons."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Historias propias que complementan la serie.",
+        "en": "Their own stories that complement the series."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 10,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 20,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 30,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 40,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 5,
+      "chronoOrder": 50,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 6,
+      "chronoOrder": 60,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 7,
+      "chronoOrder": 70,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-2016",
+      "continuityId": "main",
+      "importance": "essential",
+      "season": 8,
+      "chronoOrder": 80,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-two-heroes-2018",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "izuku-midoriya",
+        "all-might"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-heroes-rising-2019",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-world-heroes-mission-2021",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo",
+        "shoto-todoroki"
+      ]
+    },
+    {
+      "titleId": "my-hero-academia-youre-next-2024",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "izuku-midoriya",
+        "katsuki-bakugo"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "izuku-midoriya",
+        "name": {
+          "es": "Izuku Midoriya",
+          "en": "Izuku Midoriya"
+        }
+      },
+      {
+        "id": "katsuki-bakugo",
+        "name": {
+          "es": "Katsuki Bakugo",
+          "en": "Katsuki Bakugo"
+        }
+      },
+      {
+        "id": "shoto-todoroki",
+        "name": {
+          "es": "Shoto Todoroki",
+          "en": "Shoto Todoroki"
+        }
+      },
+      {
+        "id": "all-might",
+        "name": {
+          "es": "All Might",
+          "en": "All Might"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

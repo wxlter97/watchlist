@@ -1,0 +1,2 @@
+- A giant fortress suddenly appears and engulfs towns.
+- A man reminiscent of All Might stands in front of Izuku and his friends.

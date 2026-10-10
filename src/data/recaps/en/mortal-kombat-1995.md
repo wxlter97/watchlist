@@ -1,0 +1,2 @@
+- A sorcerer has won nine tournaments and, if he wins a tenth, evil will reign forever.
+- Three warriors must save Earth.

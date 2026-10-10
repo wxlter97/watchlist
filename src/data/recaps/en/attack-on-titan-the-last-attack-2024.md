@@ -1,0 +1,2 @@
+- It gathers the last two episodes of the series.
+- Eren carries out the plan called the Rumbling.

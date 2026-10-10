@@ -1,0 +1,2 @@
+- Knuckles acepta entrenar a Wade como aprendiz.
+- Le enseña los caminos del guerrero equidna.

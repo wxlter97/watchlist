@@ -1,0 +1,2 @@
+- Cole Young, luchador de MMA en decadencia, es perseguido por Sub-Zero.
+- Se entrena con los campeones de la Tierra para enfrentar a los enemigos de Outworld.

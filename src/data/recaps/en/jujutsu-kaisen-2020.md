@@ -1,0 +1,2 @@
+- Yuji eats Ryomen Sukuna's finger to save a classmate and shares his body with him.
+- He joins Jujutsu High and faces curses and sorcerers.

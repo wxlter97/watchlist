@@ -1,0 +1,2 @@
+- Un grupo llamado Humarize cree en la teoría del Apocalipsis de la Singularidad de los Quirks.
+- Los héroes del mundo piden ayuda a los héroes de UA.

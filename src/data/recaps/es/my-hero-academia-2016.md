@@ -1,0 +1,3 @@
+- Izuku Midoriya, sin Quirk, es elegido por All Might como su sucesor.
+- Entra a la academia UA y enfrenta a villanos cada vez más peligrosos.
+- Las últimas temporadas conducen a la guerra entre héroes y villanos.

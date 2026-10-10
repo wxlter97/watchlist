@@ -1,0 +1,2 @@
+- Mario y Luigi, fontaneros de Brooklyn, llegan a un universo alterno donde viven dinosaurios evolucionados.
+- Deben detener la invasión del dictador Koopa.

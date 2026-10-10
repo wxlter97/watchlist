@@ -1,0 +1,2 @@
+- The plumber brothers are transported by a pipe into a magical world.
+- Mario is separated from Luigi and sets out to find him.

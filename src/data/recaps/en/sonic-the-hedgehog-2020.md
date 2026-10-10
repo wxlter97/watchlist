@@ -1,0 +1,2 @@
+- Sonic, with incredible speed, lives in secret in an Earth town.
+- He catches Robotnik's attention, who wants to use his power.

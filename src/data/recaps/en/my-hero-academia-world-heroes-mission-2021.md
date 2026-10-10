@@ -1,0 +1,2 @@
+- A group called Humarize believes in the Quirk Singularity Doomsday theory.
+- The world's pro heroes ask UA's heroes for help.

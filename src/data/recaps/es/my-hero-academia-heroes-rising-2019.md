@@ -1,0 +1,2 @@
+- La Clase 1-A viaja a la isla Nabu, que parece de vacaciones.
+- Un villano con un Quirk inquietante los ataca.

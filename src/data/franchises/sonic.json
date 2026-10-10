@@ -1,0 +1,163 @@
+{
+  "id": "sonic",
+  "name": {
+    "es": "Sonic",
+    "en": "Sonic"
+  },
+  "description": {
+    "es": "El erizo más veloz en cine y televisión: tres películas, la serie de Knuckles y la cuarta película.",
+    "en": "The fastest hedgehog on film and TV: three films, the Knuckles series and the fourth film."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas de Paramount",
+        "en": "Paramount films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La saga de películas y la serie Knuckles, en el mismo mundo.",
+        "en": "The film saga and the Knuckles series, in the same world."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "sonic-the-hedgehog-2020",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "sonic",
+        "tails"
+      ]
+    },
+    {
+      "titleId": "sonic-the-hedgehog-2-2022",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "sonic",
+        "tails",
+        "knuckles"
+      ]
+    },
+    {
+      "titleId": "knuckles-2024",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Transcurre entre la 2 y la 3",
+        "en": "Set between 2 and 3"
+      },
+      "characters": [
+        "knuckles"
+      ]
+    },
+    {
+      "titleId": "sonic-the-hedgehog-3-2024",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "sonic",
+        "tails",
+        "knuckles",
+        "shadow"
+      ]
+    },
+    {
+      "titleId": "sonic-the-hedgehog-4-2027",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "sonic"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-sonic-the-hedgehog-4-2027",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Sonic 4",
+        "en": "Get ready for Sonic 4"
+      },
+      "description": {
+        "es": "Las tres películas y, si quieres, Knuckles.",
+        "en": "The three films and, if you like, Knuckles."
+      },
+      "titleIds": [
+        "sonic-the-hedgehog-2020",
+        "sonic-the-hedgehog-2-2022",
+        "knuckles-2024",
+        "sonic-the-hedgehog-3-2024"
+      ],
+      "targetTitleId": "sonic-the-hedgehog-4-2027"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "sonic",
+        "name": {
+          "es": "Sonic",
+          "en": "Sonic"
+        }
+      },
+      {
+        "id": "tails",
+        "name": {
+          "es": "Tails",
+          "en": "Tails"
+        }
+      },
+      {
+        "id": "knuckles",
+        "name": {
+          "es": "Knuckles",
+          "en": "Knuckles"
+        }
+      },
+      {
+        "id": "shadow",
+        "name": {
+          "es": "Shadow",
+          "en": "Shadow"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

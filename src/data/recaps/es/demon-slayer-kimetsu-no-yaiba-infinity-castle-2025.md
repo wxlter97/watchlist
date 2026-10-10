@@ -1,0 +1,2 @@
+- Los Cazadores de Demonios son atraídos al Castillo Infinito.
+- Tanjiro, Nezuko y los Pilares enfrentan a los Rangos Superiores mientras empieza la batalla final contra Muzan.

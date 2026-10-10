@@ -1,0 +1,3 @@
+- **Seasons 1-2:** Eren, Mikasa and Armin join the Survey Corps against the Titans.
+- **Season 3:** the walls' story becomes more political.
+- **Season 4:** it changes perspective and leads to the series' ending.
