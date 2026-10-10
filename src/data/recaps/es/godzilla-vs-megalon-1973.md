@@ -1,0 +1,2 @@
+- Una raza submarina controla a Megalon y se hace con un robot, Jet Jaguar.
+- Godzilla ayuda a Jet Jaguar a vencer.

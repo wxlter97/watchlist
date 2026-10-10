@@ -1,0 +1,2 @@
+- Una expedición recupera los restos de Mechagodzilla y se topa con Titanosaurus.
+- Los alienígenas lo reconstruyen.

@@ -1,0 +1,2 @@
+- Cápsulas espaciales de EE. UU. y la URSS desaparecen y ambos países se culpan.
+- Bond viaja a Japón y descubre la base de Blofeld en un volcán.

@@ -1,0 +1,2 @@
+- A UN agency builds Mechagodzilla from King Ghidorah technology.
+- They discover a Godzilla egg.

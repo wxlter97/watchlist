@@ -1,0 +1,2 @@
+- After the attack, several groups compete for Godzilla's cells.
+- A scientist creates Biollante.

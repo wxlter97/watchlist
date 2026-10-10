@@ -1,0 +1,2 @@
+- A message from the past leads Bond to uncover a sinister organization.
+- He faces Blofeld and meets Madeleine Swann.

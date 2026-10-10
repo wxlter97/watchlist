@@ -1,0 +1,2 @@
+- Bond investigates a diamond-smuggling network.
+- He finds out Blofeld uses the gems for a satellite weapon.

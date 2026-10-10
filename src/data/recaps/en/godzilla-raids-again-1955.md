@@ -1,0 +1,2 @@
+- Two pilots discover a second Godzilla fighting Anguirus.
+- The creatures threaten Osaka.

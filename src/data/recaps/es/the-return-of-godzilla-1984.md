@@ -1,0 +1,2 @@
+- Un barco pesquero es atacado por un Godzilla resucitado.
+- Japón y las superpotencias discuten cómo reaccionar.

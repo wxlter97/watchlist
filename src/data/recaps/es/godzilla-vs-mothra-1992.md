@@ -1,0 +1,2 @@
+- Battra, la contraparte oscura de Mothra, intenta eliminar a la humanidad.
+- Mothra y Battra acaban unidos contra Godzilla.

@@ -1,0 +1,2 @@
+- Earth's monsters live in Monsterland.
+- Aliens take control and send them against the world's capitals.

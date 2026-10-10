@@ -1,0 +1,2 @@
+- A giant Mothra egg appears after a typhoon.
+- Mothra tries to protect her offspring from Godzilla.

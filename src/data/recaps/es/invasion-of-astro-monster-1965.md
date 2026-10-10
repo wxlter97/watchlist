@@ -1,0 +1,2 @@
+- Astronautas descubren a los extraterrestres de Planeta X, que piden la ayuda de la Tierra.
+- Los alienígenas controlan a los monstruos.

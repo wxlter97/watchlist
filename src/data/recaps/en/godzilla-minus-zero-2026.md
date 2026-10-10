@@ -1,0 +1,1 @@
+- Japan, reduced to zero by war and plunged below it by Godzilla, faces a new threat two years later.

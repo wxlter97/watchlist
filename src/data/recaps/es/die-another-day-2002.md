@@ -1,0 +1,1 @@
+- Bond investiga a un terrorista norcoreano ligado a un magnate de los diamantes.

@@ -1,0 +1,2 @@
+- Un joven busca a su hermano y acaba en una isla con una banda criminal.
+- Enfrentan a Ebirah.

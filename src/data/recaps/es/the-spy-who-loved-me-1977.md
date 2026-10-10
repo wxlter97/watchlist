@@ -1,0 +1,3 @@
+- Submarinos británico y ruso con misiles nucleares desaparecen.
+- Bond y una agente soviética, Anya, investigan juntos.
+- Descubren que un magnate, Stromberg, quiere destruir el mundo desde una base submarina.

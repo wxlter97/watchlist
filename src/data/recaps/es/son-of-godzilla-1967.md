@@ -1,0 +1,2 @@
+- Un reportero llega a una isla donde unos científicos hacen experimentos meteorológicos.
+- Nace Minilla y Godzilla lo protege.

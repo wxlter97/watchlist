@@ -1,0 +1,2 @@
+- A group of researchers tracks Godzilla's attacks.
+- A UFO confronts him and unleashes a new monster, Orga.

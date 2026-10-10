@@ -1,0 +1,2 @@
+- Mothra y sus hadas piden devolver Kiryu al mar.
+- Godzilla vuelve y se enfrentan a él.

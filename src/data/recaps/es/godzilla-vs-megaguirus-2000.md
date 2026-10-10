@@ -1,0 +1,2 @@
+- En una línea temporal alterna, Godzilla nunca fue derrotado y vuelve a devorar la energía de Japón.
+- Surge Megaguirus.

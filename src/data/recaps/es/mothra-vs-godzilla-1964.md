@@ -1,0 +1,2 @@
+- Un huevo gigante de Mothra aparece tras un tifón.
+- Mothra intenta proteger a su cría de Godzilla.

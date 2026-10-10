@@ -1,0 +1,2 @@
+- Bond sale del retiro y enfrenta a SPECTRE, que roba dos bombas nucleares.
+- Debe derrotar a Largo, que sostiene el plan.

@@ -1,0 +1,2 @@
+- Una bestia de tres cabezas llega a Tokio.
+- Mothra intenta unir a Godzilla y Rodan para detenerla.

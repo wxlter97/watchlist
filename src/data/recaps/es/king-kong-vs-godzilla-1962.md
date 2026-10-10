@@ -1,0 +1,2 @@
+- Una farmacéutica lleva a King Kong a Japón.
+- Kong y Godzilla se enfrentan.

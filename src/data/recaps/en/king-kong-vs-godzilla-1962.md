@@ -1,0 +1,2 @@
+- A pharmaceutical firm brings King Kong to Japan.
+- Kong and Godzilla clash.

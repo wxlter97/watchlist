@@ -1,0 +1,2 @@
+- Futuristas del siglo XXIII advierten que Japón será destruido.
+- Viajan al pasado para evitar el nacimiento de Godzilla.

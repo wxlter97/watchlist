@@ -1,0 +1,3 @@
+- Bond meets Tracy, the daughter of a crime boss, and falls in love.
+- He chases Blofeld, who prepares a biological-weapon plot.
+- Bond and Tracy marry; she is killed soon after.

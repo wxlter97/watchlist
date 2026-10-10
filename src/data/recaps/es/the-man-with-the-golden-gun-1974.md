@@ -1,0 +1,2 @@
+- Bond busca un invento que concentra el calor del sol.
+- Se enfrenta al asesino Scaramanga, que usa una pistola de oro.

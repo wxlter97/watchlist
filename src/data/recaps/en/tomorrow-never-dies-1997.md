@@ -1,0 +1,2 @@
+- Elliot Carver stages international incidents to gain ratings.
+- Bond and Chinese agent Wai Lin face him.

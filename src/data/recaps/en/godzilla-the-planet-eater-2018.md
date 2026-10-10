@@ -1,0 +1,1 @@
+- With no way to defeat Godzilla, humanity watches King Ghidorah descend.

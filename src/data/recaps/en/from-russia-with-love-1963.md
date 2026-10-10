@@ -1,0 +1,3 @@
+- A criminal organization sets a trap for Bond using a Soviet decoder as bait.
+- Bond must get a young Russian woman and the Lektor device out of Istanbul.
+- He faces the assassin Red Grant and Rosa Klebb.

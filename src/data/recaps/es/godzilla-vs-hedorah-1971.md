@@ -1,0 +1,2 @@
+- Un ser alienígena llega en un cometa y se alimenta de contaminación.
+- Godzilla lo enfrenta mientras evoluciona.

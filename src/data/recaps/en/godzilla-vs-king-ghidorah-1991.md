@@ -1,0 +1,2 @@
+- Time-travelers from the 23rd century warn that Japan will be destroyed.
+- They go to the past to prevent Godzilla's birth.

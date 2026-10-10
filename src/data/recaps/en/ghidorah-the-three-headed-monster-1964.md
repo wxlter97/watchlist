@@ -1,0 +1,2 @@
+- A three-headed beast arrives in Tokyo.
+- Mothra tries to unite Godzilla and Rodan to stop it.

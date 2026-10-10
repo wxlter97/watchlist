@@ -1,0 +1,2 @@
+- Elliot Carver provoca incidentes internacionales para ganar audiencia.
+- Bond y la agente china Wai Lin lo enfrentan.

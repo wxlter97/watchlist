@@ -1,0 +1,2 @@
+- A 00 agent is found dead with a Fabergé egg.
+- Bond follows the trail and stops a plan to detonate a bomb at an air base.

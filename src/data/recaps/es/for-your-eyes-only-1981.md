@@ -1,0 +1,2 @@
+- Un barco espía británico se hunde con un dispositivo de cifrado.
+- Bond debe recuperarlo antes que los soviéticos.

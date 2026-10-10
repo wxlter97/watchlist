@@ -1,0 +1,2 @@
+- Humanity locks Godzilla in the South Pole.
+- An alien invasion unleashes the monsters and Godzilla.

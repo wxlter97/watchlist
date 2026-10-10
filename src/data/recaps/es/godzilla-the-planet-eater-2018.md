@@ -1,0 +1,1 @@
+- Sin forma de vencer a Godzilla, la humanidad ve descender a King Ghidorah.

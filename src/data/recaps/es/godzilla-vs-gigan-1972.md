@@ -1,0 +1,2 @@
+- Un artista de manga descubre que un parque de atracciones es un plan alienígena.
+- Godzilla y Anguirus enfrentan a Gigan y a Ghidorah.

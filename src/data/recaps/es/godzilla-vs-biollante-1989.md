@@ -1,0 +1,2 @@
+- Tras el ataque, varios grupos compiten por las células de Godzilla.
+- Un científico crea a Biollante.

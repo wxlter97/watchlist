@@ -1,0 +1,2 @@
+- A Drax Industries Moonraker shuttle is hijacked.
+- Bond investigates and ends up on a space station.

@@ -1,0 +1,3 @@
+- Una organización criminal prepara una trampa para Bond con un descifrador soviético como señuelo.
+- Bond debe sacar de Estambul a una joven rusa y el aparato Lektor.
+- Se enfrenta al asesino Red Grant y a Rosa Klebb.

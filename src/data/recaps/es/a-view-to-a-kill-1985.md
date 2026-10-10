@@ -1,0 +1,2 @@
+- Bond investiga a Max Zorin, que quiere controlar el mercado de microchips.
+- El plan consiste en destruir Silicon Valley.

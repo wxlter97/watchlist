@@ -1,0 +1,2 @@
+- Bond helps a Soviet general defect and uncovers a plot to assassinate spies.
+- The trail leads him to an arms dealer.

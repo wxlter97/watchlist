@@ -1,0 +1,2 @@
+- Bond protege a Elektra King, hija de un magnate asesinado.
+- Descubre que el terrorista Renard está ligado a ella.

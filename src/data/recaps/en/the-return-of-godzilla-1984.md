@@ -1,0 +1,2 @@
+- A fishing boat is attacked by a resurrected Godzilla.
+- Japan and the superpowers debate how to respond.

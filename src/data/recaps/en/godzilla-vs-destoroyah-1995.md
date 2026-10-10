@@ -1,0 +1,3 @@
+- Godzilla, on the verge of a nuclear meltdown, attacks Hong Kong.
+- Destoroyah emerges, born from the weapon that killed the 1954 Godzilla.
+- Godzilla dies; his son inherits the power.

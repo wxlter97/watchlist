@@ -1,0 +1,2 @@
+- Godzilla is a distant memory when an attack on a submarine raises the alarm.
+- Three guardians of Japan unite to face him.

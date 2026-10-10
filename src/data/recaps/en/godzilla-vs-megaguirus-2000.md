@@ -1,0 +1,2 @@
+- In an alternate timeline Godzilla was never defeated and returns to feed on Japan's energy.
+- Megaguirus appears.
