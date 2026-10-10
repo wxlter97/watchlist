@@ -1,0 +1,2 @@
+- Ares, un programa muy sofisticado, es enviado del mundo digital al real en una misión peligrosa.
+- Es el primer encuentro de la humanidad con seres de inteligencia artificial.

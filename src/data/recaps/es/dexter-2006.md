@@ -1,0 +1,3 @@
+- Dexter Morgan analiza manchas de sangre para la policía de Miami y mata en secreto a asesinos.
+- Las temporadas enfrentan a un asesino distinto cada una, y su hermana Debra se acerca a la verdad.
+- El final de la octava temporada fue muy criticado.

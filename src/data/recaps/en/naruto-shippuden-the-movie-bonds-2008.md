@@ -1,0 +1,2 @@
+- A group of ninjas attacks Konoha and threatens another war.
+- Sasuke appears before Naruto to prevent it.

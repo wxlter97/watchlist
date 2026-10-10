@@ -1,0 +1,2 @@
+- Two years after the war, the moon that sealed the Gedo Statue begins to fall.
+- Toneri Otsutsuki tries to kidnap Hinata Hyuga.

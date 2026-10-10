@@ -1,0 +1,2 @@
+- Naruto regresa a la aldea tras dos años y medio y enfrenta a la organización Akatsuki.
+- La historia lleva a la Cuarta Gran Guerra Ninja.

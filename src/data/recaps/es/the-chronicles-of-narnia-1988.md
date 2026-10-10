@@ -1,0 +1,2 @@
+- Adapta El león, la bruja y el ropero, El príncipe Caspian, La travesía del Viajero del Alba y La silla de plata.
+- Mezcla actores con animación para Aslan y otras criaturas.

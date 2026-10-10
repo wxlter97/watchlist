@@ -1,0 +1,2 @@
+- Vesemir escapes poverty to become a witcher and slays monsters for coin and glory.
+- When a new menace rises, he must face the demons of his past.

@@ -1,0 +1,1 @@
+- Naruto, Shikamaru and Sakura deliver a lost pet and are attacked by troops led by Temujin.

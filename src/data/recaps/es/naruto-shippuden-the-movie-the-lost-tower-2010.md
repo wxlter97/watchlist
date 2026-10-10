@@ -1,0 +1,1 @@
+- Naruto persigue a un ninja renegado a unas ruinas y es enviado 20 años al pasado.

@@ -1,0 +1,3 @@
+- **Temporada 1:** Percy, Annabeth y Grover cruzan Estados Unidos para devolver el rayo maestro de Zeus.
+- **Temporada 2:** adapta *El mar de los monstruos*.
+- **Temporada 3:** prevista para la continuación de la historia.

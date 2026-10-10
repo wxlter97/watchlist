@@ -1,0 +1,2 @@
+- Cinco años después, el equipo vuelve a reunirse cuando una sustancia mágica amenaza a Nueva York.
+- Enfrentan a Vigo, un espíritu que quiere poseer a un bebé.

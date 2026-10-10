@@ -1,0 +1,2 @@
+- Boruto Uzumaki, hijo del Séptimo Hokage, entra a la Academia Ninja.
+- Una serie de sucesos misteriosos da inicio a su historia.

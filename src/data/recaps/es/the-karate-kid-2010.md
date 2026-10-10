@@ -1,0 +1,3 @@
+- Dre Parker se muda a Pekín y es acosado por compañeros.
+- El señor Han, un conserje, lo entrena en kung fu.
+- Dre compite en un torneo y gana el respeto de sus rivales.

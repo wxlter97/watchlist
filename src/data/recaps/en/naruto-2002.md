@@ -1,0 +1,3 @@
+- Naruto, a mischievous ninja from the Hidden Leaf Village, seeks recognition and dreams of becoming Hokage.
+- He forms Team 7 with Sasuke and Sakura under Kakashi.
+- The series ends with Sasuke leaving the village.

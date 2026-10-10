@@ -1,0 +1,2 @@
+- Molly Hale creates a dream world with the Unown and Entei, whom she believes is her father.
+- Entei kidnaps Ash's mother, and Ash goes to find her.

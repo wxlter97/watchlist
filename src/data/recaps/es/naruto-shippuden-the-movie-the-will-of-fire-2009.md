@@ -1,0 +1,2 @@
+- Los ninjas con líneas de sangre empiezan a desaparecer y se culpa al País del Fuego.
+- Por orden de Tsunade, Kakashi es sacrificado para evitar la guerra.

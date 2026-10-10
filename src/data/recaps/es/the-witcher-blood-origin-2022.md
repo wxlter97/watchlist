@@ -1,0 +1,2 @@
+- Siete marginados del mundo élfico se unen contra un poder imparable.
+- Cuenta los orígenes de la conjunción de las esferas.
