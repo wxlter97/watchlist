@@ -1,0 +1,2 @@
+- A group of young aliens takes an old Starfleet ship and learns to work together.
+- They cross paths with Janeway.

@@ -1,0 +1,3 @@
+- After a disaster on the Klingon moon Praxis, the Federation and the Klingons seek peace.
+- An attack blames Kirk, who is tried and sent to prison.
+- Kirk and Spock uncover a conspiracy to prevent the peace.

@@ -1,0 +1,2 @@
+- Dumbledore gathers a team around Newt to stop Grindelwald's plans.
+- Grindelwald moves to seize control of the wizarding world.

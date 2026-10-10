@@ -1,0 +1,3 @@
+- Tras un desastre en la Luna klingon Praxis, la Federación y los klingon buscan la paz.
+- Un ataque culpa a Kirk, que es juzgado y enviado a prisión.
+- Kirk y Spock descubren una conspiración para impedir la paz.

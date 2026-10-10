@@ -1,0 +1,2 @@
+- Picard y el Enterprise intentan impedir el traslado forzoso de los ba'ku de un planeta con propiedades regenerativas.
+- Deben enfrentar a los son'a y a una facción de Starfleet.

@@ -1,0 +1,2 @@
+- El Enterprise queda varado en un planeta tras un ataque de un nuevo enemigo.
+- La tripulación debe reagruparse y defender a la Federación.

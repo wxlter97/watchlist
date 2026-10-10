@@ -1,0 +1,2 @@
+- Jonathan Archer captains Earth's first warp 5 ship.
+- They explore space and make contact with Vulcans, Andorians and others.

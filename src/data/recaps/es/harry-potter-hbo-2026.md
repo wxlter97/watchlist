@@ -1,0 +1,1 @@
+- Harry Potter, un niño sin nada especial según su tía Petunia, recibe en su cumpleaños número 11 una carta de admisión a Hogwarts.

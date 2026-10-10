@@ -1,0 +1,2 @@
+- Emperor Philippa Georgiou joins a secret Starfleet division that protects the Federation.
+- She must face the sins of her past.

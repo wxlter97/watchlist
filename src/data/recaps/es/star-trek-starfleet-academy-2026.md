@@ -1,0 +1,1 @@
+- Un grupo de cadetes se une a una causa de esperanza y optimismo bajo la mirada de sus instructores.

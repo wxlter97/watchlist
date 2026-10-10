@@ -1,0 +1,2 @@
+- Captain Christopher Pike, Spock and Number One explore space before Kirk.
+- Each episode is a nearly standalone adventure.

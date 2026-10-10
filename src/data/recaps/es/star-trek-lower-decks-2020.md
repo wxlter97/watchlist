@@ -1,0 +1,2 @@
+- Los alféreces Mariner, Boimler, Rutherford y Tendi hacen el trabajo menos glamuroso a bordo de la U.S.S. Cerritos.
+- Cada episodio mezcla humor y guiños a la franquicia.

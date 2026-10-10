@@ -1,0 +1,3 @@
+- **Temporada 1:** Picard retirado busca a la hija sintética de Data.
+- **Temporada 2:** viaja al pasado con Q.
+- **Temporada 3:** reúne al reparto de TNG para detener una nueva amenaza.

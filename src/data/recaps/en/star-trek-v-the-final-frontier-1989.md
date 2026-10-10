@@ -1,0 +1,1 @@
+- A renegade Vulcan, Sybok, hijacks the Enterprise to reach a mythical planet at the center of the galaxy.

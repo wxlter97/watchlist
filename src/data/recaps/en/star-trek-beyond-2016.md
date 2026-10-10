@@ -1,0 +1,2 @@
+- The Enterprise is stranded on a planet after an attack by a new enemy.
+- The crew must regroup and defend the Federation.

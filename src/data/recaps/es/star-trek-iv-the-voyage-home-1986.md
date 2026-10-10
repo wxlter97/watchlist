@@ -1,0 +1,2 @@
+- Una sonda alienígena amenaza a la Tierra buscando a las ballenas jorobadas, extintas en el siglo XXIII.
+- La tripulación viaja al San Francisco de 1986 para traer ballenas.

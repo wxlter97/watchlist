@@ -1,0 +1,3 @@
+- **Season 1:** a retired Picard searches for Data's synthetic daughter.
+- **Season 2:** he travels to the past with Q.
+- **Season 3:** he reunites the TNG cast to stop a new threat.

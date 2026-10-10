@@ -1,0 +1,2 @@
+- Nero, a Romulan from the future, destroys Vulcan and changes history.
+- A young Kirk and Spock clash first, then team up aboard the Enterprise.

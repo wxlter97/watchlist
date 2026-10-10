@@ -1,0 +1,2 @@
+- Kirk, Spock y la tripulación continúan su misión de cinco años en versión animada.
+- Tiene dos temporadas con aventuras independientes.

@@ -1,0 +1,2 @@
+- **Temporadas 1-2:** Michael Burnham y la Discovery atraviesan una guerra con los klingon y luego una amenaza que involucra a Spock y Pike.
+- **Temporadas 3-5:** la nave salta al siglo XXXII, donde busca reconstruir la Federación.

@@ -1,0 +1,3 @@
+- Una entidad destruye tres cruceros klingon y se dirige a la Tierra.
+- Kirk toma el mando del Enterprise remodelado y la tripulación vuelve a reunirse.
+- La entidad resulta ser V'Ger, una sonda que busca a su creador.

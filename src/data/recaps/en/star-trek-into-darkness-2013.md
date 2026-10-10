@@ -1,0 +1,3 @@
+- An attack from within Starfleet sends the Enterprise after John Harrison.
+- Harrison turns out to be Khan.
+- Kirk dies saving the crew and is revived.
