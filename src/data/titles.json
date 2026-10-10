@@ -20442,5 +20442,445 @@
       }
     },
     "runtimeMin": 5
+  },
+  {
+    "id": "the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe-2005",
+    "tmdbId": 411,
+    "tmdbType": "movie",
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "kind": "movie",
+    "releaseDate": "2005-12-07",
+    "imdbId": "tt0363771",
+    "posterPath": "/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
+    "overview": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "overview": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+      },
+      "es": {
+        "title": "Las crónicas de Narnia: El león, la bruja y el ropero",
+        "overview": "La historia narra las aventuras de cuatro hermanos: Lucy, Edmund, Susan y Peter, que durante la Segunda Guerra Mundial descubren el mundo de Narnia, al que acceden a través de un armario mágico mientras juegan al escondite en la casa de campo de un viejo profesor. En Narnia descubrirán un mundo increíble habitado por animales que hablan, duendes, faunos, centauros y gigantes al que la Bruja Blanca- Jadis- ha condenado al invierno eterno. Con la ayuda del león Aslan, el noble soberano, los niños lucharán para vencer el poder que la Bruja Blanca ejerce sobre Narnia en una espectacular batalla y conseguir así liberarle de la maldición del frío."
+      }
+    },
+    "runtimeMin": 143
+  },
+  {
+    "id": "the-chronicles-of-narnia-prince-caspian-2008",
+    "tmdbId": 2454,
+    "tmdbType": "movie",
+    "title": "The Chronicles of Narnia: Prince Caspian",
+    "kind": "movie",
+    "releaseDate": "2008-05-15",
+    "imdbId": "tt0499448",
+    "posterPath": "/qxz3WIyjZiSKUhaTIEJ3c1GcC9z.jpg",
+    "overview": "One year after their incredible adventures in the Lion, the Witch and the Wardrobe, Peter, Edmund, Lucy and Susan Pevensie return to Narnia to aid a young prince whose life has been threatened by the evil King Miraz. Now, with the help of a colorful cast of new characters, including Trufflehunter the badger and Nikabrik the dwarf, the Pevensie clan embarks on an incredible quest to ensure that Narnia is returned to its rightful heir.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia: Prince Caspian",
+        "overview": "One year after their incredible adventures in the Lion, the Witch and the Wardrobe, Peter, Edmund, Lucy and Susan Pevensie return to Narnia to aid a young prince whose life has been threatened by the evil King Miraz. Now, with the help of a colorful cast of new characters, including Trufflehunter the badger and Nikabrik the dwarf, the Pevensie clan embarks on an incredible quest to ensure that Narnia is returned to its rightful heir."
+      },
+      "es": {
+        "title": "Las crónicas de Narnia: El príncipe Caspian",
+        "overview": "La acción de \"Las crónicas de Narnia. El Príncipe Caspian\" transcurre un año después de los increíbles acontecimientos de «El León, la Bruja y el Armario», cuando los reyes y las reinas de Narnia -los 4 hermanos Pevensie- vuelven a reunirse en ese remoto y fantástico mundo, donde descubrirán que han pasado más de 1.300 años, calculados en tiempo narniano. Durante su ausencia, la Edad de Oro de Narnia ha terminado, y los Telmarinos han conquistado el reino de Narnia, que ahora está dominado por el malvado Rey Miraz, que gobierna sin piedad. Los cuatro niños no tardarán en conocer un nuevo y extraño personaje: el joven Príncipe Caspian, heredero legítimo al trono que se ha visto obligado a esconderse ya que su tío Miraz trama su asesinato para colocar a su hijo recién nacido en el trono."
+      }
+    },
+    "runtimeMin": 150
+  },
+  {
+    "id": "the-chronicles-of-narnia-the-voyage-of-the-dawn-treader-2010",
+    "tmdbId": 10140,
+    "tmdbType": "movie",
+    "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+    "kind": "movie",
+    "releaseDate": "2010-12-02",
+    "imdbId": "tt0980970",
+    "posterPath": "/pP27zlm9yeKrCeDZLFLP2HKELot.jpg",
+    "overview": "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+        "overview": "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world."
+      },
+      "es": {
+        "title": "Las Crónicas de Narnia 3: La Travesía del Viajero del Alba",
+        "overview": "Tercera entrega de la saga literaria creada por C.S. Lewis. En esta ocasión, los hermanos Edmund y Lucy Pevensie y su primo Eustace embarcan en la nave \"El Viajero del Alba\" para buscar a los siete caballeros que han sido expulsados del reino por Miraz, el usurpador del trono de Narnia."
+      }
+    },
+    "runtimeMin": 113
+  },
+  {
+    "id": "the-chronicles-of-narnia-1988",
+    "tmdbId": 13793,
+    "tmdbType": "tv",
+    "title": "The Chronicles of Narnia",
+    "kind": "series",
+    "releaseDate": "1988-11-13",
+    "imdbId": "tt0094500",
+    "posterPath": "/pfAFIkQd9MD4KDxlElCVSNKwnaR.jpg",
+    "overview": "The Chronicles of Narnia is a British television miniseries adapting four of C.S. Lewis's books, blending live-action with animation for fantasy elements like Aslan and the creatures. The first series—The Lion, the Witch and the Wardrobe—aired from 13 November to 18 December 1988; the second—Prince Caspian and The Voyage of the Dawn Treader—aired from 19 November to 24 December 1989; and the third—The Silver Chair—from 18 November to 23 December 1990. Each series consists of six episodes each.",
+    "localized": {
+      "en": {
+        "title": "The Chronicles of Narnia",
+        "overview": "The Chronicles of Narnia is a British television miniseries adapting four of C.S. Lewis's books, blending live-action with animation for fantasy elements like Aslan and the creatures. The first series—The Lion, the Witch and the Wardrobe—aired from 13 November to 18 December 1988; the second—Prince Caspian and The Voyage of the Dawn Treader—aired from 19 November to 24 December 1989; and the third—The Silver Chair—from 18 November to 23 December 1990. Each series consists of six episodes each."
+      },
+      "es": {
+        "title": "The Chronicles of Narnia"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "1988-11-13"
+      },
+      {
+        "number": 2,
+        "episodes": 6,
+        "airDate": "1989-11-19"
+      },
+      {
+        "number": 3,
+        "episodes": 6,
+        "airDate": "1990-11-18"
+      }
+    ],
+    "runtimeMin": 539
+  },
+  {
+    "id": "tron-1982",
+    "tmdbId": 97,
+    "tmdbType": "movie",
+    "title": "Tron",
+    "kind": "movie",
+    "releaseDate": "1982-07-09",
+    "imdbId": "tt0084827",
+    "posterPath": "/jigY9B6TKz4qlfikZcd18qtzTK4.jpg",
+    "overview": "When brilliant video game maker Flynn hacks the mainframe of his ex-employer, he is beamed inside an astonishing digital world and becomes part of the very game he is designing. In his mission through cyberspace, Flynn matches wits with a maniacal Master Control Program and teams up with Tron, a security measure created to bring balance to the digital environment.",
+    "localized": {
+      "en": {
+        "title": "Tron",
+        "overview": "When brilliant video game maker Flynn hacks the mainframe of his ex-employer, he is beamed inside an astonishing digital world and becomes part of the very game he is designing. In his mission through cyberspace, Flynn matches wits with a maniacal Master Control Program and teams up with Tron, a security measure created to bring balance to the digital environment."
+      },
+      "es": {
+        "title": "Tron",
+        "overview": "Trás hackear la computadora de su exempleador, el creador de videojuegos Kevin Flynn se teletransporta en un asombroso mundo digital. Cómo forma parte del juego, su misión es enfrentarse a un maniático Programa de Control Maestro y aliarse con Tron, un programa de seguridad."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "tron-uprising-2012",
+    "tmdbId": 34356,
+    "tmdbType": "tv",
+    "title": "TRON: Uprising",
+    "kind": "series",
+    "releaseDate": "2012-06-07",
+    "imdbId": "tt1812523",
+    "posterPath": "/dgajee1p38rJo6ndgvJRti4eqcp.jpg",
+    "overview": "Some time between 'Tron' and 'Tron: Legacy', a young program named Beck becomes the skillful leader of a revolution inside the computer world of The Grid.",
+    "localized": {
+      "en": {
+        "title": "TRON: Uprising",
+        "overview": "Some time between 'Tron' and 'Tron: Legacy', a young program named Beck becomes the skillful leader of a revolution inside the computer world of The Grid."
+      },
+      "es": {
+        "title": "Tron: La Resistencia",
+        "overview": "El joven programa llamado Beck se convierte en el hábil líder de una revolución del mundo digital."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 18,
+        "airDate": "2012-06-07"
+      }
+    ],
+    "runtimeMin": 432
+  },
+  {
+    "id": "tron-legacy-2010",
+    "tmdbId": 20526,
+    "tmdbType": "movie",
+    "title": "TRON: Legacy",
+    "kind": "movie",
+    "releaseDate": "2010-12-14",
+    "imdbId": "tt1104001",
+    "posterPath": "/xcO8Uun0mfmE3N9CaiCy0tvjpiu.jpg",
+    "overview": "Sam Flynn, the tech-savvy and daring son of Kevin Flynn, investigates his father's disappearance and is pulled into The Grid. With the help of a mysterious program named Quorra, Sam quests to stop evil dictator Clu from crossing into the real world.",
+    "localized": {
+      "en": {
+        "title": "TRON: Legacy",
+        "overview": "Sam Flynn, the tech-savvy and daring son of Kevin Flynn, investigates his father's disappearance and is pulled into The Grid. With the help of a mysterious program named Quorra, Sam quests to stop evil dictator Clu from crossing into the real world."
+      },
+      "es": {
+        "title": "Tron: El Legado",
+        "overview": "En un intento de descubrir la desaparición de su padre, el audaz Sam Flynn logra ingresar a un mundo digital. Acompañado de Quorra, Sam emprende una misión para impedir los planes del malvado dictador Clu."
+      }
+    },
+    "runtimeMin": 126
+  },
+  {
+    "id": "tron-ares-2025",
+    "tmdbId": 533533,
+    "tmdbType": "movie",
+    "title": "TRON: Ares",
+    "kind": "movie",
+    "releaseDate": "2025-10-08",
+    "imdbId": "tt6604188",
+    "posterPath": "/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
+    "overview": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind's first encounter with A.I. beings.",
+    "localized": {
+      "en": {
+        "title": "TRON: Ares",
+        "overview": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind's first encounter with A.I. beings."
+      },
+      "es": {
+        "title": "TRON: Ares",
+        "overview": "Un programa altamente sofisticado llamado Ares es enviado del mundo digital al mundo real en una misión peligrosa, marcando el primer encuentro de la humanidad con seres de IA."
+      }
+    },
+    "runtimeMin": 119
+  },
+  {
+    "id": "dexter-2006",
+    "tmdbId": 1405,
+    "tmdbType": "tv",
+    "title": "Dexter",
+    "kind": "series",
+    "releaseDate": "2006-10-01",
+    "imdbId": "tt0773262",
+    "posterPath": "/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+    "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+    "localized": {
+      "en": {
+        "title": "Dexter",
+        "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice."
+      },
+      "es": {
+        "title": "Dexter",
+        "overview": "Dexter Morgan, un analista de patrones de salpicaduras de sangre de la Policía Metropolitana de Miami, también lleva una vida secreta como asesino en serie, persiguiendo a criminales que han escapado a la justicia."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "2006-10-01"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2007-09-30"
+      },
+      {
+        "number": 3,
+        "episodes": 12,
+        "airDate": "2008-09-28"
+      },
+      {
+        "number": 4,
+        "episodes": 12,
+        "airDate": "2009-09-27"
+      },
+      {
+        "number": 5,
+        "episodes": 12,
+        "airDate": "2010-09-26"
+      },
+      {
+        "number": 6,
+        "episodes": 12,
+        "airDate": "2011-10-02"
+      },
+      {
+        "number": 7,
+        "episodes": 12,
+        "airDate": "2012-09-30"
+      },
+      {
+        "number": 8,
+        "episodes": 12,
+        "airDate": "2013-06-30"
+      }
+    ],
+    "runtimeMin": 5062
+  },
+  {
+    "id": "dexter-new-blood-2021",
+    "tmdbId": 131927,
+    "tmdbType": "tv",
+    "title": "Dexter: New Blood",
+    "kind": "series",
+    "releaseDate": "2021-11-07",
+    "imdbId": "tt14164730",
+    "posterPath": "/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
+    "overview": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons.",
+    "localized": {
+      "en": {
+        "title": "Dexter: New Blood",
+        "overview": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons."
+      },
+      "es": {
+        "title": "Dexter: New Blood",
+        "overview": "Ambientada 10 años después de que Dexter desapareciera en el ojo del huracán Laura, la serie lo encuentra viviendo con un nombre falso en la pequeña ciudad de Iron Lake, Nueva York. Dexter puede estar abrazando su nueva vida, pero a raíz de eventos inesperados en esta comunidad unida, su Oscuro Pasajero lo llama."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2021-11-07"
+      }
+    ],
+    "runtimeMin": 531
+  },
+  {
+    "id": "dexter-original-sin-2024",
+    "tmdbId": 219937,
+    "tmdbType": "tv",
+    "title": "Dexter: Original Sin",
+    "kind": "series",
+    "releaseDate": "2024-12-15",
+    "imdbId": "tt32252772",
+    "posterPath": "/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg",
+    "overview": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
+    "localized": {
+      "en": {
+        "title": "Dexter: Original Sin",
+        "overview": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department."
+      },
+      "es": {
+        "title": "Dexter: Pecado Original",
+        "overview": "En 1991, Miami. Dexter Morgan pasa de ser estudiante a ser un asesino en serie vengador, ya que sus impulsos sanguinarios no pueden ignorarse y debe aprender a canalizar su oscuridad interior. Un desafío particular para el joven Dexter, que comienza una pasantía forense en el Departamento de Policía Metropolitana de Miami."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2024-12-15"
+      }
+    ],
+    "runtimeMin": 510
+  },
+  {
+    "id": "dexter-resurrection-2025",
+    "tmdbId": 259909,
+    "tmdbType": "tv",
+    "title": "Dexter: Resurrection",
+    "kind": "series",
+    "releaseDate": "2025-07-13",
+    "imdbId": "tt33043892",
+    "posterPath": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+    "overview": "Dexter Morgan awakens from a coma to find Harrison gone without a trace. Realizing the weight of what he put his son through, Dexter sets out for New York City, determined to find him and make things right. But closure won't come easy. When Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast. As father and son navigate their own darkness in the city that never sleeps, they soon find themselves deeper than they ever imagined - and that the only way out is together.",
+    "localized": {
+      "en": {
+        "title": "Dexter: Resurrection",
+        "overview": "Dexter Morgan awakens from a coma to find Harrison gone without a trace. Realizing the weight of what he put his son through, Dexter sets out for New York City, determined to find him and make things right. But closure won't come easy. When Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast. As father and son navigate their own darkness in the city that never sleeps, they soon find themselves deeper than they ever imagined - and that the only way out is together."
+      },
+      "es": {
+        "title": "Dexter: Resurrección",
+        "overview": "Dexter Morgan despierta de un coma de diez semanas y, mientras comienza una dolorosa recuperación, se entera de que su hijo Harrison Morgan ha huido a Nueva York. Tanto el padre como el hijo se sienten más cerca de enfrentarse a la oscuridad de la que han intentado escapar."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2025-07-13"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2026-11-01"
+      }
+    ],
+    "runtimeMin": 629,
+    "ongoing": true
+  },
+  {
+    "id": "percy-jackson-and-the-olympians-the-lightning-thief-2010",
+    "tmdbId": 32657,
+    "tmdbType": "movie",
+    "title": "Percy Jackson & the Olympians: The Lightning Thief",
+    "kind": "movie",
+    "releaseDate": "2010-02-01",
+    "imdbId": "tt0814255",
+    "posterPath": "/brzpTyZ5bnM7s53C1KSk1TmrMO6.jpg",
+    "overview": "Accident prone teenager, Percy discovers he's actually a demi-God, the son of Poseidon, and he is needed when Zeus' lightning is stolen. Percy must master his new found skills in order to prevent a war between the Gods that could devastate the entire world.",
+    "localized": {
+      "en": {
+        "title": "Percy Jackson & the Olympians: The Lightning Thief",
+        "overview": "Accident prone teenager, Percy discovers he's actually a demi-God, the son of Poseidon, and he is needed when Zeus' lightning is stolen. Percy must master his new found skills in order to prevent a war between the Gods that could devastate the entire world."
+      },
+      "es": {
+        "title": "Percy Jackson y el ladrón del rayo",
+        "overview": "Percy Jackson es un auténtico imán para los desastres y tiene problemas en el instituto -pero ése es el menor de sus retos-. Estamos en el siglo XXI pero los dioses del Olimpo parecen haberse escapado de las páginas del libro de texto de Percy sobre mitología griega para colarse en su vida. Percy se ha enterado de que su verdadero padre es Poseidón, dios del mar, lo que significa que Percy es un semidiós -mitad ser humano, mitad dios-. Al mismo tiempo, Zeus, el rey de todos los dioses, ha acusado a Percy de robarle su rayo... la versión original de las armas de destrucción masiva..."
+      }
+    },
+    "runtimeMin": 118
+  },
+  {
+    "id": "percy-jackson-sea-of-monsters-2013",
+    "tmdbId": 76285,
+    "tmdbType": "movie",
+    "title": "Percy Jackson: Sea of Monsters",
+    "kind": "movie",
+    "releaseDate": "2013-08-07",
+    "imdbId": "tt1854564",
+    "posterPath": "/tAu90qEpLqwqiZLsMqpaMVr55oN.jpg",
+    "overview": "In their quest to confront the ultimate evil, Percy and his friends battle swarms of mythical creatures to find the mythical Golden Fleece and to stop an ancient evil from rising.",
+    "localized": {
+      "en": {
+        "title": "Percy Jackson: Sea of Monsters",
+        "overview": "In their quest to confront the ultimate evil, Percy and his friends battle swarms of mythical creatures to find the mythical Golden Fleece and to stop an ancient evil from rising."
+      },
+      "es": {
+        "title": "Percy Jackson y el mar de los monstruos",
+        "overview": "Percy Jackson no se siente un héroe. El semidiós hijo de Poseidón el dios griego del mar pudo salvar el mundo en una ocasión, pero Percy está empezando a pensar que pudo ser fruto de la casualidad. Y ahora la pregunta es: ¿ha resultado ser un fiasco? Ahora que Percy ha descubierto que tiene un hermanastro que es un monstruo, se pregunta si ser el hijo de Poseidón es una bendición o, más bien, una maldición..."
+      }
+    },
+    "runtimeMin": 106
+  },
+  {
+    "id": "percy-jackson-and-the-olympians-2023",
+    "tmdbId": 103540,
+    "tmdbType": "tv",
+    "title": "Percy Jackson and the Olympians",
+    "kind": "series",
+    "releaseDate": "2023-12-19",
+    "imdbId": "tt12324366",
+    "posterPath": "/bd5ZIqiz1PRiLC7FLexzVBf8qu1.jpg",
+    "overview": "Percy Jackson is on a dangerous quest. Outrunning monsters and outwitting gods, he must journey across America to return Zeus's master bolt and stop an all-out war. With the help of his friends Annabeth and Grover, Percy's journey will lead him closer to the answers he seeks: how to fit into a world where he feels out of place, and who he's destined to be.",
+    "localized": {
+      "en": {
+        "title": "Percy Jackson and the Olympians",
+        "overview": "Percy Jackson is on a dangerous quest. Outrunning monsters and outwitting gods, he must journey across America to return Zeus's master bolt and stop an all-out war. With the help of his friends Annabeth and Grover, Percy's journey will lead him closer to the answers he seeks: how to fit into a world where he feels out of place, and who he's destined to be."
+      },
+      "es": {
+        "title": "Percy Jackson y los dioses del Olimpo",
+        "overview": "Percy Jackson está en una peligrosa misión. Evadiendo monstruos y superando dioses, debe cruzar el país para devolver el rayo maestro de Zeus y evitar una guerra. Con la ayuda de sus compañeros de misión, Annabeth y Grover, el viaje de Percy lo llevará a responderse cómo encajar en un mundo en el que se siente fuera de lugar y a descubrir cuál es su destino."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-12-19"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-12-10"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2026-11-20"
+      }
+    ],
+    "runtimeMin": 652,
+    "ongoing": true
   }
 ]
