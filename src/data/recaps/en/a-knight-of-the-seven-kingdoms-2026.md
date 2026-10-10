@@ -1,0 +1,2 @@
+- Ser Duncan the Tall, a young, naive knight, and his diminutive squire Egg wander Westeros.
+- The Targaryens still hold the Iron Throne and the last dragon is still in living memory.

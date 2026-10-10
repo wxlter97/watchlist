@@ -1,0 +1,2 @@
+- Tras el ataque de Smaug a Laketown, Bilbo y los enanos intentan defender el tesoro de Erebor.
+- Cinco ejércitos se enfrentan.

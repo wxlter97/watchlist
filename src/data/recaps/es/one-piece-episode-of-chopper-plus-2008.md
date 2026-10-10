@@ -1,0 +1,2 @@
+- Cuando Nami enferma, los Sombrero de Paja buscan ayuda médica en la isla Drum.
+- Allí conocen a un reno que se convertirá en su médico, Chopper.

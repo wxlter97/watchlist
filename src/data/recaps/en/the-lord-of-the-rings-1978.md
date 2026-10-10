@@ -1,0 +1,2 @@
+- Frodo Baggins is tasked with destroying the Ring.
+- The film covers only the first part of the story.

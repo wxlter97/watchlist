@@ -1,0 +1,2 @@
+- Gandalf and Bilbo join a company of dwarves to retake Erebor.
+- Bilbo finds a ring in the mountains.

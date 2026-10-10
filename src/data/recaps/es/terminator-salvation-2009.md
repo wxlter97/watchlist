@@ -1,0 +1,2 @@
+- En 2018, John Connor lidera la resistencia contra las máquinas.
+- Conoce a Marcus Wright, un hombre con un pasado oscuro.

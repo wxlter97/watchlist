@@ -1,0 +1,1 @@
+- Los Sombrero de Paja visitan una isla de recreo del Barón Omatsuri, que les pide completar una serie de retos.

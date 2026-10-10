@@ -1,0 +1,2 @@
+- Los enanos, Bilbo y Gandalf escapan de las Montañas Nubladas.
+- Bilbo se enfrenta al dragón Smaug en Erebor.

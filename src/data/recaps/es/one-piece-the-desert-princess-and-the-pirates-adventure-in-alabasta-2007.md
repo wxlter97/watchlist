@@ -1,0 +1,1 @@
+- Los Sombrero de Paja intentan salvar a un reino del desierto de una guerra civil.

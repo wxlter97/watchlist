@@ -1,0 +1,2 @@
+- Wulf, un señor traidor de Rohan, ataca buscando venganza.
+- Los rohirrim se defienden en el Abismo de Helm.

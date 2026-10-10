@@ -1,0 +1,1 @@
+- Los Sombrero de Paja se enfrentan al tesoro del Gran Pirata Dorado Woonan.

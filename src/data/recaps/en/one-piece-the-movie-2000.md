@@ -1,0 +1,1 @@
+- The Straw Hats go after the treasure of the Great Gold Pirate Woonan.

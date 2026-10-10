@@ -1,0 +1,2 @@
+- Ford Brody, un experto naval en explosivos, se ve envuelto en el ataque de unas criaturas a San Francisco.
+- Godzilla emerge para enfrentarlas.

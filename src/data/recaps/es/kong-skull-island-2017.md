@@ -1,0 +1,1 @@
+- Un equipo de exploradores llega a la misteriosa Isla Calavera, hogar del rey de los simios.

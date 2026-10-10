@@ -1,0 +1,2 @@
+- When Nami falls ill, the Straw Hats seek medical care on Drum Island.
+- There they meet a reindeer who will become their doctor, Chopper.

@@ -1,0 +1,1 @@
+- An ensemble cast faces the return of evil to Middle-earth, from Lindon and Númenor to the Misty Mountains.

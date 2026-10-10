@@ -1,0 +1,1 @@
+- Los Sombrero de Paja necesitan dinero y entran en una carrera secreta entre tripulaciones piratas.

@@ -1,0 +1,2 @@
+- In 2018, John Connor leads the resistance against the machines.
+- He meets Marcus Wright, a man with a dark past.

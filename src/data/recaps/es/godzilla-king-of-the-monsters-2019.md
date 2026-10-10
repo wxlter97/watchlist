@@ -1,0 +1,1 @@
+- Monarch se enfrenta a monstruos colosales como Godzilla, Mothra, Rodan y King Ghidorah.

@@ -1,0 +1,2 @@
+- Tras sobrevivir al ataque de Godzilla en San Francisco, Cate descubre un secreto sobre su familia.
+- Viaja por el mundo para conocer la verdad sobre Monarch.

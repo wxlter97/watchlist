@@ -1,0 +1,2 @@
+- The Targaryen dynasty is at its peak, with more than fifteen dragons.
+- King Viserys names his daughter Rhaenyra heir, which splits the court once he later has a son.

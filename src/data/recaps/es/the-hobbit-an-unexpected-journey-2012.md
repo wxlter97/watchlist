@@ -1,0 +1,2 @@
+- Gandalf y Bilbo se unen a una compañía de enanos para recuperar Erebor.
+- Bilbo encuentra un anillo en las montañas.

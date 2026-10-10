@@ -1,0 +1,1 @@
+- Un grupo de exploradores naufraga en el Pacífico Sur y se topa con criaturas, entre ellas Kong.

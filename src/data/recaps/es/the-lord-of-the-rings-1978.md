@@ -1,0 +1,2 @@
+- Frodo Bolsón recibe la misión de destruir el Anillo.
+- La película cubre solo la primera parte de la historia.

@@ -1,0 +1,1 @@
+- The Straw Hats need cash and enter a secret race among pirate crews.

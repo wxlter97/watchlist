@@ -1,0 +1,2 @@
+- The dwarves, Bilbo and Gandalf escape the Misty Mountains.
+- Bilbo faces the dragon Smaug at Erebor.

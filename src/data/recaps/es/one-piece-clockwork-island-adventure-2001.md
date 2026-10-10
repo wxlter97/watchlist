@@ -1,0 +1,1 @@
+- Los Sombrero de Paja descansan en una playa hasta que Luffy y la tripulación se ven envueltos en una aventura en la isla.

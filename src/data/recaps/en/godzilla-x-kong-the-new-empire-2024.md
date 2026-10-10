@@ -1,0 +1,1 @@
+- After their showdown, Godzilla and Kong must team up against a colossal undiscovered threat.

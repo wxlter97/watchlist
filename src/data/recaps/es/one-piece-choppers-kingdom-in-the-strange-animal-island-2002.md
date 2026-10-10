@@ -1,0 +1,1 @@
+- Una erupción de géiseres golpea al Going Merry y los lleva a una isla de animales extraños.
