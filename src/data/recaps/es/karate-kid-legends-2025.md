@@ -1,0 +1,3 @@
+- Li Fong, joven prodigio del kung fu, se muda a Nueva York.
+- El señor Han y Daniel LaRusso lo entrenan.
+- Li combina kung fu y karate para competir en un torneo.

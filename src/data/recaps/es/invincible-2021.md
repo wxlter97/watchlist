@@ -1,0 +1,3 @@
+- Mark Grayson, adolescente con poderes, sigue los pasos de su padre, el héroe Omni-Man.
+- Descubre un secreto que cambia todo.
+- Las temporadas siguientes amplían el conflicto con los viltrumitas.
