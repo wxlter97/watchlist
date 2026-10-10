@@ -1,0 +1,1 @@
+- Liko y Roy investigan los misterios que los rodean y conocen a Friede y al Capitán Pikachu.

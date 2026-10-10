@@ -1,0 +1,2 @@
+- Boruto, Naruto's son, feels ignored because of his father's duties.
+- He asks Sasuke to take him as an apprentice.

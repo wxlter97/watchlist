@@ -20442,5 +20442,759 @@
       }
     },
     "runtimeMin": 5
+  },
+  {
+    "id": "naruto-2002",
+    "tmdbId": 46260,
+    "tmdbType": "tv",
+    "title": "Naruto",
+    "kind": "series",
+    "releaseDate": "2002-10-03",
+    "imdbId": "tt0409591",
+    "posterPath": "/xppeysfvDKVx775MFuH8Z9BlpMk.jpg",
+    "overview": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+    "localized": {
+      "en": {
+        "title": "Naruto",
+        "overview": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja."
+      },
+      "es": {
+        "title": "Naruto",
+        "overview": "Narra la historia de un ninja adolescente hiperactivo, impredecible y ruidoso llamado Naruto Uzumaki, quien aspira a convertirse afanosamente en Hokage, el máximo grado ninja en su aldea, con el propósito de ser reconocido como alguien importante dentro de la misma."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 52,
+        "airDate": "2002-10-02"
+      },
+      {
+        "number": 2,
+        "episodes": 52
+      },
+      {
+        "number": 3,
+        "episodes": 54
+      },
+      {
+        "number": 4,
+        "episodes": 62
+      }
+    ],
+    "runtimeMin": 5280
+  },
+  {
+    "id": "naruto-shippuden-2007",
+    "tmdbId": 31910,
+    "tmdbType": "tv",
+    "title": "Naruto Shippūden",
+    "kind": "series",
+    "releaseDate": "2007-02-15",
+    "imdbId": "tt0988824",
+    "posterPath": "/kV27j3Nz4d5z8u6mN3EJw9RiLg2.jpg",
+    "overview": "After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work. It will not be easy though as he has amassed a few more dangerous enemies, in the likes of the shinobi organization; Akatsuki.",
+    "localized": {
+      "en": {
+        "title": "Naruto Shippūden",
+        "overview": "After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work. It will not be easy though as he has amassed a few more dangerous enemies, in the likes of the shinobi organization; Akatsuki."
+      },
+      "es": {
+        "title": "Naruto Shippuden",
+        "overview": "La acción empieza tras los dos años y medio que el protagonista, Naruto Uzumaki, ha pasado entrenando con su maestro Jiraiya. En ella reaparecen todos los personajes de la anterior serie pero con más experiencia y fuerza. Además, la Organización Akatsuki entra definitivamente en acción, tras su breve aparición en la parte anterior, y se revelan sus objetivos. El enemigo principal de la parte anterior de Naruto, Orochimaru, ha estado mientras tanto entrenando a Sasuke Uchiha, antiguo compañero de Naruto, que abandonó voluntariamente la aldea para ganar fuerza gracias a este personaje, y así poder tomar venganza contra su hermano, Itachi Uchiha."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 32,
+        "airDate": "2007-02-15"
+      },
+      {
+        "number": 2,
+        "episodes": 21,
+        "airDate": "2007-11-06"
+      },
+      {
+        "number": 3,
+        "episodes": 18,
+        "airDate": "2008-04-02"
+      },
+      {
+        "number": 4,
+        "episodes": 17,
+        "airDate": "2008-08-20"
+      },
+      {
+        "number": 5,
+        "episodes": 24,
+        "airDate": "2008-12-17"
+      },
+      {
+        "number": 6,
+        "episodes": 31,
+        "airDate": "2009-06-10"
+      },
+      {
+        "number": 7,
+        "episodes": 8,
+        "airDate": "2010-01-20"
+      },
+      {
+        "number": 8,
+        "episodes": 24,
+        "airDate": "2010-03-24"
+      },
+      {
+        "number": 9,
+        "episodes": 21,
+        "airDate": "2010-09-01"
+      },
+      {
+        "number": 10,
+        "episodes": 25,
+        "airDate": "2011-02-10"
+      },
+      {
+        "number": 11,
+        "episodes": 21,
+        "airDate": "2011-07-28"
+      },
+      {
+        "number": 12,
+        "episodes": 33,
+        "airDate": "2012-01-04"
+      },
+      {
+        "number": 13,
+        "episodes": 20,
+        "airDate": "2012-08-22"
+      },
+      {
+        "number": 14,
+        "episodes": 25,
+        "airDate": "2013-01-16"
+      },
+      {
+        "number": 15,
+        "episodes": 28,
+        "airDate": "2013-07-18"
+      },
+      {
+        "number": 16,
+        "episodes": 13,
+        "airDate": "2014-02-05"
+      },
+      {
+        "number": 17,
+        "episodes": 11,
+        "airDate": "2014-05-14"
+      },
+      {
+        "number": 18,
+        "episodes": 21,
+        "airDate": "2014-08-20"
+      },
+      {
+        "number": 19,
+        "episodes": 20
+      },
+      {
+        "number": 20,
+        "episodes": 87,
+        "airDate": "2015-05-27"
+      }
+    ],
+    "runtimeMin": 11500
+  },
+  {
+    "id": "boruto-naruto-next-generations-2017",
+    "tmdbId": 70881,
+    "tmdbType": "tv",
+    "title": "Boruto: Naruto Next Generations",
+    "kind": "series",
+    "releaseDate": "2017-04-05",
+    "imdbId": "tt6342474",
+    "posterPath": "/e0B6i48kxdRkMcK4tR4YNfXGWOc.jpg",
+    "overview": "The life of the shinobi is beginning to change. Boruto Uzumaki, son of Seventh Hokage Naruto Uzumaki, has enrolled in the Ninja Academy to learn the ways of the ninja. Now, as a series of mysterious events unfolds, Boruto’s story is about to begin!",
+    "localized": {
+      "en": {
+        "title": "Boruto: Naruto Next Generations",
+        "overview": "The life of the shinobi is beginning to change. Boruto Uzumaki, son of Seventh Hokage Naruto Uzumaki, has enrolled in the Ninja Academy to learn the ways of the ninja. Now, as a series of mysterious events unfolds, Boruto’s story is about to begin!"
+      },
+      "es": {
+        "title": "Boruto: Naruto Next Generations",
+        "overview": "En Konoha han entrado en una era de paz y modernidad. Los altos edificios despuntan en las calles, las pantallas gigantes muestran imágenes de todo tipo y los medios de transporte conectan los vairos distritos. Pese a que sigue siendo una aldea ninja, el número de civiles ha aumentado y la vida de los ninja ha cambiado. Boruto Uzumaki es hijo del Séptimo Hokage, Naruto Uzumaki, y se ha unido a la Academia Ninja para aprender. Otros estudiantes lo menosprecian de inmediato y consideran que solo está ahí por ser \"hijo del Hokage\", pero pronto Boruto disipará todas esas dudas sobre él."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 293,
+        "airDate": "2017-04-05"
+      }
+    ],
+    "runtimeMin": 7039,
+    "ongoing": true
+  },
+  {
+    "id": "naruto-the-movie-ninja-clash-in-the-land-of-snow-2004",
+    "tmdbId": 16907,
+    "tmdbType": "movie",
+    "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+    "kind": "movie",
+    "releaseDate": "2004-08-21",
+    "imdbId": "tt0476680",
+    "posterPath": "/eUNRUeSNzm8LktH4HRaYiAReB6R.jpg",
+    "overview": "Naruto is thrilled when he is sent on a mission to protect his favorite actress, Yukie Fujikaze, on the set of her new movie, The Adventures of Princess Gale. But when the crew ventures out to film in the icy, foreboding Land of Snow, Yukie mysteriously flees! Naruto and his squad set off to find her... unaware that three Snow Ninja lie in wait, with a sinister purpose that will force Yukie to face her hidden past!",
+    "localized": {
+      "en": {
+        "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+        "overview": "Naruto is thrilled when he is sent on a mission to protect his favorite actress, Yukie Fujikaze, on the set of her new movie, The Adventures of Princess Gale. But when the crew ventures out to film in the icy, foreboding Land of Snow, Yukie mysteriously flees! Naruto and his squad set off to find her... unaware that three Snow Ninja lie in wait, with a sinister purpose that will force Yukie to face her hidden past!"
+      },
+      "es": {
+        "title": "Naruto la Película: ¡El Rescate de la Princesa de la Nieve!",
+        "overview": "La actriz e ídolo de Naruto, la controvertida Yukie Fujikaze, es en realidad la heredera al trono en el país de la Nieve, el cual se encuentra bajo el yugo de su severo tío y secuaces. Naruto, Sasuke y Sakura, acompañados por el maestro Kakashi y la compañía cinematográfica, llevarán de vuelta a su país a la princesa Yukie bajo el pretexto de rodar allí una escena... pero Yukie no estará muy dispuesta a regresar a su tierra natal..."
+      }
+    },
+    "runtimeMin": 82
+  },
+  {
+    "id": "naruto-the-movie-legend-of-the-stone-of-gelel-2005",
+    "tmdbId": 16910,
+    "tmdbType": "movie",
+    "title": "Naruto the Movie: Legend of the Stone of Gelel",
+    "kind": "movie",
+    "releaseDate": "2005-08-06",
+    "imdbId": "tt0791188",
+    "posterPath": "/itKMldwL6uhUZYO3X78NOFU4zzO.jpg",
+    "overview": "Naruto, Shikamaru, and Sakura are executing their mission of delivering a lost pet to a certain village. However, right in the midst of things, troops led by the mysterious knight, Temujin, attack them. In the violent battle, the three become separated. Temujin challenges Naruto to a fight and at the end of the fierce battle, both fall together from a high cliff...",
+    "localized": {
+      "en": {
+        "title": "Naruto the Movie: Legend of the Stone of Gelel",
+        "overview": "Naruto, Shikamaru, and Sakura are executing their mission of delivering a lost pet to a certain village. However, right in the midst of things, troops led by the mysterious knight, Temujin, attack them. In the violent battle, the three become separated. Temujin challenges Naruto to a fight and at the end of the fierce battle, both fall together from a high cliff..."
+      },
+      "es": {
+        "title": "Naruto la Película: Las Ruinas Ilusorias en lo Profundo de la Tierra",
+        "overview": "Cronológicamente, la película se encuentra situada después de la huida de Sasuke con Orochimaru.  La trama de la película ronda alrededor de una piedra llamada Gelel, que tiene un poder fuerte y misterioso. Había un clan que podía controlar los poderes de la piedra una vez con ese poder podían hacer madurar los árboles en un solo día y curar heridas al instante. Pero este poder llevó a la disputa y al final todo acabó en guerra."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "naruto-the-movie-guardians-of-the-crescent-moon-kingdom-2006",
+    "tmdbId": 18861,
+    "tmdbType": "movie",
+    "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+    "kind": "movie",
+    "releaseDate": "2006-08-05",
+    "imdbId": "tt1071815",
+    "posterPath": "/mmKiJ93x6uhTwJlrxCoY38R4qo6.jpg",
+    "overview": "Naruto Uzumaki, Kakashi Hatake, Sakura Haruno, and Rock Lee are assigned to protect the prince of the Land of the Moon, Michiru, during his world trip; other escorts had been hired, but quit due to being treated poorly. The Land of the Moon is a very wealthy nation, so Michiru tends to buy whatever he wants, and has a very materialistic worldview. His Hikaru, also acts in much the same manner.",
+    "localized": {
+      "en": {
+        "title": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+        "overview": "Naruto Uzumaki, Kakashi Hatake, Sakura Haruno, and Rock Lee are assigned to protect the prince of the Land of the Moon, Michiru, during his world trip; other escorts had been hired, but quit due to being treated poorly. The Land of the Moon is a very wealthy nation, so Michiru tends to buy whatever he wants, and has a very materialistic worldview. His Hikaru, also acts in much the same manner."
+      },
+      "es": {
+        "title": "Naruto la Película: ¡La Gran Excitación! Pánico Animal en la Isla de la Luna",
+        "overview": "La historia o trama de la película cuenta el viaje de un príncipe del País de la Luna, situado en la isla de la luna creciente, en un mar meridional, que tiene que volver de nuevo a su casa. Este será escoltado por Naruto, Kakashi, Sakura y Rock Lee. El Príncipe acaba de comprar un circo (entero) para llevárselo a la isla, y es por eso que el grupo de Kakashi tendrá que hacer todo lo posible para que el príncipe y su gran compra llegue sin problemas a la isla. Pero como no, un grupo de tres ninjas de lo más misteriosos los pondrán en apuros."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "naruto-shippuden-the-movie-2007",
+    "tmdbId": 20982,
+    "tmdbType": "movie",
+    "title": "Naruto Shippuden the Movie",
+    "kind": "movie",
+    "releaseDate": "2007-08-04",
+    "imdbId": "tt0988982",
+    "posterPath": "/vDkct38sSFSWJIATlfJw0l3QOIR.jpg",
+    "overview": "Demons that once almost destroyed the world, are revived by someone. To prevent the world from being destroyed, the demon has to be sealed and the only one who can do it is the shrine maiden Shion from the country of demons, who has two powers; one is sealing demons and the other is predicting the deaths of humans. This time Naruto's mission is to guard Shion, but she predicts Naruto's death. The only way to escape it, is to get away from Shion, which would leave her unguarded, then the demon, whose only goal is to kill Shion will do so, thus meaning the end of the world. Naruto decides to challenge this \"prediction of death.\"",
+    "localized": {
+      "en": {
+        "title": "Naruto Shippuden the Movie",
+        "overview": "Demons that once almost destroyed the world, are revived by someone. To prevent the world from being destroyed, the demon has to be sealed and the only one who can do it is the shrine maiden Shion from the country of demons, who has two powers; one is sealing demons and the other is predicting the deaths of humans. This time Naruto's mission is to guard Shion, but she predicts Naruto's death. The only way to escape it, is to get away from Shion, which would leave her unguarded, then the demon, whose only goal is to kill Shion will do so, thus meaning the end of the world. Naruto decides to challenge this \"prediction of death.\""
+      },
+      "es": {
+        "title": "Naruto Shippuden: La Película",
+        "overview": "Demonios que una vez destruyeron el mundo han sido revividos por alguien, de la unica manera de controlar a los demonios es sellandolos y la persona que lo puede hacer es shrine maiden Shion del Pais de los demonios quien tiene dos poderes, uno para sellar los demonios y el otro es predecir la muerte de los Humanos. La mision de Naruto es cuidar de Shion pero ella predice la muerte de Naruto. La unica forma de evitar la muerte, Naruto debe alejarce de Shion pero esto la dejaria indefensa, y el demonio el cual quiere matar a Shion conseguiria su objetivo lo cual terminaria siendo la destrucción del mundo, Naruto decide enfrentar la profecia de muerte al mantenerse al lado de Shion cumpliendo su misión."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "naruto-shippuden-the-movie-bonds-2008",
+    "tmdbId": 17581,
+    "tmdbType": "movie",
+    "title": "Naruto Shippuden the Movie: Bonds",
+    "kind": "movie",
+    "releaseDate": "2008-08-02",
+    "imdbId": "tt1160524",
+    "posterPath": "/bBqEiQbbfyt4MWR3NhDZMbS4Wp8.jpg",
+    "overview": "A mysterious group of ninjas makes a surprise attack on the Konohagakure, which takes great damage. The nightmare of another Shinobi World War could become a reality. Sasuke, who was still a missing nin from Konoha trying to kill his brother, Itachi, appears for the second time in front of Naruto at an unknown location to prevent it from happening.",
+    "localized": {
+      "en": {
+        "title": "Naruto Shippuden the Movie: Bonds",
+        "overview": "A mysterious group of ninjas makes a surprise attack on the Konohagakure, which takes great damage. The nightmare of another Shinobi World War could become a reality. Sasuke, who was still a missing nin from Konoha trying to kill his brother, Itachi, appears for the second time in front of Naruto at an unknown location to prevent it from happening."
+      },
+      "es": {
+        "title": "Naruto Shippuden 2: Lazos",
+        "overview": "Cuando un misterioso grupo de Shinobi realiza un ataque sorpresa sobre Konoha, la villa queda en ruinas después del ataque. Hasta entonces surge la posibilidad de que otra guerra shinobi pudiera desatarse. Mientras tanto, Sasuke -que abandonó a Kanoha para vengar a su clan por la muerte de su hermano Itachi- reaparece con sus amigos por segunda vez."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "naruto-shippuden-the-movie-the-will-of-fire-2009",
+    "tmdbId": 36728,
+    "tmdbType": "movie",
+    "title": "Naruto Shippuden the Movie: The Will of Fire",
+    "kind": "movie",
+    "releaseDate": "2009-08-01",
+    "imdbId": "tt1481363",
+    "posterPath": "/pZzdFmztwmg0FUOVCMa7vReHhQN.jpg",
+    "overview": "Ninjas with bloodline limits begin disappearing in all the countries and blame points toward the fire nation. By Tsunade's order, Kakashi is sacrificed to prevent an all out war. After inheriting charms left by Kakashi, Naruto fights through friends and foes to prevent his death while changing the minds of those who've inherited the will of fire.",
+    "localized": {
+      "en": {
+        "title": "Naruto Shippuden the Movie: The Will of Fire",
+        "overview": "Ninjas with bloodline limits begin disappearing in all the countries and blame points toward the fire nation. By Tsunade's order, Kakashi is sacrificed to prevent an all out war. After inheriting charms left by Kakashi, Naruto fights through friends and foes to prevent his death while changing the minds of those who've inherited the will of fire."
+      },
+      "es": {
+        "title": "Naruto Shippuden 3: Los Herederos De La Voluntad De Fuego",
+        "overview": "Cronológicamnte se encuentra situada entre los episodios 72 y 73. La película trata del potencial inicio de una Cuarta Gran Guerra Mundial Shinobi cuando ninjas poseedores de Kekkei Genkai comienzan a desaparecer de Kumogakure, Iwagakure, Kirigakure, y Sunagakure. Como es la única aldea que no es afectada por estos sucesos, Konohagakure es señalada como la causante de este incidente, y comienzan a circular rumores de una posible rebelión. Con las otras naciones traspasando las fronteras del país del Fuego, amenazando con una invasión, el Señor Feudal le ordena a Tsunade capturar al verdadero responsable y probar la inocencia de Konoha; en el caso de fallar, el País del Fuego será forzado a destruir la villa para preservar la paz mundial."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "naruto-shippuden-the-movie-the-lost-tower-2010",
+    "tmdbId": 50723,
+    "tmdbType": "movie",
+    "title": "Naruto Shippuden the Movie: The Lost Tower",
+    "kind": "movie",
+    "releaseDate": "2010-07-31",
+    "imdbId": "tt1703048",
+    "posterPath": "/6e2YvN1tQK4xQHlmy7GJTuXOt2u.jpg",
+    "overview": "Assigned on a mission to capture Mukade, a missing-nin, Naruto Uzumaki sets out for the once glorious historic ruins of \"Ouran\", where he pursues and corners the rouge ninja. Mukade's goal is revealed to be a dormant leyline within the ruins; he unleashes the power of the leyline, causing a light to envelop Naruto, sending him into the past, 20 years before the series began. When Naruto awakens, he comes into contact with the Fourth Hokage, Minato Namikaze.",
+    "localized": {
+      "en": {
+        "title": "Naruto Shippuden the Movie: The Lost Tower",
+        "overview": "Assigned on a mission to capture Mukade, a missing-nin, Naruto Uzumaki sets out for the once glorious historic ruins of \"Ouran\", where he pursues and corners the rouge ninja. Mukade's goal is revealed to be a dormant leyline within the ruins; he unleashes the power of the leyline, causing a light to envelop Naruto, sending him into the past, 20 years before the series began. When Naruto awakens, he comes into contact with the Fourth Hokage, Minato Namikaze."
+      },
+      "es": {
+        "title": "Naruto Shippuden 4: La Torre Perdida",
+        "overview": "¡¡Naruto atraviesa el espacio y el tiempo para encontrarse con el Cuarto Hokage, Namikaze Minato!!. ¡Un gran poder es desatado! ¡¡Naruto viaja al pasado!!."
+      }
+    },
+    "runtimeMin": 85
+  },
+  {
+    "id": "naruto-shippuden-the-movie-blood-prison-2011",
+    "tmdbId": 75624,
+    "tmdbType": "movie",
+    "title": "Naruto Shippuden the Movie: Blood Prison",
+    "kind": "movie",
+    "releaseDate": "2011-07-30",
+    "imdbId": "tt1999167",
+    "posterPath": "/4WT7zYFpe0fsbg6TitppiHddWAh.jpg",
+    "overview": "After his capture for attempted assassination of the Raikage, leader of Kumogakure, as well as killing Jōnin from Kirigakure and Iwagakure, Naruto is imprisoned in Hōzukijou: A criminal containment facility known as the Blood Prison. Mui, the castle master, uses the ultimate imprisonment technique to steal power from the prisoners, which is when Naruto notices his life has been targeted. Thus begins the battle to uncover the truth behind the mysterious murders and prove Naruto's innocence.",
+    "localized": {
+      "en": {
+        "title": "Naruto Shippuden the Movie: Blood Prison",
+        "overview": "After his capture for attempted assassination of the Raikage, leader of Kumogakure, as well as killing Jōnin from Kirigakure and Iwagakure, Naruto is imprisoned in Hōzukijou: A criminal containment facility known as the Blood Prison. Mui, the castle master, uses the ultimate imprisonment technique to steal power from the prisoners, which is when Naruto notices his life has been targeted. Thus begins the battle to uncover the truth behind the mysterious murders and prove Naruto's innocence."
+      },
+      "es": {
+        "title": "Naruto Shippuden 5: Prisión De Sangre",
+        "overview": "Después de ser capturado por el intento de asesinar al líder de Kumogakure, el Raikage, y el asesinato de varios Jonin de Kirigakure e Iwagakure, Naruto es encarcelado en una instalación de contención penal también conocida como la prisión de la sangre. El capitán del castillo, Mui, usa el jutsu de prisión máxima para robar el poder de los prisioneros. La batalla para demostrar su inocencia y descubrir la verdad ha comenzado para Naruto y sus amigos."
+      }
+    },
+    "runtimeMin": 108
+  },
+  {
+    "id": "road-to-ninja-naruto-the-movie-2012",
+    "tmdbId": 118406,
+    "tmdbType": "movie",
+    "title": "Road to Ninja: Naruto the Movie",
+    "kind": "movie",
+    "releaseDate": "2012-07-28",
+    "imdbId": "tt2290828",
+    "posterPath": "/xLal6fXNtiJN6Zw6qk21xAtdOeN.jpg",
+    "overview": "Sixteen years ago, a mysterious masked ninja unleashes a powerful creature known as the Nine-Tailed Demon Fox on the Hidden Leaf Village Konoha, killing many people. In response, the Fourth Hokage Minato Namikaze and his wife Kushina Uzumaki, the Demon Fox's living prison or Jinchūriki, manage to seal the creature inside their newborn son Naruto Uzumaki. With the Tailed Beast sealed, things continued as normal. However, in the present day, peace ended when a group of ninja called the Akatsuki attack Konoha under the guidance of Tobi, the mysterious masked man behind Fox's rampage years ago who intends on executing his plan to rule the world by shrouding it in illusions.",
+    "localized": {
+      "en": {
+        "title": "Road to Ninja: Naruto the Movie",
+        "overview": "Sixteen years ago, a mysterious masked ninja unleashes a powerful creature known as the Nine-Tailed Demon Fox on the Hidden Leaf Village Konoha, killing many people. In response, the Fourth Hokage Minato Namikaze and his wife Kushina Uzumaki, the Demon Fox's living prison or Jinchūriki, manage to seal the creature inside their newborn son Naruto Uzumaki. With the Tailed Beast sealed, things continued as normal. However, in the present day, peace ended when a group of ninja called the Akatsuki attack Konoha under the guidance of Tobi, the mysterious masked man behind Fox's rampage years ago who intends on executing his plan to rule the world by shrouding it in illusions."
+      },
+      "es": {
+        "title": "Naruto Shippuden 6: Road to Ninja",
+        "overview": "La película se basa en una realidad alterna del universo de Naruto, en la que él nunca perdió a sus padres, y Tobi, (el villano enmascarado), lleva a cabo su plan \"Ojo de Luna\" para gobernar el mundo, sumiéndolo bajo una ilusión. En esta película los personajes como Sasuke Uchiha tiene una personalidad más agradable y gentil, además de que le gusta Sakura Haruno."
+      }
+    },
+    "runtimeMin": 109
+  },
+  {
+    "id": "the-last-naruto-the-movie-2014",
+    "tmdbId": 317442,
+    "tmdbType": "movie",
+    "title": "The Last: Naruto the Movie",
+    "kind": "movie",
+    "releaseDate": "2014-12-06",
+    "imdbId": "tt3717532",
+    "posterPath": "/bAQ8O5Uw6FedtlCbJTutenzPVKd.jpg",
+    "overview": "Two years after the events of the Fourth Great Ninja War, the moon that Hagoromo Otsutsuki created long ago to seal away the Gedo Statue begins to descend towards the world, threatening to become a meteor that would destroy everything on impact. Amidst this crisis, a direct descendant of Kaguya Otsutsuki named Toneri Otsutsuki attempts to kidnap Hinata Hyuga but ends up abducting her younger sister Hanabi. Naruto and his allies now mount a rescue mission before finding themselves embroiled in a final battle to decide the fate of everything.",
+    "localized": {
+      "en": {
+        "title": "The Last: Naruto the Movie",
+        "overview": "Two years after the events of the Fourth Great Ninja War, the moon that Hagoromo Otsutsuki created long ago to seal away the Gedo Statue begins to descend towards the world, threatening to become a meteor that would destroy everything on impact. Amidst this crisis, a direct descendant of Kaguya Otsutsuki named Toneri Otsutsuki attempts to kidnap Hinata Hyuga but ends up abducting her younger sister Hanabi. Naruto and his allies now mount a rescue mission before finding themselves embroiled in a final battle to decide the fate of everything."
+      },
+      "es": {
+        "title": "The Last: Naruto la película",
+        "overview": "¡La luna se acerca peligrosamente a la tierra! A menos que se haga algo, la luna se desintegrará bañando a la tierra con meteoritos gigantes. El reloj marca el final del mundo, ¿Podrá Naruto salvar a la tierra de esta crisis? ¡El capítulo final de Naruto se revela! Esta cinta llena el vacío que dejó el final del manga y va más allá de la historia original. La Villa Oculta entre las Hojas, la ubicación dónde se dio la predestinada batalla entre Naruto y Sasuke… dos años después mientras se acerca el festival de invierno Naruto se encuentra en Ichiraku Ramen disfrutando con sus amigos, Hinata le tejió una bufanda que demuestra su amor en cada puntada pero que todavía no se la ha entregado. Súbitamente aparece un hombre misterioso. Naruto sale al rescate pero el hombre huye dejando un perturbador mensaje…"
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "boruto-naruto-the-movie-2015",
+    "tmdbId": 347201,
+    "tmdbType": "movie",
+    "title": "Boruto: Naruto the Movie",
+    "kind": "movie",
+    "releaseDate": "2015-08-07",
+    "imdbId": "tt4618398",
+    "posterPath": "/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg",
+    "overview": "The spirited Boruto Uzumaki, son of Seventh Hokage Naruto, is a skilled ninja who possesses the same brashness and passion his father once had. However, the constant absence of his father, who is busy with his Hokage duties, puts a damper on Boruto's fire. He ends up meeting his father's friend Sasuke, and requests to become... his apprentice!? The curtain on the story of the new generation rises!",
+    "localized": {
+      "en": {
+        "title": "Boruto: Naruto the Movie",
+        "overview": "The spirited Boruto Uzumaki, son of Seventh Hokage Naruto, is a skilled ninja who possesses the same brashness and passion his father once had. However, the constant absence of his father, who is busy with his Hokage duties, puts a damper on Boruto's fire. He ends up meeting his father's friend Sasuke, and requests to become... his apprentice!? The curtain on the story of the new generation rises!"
+      },
+      "es": {
+        "title": "Boruto: Naruto la Película",
+        "overview": "Han pasado algunos años desde el final de la Guerra Shinobi. Naruto Uzumaki es el séptimo Hokage de Konoha, en esta nueva era. Su hijo, Boruto Uzumaki, pronto entrará en los exámenes de Chunin, junto Sarada Uchiha y el misterioso Mitsuki."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "pokemon-1997",
+    "tmdbId": 60572,
+    "tmdbType": "tv",
+    "title": "Pokémon",
+    "kind": "series",
+    "releaseDate": "1997-04-01",
+    "imdbId": "tt0168366",
+    "posterPath": "/lP4zwr0F7hWTbAFltfoFTc2AxRG.jpg",
+    "overview": "Join Ash accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.",
+    "localized": {
+      "en": {
+        "title": "Pokémon",
+        "overview": "Join Ash accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master."
+      },
+      "es": {
+        "title": "Pokémon",
+        "overview": "La serie narra las aventuras del joven entrenador Pokemon de diez años Ash Ketchum, que decide comenzar su aventura para llegar a convertirse un día en un gran Maestro de Pokemon. Para ello deberá recorrer distintas regiones, capturar cuantos más Pokemon pueda, y conseguir las medallas de gimnasio necesarias y así participar en la Liga Pokemon, ganarla y así estar un paso más cerca de convertirse en Maestro Pokemon. Para ello cuenta con la ayuda de Pikachu, su primer Pokemon, que obtuvo de manos del Profesor Oak. En su recorrido conocerá y hará nuevos amigos, que le acompañarán y ayudarán para conseguir alcanzar su sueño."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 82,
+        "airDate": "1997-04-01"
+      },
+      {
+        "number": 2,
+        "episodes": 36,
+        "airDate": "1999-01-28"
+      },
+      {
+        "number": 3,
+        "episodes": 41,
+        "airDate": "1999-10-14"
+      },
+      {
+        "number": 4,
+        "episodes": 52,
+        "airDate": "2000-08-03"
+      },
+      {
+        "number": 5,
+        "episodes": 65,
+        "airDate": "2001-08-09"
+      },
+      {
+        "number": 6,
+        "episodes": 40,
+        "airDate": "2002-11-21"
+      },
+      {
+        "number": 7,
+        "episodes": 52,
+        "airDate": "2003-09-04"
+      },
+      {
+        "number": 8,
+        "episodes": 53,
+        "airDate": "2004-09-09"
+      },
+      {
+        "number": 9,
+        "episodes": 46,
+        "airDate": "2005-10-06"
+      },
+      {
+        "number": 10,
+        "episodes": 52,
+        "airDate": "2006-09-28"
+      },
+      {
+        "number": 11,
+        "episodes": 52,
+        "airDate": "2007-11-08"
+      },
+      {
+        "number": 12,
+        "episodes": 53,
+        "airDate": "2008-12-04"
+      },
+      {
+        "number": 13,
+        "episodes": 34,
+        "airDate": "2010-01-07"
+      },
+      {
+        "number": 14,
+        "episodes": 48,
+        "airDate": "2010-09-23"
+      },
+      {
+        "number": 15,
+        "episodes": 49,
+        "airDate": "2011-09-22"
+      },
+      {
+        "number": 16,
+        "episodes": 45,
+        "airDate": "2012-10-11"
+      },
+      {
+        "number": 17,
+        "episodes": 48,
+        "airDate": "2013-10-17"
+      },
+      {
+        "number": 18,
+        "episodes": 45,
+        "airDate": "2014-11-13"
+      },
+      {
+        "number": 19,
+        "episodes": 49,
+        "airDate": "2015-10-29"
+      },
+      {
+        "number": 20,
+        "episodes": 43,
+        "airDate": "2016-11-17"
+      },
+      {
+        "number": 21,
+        "episodes": 49,
+        "airDate": "2017-10-05"
+      },
+      {
+        "number": 22,
+        "episodes": 54,
+        "airDate": "2018-10-21"
+      },
+      {
+        "number": 23,
+        "episodes": 48,
+        "airDate": "2019-11-17"
+      },
+      {
+        "number": 24,
+        "episodes": 42,
+        "airDate": "2020-12-11"
+      },
+      {
+        "number": 25,
+        "episodes": 57,
+        "airDate": "2021-12-17"
+      }
+    ],
+    "runtimeMin": 28428
+  },
+  {
+    "id": "pokemon-horizons-2023",
+    "tmdbId": 220150,
+    "tmdbType": "tv",
+    "title": "Pokémon Horizons",
+    "kind": "series",
+    "releaseDate": "2023-04-14",
+    "imdbId": "tt26692417",
+    "posterPath": "/amemXW39lMbNBJFRMJ5W7q9mLP2.jpg",
+    "overview": "Follow Liko and Roy as they unravel the mysteries that surround them and encounter Friede, Captain Pikachu, Amethio, and others during their exciting adventures!",
+    "localized": {
+      "en": {
+        "title": "Pokémon Horizons",
+        "overview": "Follow Liko and Roy as they unravel the mysteries that surround them and encounter Friede, Captain Pikachu, Amethio, and others during their exciting adventures!"
+      },
+      "es": {
+        "title": "Horizontes Pokémon: La serie",
+        "overview": "¡Acompaña a Liko y Rod en sus increíbles aventuras mientras desvelan los misterios que les rodean y conocen a Friede, Capitán Pikachu y Amethio, entre otros!"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 155,
+        "airDate": "2023-04-14"
+      }
+    ],
+    "runtimeMin": 3875,
+    "ongoing": true
+  },
+  {
+    "id": "pokemon-concierge-2023",
+    "tmdbId": 221301,
+    "tmdbType": "tv",
+    "title": "Pokémon Concierge",
+    "kind": "series",
+    "releaseDate": "2023-12-28",
+    "imdbId": "tt26916286",
+    "posterPath": "/2k53AsWsLrMtcbFyH0nVOqQjj2x.jpg",
+    "overview": "Welcome to Pokémon Resort, a peaceful getaway for Pokémon to relax and have fun. Which adorable guest will the new concierge Haru befriend and help first?",
+    "localized": {
+      "en": {
+        "title": "Pokémon Concierge",
+        "overview": "Welcome to Pokémon Resort, a peaceful getaway for Pokémon to relax and have fun. Which adorable guest will the new concierge Haru befriend and help first?"
+      },
+      "es": {
+        "title": "Concierge Pokémon",
+        "overview": "Este es el «Pokémon Resort», un sereno lugar donde los Pokémon pueden relajarse y divertirse. ¿A qué adorables huéspedes ayudará primero Haru, la nueva concierge?"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-12-27"
+      }
+    ],
+    "runtimeMin": 151
+  },
+  {
+    "id": "pokemon-the-first-movie-1998",
+    "tmdbId": 10228,
+    "tmdbType": "movie",
+    "title": "Pokémon: The First Movie",
+    "kind": "movie",
+    "releaseDate": "1998-07-18",
+    "imdbId": "tt0190641",
+    "posterPath": "/6YPzBcMH0aPNTvdXNCDLY0zdE1g.jpg",
+    "overview": "Determined to prove its superiority, a bio-engineered Pokémon called Mewtwo lures Ash, Pikachu and others into a Pokémon match like none before.",
+    "localized": {
+      "en": {
+        "title": "Pokémon: The First Movie",
+        "overview": "Determined to prove its superiority, a bio-engineered Pokémon called Mewtwo lures Ash, Pikachu and others into a Pokémon match like none before."
+      },
+      "es": {
+        "title": "Pokémon, la película: Mewtwo contraataca",
+        "overview": "Los científicos crean genéticamente un nuevo Pokémon, Mewtwo, pero los resultados son horribles y desastrosos."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "pokemon-the-movie-2000-1999",
+    "tmdbId": 12599,
+    "tmdbType": "movie",
+    "title": "Pokémon the Movie 2000",
+    "kind": "movie",
+    "releaseDate": "1999-07-17",
+    "imdbId": "tt0210234",
+    "posterPath": "/6u65C8aG4krAVyHsTjAMF7ucTDH.jpg",
+    "overview": "When Lawrence III's scheme to capture the Legendary Pokémon Lugia upsets the balance of nature, it is up to Ash Ketchum and his friends to save the world.",
+    "localized": {
+      "en": {
+        "title": "Pokémon the Movie 2000",
+        "overview": "When Lawrence III's scheme to capture the Legendary Pokémon Lugia upsets the balance of nature, it is up to Ash Ketchum and his friends to save the world."
+      },
+      "es": {
+        "title": "Pokémon la película 2000",
+        "overview": "Ash Ketchum debe reunir las tres esferas de fuego, hielo y relámpago para devolver el equilibrio a las Islas Naranja."
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "pokemon-3-the-movie-2000",
+    "tmdbId": 10991,
+    "tmdbType": "movie",
+    "title": "Pokémon 3: The Movie",
+    "kind": "movie",
+    "releaseDate": "2000-07-08",
+    "imdbId": "tt0235679",
+    "posterPath": "/hrBWiMWnD7mheMx846ycUWA3ohs.jpg",
+    "overview": "When the sadness of her father's disappearance gets to Molly Hale, she unknowingly uses the Unown to create her own dream world along with Entei, who she believes to be her father. When Entei kidnaps Ash's mother, Ash — alongside Misty and Brock — invade the mansion looking for his mom and trying to stop the mysteries of Molly's Dream World and Entei!",
+    "localized": {
+      "en": {
+        "title": "Pokémon 3: The Movie",
+        "overview": "When the sadness of her father's disappearance gets to Molly Hale, she unknowingly uses the Unown to create her own dream world along with Entei, who she believes to be her father. When Entei kidnaps Ash's mother, Ash — alongside Misty and Brock — invade the mansion looking for his mom and trying to stop the mysteries of Molly's Dream World and Entei!"
+      },
+      "es": {
+        "title": "Pokémon 3: el hechizo de los Unown",
+        "overview": "En la ciudad de Greenfield, los sueños y deseos de una joven solitaria son llevados a la realidad por un colectivo de Pokémon que alteran la realidad."
+      }
+    },
+    "runtimeMin": 73
+  },
+  {
+    "id": "pokemon-the-movie-i-choose-you-2017",
+    "tmdbId": 436931,
+    "tmdbType": "movie",
+    "title": "Pokémon the Movie: I Choose You!",
+    "kind": "movie",
+    "releaseDate": "2017-07-15",
+    "imdbId": "tt6595896",
+    "posterPath": "/7vWiCtO1pa0oSG6QTyVKd8eyLLk.jpg",
+    "overview": "Ash Ketchum wakes up late one morning after having broken his alarm clock in his sleep. He eventually makes it to Professor Oak's lab, but is told that the three starter Pokémon, Bulbasaur, Squirtle, and Charmander, have already been taken by Trainers who were on time. However, Oak reveals that he has one more Pokémon, an Electric-type named Pikachu. Despite its volatile and feisty personality, as well as its refusal to get inside a Poké Ball, Ash happily takes Pikachu for his journey.",
+    "localized": {
+      "en": {
+        "title": "Pokémon the Movie: I Choose You!",
+        "overview": "Ash Ketchum wakes up late one morning after having broken his alarm clock in his sleep. He eventually makes it to Professor Oak's lab, but is told that the three starter Pokémon, Bulbasaur, Squirtle, and Charmander, have already been taken by Trainers who were on time. However, Oak reveals that he has one more Pokémon, an Electric-type named Pikachu. Despite its volatile and feisty personality, as well as its refusal to get inside a Poké Ball, Ash happily takes Pikachu for his journey."
+      },
+      "es": {
+        "title": "Pokémon: ¡Yo te elijo!",
+        "overview": "Ash Ketchum, un chico de 10 años originario de Pueblo Paleta esta a punto de ver uno de sus sueños hacerse realidad: convertirse en Maestro Pokémon. Para esto necesita recibir su primer Pokémon de manos del profesor Oak, aunque este chico que sueña con todas las aventuras que va a tener,  jamás imaginó terminar con un indiciplinado Pikachu."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "pokemon-detective-pikachu-2019",
+    "tmdbId": 447404,
+    "tmdbType": "movie",
+    "title": "Pokémon Detective Pikachu",
+    "kind": "movie",
+    "releaseDate": "2019-05-03",
+    "imdbId": "tt5884052",
+    "posterPath": "/uhWvnFgg3BNlcUz0Re1HfQqIcCD.jpg",
+    "overview": "In a world where people collect pocket-size monsters (Pokémon) to do battle, a boy comes across an intelligent monster who seeks to be a detective.",
+    "localized": {
+      "en": {
+        "title": "Pokémon Detective Pikachu",
+        "overview": "In a world where people collect pocket-size monsters (Pokémon) to do battle, a boy comes across an intelligent monster who seeks to be a detective."
+      },
+      "es": {
+        "title": "Pokémon Detective Pikachu",
+        "overview": "Un joven une fuerzas con el detective Pikachu para desentrañar el misterio detrás de la desaparición de su padre. El dúo dinámico descubre una trama tortuosa que representa una amenaza para el mundo Pokémon."
+      }
+    },
+    "runtimeMin": 105
   }
 ]

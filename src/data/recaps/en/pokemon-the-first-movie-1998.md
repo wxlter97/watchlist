@@ -1,0 +1,2 @@
+- Mewtwo, a bio-engineered Pokémon, wants to prove its superiority.
+- It lures Ash, Pikachu and others into a Pokémon match like none before.

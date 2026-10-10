@@ -1,0 +1,1 @@
+- Un chico se topa con un Pokémon inteligente que quiere ser detective.

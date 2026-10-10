@@ -1,0 +1,1 @@
+- Naruto, Kakashi, Sakura and Lee protect Prince Michiru of the Land of the Moon on his trip.

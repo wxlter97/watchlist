@@ -1,0 +1,2 @@
+- Un demonio que casi destruyó el mundo es revivido.
+- Naruto debe proteger a Shion, la única capaz de sellarlo.

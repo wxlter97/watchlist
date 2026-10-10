@@ -1,0 +1,1 @@
+- Naruto, Shikamaru y Sakura entregan una mascota perdida y son atacados por tropas lideradas por Temujin.

@@ -1,0 +1,1 @@
+- Dieciséis años después del ataque del Zorro de Nueve Colas, Naruto vive en un mundo alterno.

@@ -1,0 +1,2 @@
+- Naruto protects an actress filming in the Land of Snow.
+- She flees and the team goes after her, but three Snow ninja lie in wait.

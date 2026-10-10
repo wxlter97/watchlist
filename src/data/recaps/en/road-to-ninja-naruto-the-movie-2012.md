@@ -1,0 +1,1 @@
+- Sixteen years after the Nine-Tailed Fox's attack, Naruto lives in an alternate world.

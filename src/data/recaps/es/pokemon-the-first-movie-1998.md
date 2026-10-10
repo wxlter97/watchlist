@@ -1,0 +1,2 @@
+- Mewtwo, un Pokémon creado en laboratorio, quiere demostrar su superioridad.
+- Atrae a Ash, Pikachu y otros a un combate Pokémon sin precedentes.

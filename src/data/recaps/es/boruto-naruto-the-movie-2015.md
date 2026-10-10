@@ -1,0 +1,2 @@
+- Boruto, hijo de Naruto, se siente ignorado por las ocupaciones de su padre.
+- Pide a Sasuke que lo tome como aprendiz.
