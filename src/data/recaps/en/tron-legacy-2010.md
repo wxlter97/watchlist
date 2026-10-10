@@ -1,0 +1,2 @@
+- Sam Flynn follows a clue to his missing father and enters the Grid.
+- There he faces Clu, a digital version of his father, and meets Quorra.
