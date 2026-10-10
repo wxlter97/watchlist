@@ -1,0 +1,182 @@
+{
+  "id": "texas-chainsaw",
+  "name": {
+    "es": "La masacre de Texas",
+    "en": "Texas Chainsaw Massacre"
+  },
+  "description": {
+    "es": "Leatherface y su familia: la película de 1974, sus secuelas y las versiones modernas.",
+    "en": "Leatherface and his family: the 1974 film, its sequels and the modern versions."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "original",
+      "name": {
+        "es": "Película de 1974 y secuelas",
+        "en": "1974 film and sequels"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La original y sus tres primeras secuelas.",
+        "en": "The original and its first three sequels."
+      }
+    },
+    {
+      "id": "remake",
+      "name": {
+        "es": "Remake (2003)",
+        "en": "Remake (2003)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "El remake de 2003 y su precuela.",
+        "en": "The 2003 remake and its prequel."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "legacy",
+      "name": {
+        "es": "Versiones modernas",
+        "en": "Modern versions"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Secuelas y precuelas recientes de la película de 1974.",
+        "en": "Recent sequels and prequels to the 1974 film."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-texas-chain-saw-massacre-1974",
+      "continuityId": "original",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "the-texas-chainsaw-massacre-part-2-1986",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "leatherface-the-texas-chainsaw-massacre-iii-1990",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "the-return-of-the-texas-chainsaw-massacre-1995",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "the-texas-chainsaw-massacre-the-beginning-2006",
+      "continuityId": "remake",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela del remake de 2003",
+        "en": "Prequel to the 2003 remake"
+      },
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "the-texas-chainsaw-massacre-2003",
+      "continuityId": "remake",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "leatherface-2017",
+      "continuityId": "legacy",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela de la película de 1974",
+        "en": "Prequel to the 1974 film"
+      },
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "texas-chainsaw-3d-2013",
+      "continuityId": "legacy",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "leatherface"
+      ]
+    },
+    {
+      "titleId": "texas-chainsaw-massacre-2022",
+      "continuityId": "legacy",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "leatherface"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "leatherface",
+        "name": {
+          "es": "Leatherface",
+          "en": "Leatherface"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

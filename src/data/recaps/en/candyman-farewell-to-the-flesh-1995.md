@@ -1,0 +1,1 @@
+- Candyman reappears and stalks a teacher.

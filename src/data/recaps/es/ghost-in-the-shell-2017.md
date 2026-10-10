@@ -1,0 +1,1 @@
+- La mayor, una cíborg, investiga su pasado mientras persigue a un hacker.

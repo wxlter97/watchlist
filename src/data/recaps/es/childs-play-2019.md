@@ -1,0 +1,1 @@
+- Un muñeco inteligente, Buddi, se obsesiona con su dueño, un niño.

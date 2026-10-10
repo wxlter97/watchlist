@@ -1,0 +1,1 @@
+- Kirsty discovers her uncle is returning from hell after using a puzzle box, and is pursued by the Cenobites.

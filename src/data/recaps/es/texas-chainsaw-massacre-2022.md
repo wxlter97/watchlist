@@ -1,0 +1,1 @@
+- Un grupo de jóvenes llega a un pueblo abandonado de Texas donde sigue Leatherface.

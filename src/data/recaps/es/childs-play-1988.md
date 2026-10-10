@@ -1,0 +1,1 @@
+- El asesino Charles Lee Ray traslada su alma a un muñeco, Chucky, y persigue a un niño.

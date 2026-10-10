@@ -1,0 +1,1 @@
+- A journalist discovers a statue containing Pinhead and faces the consequences.

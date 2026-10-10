@@ -1,0 +1,111 @@
+{
+  "id": "paranormal-activity",
+  "name": {
+    "es": "Actividad paranormal",
+    "en": "Paranormal Activity"
+  },
+  "description": {
+    "es": "Hallazgos en cámara y presencias en casa: las películas de la saga.",
+    "en": "Found footage and presences at home: the saga's films."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las siete películas de la saga.",
+        "en": "The saga's seven films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "paranormal-activity-3-2011",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela: transcurre en 1988",
+        "en": "Prequel: set in 1988"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "paranormal-activity-2-2010",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "paranormal-activity-2009",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "paranormal-activity-4-2012",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": []
+    },
+    {
+      "titleId": "paranormal-activity-the-marked-ones-2014",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": []
+    },
+    {
+      "titleId": "paranormal-activity-the-ghost-dimension-2015",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": []
+    },
+    {
+      "titleId": "paranormal-activity-next-of-kin-2021",
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

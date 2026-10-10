@@ -1,0 +1,1 @@
+- Una pareja instala cámaras para grabar una presencia en su casa.

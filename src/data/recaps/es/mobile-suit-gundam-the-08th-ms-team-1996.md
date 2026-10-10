@@ -1,0 +1,1 @@
+- Shiro Amada lidera un equipo en el Sudeste Asiático.

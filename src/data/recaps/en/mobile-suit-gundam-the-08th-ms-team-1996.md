@@ -1,0 +1,1 @@
+- Shiro Amada leads a team in Southeast Asia.

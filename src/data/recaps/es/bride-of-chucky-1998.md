@@ -1,0 +1,1 @@
+- Tiffany revive a Chucky y la pareja huye.

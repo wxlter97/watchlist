@@ -1,0 +1,1 @@
+- Una joven hereda una casa en Texas y descubre su vínculo con Leatherface.

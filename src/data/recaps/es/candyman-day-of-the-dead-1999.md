@@ -1,0 +1,1 @@
+- Una descendiente de Candyman enfrenta su legado.

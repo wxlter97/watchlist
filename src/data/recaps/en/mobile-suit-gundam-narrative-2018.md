@@ -1,0 +1,1 @@
+- Unicorn Gundam 03 reappears as the golden Phenex.

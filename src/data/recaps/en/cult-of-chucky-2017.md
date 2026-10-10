@@ -1,0 +1,1 @@
+- Nica, institutionalized, faces Chucky once more.

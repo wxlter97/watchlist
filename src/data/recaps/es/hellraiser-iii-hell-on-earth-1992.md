@@ -1,0 +1,1 @@
+- Una periodista descubre una estatua con Pinhead y se enfrenta a sus consecuencias.

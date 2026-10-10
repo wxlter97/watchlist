@@ -1,0 +1,1 @@
+- A group of orphan soldiers rebel against those who exploit them.

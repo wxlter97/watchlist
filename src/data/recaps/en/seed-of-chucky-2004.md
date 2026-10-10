@@ -1,0 +1,1 @@
+- Chucky and Tiffany's child searches for their parents.

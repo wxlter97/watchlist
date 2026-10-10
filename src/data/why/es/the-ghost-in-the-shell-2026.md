@@ -1,0 +1,1 @@
+Nueva adaptación animada. Opcional.

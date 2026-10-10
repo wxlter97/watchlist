@@ -1,0 +1,1 @@
+- Suletta, a young woman from Mercury, arrives at an academy and gets caught up in mobile suit duels.

@@ -1,0 +1,1 @@
+- A student researches an urban legend and comes across Candyman.

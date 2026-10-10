@@ -1,0 +1,1 @@
+- Al, a boy, befriends a Zeon pilot.

@@ -1,0 +1,1 @@
+- Detectives investigan crímenes ligados al Cazador de Almas.

@@ -1,0 +1,1 @@
+- A new version of Major Kusanagi's story.

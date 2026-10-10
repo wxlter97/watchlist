@@ -1,0 +1,107 @@
+{
+  "id": "candyman",
+  "name": {
+    "es": "Candyman",
+    "en": "Candyman"
+  },
+  "description": {
+    "es": "El espíritu que aparece al decir su nombre cinco veces: las películas de la saga.",
+    "en": "The spirit summoned by saying his name five times: the saga's films."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, con la de 2021 como secuela directa de la de 1992.",
+        "en": "The four films, with the 2021 film as a direct sequel to the 1992 one."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "candyman-1992",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "candyman"
+      ]
+    },
+    {
+      "titleId": "candyman-farewell-to-the-flesh-1995",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "candyman"
+      ]
+    },
+    {
+      "titleId": "candyman-day-of-the-dead-1999",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "candyman"
+      ]
+    },
+    {
+      "titleId": "candyman-2021",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Secuela directa de la película de 1992",
+        "en": "Direct sequel to the 1992 film"
+      },
+      "characters": [
+        "candyman"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "candyman",
+        "name": {
+          "es": "Candyman",
+          "en": "Candyman"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

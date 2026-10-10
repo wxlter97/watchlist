@@ -1,0 +1,2 @@
+- Un joven, Banagher, se ve envuelto en la búsqueda de la Caja de Laplace.
+- Pilota el Unicorn Gundam.

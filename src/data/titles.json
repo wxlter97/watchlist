@@ -32044,5 +32044,1496 @@
       }
     ],
     "runtimeMin": 108
+  },
+  {
+    "id": "hellraiser-1987",
+    "tmdbId": 9003,
+    "tmdbType": "movie",
+    "title": "Hellraiser",
+    "kind": "movie",
+    "releaseDate": "1987-09-11",
+    "imdbId": "tt0093177",
+    "posterPath": "/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
+    "overview": "A hedonistic man finds a mysterious puzzle box that summons a group of gruesome beings known as the Cenobites. These otherworldly entities open the doors to a dominion where pain and pleasure are indivisible.",
+    "localized": {
+      "en": {
+        "title": "Hellraiser",
+        "overview": "A hedonistic man finds a mysterious puzzle box that summons a group of gruesome beings known as the Cenobites. These otherworldly entities open the doors to a dominion where pain and pleasure are indivisible."
+      },
+      "es": {
+        "title": "Hellraiser: Puerta al infierno",
+        "overview": "Frank Cotton tiene en su poder un enigmático cubo dotado de poderes extraordinarios. Según antiguas leyendas, es una especie de puerta a seres de otra dimensión que pueden proporcionar placeres sensuales inimaginables. Cotton convoca a estas criaturas, pero sólo le inflingirán tormentos y dolor hasta acabar con él. 20 años después, dos nuevos inquilinos se instalan en la antigua casa de Frank: su hermano y su esposa. La aparición del espíritu de Frank es el principio de una vorágine de horror en estado puro."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "hellbound-hellraiser-ii-1988",
+    "tmdbId": 9064,
+    "tmdbType": "movie",
+    "title": "Hellbound: Hellraiser II",
+    "kind": "movie",
+    "releaseDate": "1988-12-23",
+    "imdbId": "tt0095294",
+    "posterPath": "/auPOq1wgZuYSaADejOskBKG6fuV.jpg",
+    "overview": "Now confined to a mental hospital, young Kirsty insists her supposedly dead father is actually stuck in Hell following his wife’s betrayal. Few believe the young woman’s lurid stories aside from the thrill-seeking Dr. Channard. Kirsty is undeterred and, with the help of a fellow patient, heads to Hell for a rescue.",
+    "localized": {
+      "en": {
+        "title": "Hellbound: Hellraiser II",
+        "overview": "Now confined to a mental hospital, young Kirsty insists her supposedly dead father is actually stuck in Hell following his wife’s betrayal. Few believe the young woman’s lurid stories aside from the thrill-seeking Dr. Channard. Kirsty is undeterred and, with the help of a fellow patient, heads to Hell for a rescue."
+      },
+      "es": {
+        "title": "Hellraiser II",
+        "overview": "Kirsty Cotton acaba recluida en un sanatorio donde intenta olvidar la pesadilla vivida con la muerte de sus padres. Sin embargo, allí coincide con el siniestro Doctor Channard, quien encuentra en la joven la pieza que necesita para llegar al éxito en sus intentos de encontrar la puerta a una dimensión oculta."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "hellraiser-iii-hell-on-earth-1992",
+    "tmdbId": 11569,
+    "tmdbType": "movie",
+    "title": "Hellraiser III: Hell on Earth",
+    "kind": "movie",
+    "releaseDate": "1992-09-11",
+    "imdbId": "tt0104409",
+    "posterPath": "/qnXEJp6KP6aIGWhNrg1fOKza4kp.jpg",
+    "overview": "Pinhead is set loose on the sinful streets of New York City to create chaos with a fresh cadre of Cenobitic kin.",
+    "localized": {
+      "en": {
+        "title": "Hellraiser III: Hell on Earth",
+        "overview": "Pinhead is set loose on the sinful streets of New York City to create chaos with a fresh cadre of Cenobitic kin."
+      },
+      "es": {
+        "title": "Hellraiser III: Infierno en la Tierra",
+        "overview": "El propietario de un club nocturno adquiere una extraña escultura que contiene una caja que parece un puzzle. Cuando consigue resolver el puzzle, le atacan unos seres sobrenaturales, los cenobitas."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "hellraiser-bloodline-1996",
+    "tmdbId": 8766,
+    "tmdbType": "movie",
+    "title": "Hellraiser: Bloodline",
+    "kind": "movie",
+    "releaseDate": "1996-03-08",
+    "imdbId": "tt0116514",
+    "posterPath": "/tCQsVackQil2fl5TzOYrCAI6All.jpg",
+    "overview": "Three generations of the same family deal with the consequences of unleashing the forces of hell.",
+    "localized": {
+      "en": {
+        "title": "Hellraiser: Bloodline",
+        "overview": "Three generations of the same family deal with the consequences of unleashing the forces of hell."
+      },
+      "es": {
+        "title": "Hellraiser IV",
+        "overview": "Año 2127. El doctor Merchant, a bordo de una estación espacial, se prepara para cumplir una misión decisiva: acabar con los cenobitas, cerrando para siempre las puertas del infierno. Desde que un antepasado suyo del siglo XVIII construyera el cubo infernal conocido como la Configuración de los Lamentos, varias generaciones de los Merchant han sufrido la maldición de los cenobitas y su diabólico enviado, Pinhead. Pero ahora, el doctor Merchant ha creado un instrumento que anula los poderes de la Configuración de los Lamentos. En las profundidades del espacio, se acerca la confrontación final con Pinhead. Película dirigida por Kevin Yagher bajo el seudónimo Alan Smithee."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "hellraiser-judgment-2018",
+    "tmdbId": 444149,
+    "tmdbType": "movie",
+    "title": "Hellraiser: Judgment",
+    "kind": "movie",
+    "releaseDate": "2018-02-13",
+    "imdbId": "tt5476182",
+    "posterPath": "/nYlSoysJVSvfKhMMKB6PLbXuWUK.jpg",
+    "overview": "Three detectives trying to stop a diabolical serial killer are sucked into a maze of otherworldly horror, where hellish denizens including the Auditor, the Assessor, and the Jury await to pass judgment.",
+    "localized": {
+      "en": {
+        "title": "Hellraiser: Judgment",
+        "overview": "Three detectives trying to stop a diabolical serial killer are sucked into a maze of otherworldly horror, where hellish denizens including the Auditor, the Assessor, and the Jury await to pass judgment."
+      },
+      "es": {
+        "title": "Hellraiser: Juicio",
+        "overview": "Tres detectives que siguen la pista a un terrorífico asesino en serie son atrapados en un laberinto donde se enfrentarán a sus mayores miedos."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "hellraiser-2022",
+    "tmdbId": 338947,
+    "tmdbType": "movie",
+    "title": "Hellraiser",
+    "kind": "movie",
+    "releaseDate": "2022-09-28",
+    "imdbId": "tt0887261",
+    "posterPath": "/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg",
+    "overview": "A young woman struggling with addiction comes into possession of an ancient puzzle box, unaware that its purpose is to summon the Cenobites, a group of sadistic supernatural beings from another dimension.",
+    "localized": {
+      "en": {
+        "title": "Hellraiser",
+        "overview": "A young woman struggling with addiction comes into possession of an ancient puzzle box, unaware that its purpose is to summon the Cenobites, a group of sadistic supernatural beings from another dimension."
+      },
+      "es": {
+        "title": "Hellraiser: Ella",
+        "overview": "Una joven que lucha contra la adicción se apodera de una antigua caja de rompecabezas, sin saber que su propósito es convocar a los Cenobitas, un grupo de sádicos seres sobrenaturales de otra dimensión."
+      }
+    },
+    "runtimeMin": 121
+  },
+  {
+    "id": "childs-play-1988",
+    "tmdbId": 10585,
+    "tmdbType": "movie",
+    "title": "Child's Play",
+    "kind": "movie",
+    "releaseDate": "1988-11-09",
+    "imdbId": "tt0094862",
+    "posterPath": "/wvpgvcWNkF2HLuTEMIM7K83MvZ.jpg",
+    "overview": "After being shot in a toy store, a serial killer transfers his soul into a Good Guy doll. A mother then gifts it to her six-year-old son Andy, which unleashes terror upon the city.",
+    "localized": {
+      "en": {
+        "title": "Child's Play",
+        "overview": "After being shot in a toy store, a serial killer transfers his soul into a Good Guy doll. A mother then gifts it to her six-year-old son Andy, which unleashes terror upon the city."
+      },
+      "es": {
+        "title": "Chucky: El muñeco diabólico",
+        "overview": "Una madre soltera regala a su hijo un codiciado muñeco para su cumpleaños, solo para descubrir que está poseído por el alma de un asesino en serie."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "childs-play-2-1990",
+    "tmdbId": 11186,
+    "tmdbType": "movie",
+    "title": "Child's Play 2",
+    "kind": "movie",
+    "releaseDate": "1990-11-09",
+    "imdbId": "tt0099253",
+    "posterPath": "/2tPQbPQeHEYAGoXFSW61IWNmoce.jpg",
+    "overview": "Chucky is reconstructed by a toy factory to dispel the negative publicity surrounding the doll, and tracks young Andy Barclay to a foster home where the chase begins again.",
+    "localized": {
+      "en": {
+        "title": "Child's Play 2",
+        "overview": "Chucky is reconstructed by a toy factory to dispel the negative publicity surrounding the doll, and tracks young Andy Barclay to a foster home where the chase begins again."
+      },
+      "es": {
+        "title": "Chucky: el muñeco diabólico 2",
+        "overview": "Mientras la madre de Andy es ingresada en un hospital psiquiátrico, el joven es colocado en una casa de acogida, y Chucky, decidido a reclamar el alma de Andy, no se queda atrás."
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "childs-play-3-1991",
+    "tmdbId": 11187,
+    "tmdbType": "movie",
+    "title": "Child's Play 3",
+    "kind": "movie",
+    "releaseDate": "1991-08-30",
+    "imdbId": "tt0103956",
+    "posterPath": "/6toMk9OCuDYEEf733Bzlq3yiw3z.jpg",
+    "overview": "Eight years after seemingly destroying the killer doll, teen Andy Barclay is placed in a military school, and the spirit of Chucky returns to renew his quest and seek vengeance after being recreated from a mass of melted plastic.",
+    "localized": {
+      "en": {
+        "title": "Child's Play 3",
+        "overview": "Eight years after seemingly destroying the killer doll, teen Andy Barclay is placed in a military school, and the spirit of Chucky returns to renew his quest and seek vengeance after being recreated from a mass of melted plastic."
+      },
+      "es": {
+        "title": "Chucky: el muñeco diabólico 3",
+        "overview": "Chucky regresa para vengarse de Andy, el joven que lo derrotó, y que ahora es un adolescente que vive en una academia militar."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "bride-of-chucky-1998",
+    "tmdbId": 11932,
+    "tmdbType": "movie",
+    "title": "Bride of Chucky",
+    "kind": "movie",
+    "releaseDate": "1998-10-15",
+    "imdbId": "tt0144120",
+    "posterPath": "/yaIPNOcC7ZRuwH3maNwP9qzIo5G.jpg",
+    "overview": "For ten years, the tortured soul of serial killer Charles Lee Ray has been imprisoned inside a child's doll. Chucky is reborn when his old flame, Tiffany, rescues his battered doll parts from a police impound. But Chucky wants his new playmate cut down to size, so he transforms his blushing bride into a stunning little terror. Chucky and Tiffany can't wait to start their own homicidal honeymoon. When this demonic duo hits the road and hooks up with a pair of unsuspecting newlyweds, they leave a trail of murder and mayhem behind them. Chucky's back!",
+    "localized": {
+      "en": {
+        "title": "Bride of Chucky",
+        "overview": "For ten years, the tortured soul of serial killer Charles Lee Ray has been imprisoned inside a child's doll. Chucky is reborn when his old flame, Tiffany, rescues his battered doll parts from a police impound. But Chucky wants his new playmate cut down to size, so he transforms his blushing bride into a stunning little terror. Chucky and Tiffany can't wait to start their own homicidal honeymoon. When this demonic duo hits the road and hooks up with a pair of unsuspecting newlyweds, they leave a trail of murder and mayhem behind them. Chucky's back!"
+      },
+      "es": {
+        "title": "La novia de Chucky",
+        "overview": "Chucky, el muñeco poseído por un asesino en serie, descubre la pareja perfecta para matar y revivir en el cuerpo de otro muñeco."
+      }
+    },
+    "runtimeMin": 89
+  },
+  {
+    "id": "seed-of-chucky-2004",
+    "tmdbId": 11249,
+    "tmdbType": "movie",
+    "title": "Seed of Chucky",
+    "kind": "movie",
+    "releaseDate": "2004-11-12",
+    "imdbId": "tt0387575",
+    "posterPath": "/vd9K93gQ9whMKjXzADZanxWpIXM.jpg",
+    "overview": "This time around, Chucky and his homicidal honey, Tiffany, are brought back to life by their orphan offspring, Glen. Then the horror goes Hollywood as Chucky unleashes his own brand of murderous mayhem!",
+    "localized": {
+      "en": {
+        "title": "Seed of Chucky",
+        "overview": "This time around, Chucky and his homicidal honey, Tiffany, are brought back to life by their orphan offspring, Glen. Then the horror goes Hollywood as Chucky unleashes his own brand of murderous mayhem!"
+      },
+      "es": {
+        "title": "El hijo de Chucky",
+        "overview": "Chucky y Tiffany son resucitados por su inocente hija, Glenda, y llegan a Hollywood, donde se está rodando una película sobre la ola de asesinatos de los muñecos asesinos."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "curse-of-chucky-2013",
+    "tmdbId": 167032,
+    "tmdbType": "movie",
+    "title": "Curse of Chucky",
+    "kind": "movie",
+    "releaseDate": "2013-10-08",
+    "imdbId": "tt2230358",
+    "posterPath": "/x9DzkDWp8O82Wzxk6otuD9bce9a.jpg",
+    "overview": "After her mother's mysterious death, Nica begins to suspect that the talking, red-haired doll her visiting niece has been playing with may be the key to the mounting bloodshed and chaos.",
+    "localized": {
+      "en": {
+        "title": "Curse of Chucky",
+        "overview": "After her mother's mysterious death, Nica begins to suspect that the talking, red-haired doll her visiting niece has been playing with may be the key to the mounting bloodshed and chaos."
+      },
+      "es": {
+        "title": "La maldición de Chucky",
+        "overview": "Tras la misteriosa muerte de su madre, Nica empieza a sospechar que la muñeca parlante y pelirroja con la que ha estado jugando su sobrina visitante puede ser la clave del reciente derramamiento de sangre y del caos."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "cult-of-chucky-2017",
+    "tmdbId": 393345,
+    "tmdbType": "movie",
+    "title": "Cult of Chucky",
+    "kind": "movie",
+    "releaseDate": "2017-10-12",
+    "imdbId": "tt3280262",
+    "posterPath": "/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg",
+    "overview": "Confined to an asylum for the criminally insane for the past four years, Nica is wrongly convinced that she, not Chucky, murdered her entire family... until a string of grisly deaths occur after her psychiatrist introduces a new group therapy tool -- a \"Good Guy\" doll.",
+    "localized": {
+      "en": {
+        "title": "Cult of Chucky",
+        "overview": "Confined to an asylum for the criminally insane for the past four years, Nica is wrongly convinced that she, not Chucky, murdered her entire family... until a string of grisly deaths occur after her psychiatrist introduces a new group therapy tool -- a \"Good Guy\" doll."
+      },
+      "es": {
+        "title": "Culto a Chucky",
+        "overview": "Chucky vuelve a aterrorizar a su víctima humana, Nica. Mientras tanto, el muñeco asesino tiene algunas cuentas pendientes con sus antiguos enemigos, con la ayuda de su antigua esposa."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "chucky-2021",
+    "tmdbId": 90462,
+    "tmdbType": "tv",
+    "title": "Chucky",
+    "kind": "series",
+    "releaseDate": "2021-10-12",
+    "imdbId": "tt8388390",
+    "posterPath": "/sdCJbGkvnIsIKLxaFQrviriODVq.jpg",
+    "overview": "After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begin to expose the town’s hypocrisies and secrets. Meanwhile, the arrival of enemies — and allies — from Chucky’s past threatens to expose the truth behind the killings, as well as the demon doll’s untold origins.",
+    "localized": {
+      "en": {
+        "title": "Chucky",
+        "overview": "After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begin to expose the town’s hypocrisies and secrets. Meanwhile, the arrival of enemies — and allies — from Chucky’s past threatens to expose the truth behind the killings, as well as the demon doll’s untold origins."
+      },
+      "es": {
+        "title": "Chucky",
+        "overview": "A mediados del mes de Halloween, Jake Wheeler un adolescente de 14 años consigue un muñeco a quién se apoda Chucky, lo quiere tratar como un amigo. Sin embargo, con el tiempo el muñeco tendrá tendencias violentas a la de un asesino, donde cometerá asesinatos, mientras que Andy Barclay y Kyle Simpson regresan para acabar con Chucky de una vez por todas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2021-10-12"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2022-10-05"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2023-10-04"
+      }
+    ],
+    "runtimeMin": 1113
+  },
+  {
+    "id": "childs-play-2019",
+    "tmdbId": 533642,
+    "tmdbType": "movie",
+    "title": "Child's Play",
+    "kind": "movie",
+    "releaseDate": "2019-06-19",
+    "imdbId": "tt8663516",
+    "posterPath": "/rpS7ROczWulqfaXG2klYapULXKm.jpg",
+    "overview": "Karen, a single mother, gifts her son Andy a Buddi doll for his birthday, unaware of its more sinister nature. A contemporary re-imagining of the 1988 horror classic.",
+    "localized": {
+      "en": {
+        "title": "Child's Play",
+        "overview": "Karen, a single mother, gifts her son Andy a Buddi doll for his birthday, unaware of its more sinister nature. A contemporary re-imagining of the 1988 horror classic."
+      },
+      "es": {
+        "title": "El muñeco diabólico",
+        "overview": "Una madre regala a su hijo de 13 años un muñeco de juguete por su cumpleaños, sin saber su naturaleza más siniestra."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "the-texas-chain-saw-massacre-1974",
+    "tmdbId": 30497,
+    "tmdbType": "movie",
+    "title": "The Texas Chain Saw Massacre",
+    "kind": "movie",
+    "releaseDate": "1974-10-11",
+    "imdbId": "tt0072271",
+    "posterPath": "/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+    "overview": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way, they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw.",
+    "localized": {
+      "en": {
+        "title": "The Texas Chain Saw Massacre",
+        "overview": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way, they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw."
+      },
+      "es": {
+        "title": "La masacre de Texas",
+        "overview": "Cinco adolescentes visitan la tumba, supuestamente profanada, del abuelo de uno de ellos. Cuando llegan al lugar, donde hay un siniestro matadero, toman una deliciosa carne en una gasolinera. A partir de ese momento, los jóvenes vivirán la peor pesadilla de toda su vida."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "the-texas-chainsaw-massacre-part-2-1986",
+    "tmdbId": 16337,
+    "tmdbType": "movie",
+    "title": "The Texas Chainsaw Massacre Part 2",
+    "kind": "movie",
+    "releaseDate": "1986-08-22",
+    "imdbId": "tt0092076",
+    "posterPath": "/cO1Dvg7k87lHSPOdumn3ddJEKdX.jpg",
+    "overview": "A radio host is victimised by the notorious cannibal family while a former Texas Marshal hunts them.",
+    "localized": {
+      "en": {
+        "title": "The Texas Chainsaw Massacre Part 2",
+        "overview": "A radio host is victimised by the notorious cannibal family while a former Texas Marshal hunts them."
+      },
+      "es": {
+        "title": "La masacre de Texas 2",
+        "overview": "Dos jóvenes llaman al programa de radio de Stretch para burlarse. Cuando lo vuelven a hacer un rato después, sólo se escuchan gritos y el sonido de una motosierra. Al día siguiente la policía averigua que el responsable de la matanza es el mismo que trece años antes asesinó a los amigos de Sally, la protagonista de la primera película. El tío de Sally decide vengarse y se pone en contacto con Stretch."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "leatherface-the-texas-chainsaw-massacre-iii-1990",
+    "tmdbId": 25018,
+    "tmdbType": "movie",
+    "title": "Leatherface: The Texas Chainsaw Massacre III",
+    "kind": "movie",
+    "releaseDate": "1990-01-12",
+    "imdbId": "tt0099994",
+    "posterPath": "/4Vhv0vRqirhvbudRcNctFgxoFtI.jpg",
+    "overview": "Two college students driving coast to coast are lured off the main highway and onto a deserted Texas road where they are stalked by the menacing Leatherface and his family.",
+    "localized": {
+      "en": {
+        "title": "Leatherface: The Texas Chainsaw Massacre III",
+        "overview": "Two college students driving coast to coast are lured off the main highway and onto a deserted Texas road where they are stalked by the menacing Leatherface and his family."
+      },
+      "es": {
+        "title": "La masacre de Texas 3",
+        "overview": "Una pareja que se dirige a Florida en plena crisis sentimental se detiene en una gasolinera en mitad del desierto de Texas para repostar gasolina. Allí son acosados por el encargado que, iracundo al ser despreciado por la chica y refrenado por su compañero, ataca con una escopeta a la pareja que milagrosamente consigue huir. En el camino se cruzarán con el temible Leatherface y su moto sierra eléctrica pero nuevamente lograrán escapar, esta vez, por un excursionista armado con un fusil. La familia de caníbales no descansará hasta que estos tres pasen por su parrilla y conseguir su cena."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "the-return-of-the-texas-chainsaw-massacre-1995",
+    "tmdbId": 16780,
+    "tmdbType": "movie",
+    "title": "The Return of the Texas Chainsaw Massacre",
+    "kind": "movie",
+    "releaseDate": "1995-09-22",
+    "imdbId": "tt0110978",
+    "posterPath": "/e1ikqofvLBddrZJ73IjmJWhUYus.jpg",
+    "overview": "A group of teenagers get into a car crash in the Texas woods on prom night, and then wander into an old farmhouse that is home to Leatherface and his insane family of cannibalistic psychopaths.",
+    "localized": {
+      "en": {
+        "title": "The Return of the Texas Chainsaw Massacre",
+        "overview": "A group of teenagers get into a car crash in the Texas woods on prom night, and then wander into an old farmhouse that is home to Leatherface and his insane family of cannibalistic psychopaths."
+      },
+      "es": {
+        "title": "Masacre en Texas: La nueva generación",
+        "overview": "Durante un viaje por Texas, cuatro amigos se equivocan de camino y tienen un accidente en medio de un bosque. Los jóvenes buscan ayuda desesperadamente, pero se verán acosados por una familia de psicópatas asesinos."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "the-texas-chainsaw-massacre-2003",
+    "tmdbId": 9373,
+    "tmdbType": "movie",
+    "title": "The Texas Chainsaw Massacre",
+    "kind": "movie",
+    "releaseDate": "2003-10-17",
+    "imdbId": "tt0324216",
+    "posterPath": "/781px1eOtfVt1RdIsL4Dt1s3x7R.jpg",
+    "overview": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
+    "localized": {
+      "en": {
+        "title": "The Texas Chainsaw Massacre",
+        "overview": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers."
+      },
+      "es": {
+        "title": "La masacre de Texas",
+        "overview": "Durante un viaje de Texas a México, un grupo de jóvenes recoge a una autoestopista ensangrentada que asegura que es la única superviviente de una masacre ocurrida la noche anterior en una casa cercana. Remake del clásico homónimo de Tobe Hooper (1974)"
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "the-texas-chainsaw-massacre-the-beginning-2006",
+    "tmdbId": 10781,
+    "tmdbType": "movie",
+    "title": "The Texas Chainsaw Massacre: The Beginning",
+    "kind": "movie",
+    "releaseDate": "2006-10-05",
+    "imdbId": "tt0420294",
+    "posterPath": "/hTBueN0Ru3R7brwtONenDyEMNYe.jpg",
+    "overview": "Chrissie and her friends set out on a road trip for a final fling before one is shipped off to Vietnam. Along the way, bikers harass the foursome and cause an accident that throws Chrissie from the vehicle. The lawman who arrives on the scene kills one of the bikers and brings Chrissie's friends to the Hewitt homestead, where young Leatherface is learning the tools of terror.",
+    "localized": {
+      "en": {
+        "title": "The Texas Chainsaw Massacre: The Beginning",
+        "overview": "Chrissie and her friends set out on a road trip for a final fling before one is shipped off to Vietnam. Along the way, bikers harass the foursome and cause an accident that throws Chrissie from the vehicle. The lawman who arrives on the scene kills one of the bikers and brings Chrissie's friends to the Hewitt homestead, where young Leatherface is learning the tools of terror."
+      },
+      "es": {
+        "title": "La Masacre de Texas: El inicio",
+        "overview": "Chrissie y sus tres amigos se preparan para realizar un viaje antes de enviar a uno de ellos a Vietnam. Pero a lo largo del camino, unos motociclistas acosan a los amigos y provocan un accidente que expulsa a Chrissie del vehículo. El policía que llega al lugar mata a uno de los motociclistas y lleva a los amigos a la casa en donde el joven Leatherface está aprendiendo sobre el terror."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "texas-chainsaw-3d-2013",
+    "tmdbId": 76617,
+    "tmdbType": "movie",
+    "title": "Texas Chainsaw 3D",
+    "kind": "movie",
+    "releaseDate": "2013-01-03",
+    "imdbId": "tt1572315",
+    "posterPath": "/dwIQ7WDCSiIcNdbferTcU7uI0KV.jpg",
+    "overview": "A young woman learns that she has inherited a Texas estate from her deceased grandmother. After embarking on a road trip with friends to uncover her roots, she finds she is the sole owner of a lavish, isolated Victorian mansion. But her newfound wealth comes at a price as she stumbles upon a horror that awaits her in the mansion’s dank cellars.",
+    "localized": {
+      "en": {
+        "title": "Texas Chainsaw 3D",
+        "overview": "A young woman learns that she has inherited a Texas estate from her deceased grandmother. After embarking on a road trip with friends to uncover her roots, she finds she is the sole owner of a lavish, isolated Victorian mansion. But her newfound wealth comes at a price as she stumbles upon a horror that awaits her in the mansion’s dank cellars."
+      },
+      "es": {
+        "title": "Masacre en Texas: Herencia maldita",
+        "overview": "Hace décadas, los residentes de Newt, Texas, sospechaban que la familia Sawyer era responsable de las desapariciones de muchas personas. Cuando se confirmaron sus sospechas, vigilantes incendiaron la propiedad de los Sawyer y mataron a todos sus miembros -- o eso pensaron. Tiempo después, una joven mujer llamada Heather (Alexandra Daddario) descubre que ha heredado una casa en Texas de un pariente desconocido, y ella no se da cuenta de los terrores que le esperan en el sótano de la mansión."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "leatherface-2017",
+    "tmdbId": 300665,
+    "tmdbType": "movie",
+    "title": "Leatherface",
+    "kind": "movie",
+    "releaseDate": "2017-09-14",
+    "imdbId": "tt2620590",
+    "posterPath": "/nV7LPlyhUxKn5y0nuItCr8D1OSu.jpg",
+    "overview": "A young nurse is kidnapped by a group of violent teens who escape from a mental hospital and take her on the road trip from hell. Pursued by an equally deranged lawman out for revenge, one of the teens is destined for tragedy and horrors that will destroy his mind, moulding him into a monster named Leatherface.",
+    "localized": {
+      "en": {
+        "title": "Leatherface",
+        "overview": "A young nurse is kidnapped by a group of violent teens who escape from a mental hospital and take her on the road trip from hell. Pursued by an equally deranged lawman out for revenge, one of the teens is destined for tragedy and horrors that will destroy his mind, moulding him into a monster named Leatherface."
+      },
+      "es": {
+        "title": "Leatherface: La máscara del terror",
+        "overview": "Una joven enfermera es secuestrada por un grupo de adolescentes violentos que escapan de un hospital psiquiátrico y la llevan al camino del infierno. Perseguido por un legislador igualmente desquiciado en busca de venganza, uno de los adolescentes está destinado a la tragedia y los horrores que destruirán su mente, convirtiéndolo en un monstruo llamado Leatherface."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "texas-chainsaw-massacre-2022",
+    "tmdbId": 632727,
+    "tmdbType": "movie",
+    "title": "Texas Chainsaw Massacre",
+    "kind": "movie",
+    "releaseDate": "2022-02-18",
+    "imdbId": "tt11755740",
+    "posterPath": "/7sKiGNWFM15WNyY7LYd5vmb3brO.jpg",
+    "overview": "After nearly 50 years of hiding, Leatherface returns to terrorize a group of idealistic influencers who accidentally disrupt his carefully shielded world in a remote Texas town.",
+    "localized": {
+      "en": {
+        "title": "Texas Chainsaw Massacre",
+        "overview": "After nearly 50 years of hiding, Leatherface returns to terrorize a group of idealistic influencers who accidentally disrupt his carefully shielded world in a remote Texas town."
+      },
+      "es": {
+        "title": "La masacre de Texas",
+        "overview": "Melody (Sarah Yarkin), su hermana adolescente Lila (Elsie Fisher) y sus amigos Dante (Jacob Latimore) y Ruth (Nell Hudson) viajan al remoto pueblo de Harlow (Texas) para montar un negocio muy idealista. Pero su sueño se convierte en una auténtica pesadilla cuando molestan sin querer a Leatherface, el desquiciado asesino en serie cuyo sangriento legado sigue acechando a los habitantes de la zona, entre ellos Sally Hardesty (Olwen Fouéré), la única superviviente de su masacre de 1973, decidida a vengarse a muerte."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "paranormal-activity-2009",
+    "tmdbId": 23827,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity",
+    "kind": "movie",
+    "releaseDate": "2009-09-25",
+    "imdbId": "tt1179904",
+    "posterPath": "/tmclkEpjeo4Zu564gf3KrwIOuKw.jpg",
+    "overview": "After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic, but is certainly the most active in the middle of the night.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity",
+        "overview": "After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic, but is certainly the most active in the middle of the night."
+      },
+      "es": {
+        "title": "Actividad Paranormal",
+        "overview": "Una pareja feliz, joven y de clase media ve su vida atormentada por un espíritu demoníaco. Ella es una estudiante que está punto de graduarse como profesora, y él, un corredor de bolsa que trabaja desde su casa. Viven desde hace tres años en una casa que hasta el momento les parecía completamente normal; pero, inesperadamente, extraños fenómenos paranormales empiezan a perturbar su vida."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "paranormal-activity-2-2010",
+    "tmdbId": 41436,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity 2",
+    "kind": "movie",
+    "releaseDate": "2010-10-20",
+    "imdbId": "tt1536044",
+    "posterPath": "/gfdrkBZAyUUXJJ2iLQe03SAYRD3.jpg",
+    "overview": "Just as Daniel and Kristi welcome a newborn baby into their home, a demonic presence begins terrorizing them, tearing apart their perfect world and turning it into an inescapable nightmare.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity 2",
+        "overview": "Just as Daniel and Kristi welcome a newborn baby into their home, a demonic presence begins terrorizing them, tearing apart their perfect world and turning it into an inescapable nightmare."
+      },
+      "es": {
+        "title": "Actividad Paranormal 2",
+        "overview": "Después de sufrir lo que ellos creen una serie de robos, una familia coloca cámaras de seguridad en toda la casa, descubriendo para su sorpresa un lado mucho más siniestro que los propios sucesos inquietantes que están viviendo... Secuela del gran e inesperado éxito del cine independiente \"Paranormal Activity\"."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "paranormal-activity-3-2011",
+    "tmdbId": 72571,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity 3",
+    "kind": "movie",
+    "releaseDate": "2011-10-19",
+    "imdbId": "tt1778304",
+    "posterPath": "/9nYranPiWdNmbD5PRPPSL7VUFTS.jpg",
+    "overview": "In 1988, young sisters Katie and Kristi befriend an invisible entity who resides in their home.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity 3",
+        "overview": "In 1988, young sisters Katie and Kristi befriend an invisible entity who resides in their home."
+      },
+      "es": {
+        "title": "Actividad Paranormal 3",
+        "overview": "Tercera entrega de la saga Paranormal Activity. Se remonta hasta 1988, cuando las hermanas Katie y Kristi eran solo unas niñas y tienen su primer encuentro con lo sobrenatural."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "paranormal-activity-4-2012",
+    "tmdbId": 82990,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity 4",
+    "kind": "movie",
+    "releaseDate": "2012-10-17",
+    "imdbId": "tt2109184",
+    "posterPath": "/na5tAslm1kGNcft083AIXMTOsYR.jpg",
+    "overview": "It has been five years since the disappearance of Katie and Hunter, and a suburban family witness strange events in their neighborhood when a woman and a mysterious child move in.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity 4",
+        "overview": "It has been five years since the disappearance of Katie and Hunter, and a suburban family witness strange events in their neighborhood when a woman and a mysterious child move in."
+      },
+      "es": {
+        "title": "Actividad Paranormal 4",
+        "overview": "Todo transcurre cinco años después de los sucesos de \"Paranormal Activity 2\", que terminó con el secuestro de Hunter por parte de Katie. En la actualidad, Katie y Hunter, que ahora se hace llamar Robbie, se han trasladado a un nuevo barrio y sus vecinos, Alex y su familia, comienzan a experimentar sucesos paranormales que ocurren en su casa."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "paranormal-activity-the-marked-ones-2014",
+    "tmdbId": 227348,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity: The Marked Ones",
+    "kind": "movie",
+    "releaseDate": "2014-01-01",
+    "imdbId": "tt2473682",
+    "posterPath": "/2o4vBAnORr9UnLMvWHhULGDHfzH.jpg",
+    "overview": "Seventeen-year-old Jesse has been hearing terrifying sounds coming from his neighbor’s apartment, but when he turns on his camera and sets out to uncover their source, he encounters an ancient evil that won’t rest until it’s claimed his very soul.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity: The Marked Ones",
+        "overview": "Seventeen-year-old Jesse has been hearing terrifying sounds coming from his neighbor’s apartment, but when he turns on his camera and sets out to uncover their source, he encounters an ancient evil that won’t rest until it’s claimed his very soul."
+      },
+      "es": {
+        "title": "Actividad Paranormal: Los marcados",
+        "overview": "Después de sufrir una maldición, Jesse empieza a ser perseguido por fuerzas misteriosas, aunque su familia y sus amigos harán todo lo posible para salvarlo. Spin-off latino de la saga Paranormal Activity."
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "paranormal-activity-the-ghost-dimension-2015",
+    "tmdbId": 146301,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity: The Ghost Dimension",
+    "kind": "movie",
+    "releaseDate": "2015-10-21",
+    "imdbId": "tt2473510",
+    "posterPath": "/1YpFQ2MQKzlDoa8diLWkapdRI8t.jpg",
+    "overview": "Using a special camera that can see spirits, a family must protect their daughter from an evil entity with a sinister plan.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity: The Ghost Dimension",
+        "overview": "Using a special camera that can see spirits, a family must protect their daughter from an evil entity with a sinister plan."
+      },
+      "es": {
+        "title": "Actividad Paranormal: La dimensión fantasma",
+        "overview": "Cuando una familia nueva se muda a la antigua casa de Katie y Kristi, descubrirán una misteriosa cámara de video que revela la presencia de un viejo demonio que comienza a aterrorizarlos. Ahora, con el alma de la hija más pequeña en peligro, deberán luchar contra esta amenaza demoníaca antes de convertirse en sus próximas víctimas. Este es el capítulo más reciente de esta revolucionaria serie de películas de horror."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "paranormal-activity-next-of-kin-2021",
+    "tmdbId": 609972,
+    "tmdbType": "movie",
+    "title": "Paranormal Activity: Next of Kin",
+    "kind": "movie",
+    "releaseDate": "2021-10-29",
+    "imdbId": "tt10515988",
+    "posterPath": "/wRy3SwJFE55iL2bfKqECzP2qyrd.jpg",
+    "overview": "Margot is a documentary filmmaker looking to meet her long-lost mother and extended family in a secluded Amish community. She and her film crew soon realize the family that welcomes them into their home might be hiding a sinister secret.",
+    "localized": {
+      "en": {
+        "title": "Paranormal Activity: Next of Kin",
+        "overview": "Margot is a documentary filmmaker looking to meet her long-lost mother and extended family in a secluded Amish community. She and her film crew soon realize the family that welcomes them into their home might be hiding a sinister secret."
+      },
+      "es": {
+        "title": "Actividad Paranormal: Vínculos Familiares",
+        "overview": "Un director de películas documentales sigue a Margot cuando se dirige hacia una aislada comunidad Amish con la esperanza de encontrarse con su madre y familiares lejanos y averiguar cómo están. Tras una sucesión de circunstancias y descubrimientos extraños, ella pronto comprende que la comunidad que les dio la bienvenida podría ocultar algo siniestro..."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "candyman-1992",
+    "tmdbId": 9529,
+    "tmdbType": "movie",
+    "title": "Candyman",
+    "kind": "movie",
+    "releaseDate": "1992-10-16",
+    "imdbId": "tt0103919",
+    "posterPath": "/jQtgkgDZE7egMq532sOt83DnT83.jpg",
+    "overview": "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth.",
+    "localized": {
+      "en": {
+        "title": "Candyman",
+        "overview": "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth."
+      },
+      "es": {
+        "title": "El Misterio de Candyman",
+        "overview": "En la Universidad de Chicago, la estudiante Helen Lyle investiga la leyenda que rodea a Candyman, un fantasma con un gancho en vez de mano que aparece cada vez que su nombre se pronuncia cinco veces ante un espejo. A propósito de la investigación de Helen, un profesor explica la base histórica de la leyenda y las supersticiones que la rodean: al parecer, Candyman es el espíritu vengativo de un esclavo que fue mutilado por una chusma enloquecida que lo acusó de violar a una mujer blanca. Cuando Helen se decide a repetir el nombre de Candyman cinco veces, pone en movimiento una serie de inevitables hechos sobrenaturales, que culminan en matanzas espantosas en las que ella misma es quien sostiene el arma del crimen."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "candyman-farewell-to-the-flesh-1995",
+    "tmdbId": 10824,
+    "tmdbType": "movie",
+    "title": "Candyman: Farewell to the Flesh",
+    "kind": "movie",
+    "releaseDate": "1995-03-17",
+    "imdbId": "tt0112625",
+    "posterPath": "/2scgM9dFaHEppWb3tS99gCAh8KX.jpg",
+    "overview": "Annie, a young schoolteacher struggling to solve the brutal murder of her father, unwittingly summons the \"Candyman\" to New Orleans, where she learns the secret of his power, and discovers the link that connects them.",
+    "localized": {
+      "en": {
+        "title": "Candyman: Farewell to the Flesh",
+        "overview": "Annie, a young schoolteacher struggling to solve the brutal murder of her father, unwittingly summons the \"Candyman\" to New Orleans, where she learns the secret of his power, and discovers the link that connects them."
+      },
+      "es": {
+        "title": "Candyman 2",
+        "overview": "Continuación de la historia de la figura fantasmal que condena a una muerte aterradora a aquellos que pronuncien su nombre cinco veces frente a un espejo. Durante su vida Candyman (Tony Dodd) fue víctima de hechos atroces y, tras su muerte, se convierte en la encarnación del mal. Ambientada en Nueva Orleáns, donde la profesora Annie Tarrant (Kelly Rowan) trata de esclarecer el brutal asesinato de su padre. La gente cree que el culpable es Candyman, pero Annie no está segura del todo."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "candyman-day-of-the-dead-1999",
+    "tmdbId": 12485,
+    "tmdbType": "movie",
+    "title": "Candyman: Day of the Dead",
+    "kind": "movie",
+    "releaseDate": "1999-07-09",
+    "imdbId": "tt0165662",
+    "posterPath": "/tBhkCLtcgfccZhPU1RlyzmKVTH6.jpg",
+    "overview": "As the Day of the Dead celebration approaches the barrio of East Los Angeles, Caroline is challenged to control the horrifying legend of her ancestor, the \"Candyman\".",
+    "localized": {
+      "en": {
+        "title": "Candyman: Day of the Dead",
+        "overview": "As the Day of the Dead celebration approaches the barrio of East Los Angeles, Caroline is challenged to control the horrifying legend of her ancestor, the \"Candyman\"."
+      },
+      "es": {
+        "title": "Candyman 3: El día de los muertos",
+        "overview": "Tercera y última entrega de la saga \"Candyman\". Cuenta la historia de Caroline (Donna D'Errico), que trata de ganarse la vida como artista en un barrio hispano de Los Ángeles. La joven es la última descendiente de un hombre negro que fue linchado por enamorarse de una mujer blanca y que, según la leyenda, se convirtió en un muerto viviente en busca de venganza. Ahora Caroline tiene pesadillas sobre este ser terrorífico. Candyman está cerca."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "candyman-2021",
+    "tmdbId": 565028,
+    "tmdbType": "movie",
+    "title": "Candyman",
+    "kind": "movie",
+    "releaseDate": "2021-08-25",
+    "imdbId": "tt9347730",
+    "posterPath": "/dqoshZPLNsXlC1qtz5n34raUyrE.jpg",
+    "overview": "A Chicago artist's sanity starts to unravel, unleashing a terrifying wave of violence when he begins to explore the macabre history of the Candyman.",
+    "localized": {
+      "en": {
+        "title": "Candyman",
+        "overview": "A Chicago artist's sanity starts to unravel, unleashing a terrifying wave of violence when he begins to explore the macabre history of the Candyman."
+      },
+      "es": {
+        "title": "Candyman",
+        "overview": "Desde tiempos inmemoriales, los proyectos residenciales del barrio de Cabrini Green en Chicago se han visto amenazados por la historia de un supuesto asesino en serie con un gancho por mano al que se invoca fácilmente repitiendo su nombre cinco veces frente a un espejo. Hoy, una década después de que la última torre de Cabrini fuese derruída, el artista visual Anthony McCoy (Yahya Abdul-Mateen) y su novia Brianna Cartwright (Teyonah Parris), se mudan a un apartamento de lujo de un barrio ahora irreconocible, repleto de millennials y de personas que, por lo general, desconocen su oscuro pasado; Secuela espiritual del clásico slasher del productor Jordan Peele."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "mobile-suit-gundam-1979",
+    "tmdbId": 21731,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam",
+    "kind": "series",
+    "releaseDate": "1979-04-07",
+    "imdbId": "tt0159172",
+    "posterPath": "/BMqben5yxK5bBdHALi9jfyp517.jpg",
+    "overview": "What would you do if you suddenly found yourself in the middle of a war? Teenager Amuro Ray sees his life shattered when war comes to his home. During the chaos, Amuro finds himself inside the mobile suit Gundam, the Earth Federation's new secret weapon, and he somehow gets it to work. Amuro and the other refugees flee their homeland on the warship White Base. This group of children and inexperienced soldiers will change the outcome of the war.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam",
+        "overview": "What would you do if you suddenly found yourself in the middle of a war? Teenager Amuro Ray sees his life shattered when war comes to his home. During the chaos, Amuro finds himself inside the mobile suit Gundam, the Earth Federation's new secret weapon, and he somehow gets it to work. Amuro and the other refugees flee their homeland on the warship White Base. This group of children and inexperienced soldiers will change the outcome of the war."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam",
+        "overview": "Es el 18 de septiembre del año 0079 del Universal Century. Char Aznable, piloto as de Zeon (quien bajo su máscara oculta el rostro de Casval Deikun y su venganza personal contra la familia Zabi, soberanos de Zeon) ataca una de las colonias espaciales de Side 7, con el fin de destruir el nuevo y poderoso prototipo de Mobile Suit de la Federación Terrestre, el RX-78 Gundam. Pero durante la batalla, Amuro Ray, un joven civil de 15 años amante de las máquinas.."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 43,
+        "airDate": "1979-04-07"
+      }
+    ],
+    "runtimeMin": 1075
+  },
+  {
+    "id": "mobile-suit-zeta-gundam-1985",
+    "tmdbId": 13674,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Zeta Gundam",
+    "kind": "series",
+    "releaseDate": "1985-03-02",
+    "imdbId": "tt0159186",
+    "posterPath": "/dGH9LyV1UMgvbkv1WUEobcTqK5W.jpg",
+    "overview": "Universal Century 0087, 7 years have passed since the end of the One Year War between the Earth Federation and the Principality of Zeon. The Earth Federation has created an elite task force, known as the Titans, who are responsible for hunting the remaining Zeon forces. However, the power-hungry Titans have spurred the creation of a rebellious faction called the Anti-Earth Union Group (AEUG).",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Zeta Gundam",
+        "overview": "Universal Century 0087, 7 years have passed since the end of the One Year War between the Earth Federation and the Principality of Zeon. The Earth Federation has created an elite task force, known as the Titans, who are responsible for hunting the remaining Zeon forces. However, the power-hungry Titans have spurred the creation of a rebellious faction called the Anti-Earth Union Group (AEUG)."
+      },
+      "es": {
+        "title": "機動戦士Zガンダム",
+        "overview": "Año 0087 del Siglo Universal, siete años después de la Guerra de un Año. La Federación Terrestre crea a los Titanes para cazar a los restos de Zeon, pero su abuso de poder da origen al grupo rebelde AEUG."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 50,
+        "airDate": "1985-03-02"
+      }
+    ],
+    "runtimeMin": 1200
+  },
+  {
+    "id": "mobile-suit-gundam-zz-1986",
+    "tmdbId": 5660,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam ZZ",
+    "kind": "series",
+    "releaseDate": "1986-03-01",
+    "imdbId": "tt0159184",
+    "posterPath": "/tAM7YgSlZx2XSP0o3hS6IQtRDUm.jpg",
+    "overview": "The year is Universal Century 0088. Directly after the end of the  Gryps War, Haman Karn and her army of Zeon remnants on the asteroid Axis  begin their quest of reviving the lost empire of the Zabi's, and  proclaim themselves as the Neo-Zeon. With the Earth Federation as  hapless as ever, only the Anti-Earth Union Group (AEUG) is able oppose  the plans of Neo-Zeon. In need of all the help it can get after being  decimated in the previous war and losing many of its key members, the  AEUG ship Argama enlists the aid of a young junk collector from the Side  1 colony of Shangri-La named Judau Ashta to pilot its newest mobile  suit, the ZZ Gundam.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam ZZ",
+        "overview": "The year is Universal Century 0088. Directly after the end of the  Gryps War, Haman Karn and her army of Zeon remnants on the asteroid Axis  begin their quest of reviving the lost empire of the Zabi's, and  proclaim themselves as the Neo-Zeon. With the Earth Federation as  hapless as ever, only the Anti-Earth Union Group (AEUG) is able oppose  the plans of Neo-Zeon. In need of all the help it can get after being  decimated in the previous war and losing many of its key members, the  AEUG ship Argama enlists the aid of a young junk collector from the Side  1 colony of Shangri-La named Judau Ashta to pilot its newest mobile  suit, the ZZ Gundam."
+      },
+      "es": {
+        "title": "機動戦士ガンダムZZ",
+        "overview": "Año 0088 del Siglo Universal. Haman Karn y los restos de Zeon se proclaman Neo Zeon, y la nave Argama del AEUG recluta a Judau Ashta, un joven chatarrero, para pilotar el ZZ Gundam."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 47,
+        "airDate": "1986-03-01"
+      }
+    ],
+    "runtimeMin": 1175
+  },
+  {
+    "id": "mobile-suit-gundam-chars-counterattack-1988",
+    "tmdbId": 16157,
+    "tmdbType": "movie",
+    "title": "Mobile Suit Gundam: Char's Counterattack",
+    "kind": "movie",
+    "releaseDate": "1988-03-12",
+    "imdbId": "tt0095262",
+    "posterPath": "/8I8gWpTtzMLt2lBlBoS7lM436nA.jpg",
+    "overview": "In UC 0093, the Federation has recovered from its defeat and has created a new anti-colonial special forces unit to deal with rebel forces: Londo Bell. Elsewhere in space, Char Aznable reappears out of self-imposed hiding with a declaration that he now commands his own Neo-Zeon movement, and intends to force the emigration of Earth's inhabitants to space by bringing about an apocalypse.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam: Char's Counterattack",
+        "overview": "In UC 0093, the Federation has recovered from its defeat and has created a new anti-colonial special forces unit to deal with rebel forces: Londo Bell. Elsewhere in space, Char Aznable reappears out of self-imposed hiding with a declaration that he now commands his own Neo-Zeon movement, and intends to force the emigration of Earth's inhabitants to space by bringing about an apocalypse."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam: Char contraataca",
+        "overview": "Trece años después de la guerra, el ejército de Neo Zeon amenaza la paz. Armado con Nu Gundam, Amuro Ray y las fuerzas de la Federación entran a la batalla de nuevo."
+      }
+    },
+    "runtimeMin": 120
+  },
+  {
+    "id": "mobile-suit-gundam-0080-war-in-the-pocket-1989",
+    "tmdbId": 46512,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam 0080: War in the Pocket",
+    "kind": "series",
+    "releaseDate": "1989-03-25",
+    "imdbId": "tt0097661",
+    "posterPath": "/ju1llP8kQROLHQ2xqOscSUrEHb4.jpg",
+    "overview": "In the final days of the One Year War, a Zeon special forces group infiltrates a colony to gather information on a new Gundam unit. Alfred Izuhara, a 10-year-old student, befriends Zeon rookie pilot Bernie Wiseman during a brief mobile suit combat. Meanwhile, Al meets up with Christina MacKenzie, his former neighbor and babysitter. Little does he know that not only is Christina a member of the Earth Federation, she's the test pilot of the new Gundam NT-4 prototype.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam 0080: War in the Pocket",
+        "overview": "In the final days of the One Year War, a Zeon special forces group infiltrates a colony to gather information on a new Gundam unit. Alfred Izuhara, a 10-year-old student, befriends Zeon rookie pilot Bernie Wiseman during a brief mobile suit combat. Meanwhile, Al meets up with Christina MacKenzie, his former neighbor and babysitter. Little does he know that not only is Christina a member of the Earth Federation, she's the test pilot of the new Gundam NT-4 prototype."
+      },
+      "es": {
+        "title": "機動戦士ガンダム0080 ポケットの中の戦争",
+        "overview": "En los últimos días de la Guerra de un Año, un grupo de Zeon se infiltra en una colonia para investigar un nuevo Gundam. Al, un niño de diez años, se hace amigo del piloto novato Bernie Wiseman, sin saber que Christina, su antigua vecina, es la piloto de prueba del nuevo Gundam."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "1989-03-25"
+      }
+    ],
+    "runtimeMin": 160
+  },
+  {
+    "id": "mobile-suit-gundam-0083-stardust-memory-1991",
+    "tmdbId": 72677,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam 0083: Stardust Memory",
+    "kind": "series",
+    "releaseDate": "1991-05-23",
+    "imdbId": "tt0159567",
+    "posterPath": "/zLO8bidHA5S26kxI5DufYscgMsU.jpg",
+    "overview": "It is the year 0083 of the Universal Century. The rebellious Principality of Zeon has been defeated in the One Year War by the Earth Federation. However, a faction of Zeon remnants led by Aguille Delaz fled from the final battle, hiding themselves away. After three long years, they attempt to rise up once more, sending Delaz’s ace pilot, Anavel Gato, to infiltrate a Federation research base to steal one of two secretly developed prototype Gundams along with its deadly nuclear warhead.\n\nThreatened by the rogue Gundam suit and seeking to retain peace, the Earth Federation mobilizes the newly developed Albion carrier to recover the stolen unit. Manned by the remaining test pilots, with rookie pilot Kou Uraki piloting the remaining prototype Gundam, the Albion and her crew are determined to stop Gato, retake the stolen Gundam, and prevent the Zeon remnants from starting another war.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam 0083: Stardust Memory",
+        "overview": "It is the year 0083 of the Universal Century. The rebellious Principality of Zeon has been defeated in the One Year War by the Earth Federation. However, a faction of Zeon remnants led by Aguille Delaz fled from the final battle, hiding themselves away. After three long years, they attempt to rise up once more, sending Delaz’s ace pilot, Anavel Gato, to infiltrate a Federation research base to steal one of two secretly developed prototype Gundams along with its deadly nuclear warhead.\n\nThreatened by the rogue Gundam suit and seeking to retain peace, the Earth Federation mobilizes the newly developed Albion carrier to recover the stolen unit. Manned by the remaining test pilots, with rookie pilot Kou Uraki piloting the remaining prototype Gundam, the Albion and her crew are determined to stop Gato, retake the stolen Gundam, and prevent the Zeon remnants from starting another war."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam 0083 Stardust Memory",
+        "overview": "Año 0083 del Siglo Universal. Tres años después de la Guerra de un Año, un grupo de Zeon liderado por Aguille Delaz intenta robar un Gundam prototipo, y la Federación envía al portaaviones Albion y al novato Kou Uraki para detenerlo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "1991-05-23"
+      }
+    ],
+    "runtimeMin": 390
+  },
+  {
+    "id": "mobile-suit-gundam-f91-1991",
+    "tmdbId": 16308,
+    "tmdbType": "movie",
+    "title": "Mobile Suit Gundam F91",
+    "kind": "movie",
+    "releaseDate": "1991-03-16",
+    "imdbId": "tt0159568",
+    "posterPath": "/pD1VbnZQtMNjSNr3Nopw8ATHL95.jpg",
+    "overview": "U.C. 0123. After a generation of peace, the Earth Federation has begun to build new space colonies to house humanity's growing population. But a new force, the aristocratic Crossbone Vanguard, plans to seize the colonies of the newly constructed Frontier Side for itself. As their home becomes a battlefield, a handful of young civilians struggle to escape the conflict. To save his friends and family, the reluctant warrior Seabook Arno becomes the pilot of a new Gundam which bears the code name F91.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam F91",
+        "overview": "U.C. 0123. After a generation of peace, the Earth Federation has begun to build new space colonies to house humanity's growing population. But a new force, the aristocratic Crossbone Vanguard, plans to seize the colonies of the newly constructed Frontier Side for itself. As their home becomes a battlefield, a handful of young civilians struggle to escape the conflict. To save his friends and family, the reluctant warrior Seabook Arno becomes the pilot of a new Gundam which bears the code name F91."
+      },
+      "es": {
+        "title": "機動戦士ガンダムF91",
+        "overview": "U.C. 0123. Tras una generación de paz, la aristocrática Vanguardia Crossbone ataca las nuevas colonias. Seabook Arno, un joven civil, termina pilotando el Gundam F91 para proteger a su familia y amigos."
+      }
+    },
+    "runtimeMin": 115
+  },
+  {
+    "id": "mobile-suit-gundam-the-08th-ms-team-1996",
+    "tmdbId": 43887,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam: The 08th MS Team",
+    "kind": "series",
+    "releaseDate": "1996-01-25",
+    "imdbId": "tt0159569",
+    "posterPath": "/tzr1YdnPSIWMMgyb6Uzi3f9I8p3.jpg",
+    "overview": "Ensign Shiro Amada is transferred to Southeast Asia to take command of the 08th MS Team. In their first guerilla operation, Shiro's team is tasked with distracting the Zeon forces while Federation ground troops locate a mysterious new Zeon weapon.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam: The 08th MS Team",
+        "overview": "Ensign Shiro Amada is transferred to Southeast Asia to take command of the 08th MS Team. In their first guerilla operation, Shiro's team is tasked with distracting the Zeon forces while Federation ground troops locate a mysterious new Zeon weapon."
+      },
+      "es": {
+        "title": "機動戦士ガンダム 第08MS小隊",
+        "overview": "El alférez Shiro Amada es destinado al Sudeste Asiático al mando del Equipo 08 de mobile suits. En su primera operación debe distraer a las fuerzas de Zeon mientras la Federación busca una nueva arma."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "1996-01-25"
+      }
+    ],
+    "runtimeMin": 303
+  },
+  {
+    "id": "mobile-suit-gundam-unicorn-2010",
+    "tmdbId": 45500,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam Unicorn",
+    "kind": "series",
+    "releaseDate": "2010-02-20",
+    "imdbId": "tt1587790",
+    "posterPath": "/221Lo3L1iTg76hWhyzg62C5OYOK.jpg",
+    "overview": "When Banagher Links meets the mysterious Audrey Burne, he inherits the Unicorn Gundam and is swept up into the battle for space colony independence.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam Unicorn",
+        "overview": "When Banagher Links meets the mysterious Audrey Burne, he inherits the Unicorn Gundam and is swept up into the battle for space colony independence."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam Unicorn",
+        "overview": "Banagher Links conoce a la misteriosa Audrey Burne y hereda dos cosas: el Unicorn Gundam y el legado de hacer lo que sea por lograr la independencia en el espacio."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 7,
+        "airDate": "2010-02-20"
+      }
+    ],
+    "runtimeMin": 439
+  },
+  {
+    "id": "mobile-suit-gundam-narrative-2018",
+    "tmdbId": 553610,
+    "tmdbType": "movie",
+    "title": "Mobile Suit Gundam Narrative",
+    "kind": "movie",
+    "releaseDate": "2018-11-30",
+    "imdbId": "tt9497146",
+    "posterPath": "/rX0jSZIPbCRL1Qg7kM1gI88L9Hw.jpg",
+    "overview": "U.C. 0097, one year after the opening of \"Laplace's Box\".  Despite the revelation of the Universal Century Charter that acknowledges the existence and rights of Newtypes, the framework of the world has not been greatly altered.  The conflict later dubbed the \"Laplace Incident\" is thought to have ended with the downfall of the Neo Zeon remnants known as the Sleeves. In its final battle, two full psycho-frame mobile suits displayed power beyond human understanding. The white unicorn and the black lion were sealed away to remove this danger from people's consciousness, and they should now be completely forgotten.  However, the RX-0 Unicorn Gundam 03, which disappeared two years earlier, is now about to show itself in the Earth Sphere once more. A golden phoenix… named Phenex.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam Narrative",
+        "overview": "U.C. 0097, one year after the opening of \"Laplace's Box\".  Despite the revelation of the Universal Century Charter that acknowledges the existence and rights of Newtypes, the framework of the world has not been greatly altered.  The conflict later dubbed the \"Laplace Incident\" is thought to have ended with the downfall of the Neo Zeon remnants known as the Sleeves. In its final battle, two full psycho-frame mobile suits displayed power beyond human understanding. The white unicorn and the black lion were sealed away to remove this danger from people's consciousness, and they should now be completely forgotten.  However, the RX-0 Unicorn Gundam 03, which disappeared two years earlier, is now about to show itself in the Earth Sphere once more. A golden phoenix… named Phenex."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam Narrative",
+        "overview": "U.C. 0097, un año tras la apertura de la 'Caja de Laplace'. El Unicorn Gundam 03, desaparecido hace dos años, está a punto de reaparecer en la esfera terrestre como el Phenex dorado."
+      }
+    },
+    "runtimeMin": 89
+  },
+  {
+    "id": "mobile-suit-gundam-hathaway-2021",
+    "tmdbId": 685274,
+    "tmdbType": "movie",
+    "title": "Mobile Suit Gundam Hathaway",
+    "kind": "movie",
+    "releaseDate": "2021-06-11",
+    "imdbId": "tt13288678",
+    "posterPath": "/6gw8onh4FKsruBA7Oouv01EFxzn.jpg",
+    "overview": "Twelve years after Char's rebellion, Hathaway Noa leads an insurgency against Earth Federation, but meeting an enemy officer and a mysterious woman alters his fate.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam Hathaway",
+        "overview": "Twelve years after Char's rebellion, Hathaway Noa leads an insurgency against Earth Federation, but meeting an enemy officer and a mysterious woman alters his fate."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam Hathaway",
+        "overview": "Tras la rebelión de Char, Hathaway Noa dirige un levantamiento contra la Federación de la Tierra, pero un oficial enemigo y una mujer misteriosa alteran su destino."
+      }
+    },
+    "runtimeMin": 96
+  },
+  {
+    "id": "mobile-suit-gundam-wing-1995",
+    "tmdbId": 21730,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam Wing",
+    "kind": "series",
+    "releaseDate": "1995-04-07",
+    "imdbId": "tt0159193",
+    "posterPath": "/ggHmrZpipHfdEqaGQbv4JrWv0f6.jpg",
+    "overview": "After Colony (A.C.) 195. Mankind has moved into space. Thousands of people live on giant orbiting space colonies called \"Sides.\" However, the Earth Government, which rules the colonies, is unjust and cruel. A group of revolutionaries builds five robotic weapons called Gundams and plans to send them to Earth to begin their fight for independence. Piloted by five young men, these Gundams carry the hopes and dreams of freedom of the colonists with them as they descend to Earth to begin Operation Meteor!",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam Wing",
+        "overview": "After Colony (A.C.) 195. Mankind has moved into space. Thousands of people live on giant orbiting space colonies called \"Sides.\" However, the Earth Government, which rules the colonies, is unjust and cruel. A group of revolutionaries builds five robotic weapons called Gundams and plans to send them to Earth to begin their fight for independence. Piloted by five young men, these Gundams carry the hopes and dreams of freedom of the colonists with them as they descend to Earth to begin Operation Meteor!"
+      },
+      "es": {
+        "title": "Mobile Suit Gundam Wing",
+        "overview": "Han pasado casi dos siglos desde que la humanidad empezó a dejar su planeta natal, para establecerse en Colonias Espaciales. La construcción de las primeras Colonias se llevó a cabo con grandes esfuerzos y sacrificios de los pioneros terrícolas. Una importante razón de este éxito estaba basada en los Mobile Suits (Trajes Móviles), esencialmente armaduras individuales humanoides, que permitían a los humanos operar en el espacio."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 49,
+        "airDate": "1995-04-07"
+      }
+    ],
+    "runtimeMin": 1203
+  },
+  {
+    "id": "mobile-suit-gundam-seed-2002",
+    "tmdbId": 20111,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam SEED",
+    "kind": "series",
+    "releaseDate": "2002-10-05",
+    "imdbId": "tt0374407",
+    "posterPath": "/rWgdDIq4JeaI36KdmLPkYcQjBQ3.jpg",
+    "overview": "Cosmic Era 71. Mankind has developed into two subspecies: Naturals, who reside on Earth, and Coordinators, genetically enhanced humans capable of withstanding the rigors of space who inhabit orbital colonies known as PLANTs. The story revolves around a young Coordinator named Kira Yamato, who becomes involved in the war between the two races after a neutral space colony secretly developing mobile suits for the Earth Alliance is attacked by the PLANTs' military force, ZAFT.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam SEED",
+        "overview": "Cosmic Era 71. Mankind has developed into two subspecies: Naturals, who reside on Earth, and Coordinators, genetically enhanced humans capable of withstanding the rigors of space who inhabit orbital colonies known as PLANTs. The story revolves around a young Coordinator named Kira Yamato, who becomes involved in the war between the two races after a neutral space colony secretly developing mobile suits for the Earth Alliance is attacked by the PLANTs' military force, ZAFT."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam SEED",
+        "overview": "Era Cósmica 71. La humanidad se divide entre Naturales y Coordinadores, humanos mejorados genéticamente. Kira Yamato, un joven Coordinador, se ve envuelto en la guerra entre ambos bandos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 50,
+        "airDate": "2002-10-05"
+      },
+      {
+        "number": 2,
+        "episodes": 50,
+        "airDate": "2004-10-09"
+      }
+    ],
+    "runtimeMin": 2400
+  },
+  {
+    "id": "mobile-suit-gundam-seed-freedom-2024",
+    "tmdbId": 1146972,
+    "tmdbType": "movie",
+    "title": "Mobile Suit Gundam SEED FREEDOM",
+    "kind": "movie",
+    "releaseDate": "2024-01-26",
+    "imdbId": "tt14759062",
+    "posterPath": "/1EBnttleJaKnWWyyEqfiSn76ZjT.jpg",
+    "overview": "In C.E.75, the fighting still continues. There are independence movements, and aggression by Blue Cosmos... In order to calm the situation, a global peace monitoring agency called COMPASS is established, with Lacus as its first president. As members of COMPASS, Kira and his comrades intervene into various regional battles. Then a newly established nation called Foundation proposes a joint operation against a Blue Cosmos stronghold.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam SEED FREEDOM",
+        "overview": "In C.E.75, the fighting still continues. There are independence movements, and aggression by Blue Cosmos... In order to calm the situation, a global peace monitoring agency called COMPASS is established, with Lacus as its first president. As members of COMPASS, Kira and his comrades intervene into various regional battles. Then a newly established nation called Foundation proposes a joint operation against a Blue Cosmos stronghold."
+      },
+      "es": {
+        "title": "機動戦士ガンダムSEED FREEDOM",
+        "overview": "C.E. 75. Persisten los conflictos y la agresión de Blue Cosmos. Para calmar la situación se crea COMPASS, una agencia de paz presidida por Lacus, y Kira y sus compañeros intervienen en varias batallas regionales."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "mobile-suit-gundam-00-2007",
+    "tmdbId": 21732,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam 00",
+    "kind": "series",
+    "releaseDate": "2007-10-06",
+    "imdbId": "tt1134000",
+    "posterPath": "/1uEgsZ47dtBCoKLlL9edQ0QMrRF.jpg",
+    "overview": "The year is 2307 A.D. Although fossil fuels have been depleted, humanity has obtained a new source of energy to replace them, in the form of a large-scale solar power generation system based on three huge orbital elevators. However, the benefits of this system are available only to a handful of major powers and their allies. In this world of never-ending conflict, a private armed organization appears, dedicated to the elimination of war through armed force. Its name is Celestial Being, and it is in possession of \"Gundam\" mobile suits.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam 00",
+        "overview": "The year is 2307 A.D. Although fossil fuels have been depleted, humanity has obtained a new source of energy to replace them, in the form of a large-scale solar power generation system based on three huge orbital elevators. However, the benefits of this system are available only to a handful of major powers and their allies. In this world of never-ending conflict, a private armed organization appears, dedicated to the elimination of war through armed force. Its name is Celestial Being, and it is in possession of \"Gundam\" mobile suits."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam 00",
+        "overview": "Año 2307 d.C. Un sistema de energía solar, accesible solo a unas pocas potencias, sostiene al mundo. Una organización armada privada, Celestial Being, aparece con mobile suits Gundam para eliminar la guerra por la fuerza."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 25,
+        "airDate": "2007-10-06"
+      },
+      {
+        "number": 2,
+        "episodes": 25,
+        "airDate": "2008-10-05"
+      }
+    ],
+    "runtimeMin": 1250
+  },
+  {
+    "id": "mobile-suit-gundam-00-the-movie-2010",
+    "tmdbId": 37048,
+    "tmdbType": "movie",
+    "title": "Mobile Suit Gundam 00 The Movie: -A Wakening of the Trailblazer-",
+    "kind": "movie",
+    "releaseDate": "2010-09-18",
+    "imdbId": "tt1726286",
+    "posterPath": "/pGfKtbinKYzsfwVVTF628nQtVL8.jpg",
+    "overview": "The year is 2314 AD, two years have passed since the defeat of the Innovades and the exposure of the A-Laws' crimes against humanity. The A-Laws have been abolished and their infrastructure integrated into the Earth Sphere Federation Army. However, the world's exposure to GN Particles has resulted in many people awakening as True Innovators. Celestial Being has returned to the shadows to rebuild and quietly observe the infantile peace. However, an abandoned probe from an expedition to Jupiter 130 years ago approaches Earth bringing a new crisis with it, one that threatens all of mankind. While Celestial Being begins their final mission to save humanity from an unimaginable threat, Gundam Meister Setsuna F. Seiei is about to discover the true purpose of his evolution as an Innovator. Aeolia Schenberg's plan has moved into its final stage...",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam 00 The Movie: -A Wakening of the Trailblazer-",
+        "overview": "The year is 2314 AD, two years have passed since the defeat of the Innovades and the exposure of the A-Laws' crimes against humanity. The A-Laws have been abolished and their infrastructure integrated into the Earth Sphere Federation Army. However, the world's exposure to GN Particles has resulted in many people awakening as True Innovators. Celestial Being has returned to the shadows to rebuild and quietly observe the infantile peace. However, an abandoned probe from an expedition to Jupiter 130 years ago approaches Earth bringing a new crisis with it, one that threatens all of mankind. While Celestial Being begins their final mission to save humanity from an unimaginable threat, Gundam Meister Setsuna F. Seiei is about to discover the true purpose of his evolution as an Innovator. Aeolia Schenberg's plan has moved into its final stage..."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam 00 the Movie: Awakening of the Trailblazer",
+        "overview": "Es el año 2314 d. C. Han pasado dos años desde la derrota a la despiadada A-LAWS, y el nuevo gobierno de la Federación de la esfera terrestre ha buscado la paz mediante el establecimiento de un mundo libre de armas. Sin embargo, una nave olvidada que fue enviada a Júpiter hace 130 años de alguna manera vuelve a la Tierra, aparentemente sin signos de vida a bordo, sin embargo trae consigo una nueva y peligrosa amenaza alienígena, las formas de vida de metal cambiaformas (ELS), que comienzan a asimilar la tecnología de la Tierra y sus habitantes. Ahora, con la humanidad en peligro de la destrucción total, Celestial hace su retorno a defender a la tierra en contra de la invasión de los ELS."
+      }
+    },
+    "runtimeMin": 123
+  },
+  {
+    "id": "mobile-suit-gundam-iron-blooded-orphans-2015",
+    "tmdbId": 64375,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam: Iron-Blooded Orphans",
+    "kind": "series",
+    "releaseDate": "2015-10-04",
+    "imdbId": "tt5344382",
+    "posterPath": "/x5M9yxvBhrUP4rsKSl3d9VzK7O.jpg",
+    "overview": "On a terraformed post-disaster Mars, a group of child security agents rebel against the adults who betrayed them and the oppressive Earth government.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam: Iron-Blooded Orphans",
+        "overview": "On a terraformed post-disaster Mars, a group of child security agents rebel against the adults who betrayed them and the oppressive Earth government."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam: Iron-Blooded Orphans",
+        "overview": "En un planeta Marte azotado por el desastre, un grupo de niños se rebela contra los adultos que los traicionaron y contra el opresivo gobierno de la Tierra."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 50,
+        "airDate": "2015-10-04"
+      }
+    ],
+    "runtimeMin": 1250
+  },
+  {
+    "id": "mobile-suit-gundam-the-witch-from-mercury-2022",
+    "tmdbId": 196400,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam: The Witch from Mercury",
+    "kind": "series",
+    "releaseDate": "2022-10-02",
+    "imdbId": "tt15433166",
+    "posterPath": "/gBkDlMaAVOVMRWWlRUHhkLAhNE3.jpg",
+    "overview": "A. S. (Ad Stella) 122 ― An era when a multitude of corporations have entered space and built a huge economic system. Suletta Mercury, a lone girl from the remote planet Mercury, transfers to the Asticassia School of Technology, run by the Beneritt Group which dominates the mobile suit industry.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam: The Witch from Mercury",
+        "overview": "A. S. (Ad Stella) 122 ― An era when a multitude of corporations have entered space and built a huge economic system. Suletta Mercury, a lone girl from the remote planet Mercury, transfers to the Asticassia School of Technology, run by the Beneritt Group which dominates the mobile suit industry."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam: The Witch from Mercury",
+        "overview": "A.S. (Ad Stella) 122- Una época en la que una multitud de corporaciones han entrado en el espacio y han construido un enorme sistema económico. Una chica solitaria del remoto planeta Mercurio se traslada a la Escuela de Tecnología de Asticassia, dirigida por el Grupo Beneritt, que domina la industria de los trajes móviles. Su nombre es Suletta Mercury. Con una luz escarlata ardiendo en su corazón puro, esta chica camina paso a paso por un nuevo mundo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 24,
+        "airDate": "2022-10-02"
+      }
+    ],
+    "runtimeMin": 593
+  },
+  {
+    "id": "mobile-suit-gundam-gquuuuuux-2025",
+    "tmdbId": 278704,
+    "tmdbType": "tv",
+    "title": "Mobile Suit Gundam GQuuuuuuX",
+    "kind": "series",
+    "releaseDate": "2025-04-09",
+    "imdbId": "tt34880941",
+    "posterPath": "/jb5d4vqHmKSQh9rB2T394e3z5To.jpg",
+    "overview": "High-school student Amate Yuzuriha lives peacefully in a space colony floating in outer space. But when she meets a war refugee named Nyaan, Amate is drawn into the illegal mobile suit dueling sport known as Clan Battle.",
+    "localized": {
+      "en": {
+        "title": "Mobile Suit Gundam GQuuuuuuX",
+        "overview": "High-school student Amate Yuzuriha lives peacefully in a space colony floating in outer space. But when she meets a war refugee named Nyaan, Amate is drawn into the illegal mobile suit dueling sport known as Clan Battle."
+      },
+      "es": {
+        "title": "Mobile Suit Gundam GQuuuuuuX",
+        "overview": "Amate Yuzuriha es una estudiante de secundaria que vive tranquilamente en una colonia espacial flotante en el espacio exterior. Cuando conoce a Nyaan, una refugiada de guerra, Amate se ve arrastrada al deporte ilegal de duelos con Mobile Suits conocido como Clan Battle."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "2025-04-09"
+      }
+    ],
+    "runtimeMin": 304
+  },
+  {
+    "id": "ghost-in-the-shell-1995",
+    "tmdbId": 9323,
+    "tmdbType": "movie",
+    "title": "Ghost in the Shell",
+    "kind": "movie",
+    "releaseDate": "1995-11-18",
+    "imdbId": "tt0113568",
+    "posterPath": "/9gC88zYUBARRSThcG93MvW14sqx.jpg",
+    "overview": "In the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.",
+    "localized": {
+      "en": {
+        "title": "Ghost in the Shell",
+        "overview": "In the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster."
+      },
+      "es": {
+        "title": "Ghost in the Shell",
+        "overview": "En el año 2029, las barreras de nuestro mundo han sido desglosadas por la red y por la cibernética, pero esto trae nueva vulnerabilidad a los humanos en forma de hacking cerebral. Cuando un hacker altamente deseado conocido como \"The Puppetmaster\" comienza a involucrarlos en la política, Sección 9, un grupo de policías mejorados cibernéticamente, son llamados a investigar y detener el Puppetmaster."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "ghost-in-the-shell-2-innocence-2004",
+    "tmdbId": 12140,
+    "tmdbType": "movie",
+    "title": "Ghost in the Shell 2: Innocence",
+    "kind": "movie",
+    "releaseDate": "2004-03-06",
+    "imdbId": "tt0347246",
+    "posterPath": "/1ZJRbLDVr90KLtKdmTT4WZhT26E.jpg",
+    "overview": "Cyborg detective Batou is assigned to investigate a series of murders committed by gynoids—doll-like cyborgs, which all malfunctioned, killed, then self-destructed afterwards. The brains of the gynoids initialize in order to protect their manufacturer's software, but in one gynoid, which Batou himself neutralized, one file remains: a voice speaking the phrase \"Help me.\"",
+    "localized": {
+      "en": {
+        "title": "Ghost in the Shell 2: Innocence",
+        "overview": "Cyborg detective Batou is assigned to investigate a series of murders committed by gynoids—doll-like cyborgs, which all malfunctioned, killed, then self-destructed afterwards. The brains of the gynoids initialize in order to protect their manufacturer's software, but in one gynoid, which Batou himself neutralized, one file remains: a voice speaking the phrase \"Help me.\""
+      },
+      "es": {
+        "title": "Ghost In the Shell 2: Inocencia",
+        "overview": "El director pionero Mamoru Oshii continúa empujando los límites del arte y el anime con este thriller cibernético universalmente aclamado, que sigue las aventuras del detective cyborg Batou en su intento por desentrañar las razones de una revuelta de robots asesinos en el año 2032. La búsqueda de un asesino que se convierte en una búsqueda alucinante sobre el sentido de la vida"
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "ghost-in-the-shell-stand-alone-complex-2002",
+    "tmdbId": 1095,
+    "tmdbType": "tv",
+    "title": "Ghost in the Shell: Stand Alone Complex",
+    "kind": "series",
+    "releaseDate": "2002-10-01",
+    "imdbId": "tt0346314",
+    "posterPath": "/nJlfPscbODh5gV1yTGSPqYOO7rl.jpg",
+    "overview": "In the future when technological enhancements and robotics are a way of life, Major Motoko Kusanagi and Section 9 take care of the jobs that are too difficult for the police. Section 9 employs hackers, sharpshooters, detectives and cyborgs all in an effort to thwart cyber criminals and their plans to attack the innocent.",
+    "localized": {
+      "en": {
+        "title": "Ghost in the Shell: Stand Alone Complex",
+        "overview": "In the future when technological enhancements and robotics are a way of life, Major Motoko Kusanagi and Section 9 take care of the jobs that are too difficult for the police. Section 9 employs hackers, sharpshooters, detectives and cyborgs all in an effort to thwart cyber criminals and their plans to attack the innocent."
+      },
+      "es": {
+        "title": "Ghost in the Shell: Stand Alone Complex",
+        "overview": "En el futuro, cuando las mejoras tecnológicas y la robótica sean una forma de vida, el Major Motoko Kusanagi y la Sección 9 se encargan de los trabajos que son demasiado difíciles para la policía. La Sección 9 emplea a piratas informáticos, tiradores, detectives y cyborgs en un esfuerzo por frustrar a los criminales cibernéticos y sus planes de atacar a los inocentes."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2002-10-01"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2004-01-01"
+      }
+    ],
+    "runtimeMin": 1300
+  },
+  {
+    "id": "ghost-in-the-shell-solid-state-society-2007",
+    "tmdbId": 18874,
+    "tmdbType": "movie",
+    "title": "Ghost in the Shell: Stand Alone Complex - Solid State Society",
+    "kind": "movie",
+    "releaseDate": "2007-09-01",
+    "imdbId": "tt0856797",
+    "posterPath": "/tExdDYmxqv30rtf2dMkTAVpzORf.jpg",
+    "overview": "The story takes place in the year 2034, two years after the events in Ghost in the Shell: S.A.C. 2nd GIG. Female cyborg Major Motoko Kusanagi has left Public Security Section 9, an elite counter-terrorist and anti-crime unit specializing in cyber-warfare, which has expanded to a team of 20 field operatives with Togusa acting as the field lead.",
+    "localized": {
+      "en": {
+        "title": "Ghost in the Shell: Stand Alone Complex - Solid State Society",
+        "overview": "The story takes place in the year 2034, two years after the events in Ghost in the Shell: S.A.C. 2nd GIG. Female cyborg Major Motoko Kusanagi has left Public Security Section 9, an elite counter-terrorist and anti-crime unit specializing in cyber-warfare, which has expanded to a team of 20 field operatives with Togusa acting as the field lead."
+      },
+      "es": {
+        "title": "Ghost in the Shell: Stand Alone Complex - Solid State Society",
+        "overview": "La historia ocurre en el año 2034, dos años después de los acontecimientos en Ghost in the Shell: Stand Alone Complex 2nd GIG. El comandante cyborg de sexo femenino Motoko Kusanagi ha dejado el Artículo 9 del Título público, un contraterrorista de la elite y unidad de antidelito que se especializa en la ciberguerra, que se ha ampliado a un equipo de 20 obreros de campaña con Togusa que sirve de la ventaja de campaña."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "ghost-in-the-shell-sac-2045-2020",
+    "tmdbId": 90293,
+    "tmdbType": "tv",
+    "title": "Ghost in the Shell: SAC_2045",
+    "kind": "series",
+    "releaseDate": "2020-04-23",
+    "imdbId": "tt9466298",
+    "posterPath": "/tPK8BER0Pyq68IGKHrTemGlxBV4.jpg",
+    "overview": "In the year 2045, cybernetic mercenary Motoko Kusanagi returns to Section 9 to face a dangerous new threat: the posthumans.",
+    "localized": {
+      "en": {
+        "title": "Ghost in the Shell: SAC_2045",
+        "overview": "In the year 2045, cybernetic mercenary Motoko Kusanagi returns to Section 9 to face a dangerous new threat: the posthumans."
+      },
+      "es": {
+        "title": "Ghost in the Shell: SAC_2045",
+        "overview": "En el año 2045, tras una crisis financiera mundial, el planeta queda sumido en una \"guerra sostenible\" cibernética. Todo depende de la Sección 9 para acabar con las nuevas amenazas. Continuación de la aclamada serie anime \"Ghost in the Shell: Stand Alone Complex\""
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "2020-04-23"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2022-05-23"
+      }
+    ],
+    "runtimeMin": 604
+  },
+  {
+    "id": "ghost-in-the-shell-2017",
+    "tmdbId": 315837,
+    "tmdbType": "movie",
+    "title": "Ghost in the Shell",
+    "kind": "movie",
+    "releaseDate": "2017-03-29",
+    "imdbId": "tt1219827",
+    "posterPath": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
+    "overview": "In the near future, Major is the first of her kind: a human saved from a terrible crash, then cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
+    "localized": {
+      "en": {
+        "title": "Ghost in the Shell",
+        "overview": "In the near future, Major is the first of her kind: a human saved from a terrible crash, then cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals."
+      },
+      "es": {
+        "title": "La vigilante del futuro: Ghost in the Shell",
+        "overview": "En un futuro próximo, Major es la primera de su tipo: un ser humano salvado de un accidente terrible, luego ciber-mejorado para ser un soldado perfecto dedicado a detener a los criminales más peligrosos del mundo."
+      }
+    },
+    "runtimeMin": 107
+  },
+  {
+    "id": "the-ghost-in-the-shell-2026",
+    "tmdbId": 255358,
+    "tmdbType": "tv",
+    "title": "THE GHOST IN THE SHELL",
+    "kind": "series",
+    "releaseDate": "2026-07-07",
+    "imdbId": "tt36517689",
+    "posterPath": "/nUXjSyXAQZhOf32e6lkLX6C6Rf3.jpg",
+    "overview": "2029, a near-future Japan. The full cyborg Motoko Kusanagi envisions a task force that preemptively strikes emerging threats. She and her team are scouted by Daisuke Aramaki as Public Security Section 9, AKA the \"Shell Squad.\" An international conspiracy hints at a hacker known as The \"Puppet Master.\" What fate awaits Kusanagi? What is the hacker's endgame?",
+    "localized": {
+      "en": {
+        "title": "THE GHOST IN THE SHELL",
+        "overview": "2029, a near-future Japan. The full cyborg Motoko Kusanagi envisions a task force that preemptively strikes emerging threats. She and her team are scouted by Daisuke Aramaki as Public Security Section 9, AKA the \"Shell Squad.\" An international conspiracy hints at a hacker known as The \"Puppet Master.\" What fate awaits Kusanagi? What is the hacker's endgame?"
+      },
+      "es": {
+        "title": "THE GHOST IN THE SHELL",
+        "overview": "Japón, 2029. La cíborg completa Motoko Kusanagi concibe una fuerza especial para combatir amenazas emergentes. Daisuke Aramaki la recluta y forma la Sección 9 de Seguridad Pública, la Patrulla Especial Acorazada Antidisturbios. Una conspiración internacional apunta al hacker Maestro de Marionetas. ¿Qué le espera a Kusanagi? ¿Qué planea el hacker? Comienza una nueva era de acción ciberpunk."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2026-07-07"
+      }
+    ],
+    "runtimeMin": 250
   }
 ]
