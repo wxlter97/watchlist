@@ -1,0 +1,118 @@
+{
+  "id": "dark",
+  "name": {
+    "es": "Dark",
+    "en": "Dark"
+  },
+  "description": {
+    "es": "Viajes en el tiempo en un pueblo alemán: la serie y 1899, de los mismos creadores.",
+    "en": "Time travel in a German town: the series and 1899, from the same creators."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Dark",
+        "en": "Dark"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres temporadas de Dark.",
+        "en": "Dark's three seasons."
+      }
+    },
+    {
+      "id": "extras",
+      "name": {
+        "es": "1899",
+        "en": "1899"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Otra serie de los mismos creadores, independiente de Dark.",
+        "en": "Another series from the same creators, independent from Dark."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "dark-2017",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "jonas-kahnwald"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "dark-2017",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "jonas-kahnwald"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "dark-2017",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "jonas-kahnwald"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "1899-2022",
+      "season": 1,
+      "continuityId": "extras",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "jonas-kahnwald",
+        "name": {
+          "es": "Jonas Kahnwald",
+          "en": "Jonas Kahnwald"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

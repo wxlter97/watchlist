@@ -1,0 +1,1 @@
+- Una familia sobrevive en silencio en un mundo invadido por criaturas que cazan por el sonido.

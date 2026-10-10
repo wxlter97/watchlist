@@ -1,0 +1,2 @@
+- Los kaijus emergen del océano y la humanidad construye robots gigantes, los Jaegers.
+- Un piloto retirado y una novata deben pilotar uno.

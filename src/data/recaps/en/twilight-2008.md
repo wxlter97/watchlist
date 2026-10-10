@@ -1,0 +1,1 @@
+- Bella moves to Forks and falls in love with Edward, a vampire.

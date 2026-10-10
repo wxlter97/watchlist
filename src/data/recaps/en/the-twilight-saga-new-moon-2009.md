@@ -1,0 +1,1 @@
+- Edward leaves and Bella grows closer to Jacob.

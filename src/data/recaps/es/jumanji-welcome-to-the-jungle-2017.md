@@ -1,0 +1,1 @@
+- Cuatro adolescentes quedan atrapados dentro de un videojuego.

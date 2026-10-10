@@ -1,0 +1,5 @@
+- **Season 1:** Angel moves to Los Angeles and helps people with supernatural problems.
+- **Season 2:** Darla returns and Angel faces doubts about his redemption.
+- **Season 3:** Angel must look after his son, Connor.
+- **Season 4:** a new threat affects Cordelia and the whole team.
+- **Season 5:** the team takes control of Wolfram & Hart's Los Angeles office.

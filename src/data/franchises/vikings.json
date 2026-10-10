@@ -1,0 +1,168 @@
+{
+  "id": "vikings",
+  "name": {
+    "es": "Vikingos",
+    "en": "Vikings"
+  },
+  "description": {
+    "es": "Ragnar Lothbrok y sus hijos, y la secuela Valhalla un siglo después.",
+    "en": "Ragnar Lothbrok and his sons, and the sequel Valhalla a century later."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Series",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Vikingos y su secuela, Valhalla.",
+        "en": "Vikings and its sequel, Valhalla."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "vikings-2013",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "ragnar-lothbrok"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "vikings-2013",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "ragnar-lothbrok"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "vikings-2013",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "ragnar-lothbrok"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "vikings-2013",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [
+        "ragnar-lothbrok"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "vikings-2013",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "ragnar-lothbrok"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "vikings-2013",
+      "season": 6,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "ragnar-lothbrok"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "vikings-valhalla-2022",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [
+        "leif-eriksson"
+      ],
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "Transcurre unos cien años después de Vikingos",
+        "en": "Set about a hundred years after Vikings"
+      }
+    },
+    {
+      "titleId": "vikings-valhalla-2022",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "leif-eriksson"
+      ],
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "vikings-valhalla-2022",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [
+        "leif-eriksson"
+      ],
+      "chronoOrder": 90
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "ragnar-lothbrok",
+        "name": {
+          "es": "Ragnar Lothbrok",
+          "en": "Ragnar Lothbrok"
+        }
+      },
+      {
+        "id": "leif-eriksson",
+        "name": {
+          "es": "Leif Eriksson",
+          "en": "Leif Eriksson"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

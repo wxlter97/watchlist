@@ -1,0 +1,1 @@
+- Dos niños encuentran un juego de mesa mágico y liberan a Alan Parrish tras décadas atrapado.

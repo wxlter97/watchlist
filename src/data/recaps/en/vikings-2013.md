@@ -1,0 +1,6 @@
+- **Season 1:** Ragnar Lothbrok, a Viking farmer, dreams of sailing west and organizes his first raids on England.
+- **Season 2:** Ragnar consolidates his power and his kingdom.
+- **Season 3:** the Vikings attack Paris.
+- **Season 4:** Ragnar faces the consequences of his ambition and his sons begin to stand out.
+- **Season 5:** Ragnar's sons fight for his legacy.
+- **Season 6:** the story reaches its end.

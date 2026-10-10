@@ -1,0 +1,5 @@
+- **Temporada 1:** Ángel se muda a Los Ángeles y ayuda a quienes sufren problemas sobrenaturales.
+- **Temporada 2:** Darla regresa y Ángel enfrenta dudas sobre su redención.
+- **Temporada 3:** Ángel debe cuidar a su hijo, Connor.
+- **Temporada 4:** una nueva amenaza afecta a Cordelia y a todo el grupo.
+- **Temporada 5:** el equipo asume el control de la oficina de Los Ángeles de Wolfram & Hart.

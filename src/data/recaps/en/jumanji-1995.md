@@ -1,0 +1,1 @@
+- Two kids find a magic board game and free Alan Parrish after decades trapped.

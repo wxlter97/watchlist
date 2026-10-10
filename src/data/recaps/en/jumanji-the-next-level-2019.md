@@ -1,0 +1,1 @@
+- The protagonists return to the game to rescue a friend.

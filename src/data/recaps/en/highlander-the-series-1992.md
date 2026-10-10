@@ -1,0 +1,6 @@
+- **Season 1:** Duncan MacLeod, an immortal, lives in the present and follows the rules of the Game.
+- **Season 2:** new adventures for Duncan and other immortals.
+- **Season 3:** new adventures for Duncan and other immortals.
+- **Season 4:** new adventures for Duncan and other immortals.
+- **Season 5:** new adventures for Duncan and other immortals.
+- **Season 6:** new adventures for Duncan and other immortals.

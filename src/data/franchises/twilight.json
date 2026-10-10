@@ -1,0 +1,132 @@
+{
+  "id": "twilight",
+  "name": {
+    "es": "Crepúsculo",
+    "en": "Twilight"
+  },
+  "description": {
+    "es": "Bella, Edward y Jacob: las cinco películas de la saga.",
+    "en": "Bella, Edward and Jacob: the saga's five films."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas, en orden.",
+        "en": "The five films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "twilight-2008",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "bella-swan",
+        "edward-cullen"
+      ]
+    },
+    {
+      "titleId": "the-twilight-saga-new-moon-2009",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "bella-swan",
+        "jacob-black"
+      ]
+    },
+    {
+      "titleId": "the-twilight-saga-eclipse-2010",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "bella-swan",
+        "edward-cullen",
+        "jacob-black"
+      ]
+    },
+    {
+      "titleId": "the-twilight-saga-breaking-dawn-part-1-2011",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "bella-swan",
+        "edward-cullen"
+      ]
+    },
+    {
+      "titleId": "the-twilight-saga-breaking-dawn-part-2-2012",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 50,
+      "characters": [
+        "bella-swan",
+        "edward-cullen"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "bella-swan",
+        "name": {
+          "es": "Bella Swan",
+          "en": "Bella Swan"
+        }
+      },
+      {
+        "id": "edward-cullen",
+        "name": {
+          "es": "Edward Cullen",
+          "en": "Edward Cullen"
+        }
+      },
+      {
+        "id": "jacob-black",
+        "name": {
+          "es": "Jacob Black",
+          "en": "Jacob Black"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

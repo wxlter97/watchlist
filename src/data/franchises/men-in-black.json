@@ -1,0 +1,132 @@
+{
+  "id": "men-in-black",
+  "name": {
+    "es": "Hombres de negro",
+    "en": "Men in Black"
+  },
+  "description": {
+    "es": "Agentes que vigilan a los extraterrestres en la Tierra: las cuatro películas.",
+    "en": "Agents who police aliens on Earth: the four films."
+  },
+  "accentColor": "#1E293B",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "men-in-black-1997",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "agent-j",
+        "agent-k"
+      ]
+    },
+    {
+      "titleId": "men-in-black-ii-2002",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "agent-j",
+        "agent-k"
+      ]
+    },
+    {
+      "titleId": "men-in-black-3-2012",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "agent-j",
+        "agent-k"
+      ]
+    },
+    {
+      "titleId": "men-in-black-international-2019",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Spin-off con otro equipo de agentes",
+        "en": "Spin-off with a different team of agents"
+      },
+      "characters": [
+        "agent-m",
+        "agent-h"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "agent-j",
+        "name": {
+          "es": "Agente J",
+          "en": "Agent J"
+        }
+      },
+      {
+        "id": "agent-k",
+        "name": {
+          "es": "Agente K",
+          "en": "Agent K"
+        }
+      },
+      {
+        "id": "agent-m",
+        "name": {
+          "es": "Agente M",
+          "en": "Agent M"
+        }
+      },
+      {
+        "id": "agent-h",
+        "name": {
+          "es": "Agente H",
+          "en": "Agent H"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

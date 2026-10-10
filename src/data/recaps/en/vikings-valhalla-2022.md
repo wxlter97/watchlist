@@ -1,0 +1,3 @@
+- **Season 1:** Leif Eriksson, Freydis and Harald Hardrada face each other in a new era of conflict.
+- **Season 2:** the protagonists set off on new paths.
+- **Season 3:** the story reaches its end.

@@ -1,0 +1,7 @@
+- **Temporada 1:** Buffy llega a Sunnydale, descubre que está sobre una Boca del Infierno y se enfrenta al Maestro.
+- **Temporada 2:** llegan Spike y Drusilla, y Ángel se transforma en Angelus.
+- **Temporada 3:** Buffy y sus amigos preparan su graduación mientras Faith y el alcalde Wilkins se convierten en amenazas.
+- **Temporada 4:** Buffy entra a la universidad y descubre una organización militar secreta, la Iniciativa.
+- **Temporada 5:** aparece Dawn, la hermana de Buffy, y la amenaza de Glory.
+- **Temporada 6:** Buffy regresa de la muerte y Willow se vuelve adicta a la magia.
+- **Temporada 7:** el Primer Mal enfrenta a Buffy y a las cazadoras en la batalla final.

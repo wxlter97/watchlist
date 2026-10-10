@@ -1,0 +1,11 @@
+- **Season 1:** Mulder and Scully start investigating inexplicable cases.
+- **Season 2:** the mystery of the cases deepens.
+- **Season 3:** the conspiracy broadens.
+- **Season 4:** the cases mix mystery and conspiracy.
+- **Season 5:** the cases lead into the film.
+- **Season 6:** the series continues after the film.
+- **Season 7:** the story moves forward with cases and mythology.
+- **Season 8:** Mulder is absent and a new agent joins.
+- **Season 9:** the series closes its original run.
+- **Season 10:** Mulder and Scully return after years.
+- **Season 11:** the story resumes with new cases.
