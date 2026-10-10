@@ -1,0 +1,2 @@
+- Un grupo de ninjas ataca Konoha y amenaza con otra guerra.
+- Sasuke aparece ante Naruto para evitarlo.

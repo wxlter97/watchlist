@@ -1,0 +1,302 @@
+{
+  "id": "naruto",
+  "name": {
+    "es": "Naruto",
+    "en": "Naruto"
+  },
+  "description": {
+    "es": "Naruto Uzumaki y su camino a Hokage: Naruto, Shippūden, Boruto y las películas.",
+    "en": "Naruto Uzumaki's path to Hokage: Naruto, Shippūden, Boruto and the films."
+  },
+  "accentColor": "#C2410C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Historia principal",
+        "en": "Main story"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "El anime y las dos películas que forman parte de la historia: The Last y Boruto.",
+        "en": "The anime and the two films that are part of the story: The Last and Boruto."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas independientes",
+        "en": "Standalone films"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Aventuras sueltas que no cambian la historia principal.",
+        "en": "Standalone adventures that do not change the main story."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "naruto-2002",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "naruto-uzumaki",
+        "sasuke-uchiha",
+        "sakura-haruno",
+        "kakashi-hatake"
+      ]
+    },
+    {
+      "titleId": "naruto-shippuden-2007",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "naruto-uzumaki",
+        "sasuke-uchiha",
+        "sakura-haruno",
+        "kakashi-hatake"
+      ]
+    },
+    {
+      "titleId": "the-last-naruto-the-movie-2014",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Dos años después de la guerra",
+        "en": "Two years after the war"
+      },
+      "characters": [
+        "naruto-uzumaki",
+        "hinata-hyuga"
+      ]
+    },
+    {
+      "titleId": "boruto-naruto-the-movie-2015",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "La nueva generación",
+        "en": "The new generation"
+      },
+      "characters": [
+        "naruto-uzumaki",
+        "boruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "boruto-naruto-next-generations-2017",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "boruto-uzumaki",
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "naruto-the-movie-ninja-clash-in-the-land-of-snow-2004",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 10,
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "naruto-the-movie-legend-of-the-stone-of-gelel-2005",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "naruto-the-movie-guardians-of-the-crescent-moon-kingdom-2006",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 30,
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "naruto-shippuden-the-movie-2007",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "naruto-shippuden-the-movie-bonds-2008",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 50,
+      "characters": [
+        "naruto-uzumaki",
+        "sasuke-uchiha"
+      ]
+    },
+    {
+      "titleId": "naruto-shippuden-the-movie-the-will-of-fire-2009",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 60,
+      "characters": [
+        "naruto-uzumaki",
+        "kakashi-hatake"
+      ]
+    },
+    {
+      "titleId": "naruto-shippuden-the-movie-the-lost-tower-2010",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 70,
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "naruto-shippuden-the-movie-blood-prison-2011",
+      "continuityId": "films",
+      "importance": "skippable",
+      "chronoOrder": 80,
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    },
+    {
+      "titleId": "road-to-ninja-naruto-the-movie-2012",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 90,
+      "chronoNote": {
+        "es": "Un mundo alternativo",
+        "en": "An alternate world"
+      },
+      "characters": [
+        "naruto-uzumaki"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    },
+    {
+      "id": "core",
+      "type": "curated",
+      "name": {
+        "es": "Solo la historia principal",
+        "en": "Main story only"
+      },
+      "description": {
+        "es": "Naruto, Shippūden, The Last, la película de Boruto y la serie Boruto.",
+        "en": "Naruto, Shippūden, The Last, the Boruto film and the Boruto series."
+      },
+      "titleIds": [
+        "naruto-2002",
+        "naruto-shippuden-2007",
+        "the-last-naruto-the-movie-2014",
+        "boruto-naruto-the-movie-2015",
+        "boruto-naruto-next-generations-2017"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "boruto",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Boruto",
+        "en": "Get ready for Boruto"
+      },
+      "description": {
+        "es": "Con Naruto, Shippūden y The Last entiendes a la nueva generación.",
+        "en": "With Naruto, Shippūden and The Last you understand the new generation."
+      },
+      "titleIds": [
+        "naruto-2002",
+        "naruto-shippuden-2007",
+        "the-last-naruto-the-movie-2014"
+      ],
+      "targetTitleId": "boruto-naruto-next-generations-2017"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "naruto-uzumaki",
+        "name": {
+          "es": "Naruto Uzumaki",
+          "en": "Naruto Uzumaki"
+        }
+      },
+      {
+        "id": "sasuke-uchiha",
+        "name": {
+          "es": "Sasuke Uchiha",
+          "en": "Sasuke Uchiha"
+        }
+      },
+      {
+        "id": "sakura-haruno",
+        "name": {
+          "es": "Sakura Haruno",
+          "en": "Sakura Haruno"
+        }
+      },
+      {
+        "id": "kakashi-hatake",
+        "name": {
+          "es": "Kakashi Hatake",
+          "en": "Kakashi Hatake"
+        }
+      },
+      {
+        "id": "hinata-hyuga",
+        "name": {
+          "es": "Hinata Hyūga",
+          "en": "Hinata Hyuga"
+        }
+      },
+      {
+        "id": "boruto-uzumaki",
+        "name": {
+          "es": "Boruto Uzumaki",
+          "en": "Boruto Uzumaki"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,2 @@
+- Naruto es capturado por un intento de asesinato al Raikage y encerrado en la Prisión de Sangre.
+- Descubre que el carcelero roba el poder de los presos.

@@ -1,0 +1,2 @@
+- A demon that nearly destroyed the world is revived.
+- Naruto must guard Shion, the only one able to seal it.

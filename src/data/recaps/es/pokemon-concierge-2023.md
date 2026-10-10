@@ -1,0 +1,1 @@
+- Haru es la nueva conserje del Pokémon Resort, un lugar para que los Pokémon descansen.

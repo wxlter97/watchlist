@@ -1,0 +1,2 @@
+- Naruto protege a una actriz que filma en la Tierra de la Nieve.
+- Ella huye y el equipo la busca, pero tres ninjas lo esperan.

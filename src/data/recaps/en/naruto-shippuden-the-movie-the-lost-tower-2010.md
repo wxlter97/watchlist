@@ -1,0 +1,1 @@
+- Naruto chases a rogue ninja to ruins and is sent 20 years into the past.

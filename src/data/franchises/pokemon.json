@@ -1,0 +1,191 @@
+{
+  "id": "pokemon",
+  "name": {
+    "es": "Pokémon",
+    "en": "Pokémon"
+  },
+  "description": {
+    "es": "Ash y Pikachu, la nueva etapa de Horizons, las películas y la adaptación con actores reales.",
+    "en": "Ash and Pikachu, the new Horizons era, the films and the live-action adaptation."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "ash",
+      "name": {
+        "es": "Ash y Pikachu",
+        "en": "Ash and Pikachu"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La serie original, de 1997 a 2023.",
+        "en": "The original series, from 1997 to 2023."
+      }
+    },
+    {
+      "id": "horizons",
+      "name": {
+        "es": "Pokémon Horizons",
+        "en": "Pokémon Horizons"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La nueva serie, con Liko y Roy.",
+        "en": "The new series, with Liko and Roy."
+      }
+    },
+    {
+      "id": "films",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Películas con historias propias; algunas se centran en Ash.",
+        "en": "Films with their own stories; some center on Ash."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "extras",
+      "name": {
+        "es": "Otras adaptaciones",
+        "en": "Other adaptations"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Detective Pikachu y Pokémon Concierge, aparte de la serie.",
+        "en": "Detective Pikachu and Pokémon Concierge, apart from the series."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "pokemon-1997",
+      "continuityId": "ash",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "ash-ketchum",
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-horizons-2023",
+      "continuityId": "horizons",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-the-first-movie-1998",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "ash-ketchum",
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-the-movie-2000-1999",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "ash-ketchum",
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-3-the-movie-2000",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "ash-ketchum",
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-the-movie-i-choose-you-2017",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Cuenta el inicio de Ash en otra versión",
+        "en": "Retells Ash's start in another version"
+      },
+      "characters": [
+        "ash-ketchum",
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-detective-pikachu-2019",
+      "continuityId": "extras",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": [
+        "pikachu"
+      ]
+    },
+    {
+      "titleId": "pokemon-concierge-2023",
+      "continuityId": "extras",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "ash-ketchum",
+        "name": {
+          "es": "Ash Ketchum",
+          "en": "Ash Ketchum"
+        }
+      },
+      {
+        "id": "pikachu",
+        "name": {
+          "es": "Pikachu",
+          "en": "Pikachu"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,2 @@
+- Boruto Uzumaki, son of the Seventh Hokage, enrolls in the Ninja Academy.
+- A series of mysterious events kicks off his story.

@@ -1,0 +1,2 @@
+- Ash wakes up late and reaches Professor Oak's lab when the starters are already taken.
+- Oak gives him Pikachu, an Electric-type.

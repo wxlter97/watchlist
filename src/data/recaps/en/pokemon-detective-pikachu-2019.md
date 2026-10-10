@@ -1,0 +1,1 @@
+- A boy comes across an intelligent Pokémon who seeks to be a detective.

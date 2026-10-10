@@ -1,0 +1,3 @@
+- Naruto, un ninja revoltoso de la Aldea de la Hoja, busca reconocimiento y sueña con ser Hokage.
+- Forma el Equipo 7 con Sasuke y Sakura bajo Kakashi.
+- La serie termina con la partida de Sasuke de la aldea.

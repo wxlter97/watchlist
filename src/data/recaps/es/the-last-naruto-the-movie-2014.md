@@ -1,0 +1,2 @@
+- Dos años después de la guerra, la luna que selló la Estatua Gedo comienza a caer.
+- Toneri Otsutsuki intenta secuestrar a Hinata Hyūga.

@@ -1,0 +1,2 @@
+- Ash travels with Pikachu and his friends through different regions.
+- In each stage he meets new friends and faces new challenges on his quest to become a Pokémon Master.

@@ -1,0 +1,2 @@
+- Ninjas with bloodline limits begin disappearing and blame points to the Fire Nation.
+- By Tsunade's order, Kakashi is sacrificed to prevent war.

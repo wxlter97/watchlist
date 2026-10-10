@@ -1,0 +1,2 @@
+- Naruto returns to the village after two and a half years and faces the Akatsuki organization.
+- The story leads to the Fourth Great Ninja War.

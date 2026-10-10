@@ -1,0 +1,2 @@
+- Lawrence III intenta capturar a Lugia y rompe el equilibrio de la naturaleza.
+- Ash y sus amigos deben salvar el mundo.

@@ -1,0 +1,1 @@
+- Haru is the new concierge at Pokémon Resort, a getaway for Pokémon to relax.

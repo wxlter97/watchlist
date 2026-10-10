@@ -1,0 +1,2 @@
+- Molly Hale crea un mundo de sueños con los Unown y Entei, a quien cree su padre.
+- Entei secuestra a la madre de Ash, que va a buscarla.

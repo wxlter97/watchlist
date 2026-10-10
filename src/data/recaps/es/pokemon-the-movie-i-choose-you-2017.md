@@ -1,0 +1,2 @@
+- Ash se levanta tarde y llega al laboratorio del profesor Oak cuando los iniciales ya fueron tomados.
+- Oak le da a Pikachu, un Pokémon eléctrico.

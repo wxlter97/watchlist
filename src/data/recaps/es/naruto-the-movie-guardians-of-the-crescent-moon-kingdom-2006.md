@@ -1,0 +1,1 @@
+- Naruto, Kakashi, Sakura y Lee protegen al príncipe Michiru, de la Tierra de la Luna, en su viaje.

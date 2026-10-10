@@ -1,0 +1,2 @@
+- Naruto is captured over an attempted assassination of the Raikage and imprisoned in Blood Prison.
+- He discovers the warden steals prisoners' power.
