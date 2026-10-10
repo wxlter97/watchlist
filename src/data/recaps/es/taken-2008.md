@@ -1,0 +1,2 @@
+- Bryan Mills, ex agente, viaja a París cuando su hija es secuestrada.
+- La rastrea por la red de trata.

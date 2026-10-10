@@ -1,0 +1,2 @@
+- Bryan Mills, joven ex boina verde, afronta una tragedia personal.
+- Es atraído a una carrera como agente de la CIA.

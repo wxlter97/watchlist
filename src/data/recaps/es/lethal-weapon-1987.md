@@ -1,0 +1,2 @@
+- Roger Murtaugh, a punto de jubilarse, es emparejado con Martin Riggs, un policía inestable.
+- Investigan un caso de drogas.

@@ -1,0 +1,2 @@
+- Roger Murtaugh, close to retiring, is partnered with Martin Riggs, an unstable cop.
+- They investigate a drug case.

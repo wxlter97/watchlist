@@ -1,0 +1,103 @@
+{
+  "id": "the-expendables",
+  "name": {
+    "es": "Los indestructibles",
+    "en": "The Expendables"
+  },
+  "description": {
+    "es": "Mercenarios de las viejas estrellas del cine de acción: las cuatro películas.",
+    "en": "Mercenaries played by action cinema's veteran stars: the four films."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-expendables-2010",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "barney-ross"
+      ]
+    },
+    {
+      "titleId": "the-expendables-2-2012",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "barney-ross"
+      ]
+    },
+    {
+      "titleId": "the-expendables-3-2014",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "barney-ross"
+      ]
+    },
+    {
+      "titleId": "expend4bles-2023",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": [
+        "barney-ross"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "barney-ross",
+        "name": {
+          "es": "Barney Ross",
+          "en": "Barney Ross"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

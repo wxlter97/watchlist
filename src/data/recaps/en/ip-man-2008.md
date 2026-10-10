@@ -1,0 +1,2 @@
+- Ip Man, a Wing Chun master in Foshan, lives in respect and humility.
+- The Japanese invasion changes everything.

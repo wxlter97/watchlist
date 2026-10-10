@@ -1,0 +1,2 @@
+- Mike Lowrey y Marcus Burnett deben recuperar heroína robada de la comisaría en pocos días.
+- Una testigo solo confiará en uno de ellos.

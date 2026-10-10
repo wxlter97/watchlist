@@ -1,0 +1,2 @@
+- Bryan Mills, a former agent, goes to Paris when his daughter is kidnapped.
+- He tracks her through a trafficking ring.

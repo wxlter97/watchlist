@@ -1,0 +1,2 @@
+- Rambo is sent to Vietnam to find POWs.
+- The mission is complicated by a betrayal.

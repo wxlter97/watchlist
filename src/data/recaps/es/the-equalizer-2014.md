@@ -1,0 +1,1 @@
+- Robert McCall, un hombre tranquilo, decide ayudar a una joven en manos de la mafia rusa.

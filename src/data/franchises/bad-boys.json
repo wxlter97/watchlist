@@ -1,0 +1,114 @@
+{
+  "id": "bad-boys",
+  "name": {
+    "es": "Dos policías rebeldes",
+    "en": "Bad Boys"
+  },
+  "description": {
+    "es": "Mike y Marcus, policías de Miami: las cuatro películas.",
+    "en": "Mike and Marcus, Miami cops: the four films."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "bad-boys-1995",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "mike-lowrey",
+        "marcus-burnett"
+      ]
+    },
+    {
+      "titleId": "bad-boys-ii-2003",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "mike-lowrey",
+        "marcus-burnett"
+      ]
+    },
+    {
+      "titleId": "bad-boys-for-life-2020",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "mike-lowrey",
+        "marcus-burnett"
+      ]
+    },
+    {
+      "titleId": "bad-boys-ride-or-die-2024",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "mike-lowrey",
+        "marcus-burnett"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "mike-lowrey",
+        "name": {
+          "es": "Mike Lowrey",
+          "en": "Mike Lowrey"
+        }
+      },
+      {
+        "id": "marcus-burnett",
+        "name": {
+          "es": "Marcus Burnett",
+          "en": "Marcus Burnett"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

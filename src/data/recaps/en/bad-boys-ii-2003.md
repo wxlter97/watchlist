@@ -1,0 +1,1 @@
+- Mike and Marcus investigate an ecstasy ring and face a Cuban drug lord.

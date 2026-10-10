@@ -1,0 +1,1 @@
+- Su capitán fallecido es incriminado y la pareja intenta limpiar su nombre, pero terminan huyendo.

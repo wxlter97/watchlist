@@ -1,0 +1,112 @@
+{
+  "id": "rambo",
+  "name": {
+    "es": "Rambo",
+    "en": "Rambo"
+  },
+  "description": {
+    "es": "John Rambo, de veterano atormentado a héroe de acción: las cinco películas.",
+    "en": "John Rambo, from tormented veteran to action hero: the five films."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas, en orden.",
+        "en": "The five films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "first-blood-1982",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "john-rambo"
+      ]
+    },
+    {
+      "titleId": "rambo-first-blood-part-ii-1985",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "john-rambo"
+      ]
+    },
+    {
+      "titleId": "rambo-iii-1988",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "john-rambo"
+      ]
+    },
+    {
+      "titleId": "rambo-2008",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "john-rambo"
+      ]
+    },
+    {
+      "titleId": "rambo-last-blood-2019",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "john-rambo"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "john-rambo",
+        "name": {
+          "es": "John Rambo",
+          "en": "John Rambo"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

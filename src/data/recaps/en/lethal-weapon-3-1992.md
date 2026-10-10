@@ -1,0 +1,1 @@
+- The pair investigate a former cop selling weapons.

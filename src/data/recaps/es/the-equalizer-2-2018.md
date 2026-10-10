@@ -1,0 +1,1 @@
+- McCall investiga el asesinato de una antigua compañera y descubre una conspiración.

@@ -1,0 +1,1 @@
+- Tras la muerte de su esposa, Ip Man viaja a San Francisco para aliviar tensiones con los maestros locales y su alumno Bruce Lee.

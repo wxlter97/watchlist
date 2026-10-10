@@ -1,0 +1,2 @@
+- John Rambo, un veterano de Vietnam, llega a un pueblo y el sheriff lo hostiga.
+- Rambo huye a las montañas y se enfrenta a la policía.

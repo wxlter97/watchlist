@@ -1,0 +1,1 @@
+- Barney and his team face Conrad Stonebanks, the group's co-founder.

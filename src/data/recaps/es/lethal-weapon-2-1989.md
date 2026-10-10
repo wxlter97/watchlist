@@ -1,0 +1,1 @@
+- Riggs y Murtaugh protegen a un testigo y descubren una red de traficantes con inmunidad diplomática.

@@ -1,0 +1,2 @@
+- Maverick y su copiloto Goose entran a la academia de pilotos Top Gun.
+- Compite con Iceman y vive un romance con una instructora.

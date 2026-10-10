@@ -1,0 +1,1 @@
+- Riggs and Murtaugh protect a witness and uncover a smuggling ring with diplomatic immunity.

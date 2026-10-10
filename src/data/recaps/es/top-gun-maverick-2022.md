@@ -1,0 +1,2 @@
+- Maverick regresa a Top Gun para entrenar a pilotos jóvenes, entre ellos el hijo de Goose.
+- Deben cumplir una misión extremadamente peligrosa.

@@ -1,0 +1,1 @@
+- Con la edad y problemas personales encima, Riggs y Murtaugh enfrentan a un jefe criminal chino que quiere sacar a su hermano de prisión.

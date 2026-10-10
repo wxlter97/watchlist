@@ -1,0 +1,2 @@
+- Jack Reacher, a former military cop, travels the US with no phone and the bare essentials.
+- Each season pulls him into a new case.

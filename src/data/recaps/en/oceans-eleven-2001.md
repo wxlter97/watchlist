@@ -1,0 +1,2 @@
+- Danny Ocean gathers eleven thieves to rob three Las Vegas casinos.
+- The plan also aims to win back his ex-wife.

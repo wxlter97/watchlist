@@ -1,0 +1,1 @@
+- A sniper kills five people and asks that Jack Reacher be called.

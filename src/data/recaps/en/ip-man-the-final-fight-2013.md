@@ -1,0 +1,1 @@
+- Ip Man reluctantly accepts challenges from rival schools and is drawn into the world of the Triads.

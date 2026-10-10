@@ -1,0 +1,1 @@
+- Un francotirador mata a cinco personas y pide que llamen a Jack Reacher.

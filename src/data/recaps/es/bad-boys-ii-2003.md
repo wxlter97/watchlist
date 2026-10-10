@@ -1,0 +1,1 @@
+- Mike y Marcus investigan una red de éxtasis y se enfrentan a un narco cubano.
