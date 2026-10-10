@@ -1,0 +1,2 @@
+- Goku y sus amigos quedan convertidos en versiones diminutas de sí mismos.
+- Viajan al Reino Demoníaco para descubrir el misterio.

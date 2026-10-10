@@ -1,0 +1,2 @@
+- Garlic Jr. reúne las Esferas del Dragón para pedir la inmortalidad y vengar a su padre; secuestra a Gohan.
+- Goku, Kami, Piccolo y Krilin se unen para rescatarlo y evitar que el mundo sea absorbido por la zona muerta.

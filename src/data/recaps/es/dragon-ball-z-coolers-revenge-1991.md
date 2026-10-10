@@ -1,0 +1,2 @@
+- Tras vencer a Freezer, Goku acampa con Gohan y Krilin hasta que Cooler, hermano de Freezer, envía a tres secuaces.
+- Cooler se transforma en su cuarta forma y se impone, hasta que Goku se vuelve Super Saiyajin.

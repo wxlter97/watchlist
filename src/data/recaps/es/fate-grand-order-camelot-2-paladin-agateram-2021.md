@@ -1,0 +1,1 @@
+- Segunda parte de la adaptación de la Sexta Singularidad, «Reino divino de la Mesa Redonda: Camelot».

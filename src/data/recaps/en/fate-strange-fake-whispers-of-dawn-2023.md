@@ -1,0 +1,1 @@
+- A false Holy Grail War pits Masters and Servants against each other for control of the Grail.

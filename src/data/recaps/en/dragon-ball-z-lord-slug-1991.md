@@ -1,0 +1,1 @@
+- A Super Namekian, Slug, comes to invade Earth.

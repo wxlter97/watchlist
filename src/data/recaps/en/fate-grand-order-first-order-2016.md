@@ -1,0 +1,2 @@
+- The Chaldea organization monitors humanity's future and detects an anomaly.
+- Ritsuka and Mash travel to a Singularity to fix it.

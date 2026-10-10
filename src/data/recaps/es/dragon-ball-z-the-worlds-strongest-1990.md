@@ -1,0 +1,1 @@
+- El Dr. Kochin usa las Esferas para resucitar a su mentor, el Dr. Wheelo, y dominar el mundo.

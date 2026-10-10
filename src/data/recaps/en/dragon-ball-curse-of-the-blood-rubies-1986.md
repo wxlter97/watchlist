@@ -1,0 +1,1 @@
+- Goku helps a young girl stop a king from using the Dragon Balls to end his endless hunger.

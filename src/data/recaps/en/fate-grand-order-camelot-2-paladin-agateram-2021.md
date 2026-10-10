@@ -1,0 +1,1 @@
+- The second part of the adaptation of the Sixth Singularity, 'Divine Realm of the Round Table: Camelot'.

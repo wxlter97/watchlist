@@ -1,0 +1,2 @@
+- Bardock, a low-ranking Saiyan soldier, is given the power to see the future.
+- He tries to prevent his people's destruction at Frieza's hands.

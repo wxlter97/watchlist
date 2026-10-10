@@ -1,0 +1,2 @@
+- Trece años después de que los androides empezaran su masacre, Gohan es el único que sigue luchando.
+- Trunks aprende de él y mira al futuro.

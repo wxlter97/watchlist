@@ -1,0 +1,3 @@
+- An accidental wish by Emperor Pilaf turns Goku into a child again.
+- With Trunks and his granddaughter Pan he heads into space to find the Black Star Dragon Balls.
+- If they are not collected within a year, Earth will be destroyed.

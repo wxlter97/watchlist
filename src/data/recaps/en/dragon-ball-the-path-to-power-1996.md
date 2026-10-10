@@ -1,0 +1,1 @@
+- It retells Goku, Bulma and Master Roshi's origin with a different version of their meeting.

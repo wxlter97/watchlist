@@ -1,0 +1,1 @@
+- Goku ayuda a una joven a evitar que un rey consiga las Esferas del Dragón para saciar su hambre.

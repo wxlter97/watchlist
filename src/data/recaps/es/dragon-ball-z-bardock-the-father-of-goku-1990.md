@@ -1,0 +1,2 @@
+- Bardock, un soldado saiyajin de bajo rango, recibe el poder de ver el futuro.
+- Intenta evitar la destrucción de su pueblo a manos de Freezer.

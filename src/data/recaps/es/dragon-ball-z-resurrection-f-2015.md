@@ -1,0 +1,2 @@
+- Dos restos del ejército de Freezer buscan las Esferas del Dragón para resucitarlo.
+- Goku y Vegeta lo enfrentan.

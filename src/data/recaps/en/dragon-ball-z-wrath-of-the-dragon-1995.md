@@ -1,0 +1,3 @@
+- The Z fighters open a music box with the Dragon Balls.
+- Inside is Tapion, who sealed himself with the monster Hildegarn.
+- Goku must perfect a new technique to defeat it.

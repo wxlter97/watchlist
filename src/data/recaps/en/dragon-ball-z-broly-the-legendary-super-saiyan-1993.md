@@ -1,0 +1,2 @@
+- Paragus persuades Vegeta to rule a new planet; King Kai warns Goku of the South Galaxy's destruction.
+- Broly, the Legendary Super Saiyan, appears.

@@ -1,0 +1,2 @@
+- Bills despierta en busca de un rival digno.
+- Goku y sus amigos enfrentan una épica batalla para impedir que destruya la Tierra.

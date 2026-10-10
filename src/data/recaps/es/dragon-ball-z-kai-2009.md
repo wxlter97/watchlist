@@ -1,0 +1,1 @@
+- Reedición de Dragon Ball Z con animación limpiada y menos relleno.

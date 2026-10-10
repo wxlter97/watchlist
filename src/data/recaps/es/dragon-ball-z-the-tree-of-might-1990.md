@@ -1,0 +1,1 @@
+- Goku y sus amigos deben evitar que piratas espaciales consuman el fruto del Árbol del Poder.

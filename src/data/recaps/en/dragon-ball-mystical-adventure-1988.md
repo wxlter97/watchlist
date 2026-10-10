@@ -1,0 +1,2 @@
+- Roshi enters Goku and Krillin in a competition hosted by Emperor Chiaotzu.
+- A member of the royal household schemes to use the Dragon Balls to extort money and power.

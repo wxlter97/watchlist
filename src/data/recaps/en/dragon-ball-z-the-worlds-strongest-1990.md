@@ -1,0 +1,1 @@
+- Dr. Kochin uses the Dragon Balls to resurrect his mentor, Dr. Wheelo, and take over the world.

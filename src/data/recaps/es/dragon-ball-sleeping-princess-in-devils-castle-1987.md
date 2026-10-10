@@ -1,0 +1,1 @@
+- Goku y Krilin deben rescatar a una princesa dormida de un castillo demoníaco.

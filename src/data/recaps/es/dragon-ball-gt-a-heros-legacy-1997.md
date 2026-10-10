@@ -1,0 +1,2 @@
+- Goku Jr., tataranieto de Goku, no es un gran luchador pero tiene buen corazón.
+- Cuando su abuela Pan enferma, busca las Esferas del Dragón para pedir un deseo.

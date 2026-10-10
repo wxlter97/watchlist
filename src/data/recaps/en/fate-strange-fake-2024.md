@@ -1,0 +1,1 @@
+- A false Holy Grail War pits Masters and Servants against each other in a US city.

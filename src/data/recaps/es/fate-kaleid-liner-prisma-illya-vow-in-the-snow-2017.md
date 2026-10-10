@@ -1,0 +1,3 @@
+- Shirou Emiya trata a Miyu como a una hermana menor, pese a las advertencias de su padre adoptivo.
+- La familia Ainsworth la secuestra con la intención de sacrificarla.
+- Shirou debe rescatarla y decidir cómo afrontar el peligro de sus poderes.

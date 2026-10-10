@@ -1,0 +1,1 @@
+- Cooler resurrects himself as a robot and enslaves the people of New Namek.

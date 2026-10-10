@@ -1,0 +1,2 @@
+- Shirou Emiya enters the Holy Grail War as Saber's Master.
+- He faces other Masters and Servants in Fuyuki.

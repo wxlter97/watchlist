@@ -1,0 +1,2 @@
+- A young demon lets the evil cleansing machine overflow and becomes Janemba.
+- Goku and Vegeta fail separately and realize fusion is their only option.

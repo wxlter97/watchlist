@@ -1,0 +1,3 @@
+- Mr. Satán invita a todo el mundo a un torneo mundial de artes marciales.
+- Entre los participantes está Bojack, un villano antiguo que escapó de su prisión.
+- Goku está muerto, así que Gohan, Vegeta y Trunks deben detenerlo.

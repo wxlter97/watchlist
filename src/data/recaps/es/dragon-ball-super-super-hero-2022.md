@@ -1,0 +1,2 @@
+- El Ejército de la Red Ribbon, destruido hace años por Goku, es reformado por un grupo de científicos.
+- Crean nuevos androides y amenazan al mundo.

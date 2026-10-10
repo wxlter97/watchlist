@@ -1,0 +1,1 @@
+- Goku and Krillin must retrieve a sleeping princess from a devil's castle.

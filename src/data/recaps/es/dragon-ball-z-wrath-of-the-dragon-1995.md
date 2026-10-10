@@ -1,0 +1,3 @@
+- Los guerreros Z abren una caja de música con las Esferas del Dragón.
+- Dentro está Tapion, que se selló junto al monstruo Hildegarn.
+- Goku debe perfeccionar una nueva técnica para vencerlo.

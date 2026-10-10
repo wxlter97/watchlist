@@ -1,0 +1,2 @@
+- Jaga Bada invita a Mr. Satán a su isla para un duelo; Trunks, Goten y la androide 18 también acuden.
+- Los científicos de Jaga Bada han resucitado a Broly.
