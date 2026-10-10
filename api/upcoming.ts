@@ -25,7 +25,7 @@ export interface UpcomingItem {
 const DATA = join(process.cwd(), "src", "data");
 const read = <T,>(path: string): T => JSON.parse(readFileSync(join(DATA, path), "utf8")) as T;
 const DAYS = 365;
-const MAX_FRANCHISES = 80;
+const MAX_FRANCHISES = 200;
 
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const out: R[] = [];
