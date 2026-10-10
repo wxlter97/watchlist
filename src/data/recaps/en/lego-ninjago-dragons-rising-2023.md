@@ -1,0 +1,4 @@
+- **Temporada 1:** a new chapter for the series.
+- **Temporada 2:** the story continues.
+- **Temporada 3:** new challenges for the ninja.
+- **Temporada 4:** the group faces new threats.

@@ -1,0 +1,117 @@
+{
+  "id": "lego",
+  "name": {
+    "es": "LEGO: películas",
+    "en": "LEGO movies"
+  },
+  "description": {
+    "es": "El universo de las películas LEGO, de La Lego película a Ninjago.",
+    "en": "The LEGO movie universe, from The Lego Movie to Ninjago."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "movies",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas animadas de LEGO.",
+        "en": "The four animated LEGO films."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-lego-movie-2014",
+      "continuityId": "movies",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "emmet",
+        "batman"
+      ]
+    },
+    {
+      "titleId": "the-lego-batman-movie-2017",
+      "continuityId": "movies",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Spin-off del mismo universo",
+        "en": "Spin-off in the same universe"
+      },
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "the-lego-ninjago-movie-2017",
+      "continuityId": "movies",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Independiente de la serie de TV",
+        "en": "Independent from the TV series"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "the-lego-movie-2-the-second-part-2019",
+      "continuityId": "movies",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "emmet"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "emmet",
+        "name": {
+          "es": "Emmet",
+          "en": "Emmet"
+        }
+      },
+      {
+        "id": "batman",
+        "name": {
+          "es": "Batman",
+          "en": "Batman"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

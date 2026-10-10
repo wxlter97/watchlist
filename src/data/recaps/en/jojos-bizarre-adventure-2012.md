@@ -1,0 +1,6 @@
+- **Temporada 1:** Jonathan and Joseph Joestar face Dio Brando and the Pillar Men in parts 1 and 2.
+- **Temporada 2:** Jotaro Kujo travels to Egypt with his allies to defeat Dio.
+- **Temporada 3:** Josuke Higashikata and his friends investigate a serial killer in the town of Morioh.
+- **Temporada 4:** Giorno Giovanna joins a gang to infiltrate the Italian mafia.
+- **Temporada 5:** Jolyne Cujoh is imprisoned and uncovers a conspiracy.
+- **Temporada 6:** A horse race across the United States, set in an alternate universe.

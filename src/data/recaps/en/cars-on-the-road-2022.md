@@ -1,0 +1,1 @@
+- **Temporada 1:** Lightning McQueen and Mater take a road trip in episodic adventures.

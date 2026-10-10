@@ -1,0 +1,2 @@
+- **Temporada 1:** Tylor Tuskmon joins Monsters, Inc. after the switch to laughter energy.
+- **Temporada 2:** the story at Monsters, Inc. continues.

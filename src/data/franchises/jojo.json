@@ -1,0 +1,275 @@
+{
+  "id": "jojo",
+  "name": {
+    "es": "JoJo's Bizarre Adventure",
+    "en": "JoJo's Bizarre Adventure"
+  },
+  "description": {
+    "es": "La saga de la familia Joestar: el anime de David Production, la serie spin-off de Rohan y otras versiones.",
+    "en": "The Joestar family saga: the David Production anime, the Rohan spin-off series and other versions."
+  },
+  "accentColor": "#7E22CE",
+  "continuities": [
+    {
+      "id": "anime",
+      "name": {
+        "es": "Anime (2012)",
+        "en": "Anime (2012)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las seis temporadas del anime, de Phantom Blood a Steel Ball Run.",
+        "en": "The anime's six seasons, from Phantom Blood to Steel Ball Run."
+      }
+    },
+    {
+      "id": "spin-off",
+      "name": {
+        "es": "Spin-off: Rohan",
+        "en": "Spin-off: Rohan"
+      },
+      "canonLevel": "semicanon",
+      "description": {
+        "es": "Historias independientes de Rohan Kishibe.",
+        "en": "Stand-alone stories of Rohan Kishibe."
+      }
+    },
+    {
+      "id": "other",
+      "name": {
+        "es": "Otras versiones",
+        "en": "Other versions"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La OVA de 1993 y la película en acción real de 2017.",
+        "en": "The 1993 OVA and the 2017 live-action film."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "jojos-bizarre-adventure-2012",
+      "season": 1,
+      "continuityId": "anime",
+      "importance": "essential",
+      "characters": [
+        "jonathan-joestar",
+        "joseph-joestar"
+      ],
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Partes 1 y 2 (1880 y 1938)",
+        "en": "Parts 1 and 2 (1880s and 1938)"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-2012",
+      "season": 2,
+      "continuityId": "anime",
+      "importance": "essential",
+      "characters": [
+        "jotaro-kujo"
+      ],
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Parte 3 (1989)",
+        "en": "Part 3 (1989)"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-2012",
+      "season": 3,
+      "continuityId": "anime",
+      "importance": "essential",
+      "characters": [
+        "josuke-higashikata"
+      ],
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Parte 4 (1999)",
+        "en": "Part 4 (1999)"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-2012",
+      "season": 4,
+      "continuityId": "anime",
+      "importance": "essential",
+      "characters": [
+        "giorno-giovanna"
+      ],
+      "chronoOrder": 40,
+      "chronoNote": {
+        "es": "Parte 5 (2001)",
+        "en": "Part 5 (2001)"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-2012",
+      "season": 5,
+      "continuityId": "anime",
+      "importance": "recommended",
+      "characters": [
+        "jolyne-cujoh"
+      ],
+      "chronoOrder": 50,
+      "chronoNote": {
+        "es": "Parte 6 (2011)",
+        "en": "Part 6 (2011)"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-2012",
+      "season": 6,
+      "continuityId": "anime",
+      "importance": "recommended",
+      "characters": [
+        "johnny-joestar"
+      ],
+      "chronoNote": {
+        "es": "Parte 7, en un universo alternativo",
+        "en": "Part 7, in an alternate universe"
+      }
+    },
+    {
+      "titleId": "thus-spoke-kishibe-rohan-2020",
+      "season": 1,
+      "continuityId": "spin-off",
+      "importance": "optional",
+      "characters": [
+        "rohan-kishibe"
+      ],
+      "chronoNote": {
+        "es": "Spin-off con el personaje de la Parte 4",
+        "en": "Spin-off featuring the Part 4 character"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-1993",
+      "season": 1,
+      "continuityId": "other",
+      "importance": "optional",
+      "characters": [
+        "jotaro-kujo"
+      ],
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Adapta la Parte 3",
+        "en": "Adapts Part 3"
+      }
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-1993",
+      "season": 2,
+      "continuityId": "other",
+      "importance": "optional",
+      "characters": [
+        "jotaro-kujo"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "jojos-bizarre-adventure-diamond-is-unbreakable-chapter-1-2017",
+      "continuityId": "other",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Adapta la Parte 4",
+        "en": "Adapts Part 4"
+      },
+      "characters": [
+        "josuke-higashikata"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "jonathan-joestar",
+        "name": {
+          "es": "Jonathan Joestar",
+          "en": "Jonathan Joestar"
+        }
+      },
+      {
+        "id": "joseph-joestar",
+        "name": {
+          "es": "Joseph Joestar",
+          "en": "Joseph Joestar"
+        }
+      },
+      {
+        "id": "jotaro-kujo",
+        "name": {
+          "es": "Jotaro Kujo",
+          "en": "Jotaro Kujo"
+        }
+      },
+      {
+        "id": "josuke-higashikata",
+        "name": {
+          "es": "Josuke Higashikata",
+          "en": "Josuke Higashikata"
+        }
+      },
+      {
+        "id": "giorno-giovanna",
+        "name": {
+          "es": "Giorno Giovanna",
+          "en": "Giorno Giovanna"
+        }
+      },
+      {
+        "id": "jolyne-cujoh",
+        "name": {
+          "es": "Jolyne Cujoh",
+          "en": "Jolyne Cujoh"
+        }
+      },
+      {
+        "id": "johnny-joestar",
+        "name": {
+          "es": "Johnny Joestar",
+          "en": "Johnny Joestar"
+        }
+      },
+      {
+        "id": "rohan-kishibe",
+        "name": {
+          "es": "Rohan Kishibe",
+          "en": "Rohan Kishibe"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

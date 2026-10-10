@@ -1,0 +1,1 @@
+- Mei discovers she turns into a giant panda when she feels strong emotions.

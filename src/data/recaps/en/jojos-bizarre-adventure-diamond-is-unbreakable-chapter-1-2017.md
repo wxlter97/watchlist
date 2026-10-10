@@ -1,0 +1,1 @@
+- Josuke Higashikata, a high schooler, discovers his Stand and faces threats in Morioh.

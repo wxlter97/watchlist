@@ -1,0 +1,1 @@
+- Bob Parr, a former superhero, returns to action and drags his family along.

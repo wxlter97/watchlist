@@ -1,0 +1,555 @@
+{
+  "id": "pixar",
+  "name": {
+    "es": "Pixar",
+    "en": "Pixar"
+  },
+  "description": {
+    "es": "El catálogo de Pixar: las sagas (Toy Story, Monsters, Nemo, Los Increíbles, Cars, Inside Out) y las películas independientes.",
+    "en": "The Pixar catalog: the sagas (Toy Story, Monsters, Nemo, The Incredibles, Cars, Inside Out) and the standalone films."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "toy",
+      "name": {
+        "es": "Toy Story",
+        "en": "Toy Story"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas y Lightyear.",
+        "en": "The five films and Lightyear."
+      }
+    },
+    {
+      "id": "monsters",
+      "name": {
+        "es": "Monsters, Inc.",
+        "en": "Monsters, Inc."
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas y la serie Monsters at Work.",
+        "en": "The two films and the series Monsters at Work."
+      }
+    },
+    {
+      "id": "nemo",
+      "name": {
+        "es": "Buscando a Nemo",
+        "en": "Finding Nemo"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Nemo y Dory.",
+        "en": "Nemo and Dory."
+      }
+    },
+    {
+      "id": "incredibles",
+      "name": {
+        "es": "Los Increíbles",
+        "en": "The Incredibles"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La familia de superhéroes.",
+        "en": "The superhero family."
+      }
+    },
+    {
+      "id": "cars",
+      "name": {
+        "es": "Cars",
+        "en": "Cars"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas y la serie Cars on the Road.",
+        "en": "The three films and the series Cars on the Road."
+      }
+    },
+    {
+      "id": "inside",
+      "name": {
+        "es": "Intensamente",
+        "en": "Inside Out"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos películas y Dream Productions.",
+        "en": "The two films and Dream Productions."
+      }
+    },
+    {
+      "id": "standalone",
+      "name": {
+        "es": "Películas independientes",
+        "en": "Standalone films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Películas sin relación entre sí, y que se ven en cualquier orden.",
+        "en": "Films unrelated to each other, to be watched in any order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "toy-story-1995",
+      "continuityId": "toy",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-2-1999",
+      "continuityId": "toy",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-3-2010",
+      "continuityId": "toy",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-4-2019",
+      "continuityId": "toy",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "toy-story-5-2026",
+      "continuityId": "toy",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "woody",
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "lightyear-2022",
+      "continuityId": "toy",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "La película que vio Andy de niño, dentro del universo",
+        "en": "The film Andy saw as a child, within the universe"
+      },
+      "characters": [
+        "buzz-lightyear"
+      ]
+    },
+    {
+      "titleId": "monsters-inc-2001",
+      "continuityId": "monsters",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "sulley",
+        "mike-wazowski"
+      ]
+    },
+    {
+      "titleId": "monsters-university-2013",
+      "continuityId": "monsters",
+      "importance": "recommended",
+      "chronoOrder": 5,
+      "chronoNote": {
+        "es": "Precuela: los años de universidad",
+        "en": "Prequel: the college years"
+      },
+      "characters": [
+        "sulley",
+        "mike-wazowski"
+      ]
+    },
+    {
+      "titleId": "monsters-at-work-2021",
+      "season": 1,
+      "continuityId": "monsters",
+      "importance": "optional",
+      "characters": [
+        "tylor-tuskmon"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "monsters-at-work-2021",
+      "season": 2,
+      "continuityId": "monsters",
+      "importance": "optional",
+      "characters": [
+        "tylor-tuskmon"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "finding-nemo-2003",
+      "continuityId": "nemo",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "marlin",
+        "dory"
+      ]
+    },
+    {
+      "titleId": "finding-dory-2016",
+      "continuityId": "nemo",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "dory"
+      ]
+    },
+    {
+      "titleId": "the-incredibles-2004",
+      "continuityId": "incredibles",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "mr-incredible",
+        "elastigirl"
+      ]
+    },
+    {
+      "titleId": "incredibles-2-2018",
+      "continuityId": "incredibles",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Empieza justo donde acaba la primera",
+        "en": "Starts right where the first ends"
+      },
+      "characters": [
+        "mr-incredible",
+        "elastigirl"
+      ]
+    },
+    {
+      "titleId": "incredibles-3-2028",
+      "continuityId": "incredibles",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "mr-incredible",
+        "elastigirl"
+      ]
+    },
+    {
+      "titleId": "cars-2006",
+      "continuityId": "cars",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "lightning-mcqueen"
+      ]
+    },
+    {
+      "titleId": "cars-2-2011",
+      "continuityId": "cars",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "lightning-mcqueen",
+        "mater"
+      ]
+    },
+    {
+      "titleId": "cars-3-2017",
+      "continuityId": "cars",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "lightning-mcqueen"
+      ]
+    },
+    {
+      "titleId": "cars-on-the-road-2022",
+      "season": 1,
+      "continuityId": "cars",
+      "importance": "optional",
+      "characters": [
+        "lightning-mcqueen",
+        "mater"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "inside-out-2015",
+      "continuityId": "inside",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "joy",
+        "riley"
+      ]
+    },
+    {
+      "titleId": "inside-out-2-2024",
+      "continuityId": "inside",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "joy",
+        "riley"
+      ]
+    },
+    {
+      "titleId": "dream-productions-2024",
+      "season": 1,
+      "continuityId": "inside",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "a-bugs-life-1998",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "ratatouille-2007",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": []
+    },
+    {
+      "titleId": "wall-e-2008",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": []
+    },
+    {
+      "titleId": "up-2009",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": []
+    },
+    {
+      "titleId": "brave-2012",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": []
+    },
+    {
+      "titleId": "the-good-dinosaur-2015",
+      "continuityId": "standalone",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": []
+    },
+    {
+      "titleId": "coco-2017",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "characters": []
+    },
+    {
+      "titleId": "onward-2020",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 80,
+      "characters": []
+    },
+    {
+      "titleId": "soul-2020",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 90,
+      "characters": []
+    },
+    {
+      "titleId": "luca-2021",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 100,
+      "characters": []
+    },
+    {
+      "titleId": "turning-red-2022",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 110,
+      "characters": []
+    },
+    {
+      "titleId": "elemental-2023",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 120,
+      "characters": []
+    },
+    {
+      "titleId": "elio-2025",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 130,
+      "characters": []
+    },
+    {
+      "titleId": "hoppers-2026",
+      "continuityId": "standalone",
+      "importance": "recommended",
+      "chronoOrder": 140,
+      "characters": []
+    },
+    {
+      "titleId": "win-or-lose-2025",
+      "season": 1,
+      "continuityId": "standalone",
+      "importance": "optional",
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "woody",
+        "name": {
+          "es": "Woody",
+          "en": "Woody"
+        }
+      },
+      {
+        "id": "buzz-lightyear",
+        "name": {
+          "es": "Buzz Lightyear",
+          "en": "Buzz Lightyear"
+        }
+      },
+      {
+        "id": "sulley",
+        "name": {
+          "es": "Sulley",
+          "en": "Sulley"
+        }
+      },
+      {
+        "id": "mike-wazowski",
+        "name": {
+          "es": "Mike Wazowski",
+          "en": "Mike Wazowski"
+        }
+      },
+      {
+        "id": "tylor-tuskmon",
+        "name": {
+          "es": "Tylor Tuskmon",
+          "en": "Tylor Tuskmon"
+        }
+      },
+      {
+        "id": "marlin",
+        "name": {
+          "es": "Marlin",
+          "en": "Marlin"
+        }
+      },
+      {
+        "id": "dory",
+        "name": {
+          "es": "Dory",
+          "en": "Dory"
+        }
+      },
+      {
+        "id": "mr-incredible",
+        "name": {
+          "es": "Mr. Increíble",
+          "en": "Mr. Incredible"
+        }
+      },
+      {
+        "id": "elastigirl",
+        "name": {
+          "es": "Elastigirl",
+          "en": "Elastigirl"
+        }
+      },
+      {
+        "id": "lightning-mcqueen",
+        "name": {
+          "es": "Rayo McQueen",
+          "en": "Lightning McQueen"
+        }
+      },
+      {
+        "id": "mater",
+        "name": {
+          "es": "Mate",
+          "en": "Mater"
+        }
+      },
+      {
+        "id": "joy",
+        "name": {
+          "es": "Alegría",
+          "en": "Joy"
+        }
+      },
+      {
+        "id": "riley",
+        "name": {
+          "es": "Riley",
+          "en": "Riley"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,1 @@
+- Mike and Sulley, rivals at university, must team up for a tournament.

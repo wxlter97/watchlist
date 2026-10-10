@@ -1,0 +1,1 @@
+- The arrival of new emotions throws Riley's mind into disarray.

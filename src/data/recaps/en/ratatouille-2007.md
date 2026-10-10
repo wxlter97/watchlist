@@ -1,0 +1,1 @@
+- Remy, a rat with culinary talent, teams up with a young kitchen apprentice.

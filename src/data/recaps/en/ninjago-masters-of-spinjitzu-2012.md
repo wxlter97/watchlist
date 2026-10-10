@@ -1,0 +1,16 @@
+- **Temporada 1 (Rise of the Snakes):** the ninja face the serpents.
+- **Temporada 2 (Legacy of the Green Ninja):** the search for the Green Ninja.
+- **Temporada 3 (Rebooted):** the ninja enter a digital world.
+- **Temporada 4 (Tournament of Elements):** a tournament gathers masters of the elements.
+- **Temporada 5 (Possession):** villains possess the ninja.
+- **Temporada 6 (Skybound):** the story moves into the skies.
+- **Temporada 7 (Hands of Time):** the ninja face a threat across time.
+- **Temporada 8 (Sons of Garmadon):** Lloyd confronts his relationship with his father.
+- **Temporada 9 (Hunted):** the ninja are hunted.
+- **Temporada 10 (March of the Oni):** the Oni threaten Ninjago.
+- **Temporada 11 (Secrets of the Forbidden Spinjitzu):** the ninja discover secrets of Forbidden Spinjitzu.
+- **Temporada 12 (Prime Empire):** the ninja enter a video game.
+- **Temporada 13 (Master of the Mountain):** a new threat on the mountain.
+- **Temporada 14 (The Island):** the ninja travel to an island.
+- **Temporada 15 (Seabound):** the ninja face dangers at sea.
+- **Temporada 16 (Crystalized):** the original series reaches its end.

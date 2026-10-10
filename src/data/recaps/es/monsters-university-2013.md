@@ -1,0 +1,1 @@
+- Mike y Sulley, rivales en la universidad, deben formar equipo para un torneo.

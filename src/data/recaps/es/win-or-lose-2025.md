@@ -1,0 +1,1 @@
+- **Temporada 1:** un equipo de softbol infantil se prepara para su partido de campeonato, contado desde el punto de vista de distintos personajes.

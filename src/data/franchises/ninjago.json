@@ -1,0 +1,326 @@
+{
+  "id": "ninjago",
+  "name": {
+    "es": "Ninjago",
+    "en": "Ninjago"
+  },
+  "description": {
+    "es": "Los ninjas de LEGO y el Spinjitzu: Masters of Spinjitzu, Dragons Rising y Legends.",
+    "en": "LEGO's ninjas and Spinjitzu: Masters of Spinjitzu, Dragons Rising and Legends."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "classic",
+      "name": {
+        "es": "Masters of Spinjitzu",
+        "en": "Masters of Spinjitzu"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las 16 temporadas de la serie original.",
+        "en": "The original series' 16 seasons."
+      }
+    },
+    {
+      "id": "new",
+      "name": {
+        "es": "Dragons Rising y Legends",
+        "en": "Dragons Rising and Legends"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La nueva etapa de la serie, con otro tono y nuevos arcos.",
+        "en": "The series' new era, with a different tone and new arcs."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 1,
+      "continuityId": "classic",
+      "importance": "essential",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 2,
+      "continuityId": "classic",
+      "importance": "essential",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 3,
+      "continuityId": "classic",
+      "importance": "recommended",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 4,
+      "continuityId": "classic",
+      "importance": "recommended",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 5,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 6,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 7,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 8,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 9,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 10,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 11,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 110
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 12,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 120
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 13,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 130
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 14,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 140
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 15,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 150
+    },
+    {
+      "titleId": "ninjago-masters-of-spinjitzu-2012",
+      "season": 16,
+      "continuityId": "classic",
+      "importance": "optional",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 160
+    },
+    {
+      "titleId": "lego-ninjago-dragons-rising-2023",
+      "season": 1,
+      "continuityId": "new",
+      "importance": "recommended",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "lego-ninjago-dragons-rising-2023",
+      "season": 2,
+      "continuityId": "new",
+      "importance": "recommended",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "lego-ninjago-dragons-rising-2023",
+      "season": 3,
+      "continuityId": "new",
+      "importance": "recommended",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "lego-ninjago-dragons-rising-2023",
+      "season": 4,
+      "continuityId": "new",
+      "importance": "recommended",
+      "characters": [
+        "kai",
+        "lloyd-garmadon"
+      ],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "lego-ninjago-legends-2025",
+      "season": 1,
+      "continuityId": "new",
+      "importance": "optional",
+      "characters": [
+        "kai"
+      ],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "lego-ninjago-legends-2025",
+      "season": 2,
+      "continuityId": "new",
+      "importance": "optional",
+      "characters": [
+        "kai"
+      ],
+      "chronoOrder": 60
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "kai",
+        "name": {
+          "es": "Kai",
+          "en": "Kai"
+        }
+      },
+      {
+        "id": "lloyd-garmadon",
+        "name": {
+          "es": "Lloyd Garmadon",
+          "en": "Lloyd Garmadon"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,1 @@
+- Cinco adolescentes descubren que tienen poderes y deben enfrentar a Rita Repulsa.
