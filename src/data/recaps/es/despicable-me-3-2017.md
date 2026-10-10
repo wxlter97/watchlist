@@ -1,0 +1,1 @@
+- Gru y Lucy deben detener a Balthazar Bratt, ex estrella infantil de los ochenta.

@@ -1,0 +1,2 @@
+- Shrek, en plena crisis de mediana edad, hace un trato con Rumpelstiltskin.
+- Acaba en una versión alterna de Muy Muy Lejano donde reina Rumpelstiltskin.

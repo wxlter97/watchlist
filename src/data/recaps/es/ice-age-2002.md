@@ -1,0 +1,2 @@
+- Manny, Sid y Diego devuelven a un bebé humano con su tribu.
+- Scrat persigue su bellota por el camino.

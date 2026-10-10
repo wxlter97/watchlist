@@ -1,0 +1,1 @@
+- Buck se une a los hermanos zarigüeya Crash y Eddie en una aventura en su hogar, el Mundo de los Dinosaurios.

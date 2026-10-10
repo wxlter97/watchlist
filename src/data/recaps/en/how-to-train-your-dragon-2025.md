@@ -1,0 +1,2 @@
+- On the isle of Berk, Hiccup defies tradition by befriending Toothless.
+- Their bond reveals the truth about dragons.

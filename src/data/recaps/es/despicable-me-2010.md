@@ -1,0 +1,2 @@
+- Gru, un supervillano, adopta a tres niñas para un plan de robo.
+- Termina convirtiéndose en su padre.

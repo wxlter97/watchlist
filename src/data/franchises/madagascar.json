@@ -1,0 +1,131 @@
+{
+  "id": "madagascar",
+  "name": {
+    "es": "Madagascar",
+    "en": "Madagascar"
+  },
+  "description": {
+    "es": "El león, la cebra, la jirafa y el hipopótamo del zoológico: tres películas y los pingüinos.",
+    "en": "The zoo's lion, zebra, giraffe and hippo: three films and the penguins."
+  },
+  "accentColor": "#C2410C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Madagascar",
+        "en": "Madagascar"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las tres películas y el spin-off de los pingüinos.",
+        "en": "The three films and the penguin spin-off."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "madagascar-2005",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "alex",
+        "marty",
+        "melman",
+        "gloria"
+      ]
+    },
+    {
+      "titleId": "madagascar-escape-2-africa-2008",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "alex",
+        "marty",
+        "melman",
+        "gloria"
+      ]
+    },
+    {
+      "titleId": "madagascar-3-europes-most-wanted-2012",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "alex",
+        "marty",
+        "melman",
+        "gloria"
+      ]
+    },
+    {
+      "titleId": "penguins-of-madagascar-2014",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "alex",
+        "name": {
+          "es": "Alex",
+          "en": "Alex"
+        }
+      },
+      {
+        "id": "marty",
+        "name": {
+          "es": "Marty",
+          "en": "Marty"
+        }
+      },
+      {
+        "id": "melman",
+        "name": {
+          "es": "Melman",
+          "en": "Melman"
+        }
+      },
+      {
+        "id": "gloria",
+        "name": {
+          "es": "Gloria",
+          "en": "Gloria"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

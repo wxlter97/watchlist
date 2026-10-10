@@ -1,0 +1,2 @@
+- Hiccup fulfills his dream of a dragon utopia.
+- Toothless discovers a Light Fury and Berk is in danger.

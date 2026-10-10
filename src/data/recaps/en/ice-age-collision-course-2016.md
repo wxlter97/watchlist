@@ -1,0 +1,1 @@
+- Scrat's chase launches him into space and sets off a cosmic catastrophe.

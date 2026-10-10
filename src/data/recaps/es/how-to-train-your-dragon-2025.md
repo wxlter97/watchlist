@@ -1,0 +1,2 @@
+- En la isla de Berk, Hipo desafía la tradición al hacerse amigo de Chimuelo.
+- Su vínculo revela la verdad sobre los dragones.

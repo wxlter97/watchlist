@@ -1,0 +1,2 @@
+- Gru es reclutado por la Liga Anti-Villanos.
+- Junto a Lucy investiga un robo.

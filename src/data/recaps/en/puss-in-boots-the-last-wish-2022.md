@@ -1,0 +1,2 @@
+- Puss discovers he has burned through eight of his nine lives.
+- He sets out to find the Last Wish to restore them.

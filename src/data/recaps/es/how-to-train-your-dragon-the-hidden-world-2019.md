@@ -1,0 +1,2 @@
+- Hipo cumple su sueño de una utopía de dragones.
+- Chimuelo descubre a una Furia Luminosa y Berk corre peligro.

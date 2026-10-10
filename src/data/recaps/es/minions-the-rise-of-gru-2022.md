@@ -1,0 +1,2 @@
+- Gru, fan de los Vicious 6, quiere ser lo bastante malvado para unirse a ellos.
+- Los Minions lo ayudan.

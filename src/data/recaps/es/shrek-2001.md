@@ -1,0 +1,2 @@
+- Shrek, un ogro solitario, debe rescatar a la princesa Fiona para recuperar su pantano.
+- Burro lo acompaña en el camino.

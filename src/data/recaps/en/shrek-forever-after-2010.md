@@ -1,0 +1,2 @@
+- Shrek, in a midlife crisis, makes a pact with Rumpelstiltskin.
+- He ends up in an alternate Far Far Away where Rumpelstiltskin is king.

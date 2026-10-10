@@ -1,0 +1,141 @@
+{
+  "id": "despicable-me",
+  "name": {
+    "es": "Mi villano favorito",
+    "en": "Despicable Me"
+  },
+  "description": {
+    "es": "Gru, sus hijas y los Minions: las películas de Gru y las de los Minions.",
+    "en": "Gru, his daughters and the Minions: the Gru films and the Minions films."
+  },
+  "accentColor": "#B45309",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Universo de Gru y los Minions",
+        "en": "Gru and Minions universe"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las películas principales y las precuelas de los Minions.",
+        "en": "The main films and the Minions prequels."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "minions-2015",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Precuela de los años sesenta",
+        "en": "Prequel from the 1960s"
+      },
+      "characters": [
+        "minions"
+      ]
+    },
+    {
+      "titleId": "minions-the-rise-of-gru-2022",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Gru de joven, en los setenta",
+        "en": "Young Gru, in the 1970s"
+      },
+      "characters": [
+        "gru",
+        "minions"
+      ]
+    },
+    {
+      "titleId": "despicable-me-2010",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "gru",
+        "minions"
+      ]
+    },
+    {
+      "titleId": "despicable-me-2-2013",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": [
+        "gru",
+        "minions"
+      ]
+    },
+    {
+      "titleId": "despicable-me-3-2017",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "gru",
+        "minions"
+      ]
+    },
+    {
+      "titleId": "despicable-me-4-2024",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "gru",
+        "minions"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "gru",
+        "name": {
+          "es": "Gru",
+          "en": "Gru"
+        }
+      },
+      {
+        "id": "minions",
+        "name": {
+          "es": "Minions",
+          "en": "Minions"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

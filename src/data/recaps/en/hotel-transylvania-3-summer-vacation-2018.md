@@ -1,0 +1,1 @@
+- Dracula falls for the cruise's captain, a descendant of Van Helsing.

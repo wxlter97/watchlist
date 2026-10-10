@@ -1,0 +1,2 @@
+- After the king's death, Shrek and Fiona are due to succeed him, but Shrek prefers his swamp.
+- He and Donkey set off to find another heir.

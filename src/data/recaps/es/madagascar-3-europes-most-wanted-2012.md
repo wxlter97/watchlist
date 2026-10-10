@@ -1,0 +1,2 @@
+- Los amigos viajan a Europa tras los pingüinos y chimpancés que rompieron la banca de Montecarlo.
+- Un oficial de control animal los persigue.

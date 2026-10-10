@@ -1,0 +1,2 @@
+- Po se prepara para ser líder espiritual y debe entrenar a un nuevo Guerrero Dragón.
+- Enfrenta a la Camaleona.

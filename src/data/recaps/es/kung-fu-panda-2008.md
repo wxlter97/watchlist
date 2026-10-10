@@ -1,0 +1,2 @@
+- Po, un panda aficionado al kung fu, es elegido por error como Guerrero Dragón.
+- Debe entrenar con los Cinco Furiosos y detener a Tai Lung.

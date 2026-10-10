@@ -1,0 +1,1 @@
+- Po descubre su pasado y enfrenta a Lord Shen, que amenaza el kung fu con un arma.

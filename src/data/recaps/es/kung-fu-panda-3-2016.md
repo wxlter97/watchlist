@@ -1,0 +1,2 @@
+- Po y su padre visitan una aldea secreta de pandas.
+- Un espíritu maligno amenaza a China y Po debe formar un ejército.

@@ -1,0 +1,2 @@
+- Puss in Boots teams up with Humpty Dumpty and Kitty Softpaws to steal magic beans.
+- He finds his past with Humpty complicates the plan.

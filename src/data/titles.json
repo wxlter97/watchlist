@@ -25579,5 +25579,794 @@
       }
     },
     "runtimeMin": 80
+  },
+  {
+    "id": "shrek-2001",
+    "tmdbId": 808,
+    "tmdbType": "movie",
+    "title": "Shrek",
+    "kind": "movie",
+    "releaseDate": "2001-05-18",
+    "imdbId": "tt0126029",
+    "posterPath": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+    "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+    "localized": {
+      "en": {
+        "title": "Shrek",
+        "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey."
+      },
+      "es": {
+        "title": "Shrek",
+        "overview": "Un malvado lord exilia a las criaturas de cuentos de hadas al pantano de un ogro gruñón, que debe ir en busca y rescatar a una princesa para el lord con el fin de recuperar su tierra."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "shrek-2-2004",
+    "tmdbId": 809,
+    "tmdbType": "movie",
+    "title": "Shrek 2",
+    "kind": "movie",
+    "releaseDate": "2004-05-19",
+    "imdbId": "tt0298148",
+    "posterPath": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+    "overview": "Happily ever after never seemed so far far away when a trip to meet the in-laws turns into a hilariously twisted adventure for Shrek and Fiona. With the help of ever-faithful Donkey, Shrek takes on the potion-brewing Fairy Godmother, pompous Prince Charming, and infamous ogre-killer Puss In Boots.",
+    "localized": {
+      "en": {
+        "title": "Shrek 2",
+        "overview": "Happily ever after never seemed so far far away when a trip to meet the in-laws turns into a hilariously twisted adventure for Shrek and Fiona. With the help of ever-faithful Donkey, Shrek takes on the potion-brewing Fairy Godmother, pompous Prince Charming, and infamous ogre-killer Puss In Boots."
+      },
+      "es": {
+        "title": "Shrek 2",
+        "overview": "Shrek y Fiona viajan al Reino de Muy Muy Lejano, donde los padres de Fiona son el Rey y la Reina, para celebrar su matrimonio. Cuando llegan, se dan cuenta de que no son tan bienvenidos como pensaban."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "shrek-the-third-2007",
+    "tmdbId": 810,
+    "tmdbType": "movie",
+    "title": "Shrek the Third",
+    "kind": "movie",
+    "releaseDate": "2007-05-17",
+    "imdbId": "tt0413267",
+    "posterPath": "/n4SexGGQzI26E269tfpa80MZaGV.jpg",
+    "overview": "After the King of Far Far Away dies, Shrek and Fiona are to succede. However, Shrek wants to return to his cozy swamp and live in peace and quiet, so when he finds out there is another heir to the throne, he and Donkey set off to bring him back to rule the kingdom.",
+    "localized": {
+      "en": {
+        "title": "Shrek the Third",
+        "overview": "After the King of Far Far Away dies, Shrek and Fiona are to succede. However, Shrek wants to return to his cozy swamp and live in peace and quiet, so when he finds out there is another heir to the throne, he and Donkey set off to bring him back to rule the kingdom."
+      },
+      "es": {
+        "title": "Shrek Tercero",
+        "overview": "Designado a regañadientes como el heredero de la tierra de Muy Muy Lejano, Shrek urde un plan para instalar al rebelde Artie como el nuevo rey mientras la princesa Fiona trata de evitar un golpe de estado por parte del Príncipe Encantador."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "shrek-forever-after-2010",
+    "tmdbId": 10192,
+    "tmdbType": "movie",
+    "title": "Shrek Forever After",
+    "kind": "movie",
+    "releaseDate": "2010-05-16",
+    "imdbId": "tt0892791",
+    "posterPath": "/6HrfPZtKcGmX2tUWW3cnciZTaSD.jpg",
+    "overview": "A midlife-crisis burdened Shrek, longing for the days of when he felt like a real ogre, makes a pact with magic deal-maker Rumpelstiltskin. But when he's duped and sent to a twisted version of Far Far Away—where Rumpelstiltskin is king, ogres are hunted, and he and Fiona have never met—he sets out to restore his world and reclaim his true love.",
+    "localized": {
+      "en": {
+        "title": "Shrek Forever After",
+        "overview": "A midlife-crisis burdened Shrek, longing for the days of when he felt like a real ogre, makes a pact with magic deal-maker Rumpelstiltskin. But when he's duped and sent to a twisted version of Far Far Away—where Rumpelstiltskin is king, ogres are hunted, and he and Fiona have never met—he sets out to restore his world and reclaim his true love."
+      },
+      "es": {
+        "title": "Shrek 4: Para Siempre",
+        "overview": "Rumpelstiltskin engaña a un Shrek agobiado por la crisis de la mediana edad para que se deje borrar de la existencia y sea trasladado a una oscura línea temporal alternativa en la que Rumpelstiltskin gobierna de forma suprema."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "puss-in-boots-2011",
+    "tmdbId": 417859,
+    "tmdbType": "movie",
+    "title": "Puss in Boots",
+    "kind": "movie",
+    "releaseDate": "2011-10-27",
+    "imdbId": "tt0448694",
+    "posterPath": "/7a5Jzjr9TmffGy76y1SZhn3sCiz.jpg",
+    "overview": "Long before he even met Shrek, the notorious fighter, lover and outlaw Puss in Boots becomes a hero when he sets off on an adventure with the tough and street smart Kitty Softpaws and the mastermind Humpty Dumpty to save his town. This is the true story of The Cat, The Myth, The Legend... The Boots.",
+    "localized": {
+      "en": {
+        "title": "Puss in Boots",
+        "overview": "Long before he even met Shrek, the notorious fighter, lover and outlaw Puss in Boots becomes a hero when he sets off on an adventure with the tough and street smart Kitty Softpaws and the mastermind Humpty Dumpty to save his town. This is the true story of The Cat, The Myth, The Legend... The Boots."
+      },
+      "es": {
+        "title": "Gato con Botas",
+        "overview": "\"Gato con botas\" se sitúa en el tiempo como la precuela de Shrek 2. Mucho tiempo antes de conocer a Shrek, el Gato con Botas emprendió un viaje aliándose con el ingenioso Humpty Dumpty y con la avispada Kitty Softpaws para robar el famoso ganso de los huevos de oro."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "puss-in-boots-the-last-wish-2022",
+    "tmdbId": 315162,
+    "tmdbType": "movie",
+    "title": "Puss in Boots: The Last Wish",
+    "kind": "movie",
+    "releaseDate": "2022-12-07",
+    "imdbId": "tt3915174",
+    "posterPath": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
+    "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+    "localized": {
+      "en": {
+        "title": "Puss in Boots: The Last Wish",
+        "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives."
+      },
+      "es": {
+        "title": "Gato con Botas: El último deseo",
+        "overview": "El audaz forajido Gato con Botas descubre que su pasión por el peligro y su desprecio por la seguridad le han pasado factura. El Gato ha quemado ocho de sus nueve vidas, aunque ha perdido la cuenta por el camino. Recuperar esas vidas hará que el Gato con Botas emprenda su mayor búsqueda hasta ahora; la mítica Estrella de los Deseos."
+      }
+    },
+    "runtimeMin": 103
+  },
+  {
+    "id": "shrek-5-2027",
+    "tmdbId": 421892,
+    "tmdbType": "movie",
+    "title": "Shrek 5",
+    "kind": "movie",
+    "releaseDate": "2027-06-30",
+    "imdbId": "tt6113186",
+    "posterPath": "/m9jLiemA7t2umlXKptDwtIUHU8l.jpg",
+    "overview": "Shrek and Donkey team up for another whirlwind, big-city adventure, this time in the magical city of Further Further Away.",
+    "localized": {
+      "en": {
+        "title": "Shrek 5",
+        "overview": "Shrek and Donkey team up for another whirlwind, big-city adventure, this time in the magical city of Further Further Away."
+      },
+      "es": {
+        "title": "Shrek 5"
+      }
+    }
+  },
+  {
+    "id": "kung-fu-panda-2008",
+    "tmdbId": 9502,
+    "tmdbType": "movie",
+    "title": "Kung Fu Panda",
+    "kind": "movie",
+    "releaseDate": "2008-06-04",
+    "imdbId": "tt0441773",
+    "posterPath": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+    "overview": "Chosen by prophecy but doubted by all, Po is an unlikely choice for the mystical title of the Dragon Warrior—a clumsy panda thrust into the world of kung fu as a deadly enemy threatens the Valley of Peace. Under reluctant guidance by Master Shifu and the Furious Five, Po must embrace who he is to unlock the power that no scroll can teach.",
+    "localized": {
+      "en": {
+        "title": "Kung Fu Panda",
+        "overview": "Chosen by prophecy but doubted by all, Po is an unlikely choice for the mystical title of the Dragon Warrior—a clumsy panda thrust into the world of kung fu as a deadly enemy threatens the Valley of Peace. Under reluctant guidance by Master Shifu and the Furious Five, Po must embrace who he is to unlock the power that no scroll can teach."
+      },
+      "es": {
+        "title": "Kung Fu Panda",
+        "overview": "Cuando el Valle de la Paz se ve amenazado, el perezoso Po el panda descubre su destino como el “elegido” y se entrena para convertirse en un héroe de kung fu, pero no será fácil transformar al vago desaliñado en un valiente guerrero. Depende del Maestro Shifu y los Cinco Furiosos: Tigresa, Grulla, Mantis, Víbora y Mono: intentarlo."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "kung-fu-panda-2-2011",
+    "tmdbId": 49444,
+    "tmdbType": "movie",
+    "title": "Kung Fu Panda 2",
+    "kind": "movie",
+    "releaseDate": "2011-05-25",
+    "imdbId": "tt1302011",
+    "posterPath": "/mtqqD00vB4PGRt20gWtGqFhrkd0.jpg",
+    "overview": "Po is finally living the dream as the Dragon Warrior—until a shadow from his past comes roaring back. When the ruthless peacock Lord Shen unleashes a devastating new weapon used to wipe out kung fu masters across the land, Po and the Furious Five race across China to put an end to his plans. But if Po is to have any hope of stopping him, he must first confront the truth of his origins—and find inner peace before his past tears him apart.",
+    "localized": {
+      "en": {
+        "title": "Kung Fu Panda 2",
+        "overview": "Po is finally living the dream as the Dragon Warrior—until a shadow from his past comes roaring back. When the ruthless peacock Lord Shen unleashes a devastating new weapon used to wipe out kung fu masters across the land, Po and the Furious Five race across China to put an end to his plans. But if Po is to have any hope of stopping him, he must first confront the truth of his origins—and find inner peace before his past tears him apart."
+      },
+      "es": {
+        "title": "Kung Fu Panda 2",
+        "overview": "Po está ahora viviendo su sueño como el Guerrero del Dragón, protegiendo el Valle de la Paz junto a sus amigos y sus compañeros maestros del kung fu. Los Cinco Furiosos. Pero su nueva e impresionante vida se encuentra amenazada por la aparición de un villano formidable, que planea usar un arma secreta imparable para conquistar China y destruir el kung fu. Po debe volver la vista a su pasado para descubrir los secretos de su misterioso origen; solo entonces podrá adquirir la fuerza que necesita para vencer."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "kung-fu-panda-3-2016",
+    "tmdbId": 140300,
+    "tmdbType": "movie",
+    "title": "Kung Fu Panda 3",
+    "kind": "movie",
+    "releaseDate": "2016-01-23",
+    "imdbId": "tt2267968",
+    "posterPath": "/oajNi4Su39WAByHI6EONu8G8HYn.jpg",
+    "overview": "While Po and his father are visiting a secret panda village, an evil spirit threatens all of China, forcing Po to form a ragtag army to fight back.",
+    "localized": {
+      "en": {
+        "title": "Kung Fu Panda 3",
+        "overview": "While Po and his father are visiting a secret panda village, an evil spirit threatens all of China, forcing Po to form a ragtag army to fight back."
+      },
+      "es": {
+        "title": "Kung Fu Panda 3",
+        "overview": "Mientras visita una aldea secreta de pandas con su padre, Po se ve obligado a improvisar un peculiar ejército para detener a un espíritu malvado que amenaza a toda China."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "kung-fu-panda-4-2024",
+    "tmdbId": 1011985,
+    "tmdbType": "movie",
+    "title": "Kung Fu Panda 4",
+    "kind": "movie",
+    "releaseDate": "2024-03-02",
+    "imdbId": "tt21692408",
+    "posterPath": "/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+    "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+    "localized": {
+      "en": {
+        "title": "Kung Fu Panda 4",
+        "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past."
+      },
+      "es": {
+        "title": "Kung Fu Panda 4",
+        "overview": "Po se está preparando para convertirse en el líder espiritual de su Valle de la Paz, pero también necesita a alguien que ocupe su lugar como Guerrero Dragón. Como tal, entrenará a un nuevo practicante de kung fu para el lugar y se encontrará con un villano llamado Camaleón que evoca villanos del pasado."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "how-to-train-your-dragon-2010",
+    "tmdbId": 10191,
+    "tmdbType": "movie",
+    "title": "How to Train Your Dragon",
+    "kind": "movie",
+    "releaseDate": "2010-03-18",
+    "imdbId": "tt0892769",
+    "posterPath": "/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+    "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
+    "localized": {
+      "en": {
+        "title": "How to Train Your Dragon",
+        "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father."
+      },
+      "es": {
+        "title": "Cómo Entrenar A Tu Dragón",
+        "overview": "Un desventurado joven vikingo que aspira a cazar dragones se convierte en el improbable amigo de un joven dragón, y aprende que puede haber más en las criaturas de lo que suponía."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "how-to-train-your-dragon-2-2014",
+    "tmdbId": 82702,
+    "tmdbType": "movie",
+    "title": "How to Train Your Dragon 2",
+    "kind": "movie",
+    "releaseDate": "2014-06-05",
+    "imdbId": "tt1646971",
+    "posterPath": "/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg",
+    "overview": "Five years after uniting the dragons and Vikings of Berk, Hiccup and Toothless soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons—and a mysterious dragon rider with a startling connection to Hiccup. And as the ruthless conqueror Drago Bludvist rises to seize control of both dragons and people alike, Hiccup must step into his role as a true leader and, alongside his friends and Toothless, protect Berk from a devastating war.",
+    "localized": {
+      "en": {
+        "title": "How to Train Your Dragon 2",
+        "overview": "Five years after uniting the dragons and Vikings of Berk, Hiccup and Toothless soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons—and a mysterious dragon rider with a startling connection to Hiccup. And as the ruthless conqueror Drago Bludvist rises to seize control of both dragons and people alike, Hiccup must step into his role as a true leader and, alongside his friends and Toothless, protect Berk from a devastating war."
+      },
+      "es": {
+        "title": "Cómo entrenar a tu dragón 2",
+        "overview": "Han pasado cinco años desde que Hipo empezó a entrenar a su dragón, rompiendo la tradición vikinga de cazarlos. Astrid y el resto de la pandilla han conseguido difundir en la isla un nuevo deporte: las carreras de dragones. Mientras realizan una carrera, atraviesan los cielos llegando a territorios inhóspitos, donde nadie antes ha estado. Durante un viaje descubren una cueva cubierta de hielo que resulta ser el refugio de cientos de dragones salvajes, a los que cuida un misterioso guardián. Hipo y los suyos se unen al guardián para proteger a los dragones de las fuerzas malignas que quieren acabar con ellos."
+      }
+    },
+    "runtimeMin": 102
+  },
+  {
+    "id": "how-to-train-your-dragon-the-hidden-world-2019",
+    "tmdbId": 166428,
+    "tmdbType": "movie",
+    "title": "How to Train Your Dragon: The Hidden World",
+    "kind": "movie",
+    "releaseDate": "2019-01-03",
+    "imdbId": "tt2386490",
+    "posterPath": "/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+    "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+    "localized": {
+      "en": {
+        "title": "How to Train Your Dragon: The Hidden World",
+        "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind."
+      },
+      "es": {
+        "title": "Cómo Entrenar A Tu Dragón 3",
+        "overview": "Lo que comenzó con una insólita amistad entre un adolescente vikingo y un temible dragón Furia Nocturna, se ha convertido en una trilogía legendaria que abarca sus vidas. En este capítulo, Hipo y Chimuelo finalmente descubrirán sus verdaderos destinos: ser el jefe del pueblo y gobernante de Berk a lado de Astrid y ser el dragón líder de su propia especie. Como ambos ascienden, la amenaza más oscura que han enfrentado, así como la aparición de una furia luminosa, pondrá a prueba los lazos de su relación como nunca antes."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "how-to-train-your-dragon-2025",
+    "tmdbId": 1087192,
+    "tmdbType": "movie",
+    "title": "How to Train Your Dragon",
+    "kind": "movie",
+    "releaseDate": "2025-06-06",
+    "imdbId": "tt26743210",
+    "posterPath": "/53dsJ3oEnBhTBVMigWJ9tkA5bzJ.jpg",
+    "overview": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
+    "localized": {
+      "en": {
+        "title": "How to Train Your Dragon",
+        "overview": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society."
+      },
+      "es": {
+        "title": "Cómo entrenar a tu dragón",
+        "overview": "En la agreste isla de Berk, donde vikingos y dragones han sido enemigos acérrimos durante generaciones, Hipo se distingue, desafiando siglos de tradición al entablar amistad con Desdentao, un temido dragón Furia Nocturna. Su improbable vínculo revela la verdadera naturaleza de los dragones, desafiando los cimientos de la sociedad vikinga."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "how-to-train-your-dragon-2-2027",
+    "tmdbId": 1458319,
+    "tmdbType": "movie",
+    "title": "How to Train Your Dragon 2",
+    "kind": "movie",
+    "releaseDate": "2027-06-10",
+    "imdbId": "tt36416299",
+    "posterPath": "/6VlnDSuTmBPW6a45Qxp5qeDINBq.jpg",
+    "overview": "The second live-action adaptation of the animated trilogy. Plot TBA.",
+    "localized": {
+      "en": {
+        "title": "How to Train Your Dragon 2",
+        "overview": "The second live-action adaptation of the animated trilogy. Plot TBA."
+      },
+      "es": {
+        "title": "Cómo entrenar a tu dragón 2",
+        "overview": "La segunda adaptación de acción real de la trilogía animada. Argumento por anunciar."
+      }
+    }
+  },
+  {
+    "id": "despicable-me-2010",
+    "tmdbId": 20352,
+    "tmdbType": "movie",
+    "title": "Despicable Me",
+    "kind": "movie",
+    "releaseDate": "2010-07-08",
+    "imdbId": "tt1323594",
+    "posterPath": "/b1BT309QWjtFUlJPLmXmrcHOWEL.jpg",
+    "overview": "Determined to prove he's the world's greatest supervillain, Gru hatches an audacious plan to steal the Moon. To pull it off, he adopts three orphaned girls—Margo, Edith, and Agnes—intending to use them as pawns in his scheme. But the unexpected bond they form forces him to question the criminal life he's always known.",
+    "localized": {
+      "en": {
+        "title": "Despicable Me",
+        "overview": "Determined to prove he's the world's greatest supervillain, Gru hatches an audacious plan to steal the Moon. To pull it off, he adopts three orphaned girls—Margo, Edith, and Agnes—intending to use them as pawns in his scheme. But the unexpected bond they form forces him to question the criminal life he's always known."
+      },
+      "es": {
+        "title": "Mi villano favorito",
+        "overview": "En una alegre urbanización con cuidados jardines rodeados por verjas de madera pintadas de blanco y llenos de rosales, sobresale una casa negra con el césped amarillento. Los vecinos ignoran que debajo de la vivienda hay un enorme escondite secreto. Allí está Gru, rodeado por un pequeño ejército de lacayos, planeando el mayor robo de toda la historia. ¡Va a robarse con la luna!"
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "despicable-me-2-2013",
+    "tmdbId": 93456,
+    "tmdbType": "movie",
+    "title": "Despicable Me 2",
+    "kind": "movie",
+    "releaseDate": "2013-06-26",
+    "imdbId": "tt1690953",
+    "posterPath": "/5Fh4NdoEnCjCK9wLjdJ9DJNFl2b.jpg",
+    "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
+    "localized": {
+      "en": {
+        "title": "Despicable Me 2",
+        "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal."
+      },
+      "es": {
+        "title": "Mi Villano Favorito 2",
+        "overview": "Ahora que el incansable y emprendedor Gru ha dejado atrás una vida dedicada a las fechorías para criar a Margo, Edith y Agnes, dispone de mucho tiempo libre para disfrutarlo con ellas, el Dr. Nefario y los minions. Pero, justo cuando empieza a adaptarse a su papel de padre de familia, una organización mundial ultrasecreta dedicada a la lucha contra el mal llama a su puerta."
+      }
+    },
+    "runtimeMin": 98
+  },
+  {
+    "id": "minions-2015",
+    "tmdbId": 211672,
+    "tmdbType": "movie",
+    "title": "Minions",
+    "kind": "movie",
+    "releaseDate": "2015-06-17",
+    "imdbId": "tt2293640",
+    "posterPath": "/dr02BdCNAUPVU07aOodwPYv6HCf.jpg",
+    "overview": "Minions Stuart, Kevin and Bob are recruited by Scarlet Overkill, a super-villain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+    "localized": {
+      "en": {
+        "title": "Minions",
+        "overview": "Minions Stuart, Kevin and Bob are recruited by Scarlet Overkill, a super-villain who, alongside her inventor husband Herb, hatches a plot to take over the world."
+      },
+      "es": {
+        "title": "Los Minions",
+        "overview": "La historia de Los Minions se remonta al principio de los tiempos. Empezaron siendo organismos amarillos unicelulares que evolucionaron a través del tiempo, poniéndose siempre al servicio de los amos más despreciables. Ante su incapacidad para mantener a esos amos – desde el T. Rex a Napoleón –, los Minions acaban encontrándose solos y caen en una profunda depresión. Sin embargo, uno de ellos, llamado Kevin, tiene un plan. Acompañado por el rebelde Stuart y el adorable Bob, emprende un emocionante viaje para conseguir una jefa a quien servir, la terrible Scarlet Overkill. Pasarán de la helada Antártida, a la ciudad de Nueva York en los años sesenta, para acabar en el Londres de la misma época, donde deberán enfrentarse al mayor reto hasta la fecha: salvar a la raza Minion de la aniquilación."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "despicable-me-3-2017",
+    "tmdbId": 324852,
+    "tmdbType": "movie",
+    "title": "Despicable Me 3",
+    "kind": "movie",
+    "releaseDate": "2017-06-15",
+    "imdbId": "tt3469046",
+    "posterPath": "/e72KCMHNkbZ6USRJmABeqwmaJ5n.jpg",
+    "overview": "Gru and his wife Lucy must stop former '80s child star Balthazar Bratt from achieving world domination.",
+    "localized": {
+      "en": {
+        "title": "Despicable Me 3",
+        "overview": "Gru and his wife Lucy must stop former '80s child star Balthazar Bratt from achieving world domination."
+      },
+      "es": {
+        "title": "Mi Villano Favorito 3",
+        "overview": "Nuevas aventuras de Gru, Lucy, sus adorables hijas Margo, Edith y Agnes y por supuesto los Minions. En esta ocasión veremos como el gemelo de Gru, desparecido hace muchísimos años, emerge, lo que ocasionará una enorme rivalidad entre hermanos. Además, aparecerá en escena un nuevo villano llamado Balthazar Bratt. Se trata de una estrella juvenil de los años 80 que que ha estado haciendo maldades en el mundo desde que alcanzó la pubertad y su show fue cancelado. Odia que le ridiculicen y eso le lleva a querer controlar el mundo."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "minions-the-rise-of-gru-2022",
+    "tmdbId": 438148,
+    "tmdbType": "movie",
+    "title": "Minions: The Rise of Gru",
+    "kind": "movie",
+    "releaseDate": "2022-06-29",
+    "imdbId": "tt5113044",
+    "posterPath": "/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+    "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+    "localized": {
+      "en": {
+        "title": "Minions: The Rise of Gru",
+        "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions."
+      },
+      "es": {
+        "title": "Minions: Nace un villano",
+        "overview": "En los años 70, Gru crece siendo un gran admirador de \"Los salvajes seis\", un supergrupo de villanos. Para demostrarles que puede ser malvado, diseña un plan con la esperanza de formar parte de la banda."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "despicable-me-4-2024",
+    "tmdbId": 519182,
+    "tmdbType": "movie",
+    "title": "Despicable Me 4",
+    "kind": "movie",
+    "releaseDate": "2024-06-20",
+    "imdbId": "tt7510222",
+    "posterPath": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    "overview": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run.",
+    "localized": {
+      "en": {
+        "title": "Despicable Me 4",
+        "overview": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run."
+      },
+      "es": {
+        "title": "Mi villano favorito 4",
+        "overview": "Gru, Lucy y las niñas -Margo, Edith y Agnes- dan la bienvenida a un nuevo miembro en la familia: Gru Junior, que parece llegar con el propósito de ser un suplicio para su padre. Gru tendrá que enfrentarse en esta ocasión a su nueva némesis Maxime Le Mal y su sofisticada y malévola novia Valentina, lo que obligará a la familia a tener que darse a la fuga."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "madagascar-2005",
+    "tmdbId": 953,
+    "tmdbType": "movie",
+    "title": "Madagascar",
+    "kind": "movie",
+    "releaseDate": "2005-05-25",
+    "imdbId": "tt0351283",
+    "posterPath": "/zMpJY5CJKUufG9OTw0In4eAFqPX.jpg",
+    "overview": "Four animal friends get a taste of the wild life when they break out of captivity at the Central Park Zoo and wash ashore on the island of Madagascar.",
+    "localized": {
+      "en": {
+        "title": "Madagascar",
+        "overview": "Four animal friends get a taste of the wild life when they break out of captivity at the Central Park Zoo and wash ashore on the island of Madagascar."
+      },
+      "es": {
+        "title": "Madagascar",
+        "overview": "Cuatro amigos animales prueban la vida salvaje cuando, luego de escapar de su cautiverio en el zoológico de Central Park, van a parar a la orilla de la isla de Madagascar."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "madagascar-escape-2-africa-2008",
+    "tmdbId": 10527,
+    "tmdbType": "movie",
+    "title": "Madagascar: Escape 2 Africa",
+    "kind": "movie",
+    "releaseDate": "2008-10-30",
+    "imdbId": "tt0479952",
+    "posterPath": "/agRbLOHgN46TQO4YdKR462iR7To.jpg",
+    "overview": "Alex, Marty, and other zoo animals find a way to escape from Madagascar when the penguins reassemble a wrecked airplane. The precariously repaired craft stays airborne just long enough to make it to the African continent. There the New Yorkers encounter members of their own species for the first time. Africa proves to be a wild place, but Alex and company wonder if it is better than their Central Park home.",
+    "localized": {
+      "en": {
+        "title": "Madagascar: Escape 2 Africa",
+        "overview": "Alex, Marty, and other zoo animals find a way to escape from Madagascar when the penguins reassemble a wrecked airplane. The precariously repaired craft stays airborne just long enough to make it to the African continent. There the New Yorkers encounter members of their own species for the first time. Africa proves to be a wild place, but Alex and company wonder if it is better than their Central Park home."
+      },
+      "es": {
+        "title": "Madagascar 2: Escape de África",
+        "overview": "El león Alex, la cebra Marty, la jirafa Melman y la hipopótamo Gloria permanecen en Madagascar a la espera de regresar a su zoológico. En su empeño por volver a casa, arreglan un viejo aeroplano, que les hará llegar hasta las inmensas llanuras africanas."
+      }
+    },
+    "runtimeMin": 89
+  },
+  {
+    "id": "madagascar-3-europes-most-wanted-2012",
+    "tmdbId": 80321,
+    "tmdbType": "movie",
+    "title": "Madagascar 3: Europe's Most Wanted",
+    "kind": "movie",
+    "releaseDate": "2012-06-06",
+    "imdbId": "tt1277953",
+    "posterPath": "/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+    "overview": "Animal pals Alex, Marty, Melman, and Gloria are still trying to make it back to New York's Central Park Zoo. They are forced to take a detour to Europe to find the penguins and chimps who broke the bank at a Monte Carlo casino. When French animal-control officer Capitaine Chantel DuBois picks up their scent, Alex and company are forced to hide out in a traveling circus.",
+    "localized": {
+      "en": {
+        "title": "Madagascar 3: Europe's Most Wanted",
+        "overview": "Animal pals Alex, Marty, Melman, and Gloria are still trying to make it back to New York's Central Park Zoo. They are forced to take a detour to Europe to find the penguins and chimps who broke the bank at a Monte Carlo casino. When French animal-control officer Capitaine Chantel DuBois picks up their scent, Alex and company are forced to hide out in a traveling circus."
+      },
+      "es": {
+        "title": "Madagascar 3: Los Fugitivos",
+        "overview": "Alex el león, Marty la cebra, Melman la jirafa y Gloria la hipopótamo están decididos a regresar como sea al Zoológico de Central Park en Nueva York. Tras abandonar África, toman un desvío y emergen, literalmente, en Europa, persiguiendo a los pingüinos y chimpancés que se las han arreglado para hacer saltar la banca de un casino de Monte Carlo. Pronto, los animales son descubiertos por la capitana Chantel DuBois, una testaruda francesa encargada del control de animales, y a la que no le gusta nada que unos animales del zoológico anden sueltos por su ciudad."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "penguins-of-madagascar-2014",
+    "tmdbId": 270946,
+    "tmdbType": "movie",
+    "title": "Penguins of Madagascar",
+    "kind": "movie",
+    "releaseDate": "2014-11-22",
+    "imdbId": "tt1911658",
+    "posterPath": "/dXbpNrPDZDMEbujFoOxmMNQVMHa.jpg",
+    "overview": "Skipper, Kowalski, Rico and Private join forces with undercover organization The North Wind to stop the villainous Dr. Octavius Brine from destroying the world as we know it.",
+    "localized": {
+      "en": {
+        "title": "Penguins of Madagascar",
+        "overview": "Skipper, Kowalski, Rico and Private join forces with undercover organization The North Wind to stop the villainous Dr. Octavius Brine from destroying the world as we know it."
+      },
+      "es": {
+        "title": "Los Pingüinos de Madagascar",
+        "overview": "Spin-off de 'Madagascar' protagonizado por los pingüinos de la isla. Las más divertidas aves encubiertas del mundo del espionaje: Capitán, Kowalski, Rico y Soldado. Son la élite de la élite y juntos unen sus fuerzas a una elegante organización encubierta llamada Viento Norte, liderada por el apuesto y musculoso Agente Clasificado. Entre todos deben evitar que el villano Dr. Octavio Salitre destruya el mundo tal y como lo conocemos."
+      }
+    },
+    "runtimeMin": 92
+  },
+  {
+    "id": "ice-age-2002",
+    "tmdbId": 425,
+    "tmdbType": "movie",
+    "title": "Ice Age",
+    "kind": "movie",
+    "releaseDate": "2002-03-14",
+    "imdbId": "tt0268380",
+    "posterPath": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
+    "overview": "Manny the mammoth, Sid the loquacious sloth, and Diego the sabre-toothed tiger go on a comical quest to return a human baby back to his father, across a world on the brink of an ice age.",
+    "localized": {
+      "en": {
+        "title": "Ice Age",
+        "overview": "Manny the mammoth, Sid the loquacious sloth, and Diego the sabre-toothed tiger go on a comical quest to return a human baby back to his father, across a world on the brink of an ice age."
+      },
+      "es": {
+        "title": "La era de hielo",
+        "overview": "La historia gira en torno a unos héroes bajo cero: un mamut lanudo, un tigre de dientes de sable, un perezoso y una combinación prehistórica de ardilla y rata, conocida como Scrat."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "ice-age-the-meltdown-2006",
+    "tmdbId": 950,
+    "tmdbType": "movie",
+    "title": "Ice Age: The Meltdown",
+    "kind": "movie",
+    "releaseDate": "2006-03-29",
+    "imdbId": "tt0438097",
+    "posterPath": "/zDduhCHasKQ9YOTvlOreHem7Wbi.jpg",
+    "overview": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation.",
+    "localized": {
+      "en": {
+        "title": "Ice Age: The Meltdown",
+        "overview": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation."
+      },
+      "es": {
+        "title": "La era de hielo 2",
+        "overview": "Manny, Sid y Diego descubren que la Edad de Hielo está llegando a su fin y se unen al resto del grupo para emprender un viaje hacia tierras más altas. Durante el trayecto, descubren que Manny no es, en realidad, el último de los mamuts lanudos."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "ice-age-dawn-of-the-dinosaurs-2009",
+    "tmdbId": 8355,
+    "tmdbType": "movie",
+    "title": "Ice Age: Dawn of the Dinosaurs",
+    "kind": "movie",
+    "releaseDate": "2009-06-26",
+    "imdbId": "tt1080016",
+    "posterPath": "/cXOLaxcNjNAYmEx1trZxOTKhK3Q.jpg",
+    "overview": "Times are changing for Manny the moody mammoth, Sid the motor mouthed sloth and Diego the crafty saber-toothed tiger. Life heats up for our heroes when they meet some new and none-too-friendly neighbors – the mighty dinosaurs.",
+    "localized": {
+      "en": {
+        "title": "Ice Age: Dawn of the Dinosaurs",
+        "overview": "Times are changing for Manny the moody mammoth, Sid the motor mouthed sloth and Diego the crafty saber-toothed tiger. Life heats up for our heroes when they meet some new and none-too-friendly neighbors – the mighty dinosaurs."
+      },
+      "es": {
+        "title": "La era de hielo 3",
+        "overview": "Cuando Sid intenta adoptar tres huevos de dinosaurio y la verdadera madre de estos lo secuestra y lo lleva a un mundo perdido bajo tierra, sus amigos intentan rescatarlo."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "ice-age-continental-drift-2012",
+    "tmdbId": 57800,
+    "tmdbType": "movie",
+    "title": "Ice Age: Continental Drift",
+    "kind": "movie",
+    "releaseDate": "2012-06-27",
+    "imdbId": "tt1667889",
+    "posterPath": "/dfp1BZF7FxbBUyzHvMOI9t8NWDD.jpg",
+    "overview": "Manny, Diego, and Sid embark upon another adventure after their continent is set adrift. Using an iceberg as a ship, they encounter sea creatures and battle pirates as they explore a new world.",
+    "localized": {
+      "en": {
+        "title": "Ice Age: Continental Drift",
+        "overview": "Manny, Diego, and Sid embark upon another adventure after their continent is set adrift. Using an iceberg as a ship, they encounter sea creatures and battle pirates as they explore a new world."
+      },
+      "es": {
+        "title": "La era de hielo 4",
+        "overview": "La loca persecución de Scrat por su escurridiza bellota desde el principio de los tiempos, tiene consecuencias que cambiarán el mundo: un cataclismo continental que desencadenará la mayor de las aventuras para Manny, Diego y Sid. En medio de estas agitaciones, Sid se reencuentra con su Abuelita Gruñona y la manada tropieza con una extraña cuadrilla de piratas de altamar decididos a impedirles su regreso a casa."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "ice-age-collision-course-2016",
+    "tmdbId": 278154,
+    "tmdbType": "movie",
+    "title": "Ice Age: Collision Course",
+    "kind": "movie",
+    "releaseDate": "2016-06-23",
+    "imdbId": "tt3416828",
+    "posterPath": "/tFzUkdhPOForVrEfvxydXfPLrZR.jpg",
+    "overview": "Set after the events of Continental Drift, Scrat's epic pursuit of his elusive acorn catapults him outside of Earth, where he accidentally sets off a series of cosmic events that transform and threaten the planet. To save themselves from peril, Manny, Sid, Diego, and the rest of the herd leave their home and embark on a quest full of thrills and spills, highs and lows, laughter and adventure while traveling to exotic new lands and locations.",
+    "localized": {
+      "en": {
+        "title": "Ice Age: Collision Course",
+        "overview": "Set after the events of Continental Drift, Scrat's epic pursuit of his elusive acorn catapults him outside of Earth, where he accidentally sets off a series of cosmic events that transform and threaten the planet. To save themselves from peril, Manny, Sid, Diego, and the rest of the herd leave their home and embark on a quest full of thrills and spills, highs and lows, laughter and adventure while traveling to exotic new lands and locations."
+      },
+      "es": {
+        "title": "La era de hielo: Choque de mundos",
+        "overview": "Scrat y su mítica bellota estan en el espacio, donde accidentalmente desencadenará una serie de acontecimientos que amenazarán la Edad de Hielo. Para salvarse, Sid, Manny, Diego y el resto de la manada deberán salir de su hogar y embarcarse en una nueva aventura."
+      }
+    },
+    "runtimeMin": 95
+  },
+  {
+    "id": "the-ice-age-adventures-of-buck-wild-2022",
+    "tmdbId": 774825,
+    "tmdbType": "movie",
+    "title": "The Ice Age Adventures of Buck Wild",
+    "kind": "movie",
+    "releaseDate": "2022-01-28",
+    "imdbId": "tt13634480",
+    "posterPath": "/9ginbMWmt9y7PIHW1c9hnbIVWPm.jpg",
+    "overview": "The fearless one-eyed weasel Buck teams up with mischievous possum brothers Crash & Eddie as they head off on a new adventure into Buck's home: The Dinosaur World.",
+    "localized": {
+      "en": {
+        "title": "The Ice Age Adventures of Buck Wild",
+        "overview": "The fearless one-eyed weasel Buck teams up with mischievous possum brothers Crash & Eddie as they head off on a new adventure into Buck's home: The Dinosaur World."
+      },
+      "es": {
+        "title": "La Era de Hielo: Las aventuras de Buck",
+        "overview": "Continúa contando las hilarantes aventuras de uno de los mamíferos favoritos de la prehistoria. Tras un distanciamiento con su hermana mayor, Ellie, los hermanos Crash y Eddie parten a la búsqueda de un lugar propio, pero rápidamente acaban atrapados en una caverna subterránea. El aventurero Buck Wild acudirá a su rescate y juntos, tendrán que enfrentarse a los dinosaurios del Mundo Perdido."
+      }
+    },
+    "runtimeMin": 82
+  },
+  {
+    "id": "hotel-transylvania-2012",
+    "tmdbId": 76492,
+    "tmdbType": "movie",
+    "title": "Hotel Transylvania",
+    "kind": "movie",
+    "releaseDate": "2012-09-20",
+    "imdbId": "tt0837562",
+    "posterPath": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+    "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+    "localized": {
+      "en": {
+        "title": "Hotel Transylvania",
+        "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!"
+      },
+      "es": {
+        "title": "Hotel Transylvania",
+        "overview": "Cuando Mavis está a punto de cumplir 118 años, su padre, el conde Drácula, le prepara una fiesta a la que acuden los mejores amigos de la familia, Frankenstein, Hombre Invisible y la Momia; pero cuando un humano llamado Johnny, un tipo común y corriente, aparece en el hotel de monstruos... lo cambia todo."
+      }
+    },
+    "runtimeMin": 91
+  },
+  {
+    "id": "hotel-transylvania-2-2015",
+    "tmdbId": 159824,
+    "tmdbType": "movie",
+    "title": "Hotel Transylvania 2",
+    "kind": "movie",
+    "releaseDate": "2015-09-21",
+    "imdbId": "tt2510894",
+    "posterPath": "/3nFnrivNgipSKZ8LZJJbRSlAcTR.jpg",
+    "overview": "When the old-old-old-fashioned vampire Vlad arrives at the hotel for an impromptu family get-together, Hotel Transylvania is in for a collision of supernatural old-school and modern day cool.",
+    "localized": {
+      "en": {
+        "title": "Hotel Transylvania 2",
+        "overview": "When the old-old-old-fashioned vampire Vlad arrives at the hotel for an impromptu family get-together, Hotel Transylvania is in for a collision of supernatural old-school and modern day cool."
+      },
+      "es": {
+        "title": "Hotel Transylvania 2",
+        "overview": "Una vez que Mavis y Johnny están fuera del hotel, Drácula y sus amigos tratan de sacar al monstruo interior en su nieto Dennis, mitad humano, mitad vampiro."
+      }
+    },
+    "runtimeMin": 89
+  },
+  {
+    "id": "hotel-transylvania-3-summer-vacation-2018",
+    "tmdbId": 400155,
+    "tmdbType": "movie",
+    "title": "Hotel Transylvania 3: Summer Vacation",
+    "kind": "movie",
+    "releaseDate": "2018-06-28",
+    "imdbId": "tt5220122",
+    "posterPath": "/lzE5BwGQea1nek7TPXUuC5AZ6rq.jpg",
+    "overview": "Dracula, Mavis, Johnny and the rest of the Drac Pack take a vacation on a luxury Monster Cruise Ship, where Dracula falls in love with the ship’s captain, Ericka, who’s secretly a descendant of Abraham Van Helsing, the notorious monster slayer.",
+    "localized": {
+      "en": {
+        "title": "Hotel Transylvania 3: Summer Vacation",
+        "overview": "Dracula, Mavis, Johnny and the rest of the Drac Pack take a vacation on a luxury Monster Cruise Ship, where Dracula falls in love with the ship’s captain, Ericka, who’s secretly a descendant of Abraham Van Helsing, the notorious monster slayer."
+      },
+      "es": {
+        "title": "Hotel Transylvania 3: Monstruos de vacaciones",
+        "overview": "Mavis y Johnny planean ir con Drácula y sus amigos a unas vacaciones en un crucero de monstruos de lujo, donde Drácula se enamora de la capitana del barco, Ericka, sin que sepan que ella es descendiente de Abraham Van Helsing, el famoso cazador de monstruos."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "hotel-transylvania-transformania-2022",
+    "tmdbId": 585083,
+    "tmdbType": "movie",
+    "title": "Hotel Transylvania: Transformania",
+    "kind": "movie",
+    "releaseDate": "2022-01-31",
+    "imdbId": "tt9848626",
+    "posterPath": "/teCy1egGQa0y8ULJvlrDHQKnxBL.jpg",
+    "overview": "When Van Helsing's mysterious invention, the \"Monsterfication Ray,\" goes haywire, Drac and his monster pals are all transformed into humans, and Johnny becomes a monster. In their new mismatched bodies, Drac and Johnny must team up and race across the globe to find a cure before it's too late, and before they drive each other crazy.",
+    "localized": {
+      "en": {
+        "title": "Hotel Transylvania: Transformania",
+        "overview": "When Van Helsing's mysterious invention, the \"Monsterfication Ray,\" goes haywire, Drac and his monster pals are all transformed into humans, and Johnny becomes a monster. In their new mismatched bodies, Drac and Johnny must team up and race across the globe to find a cure before it's too late, and before they drive each other crazy."
+      },
+      "es": {
+        "title": "Hotel Transylvania 4: Transformanía",
+        "overview": "Al sentirse que no pertenece en el hotel lleno de monstruos, Johnny se cruza con Van Helsing y su nuevo invento, el \"Rayo Monstruificante\", permitiendo que Johnny se convierta en un monstruo, pero con la consecuencia de que Drácula y sus amigos monstruosos se transforman en humanos."
+      }
+    },
+    "runtimeMin": 92
   }
 ]

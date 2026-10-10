@@ -1,0 +1,2 @@
+- Shrek, a solitary ogre, must rescue Princess Fiona to get his swamp back.
+- Donkey accompanies him along the way.

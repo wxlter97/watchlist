@@ -1,0 +1,164 @@
+{
+  "id": "ice-age",
+  "name": {
+    "es": "La era de hielo",
+    "en": "Ice Age"
+  },
+  "description": {
+    "es": "Manny, Sid, Diego y la ardilla Scrat: las cinco películas y el spin-off de Buck.",
+    "en": "Manny, Sid, Diego and Scrat the squirrel: the five films and Buck's spin-off."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "La era de hielo",
+        "en": "Ice Age"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cinco películas y el spin-off.",
+        "en": "The five films and the spin-off."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "ice-age-2002",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "manny",
+        "sid",
+        "diego",
+        "scrat"
+      ]
+    },
+    {
+      "titleId": "ice-age-the-meltdown-2006",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "manny",
+        "sid",
+        "diego",
+        "scrat"
+      ]
+    },
+    {
+      "titleId": "ice-age-dawn-of-the-dinosaurs-2009",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "manny",
+        "sid",
+        "diego",
+        "scrat"
+      ]
+    },
+    {
+      "titleId": "ice-age-continental-drift-2012",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "manny",
+        "sid",
+        "diego",
+        "scrat"
+      ]
+    },
+    {
+      "titleId": "ice-age-collision-course-2016",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "manny",
+        "sid",
+        "diego",
+        "scrat"
+      ]
+    },
+    {
+      "titleId": "the-ice-age-adventures-of-buck-wild-2022",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 60,
+      "characters": [
+        "buck"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "manny",
+        "name": {
+          "es": "Manny",
+          "en": "Manny"
+        }
+      },
+      {
+        "id": "sid",
+        "name": {
+          "es": "Sid",
+          "en": "Sid"
+        }
+      },
+      {
+        "id": "diego",
+        "name": {
+          "es": "Diego",
+          "en": "Diego"
+        }
+      },
+      {
+        "id": "scrat",
+        "name": {
+          "es": "Scrat",
+          "en": "Scrat"
+        }
+      },
+      {
+        "id": "buck",
+        "name": {
+          "es": "Buck",
+          "en": "Buck"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,2 @@
+- Skipper, Kowalski, Rico and Private join the undercover group the North Wind.
+- They stop Dr. Octavius Brine.

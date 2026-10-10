@@ -1,0 +1,1 @@
+- The animals' plane crashes in Africa, where Alex finds his family.

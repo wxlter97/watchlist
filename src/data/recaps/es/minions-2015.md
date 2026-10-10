@@ -1,0 +1,2 @@
+- Stuart, Kevin y Bob son reclutados por la supervillana Scarlet Overkill.
+- Ella y su esposo planean conquistar el mundo.

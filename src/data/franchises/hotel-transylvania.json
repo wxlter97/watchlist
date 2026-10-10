@@ -1,0 +1,114 @@
+{
+  "id": "hotel-transylvania",
+  "name": {
+    "es": "Hotel Transilvania",
+    "en": "Hotel Transylvania"
+  },
+  "description": {
+    "es": "Drácula, Mavis y su hotel para monstruos: las cuatro películas.",
+    "en": "Dracula, Mavis and their hotel for monsters: the four films."
+  },
+  "accentColor": "#7C3AED",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Películas",
+        "en": "Films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las cuatro películas, en orden.",
+        "en": "The four films, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "hotel-transylvania-2012",
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "dracula",
+        "mavis"
+      ]
+    },
+    {
+      "titleId": "hotel-transylvania-2-2015",
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "dracula",
+        "mavis"
+      ]
+    },
+    {
+      "titleId": "hotel-transylvania-3-summer-vacation-2018",
+      "continuityId": "main",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "dracula",
+        "mavis"
+      ]
+    },
+    {
+      "titleId": "hotel-transylvania-transformania-2022",
+      "continuityId": "main",
+      "importance": "skippable",
+      "chronoOrder": 40,
+      "characters": [
+        "dracula",
+        "mavis"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "dracula",
+        "name": {
+          "es": "Drácula",
+          "en": "Dracula"
+        }
+      },
+      {
+        "id": "mavis",
+        "name": {
+          "es": "Mavis",
+          "en": "Mavis"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

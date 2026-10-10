@@ -1,0 +1,1 @@
+- Gru and Lucy must stop Balthazar Bratt, a former 80s child star.
