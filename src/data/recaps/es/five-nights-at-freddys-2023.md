@@ -1,0 +1,2 @@
+- Mike empieza a trabajar como guardia nocturno en Freddy Fazbear's Pizza.
+- Descubre que los animatrónicos cobran vida de noche y que su pasado está ligado al lugar.

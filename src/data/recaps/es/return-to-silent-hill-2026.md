@@ -1,0 +1,2 @@
+- James recibe una carta de Mary, su amor perdido, y viaja a Silent Hill.
+- El pueblo, hundido en la niebla, lo enfrenta a su pasado.

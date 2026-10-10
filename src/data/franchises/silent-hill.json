@@ -1,0 +1,120 @@
+{
+  "id": "silent-hill",
+  "name": {
+    "es": "Silent Hill",
+    "en": "Silent Hill"
+  },
+  "description": {
+    "es": "El pueblo envuelto en niebla: las películas basadas en la saga de terror de Konami.",
+    "en": "The fog-shrouded town: the films based on Konami's horror saga."
+  },
+  "accentColor": "#3F3F46",
+  "continuities": [
+    {
+      "id": "films",
+      "name": {
+        "es": "Primeras películas",
+        "en": "First films"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Silent Hill y su secuela directa.",
+        "en": "Silent Hill and its direct sequel."
+      }
+    },
+    {
+      "id": "return",
+      "name": {
+        "es": "Return to Silent Hill",
+        "en": "Return to Silent Hill"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Nueva adaptación independiente, centrada en James y Mary.",
+        "en": "A new standalone adaptation focused on James and Mary."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "silent-hill-2006",
+      "continuityId": "films",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "rose-da-silva"
+      ]
+    },
+    {
+      "titleId": "silent-hill-revelation-2012",
+      "continuityId": "films",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "characters": [
+        "heather-mason"
+      ]
+    },
+    {
+      "titleId": "return-to-silent-hill-2026",
+      "continuityId": "return",
+      "importance": "recommended",
+      "chronoOrder": 10,
+      "characters": [
+        "james-sunderland"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "rose-da-silva",
+        "name": {
+          "es": "Rose Da Silva",
+          "en": "Rose Da Silva"
+        }
+      },
+      {
+        "id": "heather-mason",
+        "name": {
+          "es": "Heather Mason",
+          "en": "Heather Mason"
+        }
+      },
+      {
+        "id": "james-sunderland",
+        "name": {
+          "es": "James Sunderland",
+          "en": "James Sunderland"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

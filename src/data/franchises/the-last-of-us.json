@@ -1,0 +1,104 @@
+{
+  "id": "the-last-of-us",
+  "name": {
+    "es": "The Last of Us",
+    "en": "The Last of Us"
+  },
+  "description": {
+    "es": "Joel y Ellie en un mundo devastado por una infección: la serie de HBO basada en el videojuego.",
+    "en": "Joel and Ellie in a world ravaged by an infection: the HBO series based on the game."
+  },
+  "accentColor": "#166534",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos temporadas de la serie.",
+        "en": "The series' two seasons."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "the-last-of-us-2023",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "joel-miller",
+        "ellie-williams"
+      ]
+    },
+    {
+      "titleId": "the-last-of-us-2023",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "joel-miller",
+        "ellie-williams",
+        "abby-anderson"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "joel-miller",
+        "name": {
+          "es": "Joel Miller",
+          "en": "Joel Miller"
+        }
+      },
+      {
+        "id": "ellie-williams",
+        "name": {
+          "es": "Ellie Williams",
+          "en": "Ellie Williams"
+        }
+      },
+      {
+        "id": "abby-anderson",
+        "name": {
+          "es": "Abby Anderson",
+          "en": "Abby Anderson"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

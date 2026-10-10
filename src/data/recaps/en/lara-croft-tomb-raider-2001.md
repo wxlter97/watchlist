@@ -1,0 +1,1 @@
+- Archaeologist Lara Croft must find an ancient artifact with cosmic powers before it falls into the wrong hands.

@@ -1,0 +1,2 @@
+- **Temporada 1:** John Doe, sin recuerdos de su pasado, debe entregar un paquete a través de un páramo posapocalíptico.
+- **Temporada 2:** la historia sigue con nuevos peligros.

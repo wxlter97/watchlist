@@ -1,0 +1,2 @@
+- **Season 1:** Lara sets off on a worldwide adventure to unravel an ancient mystery while facing her past traumas.
+- **Season 2:** the story continues with new dangers.

@@ -1,0 +1,96 @@
+{
+  "id": "twisted-metal",
+  "name": {
+    "es": "Twisted Metal",
+    "en": "Twisted Metal"
+  },
+  "description": {
+    "es": "Carreras y combates de coches en un páramo posapocalíptico: la serie de Peacock.",
+    "en": "Car races and combat in a post-apocalyptic wasteland: the Peacock series."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos temporadas de la serie.",
+        "en": "The series' two seasons."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "twisted-metal-2023",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "john-doe",
+        "sweet-tooth"
+      ]
+    },
+    {
+      "titleId": "twisted-metal-2023",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "john-doe",
+        "sweet-tooth"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "john-doe",
+        "name": {
+          "es": "John Doe",
+          "en": "John Doe"
+        }
+      },
+      {
+        "id": "sweet-tooth",
+        "name": {
+          "es": "Sweet Tooth",
+          "en": "Sweet Tooth"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

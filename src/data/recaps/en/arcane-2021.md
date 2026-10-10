@@ -1,0 +1,2 @@
+- **Season 1:** sisters Vi and Jinx grow up in Zaun and are separated while tension with Piltover rises.
+- **Season 2:** war between the two cities breaks out and the sisters' bond is tested.

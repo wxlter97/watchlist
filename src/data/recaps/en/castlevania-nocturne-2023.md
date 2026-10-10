@@ -1,0 +1,2 @@
+- **Season 1:** Richter Belmont defends his family's legacy during the French Revolution and faces a powerful vampire.
+- **Season 2:** the conflict with the vampire sovereign continues.

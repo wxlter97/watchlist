@@ -1,0 +1,2 @@
+- **Season 1:** John Doe, with no memory of his past, must deliver a package across a post-apocalyptic wasteland.
+- **Season 2:** the story continues with new dangers.

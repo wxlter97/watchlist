@@ -1,0 +1,2 @@
+- **Temporada 1:** Richter Belmont defiende el legado de su familia en plena Revolución Francesa y se enfrenta a una poderosa vampira.
+- **Temporada 2:** el conflicto con la soberana vampira continúa.

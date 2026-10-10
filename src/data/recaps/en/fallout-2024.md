@@ -1,0 +1,2 @@
+- **Season 1:** Lucy leaves Vault 33 to find her father and crosses paths with the Ghoul and Maximus, a Brotherhood of Steel aspirant.
+- **Season 2:** the journey continues toward New Vegas.

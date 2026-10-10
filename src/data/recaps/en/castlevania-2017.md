@@ -1,0 +1,4 @@
+- **Season 1:** Dracula launches his revenge on Wallachia and Trevor Belmont appears as a defender of the city.
+- **Season 2:** Trevor, Sypha and Alucard join forces against Dracula's army.
+- **Season 3:** Dracula's demons turn on each other and the conflict continues.
+- **Season 4:** the story heads to its ending.

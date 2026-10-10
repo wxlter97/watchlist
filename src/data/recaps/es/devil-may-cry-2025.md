@@ -1,0 +1,2 @@
+- **Temporada 1:** Dante, un cazador de demonios, se ve envuelto en una lucha entre el bien y el mal.
+- **Temporada 2:** la historia continúa.

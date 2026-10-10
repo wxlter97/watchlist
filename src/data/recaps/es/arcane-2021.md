@@ -1,0 +1,2 @@
+- **Temporada 1:** las hermanas Vi y Jinx crecen en Zaun y se separan, mientras la tensión con Piltóver aumenta.
+- **Temporada 2:** la guerra entre las dos ciudades estalla y la relación de las hermanas se pone a prueba.

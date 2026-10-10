@@ -1,0 +1,105 @@
+{
+  "id": "fallout",
+  "name": {
+    "es": "Fallout",
+    "en": "Fallout"
+  },
+  "description": {
+    "es": "Lucy sale del refugio 33 a un yermo posnuclear: la serie de Prime Video basada en los videojuegos.",
+    "en": "Lucy leaves Vault 33 for a post-nuclear wasteland: the Prime Video series based on the games."
+  },
+  "accentColor": "#4D7C0F",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las dos temporadas de la serie.",
+        "en": "The series' two seasons."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "fallout-2024",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "lucy-maclean",
+        "the-ghoul",
+        "maximus"
+      ]
+    },
+    {
+      "titleId": "fallout-2024",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "lucy-maclean",
+        "the-ghoul",
+        "maximus"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "lucy-maclean",
+        "name": {
+          "es": "Lucy MacLean",
+          "en": "Lucy MacLean"
+        }
+      },
+      {
+        "id": "the-ghoul",
+        "name": {
+          "es": "El Necrófago",
+          "en": "The Ghoul"
+        }
+      },
+      {
+        "id": "maximus",
+        "name": {
+          "es": "Maximus",
+          "en": "Maximus"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

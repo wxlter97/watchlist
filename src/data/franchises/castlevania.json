@@ -1,0 +1,149 @@
+{
+  "id": "castlevania",
+  "name": {
+    "es": "Castlevania",
+    "en": "Castlevania"
+  },
+  "description": {
+    "es": "La familia Belmont contra Drácula: la serie animada de Netflix y su secuela, Nocturne.",
+    "en": "The Belmont family against Dracula: Netflix's animated series and its sequel, Nocturne."
+  },
+  "accentColor": "#7F1D1D",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie animada",
+        "en": "Animated series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Castlevania y su secuela Nocturne, en orden.",
+        "en": "Castlevania and its sequel Nocturne, in order."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "castlevania-2017",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "trevor-belmont",
+        "alucard"
+      ]
+    },
+    {
+      "titleId": "castlevania-2017",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 20,
+      "characters": [
+        "trevor-belmont",
+        "alucard"
+      ]
+    },
+    {
+      "titleId": "castlevania-2017",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "trevor-belmont",
+        "alucard"
+      ]
+    },
+    {
+      "titleId": "castlevania-2017",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "essential",
+      "chronoOrder": 40,
+      "characters": [
+        "trevor-belmont",
+        "alucard"
+      ]
+    },
+    {
+      "titleId": "castlevania-nocturne-2023",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 50,
+      "characters": [
+        "richter-belmont"
+      ],
+      "chronoNote": {
+        "es": "Transcurre unos tres siglos después de Castlevania",
+        "en": "Set about three centuries after Castlevania"
+      }
+    },
+    {
+      "titleId": "castlevania-nocturne-2023",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "richter-belmont"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "trevor-belmont",
+        "name": {
+          "es": "Trevor Belmont",
+          "en": "Trevor Belmont"
+        }
+      },
+      {
+        "id": "alucard",
+        "name": {
+          "es": "Alucard",
+          "en": "Alucard"
+        }
+      },
+      {
+        "id": "richter-belmont",
+        "name": {
+          "es": "Richter Belmont",
+          "en": "Richter Belmont"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

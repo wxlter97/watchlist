@@ -28919,5 +28919,501 @@
       }
     },
     "runtimeMin": 100
+  },
+  {
+    "id": "fallout-2024",
+    "tmdbId": 106379,
+    "tmdbType": "tv",
+    "title": "Fallout",
+    "kind": "series",
+    "releaseDate": "2024-04-10",
+    "imdbId": "tt12637874",
+    "posterPath": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+    "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
+    "localized": {
+      "en": {
+        "title": "Fallout",
+        "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them."
+      },
+      "es": {
+        "title": "Fallout",
+        "overview": "Basado en una de las mejores series de videojuegos de todos los tiempos, Fallout es la historia de los que tienen y los que no tienen en un mundo en el que ya casi no queda nada que tener. 200 años después del apocalipsis, los amables habitantes de los lujosos refugios nucleares se ven obligados a regresar al infierno irradiado que sus antepasados dejaron atrás y se sorprenden al descubrir un universo increíblemente complejo, alegremente extraño y altamente violento esperándolos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2024-04-10"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-12-16"
+      }
+    ],
+    "runtimeMin": 922,
+    "ongoing": true
+  },
+  {
+    "id": "the-last-of-us-2023",
+    "tmdbId": 100088,
+    "tmdbType": "tv",
+    "title": "The Last of Us",
+    "kind": "series",
+    "releaseDate": "2023-01-15",
+    "imdbId": "tt3581920",
+    "posterPath": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+    "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+    "localized": {
+      "en": {
+        "title": "The Last of Us",
+        "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival."
+      },
+      "es": {
+        "title": "The Last of Us",
+        "overview": "Veinte años después de la destrucción de la civilización moderna, Joel, un aguerrido superviviente, es contratado para sacar a Ellie, una joven de 14 años, de una opresiva zona de cuarentena. Lo que empieza como un trabajo sencillo pronto se convierte en un viaje brutal y desgarrador, ya que ambos deben atravesar Estados Unidos y depender el uno del otro para sobrevivir."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9,
+        "airDate": "2023-01-15"
+      },
+      {
+        "number": 2,
+        "episodes": 7,
+        "airDate": "2025-04-13"
+      }
+    ],
+    "runtimeMin": 915,
+    "ongoing": true
+  },
+  {
+    "id": "arcane-2021",
+    "tmdbId": 94605,
+    "tmdbType": "tv",
+    "title": "Arcane",
+    "kind": "series",
+    "releaseDate": "2021-11-06",
+    "imdbId": "tt11126994",
+    "posterPath": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
+    "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+    "localized": {
+      "en": {
+        "title": "Arcane",
+        "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions."
+      },
+      "es": {
+        "title": "Arcane",
+        "overview": "Mientras la discordia separa las ciudades gemelas de Piltóver y Zaun, dos hermanas se enfrentan en una guerra feroz entre tecnologías mágicas y convicciones opuestas."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9,
+        "airDate": "2021-11-06"
+      },
+      {
+        "number": 2,
+        "episodes": 9,
+        "airDate": "2024-11-09"
+      }
+    ],
+    "runtimeMin": 758
+  },
+  {
+    "id": "castlevania-2017",
+    "tmdbId": 71024,
+    "tmdbType": "tv",
+    "title": "Castlevania",
+    "kind": "series",
+    "releaseDate": "2017-07-07",
+    "imdbId": "tt6517102",
+    "posterPath": "/WzFHnJY44uDERER0xi1jOdoafT.jpg",
+    "overview": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
+    "localized": {
+      "en": {
+        "title": "Castlevania",
+        "overview": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself."
+      },
+      "es": {
+        "title": "Castlevania",
+        "overview": "Un cazavampiros lucha por salvar una ciudad asediada por un ejército de bestias controladas por Drácula."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 4,
+        "airDate": "2017-07-07"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2018-10-26"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2020-03-05"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2021-05-13"
+      }
+    ],
+    "runtimeMin": 837
+  },
+  {
+    "id": "castlevania-nocturne-2023",
+    "tmdbId": 123548,
+    "tmdbType": "tv",
+    "title": "Castlevania: Nocturne",
+    "kind": "series",
+    "releaseDate": "2023-09-28",
+    "imdbId": "tt14833612",
+    "posterPath": "/4XJwo95ktJ7xupw1bCMuP91kyYr.jpg",
+    "overview": "As revolution sweeps France, Richter Belmont fights to uphold his family's legacy and prevent the rise of a ruthless, power-hungry vampire ruler.",
+    "localized": {
+      "en": {
+        "title": "Castlevania: Nocturne",
+        "overview": "As revolution sweeps France, Richter Belmont fights to uphold his family's legacy and prevent the rise of a ruthless, power-hungry vampire ruler."
+      },
+      "es": {
+        "title": "Castlevania: Nocturno",
+        "overview": "Mientras la revolución arrasa con Francia, Richter Belmont lucha por defender el legado de su familia y evitar el ascenso de una despiadada soberana vampira sedienta de poder."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2023-09-28"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-01-16"
+      }
+    ],
+    "runtimeMin": 466
+  },
+  {
+    "id": "silent-hill-2006",
+    "tmdbId": 588,
+    "tmdbType": "movie",
+    "title": "Silent Hill",
+    "kind": "movie",
+    "releaseDate": "2006-04-21",
+    "imdbId": "tt0384537",
+    "posterPath": "/r0bEDWO2w4a43K2xTNSF284qOsc.jpg",
+    "overview": "Rose, a desperate mother, takes her adopted daughter, Sharon, to the town of Silent Hill in an attempt to cure her of her ailment. After a violent car crash, Sharon disappears, and Rose embarks on a horrific journey to get her back and begins to uncover the truth behind the apocalyptic disaster that burned the town 30 years earlier.",
+    "localized": {
+      "en": {
+        "title": "Silent Hill",
+        "overview": "Rose, a desperate mother, takes her adopted daughter, Sharon, to the town of Silent Hill in an attempt to cure her of her ailment. After a violent car crash, Sharon disappears, and Rose embarks on a horrific journey to get her back and begins to uncover the truth behind the apocalyptic disaster that burned the town 30 years earlier."
+      },
+      "es": {
+        "title": "Terror en Silent Hill",
+        "overview": "Tras un violento accidente automovilístico, seguido de la desaparición de su hija adoptiva Sharon. Rose Da Silva, una madre desesperada, emprende en la búsqueda de su hija en la retorcida realidad del pueblo: Silent Hill."
+      }
+    },
+    "runtimeMin": 125
+  },
+  {
+    "id": "silent-hill-revelation-2012",
+    "tmdbId": 61012,
+    "tmdbType": "movie",
+    "title": "Silent Hill: Revelation 3D",
+    "kind": "movie",
+    "releaseDate": "2012-10-10",
+    "imdbId": "tt0938330",
+    "posterPath": "/rkAh9cPkb5PoTzEGWfBkhdFNIsf.jpg",
+    "overview": "Heather Mason and her father have been on the run, always one step ahead of dangerous forces that she doesn't fully understand. Now on the eve of her 18th birthday, plagued by horrific nightmares and the disappearance of her father, Heather discovers she's not who she thinks she is. The revelation leads her deeper into a demonic world that threatens to trap her forever.",
+    "localized": {
+      "en": {
+        "title": "Silent Hill: Revelation 3D",
+        "overview": "Heather Mason and her father have been on the run, always one step ahead of dangerous forces that she doesn't fully understand. Now on the eve of her 18th birthday, plagued by horrific nightmares and the disappearance of her father, Heather discovers she's not who she thinks she is. The revelation leads her deeper into a demonic world that threatens to trap her forever."
+      },
+      "es": {
+        "title": "Terror en Silent Hill 2: La revelación",
+        "overview": "Al cumplir sus 18° cumpleaños, Heather Mason descubre que no es quién cree ser y una revelación puede llevarla a un mundo demoníaco que amenaza con atraparla para siempre."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "return-to-silent-hill-2026",
+    "tmdbId": 680493,
+    "tmdbType": "movie",
+    "title": "Return to Silent Hill",
+    "kind": "movie",
+    "releaseDate": "2026-01-21",
+    "imdbId": "tt22868010",
+    "posterPath": "/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg",
+    "overview": "When James receives a mysterious letter from his lost love Mary, he is drawn to Silent Hill—a once-familiar town now consumed by darkness. As he searches for her, James faces monstrous creatures and unravels a terrifying truth that will push him to the edge of his sanity.",
+    "localized": {
+      "en": {
+        "title": "Return to Silent Hill",
+        "overview": "When James receives a mysterious letter from his lost love Mary, he is drawn to Silent Hill—a once-familiar town now consumed by darkness. As he searches for her, James faces monstrous creatures and unravels a terrifying truth that will push him to the edge of his sanity."
+      },
+      "es": {
+        "title": "Terror en Silent Hill: Regreso al infierno",
+        "overview": "Cuando James recibe una misteriosa carta de Mary, su amor perdido, se siente atraído por Silent Hill, un pueblo que antes le era familiar y ahora está sumido en la oscuridad."
+      }
+    },
+    "runtimeMin": 106
+  },
+  {
+    "id": "lara-croft-tomb-raider-2001",
+    "tmdbId": 1995,
+    "tmdbType": "movie",
+    "title": "Lara Croft: Tomb Raider",
+    "kind": "movie",
+    "releaseDate": "2001-06-15",
+    "imdbId": "tt0146316",
+    "posterPath": "/sJpl1EfHGZhbKtZ3fWTlwrpM1tH.jpg",
+    "overview": "Orphaned heiress, English aristocrat and intrepid archaeologist, Lara Croft, embarks on a dangerous quest to retrieve the two halves of an ancient artifact which controls time before it falls into the wrong hands. As an extremely rare planetary alignment is about to occur for the first time in 5,000 years, the fearless tomb raider will have to team up with rival adventurers and sworn enemies to collect the pieces, while time is running out. But, in the end, who can harness the archaic talisman's unlimited power?",
+    "localized": {
+      "en": {
+        "title": "Lara Croft: Tomb Raider",
+        "overview": "Orphaned heiress, English aristocrat and intrepid archaeologist, Lara Croft, embarks on a dangerous quest to retrieve the two halves of an ancient artifact which controls time before it falls into the wrong hands. As an extremely rare planetary alignment is about to occur for the first time in 5,000 years, the fearless tomb raider will have to team up with rival adventurers and sworn enemies to collect the pieces, while time is running out. But, in the end, who can harness the archaic talisman's unlimited power?"
+      },
+      "es": {
+        "title": "Lara Croft: Tomb Raider",
+        "overview": "La intrépida arqueóloga Lara Croft está en una carrera contra el tiempo para encontrar un antiguo artefacto con poderes cósmicos antes de que caiga en manos equivocadas. Con impresionantes acrobacias, emocionantes escenas de acción y un toque de misterio, Lara se embarca en una aventura global llena de peligros y revelaciones sobre su propio pasado."
+      }
+    },
+    "runtimeMin": 100
+  },
+  {
+    "id": "lara-croft-tomb-raider-the-cradle-of-life-2003",
+    "tmdbId": 1996,
+    "tmdbType": "movie",
+    "title": "Lara Croft: Tomb Raider - The Cradle of Life",
+    "kind": "movie",
+    "releaseDate": "2003-07-21",
+    "imdbId": "tt0325703",
+    "posterPath": "/ylIEGeAr2ygSClK4FDj9mi2Ah22.jpg",
+    "overview": "Off the coast of the volcanic island of Santorini, the intrepid archaeologist Lara Croft makes the unexpected discovery of a pulsating golden orb able to guide its holder to the mythical Pandora's Box. As the legendary artifact contains ancient mysteries of unfathomable power - said to contain one of the deadliest plagues on Earth, Lara is tasked by MI6 to make sure it doesn't fall into the wrong hands. With the aid of former Marine turned mercenary Terry Sheridan, she travels the world in pursuit of the precious item in a race against time; she must beat the unscrupulous Nobel Prize-winning scientist turned bioterrorist, Jonathan Reiss, to it.",
+    "localized": {
+      "en": {
+        "title": "Lara Croft: Tomb Raider - The Cradle of Life",
+        "overview": "Off the coast of the volcanic island of Santorini, the intrepid archaeologist Lara Croft makes the unexpected discovery of a pulsating golden orb able to guide its holder to the mythical Pandora's Box. As the legendary artifact contains ancient mysteries of unfathomable power - said to contain one of the deadliest plagues on Earth, Lara is tasked by MI6 to make sure it doesn't fall into the wrong hands. With the aid of former Marine turned mercenary Terry Sheridan, she travels the world in pursuit of the precious item in a race against time; she must beat the unscrupulous Nobel Prize-winning scientist turned bioterrorist, Jonathan Reiss, to it."
+      },
+      "es": {
+        "title": "Lara Croft: Tomb Raider - La cuna de la vida",
+        "overview": "Enfrentándose a nuevos y mayores peligros y desafíos, Lara Croft muestra sus poderes físicos en otra trepidante aventura. La intrépida heroína viajará a un templo sumergido bajo el agua en busca de la legendaria \"Caja de Pandora\", pero antes de que llegue, un banda de criminales chinos, liderados por Chen Lo, consigue apoderarse del preciado objeto. Lara tendrá que detenerlos antes de que lo usen con fines maléficos."
+      }
+    },
+    "runtimeMin": 117
+  },
+  {
+    "id": "tomb-raider-2018",
+    "tmdbId": 338970,
+    "tmdbType": "movie",
+    "title": "Tomb Raider",
+    "kind": "movie",
+    "releaseDate": "2018-03-05",
+    "imdbId": "tt1365519",
+    "posterPath": "/s4Qn5LF6OwK4rIifmthIDtbqDSs.jpg",
+    "overview": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she finds herself on the island where her father disappeared.",
+    "localized": {
+      "en": {
+        "title": "Tomb Raider",
+        "overview": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she finds herself on the island where her father disappeared."
+      },
+      "es": {
+        "title": "Tomb Raider: Las aventuras de Lara Croft",
+        "overview": "Lara Croft es una joven e inexperta arqueóloga que se embarcará en su primera aventura para terminar la investigación arqueológica iniciada por su padre, y descubrir así antiguos secretos con el fin de limpiar el deshonrado nombre de su progenitor. Esta expedición llena de peligros será una lucha por la supervivencia, con nuevas pruebas y nuevos enemigos, en la que Croft, poco a poco, se irá convirtiendo en la heroína que todos conocemos. La historia de una mujer corriente que descubre su carácter de luchadora al verse obligada a poner a prueba sus habilidades de lucha con el único propósito de salir con vida."
+      }
+    },
+    "runtimeMin": 118
+  },
+  {
+    "id": "tomb-raider-the-legend-of-lara-croft-2024",
+    "tmdbId": 117830,
+    "tmdbType": "tv",
+    "title": "Tomb Raider: The Legend of Lara Croft",
+    "kind": "series",
+    "releaseDate": "2024-10-10",
+    "imdbId": "tt13930822",
+    "posterPath": "/hBqYte464epKcSaOufl3SXPqKfj.jpg",
+    "overview": "Thrust into a high-stakes chase around the world, fearless adventurer Lara Croft confronts her traumatic past while unraveling an ancient mystery.",
+    "localized": {
+      "en": {
+        "title": "Tomb Raider: The Legend of Lara Croft",
+        "overview": "Thrust into a high-stakes chase around the world, fearless adventurer Lara Croft confronts her traumatic past while unraveling an ancient mystery."
+      },
+      "es": {
+        "title": "Tomb Raider: La leyenda de Lara Croft",
+        "overview": "Mientras enfrenta los traumas del pasado, la valiente aventurera Lara Croft emprende una peligrosa aventura alrededor del mundo para descifrar un antiguo misterio."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2024-10-10"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2025-12-11"
+      }
+    ],
+    "runtimeMin": 433
+  },
+  {
+    "id": "halo-2022",
+    "tmdbId": 52814,
+    "tmdbType": "tv",
+    "title": "Halo",
+    "kind": "series",
+    "releaseDate": "2022-03-24",
+    "imdbId": "tt2934286",
+    "posterPath": "/4UmNhZCEu8Vt3byMvNxNEPyf8EY.jpg",
+    "overview": "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
+    "localized": {
+      "en": {
+        "title": "Halo",
+        "overview": "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future."
+      },
+      "es": {
+        "title": "Halo",
+        "overview": "Representando un conflicto épico del siglo 26 entre la humanidad y una amenaza alienígena conocida como el Pacto, la serie teje historias personales profundamente dibujadas con acción, aventura y una visión ricamente imaginada del futuro."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9,
+        "airDate": "2022-03-24"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2024-02-08"
+      }
+    ],
+    "runtimeMin": 886
+  },
+  {
+    "id": "five-nights-at-freddys-2023",
+    "tmdbId": 507089,
+    "tmdbType": "movie",
+    "title": "Five Nights at Freddy's",
+    "kind": "movie",
+    "releaseDate": "2023-10-25",
+    "imdbId": "tt4589218",
+    "posterPath": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
+    "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
+    "localized": {
+      "en": {
+        "title": "Five Nights at Freddy's",
+        "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems."
+      },
+      "es": {
+        "title": "Five Nights at Freddy's",
+        "overview": "Un guardia de seguridad con problemas comienza a trabajar en Freddy Fazbear's Pizza. Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de superar."
+      }
+    },
+    "runtimeMin": 110
+  },
+  {
+    "id": "five-nights-at-freddys-2-2025",
+    "tmdbId": 1228246,
+    "tmdbType": "movie",
+    "title": "Five Nights at Freddy's 2",
+    "kind": "movie",
+    "releaseDate": "2025-12-03",
+    "imdbId": "tt30274401",
+    "posterPath": "/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+    "overview": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
+    "localized": {
+      "en": {
+        "title": "Five Nights at Freddy's 2",
+        "overview": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror."
+      },
+      "es": {
+        "title": "Five Nights at Freddy's 2",
+        "overview": "Un año después de los sucesos de Freddy Fazbear's Pizza, y con la llegada de un nuevo Faszfest al pueblo. Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy con oscuros secretos revelándose."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "twisted-metal-2023",
+    "tmdbId": 133748,
+    "tmdbType": "tv",
+    "title": "Twisted Metal",
+    "kind": "series",
+    "releaseDate": "2023-07-27",
+    "imdbId": "tt14261112",
+    "posterPath": "/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg",
+    "overview": "A motor-mouthed outsider with no memory of his past is offered a chance at a better life, but only if he can successfully deliver a mysterious package across a post-apocalyptic wasteland. With the help of a badass axe-wielding car thief, he’ll face savage marauders driving vehicles of destruction and other dangers of the open road, including a deranged clown who drives an all too familiar ice cream truck.",
+    "localized": {
+      "en": {
+        "title": "Twisted Metal",
+        "overview": "A motor-mouthed outsider with no memory of his past is offered a chance at a better life, but only if he can successfully deliver a mysterious package across a post-apocalyptic wasteland. With the help of a badass axe-wielding car thief, he’ll face savage marauders driving vehicles of destruction and other dangers of the open road, including a deranged clown who drives an all too familiar ice cream truck."
+      },
+      "es": {
+        "title": "Twisted Metal",
+        "overview": "John Doe, un forastero charlatán sin recuerdos de su pasado, debe lograr entregar con éxito un misterioso paquete a través de un páramo postapocalíptico para obtener una oportunidad de tener una vida mejor."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2023-07-27"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2025-07-31"
+      }
+    ],
+    "runtimeMin": 679,
+    "ongoing": true
+  },
+  {
+    "id": "devil-may-cry-2025",
+    "tmdbId": 235930,
+    "tmdbType": "tv",
+    "title": "Devil May Cry",
+    "kind": "series",
+    "releaseDate": "2025-04-03",
+    "imdbId": "tt15716776",
+    "posterPath": "/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "overview": "In this epic battle of good vs. evil, the lines are blurry as hell. But a devilishly handsome demon hunter could be the world's best hope for salvation.",
+    "localized": {
+      "en": {
+        "title": "Devil May Cry",
+        "overview": "In this epic battle of good vs. evil, the lines are blurry as hell. But a devilishly handsome demon hunter could be the world's best hope for salvation."
+      },
+      "es": {
+        "title": "Devil May Cry",
+        "overview": "En esta épica batalla entre el bien y el mal, los límites son difusos. Pero un cazador de demonios endiabladamente guapo podría ser la mejor opción para salvar al mundo."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2025-04-03"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2026-05-12"
+      }
+    ],
+    "runtimeMin": 529,
+    "ongoing": true
   }
 ]

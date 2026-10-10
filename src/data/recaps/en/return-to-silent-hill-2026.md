@@ -1,0 +1,2 @@
+- James receives a letter from Mary, his lost love, and travels to Silent Hill.
+- The fog-sunk town confronts him with his past.
