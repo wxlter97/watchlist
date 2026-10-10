@@ -1,0 +1,2 @@
+- Un equipo de mujeres científicas funda un negocio de cazafantasmas en Nueva York.
+- Enfrentan a un villano que quiere desatar fantasmas por la ciudad.

@@ -1,0 +1,2 @@
+- Miyagi entrena a una joven, Julie Pierce, que tiene problemas con la violencia en su escuela.
+- Se enfrenta a una pandilla de compañeros.

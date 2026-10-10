@@ -1,0 +1,2 @@
+- Daryl llega a la costa de Francia sin recordar cómo ni por qué.
+- Protege a un niño, Laurent, al que ven como un mesías, mientras enfrenta nuevos tipos de muertos.

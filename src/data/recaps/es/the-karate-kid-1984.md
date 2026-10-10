@@ -1,0 +1,3 @@
+- Daniel LaRusso se muda a Los Ángeles y es acosado por alumnos del dojo Cobra Kai, entre ellos Johnny Lawrence.
+- El señor Miyagi lo entrena en karate con tareas como encerar los coches.
+- Daniel llega al torneo de All Valley y vence a Johnny con la patada de la grulla.

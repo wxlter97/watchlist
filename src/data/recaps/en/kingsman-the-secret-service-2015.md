@@ -1,0 +1,3 @@
+- Eggsy is recruited by Harry Hart, a Kingsman agent.
+- He trains alongside other candidates while Harry investigates a tycoon, Valentine.
+- Eggsy ends up saving the world.

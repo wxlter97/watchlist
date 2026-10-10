@@ -1,0 +1,2 @@
+- Ryan finds out his government is hiding a military operation in Colombia.
+- He must choose between loyalty and truth.

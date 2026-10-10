@@ -1,0 +1,2 @@
+- A group of sheltered teens receives a message and leaves for a cross-country journey.
+- They look for the one man who could save the world.

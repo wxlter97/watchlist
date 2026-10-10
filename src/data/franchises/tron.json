@@ -1,0 +1,133 @@
+{
+  "id": "tron",
+  "name": {
+    "es": "Tron",
+    "en": "Tron"
+  },
+  "description": {
+    "es": "El mundo digital de Kevin Flynn: la película de 1982, su secuela, la serie animada y Tron: Ares.",
+    "en": "Kevin Flynn's digital world: the 1982 film, its sequel, the animated series and Tron: Ares."
+  },
+  "accentColor": "#0369A1",
+  "continuities": [
+    {
+      "id": "grid",
+      "name": {
+        "es": "La Red",
+        "en": "The Grid"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Todo ocurre en el mismo mundo: de 1982 a Ares.",
+        "en": "It all takes place in the same world: from 1982 to Ares."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "tron-1982",
+      "continuityId": "grid",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "characters": [
+        "kevin-flynn"
+      ]
+    },
+    {
+      "titleId": "tron-uprising-2012",
+      "continuityId": "grid",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Entre Tron y Tron: Legacy",
+        "en": "Between Tron and Tron: Legacy"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "tron-legacy-2010",
+      "continuityId": "grid",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "chronoNote": {
+        "es": "Casi treinta años después",
+        "en": "Nearly thirty years later"
+      },
+      "characters": [
+        "kevin-flynn",
+        "sam-flynn"
+      ]
+    },
+    {
+      "titleId": "tron-ares-2025",
+      "continuityId": "grid",
+      "importance": "recommended",
+      "chronoOrder": 40,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "prep-tron-ares-2025",
+      "kind": "prep",
+      "name": {
+        "es": "Prepárate para Tron: Ares",
+        "en": "Get ready for Tron: Ares"
+      },
+      "description": {
+        "es": "Con las dos primeras películas basta para entender el mundo.",
+        "en": "The first two films are enough to understand the world."
+      },
+      "titleIds": [
+        "tron-1982",
+        "tron-legacy-2010"
+      ],
+      "targetTitleId": "tron-ares-2025"
+    }
+  ],
+  "tags": {
+    "characters": [
+      {
+        "id": "kevin-flynn",
+        "name": {
+          "es": "Kevin Flynn",
+          "en": "Kevin Flynn"
+        }
+      },
+      {
+        "id": "sam-flynn",
+        "name": {
+          "es": "Sam Flynn",
+          "en": "Sam Flynn"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

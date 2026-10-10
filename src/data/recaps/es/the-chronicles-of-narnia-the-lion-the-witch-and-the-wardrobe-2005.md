@@ -1,0 +1,3 @@
+- Cuatro hermanos evacuados de Londres en la guerra descubren Narnia por un ropero.
+- La Bruja Blanca mantiene el reino en invierno eterno; Edmund la traiciona a los suyos.
+- Aslan se sacrifica por Edmund, resucita y ayuda a derrotar a la Bruja.

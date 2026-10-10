@@ -1,0 +1,3 @@
+- **Season 1:** Geralt, Yennefer and Ciri follow paths that end up converging.
+- **Seasons 2-3:** Geralt protects Ciri from those who hunt her.
+- **Season 4:** the story continues with a new actor as Geralt.

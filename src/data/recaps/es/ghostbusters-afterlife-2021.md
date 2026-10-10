@@ -1,0 +1,2 @@
+- Callie y sus dos hijos, Trevor y Phoebe, llegan a un pueblo de Oklahoma.
+- Descubren su vínculo con los Cazafantasmas originales y el legado de su abuelo.
