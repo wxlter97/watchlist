@@ -1,0 +1,6 @@
+- **Temporada 1:** Jonathan y Joseph Joestar enfrentan a Dio Brando y a los Hombres Pilares en las partes 1 y 2.
+- **Temporada 2:** Jotaro Kujo viaja a Egipto con sus aliados para derrotar a Dio.
+- **Temporada 3:** Josuke Higashikata y sus amigos investigan a un asesino en serie en el pueblo de Morioh.
+- **Temporada 4:** Giorno Giovanna se une a una banda para infiltrarse en la mafia italiana.
+- **Temporada 5:** Jolyne Cujoh es encarcelada y descubre una conspiración.
+- **Temporada 6:** Una carrera a caballo a través de Estados Unidos, en un universo alternativo.

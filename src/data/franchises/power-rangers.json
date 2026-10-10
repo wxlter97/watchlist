@@ -1,0 +1,343 @@
+{
+  "id": "power-rangers",
+  "name": {
+    "es": "Power Rangers",
+    "en": "Power Rangers"
+  },
+  "description": {
+    "es": "Equipos de jóvenes con poderes contra villanos: 30 temporadas, dos películas y un reinicio.",
+    "en": "Teams of young people with powers against villains: 30 seasons, two films and a reboot."
+  },
+  "accentColor": "#B91C1C",
+  "continuities": [
+    {
+      "id": "main",
+      "name": {
+        "es": "Serie",
+        "en": "Series"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "Las 30 temporadas de la serie, de Mighty Morphin a Cosmic Fury.",
+        "en": "The series' 30 seasons, from Mighty Morphin to Cosmic Fury."
+      }
+    },
+    {
+      "id": "movie-1995",
+      "name": {
+        "es": "Película de 1995",
+        "en": "1995 film"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La película de Mighty Morphin, de continuidad propia.",
+        "en": "The Mighty Morphin film, with its own continuity."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "reboot-2017",
+      "name": {
+        "es": "Película de 2017",
+        "en": "2017 film"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Reinicio con un nuevo equipo.",
+        "en": "A reboot with a new team."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "power-rangers-1993",
+      "season": 1,
+      "continuityId": "main",
+      "importance": "essential",
+      "characters": [],
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Primera temporada de Mighty Morphin",
+        "en": "First season of Mighty Morphin"
+      }
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 2,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 3,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 4,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 5,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 6,
+      "continuityId": "main",
+      "importance": "recommended",
+      "characters": [],
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 7,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 8,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 9,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 10,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 11,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 110
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 12,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 120
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 13,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 130
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 14,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 140
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 15,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 150
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 16,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 160
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 17,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 170
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 18,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 180
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 19,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 190
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 20,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 200
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 21,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 210
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 22,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 220
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 23,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 230
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 24,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 240
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 25,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 250
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 26,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 260
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 27,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 270
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 28,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 280
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 29,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 290
+    },
+    {
+      "titleId": "power-rangers-1993",
+      "season": 30,
+      "continuityId": "main",
+      "importance": "optional",
+      "characters": [],
+      "chronoOrder": 300
+    },
+    {
+      "titleId": "mighty-morphin-power-rangers-the-movie-1995",
+      "continuityId": "movie-1995",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "power-rangers-2017",
+      "continuityId": "reboot-2017",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [],
+    "teams": []
+  }
+}

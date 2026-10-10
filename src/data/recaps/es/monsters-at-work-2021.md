@@ -1,0 +1,2 @@
+- **Temporada 1:** Tylor Tuskmon se une a Monsters, Inc. tras la transición a la energía de la risa.
+- **Temporada 2:** la historia en Monsters, Inc. continúa.

@@ -1,0 +1,1 @@
+- **Season 1:** a children's softball team prepares for its championship game, told from the point of view of different characters.

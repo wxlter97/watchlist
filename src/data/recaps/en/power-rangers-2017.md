@@ -1,0 +1,1 @@
+- Five teenagers discover they have powers and must face Rita Repulsa.

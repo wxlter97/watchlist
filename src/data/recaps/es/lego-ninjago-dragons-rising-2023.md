@@ -1,0 +1,4 @@
+- **Temporada 1:** una nueva etapa de la serie.
+- **Temporada 2:** la historia continúa.
+- **Temporada 3:** nuevos retos para los ninjas.
+- **Temporada 4:** el grupo se enfrenta a nuevas amenazas.

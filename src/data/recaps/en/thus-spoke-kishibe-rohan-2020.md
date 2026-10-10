@@ -1,0 +1,1 @@
+- Manga artist Rohan Kishibe and his editor Kyōka Izumi investigate strange cases.

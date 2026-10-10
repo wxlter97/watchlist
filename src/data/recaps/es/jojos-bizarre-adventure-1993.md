@@ -1,0 +1,1 @@
+- Jotaro Kujo viaja con sus aliados para enfrentar a Dio.

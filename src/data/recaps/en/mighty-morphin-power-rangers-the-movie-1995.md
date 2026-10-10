@@ -1,0 +1,1 @@
+- The Rangers lose their powers and must face Ivan Ooze.

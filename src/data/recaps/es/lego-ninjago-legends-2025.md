@@ -1,0 +1,2 @@
+- **Temporada 1 (Monstrosity):** Kai llega a la Tierra de los Monstruos tras 'la Fusión' y lucha por sobrevivir.
+- **Temporada 2 (DuskFall):** la historia de Kai continúa.

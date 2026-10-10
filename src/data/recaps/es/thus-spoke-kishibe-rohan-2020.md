@@ -1,0 +1,1 @@
+- El dibujante Rohan Kishibe y su editora Kyōka Izumi investigan casos extraños.

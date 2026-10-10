@@ -1,0 +1,1 @@
+- **Temporada 1:** Rayo McQueen y Mate viajan por carretera en una aventura episódica.

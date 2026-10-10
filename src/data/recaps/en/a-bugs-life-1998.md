@@ -1,0 +1,1 @@
+- Flik recruits circus bugs to protect his colony from grasshoppers.

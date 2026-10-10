@@ -1,0 +1,2 @@
+- **Temporada 1 (Monstrosity):** Kai arrives in the Land of Monsters after 'the Merge' and fights to survive.
+- **Temporada 2 (DuskFall):** Kai's story continues.

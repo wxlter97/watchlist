@@ -1,0 +1,1 @@
+- A group of teenage ninjas defends their city from Garmadon.

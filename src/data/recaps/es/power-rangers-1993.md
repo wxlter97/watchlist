@@ -1,0 +1,30 @@
+- **Temporada 1 (Mighty Morphin (1)):** cinco adolescentes reciben poderes para defender la Tierra de Rita Repulsa.
+- **Temporada 2 (Mighty Morphin (2)):** llega Lord Zedd y el equipo cambia de formación.
+- **Temporada 3 (Mighty Morphin (3)):** el equipo se renueva y enfrenta nuevas amenazas.
+- **Temporada 4 (Zeo):** un nuevo poder y una nueva formación enfrentan al Imperio Máquina.
+- **Temporada 5 (Turbo):** los Rangers pasan a ser Turbo y enfrentan a Divatox.
+- **Temporada 6 (In Space):** el equipo viaja al espacio y se enfrenta a Astronema.
+- **Temporada 7 (Lost Galaxy):** un nuevo equipo defiende la galaxia perdida de Mirinoi.
+- **Temporada 8 (Lightspeed Rescue):** un equipo de rescatistas combate demonios en Mariner Bay.
+- **Temporada 9 (Time Force):** policías del futuro llegan al presente para detener a un criminal.
+- **Temporada 10 (Wild Force):** los Rangers usan espíritus animales contra los Orgs.
+- **Temporada 11 (Ninja Storm):** jóvenes de una academia ninja se convierten en Rangers.
+- **Temporada 12 (Dino Thunder):** un nuevo equipo con poderes de dinosaurio, guiado por Tommy Oliver.
+- **Temporada 13 (S.P.D.):** la Patrulla Espacial Delta defiende la Tierra en el futuro.
+- **Temporada 14 (Mystic Force):** un equipo con poderes mágicos enfrenta a criaturas oscuras.
+- **Temporada 15 (Operation Overdrive):** el equipo busca artefactos poderosos por el mundo.
+- **Temporada 16 (Jungle Fury):** tres jóvenes entrenados en artes marciales de animales se convierten en Rangers.
+- **Temporada 17 (RPM):** los Rangers defienden la última ciudad humana.
+- **Temporada 18 (Samurai):** los Rangers Samurai enfrentan a los Nighlok.
+- **Temporada 19 (Super Samurai):** la lucha contra los Nighlok continúa.
+- **Temporada 20 (Megaforce):** los Rangers defienden la Tierra de una invasión alienígena.
+- **Temporada 21 (Super Megaforce):** el equipo cuenta con ayuda de los Rangers anteriores.
+- **Temporada 22 (Dino Charge):** los Rangers buscan las Energemas para proteger la Tierra.
+- **Temporada 23 (Dino Super Charge):** la historia continúa con nuevos poderes.
+- **Temporada 24 (Ninja Steel):** un equipo ninja enfrenta a Galvanax.
+- **Temporada 25 (Super Ninja Steel):** el equipo continúa su lucha con nuevos poderes.
+- **Temporada 26 (Beast Morphers (1)):** los Rangers defienden la ciudad Corinth de Evox.
+- **Temporada 27 (Beast Morphers (2)):** la lucha con Evox continúa.
+- **Temporada 28 (Dino Fury (1)):** un nuevo equipo defiende la Tierra con poderes de dinosaurio.
+- **Temporada 29 (Dino Fury (2)):** los Rangers siguen con su misión.
+- **Temporada 30 (Cosmic Fury):** los Rangers Cosmic Fury cierran la etapa de Dino Fury.

@@ -1,0 +1,1 @@
+- Dory, who has memory problems, remembers her parents and sets out to find them.

@@ -1,0 +1,16 @@
+- **Temporada 1 (Rise of the Snakes):** los ninjas enfrentan a las serpientes.
+- **Temporada 2 (Legacy of the Green Ninja):** la búsqueda del Ninja Verde.
+- **Temporada 3 (Rebooted):** los ninjas pasan a un mundo digital.
+- **Temporada 4 (Tournament of Elements):** un torneo reúne a maestros de los elementos.
+- **Temporada 5 (Possession):** los villanos poseen a los ninjas.
+- **Temporada 6 (Skybound):** la historia se traslada a los cielos.
+- **Temporada 7 (Hands of Time):** los ninjas enfrentan una amenaza en el tiempo.
+- **Temporada 8 (Sons of Garmadon):** Lloyd afronta su relación con su padre.
+- **Temporada 9 (Hunted):** los ninjas son perseguidos.
+- **Temporada 10 (March of the Oni):** los Oni amenazan Ninjago.
+- **Temporada 11 (Secrets of the Forbidden Spinjitzu):** los ninjas descubren secretos del Spinjitzu prohibido.
+- **Temporada 12 (Prime Empire):** los ninjas se adentran en un videojuego.
+- **Temporada 13 (Master of the Mountain):** una nueva amenaza en la montaña.
+- **Temporada 14 (The Island):** los ninjas viajan a una isla.
+- **Temporada 15 (Seabound):** los ninjas enfrentan peligros en el mar.
+- **Temporada 16 (Crystalized):** la serie original llega a su final.
