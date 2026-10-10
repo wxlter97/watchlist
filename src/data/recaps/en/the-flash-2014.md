@@ -1,0 +1,2 @@
+- Barry Allen wakes from a coma with super speed and fights metahumans with S.T.A.R. Labs.
+- He searches for whoever killed his mother.

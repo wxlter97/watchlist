@@ -1,0 +1,2 @@
+- Diana, princesa amazona, sale de Themyscira con Steve Trevor para frenar la Primera Guerra Mundial.
+- Cree que Ares está detrás de la guerra.

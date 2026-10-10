@@ -1,0 +1,2 @@
+- Superman returns to Earth after a five-year absence and finds Lois has moved on.
+- Lex Luthor walks free and prepares a scheme with Kryptonian crystals.

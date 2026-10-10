@@ -1,0 +1,3 @@
+- Krypton is destroyed and its son arrives on Earth, raised by the Kents.
+- Clark moves to Metropolis, works at the Daily Planet and meets Lois Lane.
+- He faces Lex Luthor's land-grab scheme involving a missile.

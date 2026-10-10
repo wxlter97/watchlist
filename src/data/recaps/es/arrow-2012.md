@@ -1,0 +1,3 @@
+- Oliver Queen regresa tras cinco años perdido en una isla y combate el crimen como Arrow.
+- Su lista de objetivos da paso a amenazas mayores en Starling City.
+- Su serie origina el resto del Arrowverse.

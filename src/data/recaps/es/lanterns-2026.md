@@ -1,0 +1,1 @@
+- Dos policías intergalácticos, el recluta John Stewart y la leyenda Hal Jordan, investigan un oscuro misterio en la Tierra.

@@ -1,0 +1,2 @@
+- Bruce Wayne and his ward Dick Grayson, secretly Batman and Robin, protect Gotham from supervillains.
+- Each episode is a standalone adventure, often in two parts.

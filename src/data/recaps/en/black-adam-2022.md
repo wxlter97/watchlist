@@ -1,0 +1,1 @@
+- Black Adam wakes after 5,000 years and faces the Justice Society.

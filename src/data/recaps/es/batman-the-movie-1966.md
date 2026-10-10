@@ -1,0 +1,1 @@
+- Batman y Robin enfrentan a un grupo de supervillanos que quiere dominar el mundo con una invención que deshidrata a la gente.

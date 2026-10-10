@@ -1,0 +1,2 @@
+- Diana, an Amazon princess, leaves Themyscira with Steve Trevor to stop World War I.
+- She believes Ares is behind the war.

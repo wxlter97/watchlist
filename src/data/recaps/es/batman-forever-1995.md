@@ -1,0 +1,2 @@
+- Batman enfrenta a Dos Caras y al Acertijo, que roba mentes con un invento.
+- Conoce a Dick Grayson, que se convertirá en Robin.

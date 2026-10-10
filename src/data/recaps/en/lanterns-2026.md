@@ -1,0 +1,1 @@
+- Two intergalactic cops, recruit John Stewart and legend Hal Jordan, investigate a dark Earth-based mystery.

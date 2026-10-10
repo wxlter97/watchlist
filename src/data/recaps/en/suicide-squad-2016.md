@@ -1,0 +1,2 @@
+- Amanda Waller recruits imprisoned villains for a suicide mission.
+- They face the Enchantress, a former ally.

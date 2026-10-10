@@ -1,0 +1,1 @@
+- John Constantine, haunted by his past, defends humanity from dark forces.

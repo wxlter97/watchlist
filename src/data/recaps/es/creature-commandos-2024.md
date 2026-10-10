@@ -1,0 +1,1 @@
+- Un equipo secreto de monstruos encarcelados realiza misiones demasiado peligrosas para humanos.

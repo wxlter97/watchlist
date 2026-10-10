@@ -1,0 +1,2 @@
+- Diana faces Maxwell Lord and Cheetah in 1984.
+- Steve Trevor returns thanks to an artifact.

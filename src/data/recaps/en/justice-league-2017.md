@@ -1,0 +1,2 @@
+- Batman and Wonder Woman gather Flash, Aquaman and Cyborg against Steppenwolf.
+- Superman is resurrected to help them.

@@ -1,0 +1,2 @@
+- Barry travels to the past to save his mother and alters reality.
+- He meets a younger version of himself and General Zod.

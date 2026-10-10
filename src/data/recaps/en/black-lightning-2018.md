@@ -1,0 +1,1 @@
+- Jefferson Pierce takes up his Black Lightning identity again to protect his community.

@@ -1,0 +1,1 @@
+- An executive hires a computer genius to make synthetic kryptonite to defeat Superman.

@@ -1,0 +1,2 @@
+- Peacemaker looks for his place after the Corto Maltese mission.
+- He gets involved with an alien butterfly threat.

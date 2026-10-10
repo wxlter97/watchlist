@@ -1,0 +1,1 @@
+- Batman and Robin face a group of supervillains who want to hold the world for ransom with an invention that dehydrates people.

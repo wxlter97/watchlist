@@ -1,0 +1,1 @@
+- Harley Quinn rompe con el Joker y se une a otras mujeres para proteger a una joven.

@@ -1,0 +1,3 @@
+- Batman desconfía de Superman tras la batalla de Metropolis.
+- Lex Luthor los manipula; los dos se enfrentan y luego se unen contra Doomsday.
+- Superman muere en el combate.

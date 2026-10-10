@@ -1,0 +1,2 @@
+- Arthur Curry descubre que es hijo de la reina de Atlantis.
+- Debe reclamar el trono frente a su hermano Orm.
