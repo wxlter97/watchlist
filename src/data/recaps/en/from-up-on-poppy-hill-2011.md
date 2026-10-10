@@ -1,0 +1,2 @@
+- Umi and Shun work to save their school's old clubhouse.
+- They grow closer in a Japan rebuilding after the war.

@@ -1,0 +1,2 @@
+- Haru saves a cat and is invited to the Kingdom of Cats.
+- She seeks help to avoid marrying the prince.

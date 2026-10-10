@@ -1,0 +1,2 @@
+- Porco Rosso, a cursed former pilot with a pig's face, works as an aerial bounty hunter.
+- He faces an American rival and meets the young Fio.

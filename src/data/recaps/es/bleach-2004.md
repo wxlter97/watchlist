@@ -1,0 +1,2 @@
+- **Temporada 1:** Ichigo, que ve fantasmas, hereda los poderes de la Segadora Rukia y combate a los Hollows.
+- **Temporada 2:** la Guerra Sangrienta de los Mil Años continúa la historia más de una década después.

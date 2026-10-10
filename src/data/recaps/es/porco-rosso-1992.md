@@ -1,0 +1,2 @@
+- Porco Rosso, un ex piloto maldito con rostro de cerdo, cobra recompensas como cazarrecompensas aéreo.
+- Se enfrenta a un rival estadounidense y conoce a la joven Fio.

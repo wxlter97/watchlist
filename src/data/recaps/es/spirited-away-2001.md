@@ -1,0 +1,2 @@
+- Chihiro, de diez años, queda atrapada en un mundo de espíritus.
+- Trabaja en una casa de baños para liberar a sus padres, convertidos en cerdos.

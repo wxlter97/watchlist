@@ -1,0 +1,2 @@
+- Arrietty lives hidden beneath a house with her family of tiny beings.
+- A sick boy discovers her.

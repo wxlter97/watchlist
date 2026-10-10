@@ -1,0 +1,2 @@
+- Unidentified spirits begin appearing en masse in Karakura.
+- Ichigo and Rukia meet Senna, a mysterious shinigami.

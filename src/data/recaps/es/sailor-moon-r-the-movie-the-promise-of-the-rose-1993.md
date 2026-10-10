@@ -1,0 +1,1 @@
+- Un alienígena amigo de Mamoru vuelve para entregarle una flor y desprecia a Usagi y a la Tierra.

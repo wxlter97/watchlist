@@ -1,0 +1,2 @@
+- Jiro, un joven ingeniero, sueña con diseñar aviones hermosos.
+- Su trabajo se cruza con la guerra y el amor.

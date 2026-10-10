@@ -1,0 +1,2 @@
+- Arrietty vive escondida bajo una casa con su familia de seres diminutos.
+- Un niño enfermo la descubre.

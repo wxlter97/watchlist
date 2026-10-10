@@ -1,0 +1,213 @@
+{
+  "id": "battlestar-galactica",
+  "name": {
+    "es": "Battlestar Galactica",
+    "en": "Battlestar Galactica"
+  },
+  "description": {
+    "es": "Los humanos huyen de los cylon: la serie original de 1978 y el reinicio de 2003 con sus derivados.",
+    "en": "Humans flee the Cylons: the original 1978 series and the 2003 reimagining with its spin-offs."
+  },
+  "accentColor": "#1D4ED8",
+  "continuities": [
+    {
+      "id": "re",
+      "name": {
+        "es": "Reinicio (2003)",
+        "en": "Reimagining (2003)"
+      },
+      "canonLevel": "main",
+      "description": {
+        "es": "La miniserie, la serie, las películas y las precuelas.",
+        "en": "The miniseries, the series, the films and the prequels."
+      }
+    },
+    {
+      "id": "original",
+      "name": {
+        "es": "Serie original (1978)",
+        "en": "Original series (1978)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La serie clásica y su secuela, sin relación con el reinicio.",
+        "en": "The classic series and its sequel, unrelated to the reimagining."
+      },
+      "hiddenByDefault": true
+    }
+  ],
+  "entries": [
+    {
+      "titleId": "caprica-2010",
+      "continuityId": "re",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Unos cincuenta y ocho años antes",
+        "en": "About fifty-eight years earlier"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "battlestar-galactica-blood-and-chrome-2012",
+      "continuityId": "re",
+      "importance": "optional",
+      "chronoOrder": 20,
+      "chronoNote": {
+        "es": "Durante la primera guerra cylon",
+        "en": "During the first Cylon war"
+      },
+      "characters": [
+        "william-adama"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-2003",
+      "continuityId": "re",
+      "importance": "essential",
+      "chronoOrder": 30,
+      "characters": [
+        "william-adama",
+        "laura-roslin",
+        "kara-thrace"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-2004",
+      "continuityId": "re",
+      "importance": "essential",
+      "season": 1,
+      "chronoOrder": 40,
+      "characters": [
+        "william-adama",
+        "laura-roslin",
+        "kara-thrace"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-2004",
+      "continuityId": "re",
+      "importance": "essential",
+      "season": 2,
+      "chronoOrder": 50,
+      "characters": [
+        "william-adama",
+        "laura-roslin",
+        "kara-thrace"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-2004",
+      "continuityId": "re",
+      "importance": "essential",
+      "season": 3,
+      "chronoOrder": 60,
+      "characters": [
+        "william-adama",
+        "laura-roslin",
+        "kara-thrace"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-2004",
+      "continuityId": "re",
+      "importance": "essential",
+      "season": 4,
+      "chronoOrder": 70,
+      "characters": [
+        "william-adama",
+        "laura-roslin",
+        "kara-thrace"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-razor-2007",
+      "continuityId": "re",
+      "importance": "recommended",
+      "chronoNote": {
+        "es": "Se estrenó entre las temporadas 3 y 4",
+        "en": "Released between seasons 3 and 4"
+      },
+      "characters": [
+        "william-adama"
+      ]
+    },
+    {
+      "titleId": "battlestar-galactica-the-plan-2009",
+      "continuityId": "re",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Cuenta los hechos desde el lado cylon",
+        "en": "Tells the events from the Cylon side"
+      },
+      "characters": []
+    },
+    {
+      "titleId": "battlestar-galactica-1978",
+      "continuityId": "original",
+      "importance": "optional",
+      "chronoOrder": 10,
+      "characters": []
+    },
+    {
+      "titleId": "galactica-1980",
+      "continuityId": "original",
+      "importance": "skippable",
+      "chronoOrder": 20,
+      "characters": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "release",
+      "type": "release",
+      "name": {
+        "es": "Estreno",
+        "en": "Release"
+      },
+      "description": {
+        "es": "En el orden en que se estrenaron. Ideal para una primera vez.",
+        "en": "In release order. Best for a first watch."
+      }
+    },
+    {
+      "id": "chronological",
+      "type": "chronological",
+      "name": {
+        "es": "Cronológico",
+        "en": "Chronological"
+      },
+      "description": {
+        "es": "En el orden en que ocurren los hechos dentro de la historia.",
+        "en": "In the order events happen in the story."
+      }
+    }
+  ],
+  "routes": [],
+  "tags": {
+    "characters": [
+      {
+        "id": "william-adama",
+        "name": {
+          "es": "William Adama",
+          "en": "William Adama"
+        }
+      },
+      {
+        "id": "laura-roslin",
+        "name": {
+          "es": "Laura Roslin",
+          "en": "Laura Roslin"
+        }
+      },
+      {
+        "id": "kara-thrace",
+        "name": {
+          "es": "Kara «Starbuck» Thrace",
+          "en": "Kara 'Starbuck' Thrace"
+        }
+      }
+    ],
+    "teams": []
+  }
+}

@@ -1,0 +1,1 @@
+- Sailor Galaxia roba el Cristal Dorado de Mamoru y aparecen las misteriosas Sailor Starlights.

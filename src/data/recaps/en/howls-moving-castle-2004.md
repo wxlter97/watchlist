@@ -1,0 +1,2 @@
+- A witch turns Sophie into an old woman.
+- She arrives at the wizard Howl's castle as a war threatens the kingdom.

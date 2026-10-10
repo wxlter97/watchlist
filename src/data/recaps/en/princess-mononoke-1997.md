@@ -1,0 +1,2 @@
+- Ashitaka is marked by a curse and travels west for a cure.
+- He ends up between the people of Irontown and the forest spirits, alongside San.

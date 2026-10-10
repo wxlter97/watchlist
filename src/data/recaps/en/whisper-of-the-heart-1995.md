@@ -1,0 +1,2 @@
+- Shizuku, an avid reader, meets Seiji, a boy who wants to be a violin maker.
+- Both are inspired to pursue their dreams.

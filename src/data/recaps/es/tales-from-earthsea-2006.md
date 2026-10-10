@@ -1,0 +1,2 @@
+- Las cosechas disminuyen y los dragones reaparecen.
+- El archimago Gavilán y el príncipe Arren buscan la causa del desequilibrio.

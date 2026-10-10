@@ -1,0 +1,1 @@
+- Ichigo Kurosaki, a student who sees ghosts, meets Rukia and becomes a Soul Reaper.

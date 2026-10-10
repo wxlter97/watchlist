@@ -1,0 +1,1 @@
+- An alien friend of Mamoru's returns to give him a flower and dislikes Usagi and the planet.

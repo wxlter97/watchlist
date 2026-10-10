@@ -1,0 +1,2 @@
+- Umi y Shun colaboran para salvar el viejo club de su escuela.
+- Se acercan en un Japón que se reconstruye tras la guerra.

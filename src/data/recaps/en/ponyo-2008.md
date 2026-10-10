@@ -1,0 +1,2 @@
+- Ponyo, a goldfish, wants to become a girl after meeting Sosuke.
+- Her wish upsets the balance of the sea.

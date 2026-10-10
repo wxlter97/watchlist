@@ -1,0 +1,2 @@
+- Espíritus sin identidad aparecen en masa en Karakura.
+- Ichigo y Rukia conocen a Senna, una misteriosa shinigami.
