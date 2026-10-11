@@ -1,11 +1,11 @@
-- **Season 1:** Mulder and Scully start investigating inexplicable cases.
-- **Season 2:** the mystery of the cases deepens.
-- **Season 3:** the conspiracy broadens.
-- **Season 4:** the cases mix mystery and conspiracy.
-- **Season 5:** the cases lead into the film.
-- **Season 6:** the series continues after the film.
-- **Season 7:** the story moves forward with cases and mythology.
-- **Season 8:** Mulder is absent and a new agent joins.
-- **Season 9:** the series closes its original run.
-- **Season 10:** Mulder and Scully return after years.
-- **Season 11:** the story resumes with new cases.
+- **Season 1:** Mulder, obsessed with the paranormal since his sister's disappearance, and Scully, his skeptical new partner, begin their investigations.
+- **Season 2:** the X-Files are shut down and Mulder and Scully work apart, though they keep investigating.
+- **Season 3:** Mulder disappears and Scully searches for him, convinced he's alive.
+- **Season 4:** the paranormal cases continue as the Syndicate tightens its hold.
+- **Season 5:** Scully falls ill after her abduction and Mulder searches for a cure.
+- **Season 6:** after Antarctica, the FBI removes Mulder and Scully from the department.
+- **Season 7:** Mulder suffers strange electrical impulses while Scully deciphers symbols on a submerged ship.
+- **Season 8:** Mulder is abducted and Scully searches for him with new allies.
+- **Season 9:** Mulder hides from the alien threat while Scully returns to work with her baby.
+- **Season 10:** fourteen years later, new clues reunite them to investigate a new conspiracy.
+- **Season 11:** Scully wakes up in a hospital and believes she can prevent the events of the previous season.

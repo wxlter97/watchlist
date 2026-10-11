@@ -1,1 +1,1 @@
-- The aliens return twenty years later with a larger threat.
+- Twenty years later, Earth's nations have built a defense program using alien technology, but the invaders return with greater force.

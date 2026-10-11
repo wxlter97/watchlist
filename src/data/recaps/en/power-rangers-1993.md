@@ -1,30 +1,30 @@
-- **Temporada 1 (Mighty Morphin (1)):** five teenagers receive powers to defend Earth from Rita Repulsa.
-- **Temporada 2 (Mighty Morphin (2)):** Lord Zedd arrives and the team changes its lineup.
-- **Temporada 3 (Mighty Morphin (3)):** the team is renewed and faces new threats.
-- **Temporada 4 (Zeo):** a new power and a new lineup face the Machine Empire.
-- **Temporada 5 (Turbo):** the Rangers become Turbo and face Divatox.
-- **Temporada 6 (In Space):** the team travels to space and faces Astronema.
-- **Temporada 7 (Lost Galaxy):** a new team defends the lost galaxy of Mirinoi.
-- **Temporada 8 (Lightspeed Rescue):** a rescue team fights demons in Mariner Bay.
-- **Temporada 9 (Time Force):** police officers from the future arrive in the present to stop a criminal.
-- **Temporada 10 (Wild Force):** the Rangers use animal spirits against the Orgs.
-- **Temporada 11 (Ninja Storm):** young students at a ninja academy become Rangers.
-- **Temporada 12 (Dino Thunder):** a new team with dinosaur powers, mentored by Tommy Oliver.
-- **Temporada 13 (S.P.D.):** Space Patrol Delta defends Earth in the future.
-- **Temporada 14 (Mystic Force):** a team with magical powers faces dark creatures.
-- **Temporada 15 (Operation Overdrive):** the team searches the world for powerful artifacts.
-- **Temporada 16 (Jungle Fury):** three young martial artists trained in animal styles become Rangers.
-- **Temporada 17 (RPM):** the Rangers defend the last human city.
-- **Temporada 18 (Samurai):** the Samurai Rangers face the Nighlok.
-- **Temporada 19 (Super Samurai):** the fight against the Nighlok continues.
-- **Temporada 20 (Megaforce):** the Rangers defend Earth from an alien invasion.
-- **Temporada 21 (Super Megaforce):** the team gets help from previous Rangers.
-- **Temporada 22 (Dino Charge):** the Rangers hunt Energems to protect Earth.
-- **Temporada 23 (Dino Super Charge):** the story continues with new powers.
-- **Temporada 24 (Ninja Steel):** a ninja team faces Galvanax.
-- **Temporada 25 (Super Ninja Steel):** the team continues its fight with new powers.
-- **Temporada 26 (Beast Morphers (1)):** the Rangers defend Corinth City from Evox.
-- **Temporada 27 (Beast Morphers (2)):** the fight against Evox continues.
-- **Temporada 28 (Dino Fury (1)):** a new team defends Earth with dinosaur powers.
-- **Temporada 29 (Dino Fury (2)):** the Rangers continue their mission.
-- **Temporada 30 (Cosmic Fury):** the Cosmic Fury Rangers close the Dino Fury chapter.
+- **Season 1 (Mighty Morphin (1)):** two astronauts accidentally free the witch Rita Repulsa, who attacks Earth; Zordon recruits five teenagers as Power Rangers.
+- **Season 2 (Mighty Morphin (2)):** Lord Zedd arrives to conquer Earth and removes Rita; the Rangers receive the Thunderzords.
+- **Season 3 (Mighty Morphin (3)):** Rito Revolto destroys the Thunderzords and the Rangers gain new ninja powers from Ninjor.
+- **Season 4 (Zeo):** Rita and Zedd are driven from the moon by the Machine Empire and the Rangers switch to Zeo power.
+- **Season 5 (Turbo):** Divatox arrives on Earth for revenge and Justin joins the Turbo team.
+- **Season 6 (In Space):** the Rangers travel to space to help Zordon and meet Andros, the Red Ranger from KO-35.
+- **Season 7 (Lost Galaxy):** a new team protects the settlers aboard the Terra Venture space station.
+- **Season 8 (Lightspeed Rescue):** a rescue team faces demons attacking Mariner Bay.
+- **Season 9 (Time Force):** police officers from the year 3000 travel to 2001 to stop Ransik.
+- **Season 10 (Wild Force):** Cole and four other young people protect Earth from the Orgs using animal spirits.
+- **Season 11 (Ninja Storm):** three ninja academy students become Rangers when Lothor attacks the school.
+- **Season 12 (Dino Thunder):** Tommy, now a teacher in Reefside, guides three students with dinosaur powers.
+- **Season 13 (S.P.D.):** in 2025, the S.P.D. B-Squad defends Earth from the Troobian Empire.
+- **Season 14 (Mystic Force):** a team with magical powers defends the human world from armies of monsters.
+- **Season 15 (Operation Overdrive):** five young people hunt the Corona Aurora gems before Moltor and Flurious do.
+- **Season 16 (Jungle Fury):** a kung fu clan protects the world from the evil spirit Dai Shi.
+- **Season 17 (RPM):** the Venjix virus has taken over Earth and only the city of Corinth, defended by the Rangers, holds out.
+- **Season 18 (Samurai):** the Shiba family and the Samurai Rangers fight Xandred's Nighlock demons.
+- **Season 19 (Super Samurai):** the fight against Xandred continues with Serrator's help.
+- **Season 20 (Megaforce):** the Warstar aliens attack Earth and Gosei recruits five teenagers to defend it.
+- **Season 21 (Super Megaforce):** the Rangers receive new powers to morph into teams from the past.
+- **Season 22 (Dino Charge):** the Rangers search for the Energems to stop Sledge from conquering the universe.
+- **Season 23 (Dino Super Charge):** the Energem quest continues with new Zords.
+- **Season 24 (Ninja Steel):** a ninja team faces Galvanax, champion of «Galactic Warriors».
+- **Season 25 (Super Ninja Steel):** the fight against Galvanax continues with new powers.
+- **Season 26 (Beast Morphers (1)):** in the near future, the Beast Morphers fight the Evox virus, which threatens the Morphin Grid.
+- **Season 27 (Beast Morphers (2)):** the fight against Evox continues.
+- **Season 28 (Dino Fury (1)):** the Rafkon warriors and the Rangers face the Sporix beasts.
+- **Season 29 (Dino Fury (2)):** the fight against the Sporix threat continues.
+- **Season 30 (Cosmic Fury):** Lord Zedd returns and the Cosmic Fury team must stop him to save the universe.

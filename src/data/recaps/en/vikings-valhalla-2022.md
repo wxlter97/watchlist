@@ -1,3 +1,3 @@
-- **Season 1:** Leif Eriksson, Freydis and Harald Hardrada face each other in a new era of conflict.
-- **Season 2:** the protagonists set off on new paths.
-- **Season 3:** the story reaches its end.
+- **Season 1:** a hundred years after Vikings, a new generation of heroes rises to forge its destiny.
+- **Season 2:** Freydis, Leif and Harald venture to the far corners of the world in search of power.
+- **Season 3:** seven years later, Freydis leads Jomsborg and Leif and Harald have won glory in Constantinople.

@@ -1,2 +1,2 @@
 - **Temporada 1:** Dante, un cazador de demonios, se ve envuelto en una lucha entre el bien y el mal.
-- **Temporada 2:** la historia continúa.
+- **Temporada 2:** Dante enfrenta a su gemelo Vergil, la única fuerza que lo iguala, en una guerra entre mundos.

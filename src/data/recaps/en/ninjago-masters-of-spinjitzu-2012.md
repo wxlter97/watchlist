@@ -1,16 +1,16 @@
-- **Temporada 1 (Rise of the Snakes):** the ninja face the serpents.
-- **Temporada 2 (Legacy of the Green Ninja):** the search for the Green Ninja.
-- **Temporada 3 (Rebooted):** the ninja enter a digital world.
-- **Temporada 4 (Tournament of Elements):** a tournament gathers masters of the elements.
-- **Temporada 5 (Possession):** villains possess the ninja.
-- **Temporada 6 (Skybound):** the story moves into the skies.
-- **Temporada 7 (Hands of Time):** the ninja face a threat across time.
-- **Temporada 8 (Sons of Garmadon):** Lloyd confronts his relationship with his father.
-- **Temporada 9 (Hunted):** the ninja are hunted.
-- **Temporada 10 (March of the Oni):** the Oni threaten Ninjago.
-- **Temporada 11 (Secrets of the Forbidden Spinjitzu):** the ninja discover secrets of Forbidden Spinjitzu.
-- **Temporada 12 (Prime Empire):** the ninja enter a video game.
-- **Temporada 13 (Master of the Mountain):** a new threat on the mountain.
-- **Temporada 14 (The Island):** the ninja travel to an island.
-- **Temporada 15 (Seabound):** the ninja face dangers at sea.
-- **Temporada 16 (Crystalized):** the original series reaches its end.
+- **Season 1 (Rise of the Snakes):** the ninja face the Serpentine as they search for the ultimate weapon, the Great Devourer.
+- **Season 2 (Legacy of the Green Ninja):** Lloyd, Garmadon's son, becomes the Green Ninja ahead of the final battle against his father.
+- **Season 3 (Rebooted):** the Overlord reappears in digital form and the ninja face him in New Ninjago City.
+- **Season 4 (Tournament of Elements):** the ninja enter Master Chen's secret tournament to rescue Zane.
+- **Season 5 (Possession):** Lloyd is possessed by Morro's spirit, who seeks the Cursed Realm.
+- **Season 6 (Skybound):** the sky pirate Nadakhan is freed and wants to marry Nya.
+- **Season 7 (Hands of Time):** the Time Twins, Acronix and Krux, return with plans to change history.
+- **Season 8 (Sons of Garmadon):** a criminal organization seeks to revive Garmadon with the Oni Masks.
+- **Season 9 (Hunted):** Lloyd leads the resistance against the Crystal Emperor while the rest of the team is stranded.
+- **Season 10 (March of the Oni):** the Oni invade Ninjago and heroes and villains must team up.
+- **Season 11 (Secrets of the Forbidden Spinjitzu):** the ninja face the sorceress Aspheera and then travel to a frozen realm where Zane is corrupted.
+- **Season 12 (Prime Empire):** the ninja are pulled into the game Prime Empire to defeat Unagami.
+- **Season 13 (Master of the Mountain):** the team travels to the Realm of Shintaro and Cole leads the fight against a skeleton army.
+- **Season 14 (The Island):** a short season that works as a prelude to Seabound, with a mysterious island and Misako's disappearance.
+- **Season 15 (Seabound):** Nya takes center stage against the sea prince Kalmaar.
+- **Season 16 (Crystalized):** the team regroups after losing Nya and faces the Crystal King.

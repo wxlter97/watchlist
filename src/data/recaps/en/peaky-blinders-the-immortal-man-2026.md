@@ -1,1 +1,1 @@
-- Tommy Shelby is drawn into a conflict that forces him out of retirement.
+- His son is caught up in a Nazi conspiracy and Tommy Shelby leaves self-imposed exile and returns to Birmingham to save his family.

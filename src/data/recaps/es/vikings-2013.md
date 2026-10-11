@@ -1,6 +1,6 @@
-- **Temporada 1:** Ragnar Lothbrok, un granjero vikingo, sueña con navegar al oeste y organiza sus primeras incursiones en Inglaterra.
-- **Temporada 2:** Ragnar consolida su poder y su reino.
+- **Temporada 1:** Ragnar desafía al conde Haraldson y apuesta por navegar al oeste.
+- **Temporada 2:** Ragnar es un líder respetado y temido, y se enfrenta a su hermano Rollo y al jarl Borg.
 - **Temporada 3:** los vikingos atacan París.
-- **Temporada 4:** Ragnar enfrenta las consecuencias de su ambición y sus hijos comienzan a destacar.
-- **Temporada 5:** los hijos de Ragnar luchan por su legado.
-- **Temporada 6:** la historia llega a su final.
+- **Temporada 4:** el asedio a París fracasa, Rollo traiciona a Ragnar y este enfrenta enemigos internos y externos.
+- **Temporada 5:** los hijos de Ragnar compiten por su legado.
+- **Temporada 6:** Bjorn es rey de Kattegat, Ivar huye a Rusia y Lagertha planea retirarse.

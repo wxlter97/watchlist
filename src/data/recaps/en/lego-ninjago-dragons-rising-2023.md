@@ -1,4 +1,4 @@
-- **Temporada 1:** a new chapter for the series.
-- **Temporada 2:** the story continues.
-- **Temporada 3:** new challenges for the ninja.
-- **Temporada 4:** the group faces new threats.
+- **Season 1:** a new chapter of the series with the ninja as teenagers.
+- **Season 2:** wolf-masked warriors and a Blood Moon: Lloyd's dreams may be visions of the future.
+- **Season 3:** the Forbidden Five hunt the Prismatic Blades to awaken the chaos dragon Thunderfang.
+- **Season 4:** with the ninja scattered and their powers weakened, a hidden enemy unleashes elemental monsters.

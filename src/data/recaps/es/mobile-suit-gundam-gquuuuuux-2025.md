@@ -1,1 +1,1 @@
-- Una historia alternativa que reimagina la Guerra de un Año.
+- Año 0085 del Siglo Universal: Char Aznable desapareció en un fenómeno llamado Zeknova, y Amate Yuzuriha, una estudiante, se ve arrastrada a la guerra tras conocer a Nyaan.

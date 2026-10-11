@@ -1,1 +1,1 @@
-- Section 9 investigates a case of kidnappings and a hacker.
+- In 2034, two years after 2nd GIG, Kusanagi has left Section 9, which carries on with Togusa leading the field team.

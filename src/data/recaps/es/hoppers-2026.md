@@ -1,1 +1,1 @@
-- Una joven usa una tecnología para ver el mundo animal desde dentro.
+- Mabel usa una tecnología que transmite la conciencia humana a animales robóticos para comunicarse con los castores.

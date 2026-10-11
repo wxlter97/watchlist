@@ -1,6 +1,6 @@
-- **Season 1:** Duncan MacLeod, an immortal, lives in the present and follows the rules of the Game.
-- **Season 2:** new adventures for Duncan and other immortals.
-- **Season 3:** new adventures for Duncan and other immortals.
-- **Season 4:** new adventures for Duncan and other immortals.
-- **Season 5:** new adventures for Duncan and other immortals.
-- **Season 6:** new adventures for Duncan and other immortals.
+- **Season 1:** Duncan MacLeod, a 400-year-old immortal, takes part in the Game, where immortals fight until only one remains.
+- **Season 2:** the series follows Duncan and his encounters with other immortals.
+- **Season 3:** Duncan remains caught up in the Game.
+- **Season 4:** Duncan remains caught up in the Game.
+- **Season 5:** Duncan remains caught up in the Game.
+- **Season 6:** Duncan remains caught up in the Game.

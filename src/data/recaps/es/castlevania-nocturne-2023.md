@@ -1,2 +1,2 @@
-- **Temporada 1:** Richter Belmont defiende el legado de su familia en plena Revolución Francesa y se enfrenta a una poderosa vampira.
-- **Temporada 2:** el conflicto con la soberana vampira continúa.
+- **Temporada 1:** Richter Belmont se une a Maria y a un grupo inusual para frenar el reinado de un mesías vampiro.
+- **Temporada 2:** con ayuda de Alucard, Richter y su grupo intentan detener a Erzsebet.

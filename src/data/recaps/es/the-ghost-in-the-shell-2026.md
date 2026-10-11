@@ -1,1 +1,1 @@
-- Una nueva versión de la historia de la mayor Kusanagi.
+- En 2029, la ciudad de Niihama es una metrópolis cibernética y la Sección 9 combate la corrupción y el cibercrimen.

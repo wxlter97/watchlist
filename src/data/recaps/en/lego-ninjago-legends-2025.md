@@ -1,2 +1,2 @@
-- **Temporada 1 (Monstrosity):** Kai arrives in the Land of Monsters after 'the Merge' and fights to survive.
-- **Temporada 2 (DuskFall):** Kai's story continues.
+- **Season 1 (Monstrosity):** after 'the Merge', Kai is lost in the Land of Monsters and must defeat creatures to get home.
+- **Season 2 (DuskFall):** the spirit of Ninjago travels through time, from the Oni age to the Mech Wars.

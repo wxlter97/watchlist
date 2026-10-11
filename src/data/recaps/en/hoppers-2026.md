@@ -1,1 +1,1 @@
-- A young woman uses technology to see the animal world from within.
+- Mabel uses technology that transmits human consciousness into robotic animals to communicate with beavers.

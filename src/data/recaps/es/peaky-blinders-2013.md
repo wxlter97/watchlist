@@ -1,6 +1,6 @@
-- **Temporada 1:** Tommy Shelby lidera a los Peaky Blinders en Birmingham, mientras el inspector Campbell llega a la ciudad.
+- **Temporada 1:** el inspector Campbell llega a Birmingham para acabar con las pandillas, y Tommy Shelby lidera a los Peaky Blinders.
 - **Temporada 2:** la banda se expande hacia Londres y choca con otros criminales.
-- **Temporada 3:** Tommy se ve envuelto en una conspiración política internacional.
+- **Temporada 3:** de cara al público Tommy dirige carreras de caballos; en secreto trabaja para Winston Churchill.
 - **Temporada 4:** una familia criminal italoamericana busca venganza.
-- **Temporada 5:** el ascenso del fascismo amenaza a Tommy y a su familia.
-- **Temporada 6:** Tommy afronta las consecuencias de todo lo ocurrido hasta ahora.
+- **Temporada 5:** el crac de 1929 y los fascistas amenazan el poder de Tommy.
+- **Temporada 6:** tras una pérdida devastadora, el fin de la ley seca lleva a Tommy al mercado del opio.

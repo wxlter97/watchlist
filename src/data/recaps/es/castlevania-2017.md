@@ -1,4 +1,4 @@
 - **Temporada 1:** Drácula lanza su venganza contra Valaquia y Trevor Belmont aparece como defensor de la ciudad.
 - **Temporada 2:** Trevor, Sypha y Alucard unen fuerzas contra el ejército de Drácula.
-- **Temporada 3:** los demonios de Drácula se enfrentan entre sí y el conflicto sigue.
-- **Temporada 4:** la historia se encamina a su final.
+- **Temporada 3:** Belmont y Sypha llegan a un pueblo con secretos siniestros, y Alucard entrena a dos admiradores.
+- **Temporada 4:** Belmont y Sypha estudian planes para resucitar a Drácula, mientras Alucard lucha por aceptar su humanidad.

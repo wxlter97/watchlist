@@ -1,2 +1,2 @@
-- **Season 1:** Lara sets off on a worldwide adventure to unravel an ancient mystery while facing her past traumas.
-- **Season 2:** the story continues with new dangers.
+- **Season 1:** Lara returns home when a thief steals a Chinese artifact from Croft Manor, and the hunt takes her around the world.
+- **Season 2:** Lara and her friend Sam follow the trail of stolen African Orisha masks.

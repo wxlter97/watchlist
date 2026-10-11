@@ -1,6 +1,6 @@
-- **Season 1:** Ragnar Lothbrok, a Viking farmer, dreams of sailing west and organizes his first raids on England.
-- **Season 2:** Ragnar consolidates his power and his kingdom.
+- **Season 1:** Ragnar defies Earl Haraldson and bets on sailing west.
+- **Season 2:** Ragnar is both respected and feared, and faces his brother Rollo and Jarl Borg.
 - **Season 3:** the Vikings attack Paris.
-- **Season 4:** Ragnar faces the consequences of his ambition and his sons begin to stand out.
-- **Season 5:** Ragnar's sons fight for his legacy.
-- **Season 6:** the story reaches its end.
+- **Season 4:** the siege of Paris falls short, Rollo betrays Ragnar and he faces internal and external enemies.
+- **Season 5:** Ragnar's sons compete for his legacy.
+- **Season 6:** Bjorn is king of Kattegat, Ivar flees to Russia and Lagertha plans her retirement.

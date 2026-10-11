@@ -1,3 +1,3 @@
-- **Season 1:** Chucky appears in a suburban town and attacks its residents.
-- **Season 2:** the survivors face new threats.
-- **Season 3:** the conflict reaches the White House.
+- **Season 1:** a Good Guy doll from a yard sale unleashes a murder spree in a quiet town.
+- **Season 2:** Jake and Devon run into trouble at their new Catholic school and Chucky begins a new killing spree.
+- **Season 3:** Chucky reaches the White House and Jake, Devon and Lexy try to stop him.

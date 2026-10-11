@@ -1,11 +1,11 @@
-- **Temporada 1:** Mulder y Scully empiezan a investigar casos inexplicables.
-- **Temporada 2:** el misterio de los casos se vuelve más profundo.
-- **Temporada 3:** la conspiración se hace más amplia.
-- **Temporada 4:** los casos mezclan misterio y conspiración.
-- **Temporada 5:** los casos desembocan en la película.
-- **Temporada 6:** la serie continúa después de la película.
-- **Temporada 7:** la historia avanza con casos y mitología.
-- **Temporada 8:** Mulder se ausenta y entra un nuevo agente.
-- **Temporada 9:** la serie cierra su etapa original.
-- **Temporada 10:** regresan Mulder y Scully tras años.
-- **Temporada 11:** la historia se retoma con nuevos casos.
+- **Temporada 1:** Mulder, obsesionado con lo paranormal desde la desaparición de su hermana, y Scully, su nueva compañera escéptica, inician sus investigaciones.
+- **Temporada 2:** los Expedientes X son cancelados y Mulder y Scully trabajan separados, aunque siguen investigando.
+- **Temporada 3:** Mulder desaparece y Scully lo busca, convencida de que está vivo.
+- **Temporada 4:** siguen los casos paranormales mientras el Sindicato refuerza su control.
+- **Temporada 5:** Scully enferma tras su abducción y Mulder busca una cura.
+- **Temporada 6:** tras la Antártida, el FBI destituye a Mulder y Scully del departamento.
+- **Temporada 7:** Mulder sufre extraños impulsos eléctricos mientras Scully descifra símbolos de una nave sumergida.
+- **Temporada 8:** Mulder es abducido y Scully lo busca con nuevos aliados.
+- **Temporada 9:** Mulder se esconde de la amenaza extraterrestre mientras Scully regresa al trabajo con su bebé.
+- **Temporada 10:** catorce años después, nuevos indicios los reúnen para investigar una nueva conspiración.
+- **Temporada 11:** Scully despierta en un hospital y cree poder evitar los hechos de la temporada anterior.
