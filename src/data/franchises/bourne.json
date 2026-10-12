@@ -66,7 +66,7 @@
     {
       "titleId": "the-bourne-legacy-2012",
       "continuityId": "main",
-      "importance": "optional",
+      "importance": "skippable",
       "chronoOrder": 35,
       "chronoNote": {
         "es": "En paralelo a Ultimatum",
@@ -79,7 +79,7 @@
     {
       "titleId": "jason-bourne-2016",
       "continuityId": "main",
-      "importance": "recommended",
+      "importance": "optional",
       "chronoOrder": 40,
       "chronoNote": {
         "es": "2016",

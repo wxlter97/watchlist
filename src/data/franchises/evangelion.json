@@ -50,7 +50,7 @@
     {
       "titleId": "neon-genesis-evangelion-death-and-rebirth-1997",
       "continuityId": "original",
-      "importance": "optional",
+      "importance": "skippable",
       "chronoOrder": 20,
       "characters": [
         "shinji-ikari"

@@ -100,7 +100,7 @@
     {
       "titleId": "jurassic-park-iii-2001",
       "continuityId": "park",
-      "importance": "optional",
+      "importance": "skippable",
       "chronoOrder": 30,
       "chronoNote": {
         "es": "2001",

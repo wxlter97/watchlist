@@ -1,1 +1,1 @@
-Es la continuación en serie de la película. Opcional.
+Es la continuación en serie de la película. Prescindible.
