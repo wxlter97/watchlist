@@ -1,0 +1,1 @@
+- Kara and her Jedi crew search for worthy Jedi to fight a warlord.

@@ -34003,5 +34003,524 @@
       }
     },
     "runtimeMin": 61
+  },
+  {
+    "id": "star-wars-forces-of-destiny-2017",
+    "tmdbId": 71412,
+    "tmdbType": "tv",
+    "title": "Star Wars: Forces of Destiny",
+    "kind": "series",
+    "releaseDate": "2017-07-03",
+    "imdbId": "tt6779076",
+    "posterPath": "/7xe9Hx4sVxuRa3uPGXYvPclTcnq.jpg",
+    "overview": "An animated micro-series starring Rey, Jyn Erso, Princess Leia, Ahsoka Tano, and more. Small moments and everyday decisions shape a larger heroic saga.",
+    "localized": {
+      "en": {
+        "title": "Star Wars: Forces of Destiny",
+        "overview": "An animated micro-series starring Rey, Jyn Erso, Princess Leia, Ahsoka Tano, and more. Small moments and everyday decisions shape a larger heroic saga."
+      },
+      "es": {
+        "title": "Star Wars: Fuerzas del destino",
+        "overview": "Microserie animada protagonizada por Rey, Jyn Erso, la princesa Leia, Ahsoka Tano y más. Pequeños momentos y decisiones cotidianas dan forma a una saga heroica mayor."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 16,
+        "airDate": "2017-07-03"
+      },
+      {
+        "number": 2,
+        "episodes": 16,
+        "airDate": "2018-03-19"
+      }
+    ],
+    "runtimeMin": 81
+  },
+  {
+    "id": "star-wars-galaxy-of-adventures-2018",
+    "tmdbId": 85536,
+    "tmdbType": "tv",
+    "title": "Star Wars Galaxy of Adventures",
+    "kind": "series",
+    "releaseDate": "2018-11-30",
+    "imdbId": "tt9353248",
+    "posterPath": "/isxrTD9RfqxJR0qPahuTZsNVa8H.jpg",
+    "overview": "A series of animated shorts celebrating the characters and stories of a galaxy far, far away, featuring a bright and colorful art style, exciting action, and insight into the saga's greatest themes!",
+    "localized": {
+      "en": {
+        "title": "Star Wars Galaxy of Adventures",
+        "overview": "A series of animated shorts celebrating the characters and stories of a galaxy far, far away, featuring a bright and colorful art style, exciting action, and insight into the saga's greatest themes!"
+      },
+      "es": {
+        "title": "Star Wars Galaxy of Adventures",
+        "overview": "Serie de cortos animados que celebra a los personajes y las historias de una galaxia muy, muy lejana, con un estilo colorido y acción emocionante."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 36,
+        "airDate": "2018-11-30"
+      },
+      {
+        "number": 2,
+        "episodes": 19,
+        "airDate": "2020-03-13"
+      }
+    ],
+    "runtimeMin": 59
+  },
+  {
+    "id": "star-wars-visions-presents-the-ninth-jedi-2026",
+    "tmdbId": 289324,
+    "tmdbType": "tv",
+    "title": "Star Wars: Visions Presents - The Ninth Jedi",
+    "kind": "series",
+    "releaseDate": "2026-08-05",
+    "imdbId": "tt43337681",
+    "posterPath": "/AthqHRKJFOIbLa459I3D5yHdrQL.jpg",
+    "overview": "Kara and her ragtag Jedi crew seek out to find worthy Jedi to fight against an increasingly powerful warlord.",
+    "localized": {
+      "en": {
+        "title": "Star Wars: Visions Presents - The Ninth Jedi",
+        "overview": "Kara and her ragtag Jedi crew seek out to find worthy Jedi to fight against an increasingly powerful warlord."
+      },
+      "es": {
+        "title": "Star Wars: Visions presenta - La Jedi número 9",
+        "overview": "Kara y su variopinta tripulación de Jedi buscan a Jedi dignos de enfrentarse a un señor de la guerra cada vez más poderoso."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2026-08-05"
+      }
+    ],
+    "runtimeMin": 231
+  },
+  {
+    "id": "lego-star-wars-the-yoda-chronicles-2013",
+    "tmdbId": 61513,
+    "tmdbType": "tv",
+    "title": "LEGO Star Wars: The Yoda Chronicles",
+    "kind": "series",
+    "releaseDate": "2013-05-29",
+    "imdbId": "tt3014650",
+    "posterPath": "/a1z0qRGbpbn5nLoZR4PyG84LFh.jpg",
+    "overview": "Yoda begins by training Padawans at the Jedi Temple Academy, but then he feels a disturbance in the Force and rushes off to fight the Dark Side.",
+    "localized": {
+      "en": {
+        "title": "LEGO Star Wars: The Yoda Chronicles",
+        "overview": "Yoda begins by training Padawans at the Jedi Temple Academy, but then he feels a disturbance in the Force and rushes off to fight the Dark Side."
+      },
+      "es": {
+        "title": "LEGO Star Wars: The Yoda Chronicles",
+        "overview": "Yoda entrena a padawans en la Academia del Templo Jedi, pero siente una perturbación en la Fuerza y parte a combatir al Lado Oscuro."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 3,
+        "airDate": "2013-05-29"
+      },
+      {
+        "number": 2,
+        "episodes": 4,
+        "airDate": "2014-05-04"
+      }
+    ],
+    "runtimeMin": 154
+  },
+  {
+    "id": "lego-star-wars-the-padawan-menace-2011",
+    "tmdbId": 70608,
+    "tmdbType": "movie",
+    "title": "LEGO Star Wars: The Padawan Menace",
+    "kind": "movie",
+    "releaseDate": "2011-07-22",
+    "imdbId": "tt2005268",
+    "posterPath": "/bCDa9memHnETeRrJWXzImTZdMal.jpg",
+    "overview": "Master Yoda must go retrieve secret battle plans. However, things become a little more complicated when a class of younglings join the mission.",
+    "localized": {
+      "en": {
+        "title": "LEGO Star Wars: The Padawan Menace",
+        "overview": "Master Yoda must go retrieve secret battle plans. However, things become a little more complicated when a class of younglings join the mission."
+      },
+      "es": {
+        "title": "LEGO Star Wars: The Padawan Menace",
+        "overview": "El maestro Yoda debe recuperar unos planes de batalla secretos, pero todo se complica cuando un grupo de jóvenes se une a la misión."
+      }
+    },
+    "runtimeMin": 22
+  },
+  {
+    "id": "lego-star-wars-the-empire-strikes-out-2012",
+    "tmdbId": 136406,
+    "tmdbType": "movie",
+    "title": "LEGO Star Wars: The Empire Strikes Out",
+    "kind": "movie",
+    "releaseDate": "2012-09-26",
+    "imdbId": "tt2402600",
+    "posterPath": "/doeFDzZ0Ywp8YUoRaEhVE5UBqka.jpg",
+    "overview": "Luke Skywalker embarks on a mission to destroy an Imperial base, but is relentlessly chased by a group of fanatic girls who think of him as a celebrity. Meanwhile, Darth Vader engages a rivalry with Darth Maul, in order to prove that he's the best Sith Lord.",
+    "localized": {
+      "en": {
+        "title": "LEGO Star Wars: The Empire Strikes Out",
+        "overview": "Luke Skywalker embarks on a mission to destroy an Imperial base, but is relentlessly chased by a group of fanatic girls who think of him as a celebrity. Meanwhile, Darth Vader engages a rivalry with Darth Maul, in order to prove that he's the best Sith Lord."
+      },
+      "es": {
+        "title": "LEGO Star Wars: The Empire Strikes Out",
+        "overview": "Luke Skywalker emprende una misión para destruir una base imperial, pero es perseguido sin descanso por un grupo de fanáticas que lo ven como una celebridad."
+      }
+    },
+    "runtimeMin": 22
+  },
+  {
+    "id": "lego-star-wars-revenge-of-the-brick-2005",
+    "tmdbId": 81234,
+    "tmdbType": "movie",
+    "title": "LEGO Star Wars: Revenge of The Brick",
+    "kind": "movie",
+    "releaseDate": "2005-08-05",
+    "imdbId": "tt2008565",
+    "posterPath": "/wi5IvbMRGD8fko6vv58NrogdJdd.jpg",
+    "overview": "Anakin Skywalker and Obi-Wan Kenobi attempt to stop the Separatists from invading Kashyyyk. Meanwhile, Master Yoda must defeat an evil army of droids.",
+    "localized": {
+      "en": {
+        "title": "LEGO Star Wars: Revenge of The Brick",
+        "overview": "Anakin Skywalker and Obi-Wan Kenobi attempt to stop the Separatists from invading Kashyyyk. Meanwhile, Master Yoda must defeat an evil army of droids."
+      },
+      "es": {
+        "title": "LEGO Star Wars: Revenge of The Brick",
+        "overview": "Anakin Skywalker y Obi-Wan Kenobi intentan impedir que los separatistas invadan Kashyyyk, mientras Yoda debe derrotar a un ejército de droides."
+      }
+    },
+    "runtimeMin": 5
+  },
+  {
+    "id": "lego-star-wars-bombad-bounty-2010",
+    "tmdbId": 79158,
+    "tmdbType": "movie",
+    "title": "LEGO Star Wars: Bombad Bounty",
+    "kind": "movie",
+    "releaseDate": "2010-11-27",
+    "imdbId": "tt1808255",
+    "posterPath": "/r088BCbLiSxccTHXxIZBZ5olRvM.jpg",
+    "overview": "Darth Vader hires Boba Fett to track down Jar Jar Binks, who has caused a lot of trouble for Vader. This leads Binks and Fett on a game of cat-and-mouse like never seen before.",
+    "localized": {
+      "en": {
+        "title": "LEGO Star Wars: Bombad Bounty",
+        "overview": "Darth Vader hires Boba Fett to track down Jar Jar Binks, who has caused a lot of trouble for Vader. This leads Binks and Fett on a game of cat-and-mouse like never seen before."
+      },
+      "es": {
+        "title": "LEGO Star Wars: Bombad Bounty",
+        "overview": "Darth Vader contrata a Boba Fett para localizar a Jar Jar Binks, que le ha causado muchos problemas, y empieza un juego del gato y el ratón."
+      }
+    },
+    "runtimeMin": 5
+  },
+  {
+    "id": "lego-star-wars-the-mandalorian-2026",
+    "tmdbId": 1731694,
+    "tmdbType": "movie",
+    "title": "LEGO Star Wars: The Mandalorian",
+    "kind": "movie",
+    "releaseDate": "2026-09-02",
+    "imdbId": "tt43679852",
+    "posterPath": "/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg",
+    "overview": "The Mandalorian and Grogu join their misfit allies for an epic party, celebrating their heroism. As friends regale the crowd with tales of their adventures, a pirate threat looms.",
+    "localized": {
+      "en": {
+        "title": "LEGO Star Wars: The Mandalorian",
+        "overview": "The Mandalorian and Grogu join their misfit allies for an epic party, celebrating their heroism. As friends regale the crowd with tales of their adventures, a pirate threat looms."
+      },
+      "es": {
+        "title": "LEGO Star Wars: The Mandalorian",
+        "overview": "El Mandaloriano y Grogu asisten a una gran fiesta que sus peculiares aliados celebran en honor a su heroísmo."
+      }
+    },
+    "runtimeMin": 50
+  },
+  {
+    "id": "robot-chicken-star-wars-2007",
+    "tmdbId": 42979,
+    "tmdbType": "movie",
+    "title": "Robot Chicken: Star Wars",
+    "kind": "movie",
+    "releaseDate": "2007-07-17",
+    "imdbId": "tt1020990",
+    "posterPath": "/h44WN4mVJ6wEpJgLaaNoFjv0NAo.jpg",
+    "overview": "A series of 30 sketches, following the hilarious antics of various characters from a galaxy, far, far away.",
+    "localized": {
+      "en": {
+        "title": "Robot Chicken: Star Wars",
+        "overview": "A series of 30 sketches, following the hilarious antics of various characters from a galaxy, far, far away."
+      },
+      "es": {
+        "title": "Robot Chicken: Star Wars",
+        "overview": "Una serie de 30 sketches sobre los personajes de una galaxia muy, muy lejana, en clave de parodia con animación stop-motion."
+      }
+    },
+    "runtimeMin": 23
+  },
+  {
+    "id": "robot-chicken-star-wars-episode-ii-2008",
+    "tmdbId": 42982,
+    "tmdbType": "movie",
+    "title": "Robot Chicken: Star Wars Episode II",
+    "kind": "movie",
+    "releaseDate": "2008-11-16",
+    "imdbId": "tt1334272",
+    "posterPath": "/dM5eCurdAXYd3Dvyr9Rz2YSj3rJ.jpg",
+    "overview": "Seth Green and Matthew Senreich serve up more hilarious Star Wars-inspired satire in this second compilation of sketches featuring the zany stop-motion animation of Adult Swim's \"Robot Chicken.\" Gary the stormtrooper deals with irascible boss Darth Vader on Take Your Daughter to Work Day, while Anakin babysits a certain up-and-coming Jedi.",
+    "localized": {
+      "en": {
+        "title": "Robot Chicken: Star Wars Episode II",
+        "overview": "Seth Green and Matthew Senreich serve up more hilarious Star Wars-inspired satire in this second compilation of sketches featuring the zany stop-motion animation of Adult Swim's \"Robot Chicken.\" Gary the stormtrooper deals with irascible boss Darth Vader on Take Your Daughter to Work Day, while Anakin babysits a certain up-and-coming Jedi."
+      },
+      "es": {
+        "title": "Robot Chicken: Star Wars Episode II",
+        "overview": "Seth Green y Matthew Senreich ofrecen más parodias de Star Wars en esta segunda recopilación de sketches de stop-motion."
+      }
+    },
+    "runtimeMin": 23
+  },
+  {
+    "id": "robot-chicken-star-wars-episode-iii-2010",
+    "tmdbId": 51888,
+    "tmdbType": "movie",
+    "title": "Robot Chicken: Star Wars Episode III",
+    "kind": "movie",
+    "releaseDate": "2010-12-19",
+    "imdbId": "tt1691338",
+    "posterPath": "/htL6wH77hfO1N97n6MOwt9AD1oB.jpg",
+    "overview": "Millions of years from now, after Socrates, Shakespeare and the bible are long forgotten, only two great works will remain: the sci-fi cinema epic Star Wars and Adult Swim's stop-motion animated, cheap gag extravanganza Robot Chicken. And now, for the first time, they come together for the third time, in this all new special. That's right, all your mot beloved Star Wars characters are going back through the comedy meat grinder.",
+    "localized": {
+      "en": {
+        "title": "Robot Chicken: Star Wars Episode III",
+        "overview": "Millions of years from now, after Socrates, Shakespeare and the bible are long forgotten, only two great works will remain: the sci-fi cinema epic Star Wars and Adult Swim's stop-motion animated, cheap gag extravanganza Robot Chicken. And now, for the first time, they come together for the third time, in this all new special. That's right, all your mot beloved Star Wars characters are going back through the comedy meat grinder."
+      },
+      "es": {
+        "title": "Robot Chicken: Star Wars Episode III",
+        "overview": "Tercera entrega de parodias de Star Wars de Robot Chicken, en formato de sketches de stop-motion."
+      }
+    },
+    "runtimeMin": 45
+  },
+  {
+    "id": "zen-grogu-and-dust-bunnies-2022",
+    "tmdbId": 1044343,
+    "tmdbType": "movie",
+    "title": "Zen - Grogu and Dust Bunnies",
+    "kind": "movie",
+    "releaseDate": "2022-11-11",
+    "imdbId": "tt23626160",
+    "posterPath": "/llIo6963ASw6SwwAt1c3GhUqLdk.jpg",
+    "overview": "A hand drawn animated short by Studio Ghibli.",
+    "localized": {
+      "en": {
+        "title": "Zen - Grogu and Dust Bunnies",
+        "overview": "A hand drawn animated short by Studio Ghibli."
+      },
+      "es": {
+        "title": "Zen: Grogu y las criaturas del estudio Ghibli",
+        "overview": "Un corto animado dibujado a mano por Studio Ghibli."
+      }
+    },
+    "runtimeMin": 3
+  },
+  {
+    "id": "under-the-helmet-the-legacy-of-boba-fett-2021",
+    "tmdbId": 877181,
+    "tmdbType": "movie",
+    "title": "Under the Helmet: The Legacy of Boba Fett",
+    "kind": "movie",
+    "releaseDate": "2021-11-11",
+    "imdbId": "tt15715890",
+    "posterPath": "/jhgC70TurqELEc7vuepAjVpKakH.jpg",
+    "overview": "A special celebrating the origins and legacy of Star Wars' legendary bounty hunter, Boba Fett.",
+    "localized": {
+      "en": {
+        "title": "Under the Helmet: The Legacy of Boba Fett",
+        "overview": "A special celebrating the origins and legacy of Star Wars' legendary bounty hunter, Boba Fett."
+      },
+      "es": {
+        "title": "Debajo del casco: El legado de Boba Fett",
+        "overview": "Un especial que celebra los comienzos y legado del legendario cazador de recompensas, Boba Fett."
+      }
+    },
+    "runtimeMin": 21
+  },
+  {
+    "id": "light-and-magic-2022",
+    "tmdbId": 201285,
+    "tmdbType": "tv",
+    "title": "LIGHT & MAGIC",
+    "kind": "series",
+    "releaseDate": "2022-07-27",
+    "imdbId": "tt19896784",
+    "posterPath": "/tqWaho7qF5t7lraogxvMY9RwWSz.jpg",
+    "overview": "When George Lucas set out to make Star Wars, little did he know he would end up revolutionizing an industry. This is the story of a team of creative geniuses who put the magic in the movies we love.",
+    "localized": {
+      "en": {
+        "title": "LIGHT & MAGIC",
+        "overview": "When George Lucas set out to make Star Wars, little did he know he would end up revolutionizing an industry. This is the story of a team of creative geniuses who put the magic in the movies we love."
+      },
+      "es": {
+        "title": "LIGHT & MAGIC",
+        "overview": "Cuando George Lucas se propuso hacer Star Wars, no imaginaba que revolucionaría una industria. Es la historia del equipo de creativos de Industrial Light & Magic."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2022-07-27"
+      },
+      {
+        "number": 2,
+        "episodes": 3,
+        "airDate": "2025-04-18"
+      }
+    ],
+    "runtimeMin": 538
+  },
+  {
+    "id": "disney-gallery-star-wars-the-mandalorian-2020",
+    "tmdbId": 101978,
+    "tmdbType": "tv",
+    "title": "Disney Gallery / Star Wars: The Mandalorian",
+    "kind": "series",
+    "releaseDate": "2020-05-04",
+    "imdbId": "tt12162902",
+    "posterPath": "/qwc5RFNadL7YYtMfly58AjYUA50.jpg",
+    "overview": "Executive producer Jon Favreau invites the cast and crew of The Mandalorian to share an unprecedented look at the making of the series. Each chapter explores a different facet of the first live-action Star Wars television show through interviews, never-before-seen footage, and roundtable conversations hosted by Favreau himself.",
+    "localized": {
+      "en": {
+        "title": "Disney Gallery / Star Wars: The Mandalorian",
+        "overview": "Executive producer Jon Favreau invites the cast and crew of The Mandalorian to share an unprecedented look at the making of the series. Each chapter explores a different facet of the first live-action Star Wars television show through interviews, never-before-seen footage, and roundtable conversations hosted by Favreau himself."
+      },
+      "es": {
+        "title": "Galería Disney / Star Wars : The Mandalorian",
+        "overview": "Las aventuras de Mando, un pistolero solitario y cazarrecompensas que se abre paso a través de las fronteras más remotas de la galaxia, lejos de la jurisdicción de la Nueva República."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2020-05-04"
+      },
+      {
+        "number": 2,
+        "episodes": 2,
+        "airDate": "2020-12-25"
+      },
+      {
+        "number": 3,
+        "episodes": 1,
+        "airDate": "2023-06-28"
+      }
+    ],
+    "runtimeMin": 388
+  },
+  {
+    "id": "disney-gallery-star-wars-the-book-of-boba-fett-2022",
+    "tmdbId": 198109,
+    "tmdbType": "tv",
+    "title": "Disney Gallery / Star Wars: The Book of Boba Fett",
+    "kind": "series",
+    "releaseDate": "2022-05-04",
+    "imdbId": "tt19881256",
+    "posterPath": "/pfoGiDAStk1T8Dhj3lO3LbBoDTO.jpg",
+    "overview": "Explore the behind-the-scenes story of the legendary bounty hunter’s return to the sands of Tatooine with mercenary Fennec Shand, who together seek to claim the territory and crime syndicate once run by the late Jabba the Hutt. In this insightful new special, filmmakers, cast and crew reveal never-before-seen footage, groundbreaking technology and the practical effects that brought it all to life.",
+    "localized": {
+      "en": {
+        "title": "Disney Gallery / Star Wars: The Book of Boba Fett",
+        "overview": "Explore the behind-the-scenes story of the legendary bounty hunter’s return to the sands of Tatooine with mercenary Fennec Shand, who together seek to claim the territory and crime syndicate once run by the late Jabba the Hutt. In this insightful new special, filmmakers, cast and crew reveal never-before-seen footage, groundbreaking technology and the practical effects that brought it all to life."
+      },
+      "es": {
+        "title": "Disney Gallery / Star Wars: El Libro de Boba Fett",
+        "overview": "Explora la historia detrás de cámaras del regreso del legendario cazarrecompensas a las arenas de Tatooine con la mercenaria Fennec Shand. Juntos buscan reclamar el territorio y sindicato criminal una vez dirigido por el difunto Jabba el Hutt."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 1,
+        "airDate": "2022-05-04"
+      }
+    ],
+    "runtimeMin": 61
+  },
+  {
+    "id": "obi-wan-kenobi-a-jedis-return-2022",
+    "tmdbId": 1015606,
+    "tmdbType": "movie",
+    "title": "Obi-Wan Kenobi: A Jedi's Return",
+    "kind": "movie",
+    "releaseDate": "2022-09-07",
+    "imdbId": "tt21860836",
+    "posterPath": "/vQGgvXjoMZf8x1m3BHsMxVXPyck.jpg",
+    "overview": "This special explores the return of Obi-Wan Kenobi and Anakin Skywalker to the screen, as well as Ewan McGregor and Hayden Christensen to their classic roles. Director Deborah Chow leads the cast and crew as they create new heroes and villains that live alongside new incarnations of beloved Star Wars characters, and an epic story that dramatically bridges the saga films.",
+    "localized": {
+      "en": {
+        "title": "Obi-Wan Kenobi: A Jedi's Return",
+        "overview": "This special explores the return of Obi-Wan Kenobi and Anakin Skywalker to the screen, as well as Ewan McGregor and Hayden Christensen to their classic roles. Director Deborah Chow leads the cast and crew as they create new heroes and villains that live alongside new incarnations of beloved Star Wars characters, and an epic story that dramatically bridges the saga films."
+      },
+      "es": {
+        "title": "Obi-Wan Kenobi: El regreso del Jedi",
+        "overview": "Este especial explora el regreso de Obi-Wan Kenobi y Anakin Skywalker a la pantalla. Ewan McGregor y Hayden Christensen retoman sus personajes clásicos. La directora Deborah Chow dirige al reparto y equipo en la creación de nuevos héroes y villanos que comparten con las nuevas interpretaciones de personajes admirados de Star Wars, con una historia épica que enlaza de forma excepcional las películas de la saga."
+      }
+    },
+    "runtimeMin": 60
+  },
+  {
+    "id": "andor-a-disney-plus-day-special-look-2022",
+    "tmdbId": 1022100,
+    "tmdbType": "movie",
+    "title": "Andor: A Disney+ Day Special Look",
+    "kind": "movie",
+    "releaseDate": "2022-09-08",
+    "imdbId": "tt22014796",
+    "posterPath": "/uKLmaARUA4J0NNc7xrSTWk5oGfV.jpg",
+    "overview": "Celebrate Disney+ Day with a special look at the Star Wars original series Andor.",
+    "localized": {
+      "en": {
+        "title": "Andor: A Disney+ Day Special Look",
+        "overview": "Celebrate Disney+ Day with a special look at the Star Wars original series Andor."
+      },
+      "es": {
+        "title": "Andor: A Disney+ Day Special Look",
+        "overview": "Un vistazo especial de Disney+ Day a la serie original de Star Wars Andor."
+      }
+    },
+    "runtimeMin": 10
+  },
+  {
+    "id": "empire-of-dreams-the-story-of-the-star-wars-trilogy-2004",
+    "tmdbId": 76180,
+    "tmdbType": "movie",
+    "title": "Empire of Dreams: The Story of the Star Wars Trilogy",
+    "kind": "movie",
+    "releaseDate": "2004-09-20",
+    "imdbId": "tt0416716",
+    "posterPath": "/xq0MPT1lLxfznTRaAbInxWT2wfh.jpg",
+    "overview": "From the earliest versions of the script to the blockbuster debuts, explore the creation of the Star Wars Trilogy.",
+    "localized": {
+      "en": {
+        "title": "Empire of Dreams: The Story of the Star Wars Trilogy",
+        "overview": "From the earliest versions of the script to the blockbuster debuts, explore the creation of the Star Wars Trilogy."
+      },
+      "es": {
+        "title": "Empire of Dreams: The Story of the Star Wars Trilogy",
+        "overview": "Documental que repasa la creación de la trilogía original de Star Wars, desde las primeras versiones del guion hasta sus estrenos."
+      }
+    },
+    "runtimeMin": 151
   }
 ]
