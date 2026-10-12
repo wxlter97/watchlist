@@ -1,0 +1,3 @@
+- **Temporada 1:** Gus, un niño mitad humano mitad ciervo, busca una nueva vida con un protector en un mundo postapocalíptico.
+- **Temporada 2:** tras ser capturado, Gus ayuda a sus amigos híbridos a escapar.
+- **Temporada 3:** Gus y sus amigos emprenden un viaje para curar la plaga y descubren la verdad sobre los híbridos.

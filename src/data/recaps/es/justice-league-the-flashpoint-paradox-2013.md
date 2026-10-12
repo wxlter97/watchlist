@@ -1,0 +1,1 @@
+- Barry Allen despierta en una realidad alterna donde casi no existen los héroes de la Liga.

@@ -1,0 +1,1 @@
+- Una policía enmascarada investiga un asesinato en una Tulsa alterna.

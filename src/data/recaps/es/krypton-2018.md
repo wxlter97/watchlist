@@ -1,0 +1,2 @@
+- **Temporada 1:** Seg-El, abuelo de Superman, intenta salvar a Krypton con la ayuda de un viajero del futuro.
+- **Temporada 2:** la lucha por Krypton continúa.

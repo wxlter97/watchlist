@@ -34522,5 +34522,2805 @@
       }
     },
     "runtimeMin": 151
+  },
+  {
+    "id": "batman-the-animated-series-1992",
+    "tmdbId": 2098,
+    "tmdbType": "tv",
+    "title": "Batman: The Animated Series",
+    "kind": "series",
+    "releaseDate": "1992-09-05",
+    "imdbId": "tt0103359",
+    "posterPath": "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg",
+    "overview": "Vowing to avenge the murder of his parents, Bruce Wayne devotes his life to wiping out crime in Gotham City as the masked vigilante \"Batman\".",
+    "localized": {
+      "en": {
+        "title": "Batman: The Animated Series",
+        "overview": "Vowing to avenge the murder of his parents, Bruce Wayne devotes his life to wiping out crime in Gotham City as the masked vigilante \"Batman\"."
+      },
+      "es": {
+        "title": "Batman: La Serie Animada",
+        "overview": "Considerada la mejor adaptación de Batman a la pantalla, esta serie de Bruce W. Timm narraba en un tono oscuro y adulto la historia del héroe de DC Comics, Batman, presentando una Gotham inspirada en la de la película de Tim Burton."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 60,
+        "airDate": "1992-09-05"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "1993-09-13"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "1994-09-10"
+      },
+      {
+        "number": 4,
+        "episodes": 5,
+        "airDate": "1995-09-11"
+      }
+    ],
+    "runtimeMin": 1870
+  },
+  {
+    "id": "the-new-batman-adventures-1997",
+    "tmdbId": 4625,
+    "tmdbType": "tv",
+    "title": "The New Batman Adventures",
+    "kind": "series",
+    "releaseDate": "1997-09-13",
+    "imdbId": "tt0118266",
+    "posterPath": "/s40Ji11SBKaEYDgJmDc0ifklM59.jpg",
+    "overview": "After a long hiatus -- The Caped Crusader is back and cooler then ever, in the animated action-packed series -- The New Batman Adventures. Picking up years after Batman: The Animated Series, the series highlights Batman and his crimefighting cadre of Nightwing, Robin and Batgirl, as they join forces to battle Gotham City's classic super-villains.",
+    "localized": {
+      "en": {
+        "title": "The New Batman Adventures",
+        "overview": "After a long hiatus -- The Caped Crusader is back and cooler then ever, in the animated action-packed series -- The New Batman Adventures. Picking up years after Batman: The Animated Series, the series highlights Batman and his crimefighting cadre of Nightwing, Robin and Batgirl, as they join forces to battle Gotham City's classic super-villains."
+      },
+      "es": {
+        "title": "Las Nuevas Aventuras de Batman",
+        "overview": "Serie sucesora de \"Batman: La serie animada\", creada por Bruce W. Timm y considerada la adaptación más fiel del personaje de DC Comics al mundo audiovisual. Las historias de esta nueva serie suelen relacionarse con los personajes secundarios de Batman, que incluyen a Robin, Nightwing y Batgirl, entre otros. Además, la serie presenta como invitados a Supergirl, Etrigan y Creeper, personajes que aparecieron más tarde junto a Batman en Liga de la Justicia y Liga de la Justicia Ilimitada."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "1997-09-13"
+      },
+      {
+        "number": 2,
+        "episodes": 11,
+        "airDate": "1998-09-14"
+      }
+    ],
+    "runtimeMin": 504
+  },
+  {
+    "id": "superman-the-animated-series-1996",
+    "tmdbId": 4303,
+    "tmdbType": "tv",
+    "title": "Superman: The Animated Series",
+    "kind": "series",
+    "releaseDate": "1996-09-06",
+    "imdbId": "tt0115378",
+    "posterPath": "/p7FauEh0yeZtIPWnD3pBvG6j8sd.jpg",
+    "overview": "Superman, an incredibly powerful alien from the planet Krypton, defends Metropolis from supercriminals. Superman hides his identity behind the glasses of Clark Kent; a mild-mannered reporter for the newspaper the Daily Planet. At the Daily Planet Superman works with fellow reporter Lois Lane and photographer Jimmy Olsen.",
+    "localized": {
+      "en": {
+        "title": "Superman: The Animated Series",
+        "overview": "Superman, an incredibly powerful alien from the planet Krypton, defends Metropolis from supercriminals. Superman hides his identity behind the glasses of Clark Kent; a mild-mannered reporter for the newspaper the Daily Planet. At the Daily Planet Superman works with fellow reporter Lois Lane and photographer Jimmy Olsen."
+      },
+      "es": {
+        "title": "Superman: La Serie Animada",
+        "overview": "\"Superman: La serie animada\" es protagonizada por Superman y forma parte del mismo universo de \"Batman: La serie animada\", \"Batman del futuro\", \"Liga de la Justicia\" y \"Liga de la Justicia Ilimitada\". A diferencia de otras versiones, esta serie no está dirigida a un público infantil, pues las aventuras no tienen un \"mensaje\" y los personajes no son unidimensionalmente \"buenos\" o \"malos\". La acción tiene un buen grado de violencia, y en más de una ocasión hay personajes que son asesinados o condenados a la pena de muerte.\n\nEl protagonista principal es Superman, y lo acompañan sus padres adoptivos Johnatan y Marta Kent. A Clark Kent lo acompañan sus compañeros periodistas Louis Lane, Jimmy Olsen y Perry White. Con los villanos, destacan Lex Luthor, en su versión de empresario; Darkseid y los habitantes de Apokolips. Además, aparecen numerosos personajes invitados, como Batman, Flash, Dr. Destino, Aquaman, Linterna Verde (Kyle Rayner), entre otros."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "1996-09-06"
+      },
+      {
+        "number": 2,
+        "episodes": 28,
+        "airDate": "1997-09-08"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "1998-09-19"
+      }
+    ],
+    "runtimeMin": 1134
+  },
+  {
+    "id": "batman-beyond-1999",
+    "tmdbId": 513,
+    "tmdbType": "tv",
+    "title": "Batman Beyond",
+    "kind": "series",
+    "releaseDate": "1999-01-10",
+    "imdbId": "tt0147746",
+    "posterPath": "/d01V9s1hjYYJwAeocLNmrhY0ToU.jpg",
+    "overview": "As new villains overrun Gotham City of the future, the aging Bruce Wayne hangs up the cape of the once invincible Batman. But when troubled teenager Terry McGinnis stumbles upon the Dark Knight's secret, a new alliance is forged. And a triumphant new Batman is born.",
+    "localized": {
+      "en": {
+        "title": "Batman Beyond",
+        "overview": "As new villains overrun Gotham City of the future, the aging Bruce Wayne hangs up the cape of the once invincible Batman. But when troubled teenager Terry McGinnis stumbles upon the Dark Knight's secret, a new alliance is forged. And a triumphant new Batman is born."
+      },
+      "es": {
+        "title": "Batman del futuro",
+        "overview": "Impulsado por el remordimiento y la venganza, un estudiante de secundaria llamado Terry McGinnis revive el papel de Batman. Bajo la supervisión de un anciano Bruno Diaz, lucha contra el crimen en una Gótica dura y futurista."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "1999-01-10"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "1999-09-17"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2000-09-16"
+      }
+    ],
+    "runtimeMin": 1076
+  },
+  {
+    "id": "justice-league-2001",
+    "tmdbId": 1618,
+    "tmdbType": "tv",
+    "title": "Justice League",
+    "kind": "series",
+    "releaseDate": "2001-11-17",
+    "imdbId": "tt0275137",
+    "posterPath": "/caIAQIoM9NLZofT8fz8t47W1gYe.jpg",
+    "overview": "The long-awaited rebirth of the greatest superhero team of all time: Batman, Superman, Wonder Woman, The Flash, Hawkgirl, Green Lantern, and Martian Manhunter.",
+    "localized": {
+      "en": {
+        "title": "Justice League",
+        "overview": "The long-awaited rebirth of the greatest superhero team of all time: Batman, Superman, Wonder Woman, The Flash, Hawkgirl, Green Lantern, and Martian Manhunter."
+      },
+      "es": {
+        "title": "Liga de la Justicia",
+        "overview": "El esperado reinicio del mas grande equipo de súper héroes de todos los tiempos: Batman, Superman, Flash, Mujer Maravilla, Chica Halcón, Linterna Verde y Detective Marciano."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 24,
+        "airDate": "2001-11-17"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2003-07-05"
+      }
+    ],
+    "runtimeMin": 1248
+  },
+  {
+    "id": "justice-league-unlimited-2004",
+    "tmdbId": 84200,
+    "tmdbType": "tv",
+    "title": "Justice League Unlimited",
+    "kind": "series",
+    "releaseDate": "2004-07-31",
+    "imdbId": "tt6025022",
+    "posterPath": "/vRRvCUREeqqnp3hHdqep83eQjdP.jpg",
+    "overview": "The galaxy's most powerful superheroes return to battle the allied villains and criminal plots that endanger the universe.",
+    "localized": {
+      "en": {
+        "title": "Justice League Unlimited",
+        "overview": "The galaxy's most powerful superheroes return to battle the allied villains and criminal plots that endanger the universe."
+      },
+      "es": {
+        "title": "Liga de la Justicia Ilimitada",
+        "overview": "Una continuación de la serie de animación de la Liga de la Justicia encuentra a los miembros originales del equipo unidos en su batalla contra el crimen y el mal por docenas de otros héroes del universo de los cómics de DC."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2004-07-31"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2005-02-05"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2005-09-17"
+      }
+    ],
+    "runtimeMin": 897
+  },
+  {
+    "id": "static-shock-2000",
+    "tmdbId": 1487,
+    "tmdbType": "tv",
+    "title": "Static Shock",
+    "kind": "series",
+    "releaseDate": "2000-09-23",
+    "imdbId": "tt0247729",
+    "posterPath": "/c4bMyE2SZv9B6rS0Anvlwej14R1.jpg",
+    "overview": "Accidental exposure to an experimental mutagenic gas grants ordinary high school student Virgil Hawkins electromagnetic superpowers. Taking up the alter-ego of Static, he fights crime in Dakota City alongside his best friend Richie Foley.",
+    "localized": {
+      "en": {
+        "title": "Static Shock",
+        "overview": "Accidental exposure to an experimental mutagenic gas grants ordinary high school student Virgil Hawkins electromagnetic superpowers. Taking up the alter-ego of Static, he fights crime in Dakota City alongside his best friend Richie Foley."
+      },
+      "es": {
+        "title": "Static Shock",
+        "overview": "Continuamente amenazado por los buscapleitos e ignorado por las chicas, Virgil Hawkins ha llevado una vida triste y decepcionante. Pero cuando un gas mutagénico accidentalmente le da habilidades sobrehumanas, Virgil es renacido como Static, el súper-héroe adolescente con poderes eléctricos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2000-09-23"
+      },
+      {
+        "number": 2,
+        "episodes": 11,
+        "airDate": "2002-01-26"
+      },
+      {
+        "number": 3,
+        "episodes": 15,
+        "airDate": "2003-01-25"
+      },
+      {
+        "number": 4,
+        "episodes": 13,
+        "airDate": "2004-01-17"
+      }
+    ],
+    "runtimeMin": 1092
+  },
+  {
+    "id": "the-zeta-project-2001",
+    "tmdbId": 4508,
+    "tmdbType": "tv",
+    "title": "The Zeta Project",
+    "kind": "series",
+    "releaseDate": "2001-01-27",
+    "imdbId": "tt0260662",
+    "posterPath": "/pv3PAeb6H5OUUQradMTbK31JCn8.jpg",
+    "overview": "Follow the futuristic adventures of Zeta, a renegade government-designed robot, and Ro, his 15-year-old streetwise companion.",
+    "localized": {
+      "en": {
+        "title": "The Zeta Project",
+        "overview": "Follow the futuristic adventures of Zeta, a renegade government-designed robot, and Ro, his 15-year-old streetwise companion."
+      },
+      "es": {
+        "title": "El Proyecto Zeta",
+        "overview": "Zeta es un robot de infiltración, armado y equipado con un autoproyector holográfico que le permite asumir cualquier identidad. Desafortunadamente para algunos, su programación también evoluciona hasta el punto en que adquiere sensibilidad y conciencia, cuestionando su propósito, así como también las verdaderas intenciones de quienes lo rodean."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 12,
+        "airDate": "2001-01-27"
+      },
+      {
+        "number": 2,
+        "episodes": 14,
+        "airDate": "2002-03-23"
+      }
+    ],
+    "runtimeMin": 572
+  },
+  {
+    "id": "batman-mask-of-the-phantasm-1993",
+    "tmdbId": 14919,
+    "tmdbType": "movie",
+    "title": "Batman: Mask of the Phantasm",
+    "kind": "movie",
+    "releaseDate": "1993-12-25",
+    "imdbId": "tt0106364",
+    "posterPath": "/hT4ehUteagUrhUOHAtmYiY7mp5l.jpg",
+    "overview": "Andrea Beaumont leaves her father to return to Gotham, rekindling an old romance with Bruce Wayne. At the same time, a mysterious figure begins to hunt down Gotham's criminals, wrongly implicating Batman in the murders. Now on the run from the law, Batman must find and stop the culprit, while also navigating his relationship with Andrea.",
+    "localized": {
+      "en": {
+        "title": "Batman: Mask of the Phantasm",
+        "overview": "Andrea Beaumont leaves her father to return to Gotham, rekindling an old romance with Bruce Wayne. At the same time, a mysterious figure begins to hunt down Gotham's criminals, wrongly implicating Batman in the murders. Now on the run from the law, Batman must find and stop the culprit, while also navigating his relationship with Andrea."
+      },
+      "es": {
+        "title": "Batman: La máscara del fantasma",
+        "overview": "Una enigmática figura fantasmal hace su aparición, cumpliendo las ejecuciones de determinadas figuras importantes del hampa. Simultáneamente regresa a Gotham una muchacha con la cual Bruce Wayne mantuvo un idilio; éste rememorará su relación con la chica y, de paso, su propio 'nacimiento' como Batman."
+      }
+    },
+    "runtimeMin": 76
+  },
+  {
+    "id": "batman-and-mr-freeze-subzero-1998",
+    "tmdbId": 15805,
+    "tmdbType": "movie",
+    "title": "Batman & Mr. Freeze: SubZero",
+    "kind": "movie",
+    "releaseDate": "1998-02-11",
+    "imdbId": "tt0143127",
+    "posterPath": "/kjjz8mVNrwNUa9uz8IMnqS79rxj.jpg",
+    "overview": "When Mr. Freeze kidnaps Barbara Gordon, as an involuntary organ donor to save his dying wife, Batman and Robin must find her before the operation can begin.",
+    "localized": {
+      "en": {
+        "title": "Batman & Mr. Freeze: SubZero",
+        "overview": "When Mr. Freeze kidnaps Barbara Gordon, as an involuntary organ donor to save his dying wife, Batman and Robin must find her before the operation can begin."
+      },
+      "es": {
+        "title": "Batman: Bajo Cero",
+        "overview": "Sólo en el Artico puede sobrevivir sin su traje especial Mr. Freeze. Cuando un submarino de investigación emerge bruscamente en el refugio del criminal, la esposa de éste ve interrumpido su sueño criogénico y corre el riesgo de perecer, por lo cual Freeze regresa a Gotham y secuestra a un científico experto en criogénesis, con el fin de lograr salvar a su amada. Comprobando los grupos sanguíneos afines con la misma, descubren que Barbara Gordon figura en la lista, por lo cual procederán a su secuestro."
+      }
+    },
+    "runtimeMin": 67
+  },
+  {
+    "id": "batman-beyond-return-of-the-joker-2000",
+    "tmdbId": 16234,
+    "tmdbType": "movie",
+    "title": "Batman Beyond: Return of the Joker",
+    "kind": "movie",
+    "releaseDate": "2000-12-12",
+    "imdbId": "tt0233298",
+    "posterPath": "/zH9fR6DLwiqXfpuNh4kecrgeOpd.jpg",
+    "overview": "The Joker is back with a vengeance, and Neo-Gotham's Dark Knight, Terry McGinnis, needs answers as he stands alone to face the old Gotham's most infamous Clown Prince of Crime.",
+    "localized": {
+      "en": {
+        "title": "Batman Beyond: Return of the Joker",
+        "overview": "The Joker is back with a vengeance, and Neo-Gotham's Dark Knight, Terry McGinnis, needs answers as he stands alone to face the old Gotham's most infamous Clown Prince of Crime."
+      },
+      "es": {
+        "title": "Batman del Futuro: El Regreso del Guasón",
+        "overview": "Joker no murió y ahora es más fuerte. Terry MacGinnis, el Batman del Futuro se enfrentará al enemigo de su mentor, Bruce Wayne."
+      }
+    },
+    "runtimeMin": 77
+  },
+  {
+    "id": "batman-mystery-of-the-batwoman-2003",
+    "tmdbId": 21683,
+    "tmdbType": "movie",
+    "title": "Batman: Mystery of the Batwoman",
+    "kind": "movie",
+    "releaseDate": "2003-10-21",
+    "imdbId": "tt0346578",
+    "posterPath": "/mlmhpUArJdpRPO211v3lETe3uzg.jpg",
+    "overview": "As if the Penguin wasn't enough to contend with, a new vigilante has surfaced in Gotham City, and her strong-arm tactics give Batman cause for concern. Being the World's Greatest Detective and The Dark Knight, he sets out to uncover her identity while stopping a dangerous criminal plot.",
+    "localized": {
+      "en": {
+        "title": "Batman: Mystery of the Batwoman",
+        "overview": "As if the Penguin wasn't enough to contend with, a new vigilante has surfaced in Gotham City, and her strong-arm tactics give Batman cause for concern. Being the World's Greatest Detective and The Dark Knight, he sets out to uncover her identity while stopping a dangerous criminal plot."
+      },
+      "es": {
+        "title": "Batman: El misterio de Batimujer",
+        "overview": "Un nuevo vigilante denominada Batwoman esta asolando la ciudad de Gotham. Mientras esta se dedica a desbaratar los planes del Pingüino, Batman tratara de descubrir su verdadera identidad Pero cuando ella es capturada por Bane, el caballero oscuro tendrá que rescatarla, derrotar a Bane y acabar con los planes del Pingüino."
+      }
+    },
+    "runtimeMin": 74
+  },
+  {
+    "id": "justice-league-the-flashpoint-paradox-2013",
+    "tmdbId": 183011,
+    "tmdbType": "movie",
+    "title": "Justice League: The Flashpoint Paradox",
+    "kind": "movie",
+    "releaseDate": "2013-07-30",
+    "imdbId": "tt2820466",
+    "posterPath": "/hg6RYpSb3vU4i3yQDtE1YhSZNh5.jpg",
+    "overview": "The Flash finds himself in a war-torn alternate timeline and teams up with alternate versions of his fellow heroes to restore the timeline.",
+    "localized": {
+      "en": {
+        "title": "Justice League: The Flashpoint Paradox",
+        "overview": "The Flash finds himself in a war-torn alternate timeline and teams up with alternate versions of his fellow heroes to restore the timeline."
+      },
+      "es": {
+        "title": "La Liga de la Justicia: La paradoja del tiempo",
+        "overview": "Barry Allen despierta en una realidad alternativa, donde descubre que ningun héroe de la Liga de la Justicia existe, a excepción de Batman, Aquaman y Wonder Woman; estos dos últimos tienen una enorme guerra, incluso los Atlantes de Aquaman inundaron Europa y las Amazonas conquistaron Inglaterra."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "justice-league-war-2014",
+    "tmdbId": 217993,
+    "tmdbType": "movie",
+    "title": "Justice League: War",
+    "kind": "movie",
+    "releaseDate": "2014-01-21",
+    "imdbId": "tt3060952",
+    "posterPath": "/pdNprWYdgcB8z4FLD3BhRmhEys1.jpg",
+    "overview": "The world is under attack by an alien armada led by the powerful Apokoliptian, Darkseid. A group of superheroes consisting of Superman, Batman, Wonder Woman, The Flash, Green Lantern, Cyborg, and Shazam must set aside their differences and gather together to defend Earth.",
+    "localized": {
+      "en": {
+        "title": "Justice League: War",
+        "overview": "The world is under attack by an alien armada led by the powerful Apokoliptian, Darkseid. A group of superheroes consisting of Superman, Batman, Wonder Woman, The Flash, Green Lantern, Cyborg, and Shazam must set aside their differences and gather together to defend Earth."
+      },
+      "es": {
+        "title": "La Liga De La Justicia: Guerra",
+        "overview": "El mundo está bajo ataque de una armada alienígena liderada por el poderoso Apokoliptian, Darkseid. Un grupo de superhéroes que consiste en Superman, Batman, Mujer Maravilla, El Flash, Linterna Verde, Cyborg y Shazam deben dejar de lado sus diferencias y reunirse para defender la Tierra."
+      }
+    },
+    "runtimeMin": 79
+  },
+  {
+    "id": "son-of-batman-2014",
+    "tmdbId": 251519,
+    "tmdbType": "movie",
+    "title": "Son of Batman",
+    "kind": "movie",
+    "releaseDate": "2014-05-13",
+    "imdbId": "tt3139072",
+    "posterPath": "/yHx8OLSKc3VtIBB5lIe90c0fHOX.jpg",
+    "overview": "Batman learns he has a violent, unruly pre-teen son, secretly raised by the terrorist group known as The League of Assassins.",
+    "localized": {
+      "en": {
+        "title": "Son of Batman",
+        "overview": "Batman learns he has a violent, unruly pre-teen son, secretly raised by the terrorist group known as The League of Assassins."
+      },
+      "es": {
+        "title": "El Hijo de Batman",
+        "overview": "Batman se entera de que tiene un hijo y que fue criado en secreto por el peligroso grupo de terroristas, Liga de los Asesinos."
+      }
+    },
+    "runtimeMin": 74
+  },
+  {
+    "id": "justice-league-throne-of-atlantis-2015",
+    "tmdbId": 297556,
+    "tmdbType": "movie",
+    "title": "Justice League: Throne of Atlantis",
+    "kind": "movie",
+    "releaseDate": "2015-01-13",
+    "imdbId": "tt3878542",
+    "posterPath": "/iaYZA8teYeIxmR8wRrEED5wwR0u.jpg",
+    "overview": "After the events of Justice League: War, Ocean Master and Black Manta have declared a war against the surface in retaliation of the aftermath of Apokoliptian-tyrant Darkseid's planetary invasion. Queen Atlanna seeks out her other son, Ocean Master’s half-brother Arthur Curry, a half-human with aquatic powers with no knowledge of his Atlantean heritage, to restore balance.  Living with powers he doesn’t understand and seeing the danger around him, Curry takes steps to embrace his destiny, joining the Justice League, and with his new teammates he battles to save Earth from total destruction.",
+    "localized": {
+      "en": {
+        "title": "Justice League: Throne of Atlantis",
+        "overview": "After the events of Justice League: War, Ocean Master and Black Manta have declared a war against the surface in retaliation of the aftermath of Apokoliptian-tyrant Darkseid's planetary invasion. Queen Atlanna seeks out her other son, Ocean Master’s half-brother Arthur Curry, a half-human with aquatic powers with no knowledge of his Atlantean heritage, to restore balance.  Living with powers he doesn’t understand and seeing the danger around him, Curry takes steps to embrace his destiny, joining the Justice League, and with his new teammates he battles to save Earth from total destruction."
+      },
+      "es": {
+        "title": "La Liga De La Justicia: El Trono De Atlantis",
+        "overview": "Después de los acontecimientos de la Liga de la Justicia: War, Ocean Master y Black Manta han declarado una guerra contra la superficie en represalia de las consecuencias de la invasión planetaria de Apokoliptian-tirano Darkseid. La reina Atlanna busca a su otro hijo, el medio hermano de Ocean Master, Arthur Curry, un medio humano con poderes acuáticos sin conocimiento de su herencia atlante, para restablecer el equilibrio. Viviendo con poderes que no entiende y viendo el peligro a su alrededor, Curry toma medidas para abrazar su destino, unirse a la Liga de la Justicia, y con sus nuevos compañeros de equipo que lucha para salvar a la Tierra de la destrucción total."
+      }
+    },
+    "runtimeMin": 72
+  },
+  {
+    "id": "batman-vs-robin-2015",
+    "tmdbId": 321528,
+    "tmdbType": "movie",
+    "title": "Batman vs. Robin",
+    "kind": "movie",
+    "releaseDate": "2015-04-03",
+    "imdbId": "tt4324274",
+    "posterPath": "/aGp9XDXmVM5lCKHWtgBC15S7XLr.jpg",
+    "overview": "Damian Wayne is having a hard time coping with his father's \"no killing\" rule. Meanwhile, Gotham is going through hell with threats such as the insane Dollmaker, and the secretive Court of Owls.",
+    "localized": {
+      "en": {
+        "title": "Batman vs. Robin",
+        "overview": "Damian Wayne is having a hard time coping with his father's \"no killing\" rule. Meanwhile, Gotham is going through hell with threats such as the insane Dollmaker, and the secretive Court of Owls."
+      },
+      "es": {
+        "title": "Batman contra Robin",
+        "overview": "Damian Wayne está teniendo dificultades para hacer frente a la regla de \"no matar\" de su padre. Mientras tanto, Gotham está pasando por el infierno con amenazas como la loca Dollmaker, y la secreta Corte de Owls."
+      }
+    },
+    "runtimeMin": 80
+  },
+  {
+    "id": "batman-bad-blood-2016",
+    "tmdbId": 366924,
+    "tmdbType": "movie",
+    "title": "Batman: Bad Blood",
+    "kind": "movie",
+    "releaseDate": "2016-01-19",
+    "imdbId": "tt4870838",
+    "posterPath": "/ktjbGsGm5GKlHDvvwQajXvDW2BN.jpg",
+    "overview": "When Batman goes missing, it takes the entire Bat \"family\" - including Batwoman and Batwing - to keep the peace in Gotham and unravel the mystery behind the Dark Knight's disappearance.",
+    "localized": {
+      "en": {
+        "title": "Batman: Bad Blood",
+        "overview": "When Batman goes missing, it takes the entire Bat \"family\" - including Batwoman and Batwing - to keep the peace in Gotham and unravel the mystery behind the Dark Knight's disappearance."
+      },
+      "es": {
+        "title": "Batman: Mala Sangre",
+        "overview": "Bruce Wayne está desaparecido. Alfred lo cubre mientras Nightwing y Robin patrullan Gotham City en su lugar. Y un nuevo jugador, Batwoman, investiga la desaparición de Batman."
+      }
+    },
+    "runtimeMin": 74
+  },
+  {
+    "id": "justice-league-vs-teen-titans-2016",
+    "tmdbId": 379291,
+    "tmdbType": "movie",
+    "title": "Justice League vs. Teen Titans",
+    "kind": "movie",
+    "releaseDate": "2016-03-26",
+    "imdbId": "tt5091548",
+    "posterPath": "/mrphHnLo1ywe7yGcA5WhYlx9v3n.jpg",
+    "overview": "Robin is sent by Batman to work with the Teen Titans after his volatile behavior botches up a Justice League mission. The Titans must then step up to face Trigon after he possesses the League and threatens to conquer the world.",
+    "localized": {
+      "en": {
+        "title": "Justice League vs. Teen Titans",
+        "overview": "Robin is sent by Batman to work with the Teen Titans after his volatile behavior botches up a Justice League mission. The Titans must then step up to face Trigon after he possesses the League and threatens to conquer the world."
+      },
+      "es": {
+        "title": "La Liga de la Justicia y Jóvenes Titanes: Unión en acción",
+        "overview": "Frustrado y desilusionado con su trabajo en la Justice League, Robin se ve forzado a una nueva posición con un súper equipo más joven, los Teen Titans. Rápidamente aceptado en el equipo, inmediatamente le intriga la misteriosa Raven y la fuerza sobrenatural que amenaza sobre ellos, el padre de Raven: Trigon, un ser falaz suficientemente poderoso como para destruir Metropolis haciendo que se enfrente la poderosa Liga de la Justicia contra los Jóvenes Titanes. Con las lealtades en juego y vidas en peligro, presencie la confrontación de Superman, Batman, Wonder Woman y Cyborg contra Beast Boy, Starfire, Blue Beetle y Nightwing. ¡Solo un verdadero trabajo en equipo acabará con la amenaza en esta aventura de DC Universe!"
+      }
+    },
+    "runtimeMin": 78
+  },
+  {
+    "id": "justice-league-dark-2017",
+    "tmdbId": 408220,
+    "tmdbType": "movie",
+    "title": "Justice League Dark",
+    "kind": "movie",
+    "releaseDate": "2017-01-24",
+    "imdbId": "tt2494376",
+    "posterPath": "/gWcTaDFXDrOAPfVzfBFz0Aya5BE.jpg",
+    "overview": "When innocent civilians begin committing unthinkable crimes across Metropolis, Gotham City and beyond, Batman must call upon mystical counterparts to eradicate this demonic threat to the planet; enter Justice League Dark. This team of Dark Arts specialists must unravel the mystery of Earth's supernatural plague and contend with the rising, powerful villainous forces behind the siege—before it's too late for all of mankind.",
+    "localized": {
+      "en": {
+        "title": "Justice League Dark",
+        "overview": "When innocent civilians begin committing unthinkable crimes across Metropolis, Gotham City and beyond, Batman must call upon mystical counterparts to eradicate this demonic threat to the planet; enter Justice League Dark. This team of Dark Arts specialists must unravel the mystery of Earth's supernatural plague and contend with the rising, powerful villainous forces behind the siege—before it's too late for all of mankind."
+      },
+      "es": {
+        "title": "La Liga de la Justicia Oscura",
+        "overview": "Batman forma la Liga de la Justicia Oscura, un nuevo equipo de especialistas en artes oscuras que es encabezado por John Constantine. El equipo debe revelar el misterio de una plaga sobrenatural y enfrentar a los poderosos villanos detrás del asedio."
+      }
+    },
+    "runtimeMin": 76
+  },
+  {
+    "id": "teen-titans-the-judas-contract-2017",
+    "tmdbId": 408647,
+    "tmdbType": "movie",
+    "title": "Teen Titans: The Judas Contract",
+    "kind": "movie",
+    "releaseDate": "2017-04-04",
+    "imdbId": "tt6315800",
+    "posterPath": "/nuGIlNAJUati4qEAH1nrYKUA3xa.jpg",
+    "overview": "Tara Markov is a girl who has power over earth and stone; she is also more than she seems. Is the newest Teen Titan an ally or a threat? And what are the mercenary Deathstroke's plans for the Titans?",
+    "localized": {
+      "en": {
+        "title": "Teen Titans: The Judas Contract",
+        "overview": "Tara Markov is a girl who has power over earth and stone; she is also more than she seems. Is the newest Teen Titan an ally or a threat? And what are the mercenary Deathstroke's plans for the Titans?"
+      },
+      "es": {
+        "title": "Los Jóvenes Titanes: El Contrato de Judas",
+        "overview": "Tara Markov es una chica que tiene poder sobre la tierra y la piedra; ella es también más de lo que parece. ¿Es el nuevo Titán adolescente un aliado o una amenaza? ¿Y cuáles son los planes mercenarios de Deathstroke para los Titanes?"
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "batman-and-harley-quinn-2017",
+    "tmdbId": 408648,
+    "tmdbType": "movie",
+    "title": "Batman and Harley Quinn",
+    "kind": "movie",
+    "releaseDate": "2017-07-21",
+    "imdbId": "tt6556890",
+    "posterPath": "/v3RP6pp6pfRdvch6QioeQvNdMJs.jpg",
+    "overview": "Batman and Nightwing are forced to team with the Joker's sometimes-girlfriend Harley Quinn to stop a global threat brought about by Poison Ivy and Jason Woodrue, the Floronic Man.",
+    "localized": {
+      "en": {
+        "title": "Batman and Harley Quinn",
+        "overview": "Batman and Nightwing are forced to team with the Joker's sometimes-girlfriend Harley Quinn to stop a global threat brought about by Poison Ivy and Jason Woodrue, the Floronic Man."
+      },
+      "es": {
+        "title": "Batman y Harley Quinn",
+        "overview": "Batman y Nightwing se ven forzados a formar una frágil alianza con Harley Quinn para así detener a Hiedra Venenosa y Floronic Man, quienes están transformando en plantas a los ciudadanos."
+      }
+    },
+    "runtimeMin": 74
+  },
+  {
+    "id": "suicide-squad-hell-to-pay-2018",
+    "tmdbId": 487242,
+    "tmdbType": "movie",
+    "title": "Suicide Squad: Hell to Pay",
+    "kind": "movie",
+    "releaseDate": "2018-03-23",
+    "imdbId": "tt7167602",
+    "posterPath": "/va1IgsZeWBbKLsZcFwz3CM1MkMu.jpg",
+    "overview": "Amanda Waller's top-secret \"Task Force X\" — consisting of Deadshot, Bronze Tiger, Killer Frost, Captain Boomerang, Harley Quinn, and Copperhead — is on a mission to retrieve a mystical object so powerful that they're willing to risk their lives to steal it. However, the Suicide Squad isn't the only group of villains seeking to possess the object. It's a race for the golden prize, and second place isn't an option if they want to stay alive.",
+    "localized": {
+      "en": {
+        "title": "Suicide Squad: Hell to Pay",
+        "overview": "Amanda Waller's top-secret \"Task Force X\" — consisting of Deadshot, Bronze Tiger, Killer Frost, Captain Boomerang, Harley Quinn, and Copperhead — is on a mission to retrieve a mystical object so powerful that they're willing to risk their lives to steal it. However, the Suicide Squad isn't the only group of villains seeking to possess the object. It's a race for the golden prize, and second place isn't an option if they want to stay alive."
+      },
+      "es": {
+        "title": "Escuadrón Suicida: Deuda infernal",
+        "overview": "El Escuadrón Suicida tiene la misión de recuperar un objeto místico tan poderoso que están dispuestos a arriesgar sus propias vidas y robárselo para ellos mismos."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "the-death-of-superman-2019",
+    "tmdbId": 487670,
+    "tmdbType": "movie",
+    "title": "The Death of Superman",
+    "kind": "movie",
+    "releaseDate": "2019-01-13",
+    "imdbId": "tt7167658",
+    "posterPath": "/y0uxSHaSFmt6XaBJgjkeLqe7aM.jpg",
+    "overview": "When a hulking monster arrives on Earth and begins a mindless rampage, the Justice League is quickly called in to stop it. But it soon becomes apparent that only Superman can stand against the monstrosity.",
+    "localized": {
+      "en": {
+        "title": "The Death of Superman",
+        "overview": "When a hulking monster arrives on Earth and begins a mindless rampage, the Justice League is quickly called in to stop it. But it soon becomes apparent that only Superman can stand against the monstrosity."
+      },
+      "es": {
+        "title": "La muerte de Superman",
+        "overview": "Cuando un monstruo alienigena salvaje emerge de un lugar subterráneo de descanso y desata una devastación descontrolada, la Liga de la justicia es rápidamente llamada para detener a esa colosal fuerza de la naturaleza. Pero pronto se hace evidente que sólo Superman puede lidiar contra esa monstruosidad que ha sido apodada como Doomsday. Luchando a través de todo Estados Unidos, los dos luchan hasta el cansancio hasta llegar al corazón de Metrópolis. Golpe a golpe, Superman finalmente acaba con la amenaza de Doomsday a medida que lanza un último puñetazo y colapsa para siempre."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "reign-of-the-supermen-2019",
+    "tmdbId": 487672,
+    "tmdbType": "movie",
+    "title": "Reign of the Supermen",
+    "kind": "movie",
+    "releaseDate": "2019-01-13",
+    "imdbId": "tt7167686",
+    "posterPath": "/e9TzqscNRUaG8HqEP3K1jUvi8pC.jpg",
+    "overview": "In the wake of The Death of Superman, the world is still mourning the loss of the Man of Steel following his fatal battle with the monster Doomsday. However, no sooner as his body been laid to rest than do four new bearers of the Superman shield come forward to take on the mantle. The Last Son of Krypton, Superboy, Steel, and the Cyborg Superman all attempt to fill the vacuum left by the world's greatest champion. Meanwhile, Superman's death has also signaled to the universe that Earth is vulnerable. Can these new Supermen and the rest of the heroes prove them wrong?",
+    "localized": {
+      "en": {
+        "title": "Reign of the Supermen",
+        "overview": "In the wake of The Death of Superman, the world is still mourning the loss of the Man of Steel following his fatal battle with the monster Doomsday. However, no sooner as his body been laid to rest than do four new bearers of the Superman shield come forward to take on the mantle. The Last Son of Krypton, Superboy, Steel, and the Cyborg Superman all attempt to fill the vacuum left by the world's greatest champion. Meanwhile, Superman's death has also signaled to the universe that Earth is vulnerable. Can these new Supermen and the rest of the heroes prove them wrong?"
+      },
+      "es": {
+        "title": "Reino de los Supermanes",
+        "overview": "Superman ha muerto y el mundo entero está de luto... ¡pero Metropolis sigue necesitando a un defensor! ¿Quién será el sustituto del kryptoniano? ¿Superboy, el Hombre de Acero, o tal vez Superman Cíborg? Mientras tanto, algo extraño pasa en la Fortaleza de la Soledad... La saga que empezó en La muerte de Superman y Un mundo sin Superman continúa en un volumen repleto de sorpresas realizado por autores como Dan Jurgens (Batman del Futuro), Karl Kesel (Harley Quinn: Preludios y chistes malos), Tom Grummett (Astro City) o Jackson Guice (DC Un Millón)."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "justice-league-dark-apokolips-war-2020",
+    "tmdbId": 618344,
+    "tmdbType": "movie",
+    "title": "Justice League Dark: Apokolips War",
+    "kind": "movie",
+    "releaseDate": "2020-05-05",
+    "imdbId": "tt11079148",
+    "posterPath": "/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg",
+    "overview": "Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants.",
+    "localized": {
+      "en": {
+        "title": "Justice League Dark: Apokolips War",
+        "overview": "Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants."
+      },
+      "es": {
+        "title": "La Liga de la Justicia Oscura: Guerra Apokolips",
+        "overview": "Culminando seis años de la aventura de \"Justice League: War\" en 2014, \"Justice League Dark: Apokolips War\" presenta un planeta Tierra totalmente devastado por el tirano intergaláctico Darkseid en el que los superhéroes apenas han podido hacer frente a la guerra. Los últimos bastiones de guerreros que aún quedan en pie deben reagruparse para crear una estrategia que les permita enfrentarse a Darkseid con el propósito de salvar al planeta y a sus pocos supervivientes. Esta es la guerra que acabará con todas las guerras."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "superman-man-of-tomorrow-2020",
+    "tmdbId": 618354,
+    "tmdbType": "movie",
+    "title": "Superman: Man of Tomorrow",
+    "kind": "movie",
+    "releaseDate": "2020-08-23",
+    "imdbId": "tt11079116",
+    "posterPath": "/n9GtiJiBETVFayQy7YnVdF9AucU.jpg",
+    "overview": "It’s the dawn of a new age of heroes, and Metropolis has just met its first. But as Daily Planet intern Clark Kent – working alongside reporter Lois Lane – secretly wields his alien powers of flight, super-strength and x-ray vision in the battle for good, there’s even greater trouble on the horizon.",
+    "localized": {
+      "en": {
+        "title": "Superman: Man of Tomorrow",
+        "overview": "It’s the dawn of a new age of heroes, and Metropolis has just met its first. But as Daily Planet intern Clark Kent – working alongside reporter Lois Lane – secretly wields his alien powers of flight, super-strength and x-ray vision in the battle for good, there’s even greater trouble on the horizon."
+      },
+      "es": {
+        "title": "Superman: Hombre del Mañana",
+        "overview": "Es el comienzo de una nueva era de héroes, y Metropolis acaba de conocer a la primera. Pero mientras el pasante del Daily Planet Clark Kent, que trabaja junto a la reportera Lois Lane, ejerce en secreto sus poderes alienígenas de vuelo, superfuerza y visión de rayos X en la batalla por el bien, hay problemas aún mayores en el horizonte."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "green-lantern-beware-my-power-2022",
+    "tmdbId": 887357,
+    "tmdbType": "movie",
+    "title": "Green Lantern: Beware My Power",
+    "kind": "movie",
+    "releaseDate": "2022-07-26",
+    "imdbId": "tt20192230",
+    "posterPath": "/nS41LN1m2HYvVotvgOTcbPW2cjL.jpg",
+    "overview": "Recently discharged Marine sniper John Stewart is at a crossroads in his life, one which is only complicated by receiving an extraterrestrial ring which grants him the powers of the Green Lantern of Earth. Unfortunately, the ring doesn't come with instructions - but it does come with baggage, like a horde of interplanetary killers bent on eliminating every Green Lantern in the universe. Now, with the aid of the light-hearted Green Arrow, Adam Strange and Hawkgirl, this reluctant soldier must journey into the heart of a galactic Rann/Thanagar war and somehow succeed where all other Green Lanterns have failed.",
+    "localized": {
+      "en": {
+        "title": "Green Lantern: Beware My Power",
+        "overview": "Recently discharged Marine sniper John Stewart is at a crossroads in his life, one which is only complicated by receiving an extraterrestrial ring which grants him the powers of the Green Lantern of Earth. Unfortunately, the ring doesn't come with instructions - but it does come with baggage, like a horde of interplanetary killers bent on eliminating every Green Lantern in the universe. Now, with the aid of the light-hearted Green Arrow, Adam Strange and Hawkgirl, this reluctant soldier must journey into the heart of a galactic Rann/Thanagar war and somehow succeed where all other Green Lanterns have failed."
+      },
+      "es": {
+        "title": "Linterna Verde: Teman a mi poder",
+        "overview": "El francotirador de la Marina recién dado de baja, John Stewart, se encuentra en una encrucijada en su vida, que solo se complica al recibir un anillo extraterrestre que le otorga los poderes de la Linterna Verde de la Tierra. Desafortunadamente, el anillo no viene con instrucciones, pero sí con equipaje, como una horda de asesinos interplanetarios empeñados en eliminar a todos los Green Lantern del universo. Ahora, con la ayuda del alegre Green Arrow, Adam Strange y Hawkgirl, este soldado reacio debe viajar al corazón de una guerra galáctica entre Rann y Thanagar y de alguna manera tener éxito donde todos los demás Green Lanterns han fallado."
+      }
+    },
+    "runtimeMin": 88
+  },
+  {
+    "id": "legion-of-super-heroes-2023",
+    "tmdbId": 1003580,
+    "tmdbType": "movie",
+    "title": "Legion of Super-Heroes",
+    "kind": "movie",
+    "releaseDate": "2023-02-07",
+    "imdbId": "tt22769820",
+    "posterPath": "/3whQLi8RI7h2h2Si2KTDFJxfEcR.jpg",
+    "overview": "Kara, devastated by the loss of Krypton, struggles to adjust to her new life on Earth. Her cousin, Superman, mentors her and suggests she leave their space-time to attend the Legion Academy in the 31st century, where she makes new friends and a new enemy: Brainiac 5. Meanwhile, she must contend with a mysterious group called the Dark Circle as it searches for a powerful weapon held in the Academy’s vault.",
+    "localized": {
+      "en": {
+        "title": "Legion of Super-Heroes",
+        "overview": "Kara, devastated by the loss of Krypton, struggles to adjust to her new life on Earth. Her cousin, Superman, mentors her and suggests she leave their space-time to attend the Legion Academy in the 31st century, where she makes new friends and a new enemy: Brainiac 5. Meanwhile, she must contend with a mysterious group called the Dark Circle as it searches for a powerful weapon held in the Academy’s vault."
+      },
+      "es": {
+        "title": "Legión de Super Héroes",
+        "overview": "Kara, devastada por la pérdida de Krypton, lucha por adaptarse a su nueva vida en la Tierra. Superman la asesora. Mientras tanto, debe enfrentarse a un grupo misterioso llamado Dark Circle que busca un arma poderosa guardada en la bóveda de la Academia."
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "batman-the-doom-that-came-to-gotham-2023",
+    "tmdbId": 1003579,
+    "tmdbType": "movie",
+    "title": "Batman: The Doom That Came to Gotham",
+    "kind": "movie",
+    "releaseDate": "2023-03-10",
+    "imdbId": "tt24223450",
+    "posterPath": "/sKWN5ZzDxnfVixUavs09HfBCCA3.jpg",
+    "overview": "Explorer Bruce Wayne accidentally unleashes an ancient evil, and returns to Gotham after being away for two decades. There, Batman battles Lovecraftian supernatural forces and encounters allies and enemies such as Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face and James Gordon.",
+    "localized": {
+      "en": {
+        "title": "Batman: The Doom That Came to Gotham",
+        "overview": "Explorer Bruce Wayne accidentally unleashes an ancient evil, and returns to Gotham after being away for two decades. There, Batman battles Lovecraftian supernatural forces and encounters allies and enemies such as Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face and James Gordon."
+      },
+      "es": {
+        "title": "Batman: La Perdición que llegó a Ciudad Gótica",
+        "overview": "El explorador Bruce Wayne desata accidentalmente un antiguo mal y regresa a Ciudad Gótica después de estar fuera durante dos décadas. Allí, Batman lucha contra las fuerzas sobrenaturales de Lovecraft y se encuentra con aliados y enemigos como Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face y James Gordon."
+      }
+    },
+    "runtimeMin": 86
+  },
+  {
+    "id": "justice-league-warworld-2023",
+    "tmdbId": 1003581,
+    "tmdbType": "movie",
+    "title": "Justice League: Warworld",
+    "kind": "movie",
+    "releaseDate": "2023-07-25",
+    "imdbId": "tt27687527",
+    "posterPath": "/pHdSS5G3wDwJp6jWgMpbSjNiTbr.jpg",
+    "overview": "Until now, the Justice League has been a loose association of superpowered individuals. But when they are swept away to Warworld, a place of unending brutal gladiatorial combat, Batman, Superman, Wonder Woman and the others must somehow unite to form an unbeatable resistance able to lead an entire planet to freedom.",
+    "localized": {
+      "en": {
+        "title": "Justice League: Warworld",
+        "overview": "Until now, the Justice League has been a loose association of superpowered individuals. But when they are swept away to Warworld, a place of unending brutal gladiatorial combat, Batman, Superman, Wonder Woman and the others must somehow unite to form an unbeatable resistance able to lead an entire planet to freedom."
+      },
+      "es": {
+        "title": "Liga de la Justicia: Mundo bélico",
+        "overview": "Mundo bélico, un lugar de interminables y brutales combates de gladiadores, Batman, Superman, Mujer Maravilla y otros deben unirse para formar una resistencia imbatible que lleve a todo el planeta a la libertad."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "justice-league-crisis-on-infinite-earths-part-one-2024",
+    "tmdbId": 1155089,
+    "tmdbType": "movie",
+    "title": "Justice League: Crisis on Infinite Earths Part One",
+    "kind": "movie",
+    "releaseDate": "2024-01-08",
+    "imdbId": "tt29195117",
+    "posterPath": "/mcRVsjMbhFstRK9z2oGRHiIvulr.jpg",
+    "overview": "Death is coming. Worse than death: oblivion. Not just for our Earth, but for everyone, everywhere, in every universe! Against this ultimate destruction, the mysterious Monitor has gathered the greatest team of Super Heroes ever assembled. But what can the combined might of Superman, Wonder Woman, Batman, The Flash, Green Lantern and hundreds of Super Heroes from multiple Earths even do to save all of reality from an unstoppable antimatter armageddon?!",
+    "localized": {
+      "en": {
+        "title": "Justice League: Crisis on Infinite Earths Part One",
+        "overview": "Death is coming. Worse than death: oblivion. Not just for our Earth, but for everyone, everywhere, in every universe! Against this ultimate destruction, the mysterious Monitor has gathered the greatest team of Super Heroes ever assembled. But what can the combined might of Superman, Wonder Woman, Batman, The Flash, Green Lantern and hundreds of Super Heroes from multiple Earths even do to save all of reality from an unstoppable antimatter armageddon?!"
+      },
+      "es": {
+        "title": "La Liga De La Justicia: Crisis En Las Tierras Infinitas Parte 1",
+        "overview": "El Antimonitor (la contrapartida malvada del Monitor) es liberado en el Multiverso DC y comienza a destruir las diferentes Tierras que lo componen. El Monitor intenta reclutar héroes de todo el Multiverso, pero es asesinado. Adaptación animada de La Liga de la Justicia: Crisis en Tierras Infinitas."
+      }
+    },
+    "runtimeMin": 93
+  },
+  {
+    "id": "justice-league-crisis-on-infinite-earths-part-two-2024",
+    "tmdbId": 1209288,
+    "tmdbType": "movie",
+    "title": "Justice League: Crisis on Infinite Earths Part Two",
+    "kind": "movie",
+    "releaseDate": "2024-04-22",
+    "imdbId": "tt30150907",
+    "posterPath": "/g8ak4QAGLZpqMs3CpnFHWWfIzJQ.jpg",
+    "overview": "An endless army of shadow demons bent on the destruction of all reality swarms over our world and all parallel Earths! The only thing opposing them is the mightiest team of metahumans ever assembled. But not even the combined power of Superman, Batman, Wonder Woman, Green Lantern and all their fellow superheroes can slow down the onslaught of this invincible horde. What mysterious force is driving them? And how do the long-buried secrets of the Monitor and Supergirl threaten to crush our last defense?",
+    "localized": {
+      "en": {
+        "title": "Justice League: Crisis on Infinite Earths Part Two",
+        "overview": "An endless army of shadow demons bent on the destruction of all reality swarms over our world and all parallel Earths! The only thing opposing them is the mightiest team of metahumans ever assembled. But not even the combined power of Superman, Batman, Wonder Woman, Green Lantern and all their fellow superheroes can slow down the onslaught of this invincible horde. What mysterious force is driving them? And how do the long-buried secrets of the Monitor and Supergirl threaten to crush our last defense?"
+      },
+      "es": {
+        "title": "La Liga De La Justicia: Crisis En Las Tierras Infinitas Parte 2",
+        "overview": "Un ejército interminable de demonios de las sombras avanza para destruir todas las realidades y Tierras paralelas. Ni siquiera los héroes más poderosos logran frenar esta horda, mientras secretos ocultos sobre el Monitor y Supergirl ponen en peligro la última línea de defensa del multiverso."
+      }
+    },
+    "runtimeMin": 94
+  },
+  {
+    "id": "justice-league-crisis-on-infinite-earths-part-three-2024",
+    "tmdbId": 1209290,
+    "tmdbType": "movie",
+    "title": "Justice League: Crisis on Infinite Earths Part Three",
+    "kind": "movie",
+    "releaseDate": "2024-07-15",
+    "imdbId": "tt30150917",
+    "posterPath": "/a3q8NkM8uTh9E23VsbUOdDSbBeN.jpg",
+    "overview": "Now fully revealed as the ultimate threat to existence, the Anti-Monitor wages an unrelenting attack on the surviving Earths that struggle for survival in a pocket universe. One by one, these worlds and all their inhabitants are vaporized! On the planets that remain, even time itself is shattered, and heroes from the past join the Justice League and their rag-tag allies against the epitome of evil. But as they make their last stand, will the sacrifice of the superheroes be enough to save us all?",
+    "localized": {
+      "en": {
+        "title": "Justice League: Crisis on Infinite Earths Part Three",
+        "overview": "Now fully revealed as the ultimate threat to existence, the Anti-Monitor wages an unrelenting attack on the surviving Earths that struggle for survival in a pocket universe. One by one, these worlds and all their inhabitants are vaporized! On the planets that remain, even time itself is shattered, and heroes from the past join the Justice League and their rag-tag allies against the epitome of evil. But as they make their last stand, will the sacrifice of the superheroes be enough to save us all?"
+      },
+      "es": {
+        "title": "La Liga De La Justicia: Crisis En Las Tierras Infinitas Parte 3",
+        "overview": "El Anti-Monitor ataca sin piedad las Tierras restantes en una dimensión de bolsillo. La Liga de la Justicia y héroes de diversas épocas se unen para una última y desesperada batalla donde el tiempo se desmorona y el sacrificio es inminente"
+      }
+    },
+    "runtimeMin": 99
+  },
+  {
+    "id": "superman-doomsday-2007",
+    "tmdbId": 13640,
+    "tmdbType": "movie",
+    "title": "Superman: Doomsday",
+    "kind": "movie",
+    "releaseDate": "2007-11-20",
+    "imdbId": "tt0934706",
+    "posterPath": "/itvuWm7DFWWzWgW0xgiaKzzWszP.jpg",
+    "overview": "When LexCorp accidentally unleashes a murderous creature, Superman meets his greatest challenge as a champion. Based on the \"The Death of Superman\" storyline that appeared in DC Comics' publications in the 1990s.",
+    "localized": {
+      "en": {
+        "title": "Superman: Doomsday",
+        "overview": "When LexCorp accidentally unleashes a murderous creature, Superman meets his greatest challenge as a champion. Based on the \"The Death of Superman\" storyline that appeared in DC Comics' publications in the 1990s."
+      },
+      "es": {
+        "title": "La Muerte de Superman",
+        "overview": "Adaptación del cómic 'The Death of Superman' que DC comics lanzó en los años 90s donde supuestamente Superman era asesinado por uno de los más temibles villanos a los que se ha enfrentado, una bestia llamada Doomsday."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "justice-league-the-new-frontier-2008",
+    "tmdbId": 14011,
+    "tmdbType": "movie",
+    "title": "Justice League: The New Frontier",
+    "kind": "movie",
+    "releaseDate": "2008-02-26",
+    "imdbId": "tt0902272",
+    "posterPath": "/bj25ueeYNkz4e5t8oMMaAOWmwOc.jpg",
+    "overview": "The human race is threatened by a powerful creature, and only the combined power of Superman, Batman, Wonder Woman, Green Lantern, Martian Manhunter and The Flash can stop it. But can they overcome their differences to thwart this enemy using the combined strength of their newly formed Justice League?",
+    "localized": {
+      "en": {
+        "title": "Justice League: The New Frontier",
+        "overview": "The human race is threatened by a powerful creature, and only the combined power of Superman, Batman, Wonder Woman, Green Lantern, Martian Manhunter and The Flash can stop it. But can they overcome their differences to thwart this enemy using the combined strength of their newly formed Justice League?"
+      },
+      "es": {
+        "title": "La Liga de la Justicia: La Nueva Frontera",
+        "overview": "Descubre los orígenes de La Liga de la Justicia. Extraños al principio, estos superhéroes deben superar el miedo y la sospecha para forjar una alianza contra un monstruo tan formidable, que incluso el poderoso Superman no puede detenerlo solo. Film basdo en el comic \"DC: THE NEW FRONTIER\", una miniserie de seis números escrita y dibujada por Darwin Cooke (ganadora de los premios Eisner, Harvey y Shuster), y publicada en EEUU en el 2003."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "batman-gotham-knight-2008",
+    "tmdbId": 13851,
+    "tmdbType": "movie",
+    "title": "Batman: Gotham Knight",
+    "kind": "movie",
+    "releaseDate": "2008-07-08",
+    "imdbId": "tt1117563",
+    "posterPath": "/3i1o0sHBP0VUpuSVmkdCRKYoDBC.jpg",
+    "overview": "Six interlocking stories reveal Bruce Wayne's earliest adventures as Batman and the steps he took to become the grim avenger of Gotham City.",
+    "localized": {
+      "en": {
+        "title": "Batman: Gotham Knight",
+        "overview": "Six interlocking stories reveal Bruce Wayne's earliest adventures as Batman and the steps he took to become the grim avenger of Gotham City."
+      },
+      "es": {
+        "title": "Batman: El caballero de Ciudad Gótica",
+        "overview": "Explore la transición de Bruce Wayne desde su inicio como vigilante atormentado hasta The Dark Knight de una metrópolis en ruinas con seis capítulos distintos, pero que se pretende que se vea en su totalidad."
+      }
+    },
+    "runtimeMin": 76
+  },
+  {
+    "id": "wonder-woman-2009",
+    "tmdbId": 15359,
+    "tmdbType": "movie",
+    "title": "Wonder Woman",
+    "kind": "movie",
+    "releaseDate": "2009-03-03",
+    "imdbId": "tt1186373",
+    "posterPath": "/u6sI0yLJXkmrbSJzVRCmmfa4nhx.jpg",
+    "overview": "On the mystical island of Themyscira, a proud and fierce warrior race of Amazons have raised a daughter of untold beauty, grace and strength: Princess Diana. When an Army fighter pilot, Steve Trevor, crash-lands on the island, the rebellious and headstrong Diana defies Amazonian law by accompanying Trevor back to civilization.",
+    "localized": {
+      "en": {
+        "title": "Wonder Woman",
+        "overview": "On the mystical island of Themyscira, a proud and fierce warrior race of Amazons have raised a daughter of untold beauty, grace and strength: Princess Diana. When an Army fighter pilot, Steve Trevor, crash-lands on the island, the rebellious and headstrong Diana defies Amazonian law by accompanying Trevor back to civilization."
+      },
+      "es": {
+        "title": "La Mujer Maravilla",
+        "overview": "Adaptación al cine del personaje de Wonder Woman, una super heroína de cómic, amazona, princesa, guerrera y un con un látigo de superpoderes; que viaja hasta el mundo moderno para combatir el mal."
+      }
+    },
+    "runtimeMin": 74
+  },
+  {
+    "id": "green-lantern-first-flight-2009",
+    "tmdbId": 17445,
+    "tmdbType": "movie",
+    "title": "Green Lantern: First Flight",
+    "kind": "movie",
+    "releaseDate": "2009-07-28",
+    "imdbId": "tt1384590",
+    "posterPath": "/ii48ohKJrDPyrGGOBVJ8XSxr5Xk.jpg",
+    "overview": "Test pilot Hal Jordan finds himself recruited as the newest member of the intergalactic police force, The Green Lantern Corps.",
+    "localized": {
+      "en": {
+        "title": "Green Lantern: First Flight",
+        "overview": "Test pilot Hal Jordan finds himself recruited as the newest member of the intergalactic police force, The Green Lantern Corps."
+      },
+      "es": {
+        "title": "Linterna Verde: Primer Vuelo",
+        "overview": "El piloto de prueba Hal Jordan es reclutado para unirse a una sociedad llamada “Linterna Verde Corporación”, luego de la puerta de su predecesor Abin Sur. Tras aceptar la misión, es llamado a entrenar bajo la supervisión de un maestro llamado Siniestro. El nuevo recluta descubre que su mentor es en realidad una parte centrar de una conspiración secreta que amenaza las filosofías, tradiciones y herencia de la corporación de linternas verdes."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "justice-league-crisis-on-two-earths-2010",
+    "tmdbId": 30061,
+    "tmdbType": "movie",
+    "title": "Justice League: Crisis on Two Earths",
+    "kind": "movie",
+    "releaseDate": "2010-02-23",
+    "imdbId": "tt1494772",
+    "posterPath": "/tN2lodc5g7Fkkus6I6Ch2tNTgb5.jpg",
+    "overview": "A heroic version of Lex Luthor from an alternate universe appears to recruit the Justice League to help save his Earth from the Crime Syndicate, an evil version of the League. What ensues is the ultimate battle of good versus evil in a war that threatens both planets and, through a devious plan launched by Batman's counterpart Owlman, puts the balance of all existence in peril.",
+    "localized": {
+      "en": {
+        "title": "Justice League: Crisis on Two Earths",
+        "overview": "A heroic version of Lex Luthor from an alternate universe appears to recruit the Justice League to help save his Earth from the Crime Syndicate, an evil version of the League. What ensues is the ultimate battle of good versus evil in a war that threatens both planets and, through a devious plan launched by Batman's counterpart Owlman, puts the balance of all existence in peril."
+      },
+      "es": {
+        "title": "Liga de la Justicia: Crisis en las dos tierras",
+        "overview": "Un Lex Luthor bueno, llega desde un universo alterno para reclutar a la Liga de la Justicia para ayudar a salvar a su Tierra de la amenaza Sindicato del Crimen, un grupo de personajes malévolos con super poderes idénticos a los de la Liga de la Justicia. Lo que está asegurado es la batalla definitiva entre el bien y el mal en una guerra que amenaza a ambos planetas y que, a través de un plan diabólico puesto en marcha por Owlman, pone a toda nuestra existencia en peligro."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "batman-under-the-red-hood-2010",
+    "tmdbId": 40662,
+    "tmdbType": "movie",
+    "title": "Batman: Under the Red Hood",
+    "kind": "movie",
+    "releaseDate": "2010-07-27",
+    "imdbId": "tt1569923",
+    "posterPath": "/7lmHqHg1rG9b4U8MjuyQjmJ7Qm0.jpg",
+    "overview": "One part vigilante, one part criminal kingpin, Red Hood begins cleaning up Gotham with the efficiency of Batman, but without following the same ethical code.",
+    "localized": {
+      "en": {
+        "title": "Batman: Under the Red Hood",
+        "overview": "One part vigilante, one part criminal kingpin, Red Hood begins cleaning up Gotham with the efficiency of Batman, but without following the same ethical code."
+      },
+      "es": {
+        "title": "Batman: El Misterio de la Capucha Roja",
+        "overview": "Batman se enfrenta a su ultima aventura cuando el misterioso Capucha Roja toma Gotham por sorpresa. Capucha roja comienza a limpiar Gotham con la misma eficiencia de batman, pero sin seguir el mismo código de ética."
+      }
+    },
+    "runtimeMin": 75
+  },
+  {
+    "id": "superman-batman-apocalypse-2010",
+    "tmdbId": 45162,
+    "tmdbType": "movie",
+    "title": "Superman/Batman: Apocalypse",
+    "kind": "movie",
+    "releaseDate": "2010-09-28",
+    "imdbId": "tt1673430",
+    "posterPath": "/3zZKtQAMcCWEq6EVh2mraJOAajY.jpg",
+    "overview": "Batman discovers a mysterious teen-aged girl with superhuman powers and a connection to Superman. When the girl comes to the attention of Darkseid, the evil overlord of Apokolips, events take a decidedly dangerous turn.",
+    "localized": {
+      "en": {
+        "title": "Superman/Batman: Apocalypse",
+        "overview": "Batman discovers a mysterious teen-aged girl with superhuman powers and a connection to Superman. When the girl comes to the attention of Darkseid, the evil overlord of Apokolips, events take a decidedly dangerous turn."
+      },
+      "es": {
+        "title": "Superman/Batman: Apocalipsis",
+        "overview": "Después de que una nave espacial se estrelle en el puerto de Gotham City, Batman y Superman se encontrarán con un kyrptoniano con poderes a la altura de los del Hombre de Acero. Este personaje resultará ser Kara, primo de Superman. Sin embargo, Darkseid consigue hacerse con el control mental de Kara para hacer frente al Hombre de Acero. Ahora, está en las manos de Batman y Superman el salvar al kryptoniano y derrotar a Darskeid. Como su propio título indica, estará basada en la serie Superman/Batman: Supergirl, a cargo de Jeph Loeb, Michael Turner y Peter Steigerwald y será la continuación espiritual de \"Superman/Batman: Public Enemies\""
+      }
+    },
+    "runtimeMin": 79
+  },
+  {
+    "id": "superman-shazam-the-return-of-black-adam-2010",
+    "tmdbId": 43641,
+    "tmdbType": "movie",
+    "title": "Superman/Shazam!: The Return of Black Adam",
+    "kind": "movie",
+    "releaseDate": "2010-11-16",
+    "imdbId": "tt1701223",
+    "posterPath": "/3MgwChvi42N1RnhQE9A4pQVHyUY.jpg",
+    "overview": "Chosen the world’s protector against the Seven Deadly Enemies of Man – pride, envy, greed, hatred, selfishness, laziness and injustice – young Billy Batson accepts his destiny as Captain Marvel. Battling alongside Superman against nefarious Black Adam, Billy soon discovers the challenge super heroes ultimately face: is it revenge or justice?",
+    "localized": {
+      "en": {
+        "title": "Superman/Shazam!: The Return of Black Adam",
+        "overview": "Chosen the world’s protector against the Seven Deadly Enemies of Man – pride, envy, greed, hatred, selfishness, laziness and injustice – young Billy Batson accepts his destiny as Captain Marvel. Battling alongside Superman against nefarious Black Adam, Billy soon discovers the challenge super heroes ultimately face: is it revenge or justice?"
+      },
+      "es": {
+        "title": "Superman/Shazam! El regreso de Black Adam",
+        "overview": "Elegido por el mago ¡Shazam! para ser el protector del mundo, el joven Billy Batson se convierte en el Mortal más Poderoso de la Tierra. Luchando junto a Superman contra el vil Black Adam, Billy descubre muy rápidamente los grandes retos a los que los Superhéroes tienen que enfrentarse en este novedoso cortometraje"
+      }
+    },
+    "runtimeMin": 25
+  },
+  {
+    "id": "batman-year-one-2011",
+    "tmdbId": 69735,
+    "tmdbType": "movie",
+    "title": "Batman: Year One",
+    "kind": "movie",
+    "releaseDate": "2011-09-27",
+    "imdbId": "tt1672723",
+    "posterPath": "/mLZRhulJcDsxZWTdfx0trtk6y07.jpg",
+    "overview": "A wealthy playboy named Bruce Wayne and a Chicago cop named Jim Gordon both return to Gotham City where their lives unexpectedly intersect.",
+    "localized": {
+      "en": {
+        "title": "Batman: Year One",
+        "overview": "A wealthy playboy named Bruce Wayne and a Chicago cop named Jim Gordon both return to Gotham City where their lives unexpectedly intersect."
+      },
+      "es": {
+        "title": "Batman: Año Uno",
+        "overview": "Adaptación animada del aclamado cómic de Frank Miller. La historia del original cuenta los inicios de la carrera de Bruce Wayne como Batman y de James Gordon con el Departamento de Policía de Gotham City. La vida de estos dos individuos se entrelazan cuando descubren que son aliados en contra de los poderes corruptos en Gotham City. La historia también incluye la primera aparición del capo de la mafia Carmine Falcone."
+      }
+    },
+    "runtimeMin": 64
+  },
+  {
+    "id": "justice-league-doom-2012",
+    "tmdbId": 76589,
+    "tmdbType": "movie",
+    "title": "Justice League: Doom",
+    "kind": "movie",
+    "releaseDate": "2012-02-28",
+    "imdbId": "tt2027128",
+    "posterPath": "/jmEAGjDAIZdQQNASygPsATBgKBC.jpg",
+    "overview": "An adaptation of Mark Waid's \"Tower of Babel\" story from the JLA comic. Vandal Savage steals confidential files Batman has compiled on the members of the Justice League, and learns all their weaknesses.",
+    "localized": {
+      "en": {
+        "title": "Justice League: Doom",
+        "overview": "An adaptation of Mark Waid's \"Tower of Babel\" story from the JLA comic. Vandal Savage steals confidential files Batman has compiled on the members of the Justice League, and learns all their weaknesses."
+      },
+      "es": {
+        "title": "La Liga de la Justicia: Legión del Mal",
+        "overview": "La Liga de la Justicia está formada por los mejores Súper Héroes de la Tierra y protectores de la humanidad. Pero en la mente del Caballero de la Noche, está formada por la que podría ser la gente mas peligrosa del planeta. Al paso del tiempo, Batman ha reunido planes de contingencia ultra secretos que no deben salirse de control. Cuando estos archivos son robados por un grupo creciente de Súper Villanos, la Liga de la Justicia se embarca en un enfrentamiento que pondrá a prueba los lazos de esta alianza."
+      }
+    },
+    "runtimeMin": 77
+  },
+  {
+    "id": "batman-the-dark-knight-returns-part-1-2012",
+    "tmdbId": 123025,
+    "tmdbType": "movie",
+    "title": "Batman: The Dark Knight Returns, Part 1",
+    "kind": "movie",
+    "releaseDate": "2012-09-25",
+    "imdbId": "tt2313197",
+    "posterPath": "/rVr2Tdp2LcL3DheXUrVN345Myhg.jpg",
+    "overview": "Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing 55-year-old Bruce Wayne back into the cape and cowl. But, does he still have what it takes to fight crime in a new era?",
+    "localized": {
+      "en": {
+        "title": "Batman: The Dark Knight Returns, Part 1",
+        "overview": "Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing 55-year-old Bruce Wayne back into the cape and cowl. But, does he still have what it takes to fight crime in a new era?"
+      },
+      "es": {
+        "title": "Batman: El Regreso del Caballero Oscuro, Parte 1",
+        "overview": "Bruce Wayne hace más de diez años que abandonó la capa de murciélago atormentado por la muerte de Robín. La ciudad de Gotham esta hundida en la decadencia y la anarquía. Ahora, cuando su ciudad más lo necesita, El Regreso del Caballero Oscuro es un resplandor de gloria. Apoyado por Carrie Kelly, una adolescente que asumirá el puesto de Robin, el murciélago sale nuevamente a la calle para poner fi n a la amenaza de pandillas mutantes que han invadido la ciudad. Y después estará frente a frente contra sus dos grandes enemigos, el Joker y Dos Caras. Primera parte de la adaptación del aclamado cómic de Frank Miller \"El retorno del señor de la noche\"."
+      }
+    },
+    "runtimeMin": 76
+  },
+  {
+    "id": "batman-the-dark-knight-returns-part-2-2013",
+    "tmdbId": 142061,
+    "tmdbType": "movie",
+    "title": "Batman: The Dark Knight Returns, Part 2",
+    "kind": "movie",
+    "releaseDate": "2013-01-03",
+    "imdbId": "tt2166834",
+    "posterPath": "/d1TqoVkyL4x0dlu9w3F9Ah4LjNv.jpg",
+    "overview": "Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman.",
+    "localized": {
+      "en": {
+        "title": "Batman: The Dark Knight Returns, Part 2",
+        "overview": "Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman."
+      },
+      "es": {
+        "title": "Batman: El Regreso del Caballero Oscuro, Parte 2",
+        "overview": "Siguiendo con los sucesos que nos hicieron vibrar en El Regreso del Caballero Oscuro: Primera Parte, un Batman odiado y querido a partes iguales por los ciudadanos de Ciudad Gotham será llevado hasta sus límites. Teniendo que enfrentarse de nuevo a un Joker más loco que nunca, se encontrará inesperadamente luchando a muerte con su antiguo aliado, Superman. Solo uno de los dos podrá sobrevivir al combate definitivo. Segunda parte de la adaptación del aclamado cómic de Frank Miller \"El retorno del señor de la noche\""
+      }
+    },
+    "runtimeMin": 78
+  },
+  {
+    "id": "batman-assault-on-arkham-2014",
+    "tmdbId": 242643,
+    "tmdbType": "movie",
+    "title": "Batman: Assault on Arkham",
+    "kind": "movie",
+    "releaseDate": "2014-08-12",
+    "imdbId": "tt3139086",
+    "posterPath": "/b9KxvIAZkl2f57kjObj8Z9z9LhL.jpg",
+    "overview": "Batman works desperately to find a bomb planted by the Joker while Amanda Waller sends her newly-formed Suicide Squad to break into Arkham Asylum and recover vital information stolen by the Riddler.",
+    "localized": {
+      "en": {
+        "title": "Batman: Assault on Arkham",
+        "overview": "Batman works desperately to find a bomb planted by the Joker while Amanda Waller sends her newly-formed Suicide Squad to break into Arkham Asylum and recover vital information stolen by the Riddler."
+      },
+      "es": {
+        "title": "Batman: Ataque a Arkham",
+        "overview": "Bienvenido a Gotham City, corazón de las tinieblas. En su centro se erige Arkham Asylum, un depósito supurante para villanos, peligrosos y delirantes, cuya población no cesa de crecer, cortesía de Dark Knight. Cuando Batman logra resolver la última jugada del Riddler y hay que recuperar pruebas cruciales de Arkham, la solución llega de una fuente inesperada: un escuadrón encubierto del gobierno, formado desde el inframundo de Gotham City. El asesino Deadshot encabeza el Suicide Squad: Harley Quinn, Killer Frost, Captain Boomerang, King Shark y Black Spider, granujas que conocen el Arkham Asylum y sus residentes demasiado bien. Prepárate para un asalto en grande en el que Batman se enfrenta a una legión de criminales sin temor ni nada que perder. Algunos vivirán, otros morirán y algunos solo tienen sed de venganza. Una aventura sin adulterar que atraviesa la mente criminal en la más reciente película animada de DC Universe."
+      }
+    },
+    "runtimeMin": 76
+  },
+  {
+    "id": "justice-league-gods-and-monsters-2015",
+    "tmdbId": 323027,
+    "tmdbType": "movie",
+    "title": "Justice League: Gods and Monsters",
+    "kind": "movie",
+    "releaseDate": "2015-06-18",
+    "imdbId": "tt4324302",
+    "posterPath": "/9EoqQuEZKmQIYjexoUbkxMcMCVr.jpg",
+    "overview": "In an alternate universe, very different versions of DC's Trinity fight against the government after they are framed for an embassy bombing.",
+    "localized": {
+      "en": {
+        "title": "Justice League: Gods and Monsters",
+        "overview": "In an alternate universe, very different versions of DC's Trinity fight against the government after they are framed for an embassy bombing."
+      },
+      "es": {
+        "title": "Liga de la justicia: Dioses y monstruos",
+        "overview": "La Liga de la Justicia: Dioses y Monstruos explora una realidad recién concebida en el Universo DC, donde los miembros de la Liga: Superman, Batman y Wonder Woman son versiones mucho más oscuras de los superhéroes que las personas piensan que conocen."
+      }
+    },
+    "runtimeMin": 76
+  },
+  {
+    "id": "batman-the-killing-joke-2016",
+    "tmdbId": 382322,
+    "tmdbType": "movie",
+    "title": "Batman: The Killing Joke",
+    "kind": "movie",
+    "releaseDate": "2016-07-24",
+    "imdbId": "tt4853102",
+    "posterPath": "/lrQ3LeNIN0nmviZ692seNBUl1Pq.jpg",
+    "overview": "As Batman hunts for the escaped Joker, the Clown Prince of Crime attacks the Gordon family to prove a diabolical point mirroring his own fall into madness.",
+    "localized": {
+      "en": {
+        "title": "Batman: The Killing Joke",
+        "overview": "As Batman hunts for the escaped Joker, the Clown Prince of Crime attacks the Gordon family to prove a diabolical point mirroring his own fall into madness."
+      },
+      "es": {
+        "title": "Batman: La Broma Mortal",
+        "overview": "¿Qué se necesita para desquiciar una persona? ¿Cuánta desesperación quebranta una mente? Estas son las malévolas preguntas que el Joker se ha propuesto a responder, para demostrar a la Ciudad Gótica que hasta un hombre ordinario como el comisionado Gordon está a solo un mal día de la completa locura. Con base en la aclamada novela gráfica de DC Comics, sea testigo de un viaje dentro de la psique del Príncipe Payaso del Crimen. Siga sus humildes comienzos como un cómic que lucha hasta su fatídico encuentro con el Caballero de la Noche que lo cambió todo. Impulsado por el regreso de Kevin Conroy como Batman y Mark Hamill como el Joker, sea testigo del nacimiento de un súper villano, la fortaleza de un héroe y la frase clave que le quitará el habla."
+      }
+    },
+    "runtimeMin": 77
+  },
+  {
+    "id": "batman-gotham-by-gaslight-2018",
+    "tmdbId": 471474,
+    "tmdbType": "movie",
+    "title": "Batman: Gotham by Gaslight",
+    "kind": "movie",
+    "releaseDate": "2018-01-12",
+    "imdbId": "tt7167630",
+    "posterPath": "/7souLi5zqQCnpZVghaXv0Wowi0y.jpg",
+    "overview": "In an alternative Victorian Age Gotham City, Batman begins his war on crime while he investigates a new series of murders by Jack the Ripper.",
+    "localized": {
+      "en": {
+        "title": "Batman: Gotham by Gaslight",
+        "overview": "In an alternative Victorian Age Gotham City, Batman begins his war on crime while he investigates a new series of murders by Jack the Ripper."
+      },
+      "es": {
+        "title": "Batman: Luz De Gas",
+        "overview": "Gotham City, al entrar al nuevo siglo, vive una época dorada de descubrimiento e industria según se muestra en la Feria Mundial del adinerado empresario Bruce Wayne. En los callejones más oscuros, un asesino anda suelto. Acechando a las mujeres de la ciudad, este asesino es tan preciso como cruel. Mientras que el jefe de policías James Gordon intenta calmar el temor de los ciudadanos de Gotham causado por el carnicero llamado Jack the Ripper, Batman, el justiciero enmascarado, investiga por su cuenta con la ayuda de la sensual y ágil Selina Kyle. ¡Sea testigo de un mundo en llamas a medida que el salvajismo controlado del asesino enfrenta el sigilo calculado del Dark Knight!"
+      }
+    },
+    "runtimeMin": 78
+  },
+  {
+    "id": "batman-ninja-2018",
+    "tmdbId": 485942,
+    "tmdbType": "movie",
+    "title": "Batman Ninja",
+    "kind": "movie",
+    "releaseDate": "2018-03-24",
+    "imdbId": "tt7451284",
+    "posterPath": "/5xSB0Npkc9Fd9kahKBsq9P4Cdzp.jpg",
+    "overview": "Batman, along with many of his allies and adversaries, finds himself transported to feudal Japan by Gorilla Grodd's time displacement machine.",
+    "localized": {
+      "en": {
+        "title": "Batman Ninja",
+        "overview": "Batman, along with many of his allies and adversaries, finds himself transported to feudal Japan by Gorilla Grodd's time displacement machine."
+      },
+      "es": {
+        "title": "Batman Ninja",
+        "overview": "Batman, junto con varios de sus aliados y enemigos, se encuentra transportado de la moderna ciudad de Gotham a Japón de la era feudal, donde los villanos toman la forma de señores feudales que gobiernan las tierras divididas, con el Joker a la cabeza."
+      }
+    },
+    "runtimeMin": 85
+  },
+  {
+    "id": "constantine-city-of-demons-2018",
+    "tmdbId": 539517,
+    "tmdbType": "movie",
+    "title": "Constantine: City of Demons - The Movie",
+    "kind": "movie",
+    "releaseDate": "2018-10-04",
+    "imdbId": "tt9177882",
+    "posterPath": "/tZIMe2pYug1cS9e7AZnd1bTTidM.jpg",
+    "overview": "A decade after a tragic mistake, family man Chas Chandler and occult detective John Constantine set out to cure his daughter Trish from a mysterious supernatural coma.",
+    "localized": {
+      "en": {
+        "title": "Constantine: City of Demons - The Movie",
+        "overview": "A decade after a tragic mistake, family man Chas Chandler and occult detective John Constantine set out to cure his daughter Trish from a mysterious supernatural coma."
+      },
+      "es": {
+        "title": "Constantine: Ciudad de demonios - La película",
+        "overview": "10 años después de un trágico error, un padre de familia, Chas, y un detective, John Constantine, intentan curar a la hija de Chas, Trish, de un misterioso coma. Con la ayuda de la Enfermera Pesadilla, la influyente Reina de los Ángeles y el brutal dios azteca Mictlantecuhtli, la pareja tendrá que enfrentarse al demonio Beroul para salvar el alma de Trish."
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "batman-hush-2019",
+    "tmdbId": 537056,
+    "tmdbType": "movie",
+    "title": "Batman: Hush",
+    "kind": "movie",
+    "releaseDate": "2019-07-19",
+    "imdbId": "tt8752440",
+    "posterPath": "/eiVQORVyVuNNZHPAELuWtlXoQsD.jpg",
+    "overview": "A mysterious new villain known only as Hush uses a gallery of villains to destroy Batman's crime-fighting career as well as Bruce Wayne's personal life, which has been further complicated by a relationship with Selina Kyle/Catwoman.",
+    "localized": {
+      "en": {
+        "title": "Batman: Hush",
+        "overview": "A mysterious new villain known only as Hush uses a gallery of villains to destroy Batman's crime-fighting career as well as Bruce Wayne's personal life, which has been further complicated by a relationship with Selina Kyle/Catwoman."
+      },
+      "es": {
+        "title": "Batman: Hush",
+        "overview": "Un nuevo villano de quien sólo se conoce el nombre, “Hush”, emplea a todos los enemigos de Gotham para destruir la vida tanto de Batman, el héroe, como la de Bruce Wayne, el empresario y playboy que ahora mantiene una relación íntima con Selina Kyle, también conocida como “Catwoman”. Adaptación de uno de los grandes clásicos del universo DC: “Batman: Hush” escrito por Jeph Loeb y dibujado por Jim Lee."
+      }
+    },
+    "runtimeMin": 82
+  },
+  {
+    "id": "superman-red-son-2020",
+    "tmdbId": 618355,
+    "tmdbType": "movie",
+    "title": "Superman: Red Son",
+    "kind": "movie",
+    "releaseDate": "2020-02-24",
+    "imdbId": "tt10985510",
+    "posterPath": "/frSfz7olCSQsp2SmTyu2ciGGQiX.jpg",
+    "overview": "Set in the thick of the Cold War, Red Son introduces us to a Superman who landed in the USSR during the 1950s and grows up to become a Soviet symbol that fights for the preservation of Stalin’s brand of communism.",
+    "localized": {
+      "en": {
+        "title": "Superman: Red Son",
+        "overview": "Set in the thick of the Cold War, Red Son introduces us to a Superman who landed in the USSR during the 1950s and grows up to become a Soviet symbol that fights for the preservation of Stalin’s brand of communism."
+      },
+      "es": {
+        "title": "Superman: Hijo rojo",
+        "overview": "La historia explora una realidad alternativa dentro de la serie del famoso superhéroe en la que el bebé Kal-El aterriza en la Unión Soviética y no en los Estados Unidos, lo que convierte a Superman en un icono de los valores soviéticos de la época, tales como el comunismo y el expansionismo."
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "batman-death-in-the-family-2020",
+    "tmdbId": 618353,
+    "tmdbType": "movie",
+    "title": "DC Showcase - Batman: Death in the Family",
+    "kind": "movie",
+    "releaseDate": "2020-10-13",
+    "imdbId": "tt12794046",
+    "posterPath": "/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg",
+    "overview": "Tragedy strikes the Batman's life again when Robin Jason Todd tracks down his birth mother only to run afoul of the Joker. An adaptation of the 1988 comic book storyline of the same name.",
+    "localized": {
+      "en": {
+        "title": "DC Showcase - Batman: Death in the Family",
+        "overview": "Tragedy strikes the Batman's life again when Robin Jason Todd tracks down his birth mother only to run afoul of the Joker. An adaptation of the 1988 comic book storyline of the same name."
+      },
+      "es": {
+        "title": "Batman: Muerte en la Familia",
+        "overview": "Tras notar que Jason Todd se vuelve cada vez más violento en su lucha contra el crimen, Batman decide apartarlo temporalmente de su rol como Robin. Consumido por la ira y la frustración, Jason abandona Gotham y corta todo vínculo con su mentor. Tiempo después, ambos se reencontrarán en Bosnia, donde deberán enfrentar una peligrosa alianza entre Joker y Ra's al Ghul, quienes planean robar uranio para fabricar bombas radiactivas.  Mientras Batman combate a los hombres de Ra’s al Ghul, el Joker secuestra a Robin y lo somete a una brutal golpiza con una palanca metálica, dejándolo gravemente herido dentro de un almacén preparado para explotar."
+      }
+    },
+    "runtimeMin": 31
+  },
+  {
+    "id": "batman-soul-of-the-dragon-2021",
+    "tmdbId": 732450,
+    "tmdbType": "movie",
+    "title": "Batman: Soul of the Dragon",
+    "kind": "movie",
+    "releaseDate": "2021-01-12",
+    "imdbId": "tt12885852",
+    "posterPath": "/uDhnTtSxU5a8DtZdbbin3aZmkmU.jpg",
+    "overview": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.",
+    "localized": {
+      "en": {
+        "title": "Batman: Soul of the Dragon",
+        "overview": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva."
+      },
+      "es": {
+        "title": "Batman: Alma del Dragón",
+        "overview": "Bruce Wayne (BATMAN) enfrenta una amenaza mortal de su pasado, con la ayuda de tres ex compañeros de clase:  los artistas marciales de renombre mundial Richard Dragon, Ben Turner y Lady Shiva."
+      }
+    },
+    "runtimeMin": 83
+  },
+  {
+    "id": "batman-the-long-halloween-part-one-2021",
+    "tmdbId": 736073,
+    "tmdbType": "movie",
+    "title": "Batman: The Long Halloween, Part One",
+    "kind": "movie",
+    "releaseDate": "2021-06-21",
+    "imdbId": "tt14324650",
+    "posterPath": "/sR7gppb0YGjwLvE6Vnj6wYv5MnW.jpg",
+    "overview": "Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent.",
+    "localized": {
+      "en": {
+        "title": "Batman: The Long Halloween, Part One",
+        "overview": "Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent."
+      },
+      "es": {
+        "title": "Batman: El Largo Halloween Parte 1",
+        "overview": "Batman investiga una serie de asesinatos cometidos en Halloween."
+      }
+    },
+    "runtimeMin": 85
+  },
+  {
+    "id": "batman-the-long-halloween-part-two-2021",
+    "tmdbId": 736074,
+    "tmdbType": "movie",
+    "title": "Batman: The Long Halloween, Part Two",
+    "kind": "movie",
+    "releaseDate": "2021-07-26",
+    "imdbId": "tt14402926",
+    "posterPath": "/5X1n5q08mZ7NpNpxehMFODxfNYq.jpg",
+    "overview": "As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones.",
+    "localized": {
+      "en": {
+        "title": "Batman: The Long Halloween, Part Two",
+        "overview": "As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones."
+      },
+      "es": {
+        "title": "Batman: el largo Halloween parte 2",
+        "overview": "Después de que un ataque deje a Harvey horriblemente desfigurado, el fiscal de distrito desatará la dualidad de su mente que ha intentado suprimir toda su vida. Ahora, como Two-Face, Dent decide tomar la ley en sus propias manos y ajusticiar a los que le han hecho desagravios, a su familia y a todo Gotham."
+      }
+    },
+    "runtimeMin": 87
+  },
+  {
+    "id": "injustice-2021",
+    "tmdbId": 831405,
+    "tmdbType": "movie",
+    "title": "Injustice",
+    "kind": "movie",
+    "releaseDate": "2021-10-09",
+    "imdbId": "tt5012504",
+    "posterPath": "/rzrSeqqpm1BwJ3tcTznztBtLLSD.jpg",
+    "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?",
+    "localized": {
+      "en": {
+        "title": "Injustice",
+        "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?"
+      },
+      "es": {
+        "title": "Injustice: Dioses entre nosotros",
+        "overview": "En una Tierra alternativa, el Joker engaña a Superman para que mate a Lois Lane, lo que provoca un alboroto en el héroe. Superman decide tomar el control de la Tierra, Batman y sus aliados deberán intentar detenerlo. Película de animación basada en el videojuego «Injustice: Gods Among Us», y específicamente en su adaptación de cómic «Year One» de Tom Taylor."
+      }
+    },
+    "runtimeMin": 78
+  },
+  {
+    "id": "dc-league-of-super-pets-2022",
+    "tmdbId": 539681,
+    "tmdbType": "movie",
+    "title": "DC League of Super-Pets",
+    "kind": "movie",
+    "releaseDate": "2022-07-27",
+    "imdbId": "tt8912936",
+    "posterPath": "/qpPMewlugFaejXjz4YNDnpTniFX.jpg",
+    "overview": "When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes.",
+    "localized": {
+      "en": {
+        "title": "DC League of Super-Pets",
+        "overview": "When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes."
+      },
+      "es": {
+        "title": "DC Liga De Supermascotas",
+        "overview": "Cuando Superman y el resto de la Liga de la Justicia son secuestrados, Krypto debe convencer a una banda de refugiados (Ace el sabueso, PB el minicerdo, Merton la tortuga y Chip la ardilla) a dominar sus propios poderes recién descubiertos y ayudarlo a rescatar a los superhéroes."
+      }
+    },
+    "runtimeMin": 105
+  },
+  {
+    "id": "teen-titans-go-to-the-movies-2018",
+    "tmdbId": 474395,
+    "tmdbType": "movie",
+    "title": "Teen Titans Go! To the Movies",
+    "kind": "movie",
+    "releaseDate": "2018-07-27",
+    "imdbId": "tt7424200",
+    "posterPath": "/mFHihhE9hlvJEk2f1AqdLRaYHd6.jpg",
+    "overview": "All the major DC superheroes are starring in their own films, all but the Teen Titans, so Robin is determined to remedy this situation by getting over his role as a sidekick and becoming a movie star. Thus, with a few madcap ideas and an inspirational song in their hearts, the Teen Titans head to Hollywood to fulfill their dreams.",
+    "localized": {
+      "en": {
+        "title": "Teen Titans Go! To the Movies",
+        "overview": "All the major DC superheroes are starring in their own films, all but the Teen Titans, so Robin is determined to remedy this situation by getting over his role as a sidekick and becoming a movie star. Thus, with a few madcap ideas and an inspirational song in their hearts, the Teen Titans head to Hollywood to fulfill their dreams."
+      },
+      "es": {
+        "title": "Jóvenes Titanes en acción: la película",
+        "overview": "Parece que todos los grandes superhéroes están protagonizando sus propias películas, todos menos los Teen Titans. Robin está obligado y decidido a remediar esa situación al convertirse en una estrella en lugar de ser un compañero. Con algunas ideas locas y una canción en sus corazones, los Teen Titans se dirigen a Hollywood para cumplir sus sueños. Sin embargo, las cosas pronto van mal, cuando un supervillano planea apoderarse del planeta, poniendo en peligro la suerte de los jóvenes héroes."
+      }
+    },
+    "runtimeMin": 84
+  },
+  {
+    "id": "merry-little-batman-2023",
+    "tmdbId": 870358,
+    "tmdbType": "movie",
+    "title": "Merry Little Batman",
+    "kind": "movie",
+    "releaseDate": "2023-12-08",
+    "imdbId": "tt15352516",
+    "posterPath": "/2J70guF8wcErbYbRgZUBcvShgI1.jpg",
+    "overview": "This Christmas, Damian Wayne wants to be a superhero like his dad – the one and only Batman. When Damian is left home alone while Batman takes on Gotham’s worst supervillains on Christmas Eve, he stumbles upon a villainous plot to steal Christmas and leaps at the chance to save the day.",
+    "localized": {
+      "en": {
+        "title": "Merry Little Batman",
+        "overview": "This Christmas, Damian Wayne wants to be a superhero like his dad – the one and only Batman. When Damian is left home alone while Batman takes on Gotham’s worst supervillains on Christmas Eve, he stumbles upon a villainous plot to steal Christmas and leaps at the chance to save the day."
+      },
+      "es": {
+        "title": "Un pequeño Batman Navideño",
+        "overview": "Esta Navidad, Damian Wayne quiere ser un superhéroe como su papá, el único e inigualable Batman. Cuando Damian se queda solo en casa, mientras Batman se enfrenta a los peores supervillanos de Gótica durante la Nochebuena, se topa con un plan malvado para robarse la Navidad y aprovecha la oportunidad para salvar el día."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "batman-ninja-vs-yakuza-league-2025",
+    "tmdbId": 1297763,
+    "tmdbType": "movie",
+    "title": "Batman Ninja vs. Yakuza League",
+    "kind": "movie",
+    "releaseDate": "2025-03-17",
+    "imdbId": "tt32508210",
+    "posterPath": "/sVVT6GYFErVv0Lcc9NvqCu0iOxO.jpg",
+    "overview": "The Batman family has returned to the present to discover that Japan has disappeared, and a giant island - Hinomoto - is now in the sky over Gotham City.  At the top sit the Yakuza, a group of superpowered individuals who reign without honor or humanity and look suspiciously like the Justice League. Now, it’s up to Batman and his allies to save Gotham!",
+    "localized": {
+      "en": {
+        "title": "Batman Ninja vs. Yakuza League",
+        "overview": "The Batman family has returned to the present to discover that Japan has disappeared, and a giant island - Hinomoto - is now in the sky over Gotham City.  At the top sit the Yakuza, a group of superpowered individuals who reign without honor or humanity and look suspiciously like the Justice League. Now, it’s up to Batman and his allies to save Gotham!"
+      },
+      "es": {
+        "title": "Batman Ninja vs La Liga Yakuza",
+        "overview": "Sólo un día después de regresar del pasado, Batman y sus aliados descubren que el mundo no es exactamente el mismo que dejaron. Toda la isla de Japón ya no existe y los héroes de la Liga de la Justicia tampoco. Pero antes de que puedan comprender lo que está pasando, los yakuza empiezan a llover literalmente del cielo. Secuela de la película anime 3D \"Batman Ninja\""
+      }
+    },
+    "runtimeMin": 90
+  },
+  {
+    "id": "young-justice-2010",
+    "tmdbId": 33217,
+    "tmdbType": "tv",
+    "title": "Young Justice",
+    "kind": "series",
+    "releaseDate": "2010-11-26",
+    "imdbId": "tt1641384",
+    "posterPath": "/7PZDkR1D5sAmygcYh5aeyfJsgf6.jpg",
+    "overview": "Teenage superheroes strive to prove themselves as members of the Justice League.",
+    "localized": {
+      "en": {
+        "title": "Young Justice",
+        "overview": "Teenage superheroes strive to prove themselves as members of the Justice League."
+      },
+      "es": {
+        "title": "Justicia Joven",
+        "overview": "Un grupo de superhéroes adolescentes formado por Robin, Kid Flash, Aqualad, Miss Martian, entre otros, tratan de demostrar su valía para formar parte de la Liga de la Justicia mientras conviven con sus problemas de adolescencia."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2010-11-26"
+      },
+      {
+        "number": 2,
+        "episodes": 20,
+        "airDate": "2012-04-28"
+      },
+      {
+        "number": 3,
+        "episodes": 26,
+        "airDate": "2019-01-04"
+      },
+      {
+        "number": 4,
+        "episodes": 26,
+        "airDate": "2021-10-16"
+      }
+    ],
+    "runtimeMin": 2266
+  },
+  {
+    "id": "teen-titans-2003",
+    "tmdbId": 604,
+    "tmdbType": "tv",
+    "title": "Teen Titans",
+    "kind": "series",
+    "releaseDate": "2003-07-19",
+    "imdbId": "tt0343314",
+    "posterPath": "/txuXDV4tb4xEkE4C6xeYMU4McT.jpg",
+    "overview": "Fighting for truth, justice and the last slice of pizza, these five superheroes are living proof you're never too young to save the planet. Protecting Earth and beyond, the Teen Titans use martial arts and gadgetry to battle villains.",
+    "localized": {
+      "en": {
+        "title": "Teen Titans",
+        "overview": "Fighting for truth, justice and the last slice of pizza, these five superheroes are living proof you're never too young to save the planet. Protecting Earth and beyond, the Teen Titans use martial arts and gadgetry to battle villains."
+      },
+      "es": {
+        "title": "Los jóvenes titanes",
+        "overview": "Adaptación de los cómics de DC. La serie habla del equipo formado por los superhéroes adolescentes Robin, Cyborg, Raven, Starfire, Chico Bestia (Beast Boy) y Terra (ésta última siendo parte del equipo sólo por un breve tiempo). El equipo tiene sus cuarteles generales en la Torre Titán (un edificio con forma de T) y defienden Jump City, una ciudad que tiene un vago parecido con San Francisco y se supone está en la costa oeste de Estados Unidos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2003-07-19"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2004-01-10"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2004-08-28"
+      },
+      {
+        "number": 4,
+        "episodes": 13,
+        "airDate": "2005-01-17"
+      },
+      {
+        "number": 5,
+        "episodes": 13,
+        "airDate": "2005-09-24"
+      }
+    ],
+    "runtimeMin": 1495
+  },
+  {
+    "id": "teen-titans-go-2013",
+    "tmdbId": 45140,
+    "tmdbType": "tv",
+    "title": "Teen Titans Go!",
+    "kind": "series",
+    "releaseDate": "2013-04-23",
+    "imdbId": "tt2771780",
+    "posterPath": "/kPKAigYUlWRpnfo4Ptiwlz4FWXU.jpg",
+    "overview": "Robin, Starfire, Raven, Beast Boy and Cyborg return in all-new, comedic adventures. They may be super heroes who save the world every day ... but somebody still has to do the laundry!",
+    "localized": {
+      "en": {
+        "title": "Teen Titans Go!",
+        "overview": "Robin, Starfire, Raven, Beast Boy and Cyborg return in all-new, comedic adventures. They may be super heroes who save the world every day ... but somebody still has to do the laundry!"
+      },
+      "es": {
+        "title": "Los Jóvenes Titanes en acción",
+        "overview": "Teen Titans Go! es una serie de animación que sigue las aventuras de los Jóvenes Titanes cuando no están salvando el mundo mientras viven juntos como adolescentes sin adultos que se entrometan. Las situaciones son, a diferencia de la mayoría de las series superheróicas, cómicas, alocadas y paródicas; por ejemplo, bromas juveniles que alcanzan nuevas cotas de peligrosidad, obtener el permiso de conducir tras destrozar el Batmóvil o lavar los trajes tras mancharlos al luchar contra sus enemigos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 52,
+        "airDate": "2013-04-23"
+      },
+      {
+        "number": 2,
+        "episodes": 52,
+        "airDate": "2014-06-12"
+      },
+      {
+        "number": 3,
+        "episodes": 53,
+        "airDate": "2015-07-31"
+      },
+      {
+        "number": 4,
+        "episodes": 52,
+        "airDate": "2016-10-20"
+      },
+      {
+        "number": 5,
+        "episodes": 54,
+        "airDate": "2018-06-25"
+      },
+      {
+        "number": 6,
+        "episodes": 50,
+        "airDate": "2019-11-27"
+      },
+      {
+        "number": 7,
+        "episodes": 53,
+        "airDate": "2021-04-17"
+      },
+      {
+        "number": 8,
+        "episodes": 36,
+        "airDate": "2023-02-06"
+      },
+      {
+        "number": 9,
+        "episodes": 52,
+        "airDate": "2025-03-01"
+      }
+    ],
+    "runtimeMin": 5106,
+    "ongoing": true
+  },
+  {
+    "id": "harley-quinn-2019",
+    "tmdbId": 74440,
+    "tmdbType": "tv",
+    "title": "Harley Quinn",
+    "kind": "series",
+    "releaseDate": "2019-11-29",
+    "imdbId": "tt7658402",
+    "posterPath": "/9Dm1SEh8Wxt8LNNg02exHQ595zg.jpg",
+    "overview": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs.",
+    "localized": {
+      "en": {
+        "title": "Harley Quinn",
+        "overview": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs."
+      },
+      "es": {
+        "title": "Harley Quinn",
+        "overview": "Harley Quinn en esta ocasión ha roto definitivamente con El Guasón y tratara de hacerse la reina del crimen de Ciudad Gótica. Hiedra Venenosa se unirá a Harley Quinn, en donde también harán aparición nuevos héroes y villanos del universo de DC Cómics"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2019-11-29"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2020-04-03"
+      },
+      {
+        "number": 3,
+        "episodes": 11,
+        "airDate": "2022-07-28"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2023-07-27"
+      },
+      {
+        "number": 5,
+        "episodes": 10,
+        "airDate": "2025-01-16"
+      }
+    ],
+    "runtimeMin": 1330
+  },
+  {
+    "id": "batman-the-brave-and-the-bold-2008",
+    "tmdbId": 15804,
+    "tmdbType": "tv",
+    "title": "Batman: The Brave and the Bold",
+    "kind": "series",
+    "releaseDate": "2008-11-14",
+    "imdbId": "tt1213218",
+    "posterPath": "/tv2mOIRcPP4H0DhOH84xPgqui7d.jpg",
+    "overview": "The Caped Crusader is teamed up with Blue Beetle, Green Arrow, Aquaman and countless others in his quest to uphold justice.",
+    "localized": {
+      "en": {
+        "title": "Batman: The Brave and the Bold",
+        "overview": "The Caped Crusader is teamed up with Blue Beetle, Green Arrow, Aquaman and countless others in his quest to uphold justice."
+      },
+      "es": {
+        "title": "Batman, el Valiente",
+        "overview": "En cada episodio de la serie se muestra Batman trabajando en conjunto con algún otro superhéroe (del universo DC), juntos frustraran la malvados planes de algún villano, o resolverán un crimen. Dado que cada episodio es más una mini historia, la serie no cuenta con una trama general. En esta adaptación se muestra a Batman de una manera más ligera y humorística, y no tan seria y oscura."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2008-11-14"
+      },
+      {
+        "number": 2,
+        "episodes": 25,
+        "airDate": "2009-11-20"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2011-03-25"
+      }
+    ],
+    "runtimeMin": 1426
+  },
+  {
+    "id": "justice-league-action-2016",
+    "tmdbId": 68837,
+    "tmdbType": "tv",
+    "title": "Justice League Action",
+    "kind": "series",
+    "releaseDate": "2016-12-16",
+    "imdbId": "tt5419200",
+    "posterPath": "/AdTh5kAXYwo0dwHONqCFO7y8Jmf.jpg",
+    "overview": "Batman, Superman and Wonder Woman lead the DC Super Heroes against their most infamous foes.",
+    "localized": {
+      "en": {
+        "title": "Justice League Action",
+        "overview": "Batman, Superman and Wonder Woman lead the DC Super Heroes against their most infamous foes."
+      },
+      "es": {
+        "title": "Liga de la Justicia: Acción",
+        "overview": "Batman, Superman y la Mujer Maravilla lideran a un grupo de superhéroes de la Liga de la Justicia contra sus más infames adversarios. Tienen que luchar contra invasores del espacio y extrañas fuerzas mágicas que intentan destruir la Tierra."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 52,
+        "airDate": "2016-12-16"
+      }
+    ],
+    "runtimeMin": 572
+  },
+  {
+    "id": "beware-the-batman-2013",
+    "tmdbId": 41676,
+    "tmdbType": "tv",
+    "title": "Beware the Batman",
+    "kind": "series",
+    "releaseDate": "2013-07-13",
+    "imdbId": "tt2329077",
+    "posterPath": "/4BoJaShIuo6Mwpz6yrwc0ffBdwz.jpg",
+    "overview": "Set during Bruce Wayne's early years as the Batman, following his initial period of battling organized crime. He hones his skills with the assistance of his butler, Alfred Pennyworth. Bruce is introduced to Alfred's goddaughter, Tatsu Yamashiro. Tatsu is a martial arts swordsmaster hired to act as Bruce's bodyguard, but also recruited to act as a superhero partner to Batman.",
+    "localized": {
+      "en": {
+        "title": "Beware the Batman",
+        "overview": "Set during Bruce Wayne's early years as the Batman, following his initial period of battling organized crime. He hones his skills with the assistance of his butler, Alfred Pennyworth. Bruce is introduced to Alfred's goddaughter, Tatsu Yamashiro. Tatsu is a martial arts swordsmaster hired to act as Bruce's bodyguard, but also recruited to act as a superhero partner to Batman."
+      },
+      "es": {
+        "title": "Cuidado con Batman",
+        "overview": "La serie se desarrolla durante los primeros años de Bruce Wayne como Batman, después de su período inicial de lucha contra el crimen organizado. A lo largo de la temporada, perfecciona sus habilidades con la ayuda de su mayordomo, Alfred Pennyworth. Bruce conoce a la ahijada de Alfred, Tatsu Yamashiro. Tatsu es un espadachín de artes marciales contratado para actuar como guardaespaldas de Bruce, pero también reclutado para actuar como socio superhéroe de Batman."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2013-07-13"
+      }
+    ],
+    "runtimeMin": 572
+  },
+  {
+    "id": "green-lantern-the-animated-series-2011",
+    "tmdbId": 40351,
+    "tmdbType": "tv",
+    "title": "Green Lantern: The Animated Series",
+    "kind": "series",
+    "releaseDate": "2011-11-11",
+    "imdbId": "tt1724587",
+    "posterPath": "/xNrJgBSjVLFaQcxkFbkWtjIuq01.jpg",
+    "overview": "The Green Lanterns Hal and his partner Kilowog fight against the forces of the Red Lanterns.",
+    "localized": {
+      "en": {
+        "title": "Green Lantern: The Animated Series",
+        "overview": "The Green Lanterns Hal and his partner Kilowog fight against the forces of the Red Lanterns."
+      },
+      "es": {
+        "title": "Linterna Verde: La serie animada",
+        "overview": "La serie se enfoca en las aventuras de Hal Jordan, Linterna Verde del sector 2814, y su colega Kilowog. También se introduce como aliado a Razer, un Linterna Roja reformado y Aya, una avanzada inteligencia artificial. Ellos pelearan contra los Linternas Rojas liderados por Atrocitus. En la segunda parte de la primera temporada se introducen nuevos personajes como Guy Gardner, Ch'p y Sinestro. Los creadores de la serie planeaban introducir a futuro otros personajes como John Stewart y Kyle Rayner."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 26,
+        "airDate": "2011-11-11"
+      }
+    ],
+    "runtimeMin": 521
+  },
+  {
+    "id": "my-adventures-with-superman-2023",
+    "tmdbId": 125928,
+    "tmdbType": "tv",
+    "title": "My Adventures with Superman",
+    "kind": "series",
+    "releaseDate": "2023-07-07",
+    "imdbId": "tt14681924",
+    "posterPath": "/eqCGgjQJRImIZp8dUOx1YUpx1dj.jpg",
+    "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
+    "localized": {
+      "en": {
+        "title": "My Adventures with Superman",
+        "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet."
+      },
+      "es": {
+        "title": "Mis Aventuras con Superman",
+        "overview": "Serie animada que muestra cómo Clark Kent, Lois Lane y Jimmy Olsen descubren quiénes son y qué son capaces de lograr, mientras salvan la ciudad de las fuerzas que conspiran para destruirla."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2023-07-07"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2024-05-26"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2026-06-14"
+      }
+    ],
+    "runtimeMin": 689
+  },
+  {
+    "id": "batman-caped-crusader-2024",
+    "tmdbId": 125909,
+    "tmdbType": "tv",
+    "title": "Batman: Caped Crusader",
+    "kind": "series",
+    "releaseDate": "2024-08-01",
+    "imdbId": "tt14681596",
+    "posterPath": "/zCHmmoqtLsIsou866osiWtIWmoA.jpg",
+    "overview": "Welcome to Gotham City, where the corrupt outnumber the good, criminals run rampant and law-abiding citizens live in a constant state of fear. Forged in the fire of tragedy, wealthy socialite Bruce Wayne becomes something both more and less than human—the Batman. His one-man crusade for justice attracts unexpected allies within the GCPD and City Hall, but his heroic actions spawn deadly, unforeseen ramifications.",
+    "localized": {
+      "en": {
+        "title": "Batman: Caped Crusader",
+        "overview": "Welcome to Gotham City, where the corrupt outnumber the good, criminals run rampant and law-abiding citizens live in a constant state of fear. Forged in the fire of tragedy, wealthy socialite Bruce Wayne becomes something both more and less than human—the Batman. His one-man crusade for justice attracts unexpected allies within the GCPD and City Hall, but his heroic actions spawn deadly, unforeseen ramifications."
+      },
+      "es": {
+        "title": "Batman: El enmascarado",
+        "overview": "Bienvenidos a Ciudad Gótica, donde los delincuentes se mueven a sus anchas y los ciudadanos decentes viven con temor. Forjado en el fuego de la tragedia, el sofisticado multimillonario Bruce Wayne se transforma en Batman, un personaje a la vez más y menos que humano. Su solitaria cruzada contra el mal atrae aliados de la policía y la alcaldía, pero sus actos heroicos tienen ramificaciones letales."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2024-08-01"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2026-07-31"
+      }
+    ],
+    "runtimeMin": 527,
+    "ongoing": true
+  },
+  {
+    "id": "kite-man-hell-yeah-2024",
+    "tmdbId": 200753,
+    "tmdbType": "tv",
+    "title": "Kite Man: Hell Yeah!",
+    "kind": "series",
+    "releaseDate": "2024-07-18",
+    "imdbId": "tt19853518",
+    "posterPath": "/cebce4aQiO4gRLiILxoZbzWUoEJ.jpg",
+    "overview": "Lovable loser Kite Man and his new squeeze Golden Glider moonlight as criminals to support their foolish purchase of Noonan's, Gotham's seediest dive bar, where everybody knows your name, but not necessarily your secret identity!",
+    "localized": {
+      "en": {
+        "title": "Kite Man: Hell Yeah!",
+        "overview": "Lovable loser Kite Man and his new squeeze Golden Glider moonlight as criminals to support their foolish purchase of Noonan's, Gotham's seediest dive bar, where everybody knows your name, but not necessarily your secret identity!"
+      },
+      "es": {
+        "title": "Hombre Cometa: ¡Oh, sí!",
+        "overview": "En este spin-off de la serie animada para adultos \"Harley Quinn\" sigue a Kite Man y Golden Glider, quienes mejoran su relación comprando Noonan's, el bar de buceo más sórdido de Gotham."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2024-07-18"
+      }
+    ],
+    "runtimeMin": 233
+  },
+  {
+    "id": "dc-super-hero-girls-2019",
+    "tmdbId": 87491,
+    "tmdbType": "tv",
+    "title": "DC Super Hero Girls",
+    "kind": "series",
+    "releaseDate": "2019-03-08",
+    "imdbId": "tt9628244",
+    "posterPath": "/sjjyQ0OKUnUTzJpLi5CDOzZCE88.jpg",
+    "overview": "The world may know them as Wonder Woman, Supergirl and Batgirl, but not-so-typical teenagers Diana, Kara and Barbara, alongside their Super Hero friends have much more to deal with than just protecting Metropolis from some of the most sinister school-aged Super-Villains. After all, being teens is tough enough, what with school, friends, family and the chaos that comes with managing a social life. But add super powers and a secret identity to the mix, and things can get a lot more complicated.",
+    "localized": {
+      "en": {
+        "title": "DC Super Hero Girls",
+        "overview": "The world may know them as Wonder Woman, Supergirl and Batgirl, but not-so-typical teenagers Diana, Kara and Barbara, alongside their Super Hero friends have much more to deal with than just protecting Metropolis from some of the most sinister school-aged Super-Villains. After all, being teens is tough enough, what with school, friends, family and the chaos that comes with managing a social life. But add super powers and a secret identity to the mix, and things can get a lot more complicated."
+      },
+      "es": {
+        "title": "DC Super Hero Girls",
+        "overview": "Seis adolescentes que poseen poderes extraordinarios unen sus fuerzas para enfrentarse a los peores villanos de la ciudad."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 52,
+        "airDate": "2019-03-08"
+      },
+      {
+        "number": 2,
+        "episodes": 26,
+        "airDate": "2021-06-06"
+      }
+    ],
+    "runtimeMin": 862
+  },
+  {
+    "id": "smallville-2001",
+    "tmdbId": 4604,
+    "tmdbType": "tv",
+    "title": "Smallville",
+    "kind": "series",
+    "releaseDate": "2001-10-16",
+    "imdbId": "tt0279600",
+    "posterPath": "/pUhJGETy2sec4vEkiqJ9eGeIywc.jpg",
+    "overview": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel.",
+    "localized": {
+      "en": {
+        "title": "Smallville",
+        "overview": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel."
+      },
+      "es": {
+        "title": "Smallville",
+        "overview": "Serie que narra los inicios de Superman -Clark Kent- en su pueblo natal, Smallville. Allí vivía con sus padres, estudiaba en el instituto local y conoció a su primera novia, Lana Lang, y a su futuro rival, Lex Luthor."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 21,
+        "airDate": "2001-10-16"
+      },
+      {
+        "number": 2,
+        "episodes": 23,
+        "airDate": "2002-09-24"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "2003-10-01"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "2004-09-22"
+      },
+      {
+        "number": 5,
+        "episodes": 22,
+        "airDate": "2005-09-29"
+      },
+      {
+        "number": 6,
+        "episodes": 22,
+        "airDate": "2006-09-28"
+      },
+      {
+        "number": 7,
+        "episodes": 20,
+        "airDate": "2007-09-27"
+      },
+      {
+        "number": 8,
+        "episodes": 22,
+        "airDate": "2008-09-18"
+      },
+      {
+        "number": 9,
+        "episodes": 21,
+        "airDate": "2009-09-25"
+      },
+      {
+        "number": 10,
+        "episodes": 21,
+        "airDate": "2010-09-24"
+      }
+    ],
+    "runtimeMin": 9175
+  },
+  {
+    "id": "gotham-2014",
+    "tmdbId": 60708,
+    "tmdbType": "tv",
+    "title": "Gotham",
+    "kind": "series",
+    "releaseDate": "2014-09-22",
+    "imdbId": "tt3749900",
+    "posterPath": "/zLpSNnVoL2bjQdc1PcaHUPUzttP.jpg",
+    "overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?",
+    "localized": {
+      "en": {
+        "title": "Gotham",
+        "overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?"
+      },
+      "es": {
+        "title": "Gotham",
+        "overview": "Precuela de los cómics de Batman, centrada en la adolescencia de Bruce Wayne. Definida por sus responsables como una especie de Smallville, desarrollará además la vida de Jim Gordon como policía, y la enlazará con el origen del mito de Batman y de otros villanos"
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22,
+        "airDate": "2014-09-22"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "2015-09-20"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "2016-09-19"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "2017-09-20"
+      },
+      {
+        "number": 5,
+        "episodes": 12,
+        "airDate": "2019-01-03"
+      }
+    ],
+    "runtimeMin": 4375
+  },
+  {
+    "id": "titans-2018",
+    "tmdbId": 75450,
+    "tmdbType": "tv",
+    "title": "Titans",
+    "kind": "series",
+    "releaseDate": "2018-10-12",
+    "imdbId": "tt1043813",
+    "posterPath": "/8e6QiSexmYKaiHGPvbhaFMmQEhc.jpg",
+    "overview": "A team of young superheroes led by Nightwing (formerly Batman's first Robin) form to combat evil and other perils.",
+    "localized": {
+      "en": {
+        "title": "Titans",
+        "overview": "A team of young superheroes led by Nightwing (formerly Batman's first Robin) form to combat evil and other perils."
+      },
+      "es": {
+        "title": "Titanes",
+        "overview": "Robin se surge de las sombras de Gotham para liderar a un grupo de héroes: Raven, Starfire y Chico Bestia. La pandilla recién formada de jóvenes superhéroes une fuerzas para luchar contra sus propios demonios y salvar el planeta. Solos son vulnerables, pero juntos son Titanes."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 11,
+        "airDate": "2018-10-12"
+      },
+      {
+        "number": 2,
+        "episodes": 13,
+        "airDate": "2019-09-06"
+      },
+      {
+        "number": 3,
+        "episodes": 13,
+        "airDate": "2021-08-12"
+      },
+      {
+        "number": 4,
+        "episodes": 12,
+        "airDate": "2022-11-03"
+      }
+    ],
+    "runtimeMin": 2308
+  },
+  {
+    "id": "doom-patrol-2019",
+    "tmdbId": 79501,
+    "tmdbType": "tv",
+    "title": "Doom Patrol",
+    "kind": "series",
+    "releaseDate": "2019-02-15",
+    "imdbId": "tt8416494",
+    "posterPath": "/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
+    "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
+    "localized": {
+      "en": {
+        "title": "Doom Patrol",
+        "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find."
+      },
+      "es": {
+        "title": "Doom Patrol",
+        "overview": "Cada uno de los miembros de la Doom Patrol ha sufrido algún horrible accidente que le ha otorgado habilidades super humanas, pero también lo ha dejado desfigurado y traumado. Pero gracias a El Jefe, el equipo encuentra un propósito, reuniéndose para investigar fenómenos paranormales y para proteger a la Tierra de lo que encuentren. Parte grupo de super héroes, parte grupo de apoyo, la \"Patrulla Condenada\" es una banda de fenónemos que luchará por un mundo que no quiere saber nada de ellos."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 15,
+        "airDate": "2019-02-15"
+      },
+      {
+        "number": 2,
+        "episodes": 9,
+        "airDate": "2020-06-25"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2021-09-23"
+      },
+      {
+        "number": 4,
+        "episodes": 12,
+        "airDate": "2022-12-08"
+      }
+    ],
+    "runtimeMin": 2366
+  },
+  {
+    "id": "swamp-thing-2019",
+    "tmdbId": 79240,
+    "tmdbType": "tv",
+    "title": "Swamp Thing",
+    "kind": "series",
+    "releaseDate": "2019-05-31",
+    "imdbId": "tt8362852",
+    "posterPath": "/dD3HcMczLC9wNvfNzx4pZVyl6q8.jpg",
+    "overview": "CDC researcher Abby Arcane investigates what seems to be a deadly swamp-born virus in a small town in Louisiana but she soon discovers that the swamp holds mystical and terrifying secrets. When unexplainable and chilling horrors emerge from the murky marsh, no one is safe.",
+    "localized": {
+      "en": {
+        "title": "Swamp Thing",
+        "overview": "CDC researcher Abby Arcane investigates what seems to be a deadly swamp-born virus in a small town in Louisiana but she soon discovers that the swamp holds mystical and terrifying secrets. When unexplainable and chilling horrors emerge from the murky marsh, no one is safe."
+      },
+      "es": {
+        "title": "La cosa del pantano",
+        "overview": "Cuando la investigadora Abby Arcane regresa a su pueblo natal para investigar un virus mortal nacido en un pantano, crea un inesperado vínculo con el científico Alec Holland. Sin embargo, ambos son separados de forma dramática cuando él muere. Los acontecimientos toman un rumbo catastrófico cuando Arcane descubre que varias entidades de procedencia desconocida tratan de adueñarse de las misteriosas propiedades del pantano con el fin de utilizarlo para sus propios intereses."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2019-05-31"
+      }
+    ],
+    "runtimeMin": 500
+  },
+  {
+    "id": "krypton-2018",
+    "tmdbId": 71340,
+    "tmdbType": "tv",
+    "title": "Krypton",
+    "kind": "series",
+    "releaseDate": "2018-03-21",
+    "imdbId": "tt4276624",
+    "posterPath": "/kMMWb4zIZKBnO3lOpVBXCL1BeNI.jpg",
+    "overview": "Set two generations before the destruction of the legendary Man of Steel’s home planet, Krypton follows Superman’s grandfather — whose House of El was ostracized and shamed — as he fights to redeem his family’s honor and save his beloved world from chaos.",
+    "localized": {
+      "en": {
+        "title": "Krypton",
+        "overview": "Set two generations before the destruction of the legendary Man of Steel’s home planet, Krypton follows Superman’s grandfather — whose House of El was ostracized and shamed — as he fights to redeem his family’s honor and save his beloved world from chaos."
+      },
+      "es": {
+        "title": "Krypton",
+        "overview": "Ambientada dos generaciones antes de la destrucción del planeta del legendario Hombre de Acero, la serie sigue los pasos del abuelo de Superman mientras éste lucha para restablecer el honor de la familia al tiempo que trata de impedir que el mundo quede sumido en el caos absoluto. Precuela de \"Superman\"."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2018-03-21"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2019-06-12"
+      }
+    ],
+    "runtimeMin": 851
+  },
+  {
+    "id": "pennyworth-2019",
+    "tmdbId": 79588,
+    "tmdbType": "tv",
+    "title": "Pennyworth: The Origin of Batman's Butler",
+    "kind": "series",
+    "releaseDate": "2019-07-28",
+    "imdbId": "tt8425532",
+    "posterPath": "/mEHMfWe7pCWMelEkdrtRvVULopT.jpg",
+    "overview": "The origin story of Bruce Wayne's legendary butler, Alfred Pennyworth, a former British SAS soldier who forms a security company in 1960s London and goes to work with young billionaire Thomas Wayne and his wife Martha, before they become Bruce Wayne’s parents.",
+    "localized": {
+      "en": {
+        "title": "Pennyworth: The Origin of Batman's Butler",
+        "overview": "The origin story of Bruce Wayne's legendary butler, Alfred Pennyworth, a former British SAS soldier who forms a security company in 1960s London and goes to work with young billionaire Thomas Wayne and his wife Martha, before they become Bruce Wayne’s parents."
+      },
+      "es": {
+        "title": "Pennyworth: The Origin of Batman's Butler",
+        "overview": "Narra la historia de Alfred Pennyworth, un antiguo miembro de las fuerzas especiales londinenses que se encarga de trabajar para el padre de Bruce Wayne."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 10,
+        "airDate": "2019-07-28"
+      },
+      {
+        "number": 2,
+        "episodes": 10,
+        "airDate": "2020-12-13"
+      },
+      {
+        "number": 3,
+        "episodes": 10,
+        "airDate": "2022-10-06"
+      }
+    ],
+    "runtimeMin": 1501
+  },
+  {
+    "id": "lois-and-clark-the-new-adventures-of-superman-1993",
+    "tmdbId": 4515,
+    "tmdbType": "tv",
+    "title": "Lois & Clark: The New Adventures of Superman",
+    "kind": "series",
+    "releaseDate": "1993-09-12",
+    "imdbId": "tt0106057",
+    "posterPath": "/veNiZIiBsSWSAfVcJzudcuD7N0e.jpg",
+    "overview": "A much more lavish version of the popular Superman television series which had first aired forty years earlier, Lois & Clark focused more on the Man of Steel's early adult years in Metropolis. With the unknowing help of Lois Lane, Clark Kent created Superman there in Metropolis after finding work at the world-famous Daily Planet newspaper, where he meets fellow reporter Lois Lane.",
+    "localized": {
+      "en": {
+        "title": "Lois & Clark: The New Adventures of Superman",
+        "overview": "A much more lavish version of the popular Superman television series which had first aired forty years earlier, Lois & Clark focused more on the Man of Steel's early adult years in Metropolis. With the unknowing help of Lois Lane, Clark Kent created Superman there in Metropolis after finding work at the world-famous Daily Planet newspaper, where he meets fellow reporter Lois Lane."
+      },
+      "es": {
+        "title": "Lois & Clark: Las nuevas aventuras de Superman",
+        "overview": "Esta serie de los años 90, nominada al Emmy, cuenta la historia del `hombre de acero' y la mujer que lo ama."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 21,
+        "airDate": "1993-09-12"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1994-09-18"
+      },
+      {
+        "number": 3,
+        "episodes": 22,
+        "airDate": "1995-09-17"
+      },
+      {
+        "number": 4,
+        "episodes": 22,
+        "airDate": "1996-09-22"
+      }
+    ],
+    "runtimeMin": 4050
+  },
+  {
+    "id": "wonder-woman-1975",
+    "tmdbId": 4331,
+    "tmdbType": "tv",
+    "title": "Wonder Woman",
+    "kind": "series",
+    "releaseDate": "1975-11-07",
+    "imdbId": "tt0074074",
+    "posterPath": "/7vHxWO6ahByDWzWufFL48MXaktT.jpg",
+    "overview": "With the strength of Hercules, the wisdom of Athena, the speed of Mercury and the beauty of Aphrodite, she’s Wonder Woman. Beautiful Amazon princess Wonder Woman travels to 1940s America disguised as Diana Prince, assistant to handsome but trouble-prone Major Steve Trevor. Using her golden belt, which imbues her with astonishing strength, her bullet-deflecting bracelets, a golden lasso that dispels dishonesty and an invisible supersonic plane, Wonder Woman combats evil.",
+    "localized": {
+      "en": {
+        "title": "Wonder Woman",
+        "overview": "With the strength of Hercules, the wisdom of Athena, the speed of Mercury and the beauty of Aphrodite, she’s Wonder Woman. Beautiful Amazon princess Wonder Woman travels to 1940s America disguised as Diana Prince, assistant to handsome but trouble-prone Major Steve Trevor. Using her golden belt, which imbues her with astonishing strength, her bullet-deflecting bracelets, a golden lasso that dispels dishonesty and an invisible supersonic plane, Wonder Woman combats evil."
+      },
+      "es": {
+        "title": "La mujer maravilla",
+        "overview": "Segunda Guerra Mundial. El piloto estadounidense Steve Trevor (Lyle Waggoner) cae en su lucha contra los nazis en una isla del Triángulo de las Bermudas, la Isla Paraíso, en donde residen amazonas. Una de ellas, la princesa Diana (Lynda Carter), le ayudará a combatir a los alemanes y más, tarde en Washington, como Diana Prince, será su socia en luchar contra el crimen como La Mujer Maravilla, Wonder Woman."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 14,
+        "airDate": "1975-11-07"
+      },
+      {
+        "number": 2,
+        "episodes": 22,
+        "airDate": "1977-09-16"
+      },
+      {
+        "number": 3,
+        "episodes": 24,
+        "airDate": "1978-09-22"
+      }
+    ],
+    "runtimeMin": 3053
+  },
+  {
+    "id": "the-flash-1990",
+    "tmdbId": 236,
+    "tmdbType": "tv",
+    "title": "The Flash",
+    "kind": "series",
+    "releaseDate": "1990-09-20",
+    "imdbId": "tt0098798",
+    "posterPath": "/fi1GEdCbyWRDHpyJcB25YYK7fh4.jpg",
+    "overview": "When a bolt of lightning crashes through a police crime lab, a mix of electrically charged substances bathes chemist Barry Allen, transforming him into the fastest man alive--The Flash.",
+    "localized": {
+      "en": {
+        "title": "The Flash",
+        "overview": "When a bolt of lightning crashes through a police crime lab, a mix of electrically charged substances bathes chemist Barry Allen, transforming him into the fastest man alive--The Flash."
+      },
+      "es": {
+        "title": "Flash",
+        "overview": "Cuando un rayo atraviesa un laboratorio criminalístico de la policía, una mezcla de sustancias cargadas eléctricamente baña al químico Barry Allen, transformándolo en el hombre más rápido del mundo: Flash."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 22,
+        "airDate": "1990-09-20"
+      }
+    ],
+    "runtimeMin": 1078
+  },
+  {
+    "id": "birds-of-prey-2002",
+    "tmdbId": 1469,
+    "tmdbType": "tv",
+    "title": "Birds of Prey",
+    "kind": "series",
+    "releaseDate": "2002-10-09",
+    "imdbId": "tt0312098",
+    "posterPath": "/gXeFSST0xqy5XNgrbuEaa5BxvDM.jpg",
+    "overview": "The series is set in New Gotham City, several years after it has been apparently abandoned by Batman. In his absence, Huntress, Oracle and Dinah are now the protectors of New Gotham: the Birds of Prey, and had taken over his war on crime.  They are joined by Alfred Pennyworth, who serves Helena as she is heir to the Wayne estate; and Detective Jesse Reese, a police officer confronted with crimes and abilities he cannot explain.",
+    "localized": {
+      "en": {
+        "title": "Birds of Prey",
+        "overview": "The series is set in New Gotham City, several years after it has been apparently abandoned by Batman. In his absence, Huntress, Oracle and Dinah are now the protectors of New Gotham: the Birds of Prey, and had taken over his war on crime.  They are joined by Alfred Pennyworth, who serves Helena as she is heir to the Wayne estate; and Detective Jesse Reese, a police officer confronted with crimes and abilities he cannot explain."
+      },
+      "es": {
+        "title": "Aves de Presa",
+        "overview": "Cuando el Joker ataca a Catwoman y a Barbara Gordon (Batgirl), Batman entiende que ha llegado el momento de retirarse. Con Catwoman muerta, Batman se va de Gotham City y Barbara debe replantearse su vida. Decidirá unirse a la hija secreta de Batman y Catwoman, Helena Kyle, para mantener el orden en Gotham."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2002-10-09"
+      }
+    ],
+    "runtimeMin": 548
+  },
+  {
+    "id": "watchmen-2019",
+    "tmdbId": 79788,
+    "tmdbType": "tv",
+    "title": "Watchmen",
+    "kind": "series",
+    "releaseDate": "2019-10-20",
+    "imdbId": "tt7049682",
+    "posterPath": "/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg",
+    "overview": "Set in an alternate history where “superheroes” are treated as outlaws, “Watchmen” embraces the nostalgia of the original groundbreaking graphic novel while attempting to break new ground of its own.",
+    "localized": {
+      "en": {
+        "title": "Watchmen",
+        "overview": "Set in an alternate history where “superheroes” are treated as outlaws, “Watchmen” embraces the nostalgia of the original groundbreaking graphic novel while attempting to break new ground of its own."
+      },
+      "es": {
+        "title": "Watchmen",
+        "overview": "Un grupo de superhéroes apodados como Watchmen, están en medio de una investigación centrada en el asesinato de un integrante de su equipo, topándose con una conspiración que pondrá en peligro sus vidas y las de los demás."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 9,
+        "airDate": "2019-10-20"
+      }
+    ],
+    "runtimeMin": 530
+  },
+  {
+    "id": "the-sandman-2022",
+    "tmdbId": 90802,
+    "tmdbType": "tv",
+    "title": "The Sandman",
+    "kind": "series",
+    "releaseDate": "2022-08-05",
+    "imdbId": "tt1751634",
+    "posterPath": "/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
+    "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
+    "localized": {
+      "en": {
+        "title": "The Sandman",
+        "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power."
+      },
+      "es": {
+        "title": "Sandman",
+        "overview": "Luego de años de reclusión, el Rey del Sueño emprende un viaje a través de los mundos para recuperar lo que le robaron y restaurar su poder."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 11,
+        "airDate": "2022-08-05"
+      },
+      {
+        "number": 2,
+        "episodes": 12,
+        "airDate": "2025-07-03"
+      }
+    ],
+    "runtimeMin": 1209
+  },
+  {
+    "id": "lucifer-2016",
+    "tmdbId": 63174,
+    "tmdbType": "tv",
+    "title": "Lucifer",
+    "kind": "series",
+    "releaseDate": "2016-01-25",
+    "imdbId": "tt4052886",
+    "posterPath": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+    "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+    "localized": {
+      "en": {
+        "title": "Lucifer",
+        "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape."
+      },
+      "es": {
+        "title": "Lucifer",
+        "overview": "La serie se centra en Lucifer (Tom Ellis) quien, aburrido e infeliz como el Señor del Infierno, dimite de su trono y abandona su reino para trasladarse a la ciudad de Los Angeles y abrir un lujoso piano-bar llamado Lux. Una vez allí ayudará a la policía a castigar a los más peligrosos criminales de la ciudad."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 13,
+        "airDate": "2016-01-25"
+      },
+      {
+        "number": 2,
+        "episodes": 18,
+        "airDate": "2016-09-19"
+      },
+      {
+        "number": 3,
+        "episodes": 26,
+        "airDate": "2017-10-02"
+      },
+      {
+        "number": 4,
+        "episodes": 10,
+        "airDate": "2019-05-08"
+      },
+      {
+        "number": 5,
+        "episodes": 16,
+        "airDate": "2020-08-20"
+      },
+      {
+        "number": 6,
+        "episodes": 10,
+        "airDate": "2021-09-10"
+      }
+    ],
+    "runtimeMin": 4315
+  },
+  {
+    "id": "sweet-tooth-2021",
+    "tmdbId": 103768,
+    "tmdbType": "tv",
+    "title": "Sweet Tooth",
+    "kind": "series",
+    "releaseDate": "2021-06-04",
+    "imdbId": "tt12809988",
+    "posterPath": "/rgMfhcrVZjuy5b7Pn0KzCRCEnMX.jpg",
+    "overview": "On an epic adventure across a postapocalyptic world, a lovable boy who's part human and part deer searches for family and home with a gruff protector.",
+    "localized": {
+      "en": {
+        "title": "Sweet Tooth",
+        "overview": "On an epic adventure across a postapocalyptic world, a lovable boy who's part human and part deer searches for family and home with a gruff protector."
+      },
+      "es": {
+        "title": "Sweet Tooth",
+        "overview": "En una épica aventura por un mundo posapocalíptico, un adorable niño mitad humano y mitad venado busca a su familia y un hogar acompañado de un arisco protector."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 8,
+        "airDate": "2021-06-04"
+      },
+      {
+        "number": 2,
+        "episodes": 8,
+        "airDate": "2023-04-27"
+      },
+      {
+        "number": 3,
+        "episodes": 8,
+        "airDate": "2024-06-06"
+      }
+    ],
+    "runtimeMin": 1174
+  },
+  {
+    "id": "zack-snyders-justice-league-2021",
+    "tmdbId": 791373,
+    "tmdbType": "movie",
+    "title": "Zack Snyder's Justice League",
+    "kind": "movie",
+    "releaseDate": "2021-03-18",
+    "imdbId": "tt12361974",
+    "posterPath": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+    "localized": {
+      "en": {
+        "title": "Zack Snyder's Justice League",
+        "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+      },
+      "es": {
+        "title": "La Liga de la Justicia de Zack Snyder",
+        "overview": "Decidido a asegurarse de que el sacrificio final de Superman no fue en vano, Bruce Wayne alinea fuerzas con Diana Prince con planes para reclutar un equipo de metahumanos para proteger al mundo de una amenaza de proporciones catastróficas que se aproxima."
+      }
+    },
+    "runtimeMin": 242
+  },
+  {
+    "id": "green-lantern-2011",
+    "tmdbId": 44912,
+    "tmdbType": "movie",
+    "title": "Green Lantern",
+    "kind": "movie",
+    "releaseDate": "2011-06-14",
+    "imdbId": "tt1133985",
+    "posterPath": "/fj21HwUprqjjwTdkKC1XZurRSpV.jpg",
+    "overview": "For centuries, a small but powerful force of warriors called the Green Lantern Corps has sworn to keep intergalactic order. Each Green Lantern wears a ring that grants him superpowers. But when a new enemy called Parallax threatens to destroy the balance of power in the Universe, their fate and the fate of Earth lie in the hands of the first human ever recruited.",
+    "localized": {
+      "en": {
+        "title": "Green Lantern",
+        "overview": "For centuries, a small but powerful force of warriors called the Green Lantern Corps has sworn to keep intergalactic order. Each Green Lantern wears a ring that grants him superpowers. But when a new enemy called Parallax threatens to destroy the balance of power in the Universe, their fate and the fate of Earth lie in the hands of the first human ever recruited."
+      },
+      "es": {
+        "title": "Linterna Verde",
+        "overview": "En un universo tan vasto como misterioso, una pequeña pero misteriosa fuerza ha existido por siglos. Protectores de la paz y la justicia se hace llamar el cuerpo de linternas verdes. Una hermandad de guerreros que juraron mantener el orden intergaláctico donde cada linterna verde lleva un anillo que le da superpoderes. Pero cuando un nuevo enemigo llamado Parallax amenaza con destruir el balance y el poder del universo, su destino y el de la tierra cae en manos del nuevo recluta; el primer humano que ha sido elegido: Hal Jordan."
+      }
+    },
+    "runtimeMin": 114
+  },
+  {
+    "id": "jonah-hex-2010",
+    "tmdbId": 20533,
+    "tmdbType": "movie",
+    "title": "Jonah Hex",
+    "kind": "movie",
+    "releaseDate": "2010-06-18",
+    "imdbId": "tt1075747",
+    "posterPath": "/xwAdu0lOO2Y5sXjK87glhJg3c6r.jpg",
+    "overview": "Gunslinger Jonah Hex is appointed by President Ulysses Grant to track down terrorist Quentin Turnbull, a former Confederate officer determined on unleashing hell on earth. Jonah not only secures freedom by accepting this task, he also gets revenge on the man who slew his wife and child.",
+    "localized": {
+      "en": {
+        "title": "Jonah Hex",
+        "overview": "Gunslinger Jonah Hex is appointed by President Ulysses Grant to track down terrorist Quentin Turnbull, a former Confederate officer determined on unleashing hell on earth. Jonah not only secures freedom by accepting this task, he also gets revenge on the man who slew his wife and child."
+      },
+      "es": {
+        "title": "Jonah Hex",
+        "overview": "En el salvaje oeste, Jonah Hex es conocido por una cicatriz en la parte derecha del rostro y por vestir un uniforme del ejército confederado. De niño fue vendido a los apaches por su padre y tuvo que hacerse a sí mismo en un mundo tan duro como el Oeste, sobreviviendo unas veces como pistolero y otras como cazador de recompensas. Su único contacto con el mundo es a través de la bella Lilah."
+      }
+    },
+    "runtimeMin": 81
+  },
+  {
+    "id": "watchmen-2009",
+    "tmdbId": 13183,
+    "tmdbType": "movie",
+    "title": "Watchmen",
+    "kind": "movie",
+    "releaseDate": "2009-03-04",
+    "imdbId": "tt0409459",
+    "posterPath": "/aVURelN3pM56lFM7Dgfs5TixcIf.jpg",
+    "overview": "In a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close by a government crackdown. But after one of the masked veterans is brutally murdered, an investigation into the killer is initiated. The reunited heroes set out to prevent their own destruction, but in doing so they uncover a sinister plot that puts all of humanity in grave danger.",
+    "localized": {
+      "en": {
+        "title": "Watchmen",
+        "overview": "In a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close by a government crackdown. But after one of the masked veterans is brutally murdered, an investigation into the killer is initiated. The reunited heroes set out to prevent their own destruction, but in doing so they uncover a sinister plot that puts all of humanity in grave danger."
+      },
+      "es": {
+        "title": "Watchmen, los vigilantes",
+        "overview": "En 1985, donde existen antiguos superhéroes, el asesinato de un colega empuja al vigilante activo Rorschach a realizar su propia investigación, descubriendo algo que podría cambiar por completo el curso de la historia tal y como la conocemos."
+      }
+    },
+    "runtimeMin": 163
+  },
+  {
+    "id": "catwoman-2004",
+    "tmdbId": 314,
+    "tmdbType": "movie",
+    "title": "Catwoman",
+    "kind": "movie",
+    "releaseDate": "2004-07-22",
+    "imdbId": "tt0327554",
+    "posterPath": "/pvnPgukFyEKgCzyOxyLiwyZ8T1C.jpg",
+    "overview": "Liquidated after discovering a corporate conspiracy, mild-mannered graphic artist Patience Phillips washes up on an island, where she's resurrected and endowed with the prowess of a cat — and she's eager to use her new skills... as a vigilante. Before you can say \"cat and mouse\", handsome gumshoe Tom Lone is on her tail, fascinated by both of her personas.",
+    "localized": {
+      "en": {
+        "title": "Catwoman",
+        "overview": "Liquidated after discovering a corporate conspiracy, mild-mannered graphic artist Patience Phillips washes up on an island, where she's resurrected and endowed with the prowess of a cat — and she's eager to use her new skills... as a vigilante. Before you can say \"cat and mouse\", handsome gumshoe Tom Lone is on her tail, fascinated by both of her personas."
+      },
+      "es": {
+        "title": "Gatúbela",
+        "overview": "Patience Philips (Halle Berry) trabaja como diseñadora gráfica para una empresa de cosméticos, dirigida por el despótico George Hedare (Lambert Wilson) y su esposa, la supermodelo Laurel (Sharon Stone). Se entera por casualidad de un terrible secreto sobre un revolucionario producto de belleza que está a punto de ponerse a la venta y es eliminada por unos sicarios. Sin embargo, misteriosamente, vuelve a la vida con unas cualidades y una fuerza extraordinaria. Se convierte entonces en \"Gatúbela\" y prepara su venganza con la ayuda de la enigmática Ophelia Powers (Frances Conroy). Pero su doble vida complica su relación con el apuesto detective Tom Lone (Benjamin Bratt)."
+      }
+    },
+    "runtimeMin": 104
+  },
+  {
+    "id": "steel-1997",
+    "tmdbId": 8854,
+    "tmdbType": "movie",
+    "title": "Steel",
+    "kind": "movie",
+    "releaseDate": "1997-08-15",
+    "imdbId": "tt0120207",
+    "posterPath": "/ufA7d5LT2rGj58KaZErPhcMkJ4U.jpg",
+    "overview": "When a renegade military reject puts new superweapons in dangerous hands, John Henry Irons becomes Steel. Wearing body armor, wielding a fearsome electrohammer and riding a gadget-packed motorcycle, he's ready to wage war... if he can fix the untimely glitches in his untested gear.",
+    "localized": {
+      "en": {
+        "title": "Steel",
+        "overview": "When a renegade military reject puts new superweapons in dangerous hands, John Henry Irons becomes Steel. Wearing body armor, wielding a fearsome electrohammer and riding a gadget-packed motorcycle, he's ready to wage war... if he can fix the untimely glitches in his untested gear."
+      },
+      "es": {
+        "title": "El ángel de acero",
+        "overview": "Un corrupto militar pone en las calles unas innovadoras y peligrosas armas. John Hery (Shaquille O'Neal), un diseñador de armas que trabaja para el ejército norteamericano, se convertirá en la única esperanza que tendrán los desesperados ciudadanos para luchar contra las bandas que asolan las calles. Contará para ello con la ayuda de una experta en electrónica (Annabeth Gish) y la imaginación de un trabajador del metal (Richard Roundtree). Ambos prepararán un equipo de acero con el que Hery podrá enfrentarse en una despiadada guerra en las calles para detener al militar."
+      }
+    },
+    "runtimeMin": 97
+  },
+  {
+    "id": "supergirl-1984",
+    "tmdbId": 9651,
+    "tmdbType": "movie",
+    "title": "Supergirl",
+    "kind": "movie",
+    "releaseDate": "1984-07-01",
+    "imdbId": "tt0088206",
+    "posterPath": "/o49a2RDChZkry84LomEORCPDWfk.jpg",
+    "overview": "After losing a powerful orb, Kara, Superman's cousin, comes to Earth to retrieve it and instead finds herself up against a wicked witch.",
+    "localized": {
+      "en": {
+        "title": "Supergirl",
+        "overview": "After losing a powerful orb, Kara, Superman's cousin, comes to Earth to retrieve it and instead finds herself up against a wicked witch."
+      },
+      "es": {
+        "title": "Supergirl",
+        "overview": "Supergirl, una extraterrestre que llega accidentalmente a la Tierra, tiene unos superpoderes que usará para hacer el bien"
+      }
+    },
+    "runtimeMin": 124
+  },
+  {
+    "id": "swamp-thing-1982",
+    "tmdbId": 17918,
+    "tmdbType": "movie",
+    "title": "Swamp Thing",
+    "kind": "movie",
+    "releaseDate": "1982-02-19",
+    "imdbId": "tt0084745",
+    "posterPath": "/7BGaE9A7UeyxH29aeFbQfzEmIi0.jpg",
+    "overview": "Mutated by his own secret formula, Dr. Alec Holland becomes Swamp Thing, a half-human, half-plant superhero who will stop at nothing to rescue government agent Alice Cable and defeat his evil arch nemesis...even if it costs him his life.",
+    "localized": {
+      "en": {
+        "title": "Swamp Thing",
+        "overview": "Mutated by his own secret formula, Dr. Alec Holland becomes Swamp Thing, a half-human, half-plant superhero who will stop at nothing to rescue government agent Alice Cable and defeat his evil arch nemesis...even if it costs him his life."
+      },
+      "es": {
+        "title": "El Monstruo del Pantano",
+        "overview": "El doctor Alec Holland trabaja en una fórmula que combina células animales y vegetales para crear una especie capaz de resistir a las peores intemperies. Una explosión en el laboratorio provoca que el científico se transforme en un monstruo."
+      }
+    },
+    "runtimeMin": 91
   }
 ]

@@ -1,0 +1,1 @@
+- The heroes return to an altered Japan and face the Yakuza League.

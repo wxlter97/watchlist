@@ -1,0 +1,1 @@
+- Krypto reúne a un grupo de mascotas con poderes para rescatar a la Liga.

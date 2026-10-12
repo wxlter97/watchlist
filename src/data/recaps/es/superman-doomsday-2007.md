@@ -1,0 +1,1 @@
+- Superman se enfrenta a Doomsday, una bestia imparable.

@@ -1,0 +1,1 @@
+- El Joker intenta demostrar que un mal día puede volver loco a cualquiera.

@@ -1,0 +1,4 @@
+- **Season 1:** Robotman, Negative Man, Elasti-Woman and Crazy Jane, under the Chief, take a mission from Cyborg.
+- **Season 2:** the members are shrunk and deal with the Chief's betrayal.
+- **Season 3:** each member faces who they want to be, and Madame Rouge arrives with a mission.
+- **Season 4:** the team travels to the future and must choose between their own family and the world.

@@ -1,0 +1,1 @@
+- Héroes desconfiados se unen contra una criatura capaz de destruir el mundo.

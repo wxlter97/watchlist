@@ -1,0 +1,1 @@
+- Vandal Savage gathers villains who execute Batman's secret plans against each hero.

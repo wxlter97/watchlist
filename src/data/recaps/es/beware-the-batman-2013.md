@@ -1,0 +1,1 @@
+- Batman combate el crimen con la ayuda de Alfred y Katana.

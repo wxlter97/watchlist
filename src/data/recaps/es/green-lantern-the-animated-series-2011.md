@@ -1,0 +1,1 @@
+- Hal Jordan y Kilowog viajan por el espacio como Linternas Verdes.

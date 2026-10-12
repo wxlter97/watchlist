@@ -1,0 +1,1 @@
+- In 1985, the murder of a former hero leads Rorschach to investigate.

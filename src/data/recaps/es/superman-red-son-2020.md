@@ -1,0 +1,1 @@
+- Kal-El aterriza en la URSS y se convierte en su campeón.

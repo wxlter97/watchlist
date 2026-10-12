@@ -1,0 +1,1 @@
+- Zeta, an infiltrator robot, flees from its creators and searches for its own path.

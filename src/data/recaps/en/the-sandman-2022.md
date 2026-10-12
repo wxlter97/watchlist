@@ -1,0 +1,2 @@
+- **Season 1:** Morpheus, the King of Dreams, escapes after years of imprisonment and seeks what was stolen from him.
+- **Season 2:** Morpheus faces impossible choices after reuniting with his family.

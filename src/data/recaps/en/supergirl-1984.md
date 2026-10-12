@@ -1,0 +1,1 @@
+- Kara arrives on Earth in search of a powerful object.

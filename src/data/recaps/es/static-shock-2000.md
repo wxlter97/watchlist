@@ -1,0 +1,1 @@
+- Virgil Hawkins gana poderes eléctricos y combate el crimen como Static.

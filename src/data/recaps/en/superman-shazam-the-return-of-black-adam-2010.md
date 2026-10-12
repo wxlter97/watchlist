@@ -1,0 +1,1 @@
+- Billy Batson becomes Shazam and faces Black Adam alongside Superman.

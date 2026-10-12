@@ -1,0 +1,1 @@
+- El Antimonitor ataca las Tierras restantes y los héroes libran una última batalla.

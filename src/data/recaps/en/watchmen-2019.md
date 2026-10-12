@@ -1,0 +1,1 @@
+- A masked police officer investigates a murder in an alternate Tulsa.

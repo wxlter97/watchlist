@@ -1,0 +1,1 @@
+- Hal Jordan receives a ring and is recruited by the Green Lantern Corps.

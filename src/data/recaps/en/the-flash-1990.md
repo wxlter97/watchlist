@@ -1,0 +1,1 @@
+- Barry Allen is a forensic scientist who gains super speed.

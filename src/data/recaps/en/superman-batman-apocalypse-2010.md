@@ -1,0 +1,1 @@
+- A ship crashes in Gotham carrying a Kryptonian with powers equal to Superman's.

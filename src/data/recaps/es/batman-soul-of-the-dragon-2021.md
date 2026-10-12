@@ -1,0 +1,1 @@
+- Bruce Wayne enfrenta una amenaza de su pasado con tres antiguos compañeros de entrenamiento.

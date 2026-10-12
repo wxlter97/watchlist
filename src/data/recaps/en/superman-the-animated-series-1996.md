@@ -1,0 +1,1 @@
+- Clark Kent is Superman in Metropolis and faces Lex Luthor, Brainiac and Darkseid.

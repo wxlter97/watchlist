@@ -1,0 +1,1 @@
+- Kara se adapta a su nueva vida en la Tierra mientras enfrenta al Círculo Oscuro.

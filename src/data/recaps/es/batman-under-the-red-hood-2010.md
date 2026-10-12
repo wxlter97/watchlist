@@ -1,0 +1,1 @@
+- El misterioso Capucha Roja toma control de la criminalidad de Gotham con métodos más violentos.

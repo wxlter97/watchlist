@@ -1,0 +1,1 @@
+- Kara adjusts to her new life on Earth while facing the Dark Circle.

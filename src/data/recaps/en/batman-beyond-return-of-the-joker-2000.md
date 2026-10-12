@@ -1,0 +1,1 @@
+- Terry McGinnis faces the Joker, who returns decades later.

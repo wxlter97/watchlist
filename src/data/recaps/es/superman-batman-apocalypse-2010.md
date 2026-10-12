@@ -1,0 +1,1 @@
+- Una nave se estrella en Gotham y trae a una kryptoniana con poderes iguales a los de Superman.

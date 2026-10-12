@@ -1,0 +1,5 @@
+- **Season 1:** Harley Quinn leaves the Joker and tries to become a villain on her own.
+- **Season 2:** Harley and Poison Ivy face new rivals in Gotham.
+- **Season 3:** Harley and Ivy return to Gotham as a villain couple after their tour.
+- **Season 4:** Harley and Ivy's story continues with new enemies.
+- **Season 5:** Harley and Ivy move to Metropolis and find something sinister is at stake.

@@ -1,0 +1,1 @@
+- Jason Todd se vuelve violento y Batman lo aparta, lo que cambia su destino.

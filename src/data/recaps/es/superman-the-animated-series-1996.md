@@ -1,0 +1,1 @@
+- Clark Kent es Superman en Metrópolis y se enfrenta a Lex Luthor, Brainiac y Darkseid.

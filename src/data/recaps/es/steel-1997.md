@@ -1,0 +1,1 @@
+- John Henry Irons, diseñador de armas, crea una armadura para frenar a un militar corrupto.

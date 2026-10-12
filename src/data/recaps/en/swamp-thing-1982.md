@@ -1,0 +1,1 @@
+- A scientist turns into the swamp creature after an explosion.

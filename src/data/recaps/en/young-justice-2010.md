@@ -1,0 +1,4 @@
+- **Season 1:** Robin, Aqualad, Kid Flash, Superboy, Miss Martian and Artemis form the Young Justice team.
+- **Season 2:** five years later, the team faces a secret alien invasion.
+- **Season 3:** the team faces metahuman trafficking and a genetic arms race.
+- **Season 4:** the veterans lead a new generation of heroes on a quest for justice across space.

@@ -1,0 +1,1 @@
+- Bruce Wayne regresa como Batman diez años después, con Gotham sumida en el caos.

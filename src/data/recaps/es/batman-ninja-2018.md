@@ -1,0 +1,1 @@
+- Batman y varios aliados son transportados a un Japón feudal gobernado por los villanos.
