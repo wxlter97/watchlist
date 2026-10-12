@@ -1,1 +1,1 @@
-A tender spin-off of Big Hero 6. Optional.
+A tender spin-off of Big Hero 6. Skippable.

@@ -1,1 +1,1 @@
-Es la entrega más prescindible de la Fase 1 (Bruce Banner volvió con otro actor), pero explica el origen de Hulk, de la Abominación y del general Ross, que reaparece años después en Capitán América: Un nuevo mundo.
+Es la entrega más opcional de la Fase 1 (Bruce Banner volvió con otro actor), pero explica el origen de Hulk, de la Abominación y del general Ross, que reaparece años después en Capitán América: Un nuevo mundo.

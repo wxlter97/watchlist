@@ -1,1 +1,1 @@
-Es una película anime con historia propia. Opcional.
+Es una película anime con historia propia. Prescindible.

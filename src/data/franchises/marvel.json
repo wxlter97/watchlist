@@ -2202,7 +2202,7 @@
       "titleId": "howard-the-duck-1986",
       "continuityId": "marvel-live-action-other",
       "group": "live-action",
-      "importance": "optional"
+      "importance": "skippable"
     },
     {
       "titleId": "the-incredible-hulk-returns-1988",
@@ -2716,7 +2716,7 @@
       "titleId": "doctor-strange-2007",
       "continuityId": "marvel-animation-other",
       "group": "animation",
-      "importance": "optional",
+      "importance": "skippable",
       "characters": [
         "doctor-strange"
       ]
@@ -2768,7 +2768,7 @@
       "titleId": "hulk-vs-thor-2009",
       "continuityId": "marvel-animation-other",
       "group": "animation",
-      "importance": "optional",
+      "importance": "skippable",
       "characters": [
         "hulk",
         "thor",
@@ -2779,7 +2779,7 @@
       "titleId": "hulk-vs-wolverine-2009",
       "continuityId": "marvel-animation-other",
       "group": "animation",
-      "importance": "optional",
+      "importance": "skippable",
       "characters": [
         "hulk",
         "wolverine",
@@ -3308,7 +3308,7 @@
       "titleId": "guardians-of-the-galaxy-2015",
       "continuityId": "marvel-2010s-animation",
       "group": "animation-2010s",
-      "importance": "optional",
+      "importance": "skippable",
       "chronoOrder": 40,
       "characters": [
         "star-lord"

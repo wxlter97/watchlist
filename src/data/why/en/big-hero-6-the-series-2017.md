@@ -1,1 +1,1 @@
-The series continuation of the film. Optional.
+The series continuation of the film. Skippable.

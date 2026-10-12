@@ -1,1 +1,1 @@
-It holds the Gwen Stacy storyline that gives Garfield's Peter his weight in No Way Home. The rest is skippable.
+It holds the Gwen Stacy storyline that gives Garfield's Peter his weight in No Way Home. Recommended for that storyline; the rest is skippable.
