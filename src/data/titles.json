@@ -33535,5 +33535,473 @@
       }
     ],
     "runtimeMin": 250
+  },
+  {
+    "id": "marvel-studios-assembled-2021",
+    "tmdbId": 118924,
+    "tmdbType": "tv",
+    "title": "Marvel Studios Assembled",
+    "kind": "series",
+    "releaseDate": "2021-03-12",
+    "imdbId": "tt14094206",
+    "posterPath": "/v2BHRwtQVkt5fssLdo5MpFgHJPY.jpg",
+    "overview": "Go behind the scenes of the shows and movies of the Marvel Cinematic Universe, following the filmmakers, cast and crew, and Marvel heroes every step of the way.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled",
+        "overview": "Go behind the scenes of the shows and movies of the Marvel Cinematic Universe, following the filmmakers, cast and crew, and Marvel heroes every step of the way."
+      },
+      "es": {
+        "title": "Marvel Studios: Unidos",
+        "overview": "Serie documental de Disney+ que hace una crónica de la creación de los nuevos programas y las nuevas películas de los Estudios Marvel."
+      }
+    },
+    "seasons": [
+      {
+        "number": 1,
+        "episodes": 6,
+        "airDate": "2021-03-12"
+      }
+    ],
+    "runtimeMin": 350
+  },
+  {
+    "id": "marvel-studios-2021-disney-plus-day-special-2021",
+    "tmdbId": 877188,
+    "tmdbType": "movie",
+    "title": "Marvel Studios' 2021 Disney+ Day Special",
+    "kind": "movie",
+    "releaseDate": "2021-11-12",
+    "imdbId": "tt16045628",
+    "posterPath": "/zh0B5DDP93e3zokktb5aHHfIh01.jpg",
+    "overview": "Explore the Disney+ series of the MCU—past, present and future!",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios' 2021 Disney+ Day Special",
+        "overview": "Explore the Disney+ series of the MCU—past, present and future!"
+      },
+      "es": {
+        "title": "Especial Disney+ Day de Marvel Studios 2021",
+        "overview": "Especial de Disney+ Day de Marvel Studios, con un avance de sus próximos estrenos."
+      }
+    },
+    "runtimeMin": 14
+  },
+  {
+    "id": "director-by-night-2022",
+    "tmdbId": 1036996,
+    "tmdbType": "movie",
+    "title": "Director by Night",
+    "kind": "movie",
+    "releaseDate": "2022-11-04",
+    "imdbId": "tt23326936",
+    "posterPath": "/hmaM75vvcYPd9HdiSvF683UedZS.jpg",
+    "overview": "Acclaimed composer Michael Giacchino made his directorial debut with Marvel Studios' Special Presentation \"Werewolf by Night.\" This behind-the-scenes special explores Giacchino's vision, style and approach to bringing the chilling story to life, as well as offering an insider's look at the between-the-scenes making of \"Werewolf by Night.\"",
+    "localized": {
+      "en": {
+        "title": "Director by Night",
+        "overview": "Acclaimed composer Michael Giacchino made his directorial debut with Marvel Studios' Special Presentation \"Werewolf by Night.\" This behind-the-scenes special explores Giacchino's vision, style and approach to bringing the chilling story to life, as well as offering an insider's look at the between-the-scenes making of \"Werewolf by Night.\""
+      },
+      "es": {
+        "title": "Director por la noche",
+        "overview": "Michael Giacchino debuta en la dirección con la película: La maldición del Hombre Lobo. Su hermano, Anthony Giacchino, relata la experiencia y explora sus orígenes cinematográficos en el pueblo de Nueva Jersey donde crecieron."
+      }
+    },
+    "runtimeMin": 54
+  },
+  {
+    "id": "ghost-rider-2028",
+    "tmdbId": 1738010,
+    "tmdbType": "movie",
+    "title": "Ghost Rider",
+    "kind": "movie",
+    "releaseDate": "2028-07-27",
+    "imdbId": "tt43711959",
+    "posterPath": "/zgC1zo3lyujoEiIMnUrHltvPmZg.jpg",
+    "overview": "A film set in the Marvel Cinematic Universe (MCU) based on the Marvel Comics character of the same name. Plot TBA.",
+    "localized": {
+      "en": {
+        "title": "Ghost Rider",
+        "overview": "A film set in the Marvel Cinematic Universe (MCU) based on the Marvel Comics character of the same name. Plot TBA."
+      },
+      "es": {
+        "title": "Ghost Rider",
+        "overview": "Película anunciada de Marvel Studios sobre Ghost Rider. No se han revelado detalles de la trama."
+      }
+    }
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-hawkeye-2022",
+    "tmdbId": 936643,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Hawkeye",
+    "kind": "movie",
+    "releaseDate": "2022-02-09",
+    "imdbId": "tt14235904",
+    "posterPath": "/pQOLNPHe4rwXl3RpKNa0VWjYNLR.jpg",
+    "overview": "Join the likes of Jeremy Renner, Hailee Steinfeld, Florence Pugh, and Vincent D’Onofrio as they reveal how Marvel Studios’ “Hawkeye” was conceived and created. Witness firsthand what it took to pull off the show’s pulse-pounding action set pieces, and discover how iconic characters from the pages of Marvel Comics such as Kate Bishop were adapted and brought to life for the six-episode series.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Hawkeye",
+        "overview": "Join the likes of Jeremy Renner, Hailee Steinfeld, Florence Pugh, and Vincent D’Onofrio as they reveal how Marvel Studios’ “Hawkeye” was conceived and created. Witness firsthand what it took to pull off the show’s pulse-pounding action set pieces, and discover how iconic characters from the pages of Marvel Comics such as Kate Bishop were adapted and brought to life for the six-episode series."
+      },
+      "es": {
+        "title": "Creando Hawkeye",
+        "overview": "Únete a Jeremy Renner, Hailee Steinfeld, Florence Pugh y Vincent D’Onofrio mientras revelan cómo se concibió y creó \\\"Hawkeye\\\" de Marvel Studios. Se testigo de lo que se necesitó para crear las intrépidas escenas de acción del show y descubre cómo otros personajes icónicos de las páginas de las tiras cómicas de Marvel como Kate Bishop se adaptaron y cobraron vida para la serie de seis episodios."
+      }
+    },
+    "runtimeMin": 60
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-eternals-2022",
+    "tmdbId": 939356,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Eternals",
+    "kind": "movie",
+    "releaseDate": "2022-02-16",
+    "imdbId": "tt15477324",
+    "posterPath": "/fBJ5ZjFJ6IHQWz90SsW80PizVlF.jpg",
+    "overview": "Join director Chloe Zhao and the Cast of Eternals as they recount their experiences during the making of Marvel Studios’ most ambitious film to date. Discover how the ensemble cast felt stepping into their roles, filming in remote locations, and creating bonds that would help to create the on-screen relationships that span over 7,000 years.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Eternals",
+        "overview": "Join director Chloe Zhao and the Cast of Eternals as they recount their experiences during the making of Marvel Studios’ most ambitious film to date. Discover how the ensemble cast felt stepping into their roles, filming in remote locations, and creating bonds that would help to create the on-screen relationships that span over 7,000 years."
+      },
+      "es": {
+        "title": "Creando Eternals",
+        "overview": "Únete a la directora Chloe Zhao y al elenco de Eternals mientras relatan sus experiencias durante la creación de la película más ambiciosa de Marvel Studios hasta hoy. Descubre qué sintió el elenco al asumir sus roles, filmar en lugares remotos y crear vínculos reflejados en pantalla que se extienden por más de 7000 años."
+      }
+    },
+    "runtimeMin": 58
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-moon-knight-2022",
+    "tmdbId": 964943,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Moon Knight",
+    "kind": "movie",
+    "releaseDate": "2022-05-24",
+    "imdbId": "tt19766896",
+    "posterPath": "/dM6Y4uLzeF4rqbmKBzR0wAsTxby.jpg",
+    "overview": "Join the likes of Oscar Isaac and Ethan Hawke as they reveal how Marvel Studios' Moon Knight was painstakingly brought to life. Through insightful interviews with cast and crew, along with immersive footage from the set, and a  candid \"roundtable discussion\" with the series' directors, this \"making-of\" pulls back the curtain on the groundbreaking series of Marvel Studios' newest hero.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Moon Knight",
+        "overview": "Join the likes of Oscar Isaac and Ethan Hawke as they reveal how Marvel Studios' Moon Knight was painstakingly brought to life. Through insightful interviews with cast and crew, along with immersive footage from the set, and a  candid \"roundtable discussion\" with the series' directors, this \"making-of\" pulls back the curtain on the groundbreaking series of Marvel Studios' newest hero."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Moon Knight",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Moon Knight, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 67
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-2022",
+    "tmdbId": 980017,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Doctor Strange in the Multiverse of Madness",
+    "kind": "movie",
+    "releaseDate": "2022-07-07",
+    "imdbId": "tt21098288",
+    "posterPath": "/eIzPe62s12uHsIPhGWY1yp68DY9.jpg",
+    "overview": "Join visionary director Sam Raimi and the cast of the film as they recount their experiences bringing Marvel’s darkest story to life.  From world-building to universe-building, hear first hand accounts from the cast and crew on what it took to design, create and make each universe unique and believable.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Doctor Strange in the Multiverse of Madness",
+        "overview": "Join visionary director Sam Raimi and the cast of the film as they recount their experiences bringing Marvel’s darkest story to life.  From world-building to universe-building, hear first hand accounts from the cast and crew on what it took to design, create and make each universe unique and believable."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Doctor Strange in the Multiverse of Madness",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Doctor Strange en el multiverso de la locura, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 59
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-ms-marvel-2022",
+    "tmdbId": 1001912,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Ms. Marvel",
+    "kind": "movie",
+    "releaseDate": "2022-08-03",
+    "imdbId": "tt21351612",
+    "posterPath": "/6m0rG2bS90FOlUaxEq8ZPCTQMei.jpg",
+    "overview": "Go behind-the-scenes every step of the way with immersive footage from the making of the series, along with insightful interviews on set from the cast and crew of Ms. Marvel as we watch Iman Vellani and her character, Kamala Khan, become the fan-favorite superhero right before our eyes.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Ms. Marvel",
+        "overview": "Go behind-the-scenes every step of the way with immersive footage from the making of the series, along with insightful interviews on set from the cast and crew of Ms. Marvel as we watch Iman Vellani and her character, Kamala Khan, become the fan-favorite superhero right before our eyes."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Ms. Marvel",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Ms. Marvel, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 62
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-thor-love-and-thunder-2022",
+    "tmdbId": 1015595,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Thor: Love and Thunder",
+    "kind": "movie",
+    "releaseDate": "2022-09-08",
+    "imdbId": "tt21862424",
+    "posterPath": "/eb7GP3cttApzilOOM52L129Eaaj.jpg",
+    "overview": "Settle in with the likes of Taika Waititi, Chris Hemsworth, Natalie Portman, Christian Bale, and Tessa Thompson, and as they divulge the secrets behind the creation of Thor: Love and Thunder. Through in-depth interviews with cast and crew, along with raw, unseen footage from the set and beyond, this documentary special pulls back the curtain on the God of Thunder’s fourth feature film.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Thor: Love and Thunder",
+        "overview": "Settle in with the likes of Taika Waititi, Chris Hemsworth, Natalie Portman, Christian Bale, and Tessa Thompson, and as they divulge the secrets behind the creation of Thor: Love and Thunder. Through in-depth interviews with cast and crew, along with raw, unseen footage from the set and beyond, this documentary special pulls back the curtain on the God of Thunder’s fourth feature film."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Thor: Love and Thunder",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Thor: Amor y Trueno, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 55
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-she-hulk-attorney-at-law-2022",
+    "tmdbId": 1026208,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law",
+    "kind": "movie",
+    "releaseDate": "2022-11-03",
+    "imdbId": "tt22852968",
+    "posterPath": "/yhFN7yvskzm1Tsknkg46eQbQr9w.jpg",
+    "overview": "Join the likes of Tatiana Maslany, Mark Ruffalo, Tim Roth, and Benedict Wong as they reveal how Marvel Studios’ She-Hulk: Attorney at Law was conceived and shaped. Discover what it took for She-Hulk’s creators to pull off the show’s tricky tone and deliver Marvel Studios’ first truly comedic series – one that boldly breaks the fourth wall to acknowledge its own audience, no less!",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law",
+        "overview": "Join the likes of Tatiana Maslany, Mark Ruffalo, Tim Roth, and Benedict Wong as they reveal how Marvel Studios’ She-Hulk: Attorney at Law was conceived and shaped. Discover what it took for She-Hulk’s creators to pull off the show’s tricky tone and deliver Marvel Studios’ first truly comedic series – one that boldly breaks the fourth wall to acknowledge its own audience, no less!"
+      },
+      "es": {
+        "title": "Creando She-Hulk: Defensora de Héroes",
+        "overview": "Acompaña Tatiana Maslany, Mark Ruffalo, Tim Roth y Benedict Wong mientras revelan cómo se creó y se formó She-Hulk: Defensora de Héroes de Marvel Studios. Descubre lo que les costó a los creadores de She-Hulk lograr el complicado tono del show y entregar la primera serie verdaderamente cómica de Marvel, ¡una que audazmente \"rompe la cuarta pared\" para reconocer a su audiencia, nada menos!"
+      }
+    },
+    "runtimeMin": 54
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-black-panther-wakanda-forever-2023",
+    "tmdbId": 1076032,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Black Panther: Wakanda Forever",
+    "kind": "movie",
+    "releaseDate": "2023-02-07",
+    "imdbId": "tt26315895",
+    "posterPath": "/mYTPKWO7a4mHKLyksJgB8CMq9Qx.jpg",
+    "overview": "Follow the production of “Black Panther: Wakanda Forever” as the cast and crew take on the incredible challenge of remembering T’Challa with a chapter befitting the late king. Through intimate behind-the-scenes footage and interviews, watch Shuri take on the mantel of Wakanda’s hero and face a new foe from the ocean’s depths in Namor.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Black Panther: Wakanda Forever",
+        "overview": "Follow the production of “Black Panther: Wakanda Forever” as the cast and crew take on the incredible challenge of remembering T’Challa with a chapter befitting the late king. Through intimate behind-the-scenes footage and interviews, watch Shuri take on the mantel of Wakanda’s hero and face a new foe from the ocean’s depths in Namor."
+      },
+      "es": {
+        "title": "UNIDOS: Creando Pantera Negra: Wakanda Por Siempre",
+        "overview": "Sigue la producción de \"Pantera Negra: Wakanda por siempre\", en el que el reparto y el equipo asumen el increíble reto de recordar a T'Challa, con un capítulo digno del difunto rey. A través de imágenes y entrevistas íntimas detrás de cámaras, verás a Shuri tomar el manto de heroína de Wakanda y enfrentarse a Namor, un nuevo enemigo de las profundidades del océano."
+      }
+    },
+    "runtimeMin": 58
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-ant-man-and-the-wasp-quantumania-2023",
+    "tmdbId": 1127361,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Ant-Man and the Wasp: Quantumania",
+    "kind": "movie",
+    "releaseDate": "2023-07-19",
+    "imdbId": "tt27798047",
+    "posterPath": "/xgfnWe9NFXT5o3QndRnU5ylkxyp.jpg",
+    "overview": "Join cast and crew as they delve deep into the creation of \"Ant-Man and The Wasp: Quantumania.\" Combining immersive behind-the-scenes footage with candid interviews, Assembled reveals how an incredible new world was brought to the screen.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Ant-Man and the Wasp: Quantumania",
+        "overview": "Join cast and crew as they delve deep into the creation of \"Ant-Man and The Wasp: Quantumania.\" Combining immersive behind-the-scenes footage with candid interviews, Assembled reveals how an incredible new world was brought to the screen."
+      },
+      "es": {
+        "title": "Unidos: Creando Ant-Man and the Wasp: Quantumania",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Ant-Man and the Wasp: Quantumania, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 50
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-guardians-of-the-galaxy-vol-3-2023",
+    "tmdbId": 1165487,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of the Guardians of the Galaxy Vol. 3",
+    "kind": "movie",
+    "releaseDate": "2023-09-12",
+    "imdbId": "tt28663201",
+    "posterPath": "/w9rY9CT7pI3pl6ATcAS7bXrIDc5.jpg",
+    "overview": "Join visionary director James Gunn and superstars such as Chris Pratt and Zoe Saldaña as they recount how “Guardians of the Galaxy Vol. 3” was conceived, shaped, and delivered to the world. And stand alongside the cast and crew in the emotional final moments of the shoot as they bid farewell to each other, and close this chapter in the saga of Peter Quill and his loveable band of misfit-warriors.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of the Guardians of the Galaxy Vol. 3",
+        "overview": "Join visionary director James Gunn and superstars such as Chris Pratt and Zoe Saldaña as they recount how “Guardians of the Galaxy Vol. 3” was conceived, shaped, and delivered to the world. And stand alongside the cast and crew in the emotional final moments of the shoot as they bid farewell to each other, and close this chapter in the saga of Peter Quill and his loveable band of misfit-warriors."
+      },
+      "es": {
+        "title": "UNIDOS: Creando Guardianes de la Galaxia Volumen 3",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Guardianes de la Galaxia volumen 3, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 58
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-secret-invasion-2023",
+    "tmdbId": 1165500,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Secret Invasion",
+    "kind": "movie",
+    "releaseDate": "2023-09-19",
+    "imdbId": "tt28663209",
+    "posterPath": "/8YDNwj9gsAQlcHQALPtjJipoGx8.jpg",
+    "overview": "Through in-depth interviews with cast and crew, and exclusive behind-the-scenes footage, Assembled uncovers how Marvel Studios’ “Secret Invasion” was born. Witness what it took to conjure the world of the show, and spend time with Samuel L. Jackson as he dons the patch once again to engage in the most baffling battle of Nick Fury’s career.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Secret Invasion",
+        "overview": "Through in-depth interviews with cast and crew, and exclusive behind-the-scenes footage, Assembled uncovers how Marvel Studios’ “Secret Invasion” was born. Witness what it took to conjure the world of the show, and spend time with Samuel L. Jackson as he dons the patch once again to engage in the most baffling battle of Nick Fury’s career."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Secret Invasion",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Invasión secreta, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 48
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-loki-season-2-2023",
+    "tmdbId": 1192825,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Loki Season 2",
+    "kind": "movie",
+    "releaseDate": "2023-11-22",
+    "imdbId": "tt28889780",
+    "posterPath": "/fa4HvgQO1sLQTobjJR10kDOJzWB.jpg",
+    "overview": "Through candid interviews with the creative minds behind the show, and exclusive on-set footage, discover how the talented team that powered \"Loki: Season 2\" raised the stakes for this latest MCU adventure. Witness imaginative costumes, elaborate environments, and far-out variants come to life, meet new allies and foes, and time-slip across the Multiverse.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Loki Season 2",
+        "overview": "Through candid interviews with the creative minds behind the show, and exclusive on-set footage, discover how the talented team that powered \"Loki: Season 2\" raised the stakes for this latest MCU adventure. Witness imaginative costumes, elaborate environments, and far-out variants come to life, meet new allies and foes, and time-slip across the Multiverse."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Loki Season 2",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Loki (temporada 2), con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 58
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-echo-2024",
+    "tmdbId": 1220337,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Echo",
+    "kind": "movie",
+    "releaseDate": "2024-01-31",
+    "imdbId": "tt30492278",
+    "posterPath": "/q19Po6BjP93r4gaPyWO0lGdErAT.jpg",
+    "overview": "Join us on a revealing journey behind-the-scenes of Maya Lopez’s own groundbreaking series. Witness how the production took unprecedented steps to portray the deaf experience, and Native American culture truthfully. Spend time with powerhouse actor Vincent D’Onofrio as he brings the Kingpin to monstrous life once again. All this and more waits to be discovered in \"Assembled: The Making of Echo.\"",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Echo",
+        "overview": "Join us on a revealing journey behind-the-scenes of Maya Lopez’s own groundbreaking series. Witness how the production took unprecedented steps to portray the deaf experience, and Native American culture truthfully. Spend time with powerhouse actor Vincent D’Onofrio as he brings the Kingpin to monstrous life once again. All this and more waits to be discovered in \"Assembled: The Making of Echo.\""
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Echo",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Echo, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 47
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-the-marvels-2024",
+    "tmdbId": 1235525,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of The Marvels",
+    "kind": "movie",
+    "releaseDate": "2024-02-06",
+    "imdbId": "tt31031917",
+    "posterPath": "/mTLNy3pATFxHLxftiHAzMNgjenX.jpg",
+    "overview": "Take an intergalactic trip with the cast and crew of \"The Marvels\" as they tell their experiences making this weird and wonderful film. Step into all the departments of production and discover how they created complex fight scenes, countless alien life forms, and some of the most elaborate sets ever. From dance parties to kitten days, the cast and crew had an unforgettable time making the movie.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of The Marvels",
+        "overview": "Take an intergalactic trip with the cast and crew of \"The Marvels\" as they tell their experiences making this weird and wonderful film. Step into all the departments of production and discover how they created complex fight scenes, countless alien life forms, and some of the most elaborate sets ever. From dance parties to kitten days, the cast and crew had an unforgettable time making the movie."
+      },
+      "es": {
+        "title": "Unidos: Creando The Marvels",
+        "overview": "Emprende un viaje intergaláctico con el reparto y equipo de \"The Marvels\" mientras cuentan sus experiencias en la filmación de esta extraña y maravillosa película. Entra en los departamentos de producción y mira cómo crearon complejas escenas de lucha, un sinfín de seres alienígenas y los decorados más elaborados jamás vistos. Desde bailes hasta días con gatitos, el reparto y equipo pasaron momentos inolvidables filmando la película. Descubre todo al sumergirte en \"Unidos: Creando The Marvels\"."
+      }
+    },
+    "runtimeMin": 59
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-x-men-97-2024",
+    "tmdbId": 1275606,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of X-Men '97",
+    "kind": "movie",
+    "releaseDate": "2024-05-21",
+    "imdbId": "tt32142103",
+    "posterPath": "/6YIhiAzNB9PPgIPA04tD1xaSBMw.jpg",
+    "overview": "Spend time with the original cast, along with new voices, as this behind-the-scenes special recalls the birth of \"X-Men: The Animated Series,\" and its revival thirty years later as \"X-Men '97.\"",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of X-Men '97",
+        "overview": "Spend time with the original cast, along with new voices, as this behind-the-scenes special recalls the birth of \"X-Men: The Animated Series,\" and its revival thirty years later as \"X-Men '97.\""
+      },
+      "es": {
+        "title": "UNIDOS: Creando X-Men '97",
+        "overview": "A principios de los 90, la serie animada \"X-Men\" debutó en televisión y conmovió a millones de personas ávidas de algo diferente. La serie, a diferencia de cualquier otro dibujo animado previo, exploraba temas tales como los prejuicios y la justicia social. Pasa tiempo con el reparto original y las nuevas voces mientras \"Unidos\" evoca el nacimiento de la serie animada \"X-Men\" y su resurgimiento treinta años después como \"X-Men '97\"."
+      }
+    },
+    "runtimeMin": 56
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-deadpool-and-wolverine-2024",
+    "tmdbId": 1386628,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Deadpool & Wolverine",
+    "kind": "movie",
+    "releaseDate": "2024-11-11",
+    "imdbId": "tt34570789",
+    "posterPath": "/3dQyDFxTY6o3v67ncYCExog6aPH.jpg",
+    "overview": "Hugh Jackman, Ryan Reynolds, and director Shawn Levy sit down and spill the proverbial beans about how \"Deadpool & Wolverine\" was conceived, carried to term, and then birthed.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Deadpool & Wolverine",
+        "overview": "Hugh Jackman, Ryan Reynolds, and director Shawn Levy sit down and spill the proverbial beans about how \"Deadpool & Wolverine\" was conceived, carried to term, and then birthed."
+      },
+      "es": {
+        "title": "UNIDOS: Creando Deadpool & Wolverine",
+        "overview": "Engatusamos a Ryan Reynolds, Hugh Jackman y al director Shawn Levy para que se sienten a contarnos cómo se concibió, gestó y dio a luz \"Deadpool & Wolverine\". Francamente, Hugh, Ryan y los demás están obligados por contrato a difundir esta información. Hacen un gran trabajo al simular que realmente querían hacerlo, como si fuera idea suya o algo por el estilo. ¡Que lo disfruten!"
+      }
+    },
+    "runtimeMin": 59
+  },
+  {
+    "id": "marvel-studios-assembled-the-making-of-agatha-all-along-2024",
+    "tmdbId": 1387507,
+    "tmdbType": "movie",
+    "title": "Marvel Studios Assembled: The Making of Agatha All Along",
+    "kind": "movie",
+    "releaseDate": "2024-11-13",
+    "imdbId": "tt34601931",
+    "posterPath": "/8gJ4SkWVzFDcUfYVJDTWl85HnNU.jpg",
+    "overview": "Join Kathryn Hahn, Aubrey Plaza, Joe Locke, and more as they invite viewers behind-the-scenes of Agatha All Along.",
+    "localized": {
+      "en": {
+        "title": "Marvel Studios Assembled: The Making of Agatha All Along",
+        "overview": "Join Kathryn Hahn, Aubrey Plaza, Joe Locke, and more as they invite viewers behind-the-scenes of Agatha All Along."
+      },
+      "es": {
+        "title": "Marvel Studios Assembled: The Making of Agatha All Along",
+        "overview": "Documental de Disney+ que muestra cómo se hizo Agatha en todas partes, con entrevistas al equipo y escenas de rodaje."
+      }
+    },
+    "runtimeMin": 61
   }
 ]

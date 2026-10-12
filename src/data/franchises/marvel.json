@@ -3768,12 +3768,6 @@
       ]
     },
     {
-      "titleId": "hit-monkey-2021",
-      "continuityId": "marvel-animation-other",
-      "group": "animation",
-      "importance": "optional"
-    },
-    {
       "titleId": "lego-marvel-avengers-time-twisted-2022",
       "continuityId": "marvel-kids",
       "group": "kids",
@@ -3813,12 +3807,6 @@
       ]
     },
     {
-      "titleId": "moon-girl-and-devil-dinosaur-2023",
-      "continuityId": "marvel-animation-other",
-      "group": "animation",
-      "importance": "optional"
-    },
-    {
       "titleId": "spider-man-across-the-spider-verse-2023",
       "continuityId": "spider-verse-animated",
       "group": "spider-verse",
@@ -3855,23 +3843,6 @@
         "mid": 0,
         "end": 0
       }
-    },
-    {
-      "titleId": "x-men-97-2024",
-      "continuityId": "marvel-90s-animation",
-      "group": "animation-90s",
-      "importance": "recommended",
-      "chronoOrder": 60,
-      "chronoNote": {
-        "es": "Continúa la serie de 1992",
-        "en": "Continues the 1992 series"
-      },
-      "characters": [
-        "wolverine"
-      ],
-      "teams": [
-        "x-men"
-      ]
     },
     {
       "titleId": "lego-marvel-avengers-mission-demolition-2024",
@@ -4022,6 +3993,284 @@
         "es": "Repasos de personajes y películas del MCU",
         "en": "MCU character and film recaps"
       }
+    },
+    {
+      "titleId": "x-men-97-2024",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "chronoNote": {
+        "es": "Continúa la serie de 1992",
+        "en": "Continues the 1992 series"
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ],
+      "season": 1
+    },
+    {
+      "titleId": "x-men-97-2024",
+      "continuityId": "marvel-90s-animation",
+      "group": "animation-90s",
+      "importance": "recommended",
+      "chronoOrder": 70,
+      "chronoNote": {
+        "es": "Continúa la primera temporada de X-Men '97",
+        "en": "Continues X-Men '97 season 1"
+      },
+      "characters": [
+        "wolverine"
+      ],
+      "teams": [
+        "x-men"
+      ],
+      "season": 2
+    },
+    {
+      "titleId": "hit-monkey-2021",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "season": 1
+    },
+    {
+      "titleId": "hit-monkey-2021",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "season": 2
+    },
+    {
+      "titleId": "moon-girl-and-devil-dinosaur-2023",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "season": 1
+    },
+    {
+      "titleId": "moon-girl-and-devil-dinosaur-2023",
+      "continuityId": "marvel-animation-other",
+      "group": "animation",
+      "importance": "optional",
+      "season": 2
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-hawkeye-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-eternals-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-moon-knight-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-ms-marvel-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-thor-love-and-thunder-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-she-hulk-attorney-at-law-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-black-panther-wakanda-forever-2023",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-ant-man-and-the-wasp-quantumania-2023",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-guardians-of-the-galaxy-vol-3-2023",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-secret-invasion-2023",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-loki-season-2-2023",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-echo-2024",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-the-marvels-2024",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-x-men-97-2024",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-deadpool-and-wolverine-2024",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-the-making-of-agatha-all-along-2024",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental de Disney+ sobre su realización",
+        "en": "Disney+ making-of documentary"
+      }
+    },
+    {
+      "titleId": "marvel-studios-assembled-2021",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Serie de documentales sobre la realización del MCU",
+        "en": "MCU making-of documentary series"
+      }
+    },
+    {
+      "titleId": "marvel-studios-2021-disney-plus-day-special-2021",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Avance de estrenos de Marvel Studios",
+        "en": "Preview of upcoming Marvel Studios releases"
+      }
+    },
+    {
+      "titleId": "director-by-night-2022",
+      "continuityId": "marvel-extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Detrás de cámaras de Werewolf by Night",
+        "en": "Behind the scenes of Werewolf by Night"
+      }
+    },
+    {
+      "titleId": "ghost-rider-2028",
+      "continuityId": "mcu",
+      "group": "future",
+      "importance": "optional",
+      "chronoOrder": 965,
+      "chronoNote": {
+        "es": "Anunciada",
+        "en": "Announced"
+      },
+      "characters": [
+        "ghost-rider"
+      ]
     }
   ],
   "orders": [

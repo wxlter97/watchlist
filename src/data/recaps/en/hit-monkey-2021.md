@@ -1,3 +1,2 @@
-- A Japanese macaque, Monkey, is trained by the ghost of an assassin, Bryce Fowler.
-- In Tokyo, they dismantle a criminal conspiracy.
-- In season two they reach New York and face the Co-Op.
+- **Season 1:** A Japanese macaque, Monkey, is trained by the ghost of an assassin, Bryce Fowler, and together they dismantle a criminal conspiracy in Tokyo.
+- **Season 2:** In New York City, Monkey looks for a way out of his life of killing while Bryce tries to repair the damage he caused.
