@@ -1,0 +1,1 @@
+- Kara y su grupo de Jedi buscan a otros Jedi dignos para enfrentarse a un señor de la guerra.

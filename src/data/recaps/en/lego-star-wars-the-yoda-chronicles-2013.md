@@ -1,0 +1,1 @@
+- Yoda trains padawans at the Jedi Temple but senses a disturbance in the Force and sets off to fight the Dark Side.

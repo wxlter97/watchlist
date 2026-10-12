@@ -1,0 +1,1 @@
+- Anakin y Obi-Wan intentan frenar a los separatistas en Kashyyyk, mientras Yoda enfrenta a un ejército de droides.

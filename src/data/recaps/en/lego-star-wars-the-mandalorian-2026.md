@@ -1,0 +1,1 @@
+- The Mandalorian and Grogu celebrate their heroism at a party with their allies.

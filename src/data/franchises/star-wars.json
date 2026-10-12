@@ -44,6 +44,19 @@
         "en": "Free-form anthologies and LEGO adventures."
       },
       "hiddenByDefault": true
+    },
+    {
+      "id": "extras",
+      "name": {
+        "es": "Documentales y extras",
+        "en": "Documentaries & extras"
+      },
+      "canonLevel": "non-canon",
+      "description": {
+        "es": "Detrás de cámaras, especiales y homenajes sobre la saga.",
+        "en": "Behind-the-scenes, specials and tributes about the saga."
+      },
+      "hiddenByDefault": true
     }
   ],
   "entries": [
@@ -760,6 +773,182 @@
         "es": "~5 años después de El ascenso de Skywalker",
         "en": "~5 years after The Rise of Skywalker"
       }
+    },
+    {
+      "titleId": "star-wars-forces-of-destiny-2017",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Cortos de varias épocas",
+        "en": "Shorts from several eras"
+      }
+    },
+    {
+      "titleId": "star-wars-galaxy-of-adventures-2018",
+      "continuityId": "canon",
+      "group": "animation",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Cortos de varias épocas",
+        "en": "Shorts from several eras"
+      }
+    },
+    {
+      "titleId": "star-wars-visions-presents-the-ninth-jedi-2026",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "optional",
+      "chronoNote": {
+        "es": "Spin-off de Visions",
+        "en": "Visions spin-off"
+      }
+    },
+    {
+      "titleId": "lego-star-wars-the-yoda-chronicles-2013",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "lego-star-wars-the-padawan-menace-2011",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "lego-star-wars-the-empire-strikes-out-2012",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "lego-star-wars-revenge-of-the-brick-2005",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "lego-star-wars-bombad-bounty-2010",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "lego-star-wars-the-mandalorian-2026",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "robot-chicken-star-wars-2007",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Parodia en stop-motion",
+        "en": "Stop-motion parody"
+      }
+    },
+    {
+      "titleId": "robot-chicken-star-wars-episode-ii-2008",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Parodia en stop-motion",
+        "en": "Stop-motion parody"
+      }
+    },
+    {
+      "titleId": "robot-chicken-star-wars-episode-iii-2010",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Parodia en stop-motion",
+        "en": "Stop-motion parody"
+      }
+    },
+    {
+      "titleId": "zen-grogu-and-dust-bunnies-2022",
+      "continuityId": "non-canon",
+      "group": "non-canon",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Corto de Studio Ghibli con Grogu",
+        "en": "Studio Ghibli short featuring Grogu"
+      }
+    },
+    {
+      "titleId": "under-the-helmet-the-legacy-of-boba-fett-2021",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental sobre Boba Fett",
+        "en": "Boba Fett documentary"
+      }
+    },
+    {
+      "titleId": "light-and-magic-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental sobre Industrial Light & Magic",
+        "en": "Documentary about Industrial Light & Magic"
+      }
+    },
+    {
+      "titleId": "disney-gallery-star-wars-the-mandalorian-2020",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Detrás de cámaras de The Mandalorian",
+        "en": "Behind the scenes of The Mandalorian"
+      }
+    },
+    {
+      "titleId": "disney-gallery-star-wars-the-book-of-boba-fett-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Detrás de cámaras de El libro de Boba Fett",
+        "en": "Behind the scenes of The Book of Boba Fett"
+      }
+    },
+    {
+      "titleId": "obi-wan-kenobi-a-jedis-return-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Especial sobre Obi-Wan Kenobi",
+        "en": "Obi-Wan Kenobi special"
+      }
+    },
+    {
+      "titleId": "andor-a-disney-plus-day-special-look-2022",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Avance de Andor",
+        "en": "Andor preview"
+      }
+    },
+    {
+      "titleId": "empire-of-dreams-the-story-of-the-star-wars-trilogy-2004",
+      "continuityId": "extras",
+      "group": "extras",
+      "importance": "skippable",
+      "chronoNote": {
+        "es": "Documental sobre la trilogía original",
+        "en": "Original trilogy documentary"
+      }
     }
   ],
   "orders": [
@@ -830,6 +1019,10 @@
         "non-canon": {
           "es": "Fuera de canon",
           "en": "Non-canon"
+        },
+        "extras": {
+          "es": "Documentales y extras",
+          "en": "Documentaries & extras"
         }
       }
     },
