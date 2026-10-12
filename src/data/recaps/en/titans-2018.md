@@ -1,0 +1,4 @@
+- **Season 1:** Dick Grayson, the former Robin, gathers young heroes who need a mentor.
+- **Season 2:** the Titans reunite in San Francisco and an enemy seeks to tear them apart.
+- **Season 3:** the Titans travel to Gotham and reunite with old friends.
+- **Season 4:** after saving Gotham, they face a supernatural cult with unknown powers.

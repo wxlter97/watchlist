@@ -1,0 +1,1 @@
+- The early years of Bruce Wayne as Batman and of James Gordon in Gotham's police force.

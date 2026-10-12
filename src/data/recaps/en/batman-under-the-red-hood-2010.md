@@ -1,0 +1,1 @@
+- The mysterious Red Hood takes over Gotham's crime scene with more violent methods.

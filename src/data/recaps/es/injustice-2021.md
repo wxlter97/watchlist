@@ -1,0 +1,1 @@
+- El Joker engaña a Superman para que mate a Lois Lane; Superman toma el control y Batman lo enfrenta.

@@ -1,0 +1,1 @@
+- A mysterious figure executes underworld figures while a lost love of Bruce Wayne returns to Gotham.

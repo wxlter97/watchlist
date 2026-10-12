@@ -1,0 +1,3 @@
+- **Season 1:** Clark Kent, Lois Lane and Jimmy Olsen, Daily Planet interns, form a trio as a new superhero emerges.
+- **Season 2:** new threats from Clark's alien past and Amanda Waller's eye on Superman.
+- **Season 3:** the story continues with new challenges for the trio.

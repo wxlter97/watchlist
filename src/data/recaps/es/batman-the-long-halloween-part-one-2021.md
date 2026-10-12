@@ -1,0 +1,1 @@
+- Batman investiga una serie de asesinatos cometidos en festividades.

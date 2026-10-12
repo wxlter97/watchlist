@@ -1,0 +1,1 @@
+- The Suicide Squad must recover a powerful mystical object.

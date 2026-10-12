@@ -1,0 +1,1 @@
+- The Joker tries to prove that one bad day can drive anyone mad.

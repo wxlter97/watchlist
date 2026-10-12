@@ -1,0 +1,1 @@
+- Jonah Hex, a scarred bounty hunter, tries to stop a revenge plot.

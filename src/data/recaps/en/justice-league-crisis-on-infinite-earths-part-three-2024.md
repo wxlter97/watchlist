@@ -1,0 +1,1 @@
+- The Anti-Monitor attacks the remaining Earths and the heroes fight a last battle.

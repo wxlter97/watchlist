@@ -1,0 +1,5 @@
+- **Season 1:** Jim Gordon is a young Gotham detective after the Waynes' murder.
+- **Season 2:** origins of villains such as the Riddler, the Joker and Mr. Freeze emerge.
+- **Season 3:** Gordon becomes a bounty hunter and hunts Hugo Strange and Fish Mooney.
+- **Season 4:** with the Court of Owls decimated, Gotham faces the fallout of the Tetch virus.
+- **Season 5:** Gotham is cut off and Gordon, Bruce Wayne and a few others retake the city.

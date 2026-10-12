@@ -1,0 +1,1 @@
+- Kara llega a la Tierra en busca de un objeto de poder.

@@ -1,0 +1,1 @@
+- John Henry Irons, a weapons designer, builds armor to stop a corrupt military man.

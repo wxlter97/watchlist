@@ -1,0 +1,6 @@
+- **Temporada 1:** Lucifer se muda a Los Ángeles, abre un bar y conoce a la detective Chloe Decker.
+- **Temporada 2:** la madre de Lucifer llega a la ciudad.
+- **Temporada 3:** Lucifer lidia con una crisis de identidad y cambios en la policía.
+- **Temporada 4:** Chloe asimila la revelación sobre Lucifer mientras un sacerdote busca detener una profecía.
+- **Temporada 5:** Lucifer regresa dispuesto a arreglar las cosas con Chloe.
+- **Temporada 6:** Lucifer debe decidir si quiere el puesto que le ofrecen.

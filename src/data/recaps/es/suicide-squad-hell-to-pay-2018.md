@@ -1,0 +1,1 @@
+- El Escuadrón Suicida debe recuperar un objeto místico poderoso.

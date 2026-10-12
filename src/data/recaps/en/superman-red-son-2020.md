@@ -1,0 +1,1 @@
+- Kal-El lands in the USSR and becomes its champion.

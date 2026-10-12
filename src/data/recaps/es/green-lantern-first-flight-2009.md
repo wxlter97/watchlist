@@ -1,0 +1,1 @@
+- Hal Jordan es reclutado por la Corporación de los Linternas Verdes.

@@ -1,0 +1,1 @@
+- John Stewart, exfrancotirador, recibe un anillo alienígena de Linterna Verde.

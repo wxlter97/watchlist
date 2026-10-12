@@ -131,6 +131,110 @@
         "en": "Adam West, the series and the film."
       },
       "hiddenByDefault": true
+    },
+    {
+      "id": "dcau",
+      "name": {
+        "es": "Universo animado DC (DCAU)",
+        "en": "DC Animated Universe (DCAU)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "De Batman: la serie animada a La Liga de la Justicia Ilimitada, en orden de estreno.",
+        "en": "From Batman: The Animated Series to Justice League Unlimited, in release order."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "dcamu",
+      "name": {
+        "es": "Películas animadas DC (2013-2020)",
+        "en": "DC animated films (2013–2020)"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Las películas conectadas que empiezan con La paradoja Flashpoint y terminan con Apokolips War.",
+        "en": "The connected films that start with The Flashpoint Paradox and end with Apokolips War."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "tomorrowverse",
+      "name": {
+        "es": "Tomorrowverse",
+        "en": "Tomorrowverse"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "La nueva línea de películas animadas de DC, de Man of Tomorrow a Crisis on Infinite Earths.",
+        "en": "DC's newer animated film line, from Man of Tomorrow to Crisis on Infinite Earths."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "dc-animated-films",
+      "name": {
+        "es": "Otras películas animadas",
+        "en": "Other animated films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Películas animadas independientes, sin conexión entre sí.",
+        "en": "Stand-alone animated films with no link to each other."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "dc-animated-tv",
+      "name": {
+        "es": "Series animadas",
+        "en": "Animated series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Series animadas independientes de DC.",
+        "en": "Stand-alone DC animated series."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "dc-tv-live",
+      "name": {
+        "es": "Series live-action",
+        "en": "Live-action series"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Series de acción real independientes de DC.",
+        "en": "Stand-alone live-action DC series."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "dc-vertigo",
+      "name": {
+        "es": "Vertigo y DC Black Label",
+        "en": "Vertigo & DC Black Label"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Adaptaciones más adultas de cómics de DC.",
+        "en": "More adult adaptations of DC comics."
+      },
+      "hiddenByDefault": true
+    },
+    {
+      "id": "dc-films-other",
+      "name": {
+        "es": "Otras películas",
+        "en": "Other films"
+      },
+      "canonLevel": "alternate",
+      "description": {
+        "es": "Películas de DC fuera de los universos principales.",
+        "en": "DC films outside the main universes."
+      },
+      "hiddenByDefault": true
     }
   ],
   "entries": [
@@ -817,6 +921,1034 @@
       "characters": [
         "batman"
       ]
+    },
+    {
+      "titleId": "batman-the-animated-series-1992",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "essential",
+      "chronoOrder": 10,
+      "chronoNote": {
+        "es": "Orden de estreno",
+        "en": "Release order"
+      },
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "batman-mask-of-the-phantasm-1993",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "recommended",
+      "chronoOrder": 20,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "superman-the-animated-series-1996",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "recommended",
+      "chronoOrder": 30,
+      "characters": [
+        "superman"
+      ]
+    },
+    {
+      "titleId": "the-new-batman-adventures-1997",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "optional",
+      "chronoOrder": 40,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "batman-and-mr-freeze-subzero-1998",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "batman-beyond-1999",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "recommended",
+      "chronoOrder": 60,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "static-shock-2000",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "optional",
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "batman-beyond-return-of-the-joker-2000",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "recommended",
+      "chronoOrder": 80,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "the-zeta-project-2001",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "skippable",
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "justice-league-2001",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "recommended",
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "batman-mystery-of-the-batwoman-2003",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "optional",
+      "chronoOrder": 110,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "justice-league-unlimited-2004",
+      "continuityId": "dcau",
+      "group": "dcau",
+      "importance": "recommended",
+      "chronoOrder": 120
+    },
+    {
+      "titleId": "justice-league-the-flashpoint-paradox-2013",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "essential",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "justice-league-war-2014",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "recommended",
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "son-of-batman-2014",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "optional",
+      "chronoOrder": 30,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "justice-league-throne-of-atlantis-2015",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "recommended",
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "batman-vs-robin-2015",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "optional",
+      "chronoOrder": 50,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "batman-bad-blood-2016",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "optional",
+      "chronoOrder": 60,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "justice-league-vs-teen-titans-2016",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "optional",
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "justice-league-dark-2017",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "recommended",
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "teen-titans-the-judas-contract-2017",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "optional",
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "batman-and-harley-quinn-2017",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "skippable",
+      "chronoOrder": 100,
+      "characters": [
+        "batman"
+      ]
+    },
+    {
+      "titleId": "suicide-squad-hell-to-pay-2018",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "optional",
+      "chronoOrder": 110
+    },
+    {
+      "titleId": "the-death-of-superman-2019",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "recommended",
+      "chronoOrder": 120
+    },
+    {
+      "titleId": "reign-of-the-supermen-2019",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "recommended",
+      "chronoOrder": 130
+    },
+    {
+      "titleId": "justice-league-dark-apokolips-war-2020",
+      "continuityId": "dcamu",
+      "group": "dcamu",
+      "importance": "recommended",
+      "chronoOrder": 140
+    },
+    {
+      "titleId": "superman-man-of-tomorrow-2020",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "recommended",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "green-lantern-beware-my-power-2022",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "optional",
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "legion-of-super-heroes-2023",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "optional",
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "justice-league-warworld-2023",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "optional",
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "justice-league-crisis-on-infinite-earths-part-one-2024",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "recommended",
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "justice-league-crisis-on-infinite-earths-part-two-2024",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "recommended",
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "justice-league-crisis-on-infinite-earths-part-three-2024",
+      "continuityId": "tomorrowverse",
+      "group": "tomorrowverse",
+      "importance": "recommended",
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "superman-doomsday-2007",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "justice-league-the-new-frontier-2008",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "batman-gotham-knight-2008",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "wonder-woman-2009",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "green-lantern-first-flight-2009",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "justice-league-crisis-on-two-earths-2010",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-under-the-red-hood-2010",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "superman-batman-apocalypse-2010",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "superman-shazam-the-return-of-black-adam-2010",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "batman-year-one-2011",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "justice-league-doom-2012",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-the-dark-knight-returns-part-1-2012",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "batman-the-dark-knight-returns-part-2-2013",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "batman-assault-on-arkham-2014",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "justice-league-gods-and-monsters-2015",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-the-killing-joke-2016",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-gotham-by-gaslight-2018",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-ninja-2018",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "constantine-city-of-demons-2018",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "teen-titans-go-to-the-movies-2018",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-hush-2019",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "superman-red-son-2020",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "batman-death-in-the-family-2020",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-soul-of-the-dragon-2021",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-the-long-halloween-part-one-2021",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "batman-the-long-halloween-part-two-2021",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "injustice-2021",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "dc-league-of-super-pets-2022",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "batman-the-doom-that-came-to-gotham-2023",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "merry-little-batman-2023",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "batman-ninja-vs-yakuza-league-2025",
+      "continuityId": "dc-animated-films",
+      "group": "dc-animated-films",
+      "importance": "optional"
+    },
+    {
+      "titleId": "young-justice-2010",
+      "season": 1,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "young-justice-2010",
+      "season": 2,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended",
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "young-justice-2010",
+      "season": 3,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "young-justice-2010",
+      "season": 4,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "harley-quinn-2019",
+      "season": 1,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended",
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "harley-quinn-2019",
+      "season": 2,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended",
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "harley-quinn-2019",
+      "season": 3,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "harley-quinn-2019",
+      "season": 4,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "harley-quinn-2019",
+      "season": 5,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "my-adventures-with-superman-2023",
+      "season": 1,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended",
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "my-adventures-with-superman-2023",
+      "season": 2,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 110
+    },
+    {
+      "titleId": "my-adventures-with-superman-2023",
+      "season": 3,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 120
+    },
+    {
+      "titleId": "batman-caped-crusader-2024",
+      "season": 1,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended",
+      "chronoOrder": 130
+    },
+    {
+      "titleId": "batman-caped-crusader-2024",
+      "season": 2,
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional",
+      "chronoOrder": 140
+    },
+    {
+      "titleId": "teen-titans-2003",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "teen-titans-go-2013",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "batman-the-brave-and-the-bold-2008",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional"
+    },
+    {
+      "titleId": "justice-league-action-2016",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional"
+    },
+    {
+      "titleId": "beware-the-batman-2013",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "green-lantern-the-animated-series-2011",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional"
+    },
+    {
+      "titleId": "kite-man-hell-yeah-2024",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "optional"
+    },
+    {
+      "titleId": "dc-super-hero-girls-2019",
+      "continuityId": "dc-animated-tv",
+      "group": "dc-animated-tv",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 1,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "recommended",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 2,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 3,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 4,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 5,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 6,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 7,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 8,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 9,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "smallville-2001",
+      "season": 10,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "gotham-2014",
+      "season": 1,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "recommended",
+      "chronoOrder": 110
+    },
+    {
+      "titleId": "gotham-2014",
+      "season": 2,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 120
+    },
+    {
+      "titleId": "gotham-2014",
+      "season": 3,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 130
+    },
+    {
+      "titleId": "gotham-2014",
+      "season": 4,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 140
+    },
+    {
+      "titleId": "gotham-2014",
+      "season": 5,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 150
+    },
+    {
+      "titleId": "titans-2018",
+      "season": 1,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 160
+    },
+    {
+      "titleId": "titans-2018",
+      "season": 2,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 170
+    },
+    {
+      "titleId": "titans-2018",
+      "season": 3,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 180
+    },
+    {
+      "titleId": "titans-2018",
+      "season": 4,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 190
+    },
+    {
+      "titleId": "doom-patrol-2019",
+      "season": 1,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "recommended",
+      "chronoOrder": 200
+    },
+    {
+      "titleId": "doom-patrol-2019",
+      "season": 2,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 210
+    },
+    {
+      "titleId": "doom-patrol-2019",
+      "season": 3,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 220
+    },
+    {
+      "titleId": "doom-patrol-2019",
+      "season": 4,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 230
+    },
+    {
+      "titleId": "krypton-2018",
+      "season": 1,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 240
+    },
+    {
+      "titleId": "krypton-2018",
+      "season": 2,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 250
+    },
+    {
+      "titleId": "pennyworth-2019",
+      "season": 1,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 260
+    },
+    {
+      "titleId": "pennyworth-2019",
+      "season": 2,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 270
+    },
+    {
+      "titleId": "pennyworth-2019",
+      "season": 3,
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional",
+      "chronoOrder": 280
+    },
+    {
+      "titleId": "swamp-thing-2019",
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional"
+    },
+    {
+      "titleId": "lois-and-clark-the-new-adventures-of-superman-1993",
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional"
+    },
+    {
+      "titleId": "wonder-woman-1975",
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional"
+    },
+    {
+      "titleId": "the-flash-1990",
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "optional"
+    },
+    {
+      "titleId": "birds-of-prey-2002",
+      "continuityId": "dc-tv-live",
+      "group": "dc-tv-live",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "watchmen-2019",
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "the-sandman-2022",
+      "season": 1,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "essential",
+      "chronoOrder": 10
+    },
+    {
+      "titleId": "the-sandman-2022",
+      "season": 2,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 20
+    },
+    {
+      "titleId": "lucifer-2016",
+      "season": 1,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "essential",
+      "chronoOrder": 30
+    },
+    {
+      "titleId": "lucifer-2016",
+      "season": 2,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 40
+    },
+    {
+      "titleId": "lucifer-2016",
+      "season": 3,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 50
+    },
+    {
+      "titleId": "lucifer-2016",
+      "season": 4,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 60
+    },
+    {
+      "titleId": "lucifer-2016",
+      "season": 5,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 70
+    },
+    {
+      "titleId": "lucifer-2016",
+      "season": 6,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 80
+    },
+    {
+      "titleId": "sweet-tooth-2021",
+      "season": 1,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 90
+    },
+    {
+      "titleId": "sweet-tooth-2021",
+      "season": 2,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 100
+    },
+    {
+      "titleId": "sweet-tooth-2021",
+      "season": 3,
+      "continuityId": "dc-vertigo",
+      "group": "dc-vertigo",
+      "importance": "recommended",
+      "chronoOrder": 110
+    },
+    {
+      "titleId": "green-lantern-2011",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "optional"
+    },
+    {
+      "titleId": "jonah-hex-2010",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "watchmen-2009",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "recommended"
+    },
+    {
+      "titleId": "catwoman-2004",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "steel-1997",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "supergirl-1984",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "skippable"
+    },
+    {
+      "titleId": "swamp-thing-1982",
+      "continuityId": "dc-films-other",
+      "group": "dc-films-other",
+      "importance": "optional"
+    },
+    {
+      "titleId": "zack-snyders-justice-league-2021",
+      "continuityId": "dceu",
+      "group": "dceu",
+      "importance": "recommended",
+      "chronoOrder": 45,
+      "chronoNote": {
+        "es": "Versión alternativa de Liga de la Justicia (2017)",
+        "en": "Alternate version of Justice League (2017)"
+      },
+      "characters": [
+        "batman",
+        "superman",
+        "wonder-woman",
+        "the-flash",
+        "aquaman"
+      ],
+      "teams": [
+        "justice-league"
+      ]
     }
   ],
   "orders": [
@@ -891,6 +2023,38 @@
         "arrowverse": {
           "es": "Arrowverse",
           "en": "Arrowverse"
+        },
+        "dcau": {
+          "es": "Universo animado DC",
+          "en": "DC Animated Universe"
+        },
+        "dcamu": {
+          "es": "Películas animadas DC",
+          "en": "DC animated films"
+        },
+        "tomorrowverse": {
+          "es": "Tomorrowverse",
+          "en": "Tomorrowverse"
+        },
+        "dc-animated-films": {
+          "es": "Otras películas animadas",
+          "en": "Other animated films"
+        },
+        "dc-animated-tv": {
+          "es": "Series animadas",
+          "en": "Animated series"
+        },
+        "dc-tv-live": {
+          "es": "Series live-action",
+          "en": "Live-action series"
+        },
+        "dc-vertigo": {
+          "es": "Vertigo y Black Label",
+          "en": "Vertigo & Black Label"
+        },
+        "dc-films-other": {
+          "es": "Otras películas",
+          "en": "Other films"
         }
       }
     },
@@ -908,7 +2072,7 @@
       "titleIds": [
         "man-of-steel-2013",
         "batman-v-superman-dawn-of-justice-2016",
-        "justice-league-2017"
+        "zack-snyders-justice-league-2021"
       ]
     }
   ],

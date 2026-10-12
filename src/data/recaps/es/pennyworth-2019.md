@@ -1,0 +1,3 @@
+- **Temporada 1:** Alfred Pennyworth, exsoldado, funda un servicio de seguridad y conoce a Thomas Wayne.
+- **Temporada 2:** Inglaterra se hunde en una guerra civil y Alfred busca salir.
+- **Temporada 3:** tras un salto temporal, una revolución cultural da paso a héroes y villanos.

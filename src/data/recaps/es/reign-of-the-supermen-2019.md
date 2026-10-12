@@ -1,0 +1,1 @@
+- Con Superman muerto, Metrópolis recibe varios sustitutos.

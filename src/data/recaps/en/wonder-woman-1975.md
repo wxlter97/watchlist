@@ -1,0 +1,1 @@
+- Diana Prince fights crime as Wonder Woman, played by Lynda Carter.

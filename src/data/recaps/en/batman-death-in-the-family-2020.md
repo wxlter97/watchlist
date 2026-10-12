@@ -1,0 +1,1 @@
+- Jason Todd grows violent and Batman sidelines him, changing his fate.

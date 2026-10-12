@@ -1,0 +1,1 @@
+- Hal Jordan is recruited by the Green Lantern Corps.

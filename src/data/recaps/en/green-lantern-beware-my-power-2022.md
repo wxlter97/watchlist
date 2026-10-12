@@ -1,0 +1,1 @@
+- John Stewart, a former sniper, receives an alien Green Lantern ring.

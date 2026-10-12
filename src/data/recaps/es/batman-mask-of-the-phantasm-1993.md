@@ -1,0 +1,1 @@
+- Una figura misteriosa ejecuta a miembros del hampa mientras regresa a Gotham un viejo amor de Bruce Wayne.

@@ -1,0 +1,3 @@
+- **Season 1:** Gus, a half-human, half-deer boy, seeks a new life with a protector in a post-apocalyptic world.
+- **Season 2:** after being captured, Gus helps his hybrid friends escape.
+- **Season 3:** Gus and his friends set out to cure the plague and discover the truth about the hybrids.

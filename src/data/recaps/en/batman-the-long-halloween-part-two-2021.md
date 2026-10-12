@@ -1,0 +1,1 @@
+- Harvey Dent turns into Two-Face and the investigation reaches its end.

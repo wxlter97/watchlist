@@ -1,0 +1,1 @@
+- Jonah Hex, cazarrecompensas marcado, intenta frenar un plan de venganza.

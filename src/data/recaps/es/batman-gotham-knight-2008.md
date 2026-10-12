@@ -1,0 +1,1 @@
+- Seis capítulos exploran la transición de Bruce Wayne hacia el Caballero Oscuro.

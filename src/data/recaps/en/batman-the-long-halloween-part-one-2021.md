@@ -1,0 +1,1 @@
+- Batman investigates a series of murders committed on holidays.

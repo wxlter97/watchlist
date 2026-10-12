@@ -1,0 +1,1 @@
+- Batman hunts Jack the Ripper in a turn-of-the-century Gotham.

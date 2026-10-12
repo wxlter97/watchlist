@@ -1,0 +1,5 @@
+- **Temporada 1:** Jim Gordon es un joven detective en Gotham tras el asesinato de los Wayne.
+- **Temporada 2:** surgen los orígenes de villanos como el Acertijo, el Joker y Mr. Freeze.
+- **Temporada 3:** Gordon se convierte en cazarrecompensas y busca a Hugo Strange y a Fish Mooney.
+- **Temporada 4:** con la Corte de los Búhos diezmada, Gotham enfrenta las consecuencias del virus Tetch.
+- **Temporada 5:** Gotham queda aislada y Gordon, Bruce Wayne y unos pocos retoman la ciudad.

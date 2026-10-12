@@ -1,0 +1,1 @@
+- Bruce Wayne combate el crimen como Batman en Gotham frente a villanos como el Joker y Harley Quinn.

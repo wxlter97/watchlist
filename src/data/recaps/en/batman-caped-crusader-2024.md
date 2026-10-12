@@ -1,0 +1,2 @@
+- **Season 1:** Bruce Wayne in his first year as Batman, fighting crime in Gotham.
+- **Season 2:** Batman and his allies join forces to dismantle Rupert Thorne's criminal organization.

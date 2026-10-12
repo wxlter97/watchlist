@@ -1,0 +1,1 @@
+- Batgirl, Huntress and Dinah protect New Gotham after Batman's disappearance.

@@ -1,0 +1,1 @@
+- Terry McGinnis se convierte en el nuevo Batman con la guía de un anciano Bruce Wayne.

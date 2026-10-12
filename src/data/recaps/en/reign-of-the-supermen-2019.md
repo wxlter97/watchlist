@@ -1,0 +1,1 @@
+- With Superman dead, Metropolis receives several replacements.

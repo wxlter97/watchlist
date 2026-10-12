@@ -1,0 +1,1 @@
+- Batman, Superman and Wonder Woman must form a resistance on a world of gladiators.

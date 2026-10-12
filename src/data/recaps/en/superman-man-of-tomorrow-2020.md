@@ -1,0 +1,1 @@
+- Clark Kent, a Daily Planet intern, begins acting as Superman in Metropolis.

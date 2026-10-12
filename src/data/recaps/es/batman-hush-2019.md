@@ -1,0 +1,1 @@
+- Un villano llamado Hush manipula a los enemigos de Batman para destruirlo.

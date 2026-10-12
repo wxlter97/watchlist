@@ -1,0 +1,1 @@
+- Hal Jordan recibe un anillo y es reclutado por la Corporación de Linternas Verdes.

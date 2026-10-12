@@ -1,0 +1,1 @@
+- Clark Kent, pasante del Daily Planet, empieza a ejercer como Superman en Metrópolis.

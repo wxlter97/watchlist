@@ -1,0 +1,2 @@
+- **Season 1:** Seg-El, Superman's grandfather, tries to save Krypton with the help of a visitor from the future.
+- **Season 2:** the fight for Krypton continues.

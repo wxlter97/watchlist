@@ -1,0 +1,1 @@
+- Batman teams up with a different hero each episode.

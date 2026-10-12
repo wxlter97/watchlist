@@ -1,0 +1,5 @@
+- **Temporada 1:** Harley Quinn deja al Joker e intenta convertirse en villana por su cuenta.
+- **Temporada 2:** Harley y Hiedra Venenosa enfrentan a nuevos rivales en Gotham.
+- **Temporada 3:** Harley e Hiedra regresan a Gotham como pareja de villanas tras su gira.
+- **Temporada 4:** la historia de Harley e Hiedra continúa con nuevos enemigos.
+- **Temporada 5:** Harley e Hiedra se mudan a Metrópolis y descubren que algo siniestro está en juego.

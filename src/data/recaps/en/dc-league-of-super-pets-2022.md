@@ -1,0 +1,1 @@
+- Krypto gathers a band of pets with powers to rescue the League.

@@ -1,0 +1,2 @@
+- **Temporada 1:** Morfeo, el Rey de los Sueños, escapa tras años de prisión y busca lo que le robaron.
+- **Temporada 2:** Morfeo enfrenta decisiones imposibles tras reencontrarse con su familia.

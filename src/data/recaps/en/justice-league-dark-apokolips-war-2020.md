@@ -1,0 +1,1 @@
+- Darkseid devastates Earth and the remaining heroes try to stop him.

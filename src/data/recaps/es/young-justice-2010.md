@@ -1,0 +1,4 @@
+- **Temporada 1:** Robin, Aqualad, Kid Flash, Superboy, Miss Martian y Artemis forman la Joven Liga de la Justicia.
+- **Temporada 2:** cinco años después, el equipo enfrenta una invasión alienígena secreta.
+- **Temporada 3:** el equipo enfrenta el tráfico de metahumanos y una carrera armamentista genética.
+- **Temporada 4:** los veteranos lideran a una nueva generación de héroes en una búsqueda de justicia por el espacio.

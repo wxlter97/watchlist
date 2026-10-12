@@ -1,0 +1,1 @@
+- Superman, Batman and Wonder Woman are darker versions in another reality.

@@ -1,0 +1,10 @@
+- **Temporada 1:** Clark Kent crece en Smallville descubriendo sus poderes tras una lluvia de meteoritos.
+- **Temporada 2:** Clark estrena visión de calor y nuevas amistades mientras su pasado alienígena emerge.
+- **Temporada 3:** Clark y sus amigos enfrentan los efectos de la kriptonita roja.
+- **Temporada 4:** Lois Lane llega a Smallville a investigar una muerte.
+- **Temporada 5:** la serie cambia de tono y ahonda en el destino de Clark.
+- **Temporada 6:** Clark enfrenta a Zod y a los criminales de la Zona Fantasma.
+- **Temporada 7:** llega Kara, la prima de Clark, y crece la mitología de Superman.
+- **Temporada 8:** Clark enfrenta nuevas amenazas, entre ellas Doomsday.
+- **Temporada 9:** aparecen nuevos seres con poderes, como Metallo, que buscan vengarse de La Mancha.
+- **Temporada 10:** la última temporada cierra el camino de Clark hacia Superman.

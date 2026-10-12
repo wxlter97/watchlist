@@ -1,0 +1,1 @@
+- A new vigilante, Batwoman, appears in Gotham and Batman tries to uncover her identity.

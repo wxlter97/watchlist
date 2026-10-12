@@ -1,0 +1,1 @@
+- Six chapters explore Bruce Wayne's transition into the Dark Knight.

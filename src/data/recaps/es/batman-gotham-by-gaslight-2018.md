@@ -1,0 +1,1 @@
+- Batman persigue a Jack el Destripador en una Gotham de principios de siglo.

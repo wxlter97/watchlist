@@ -1,0 +1,10 @@
+- **Season 1:** Clark Kent grows up in Smallville discovering his powers after a meteor shower.
+- **Season 2:** Clark gains heat vision and new friendships as his alien past emerges.
+- **Season 3:** Clark and his friends face the effects of red kryptonite.
+- **Season 4:** Lois Lane arrives in Smallville to investigate a death.
+- **Season 5:** the series shifts tone and digs into Clark's destiny.
+- **Season 6:** Clark faces Zod and the Phantom Zone criminals.
+- **Season 7:** Kara, Clark's cousin, arrives and the Superman mythology deepens.
+- **Season 8:** Clark faces new threats, including Doomsday.
+- **Season 9:** new powered beings appear, such as Metallo, who seek revenge on the Blur.
+- **Season 10:** the final season closes Clark's road to becoming Superman.

@@ -1,0 +1,1 @@
+- Barry Allen wakes up in an alternate reality where the League's heroes barely exist.

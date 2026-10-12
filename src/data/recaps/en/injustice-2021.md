@@ -1,0 +1,1 @@
+- The Joker tricks Superman into killing Lois Lane; Superman takes control and Batman opposes him.
