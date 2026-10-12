@@ -1,3 +1,2 @@
-- Lunella Lafayette, a 13-year-old genius, opens a portal and brings in a red T. rex, Devil Dinosaur.
-- She becomes Moon Girl and protects her neighborhood.
-- Her family discovers her secret.
+- **Season 1:** Lunella Lafayette, a 13-year-old genius, accidentally brings a red T. rex, Devil Dinosaur, into her world and becomes Moon Girl to protect her neighborhood.
+- **Season 2:** Her superhero life intertwines with her personal one, and she must decide whether keeping her identity secret from her family is worth the toll.

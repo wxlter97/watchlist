@@ -1,3 +1,2 @@
-- Un macaco japonés, Monkey, es entrenado por el fantasma de un asesino, Bryce Fowler.
-- En Tokio, desmantelan una conspiración criminal.
-- En la segunda temporada llegan a Nueva York y enfrentan a la Cooperativa.
+- **Temporada 1:** Un macaco japonés, Monkey, es entrenado por el fantasma de un asesino, Bryce Fowler, y juntos desmantelan una conspiración criminal en Tokio.
+- **Temporada 2:** En Nueva York, Monkey busca dejar atrás su vida de asesino mientras Bryce intenta reparar el daño que hizo.
