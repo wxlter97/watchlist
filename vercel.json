@@ -102,12 +102,88 @@
       "destination": "/api/page?type=ads"
     },
     {
+      "source": "/privacy",
+      "destination": "/api/page?type=privacy"
+    },
+    {
+      "source": "/en/privacy",
+      "destination": "/api/page?type=privacy&lang=en"
+    },
+    {
+      "source": "/terms",
+      "destination": "/api/page?type=terms"
+    },
+    {
+      "source": "/en/terms",
+      "destination": "/api/page?type=terms&lang=en"
+    },
+    {
+      "source": "/about",
+      "destination": "/api/page?type=about"
+    },
+    {
+      "source": "/en/about",
+      "destination": "/api/page?type=about&lang=en"
+    },
+    {
+      "source": "/contact",
+      "destination": "/api/page?type=contact"
+    },
+    {
+      "source": "/en/contact",
+      "destination": "/api/page?type=contact&lang=en"
+    },
+    {
+      "source": "/developers",
+      "destination": "/api/page?type=developers"
+    },
+    {
+      "source": "/en/developers",
+      "destination": "/api/page?type=developers&lang=en"
+    },
+    {
       "source": "/api/health",
       "destination": "/api/log"
     },
     {
-      "source": "/((?!api/|assets/|__/).*)",
+      "source": "/openapi.json",
+      "destination": "/api/page?type=openapi"
+    },
+    {
+      "source": "/api/openapi.json",
+      "destination": "/api/page?type=openapi"
+    },
+    {
+      "source": "/api/franchises",
+      "destination": "/api/page?type=api&resource=franchises"
+    },
+    {
+      "source": "/api/franchises/:id",
+      "destination": "/api/page?type=api&resource=franchises&id=:id"
+    },
+    {
+      "source": "/api/titles/:id",
+      "destination": "/api/page?type=api&resource=titles&id=:id"
+    },
+    {
+      "source": "/:lang(en)?/:page(account|search|stats|map|achievements|compare|groups|join|wrapped|plans)/:rest*",
       "destination": "/index.html"
+    },
+    {
+      "source": "/:lang(en)?/f/:id/:page(timeline)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:lang(en)?/f/:id/prep/:titleId",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/api/:path(.*)",
+      "destination": "/api/page?type=api-404&path=:path"
+    },
+    {
+      "source": "/:path(.*)",
+      "destination": "/api/page?type=404&path=:path"
     }
   ],
   "crons": [
@@ -140,11 +216,24 @@
       ]
     },
     {
-      "source": "/(en/)?(account|plans|groups|join|compare|wrapped|stats|map|achievements|search)(.*)",
+      "source": "/:lang(en)?/:page(account|plans|groups|join|compare|wrapped|stats|map|achievements|search)/:rest*",
       "headers": [
         {
           "key": "X-Robots-Tag",
           "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Accept"
+        },
+        {
+          "key": "Link",
+          "value": "</llms.txt>; rel=\"describedby\"; type=\"text/plain\", </openapi.json>; rel=\"service-desc\"; type=\"application/json\", </developers>; rel=\"service-doc\"; type=\"text/html\""
         }
       ]
     },

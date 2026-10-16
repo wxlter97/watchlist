@@ -853,7 +853,10 @@
   "content": {
     "links": {
       "faq": "FAQ",
-      "guide": "How it works"
+      "guide": "How it works",
+      "about": "About",
+      "contact": "Contact",
+      "developers": "Developer API"
     },
     "faq": {
       "title": "Frequently asked questions",
@@ -980,6 +983,134 @@
           "h": "Your data",
           "p": [
             "As a guest, everything is stored on your device. With a Google account it syncs and you can have several profiles. You can export your progress or all your data and delete your account at any time. Details are in the privacy policy."
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "About Watch Order",
+      "description": "What Watch Order is, who makes it, where its data comes from and how it is funded.",
+      "intro": "Watch Order is a free web app to follow movie and TV franchises in the order you like: by release date, chronological, curated or your own.",
+      "sections": [
+        {
+          "h": "What it does",
+          "p": [
+            "Every franchise in the catalog has several watch orders, routes by character or theme, and “Get ready for…” routes with the minimum to watch before a release. Each title says whether it is essential, recommended or optional, and the app keeps what you have watched, shows what is next, plans marathons and alerts you about releases.",
+            "It runs in the browser and installs as an app (PWA) on your phone or computer, offline too. It is available in Spanish and English."
+          ]
+        },
+        {
+          "h": "Who makes it",
+          "p": [
+            "Watch Order is a personal project by wxlter, an independent developer (wxlter.dev). There is no company behind it: the catalog, orders and texts are curated by hand and checked against official sources when they exist."
+          ]
+        },
+        {
+          "h": "Where the data comes from",
+          "p": [
+            "Title details (dates, runtimes, posters and overviews) come from TMDB, and “where to watch” uses JustWatch data via TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB. The orders, routes, importance of each title and recaps are original."
+          ]
+        },
+        {
+          "h": "How it is funded",
+          "p": [
+            "The app is free, with no paid plans or locked features. It is supported by voluntary donations and, if turned on, by ads that only appear if you accept them in the consent notice. Without an account your progress stays on your device; with a Google account it syncs across devices. The details are in the privacy policy."
+          ]
+        },
+        {
+          "h": "For integrations",
+          "p": [
+            "The catalog is also available as a public, read-only API with no key and an OpenAPI specification. See the developer page."
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "How to contact Watch Order to report bugs, fix the catalog, ask about privacy or about the API.",
+      "intro": "Watch Order is maintained by one person. The way to get in touch is email at work@wxlter.dev; it is also under “Contact and reports” at the bottom of every page.",
+      "sections": [
+        {
+          "h": "Email",
+          "p": [
+            "work@wxlter.dev. Write in English or Spanish. If you are reporting a problem with the app, include the version (shown at the bottom of the page), your browser or device and the steps to reproduce it."
+          ]
+        },
+        {
+          "h": "Catalog mistakes",
+          "p": [
+            "If an order, a date, a missing title or the importance of something looks wrong, write with the franchise name and, if you can, the source (for example, the studio's official timeline). Corrections are reviewed by hand."
+          ]
+        },
+        {
+          "h": "Privacy and your account",
+          "p": [
+            "For questions about your data, write to the same address. You can export your progress and delete your account with all your data yourself from Account, without waiting for a reply."
+          ]
+        },
+        {
+          "h": "Abuse and shared content",
+          "p": [
+            "If a shared link or a group breaks the terms, write with the link. Links and groups that abuse the service can be turned off."
+          ]
+        },
+        {
+          "h": "API and developers",
+          "p": [
+            "Questions about the public API go to the same email. The documentation, endpoints and examples are on the developer page."
+          ]
+        }
+      ]
+    },
+    "developers": {
+      "title": "Watch Order developer API",
+      "description": "Free public Watch Order API: franchises, watch orders, titles, upcoming releases, where to watch and cast. No key, with OpenAPI.",
+      "intro": "Watch Order has a public, read-only REST API to answer “what order should I watch this saga in?”. It needs no account or key, responds with JSON and is described in OpenAPI 3.1 at /openapi.json.",
+      "sections": [
+        {
+          "h": "Authentication",
+          "p": [
+            "None. Every endpoint below is public and read-only. Responses are cached at the CDN: keep it under one request per second and cache responses on your side when you can."
+          ]
+        },
+        {
+          "h": "Endpoints",
+          "p": [
+            "GET /api/franchises — every franchise, with id, name, description, number of titles and available orders.",
+            "GET /api/franchises/{id}?order={orderId} — a franchise with its continuities, orders, routes and the titles of the requested order (the release order by default).",
+            "GET /api/titles/{id} — a title: kind, release date, runtime, seasons, overview, poster, TMDB and IMDb ids and its franchises.",
+            "GET /api/upcoming?franchise={ids} — releases, new seasons and new episodes in the next 365 days.",
+            "GET /api/providers?tmdbId=&type=movie|tv&region= — where to watch a title in a country (JustWatch data via TMDB).",
+            "GET /api/credits?tmdbId=&type=movie|tv — main cast.",
+            "GET /api/health — service status.",
+            "All of them take lang=en|es where there is text (English by default)."
+          ]
+        },
+        {
+          "h": "Examples",
+          "p": [
+            "The MCU in chronological order:"
+          ],
+          "code": "curl 'https://watchlist.wxlter.dev/api/franchises/marvel?order=chronological'"
+        },
+        {
+          "id": "errors",
+          "h": "Errors",
+          "p": [
+            "Errors respond with JSON and the right HTTP status: error (the message), code (invalid_request, not_found, rate_limited, upstream_error, internal_error…), status, hint (how to fix the request) and docs. An endpoint that does not exist responds 404 in JSON."
+          ],
+          "code": "{\"error\": \"No existe la franquicia \\\"marvl\\\"\", \"code\": \"not_found\", \"status\": 404, \"hint\": \"List valid ids with GET /api/franchises.\", \"docs\": \"/developers#errors\"}"
+        },
+        {
+          "h": "For AI agents",
+          "p": [
+            "/llms.txt sums up the app and when to use it. Every public page (home, franchises, titles, routes, FAQ and guide) responds with Markdown if you send Accept: text/markdown, and a path that does not exist responds 404."
+          ]
+        },
+        {
+          "h": "Attribution and use",
+          "p": [
+            "Title data comes from TMDB and “where to watch” from JustWatch: credit them if you show it. The orders, routes and importance of each title are Watch Order's; link to the franchise page when you use them. Use is subject to the terms."
           ]
         }
       ]

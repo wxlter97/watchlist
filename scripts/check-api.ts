@@ -10,15 +10,18 @@ import { pathToFileURL } from "node:url";
 const files = (dir: string): string[] =>
   readdirSync(dir).flatMap((n) => {
     const p = join(dir, n);
-    return statSync(p).isDirectory() ? (n === "_fonts" ? [] : files(p)) : p.endsWith(".ts") ? [p] : [];
+    return statSync(p).isDirectory() ? (n === "_fonts" ? [] : files(p)) : p.endsWith(".ts") && !p.endsWith(".test.ts") ? [p] : [];
   });
+
+// La Routing Middleware (middleware.ts) también corre en Vercel como ESM nativo.
+const entries = [...files("api"), "middleware.ts"];
 
 const out = mkdtempSync(join(tmpdir(), "watch-order-api-"));
 try {
   try {
     execFileSync(
       "pnpm",
-      ["exec", "tsc", "--module", "nodenext", "--moduleResolution", "nodenext", "--target", "es2023", "--skipLibCheck", "--ignoreConfig", "--types", "node", "--resolveJsonModule", "--outDir", out, "--rootDir", ".", ...files("api")],
+      ["exec", "tsc", "--module", "nodenext", "--moduleResolution", "nodenext", "--target", "es2023", "--skipLibCheck", "--ignoreConfig", "--types", "node", "--resolveJsonModule", "--outDir", out, "--rootDir", ".", ...entries],
       { stdio: "pipe" },
     );
   } catch {
@@ -29,7 +32,7 @@ try {
   symlinkSync(join(process.cwd(), "src", "data"), join(out, "src", "data"));
 
   const problems: string[] = [];
-  for (const file of files("api")) {
+  for (const file of entries) {
     const js = join(out, relative(".", file).replace(/\.ts$/, ".js"));
     // Node puro en un proceso aparte: tsx (que corre este script) resuelve imports sin extensión.
     try {
@@ -43,7 +46,7 @@ try {
     console.error(`Las funciones no cargan como ESM nativo (¿falta ".js" en un import?):\n${problems.join("\n")}`);
     process.exit(1);
   }
-  console.log(`Funciones de api/ cargan como ESM: ${files("api").length}.`);
+  console.log(`Funciones de api/ y middleware cargan como ESM: ${entries.length}.`);
 } finally {
   rmSync(out, { recursive: true, force: true });
 }

@@ -1,5 +1,6 @@
 import type { Entry, Franchise, OrderDef, Title } from "./types";
-import { parseUnitKey, unitKey, unitReleaseDate, type IsWatched } from "./units";
+// Con ".js": api/_lib/catalogApi.ts lo importa desde Node (ESM nativo), ver scripts/check-api.ts.
+import { parseUnitKey, unitKey, unitReleaseDate, type IsWatched } from "./units.js";
 
 /** Orden personalizado por perfil (no se declara en el JSON; existe en todas las franquicias). */
 export const CUSTOM_ORDER_ID = "custom";

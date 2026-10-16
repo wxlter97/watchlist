@@ -52,6 +52,9 @@ const PrivacyPage = page(() => import("./features/legal/LegalPage"), "PrivacyPag
 const TermsPage = page(() => import("./features/legal/LegalPage"), "TermsPage");
 const FaqPage = page(() => import("./features/content/ContentPage"), "FaqPage");
 const GuidePage = page(() => import("./features/content/ContentPage"), "GuidePage");
+const AboutPage = page(() => import("./features/content/ContentPage"), "AboutPage");
+const ContactPage = page(() => import("./features/content/ContentPage"), "ContactPage");
+const DevelopersPage = page(() => import("./features/content/ContentPage"), "DevelopersPage");
 const AccountPage = page(() => import("./features/account/AccountPage"), "AccountPage");
 import { useLang } from "./lib/i18n";
 import { trackPageView } from "./lib/analytics";
@@ -145,6 +148,9 @@ const PAGE_TITLES: Record<string, string> = {
   "/terms": "legal.terms.title",
   "/faq": "content.faq.title",
   "/guide": "content.guide.title",
+  "/about": "content.about.title",
+  "/contact": "content.contact.title",
+  "/developers": "content.developers.title",
 };
 
 function Layout() {
@@ -264,6 +270,12 @@ function Layout() {
           <Link to="/guide" className="underline">
             {t("content.links.guide")}
           </Link>
+          <Link to="/about" className="underline">
+            {t("content.links.about")}
+          </Link>
+          <Link to="/developers" className="underline">
+            {t("content.links.developers")}
+          </Link>
           <Link to="/privacy" className="underline">
             {t("legal.privacyLink")}
           </Link>
@@ -282,6 +294,9 @@ const appRoutes: RouteObject[] = [
   { path: "terms", element: <TermsPage /> },
   { path: "faq", element: <FaqPage /> },
   { path: "guide", element: <GuidePage /> },
+  { path: "about", element: <AboutPage /> },
+  { path: "contact", element: <ContactPage /> },
+  { path: "developers", element: <DevelopersPage /> },
   { index: true, element: <HubPage /> },
   { path: "f/:franchiseId", element: <FranchisePage /> },
   { path: "f/:franchiseId/r/:routeId", element: <RoutePage /> },

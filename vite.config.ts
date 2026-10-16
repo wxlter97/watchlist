@@ -6,6 +6,8 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 import pkg from "./package.json" with { type: "json" };
+import { negotiate } from "./api/_lib/negotiate.ts";
+import { homeSections, organization } from "./api/_lib/seo.ts";
 
 function readBody(req: import("node:http").IncomingMessage): Promise<Buffer> {
   return new Promise((resolve, reject) => {
@@ -36,7 +38,23 @@ function apiDevServer(): Plugin {
         // Igual que los rewrites de vercel.json para el SEO (api/page.ts) y el health check.
         const seoPage = /^(\/en)?\/([ft])\/([a-z0-9-]+)$/.exec(url.pathname);
         const seoRoute = /^(\/en)?\/f\/([a-z0-9-]+)\/r\/([a-z0-9-]+)$/.exec(url.pathname);
-        const seoContent = /^(\/en)?\/(faq|guide)$/.exec(url.pathname);
+        const seoContent = /^(\/en)?\/(faq|guide|about|contact|developers|privacy|terms)$/.exec(url.pathname);
+        // La portada con Accept: text/markdown (middleware.ts en Vercel).
+        if (url.pathname === "/" && negotiate(req.headers.accept) !== "html") {
+          url.pathname = "/api/page";
+          url.searchParams.set("type", "home");
+        }
+        // API del catálogo y OpenAPI (rewrites de vercel.json a api/page.ts).
+        const catalogApi = /^\/api\/(franchises|titles)(?:\/([a-z0-9-]+))?$/.exec(url.pathname);
+        if (url.pathname === "/openapi.json" || url.pathname === "/api/openapi.json") {
+          url.pathname = "/api/page";
+          url.searchParams.set("type", "openapi");
+        } else if (catalogApi) {
+          url.pathname = "/api/page";
+          url.searchParams.set("type", "api");
+          url.searchParams.set("resource", catalogApi[1]!);
+          if (catalogApi[2]) url.searchParams.set("id", catalogApi[2]);
+        }
         if (seoRoute) {
           url.searchParams.set("type", "r");
           url.searchParams.set("id", seoRoute[2]!);
@@ -56,6 +74,13 @@ function apiDevServer(): Plugin {
           url.pathname = "/api/page";
         }
         if (url.pathname === "/api/health") url.pathname = "/api/log";
+        // Un /api/… sin función: el 404 en JSON de producción.
+        const apiName = /^\/api\/([^/]+)/.exec(url.pathname)?.[1];
+        if (apiName && !existsSync(join(server.config.root, "api", `${apiName}.ts`)) && !existsSync(join(server.config.root, "api", apiName))) {
+          url.searchParams.set("type", "api-404");
+          url.searchParams.set("path", url.pathname.slice("/api/".length));
+          url.pathname = "/api/page";
+        }
         const match = /^\/api\/([a-z0-9-]+)(?:\/([^/]+))?$/.exec(url.pathname);
         if (!match) return next();
         // /api/groups/join → api/groups/join.ts si existe; si no, como el rewrite de vercel.json:
@@ -275,7 +300,11 @@ function seoHead(): Plugin {
           }),
         },
       ];
-      return { html: html.replace(/<title>[^<]*<\/title>/, `<title>${title}</title>`), tags: tags as never };
+      if (site) tags.push({ tag: "script", attrs: { type: "application/ld+json" }, children: JSON.stringify(organization(site)) });
+      // La portada en texto para quien no ejecuta JavaScript (buscadores, agentes): presentación,
+      // franquicias y links. Solo los nombres: este HTML es el shell de todas las pantallas.
+      const page = html.replace("<!--shell-home-->", homeSections("es", { descriptions: false }));
+      return { html: page.replace(/<title>[^<]*<\/title>/, `<title>${title}</title>`), tags: tags as never };
     },
   };
 }
@@ -335,8 +364,9 @@ export default defineConfig(({ mode }) => {
           globIgnores: ["firebase-messaging-sw.js", "assets/md/**", "screenshots/**"],
           navigateFallback: "/index.html",
           // El handler de Firebase Auth (/__/auth) y las funciones (/api) nunca caen en la SPA.
-          // Las páginas públicas de links compartidos (/es/s/…) las arma el servidor.
-          navigateFallbackDenylist: [/^\/__\//, /^\/api\//, /^\/(es|en)\/s\//],
+          // Las páginas públicas de links compartidos (/es/s/…) las arma el servidor, y los archivos
+          // (/llms.txt, /sitemap.xml, /openapi.json…) no son pantallas de la app.
+          navigateFallbackDenylist: [/^\/__\//, /^\/api\//, /^\/(es|en)\/s\//, /\/[^/]+\.[a-z0-9]+$/i],
           runtimeCaching: [
             {
               // Dónde ver y reparto: se muestra lo último conocido sin conexión y se refresca al volver.
@@ -396,7 +426,8 @@ export default defineConfig(({ mode }) => {
     test: {
       globals: true,
       environment: "jsdom",
-      include: ["src/**/*.test.{ts,tsx}"],
+      // api/_lib: fuera de api/_lib, Vercel convertiría cada archivo en una función.
+      include: ["src/**/*.test.{ts,tsx}", "api/_lib/**/*.test.ts"],
       setupFiles: ["./src/test/setup.ts"],
       coverage: {
         // La lógica pura de lib/: el núcleo que pide el SPEC (§11, fase 9) no puede bajar del 95%.

@@ -853,7 +853,10 @@
   "content": {
     "links": {
       "faq": "Preguntas frecuentes",
-      "guide": "Cómo funciona"
+      "guide": "Cómo funciona",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "developers": "API para desarrolladores"
     },
     "faq": {
       "title": "Preguntas frecuentes",
@@ -980,6 +983,134 @@
           "h": "Tus datos",
           "p": [
             "Como invitado, todo se guarda en tu dispositivo. Con una cuenta de Google, se sincroniza y puedes tener varios perfiles. Puedes exportar tu progreso o todos tus datos y eliminar tu cuenta en cualquier momento. Los detalles están en la política de privacidad."
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "Acerca de Watch Order",
+      "description": "Qué es Watch Order, quién lo hace, de dónde salen los datos y cómo se sostiene.",
+      "intro": "Watch Order es una app web gratuita para seguir sagas y franquicias de cine y TV en el orden que prefieras: por fecha de estreno, cronológico, curado o el tuyo propio.",
+      "sections": [
+        {
+          "h": "Qué hace",
+          "p": [
+            "Cada franquicia del catálogo trae varios órdenes de visualización, rutas por personaje o tema y rutas «Prepárate para…» con lo mínimo que hay que ver antes de un estreno. Cada título dice si es esencial, recomendado u opcional, y la app guarda lo que ya viste, te muestra lo que sigue, planifica maratones y avisa de los estrenos.",
+            "Funciona en el navegador y se instala como app (PWA) en el teléfono o la computadora, también sin conexión. Está en español e inglés."
+          ]
+        },
+        {
+          "h": "Quién lo hace",
+          "p": [
+            "Watch Order es un proyecto personal de wxlter, un desarrollador independiente (wxlter.dev). No hay una empresa detrás: el catálogo, los órdenes y los textos se curan a mano y se revisan contra fuentes oficiales cuando las hay."
+          ]
+        },
+        {
+          "h": "De dónde salen los datos",
+          "p": [
+            "Las fichas de títulos (fechas, duraciones, pósters y sinopsis) vienen de TMDB, y «dónde ver» usa datos de JustWatch a través de TMDB. Este producto usa la API de TMDB pero no está avalado ni certificado por TMDB. Los órdenes, las rutas, la importancia de cada título y los recaps son propios."
+          ]
+        },
+        {
+          "h": "Cómo se sostiene",
+          "p": [
+            "La app es gratis y no tiene planes de pago ni funciones bloqueadas. Se sostiene con donaciones voluntarias y, si se activan, con anuncios que solo aparecen si los aceptas en el aviso de consentimiento. Sin cuenta, tu progreso se queda en tu dispositivo; con cuenta de Google se sincroniza entre dispositivos. Los detalles están en la política de privacidad."
+          ]
+        },
+        {
+          "h": "Para integraciones",
+          "p": [
+            "El catálogo también está disponible como una API pública de solo lectura, sin clave, con especificación OpenAPI. Ver la página para desarrolladores."
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Cómo contactar a Watch Order para reportar errores, corregir el catálogo, consultas de privacidad o preguntas sobre la API.",
+      "intro": "Watch Order lo mantiene una sola persona. La forma de contacto es el correo work@wxlter.dev; también está en «Contacto y reportes», al pie de cada página.",
+      "sections": [
+        {
+          "h": "Correo",
+          "p": [
+            "work@wxlter.dev. Escribe en español o en inglés. Si reportas un problema de la app, incluye la versión (aparece al pie de la página), el navegador o dispositivo y los pasos para repetirlo."
+          ]
+        },
+        {
+          "h": "Errores en el catálogo",
+          "p": [
+            "Si un orden, una fecha, un título faltante o la importancia de algo te parece mal, escribe con el nombre de la franquicia y, si puedes, la fuente (por ejemplo, la línea de tiempo oficial del estudio). Las correcciones se revisan a mano."
+          ]
+        },
+        {
+          "h": "Privacidad y tu cuenta",
+          "p": [
+            "Para preguntas sobre tus datos, escribe al mismo correo. Puedes exportar tu progreso y eliminar tu cuenta con todos tus datos tú mismo desde Cuenta, sin esperar respuesta."
+          ]
+        },
+        {
+          "h": "Abuso y contenido compartido",
+          "p": [
+            "Si un link compartido o un grupo incumple los términos, escribe con el link. Se pueden desactivar links y grupos que abusen del servicio."
+          ]
+        },
+        {
+          "h": "API y desarrolladores",
+          "p": [
+            "Las preguntas sobre la API pública también van al correo. La documentación, los endpoints y los ejemplos están en la página para desarrolladores."
+          ]
+        }
+      ]
+    },
+    "developers": {
+      "title": "API de Watch Order para desarrolladores",
+      "description": "API pública y gratuita de Watch Order: franquicias, órdenes de visualización, títulos, estrenos, dónde ver y reparto. Sin clave, con OpenAPI.",
+      "intro": "Watch Order tiene una API REST pública de solo lectura para responder «¿en qué orden veo esta saga?». No necesita cuenta ni clave, responde JSON y está descrita en OpenAPI 3.1 en /openapi.json.",
+      "sections": [
+        {
+          "h": "Autenticación",
+          "p": [
+            "Ninguna. Todos los endpoints de abajo son públicos y de solo lectura. Las respuestas se guardan en la caché del CDN: no hagas más de una petición por segundo y guarda las respuestas en tu lado cuando puedas."
+          ]
+        },
+        {
+          "h": "Endpoints",
+          "p": [
+            "GET /api/franchises — todas las franquicias, con id, nombre, descripción, cantidad de títulos y órdenes disponibles.",
+            "GET /api/franchises/{id}?order={orderId} — una franquicia con sus continuidades, órdenes, rutas y los títulos del orden pedido (por defecto, el de estreno).",
+            "GET /api/titles/{id} — un título: tipo, estreno, duración, temporadas, sinopsis, póster, ids de TMDB e IMDb y sus franquicias.",
+            "GET /api/upcoming?franchise={ids} — estrenos, temporadas y episodios nuevos de los próximos 365 días.",
+            "GET /api/providers?tmdbId=&type=movie|tv&region= — dónde ver un título en un país (datos de JustWatch vía TMDB).",
+            "GET /api/credits?tmdbId=&type=movie|tv — reparto principal.",
+            "GET /api/health — estado del servicio.",
+            "Todos aceptan lang=es|en donde hay textos (por defecto, inglés)."
+          ]
+        },
+        {
+          "h": "Ejemplos",
+          "p": [
+            "El orden cronológico del MCU, en español:"
+          ],
+          "code": "curl 'https://watchlist.wxlter.dev/api/franchises/marvel?order=chronological&lang=es'"
+        },
+        {
+          "id": "errors",
+          "h": "Errores",
+          "p": [
+            "Los errores responden JSON con el status HTTP correcto: error (el mensaje), code (invalid_request, not_found, rate_limited, upstream_error, internal_error…), status, hint (cómo corregir la petición) y docs. Un endpoint que no existe responde 404 en JSON."
+          ],
+          "code": "{\"error\": \"No existe la franquicia \\\"marvl\\\"\", \"code\": \"not_found\", \"status\": 404, \"hint\": \"List valid ids with GET /api/franchises.\", \"docs\": \"/developers#errors\"}"
+        },
+        {
+          "h": "Para agentes de IA",
+          "p": [
+            "/llms.txt resume la app y cuándo usarla. Todas las páginas públicas (portada, franquicias, títulos, rutas, FAQ y guía) responden Markdown si pides Accept: text/markdown, y una ruta que no existe responde 404."
+          ]
+        },
+        {
+          "h": "Atribución y uso",
+          "p": [
+            "Los datos de títulos vienen de TMDB y los de «dónde ver», de JustWatch: si los muestras, atribúyelos. Los órdenes, las rutas y la importancia de cada título son de Watch Order; enlaza a la página de la franquicia cuando los uses. El uso está sujeto a los términos."
           ]
         }
       ]

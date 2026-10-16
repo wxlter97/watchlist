@@ -22,7 +22,7 @@ export async function GET(request: Request): Promise<Response> {
     const type = params.get("type") ?? "";
     const region = (params.get("region") ?? "SV").toUpperCase();
     if (!/^\d{1,9}$/.test(tmdbId) || (type !== "movie" && type !== "tv") || !/^[A-Z]{2}$/.test(region)) {
-      throw new HttpError(400, "Parámetros inválidos: tmdbId numérico, type movie|tv, region ISO de 2 letras");
+      throw new HttpError(400, "Parámetros inválidos: tmdbId numérico, type movie|tv, region ISO de 2 letras", "Example: ?tmdbId=299534&type=movie&region=US. tmdbId and tmdbType come from GET /api/titles/{id}.");
     }
 
     const data = await tmdb<TmdbProviders>(`/${type}/${tmdbId}/watch/providers`);
