@@ -42,7 +42,7 @@
     "react-dom": "^19.3.0",
     "react-i18next": "^17.0.15",
     "react-router": "^8.4.0",
-    "satori": "^0.33.5",
+    "satori": "^0.38.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
