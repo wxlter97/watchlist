@@ -107,7 +107,8 @@ test("eliminar la cuenta borra los datos y vuelve como invitado", async ({ page 
   await expect(page.getByText("1 de 10 vistos")).toBeVisible();
   await expect.poll(() => uidOf(page, email)).toBeTruthy();
   const uid = (await uidOf(page, email))!;
-  await expect.poll(() => docsOf(page, uid)).toBeGreaterThan(0);
+  // Igual que las demás esperas a Firestore: en un CI lento la escritura puede tardar más de 5 s.
+  await expect.poll(() => docsOf(page, uid), { timeout: 20_000 }).toBeGreaterThan(0);
 
   await go(page, "/account");
   await page.getByRole("button", { name: "Eliminar cuenta" }).click();
@@ -124,4 +125,23 @@ test("eliminar la cuenta borra los datos y vuelve como invitado", async ({ page 
   await signIn(page, email, "Borrar Prueba");
   await go(page, "/f/saw");
   await expect(page.getByText("0 de 10 vistos")).toBeVisible();
+});
+
+test("con una conexión lenta a Firestore, una cuenta nueva igual crea su usuario y su perfil", async ({ page }) => {
+  // Las dos primeras peticiones del canal de escucha tardan 12 s, como un CI o una red lenta al
+  // conectar: el SDK responde antes desde la caché (vacía) y el servidor solo confirma que sigue
+  // vacío. Sin includeMetadataChanges esa confirmación no llegaba y la cuenta quedaba sin
+  // users/{uid} ni perfil (sessionCloud.ts).
+  let delayed = 0;
+  await page.route("**/google.firestore.v1.Firestore/Listen/**", async (route) => {
+    if (delayed++ < 2) await new Promise((r) => setTimeout(r, 12_000));
+    await route.continue().catch(() => undefined);
+  });
+  const email = `slow-${Date.now()}@example.com`;
+  await signIn(page, email, "Lenta Prueba");
+  await expect.poll(() => uidOf(page, email)).toBeTruthy();
+  const uid = (await uidOf(page, email))!;
+  // users/{uid} y el perfil por defecto.
+  await expect.poll(() => docsOf(page, uid), { timeout: 45_000 }).toBe(2);
+  expect(delayed).toBeGreaterThan(0);
 });
