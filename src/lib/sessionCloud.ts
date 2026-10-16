@@ -110,9 +110,12 @@ function enterAccount(user: User) {
   const guestSettings = loadGuestSettings();
 
   // El documento del usuario se crea una sola vez: solo si el servidor confirma que no existe.
+  // `includeMetadataChanges`: si la primera respuesta sale de la caché local (vacía) y el servidor
+  // solo confirma que sigue vacío, sin esto no llega ningún evento y la cuenta queda sin documento.
   authUnsubs.push(
     onSnapshot(
       paths.user(db, uid),
+      { includeMetadataChanges: true },
       (snap) => {
         if (!snap.exists()) {
           useSettings.setState(guestSettings);
@@ -137,9 +140,11 @@ function enterAccount(user: User) {
     ),
   );
 
+  // Igual que el de arriba: la confirmación del servidor de que no hay perfiles tiene que llegar.
   authUnsubs.push(
     onSnapshot(
       query(paths.profiles(db, uid), orderBy("createdAt")),
+      { includeMetadataChanges: true },
       (snap) => {
         const profiles = snap.docs.map((d) => d.data());
         if (profiles.length === 0) {
