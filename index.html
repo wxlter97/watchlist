@@ -40,24 +40,30 @@
         </header>
         <main class="flex-1 pb-16">
           <section id="shell-hero" class="on-faro -mx-4 border-b-2 border-line bg-faro px-4 pt-8 pb-10 text-tinta">
-            <h1 class="display max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px]" data-es="Tus sagas, en el orden que prefieras." data-en="Your sagas, in the order you like."></h1>
+            <h1 class="display max-w-[15ch] text-[39px] [text-wrap:balance] sm:text-[49px]" data-es="Tus sagas, en el orden que prefieras." data-en="Your sagas, in the order you like.">Tus sagas, en el orden que prefieras.</h1>
             <div class="mt-6 flex min-h-12 max-w-md items-center gap-3 border-2 border-tinta bg-white px-3 font-mono text-sm text-tinta/60">
               <svg viewBox="0 0 24 24" class="size-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5L21 21" stroke-linecap="square" /></svg>
-              <span data-es="Busca un título, franquicia o ruta" data-en="Search a title, franchise or route"></span>
+              <span data-es="Busca un título, franquicia o ruta" data-en="Search a title, franchise or route">Busca un título, franquicia o ruta</span>
             </div>
           </section>
+          <!-- Contenido de la portada sin JavaScript (franquicias y links): lo llena seoHead() en vite.config.ts. -->
+          <section id="shell-home" class="space-y-4 py-8 text-sm leading-[1.6] text-fg-soft [&_a]:underline [&_h2]:pt-2 [&_h2]:font-display [&_h2]:text-[22px] [&_h2]:text-fg [&_ul]:flex [&_ul]:flex-wrap [&_ul]:gap-x-4 [&_ul]:gap-y-1"><!--shell-home--></section>
         </main>
       </div>
     </div>
     <script>
       (function () {
         var hero = document.getElementById("shell-hero");
+        var home = document.getElementById("shell-home");
+        if (home && location.pathname !== "/") home.remove();
         if (!hero) return;
         if (location.pathname !== "/") return hero.remove();
         var lang;
         try { lang = localStorage.getItem("watch-order:lang"); } catch (e) {}
         lang = lang && lang.indexOf("en") === 0 ? "en" : "es";
         document.documentElement.lang = lang;
+        // El contenido sin JavaScript está en español; en inglés React lo reemplaza enseguida.
+        if (home && lang === "en") home.remove();
         hero.querySelectorAll("[data-es]").forEach(function (el) { el.textContent = el.getAttribute("data-" + lang); });
       })();
     </script>

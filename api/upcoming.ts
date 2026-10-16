@@ -46,7 +46,7 @@ export async function GET(request: Request): Promise<Response> {
     const ids = (new URL(request.url).searchParams.get("franchise") ?? "").split(",").filter(Boolean);
     // Quien no sigue ninguna franquicia pide todas las del catálogo (hoy 44): el tope debe quedar por encima.
     if (!ids.length || ids.length > MAX_FRANCHISES || !ids.every((id) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(id))) {
-      throw new HttpError(400, "franchise: uno o más ids separados por comas");
+      throw new HttpError(400, "franchise: uno o más ids separados por comas", "Pass ?franchise=marvel,star-wars (ids from GET /api/franchises, at most 200).");
     }
 
     const titles = new Map(read<CatalogTitle[]>("titles.json").map((t) => [t.id, t]));
@@ -60,7 +60,7 @@ export async function GET(request: Request): Promise<Response> {
       try {
         entries = read<{ entries: { titleId: string }[] }>(join("franchises", `${franchiseId}.json`)).entries;
       } catch {
-        throw new HttpError(404, `No existe la franquicia "${franchiseId}"`);
+        throw new HttpError(404, `No existe la franquicia "${franchiseId}"`, "List valid ids with GET /api/franchises.");
       }
       for (const { titleId } of entries) {
         const title = titles.get(titleId);

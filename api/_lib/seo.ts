@@ -99,11 +99,44 @@ export const readLocale = (lang: Lang) =>
   JSON.parse(readFileSync(join(process.cwd(), "src", "locales", `${lang}.json`), "utf8")) as {
     content: {
       faq: { title: string; description: string; intro: string; items: { q: string; a: string }[] };
-      guide: { title: string; description: string; intro: string; sections: { h: string; p: string[] }[] };
-      links: { faq: string; guide: string };
-    };
+      links: Record<ContentKind, string>;
+    } & Record<Exclude<ContentKind, "faq">, ContentSections>;
+    legal: { updated: string; privacyLink: string; termsLink: string } & Record<"privacy" | "terms", { title: string; sections: Section[] }>;
     routes: { kinds: Record<string, string> };
+    hub: { franchises: string };
   };
+
+interface Section {
+  id?: string;
+  h: string;
+  p: string[];
+  code?: string;
+}
+interface ContentSections {
+  title: string;
+  description: string;
+  intro: string;
+  sections: Section[];
+}
+
+/** Páginas de contenido (src/features/content/ContentPage.tsx): mismo texto y mismo link al pie. */
+export type ContentKind = "faq" | "guide" | "about" | "contact" | "developers";
+export const CONTENT_KINDS: ContentKind[] = ["faq", "guide", "about", "contact", "developers"];
+const NEXT_PAGE: Record<ContentKind, ContentKind> = { faq: "guide", guide: "faq", about: "contact", contact: "developers", developers: "about" };
+
+/** Texto escapado, con el correo como link (igual que en ContentPage). */
+const linkify = (text: string) => esc(text).replace(/([\w.+-]+@[\w-]+\.[\w.]+\w)/g, '<a href="mailto:$1">$1</a>');
+
+function sectionsHtml(sections: Section[]): string {
+  return sections
+    .map(
+      (e) =>
+        `<section${e.id ? ` id="${esc(e.id)}"` : ""}><h2>${esc(e.h)}</h2>${e.p.map((x) => `<p>${linkify(x)}</p>`).join("")}${
+          e.code ? `<pre><code>${esc(e.code)}</code></pre>` : ""
+        }</section>`,
+    )
+    .join("");
+}
 
 export interface PageSeo {
   title: string;
@@ -251,55 +284,138 @@ export function routePage(franchiseId: string, routeId: string, lang: Lang, orig
   };
 }
 
-/** Preguntas frecuentes (con FAQPage) y guía: el mismo texto que las pantallas /faq y /guide. */
-export function contentPage(kind: "faq" | "guide", lang: Lang, origin: string): PageSeo {
+/** Preguntas frecuentes (con FAQPage), guía, acerca de, contacto y la API: el mismo texto que las pantallas. */
+export function contentPage(kind: ContentKind, lang: Lang, origin: string): PageSeo {
   const c = readLocale(lang).content;
   const p = prefixOf(lang);
-  const page = c[kind];
   const path = `${p}/${kind}`;
-  const entries = kind === "faq" ? c.faq.items.map((i) => ({ h: i.q, p: [i.a] })) : c.guide.sections;
-  const other = kind === "faq" ? "guide" : "faq";
+  const page = kind === "faq" ? c.faq : c[kind];
+  const sections: Section[] = kind === "faq" ? c.faq.items.map((i) => ({ h: i.q, p: [i.a] })) : c[kind].sections;
+  const other = NEXT_PAGE[kind];
+  const schema =
+    kind === "faq"
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          inLanguage: lang,
+          url: `${origin}${path}`,
+          mainEntity: c.faq.items.map((i) => ({ "@type": "Question", name: i.q, acceptedAnswer: { "@type": "Answer", text: i.a } })),
+        }
+      : {
+          "@context": "https://schema.org",
+          "@type": kind === "about" ? "AboutPage" : kind === "contact" ? "ContactPage" : "WebPage",
+          name: page.title,
+          description: page.description,
+          inLanguage: lang,
+          url: `${origin}${path}`,
+          ...(kind === "about" || kind === "contact" ? { about: organization(origin) } : {}),
+        };
   return {
     title: `${page.title} | Watch Order`,
     description: page.description,
     path,
     alternates: { es: `/${kind}`, en: `/en/${kind}` },
     image: `${origin}/api/og?kind=page&lang=${lang}`,
-    body: `<article><h1>${esc(page.title)}</h1><p>${esc(page.intro)}</p>${entries
-      .map((e) => `<section><h2>${esc(e.h)}</h2>${e.p.map((x) => `<p>${esc(x)}</p>`).join("")}</section>`)
-      .join("")}<p><a href="${p}/${other}">${esc(c.links[other])}</a></p></article>`,
+    body: `<article><h1>${esc(page.title)}</h1><p>${linkify(page.intro)}</p>${sectionsHtml(sections)}<p><a href="${p}/${other}">${esc(c.links[other])}</a></p></article>`,
+    jsonLd: [schema, breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", p || "/"], [page.title, path]])],
+  };
+}
+
+/** /privacy y /terms (src/features/legal/LegalPage.tsx): el texto de legal.* en locales/. */
+export function legalPage(kind: "privacy" | "terms", lang: Lang, origin: string): PageSeo {
+  const l = readLocale(lang).legal;
+  const p = prefixOf(lang);
+  const path = `${p}/${kind}`;
+  const page = l[kind];
+  const description = `${page.title} — Watch Order. ${l.updated}.`;
+  return {
+    title: `${page.title} | Watch Order`,
+    description,
+    path,
+    alternates: { es: `/${kind}`, en: `/en/${kind}` },
+    image: `${origin}/api/og?kind=page&lang=${lang}`,
+    body: `<article><h1>${esc(page.title)}</h1><p>${esc(l.updated)}</p>${sectionsHtml(page.sections)}<p><a href="${p}/${kind === "privacy" ? "terms" : "privacy"}">${esc(
+      kind === "privacy" ? l.termsLink : l.privacyLink,
+    )}</a></p></article>`,
     jsonLd: [
-      ...(kind === "faq"
-        ? [
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              inLanguage: lang,
-              url: `${origin}${path}`,
-              mainEntity: c.faq.items.map((i) => ({ "@type": "Question", name: i.q, acceptedAnswer: { "@type": "Answer", text: i.a } })),
-            },
-          ]
-        : [{ "@context": "https://schema.org", "@type": "WebPage", name: page.title, description: page.description, inLanguage: lang, url: `${origin}${path}` }]),
+      { "@context": "https://schema.org", "@type": "WebPage", name: page.title, description, inLanguage: lang, url: `${origin}${path}` },
       breadcrumbs(origin, [[lang === "es" ? "Inicio" : "Home", p || "/"], [page.title, path]]),
     ],
   };
 }
 
-/** Portada en inglés (/en): la española es el index.html estático. */
-export function homePage(lang: Lang, origin: string): PageSeo {
-  const t = TEXT[lang];
+/** Quién está detrás (JSON-LD Organization): la portada, acerca de y contacto. */
+export function organization(origin: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${origin}/#organization`,
+    name: "Watch Order",
+    url: `${origin}/`,
+    logo: `${origin}/pwa-512.png`,
+    description: TEXT.en.siteDescription,
+    email: "work@wxlter.dev",
+    founder: { "@type": "Person", name: "wxlter", url: "https://wxlter.dev" },
+    contactPoint: [
+      { "@type": "ContactPoint", contactType: "customer support", email: "work@wxlter.dev", availableLanguage: ["es", "en"], url: `${origin}/contact` },
+    ],
+  };
+}
+
+const HOME_TEXT = {
+  es: {
+    intro:
+      "Watch Order es una app web gratuita para saber en qué orden ver sagas y franquicias de cine y TV: por fecha de estreno, cronológico, curado o el tuyo. Trae rutas por personaje y tema, y rutas «Prepárate para…» con lo mínimo antes de un estreno; marca qué es esencial, guarda tu progreso, planifica maratones y funciona sin conexión.",
+    more: "Más",
+    links: [
+      ["/guide", "Cómo funciona"],
+      ["/faq", "Preguntas frecuentes"],
+      ["/about", "Acerca de"],
+      ["/contact", "Contacto"],
+      ["/developers", "API para desarrolladores"],
+    ],
+  },
+  en: {
+    intro:
+      "Watch Order is a free web app to know what order to watch movie and TV franchises in: by release date, chronological, curated or your own. It has routes by character and theme, and “Get ready for…” routes with the minimum before a release; it marks what is essential, keeps your progress, plans marathons and works offline.",
+    more: "More",
+    links: [
+      ["/guide", "How it works"],
+      ["/faq", "FAQ"],
+      ["/about", "About"],
+      ["/contact", "Contact"],
+      ["/developers", "Developer API"],
+    ],
+  },
+} as const;
+
+/**
+ * Contenido de la portada sin el titular: presentación, franquicias y links. Va en la portada
+ * de api/page.ts y, al compilar, en el index.html estático (vite.config.ts), para quien no
+ * ejecuta JavaScript. `descriptions: false` deja solo los nombres (el index.html es el shell de toda la app).
+ */
+export function homeSections(lang: Lang, { descriptions = true } = {}): string {
+  const h = HOME_TEXT[lang];
   const p = prefixOf(lang);
   const list = franchiseIds()
     .map(readSeoFranchise)
-    .map((f) => `<li><a href="${p}/f/${esc(f.id)}">${esc(localize(f.name, lang))}</a>: ${esc(localize(f.description, lang))}</li>`)
+    .map((f) => `<li><a href="${p}/f/${esc(f.id)}">${esc(localize(f.name, lang))}</a>${descriptions ? `: ${esc(localize(f.description, lang))}` : ""}</li>`)
     .join("");
+  const links = [...h.links.map(([href, label]) => `<li><a href="${p}${href}">${esc(label)}</a></li>`), `<li><a href="/llms.txt">llms.txt</a></li>`, `<li><a href="/openapi.json">OpenAPI</a></li>`].join("");
+  return `<p>${esc(h.intro)}</p><h2>${esc(readLocale(lang).hub.franchises)}</h2><ul>${list}</ul><h2>${h.more}</h2><ul>${links}</ul>`;
+}
+
+/** Portada: la española es el index.html estático (y esta, para Markdown); la inglesa, /en. */
+export function homePage(lang: Lang, origin: string): PageSeo {
+  const t = TEXT[lang];
+  const p = prefixOf(lang);
   return {
     title: t.siteTitle,
     description: t.siteDescription,
     path: p || "/",
     alternates: { es: "/", en: "/en" },
     image: `${origin}/api/og?kind=page&lang=${lang}`,
-    body: `<section><h1>${esc(t.siteTitle)}</h1><p>${esc(t.siteDescription)}</p><ul>${list}</ul></section>`,
+    body: `<section><h1>${esc(t.siteTitle)}</h1>${homeSections(lang)}</section>`,
     jsonLd: [
       {
         "@context": "https://schema.org",
@@ -311,8 +427,52 @@ export function homePage(lang: Lang, origin: string): PageSeo {
         inLanguage: lang,
         url: `${origin}${p || "/"}`,
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        publisher: { "@id": `${origin}/#organization` },
       },
+      organization(origin),
     ],
+  };
+}
+
+const NOT_FOUND_TEXT = {
+  es: {
+    h1: "No encontramos esta página",
+    p: (path: string) => `No existe ninguna página en ${path}. El link puede estar mal escrito o la página ya no existe.`,
+    find: "Para encontrar lo que buscas:",
+    links: [
+      ["/", "Portada y todas las franquicias"],
+      ["/sitemap.xml", "Mapa del sitio"],
+      ["/llms.txt", "llms.txt (resumen para agentes de IA)"],
+      ["/developers", "API para desarrolladores"],
+    ],
+  },
+  en: {
+    h1: "We couldn't find this page",
+    p: (path: string) => `There is no page at ${path}. The link may be mistyped, or the page may no longer exist.`,
+    find: "To find what you are looking for:",
+    links: [
+      ["/en", "Home and every franchise"],
+      ["/sitemap.xml", "Sitemap"],
+      ["/llms.txt", "llms.txt (summary for AI agents)"],
+      ["/developers", "Developer API"],
+    ],
+  },
+} as const;
+
+/** Una ruta que no existe (404, noindex): qué pasó y adónde ir, también en Markdown. */
+export function notFoundPage(pathname: string, lang: Lang, origin: string): PageSeo {
+  const t = NOT_FOUND_TEXT[lang];
+  const path = pathname.slice(0, 200);
+  return {
+    title: TEXT[lang].notFound,
+    description: TEXT[lang].siteDescription,
+    path,
+    image: `${origin}/api/og?kind=page&lang=${lang}`,
+    body: `<section><h1>${esc(t.h1)}</h1><p>${esc(t.p(path))}</p><p>${esc(t.find)}</p><ul>${t.links
+      .map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`)
+      .join("")}</ul></section>`,
+    jsonLd: [],
+    noindex: true,
   };
 }
 
@@ -352,12 +512,13 @@ export function inject(html: string, seo: PageSeo, lang: Lang, origin: string): 
   ]
     .filter(Boolean)
     .join("\n    ");
-  // Lo de la portada (canonical, Open Graph, JSON-LD y el titular del shell) no aplica a esta página.
+  // Lo de la portada (canonical, Open Graph, JSON-LD, el titular y el contenido del shell) no aplica a esta página.
   const base = html
     .replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, "")
     .replace(/\s*<meta (?:property="og:|name="twitter:)[^>]*>/g, "")
     .replace(/\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/g, "")
-    .replace(/<section id="shell-hero"[\s\S]*?<\/section>/, "");
+    .replace(/<section id="shell-hero"[\s\S]*?<\/section>/, "")
+    .replace(/<section id="shell-home"[\s\S]*?<\/section>/, "");
   return base
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(seo.title)}</title>`)
     .replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${esc(seo.description)}" />`)

@@ -100,6 +100,25 @@ En desarrollo, `pnpm dev` las sirve con un middleware de Vite: no hace falta `ve
 | `POST /api/log` | Errores del cliente a los logs de Vercel (sin datos personales) | — |
 | `GET /api/cron/notify-releases` | Cron diario: estrenos de hoy y en 7 días | — |
 | `GET /api/cron/notify-streaming` | Cron diario: pendientes que llegaron a streaming en la región | — |
+| `GET /api/franchises`, `/api/franchises/{id}?order=`, `/api/titles/{id}` → `/api/page` | API pública del catálogo (JSON, CORS, sin clave) | 1 h |
+| `GET /openapi.json` → `/api/page` | OpenAPI 3.1 de la API pública | 24 h |
+
+Los errores de `/api` son JSON: `error` (mensaje), `code`, `status`, `hint` y `docs`; un `/api/…`
+que no existe da 404 en JSON. La API pública está documentada en `/developers`.
+
+### Páginas para buscadores y agentes
+
+`api/page.ts` arma las páginas públicas en HTML (franquicias, títulos, rutas, FAQ, guía, acerca de,
+contacto, API, privacidad y términos) y las mismas en Markdown con `Accept: text/markdown`
+(`Vary: Accept`; 406 si no acepta ninguno). La portada española es el `index.html` estático, con
+el contenido de la portada inyectado al compilar (`seoHead` en `vite.config.ts`); su versión en
+Markdown la manda `middleware.ts` (Routing Middleware de Vercel, solo en `/`), porque los
+archivos estáticos tienen prioridad sobre los rewrites.
+
+Las pantallas de la app sin versión en el servidor (`/account`, `/plans/…`, `/f/{id}/timeline`…)
+están listadas en los rewrites de `vercel.json`; **cualquier otra ruta responde 404** (con el
+shell, así que la app muestra "no encontrado"). Al agregar una pantalla en `App.tsx`, agrégala
+también ahí: `api/_lib/routing.test.ts` falla si alguna cae en el 404.
 
 Variables de entorno de Vercel (solo servidor):
 

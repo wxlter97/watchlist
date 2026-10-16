@@ -13,4 +13,13 @@ describe("app shell de index.html", () => {
       [es.search.placeholder, en.search.placeholder],
     ]);
   });
+
+  // Sin JavaScript (buscadores y agentes) el titular no puede quedar vacío.
+  it("el titular trae el texto en español en el HTML", () => {
+    expect(doc.querySelector("#shell-hero h1")?.textContent).toBe(es.app.tagline);
+  });
+
+  it("deja el lugar para el contenido de la portada sin JavaScript (vite.config.ts lo llena)", () => {
+    expect(doc.querySelector("#shell-home")?.innerHTML).toBe("<!--shell-home-->");
+  });
 });

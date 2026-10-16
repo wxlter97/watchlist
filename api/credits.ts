@@ -20,7 +20,7 @@ export async function GET(request: Request): Promise<Response> {
     const tmdbId = params.get("tmdbId") ?? "";
     const type = params.get("type") ?? "";
     if (!/^\d{1,9}$/.test(tmdbId) || (type !== "movie" && type !== "tv")) {
-      throw new HttpError(400, "Parámetros inválidos: tmdbId numérico, type movie|tv");
+      throw new HttpError(400, "Parámetros inválidos: tmdbId numérico, type movie|tv", "Example: ?tmdbId=299534&type=movie. tmdbId and tmdbType come from GET /api/titles/{id}.");
     }
 
     const data = await tmdb<{ cast: TmdbCast[] }>(`/${type}/${tmdbId}/${type === "tv" ? "aggregate_credits" : "credits"}`);
