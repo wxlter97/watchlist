@@ -27,7 +27,7 @@ import {
   type ContentKind,
   type PageSeo,
 } from "./_lib/seo.js";
-import { withPolicy } from "./_lib/policy.js";
+import { headOf, withPolicy } from "./_lib/policy.js";
 import { adsTxt, llms, robots, sitemap } from "./_lib/seoFiles.js";
 
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -99,3 +99,6 @@ export async function GET(request: Request): Promise<Response> {
     headers: { "Content-Type": "text/html; charset=utf-8", Vary: VARY, "Cache-Control": cacheControl },
   });
 }
+
+/** HEAD de cualquier página o endpoint: mismas cabeceras que el GET, sin cuerpo. */
+export const HEAD = headOf(GET);

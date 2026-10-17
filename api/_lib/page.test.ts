@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { readdirSync, readFileSync } from "node:fs";
-import { GET } from "../page";
+import { GET, HEAD } from "../page";
 import { resetRateLimits } from "./policy";
 
 // api/page.ts pide el index.html del build a su propio origen: aquí, el de la raíz del repo.
@@ -236,6 +236,14 @@ describe("política de la API: versión y límite", () => {
     expect(res.headers.get("ratelimit-policy")).toBe('"default";q=60;w=60');
     expect(res.headers.get("ratelimit")).toMatch(/^"default";r=59;t=\d+$/);
     expect(res.headers.get("access-control-expose-headers")).toContain("RateLimit");
+  });
+
+  it("HEAD /api/v1/…: 200 con las mismas cabeceras y sin cuerpo", async () => {
+    const res = await HEAD(new Request(`${ORIGIN}/api/page?type=api&resource=franchises`, { method: "HEAD" }));
+    expect(res.status).toBe(200);
+    expect(res.headers.get("api-version")).toBe("v1");
+    expect(res.headers.get("ratelimit")).toMatch(/^"default";r=\d+;t=\d+$/);
+    expect(await res.text()).toBe("");
   });
 
   it("también los errores en JSON (404) y el OpenAPI", async () => {

@@ -1,6 +1,6 @@
 // GET /api/providers?tmdbId=&type=movie|tv&region=SV → dónde ver (SPEC §7).
 // Datos de JustWatch vía TMDB: la UI debe mostrar la atribución.
-import { withPolicy } from "./_lib/policy.js";
+import { headOf, withPolicy } from "./_lib/policy.js";
 import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb.js";
 
 interface TmdbProvider {
@@ -44,3 +44,4 @@ async function handle(request: Request): Promise<Response> {
 
 /** Con límite de peticiones y cabeceras de versión (api/_lib/policy.ts). */
 export const GET = (request: Request): Promise<Response> => withPolicy(request, () => handle(request));
+export const HEAD = headOf(GET);

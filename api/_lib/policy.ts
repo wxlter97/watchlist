@@ -95,3 +95,11 @@ export async function withPolicy(request: Request, handler: () => Response | Pro
   }
   return apply(await handler(), state);
 }
+
+/** HEAD = el GET sin cuerpo (mismo status y cabeceras), para sondas y clientes que solo piden cabeceras. */
+export const headOf =
+  (get: (request: Request) => Response | Promise<Response>) =>
+  async (request: Request): Promise<Response> => {
+    const res = await get(request);
+    return new Response(null, { status: res.status, statusText: res.statusText, headers: res.headers });
+  };
