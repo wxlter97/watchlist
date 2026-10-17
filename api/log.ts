@@ -1,9 +1,13 @@
 // POST /api/log → errores del cliente a los logs de Vercel (src/lib/errorReport.ts).
 // Sin base de datos ni datos personales; se recorta todo por seguridad y no se confía en el cuerpo.
+import { withPolicy } from "./_lib/policy.js";
+
 const clip = (value: unknown, max: number) => (typeof value === "string" ? value.slice(0, max) : undefined);
 
 /** GET /api/health (reescrito a /api/log): 200 si la función responde, para un monitor de uptime. */
-export function GET(): Response {
+export const GET = (request: Request): Promise<Response> => withPolicy(request, health);
+
+function health(): Response {
   // `commit` dice qué versión está desplegada (Vercel lo define en cada deploy).
   const commit = process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7);
   return new Response(JSON.stringify({ ok: true, time: new Date().toISOString(), ...(commit ? { commit } : {}) }), {

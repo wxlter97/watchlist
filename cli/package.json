@@ -1,0 +1,14 @@
+{
+  "name": "watch-order-cli",
+  "version": "1.0.0",
+  "description": "Command-line client for the Watch Order API: what order to watch movie and TV franchises in.",
+  "keywords": ["watch-order", "movies", "tv", "franchise", "cli", "api", "marvel", "star-wars"],
+  "license": "MIT",
+  "homepage": "https://watchlist.wxlter.dev/developers",
+  "repository": { "type": "git", "url": "git+https://github.com/wxlter97/watchlist.git", "directory": "cli" },
+  "type": "module",
+  "bin": { "watch-order": "bin/watch-order.mjs" },
+  "main": "src/index.mjs",
+  "files": ["bin", "src", "README.md"],
+  "engines": { "node": ">=18" }
+}

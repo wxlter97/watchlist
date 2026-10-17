@@ -104,7 +104,7 @@ En desarrollo, `pnpm dev` las sirve con un middleware de Vite: no hace falta `ve
 | `GET /openapi.json` → `/api/page` | OpenAPI 3.1 de la API pública | 24 h |
 
 Los errores de `/api` son JSON: `error` (mensaje), `code`, `status`, `hint` y `docs`; un `/api/…`
-que no existe da 404 en JSON. La API pública está documentada en `/developers`.
+que no existe da 404 en JSON. La API pública está documentada en `/developers` y versionada en la ruta (`/api/v1/…`); el CLI vive en `cli/` (ver `cli/README.md`).
 
 ### Páginas para buscadores y agentes
 

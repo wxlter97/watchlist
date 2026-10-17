@@ -231,8 +231,8 @@
   },
   "meta": {
     "locale": "es-MX",
-    "siteTitle": "Watch Order — Tus sagas, en el orden que prefieras",
-    "siteDescription": "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis.",
+    "siteTitle": "Watch Order — guía del orden para ver sagas de cine y TV",
+    "siteDescription": "Guía gratuita del orden para ver sagas y franquicias de cine y TV: estreno, cronológico y curado, rutas por personaje y tema, y una API pública.",
     "franchiseTitle": "{{name}}: en qué orden verla | Watch Order",
     "franchiseDescription": "Orden para ver {{name}}: {{count}} títulos por fecha de estreno, cronológico y rutas, con tu progreso.",
     "titleTitle": "{{name}} ({{year}}) | Watch Order",
@@ -1063,27 +1063,42 @@
       ]
     },
     "developers": {
-      "title": "API de Watch Order para desarrolladores",
-      "description": "API pública y gratuita de Watch Order: franquicias, órdenes de visualización, títulos, estrenos, dónde ver y reparto. Sin clave, con OpenAPI.",
-      "intro": "Watch Order tiene una API REST pública de solo lectura para responder «¿en qué orden veo esta saga?». No necesita cuenta ni clave, responde JSON y está descrita en OpenAPI 3.1 en /openapi.json.",
+      "title": "Documentación de la API y el CLI de Watch Order para desarrolladores",
+      "description": "API REST pública y gratuita de Watch Order (v1) y CLI: franquicias, órdenes de visualización, títulos, estrenos, dónde ver y reparto. Sin clave, OpenAPI 3.1, cabeceras de límite.",
+      "intro": "Watch Order tiene una API REST pública de solo lectura para responder «¿en qué orden veo esta saga?», y un cliente de línea de comandos. No necesita cuenta ni clave, responde JSON y está descrita en OpenAPI 3.1 en /openapi.json. URL base: https://watchlist.wxlter.dev/api/v1",
       "sections": [
         {
           "h": "Autenticación",
           "p": [
-            "Ninguna. Todos los endpoints de abajo son públicos y de solo lectura. Las respuestas se guardan en la caché del CDN: no hagas más de una petición por segundo y guarda las respuestas en tu lado cuando puedas."
+            "Ninguna. Todos los endpoints de abajo son públicos y de solo lectura: sin cuenta, sin clave de API, sin OAuth. Envía peticiones GET normales; CORS está habilitado, así que también puedes llamarla desde un navegador."
+          ]
+        },
+        {
+          "id": "versioning",
+          "h": "Versiones y deprecación",
+          "p": [
+            "La versión va en la ruta: /api/v1/… es la versión actual y la única. Las rutas sin ella (/api/franchises) son alias de la versión actual. Cada respuesta lleva la cabecera API-Version.",
+            "Los cambios incompatibles salen solo como una nueva versión mayor (/api/v2/…). Cuando una versión se deprecia, sus respuestas añaden las cabeceras Deprecation, Sunset y Link: <…>; rel=\"successor-version\", y sigue funcionando al menos 6 meses después del aviso. Los cambios aditivos (campos o endpoints nuevos) no son incompatibles: ignora los campos que no conozcas."
           ]
         },
         {
           "h": "Endpoints",
           "p": [
-            "GET /api/franchises — todas las franquicias, con id, nombre, descripción, cantidad de títulos y órdenes disponibles.",
-            "GET /api/franchises/{id}?order={orderId} — una franquicia con sus continuidades, órdenes, rutas y los títulos del orden pedido (por defecto, el de estreno).",
-            "GET /api/titles/{id} — un título: tipo, estreno, duración, temporadas, sinopsis, póster, ids de TMDB e IMDb y sus franquicias.",
-            "GET /api/upcoming?franchise={ids} — estrenos, temporadas y episodios nuevos de los próximos 365 días.",
-            "GET /api/providers?tmdbId=&type=movie|tv&region= — dónde ver un título en un país (datos de JustWatch vía TMDB).",
-            "GET /api/credits?tmdbId=&type=movie|tv — reparto principal.",
-            "GET /api/health — estado del servicio.",
+            "GET /api/v1/franchises — todas las franquicias, con id, nombre, descripción, cantidad de títulos y órdenes disponibles.",
+            "GET /api/v1/franchises/{id}?order={orderId} — una franquicia con sus continuidades, órdenes, rutas y los títulos del orden pedido (por defecto, el de estreno).",
+            "GET /api/v1/titles/{id} — un título: tipo, estreno, duración, temporadas, sinopsis, póster, ids de TMDB e IMDb y sus franquicias.",
+            "GET /api/v1/upcoming?franchise={ids} — estrenos, temporadas y episodios nuevos de los próximos 365 días.",
+            "GET /api/v1/providers?tmdbId=&type=movie|tv&region= — dónde ver un título en un país (datos de JustWatch vía TMDB).",
+            "GET /api/v1/credits?tmdbId=&type=movie|tv — reparto principal.",
+            "GET /api/v1/health — estado del servicio.",
             "Todos aceptan lang=es|en donde hay textos (por defecto, inglés)."
+          ]
+        },
+        {
+          "id": "rate-limits",
+          "h": "Límite de peticiones",
+          "p": [
+            "60 peticiones por minuto por cliente. Cada respuesta lleva RateLimit-Policy (\"default\";q=60;w=60) y RateLimit (\"default\";r=restantes;t=segundos hasta el reinicio). Si te pasas, recibes 429 con code rate_limited y la cabecera Retry-After: espera esos segundos. Las respuestas también se guardan en la caché del CDN, así que guárdalas en tu lado cuando puedas."
           ]
         },
         {
@@ -1091,7 +1106,15 @@
           "p": [
             "El orden cronológico del MCU, en español:"
           ],
-          "code": "curl 'https://watchlist.wxlter.dev/api/franchises/marvel?order=chronological&lang=es'"
+          "code": "curl 'https://watchlist.wxlter.dev/api/v1/franchises/marvel?order=chronological&lang=es'"
+        },
+        {
+          "id": "cli",
+          "h": "Cliente de línea de comandos",
+          "p": [
+            "watch-order-cli es el CLI oficial para scripts y agentes (Node 18+, sin dependencias). Instálalo con npm install -g watch-order-cli, o ejecútalo con npx. Con --json imprime la respuesta cruda de la API; el código de salida 0 es éxito, 1 un error de la API o de red, 2 un uso incorrecto. Su código está en la carpeta cli/ de github.com/wxlter97/watchlist."
+          ],
+          "code": "npx watch-order-cli franchises\nnpx watch-order-cli order marvel --order chronological --lang es\nnpx watch-order-cli providers 299534 movie --region US --json"
         },
         {
           "id": "errors",
@@ -1099,7 +1122,7 @@
           "p": [
             "Los errores responden JSON con el status HTTP correcto: error (el mensaje), code (invalid_request, not_found, rate_limited, upstream_error, internal_error…), status, hint (cómo corregir la petición) y docs. Un endpoint que no existe responde 404 en JSON."
           ],
-          "code": "{\"error\": \"No existe la franquicia \\\"marvl\\\"\", \"code\": \"not_found\", \"status\": 404, \"hint\": \"List valid ids with GET /api/franchises.\", \"docs\": \"/developers#errors\"}"
+          "code": "{\"error\": \"No existe la franquicia \\\"marvl\\\"\", \"code\": \"not_found\", \"status\": 404, \"hint\": \"List valid ids with GET /api/v1/franchises.\", \"docs\": \"/developers#errors\"}"
         },
         {
           "h": "Para agentes de IA",

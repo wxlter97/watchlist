@@ -231,8 +231,8 @@
   },
   "meta": {
     "locale": "en-US",
-    "siteTitle": "Watch Order — Your sagas, in the order you like",
-    "siteDescription": "Follow movie and TV franchises in the order you like: release, chronological and routes. Free.",
+    "siteTitle": "Watch Order guide — what order to watch movie and TV franchises",
+    "siteDescription": "Watch Order is a free guide to what order to watch movie and TV franchises in: release, chronological and curated orders, routes by character and theme, and a public API.",
     "franchiseTitle": "{{name}}: what order to watch | Watch Order",
     "franchiseDescription": "What order to watch {{name}}: {{count}} titles by release date, chronological and routes, with your progress.",
     "titleTitle": "{{name}} ({{year}}) | Watch Order",
@@ -1063,27 +1063,42 @@
       ]
     },
     "developers": {
-      "title": "Watch Order developer API",
-      "description": "Free public Watch Order API: franchises, watch orders, titles, upcoming releases, where to watch and cast. No key, with OpenAPI.",
-      "intro": "Watch Order has a public, read-only REST API to answer “what order should I watch this saga in?”. It needs no account or key, responds with JSON and is described in OpenAPI 3.1 at /openapi.json.",
+      "title": "Watch Order developer API and CLI documentation",
+      "description": "Free public Watch Order REST API (v1) and CLI: franchises, watch orders, titles, upcoming releases, where to watch and cast. No key, OpenAPI 3.1, rate limit headers.",
+      "intro": "Watch Order has a public, read-only REST API to answer “what order should I watch this saga in?”, and a command-line client. It needs no account or key, responds with JSON and is described in OpenAPI 3.1 at /openapi.json. Base URL: https://watchlist.wxlter.dev/api/v1",
       "sections": [
         {
           "h": "Authentication",
           "p": [
-            "None. Every endpoint below is public and read-only. Responses are cached at the CDN: keep it under one request per second and cache responses on your side when you can."
+            "None. Every endpoint below is public and read-only: no account, no API key, no OAuth. Send plain GET requests; CORS is enabled, so you can also call it from a browser."
+          ]
+        },
+        {
+          "id": "versioning",
+          "h": "Versioning and deprecation",
+          "p": [
+            "The version is in the URL path: /api/v1/… is the current and only version. Paths without it (/api/franchises) are aliases of the current version. Every response carries an API-Version header.",
+            "Breaking changes ship only as a new major version (/api/v2/…). When a version is deprecated, its responses add Deprecation, Sunset and Link: <…>; rel=\"successor-version\" headers, and it keeps working for at least 6 months after the announcement. Additive changes (new fields, new endpoints) are not breaking: ignore fields you do not know."
           ]
         },
         {
           "h": "Endpoints",
           "p": [
-            "GET /api/franchises — every franchise, with id, name, description, number of titles and available orders.",
-            "GET /api/franchises/{id}?order={orderId} — a franchise with its continuities, orders, routes and the titles of the requested order (the release order by default).",
-            "GET /api/titles/{id} — a title: kind, release date, runtime, seasons, overview, poster, TMDB and IMDb ids and its franchises.",
-            "GET /api/upcoming?franchise={ids} — releases, new seasons and new episodes in the next 365 days.",
-            "GET /api/providers?tmdbId=&type=movie|tv&region= — where to watch a title in a country (JustWatch data via TMDB).",
-            "GET /api/credits?tmdbId=&type=movie|tv — main cast.",
-            "GET /api/health — service status.",
+            "GET /api/v1/franchises — every franchise, with id, name, description, number of titles and available orders.",
+            "GET /api/v1/franchises/{id}?order={orderId} — a franchise with its continuities, orders, routes and the titles of the requested order (the release order by default).",
+            "GET /api/v1/titles/{id} — a title: kind, release date, runtime, seasons, overview, poster, TMDB and IMDb ids and its franchises.",
+            "GET /api/v1/upcoming?franchise={ids} — releases, new seasons and new episodes in the next 365 days.",
+            "GET /api/v1/providers?tmdbId=&type=movie|tv&region= — where to watch a title in a country (JustWatch data via TMDB).",
+            "GET /api/v1/credits?tmdbId=&type=movie|tv — main cast.",
+            "GET /api/v1/health — service status.",
             "All of them take lang=en|es where there is text (English by default)."
+          ]
+        },
+        {
+          "id": "rate-limits",
+          "h": "Rate limits",
+          "p": [
+            "60 requests per minute per client. Every response carries RateLimit-Policy (\"default\";q=60;w=60) and RateLimit (\"default\";r=remaining;t=seconds until reset). Over the limit you get 429 with code rate_limited and a Retry-After header: wait that many seconds. Responses are also cached at the CDN, so cache them on your side when you can."
           ]
         },
         {
@@ -1091,7 +1106,15 @@
           "p": [
             "The MCU in chronological order:"
           ],
-          "code": "curl 'https://watchlist.wxlter.dev/api/franchises/marvel?order=chronological'"
+          "code": "curl 'https://watchlist.wxlter.dev/api/v1/franchises/marvel?order=chronological'"
+        },
+        {
+          "id": "cli",
+          "h": "Command-line client",
+          "p": [
+            "watch-order-cli is an official CLI for scripts and agents (Node 18+, no dependencies). Install it with npm install -g watch-order-cli, or run it with npx. Add --json for the raw API response; exit code 0 is success, 1 an API or network error, 2 wrong usage. Its source is in the cli/ folder of github.com/wxlter97/watchlist."
+          ],
+          "code": "npx watch-order-cli franchises\nnpx watch-order-cli order marvel --order chronological\nnpx watch-order-cli providers 299534 movie --region US --json"
         },
         {
           "id": "errors",
@@ -1099,7 +1122,7 @@
           "p": [
             "Errors respond with JSON and the right HTTP status: error (the message), code (invalid_request, not_found, rate_limited, upstream_error, internal_error…), status, hint (how to fix the request) and docs. An endpoint that does not exist responds 404 in JSON."
           ],
-          "code": "{\"error\": \"No existe la franquicia \\\"marvl\\\"\", \"code\": \"not_found\", \"status\": 404, \"hint\": \"List valid ids with GET /api/franchises.\", \"docs\": \"/developers#errors\"}"
+          "code": "{\"error\": \"No existe la franquicia \\\"marvl\\\"\", \"code\": \"not_found\", \"status\": 404, \"hint\": \"List valid ids with GET /api/v1/franchises.\", \"docs\": \"/developers#errors\"}"
         },
         {
           "h": "For AI agents",

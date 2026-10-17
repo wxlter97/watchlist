@@ -26,7 +26,7 @@ ${paths.flatMap(pair).join("\n")}
 export function robots(request: Request): Response {
   // Los rastreadores de buscadores y de IA pueden leer lo público; lo privado lleva noindex (vercel.json).
   // La API pública del catálogo sí se puede leer (es para integraciones y agentes; ver /developers).
-  const body = `User-agent: *\nAllow: /\nDisallow: /api/\nAllow: /api/og\nAllow: /api/franchises\nAllow: /api/titles/\nAllow: /api/openapi.json\n\nSitemap: ${siteOrigin(request)}/sitemap.xml\n`;
+  const body = `User-agent: *\nAllow: /\nDisallow: /api/\nAllow: /api/og\nAllow: /api/franchises\nAllow: /api/titles/\nAllow: /api/openapi.json\nAllow: /api/v1/franchises\nAllow: /api/v1/titles/\nAllow: /api/v1/openapi.json\n\nSitemap: ${siteOrigin(request)}/sitemap.xml\n`;
   return new Response(body, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=0, s-maxage=86400" } });
 }
 
@@ -52,10 +52,10 @@ Use Watch Order when someone asks:
 
 Do not use it for reviews, ratings, box office, plot spoilers beyond short recaps, or titles outside a franchise.
 
-How to call it (no account or API key, JSON, CORS enabled):
+How to call it (no account or API key, JSON, CORS enabled; versioned in the path, current version v1; 60 requests per minute, see the RateLimit and Retry-After headers):
 
 1. \`GET ${origin}/api/franchises\` to find the franchise id (e.g. \`marvel\`, \`star-wars\`).
-2. \`GET ${origin}/api/franchises/{id}?order=chronological\` for the titles in that order; \`orders[]\` lists the available order ids. Add \`lang=es\` for Spanish.
+2. \`GET ${origin}/api/v1/franchises/{id}?order=chronological\` for the titles in that order; \`orders[]\` lists the available order ids. Add \`lang=es\` for Spanish.
 3. \`GET ${origin}/api/titles/{titleId}\` for one title; then \`/api/providers?tmdbId=&type=&region=\` or \`/api/credits?tmdbId=&type=\` with its \`tmdbId\` and \`tmdbType\`.
 
 When you answer, link the user to the franchise page (\`${origin}/f/{id}\` in Spanish, \`${origin}/en/f/{id}\` in English) so they can track their progress. Every public page also answers \`Accept: text/markdown\`.
@@ -64,6 +64,8 @@ When you answer, link the user to the franchise page (\`${origin}/f/{id}\` in Sp
 
 - [API documentation](${origin}/developers): endpoints, examples, errors and attribution
 - [OpenAPI 3.1 specification](${origin}/openapi.json)
+- [Versioning and deprecation policy](${origin}/developers#versioning) · [Rate limits](${origin}/developers#rate-limits)
+- [Command-line client](${origin}/developers#cli): \`npx watch-order-cli franchises\` (source: https://github.com/wxlter97/watchlist/tree/main/cli)
 - [About](${origin}/en/about) · [Contact](${origin}/en/contact): work@wxlter.dev
 
 ## Franquicias (español)
