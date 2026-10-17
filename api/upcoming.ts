@@ -3,7 +3,7 @@
 // temporadas o episodios nuevos de las series que siguen en emisión.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { withPolicy } from "./_lib/policy.js";
+import { headOf, withPolicy } from "./_lib/policy.js";
 import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb.js";
 
 interface CatalogTitle {
@@ -108,3 +108,4 @@ async function handle(request: Request): Promise<Response> {
 
 /** Con límite de peticiones y cabeceras de versión (api/_lib/policy.ts). */
 export const GET = (request: Request): Promise<Response> => withPolicy(request, () => handle(request));
+export const HEAD = headOf(GET);

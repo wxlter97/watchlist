@@ -1,6 +1,6 @@
 // GET /api/credits?tmdbId=&type=movie|tv → reparto principal de un título.
 // Películas: /credits. Series: /aggregate_credits (suma todos los papeles de cada actor).
-import { withPolicy } from "./_lib/policy.js";
+import { headOf, withPolicy } from "./_lib/policy.js";
 import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb.js";
 
 interface TmdbCast {
@@ -43,3 +43,4 @@ async function handle(request: Request): Promise<Response> {
 
 /** Con límite de peticiones y cabeceras de versión (api/_lib/policy.ts). */
 export const GET = (request: Request): Promise<Response> => withPolicy(request, () => handle(request));
+export const HEAD = headOf(GET);
