@@ -23,7 +23,7 @@ describe("páginas de contenido", () => {
 
   it("API: los ejemplos van en bloques de código y los errores tienen ancla", () => {
     const doc = renderPage(<DevelopersPage />);
-    expect(doc.querySelector("pre code")?.textContent).toContain("curl 'https://watchlist.wxlter.dev/api/franchises/marvel");
+    expect(doc.querySelector("pre code")?.textContent).toContain("curl 'https://watchlist.wxlter.dev/api/v1/franchises/marvel");
     expect(doc.querySelector("section#errors h2")?.textContent).toBe("Errores");
   });
 

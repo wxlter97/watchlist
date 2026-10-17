@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 import pkg from "./package.json" with { type: "json" };
 import { negotiate } from "./api/_lib/negotiate.ts";
-import { homeSections, organization } from "./api/_lib/seo.ts";
+import { homeSections, organization, TEXT } from "./api/_lib/seo.ts";
 
 function readBody(req: import("node:http").IncomingMessage): Promise<Buffer> {
   return new Promise((resolve, reject) => {
@@ -45,6 +45,8 @@ function apiDevServer(): Plugin {
           url.searchParams.set("type", "home");
         }
         // API del catálogo y OpenAPI (rewrites de vercel.json a api/page.ts).
+        // /api/v1/… es la misma API (rewrites de vercel.json).
+        if (/^\/api\/v1\//.test(url.pathname)) url.pathname = url.pathname.replace("/api/v1/", "/api/");
         const catalogApi = /^\/api\/(franchises|titles)(?:\/([a-z0-9-]+))?$/.exec(url.pathname);
         if (url.pathname === "/openapi.json" || url.pathname === "/api/openapi.json") {
           url.pathname = "/api/page";
@@ -259,8 +261,8 @@ function seoHead(): Plugin {
       const configured = process.env.SITE_URL ?? process.env.VITE_SITE_URL;
       const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
       const site = (configured ?? (vercel ? `https://${vercel}` : "")).replace(/\/+$/, "");
-      const title = "Watch Order — Tus sagas, en el orden que prefieras";
-      const description = "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis.";
+      const title = TEXT.es.siteTitle;
+      const description = TEXT.es.siteDescription;
       const tags = [
         { tag: "meta", attrs: { property: "og:type", content: "website" } },
         { tag: "meta", attrs: { property: "og:site_name", content: "Watch Order" } },
@@ -427,7 +429,7 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: "jsdom",
       // api/_lib: fuera de api/_lib, Vercel convertiría cada archivo en una función.
-      include: ["src/**/*.test.{ts,tsx}", "api/_lib/**/*.test.ts"],
+      include: ["src/**/*.test.{ts,tsx}", "api/_lib/**/*.test.ts", "cli/**/*.test.mjs"],
       setupFiles: ["./src/test/setup.ts"],
       coverage: {
         // La lógica pura de lib/: el núcleo que pide el SPEC (§11, fase 9) no puede bajar del 95%.

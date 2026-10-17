@@ -3,6 +3,7 @@
 // temporadas o episodios nuevos de las series que siguen en emisión.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { withPolicy } from "./_lib/policy.js";
 import { errorResponse, HttpError, json, tmdb } from "./_lib/tmdb.js";
 
 interface CatalogTitle {
@@ -41,7 +42,7 @@ async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promis
   return out;
 }
 
-export async function GET(request: Request): Promise<Response> {
+async function handle(request: Request): Promise<Response> {
   try {
     const ids = (new URL(request.url).searchParams.get("franchise") ?? "").split(",").filter(Boolean);
     // Quien no sigue ninguna franquicia pide todas las del catálogo (hoy 44): el tope debe quedar por encima.
@@ -104,3 +105,6 @@ export async function GET(request: Request): Promise<Response> {
     return errorResponse(err);
   }
 }
+
+/** Con límite de peticiones y cabeceras de versión (api/_lib/policy.ts). */
+export const GET = (request: Request): Promise<Response> => withPolicy(request, () => handle(request));

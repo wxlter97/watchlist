@@ -27,6 +27,7 @@ import {
   type ContentKind,
   type PageSeo,
 } from "./_lib/seo.js";
+import { withPolicy } from "./_lib/policy.js";
 import { adsTxt, llms, robots, sitemap } from "./_lib/seoFiles.js";
 
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -55,9 +56,9 @@ export async function GET(request: Request): Promise<Response> {
   if (type === "llms") return llms(request);
 
   const origin = siteOrigin(request);
-  if (type === "openapi") return openApiResponse(origin);
-  if (type === "api") return catalogApi(request, origin);
-  if (type === "api-404") return apiNotFound(`/api${requestedPath(url)}`);
+  if (type === "openapi") return withPolicy(request, () => openApiResponse(origin));
+  if (type === "api") return withPolicy(request, () => catalogApi(request, origin));
+  if (type === "api-404") return withPolicy(request, () => apiNotFound(`/api${requestedPath(url)}`));
 
   const id = url.searchParams.get("id") ?? "";
   const path = requestedPath(url);

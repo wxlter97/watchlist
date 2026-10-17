@@ -1,11 +1,13 @@
 // API pública de solo lectura del catálogo (sin cuenta ni clave), para integraciones y agentes:
-//   GET /api/franchises, /api/franchises/{id}, /api/titles/{id} y la especificación /openapi.json.
+//   GET /api/v1/franchises, /api/v1/franchises/{id}, /api/v1/titles/{id} (y los mismos sin /v1) y la
+// especificación /openapi.json.
 // Sale de api/page.ts (vercel.json la reescribe allá): el plan Hobby limita el número de funciones.
 import { join } from "node:path";
 import { computeOrder } from "../../src/lib/orders.js";
 import type { Franchise, Lang, Title } from "../../src/lib/types.js";
 import { localize, readData, titleName } from "./catalog.js";
 import { franchiseIds, franchisesOfTitle, prefixOf } from "./seo.js";
+import { API_BASE, DEPRECATION_NOTICE_MONTHS, RATE_LIMIT, RATE_WINDOW_S } from "./policy.js";
 import { apiError, json } from "./tmdb.js";
 
 export const API_VERSION = "1.0.0";
@@ -29,7 +31,7 @@ function franchiseSummary(f: Franchise, lang: Lang, origin: string) {
     orders: f.orders.map((o) => ({ id: o.id, type: o.type, name: localize(o.name, lang) })),
     routeCount: f.routes.length,
     url: pageUrl(origin, lang, `/f/${f.id}`),
-    apiUrl: `${origin}/api/franchises/${f.id}`,
+    apiUrl: `${origin}${API_BASE}/franchises/${f.id}`,
   };
 }
 
@@ -39,7 +41,7 @@ function listFranchises(lang: Lang, origin: string): Response {
 }
 
 function getFranchise(id: string, url: URL, origin: string): Response {
-  if (!ID.test(id) || !franchiseIds().includes(id)) return apiError(404, `No existe la franquicia "${id}"`, "List valid ids with GET /api/franchises.");
+  if (!ID.test(id) || !franchiseIds().includes(id)) return apiError(404, `No existe la franquicia "${id}"`, "List valid ids with GET /api/v1/franchises.");
   const lang = langOf(url);
   const f = readFull(id);
   const orderId = url.searchParams.get("order") ?? f.orders.find((o) => o.type === "release")?.id ?? f.orders[0]!.id;
@@ -86,7 +88,7 @@ function getFranchise(id: string, url: URL, origin: string): Response {
 
 function getTitle(id: string, url: URL, origin: string): Response {
   const t = ID.test(id) ? titlesMap().get(id) : undefined;
-  if (!t) return apiError(404, `No existe el título "${id}"`, "Find title ids in GET /api/franchises/{id} (order.items[].titleId).");
+  if (!t) return apiError(404, `No existe el título "${id}"`, "Find title ids in GET /api/v1/franchises/{id} (order.items[].titleId).");
   const lang = langOf(url);
   return json(
     {
@@ -138,12 +140,31 @@ const langParam = {
   schema: { type: "string", enum: ["en", "es"], default: "en" },
 };
 const tmdbParams = [
-  { name: "tmdbId", in: "query", required: true, description: "TMDB id of the title (`tmdbId` in GET /api/titles/{id}).", schema: { type: "integer", minimum: 1, example: 299534 } },
-  { name: "type", in: "query", required: true, description: "TMDB media type (`tmdbType` in GET /api/titles/{id}).", schema: { type: "string", enum: ["movie", "tv"] } },
+  { name: "tmdbId", in: "query", required: true, description: "TMDB id of the title (`tmdbId` in GET /api/v1/titles/{id}).", schema: { type: "integer", minimum: 1, example: 299534 } },
+  { name: "type", in: "query", required: true, description: "TMDB media type (`tmdbType` in GET /api/v1/titles/{id}).", schema: { type: "string", enum: ["movie", "tv"] } },
 ];
 
 /** OpenAPI 3.1 de la API pública (las funciones privadas o con sesión no aparecen). */
 export function openApiSpec(origin: string): Record<string, unknown> {
+  const spec = buildSpec(origin);
+  // Toda operación puede responder 429 y anuncia versión y límite en sus respuestas.
+  const headers = Object.fromEntries(Object.entries(commonHeaders).map(([name]) => [name, { $ref: `#/components/headers/${name}` }]));
+  for (const methods of Object.values(spec.paths as Record<string, Record<string, { responses: Record<string, Record<string, unknown>> }>>)) {
+    for (const op of Object.values(methods)) {
+      for (const response of Object.values(op.responses)) response.headers = headers;
+      op.responses["429"] = { $ref: "#/components/responses/RateLimited" };
+    }
+  }
+  return spec;
+}
+
+const commonHeaders = {
+  "API-Version": { description: "Major version that served the response (v1).", schema: { type: "string", example: "v1" } },
+  RateLimit: { description: `Remaining quota and seconds until the window resets, e.g. \`"default";r=59;t=42\` (IETF RateLimit header fields).`, schema: { type: "string", example: '"default";r=59;t=42' } },
+  "RateLimit-Policy": { description: `The quota policy: \`"default";q=${RATE_LIMIT};w=${RATE_WINDOW_S}\` is ${RATE_LIMIT} requests per ${RATE_WINDOW_S} seconds.`, schema: { type: "string", example: `"default";q=${RATE_LIMIT};w=${RATE_WINDOW_S}` } },
+};
+
+function buildSpec(origin: string): Record<string, any> {
   const ok = (description: string, schema: unknown) => ({ description, content: { "application/json": { schema } } });
   return {
     openapi: "3.1.0",
@@ -152,9 +173,16 @@ export function openApiSpec(origin: string): Record<string, unknown> {
       version: API_VERSION,
       summary: "Watch orders for movie and TV franchises: release, chronological, curated orders and routes.",
       description:
-        "Public, read-only API of Watch Order (https://watchlist.wxlter.dev). No authentication or API key. Use it to answer \"in what order should I watch X?\": list franchises, get a franchise's titles in a given watch order, look up a title, see upcoming releases, where to stream a title, and its cast. Errors are JSON with `error`, `code`, `status`, `hint` and `docs`. Responses are cached at the CDN; please keep it under ~1 request per second. Title data comes from TMDB (this product uses the TMDB API but is not endorsed or certified by TMDB).",
+        "Public, read-only API of Watch Order (https://watchlist.wxlter.dev). No authentication or API key. Use it to answer \"in what order should I watch X?\": list franchises, get a franchise's titles in a given watch order, look up a title, see upcoming releases, where to stream a title, and its cast. Errors are JSON with `error`, `code`, `status`, `hint` and `docs`. Versioning: the version is in the URL path (/api/v1/…); paths without it are aliases of the current version. Breaking changes ship as a new major version (/api/v2/…) and the old one keeps working for at least ${DEPRECATION_NOTICE_MONTHS} months, announced with Deprecation, Sunset and Link rel=\"successor-version\" headers. Rate limit: ${RATE_LIMIT} requests per ${RATE_WINDOW_S} seconds per client, advertised in RateLimit and RateLimit-Policy headers; over the limit you get 429 with Retry-After. Responses are cached at the CDN, so cache them on your side too. Title data comes from TMDB (this product uses the TMDB API but is not endorsed or certified by TMDB).",
       contact: { name: "wxlter", email: "work@wxlter.dev", url: `${origin}/contact` },
       termsOfService: `${origin}/terms`,
+    },
+    "x-api-lifecycle": {
+      currentVersion: "v1",
+      versioning: "url-path",
+      deprecationNoticeMonths: DEPRECATION_NOTICE_MONTHS,
+      deprecationSignals: ["Deprecation", "Sunset", "Link: rel=successor-version"],
+      status: "stable",
     },
     externalDocs: { description: "Developer guide", url: `${origin}/developers` },
     servers: [{ url: origin }],
@@ -164,7 +192,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
       { name: "meta", description: "Service status." },
     ],
     paths: {
-      "/api/franchises": {
+      "/api/v1/franchises": {
         get: {
           operationId: "listFranchises",
           tags: ["catalog"],
@@ -174,7 +202,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
           responses: { "200": ok("All franchises", { $ref: "#/components/schemas/FranchiseList" }) },
         },
       },
-      "/api/franchises/{id}": {
+      "/api/v1/franchises/{id}": {
         get: {
           operationId: "getFranchise",
           tags: ["catalog"],
@@ -189,7 +217,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
           responses: { "200": ok("The franchise and the titles of the requested order", { $ref: "#/components/schemas/Franchise" }), ...errorResponses(400, 404) },
         },
       },
-      "/api/titles/{id}": {
+      "/api/v1/titles/{id}": {
         get: {
           operationId: "getTitle",
           tags: ["catalog"],
@@ -202,7 +230,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
           responses: { "200": ok("The title", { $ref: "#/components/schemas/Title" }), ...errorResponses(404) },
         },
       },
-      "/api/upcoming": {
+      "/api/v1/upcoming": {
         get: {
           operationId: "getUpcoming",
           tags: ["live"],
@@ -214,7 +242,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
           responses: { "200": ok("Upcoming items sorted by date", { $ref: "#/components/schemas/Upcoming" }), ...errorResponses(400, 404, 502) },
         },
       },
-      "/api/providers": {
+      "/api/v1/providers": {
         get: {
           operationId: "getProviders",
           tags: ["live"],
@@ -227,7 +255,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
           responses: { "200": ok("Offers by type", { $ref: "#/components/schemas/Providers" }), ...errorResponses(400, 404, 502) },
         },
       },
-      "/api/credits": {
+      "/api/v1/credits": {
         get: {
           operationId: "getCredits",
           tags: ["live"],
@@ -237,7 +265,7 @@ export function openApiSpec(origin: string): Record<string, unknown> {
           responses: { "200": ok("Cast", { $ref: "#/components/schemas/Credits" }), ...errorResponses(400, 404, 502) },
         },
       },
-      "/api/health": {
+      "/api/v1/health": {
         get: {
           operationId: "getHealth",
           tags: ["meta"],
@@ -250,6 +278,14 @@ export function openApiSpec(origin: string): Record<string, unknown> {
       },
     },
     components: {
+      headers: commonHeaders,
+      responses: {
+        RateLimited: {
+          description: `Too many requests (over ${RATE_LIMIT} per ${RATE_WINDOW_S} seconds). Wait the seconds in Retry-After.`,
+          headers: { "Retry-After": { description: "Seconds to wait before retrying.", schema: { type: "integer", minimum: 1 } }, ...Object.fromEntries(Object.keys(commonHeaders).map((n) => [n, { $ref: `#/components/headers/${n}` }])) },
+          content: { "application/json": { schema: error } },
+        },
+      },
       schemas: {
         Error: {
           type: "object",

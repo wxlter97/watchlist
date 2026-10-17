@@ -3,6 +3,7 @@
 Formato libre, lo más reciente primero. Las versiones siguen a `package.json`.
 
 ## Sin publicar
+- **Agentes:** API versionada en la ruta (`/api/v1/…`; las rutas sin versión son alias) con política de deprecación documentada (`Deprecation`, `Sunset`, `Link: rel=successor-version`, 6 meses de aviso); cabeceras `RateLimit`, `RateLimit-Policy`, `API-Version` y `429` con `Retry-After` (60 peticiones/min, contador en memoria por instancia); CLI `watch-order-cli` en `cli/` (pendiente de publicar en npm); `/developers` con versiones, límites, CLI y ejemplos; `address` en el JSON-LD de Organization; título y descripción de la portada con el nombre del producto.
 - **Fix (invitado con varias pestañas):** una pestaña desactualizada pisaba lo que marcaba la otra y se perdía progreso; ahora las pestañas se sincronizan entre sí (progreso, ajustes, planes y logros).
 - **Pruebas:** estados de UX (dos pestañas, red lenta o caída, botón Atrás, catálogo entero visto, volver tras meses) y arreglo de la prueba con emuladores en CI.
 - **Marketing:** capturas de la app (también en el manifiesto de la PWA para una instalación más rica), script `pnpm screenshots` y `docs/LAUNCH-KIT.md`.

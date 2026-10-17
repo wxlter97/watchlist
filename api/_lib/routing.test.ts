@@ -117,3 +117,23 @@ describe("middleware.ts (solo la portada)", () => {
     expect(run("application/json").headers.get("x-middleware-rewrite")).toBe("https://watchlist.wxlter.dev/api/page?type=home");
   });
 });
+
+describe("API versionada (/api/v1)", () => {
+  it.each([
+    ["/api/v1/franchises", "/api/page?type=api&resource=franchises"],
+    ["/api/v1/franchises/marvel", "/api/page?type=api&resource=franchises&id=marvel"],
+    ["/api/v1/titles/saw-2004", "/api/page?type=api&resource=titles&id=saw-2004"],
+    ["/api/v1/openapi.json", "/api/page?type=openapi"],
+    ["/api/v1/health", "/api/log"],
+    ["/api/v1/upcoming", "/api/upcoming"],
+    ["/api/v1/providers", "/api/providers"],
+    ["/api/v1/credits", "/api/credits"],
+  ])("%s → %s", (path, dest) => {
+    expect(rewrite(path)).toBe(dest);
+  });
+
+  it("una versión o endpoint que no existe es 404 en JSON", () => {
+    expect(rewrite("/api/v2/franchises")).toMatch(/type=api-404/);
+    expect(rewrite("/api/v1/nope")).toMatch(/type=api-404/);
+  });
+});

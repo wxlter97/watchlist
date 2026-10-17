@@ -1,6 +1,7 @@
 // @vitest-environment node
 import { readdirSync, readFileSync } from "node:fs";
 import { GET } from "../page";
+import { resetRateLimits } from "./policy";
 
 // api/page.ts pide el index.html del build a su propio origen: aquí, el de la raíz del repo.
 const shell = readFileSync("index.html", "utf8");
@@ -121,12 +122,35 @@ describe("páginas de confianza (sin JavaScript)", () => {
     expect(org).toMatchObject({ name: "Watch Order", url: `${ORIGIN}/`, contactPoint: [{ "@type": "ContactPoint", email: "work@wxlter.dev", contactType: "customer support" }] });
   });
 
+  it("Organization lleva address (PostalAddress)", async () => {
+    const html = await (await get("type=home&lang=en")).text();
+    const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => JSON.parse(m[1]!));
+    expect(ld.find((d) => d["@type"] === "Organization")).toMatchObject({ address: { "@type": "PostalAddress", addressCountry: "SV" } });
+  });
+
+  it("la portada nombra el producto en título y descripción: guía de orden para ver sagas", async () => {
+    const en = await (await get("type=home&lang=en")).text();
+    expect(en).toContain("<title>Watch Order guide — what order to watch movie and TV franchises</title>");
+    const es = await (await get("type=home")).text();
+    expect(es).toMatch(/<title>Watch Order — guía del orden para ver sagas/);
+  });
+
+  it("/developers documenta autenticación, versiones, endpoints, límites, ejemplos y CLI, con ancla en cada una", async () => {
+    const md = await (await get("type=developers&lang=en", "text/markdown")).text();
+    for (const h of ["Authentication", "Versioning and deprecation", "Endpoints", "Rate limits", "Examples", "Command-line client", "Errors"]) expect(md).toContain(`## ${h}`);
+    expect(md).toContain("Retry-After");
+    expect(md).toContain("Sunset");
+    expect(md).toContain("npx watch-order-cli");
+    const html = await (await get("type=developers&lang=en")).text();
+    for (const id of ["versioning", "rate-limits", "cli", "errors"]) expect(html).toContain(`id="${id}"`);
+  });
+
   it("los encabezados de la guía para desarrolladores no saltan niveles", async () => {
     const md = await (await get("type=developers&lang=en", "text/markdown")).text();
     const levels = [...md.matchAll(/^(#+) /gm)].map((m) => m[1]!.length);
     expect(levels[0]).toBe(1);
     for (let i = 1; i < levels.length; i++) expect(levels[i]! - levels[i - 1]!).toBeLessThanOrEqual(1);
-    expect(md).toContain("```\ncurl 'https://watchlist.wxlter.dev/api/franchises/marvel?order=chronological'\n```");
+    expect(md).toContain("```\ncurl 'https://watchlist.wxlter.dev/api/v1/franchises/marvel?order=chronological'\n```");
   });
 });
 
@@ -149,6 +173,7 @@ describe("archivos para agentes", () => {
   it("robots.txt deja leer la API pública del catálogo", async () => {
     const txt = await (await get("type=robots")).text();
     expect(txt).toContain("Allow: /api/franchises");
+    expect(txt).toContain("Allow: /api/v1/franchises");
     expect(txt).toContain("Disallow: /api/");
   });
 });
@@ -164,7 +189,7 @@ describe("API del catálogo", () => {
     expect(res.status).toBe(200);
     expect(res.headers.get("access-control-allow-origin")).toBe("*");
     expect(body.count).toBe(readdirSync("src/data/franchises").length);
-    expect(body.franchises.find((f: { id: string }) => f.id === "marvel")).toMatchObject({ name: "Marvel", apiUrl: `${ORIGIN}/api/franchises/marvel`, url: `${ORIGIN}/en/f/marvel` });
+    expect(body.franchises.find((f: { id: string }) => f.id === "marvel")).toMatchObject({ name: "Marvel", apiUrl: `${ORIGIN}/api/v1/franchises/marvel`, url: `${ORIGIN}/en/f/marvel` });
   });
 
   it("GET /api/franchises/{id}?order=: los títulos de ese orden, en orden", async () => {
@@ -180,7 +205,7 @@ describe("API del catálogo", () => {
     const missing = await api("type=api&resource=franchises&id=marvl");
     expect(missing.res.status).toBe(404);
     expect(missing.res.headers.get("content-type")).toBe("application/json; charset=utf-8");
-    expect(missing.body).toEqual({ error: 'No existe la franquicia "marvl"', code: "not_found", status: 404, hint: "List valid ids with GET /api/franchises.", docs: "/developers#errors" });
+    expect(missing.body).toEqual({ error: 'No existe la franquicia "marvl"', code: "not_found", status: 404, hint: "List valid ids with GET /api/v1/franchises.", docs: "/developers#errors" });
 
     const order = await api("type=api&resource=franchises&id=saw&order=nope");
     expect(order.res.status).toBe(400);
@@ -199,6 +224,54 @@ describe("API del catálogo", () => {
     const { res, body } = await api("type=api-404&path=nope");
     expect(res.status).toBe(404);
     expect(body).toMatchObject({ code: "not_found", error: "No existe el endpoint /api/nope" });
+  });
+});
+
+describe("política de la API: versión y límite", () => {
+  beforeEach(() => resetRateLimits());
+
+  it("cada respuesta de la API lleva API-Version, RateLimit-Policy y RateLimit, y CORS las expone", async () => {
+    const res = await get("type=api&resource=franchises");
+    expect(res.headers.get("api-version")).toBe("v1");
+    expect(res.headers.get("ratelimit-policy")).toBe('"default";q=60;w=60');
+    expect(res.headers.get("ratelimit")).toMatch(/^"default";r=59;t=\d+$/);
+    expect(res.headers.get("access-control-expose-headers")).toContain("RateLimit");
+  });
+
+  it("también los errores en JSON (404) y el OpenAPI", async () => {
+    for (const query of ["type=api&resource=titles&id=nope", "type=api-404&path=nope", "type=openapi"]) {
+      const res = await get(query);
+      expect(res.headers.get("ratelimit-policy"), query).toBe('"default";q=60;w=60');
+      expect(res.headers.get("api-version"), query).toBe("v1");
+    }
+  });
+
+  it("al pasarse: 429 en JSON con Retry-After y RateLimit en 0", async () => {
+    const ask = () => GET(new Request(`${ORIGIN}/api/page?type=api&resource=franchises`, { headers: { "x-forwarded-for": "203.0.113.9" } }));
+    for (let i = 0; i < 60; i++) expect((await ask()).status).toBe(200);
+    const res = await ask();
+    expect(res.status).toBe(429);
+    expect(Number(res.headers.get("retry-after"))).toBeGreaterThanOrEqual(1);
+    expect(res.headers.get("ratelimit")).toMatch(/^"default";r=0;t=\d+$/);
+    expect(res.headers.get("cache-control")).toBe("no-store");
+    expect(await res.json()).toMatchObject({ code: "rate_limited", status: 429 });
+    // Otro cliente no se ve afectado.
+    const other = await GET(new Request(`${ORIGIN}/api/page?type=api&resource=franchises`, { headers: { "x-forwarded-for": "198.51.100.7" } }));
+    expect(other.status).toBe(200);
+  });
+
+  it("el OpenAPI declara versión en la ruta, política de deprecación, cabeceras y 429", async () => {
+    const s = (await (await get("type=openapi")).json()) as Record<string, any>;
+    expect(s["x-api-lifecycle"]).toMatchObject({ currentVersion: "v1", versioning: "url-path", deprecationNoticeMonths: 6 });
+    expect(s.info.description).toContain("Sunset");
+    expect(s.info.description).toContain("RateLimit");
+    expect(Object.keys(s.components.headers).sort()).toEqual(["API-Version", "RateLimit", "RateLimit-Policy"]);
+    for (const [path, methods] of Object.entries(s.paths as Record<string, Record<string, any>>)) {
+      expect(path).toMatch(/^\/api\/v1\//);
+      expect(methods.get.responses["429"]).toEqual({ $ref: "#/components/responses/RateLimited" });
+      expect(methods.get.responses["200"].headers).toHaveProperty("RateLimit");
+    }
+    expect(s.components.responses.RateLimited.headers).toHaveProperty("Retry-After");
   });
 });
 
@@ -221,7 +294,7 @@ describe("OpenAPI", () => {
       expect(op.operationId).toMatch(/^[a-zA-Z][a-zA-Z0-9]*$/);
       expect(op.description.length).toBeGreaterThan(20);
       for (const p of op.parameters ?? []) expect(p.schema?.type).toBeTruthy();
-      for (const r of Object.values(op.responses as Record<string, any>)) expect(r.content["application/json"].schema).toBeTruthy();
+      for (const r of Object.values(op.responses as Record<string, any>)) if (!r.$ref) expect(r.content["application/json"].schema).toBeTruthy();
     }
   });
 
@@ -233,7 +306,7 @@ describe("OpenAPI", () => {
 
   it("documenta los endpoints que existen", async () => {
     const s = await spec();
-    expect(Object.keys(s.paths).sort()).toEqual(["/api/credits", "/api/franchises", "/api/franchises/{id}", "/api/health", "/api/providers", "/api/titles/{id}", "/api/upcoming"]);
+    expect(Object.keys(s.paths).sort()).toEqual(["/api/v1/credits", "/api/v1/franchises", "/api/v1/franchises/{id}", "/api/v1/health", "/api/v1/providers", "/api/v1/titles/{id}", "/api/v1/upcoming"]);
     for (const file of ["credits", "providers", "upcoming", "log"]) expect(readdirSync("api")).toContain(`${file}.ts`);
   });
 });

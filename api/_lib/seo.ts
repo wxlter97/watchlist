@@ -62,8 +62,8 @@ export const kindName = (kind: string, lang: Lang) => KIND[lang][kind] ?? kind;
 
 export const TEXT = {
   es: {
-    siteTitle: "Watch Order — Tus sagas, en el orden que prefieras",
-    siteDescription: "Sigue sagas y franquicias de cine y TV en el orden que prefieras: estreno, cronológico y rutas. Gratis.",
+    siteTitle: "Watch Order — guía del orden para ver sagas de cine y TV",
+    siteDescription: "Guía gratuita del orden para ver sagas y franquicias de cine y TV: estreno, cronológico y curado, rutas por personaje y tema, y una API pública.",
     franchiseTitle: (name: string) => `${name}: en qué orden verla | Watch Order`,
     franchiseDescription: (name: string, n: number) => `Orden para ver ${name}: ${n} títulos por fecha de estreno, cronológico y rutas, con tu progreso.`,
     titleTitle: (name: string, y: string) => `${name} (${y}) | Watch Order`,
@@ -76,8 +76,8 @@ export const TEXT = {
     locale: "es_MX",
   },
   en: {
-    siteTitle: "Watch Order — Your sagas, in the order you like",
-    siteDescription: "Follow movie and TV franchises in the order you like: release, chronological and routes. Free.",
+    siteTitle: "Watch Order guide — what order to watch movie and TV franchises",
+    siteDescription: "Watch Order is a free guide to what order to watch movie and TV franchises in: release, chronological and curated orders, routes by character and theme, and a public API.",
     franchiseTitle: (name: string) => `${name}: what order to watch | Watch Order`,
     franchiseDescription: (name: string, n: number) => `What order to watch ${name}: ${n} titles by release date, chronological and routes, with your progress.`,
     titleTitle: (name: string, y: string) => `${name} (${y}) | Watch Order`,
@@ -355,6 +355,8 @@ export function organization(origin: string) {
     logo: `${origin}/pwa-512.png`,
     description: TEXT.en.siteDescription,
     email: "work@wxlter.dev",
+    // Solo el país: es lo único público; no hay dirección postal que mostrar (un PostalAddress válido no exige calle).
+    address: { "@type": "PostalAddress", addressCountry: "SV" },
     founder: { "@type": "Person", name: "wxlter", url: "https://wxlter.dev" },
     contactPoint: [
       { "@type": "ContactPoint", contactType: "customer support", email: "work@wxlter.dev", availableLanguage: ["es", "en"], url: `${origin}/contact` },

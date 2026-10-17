@@ -154,6 +154,30 @@
       "destination": "/api/page?type=openapi"
     },
     {
+      "source": "/api/v1/franchises",
+      "destination": "/api/page?type=api&resource=franchises"
+    },
+    {
+      "source": "/api/v1/franchises/:id",
+      "destination": "/api/page?type=api&resource=franchises&id=:id"
+    },
+    {
+      "source": "/api/v1/titles/:id",
+      "destination": "/api/page?type=api&resource=titles&id=:id"
+    },
+    {
+      "source": "/api/v1/openapi.json",
+      "destination": "/api/page?type=openapi"
+    },
+    {
+      "source": "/api/v1/health",
+      "destination": "/api/log"
+    },
+    {
+      "source": "/api/v1/:fn(upcoming|providers|credits)",
+      "destination": "/api/:fn"
+    },
+    {
       "source": "/api/franchises",
       "destination": "/api/page?type=api&resource=franchises"
     },
