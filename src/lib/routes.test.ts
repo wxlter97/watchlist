@@ -50,6 +50,16 @@ describe("routeProgress", () => {
   });
 });
 
+describe("routeProgress con episodios", () => {
+  it("descuenta los episodios marcados de una serie", () => {
+    const show = title("show-2020", "2020-01-01", { tmdbType: "tv", kind: "series", runtimeMin: 400, seasons: [{ number: 1, episodes: 8 }] });
+    const item = { title: show, key: "show-2020", releaseDate: "2020-01-01", position: 1 };
+    const doc = { status: "watching", episodes: { 1: [1, 2, 3, 4] } } as never;
+    expect(routeProgress([item], () => false, {}).remainingMin).toBe(400);
+    expect(routeProgress([item], () => false, { "show-2020": doc }).remainingMin).toBe(200);
+  });
+});
+
 describe("buildIndex", () => {
   it("indexa rutas por título y preparaciones por objetivo", () => {
     expect(index.routesByTitle.get("other-2010")?.map((r) => r.route.id)).toEqual(["prep-c-2005"]);

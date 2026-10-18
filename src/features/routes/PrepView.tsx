@@ -24,6 +24,7 @@ import { useIsDropped, useIsWatched } from "../../lib/watched";
 export function PrepView({ franchise, target, route, index }: { franchise: Franchise; target: Title; route?: Route; index: CatalogIndex }) {
   const { t, loc, name, date } = useLang();
   const isWatched = useIsWatched();
+  const progressDocs = useProgressStore((s) => s.progress);
   const isDropped = useIsDropped();
   const [params, setParams] = useSearchParams();
   const state = useProgressStore((s) => s.franchiseState[franchise.id]);
@@ -43,7 +44,7 @@ export function PrepView({ franchise, target, route, index }: { franchise: Franc
     [franchise, target.id, index],
   );
   const items = byLevel[level];
-  const progress = routeProgress(items, isWatched);
+  const progress = routeProgress(items, isWatched, progressDocs);
   const next = nextUp(items.filter((i) => i.releaseDate <= todayIso()), isWatched, isDropped);
   useScrollToNext(true, next && rowId(next.key), progress.watched > 0 && next?.key !== items[0]?.key);
   const ratio = progress.total ? progress.watched / progress.total : 0;

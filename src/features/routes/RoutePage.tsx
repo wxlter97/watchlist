@@ -21,6 +21,7 @@ export function RoutePage() {
   const { franchiseId, routeId } = useParams();
   const { t, loc, name, date } = useLang();
   const isWatched = useIsWatched();
+  const progressDocs = useProgressStore((s) => s.progress);
   const isDropped = useIsDropped();
   const { index, ready } = useCatalog(withReferences(franchiseId));
   const franchise = franchiseId ? index.franchisesById.get(franchiseId) : undefined;
@@ -51,7 +52,7 @@ export function RoutePage() {
   const prepTarget = route.kind === "prep" && route.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
   if (prepTarget) return <PrepView franchise={franchise} target={prepTarget} route={route} index={index} />;
 
-  const progress = routeProgress(items, isWatched);
+  const progress = routeProgress(items, isWatched, progressDocs);
   const target = route.targetTitleId ? index.titlesById.get(route.targetTitleId) : undefined;
   const ratio = progress.total ? progress.watched / progress.total : 0;
 

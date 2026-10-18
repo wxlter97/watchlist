@@ -38,8 +38,9 @@ export function RoutesSection({ franchise }: { franchise: Franchise }) {
 function RouteCard({ franchise, route }: { franchise: Franchise; route: Route }) {
   const { t, loc } = useLang();
   const isWatched = useIsWatched();
+  const progressDocs = useProgressStore((s) => s.progress);
   const index = useCatalogIndex();
-  const progress = routeProgress(resolveRoute(route, franchise, index), isWatched);
+  const progress = routeProgress(resolveRoute(route, franchise, index), isWatched, progressDocs);
   const done = progress.watched === progress.total;
 
   return (

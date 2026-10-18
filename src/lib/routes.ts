@@ -1,5 +1,6 @@
 import type { CatalogIndex } from "./catalogIndex";
 import type { Entry, Franchise, Route, Title } from "./types";
+import type { ProgressDoc } from "./progressStore";
 import { parseUnitKey, unitKey, unitReleaseDate, type IsWatched } from "./units";
 
 // Rutas (SPEC §4.4): listas de títulos con un propósito — un personaje, un tema o
@@ -36,23 +37,34 @@ export interface RouteProgress {
   unknownRuntime: number;
 }
 
-export function routeProgress(items: readonly RouteItem[], isWatched: IsWatched): RouteProgress {
+export function routeProgress(
+  items: readonly RouteItem[],
+  isWatched: IsWatched,
+  progress: Readonly<Record<string, ProgressDoc>> = {},
+): RouteProgress {
   let watched = 0;
   let remainingMin = 0;
   let unknownRuntime = 0;
   for (const { title, season } of items) {
     if (isWatched(title.id, season)) watched++;
-    else if (title.runtimeMin) remainingMin += season === undefined ? title.runtimeMin : seasonMinutes(title, season);
+    else if (title.runtimeMin) remainingMin += remainingMinutes(title, season, progress[title.id]);
     else unknownRuntime++;
   }
   return { watched, total: items.length, remainingMin, unknownRuntime };
 }
 
-/** Duración estimada de una temporada: la de la serie repartida por episodios. */
-function seasonMinutes(title: Title, season: number): number {
+/** Minutos que faltan de una unidad: descuenta los episodios ya marcados (a razón de la serie entera repartida). */
+function remainingMinutes(title: Title, season: number | undefined, doc: ProgressDoc | undefined): number {
   const total = title.seasons?.reduce((n, s) => n + s.episodes, 0) ?? 0;
-  const episodes = title.seasons?.find((s) => s.number === season)?.episodes ?? 0;
-  return total ? Math.round(((title.runtimeMin ?? 0) * episodes) / total) : 0;
+  const perEpisode = total ? (title.runtimeMin ?? 0) / total : 0;
+  const seasons = season === undefined ? (title.seasons ?? []) : (title.seasons ?? []).filter((s) => s.number === season);
+  if (!total) return season === undefined ? (title.runtimeMin ?? 0) : 0;
+  let left = 0;
+  for (const s of seasons) {
+    const done = new Set(doc?.episodes?.[s.number] ?? []);
+    for (let e = 1; e <= s.episodes; e++) if (!done.has(e)) left++;
+  }
+  return Math.round(left * perEpisode);
 }
 
 export const ROUTE_KINDS: Route["kind"][] = ["prep", "character", "theme"];

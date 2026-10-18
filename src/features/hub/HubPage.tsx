@@ -359,6 +359,7 @@ function UpcomingRow({ item }: { item: UpcomingRowData }) {
 function FollowedRouteCard({ path }: { path: string }) {
   const { t, loc, name, unitName } = useLang();
   const isWatched = useIsWatched();
+  const progressDocs = useProgressStore((s) => s.progress);
   const isDropped = useIsDropped();
   const [, , franchiseId] = path.split("/");
   const { index, ready } = useCatalog(withReferences(franchiseId));
@@ -369,7 +370,7 @@ function FollowedRouteCard({ path }: { path: string }) {
   // Con el nivel que se eligió en esa ruta (no siempre "recomendado").
   const units = routeUnits(path, franchise, index, state);
   if (!units) return null;
-  const progress = routeProgress(units.items, isWatched);
+  const progress = routeProgress(units.items, isWatched, progressDocs);
   const heading = units.route ? loc(units.route.name) : t("prep.title", { title: name(units.target!) });
   const next = nextUp(units.items.filter((i) => i.releaseDate <= todayIso()), isWatched, isDropped);
 
