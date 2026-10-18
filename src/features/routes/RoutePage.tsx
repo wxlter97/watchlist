@@ -10,6 +10,7 @@ import { useCatalog, withReferences } from "../../lib/catalog";
 import { Missing } from "../../components/Missing";
 import { useLang } from "../../lib/i18n";
 import { usePageMeta } from "../../lib/meta";
+import { useProgressStore } from "../../lib/progressStore";
 import { useIsDropped, useIsWatched } from "../../lib/watched";
 import { nextUp } from "../../lib/orders";
 import { todayIso } from "../../lib/progress";
